@@ -1,45 +1,134 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
 <TEI.2>
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title/>
-				<author/>
-			</titleStmt>
-			<publicationStmt>
-				<pubPlace/>
-				<publisher/>
-				<publisher/>
-				<date/>
-			</publicationStmt>
-			<sourceDesc>
-				<p/>
-			</sourceDesc>
-		</fileDesc>
-		<profileDesc/>
-	</teiHeader>
-	<text>
-		<front>
-			<titlePage>
-				<docTitle>
-					<titlePart/>
-				</docTitle>
-				<byline/>
-				<byline/>
-				<docImprint>
-					<name/>
-					<name/>
-					<name/>
-					<date/>
-				</docImprint>
-			</titlePage>
-		</front>
-		<body>
-			<pb n="1"/>
-			<div>
-				<head>THE BETH BOOK<lb/>CHAPTER I</head>
-				<p>THE day preceding Beth's birth was a grey day, a serene grey day, awesome with a certain solemnity, and singularly significant to those who seek a sign. There is a quiet mood, an inner calm, to which a grey day adds peculiar solace. It is like the relief which follows after tears, when hope begins to revive, and the warm blood throbs rebelliously to be free of the shackles of grief; a certain heaviness still lingers, but only as a luxurious languor which is a pleasure in itself. In other moods, however, in pain, in doubt, in suspense, the grey day deepens the depression of the spirits, and also adds to the sense of physical discomfort. Mrs. Caldwell, looking up at noon from the stocking she was mending, and seeing only a slender strip of level gloom above the houses opposite, suddenly experienced a mingled feeling of chilliness and dread, and longed for a fire, although the month was June. She could not afford fires at that time of year, yet she thought how nice it would be to have one, and the more she thought of it the more chilly she felt. A little comfort of the kind would have meant so much to her that morning. She would like to have felt it right to put away the mending, sit by a good blaze with a book, and absorb herself in somebody else's thoughts, for her own were far from cheerful. She was weak and ill and anxious, the mother of six children already, and about to produce a seventh on an income that would have been insufficient for four. It was a reckless thing for a delicate woman to do, but she never thought of that. She lived in the days when no one thought of the waste of women in this respect, and they had not begun to think for themselves. What she suffered she accepted as her "lot," or "The Will of God"&#x2014;the expression varied with the nature of the trouble; extreme pain was "The Will of God," but minor discomforts and worries were her "lot." That much of the misery was perfectly preventable never occurred to her, and if any one had suggested such a thing she would have been shocked. <pb n="2"/>The parson in the pulpit preached endurance; and she understood that anything in the nature of resistance, any discussion even of social problems, would not only have been a flying in the face of Providence, but a most indecent proceeding. She knew that there was crime and disease in the world, but there were judges and juries to pursue criminals, doctors to deal with diseases, and the clergy to speak a word in season to all, from the murderer on the scaffold to the maid who had misconducted herself. There was nothing eccentric about Mrs. Caldwell; she accepted the world just as she found it, and was satisfied to know that effects were being dealt with. Causes she never considered, because she knew nothing about them.</p>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>The Beth Book, an electronic edition</title>
+<author n="Grand, Sarah">Sarah Grand</author>
+</titleStmt>
+<extent>1500kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2004</date>
+<availability>
+<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University.  Emory
+University makes a claim of copyright only to original contributions
+made by the Women's Genre Fiction Project participants.  Emory
+University makes no claim of copyright to the original text.
+Permission is granted to download, transmit, or otherwise reproduce,
+distribute, or display the contributions to this work claimed by Emory
+University for non-profit educational purposes, provided that this
+header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA  30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email:  beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Grand, Sarah</author>. <title>The Beth Book: Being a
+Study from the Life of Elizabeth Caldwell Maclure: A Woman of
+Genius</title>. <pubPlace>London</pubPlace>: <publisher>William Heinemann</publisher>, <date>1898</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<samplingDecl>
+<p>The title page and body text of novels and stories have been transcribed and encoded.  Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only. </p></samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.  Some digital
+page images are linked to the text file.</p></editorialDecl>
+<classDecl>
+  <taxonomy id="lcsh">
+     <bibl>
+       <title>Library of Congress Subject Headings</title>
+     </bibl>
+  </taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">unedited</rs>
+<rs type="genre">novel</rs>
+<rs type="geography">Great Britain</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>English literature--19th Century--Fiction.</item>
+<item>Women authors, British--19th Century.</item>
+<item></item>
+<item></item>
+<item></item>
+<item></item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date></date>
+<respStmt><name>Erika Farr,</name> 
+<resp>project manager.</resp>
+<item>XML tags inserted in compliance with  TEI guidelines using TEILITE.</item>
+</change>
+</teiHeader>
+<text>
+<front>
+<titlePage>
+<docTitle>
+<titlePart typa="main">The Beth Book</titlePart>
+<titlePart type="sub">Being a Study from the Life <lb/>of Elizabeth
+Caldwell Maclure <lb/>A Woman of Genius</titlePart>
+</docTitle>
+<byline>By <lb/><docAuthor>Sarah Grand</docAuthor> <lb/>Author of
+"The Heavenly Twins," etc.</byline>
+<epigraph>
+<q>
+<l>Iago.  <hi rend="italic">Come, hold your peace.</hi></l>
+<l>Emilia.  <hi rend="italic">'Twill out, 'twill out:--I hold my
+peace, Sir? no;</hi></l>
+<l rend="italic">I'll be in speaking, liberal as the air:</l>  
+<l rend="italic">Let heaven, and men, and devils, let them all,</l>
+<l rend="italic">All, all, cry shame against me, yet I'll speake</l>
+</q>
+<bibl>SHAKESPEARE</bibl>
+</epigraph>
+<docImprint>
+<pubPlace>London</pubPlace>
+<publisher>William Heinemann</publisher>
+<docDate>1898</docDate>
+</docImprint>
+</titlePage>
+</front>
+<body>
+<pb n="1"/>
+<div>
+<head>THE BETH BOOK<lb/>CHAPTER I</head>
+<p>THE day preceding Beth's birth was a grey day, a serene grey day, awesome with a certain solemnity, and singularly significant to those who seek a sign. There is a quiet mood, an inner calm, to which a grey day adds peculiar solace. It is like the relief which follows after tears, when hope begins to revive, and the warm blood throbs rebelliously to be free of the shackles of grief; a certain heaviness still lingers, but only as a luxurious languor which is a pleasure in itself. In other moods, however, in pain, in doubt, in suspense, the grey day deepens the depression of the spirits, and also adds to the sense of physical discomfort. Mrs. Caldwell, looking up at noon from the stocking she was mending, and seeing only a slender strip of level gloom above the houses opposite, suddenly experienced a mingled feeling of chilliness and dread, and longed for a fire, although the month was June. She could not afford fires at that time of year, yet she thought how nice it would be to have one, and the more she thought of it the more chilly she felt. A little comfort of the kind would have meant so much to her that morning. She would like to have felt it right to put away the mending, sit by a good blaze with a book, and absorb herself in somebody else's thoughts, for her own were far from cheerful. She was weak and ill and anxious, the mother of six children already, and about to produce a seventh on an income that would have been insufficient for four. It was a reckless thing for a delicate woman to do, but she never thought of that. She lived in the days when no one thought of the waste of women in this respect, and they had not begun to think for themselves. What she suffered she accepted as her "lot," or "The Will of God"&#x2014;the expression varied with the nature of the trouble; extreme pain was "The Will of God," but minor discomforts and worries were her "lot." That much of the misery was perfectly preventable never occurred to her, and if any one had suggested such a thing she would have been shocked. <pb n="2"/>The parson in the pulpit preached endurance; and she understood that anything in the nature of resistance, any discussion even of social problems, would not only have been a flying in the face of Providence, but a most indecent proceeding. She knew that there was crime and disease in the world, but there were judges and juries to pursue criminals, doctors to deal with diseases, and the clergy to speak a word in season to all, from the murderer on the scaffold to the maid who had misconducted herself. There was nothing eccentric about Mrs. Caldwell; she accepted the world just as she found it, and was satisfied to know that effects were being dealt with. Causes she never considered, because she knew nothing about them.</p>
 				<p>But she was ill at ease that morning, and did think it rather hard that she should not have had time to recover from her last illness. She acknowledged to herself that she was very weak, that it was hard to drag the darning-needle through that worn stocking, and, oh dear! the holes were so many and so big that week, and there were such quantities of other things to be done, clothes mended and made for the children, besides household matters to be seen to generally; why wasn't she strong? That was the only thing she repined about, poor woman, her want of physical strength. She would work until she dropped, however, and mortal man could expect no more of her, she assured herself with a sigh of satisfaction, in anticipation of the inevitable event which would lay her by, and so release her from all immediate responsibility. Worn and weary working mothers, often uncomplaining victims of the cruelest exactions, toilers whose day's work is never done, no wonder they welcome even the illness which enforces rest in bed, the one holiday that is ever allowed them. Mrs. Caldwell thought again of the fire and the book. She had read a good deal at one time, and had even been able to play, and sing, and draw, and paint with a dainty touch; but since her marriage, the many children, the small means, and the failing strength had made all such pursuits an impossible luxury. The fire and the book&#x2014;who knows what they might not have meant, what a benign difference the small relaxation allowed to the mother at this critical time might not have made in the temperament of the child? Perhaps, if we could read the events even of that one day aright, we should find in them the clue to all that was inexplicable in its subsequent career.</p>
 				<p>In deciding that she could not afford a fire for herself, Mrs. Caldwell had glanced round the room, and noticed that the whisky bottle on the sideboard was all but empty. She got up hastily, and went into the kitchen.</p>
 				<p>"I had quite forgotten the whisky," she said to the maid-of-all-work, who was scraping potatoes at the sink. "Your master <pb n="3"/>will be so put out if there isn't enough. You must go at once and get some&#x2014;six bottles. Bring one with you, and let them send the rest."</p>
