@@ -17,7 +17,7 @@ require("nnu-config");
 require("$lastrun_file");
 
 
-$usage = "$bin_name [-f file.zip]
+$usage = "$bin_name [-f file.zip] [-h]
 
    $bin_name checks a specified URL for links to new zip files
    of OCRed texts and generates a single text document with
@@ -26,6 +26,7 @@ $usage = "$bin_name [-f file.zip]
 
    -f file.zip   Generate a text document from the specified zip file
 		 (located in the zipfile directory).
+   -h 		 Print out usage information.
 
 Current configuration:
   Download URL   : $base_url
@@ -116,7 +117,7 @@ foreach $line (@doc) {
       $line =~ s/<[a-zA-Z\/]+>//g;   # get rid of html tags for email message
       $email_msg .= " * $line";	# add line to email message
       # download the file to zip directory
-      if (download_file($base_url, $zipfile)) {
+      if (_download_file($base_url, $zipfile)) {
 	# if download succeeds, add to list of files to be processed
 	push(@process_list, $zipfile);
 	$num_downloaded++;
@@ -159,6 +160,24 @@ print LASTRUN "return 1;\n#EOF";
 close(LASTRUN);
 
 
+$cvs_info = "\nTo view these files and add them to the CVS repository:
+telnet to chaucer
+cd /data/neh/data/text
+less ";
+foreach $f (@process_list) {
+  $txt = $f;
+  $txt =~ s/.zip/.txt/;
+  $cvs_info .= "$txt ";
+}
+$cvs_info .= "\n\ncvs add ";
+foreach $f (@process_list) {
+  $txt = $f;
+  $txt =~ s/.zip/.txt/;
+  $cvs_info .= "$txt ";
+}
+
+
+
 open(MAIL, "|mail -s \"NEH novel update\" $email");
 
 print MAIL "\nNEH novel update Summary:
@@ -184,6 +203,10 @@ print MAIL "\n+ Note: \"new\" files may include downloads that previously failed
 print MAIL "\n\nDetails:\n$email_msg";
 print MAIL "\n\n\nDownloaded zip files are stored in $zipdir.\n";
 print MAIL "Generated text files are stored in $txtdir.\n";
+
+# FIXME: how to get long strings to be one command, without returns?
+#print MAIL $cvs_info;
+
 close(MAIL);
 
 
@@ -274,6 +297,16 @@ sub download_file {
   } else {
     # failed to download
     return 0;
+  }
+}
+
+## for debugging purposes only (skip actual download)
+sub _download_file {
+  my($url, $file) = @_;
+  if ($file eq "tortured.zip") {
+    return 0;
+  } else {
+    return 1;
   }
 }
 
