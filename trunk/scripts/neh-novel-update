@@ -8,7 +8,32 @@ $bin_name = "neh-novel-update";
 ##
 ## Rebecca Sutton Koeser, March 2003
 
+
 use LWP::UserAgent;
+
+# load general configuration variables
+require("nnu-config");
+# load variables set from last run of script
+require("$lastrun_file");
+
+
+$usage = "$bin_name [-f file.zip]
+
+   $bin_name checks a specified URL for links to new zip files
+   of OCRed texts and generates a single text document with
+   numbered page-break tags.  It then sends a report via email to 
+   the specified administrator(s).
+
+   -f file.zip   Generate a text document from the specified zip file
+		 (located in the zipfile directory).
+
+Current configuration:
+  Download URL   : $base_url
+  Zip file dir   : $zipdir
+  Text file dir  : $txtdir
+  Administrators : $email
+";
+
 
 $allfiles = 0;
 $file_next = 0;
@@ -23,15 +48,14 @@ foreach $arg (@ARGV) {
     $file_next = 1;
   } elsif ($file_next) {
     $single_file = $arg;   # assumes file is in zipdir... (FIXME?)
+  } elsif ($arg =~ "-h") {
+    print $usage;
+    exit(0);
   }
   # should perhaps add an option to process a single zipfile?
 }
 
 
-# load general configuration variables
-require("nnu-config");
-# load variables set from last run of script
-require("$lastrun_file");
 
 if ($single_file) {
   $error = process_file($single_file);
