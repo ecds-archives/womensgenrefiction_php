@@ -91,7 +91,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <change>
 <date>08-Feb-2005</date>
 <respStmt><name>Erika Farr,</name>
-<resp>project manager.</resp>
+<resp>project manager.</resp></respStmt>
 <item>XML tags inserted in compliance with TEI guidelines.</item>
 </change>
 </revisionDesc>
@@ -99,11 +99,12 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <text>
 <front>
 <div id="sg2twins000" type="half-title page">
-<figure entity="" rend="inline">
-<figDesc></figDesc>
+<figure entity="sg2twinshtp" rend="inline">
+<figDesc>An image of the half-title page of the second volume of Sarah
+Grand's <hi rend="inline">The Heavenly Twins</hi>.</figDesc>
 </figure>
 </div>
-<pb entity="" pages="Title Page"/>
+<pb entity="sg2twinstp" pages="Title Page"/>
 <titlePage>
 <docTitle>
 <titlePart type="main">THE HEAVENLY TWINS</titlePart>
@@ -122,10 +123,11 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <pubPlace>London</pubPlace>
 <publisher>William Heinemann</publisher>
 <docDate>1893</docDate>
-<imprimatur>[<hi rend="italic">All rights reserved</hi>]</imprimatur>
 </docImprint>
+<imprimatur>[<hi rend="italic">All rights reserved</hi>]</imprimatur>
 </titlePage>
 </front>
+<body>
 <pb n="3"/>
 <div id="sg2twins001" type="book" n="3">
 <head>BOOK III.
@@ -133,11 +135,16 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <epigraph>
 <cit>
 <quote>
+<sp>
 <speaker><hi rend="italic">Fury</hi>:</speaker>
 <l>Blood thou canst see, and fire; and canst hear groans; --</l>
 <l>Worse things, unheard, unseen, remain behind.</l>
+</sp>
+<sp>
 <speaker><hi rend="italic">Prometheus</hi>:</speaker>
 <l>Worse?</l>
+</sp>
+<sp>
 <speaker><hi rend="italic">Fury</hi>:</speaker>
 <l>In each human heart terror survives</l>
 <l>The ravin it has gorged. The loftiest fear</l>
@@ -153,6 +160,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <l>Many are strong and rich and would be just,</l>
 <l>But live among their suffering fellow men</l>
 <l>As if none felt: they know not what they do.</l>
+</sp>
 </quote>
 <bibl>--<hi rend="italic">Prometheus Unbound</hi>.</bibl>
 </cit>
@@ -669,8 +677,9 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>It was only the Cathedral clock striking the hour, but it sounded portentously through the solemn stillness of the night, and with quickened attention they all looked up and listened.</p>
 <p>Slowly the big bell boomed forth ten strokes. Then came a pause; and then the chime rolled through the room, a deafening volume of sound, in long reverberations, from amidst which the <pb n="68"/>constant message disentangled itself as it were, but distinctly, although to each listener with a different effect.</p>
 <p>
-<figure entity="" rend="inline">
-<figDesc>Be, watch-ing o- ver Is - ra - el, slumbers not, nor sleeps.</figDesc>
+<figure entity="sg2twinsillbar" rend="inline">
+<figDesc>A line of music from Mendelssohn's "Elijah," including the
+words: He, watching over Israel, slumbers not, nor sleeps.</figDesc>
 </figure>
 </p>
 <p>It awoke Dr. Galbraith from a train of painful reflections; it reassured the Bishop; and it made Angelica fret for Diavolo remorsefully.</p>
@@ -1253,8 +1262,9 @@ sympathy and attention from the good women who had not self-love enough to be wo
 <p>"No," he began at last, "I do not even yet long for change, as you would understand the longing. I have begun to feel a want, though I scarcely know of what&#x2014;of companionship, perhaps, of some new interest; but I have no inclination for any change that would take me away from here. After the storm I passed through, this place has been for me a perfect haven of rest; and now that my peace of mind has returned to me, do you think it would be wise, by any voluntary act, to alter the present course of my life, seeing that it is so well with me as it is? When a man is content, it does not seem to me that any change can be for the better; and, trifles apart, I really am content."</p>
 <p>"God grant it may last," the Dean responded earnestly. "Only I would warn you to be ready for change in case it comes to <pb n="167"/>you in spite of yourself. I would warn you not to feel too secure. For I have noticed this, that, for some mysterious reason which no mortal can fathom, it appears to be the will of Heaven that when a man is able to say sincerely 'I am happy;' when he is most confident, believing his happiness to be as firmly placed as earthly happiness can be, then is the time for him to be most watchful, for then is change most likely to be at hand. Indeed, it has seemed to me that this feeling of security, or rather of content with things as they are, is in itself an indication of coming change."</p>
 <p>As he finished speaking the Cathedral clock above them began to strike the hour. Slowly the mellow notes followed each other, filling the night with sound, and dying away in a long reverberation when the twelfth had struck. Then came silence, then the chime, voicelike, clear, and resonant&#x2014;
-<figure entity="" rend="inline">
-<figDesc>He, watch-ing o-ver Is - ra - el, slumbers not, nor sleeps.</figDesc>
+<figure entity="sg2twinsillbar" rend="inline">
+<figDesc>A line of music from Mendelssohn's "Elijah," including the
+words: He, watching over Israel, slumbers not, nor sleeps.</figDesc>
 </figure>
 </p>
 <p>After which all was so still that the Tenor, looking up through the open window at the moonlit Cathedral, towering above him, grey, shadowy, and mysterious, felt as if the world itself had stopped, and all the life in it had been resolved into a moment of intense self-consciousness, of illimitable passionate yearning for something not to be expressed.</p>
@@ -1322,8 +1332,9 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>The girl had been wandering off again, but at the first note of the supplication she stopped. A chord of memory stirred. She knew the words, she knew the tune. She had sung them both herself often and often at home in France. She was a Child of Mary then&#x2014;and now?</p>
 <p>As the Tenor finished the last note of the phrase and paused, she clasped her hands convulsively, and gasped: "O mon Dieu! mon Dieu! ayez piti&#x00E9; de moi!"</p>
 <p>Her half-inarticulate cry did not reach the Tenor and the Boy, neither had they observed her distress, for just at that moment the city clock struck one, and both had raised their heads involuntarily in expectation of the chime. And presently out upon the night it rolled, a great wave of sound, swelling and spreading, muffled by distance somewhat, but still distinctly sweet and insistent&#x2014;
-<figure entity="" rend="inline">
-<figDesc>He, watch -ing o-ver Is - ra - el, slumbers not, nor sleeps.</figDesc>
+<figure entity="sg2twinsillbar" rend="inline">
+<figDesc>A line of music from Mendelssohn's "Elijah," including the
+words: He, watching over Israel, slumbers not, nor sleeps.</figDesc>
 </figure>
 </p>
 <p>"Do you believe it?" said the Boy, glancing towards the girl, and repeating the gesture of disgust with which he had shrunk from her when she accosted him.</p>
@@ -1332,14 +1343,43 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>The Boy remained as he had left him for some time, apparently lost in thought; and the girl still stood a little way off in a dejected <pb n="174"/>attitude, her hands clasped before her, her eyes fixed on the ground. She looked ill and spiritless. The Boy, glancing at her carelessly, wondered at the intent expression of her face; he did not perceive that she was praying, but she was.</p>
 <p>The midnight stillness deepened about those two; there was not another living creature to be seen. The irregular old buildings on every side looked ruinous in the shadowy moonlight, and the whole market-place presented to the Boy a picture of desolation which chilled him. He was about to turn away with a last cursory glance at the other solitary figure, when something suddenly occurred which arrested his attention. It seemed to startle him too, for he sprang back, with prompt agility, into a dark doorway behind him, from whence he watched what followed with the keenest interest, being careful, however, to conceal himself the while. He had not felt any movement of pity or kindly compassion for the girl; perfect indifference had succeeded the first sensation of repugnance; he would have left her there to any fate that might await her, and would have expected all right-minded people to do the same. It was therefore with unmitigated astonishment that he beheld the scene which was now being enacted before him. They were no longer alone. A tall and graceful lady of most dignified bearing, with a countenance of peculiar serenity and sweetness, had approached from the opposite direction, and was standing beside the girl, speaking to her evidently, but the boy was too far off to hear what was said. He could see, however, that the girl's whole attitude had changed. She was no longer dejected, but eager; and she gazed in the lady's face as she listened to her words, with an expression of admiration and wonder, one had almost said of adoration, upon her own, as though it were a heavenly visitant who had hailed her. The lady, as she spoke, pointed to a street opposite, and the girl cast a quick glace in that direction; she seemed to be measuring a distance she was impatient to traverse, and moved a step forward at the same time, uttering some short sentence with
 <pb n="175"/>
-<!---page missing-->
+rapid gesticulation. The pantomime was perfectly intelligible to the
+Boy, who understood that she was feverishly anxious to carry out some
+intention on the instant. The lady seemed to hesitate, then, laying
+her beautiful white ungloved hand on the girl's shoulder, and looking
+into her face, she spoke again earnestly. The girl answered with
+passionate protestations, and then the lady smiled, satisfied
+apparently, and led the way in the direction to which she had
+pointed, the girl following in haste. Her hat had fallen back, her
+hair was loosened, her countenance beamed with enthusiasm, as the Boy
+observed. He was stealing softly after them, skipping from shadow to
+shadow, in great enjoyment of the whole adventure.</p>
+<p>The lady took the girl to a long low rambling house beside a
+church, at the door of which she knocked. It was opened immediately
+by a singularly venerable looking old man, evidently a priest, with a
+fine though rugged face, instinct with zeal and benevolence. He had
+his hat in his hand, and was just coming out; but when he saw who had
+knocked, he stopped short, and bowed deferentially. The girl sank
+down upon the doorstep as if exhausted.</p>
+<p>"I have brought Marie Cruchot home, father," the lady said.</p>
+<p>"Ah, my daughter, is that you? We have been expecting you for many
+days," the old man exclaimed in French, taking the girl's  hand and
+raising her gently as he spoke. "I have prayed for you day and night
+without ceasing, and only just now, as I passed the convent, I went
+to ask the night portress for tidings of our wandering sheep, and
+specially mentioned you. But enter. The good sisters are waiting for
+you, and will welcome you with you."</p>
+<p>One of the two sisters of charity, who were standing behind the
+priest, now came forward and kissed the girl. The old man raised his
+hat, and, looking up into the clear depths of the quiet sky, murmured
+a blessing, and went his way. And then the door was closed.</p>
 <pb n="176"/>
 <p>"Humph!'' said the Boy, who was lurking up an entry opposite. "So that is what they do at night, is it? and that is the young person who sold her sister Louise to Mosley Menteith. Now I am beginning to know the world; and what an extraordinary old world it is, to be sure! One half seems to be always kept busy mending the mischief the other half has made."</p>
 <p>He peeped cautiously out of the entry, looking for the lady, but she had disappeared, and night and silence reigned supreme.</p>
 </div>
 <pb n="177"/>
-<div>
-<head> CHAPTER IV</head>
+<div id="sg2twins024" type="chapter" n="4">
+<head> CHAPTER IV.</head>
 <p>ALL that the Tenor had witnessed of the scene in the marketplace made little or no impression on him, and he would probably never have thought of it again had he not encountered the Boy a few nights later standing, idly observant as before, at the same time and almost in the same place.</p>
 <p>The Tenor's first impulse was to pass on without speaking, but the Boy looked at him, and there was something in the look, half shy, half appealing, which caused him to stop, and having stopped, he was obliged to speak.</p>
 <p>To his first commonplace remark the Boy answered nervously, and with quick glances instantly averted, as if he were afraid to meet the Tenor's eyes. The latter continued to talk, however, and after a little the Boy's timidity wore off, and his manner became assured.</p>
@@ -1354,8 +1394,8 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>It was some weeks before they met again, and during the interval the Tenor often thought of the Boy with curiosity and interest. There was something unusual in his manner and appearance which would have attracted attention even if his conversation had not been significant, and that it was significant the Tenor discovered by the continual recurrence to his mind of some one or other of the Boy's observations. He had not tried to find out who the Boy was, interest not having stirred his characteristic apathy in such matters to that extent, but he looked for him continually both by day and night, his thoughts being pretty equally divided between him and the lady whose brilliant glance had had such a magical effect upon him the first time he encountered it. She came to the Cathedral regularly now, and always sat in the Canon's pew; and always when he sang she looked at him, and he knew that the look was an expression of appreciation and thanks. He knew too that the day she did not come would be a blank day for him.</p>
 </div>
 <pb n="180"/>
-<div>
-<head>CHAPTER V</head>
+<div id="sg2twins025" type="chapter" n="5">
+<head>CHAPTER V.</head>
 <p>THE moon had grown old, but the nights were still scented by he lime-trees when the Tenor met the Boy again. He had begun to believe that the Boy did not live in Morningquest, and, as often happens, he was thinking of him less than usual on this particular occasion, and hence he came upon him unawares.</p>
 <p>The Boy was lolling against the iron railings that enclosed the grassy space round which the old lime-trees grew, in the middle of one arm of the Close. It was a bright, clear night, but chilly, and he was wrapped up in a great coat which lent a little substance to his slender figure. The Tenor would have passed him without recognizing him, but for his sandy hair, which shone out palely against the bark of one of the trees.</p>
 <p>"I was waiting for you," the Boy said. "Why are you so late to-night?"</p>
@@ -1403,8 +1443,8 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>"Not to-night," the Boy interrupted, hastily. "Another time. Good-bye!"</p>
 </div>
 <pb n="185"/>
-<div>
-<head>CHAPTER VI</head>
+<div id="sg2twins026" type="chapter" n="6">
+<head>CHAPTER VI.</head>
 <p>WHEN next the Tenor saw Angelica after he had learnt that she was the Boy's sister, he felt that a new interest had been added to her attractions.</p>
 <p>It was on a Saturday afternoon in the Cathedral, as usual, and she came in late. But almost as soon as she had taken her seat she looked at the Tenor with an earnest, anxious glance that reminded him of her brother, and her colour deepened. The Boy had told her then, the Tenor thought, and he was glad she knew that they had met; it was a bond of union which seemed to bring her nearer.</p>
 <p>He noticed now how like in feature the brother and sister were. The girl looked taller as well as older, and was altogether on a larger scale, her figure being amply developed for her age, while the Boy's was fragile to a fault; her hair was dark too, while his was light; but with these slight differences there was likeness enough to show that they were twins. They both had the same shaped eyes, the same straight, well-defined, dark eyebrows and long lashes, the same features, the same clear skin and even teeth; but the expression was different. There was never any devilment in the girl's face; it was always pale and tranquil, almost to sadness, as the Tenor saw it, standing out in fair relief against the dark oak carving of the stalls. Her movements were all made, too, with a certain quiet dignity that seemed habitual. In the Boy, on the contrary, there was no trace of that graceful attribute. Ho threw himself about, lolled, lollopped, and gesticulated, with as much delight in the free play of his muscles as if he were only let out to exercise them occasionally; and it seemed as if he must always be at daggers <pb n="186"/>drawn with dignity. But such a slender intellectual creature could not without absurdity acquire the ponderous movements and weight of manner of smaller wits and duller brains. In the girl, quiescence was the natural outcome of womanly reserve; in the Boy, it would have been mere affectation. His lightness and brightness were his great charm at present, a charm, however, which was much enhanced by moments of thoughtfulness, which gave glimpses of another nature beneath, with more substantial qualities. The Tenor had soon perceived that he was not all mischief, romp, and boyishness; all that was on the surface; but beneath there was a strong will at work with some purpose, or the Tenor was much mistaken; and there was daring, and there was originality. This was the Tenor's first impression, and further acquaintance only confirmed it.</p>
@@ -1412,11 +1452,11 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>And thus into the Tenor's life two new interests had found their way, and something which had hitherto been wanting to make the music of it perfect was heard at last in his wonderful voice when he sang.</p>
 </div>
 <pb n="187"/>
-<div>
-<head>CHAPTER VII</head>
+<div id="sg2twins027" type="chapter" n="7">
+<head>CHAPTER VII.</head>
 <p>ABOUT this time the weather changed; the nights were wet for a week, and when it cleared up the Tenor had begun to do some work for the Dean which kept him at home in the evenings, so that he had no opportunity of seeing the Boy, who only seemed to come abroad at night, for some little time. He saw his sister, however, in the Cathedral regularly once a week, and always she gave him a friendly glance, by which his days were rounded as by a blessing, and be felt content. His being so was entirely characteristic. Another man in his place would have lost the charm of the present in anxiety to reach some future which should be even more complete. But the Tenor took no thought for the morrow; each day as it came was a joy to him, and his hopes, if he had any, were a part of his peace.</p>
 <p>The work he was doing for the Dean was interesting. He was making drawings to illustrate a history of Anglo-Norman times which the Dean was writing. He drew well and with great facility; but these drawings, many of which were architectural, required special care and accuracy, with the closest attention to detail, which made the work fatiguing, particularly as he had to do it at night, his only leisure time just then; and more than once he had tired himself out, and been obliged to put it away and rest. On one of these occasions, instead of going to bed, he stretched himself in an easy chair beside the open French window which looked out upon the Cathedral, and prepared to indulge in the quiet luxury of a pipe while he rested his weary eyes. The great Cathedral towered above him, and from where he sat the Tenor caught a beautiful glimpse of it anglewise, of the south transept, and tower, and <pb n="188"/>spire; the rich perpendicular windows of the clerestory, the bold span of the flying buttresses rising out of the plain but solid Norman base, every detail of which he knew and appreciated.</p>
-<p>It was a fair, still, starry night without, and the light air that blew in upon him was sweet and refreshing. His mind wandered from subject to subject&#x2014;a sleepy sign&#x2014;as he smoked, and presently he put down his pipe and closed his eyes. He thought then that he had fallen asleep and was dreaming, and in his dream he fancied he heard himself sing. "This is a queer dream," he was conscious of saying. "That is my voice exactly. I have often wondered how it sounded to other people, and now I am listening to it myself, which is strange." But the strangest part of it was that the words to which the music shaped itself in his mind were not the words of any song he knew, but that expression of human nature which contains in itself some of the grandest harmony in the language&#x2014;</p>
+<p>It was a fair, still, starry night without, and the light air that blew in upon him was sweet and refreshing. His mind wandered from subject to subject&#x2014;a sleepy sign&#x2014;as he smoked, and presently he put down his pipe and closed his eyes. He thought then that he had fallen asleep and was dreaming, and in his dream he fancied he heard himself sing. "This is a queer dream," he was conscious of saying. "That is my voice exactly. I have often wondered how it sounded to other people, and now I am listening to it myself, which is strange." But the strangest part of it was that the words to which the music shaped itself in his mind were not the words of any song he knew, but that expression of human nature which contains in itself some of the grandest harmony in the language&#x2014;<q>
 <lg>
 <l>"These our actors,</l>
 <l>As I foretold you, were all spirits, and</l>
@@ -1430,7 +1470,8 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <l>As dreams are made on, and our little life</l>
 <l>Is rounded with a sleep."</l>
 </lg>
-<p>The last words repeated themselves over and over again, on different notes and in another key each time, and with such powerful emphasis that at last it aroused the Tenor, upon whose sleepy brain the fact that it was not a voice but a violin to which he had been listening, dawned gradually, while his trained ear further recognized the tone of a rare instrument, and the touch of a master hand. He got up and went to the window. "Oh!" he exclaimed, "is it you?" and there was a world of pleasure in the exclamation. "Come in."</p>
+</q>
+The last words repeated themselves over and over again, on different notes and in another key each time, and with such powerful emphasis that at last it aroused the Tenor, upon whose sleepy brain the fact that it was not a voice but a violin to which he had been listening, dawned gradually, while his trained ear further recognized the tone of a rare instrument, and the touch of a master hand. He got up and went to the window. "Oh!" he exclaimed, "is it you?" and there was a world of pleasure in the exclamation. "Come in."</p>
 <pb n="189"/>
 <p>The Boy, who was standing in the road, opened the little garden gate, and entered. "I am glad you have relented," he said; "for I meant to play until I had softened your heart, and had persuaded you to take me in; and the hope deferred was making me sick."</p>
 <p>"I was asleep," the Tenor answered. "Why didn't you come in? You must have known you would be welcome. Here is an easy chair. Sit down. And, tell me, why do we only meet at night? What do you do with yourself all day?"</p>
@@ -1472,8 +1513,9 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>"Well, make yourself at home," the Tenor said, humouring him good-naturedly.</p>
 <p>"<hi rend="italic">Make</hi> me at home," the Boy replied. "Confidential relations, you know. You may smoke if you like."</p>
 <p>"Oh, thank you," the Tenor answered politely, sitting down in his easy chair, from which he had risen to look at the violin, and taking up his pipe again.</p>
-<p>The Boy was rumaging about now, and, finding much to interest him, he presently recovered his temper, and began to banter his host. But even this outlet was scarcely sufficient for his superfluous life and energy, so he emphasized his remarks by throwing a stray cushion or two at the Tenor; he jumped over the chairs instead of walking round them, and performed an occasional <hi rend="italic">pas seul</hi>, or pirouette, in various parts of the room. When these innocent amusements palled upon him, he took up his violin and played a plaintive air, to which he chanted:&#x2014;</p>
+<p>The Boy was rumaging about now, and, finding much to interest him, he presently recovered his temper, and began to banter his host. But even this outlet was scarcely sufficient for his superfluous life and energy, so he emphasized his remarks by throwing a stray cushion or two at the Tenor; he jumped over the chairs instead of walking round them, and performed an occasional <hi rend="italic">pas seul</hi>, or pirouette, in various parts of the room. When these innocent amusements palled upon him, he took up his violin and played a plaintive air, to which he chanted:&#x2014;
 <pb n="192"/>
+<q>
 <lg>
 <l>"There was a merry dromedary</l>
 <l>Waltzing on the plain;</l>
@@ -1481,7 +1523,8 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <l>And all the people said, it is a sign of rain,</l>
 <l>When they saw the good beast dancing;"</l>
 </lg>
-<p>executing grotesque steps himself at the same time in illustration.</p>
+</q>
+executing grotesque steps himself at the same time in illustration.</p>
 <p>"Oh, Boy, forbear!" the Tenor exclaimed at last, "or you will be the death of me."</p>
 <p>"That's it," the Boy responded cheerfully. "I mean to be life or death to you."</p>
 <p>After this he sat down on a high backed chair, with his hands in his pockets, his legs stretched out before him, and his chin on' his chest, looking up from under his eyebrows at the Tenor thoughtfully. It was an interval of great gravity, and when he spoke again the Tenor looked for something serious.</p>
@@ -1565,10 +1608,12 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>"Well, yes," was the candid rejoinder; "I was. I suppose you think that you ought not to speak without an introduction. Well, say I gave you one."</p>
 <p>The Tenor laughed. He felt that he ought to let the subject drop, and at the same time yielded to temptation.</p>
 <p>"What would your introduction be worth?" he asked.</p>
-<p>"Everything," the Boy rejoined. "I am on excellent terms with Angelica. We have always been inseparable, and I get on with her capitally; and she's not so easy to get on with, I can tell you," he added, as if taking credit to himself.</p>
-<q>"'When she is good she is very good indeed.</q>
-<q>But when she is naughty she is horrid."</q>
-<p>And just now she's mostly naughty. She isn't very happy."</p>
+<p>"Everything," the Boy rejoined. "I am on excellent terms with Angelica. We have always been inseparable, and I get on with her capitally; and she's not so easy to get on with, I can tell you," he added, as if taking credit to himself.
+<q>
+<l>"'When she is good she is very good indeed.</l>
+<l>But when she is naughty she is horrid."</l>
+</q>
+And just now she's mostly naughty. She isn't very happy."</p>
 <p>The interest expressed in the Tenor's attitude was intensified, and inquiry came into his eyes.</p>
 <p>"She is not very happy," the Boy pursued with extreme deliberation, "because you come no nearer."</p>
 <p>"Boy, you are romancing," the Tenor said, with a shade of weariness in his voice.</p>
@@ -1600,8 +1645,8 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>When he went home, however, he was glad. And he opened his piano and sang like one inspired. "I am gaining more power in everything," he said to himself. " I could make a position for her yet."</p>
 </div>
 <pb n="202"/>
-<div>
-<head>CHAPTER VIII</head>
+<div id="sg2twins028" type="chapter" n="8">
+<head>CHAPTER VIII.</head>
 <p>A FEW nights later the Tenor went out for a stroll, leaving the windows of his sitting-room closed but not fastened, and the lamp turned down. On his return he was surprised to find the window wide open and the room lit up. The little garden gate was shut and bolted. He could easily have reached over and opened it from the outside, but knowing that it creaked, and not wanting to disturb his nocturnal visitor until he had ascertained his occupation, he jumped over it lightly, walked across the grassplot to the window, and looked in.</p>
 <p>It was the Boy, of course. The Tenor recognized him at once, although all he could see of him at first were his legs as he knelt on the floor with his back to him and his head and shoulders under a sofa. "What, in the name of fortune, is he up to now?" the Tenor wondered.</p>
 <p>Just then the boy got up, frowning, and flushed with stooping. He stamped his foot impatiently, and looked all round the room in search of something. Suddenly his face cleared. He had discovered his violin on the top of a bookshelf above him, and that was apparently what he wanted, for he made a dash at it, took it down, and hugged it affectionately.</p>
@@ -1619,10 +1664,12 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>But the Boy did not give the Tenor much time to think. His mind was quick-glancing, like his eyes when he was animated, and he carried the Tenor along with him from one occupation to another with distracting glee. When he was tired of making music, as he called it, he demanded food, and, so long as he could cook it and serve it himself, he delighted in bacon and eggs, as much as he did in Bach and Beethoven.</p>
 <p>The Tenor tried to wean him of his nocturnal habits, but to this the Boy would not listen. He said he liked to sit up all night, and when he said he liked a thing, he seemed to think he had adduced <pb n="205"/>an unanswerable argument in its favour. The Tenor complained of fatigue. The long nights affected his voice, he said, and made him unfit for work; but the Boy only grinned at this, and told him he'd get used to it. Then he threatened to shut up the house and go to bed if the Boy did not come in proper time, and on one occasion he carried out his threat; but when the Boy arrived be made night hideous with horrid howls until the Tenor could stand it no longer, and was obliged to get up, and let him in, to preserve the peace of the neighbourhood. After which the Tenor ceased to remonstrate, and it became one of the pleasures of his life to prepare for this terrible hungry Boy. He worked in his garden early and late, cultivating the succulent roots which the latter loved, the fruits and the vegetables, and, last, but not least, the flowers, for he never could feed without flowers, he said, and the Tenor ministered to this exaction with the rest. " He is dainty because he is delicate," the Tenor thought, always excusing him. " When he is older and stronger he will grow out of all these epicurean niceties of taste. I must make him dig, too, and fence, and row. He'll soon develop more manliness."</p>
 <p>That he was spoiling the Boy in the meantime never occurred to him, not even when he noticed that the latter took all these kindnesses as a matter of course, and only grumbled when some accustomed attention was omitted.</p>
-<p>The Tenor was vexed sometimes, and obliged to find fault, but the Boy could always soothe him. "I am sure you love me," he would say. "Your life was not worth living until I came, and you could not live without me now. I am a horrid little brute I know, but I have my finer feelings too, my capacity for loving, and that raises me.</p>
-<q>'All lore is sweet</q>
-<q>Given or returned.'"</q>
-<p>When the Boy quoted or recited anything he really felt, he had a way of lingering over the words as if each syllable were a pleasure <pb n="206"/>to him. The deep contralto of his voice was at its sweetest then, and he seldom failed to make his own mood felt as he intended.</p>
+<p>The Tenor was vexed sometimes, and obliged to find fault, but the Boy could always soothe him. "I am sure you love me," he would say. "Your life was not worth living until I came, and you could not live without me now. I am a horrid little brute I know, but I have my finer feelings too, my capacity for loving, and that raises me.
+<q>
+<l>'All lore is sweet</l>
+<l>Given or returned.'"</l>
+</q>
+When the Boy quoted or recited anything he really felt, he had a way of lingering over the words as if each syllable were a pleasure <pb n="206"/>to him. The deep contralto of his voice was at its sweetest then, and he seldom failed to make his own mood felt as he intended.</p>
 <p>The Tenor, justly incensed by some wicked piece of mischief, was often obliged to turn away that he might maintain his authority and not be seen to soften. But he never deceived the Boy, who could gauge the effect of his persuasion to a nicety, and would grin like a fiend behind the Tenor's back at the success of his own eloquence. No matter what he had done, by hook or by crook he always managed to bring about a reconciliation before they parted. He knew the Tenor's weak point&#x2014;Angelica&#x2014;and when everything else failed he would play upon that unmercifully. But he had a way of speaking of his sister which often made the Tenor seriously angry. He did not believe the Boy meant half the disrespect with which he mentioned her, but it galled him nevertheless, and on one occasion, when the Boy had repeated some scandalous gossip to which the Tenor objected, and afterwards excused himself by saying that it was not his but his sister's story, the Tenor's indignation overflowed, and he lectured him severely.</p>
 <p>"You should never forget that your sister is an innocent girl," he said, "and it is degrading to her even to have her name associated with such ideas."</p>
 <p>But the Boy only grinned. "Bless you," he retorted, "don't make so much ado about nothing. She's quite as wise as we are."</p>
@@ -1651,13 +1698,15 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>"I'll make you respect these delicate fingers of mine, though," the Boy irritably interposed, and then he took up his violin. "I'll make you quiver."</p>
 <p>He drew a long melodious wail from the instrument, then lightly ran up the chromatic scale and paused on an upper note for an instant before he began, with perfect certainty of idea and marvellous modulations and transitions in the expression of it, to make music that steeped the Tenor's whole being in bliss.</p>
 <p>The latter had noticed before that it was to his senses absolutely, not at all to his intellect, that the Boy's playing always appealed; but he did not quarrel with it on that account, for music was the only form of sensuous indulgence he ever rioted in, and besides, once under the spell of the Boy's playing, he could not have resisted it even if he would, so completely was he carried away. The Boy's white fingers were certainly not out of place at such work. "Do I play like an old woman in the opprobrious sense of the word?" he demanded, mimicking the Tenor.</p>
-<p>"Oh, Boy!" he latter exclaimed, with a deep drawn sigh of satisfaction. "You have genius. When you play you are like that creature in the <hi rend="italic">Witch of Atlas:</hi>&#x2014;</p>
+<p>"Oh, Boy!" he latter exclaimed, with a deep drawn sigh of satisfaction. "You have genius. When you play you are like that creature in the <bibl><hi rend="italic">Witch of Atlas>:</hi></bibl>&#x2014;
+<q>
 <lg>
 <l>a sexless thing it was, and in its growth</l>
 <l>It seemed to have developed no defect</l>
 <l>Of either sex, yet all the grace of both.' "</l>
 </lg>
-<p>But the Boy frowned for a moment at the definition, and then he said: "Is that what you call genius? Now I make it something like that, only different. I believe it is the attributes of both minds, masculine and feminine, perfectly united in one person of either sex."</p>
+</q>
+But the Boy frowned for a moment at the definition, and then he said: "Is that what you call genius? Now I make it something like that, only different. I believe it is the attributes of both minds, masculine and feminine, perfectly united in one person of either sex."</p>
 <p>The Tenor, lolling in his easy chair, smiled at him lazily. There was no end to his indulgence of the Boy; but still he led him, by example principally, but also by suggestion, as on one occasion when the Boy had been sketching out a scheme of life in which self <pb n="210"/>was all predominant, and the Tenor asked: "Do you never feel any impulse to do something for your suffering fellow creatures?"</p>
 <p>To which the Boy at first rejoined derisively: "Am I not one of the best of their benefactors? Would you say that a fellow who plays as I can does nothing for his fellow creatures? To make music is my vocation, and I follow it like a man." But after a moment's thought he confessed: "Once indeed I did try to do some good in the world, but I failed disastrously."</p>
 <p>"What did you try?"</p>
@@ -1665,8 +1714,8 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>The Tenor said no more on the subject, and did not mean to, but the Boy returned to it himself eventually, and it was evident that the wish to do something for somebody was taking possession of him seriously. This was the Tenor's tactful way with him; and from such slight indications of awakening thought he continued to augur well for the Boy.</p>
 </div>
 <pb n="211"/>
-<div>
-<head>CHAPTER IX</head>
+<div id="sg2twins029" type="chapter" n="9">
+<head>CHAPTER IX.</head>
 <p>So time passed on, changing all things, greatly, or with infinitesimal changes, according to their nature. The colours worn in crowded thoroughfares, varied with the varying fashions; the tint of the summer foliage with sun and rain and dust. Doors, closed the whole long winter, were opened now and left so, and the young people passed to and fro, thronging to river banks, but lately deserted; to the cricket fields, garden or wood or lawn. The very faces of the streets were changing, enlivened by plaster and paint and polish; the face of the land with the certain advance of the season; the faces of friends with something not to be named, but visible, strange, and, for the most part, disheartening. It was the old story for ever and ever; all things changed always; but the chime was immutable.</p>
 <p>As the days grew gradually to weeks, his one connecting link with the outer world became dearer and dearer to the lonely Tenor. The nights that brought the Boy were happy nights, looked forward to with eagerness, and prepared for with difficulty. For at this time the Tenor denied himself some of the bare necessaries of life, that he might buy him the Burgundy he loved to sip: he did no more than sip, and, therefore, the Tenor indulged him; drink was not to be one of his vices, evidently.</p>
 <p>The Tenor, although he would not have acknowledged it, held that the Boy was a creature apart, and one, therefore, whom it was not fair to measure by the common standard. Doubtless the manner of their meeting had something to do with this idea. The Boy was associated in the Tenor's mind with many sweet associations; with the beautiful still night; with the Tenor's far-off <pb n="212"/>ideal of all that is gracious and womanly; with the music that was in him; and, further, with a sympathetic comprehension of those moments when grey glimpses of the old cathedral, or a warm breath of perfumed air from the garden, or some slight sound, such as the note of a night bird breaking the silence, fired a train of deep emotion, and set his whole poetic nature quivering, to the unspeakable joy of it; joy sanctified by reverence, and enlarged beyond comparison by love.</p>
@@ -1714,8 +1763,8 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>He went off now, however, anathematizing the chime, and the Tenor was almost glad to get rid of him. The Boy's superabundant vitality alone was fatiguing, and when he added, as he often did, a certain something of manner to it which was perplexing and irritating in the extreme, he left the Tenor not only fatigued, but jarred all over. Yet he spent the interval which usually elapsed before the Boy returned in making excuses fur him, and also in making preparations.</p>
 </div>
 <pb n="218"/>
-<div>
-<head>CHAPTER X</head>
+<div id="sg2twins030" type="chapter" n="10">
+<head>CHAPTER X.</head>
 <p>THE Tenor was obliged to leave the window of his sitting-room which looked out on the little grassplot in front of his house and the Cathedral opposite, open always now, rain, blow, or snow, for the convenience of the Boy. The latter had changed his mind about forcing an entrance. If the Tenor, he said, would not make it quite evident that he wanted him by leaving the window open so that he could come in his own way whenever he chose, he should not come at all. The window was his way; and on one occasion when he had found it shut he had gone home, intending, as he afterwards declared, never to return; but he had changed his mind and reappeared after an unusually long interval, when the Tenor, to use the Boy's own phrase, "caught it" for his want of hospitality. Of course, he acknowledged, he might have come in by the door, or he might have knocked at the window; but then he did not choose to come in by the door or knock at the window, so that was all about it. If the Tenor wanted to see him he knew how to make him feel he was welcome, and so on until, for the sake of peace and quietness, the Tenor was again obliged to yield.</p>
 <p>Oh, the moods of that terrible Boy! No two the same and none to be relied on! Sometimes he was like a wild creature, there was no holding him, no knowing what he would do next; and the Tenor used to tremble lest he should carry out one of his impossible threats, among which serenading the Dean, upsetting the chime, climbing the Cathedral spire on the outside, or throwing stones at the stained-glass saints in the great west window, were intentions so often expressed that there seemed some likelihood of one or other of them being eventually put into execution. Then again he would <pb n="219"/>saunter in about midnight, and sit down in a dejected attitude, looking unutterably miserable; he would hardly answer when the Tenor spoke to him, and if he did not speak he resented it; neither would he eat, nor drink, nor make music, and if the Tenor sang he sometimes burst into tears.</p>
 <p>On other occasions he was the most commonplace creature imaginable. He would talk about a book he had been reading, a new picture his "people" had bought, the society in the neighbourhood; anything, in fact, to which the Tenor would listen, and the latter was often astonished by the acuteness of his perceptions, and the worldly wisdom of his conclusions.</p>
@@ -1738,8 +1787,8 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>The last words were delivered from outside in the garden after the Boy had made his escape through the window.</p>
 </div>
 <pb n="222"/>
-<div>
-<head>CHAPTER XI</head>
+<div id="sg2twins031" type="chapter" n="11">
+<head>CHAPTER XI.</head>
 <p>How long the Tenor's dream would have remained unbroken by action it is hard to say. His want of personal ambition, his perfect serenity of mind, and his thankfulness for a state of things so much more blissful than anything he had ever expected to fall to his lot again; the languid summer weather, and his affectionate anxiety for the Boy, all combined to keep him in Morningquest, and to keep his indefinite plans for the future still in abeyance.</p>
 <p>Other people, however, were not so apathetic. The Dean's friendly remonstrances had been redoubled of late; the Boy had become importunate; and even the mild musicians of Morningquest, whose boast it was to have that bright particular star in their own little firmament, ventured to hint respectfully that he was not doing his duty by himself. All this kindly interest in his future career was not without its effect upon him, and if it did not actually rouse him to act, it put him in the mood to be aroused.</p>
 <p>He was sitting alone one evening in his accustomed seat beside the fireplace, or rather beside the bank of ferns and flowering plants which he had arranged before the fireplace so as to hide it, at the instigation of the Boy. A shaded lamp stood on a table behind him, throwing its softened light from over his shoulder on to the big book which lay open on his knee. But he was not reading. He had placed his hands upon the book, and was resting his head on the back of the chair. His yellow hair seemed to shine out of the surrounding gloom with a light of its own; but his face was in shadow.</p>
@@ -1777,8 +1826,8 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>But the chime failed of its effect for once. There was something weary and enigmatical in the old worn strain. Hitherto, it had always been a comfort and an assurance to him, but to-night, for the first time, it was fraught with some portentous meaning. Was there any cause for alarm in what was happening? any reason for fear that should make it merciful to prepare him with misgivings? It was no new thing for the Tenor to be asked to sing something special, and he tried to think such a request, although it came from Angelica&#x2014;if indeed it came from her, and was not a fabrication of the Boy's&#x2014;was a whim as trifling as the rest. But even if it were, trifles, as all the world knows, are not to be despised. Someone has said already that they make up the sum of life, and it may also be observed that the hand of death is weighted by them.</p>
 </div>
 <pb n="227"/>
-<div>
-<head>CHAPTER XII</head>
+<div id="sg2twins032" type="chapter" n="12">
+<head>CHAPTER XII.</head>
 <p>THE Tenor happened to be entering the Cathedral next day for the afternoon service just as Angelica was being handed from a carriage by a singular looking man who wore <hi rend="italic">pince-nez</hi>, was clean shaven, and had an immense head of hair. Angelica very evidently called the attention of this gentleman to the Tenor as he passed, and the latter heard the "ach!" of satisfaction to which the stranger gave utterance when he had adjusted his <hi rend="italic">pince-nez</hi> with undisguised interest, and taken the Tenor in.</p>
 <p>The latter felt that he had seen the man before, and while he was putting on his surplice he remembered who he was, an <hi rend="italic">impresario</hi>, well-known by sight to regular opera goers and musicians generally. Having established his identity, the reason of his presence there that afternoon was at once apparent. The Tenor had been requested to sing a solo which was admirably calculated to display the range and flexibility of his voice to the best advantage, and the <hi rend="italic">impresario</hi> had been brought to hear him. The mountain had come to Mahomet.</p>
 <p>The Tenor never sang better than upon that occasion, and he had scarcely reached his cottage after the service was over, when the <hi rend="italic">impresario</hi> burst in upon him, having, in his eagerness, omitted the ceremony of knocking. He seized the Tenor's hand, exclaiming in broken English:&#x2014;"Oh, my tear froind, you are an ideal!" Then he flung his hat on the floor, and curvetted about the room, alternately rubbing his hands and running his lingers upwards through his luxuriant hair till it stood on end all over his head. "And have I found you?" he cried, sentimentally, apostrophising the ceiling. "Oh, have I found you? What a Lohengrin! Ach Gott! <pb n="228"/>it is the prince himself. Boat "&#x2014;and he stopped prancing in order to point his long forefinger at the Tenor's chest&#x2014;" boat you are an actor born, my froind! You was the Prince of Devotion himself jus' now. You do that part as if you feel him too! Why "&#x2014;jerking his head towards the Cathedral with a gesture which signified that if he had not seen the thing himself he never could have believed it&#x2014;" why, you loose yourself in there kompletely! "Then he asked the Tenor to sing again, which the Tenor did, being careful, however, not to give his excitable visitor too much lest the intoxicating draught should bring on a fit.</p>
@@ -1787,8 +1836,8 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>When he found himself alone at last and could think the matter over, he was thoroughly content with what he had done. There could be no doubt now as to whose wish it was that he should go and make a name for himself, and he felt sure that the step he was about to take would not lead to the separation he dreaded, but rather to the union for which he might at last without presumption, after such encouragement, venture to hope.</p>
 </div>
 <pb n="229"/>
-<div>
-<head>CHAPTER XIII</head>
+<div id="sg2twins033" type="chapter" n="13">
+<head>CHAPTER XIII.</head>
 <p>A FEW nights after the Tenor had signed the agreement the Boy burst in upon him, exclaiming in guttural accents: "Oh, my tear froind! have I found you?" Then he threw his hat on the floor and began to prance up and down, waving his hands ecstatically.</p>
 <p>The Tenor picked up a cushion and threw it at him. "You wretched Boy!" he said, laughing. "Who told you he did that?"</p>
 <p>"Oh, my <hi rend="italic">dear</hi> Israfil!" the Boy replied. "Why on earth do you ask who <hi rend="italic">told</hi> me? You must know by this time, and if you don't you should, that genius does not require to be told. Given the man and the circumstances, and we'll tell you exactly what he'll do, don't you know," and the Boy showed his teeth.</p>
@@ -1898,8 +1947,9 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
 <p>"They tried to make out that I had some motive&#x2014;something to gain by his death," the Tenor went on;" but everyone, and most of all his nearest of kin, his heir, came forward to exonerate me. He had provided for me in his will by settling the allowance he always made me on me and my heirs for ever. But he always said that my voice was my fortune, and he had no need to make enemies for me by giving me that which belonged by right to others. He was a just man, singularly open in all his dealings, and it was not hard to clear me, but still&#x2014;oh!"&#x2014;he broke off&#x2014;"it was awful! awful!"</p>
 <p>"And afterwards?" the Boy ventured to ask.</p>
 <p>"Afterwards," the Tenor repeated slowly. "Afterwards&#x2014;for some months&#x2014;I wandered about. They were all very kind. They wanted me to stay with them&#x2014;they wanted to take me abroad&#x2014;they would have done anything to help and comfort me. But all I cared for was to be alone. At first there was a blank&#x2014;the faces about me had no meaning for me&#x2014;the people when they spoke could scarcely make me understand. I was mad in a way, but not mad enough to be insensible to sorrow. I felt the fearful calamity that had fallen upon me, but nothing else. I told myself <pb n="244"/>every hour of the day that he was dead&#x2014;dead; cruelly cut off in the midst of his happy life by me whom he loved&#x2014;I could not have suffered more had I been guilty," the Tenor broke off. "This lasted&#x2014;I hardly know how long; but eventually I began to fancy that he saw my agony of grief, and that it was a torment to him not to be able to come and comfort me. Then one day&#x2014;I was in Cornwall at the time&#x2014;sitting on the sea shore&#x2014;and all at once&#x2014;it was the strangest thing in life&#x2014;I heard the chime! I had not been thinking of it. I doubt if I had thought of it a dozen times since I heard it first. But it sounded for me then&#x2014;
-<figure>
-<figDesc>He, watch-ing o - ver Is - ra - el, slumbers not, nor sleeps.</figDesc>
+<figure entity="sg2twinsillbar" rend="inline">
+<figDesc>A line of music from Mendelssohn's "Elijah," including the
+words: He, watching over Israel, slumbers not, nor sleeps.</figDesc>
 </figure>
 I heard it quite distinctly, and I got up and looked about me. It was the first thing outside myself that had arrested my attention since I had seen him drop on the moor. I went back to the inn I was staying at, and asked about it; but I could scarcely make them understand what I meant, and there was certainly no such chime in that neighbourhood. Then I felt it was a message sent specially to me, and I made my man pack up my things, and then I dismissed him, and started at once for Morningquest alone. It was a long journey, and although I travelled with all possible speed, I did not arrive until nearly forty-eight hours later. It was close on midnight then, and the first thing I heard, when I found myself alone in my room at the hotel, was the chime itself. Have you ever noticed&#x2014;or is it only my fancy?&#x2014;that it seems to strike louder at midnight, and with greater intensity of expression, as we ourselves strike final chords? It sounded so to me then, and suggested something&#x2014;I can't tell what, I can't define it; but something that changed the current of my thoughts, and made me feel I had done right to come. And from that moment my grief was less self-centred, <pb n="245"/>and the blessed power to feel for others began to return to me. Almost immediately after my arrival, I heard of the tragedy in the Cathedral, the suicide of the Tenor, and the trouble the Dean and Chapter were having to find a substitute; and when I had seen the quiet shady Close, and the beautiful old Cathedral, and my little house with its high-walled garden at the back, standing, as it were, on holy ground, I longed to take up my abode there, where no one would know my story but those to whom the secret would be sacred, and no one would intrude upon my grief. So I applied for the Tenor's place, and I knew as soon as I had taken the step that it was a wise one. I thought, if anything could restore the balance of my mind, it would be the regular employment, the quiet monotony, the something to do that I must do, the duty and obligation, which were just sufficient without being any tax on my powers to take me out of myself. And the being able to shut myself up from the world in the Close, as I said before, was another inducement, though by far the greatest were the daily services in the Cathedral; while taking part in them I always feel that I am nearer him. When I applied for the place, and the Dean heard who I was&#x2014;of course, he knew the story; the whole world knew it at that time&#x2014;and heard how I yearned for a life of devotion, he sympathized with me entirely, gladly acceded to my request, and agreed to keep my secret. He has told me since that he always hoped and believed the quiet regular life would restore me, and when it had he intended to urge me to go away, and make the most of my powers. Dear, kind old man! he has indeed been a good friend to me, and he is a good man himself, if ever there were one. But I seem to have known none but good men," the Tenor concluded thoughtfully.</p>
 <p>"But your money, Israfil," the Boy said, impatiently; "what did you do with that?"</p>
@@ -1911,8 +1961,8 @@ I heard it quite distinctly, and I got up and looked about me. It was the first 
 <p>The moon had set by this time, and the summer dawn was near.</p>
 </div>
 <pb n="247"/>
-<div>
-<head>CHAPTER XIV</head>
+<div id="sg2twins034" type="chapter" n="14">
+<head>CHAPTER XIV.</head>
 <p>THE next night the Boy appeared again in his white boatiug suit, with his sandy hair tumbled, if possible, more than usual. His restless eyes sparkled and glanced, and there was a glow beneath his clear skin which answered in his to a heightened colour in other complexions. He was evidently excited about something, and the Tenor thought he had never seen him look so well. What his mood was did not become immediately apparent. The Tenor had learnt that the sparkle in his eyes either meant some mischievous design, or a strong desire to "make music." But this evening he was long in coming to the point. He began by pelting the Tenor with roses through the window, and then he entered and danced an impromptu breakdown in the middle of the room; but these preliminaries might have been an introduction to anything, and it seemed as if his programme were not complete, for he next subsided into his accustomed seat on a sofa up against the wall opposite the fireplace, and remained there, with his hands in his pockets, looking at the Tenor thoughtfully for at least ten minutes.</p>
 <p>The Tenor was also in his accustomed seat beside the hearth&#x2014;or rather beside the stand of growing flowers and ferns that hid the hearth, with a book on his knee. He was sitting there when the first rose whizzed in out of the silence and solitude of night without warning upon him, announcing the arrival of the Boy. It startled him somewhat, but he did not wince from the shower that followed, nor did ho move when the Boy chose to show himself, but merely smiled and closed his book and then sat watching the next part of the proceedings with the gravity of an eastern potentate. He sat so now, looking up at <pb n="248"/>the great Cathedral, seen dimly through the open window, towering above them, his profile turned to the Boy, and the roses all about him&#x2014;on the floor, on the back of his chair, one on his shoulder, another on his book, and one he held in his hand. There were dozens of them of every hue, from that deep crimson damask which is almost black, to the purest white, fresh gathered from the trees apparently, with the dew still glistening on their perfumed petals and on the polished surface of the leaves. The Tenor, becoming conscious of the <hi rend="italic">Gloire de Dijon</hi> he held in his hand, looked into its creamy depth with quiet eyes. The beauty of the flower was a pleasure to him&#x2014;though, for the matter of that, everything was a pleasure to him now. He had no words to tell it, but his face was irradiated by the gladness of the hope which he cherished, from morning till night.</p>
 <p>The Boy had been watching him admiringly. "You will be one of the beauties when you come out, dear Israfil," he said. "They will photograph you and put you in the shop windows, cabinet size two-and-sixpence. Sounds rather vulgar, though, doesn't it? Savours of desecration, to my mind. But, Israfil, you will certainly be the rage. One so seldom sees a good looking man! Good looking women are common enough, and they make themselves still commoner nowadays"&#x2014;which remark coming from such a quarter amused the Tenor, whereupon the Boy became irate. "Oh, jeer away!" he exclaimed; "but when you know Angelica as well as I do you will respect my knowledge of the subject."</p>
@@ -1922,8 +1972,9 @@ I heard it quite distinctly, and I got up and looked about me. It was the first 
 <p>"Pipes and tobacco and roses!" he said at last. "What a mixture it sounds! But it doesn't look bad, dear Israfil," he added encouragingly.</p>
 <p>The Tenor made no remark; his pipes seemed to be all engrossing. He had just filled the bowl of one "with a number of fusee-heads, cut off short, and now he popped in a light and corked them up. There was a tiny explosion on the instant, followed by a rush of smoke through the shank of the pipe, which swept it clean, and added musk and gunpowder to the already heavy odour of roses that filled the room.</p>
 <p>The Boy, still lolling on the sofa observing the Tenor's proceedings with interest, drew up one leg, clasped his hands round it below the knee, and began to sing to himself in a monotonous undertone as was his wont.</p>
-<p>"By-the-bye," the Tenor said, like one who suddenly remembers, "I found some verses after you were here the other night"&#x2014;and he straightened himself to feel in his pockets&#x2014;"I suppose you dropped them. Here they are." And then he leant back in his chair again and read aloud:&#x2014;</p>
-<lg>
+<p>"By-the-bye," the Tenor said, like one who suddenly remembers, "I found some verses after you were here the other night"&#x2014;and he straightened himself to feel in his pockets&#x2014;"I suppose you dropped them. Here they are." And then he leant back in his chair again and read aloud:&#x2014;
+<q>
+<lg type="stanza">
 <l>When the winter storms were howling o'er the ocean,</l>
 <l>Leafless trees and sombre landscape cold and drear,</l>
 <l>Bitter winds, and driving rains, or white commotion</l>
@@ -1937,7 +1988,7 @@ I heard it quite distinctly, and I got up and looked about me. It was the first 
 <l>With the coming of the green leaves, something told me,</l>
 <l>With the coming of the green leaves there is peace.</l>
 </lg>
-<lg>
+<lg type="stanza">
 <l>When the bursting buds proclaim'd the spring time nearing,</l>
 <l>Song of birds and scent of flowers everywhere,</l>
 <l>Drowsy drone of distant workers, and the cheering</l>
@@ -1952,6 +2003,8 @@ I heard it quite distinctly, and I got up and looked about me. It was the first 
 <l>And the sunshine-lighted summer rose revealing</l>
 <l>With the coming of the green leaves there is peace."</l>
 </lg>
+</q>
+</p>
 <p>The Tenor looked at the Boy when he had finished, shook his head mournfully, struck a match, set fire to the paper upon which the verses were written, and watched it burn with the air of a disappointed man.</p>
 <p>"Don't make any more rhymes, Boy," he said; "don't write any more, at least, until you get out of the sickly sentimental stage. I thought I was prepared for the worst, but I really never imagined anything quite so bad as that."</p>
 <p>The Boy, although he had listened to the lines with a fine affectation of enjoyment, was in no way discomposed by the Tenor's adverse criticism; he seemed, on the contrary, to enjoy that too, for he chuckled and hugged himself ecstatically before he replied.</p>
@@ -1972,7 +2025,7 @@ I heard it quite distinctly, and I got up and looked about me. It was the first 
 <p>As he walked through the Close, still a little behind the Boy, he could not help noticing, by no means for the first time, but more particularly than usual, what a graceful creature the latter was. His slender figure showed to advantage in the light flannels. They made him look broader and more manly while leaving room for the free play of limb and muscle. He had knotted a crimson silk scarf round his neck, sailor fashion, and twisted a voluminous <pb n="252"/>cummerbund of the same round his waist, carelessly, so that one heavily fringed end of it came loose, and now hung down to his knee, swaying with his body as he moved. The Tenor remembered that his socks were also of crimson silk, a detail which had caught his eye as the Boy lolled on the sofa. It was evident that the costume had cost him a thought, and, if somewhat theatrical, it was certainly picturesque, and entirely characteristic. In one respect the Boy's art was perfect: although he was quite conscious of his good looks, he never had the air of being so; every movement was natural and spontaneous, like the movements of a wild creature, and as agile. He seemed to rejoice in his own strength, to delight in his own suppleness; and he walked on now with healthy elastic step, his violin held to his shoulder, his clear cut cheek leant down to it lovingly, his luxuriant light hair all tumbled and tossed, while he kept time to an imaginary tune with the bow in his right hand, now flourishing it in the air, and now drawing it across the instrument, scarcely seeming to touch the strings, yet waking low &#x00C6;olean harplike murmurs, or deep thrilling tones, or bright melodious cadences; making it respond to his touch like a living creature, and glancing back over his shoulder at the Tenor as they proceeded, with a joyous face as if sure of his sympathy, but anxious to see if he had it all the same.</p>
 <p>"I feel more amiable now,'' he said, between cadence and cadence. ''Kindly consider that I have cancelled all my former misstatements. Cynicism can't exist in a healthy sensorium with sounds like these"&#x2014;and he executed a magnificent <hi rend="italic">crescendo</hi> passage on his violin. "When I want to play I feel that I must prepare myself. Making music is a religious rite to me, which can only be performed by one in perfect charity with all men."</p>
 <p>They were seated in the boat by this time, the Tenor at the oars.
-<q>"Row, brothers, row!"</q>
+<q><l>"Row, brothers, row!"</l></q>
 <pb n="253"/>the "Boy played&#x2014;"and steer yourself," he said. "I can do nothing but accompany you."</p>
 <p>And then he began in earnest, while the Tenor made the boat fly past river bank, and towing path, and house, and wharf; past bridge, and tower and town&#x2014;it seemed but a flash, and they were out in the open country! flat meadows on the left, and on their right the green swelling upland, dotted with slumbrous cattle and sheep, and shadowy with the heavy summer foliage of old trees. The Tenor stopped there, exhausted.</p>
 <p>"There is madness in your music, Boy," he said. "It puts me beside myself."</p>
@@ -1992,18 +2045,18 @@ I heard it quite distinctly, and I got up and looked about me. It was the first 
 <p>It would have been no great stretch of the imagination to have supposed that nature did sympathize with man in his moods just then, for gradually, as if to the music, the murky clouds had parted like a curtain at a given signal, and rolled away, leaving the vault of night high and bare and blue above them, with here and there a diamond star or two sparsely sprinkled from horizon to zenith, radiant at first, but presently paling before a slender shaft of light that shot up in the east, and then, opening fan-like was quickly followed by the great golden rim of the moon herself. She rose from behind a hill crested with fir trees, which appeared for a moment as if photographed on her disc, and then, mounting rapidly, hung suspended in a clear indigo sky above the quiet woods, the river and the little boat, which was motionless now&#x2014;an ideal moon in an ideal world with ideal music to greet her. But the Boy dropped the violin on his knee and forgot to play as ho watched this beautiful transformation scene, and the Tenor's song sank to a murmur while he also gazed and waited, dipping his oars to keep the boat in mid-stream, mechanically. Joy and sadness are near akin in music; they are like pleasure and happiness, the one is the <pb n="256"/>surface of feeling, the other its depth; and there is solemnity in every phase of absolute beauty which cannot fail to influence such natures as the Tenor's and the Boy's. It was the Tenor, though, that felt this moment most. His nature, if not deeper, was more devout than the Boy's; pleasure with him was a veritable uplifting of the spirit in praise and thankfulness; and all the peace and quietness about them, the marvellous light on hill and wood and vale, and even the nearness of the unseen city, which he felt without perceiving it, and from which there came to him that sense of fellowship and of the sacredness of human life in which all the best qualities of man are rooted; these together sanctified the time. Although, for the matter of that, to such a nature all times and seasons are sanctified. For if ever a man's soul was purified on earth, his was; and if ever a man deserved to see heaven, he did. Humanly speaking there was no stain on him; in thought, word, and deed, he was immaculate, and true as a little child. This moment was therefore peculiarly his own, a moment of deep happiness, which found expression, as all pleasurable emotion did with him, in music. He lifted up his voice, that wonderful voice which had no equal then upon earth, and sang as he had sung once before on that very spot when the first vague idea of the omnipresent majesty of a God possessed him, sang with all his heart, and it was the Litany of the Blessed Virgin, the one he had heard in France in days gone by, the one he had been singing when first he met the Boy, which recurred to him now&#x2014;why or wherefore it would be hard to say. He had not thought of it since. But perhaps the moon, which was shining again as it had shone that night on the old market-place, had helped to recall it, or perhaps it satisfied him with a sense of appropriateness. For it was not a dismal, monotonous product of mercenary dryness to which the words were set, but the characteristic music of devotion by which the spirit of prayer is made audible when words fail, as they always do, to express it in all its force and fervour.</p>
 <pb n="257"/>
 <p>The Boy listened awhile with parted lips. It was a new experience for him, and he was deeply moved. Then his musical instinct awoke, and presently he took up the strain, voice and violin, accompanying the Tenor, who rowed on once more, while the river banks resounded with "<hi rend="italic">Christe audi nos, Christe exaudi nos</hi>," and re-echoed "<hi rend="italic">Miserere nobis</hi>."</p>
-<p>At one point as they approached, a lady appeared suddenly, and stood with her hands clasped to her breast, looking and listening. She was a tall and graceful woman wrapped in a long cloak and bare headed, as if she had stepped out from somewhere just for the moment. She evidently recognized the singer; and the Boy would have recognized the beautiful face, strong in its calm, sad serenity, and compassionate, had he looked that way; but he did not look that way, and they swept on, the music growing fainter and fainter in the distance, till at last the boat was out of sight. Yet even then a few high notes continued to float back; but these in turn quivered into silence, and all was still&#x2014;only for a moment, though, for the clocks had struck unheeded, and now the chime rang out through the sultry air, voice-like, clear, and resonant:</p>
-<p>
-<figure>
-<figDesc>He, watch-ing o - ver Is - ra - el, slumbers not, nor sleeps.</figDesc>
+<p>At one point as they approached, a lady appeared suddenly, and stood with her hands clasped to her breast, looking and listening. She was a tall and graceful woman wrapped in a long cloak and bare headed, as if she had stepped out from somewhere just for the moment. She evidently recognized the singer; and the Boy would have recognized the beautiful face, strong in its calm, sad serenity, and compassionate, had he looked that way; but he did not look that way, and they swept on, the music growing fainter and fainter in the distance, till at last the boat was out of sight. Yet even then a few high notes continued to float back; but these in turn quivered into silence, and all was still&#x2014;only for a moment, though, for the clocks had struck unheeded, and now the chime rang out through the sultry air, voice-like, clear, and resonant:
+<figure entity="sg2twinsillbar" rend="inline">
+<figDesc>A line of music from Mendelssohn's "Elijah," including the
+words: He, watching over Israel, slumbers not, nor sleeps.</figDesc>
 </figure>
 </p>
 <p>The lady listened, looking up as if the message were for her, but sighed.</p>
 <p>"It will come right, I know," she said, as she turned away. "But, Lord, how long?"</p>
 </div>
 <pb n="258"/>
-<div>
-<head>CHAPTER XV</head>
+<div id="sg2twins035" type="chapter" n="15">
+<head>CHAPTER XV.</head>
 <p>AIR perfumed with flowers; music, motion, warmth and stillness; moonlit meadows, shadowy woods, the river and the boat; it had been a time of delight too late begun and too soon ended. But exaltation cannot last beyond a certain time at that height, and then comes the inevitable reaction. It came upon the Tenor and the Boy quite suddenly, and for no apparent reason. It was the Boy who felt it first and loft off playing, then the song ceased, and the Tenor rowed on diligently. They were near the landing place by this time, but the Tenor did not know it. He had not noticed the landmarks as they passed, and thought they had still some distance to go.</p>
 <p>"Here, Boy," he said, breaking a long silence. "Take the oars and row. I am tired. And it is your turn now."</p>
 <p>"Oh!" the Boy exclaimed, derisively. "Just as if I would row and blister my lovely white hands when you are here to row me!"</p>
@@ -2114,7 +2167,14 @@ I heard it quite distinctly, and I got up and looked about me. It was the first 
 <p>But she could not plait it, her hands trembled so, and he was obliged to help her. He got her a hat to roll it up under.</p>
 <p>"The light is uncertain," he said, "and it is raining now. Even if we do meet anyone, I don't think they would notice&#x2014;especially if I can find an umbrella for you."</p>
 <p>He hunted one up from somewhere, and then he hurried her away, ferried her across the river, and left her at the lodge gate safely, his last words being:&#x2014;"You will do some good in the world&#x2014;you will be a good woman yet, I know&#x2014;I know you will."</p>
+<trailer>END OF BOOK IV.--VOL.II.</trailer>
+</div>
 </div>
 </body>
+<back>
+<div id="sg2twins050" type="colophon">
+<l>PRINTED AT THE GUARDIAN OFFICE, WARRINGTON.</l>
+</div>
+</back>
 </text>
 </TEI.2>
