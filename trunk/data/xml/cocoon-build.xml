@@ -1,0 +1,179 @@
+<project name="site">
+      <!-- sets some essesntial properties for these targets -->      
+    <target name="-cocoon.init">
+                        <mkdir dir="${cocoon-tool.dir}" />
+                        <property name="cocoon.webapp" value="${cocoon-tool.dir}/webapp" />
+                        <property name="cocoon.tasks" value="${cocoon-tool.dir}/taskdefs" />
+                        <property name="cocoon.lib" value="${cocoon.webapp}/WEB-INF/lib" />    
+
+    </target>
+    
+    
+
+        <!-- checks what kind of OS this is running on -->    
+    <target name="-cocoon.oscheck" >
+        <condition property="isWindows">
+                    <os family="windows" />
+                </condition>
+    </target>
+    
+    
+    
+        <!-- creates Windows batch files for cocoon dependencies -->
+    <target name="-cocoon.bat" if="isWindows"
+            depends="-cocoon.init, -cocoon.oscheck" >
+
+        <echo>Building batch files for support on windows OS</echo>
+                <property name="shbat" value="bat" />
+
+        <echo file="${cocoon-tool.dir}/getc2.${shbat}"><![CDATA[        
+@echo off       
+cd %COCOON_HOME%
+build.bat -propertyfile %PROJECT_PROPERTIES% clean webapp "-Dbuild.webapp=%PROJECT_WEBAPP%"
+ "-Dtools.tasks.dest=%PROJECT_TASKDEFS%"
+]]></echo>
+
+        <echo file="${cocoon-tool.dir}/runc2.${shbat}"><![CDATA[
+@echo off
+set JETTY_WEBAPP=%PROJECT_WEBAPP%
+cd %COCOON_HOME%
+cocoon.bat servlet-debug
+]]></echo>
+    </target>
+
+
+
+        <!-- creates shell scripts for cocoon dependencies -->    
+    <target name="-cocoon.sh" unless="isWindows"
+            depends="-cocoon.init, -cocoon.oscheck" >
+
+        <echo>Building shell scripts for support on non-windows</echo>
+                <property name="shbat" value="sh" />
+
+        <echo file="${cocoon-tool.dir}/getc2.${shbat}"><![CDATA[#!/bin/sh
+cd $COCOON_HOME
+./build.sh -propertyfile $PROJECT_PROPERTIES  -Dbuild.webapp=$PROJECT_WEBAPP  -Dtools.tasks.dest=$PROJECT_TASKDEFS  clean webapp
+]]></echo>
+       <chmod file="${cocoon-tool.dir}/getc2.${shbat}" perm="u+x"/>
+
+        <echo file="${cocoon-tool.dir}/runc2.${shbat}"><![CDATA[#!/bin/sh
+export JETTY_WEBAPP=$PROJECT_WEBAPP
+cd $COCOON_HOME
+cocoon.sh servlet-debug
+]]></echo>
+        <chmod file="${cocoon-tool.dir}/runc2.${shbat}" perm="u+x"/>
+
+    </target>    
+
+
+
+    <!-- creates as needed batch files or shell scripts -->
+    <target name="-cocoon.shbat" depends="-cocoon.bat, -cocoon.sh" />
+
+
+
+        <!-- checks if the cocoon dependency is holding what we expect 
+                 sets a variable if all is ok -->
+        <target name="-cocoon.test" depends="-cocoon.init">
+                <condition property="cocoon.ok" value="true">
+                        <and>
+                                <available type="dir" file="${cocoon.lib}" />
+                                <available classname="XConfToolTask" 
+                                           classpath="${cocoon.tasks}"/>
+                        </and>
+                </condition>
+        </target>
+
+
+        
+        <!-- fails the build if the cocoon dependency is not met -->
+        <target name="-cocoon.check" depends="-cocoon.test" unless="cocoon.ok">
+                <fail>No cocoon available. Run 'ant get_cocoon' first.</fail>
+        </target>
+
+
+
+
+        <target name="-cocoon.patch">
+                <echo>Patching ${cocoon.patch.target} with 
+${cocoon-xconf.dir}/*.${cocoon.patch.src-extension} ...</echo>
+                <xpatch 
+                        file="${cocoon.patch.target}"
+            srcdir="${cocoon-xconf.dir}" 
+            includes="**/*.${cocoon.patch.src-extension}"/>
+    </target>
+
+
+    <!-- applies the patch files in the ${cocoon-xconf.dir} 
+         on the various cocoon conf files -->
+        <target name="cocoon.xconf" depends="-cocoon.check">
+                <path id="cocoon-tasks.cp">
+                        <pathelement path="${cocoon.tasks}" />
+                        <path>
+                                <fileset dir="${cocoon.lib}">
+                                        <include name="xalan*.jar" />
+                                        <include name="xerces*.jar" />
+                                        <include name="xml*.jar" />
+                                </fileset>
+                        </path>
+                </path>
+
+                <taskdef 
+                    name="xpatch" 
+                    classname="XConfToolTask" 
+                    classpathref="cocoon-tasks.cp"/>    
+
+                <antcall target="-cocoon.patch" >
+                        <param name="cocoon.patch.target" 
+                                   value="${project.cocoon.webapp}/WEB-INF/cocoon.xconf" />
+                        <param name="cocoon.patch.src-extension" 
+                                   value="xconf" />
+                </antcall>
+
+                <antcall target="-cocoon.patch" >
+                        <param name="cocoon.patch.target" 
+                                   value="${project.cocoon.webapp}/WEB-INF/logkit.xconf" />
+                        <param name="cocoon.patch.src-extension" 
+                                   value="xlog" />
+                </antcall>
+
+                <antcall target="-cocoon.patch" >
+                        <param name="cocoon.patch.target" 
+                                   value="${project.cocoon.webapp}/sitemap.xmap" />
+                        <param name="cocoon.patch.src-extension" 
+                                   value="xmap" />
+                </antcall>
+
+                <antcall target="-cocoon.patch" >
+                        <param name="cocoon.patch.target" 
+                                   value="${project.cocoon.webapp}/WEB-INF/web.xml" />
+                        <param name="cocoon.patch.src-extension" 
+                                   value="xweb" />
+                </antcall>
+
+        </target>
+
+
+
+    <!-- gets cocoon-webapp into this project -->
+    <target name="cocoon.get" depends="init,-cocoon.shbat">
+        <exec executable="${cocoon-tool.dir}/getc2.${shbat}" failonerror="true">
+                    <env key="COCOON_HOME" file="${cocoon-dist.home}" />
+                    <env key="PROJECT_PROPERTIES" file="${cocoon-build.properties}" />
+                    <env key="PROJECT_WEBAPP" file="${cocoon.webapp}" />
+                    <env key="PROJECT_BUILD" file="${cocoon-tool.dir}" />
+                    <env key="PROJECT_TASKDEFS" file="${cocoon.tasks}" />
+        </exec>
+    </target>
+
+
+
+    <!-- runs cocoon on the built in jetty to test -->
+    <target name="cocoon.run" depends="-cocoon.shbat, -cocoon.check">
+        <exec executable="${cocoon-tool.dir}/runc2.${shbat}" >
+                    <env key="COCOON_HOME" file="${cocoon-dist.home}" />
+                <env key="PROJECT_WEBAPP" file="${cocoon.webapp}" />
+        </exec>
+    </target>
+
+</project>

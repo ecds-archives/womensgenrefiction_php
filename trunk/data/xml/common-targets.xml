@@ -1,0 +1,1417 @@
+<project name="common-targets" default="data" basedir=".">
+<import file="cocoon-build.xml"/>
+<target name="all" depends="clean,data-prep,dist,webapps" description="* Clean, data-prep, distribute, webapps"/>
+
+<target name="data" depends="clean,data-prep,dist-docs-tar" description="* Clean, data-prep and distribute data"/>
+
+<target name="webapps" depends="clean-webapps-dist,distWebapps" description="* Webapps build and distribution"/>
+
+  <!-- =================================================================== -->
+  <!-- Initialization target                                               -->
+  <!-- =================================================================== -->
+  <target name="init">
+    <tstamp/>
+    <property environment="env"/> <!-- provides access to environment var -->
+    <property name="build.sysclasspath" value="ignore"/>
+<echo message="--------------------------------------------------------------"/><echo message="Start time ${DSTAMP}:${TSTAMP}"/>
+<echo message="--------------------------------------------------------------"/>
+<!-- ===================================================================== -->
+<!-- properties that may be provided on input line with the following      -->
+<!--         syntax: ant -Dproperty.name propertyValue optionalTargetName  -->
+
+    <property name="input.xml" value="/Users/jleon/Documents/${ant.project.name}"/>
+
+    <!-- set to 'false' to test only for well-formed'                      -->
+    <!-- this switch is not working yet; only option is validate -->
+    <property name="validate" value="true"/>
+ <!-- ==================================================================== -->
+
+
+<path id="base.path">
+      <fileset dir="${env.ANT_HOME}/lib">
+        <include name="**/*.jar"/>
+      </fileset>
+      <pathelement path="${env.SAXON_HOME}/saxon.jar"/>
+</path>
+
+<path id="xslt.path">
+<pathelement location="${env.SAXON_HOME}/saxon.jar"/>
+</path>
+
+<patternset id="cocoon-deployement">
+<include name="WEB-INF/web.xml"/>
+</patternset>
+
+
+<patternset id="metadata.subject.list">
+<include name="*subjectlistM.xml"/>
+</patternset>
+
+<patternset id="metadata.collection">
+<include name="${ant.project.name}Meta.xml"/>
+</patternset>
+
+<patternset id="metadata.collection.with.prolog">
+<include name="${ant.project.name}MetaP.xml"/>
+</patternset>
+
+    <property name="fullname" value=" ${ant.project.name}"/>
+    <property name="Name"     value="${ant.project.name}"/>
+    <property name="name"     value="${ant.project.name}"/>
+    <property name="version"  value="HEAD"/>
+    <property name="short.version" value="HEAD"/>
+    <property name="year"     value="${year}"/>
+
+    <echo message="--------------------------------------------------------------"/>
+    <echo message="            ${fullname} ${version} [${year}]                  "/>
+    <echo message="--------------------------------------------------------------"/>
+    <echo message="Building with ${ant.version}"/>
+    <echo message="using build file ${ant.file}"/>
+    <echo message="--------------------------------------------------------------"/>
+
+
+    <property name="build.root"     value="./build"/>
+    <property name="build.dir"      value="${build.root}/${name}-${version}"/>
+    <property name="build.src"      value="${build.dir}/"/>
+
+    <property name="build.dataPrep.dir"     value="${build.dir}/${ant.project.name}/dataPrep"/>
+    <property name="build.dataPrep.dtd.dir"     value="${build.dataPrep.dir}/DTD"/>
+
+    <property name="build.webapps.dir"     value="${build.dir}/${ant.project.name}/webapps"/>
+    <property name="build.webapps.xsl.dir"     value="${build.webapps.dir}/stylesheets"/>
+    <property name="build.webapps.xsp.dir"     value="${build.webapps.dir}/xsp"/>
+    <property name="build.webapps.css.dir"     value="${build.webapps.dir}/resources/styles"/>
+    <property name="build.webapps.docs.dir"     value="${build.webapps.dir}/resources/docs"/>
+    <property name="build.webapps.scripts.dir"     value="${build.webapps.dir}/resources/scripts"/>
+    <property name="build.webapps.images.dir"     value="${build.webapps.dir}/resources/images"/>
+    <property name="build.webapps.java.classes.dir"     value="${build.webapps.dir}/WEB-INF/classes"/> 
+    <property name="build.webapps.java.lib.dir"     value="${build.webapps.dir}/WEB-INF/lib"/>
+
+    <property name="build.xml.dir"     value="${build.dir}/docs"/>
+    <property name="build.xml.collection.dir"     value="${build.dir}/docs"/>
+
+    <property name="build.log.dir"  value="${basedir}/logs"/>
+    <property name="xml.dir"  value="${basedir}/xml"/>
+    <property name="xml.proofing.dir"     value="${basedir}/proofing"/>
+    <property name="xml.meta-proofing.dir"     value="${basedir}/meta-proofing"/>
+
+    <property name="build.xml.taminoLoad.dir"     value="${build.xml.dir}/tamino-data"/>
+    <property name="build.xml.taminoMetadataLoad.dir"     value="${build.xml.dir}/tamino-metadata"/>
+
+    <property name="build.dtd.dir"     value="${build.dir}/DTD"/>
+
+    <property name="dist.root"   value="./dist"/>
+    <property name="dist.name" value="${name}-${version}"/>
+    <property name="dist.dir"    value="${dist.root}/${dist.name}"/>
+    <property name="dist.xml.dir"    value="${dist.dir}/docs"/>
+    <property name="dist.xml.dtd.dir"    value="${dist.dir}/DTD"/>
+    <property name="dist.xml.collection.dir"    value="${dist.xml.dir}/${ant.project.name}"/>
+    <property name="dist.webapps.dir"    value="${dist.dir}/webapps"/>
+    <property name="dist.webapps.metadata.dir"    value="${dist.webapps.dir}/docs"/>
+    <property name="dist.webapps.images.dir"     value="${dist.webapps.dir}/resources/images"/>
+    <property name="dist.webapps.xsl.dir"    value="${dist.webapps.dir}/stylesheets"/>
+    <property name="dist.webapps.xsp.dir"    value="${dist.webapps.dir}/xsp"/>
+    <property name="dist.webapps.css.dir"    value="${dist.webapps.dir}/resources/styles"/>
+    <property name="dist.webapps.docs.dir"     value="${dist.webapps.dir}/resources/docs"/>
+    <property name="dist.webapps.scripts.dir"     value="${dist.webapps.dir}/resources/scripts"/>
+    <property name="dist.webapps.dtd.dir"    value="${dist.webapps.dir}/DTD"/>
+    <property name="dist.webapps.java.classes.dir"    value="${dist.webapps.dir}/WEB-INF/classes"/><!-- how do these classes get loaded? now must be under cocoon -->
+    <property name="dist.webapps.java.lib.dir"    value="${dist.webapps.dir}/WEB-INF/lib"/>
+
+
+<path id="tamino.loader">
+<pathelement location="${build.dataPrep.dir}/JavaLoader.jar"/>
+<pathelement location="${build.dataPrep.dir}/xml-apis-sag-v4141.jar"/>
+</path>
+
+<xmlcatalog id="allcatalogs">
+<!--This target must reside after the definition of  ${build.dtd.dir}-->
+
+<dtd publicId="-//TEI P4//DTD Main DTD Driver File//EN" location="${build.dtd.dir}/tei2.dtd"/>
+<dtd publicId="-//TEI P4//DTD Main Document Type//EN" location="${build.dtd.dir}/tei2.dtd"/>
+</xmlcatalog>
+
+</target>
+
+<target name="set-collection" depends="set-has-collection,set-collection1,set-collection2"/>
+<target name="set-has-collection" depends="init">
+<condition property="has-collection" value="true">
+<isset property="collection"/>
+</condition>
+</target>
+<target name="set-collection1" depends="init" if="has-collection">
+<property name="_collection" value="${collection}"/>
+</target>
+<target name="set-collection2" depends="init" unless="has-collection">
+<property name="_collection" value="${ant.project.name}"/>
+</target>
+
+  <!-- =================================================================== -->
+  <!-- Clean targets                                                       -->
+  <!-- =================================================================== -->
+<target name="clean" depends="init,set-collection" >
+<!--description="* Cleans everything except cvs checkout dirs"-->
+<delete includeEmptyDirs="true">
+<fileset dir="${basedir}">
+<!--
+<include name="*"/>
+<include name="**/*"/>
+-->
+<exclude name="build.xml"/>
+<exclude name="${_collection}.xml"/>
+<exclude name="common-targets.xml"/>
+<exclude name="cocoon-build.xml"/>
+<exclude name="**/dataPrep/**/*"/>
+<exclude name="**/webapps/**/*"/>
+<exclude name="**/frameworkCommon/**/*"/>
+</fileset>
+</delete>
+<mkdir dir="${build.log.dir}"/>
+</target>
+
+<!-- When the cvs repository has changed, then manually delete the build directory-->
+<target name="clean-all" depends="init,set-collection" description="* Cleans everything to the original state">
+<delete includeEmptyDirs="true">
+<fileset dir="${basedir}">
+<exclude name="build.xml"/>
+<exclude name="${_collection}.xml"/>
+<exclude name="common-targets.xml"/>
+</fileset>
+</delete>
+</target>
+
+<!-- now won't use cvs to checkout; build in the cvs dir -->  
+<target name="clean-build" depends="init">
+<delete dir="${build.root}"/>
+<mkdir dir="${build.root}"/>
+<mkdir dir="${build.log.dir}"/>
+</target>
+
+  <target name="clean-dist" depends="init, clean-xml-dist, clean-webapps-dist">
+<!-- description="* Cleans the dist directory"-->
+    <delete dir="${dist.root}"/>
+</target>
+  <target name="clean-xml-dist" depends="init"> 
+<!-- description="* Cleans the dist xml directory"-->
+    <delete dir="${dist.xml.dir}"/>
+    <mkdir dir="${dist.xml.dir}"/>
+</target>
+  <target name="clean-webapps-dist" depends="init" >
+<!--description="* Cleans the dist webapps directory"-->
+    <delete dir="${dist.webapps.dir}"/>
+</target>
+<target name="clean-meta-build" depends="init" >
+<!--description="* Cleans the build directory of metaData files"-->
+    <delete >
+<fileset dir="${build.xml.dir}">
+<include name="*M.xml"/>
+</fileset>
+</delete>
+</target>
+  <!-- =================================================================== -->
+  <!-- Data Preparation                                                    -->
+  <!-- =================================================================== -->
+  <target name="data-prep" depends="init, content-data, meta-data"/>
+<!-- description="* Creates content xml and tamino scripts"/ -->
+
+  <target name="content-data" depends="init,source-4-data-prep, source-dtd-4-build, make-xml-build-dirs, unicode-entities, unique-id, proofing, tamino-data-loader">
+<!-- description="* Prepares data, creating tamino data and dtd's"-->
+<echo message="Data build directories complete: ${build.xml.dir},"/>
+<echo message="${build.dtd.dir}"/>
+</target>
+
+<target name="meta-data" depends="init, set-collection, source-4-data-prep, xml-2-meta, meta-proofing, tamino-metadata-loader"/>
+<!-- description="* Creates meta-data"/ -->
+
+<target name="source" depends="init,source-4-data-prep, sourceWebapps"/>
+<!-- description="* Sources programs and data for data preparation and web application"/-->
+<target name="source-4-data-prep" depends="init">
+<!-- description="* Sources data preparation programs, data and DTD's" -->
+<!-- for remote development; to checkout from remote cvs -->
+<condition property="cvsroot" value="/home/jleon/cvsroot">
+<and><istrue value="${remote}"/></and>
+</condition>
+<condition property="cvsroot" value=":pserver:anonymous@jleon2.cc.emory.edu:/home/jleon/cvsroot">
+<not>
+<istrue value="${arachneCvs}"/>
+</not>
+</condition>
+<condition property="cvsroot" value=":ext:${env.USER}@arachne.library.emory.edu:/home/cvsroot">
+<and>
+<istrue value="${arachneCvs}"/>
+</and>
+</condition>
+<property name="frameworkCvs" value=":pserver:anonymous@jleon2.cc.emory.edu:/home/jleon/cvsroot"/>
+
+<mkdir dir="${build.src}"/>
+
+<!-- needed until all applications are upgraded to using the framework tamino-load, so that updates from framework are applied -->
+<delete file="${build.dataPrep.dir}/tamino-data-controller.pl"/>
+
+ <cvs  command="checkout -kb" package="${ant.project.name}/dataPrep"
+       dest="${build.src}"
+       tag="${version}"
+       quiet="false"
+       cvsRoot="${cvsroot}"
+       failonerror="true"
+  />
+ <cvs  command="checkout -kb" package="frameworkCommon/dataPrep"
+       dest="${build.src}"
+       tag="HEAD"
+       quiet="false"
+       cvsRoot="${frameworkCvs}"
+       failonerror="true"
+  />
+<copy  todir="${build.dataPrep.dir}" overwrite="true">
+<fileset  dir="${build.src}frameworkCommon/dataPrep">
+
+<!-- only until all apps converted to framework controller -->
+<exclude name="tamino-data-controller.pl"/> 
+
+</fileset>
+</copy>
+</target>
+
+<target name="sourceDTD" depends="init" >
+<!--description="* Sources the DTD's"-->
+<condition property="cvsroot" value="/home/jleon/cvsroot">
+<and><istrue value="${remote}"/></and>
+</condition>
+<condition property="cvsroot" value=":pserver:anonymous@jleon2.cc.emory.edu:/home/jleon/cvsroot">
+<not>
+<istrue value="${arachneCvs}"/>
+</not>
+</condition>
+<condition property="cvsroot" value=":ext:${env.USER}@arachne.library.emory.edu:/home/cvsroot">
+<and>
+<istrue value="${arachneCvs}"/>
+</and>
+</condition>
+<property name="frameworkCvs" value=":pserver:anonymous@jleon2.cc.emory.edu:/home/jleon/cvsroot"/>
+
+<mkdir dir="${build.src}"/>
+ <cvs  package="${ant.project.name}/dataPrep/DTD"
+       dest="${build.src}"
+       tag="${version}"
+       quiet="false"
+       cvsRoot="${cvsroot}"
+       failonerror="true"
+  />
+ <cvs  command="checkout -kb" package="frameworkCommon/dataPrep/DTD"
+       dest="${build.src}"
+       tag="HEAD"
+       quiet="false"
+       cvsRoot="${frameworkCvs}"
+       failonerror="true"
+  />
+<copy  todir="${build.dataPrep.dtd.dir}" overwrite="true">
+<fileset  dir="${build.src}frameworkCommon/dataPrep/DTD"/>
+</copy>
+
+</target>
+
+<target name="sourceWebapps" depends="init">
+<!-- for remote development; to checkout from remote cvs -->
+<condition property="cvsroot" value="/home/jleon/cvsroot">
+<and><istrue value="${remote}"/></and>
+</condition>
+<condition property="cvsroot" value=":pserver:anonymous@jleon2.cc.emory.edu:/home/jleon/cvsroot">
+<not>
+<istrue value="${arachneCvs}"/>
+</not>
+</condition>
+<condition property="cvsroot" value=":ext:${env.USER}@arachne.library.emory.edu:/home/cvsroot">
+<and>
+<istrue value="${arachneCvs}"/>
+</and>
+</condition>
+<property name="frameworkCvs" value=":pserver:anonymous@jleon2.cc.emory.edu:/home/jleon/cvsroot"/>
+
+<mkdir dir="${build.src}"/>
+ <cvs  package="${ant.project.name}/webapps"
+       dest="${build.src}"
+       quiet="false"
+       tag="${version}"
+       cvsRoot="${cvsroot}"
+       failonerror="false"
+  />
+ <cvs  package="${ant.project.name}/src"
+       dest="${build.src}"
+       quiet="false"
+       tag="${version}"
+       cvsRoot="${cvsroot}"
+       failonerror="false"
+  />
+</target>
+
+<target name="make-xml-build-dirs" depends="init">
+<!-- description="* makes directories for xml build"-->
+<delete dir="${build.xml.dir}"/>
+<mkdir dir="${build.xml.dir}"/>
+<mkdir dir="${build.xml.collection.dir}"/>
+<echo message="build xml directory is ${build.xml.dir} "/>
+</target>
+
+<target name="source-dtd-4-build" depends="init,sourceDTD" >
+<!--description="* Sources DTD for build" -->
+<mkdir dir="${build.dtd.dir}"/>
+<copy  todir="${build.dtd.dir}">
+<fileset  dir="${build.dataPrep.dtd.dir}">
+<include name="*"/>
+</fileset>
+</copy>
+<copy  todir="${build.dtd.dir}">
+<fileset  dir="${input.xml}">
+<include name="*.dtd"/>
+<include name="*.ent"/>
+</fileset>
+</copy>
+</target>
+
+<!-- todo: create dtd for subjectList, or better, make it an rdf subjectList -->
+
+<target name="sgml-2-xml" depends="clean, source-4-data-prep, clean-sgml-data, validate-sgml-input" description="* Translates input sgml to xml" >
+
+<delete dir="${build.xml.dir}/sgml2xml"/>
+<mkdir dir="${build.xml.dir}/sgml2xml"/>
+<copy todir="${build.xml.dir}/sgml2xml">
+<mapper type="glob" from="*C.xml" to="*CE.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="*C.xml"/>
+</fileset>
+</copy>
+<copy todir="${build.xml.dir}/sgml2xml">
+<fileset dir="${build.xml.dir}">
+<include name="*.dtd"/>
+</fileset>
+</copy>
+
+<replace dir="${build.xml.dir}/sgml2xml" value="||">
+<include name="*CE.xml"/>
+<replacetoken><![CDATA[&]]></replacetoken>
+</replace>
+
+<!-- TEST, remove all references to input.sgml.dtd, since it is being replaced by finding it with the input files -->
+<echo message="input.sgml =  ${build.xml.dir}/sgml2xml."/>
+<echo message="input.sgml.dtd = ${build.xml.dir}/sgml2xml/*.dtd."/>
+<echo message="collection = ${ant.project.name}"/>
+<echo message="          "/>
+
+<exec executable="perl"  output="${build.log.dir}/sgml-2-xml.log" dir="${build.dataPrep.dir}" failonerror="true">
+<!-- todo: allow a single file input option in addition to directory -->
+<arg line="sgml2XmlRun.pl -i ${basedir}/${build.xml.dir}/sgml2xml -o ${basedir}/${build.xml.dir} -n ${basedir}/${build.xml.dir} -c ${collection} "/>
+</exec>
+<echo message="output in ${build.xml.dir}"/>
+
+
+<!--description="* Re-adds entitities for further xsl processing (intermediate step)"-->
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="*CEP.xml" to="*CP.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="*CEP.xml"/>
+</fileset>
+</copy>
+<replace dir="${build.xml.dir}" token="||">
+<replacevalue><![CDATA[&]]></replacevalue>
+<include name="*CP.xml"/>
+</replace>
+
+<mkdir dir="${xml.dir}"/>
+<copy todir="${xml.dir}">
+<fileset dir="${build.xml.dir}">
+<include name="*CP.xml"/>
+</fileset>
+</copy>
+<echo message="======================================================="/>
+<echo message=" The generated xml is in ./xml. IMPORTANT: copy the    "/>
+<echo message="   contents of ./xml to a directory for further document"/>
+<echo message="   preparation. It is recommended that you import the  "/>
+<echo message="   directory into a cvs repository. "/>
+<echo message=" Add ${_collection}Xml.dtd and ${_collection}MetaCollection.xml"/>
+<echo message="    to this new directory as well."/>
+<echo message="======================================================="/>
+
+</target>
+
+<target name="clean-sgml-data" depends="init, make-xml-build-dirs">
+<!-- description="* removes invalid utf-8 characters entities " -->
+
+<exec executable="perl"  output="${build.log.dir}/clean-data.log" dir="${build.dataPrep.dir}" failonerror="true">
+<arg line="dataCleaner_controller.pl -i ${input.sgml} -o ${basedir}/${build.xml.dir}"/>
+</exec>
+
+</target>
+
+<target name="validate-sgml-input" depends="init"/>
+<!-- is input valid? would need prolog and sgml validator to find out -->
+
+
+<target name="unicode-entities" depends="init, clean-data, validate-input,make-xml-build-dirs">
+<!-- description="* converts entities to unicode entities " -->
+<exec executable="perl"  output="${build.log.dir}/unicode-entities.log" dir="${build.dataPrep.dir}" failonerror="true">
+<arg line="convertEntities2Unicode_controller.pl -i ${basedir}/${build.xml.dir} -o ${basedir}/${build.xml.dir} -f PC"/>
+</exec> 
+</target>
+
+<target name="validate-input" depends="init,make-xml-build-dirs, add-prolog">
+<!-- input = *P.xml, _collectionMetaCollection.xml from input dir
+     output=*P.xml -->
+<xmlvalidate  lenient="true" failonerror="true" warn="true" classname="org.apache.xerces.parsers.SAXParser">
+<xmlcatalog refid="allcatalogs"/>
+<fileset dir="${input.xml}">
+<include name="${_collection}MetaCollection.xml"/>
+<include name="${_collection}MetaItemGroup*.xml"/>
+</fileset>
+</xmlvalidate>
+<xmlvalidate  lenient="false" failonerror="true" warn="true" classname="org.apache.xerces.parsers.SAXParser" classpathref="base.path">
+<!-- the classpath is not being set. Make sure tamino version of xerces is in ant lib and no other xerces is in env.classpath -->
+<xmlcatalog refid="allcatalogs"/>
+<fileset dir="${build.xml.dir}">
+<include name="*P.xml"/>
+</fileset>
+</xmlvalidate>
+</target>
+
+<target name="add-prolog" depends="init">
+<!-- can be overwridden with a step to execute addProlog.pl, if the input doesn't have a prolog -->
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="*.xml" to="*P.xml"/>
+<fileset dir="${input.xml}">
+<include name="*.xml"/>
+<exclude name="${_collection}MetaCollection.xml"/>
+</fileset>
+</copy>
+</target>
+
+<target name="clean-data" depends="init, validate-input">
+<!-- description="* removes invalid utf-8 characters entities " -->
+<exec executable="perl"  output="${build.log.dir}/clean-data.log" dir="${build.dataPrep.dir}" failonerror="true">
+<arg line="dataCleaner_controller.pl -i ${basedir}/${build.xml.dir} -o ${basedir}/${build.xml.dir} -f P"/>
+</exec>
+<!-- test for invalid data -->
+<xslt  style="${build.dataPrep.dir}/identity.xsl" destdir="${build.xml.dir}" force="true" basedir="${build.xml.dir}"  extension="T.xml" classpathref="xslt.path"> 
+<xmlcatalog refid="allcatalogs"/>
+<include name="*PC.xml/"/>
+</xslt>
+
+</target>
+
+<target name="unique-id" depends="init">
+<!-- description="* Adds unique id to elements"/ -->
+
+<!-- input: ${build.xml.dir}/*PCU.xml -->
+<!-- output ${build.xml.dir}/*PCUI.xml -->
+<!-- description="* Remove entitities for further xsl processing (intermediate step)"-->
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="*PCU.xml" to="*PCUE.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="*PCU.xml/"/>
+</fileset>
+</copy>
+
+<replace dir="${build.xml.dir}" value="||">
+<include name="*PCUE.xml/"/>
+<replacetoken><![CDATA[&]]></replacetoken>
+</replace>
+
+<!-- make nice-name files in a new directory, from which to build the id-s on -->
+<mkdir dir="${build.xml.dir}/PCUE"/>
+<copy todir="${build.xml.dir}/PCUE">
+<mapper type="glob" from="*PCUE.xml" to="*.xml"/>
+<fileset dir="${build.xml.dir}" includes="*PCUE.xml"/>
+</copy>
+
+ <!-- Force the use of SAXON XSLT -->
+<!--
+<property
+          system="true"
+          name="javax.xml.transform.TransformerFactory"
+          value="com.icl.saxon.TransformerFactoryImpl"
+     />
+-->
+<xslt  style="${build.dataPrep.dir}/${_collection}AddID.xsl" destdir="${build.xml.dir}/PCUE" force="true" basedir="${build.xml.dir}/PCUE"  extension="I.xml" classpathref="xslt.path"> 
+<!-- must have saxon.jar at beginning of classpath -->
+<!-- this classpath is not being set; have it in your classpath -->
+<!--param name="collection" expression="icpsr"/-->
+<xmlcatalog refid="allcatalogs"/>
+<include name="*.xml/"/>
+</xslt>
+
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="*I.xml" to="*PCUEI.xml"/>
+<fileset dir="${build.xml.dir}/PCUE" includes="*I.xml"/>
+</copy>
+
+<!--description="* Re-adds entitities for further xsl processing (intermediate step)"-->
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="*PCUEI.xml" to="*PCUI.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="*PCUEI.xml"/>
+</fileset>
+</copy>
+<replace dir="${build.xml.dir}" token="||">
+<replacevalue><![CDATA[&]]></replacevalue>
+<!--patternset refid="xml.with.uniqueId"/-->
+<include name="*PCUI.xml"/>
+</replace>
+
+<xmlvalidate  lenient="false" failonerror="true" warn="true" classname="org.apache.xerces.parsers.SAXParser">
+<xmlcatalog refid="allcatalogs"/>
+<fileset dir="${build.xml.dir}">
+<include name="*PCUI.xml"/>
+</fileset>
+</xmlvalidate>
+</target>
+
+
+<target name="proofing" depends="init, sourceWebapps">
+<!-- description=" * Creates proofing html output in base directory" -->
+<!-- input: ${build.xml.dir}/*PCUI.xml -->
+
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="*PCUI.xml" to="*PCUIE.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="*PCUI.xml/"/>
+</fileset>
+</copy>
+
+<replace dir="${build.xml.dir}" value="||">
+<include name="*PCUIE.xml/"/>
+<replacetoken><![CDATA[&]]></replacetoken>
+</replace>
+
+<delete dir="${xml.proofing.dir}"/>
+<mkdir dir="${xml.proofing.dir}"/>
+
+<condition property="proofingXsl" value="proofing">
+<available file="${build.dataPrep.dir}/proofing.xsl"/>
+</condition>
+<condition property="proofingExt" value=".html">
+<available file="${build.dataPrep.dir}/proofing.xsl"/>
+</condition>
+<condition property="proofingXsl" value="pretty-print">
+<not>
+<available file="${build.dataPrep.dir}/proofing.xsl"/>
+</not>
+</condition>
+<condition property="proofingExt" value=".xml">
+<not>
+<available file="${build.dataPrep.dir}/proofing.xsl"/>
+</not>
+</condition>
+
+<xslt  style="${build.dataPrep.dir}/${proofingXsl}.xsl" destdir="${xml.proofing.dir}" force="true" basedir="${build.xml.dir}"  extension="${proofingExt}" classpathref="xslt.path"> 
+<!-- must have saxon.jar at beginning of classpath -->
+<!-- this classpath is not being set; have it in your classpath -->
+<!--param name="collection" expression="icpsr"/-->
+<xmlcatalog refid="allcatalogs"/>
+<include name="*PCUIE.xml"/>
+</xslt>
+
+<move todir="${xml.proofing.dir}">
+<mapper type="glob" from="*PCUIE.xml" to="*PCUI.xml"/>
+<fileset dir="${xml.proofing.dir}">
+<include name="*PCUIE.xml/"/>
+</fileset>
+</move>
+<move todir="${xml.proofing.dir}">
+<mapper type="glob" from="*PCUIE.html" to="*PCUI.html"/>
+<fileset dir="${xml.proofing.dir}">
+<include name="*PCUIE.html/"/>
+</fileset>
+</move>
+
+<replace dir="${xml.proofing.dir}" token="||">
+<replacevalue><![CDATA[&]]></replacevalue>
+<include name="*PCUI.xml"/>
+<include name="*PCUI.html"/>
+</replace>
+
+<!-- conversion to new webapp framework, rooted at src -->
+<condition property="stylesheet" value="${build.webapps.css.dir}">
+<available  file="${build.webapps.css.dir}"/>
+</condition>
+<condition property="stylesheet" value="${build.src}/${ant.project.name}/src/cocoon/webapp/neh/resources/styles">
+<not>
+<available  file="${build.webapps.css.dir}"/>
+</not>
+</condition>
+
+<copy todir="${xml.proofing.dir}">
+<fileset dir="${stylesheet}" includes="*"/>
+</copy>
+
+<echo message="--------------------------------------------------------------"/>
+<echo message="Proof the build source files by viewing the html files"/>
+<echo message="found in ${xml.proofing.dir} with your internet"/>
+<echo message="browser"/>
+<echo message="--------------------------------------------------------------"/>
+
+</target>
+  <!-- =================================================================== -->
+  <!-- Prepares for installation on tamino                                 -->
+  <!-- =================================================================== -->
+
+<target name="ask-load" depends="init">
+<!-- if="xmldir.present"-->
+<!--
+<input
+    message="Would you like to load files to tamino?"
+    validargs="y,n"
+    addproperty="response"
+  />
+<condition property="do.load">
+<equals casesensitive="false" arg1="y" arg2="${response}"/>
+</condition>
+-->
+<input message="TEST or PROD database (TEST)?" addproperty="database-version" validargs="PROD,TEST"/>
+</target> <!--Ask load-->
+<target name="source-tamino-data-controller" depends="init, old-tamino-controller" unless="old.tamino.controller">
+<copy  todir="${build.dataPrep.dir}" overwrite="true" file="${build.src}frameworkCommon/dataPrep/tamino-data-controller.pl"/>
+</target>
+<target name="old-tamino-controller" depends="init">
+<!-- yields true if a build has been run before. To refresh the framework version of tamino-data-controller, need to run the 'clean' target -->
+<available property="old.tamino.controller" file="${build.dataPrep.dir}/tamino-data-controller.pl"/>
+</target>
+
+
+<target name="tamino-load" depends="init, ask-load, source-4-data-prep, source-tamino-data-controller" description="*Loads data in tamino">
+<exec executable="perl"  output="${build.log.dir}/tamino-load-data.log" dir="${build.dataPrep.dir}" failonerror="true">
+<arg line="tamino-data-controller.pl -d ${tamino-database} -c ${tamino-collection} -p ${ant.project.name} -v ${database-version} -i ${basedir}/${build.xml.dir}/tamino-data -l ${build.log.dir}"/>
+</exec>
+<exec executable="perl"  output="${build.log.dir}/tamino-load-metadata.log" dir="${build.dataPrep.dir}" failonerror="true">
+<arg line="tamino-data-controller.pl -d META -c ${tamino-meta-collection} -p ${ant.project.name} -v ${database-version} -i ${basedir}/${build.xml.dir}/tamino-metadata -l ${build.log.dir}"/>
+</exec>
+</target>
+
+
+<target name="tamino-data-loader" depends="init">
+<!-- description="* Creates data and scripts for Tamino load"-->
+<!-- input: ${build.xml.dir}/*PCUI.xml -->
+<!-- output: ${build.xml.taminoLoad.dir}/*CUIX.xml -->
+
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="*PCUI.xml" to="*PCUIE.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="*PCUI.xml/"/>
+</fileset>
+</copy>
+
+<replace dir="${build.xml.dir}" value="||">
+<include name="*PCUIE.xml/"/>
+<replacetoken><![CDATA[&]]></replacetoken>
+</replace>
+
+<!-- remove prolog  and xml declaration -->
+<xslt  style="${build.dataPrep.dir}/removeXmlDeclarationAndProlog.xsl" destdir="${build.xml.dir}" force="true" basedir="${build.xml.dir}"  extension="X.xml" classpathref="xslt.path"> 
+<!-- must have saxon.jar at beginning of classpath -->
+<!-- this classpath is not being set; have it in your classpath -->
+<!--param name="collection" expression="icpsr"/-->
+<xmlcatalog refid="allcatalogs"/>
+<include name="*PCUIE.xml/"/>
+</xslt>
+
+<!-- remove default attributes , for tei -->
+<xslt  style="${build.dataPrep.dir}/tei2tei.xsl" destdir="${build.xml.dir}" force="true" basedir="${build.xml.dir}"  extension="B.xml" classpathref="xslt.path"> 
+<!-- must have saxon.jar at beginning of classpath -->
+<!-- this classpath is not being set; have it in your classpath -->
+<xmlcatalog refid="allcatalogs"/>
+<outputproperty name="omit-xml-declaration" value="yes"/>
+<outputproperty name="indent" value="yes"/>
+<include name="*PCUIEX.xml/"/>
+</xslt>
+
+
+<!-- re-add entities and move to tamino load dir & removes prolog in name -->
+<delete dir="${build.xml.taminoLoad.dir}"/>
+<mkdir dir="${build.xml.taminoLoad.dir}"/>
+
+<copy todir="${build.xml.taminoLoad.dir}">
+<mapper type="glob" from="*PCUIEXB.xml" to="*CUIXB.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="*PCUIEXB.xml/"/>
+</fileset>
+</copy>
+
+<replace dir="${build.xml.taminoLoad.dir}" token="||">
+<replacevalue><![CDATA[&]]></replacevalue>
+<include name="*CUIXB.xml"/>
+</replace>
+
+<echo message="Tamino data load directory: ${build.xml.taminoLoad.dir}"/>
+
+<echo message="--------------------------------------------------------------"/>
+<echo message="To load the data in Tamino, perform the following"/>
+<echo message="steps:" />
+
+<echo message="1. If these records have already been loaded in Tamino"/>
+<echo message="(and so you are wanting to replace them), remove the"/>
+<echo message="existing records from Tamino first."/>
+
+<echo message="2. Run java loader by executing"/>
+
+<echo message="'ant tamino-load'"/>
+
+<echo message="3. Check for success of javaloader by examining"/>
+<echo message="${build.log.dir}"/>
+
+<echo message="--------------------------------------------------------------"/>
+<mkdir dir="${build.xml.taminoLoad.dir}/done"/>
+
+</target>
+
+<target name="tamino-metadata-loader" depends="init, make-tamino-metadata-dir, tamino-no-namespaces, old-tamino-loader">
+<!-- description="* Creates metadata  load dir and scripts for tamino"-->
+<mkdir dir="${build.xml.taminoMetadataLoad.dir}/done"/>
+</target>
+
+<target name="old-tamino-loader" depends="init, old-test" if="old-tamino-loader">
+<!-- following will be deleted when all projects are using ant tamino-load target -->
+<mkdir dir="${build.xml.taminoMetadataLoad.dir}/errors"/>
+<mkdir dir="${build.xml.taminoLoad.dir}/errors"/>
+<copy todir="${basedir}" file="${build.dataPrep.dir}/tamino-load.pl"/>
+<copy todir="${basedir}" file="${build.dataPrep.dir}/tamino-metadata-controller.pl"/>
+<copy todir="${basedir}" file="${build.dataPrep.dir}/tamino-data-controller.pl"/>
+</target>
+<target name="old-test" depends="init">
+<available property="old-tamino-loader" file="${build.dataPrep.dir}/tamino-metadata-controller.pl"/>
+</target>
+
+
+<target name="tamino-no-namespaces" depends="init, tamino-create-data, tamino-define-metadata-dtd" >
+</target>
+<!--description="Removes namespaces from tamino upload file"-->
+
+<target name="tamino-create-data">
+<!-- todo: need to remove entity statements -->
+<!-- problem: when attlist only has one attribute that is being deleted, the empty attlist remaining doesn't validate -->
+<!-- remove xmlns attribute -->
+<replace dir="${build.xml.taminoMetadataLoad.dir}" value="">
+<replacetoken>xmlns:cti="http://chaucer.library.emory.edu/vendor_collection#"</replacetoken>
+</replace>
+<replace dir="${build.xml.taminoMetadataLoad.dir}" value="">
+<replacetoken>xmlns:cti="http://cti.library.emory.edu/vendor_collection#"</replacetoken>
+</replace>
+<replace dir="${build.xml.taminoMetadataLoad.dir}" value="">
+<replacetoken> xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"</replacetoken>
+</replace>
+<replace dir="${build.xml.taminoMetadataLoad.dir}" value="">
+<replacetoken>xmlns:dc="http://purl.org/dc/elements/1.1/"</replacetoken>
+</replace>
+<replace dir="${build.xml.taminoMetadataLoad.dir}" value="">
+<replacetoken>xmlns:dcterms="http://purl.org/dc/dcterms/"</replacetoken>
+</replace>
+
+<!-- remove all colons, to agree with schema -->
+<replace dir="${build.xml.taminoMetadataLoad.dir}" value="cti">
+<replacetoken>cti:</replacetoken>
+</replace>
+<replace dir="${build.xml.taminoMetadataLoad.dir}" value="rdf">
+<replacetoken>rdf:</replacetoken>
+</replace>
+<replace dir="${build.xml.taminoMetadataLoad.dir}" value="dc">
+<replacetoken>dc:</replacetoken>
+</replace>
+<replace dir="${build.xml.taminoMetadataLoad.dir}" value="dcterms">
+<replacetoken>dcterms:</replacetoken>
+</replace>
+</target>
+
+<target name="tamino-define-metadata-dtd" depends="init">
+<!-- description="* Creates tamino metadata dtd (no namespaces)." -->
+<!-- todo: remove all entities -->
+<copy tofile="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" file="${build.dtd.dir}/${ant.project.name}Metadata.dtd/"/>
+
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken><![CDATA[<!ENTITY  % dc 'xmlnsdc CDATA #FIXED]]></replacetoken>
+</replace>
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken>"http//purl.org/dc/elements/1.1/"'></replacetoken>
+</replace>
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken><![CDATA[<!ENTITY  % dcterms 'xmlnsdc CDATA #FIXED]]></replacetoken>
+</replace>
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken>"http//purl.org/dc/terms/"'></replacetoken>
+</replace>
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken><![CDATA[<!ENTITY % rdf 'xmlnsrdf CDATA #FIXED]]></replacetoken>
+<include name="${ant.project.name}MetadataTamino.dtd"/>
+</replace>
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken>"http//www.w3.org/1999/02/22-rdf-syntax-ns#"'></replacetoken>
+</replace>
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken><![CDATA[<!ENTITY % cti 'xmlnscti CDATA #FIXED]]></replacetoken>
+<include name="${ant.project.name}MetadataTamino.dtd"/>
+</replace>
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken>"http//chaucer.library.emory.edu/vendor_collection#"'></replacetoken>
+</replace>
+
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken>%cti;</replacetoken>
+</replace>
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken>%dc;</replacetoken>
+</replace>
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken>%dcterms;</replacetoken>
+</replace>
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken>%rdf;</replacetoken>
+</replace>
+<replace file="${build.dtd.dir}/${ant.project.name}MetadataTamino.dtd" value="">
+<replacetoken>:</replacetoken>
+</replace>
+</target>
+
+<target name="make-tamino-metadata-dir" depends="init" >
+<!-- description="* Creates a directory of metadata files for loading in Tamino" -->
+<!-- remove prolog  and xml declaration -->
+<xslt  style="${build.dataPrep.dir}/removeXmlDeclarationAndProlog.xsl" destdir="${build.xml.dir}" force="true" basedir="${build.xml.dir}"  extension="X.xml" classpathref="xslt.path"> 
+<!-- must have saxon.jar at beginning of classpath -->
+<!-- this classpath is not being set; have it in your classpath -->
+<!--param name="collection" expression="icpsr"/-->
+<xmlcatalog refid="allcatalogs"/>
+<include name="*PCUIEM.xml"/>
+<include name="${_collection}MetaCollectionEM.xml"/>
+<include name="${_collection}MetaItemGroup*EM.xml"/>
+</xslt>
+
+<!-- re-add entities and move to tamino metadata load dir & removes prolog in name -->
+<delete dir="${build.xml.taminoMetadataLoad.dir}"/>
+<mkdir dir="${build.xml.taminoMetadataLoad.dir}"/>
+<copy todir="${build.xml.taminoMetadataLoad.dir}">
+<mapper type="glob" from="*PCUIEMX.xml" to="*CUIM.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="*PCUIEMX.xml/"/>
+</fileset>
+</copy>
+<copy todir="${build.xml.taminoMetadataLoad.dir}">
+<mapper type="glob" from="${_collection}Meta*EMX.xml" to="${_collection}Meta*M.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="${_collection}Meta*EMX.xml/"/>
+</fileset>
+</copy>
+
+<replace dir="${build.xml.taminoMetadataLoad.dir}" token="||">
+<replacevalue><![CDATA[&]]></replacevalue>
+<include name="*CUIM.xml"/>
+<include name="${_collection}Meta*M.xml/"/>
+<include name="${_collection}Meta*M.xml/"/>
+</replace>
+
+</target>
+
+
+  <!-- =================================================================== -->
+  <!-- Build all  the dist distributions                                             -->
+  <!-- =================================================================== -->
+<target name="dist" depends="init, clean-dist, distWebapps,dist-docs-tar" >
+<!-- description="* Prepares distribution directories (tamino data and webapps)"-->
+<echo message="Distrubution directories complete: ${dist.dir}"/>
+</target>
+
+<!-- why distDtd?
+<target name="distWebapps" depends="init, distMakeWebappsDirs, distDtd, distwebapps-application, dist-source-war" />
+-->
+<target name="distWebapps" depends="init, distMakeWebappsDirs, distwebapps-application, dist-source-war" />
+<!--description="* Makes distribution copy of web application. Contains source code and war file"/-->
+
+<target name="distDtd" depends="init,source-dtd-4-build" >
+<!--description="* Creat
+es dtd for dist"-->
+<copy  todir="${dist.xml.dtd.dir}" >
+<fileset  dir="${build.dtd.dir}">
+<include name="*"/>
+</fileset>
+</copy>
+</target>
+
+
+<target name="distMakeXmlDirs" depends="init">
+<!-- description="* makes directories for xml distribution"-->
+<mkdir dir="${dist.xml.dir}"/>
+<mkdir dir="${dist.xml.dtd.dir}"/>
+<echo message="output directory is ${dist.xml.dir} "/>
+</target>
+
+<target name="distMakeWebappsDirs" depends="init,clean-webapps-dist">
+<!-- description="* makes directories for webapps distribution"-->
+<mkdir dir="${dist.webapps.dir}"/>
+<mkdir dir="${dist.webapps.dtd.dir}"/>
+<echo message="output directory is ${dist.webapps.dir} "/>
+</target>
+
+<target name="distwebapps-application" depends="init,sourceWebapps" >
+<!--description="* Prepares distribution webapps processing instructions (programs)"-->
+<copy todir="${dist.webapps.dir}" >
+<fileset dir="${build.webapps.dir}" >
+<include name="*"/> <!-- just  one level -->
+</fileset>
+</copy>
+<copy todir="${dist.webapps.dir}" >
+<fileset dir="${build.webapps.dir}">
+<patternset refid="cocoon-deployement"/>
+</fileset>
+</copy>
+<mkdir dir="${build.webapps.xsl.dir}"/>
+<copy todir="${dist.webapps.xsl.dir}" >
+<fileset dir="${build.webapps.xsl.dir}" />
+</copy>
+<mkdir dir="${build.webapps.xsp.dir}"/>
+<copy todir="${dist.webapps.xsp.dir}" >
+<fileset dir="${build.webapps.xsp.dir}" />
+</copy> 
+<mkdir dir="${build.webapps.css.dir}"/>
+<copy todir="${dist.webapps.css.dir}" >
+<fileset dir="${build.webapps.css.dir}" />
+</copy>
+<mkdir dir="${build.webapps.docs.dir}"/>
+<copy todir="${dist.webapps.docs.dir}" >
+<fileset dir="${build.webapps.docs.dir}" />
+</copy>
+<mkdir dir="${build.webapps.scripts.dir}"/>
+<copy todir="${dist.webapps.scripts.dir}" >
+<fileset dir="${build.webapps.scripts.dir}" />
+</copy>
+<mkdir dir="${build.webapps.images.dir}"/>
+<copy todir="${dist.webapps.images.dir}" >
+<fileset dir="${build.webapps.images.dir}" />
+</copy>
+<!--
+<copy todir="${dist.webapps.standard-html.dir}" >
+<fileset dir="${build.webapps.standard-html.dir}" />
+</copy>
+-->
+</target>
+
+<target name="dist-docs-tar" depends="init,clean-xml-dist" >
+<!-- description="* Tars Tamino xml" -->
+<tar tarfile="${dist.root}/${_collection}-tamino.tar" >
+<tarfileset dir="${build.xml.taminoLoad.dir}" prefix="data"/>
+<tarfileset dir="${build.xml.taminoMetadataLoad.dir}" prefix="metadata"/>
+<tarfileset dir="${build.dtd.dir}" prefix="DTD">
+<include name="*"/>
+</tarfileset>
+</tar>
+</target>
+  <target name="dist-source-war" depends="init,distwebapps-application" >
+<!--          description="Generates the webapp program distribution as a .war file"-->
+<concat destfile="${dist.dir}/war-release.txt" append="no">
+cvs version: ${version}
+build date: ${DSTAMP}
+</concat>
+
+    <war destfile="${dist.root}/${name}.war" basedir="${dist.webapps.dir}" webxml="${dist.webapps.dir}/WEB-INF/web.xml">
+<metainf dir="${dist.dir}" includes="war-release.txt"/>
+</war>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Packages the source distribution as .zip                            -->
+  <!-- =================================================================== -->
+  <target name="dist-src-zip" depends="dist-src" 
+          description="Generates the source distribution as a .zip file">
+    <zip zipfile="${dist.target}/${dist.name}-src.zip"
+         basedir="${dist.root}/src/"/>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Packages the source distribution with .tar.gzip                     -->
+  <!-- =================================================================== -->
+  <target name="dist-src-tgz" depends="dist-src" 
+          description="Generates the source distribution as a .tar.gz file">
+    <tar tarfile="${dist.target}/${dist.name}-src.tar"
+         basedir="${dist.root}/src"
+         longfile="gnu"/>
+    <gzip zipfile="${dist.target}/${dist.name}-src.tar.gz"
+          src="${dist.target}/${dist.name}-src.tar"/>
+  </target>
+
+  <!-- =================================================================== -->
+  <!-- Creates the source distribution                                     -->
+  <!-- =================================================================== -->
+  <target name="dist-src" 
+          description="Prepares the source distribution">
+    <!-- Simply copy all and add the html docs -->
+    <mkdir dir="${dist.root}"/>
+    <mkdir dir="${dist.src.dir}"/>
+    <copy todir="${dist.src.dir}">
+      <fileset dir="${build.src}/${ant.project.name}/dataPrep"/>
+      <fileset dir="${build.src}/${ant.project.name}/doc"/>
+    </copy>
+</target>
+
+
+
+  <!-- =================================================================== -->
+  <!-- Creates meta data                                                   -->
+  <!-- =================================================================== -->
+
+<target name="xml-2-meta" depends="init, set-collection, clean-meta-build, source-dtd-4-build,pre-meta-transform,meta-transform,post-meta-transform"/>
+<!-- description="* Creates metadata for the collection xml and validates it" -->
+<target name="pre-meta-transform" depends="init">
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="*PCUI.xml" to="*PCUIE.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="*PCUI.xml/"/>
+</fileset>
+</copy>
+
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="*.xml" to="*E.xml"/>
+<fileset dir="${input.xml}">
+<include name="${_collection}MetaCollection.xml"/>
+<include name="${_collection}MetaItemGroup*.xml"/>
+<exclude name="${_collection}MetaItemGroup*E.xml"/>
+</fileset>
+</copy>
+
+<replace dir="${build.xml.dir}" value="||">
+<include name="*PCUIE.xml/"/>
+<include name="${_collection}MetaCollectionE.xml"/>
+<include name="${_collection}MetaItemGroup*E.xml"/>
+<replacetoken><![CDATA[&]]></replacetoken>
+</replace>
+</target>
+
+<target name="meta-transform" depends="init">
+ <!-- Force the use of SAXON XSLT -->
+<!--
+<property
+          system="true"
+          name="javax.xml.transform.TransformerFactory"
+          value="com.icl.saxon.TransformerFactoryImpl"
+     />
+-->
+<xslt  style="${build.dataPrep.dir}/rdf.xsl" destdir="${build.xml.dir}" force="true" basedir="${build.xml.dir}" extension="M.xml" classpathref="xslt.path"> 
+<!-- must have saxon.jar at beginning of classpath -->
+<!-- this classpath is not being set; have it in your classpath -->
+<param name="collection" expression="${collection}"/>
+<xmlcatalog refid="allcatalogs"/>
+<include name="*PCUIE.xml/"/>
+<include name="${_collection}MetaCollectionE.xml"/>
+<include name="${_collection}MetaItemGroup*E.xml"/>
+</xslt>
+</target>
+<target name="post-meta-transform" depends="init">
+<!--description="* Re-adds entitities for further xsl processing (intermediate step)"-->
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="*PCUIEM.xml" to="*PCUIM.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="*PCUIEM.xml"/>
+</fileset>
+</copy>
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="*MetaCollectionEM.xml" to="*MetaCollectionM.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="*MetaCollectionEM.xml"/>
+</fileset>
+</copy>
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="${_collection}MetaItemGroup*EM.xml" to="${_collection}MetaItemGroup*M.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="${_collection}MetaItemGroup*EM.xml"/>
+</fileset>
+</copy>
+<replace dir="${build.xml.dir}" token="||">
+<replacevalue><![CDATA[&]]></replacevalue>
+<include name="*PCUIM.xml"/>
+<include name="*MetaCollectionEM.xml"/>
+<include name="${_collection}MetaItemGroup*EM.xml"/>
+</replace>
+
+<!--description="* validates metadata files" -->
+<xmlvalidate  lenient="false" failonerror="true" warn="true" classname="org.apache.xerces.parsers.SAXParser">
+<xmlcatalog refid="allcatalogs"/>
+<fileset dir="${build.xml.dir}">
+<include name="*PCUIM.xml"/>
+<include name="${_collection}MetaCollectionM.xml"/>
+<include name="${_collection}MetaItemGroup*M.xml"/>
+</fileset>
+</xmlvalidate>
+
+<echo message=" Metadata created successfully"/>
+</target>
+
+
+<target name="source-collection-record" depends="init">
+<!-- description="* Sources collection description ecord"-->
+<condition property="has-collection-record" >
+<available file="${input.xml}/${_collection}MetaCollection.xml"/>
+</condition>
+<fail unless="has-collection-record" message="missing ${_collection}MetaCollection.xml in ${input.xml}"/>
+
+<copy todir="${build.xml.dir}">
+<fileset dir="${input.xml}">
+<include name="${_collection}MetaCollection.xml"/>
+</fileset>
+</copy>
+</target>
+
+
+<target name="metaDtd" depends="init" >
+<!--description="* Creates dtd for building metadata"-->
+<copy  todir="${basedir}" >
+<fileset  dir="${build.dtd.dir}">
+<include name="*"/>
+</fileset>
+
+</copy>
+</target>
+
+<target name="meta-proofing" depends="init, sourceWebapps">
+<!-- description=" * Creates proofing html output in base directory" -->
+
+<delete dir="${xml.meta-proofing.dir}"/>
+<mkdir dir="${xml.meta-proofing.dir}"/>
+<xslt  style="${build.dataPrep.dir}/meta-proofing.xsl" destdir="${xml.meta-proofing.dir}" force="true" basedir="${build.xml.dir}"  extension=".html" classpathref="xslt.path"> 
+<!-- must have saxon.jar at beginning of classpath -->
+<!-- this classpath is not being set; have it in your classpath -->
+<!--param name="collection" expression="icpsr"/-->
+<xmlcatalog refid="allcatalogs"/>
+<include name="*PCUIM.xml"/>
+<exclude name="*EM.xml"/>
+<include name="${_collection}MetaCollectionM.xml"/>
+<include name="${_collection}MetaItemGroup*M.xml"/>
+</xslt>
+
+<copy todir="${xml.meta-proofing.dir}">
+<fileset dir="${build.webapps.css.dir}" includes="*"/>
+</copy>
+
+<echo message="--------------------------------------------------------------"/>
+
+<echo message="Proof the RDF metadata by viewing the html files found"/>
+<echo message="in ${xml.meta-proofing.dir} with your internet"/>
+<echo message="browser"/>
+
+<echo message="--------------------------------------------------------------"/>
+
+</target>
+
+<!-- derived from YourCocoonBasedProject from the cocoon wikki -->
+<target name="framework.get" depends="-framework.shbat">
+<exec executable="${framework-tool.dir}/getfw.${shbat}" failonerror="true">
+<env key="FRAMEWORK_HOME" file="${framework-dist.home}"/>
+<env key="FRAMEWORK_ROOT" file="tools/frameworkCommon/webapp"/>
+</exec>
+</target>
+    <target name="-framework.shbat" depends="-framework.bat, -framework.sh" />
+    <target name="-framework.bat" if="isWindows"
+            depends="-framework.init, -framework.oscheck" >
+
+        <echo>Building batch files for support on windows OS</echo>
+                <property name="shbat" value="bat" />
+
+        <echo file="${cocoon-tool.dir}/getc2.${shbat}"><![CDATA[        
+@echo off       
+cd %COCOON_HOME%
+build.bat -propertyfile %PROJECT_PROPERTIES% clean webapp "-Dbuild.webapp=%PROJECT_WEBAPP%"
+ "-Dtools.tasks.dest=%PROJECT_TASKDEFS%"
+]]></echo>
+
+        <echo file="${cocoon-tool.dir}/runc2.${shbat}"><![CDATA[
+@echo off
+set JETTY_WEBAPP=%PROJECT_WEBAPP%
+cd %COCOON_HOME%
+cocoon.bat servlet-debug
+]]></echo>
+    </target>
+    <target name="-framework.init">
+                        <mkdir dir="${framework-tool.dir}" />
+                        <property name="framework.webapp" value="${framework-tool.dir}/webapp" />
+                        <property name="framework.tasks" value="${framework-tool.dir}/taskdefs" />
+                        <property name="framework.lib" value="${framework.webapp}/WEB-INF/lib" />    
+
+    </target>
+    
+<!-- derived from cocoon-build -->
+<target name="project.xconf" depends="-cocoon.check">
+                <path id="cocoon-tasks.cp">
+                        <pathelement path="${cocoon.tasks}" />
+                        <path>
+                                <fileset dir="${cocoon.lib}">
+                                        <include name="xalan*.jar" />
+                                        <include name="xerces*.jar" />
+                                        <include name="xml*.jar" />
+                                </fileset>
+                        </path>
+                </path>
+
+                <taskdef 
+                    name="xpatch" 
+                    classname="XConfToolTask" 
+                    classpathref="cocoon-tasks.cp"/>    
+
+                <antcall target="-cocoon.patch" >
+                        <param name="cocoon.patch.target" 
+                                   value="${project.cocoon.webapp}/WEB-INF/cocoon.xconf" />
+                        <param name="cocoon.patch.src-extension" 
+                                   value="xconf" />
+                </antcall>
+
+                <antcall target="-cocoon.patch" >
+                        <param name="cocoon.patch.target" 
+                                   value="${project.cocoon.webapp}/WEB-INF/logkit.xconf" />
+                        <param name="cocoon.patch.src-extension" 
+                                   value="xlog" />
+                </antcall>
+
+                <antcall target="-cocoon.patch" >
+                        <param name="cocoon.patch.target" 
+                                   value="${project.cocoon.webapp}/sitemap.xmap" />
+                        <param name="cocoon.patch.src-extension" 
+                                   value="xmap" />
+                </antcall>
+
+                <antcall target="-cocoon.patch" >
+                        <param name="cocoon.patch.target" 
+                                   value="${project.cocoon.webapp}/WEB-INF/web.xml" />
+                        <param name="cocoon.patch.src-extension" 
+                                   value="xweb" />
+                </antcall>
+
+        </target>
+
+
+
+    <!-- gets cocoon-webapp into this project -->
+    <target name="cocoon.get" depends="init,-cocoon.shbat">
+        <exec executable="${cocoon-tool.dir}/getc2.${shbat}" failonerror="true">
+                    <env key="COCOON_HOME" file="${cocoon-dist.home}" />
+                    <env key="PROJECT_PROPERTIES" file="${cocoon-build.properties}" />
+                    <env key="PROJECT_WEBAPP" file="${cocoon.webapp}" />
+                    <env key="PROJECT_BUILD" file="${cocoon-tool.dir}" />
+                    <env key="PROJECT_TASKDEFS" file="${cocoon.tasks}" />
+        </exec>
+    </target>
+
+
+
+    <target name="-framework.sh" unless="isWindows"
+            depends="-framework.init, -framework.oscheck" >
+
+        <echo>Building shell scripts for support on non-windows</echo>
+	<echo>Make sure that coccon.get has gbeen run in $FRAMEWORK_HOME</echo>
+
+                <property name="shbat" value="sh" />
+
+        <echo file="${framework-tool.dir}/getfw.${shbat}"><![CDATA[#!/bin/sh
+cd $FRAMEWORK_HOME
+ant -f webapp.xml  webapps -Dbuild.root=$FRAMEWORK_ROOT 
+
+]]></echo>
+       <chmod file="${framework-tool.dir}/getfw.${shbat}" perm="u+x"/>
+
+        <echo file="${framework-tool.dir}/runfw.${shbat}"><![CDATA[#!/bin/sh
+export JETTY_WEBAPP=$PROJECT_WEBAPP
+cd $FRAMEWORK_HOME
+framework.sh servlet-debug
+]]></echo>
+        <chmod file="${framework-tool.dir}/runfw.${shbat}" perm="u+x"/>
+
+    </target>    
+    <target name="-framework.oscheck" >
+        <condition property="isWindows">
+                    <os family="windows" />
+                </condition>
+    </target>
+
+  <target name="init-tasks" depends="init">
+
+    <!-- Set classpath for building ant tasks -->
+    <path id="tasks.classpath">
+      <path refid="classpath"/>
+      <fileset dir="${tools.lib}">
+        <include name="*.jar"/>
+      </fileset>
+      <path location="${tools.tasks.dest}"/>
+    </path>
+
+    <!-- compile the ant tasks -->
+    <mkdir dir="${tools.tasks.dest}"/>
+    <javac srcdir="${tools.tasks.src}"
+           destdir="${tools.tasks.dest}"
+           debug="off"
+           optimize="on"
+           deprecation="on"
+           target="1.3"
+           nowarn="on"
+           compiler="${compiler}"
+           classpathref="tasks.classpath"/>
+
+    <!-- A task to patch xml files -->
+    <taskdef name="xpatch" classname="XConfToolTask"
+           classpath="${tools.tasks.dest}"/>
+</target>
+
+<!-- used for tei projects to create a file of figure entities -->
+<target name="figure-entity-list" depends="init,set-collection,clean,source-4-data-prep,source-dtd-4-build,make-xml-build-dirs" description="*Creates dtd of figure entities">
+
+<!-- clean-unvalidated-data-and-remove-entities" -->
+<exec executable="perl"  output="${build.log.dir}/clean-unvalidated-data.log" dir="${build.dataPrep.dir}" failonerror="true">
+<arg line="dataCleaner_controller.pl -i ${input.xml} -o ${basedir}/${build.xml.dir} "/>
+</exec>
+<!-- test for invalid data -->
+<copy todir="${build.xml.dir}">
+<mapper type="glob" from="*C.xml" to="*CE.xml"/>
+<fileset dir="${build.xml.dir}">
+<include name="*C.xml"/>
+</fileset>
+</copy>
+<replace dir="${build.xml.dir}" value="||">
+<include name="*CE.xml/"/>
+<replacetoken><![CDATA[&]]></replacetoken>
+</replace>
+
+<xslt  style="${build.dataPrep.dir}/identity.xsl" destdir="${build.xml.dir}" force="true" basedir="${build.xml.dir}"  extension="T.xml" classpathref="xslt.path"> 
+<xmlcatalog refid="allcatalogs"/>
+<include name="*CE.xml/"/>
+</xslt>
+
+<!-- create figure entities -->
+<mkdir dir="${xml.dir}"/>
+<property name="figure-entities" value="${xml.dir}/${_collection}-figure.ent"/>
+<touch file="${figure-entities}"/>
+
+<xslt  style="${build.dataPrep.dir}/figure-entity-list.xsl" destdir="${build.xml.dir}" force="true" basedir="${build.xml.dir}" extension="F.xml"  classpathref="xslt.path"> 
+<!-- must have saxon.jar at beginning of classpath -->
+<!-- this classpath is not being set; have it in your classpath -->
+<!--param name="collection" expression="icpsr"/-->
+<xmlcatalog refid="allcatalogs"/>
+<include name="*CE.xml"/>
+</xslt>
+<replace dir="${build.xml.dir}">
+<include name="*CEF.xml/"/>
+<replacetoken><![CDATA[&lt;]]></replacetoken>
+<replacevalue><![CDATA[<]]></replacevalue>
+</replace>
+<replace dir="${build.xml.dir}" >
+<include name="*CEF.xml/"/>
+<replacetoken><![CDATA[&gt;]]></replacetoken>
+<replacevalue><![CDATA[>]]></replacevalue>
+</replace>
+<concat destfile="${figure-entities}" fixlastline="yes" eol="lf">
+<fileset dir="${build.xml.dir}">
+<include name="*CEF.xml"/>
+</fileset>
+</concat>
+<echo message="======================================================="/>
+<echo message=" The generated xml is in ./xml. IMPORTANT: copy the    "/>
+<echo message="   contents of ./xml to a directory for further document"/>
+<echo message="   preparation. It is recommended that you import the  "/>
+<echo message="   directory into a cvs repository. "/>
+<echo message=" Add ${collection}Xml.dtd "/>
+<echo message="    to this new directory as well."/>
+<echo message="======================================================="/>
+
+</target>
+
+</project>
+
+
+ 
+ 
