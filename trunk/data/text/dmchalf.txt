@@ -1,18 +1,129 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./neh-tei.dtd">
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>The Half-Caste, an electronic edition</title>
+<author n="Craik, Dinah Maria Mulock, 1826-1887">Dinah Maria Mulock Craik</author>
+</titleStmt>
+<extent>400kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2005</date>
+<availability>
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA  30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email:  beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Craik, Dinah, Maria Mulock</author>. <title>The
+Half-Caste: An Old Governess's Tale</title>. <pubPlace>London</pubPlace>:
+<publisher>W. &amp; R. Chambers, Limited</publisher>, <date>1897</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded.  Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p></samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">unedited</rs>
+<rs type="genre">novel</rs>
+<rs type="geography">Great Britain</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>British literature--19th Century--Fiction.</item>
+<item>Women authors, British--19th Century.</item>
+<item>Short stories.</item>
+<item>Historical fiction.</item>
+<item>Marriage.</item>
+<item>Artists.</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2005-March-04</date>
+<respStmt><name>Erika Farr, </name>
+<resp>project manager.</resp></respStmt>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
+</teiHeader>
 <text>
 <front>
+<pb n="[2]"/>
+<div id="dmchalf000" type="frontispiece">
+<figure entity="" rend="inline">
+<figDesc>Frontispiece of Craik's <hi rend="italic">The
+Half-Caste</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="dmchalftp" n="[3]" pages="Title Page"/>
 <titlePage>
 <docTitle>
 <titlePart type="main">The Half-Caste</titlePart>
 <titlePart type="sub">An Old Governess's Tale.</titlePart>
 </docTitle>
-<byline><l>BY THE AUTHOR OF</l><l>'JOHN HALIFAX, GENTLEMAN'</l></byline>
-<l>WITH PREFATORY LETTER BY THE AUTHOR<l>
+<byline>BY THE AUTHOR OF<lb/>'JOHN HALIFAX, GENTLEMAN'</byline>
+<titlePart type="desc">WITH PREFATORY LETTER BY THE AUTHOR</titlePart>
 <docImprint>
-<publisher>W. & R. CHAMBERS, LIMITED</publisher>
+<publisher>W. &amp; R. CHAMBERS, LIMITED</publisher>
 <pubPlace>LONDON AND EDINBURGH</pubPlace>
 <docDate>1897</docDate>
 </docImprint>
 </titlePage>
+<pb n="[4]"/>
+<div id="dmchalf001" type="copyright">
+<figure entity="" rend="inline">
+<figDesc>Copyright information for Craik's <hi rend="italic">The
+Half-Caste</hi>.</figDesc>
+</figure>
+</div>
+<pb n="[5]"/>
 <div type="preface">
 <head>PREFACE.</head>
 <p>The publishers have here gathered into one volume some of Dinah Maria Mulock's early contributions to their publications, believing that the present generation may still read with pleasure and profit what charmed and instructed their fathers and mothers. From another point of view, this early work is interesting, as it contains the germ which blossomed more fully in her longer stories, and shows her best qualities of head and heart. Her first story appeared in 1849, four years after she began her literary career with W. & R. Chambers.</p>
@@ -21,13 +132,22 @@
 <opener><dateline><name type="place">THE CORNER HOUSE, SHORTLANDS, KENT,</name><date>January 24, 1882.</date></dateline></opener>
 <p>DEAR ROBERT,--May I send for your <hi rend="italic">Journal</hi> two of the sort of leaders--essays--which your father used to do so admirably? These--by a friend of mine, which, however, you may print or not, as you choose--are exceedingly good. Will you give me Yes or No, as soon as you can; and if it is Yes, as I hope, will you send the proofs and cheque to me?</p>
 <p>I see you are soon going to have the 50th anniversary of the dear old <hi rend="italic">Journal</hi>. Would I could 'assist' thereat, and say and affectionate and grateful word for the firm with whom I began my career in 1845, nearly forty years ago.</p>
-<closer>--Ever sincerely yours,      D. M. CRAIK.</closer></div>
+<closer><salute>--Ever sincerely yours,</salute><signed>
+D. M. CRAIK.</signed></closer></div></q>
+<pb n="[7]"/>
+<div id="dmchalf002" type="table of contents">
+<figure entity="" rend="inline">
+<figDesc>Table of contents for Craik's <hi rend="italic">The
+Half-Caste</hi>.</figDesc>
+</figure>
+</div>
 </front>
 <group>
-<text><pb n="[9]"/>
-<front><docTitle><titlePart>THE HALF-CASTE.</titlePart>
-<titlePart>AN OLD GOVERNESS'S STORY.</titlePart></docTitle>
-</front><body>
+<text>
+<body>
+<div id="dmchalf003" type="story" n="1">
+<head>THE HALF-CASTE.
+<lb/>AN OLD GOVERNESS'S STORY.</head>
 <p>'We know what we are, but we know not what we may be,' as my quaintly-clever niece and name-child, Cassia, would say. And, truly, who could have thought that I, a plain governess, should in my old age have become a writer? Yet, for the life of me, I cannot invent a plot--I must write nothing but truth. Here I pause, recollecting painfully that in my first sentence I have sinned against truth by entitling Cassia 'my niece and name-child,' when, strictly speaking, she is neither the one nor the other. She is no blood-relation at all, and my own name happens to be Cassandra. I always disliked it heartily until Mr Sutherland called me--But I forget that I must explain a little. Mr Sutherland was--no, thank Heaven!--<hi rend="italic">is</hi>, a very good man; a friend of my late father, and of the same business--an Indian merchant. When, in my twenty-fifth year, my dear father died, and we were ruined--a quiet way of expressing this, but in time one learns to speak so quietly of every pang--Mr Sutherland was very kind to my mother and to me. I remember, as though it were yesterday, one day when he sat with us in our little parlour, and
 <pb n="10     THE HALF-CASTE."/>
 hearing my mother calling me 'Cassie,' said laughingly that I always put him in mind of a certain Indian spice. 'In fact,' he added, looking affectionately at my dear, gentle little mother, and approvingly--yes, it was approvingly, at me--'in fact, I think we three sitting thus, with myself in the centre, might be likened to myrrh, aloes, and cassia.' One similitude was untrue; for he was not bitter, but 'sweet as summer.' However, from that time he always called me Cassia. I rather like the name; and latterly it was very kind of him to--There, I am forestalling my history again!</p>
@@ -308,9 +428,11 @@ not wish to deceive me; and though I let her deceive herself a little longer, it
 <p>Hey-day! writing at this moment becomes quite impossible; for there peeps a face in at my bedroom
 <pb n="70     THE HALF-CASTE."/>
 door, and while I live, not for worlds shall my young folk know that Aunt Cassie is an authoress. Therefore good-bye, pen!--And now come in, my namesake, my darling, my fair-haired Cassia, with her mother's smile and her father's eyes and brow--I may kiss both now. Ah, God in heaven bless thee, my dear, dear child!</p>
-</body></text><text>
+</body></text>
+<text>
+<div id="dmchalf004" type="story" n="2">
 <pb n="[71]"/>
-<front><docTitle>LAST OF THE RUTHVENS.</docTitle></front><body>
+<head>LAST OF THE RUTHVENS.</head>
 <p>'DAVIE CALDERWOOD! worthy tutor and master!--Davie Calderwood.' The old man made no answer to the call, which he scarce seemed even to hear. He sat not far from the shadow of his college walls, watching the little silvery ripples of the Cam. His doctor's robes hid a common homely dress of gray; his large feet, dangling over the river-bank, were clumsily shod, and his white close-cropped hair gave him a Puritanical look, when compared with the cavalier air of the two youths who stood behind him.</p>
 <p>'Davie Calderwood--wake up, man! News!--great news!  From Scotland!' added the elder lad in a cautious whisper.</p>
 <p>It pierced the torpor of the old man; he started up with eagerness.</p>
@@ -798,10 +920,13 @@ wife, my comforter and sustainer! I have been happy all my life--I am happy now.
 <p>Lettice Ruthven lifted her aged face, solemn yet serene. `Not so. I loved; I have spent my whole life for him I loved; I have been happy, and I thank God for all.' These were the only words that she would say.</p>
 <milestone rend="blank-line" unit="section"/>
 <p>Patrick Ruthven and his wife have long been forgotten; even their very burial-place is unknown. But there lives not one true heart--surely not one woman's heart--that, in dreaming over their history, would not say, `These two were not unhappy, for they feared God and loved one another.'</p>
+</body></text>
+<text> 
+<body>
+<div id="dmchalf005" type="story" n="3">
 <pb n="[131]"/>
-</body></text><text> 
-<front><docTitle><titlePart>QUINTIN MATSYS,</titlePart>
-<titlePart>THE BLACKSMITH OF ANTWERP.</titlePart></front><body>
+<head>QUINTIN MATSYS,
+<lb/>THE BLACKSMITH OF ANTWERP.</head>
 <p>NEARLY four hundred years ago there was, at a short distance from the city of Antwerp, a blacksmith's cottage. It was not much better than a hut--low-roofed, mud-walled, and consisting of only one room. It was situated a little aloof from the high-road, in one of those solitary nooks which are so often found, when least suspected, in the neighbourhood of large cities. Only at times there came through the distance the faint hum of a populous town, and the high spires of the renowned cathedral stood out in bold relief against the sky, which was of that pale bluish gray peculiar to an October evening, when the brilliant autumn sunsets are in some degree gone by.</p>
 <p>The blacksmith's wife sat spinning by the half open door of her humble dwelling. She was a woman of middle age; her face was of that peculiar Flemish cast which the Dutch painters have made so well known--round, fair, and rosy, with sleepy eyes of pale blue, bearing an expression of quiet content, almost amounting to apathy. A few locks of silky flaxen hair peeped from under her Flemish cap, and were smoothly laid over a rather high forehead, where,
 <pb n="132     QUINTIN MATSYS,"/>
