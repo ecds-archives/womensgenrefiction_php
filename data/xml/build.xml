@@ -1,0 +1,64 @@
+<project name="nehfw" default="data" basedir=".">
+<import file="common-targets.xml"/>
+
+<!-- until metadata programming is done -->
+<target name="data" depends="init,clean,content-data"/>
+
+<target name="init" depends="common-targets.init">
+<property name="collection" value="neh"/>
+<property name="tamino-database" value="NEH"/>
+<property name="tamino-collection" value="${collection}"/>
+<property name="tamino-meta-collection" value="nehfw-metadata"/>
+<property name="publicId" value="-//TEI.2//EN"/>
+<property name="arachneCvs" value="true"/>
+
+<xmlcatalog id="allcatalogs">
+<dtd publicId="-//TEI.2//EN" location="${build.dtd.dir}/neh-tei.dtd"/>
+<dtd publicId="-//CTI//DTD ${ant.project.name}meta//EN" location="${build.dtd.dir}/${ant.project.name}Metadata.dtd"/>
+<entity publicId="tran-teiHeader" location="${build.dtd.dir}/tran-teiHeader.ent"/>
+<entity publicId="tran-front" location="${build.dtd.dir}/tran-front.ent"/>
+<entity publicId="neh-figure" location="${build.dtd.dir}/neh-figure.ent"/>
+
+</xmlcatalog>
+</target>
+
+
+<!-- expand the include entities (tran-teiHeader.ent and tran-front.ent) -->
+
+<target name="meta-transform" depends="init">
+ <!-- Force the use of SAXON XSLT -->
+<!--
+<property
+          system="true"
+          name="javax.xml.transform.TransformerFactory"
+          value="com.icl.saxon.TransformerFactoryImpl"
+     />
+-->
+<xmlproperty file="${build.xml.dir}/${_collection}MetaItemGroupExpertE.xml" collapseAttributes="true" keepRoot="false"/>
+<xmlproperty file="${build.xml.dir}/nehfwMetaCollectionE.xml" collapseAttributes="true" keepRoot="false"/>
+<xmlproperty file="${build.xml.dir}/${_collection}MetaItemGroupEvidenceE.xml" collapseAttributes="true" keepRoot="false"/>
+<xmlproperty file="${build.xml.dir}/${_collection}MetaItemGroupWitnessE.xml" collapseAttributes="true" keepRoot="false"/>
+<xmlproperty file="${build.xml.dir}/${_collection}MetaItemGroupTranscriptsE.xml" collapseAttributes="true" keepRoot="false"/>
+<xmlproperty file="${build.xml.dir}/${_collection}MetaItemGroupJudgmentE.xml" collapseAttributes="true" keepRoot="false"/>
+<xslt  style="${build.dataPrep.dir}/${_collection}Rdf.xsl" destdir="${build.xml.dir}" force="true" basedir="${build.xml.dir}" extension="M.xml" classpathref="xslt.path"> 
+<!-- must have saxon.jar at beginning of classpath -->
+<!-- this classpath is not being set; have it in your classpath -->
+<param name="identifier" expression="${dc:identifier}"/>
+<param name="source" expression="${dc:source}"/>
+<param name="publisher" expression="${dc:publisher}"/>
+<param name="date" expression="${dc:date}"/>
+<param name="type" expression="${dc:type}"/>
+<param name="format" expression="${dc:format}"/>
+<param name="language" expression="${dc:language}"/>
+<param name="spatial" expression="${dcterms:spatial}"/>
+<param name="temporal" expression="${dcterms:temporal}"/>
+<param name="rights" expression="${dc:rights}"/>
+<xmlcatalog refid="allcatalogs"/>
+<include name="*PCUIE.xml/"/>
+<include name="nehfwMetaCollectionE.xml"/>
+<include name="${_collection}MetaItemGroup*E.xml"/>
+</xslt>
+</target>
+
+
+</project>
