@@ -17,7 +17,7 @@ require("nnu-config");
 require("$lastrun_file");
 
 
-$usage = "$bin_name [-f file.zip] [-h]
+$usage = "$bin_name [-f file.zip]
 
    $bin_name checks a specified URL for links to new zip files
    of OCRed texts and generates a single text document with
@@ -26,7 +26,6 @@ $usage = "$bin_name [-f file.zip] [-h]
 
    -f file.zip   Generate a text document from the specified zip file
 		 (located in the zipfile directory).
-   -h 		 Print out usage information.
 
 Current configuration:
   Download URL   : $base_url
@@ -39,12 +38,15 @@ Current configuration:
 $allfiles = 0;
 $file_next = 0;
 $single_file = 0;
+$debug = 0;
 
 ## command line options
 foreach $arg (@ARGV) {
   if ($arg =~ "-all") {
     # download all of the files
     $allfiles = 1;
+  } elsif ($arg =~ "-debug") {
+    $debug = 1;
   } elsif ($arg =~ "-f") {
     $file_next = 1;
   } elsif ($file_next) {
@@ -56,6 +58,10 @@ foreach $arg (@ARGV) {
   # should perhaps add an option to process a single zipfile?
 }
 
+
+# set file creation permissions (created files should have permissions of rwxrw-r-- )
+## note: execute permission necessary for created directory
+umask(0013);
 
 
 if ($single_file) {
@@ -83,9 +89,11 @@ my $res = $ua->request($req);   # Check the outcome of the response
 if ($res->is_success) {
   # split document into lines
    @doc = split(/^/, $res->content);
-#   print "$#doc lines in content\n";
+   if ($debug) {
+     print "Successfully read url; found $#doc lines in content\n";
+   }
 } else {
-  print "Couldn't open url $base_url\n";
+  print "Error: couldn't open url $base_url\n";
 }
 
 $email_msg = '';
@@ -99,13 +107,22 @@ $num_files = 0;
 foreach $line (@doc) {
   ## FIXME: need to do something with the other stuff 
   ## (bare minimum, store it somewhere to send an email...)
-  if ($line =~ /<h4>(.*)</ ) { 	 ## date of following added texts
+
+  ## skip commented out lines
+  if ($line =~ /\s*<!--.*-->\s*/) {
+  }
+#  if ($line =~ /<h4>(.*)</ ) { 	 ## date of following added texts
+   ## format changed (2003/10) - added name anchors
+  elsif ($line =~ /<h4><a name=".*">(.*)</ ) {
     $date = ($1);
     $date =~ s/,//g;	# strip out comma
     # check if this is more recent than last-run date
     $new = newer($date, $last_run);
     if ($new || $allfiles) {
       $email_msg .=  "\nNew files posted on $date:\n";
+      if ($debug) {
+	print "Found new file posted on $date\n";
+      }
     }
   } elsif ($line =~ /<a href="(.*zip)">/ ) {
     $zipfile = $1;      # link to zipfile
@@ -117,7 +134,7 @@ foreach $line (@doc) {
       $line =~ s/<[a-zA-Z\/]+>//g;   # get rid of html tags for email message
       $email_msg .= " * $line";	# add line to email message
       # download the file to zip directory
-      if (_download_file($base_url, $zipfile)) {
+      if (download_file($base_url, $zipfile)) {
 	# if download succeeds, add to list of files to be processed
 	push(@process_list, $zipfile);
 	$num_downloaded++;
@@ -152,62 +169,52 @@ open(LASTRUN, ">$lastrun_file");
 print LASTRUN "## automatically generated data for $bin_name script\n\n";
 print LASTRUN "\$last_run = \"$today\";\n";
 print LASTRUN "\@error_files = (";
+@new_error_files = (@dload_errors, @process_errors);
 foreach $f (@new_error_files) {
-  print LASTRUN "\"$f\" ";
+  print LASTRUN "\"$f\", ";
 }
 print LASTRUN ");\n\n";
 print LASTRUN "return 1;\n#EOF";
 close(LASTRUN);
 
 
-$cvs_info = "\nTo view these files and add them to the CVS repository:
-telnet to chaucer
-cd /data/neh/data/text
-less ";
-foreach $f (@process_list) {
-  $txt = $f;
-  $txt =~ s/.zip/.txt/;
-  $cvs_info .= "$txt ";
-}
-$cvs_info .= "\n\ncvs add ";
-foreach $f (@process_list) {
-  $txt = $f;
-  $txt =~ s/.zip/.txt/;
-  $cvs_info .= "$txt ";
+## don't actually send email in debug mode
+if ($debug) {
+ select STDOUT;
+} else {
+  open(MAIL, "|mail -s \"NEH novel update\" $email");
+  select MAIL;
 }
 
-
-
-open(MAIL, "|mail -s \"NEH novel update\" $email");
-
-print MAIL "\nNEH novel update Summary:
+print "\nNEH novel update Summary:
     Found $num_files new file(s) +
     Files successfully downloaded: $num_downloaded (of $num_files)
     Files successfully processed:  $num_processed (of $num_downloaded)\n";
 if (@dload_errors) {
-  print MAIL "There were errors downloading the following files:\n";
+  print "There were errors downloading the following files:\n";
   foreach $f (@dload_errors) {
-    print MAIL "    $f\n";
+    print "    $f\n";
   }
 }
 if (@process_errors) {
-  print MAIL "There were errors processing the following files:\n";
+  print "There were errors processing the following files:\n";
   foreach $f (@process_errors) {
-    print MAIL "    $f\n";
+    print "    $f\n";
   }
 }
 
-print MAIL "\n+ Note: \"new\" files may include downloads that previously failed\n";
+print "\n+ Note: \"new\" files may include downloads that previously failed\n";
 
 
-print MAIL "\n\nDetails:\n$email_msg";
-print MAIL "\n\n\nDownloaded zip files are stored in $zipdir.\n";
-print MAIL "Generated text files are stored in $txtdir.\n";
+print "\n\nDetails:\n$email_msg";
+print "\n\n\nDownloaded zip files are stored in $zipdir.\n";
+print "Generated text files are stored in $txtdir.\n";
 
-# FIXME: how to get long strings to be one command, without returns?
-#print MAIL $cvs_info;
+select STDOUT;
 
-close(MAIL);
+if (! $debug) {
+  close(MAIL);
+}
 
 
 
@@ -248,6 +255,9 @@ sub bypage {
 # args: two date strings, in format:  Mon Date Year
 sub newer {
   my($a, $b) = @_;
+  $a =~ s/Sept/Sep/;  # make month syntax consistent
+  $a =~ s/^(\w\w\w)\./$1/;  # remove period at end of month name
+  $b =~ s/Sept/Sep/;  # make month syntax consistent
   %month_num = ("Jan", 1,
 		"Feb", 2,
 		"Mar", 3,
@@ -286,9 +296,24 @@ sub newer {
 # args are base url, filename; automatically outputs to $zipdir
 sub download_file {
   my($url, $file) = @_;
+  if ($debug) {
+    print "Downloading file $file\n";
+  }
 
   $req = HTTP::Request->new(GET => "$url/$file");
   $res = $ua->request($req);
+
+
+  # if filename contains / (i.e., zipfile is in a subdirectory),
+  # strip out directory name
+  if ($file =~ m|/|) {
+    $file =~ s|.*/(.*\.zip)|$1|;
+   if ($debug) {
+     print "Zipfile name contained /; changed filename to $file.\n";
+   }
+  }
+
+
   if ($res->is_success) {
   open(OUT, ">$zipdir/$file");  # store all files in NEH zipdir
   print OUT $res->content;
@@ -300,43 +325,55 @@ sub download_file {
   }
 }
 
-## for debugging purposes only (skip actual download)
-sub _download_file {
-  my($url, $file) = @_;
-  if ($file eq "tortured.zip") {
-    return 0;
-  } else {
-    return 1;
-  }
-}
-
 # create a directory, unzip the file, generate one text file with <pb>s
 sub process_file {
   my($file) = @_;
   my($errstring) = '';
 
   $name = $file;
-  $name =~ s|(.*)\.zip|$1|;  # get the part of the name before .zip
+  # get the part of the name before .zip & after the last slash
+  $name =~ s|(.*)\.zip|$1|;
+  # if there is a slash in the name (i.e., zipfile was in a subdir), get rid of path
+  if ($name =~ m|/|) {
+     $name =~ s|.*/(.*)|$1|;
+  }
+
+  print "file is $file, name is $name\n";
   $tmpdir = "/tmp/$name";
+
+  # get rid of subdirectory or path on filename
+  if ($file =~ m|/|) {
+    $file =~ s|.*/(.*\.zip)|$1|;
+  }
+
 
   # save current directory
   chomp($cwd = `pwd`);
 
-  mkdir ("$tmpdir") ||
-    ($errstring .= "Error! Couldn't create $tmpdir: $!\n");
-  chdir ("$tmpdir") ||
-    ($errstring .= "Error! Couldn't change directory to $tmpdir.");
+  if (! mkdir ("$tmpdir")) {
+    $errstring .= "Error! Couldn't create $tmpdir: $!\n";
+    if ($debug) { 
+      print "Error! Couldn't create $tmpdir: $!\n";
+    }
+  }
+  if (! chdir ("$tmpdir")) {
+     $errstring .= "Error! Couldn't change directory to $tmpdir.";
+     if ($debug) { 
+       print "Error! Couldn't change directory to $tmpdir: $!\n"; 
+     }
+   }
 
   #unzip the files into the newly created directory
-  system("/usr/bin/unzip $zipdir/$file");
+  # note: -qq flag is for quiet output
+  system("/usr/bin/unzip -qq $zipdir/$file");
   # FIXME: should check for error here...
 
   # get the list of one-page text files
   opendir(DIR, "$tmpdir");
   # get all the files (except . and ..), and sort them
   @files = sort bypage( grep { !/^\./ } readdir(DIR));
-#TESTING
-print "testing sort bypage...\n";
+  #TESTING
+  if ($debug) { print "testing sort bypage...\n"; }
   for($i=0; $i<$#files; $i++) {
     print "$files[$i]\n";
   }
