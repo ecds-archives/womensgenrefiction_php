@@ -33,7 +33,7 @@
 <projectDesc>
 <p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
 <samplingDecl>
-<p>The body text of novels and stories has been transcribed and encoded.  Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only.</p></samplingDecl>
+<p>The title pages, select front matter, and body text of novels and stories have been transcribed and encoded.  Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only.</p></samplingDecl>
 <editorialDecl id="">
 <p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera.  Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi.  These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software.  The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel.  This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines.  For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em dashes with two dashes.  Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.  Digital page images are linked to the text file.</p></editorialDecl>
 </encodingDesc>
@@ -49,10 +49,17 @@
 <revisionDesc>
 <change>
 <date>2003-December-08</date>
-<respStmt><name>Erika Farr</name>
+<respStmt><name>Erika Farr,</name>
 <resp>project manager.</resp>
 <name>Lillian Craton</name>
 <resp>associate project manager.</resp></respStmt>
+<item>XML tags inserted in compliance with  TEI guidelines using TEILITE.</item>
+</change>
+<change>
+<date>2004-May-24</date>
+<respStmt><name>Erika Farr,</name>
+<resp>project manager.</resp>
+</respStmt>
 <item>XML tags inserted in compliance with  TEI guidelines using TEILITE.</item>
 </change>
 </revisionDesc>
@@ -66,13 +73,14 @@
 <byline>By<docAuthor>MARIE CORELLI</docAuthor>Author of 'The Sorrows of Satan," "The Mighty Atom," "Barabbas," "A Romance of Two Worlds," etc.</byline>
 <docImprint>
 <pubPlace>LONDON</pubPlace>
-<publisher>Skeffington and Son, Picadilly</publisher>
-<publisher>Publishers to H. R. H. The Prince of Wales</publisher>
+<publisher>Skeffington and Son, Picadilly
+<lb/>Publishers to H. R. H. The Prince of Wales</publisher>
 <docDate>1896</docDate>
 </docImprint>
 </titlePage>
 </front>
-<div type="introduction">
+<body>
+<div type="introduction" id="mcmurde001">
 <pb n="v"/>
 <head>INTRODUCTORY NOTE</head>
 <p>The following slight and unelaborated sketch of a very commonplace and everyday tragedy will, I am aware, meet with the unqualified disapproval of the 'superior' sex. They will assert, with much indignant emphasis, that the character of 'Lord Carlyon' is an impossible one, and that such a 'cad' as he is shown to be never existed. Anticipating these remarks, I have to say in reply that the two chief personages in my story, namely, 'Lord Carlyon' and his wife, are drawn strictly from the life; and, that though both the originals have some years since departed from this scene of earthly contest and misunderstanding, so that my delineation of their characters can no longer grieve or offend either, the 'murder of Delicia'
@@ -115,9 +123,7 @@ carried out. She is fighting towards it,--but, if I may venture to say so, she i
 <date>July 6th, 1896</date>
 </closer>
 </div>
-</front>
-<body>
-<div n="1" type="chapter">
+<div n="1" type="chapter" id="mcmurde002">
 <pb n="[1]">
 <head>The Murder of Delicia</head>
 <head>Chapter 1</head>
@@ -298,7 +304,7 @@ ing upon him with the tender admiration to which he had become accustomed.</p>
  "my" lady!'</p>
 <pb n="49"/>
 </div>
-<div n="2" type="chapter">
+<div n="2" type="chapter" id="mcmurde003">
 <head>CHAPTER II</head>
 <p>DELICLA was perfectly right when she said that her new distinction would draw 'extra snobs' around her. A handle to one's name invariably attracts all the social 'runaways,'--in the same fashion that mischievous street-boys are attracted to bang at a particularly ornate and glittering door-knocker and then scamper off in hiding before any servant has time to answer the false summons. People who are of old and good family themselves think nothing of titles, but those who have neither good birth, breeding nor education, attach a vast amount of importance to these placards of rank, and can never refrain from an awe-stricken expression of countenance when introduced to a duke, or with-hold the regulation 'royalty-dip' when in the presence of some foreign 'princess,' who, as a matter of fact,
 <pb n="50     The Murder of Delicia"/>
@@ -487,7 +493,7 @@ of one's lawful wife, and find a suitable 'soul' wherewith to claim 'affinity.'<
 was the blindly-adoring devotee of a six-foot Guardsman, whom she had herself set up as a 'god' on the throne of the Ideal, and whom she worshipped through such a roseate cloud of sweet self-abnegation that she was unable to perceive how poor a fetish her idol was after all--made of nothing but the very commonest clay!</p>
 <pb n="88"/>
 </div>
-<div n="3" type="chapter">
+<div n="3" type="chapter" id="mcmurde004">
 <head>CHAPTER III</head>
 <p>THE smoking-room of the 'Bohemian' was full of a motley collection of men of the literary vagabond type--reporters, paragraphists, writers of penny dreadfuls, reeled off tape-wise from the thin spools of smoke-dried masculine brains; stray actors, playwrights anxious to translate the work of some famous foreigner and so get fastened on to his superior coat-tails, 'adapters' desirous of dramatising some celebrated novel and pocketing all the profits, anxious 'proposers' of new magazines looking about for 'funds' to back them up, and among all these an extremely casual sprinkling of the brilliant and successful workers in art and literature, who were either honorary members, or who had allowed their names to stand on the committee in order to give 'prestige' to a collection which would otherwise be termed the 'rag-tag
 <pb n="89     The Murder of Delicia"/>
@@ -591,7 +597,7 @@ host, who was escorting her to the carriage. The young man from the country lean
 <p>And warmed by the prospect of this future vengeance, the 'callow bird' went home to roost.</p>
 <pb n="107"/>
 </div>
-<div n="4" type="chapter">
+<div n="4" type="chapter" id="mcmurde005">
 <head>CHAPTER IV</head>
 <p>SOME days after the war of words between Valdis and Aubrey Grovelyn at the 'Bohemian,' Delicia was out shopping in Bond Street, not for herself, but for her husband. She had a whole list of orders to execute for him, from cravats and hosiery up to a new and expensive 'coach-luncheon-basket,' to which he had taken a sudden fancy; and besides this, she was looking about in all the jeweller's shops for some tasteful and valuable thing to give him as a souvenir of the approaching anniversary of their marriage day. Pausing at last in front of one glittering window, she saw a rather quaint set of cuff-studs which she thought might possibly answer her purpose, and she went inside the shop to examine them more closely. The jeweller, not knowing her personally, but judging from the indifferent way in which she took the announcement
 <pb n="108     The Murder of Delicia"/>
@@ -667,7 +673,7 @@ of the fact that he is not fit to be tolerated among decent-minded people, you a
 sciously to himself, longed for the fair, calm presence of Delicia, who always received him with the honour and worship he considered due to him as a man, a lord, and an officer in the Guards; and now when he came home, expecting to be charmed and flattered and caressed by her, she had committed the unwarrantable indiscretion of going to bed and falling sound asleep! It was really too bad!--enough to sting the lofty spirit of a Carlyon! And such is the curious self-pity and egotism of some men at their worst, that 'his lordship' felt himself to be a positively injured man as he settled his 'god-like' head upon his lonely pillow, and fell into an uneasy slumber, disturbed by very unpleasant dreams of his losses at baccarat, and the tipsy rages of Marina.</p>
 <pb n="124"/>
 </div>
-<div n="5" type="chapter">
+<div n="5" type="chapter" id="mcmurde006">
 <head>CHAPTER V</head>
 <p>NEXT morning Delicia rose at about six o'clock and went out riding in the Row long before the fashionable world was astir. Attended by her groom and Spartan, who took long racing gambols on the grass beyond the railings of the 'Ladies' Mile,' she cantered under the deep, dewy shade of the trees, and thought out her position in regard to her husband. In spite of inward grief and perplexity, she had slept well; for to a clear conscience and pure heart, combined with a healthy state of body, sleep is never denied. Mother Nature specially protects her straightforward and cleanly children; she keeps their faces young, their eyes bright, their spirits elastic, their tempers equable, and for the soothing of Delicia's trouble this morning, the sunbeams danced about her in a golden waltz of pleasure, the leaves rustled in the wind, the flowers ex-
 <pb n="125     The Murder of Delicia"/>
@@ -795,7 +801,7 @@ many for you, I fancy; she's quiet but she's clever; and I don't believe she'll 
 <p>Thus Robson soliloquised, shutting the street door with a bang to emphasise the close of his half-audible observations. Then he went up into Delicia's study to give Spartan some dinner. Spartan received the plateful brought to him with majestic indifference, and an air which implied that he would attend to it presently. He had a little white glove of Delicia's between his paws, and manifested no immediate desire to disturb himself. He had his own canine ideas of love and fidelity; and though he was only a dog, it may be he had a higher conception of honour and truth than is attained by men, who, in the excess of self-indulgence, take all the benefits of love and good fortune as their 'rights,' and are destitute of even the saving grace of gratitude.</p>
 <pb n="146"/>
 </div>
-<div n="6" type="chapter">
+<div n="6" type="chapter" id="mcmurde007">
 <head>CHAPTER VI</head>
 <p>IT was no impetus of feminine recrimination or spite that had caused Delicia to go out on that particular evening, and thus deprive her husband of her society in the same abrupt fashion with which he had so often deprived her of his. Mr and Mrs Cavendish were old friends of hers. They had known her when she was a little orphan girl with no brothers or sisters--no companions of her own age to amuse her--nothing, in fact, but her own pensive and romantic thoughts, which had, though she then knew it not, helped to weave her now brilliant destiny. They were elderly, childless people, and they had always been devoted to Delicia, so that when Mrs Cavendish paid an unexpected call in the afternoon and stated that she and her husband were 'mopy,' and that they would take it very kindly if Delicia would come and dine
 <pb n="147     The Murder of Delicia"/>
@@ -861,10 +867,13 @@ quiet house, and in the semi-lighted hail looked at each other questioningly.</p
 and there was an uneasy sense of foreboding in her good, motherly soul that night which kept her awake for a long time, thinking and wondering as to what would happen if certain rumours concerning Lord Carlyon turned out to be true. She knew Delicia's character better than most people; she was aware that beneath that apparently pliant, sweet nature, there was a resolute spirit, strong as iron, firm as adamant--a spirit which would assuredly make for right and justice whenever and however tested and tried; but she could not foresee in what way Delicia would resent a wrong, supposing she had cause for such resentment. She looked slight as a reed and delicate as a lily; but appearances are deceptive; and nothing can well be more foolish than to estimate a person's mental capacity by his or her outward bearing. A rapier is a thin, light weapon, but it can nevertheless kill; a nightingale has nothing to boast of in its plumage, but its singing surpasses that of all the other birds in creation. Only the purely barbaric mind judges things or individuals by surface appearances. Anyone who had attempted to fathom Delicia's character by her looks would have formed a very
 <pb n="162     The Murder of Delicia"/>
 erroneous estimate of her, for, to the casual observer, she was merely a pretty, lovable woman, with a sunny smile and a graceful bearing, and that was all. No one would have given her credit for such virtues as strong self-restraint, courage, determination, and absolute indifference to opinions; yet all these she had in no small degree, combined with an extraordinary directness and swiftness of action which is commendable enough when it distinguishes a man, but is somewhat astonishing when discovered in the naturally capricious composition of a woman. This direct method of conduct impelled her now; for while Mrs Cavendish lay awake worrying about her, she herself, on returning home that evening, had fully made up her mind as to what she meant to do. Going into her study, she sat down and wrote a letter to her husband, in which, with concise and uncomplaining brevity, she told him all. She concluded her epistle thus:--</p>
-<div type="letter"><p>'I am unable to tell you my own feelings on this matter, as I have not yet had time to realise them even to myself. The surprise is too sudden--the disappointment I experience
+<q type="letter">
+<text>
+<body>
+<p>'I am unable to tell you my own feelings on this matter, as I have not yet had time to realise them even to myself. The surprise is too sudden--the disappointment I experience
 <pb n="163     The Murder of Delicia"/>
 in you too keen. I am quite aware that many men keep stage-artistes for their own amusement in hours of leisure, but I do not think they are accustomed to do so on their wives' earnings. It would be inexpressibly painful to me to have to talk this over with you; it is a subject I could not possibly discuss. I therefore deem it best to leave you for a few days in order that we may both, apart from one another, have leisure in which to consider our positions and arrange what is best to do for the future. In order to save all unnecessary gossip and scandal, I shall return to town in time for Lady Dexter's "crush," to which we are both especially invited. I am going to Broadstairs, and will telegraph my address on arrival.</p>
-<closer><signed><name>'DELICIA VAUGHAN.'</name></signed></closer></div>
+<signed><name>'DELICIA VAUGHAN.'</name></signed></body></text></q>
 <p>When she had written all she had to say, she placed the letter in an envelope, addressed it, and, calling Robson, bade him deliver it to his master directly he returned. Robson glanced at her deferentially, wondering within himself at the extreme pallor of her face and feverish brightness of her eyes.</p>
 <pb n="164     The Murder of Delicia"/>
 <p>'His lordship said he would probably not return to-night,' he ventured to observe.</p>
@@ -912,7 +921,7 @@ little woman! But it's marked out for you, and you will have to bear it!'</p>
 <p>He stopped abruptly in the middle of the hall, evidently struck by this idea, and repeated the words to himself slowly and reflectively--'I wonder if she knows?'</p>
 <pb n="173">
 </div>
-<div n="7" type="chapter">
+<div n="7" type="chapter" id="mcmurde008">
 <head>CHAPTER VII</head>
 <p>IT is strange, but nevertheless true, despite all our latter-day efforts at the reasoning away of sentiment, that conscience is still so very much alive in some of us, that when a man of birth and good-breeding has, according to his own stock-phrase for indulgence in vicious amusements, 'seen life,' by spending his time in low company, he is frequently moved by a strong reaction,--so powerful as almost to create nausea, and put him in a very bad and petulant humour. This was the case with Carlyon when he returned to his home at about luncheon time on the day Delicia departed seawards. He was not merely irritable, but he took a fantastic pleasure in knowing himself to be irritable, and in keeping his temper up to the required pitch of spleen. He was really angry with himself, but he managed to pretend that he was angry with
 <pb n="174     The Murder of Delicia"/>
@@ -931,9 +940,14 @@ whelmed. Guilt, shame and remorse fought for the mastery of his feelings, and du
 law! Made by men for themselves and their own convenience! The 'cruelty' which robs an innocent woman of love, of confidence, of happiness at one blow, has no existence, according to masculine justice. She may have to endure wilful neglect, and to be the witness of the open intimacy of her husband with other women; but provided he does not beat her, or otherwise physically ill-use her, and continues to live with her in apparent union, while all the while she shrinks from his touch and resents his companionship as an outrage, she cannot be separated from him. This Carlyon remembered with a commendable amount of self-congratulation.</p>
 <p>'She can't get rid of me, that's one thing,' he reflected; 'not that I suppose she would try it on. Damn that Bond Street jeweller for an ass! Why couldn't the fellow hold his confounded tongue! Of course, it is a split between us; but, by Jove!--a woman who writes books ought to know that a man must get some fun out of life. We can't all be literary! Besides, if there is to be a row, I have got a very good cause of complaint on my side!'</p>
 <pb n="178     The Murder of Delicia"/>
-<p>Whereupon he snatched up a pen and wrote as follows:--</p>
-<div type="letter"><opener><salute>'DEAR DELICIA,</salute></opener>--I regret that a woman of your culture and intelligence should not be able to understand the world and the ways of the world better. Men do not discuss such subjects as that alluded to in your letter; the least said the soonest mended. I enclose a cutting from <hi rend="italic">Honesty</hi>, in which you will perceive that I possibly have more cause to complain of you than you of me. Greater licence is permitted to men than to women, as I imagined you knew, and your position with regard to the public should make you doubly careful. I hope you will enjoy your change of air.--</p>
-<closer><salute>Yours affectionately,</salute><signed><name>WILL.'</name></signed></closer></div>
+<p>Whereupon he snatched up a pen and wrote as follows:--
+<q type="letter">
+<text>
+<body>
+<salute>'DEAR DELICIA,</salute><p>--I regret that a woman of your culture and intelligence should not be able to understand the world and the ways of the world better. Men do not discuss such subjects as that alluded to in your letter; the least said the soonest mended. I enclose a cutting from <hi rend="italic">Honesty</hi>, in which you will perceive that I possibly have more cause to complain of you than you of me. Greater licence is permitted to men than to women, as I imagined you knew, and your position with regard to the public should make you doubly careful. I hope you will enjoy your change of air.--</p><signed>Yours affectionately,<name>WILL.'</name></signed>
+</body>
+</text>
+</q></p>
 <p>He read over the press-cutting alluded to, which ran as follows:--</p>
 <p>'It has been frequently rumoured that the real "Dona Sol" of the "Ernani" who has been so long delighting the histrionic world, is a well-known lady novelist, who has been lifted into far more prominence that her literary capabilities would ever have given her, by her
 <pb n="179     The Murder of Delicia"/>
@@ -967,7 +981,7 @@ ful, and frequently unchaste women--to be set apart in the cold Courts of Fame,-
 <p>And looking up amazed, she found herself face to face with Paul Valdis.</p>
 <pb n="187"/>
 </div>
-<div n="8" type="chapter">
+<div n="8" type="chapter" id="mcmurde009">
 <head>CHAPTER VIII</head>
 <p>FOR a moment she could not speak; astonishment and a lurking sense of indignation held her mute. He meanwhile caressing and endeavouring to soothe Spartan, who frolicked about him in an uncouth dance of joy, went on quickly,--</p>
 <p>'I have followed you. I wanted to tell you all. Yesterday afternoon I saw that paragraph in <hi rend="italic">Honesty</hi>; and last night I thrashed the writer of it within an inch of his life!'</p>
@@ -1081,7 +1095,7 @@ holy calm, awed him and kept him mute and helpless. Bending down, he took her ha
 <p>For a moment Delicia remained passively watching his retreating figure, her hand on the collar of Spartan, who manifested a wild desire to bound after him and bring him back. Then, shuddering a little, she went into the house and shut herself up alone in her bedroom for an hour. When she came out again her eyes were heavy with the shedding of tears; but such an expression was on her face as might be on the radiant features of an angel. And she was very quiet all that evening, sitting at her window and watching the clouds gradually clear, and the great stars shine out above the sea.</p>
 <pb n="208"/>
 </div>
-<div n="9" type="chapter">
+<div n="9" type="chapter" id="mcmurde010">
 <head>CHAPTER IX</head>
 <p>THE next day she received her husband's letter, the letter in which he had excused himself altogether and started a complaint against her instead. She glanced over it with a weary sense of disgust, and smiled disdainfully as she thought what a mountain he was trying to make out of the mole-hill of the paragraph in <hi rend="italic">Honesty</hi>.</p>
 <p>'As if any one of the lying tongues of journalism wagging against me could do me such wrong as his open infidelity,' she mused. 'God! How is it that men manage to argue away their own vices as if they were nothing, and yet take every small opportunity they can find for damaging an innocent woman's reputation!'</p>
@@ -1184,7 +1198,7 @@ the world; I like your books too much; and now, having seen you, I like <hi rend
 whispered of as 'the famous Delicia Vaughan.' For a handle to one's name is a poor thing in comparison to the position of genius; and that the greatest emperor ever crowned is less renowned throughout the nations than plain William Shakespeare, is as it should be, and serves as a witness of the eternal supremacy of truth and justice amid a world of shams.</p>
 <pb n="230"/>
 </div>
-<div n="10" type="chapter">
+<div n="10" type="chapter" id="mcmurde011">
 <head>CHAPTER X</head>
 <p>THE first person Delicia saw after her hostess on entering the rooms was her husband. She bowed to him serenely, with a charming smile and playful air, as if she had only just left his company, then passed him by, entering at once into conversation with an artist of note, who came eagerly forward to present his young wife to her. Carlyon, quite taken aback, stared at her half-angrily, half-obsequiously, for there was something very queenly in the way she moved, something very noble in the manner she carried her proud little head, on which the diamond star she wore shone like Venus on a frosty night. He watched her slim figure in its white draperies moving hither and thither; he saw the brilliant smile light up her whole countenance and flash in her violet eyes; he watched men of distinction in art and statesmanship crowd about her with courtly flatteries
 <pb n="231     The Murder of Delicia"/>
@@ -1306,7 +1320,7 @@ think I know the best way to go to work.' Here he smiled. 'Poor little woman! I 
 <p>A touch of 'nerves' affected him as he threw off his coat and began to ascend the stairs. He saw Robson extinguish the gas in the hall and descend kitchenwards, and a great silence and darkness seemed to encompass the house as he paused for a moment outside his wife's room. Then, slowly and with some hesitation, he lifted the velvet <hi rend="italic">porti&egrave;re</hi> and entered.</p>
 <pb n="251"/>
 </div>
-<div n="11" type="chapter">
+<div n="11" type="chapter" id="mcmurde012">
 <head>CHAPTER XI</head>
 <p>DELICIA was at her desk, writing. She had taken off her rich evening costume and was clad in a loose robe of white cashmere that fell down to her feet, draping her after the fashion of one of Fra Angelico's angels. Her hair was unbound from its 'dress coiffure' of elaborate twists and coils, and was merely thrust out of her way at the back of her head in one great knot of gold. She rose as her husband entered, and turned her face, deadly pale and rigid as a statue's, full upon him. He paused, looking at her, and felt his braggart courage oozing out at his fingers' ends.</p>
 <p>'Delicia,' he began, making a poor attempt at smiling. 'Delicia, I am awfully sorry--'</p>
@@ -1400,9 +1414,8 @@ him. She looked as if during the past few minutes she had risen above and beyond
 <p>As soon as he had gone, Delicia moved slowly to the door and shut and locked it after him; then as slowly returned to her chair, where, leaning her head back against the carved escutcheon, she quietly fainted.</p>
 <pb n="270"/>
 </div>
-<div n="12" type="chapter">
+<div n="12" type="chapter" id="mcmurde013">
 <head>CHAPTER XII</head>
-<div n="1" type="section">
 <p>NEXT day Delicia was too weak and broken in body and spirit to leave her bedroom, which she had managed to reach by herself on recovering from her swoon. Her husband sent her a brief note of farewell by one of the servants. He was leaving London immediately for Paris, he said, 'and when all this nonsense had blown over,' he would return. Till then he was 'hers affectionately.' She crumpled the note in her hand and lay still, her fair head fallen wearily back among her pillows, and a great sense of exhaustion and fatigue numbing all her faculties. A batch of letters came by the mid-day post, letters from strangers and friends, all warmly testifying as usual to her genius; and as she read she sighed heavily and wondered what was the use of it all?</p>
 <p>'They do not know I am dead!' she said to herself, 'That all my life is done with--
 <pb n="271     The Murder of Delicia"/>
@@ -1451,8 +1464,7 @@ and deeply-thinking mind, which had been hers in a very great degree before her 
 her window pane. What strange, what distant Glory did she see, that all the light and all the splendour of the summer day should seem, for that one moment, to be mirrored in her eyes? Then--she gave a sharp, choking cry,. . .</p>
 <p>'Spartan! Spartan!'</p>
 <p>With one bound the great dog obeyed the call, and sprang up against her, putting his huge, soft paws upon her breast. Convulsively she clasped them close,--as she would have clasped the hands of an only friend,--and fell back heavily in her chair-dead!</p>
-</div>
-<div n="2" type="section">
+<milestone rend="dots" type="section"/>
 <p>So they found her an hour later,--her cold hands still holding Spartan's rough paws to her bosom,--while he, poor faithful beast, imprisoned in that death-grip, sat patiently watching his mistress with anxious and loving eyes, waiting till she should wake. For she looked as if she had merely fallen asleep for a few minutes; a smile was on her lips,--the colour had not quite left her face,--and her body was yet warm. For some time no one dared touch the dog, and only at last by dint of sheer force and close muzzling could they drag him away and
 <pb n="281     The Murder of Delicia"/>
 lock him up in the yard, where he filled the surrounding neighbourhood with his desolate howling. He was 'only a dog;' he had not the beautiful reasoning ability of a man, who is able to console himself easily for the death of friends by making new ones. He had a true heart, poor Spartan! It is an unfashionable commodity, and useless, too, since it cannot be bought or sold. And when all the newspapers had headings--'Death of Delicia Vaughan,' with accounts of the 'sudden heart failure,' which had been the cause of her unexpected end, Lord Carlyon returned in haste to town to attend the funeral and to hear the will. But he found his presence scarcely needed,--for the great public, seized by a passionate grief for the loss of one of its favourite authors, took it upon itself to make the obsequies of this 'unsexed' woman as imposing as any that ever attended king or emperor. Thousands followed the coffin to the quiet Mortlake cemetery, where Delicia had long ago purchased her own grave; hundreds among these thousands wept, and reminded each other of the good actions, the many kindnesses that had made her suddenly-ended life a blessing and consolation to the sick and
@@ -1470,8 +1482,14 @@ as nothing when set against the manner in which he considered he had been 'done'
 <p>'Too late, too late! My love, my darling!' he groaned in bitterness of spirit. 'What is it worth, all this shouting of praise over your silent grave? Oh, my Delicia! All you sought was love; so little to ask, my darling, so little in return for all the generous overflow of your gifted soul! If you could have loved me; but no! I would not have had you change your nature; you would not have been Delicia had you loved more than once!'</p>
 <p>And his eyes rested tenderly on the wistful companion of his musing, Spartan, who had been left to his care in a very special manner, with a little note from Delicia herself, which
 <pb n="286     The Murder of Delicia"/>
-was delivered to him by her lawyers and which ran thus:--</p>
-<div type="letter"><opener><salute>'DEAR FRIEND,</salute>--Take care of Spartan. He will be contented with you, for he loves you. Please console him and make him happy for my sake.<closer><signed><name> DELICIA.'</name></signed></closer></div>
+was delivered to him by her lawyers and which ran thus:--
+<q type="letter">
+<text>
+<body>
+<salute>'DEAR FRIEND,</salute><p>--Take care of Spartan. He will be contented with you, for he loves you. Please console him and make him happy for my sake.</p><signed><name> DELICIA.'</name></signed>
+</body>
+</text>
+</q></p>
 <p>Valdis knew that little letter by heart; it was more priceless to him than any other worldly possession.</p>
 <p>'Spartan,' he said now, calling the faithful animal to his side and taking his shaggy, massive head between his hands, 'Out of the whole world that calls our Delicia "famous," the world that has gained new beauty, hope and joy from the blossoming of her genius, only you and I loved her!'</p>
 <p>Spartan sighed. He had become a melancholy, meditative creature, and his great brown eyes were often suffused with tears. Had he been able to answer his new master then, he might have said,</p>
@@ -1481,10 +1499,12 @@ faithless! Yet men, so they say, are higher in the scale of creation than dogs. 
 <p>And truly it is a strange world to many of us, though perhaps the strangest and most incomprehensible part of the whole mystery is the perpetual sacrifice of the good to the bad, and the seeming continual triumph of conventional lies over central truths. But, after all, that triumph is only 'seeming'; and the martyrdom of life and love endured by thousands of patiently-working, self-denying women will bring its own reward in the Hereafter, as well as its own terrific vengeance on the heads of the callous egotists among men who have tortured tender souls on the rack, or burnt them in the fire, making 'living torches' of them, to throw light upon the wicked deeds done in the vast arena of Sensualism and Materialism. Not a tear, not a heart-throb of one pure woman wronged
 <pb n="288     The Murder of Delicia"/>
 shall escape the eyes of Eternal Justice, or fail to bring punishment upon the wrong-doer! This we may believe,--this we MUST believe,--else God Himself would be a demon and the world His Hell!</p>
-</div>
 <trailer>THE END</trailer>
 </div>
-<colophon>Colston & Coy., Limited, Printers, Edinburgh.</colophon>
 </body>
+<back>
+<div type="colophon" id="mcmurde014">
+<p>Colston & Coy., Limited, Printers, Edinburgh.</p></div>
+</back>
 </text>
 </TEI.2>
