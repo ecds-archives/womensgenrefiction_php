@@ -1,3 +1,104 @@
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>The Fate of Madame La Tour, an electronic edition</title>
+<author n="Paddock, A.G., Mrs.">Mrs. A. G. Paddock</author>
+</titleStmt>
+<extent>612kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2004</date>
+<availability>
+<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about  this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA  30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email:  beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Paddock, A. G., Mrs.</author>. <title>The Fate of Madame
+La Tour: A Tale of the Great Salt Lake</title>. <pubPlace>New
+York</pubPlace>: <publisher>Fords, Howard, &amp; Hulbert</publisher>, <date>1881</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<samplingDecl>
+<p>The title page and body text of novels and stories have been transcribed and encoded.  Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only. </p></samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.  For
+pages that include visually interesting material, digital
+page images have been linked to the text file.</p></editorialDecl>
+<classDecl>
+  <taxonomy id="lcsh">
+     <bibl>
+       <title>Library of Congress Subject Headings</title>
+     </bibl>
+  </taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">unedited</rs>
+<rs type="genre">novel</rs>
+<rs type="geography">United States</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>American Literature--19th Century--Fiction.</item>
+<item>Women authors, American--19th Century.</item>
+<item></item>
+<item></item>
+<item></item>
+<item></item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2004-September-09</date>
+<respStmt><name>Erika Farr</name>, 
+<resp>project manager.</resp>
+</respStmt>
+<item>XML tags inserted in compliance with  TEI guidelines using
+TEILITE.</item></change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<titlePage>
+
+</titlePage>
+</front>
+<body>
 <pb n="13"/>
 CHAPTER 1.
 THE ADVANCE GUARD.
@@ -2212,6 +2313,8 @@ ing, no one competent to decide whether or not death was due to natural causes w
 <p>Elsie La Tour did not lay claim to the gift of prophecy, but her words proved true. And to-day, though the Prophet is dead, Mormonism lives, and is strengthening itself and enlarging its boundaries year by year. Its rule is absolute in Utah, and it holds the balance of power in the adjoining Territories. The potency of the system is felt in the halls of Congress, and while its high priests are boasting loudly that the nation <hi rend="italic">dares not</hi> interfere with a religion that teaches treason and murder, thousands of European immigrants are being brought to Utah to take the oath of unquestioning obedience to the authority of the Church, and of perpetual enmity to the Government and people of the United States.</p>
 <pb n="284     <hi rend="italic">THE FATE OF MADAME LA TOUR.</hi>"/>
 <p>For nearly half a century the Mormon leaders have been industriously engaged in sowing the seeds of disloyalty to the Government and hatred to the nation. What will the harvest be? Let our statesmen answer the question.</p>
+</body>
+<back>
 <pb n="285"/>
 APPENDIX.
 UTAH: 1870-1881.
@@ -2220,11 +2323,11 @@ UTAH: 1870-1881.
 <p>The year 1870, however, witnessed many changes. The completion of the transcontinental railway brought the isolated "valleys of the mountains" into direct communication with the civilized world. With freight across the plains reduced from twenty-five cents to three cents per pound, the miners were no longer dependent upon the Saints for supplies, and the bullion which the smelters turned out could be shipped to the States at a handsome profit.
 Immediately following these changes came the discovery of the Emma Mine and the publication to the world of the enormous mineral wealth of the Territory.</p>
 <pb n="286     <hi rend="italic">APPENDIX.</hi>"/>
-During the summer and autumn of 1870 the "stampede" to the new mining country was continuous, and in the spring of 1871 the Gentile residents of Utah numbered at least five thousand souls. The majority of these were, of course, miners; but in Salt Lake City there were a goodly number of Gentile merchants and professional men who had brought their families with them, and Corinne, a railroad town laid out in 1869, had a population of twelve hundred, all of whom were Gentiles.
-With so large a representation from the outside world in the Territory, and with railroad communication open between Utah and the States, the Prophet saw the wisdom of abandoning the shot-gun policy, adopted in former years, to keep miners out of the kingdom; but he was by no means at the end of his resources.
-Every possible obstacle was thrown in the way of the miners, and as the political and legislative, and to a great extent the judicial machinery of the Territory was altogether in Mormon hands, the "possible obstacles" were many.
-In the winter of 1871-72 a <hi rend="italic">coup d'etat</hi> was planned to rid the Territory of its unwelcome guests. The Utah Legislature (composed wholly of Mormon high priests) passed an act imposing a tax of twenty per cent on the gross proceeds of the mines. This act, had it become a law, would have compelled every mine in the Territory to shut down, except possibly the Emma, which was producing ore to the amount of five thousand dollars per day.
-The Gentile Governor, being invested with the power of an absolute veto, nipped this precious scheme in the bud; but at every subsequent session of this inspired Legislature bills have been framed and presented having the same object in view--namely, the complete destruction of the mining interests of the Territory.
+<p>During the summer and autumn of 1870 the "stampede" to the new mining country was continuous, and in the spring of 1871 the Gentile residents of Utah numbered at least five thousand souls. The majority of these were, of course, miners; but in Salt Lake City there were a goodly number of Gentile merchants and professional men who had brought their families with them, and Corinne, a railroad town laid out in 1869, had a population of twelve hundred, all of whom were Gentiles.</p>
+<p>With so large a representation from the outside world in the Territory, and with railroad communication open between Utah and the States, the Prophet saw the wisdom of abandoning the shot-gun policy, adopted in former years, to keep miners out of the kingdom; but he was by no means at the end of his resources.</p>
+<p>Every possible obstacle was thrown in the way of the miners, and as the political and legislative, and to a great extent the judicial machinery of the Territory was altogether in Mormon hands, the "possible obstacles" were many.</p>
+<p>In the winter of 1871-72 a <hi rend="italic">coup d'etat</hi> was planned to rid the Territory of its unwelcome guests. The Utah Legislature (composed wholly of Mormon high priests) passed an act imposing a tax of twenty per cent on the gross proceeds of the mines. This act, had it become a law, would have compelled every mine in the Territory to shut down, except possibly the Emma, which was producing ore to the amount of five thousand dollars per day.</p>
+<p>The Gentile Governor, being invested with the power of an absolute veto, nipped this precious scheme in the bud; but at every subsequent session of this inspired Legislature bills have been framed and presented having the same object in view--namely, the complete destruction of the mining interests of the Territory.</p>
 <pb n="287     <hi rend="italic">UTAH: 1870-1881.</hi>"/>
 <p>In the May number of <hi rend="italic">The North American Review</hi>, Mr. George Q. Cannon, late Delegate from Utah to the House of Representatives, alludes to the current rumor of the above fact, and denies it.</p>
 <p>Mr. Cannon is hereby referred to Governor Emery's veto of the bill to suppress the smelters in the Territory (<hi rend="italic">Journals of the Legislature for</hi> 1876, page 261) and likewise to his veto of the bill levying a tax on the mines and a double tax on their products. (<hi rend="italic">Journal</hi> for 1878, page 321.)</p>
@@ -2349,7 +2452,7 @@ to one of the Washington papers, giving an account of the massacre, and Dame, aw
 <p>"Brigham sent me away, telling me he would commune with God and let me know the result. The next morning I went back to him and he said: 'Brother Lee, the people did just right--only they were a little too hasty. I have evidence from God that the act was right. I sustain you and the brethren in all that you did. All I fear is treach-
 <pb n="303     <hi rend="italic">UTAH: 1870-1881.</hi>"/>
 cry on the part of the brethren. Go home, tell the brethren I sustain them; and keep all as secret as the grave. Write me a letter throwing the blame on the Indians, and I will report it to the government as an Indian massacre.'<ref
-target="cpfaten25">*</ref> <note id="cpfaten3" n="3" resp="author" place="foot">*Brigham Young was at that time Governor of Utah and Indian Agent.</note></p>
+target="cpfaten25">*</ref> <note id="cpfaten25" n="25" resp="author" place="foot">*Brigham Young was at that time Governor of Utah and Indian Agent.</note></p>
 <p>"Young was fully satisfied with me then and for years afterwards. He gave me three wives after that, and appointed me Probate Judge of Washington County. Nothing but cowardice has made him desert me now."</p>
 <p>"It was the first plan to have none but Indians take part in the massacre, but as William C. Stewart, Joel White, and Benjamin Arthur were coming to the Meadows on Wednesday night they met young Aden and another man from the emigrants' camp going to Cedar City for help. They told of the Indian attack and asked aid from the settlers. The only reply was a shot from Stewart which killed Aden. The other man, who was wounded by White and Arthur, escaped and carried word to the emigrants that the whites had come to help the Indians. After that the authorities said there was no safety except in killing all who could talk."</p>
 <p>Lee gives the names of many men holding official positions in the Nauvoo Legion and in the Church, who were leaders in the bloody work. Five of these men, Bishops and Presidents of Stakes of Zion, fled to the mountains as soon as it was known that the massacre would be investigated, and remained in hiding until after Lee's execution. Should any person be disposed to ask why Lee was the only one of the fifty-eight white men engaged in the massacre who was ever brought to trial, I refer him for an answer to the prosecuting attorney at the time of the Lee trial.</p>
@@ -2363,23 +2466,29 @@ Stewart--are still hiding from justice, remaining much of the time in the mounta
 <pb n="305     <hi rend="italic">UTAH: 1870-1881.</hi>"/>
 doctrine that men who commit murder, adultery, and other gross crimes, should be executed."</p>
 <p>The following affidavit may serve to show just how the doctrine of "blood-atonement" is understood by Mr. Cannon himself.</p>
-*please see how laid-out in book
-"UNITED STATES OF AMERICA, 
-TERRITORY OF UTAH,
-COUNTY OF SALT LAKE,
+<q>
+<text>
+<body>
+<div id="cpfate" type="affidavit">
+<head>"UNITED STATES OF AMERICA, 
+<lb/>TERRITORY OF UTAH,
+<lb/>COUNTY OF SALT LAKE,</head>
 <p>"Adolph Razins, a citizen of the United States, resident in said Territory and County, deposes and says that on or about the first day of March A.D. 1855, at the City of Salt Lake, one George Q. Cannon told affiant that according to the doctrine of blood-atonement as believed, understood, and practised in and by the Church of Latter Day Saints, or Mormons, it was, and always is the duty of each and every member of said Church to shed the blood of his neighbor for salvation's sake. That is to say, the said George Q. Cannon did at the time aforesaid attempt to impress upon the mind of this aunt that when any co-religionist was thought to be in a state of sinfulness, or disobedience to said Church, its doctrines and priesthood, it was then and in that case the justifiable privilege and duty of any other co-religionist to kill such offender. And having argued and explained to affiant the said doctrine of blood-atonement, the said George Q. Cannon did then and there inform affiant that Almon W. Babbitt, Secretary of Utah Territory, had transgressed the laws of said Church, and had disobeyed the commands of its President in divers ways; and that for such transgression and disobedience, the blood of the said Almon W. Babbitt should and must be shed, to redeem and save his soul from sin. That thereupon the said George Q. Cannon told affiant that said Almon W. Babbitt was then, in March, 1855, intending to go from
 <pb n="306     <hi rend="italic">APPENDIX.</hi>"/>
 Salt Lake City to Washington, D. C., advising and urging affiant to accompany said Babbitt on the journey as aforesaid, and on the journey to shed the blood of the said Almon W. Babbitt, according and in obedience to the teachings of said Church. The affiant then and there earnestly and conscientiously refused to commit or have any part in the commission of the murder so advised and counseled by the said George Q. Cannon. Affiant further says that he did accompany the said Almon W. Babbitt to Washington, D. C., but did not return to Utah with him. That afterwards, in the summer of 1856, the said Almon W. Babbitt was assassinated on his return from Washington, and this affiant believes said assassination was an act done in accordance with the laws or doctrines of said Church and by agents of said Church, instigated thereto by the advice and counsel of George Q. Cannon as aforesaid, and other persons in the authority of said Church. Affiant says that in March, 1855, as aforesaid, he was a member of the Church of Jesus Christ of Latter Day Saints, or Mormons, as hereinbefore stated, and that said George Q. Cannon was a member of said Church holding office in its priesthood at the same time. That the said George Q. Cannon is the same person who is now Delegate in the House of Representatives from the Territory of Utah, in the Congress of the United States. And further deponent saith not.</p>
-*please see layout in book
-"A. RAZINS.
-"Subscribed and sworn to,
-before me, this 9th day
-of March, A.D. 1874,
-"ALFRED S. GOULD,
-<hi rend="italic">"Clerk, Supreme Court of Utah Territory."</hi>
-U. S. of America.
-Supreme Court.
-Terr. of Utah.
+<signed>"<name>A. RAZINS</name>.</signed>
+<dateline>"Subscribed and sworn to,
+<lb/>before me, this 9th day
+<lb/>of March, A.D. 1874,</dateline>
+<signed>"<name>ALFRED S. GOULD</name>,
+<lb/><hi rend="italic">"Clerk, Supreme Court of Utah Territory."</hi></signed>
+<trailer>U. S. of America.
+<lb/>Supreme Court.
+<lb/>Terr. of Utah.</trailer>
+</div>
+</body>
+</text>
+</q>
 <pb n="307     <hi rend="italic">UTAH: 1870-1881.</hi>"/>
 <p>It is not my purpose to answer in detail the article containing Mr. Cannon's statements. In Utah, it needs no answer, for no person who has resided here for any length of time can be deceived by it. Outside of the Territory, however, the history of the "peculiar people" of these valleys is not so well known as to preclude the possibility of anybody's receiving a wrong impression. It may be well, on this account, to notice one more of Mr. Cannon's positive assertions and see what foundation it has.</p>
 <p>Mr. Cannon says (page 458), "For many years after the settlement of Utah, not a liquor saloon existed in the Territory." The ex-Delegate's memory is certainly at fault, or possibly the places in which liquor was sold were not called "saloons" in the days to which he refers.</p>
@@ -2480,34 +2589,112 @@ $3500. There are seven Methodist preachers in the Territory, and two hundred and
 Ogden, and schools established at these places, and also at Plain City.</p>
 <p>In Salt Lake a school building was erected capable of accommodating over four hundred scholars.</p>
 <p>Right Rev. D. Tuttle, bishop of the diocese, resides in Salt Lake. There are, besides, five clergymen employed in the Territory.</p>
-<p>The statistics of the Church in Utah for the present year are as follows:</p>
-*this chart needs your help!
-Communicants in the Territory.........300
-Salt Lake Sunday-school.
-Scholars......................415
-Teachers.......................29
-Ogden Sunday-school.
-Scholars......................140
-Teachers........................7
-Logan Sunday-school.
-Scholars.......................65
-Teachers........................5
-Plain City Sunday-school.
-Scholars.......................35
-Teachers........................4
-St. Mark's Grammar School.
-Scholars......................460
-Teachers.......................23
-Ogden Day-school.
-Scholars......................125
-Teachers........................2
-Logan Day-school.
-Scholars.......................65
-Teacher.........................1
+<p>The statistics of the Church in Utah for the present year are as
+follows:
+<table rows="25" cols="2">
+<row>
+<cell role="label">Communicants in the Territory</cell>
+<cell role="data">300</cell>
+</row>
+<row>
+<cell><label>Salt Lake Sunday-school.</label></cell>
+<cell></cell>
+</row>
+<row>
+<cell role="label">Scholars</cell>
+<cell role="date">415</cell>
+</row>
+<row>
+<cell role="label">Teachers</cell>
+<cell role="data">29</cell>
+</row>
+<row>
+<cell><label>Ogden Sunday-school.</label></cell>
+<cell></cell>
+</row>
+<row>
+<cell role="label">Scholars</cell>
+<cell role="data">140</cell>
+</row>
+<row>
+<cell role="label">Teachers</cell>
+<cell role="data">7</cell>
+</row>
+<row>
+<cell><label>Logan Sunday-school.</label></cell>
+<cell></cell>
+</row>
+<row>
+<cell role="label">Scholars</cell>
+<cell role="data">65</cell>
+</row>
+<row>
+<cell role="label">Teachers</cell>
+<cell role="data">5</cell>
+</row>
+<row>
+<cell><label>Plain City Sunday-school.</label></cell>
+<cell></cell>
+</row>
+<row>
+<cell role="label">Scholars</cell>
+<cell role="data">35</cell>
+</row>
+<row>
+<cell role="label">Teachers</cell>
+<cell role="data">4</cell>
+</row>
+<row>
+<cell><label>St. Mark's Grammar School.</label></cell>
+<cell></cell>
+</row>
+<row>
+<cell role="label">Scholars</cell>
+<cell role="data">460</cell>
+</row>
+<row>
+<cell role="label">Teachers</cell>
+<cell role="data">23</cell>
+</row>
+<row>
+<cell><label>Ogden Day-school.</label></cell>
+<cell></cell>
+</row>
+<row>
+<cell role="label">Scholars</cell>
+<cell role="data">125</cell>
+</row>
+<row>
+<cell role="label">Teachers</cell>
+<cell role="data">2</cell>
+</row>
+<row>
+<cell><label>Logan Day-school.</label></cell>
+<cell></cell>
+</row>
+<row>
+<cell role="label">Scholars</cell>
+<cell role="data">65</cell>
+</row>
+<row>
+<cell role="label">Teacher</cell>
+<cell role="data">1</cell>
+</row>
 <pb n="319     <hi rend="italic">UTAH: 1870-1881.</hi>"/>
-Plain City Day-school.
-Scholars.......................52
-Teacher.........................1
+<row>
+<cell><label>Plain City Day-school.</label></cell>
+<cell></cell>
+</row>
+<row>
+<cell role="label">Scholars</cell>
+<cell role="data">52</cell>
+</row>
+<row>
+<cell role="label">Teacher</cell>
+<cell role="data">1</cell>
+</row>
+</table>
+</p>
 <p>In all the above schools pupils unable to pay the required rates receive <hi rend="italic">free tuition</hi>. St. Mark's Grammar School was the first school in Utah to offer the benefits of education without money and without price.</p>
 
 <p>ST. MARK'S HOSPITAL, SALT LAKE.</p>
@@ -2522,10 +2709,26 @@ Teacher.........................1
 <p>A former historian of the Territory, writing in 1871, said:</p>
 <p>"The opportune death of Brigham Young would simplify matters somewhat."</p>
 <p>In 1877 Brigham Young died in his bed, thereby cheating the gallows, as many of his associates in crime have done; but his successors yet rule the people with a rod of iron. Every year witnesses a large Mormon immigration, chiefly from Europe, and each immigration is an accession to the mass of ignorance and fanaticism which is so dangerous a power in the hands of unscrupulous men, such as the present Mormon leaders.</p>
-<pb n="321"/>
-UTAH TO-DAY
+<pb n="[321]"/>
+
 <p>THE gravest problem presented to the American statesman of to-day is that which is found in the attitude of Mormon Theocracy towards our government. There are perhaps two hundred thousand Mormons in Utah and the adjoining States and Territories--that is to say, two hundred thousand of the inhabitants of our common country who are bound by oaths which make them at once the slaves of their spiritual leaders, and the sworn enemies of the nation within whose borders they dwell.</p>
-<p>Salt Lake City, the capital of Utah, is the centre from which emanates the power that controls the one hundred and thirty thousand Mormons in this Territory, and the seventy thousand Mormons in Idaho, Wyoming, Arizona, Colorado, and Nevada. When the President of the Church speaks, he is obeyed as implicity by his subjects outside of Utah as by those who dwell in sight of the Temple. The present head of the Mormon Church is John Taylor, an Englishman, who on the death of Brigham Young was elevated to that position by the foreign-born Saints, who greatly outnumber the Americans.* (Footnote: *This remark applies to adult Mormons. The children of foreigners born in Utah give the native-born population a preponderance in the census tables.) Taylor has a profound contempt for republican institutions, but, like his predecessor, he knows how to make them subservient to the interests of the Church. Thus the ballot, which was little valued before the advent of the Gentiles in the Prophet's
+<p>Salt Lake City, the capital of Utah, is the centre from which
+emanates the power that controls the one hundred and thirty thousand
+Mormons in this Territory, and the seventy thousand Mormons in Idaho,
+Wyoming, Arizona, Colorado, and Nevada. When the President of the
+Church speaks, he is obeyed as implicity by his subjects outside of
+Utah as by those who dwell in sight of the Temple. The present head of
+the Mormon Church is John Taylor, an Englishman, who on the death of
+Brigham Young was elevated to that position by the foreign-born
+Saints, who greatly outnumber the Americans.<ref
+target="cpfaten26">*</ref> <note id="cpfaten26" n="26" resp="auth"
+place="foot">*This remark applies to adult Mormons. The children of
+foreigners born in Utah give the native-born population a
+preponderance in the census tables.</note> Taylor has a profound
+contempt for republican institutions, but, like his predecessor, he
+knows how to make them subservient to the interests of the
+Church. Thus the ballot, which was little valued before the advent of
+the Gentiles in the Prophet's
 <pb n="322     <hi rend="italic">APPENDIX.</hi>"/>
 dominions, is now prized as the bulwark of priestly power in Utah, and as a means by which the adjoining Territories are to be brought under Mormon rule.</p>
 <p>In Utah the law confers the right of suffrage on men above twenty-one years of age who are either native born or naturalized, and who are also tax-payers. Women enjoy the right of suffrage without these qualifications. Alien women who have been less than a month in the Territory may and do vote, if married (polygamously or otherwise) to a citizen; and while the law requires that a single woman shall he over twenty-one years of age in order to be a legal voter, practically this qualification is not insisted upon when she votes for the Church candidate. As the population of Utah is constituted at present, the Mormons, who vote as one man under the direction of the authorities of the Church, can return a majority of ten to one over the Gentiles. In nearly three-fourths of the precincts in the Territory, not a single Gentile vote was returned at the last election, and as the Saints do the counting, and count as well as vote in obedience to "counsel," the heaviest Gentile immigration that can reasonably he expected will not affect the election returns much for ten years to come.</p>
@@ -2538,7 +2741,15 @@ ter covering thirty-six square miles), are invested with powers only a little le
 <pb n="324     <hi rend="italic">APPENDIX.</hi>"/>
 an unnaturalized foreigner. The present Governor of the Territory refused this man a certificate of election to the Forty-seventh Congress, holding that the votes cast for him were thrown away because he was not a citizen of the United States, and that, as he was a polygamist, his disabilities could not be removed before the time should arrive for taking his seat.
 This act, performed by the Governor as a duty which his oath of office made incumbent upon him, has arrayed the entire Mormon Church against him.
-Since 1858, when Brigham Young was superseded as Governor of the Territory by a Gentile, no Federal officer has ever been warmly welcomed by the saints, and the various governors, in particular, have been the objects of a bitter animosity on the part of the Mormon leaders. In former times these unwelcome officials were driven out of the Territory by the Danites,* (Footnote: *The sworn band of "Destroying Angels," who perform the extreme commands of the Church authorities.) but for ten years past they have suffered no annoyance beyond newspaper abuse and covert threats of personal violence. It is hoped therefore by the friends of Governor Murray that his straightforward performance of official duty will not be followed by serious consequences.
+Since 1858, when Brigham Young was superseded as Governor of the
+Territory by a Gentile, no Federal officer has ever been warmly
+welcomed by the saints, and the various governors, in particular, have
+been the objects of a bitter animosity on the part of the Mormon
+leaders. In former times these unwelcome officials were driven out of
+the Territory by the Danites,<ref target="cpfaten27">*</ref> <note
+id="cpfaten27" n="27" resp="auth" place="foot">*The sworn band of
+"Destroying Angels," who perform the extreme commands of the Church
+authorities.</note>  but for ten years past they have suffered no annoyance beyond newspaper abuse and covert threats of personal violence. It is hoped therefore by the friends of Governor Murray that his straightforward performance of official duty will not be followed by serious consequences.
 The monstrous doctrine of Blood Atonement (the offering of human sacrifices) is as much an integral part of the Mormon system to-day as it ever was, though masked and modified in its practical application through fear of the United States laws; and Polygamy, the curse and blight of the homes of Utah, instead of being on the decline, as some of our astute statesmen suppose, is entrenching itself more firmly in Utah itself and spreading into adjoining States and Territories. <hi rend="italic">More polygamous marriages were contracted during 1880 than during any year since the</hi>
 <pb n="325     <hi rend="italic">UTAH TO-DAY.</hi>"/>
 <hi rend="italic">settlement of the Territory</hi>. If the vigorous treatment of the Mormon problem, which President Garfield has outlined in his message, could become an accomplished fact, there might soon be a change for the better in Utah, but, judging the future by the past, we have little hope that Congress will do anything until compelled by the pressure of public sentiment.</p>
@@ -2619,7 +2830,7 @@ Gentile marriage is null and void, and they are offered the privilege of being s
 <p>If they accept, they kneel at an altar, and an ordinary marriage ceremony is gone through with, concluding with a formula of blessing which seals them to each other for eternity.</p>
 <p>Candidates for plural marriage kneel at a similar altar, and the first wife, if obedient, kneels beside them and places the hand of the new bride in that of her husband. Should the first wife prove rebellious, her presence at the ceremony is dispensed with. The same service that unites a man to his first wife is used to "solemnize" a plural marriage, but at its conclusion this blessing is pronounced on the pair:</p>
 <p>"Forasmuch as you have entered into the holy covenant of celestial marriage, all manner of sins shall be forgiven you, and you shall inherit eternal life."</p>
-*line of asterisks
+<milestone unit="section" rend="stars"/>
 <p>The above information with regard to the rites of the Endowment House I have obtained from a number of persons at different times and places, and in all important particulars the witnesses agree perfectly. I have purposely omitted the grips, signs, pass-words, etc., together with the "counsel" of the officiating priest.</p>
 <p>The ceremonies are very tedious, lasting fully eight hours, and a complete description of them would fill a volume.</p>
 
@@ -2654,7 +2865,6 @@ ble abuse of power. The history of his <hi rend="italic">reign</hi> (for it is n
 <p>"A number of your petitioners have become residents of Utah within two years past. Relying upon the protection of the Federal Government, we, with our families, have sought homes here; but though we, our husbands, and our sons, have been peaceably engaged about our private duties, and have in no way interfered with the rights of the earlier settlers, we have been regarded as unwelcome intruders, and have been forced to live as though in an enemy's country.</p>
 <p>"We have been told repeatedly, through the columns of the <hi rend="italic">Deseret News</hi> (the official organ of the Mormon Church), that in the event of Utah's becoming a State, if we do not choose to be ruled by the majority, we can leave--the railroad is open.</p>
 <p>"We are duly sensible of the graciousness of this permission, but there are some obstacles in the way of our availing ourselves of it. Many of us have our all invested here, and would be forced to leave empty-handed. Still, that would be preferable to remaining here under the rule of those who have shown themselves incapable of either justice or mercy, and determined to ignore every principle which lies at the foundation of our republican institutions. Our prayer to you, the representatives of a free people, is that you will not take such action as will force upon us either alternative."</p>
-*layout from here to page 342 needs looking at
 (Signed)Mrs. S. GODBE,
 and four hundred and seventy-three other signers.
 <pb n="341     <hi rend="italic">NOTES OF REFERENCE.</hi>"/>
@@ -2751,8 +2961,10 @@ he was new to the Territory and ignorant of the doctrine of blood-atonement, and
 <p>"He was there informed that his only duty with regard to the discovery he had made was to say nothing about it, and ask no questions.</p>
 <p>"That night a detachment of the police force took up the bodies and reburied them outside of the old city wall.</p>
 <p>"When I was made acquainted with the foregoing facts, I sought out the spot indicated as the second place of burial, and dug up the remains, which by this time were skeletons. The skulls of the children as well as of the grown persons were crushed in, as if from a blow with a bludgeon or crowbar. I also found in the pit the rawhide thongs which had been used to bind the victims.</p>
-<p>"I made a detailed report of the matter to the Federal authorities in the Territory, but they were not clothed with power sufficient to trace or punish the perpetrator of the crime, and so far as my knowledge extends no effort has ever been made in that direction."</p>
-*layout for next line
+<p>"I made a detailed report of the matter to the Federal authorities
+in the Territory, but they were not clothed with power sufficient to
+trace or punish the perpetrator of the crime, and so far as my
+knowledge extends no effort has ever been made in that direction."</p>
 (Signed,)	S. G."
 
 <p>NOTE P (PAGE 22 I).</p>
@@ -2829,7 +3041,9 @@ pathizing neighbors went to the Bishop of the Ward to beg for the poor creature'
 
 <p>"MRS. A. G. PADDOCK,</p>
 <p>"DEAR MADAM: Your letter of the 31st ult. is at hand, and contents carefully noted. As to the statement made by Mr. D--, I will say that it is, in part, correct. The number of murders, including those at Mountain Meadows, is <hi rend="italic">five hundred and seventy-four</hi>. I have not my notes with me, so cannot give you, at present, the particulars you ask for, but will write again.</p>
-<p>"I have never been able, with the most diligent inquiry, to learn the name of the family murdered in the Nineteenth Ward,* (Footnote: *See Note O, page 349) or who were the perpetrators of that most fiendish outrage--but why speak of it in such terms? It is only one of a multitude of crimes, each of which casts a shadow upon the others. There are atrocities of which I could make mention, that I feel a delicacy in writing about to a
+<p>"I have never been able, with the most diligent inquiry, to learn
+the name of the family murdered in the Nineteenth Ward,<ref
+target="cpfaten28">*</ref> <note id="cpfaten28" n="28" resp="auth" place="foot">*See Note O, page 349</note> or who were the perpetrators of that most fiendish outrage--but why speak of it in such terms? It is only one of a multitude of crimes, each of which casts a shadow upon the others. There are atrocities of which I could make mention, that I feel a delicacy in writing about to a
 <pb n="360     <hi rend="italic">THE REMEDY.</hi>"/>
 lady, yet half the hellishness (excuse the expression) would be taken from the crime if I should leave out that which I could not write to you.</p>
 </hi>"Utah against the world for fiendish crimes!</p>
@@ -2848,9 +3062,10 @@ Legislature, the only remaining question, that relating to the work of such a Co
 <p>A new jury law.</p>
 <p>An act making provision for the establishment of free schools throughout the Territory.</p>
 <p>The writer ventures to express the hope that the Commission, when appointed, will consist of men sufficiently advanced to insist upon compulsory education.</p>
-*line
+<milestone unit="section" rend="line"/>
 <p>While the foregoing summary may not include all the subjects of legislation which will present themselves, it is believed that it covers the most important points. Will Congress give us the opportunity of testing the practical value of these measures?</p>
 
 <p>SALT LAKE CITY, UTAH TERR., FEB. 9th, 1882.</p>
-
-*ads at the back need to be added
+</back>
+</text>
+</TEI.2>
