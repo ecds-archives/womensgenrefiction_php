@@ -2,4 +2,50 @@ neh-novel-update README
 
 Rebecca Sutton Koeser, March 2003
 
-explain script here
+This is a perl script designed for the Beck Center's NEH project.  It
+checks a URL given by Indiana University, where they are posting zip
+files of OCRed texts, downloads any new zip files and takes care of
+them.  The zip files are made up of text files, one for each page in
+the novel.  This script unzips the file and uses the single-page text
+files to generate one large text file that includes all of them, in
+order, with numbered <pb> tags.  When it has finished, the script
+sends an email to the administrator.
+
+There are a number of configuration variables that can be easily
+edited, if these default values should change.  All of these variables
+are stored in the nnu-config file.
+
+	email	 - address (or addresses) of administrator(s) who
+		   should receive the script's output
+	base_url - the URL at Indiana where these zipfiles are posted
+	zipdir   - directory for storing the downloaded zipfiles
+	txtdir   - directory for storing the generated text files
+
+
+Note: In order to determine if there are new files on the website (by
+keeping track of the last time the script was run), or if there were
+downloads that failed last time & should be tried again, each time
+this script runs it loads the lastrun_file, and just before it ends it
+outputs a new, updated version of this file.  If this file is missing,
+the script may behave unexpectedly.
+
+
+Single-file mode
+
+neh-novel-update has a single-file mode to generate a text document
+with <pb> tags from a zipfile that has already been downloaded.  To
+use this feature, run this command:
+	neh-novel-update -f file.zip
+
+Note that currently the script will assume that file.zip is located in
+the specified "zipdir", so you should not provide a path to the file.
+Also, the script currently only accepts one file at a time.
+(These behaviors may change.)
+
+Quick Usage
+
+For a quick reminder of how to use neh-novel-update, type:
+	neh-novel-update -h
+
+This will print out a quick summary of the program and its options,
+and also display the current settings of the essential variables.
