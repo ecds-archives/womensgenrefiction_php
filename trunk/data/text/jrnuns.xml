@@ -85,17 +85,57 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </profileDesc>
 <revisionDesc>
 <change>
-<date>2005-February-09</date>
+<date>2005-February-23</date>
 <respStmt><name>Erika Farr, </name>
 <resp>project manager.</resp></respStmt>
 <item>XML tags inserted in compliance with TEI guidelines.</item>
 </change>
 </revisionDesc>
 </teiHeader>
+<text>
+<front>
+<pb n="[i]"/>
+<div id="jrnuns000" type="half-title page">
+<p>THE NUN'S CURSE.</p>
+</div>
+<pb entity="jrnuns" n="[iii]" pages="Title Page"/>
+<titlePage>
+<docTitle>
+<titlePart type="main">THE NUN'S CURSE</titlePart>
+<titlePart type="sub">A Novel</titlePart>
+</docTitle>
+<byline>BY<lb/><docAuthor>MRS. J. H. RIDDELL</docAuthor><lb/>AUTHOR
+OF<lb/>"GEORGE GEITH," "MISS GASCOIGNE," ETC.</byline>
+<docEdition>NEW EDITION.</docEdition>
+<docImprint>
+<pubPlace>LONDON:</pubPlace>
+<publisher>WARD AND DOWNEY,</publisher>
+<pubPlace> 12 YORK STREET, COVENT GARDEN.</pubPlace>
+</docImprint>
+<imprimatur>[<hi rend="italics">All rights reserved</hi>.]</imprimatur>
+</titlePage>
+<pb entity="jrnuns" n="[v]" pages="Dedication"/>
+<div id="jrnuns001" type="dedication">
+<p>TO<lb/>DR. AND MRS. GEORGE HARLEY,<lb/>WITH THE AFFECTIONATE
+REGARDS OF THEIR FRIEND<lb/>The Author.</p>
+</div>
+<pb n="[vii]"/>
+<div id="jrnuns002" type="table of contents">
+<figure entity="jrnuns" rend="inline">
+<figDesc>Table of contents for Riddell's <hi rend="italic">The Nun's
+Curse</hi>.</figDesc>
+</figure>
+<pb n="[vii]"/>
+<figure entity="jrnuns" rend="inline">
+<figDesc>Table of contents for Riddell's <hi rend="italic">The Nun's
+Curse</hi>.</figDesc>
+</figure>
+</div>
+</front>
 <body>
-<pb n="1"/>
-<div>
-<head>CHAPTER I<lb/>A DEAD LION</head>
+<pb n="[1]"/>
+<div id="jrnuns010" type="chapter" n="1">
+<head>CHAPTER I.<lb/>A DEAD LION.</head>
 <p>THIRTY-FOUR years ago there was joy in Donegal&#x2014;joy too deep to find expression in jesting and laughter; which was felt rather than spoken; which could be traced in looks and tones, in the way men went about their daily work and exchanged greetings with one another.</p>
 <p>Did they but remark, "It is a rough day, or a 'saft' day, or a wild day," the melodies of hope and thankfulness ran through the words; when they bade their horses "ga-an," a geniality underlay the command that form of address often lacked; while those natives of Donegal who had been absent for a short time from the country could tell by a sort of stir in the air, like the rising of the sap in spring, that something unusual had occurred.</p>
 <p>"Any news going?" was the question put by one such returned traveller to his neighbour.</p>
@@ -176,8 +216,8 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>"At all events, let us discuss the position; we may yet find a way out of the difficulty."</p>
 <p>"That is so very likely," said the younger man bitterly; but he consented to go to Dunfanaghy nevertheless&#x2041; perhaps because he felt anything was better than staying in Calgarry House.</p>
 </div>
-<div>
-<head>CHAPTER II<lb/>IN THE HEART OF DONEGAL</head>
+<div id="jrnuns012" type="chapter" n="2">
+<head>CHAPTER II.<lb/>IN THE HEART OF DONEGAL.</head>
 <p>EVEN at high noon on a summer's day that person must indeed be hard to satisfy who would desire to see a more lonely stretch of country than is to be found among the fastnesses of <pb n="11"/>the most northerly county in Ireland; while, given a wild winter's night, when the storm spirits are abroad, howling among the hills and shrieking out at sea, the land seems one abandoned by its Maker, and given over to utter desolation and destruction.</p>
 <p>Such a night succeeded to the boisterous day on which Marmaduke Conway was carried to his grave. Straight from the North Pole a cutting wind blew direct on the giant headlands that guard, and up the many bays which indent, the coast of Donegal. Out in the Atlantic the white ocean-horses were running mad races with none to see, dashing against Tory Island and the Horn, swooping round Malin, tearing into Lough Swilly, and flinging themselves over sunken rocks into every little treacherous harbour that lends a fresh danger to that perilous shore.</p>
 <p>There was a storm brewing, but it might still be hours before it broke in its full strength over Donegal. Meanwhile, vessels were giving the land a clear berth, and making as well and fast as they could for some place of safety; in the east, a faint sickly moon was trying to rise above a bank of dense black cloud. By the time she had succeeded, and was sailing westward, Heaven only could tell on what scenes of struggle and misery she might not have looked. Not a night to be abroad if one could help it, though there may be worse things to encounter, even when snugly housed and warmly sheltered, than a cutting wind on the wild coast or in the lonely passes of Donegal.</p>
@@ -260,8 +300,8 @@ have seen his eighty-third birthday if he had served me the way he served others
 <p>"I am afraid, John Donelly," said that individual, standing out all alone in the weather, and haranguing his respected self&#x2014;" I am afraid you have made a mistake this night, for once in your life, and let your tongue outrun your wit."</p>
 </div>
 <pb n="18"/>
-<div>
-<head>CHAPTER III<lb/>COLD COMFORT</head>
+<div id="jrnuns013" type="chapter" n="3">
+<head>CHAPTER III.<lb/>COLD COMFORT.</head>
 <p>"THAT'S a rough night you've brought home with you, Mr. Terence," said Ann Patterson, as sh; helped the "new master" off with his top-coat. "God help all poor fellows on the sea!"</p>
 <p>The owner of Calgarry stood for a second as if he scarcely understood the gist of her remark; but then he gloomily answered,</p>
 <p>"I hope God will help all poor fellows on land, too."</p>
@@ -361,8 +401,8 @@ immediately remembered his debts, and wondered if the Curse would invade Calgarr
 <p>"Or Captain Conway?"</p>
 <p>"No, Mr. Terence; I had far and away rather hear you had sold it to Mr. Norbury, instead of only shifting the Curse on to another of your name."</p>
 </div>
-<div>
-<head>CHAPTER IV<lb/>A GUARDIAN ANGEL</head>
+<div id="jrnuns014" type="chapter" n="4">
+<head>CHAPTER IV.<lb/>A GUARDIAN ANGEL.</head>
 <p>THE drawing-room at Calgarry was a goodly apartment, wainscoted in dark oak, and lighted by four deeply-recessed windows, overlooking lawns sloping to a river that flowed in front of the house, merging its waters a mile further on in the Atlantic, which twice in every twenty-four hours swept the smooth sands of Calgarry Bay.</p>
 <p>According to the taste of that year when Terence Conway came into possession of his own, the room wanted everything in the way of furniture and decoration. According to the taste of to-day it needed nothing, except to be spoiled by the addition of gorgeous draperies mocking the tropics, and "old" china fresh from Staffordshire.</p>
 <p>For more than a century the hand of improvement had mercifully spared its spider tables, its splindly chairs, its brass fireplaces and fenders, its old spinet, its Turkey carpet, its tabinet curtains, its capacious sofas, its great china bowls filled with shrivelled rose-leaves, that still in death emitted a faint odour like the memory of the just; its japanned cabinets, supported on bowed legs and looking like superior plate-warmers; its footstools covered with fine needlework wrought long before Berlin wool was thought of; its window-seats where the hue of the once crimson cushions had faded to a picturesque brown; its great round centre table made from the root of the oak, and revealing to the imaginative observer endless fantastic faces in the polished surface; its card-tables lined with arbutus-wood instead of baize; its carved ivory boxes, its two chimneypieces of gray marble, each large enough for a modern mausoleum, its painted ceiling&#x2014;all, all were still there, even as in the time when that lady in light attire, whose portrait filled up the middle panel on the wall opposite the windows, brought <pb n="27"/>great trouble to Calgarry with her. She was not any good; but she had been suffered to remain for a hundred and fifty years or thereabouts, smiling from her frame, because of the fatal beauty that caused a worthy gentleman's death.</p>
@@ -443,8 +483,8 @@ immediately remembered his debts, and wondered if the Curse would invade Calgarr
 <p>"You promise me that?"</p>
 <p>"I promise,"he said, "faithfully."</p>
 </div>
-<div>
-<head>CHAPTER V<lb/>MRS. BARRY AS ADVISER</head>
+<div id="jrnuns015" type="chapter" n="5">
+<head>CHAPTER V.<lb/>MRS. BARRY AS ADVISER.</head>
 <p>IT is one thing for a man to say he will absolutely refuse to advise, and quite another to find he is not asked to advice.</p>
 <p>Sir Henry Beecham had felt certain nothing could induce him to illumine with the light of his long experience such a <pb n="34"/>dense darkness as the latest Conway difficulty; but he never anticipated that difficulty not being laid before him.</p>
 <p>He was so accustomed to be consulted by all sorts of people about all sorts of questions, that Terence Conway's silence seemed to him little short of a revolt. The owner of Calgarry did not drop a hint concerning his intentions.</p>
@@ -564,8 +604,8 @@ immediately remembered his debts, and wondered if the Curse would invade Calgarr
 <p>"He certainly wants a subscription," thought Mr. Conway, beginning to feel very doubtful whether he could refuse to give one; but he only begged Mr. McKye to take a seat, and said he was quite at his visitor's service, whatever might be the nature of the communication he had to make.</p>
 <p>Mr. McKye, who was a stout man with a short throat, and a particularly mellow, not to add oily, voice, thereupon deposited his hat on a convenient table, placed his gloves in it; and having, after ceremoniously asking permission to do so, divested himself of a heavy top-coat, accepted the offered chair, pulled it close to Mr. Conway, and began.</p>
 </div>
-<div>
-<head>CHAPTER VI<lb/>THE NUN'S CURSE</head>
+<div id="jrnuns016" type="chapter" n="6">
+<head>CHAPTER VI.<lb/>THE NUN'S CURSE.</head>
 <p>"IT would be as idle as useless for me to affect ignorance of the fact that your late relative's testamentary dispositions have left you very differently situated from what we all hoped would be the case."</p>
 <p>Though he felt considerably surprised at this opening, Terence said " it was very kind of Mr. McKye to express himself in such terms." "My relative's will, I cannot deny, proved a disappointment to me," he added; "but after all, Mr. Conway had a right to do what he liked with his own."</p>
 <pb n="41"/>
@@ -641,8 +681,8 @@ immediately remembered his debts, and wondered if the Curse would invade Calgarr
 <p>"'May sorrow pursue you and those that come after you as your hounds pursued me! May no hand be stretched out to save you when the breath of trouble is hot on your cheek, and its fangs deep in your heart! May you all be childless or unhappy in your children! May division come between you and your wives! May your gold eat into your hearts and your lands be a snare to you! May you, when you are old, be caught in the trap you set for others in your youth, because you <pb n="49"/>despise mercy and contemn judgment, and only follow wickedness! Amen.' And after she had said Amen, with a loud cry she gave up the ghost.</p>
 <p>"The people of the house lifted and carried her in. Patrick Conway followed them, and looked on her as she lay dead. She was a young woman, and beautiful; and he went away in the sweet morning, with the fresh air blowing on his face, down and down the hill, like one stricken, with the doom on him."</p>
 </div>
-<div>
-<head>CHAPTER VII<lb/>MR. MCKYE'S OPINIONS</head>
+<div id="jrnuns017" type="chapter" n="7">
+<head>CHAPTER VII.<lb/>MR. MCKYE'S OPINIONS.</head>
 <p>THERE was silence for a few seconds after the minister had finished; then Patrick Conway's descendant asked,</p>
 <p>"Do you believe all that, Mr. McKye?"</p>
 <p>Mr. McKye looked astonished at the question.</p>
@@ -722,8 +762,8 @@ immediately remembered his debts, and wondered if the Curse would invade Calgarr
 <p>"You think Mr. Malet worldly-minded, then?" suggested Terence.</p>
 <p>"As you ask me, sir, I do;" after which statement Mr. McKye took his leave.</p>
 </div>
-<div>
-<head>CHAPTER VIII<lb/>MR. MALET ADVISES</head>
+<div id="jrnuns018" type="chapter" n="8">
+<head>CHAPTER VIII.<lb/>MR. MALET ADVISES.</head>
 <p>IT was blowing half a gale when Terence turned out of the teeth of an icy north wind into a shrubbery walk which led straight up to Mr. Malet's cottage.</p>
 <p>Originally the merest cabin, years of that gentleman's tenancy had transformed it into a most lovely little dwelling. Well Terence remembered it&#x2014;well he knew it. Many a happy day he and Mr. Barry had spent under its thatched roof. On many a wet morning the wide corridor that ran along the back of the house had echoed with their noisy romps and childish laughter. They had sat together over the turf fire in the kitchen eating hot buttered potato-cakes, an experience which then possessed the charm of a sin. They had between them carried Audna, when a mere toddling infant, "lady to London" up the rocks that shielded the cottage from the wild Atlantic gales, and watched the foam-maned sea-horses rushing squadron after squadron madly on the cliffs. And to the westward lay a tiny bay&#x2014;he could see it as he stood at the front door&#x2014;where they had gathered shells by the thousand in the happy, happy long ago. They had run out after the waves as they ebbed, and run faster in shore as they flowed, and told each other stories, and sat on the great stones looking up at the blue heaven, their hearts full of the beautiful fancies and unutterable content that can never return again, never for ever.</p>
 <p>All recurred to him as he stood looking down into the bay, now full of boiling angry billows that had been lashed to fury during the late storms. The pleasant past came back with smiling face and soft tender hands, that touched his heart with a yearning indefinable sorrow, and brought from some deep <pb n="58"/>well of feeling a mist of tears to his eyes which dimmed the dark landscape for a moment, and merged headland and breakers and ocean and brown bare earth in a confused blurred mass.</p>
@@ -850,8 +890,8 @@ immediately remembered his debts, and wondered if the Curse would invade Calgarr
 <p>Mr. Malet rose and took a turn up and down the room. "My poor boy," he began at last, "I am heartily sorry for you. This is the key to the whole of your trouble. I suppose your liabilities are very heavy?"</p>
 <p>"So heavy that I do not know how I am ever to meet them and keep Calgarry," answered the unlucky owner of that property.</p>
 </div>
-<div>
-<head>CHAPTER IX<lb/>AILEEN</head>
+<div id="jrnuns019" type="chapter" n="9">
+<head>CHAPTER IX.<lb/>AILEEN.</head>
 <p>WHEN the storms had exhausted their fury, and the ocean sobbed itself for a while to rest, there came to Donegal a morning borne on the wings of the sweet west wind, with azure blue in its eyes and sunshine on its face, and the fresh, hopeful <pb n="65"/>scent of spring accompanying its joyous progress. The waves rippled gently in over the sands of Calgarry Bay; the headlands, no longer tormented with the attack of besieging billows, showed a proud, calm front to the Atlantic; the sea-birds preened themselves on jagged spurs of rock, or else dived after their prey into water clear as a mirror; men, who for weeks previously had not dared to adventure on the deep, carried their curraghs across the beach, and launched their frail barks in hopes of a good haul. Light and shadow played at hide-and-seek over Muckish, overtaking and passing each other with such incessant change that the landscape never for a single moment remained the same. The beautiful wagtails, which haunt the sterile waysides of that part of Ireland, were alert and busy; while in the plantations surrounding Calgarry House, thrushes and blackbirds sang to the accompaniment made by the river flowing swiftly over stone and gravel, between boulder and rock, to the sea, in which its bright waters were lost.</p>
 <p>A morning to put any one in good spirits, and yet not a single person gathered round the breakfast-table in Calgarry House seemed in the least elated by it.</p>
 <p>Sir Henry Beecham tried his best to appear cheerful. He spoke in commendatory terms of the weather, saying it showed an evident intention of "taking up" at last. He mentioned that, for the first time, he had ventured to open his bedroom window during the process of dressing, and found the air quite balmy. He suggested that possibly the crocuses would soon be pushing their yellow heads above ground, and remarked the birds apparently knew St. Valentine's Day was not far distant. Further, he observed they really appeared likely to have a fine passage after all; and when he uttered these last words, it was patent to those who heard that his previous statements had been merely polite flatteries; that all he at that moment desired was to get away from Donegal, and remain away for an indefinite period.</p>
@@ -927,8 +967,8 @@ immediately remembered his debts, and wondered if the Curse would invade Calgarr
 <pb n="74"/>
 <p>"If half what I have lately heard about the Conways is true," he considered, "it is a pity the Atlantic does not walk a mile or so inland, and sweep Calgarry and the family that own it off the face of the earth;" in which sentence the gallant officer merely put into a concrete form the thought that had for many a year been passing through the minds of frenzied men and anguished women, who dared not give utterance to it.</p>
 </div>
-<div>
-<head>CHAPTER X<lb/>SIR HENRY SPEAKS</head>
+<div id="jrnuns020" type="chapter" n="10">
+<head>CHAPTER X.<lb/>SIR HENRY SPEAKS.</head>
 <p>"I WISH to make one observation," said Mrs. Barry.</p>
 <p>"By all means," agreed her cousin; "but why only one, Lettie? We should like to hear any number of observations from you."</p>
 <p>It was the evening of the same day on which Sir Henry had learnt those pleasing traits of the late Duke Conway which caused him to utter that remark relative to the Atlantic and Calgarry. He had not yet got over his idea that perhaps the world could do without the Conways, and be all the better for their extinction; and though he was sitting at table and ostensibly enjoying his dinner, he could not quite dismiss the memory of that lonely graveyard lying all by itself, dark and uncanny, under the black canopy of night, or persuade himself that even at that very minute high revels were not being held in honour of the latest and wickedest Conway laid amongst his own.</p>
@@ -1037,8 +1077,8 @@ immediately remembered his debts, and wondered if the Curse would invade Calgarr
 <p>"Now that we understand each other," went on the General&#x2014;"or rather now that you understand me&#x2014;if you choose to marry my ward you can do so&#x2014;that is, if she will marry you. I have a notion she will not. Letitia says she is sure she will <pb n="83"/>not. But that is not my affair; only were I you I would come to some definite explanation with her&#x2014;your mind will then be settled. All shilly-shallying in affairs of this kind is greatly to be deprecated. If she wishes to marry you there is no just cause or impediment why she should not. You are not a fit husband for her, however, any more than she is a fit wife for you. She would not let you be a bit the better for her money. She would want her whole income for herself, and yours too&#x2014;that is, supposing you ever have any. Philippa ought to marry a man who showed at once he meant to be her master. In her case it is a matter of tyrant or slave; there is no medium, and I know which you would be."</p>
 <p>Having finished which exhaustive speech, Sir Henry at length cut the end of his cigar, lighted it, and, seemingly satisfied there was no more to be said, on the Philippa subject or any other, remarked that he thought he would stroll on a little further, and walked away, leaving Terence at leisure to survey the beauties of Calgarry Bay if he felt disposed to do so.</p>
 </div>
-<div>
-<head>CHAPTER XI<lb/>PHILIPPA'S ANSWER</head>
+<div id="jrnuns021" type="chapter" n="11">
+<head>CHAPTER XI.<lb/>PHILIPPA'S ANSWER.</head>
 <p>THE walls of Derry, though not perhaps a promenade to be rashly selected on a winter's day, have at least the merit of being admirably adapted for a <hi rend="italic">t&#x00EA;te-&#x00E0;-t&#x00EA;te</hi>. Except the Cathedral, there is no other place in what has been called a "town of back streets" suitable for confidential talk, but the walls are silent and lonely enough for all purposes of privacy.</p>
 <p>They are a mile in circuit, and a great deal can be said in a mile. There, however, as elsewhere, the first conversational step often proves difficult. It proved so difficult to Terence Conway that as he surveyed the wide expanse of country, on which the "'Prentice Boys" once looked down, filled with an opposing army, his heart failed him, and he would have spoken some platitudes about the siege, the glorious defence, the intrepid Walker, the breaking of the Boom, but that he knew Miss Dutton's sympathies were all with the good and intrepid King James, and that her gentle bosom held a very sufficient hatred for the glorious and immortal memory of him who de-<pb n="84"/>livered a country that did not want to be delivered, from "Popery, prelacy, bad money, and wooden shoes."</p>
 <p>She had no liking for "the usurper William of Orange or his undutiful wife." She regarded those who shouted "No surrender!" and fought, and starved, and died in defence of their "stern unbeautiful faith," as rebels and stiff-necked fanatics. She would have lent a willing ear to any legend of the building of the abbey for canons of the Augustinian Order founded by St. Columba, or the Cistercian Monastery endowed by Turbagh Leinigh, or the Dominican Friary built half a century later; but of these things Terence knew nothing. Indeed, he was as ignorant as any gentleman need to be of the history of his native land. He was quite prepared to take the country as he found it, and very wisely too. If many people at the present time were only willing to follow so excellent an example, and let the dead past bury its dead, a vast amount of trouble would be saved and good effected.</p>
@@ -1158,8 +1198,8 @@ immediately remembered his debts, and wondered if the Curse would invade Calgarr
 <p>"You could have hoped without her permission," she retorted, in that tone which made Sir Henry often think Letitia quite as objectionable a person as her husband, of whom, in spite of his cleverness, the whole Conway connection was deeply ashamed.</p>
 </div>
 <pb n="92"/>
-<div>
-<head>CHAPTER XII<lb/>MR. MARK BARRY</head>
+<div id="jrnuns022" type="chapter" n="12">
+<head>CHAPTER XII.<lb/>MR. MARK BARRY.</head>
 <p>MESSRS. BRAY &#38; LUCAN, solicitors, Kildare Street, Dublin, stood at the very top of their profession. They held as sacred legacies those traditions which had been handed down to them from times when the world was not so full and practice was not quite so sharp as both have since become.</p>
 <p>They were agreeable gentlemen, possessed of courtly manners, who had mixed with the best society, read, travelled, and seen a good deal of life.</p>
 <p>Wise enough not to despise business when it was making a large income, they yet confined their attention almost exclusively to the concerns of those set by Providence in high places.</p>
@@ -1265,8 +1305,8 @@ immediately remembered his debts, and wondered if the Curse would invade Calgarr
 <p>"The man did put it in the fire, and went off a sovereign the richer. When I got back here I had the curiosity to examine the return, and found the cause for non-service was stated, and sworn to precisely as my friend suggested.</p>
 <p>"'And you call yours a Christian country!' said Amos, who is a converted Jew, in pious horror."</p>
 </div>
-<div>
-<head>CHAPTER XIII<lb/>THE VERY MAN</head>
+<div id="jrnuns023" type="chapter" n="13">
+<head>CHAPTER XIII.<lb/>THE VERY MAN.</head>
 <p>"I DO not quite see the relevancy of your interesting anecdote," remarked Mr. Lucan, when Letitia's lord and master at last "ran down."</p>
 <p>"I never expected you would," answered Mr. Barry, with that cool impudence which always made Terence feel as though a stream ice-cold water were deluging his spine; "but Amos did;" and the speaker looked at his audience, and his audience looked at him.</p>
 <p>"If I gather your meaning correctly," said Mr. Bray, "you led Mr. Benaron to believe it might be wise for him to take what Mr. Conway felt able to offer, since the law would afford him little or no assistance in Ireland."</p>
@@ -1360,8 +1400,8 @@ immediately remembered his debts, and wondered if the Curse would invade Calgarr
 <p>"And you'll like the reality, too. Work enough there for half a dozen men."</p>
 <p>Altogether Mr. Mark Barry felt he was getting his cousin's affairs rapidly into train.</p>
 </div>
-<div>
-<head>CHAPTER XIV<lb/>MR. BENARON</head>
+<div id="jrnuns024" type="chapter" n="14">
+<head>CHAPTER XIV.<lb/>MR. BENARON.</head>
 <p>IN the earlier days of his sinful life, when a worthy son was being trained in the ways of profitable usury by an equally worthy father, the gentleman Mr. Barry referred to as Amos was known amongst a wide circle of acquaintances as "young Aaron."</p>
 <p>Old Aaron, till the day of his death, held court in a dingy office in Hart Street, Lower Thames Street, hard by the ancient church of St. Olave, where Pepys sleeps very quietly; and for many years his first-born, Amos Benjamin, there assisted him to spoil the Egyptians.</p>
 <p>Amos was ambitious, however. He saw there lay west-ward of the City boundaries a goodly land well watered, fertile, where gold was to be found, and he longed to go in and possess it. The old man, his father, was still alive, hale and hearty, ready and willing to welcome and fleece fools as ever; and the place had consequently grown strait for the young man also eager for prey. Thus it happened that he looked out a ground floor in Soho, and after receiving his parent's blessing&#x2014;a good man's blessing, how good it is!&#x2014;betook him westward with a light heart to do battle with the Philistine. While he was making a change, it occurred to him he might <pb n="107"/>as well effect a slight alteration in his name; wherefore hence-forth he figured before the world as A. Benaron, after the fashion of those persons who at this present day have a knack of connecting their Christian name, if it be well and high-sounding, with the surname by a hyphen. Amos dispensed with the hyphen and one tiny little <hi rend="italic">a</hi>; Benaron bound him to nothing; Aaron tied him to a great deal. "A rose by any other name," we all know; yet the gentleman from Hart Street felt he smelt sweeter as Benaron, and Benaron he therefore became and remained.</p>
@@ -1457,8 +1497,8 @@ immediately remembered his debts, and wondered if the Curse would invade Calgarr
 <p>"Then perhaps you will kindly tell me where I am to look for my money?"</p>
 <p>"I could not think of being so presumptuous," answered Mark; and, having managed to say all he wished to say then, Mr. Barry, with a careless nod, left Mr. Benaron to his reflections.</p>
 </div>
-<div>
-<head>CHAPTER XV<lb/>DALLYING</head>
+<div id="jrnuns025" type="chapter" n="15">
+<head>CHAPTER XV.<lb/>DALLYING.</head>
 <p>WHEN Sir Henry Beecham said, as he often did say, that "Letitia's husband possessed every sense but common sense," he was mistaken.</p>
 <pb n="113"/>
 <p>Mr. Mark Barry had plenty of common sense, worldly sense, extraordinary sense, what he lacked was tact, which is quite a different matter: for though he chanced to be wholly deficient in that delicate sense of touch which prevents a man rubbing his neighbour's fur the wrong way, he knew the odd corners and queer crannies in other people's minds exhaustively, and his advice to Mr. Stirling about the Conway agency was, therefore, good as advice could be.</p>
@@ -1522,8 +1562,8 @@ gone to London, because letters from London were constantly <pb n="118"/>arrivin
 <p>"Mr. Conway thinks you might be more comfortable at Calgarry House," remarked Mr. Malet tentatively, when he had said the owner would be at home in a few days, and left Terence's other suggestions unnamed.</p>
 <p>"It is very good of Mr. Conway," replied Mr. Stirling, "but I have no reason to complain of my present location; and anyhow I think, as there is no chance of coming to a conclusion just yet, I will take a run over to Derry, and get back about the week's end."</p>
 </div>
-<div>
-<head>CHAPTER XVI<lb/>WELCOME HOME</head>
+<div id="jrnuns026" type="chapter" n="16">
+<head>CHAPTER XVI.<lb/>WELCOME HOME.</head>
 <p>WHEN Mr. Malet's next communication arrived at Monksborough, Terence was dressing for a ball. He had tied his cravat just to his mind, and was about to put on his waistcoat, when the letter reached him.</p>
 <p>This time there could be no mistake as to its tenor. The Vicar could be very bitter when he liked, and it was the man more than the Christian who came to the front in that epistle. Not a sentence but ended with a stinging cut, not a remark but was finished by a lash. Nothing undignified or brutal; the workmanship as neat as work could be; yet Terence, when he came to the last word, felt himself indeed the very chief of sinners.</p>
 <p>Mr. McKye was wont, Sunday after Sunday, to deal out the most fearful threatenings against his flock. He never got into the pulpit without making the dry bones shake in a truly terrible manner, but at the last he always held before them some faint hope of ultimate salvation.</p>
@@ -1568,8 +1608,8 @@ gone to London, because letters from London were constantly <pb n="118"/>arrivin
 <p>"There is a curse on me," he broke out at last; "don't you believe that now?" he added, turning with fierce earnestness on Mr. Malet.</p>
 <p>"I am afraid there is," answered the Vicar dryly; "<hi rend="italic">but not the Nuns</hi>."</p>
 </div>
-<div>
-<head>CHAPTER XVII<lb/>"WHAT ARE WE TO DO?"</head>
+<div id="jrnuns027" type="chapter" n="17">
+<head>CHAPTER XVII.<lb/>"WHAT ARE WE TO DO?".</head>
 <p>UNLIKE Mr. Malet on a somewhat similar occasion, Mr. Mark Barry was not alone when he received the half-frenzied letter Terence indicted on his return to the house after his interview with that well-mannered young man from Belfast, who had been intrusted by his employers, acting as agents for Mr. Quinion of London, with the due delivery of Victoria Dei Gratia's pressing invitation to Mr. Conway.</p>
 <p>Letitia and the elder of the infant babies were present at the time, but no stranger, which proved extremely fortunate, for Mark's tirade was violent.</p>
 <p>"I assure you," Mrs. Barry told Sir Henry afterwards, "it was quite unfit for publication;" to which Sir Henry, in perfect good faith, replied,</p>
@@ -1646,8 +1686,8 @@ to have had his letters forwarded, but I have known men <pb n="132"/>double his 
 <p>"Go on, I suppose&#x2014;I really see no other course open."</p>
 <p>"Neither do I," answered Mi. Benaron's adviser; "but it is a pity."</p>
 </div>
-<div>
-<head>CHAPTER XVIII<lb/>QUITE BY ACCIDENT</head>
+<div id="jrnuns028" type="chapter" n="18">
+<head>CHAPTER XVIII.<lb/>QUITE BY ACCIDENT.</head>
 <p>IT was "such a pity" that the eleventh hour still found Mr. Quinion still hesitating. There are times in all games when it seems better any one should lead than ourselves. In the state of his cards Mr. Benaron's solicitor most heartily wished the privilege had not chanced to lie with him.</p>
 <p>"After you, sir," he would most gladly have said; only he knew it was not for Mr. Reynolds to take the initiative, even had he desired to do so, which he did not.</p>
 <p>From the first Mark Barry had summed up the position quite accurately. Mr. Benaron did not want to fight. To put on his war-paint, and get out his bows and arrows, and sharpen his tomahawk, as he had done, was one thing; but to run the chance of being shot, or scalped, or besmirched by an opponent, quite another.</p>
@@ -1857,8 +1897,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"Hast thou found me, O mine enemy?'' he said to him-self. Then with a delighted grin he answered,</p>
 <p>"Yes, Amos&#x2014;yes, my friend&#x2014;I have."</p>
 </div>
-<div>
-<head>CHAPTER XIX<lb/>SORELY DISAPPOINTED</head>
+<div id="jrnuns029" type="chapter" n="19">
+<head>CHAPTER XIX.<lb/>SORELY DISAPPOINTED.</head>
 <p>AFTER the Scriptural pleasantries which ended the last chapter, Mr. Barry lost no time in carrying the ally who had come up to turn the tide of battle off to his chambers in Old square, where he insisted on receiving an exhaustive report of " Reuben <hi rend="italic">v</hi>. Pittis."</p>
 <p>When he put his heart in a matter, Mark was one of the best of listeners, which could not be considered other than fortunate, since Mr. Stirling was at times the most prolix of narrators.</p>
 <pb n="148"/>
@@ -1917,8 +1957,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"I'll drop a note to Reynolds, and advise him to make an offer. Our doing so now will prove to Amos that we know our strength, and can afford to come to terms. After all, it is only going back to the point I should have started from, if that ninny had not perilled his chances by paying his foolish visit to Monksborough. Amos, you old thief, you shall see <pb n="154"/>what you shall see before any of us are much older&#x2014;wiser some among us could not well be."</p>
 <p>And having shaken hands with himself in this appreciative fashion, Mr. Barry settled down in earnest to his work.</p>
 </div>
-<div>
-<head>CHAPTER XX<lb/>ON THE WAY TO CHURCH</head>
+<div id="jrnuns030" type="chapter" n="20">
+<head>CHAPTER XX.<lb/>ON THE WAY TO CHURCH.</head>
 <p>DRIVING even in a jingling, rackety four-wheeler over the London stones, Terence Conway, released at length from durance vile in the quiet hotel Mr. Stirling wot of, felt jubilant, like a prisoner let loose.</p>
 <p>He was in the highest spirits: he laughed out of the exuberance of his heart&#x2014;he made jesting remarks, the gist of which his companion generally failed to catch. He enjoyed the ceaseless stir and hubbub of London as a child might: everything pleased&#x2014;nothing disturbed him. His mind had been kept for so long a time on the stretch that, after a period of sustained despondency, the young man went at once to the opposite extreme. In the course of that happy journey he saw even the dark side of metropolitan life through rosecoloured glass, and came to the conclusion this was the best of all possible worlds, and he a most fortunate unit in it. In the fulness of his joy he had insisted on carrying Mr. Stirling off to see the dearest and most beautiful of all lovely girls; and now, seated beside the owner of Calgarry, Mr. Stirling listened to his gay talk, and thought about many things, with most of which Miss Dutton had to do.</p>
 <p>To Mr. Malet, Terence's light-heartedness would have seemed full of evil omen for his future; but Mr. Stirling felt no uneasiness. He did not want old heads on young shoulders. He had not been brought up to approve overmuch of masters making themselves too busy about affairs which it was the business of some one else to see managed properly.</p>
@@ -2051,8 +2091,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"I will do anything&#x2014;everything, Philippa, you wish,if&#x2014;"</p>
 <p>"H&#x2014;s&#x2014;h!" whispered Philippa; and with eyes devoutly cast down, she meekly entered St. Hilda's, Terence following.</p>
 </div>
-<div>
-<head>CHAPTER XXI<lb/>MR. VIVIAN'S TEXT</head>
+<div id="jrnuns031" type="chapter" n="21">
+<head>CHAPTER XXI.<lb/>MR. VIVIAN'S TEXT.</head>
 <p>IN those days Mr. Rawson's church was thought very High; in these it would probably be considered rather Low. We have gone on a long way since then, and public worship as well as everything else is more ornate than it used to be. Probably matters have not altered so much in reality as many excellent people imagine. Women are still women, though they are clothed by Worth; houses are still houses, spite of the fact that the world seems laid under tribute to make them uncomfortable; and religion is still religion, though black gowns have gone out, and good music is no longer considered a snare of Satan.</p>
 <p>From feelings of deep piety, a revolt against the old "high and dry" mode of conducting the Church service had long been in progress. Many earnest Christians really believed that when they had swept away "three-decker" pulpits, parish clerks, lofty pews, Tate and Brady, choirs of charity children, and other similar "hindrances to worship," a sort of millennium would ensue, and people find balm for their moral wounds, and help to amend their sinful lives, and comfort and happiness generally, in believing in the ecclesiastical millinery and upholstery, which, like all other millinery and upholstery, has since been brought to such a pitch of perfection. The "lowest Churchman" would feel astounded could he be carried back through the years and see the Church of his youth exactly as it was then. Clerical fashions have changed as much as any other: but the world itself is not very different, and the human heart remains as deceitful as ever, and desperately wicked.</p>
 <p>We are going to do away with all distinctions of rank in the house of Him before Whom all men are equal, by cutting up the old oak pews for firewood, and substituting rush-bottomed chairs; yet it is not often any one sees Dives, in his purple and fine linen, and Lazarus, with all his sores, sitting comfortably side by side. It was Mr. Rawson's boast&#x2014;if so truly good a <pb n="166"/>man could be said to boast&#x2014;that every one who entered St. Hilda's had full and free right to choose his own place; which was probably the reason that Miss Dutton chose hers close to the pulpit, while Dickson and her pious companion remained near the door.</p>
@@ -2134,8 +2174,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"Is it," said Terence, a good deal mystified, and wishing he had not spoken. "I did not know."</p>
 </div>
 <pb n="174"/>
-<div>
-<head>CHAPTER XXII<lb/>SO UNSATISFACTORY</head>
+<div id="jrnuns032" type="chapter" n="22">
+<head>CHAPTER XXII.<lb/>SO UNSATISFACTORY.</head>
 <p>THOUGH he had dined, Sir Henry Beechara by no means despised the supper he found awaiting his return. Cheered, but not inebriated, (the General never was inebriated) by the modest quantity of sound wine he had ordered and drank at the club, his greeting of Terence and Mr. Stirling was characterised by a genial pleasure which produced an extremely cheering effect on both the owner of Calgarry and Calgarry's agent.</p>
 <p>To Terence in especial the gallant knight's warm manner was very grateful. lie had been out among the hard frost and deep snow of the friends Miss Dutton yearned after, and the forms and ceremonies her soul loved, and as the heat of a fire is pleasant after exposure to cold, so he felt a delightful glow diffusing itself over his chilled senses as he came within the influence of Philippa's guardian.</p>
 <p>The young lady herself also seemed different when seen in in the home circle. With her bonnet she laid aside some of the terrible propriety which was an integral part of the proceedings at St. Hilda's.</p>
@@ -2232,8 +2272,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"Thank you; I'll go to bed now&#x2014;I am tired."</p>
 <p>"I wonder what has been up?" thought Mr. Stirling, as he too sought his room. "Some flank movement of Sir Henry's, I'll be bound. My mind misgave me to-night; things at Sloane Street were not all as they seemed. Unless I am greatly mistaken, the young woman is one too many for the old General."</p>
 </div>
-<div>
-<head>CHAPTER XXIII<lb/>A HUNDRED TO ONE</head>
+<div id="jrnuns033" type="chapter" n="23">
+<head>CHAPTER XXIII.<lb/>A HUNDRED TO ONE.</head>
 <p>"No, Mr. Barry, either I am solicitor in this matter, or I am not."</p>
 <p>"Why, how now? Am I Giles, or am I not?" mocked Air. Barry, with irritating composure. "If he, I've lost&#x2014;"</p>
 <p>"Probably Giles followed your advice, and so lost many things; but I have not lost, and do not intend to lose, or allow my client to lose," interrupted Mr. Reynolds; for it was <pb n="182"/>he who, at length goaded to madness, had rejected Mr. Barry's counsel, nailed his colours to the mast, and determined to assert his independence.</p>
@@ -2325,8 +2365,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"I should not be in the least surprised," said the solicitor, afer a moment's pause.</p>
 </div>
 <pb n="188"/>
-<div>
-<head>CHAPTER XXIV<lb/>MR. STIRLING'S PROCLAMATION</head>
+<div id="jrnuns034" type="chapter" n="24">
+<head>CHAPTER XXIV.<lb/>MR. STIRLING'S PROCLAMATION.</head>
 <p>SOME persons like to erect a flagstaff near their dwellings, in order to inform a world, probably indifferend on the subject, that they are at home by running up a banner, which gaily intimates the fact to all whom it may or may not concern.</p>
 <p>When Mr. Conway returned to Calgarry, however, he soon found no need existed for him to announce his presence in any such fashion.</p>
 <p>The mail-car deposited him and Mr. Stirling late one afternoon at the lodge gates, and before nightfall every man, woman, and child in the barony knew "the master" had come home, and the agent with him.</p>
@@ -2475,8 +2515,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"Mr. Malet, this is&#x2014;" began Mr. Stirling, in his confusion scarcely knowing what he was doing or what he meant to say.</p>
 <p>But it did not signify in the least, for while the words were still on his lips the Vicar passed by Larry and crossed the great stable-yard.</p>
 </div>
-<div>
-<head>CHAPTER XXV<lb/>OPINIONS DIFFER</head>
+<div id="jrnuns035" type="chapter" n="25">
+<head>CHAPTER XXV.<lb/>OPINIONS DIFFER.</head>
 <p>"I DID not expect to have the pleasure of seeing you so soon again," said Mr. Stirling, making a clutch at his presence of mind, and fortunately seizing it.</p>
 <p>Whatever ill wind it might have been that had blown Mr. Benaron so far out of his usual latitude, matters could not be made any worse by civility.</p>
 <p>"And nothing could have been further from my idea than that we should meet again here," answered Mr. Benaron with suave composure. "Fact is, I had some premonitory symptoms of gout; and as my doctor told me to leave town, I <pb n="200"/>thought I could not do better than take a run across the Channel."</p>
@@ -2662,8 +2702,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"That's nothing. I'm as fond of Terence as if he was my brother; and, maybe, he'll get on all right now. He can make a fresh start. 'The Devil does take care of his own,' eh, Reynolds?"</p>
 <p>"You ought to know," replied Mr. Reynolds dryly.</p>
 </div>
-<div>
-<head>CHAPTER XXVI<lb/>GOLDEN HOURS</head>
+<div id="jrnuns036" type="chapter" n="26">
+<head>CHAPTER XXVI.<lb/>GOLDEN HOURS.</head>
 <p>THERE is one difficulty in making a fresh start people always overlook, namely, that before starting a man cannot get rid of himself. For this reason it is always safe to prophesy, if a person have failed once he will fail again. He remains unchanged, though circumstances may alter. When the blight of non-success is in the human tree, how can any one expect fruit? When a bad jockey rides, it is idle to hope to win a race; and circumstances are like horses: that man who would pass the winning-post needs a good seat, a cool head, and a light hand, otherwise the best steed Heaven can send him may fail even to secure a place.</p>
 <p>The great financier who said he never would associate himself with a man that had failed merely expressed the same idea from a different point of view. Never have any business transactions with an unlucky individual; never buy an unlucky ship, nor take an unlucky house; not because there is really such a thing as luck or ill-luck, but because there must be a reason why the person, the ship, the house came to grief.</p>
 <p>One animal will fatten where another starves; one man will heap up riches where his fellow loses the little he hath. It is in the animal to fatten, in the man to grow rich; and just so it is in some natures to mar the best chances opportunity offers.</p>
@@ -2746,8 +2786,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"No, I do not remember cutting off a lock of his hair. If he likes to give me one now, I will keep it.",</p>
 <p>"Cut for yourself, then, like a good girl," said Terence; which Letitia at once proceeded to do, the while Philippa looked on with grave disapproval.</p>
 </div>
-<div>
-<head>CHAPTER XXVII<lb/>NORAH CREINA</head>
+<div id="jrnuns037" type="chapter" n="27">
+<head>CHAPTER XXVII.<lb/>NORAH CREINA.</head>
 <p>THE cakes were eaten, the ale was drunk, the "quality" had left Ireland lamenting, and betaken themselves and their money to foreign parts. Miss Dutton was in Scotland with her dear friend Mrs. Rawson; Letitia alone&#x2014;except for her children&#x2014;in London, Mark, tired probably by his long spell of propriety, having gone on a cruise. Sir Henry found himself where he loved to be in the season or out of it and after the <pb n="225"/>summer's wild revelry Donegal returned to the silence and solitude which are its usual characteristics.</p>
 <p>Terence felt like a child left behind when his schoolfellows have gone home for the holidays. He did not know what to do, or how to occupy himself. He too might have gone pleasuring, but for the fact that money was just then a great object at Calgarry. He had spent freely while his friends were with him: from the time Philippa came to Ireland till she left it his hand had never been out of his pocket. Mostrene proved in a small way a perfect morass. Its capability of swallowing money was simply marvellous. Like many another, the young man could economise well enough when he had no temptation to spend, but he had still to learn how to eke out a small income and spread his butter over the largest possible surface of bread. His practice was, indeed, to use it all up at once, and leave not a scrap for the remainder of his loaf. So money was very scarce with him that autumn, and as a natural consequence he was thrown much on his own company for society, and truth to tell he did not find that company specially agreeable.</p>
 <p>"I wonder," he remarked one day to Mr. Stirling, "how it is you are so constantly cheerful?"</p>
@@ -2851,8 +2891,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>When he awoke it was gray cold dawn; the rain was over, and the wind had lulled. Softly opening the door, he passed out into the haggard, and stood looking down at the sea which lay close below. Sheltered though the little bay was, the waves made a continual and angry moaning, which sounded in Terence's ears long after he had again stretched himself on the settle. There was something in the notion of having the wide Atlantic at his very hand which seemed very wild and eerie.</p>
 <p>Through the years he has never forgotten that night. The merest trifle recalls it to him, just as when we put a shell to our ear we can, though the sea be thousands of miles distant, hear its murmur.</p>
 </div>
-<div>
-<head>CHAPTER XXVIII<lb/>THE DOWNWARD PATH</head>
+<div id="jrnuns038" type="chapter" n="28">
+<head>CHAPTER XXVIII.<lb/>THE DOWNWARD PATH.</head>
 <p>IF the Nun herself had dwelt at Goblin Bay, close beside which Mr. Walley lived, she could scarcely have proved a more terrible fascination than Terence seemed to find there.</p>
 <p>As all roads lead to Rome, so it seemed that every high-way, every mountain pass, every bridle-path in Donegal had for its termination that little bay within a bay, which was almost landlocked, like many lying still further west close to Bunbeg.</p>
 <p>Whether Terence started to go to Kilmacrennan or Filcarry, Strabane or Dunfanaghy, the result was the same. If he turned his horse's head to the left when he went through Calgarry gates, he was certain ere long to remember some pressing matter which necessitated going to the right.</p>
@@ -2920,8 +2960,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>So long as he lives, till his feet touch the waters of that ocean across which none return, Terence will always remember Corrigan's face.</p>
 <p>Not as he saw it that February morning, however, but with the prison stain branded upon that broad open forehead, with a haunting look of patient suffering in the soft dark eyes and the thick hair thinned and streaked with white.</p>
 </div>
-<div>
-<head>CHAPTER XXIX<lb/>WHAT TERENCE HAD TO DO</head>
+<div id="jrnuns039" type="chapter" n="29">
+<head>CHAPTER XXIX.<lb/>WHAT TERENCE HAD TO DO.</head>
 <p>MR. CONWAY did not turn to right or left when he passed through the Calgarry gates; instead, he rode straight forward up the road along which more than a year ago the old Duke had been borne to his rest.</p>
 <p>When he arrived at the graveyard wall he pulled in the mare, and sat for a few minutes motionless in his saddle. There before him was an epitome of the family history.</p>
 <p>He could see the vault where those lay who had sinned and caused much suffering; beyond rose the hillock on which the Nun had knelt to curse his house.</p>
@@ -2995,8 +3035,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"What do you mean, Gracie? You are not going to&#x2014;to&#x2014;" and then he stopped, unable to finish his sentence.</p>
 <p>"I am going to do nothing rash, if that is what you mean," she answered, meeting his gaze with something of the old fearlessness of their first acquaintance. "Whatever chastisement God sends me here I'll just have to bear as best I can. I'll not fly from it to be punished eternally. Do not make yourself uneasy&#x2014;I'll pray the Lord to forgive us both. Maybe for His holy Mother's sake He will have mercy some day;" and crossing herself as if half afraid to make that sign, she ran back to the house and closed the door, bolting it after her.</p>
 </div>
-<div>
-<head>CHAPTER XXX<lb/>SWINE'S GUN</head>
+<div id="jrnuns040" type="chapter" n="30">
+<head>CHAPTER XXX.<lb/>SWINE'S GUN.</head>
 <p>MR. TERENCE CONWAY'S conscience was of that not uncommon description which for all practical purposes is more plague than profit.</p>
 <p>A conscience of less use at any crisis no gentleman need have desired to have. It had a knack of falling half asleep at those times when it was most important a conscience should keep wide awake, and of opening its eyes precisely when the wrong winked at could not be undone. It never, like a reasonable and useful conscience, said with some decent show of determination, "You must not;" but when such an utterance could do no good, it declared, "You ought not,'' and kept on repeating those words till the listener sickened of their iteration.</p>
 <p>Now, if in the affairs of this world a conscience is to prove of any good at all, it should pursue a very different policy. <pb n="248"/>Repentance, of course, is better than no conviction of sin; but prevention is much better. As child, as boy, as man, Terence had been always mourning over some lapse from virtue: but why in the world did not that stupid conscience of his contrive to keep him virtuous? Why, indeed? But then so many nice questions are involved in this matter that perhaps it is better to get on with his story.</p>
@@ -3070,8 +3110,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"Yes, sir, he's in the kitchen."</p>
 <p>"Tell him I want him; send him to the library;" and Mr. Conway, entering that apartment, threw some fresh turfs on the fire and stood before it, waiting for the coming of the handsome young fellow.</p>
 </div>
-<div>
-<head>CHAPTER XXXI<lb/>MASTER AND MAN</head>
+<div id="jrnuns041" type="chapter" n="31">
+<head>CHAPTER XXXI.<lb/>MASTER AND MAN.</head>
 <p>"As I walked back from Mr. Malet's to-day, I thought a good deal about you, Corrigan," said Mr. Conway, standing in an inelegant attitude, with his back against the chimney-piece, and one foot placed on the brass fender the old Duke had never cared sufficiently for fashion to change.</p>
 <p>With a cynical smile he had watched the latest generation <pb n="256"/>he lived to see airing its folly, pulling out high grates and replacing them with low, tearing down the wooden wainscoting that is now imitated in paper and called a dado, flinging good brass contemptuously on the dustheap and welcoming with effusion chilly steel, substituting marble for the old quaintly-carved oak chimney-pieces and overmantels, and making matters all round what is called very good for trade; but he himself changed nothing, less because he much cared for the old than because he was indifferent to the new.</p>
 <p>Now he had gone out of a world where the old order is always changing, and his successor stood on the hearth which should know its former master no more.</p>
@@ -3142,8 +3182,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>A gruesome night for a man to lie awake with only troubled thoughts for company. O, that he had never seen Grace; that Walley had never had a daughter; that he had never looked in her eyes and taken her hand, and walked with her&#x2014;they two together&#x2014;along that broad highway, the end of which is Ruin!</p>
 </div>
 <pb n="263"/>
-<div>
-<head>CHAPTER XXXII<lb/>AFTER TO-MORROW</head>
+<div id="jrnuns042" type="chapter" n="32">
+<head>CHAPTER XXXII.<lb/>AFTER TO-MORROW.</head>
 <p>IT was morning before Terence at last fell into a sound sleep, from which he did not awake till long after his usual hour for rising. When he rose and looked out, he saw a gray storm-swept sky, a sad earth without a vestige of a smile on leaf, or grass, or stream. The rain had fallen in torrents, and everything looked sodden and wretched. Terence shivered as he thought of the mournful waves, making music as monotonous as a death-chant in Goblin Bay; but he had one comfort: to-morrow was come&#x2014;ere many hours were over, it would be after to-morrow, and he could breathe freely. Already it was late; a considerable part of the weary day had passed. Corrigan must have been on the road long previously&#x2014;that was a comfort. Terence dressed himself and went down-stairs, where, after eating a wretched breakfast and looking at his letters, he considered what he should do with himself till that anxious day wore to its close.</p>
 <p>Putting on his hat, he strolled slowly down to the stables, where he heard Pat had started off early to catch the mail-car to Dunfanaghy. So far, so well; he must at that instant be sitting in Walley's kitchen, or standing in Walley's haggard, or pacing the "bit of a causeway" which ran beside the bay, telling his news. Would Walley be back? Both he and his wife were expected home on the previous evening; but if not, Grace was sure not to have gone far afield. She had a woman friend who stayed with her on those rare occasions when her parents were both absent, but she could not remain all day with the girl, so there could be no doubt that Grace would be at her post.</p>
 <p>Some of the contracting powers, at all events, Corrigan would find, and it really did not much matter which so long as the girl herself understood a way of deliverance was being provided.</p>
@@ -3199,8 +3239,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"I will go now, sir," observed Corrigan. "I have left the livery in Ann Patterson's care, and I will make up my book with Mr. Stirling. I have said nothing to living soul about <pb n="268"/>why I am parting my place; there is no call for me to tell all the world I had but one ewe lamb and you took her, and thought to give her back ruined and disgraced, and that I'd never know&#x2014;never be a bit the wiser." With which accusation Corrigan departed.</p>
 <p>And what an accusation that was for Terence to face now to-morrow had gone and after to-morrow had come!</p>
 </div>
-<div>
-<head>CHAPTER XXXIII<lb/>BEFORE THE STORM</head>
+<div id="jrnuns043" type="chapter" n="33">
+<head>CHAPTER XXXIII.<lb/>BEFORE THE STORM.</head>
 <p>NOTHING proves more trying to what is erroneously called a man's egotism, but which is really a man's sense of individuality, than the absolute indifference of Nature to events that are of the supremest importance to him.</p>
 <p>The sun rises and sets, seed-time and harvest come and go, the snowdrop and the rose bloom and fade, the winds howl, the rain descends, the stars shine, and the moon fulfils her appointed course, no matter who is sick or who is well, who mourns or who rejoices, who sins or who repents even with tears.</p>
 <p>It seems to most men&#x2014;to those, at all events, whose sense of self-importance has not been utterly crushed by adverse circumstances&#x2014;that when they are in great trouble the order of creation should stop for a time altogether, till they feel inclined to go on with it again.</p>
@@ -3269,8 +3309,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"I felt really sorry for him," went on Mr. Stirling, "for I think he had been hurt in some way as well as offended; and he was a good servant, and attached to you. Still, I am glad he is gone, and hope we shall see nothing in the future of Walley. He will not bring any more horses to me, I know."</p>
 </div>
 <pb n="276"/>
-<div>
-<head>CHAPTER XXXIV<lb/>THE BEGINNING OF THE STORM</head>
+<div id="jrnuns044" type="chapter" n="34">
+<head>CHAPTER XXXIV.<lb/>THE BEGINNING OF THE STORM.</head>
 <p>As Mr. Conway felt no doubt now as to the propriety of staying at Morrison's Hotel, he put up there as a matter of course, and from thence despatched long letters to London and Calgarry concerning upholstery and other kindred subjects, in which, truth to tell, he could not take the slightest interest.</p>
 <p>For it is a solemn fact that we cannot leave trouble behind so long as we take ourselves. It is ready for the road as soon as we are; it requires no luggage, needs no ticket; wherever we lead it follows&#x2014;it does not stay at home patiently awaiting our return; nobly indifferent to such mere details, it will travel by any conveyance, in any class, so long as it can give us the pleasure of its society: all it asks is our company&#x2014;but that it must have, whether we are in tune for such devoted attendance or not.</p>
 <p>If Terence thought to get rid of his particular care by leaving Donegal, he was mistaken; it did not stay a minute after him beside Goblin Bay, or even rest itself for a little at Calgarry. No; it got on the mail-car beside Terence, took share of his rug, and said to him quite plainly and cheerfully: "Now, old fellow, we are going to Dublin together." For this reason he soon began to see he might as well have stayed at home. Sticking closer than a brother, Care went to Morrison's with him, accompanied him through the streets, waited outside the furniture shops, and caught him the instant he came forth. Nay, it even went to Kildare Street, and though Mr. Bray did not know it, sat staring at him one day in his own office for full half an hour, patiently waiting that good time in the future when Grace Walley's affairs might demand and obtain a hearing, and take their place among the chronicles in those tin boxes, labelled in painted letters two inches long, "Terence Conway, Esq., Calgarry."</p>
@@ -3329,8 +3369,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"Mother," she said pitifully, "what is it?"</p>
 <p>Then Mrs. Walley fell on her knees and wailed out in very agony, "O, my child! my mind misgives me about Mr. Conway I am afraid he has come over here once too often. Tell me if I am right; is that what is troubling you?"</p>
 </div>
-<div>
-<head>CHAPTERXXXV<lb/>A MORNINGCALL</head>
+<div id="jrnuns045" type="chapter" n="35">
+<head>CHAPTER XXXV.<lb/>A MORNING CALL.</head>
 <p>IGNORANT of that question asked at the day-dawning, Mr. Conway was dressing himself leisurely, when he became aware of a tapping, "like some one rapping softly," at his chamber door.</p>
 <p>"What is it?" he asked.</p>
 <p>"It is Ann Patterson, sir," answered his henchwoman, her homely accents coming muffled through the oak. "Can I speak a word?"</p>
@@ -3393,8 +3433,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>Terence could not tell her this any more than he could solve any other of the many problems she had propounded. The only thing which occurred to him was to take out money, all he had in hand, and offer it to her; but she waved it from her scornfully.</p>
 <p>"I won't touch it," she said. "I dursn't, even if I was willing, and I am not. We're not beggars. It wasn't charity I came to ask, but justice, and that you refuse. I'll go my sorrowful way now; but mind this, Mr. Conway, there's still Grace's father to settle with, and after him there's your Maker. Your sin will come home to you yet. You may forget, but there's One above that'll remember."Having uttered which augury, in its way as full of evil as the Nun's Curse, Mrs. Walley tucked up her hair, pulled on her bonnet, and departed, figuratively shaking the dust of Calgarry from off her feet.</p>
 </div>
-<div>
-<head>CHAPTER XXXVI<lb/>MR. WALLEY TAKES COMMAND</head>
+<div id="jrnuns046" type="chapter" n="36">
+<head>CHAPTER XXXVI.<lb/>MR. WALLEY TAKES COMMAND.</head>
 <p>"WHAT the&#x2014;&#x2014;took you to Calgarry at all?"</p>
 <p>It was four days later. Mr. Walley, returning to Goblin Bay in a very bad humour, had duly received the communication which waited him there; and, after a furious outburst of rage, set himself down to consider at his leisure each link in the great chain of events. Naturally he looked about for some crow to pluck with his wife, and, having found one in her fruitless journey, proceeded to feather it.</p>
 <p>Grace was out. She had fled up the hillside after receiving all the vials of her father's wrath on her devoted head; and at that precise moment stood not twenty yards from Swine's Gun, considering the worst was over, and, in her weak little heart, tremblingly thanking God life, sweet life, still remained. For she did expect to be almost killed; it never entered her mind she would escape without personal violence. She had cringed from long experience expecting blows; but, though Mr. Walley swore terribly, he received his wife's tidings with, for him, wonderful patience.Grace had witnessed worse scenes over <pb n="289"/>the loss of a calf, and she failed to understand what such forbearance meant.</p>
@@ -3481,8 +3521,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"I'll wait for nothing," returned Mr. Walley; "and you needn't be stopping up for me. I don't know how long I'll be away, or the day or the minute I may be back. And now mind what I'm saying to you&#x2014;keep a quiet tongue in your head, or it'll be worse for you, and try not to do more harm than you have done."</p>
 <p>It was not a very ardent leave-taking; yet to have seen Mrs. Walley go out, with a shawl over her head, and help Mr. Walley draw forth the old gig and harness the horse and hand him a worn piece of tarpaulin, which did duty for a rug, and hold the rickety gate open for him while he passed forth, and stand watching the crazy vehicle as it rocked its way from side to side out of sight, any one might have supposed the most <pb n="297"/>affectionate husband in Donegal was leaving a home of which he constituted the delight.</p>
 </div>
-<div>
-<head>CHAPTER XXXVII<lb/>MR. WALLEY GOES TO HIS LAWYER</head>
+<div id="jrnuns047" type="chapter" n="37">
+<head>CHAPTER XXXVII.<lb/>MR. WALLEY GOES TO HIS LAWYER.</head>
 <p>THE Love of Law and Earth Hunger run in Ireland a neck-and-neck race for the goal of Ruin. It would be impossible to say that one ever really outstrips the other, because after an Irishman has spent his last penny in law to gain a few acres of land, he will mortgage those acres up to the hilt in order to indulge in the pleasure of going to law again.</p>
 <p>In the favoured isle&#x2014;which for some hitherto unexplained reason is accounted specially blessed by God&#x2014;there are few misfortunes a ''good suit" cannot assuage. To most it is as satisfying as meat, as stimulating as drink, as comforting as fire, more consoling than religion, while very often it is nearer than a wife and dearer than many children.</p>
 <p>It is an interest, an excitement, an object, a speculation, an employment, all rolled into one.</p>
@@ -3674,8 +3714,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"It is not; it is not worth spending sixpence on&#x2014;you may take my word for that."</p>
 </div>
 <pb n="310"/>
-<div>
-<head>CHAPTER XXXVIII<lb/>THE STORM BURSTS</head>
+<div id="jrnuns048" type="chapter" n="38">
+<head>CHAPTER XXXVIII.<lb/>THE STORM BURSTS.</head>
 <p>THE lock that a golden key fails to open must be stiff indeed; and though he could not be persuaded his own idea was wrong, Walley left Mr. Morson's offices in the vilest of humours and the most depressed of moods. He did not know what to do. It oftentimes seems an easier matter to give up a wide estate than a great hope. There are boundaries and fixed fences to the one, but there seem no limits to the other. Since he understood Conway of Calgarry was "under his thumb," Mr. Walley had practically regarded himself as an "estated gentleman:" not that he wanted to be one precisely, but he thought he had but to ask and to have, without stint or trouble. He did not see his way. True, lawyers were not scarce in Donegal, and the adjacent counties swarmed with them; but unless he could select his man in Belfast or Dublin, Walley felt some misgivings that they would be all in one story. Mr. Morson's temper had been so much exercised by his would-be client's persistence, that he was provoked ere the interview terminated into saying, "There is not a girl in any rank of life worth the price you set on your daughter," after which statement a very stormy five minutes ensued.</p>
 <p>The truth was, Mr. Walley did not settle the amount of his own damages so much on the worth of his daughter as what he called the "desperateness" of young Conway's fix; and he was quite wise enough to know there must come a time when that "desperateness" would not be so great. If he failed to make his hay now, he could never hope to save such another crop; but he did not see how to make it unless he could get some one on his side.</p>
 <p>Wild ideas of taking Mr. Malet into confidence occurred to him; but he had never got on well with the Vicar. Then he thought of Sir Henry Beecham, and had almost decided to go to London in quest of that great General, when the mail-car on which himself and his fortunes were jolting back to Dunfanaghy was hailed by old Mr. McKye, who, greeting the horse-dealer with a sort of tempered familiarity, climbed up and took a seat beside him.</p>
@@ -3838,8 +3878,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"But, Daniel, what more could you want?" cried Mrs. Walley, amazed. "Our Gracie 'll be righted, and made a lady of."</p>
 <p>"A lot you know about ladies!" retorted her husband with withering irony; and he did not open his lips again as they drove back through the night to Goblin Bay.</p>
 </div>
-<div>
-<head>CHAPTER XXXIX<lb/>PAST RECALL</head>
+<div id="jrnuns049" type="chapter" n="39">
+<head>CHAPTER XXXIX.<lb/>PAST RECALL.</head>
 <p>"I AM not in the habit of giving advice, particularly unasked; but it is impossible for me to remain silent when you talk of taking a step you can never retrace, and that you will repent to your dying day."</p>
 <p>Mr. Malet was very much in earnest. If he had been warning a sinner back from the mouth of hell, he could not have spoken with greater gravity.</p>
 <p>He and Terence were alone in that room where Audna had come with the freshness of her young beauty more than a year before; and Mr. Malet was looking with an anxiety he did not attempt to conceal at the young fellow, who, with haggard face and heavy eyes and dogged mien, had just announced his intention to be married as soon as possible&#x2014;as soon as ever the law would let him.</p>
@@ -3946,8 +3986,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>He did not answer, but waited, seeing in Ann's face that there was something more to come.</p>
 <p>"She's a pretty creature," went on the faithful servant; and then added softly, "And O, Mr. Terence, you'll make the best of it now, won't you?"</p>
 </div>
-<div>
-<head>CHAPTER XL<lb/>MAKING THE BEST OF IT</head>
+<div id="jrnuns050" type="chapter" n="40">
+<head>CHAPTER XL.<lb/>MAKING THE BEST OF IT.</head>
 <p>IT is always so much easier to make the worst than the best of things, that the manner in which Terence not merely promised to follow Ann Patterson's pithily excellent advice, but strove to do so, could not but be accounted worthy of all praise.</p>
 <p>From the first, however, it proved hard work; his heart was not in the matter, and Mr. Conway had always found it difficult to perform any task in which he did not chance to be interested. He wished to do everything that was right, but somehow, when the right failed to coincide with his wishes, he always selected the pleasanter way, even if it were wrong.</p>
 <p>Upon the other hand, he was the kindest young man in the world. Unless he were very angry indeed, he found it difficult to act discourteously to any one. Just as some persons find it <pb n="335"/>hard to be civil, Terence Conway found it hard to be uncivil. He had the fatal gift of manner which is so misleading, which, seeming to mean everything, really binds to nothing. That was the charm which, even more than his face or his voice, had beguiled poor Grace. She gave herself up to it like one fascinated. She would have followed him through the world had he but whispered her to do so, and asked no return. She loved him&#x2014;O, how she loved him!&#x2014;but it was beyond her power to satisfy him. She felt that in a thousand ways she offended his taste, but she could not tell how to please it. The knowledge that she was doing wrong never helped to set her right, and only rendered her awkward, which in the days gone by she had never been. It is a mistake to suppose that love must necessarily win love. Much more generally love induces aversion. Terence never got to this pass; but ere long there certainly came distaste, and the more he tried to combat this feeling the stronger it grew.</p>
@@ -4015,8 +4055,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>O, unhappy Terence! O, poor well-meaning, wrong-doing Conway of Calgarry! Through what masses of tempestuous cloud had you not to pass onward to the end!</p>
 </div>
 <pb n="343"/>
-<div>
-<head>CHAPTER XLI<lb/>"MOTHER!"</head>
+<div id="jrnuns051" type="chapter" n="41">
+<head>CHAPTER XLI.<lb/>"MOTHER!"</head>
 <p>A MAN usually finds a sufficient difficulty in carrying his best theories into practice against the will of his own prejudices and incapacity; but it would be well-nigh impossible to name the figure whereby that difficulty must be multiplied when the prejudices and incapacity of another person have likewise to be taken into account.</p>
 <p>Terence Conway found that figure an unknown quantity. Grace did not set herself in opposition to him&#x2014;on the contrary, she tried hard to fall in with his views; and yet the result of their joint efforts proved about as satisfactory as pouring water into a sieve, or the labour of Sisyphus with his refractory stone.</p>
 <p>Even if the young wife had been as quick as she was slow, if she had been naturally clever as she was undoubtedly dull, if Terence had loved her as truly as he faithfully desired to do his duty by her, the weeks which succeeded after her marriage must have proved sadly irksome, while as matters stood each day but seemed a fresh misery. Congenial occupations she had none. When Terence was out and Ann busy she could but walk round the great rooms, and look at the objects she was beginning to know by heart, while she sighed for liberty. No caged bird ever sickened for freedom as did Norah Creina. No longer her robe flowed "wild as mountain breezes." No more her tresses fell loose. Never again should she wake with a light heart and look forth to the coming day with pleasure.</p>
@@ -4140,8 +4180,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>Next morning, when the housemaid went into the breakfast-room and opened the shutters, she saw Mr. Walley in a deep sleep&#x2014;his head well back, his legs stretched out, a decanter empty by his side, while a smell as if of a stable pervaded the apartment.</p>
 </div>
 <pb n="355"/>
-<div>
-<head>CHAPTER XLII<lb/>AN UNINVITED GUEST</head>
+<div id="jrnuns052" type="chapter" n="42">
+<head>CHAPTER XLII.<lb/>AN UNINVITED GUEST.</head>
 <p>AFTER the birth of her son Mrs. Conway remained for some months in an ailing condition, which necessitated a considerable amount of care, and precluded any scheme for mental or social improvement being carried out.</p>
 <p>During this time Mrs. Walley remained what Mr.Walley described as "off and on" at Calgarry.</p>
 <p>Whether her daughter liked this arrangement no one knew. Mrs. Walley naturally supposed she did; but Ann had her doubts on this point.</p>
@@ -4240,8 +4280,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"Good morning," answered Terence; but before he went Walley paused for a moment, and then said with a jeer,</p>
 <p>"I'm thinking, Mr. Conway, you've wished many's the time you had paid me what I asked and got shut of the lot of us. It's my notion you lost more nor you saved."</p>
 </div>
-<div>
-<head>CHAPTER XLIII<lb/>A BAD SHOT</head>
+<div id="jrnuns053" type="chapter" n="43">
+<head>CHAPTER XLIII.<lb/>A BAD SHOT.</head>
 <p>REMEMBERING the natural horror a man feels at the idea of "things being known," it is strange to consider the relief he experiences when "things are known."</p>
 <p>Miserable though in most respects he was, Conway of Calgarry had at least this one consolation: that the world&#x2014;his world&#x2014;knew the worst which could be told concerning him.</p>
 <p>There are few trials a man can be called on to endure equal to being thought better, cleverer, more truthful, more courageous than he is; and it seems to such a one like casting aside a burden when he comes down from some tottering pedestal on which he has been placed by himself, accident, or the partiality of friends, and feels the firm ground of actual fact beneath his feet once more.</p>
@@ -4313,8 +4353,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"The thing that get's over me," observed Mrs. Walley, "is what Pat was doing about Calgarry; he had no call to be there at all."</p>
 <p>"Will you hold your tongue, woman?" retorted Mr. Walley. "Do you want to put a rope round the lad's neck?"</p>
 </div>
-<div>
-<head>CHAPTER XLIV<lb/>AT SUNRISE</head>
+<div id="jrnuns054" type="chapter" n="44">
+<head>CHAPTER XLIV.<lb/>AT SUNRISE.</head>
 <p>IF the stern heart of Donegal had felt its pulses quicken with joy when the old Duke was at last called to deliver up the stewardship he had so long misused, it was stirred to its depths with pity for the young Conway stricken down in such a fashion.</p>
 <p>A man is always liked in proportion to his faults. Though he may be admired and respected for his virtues, people have a much greater sympathy with and tolerance for error than is generally supposed.</p>
 <p>There is nothing offensive to any one of us in the individual who often goes wrong, but it tries us very hard to be tolerant towards the person who invariably goes right. We feel there must be something greatly amiss about him if we only knew it; and even if there be not, his very perfection seems an offence to us.</p>
@@ -4409,8 +4449,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"Perhaps he would like to buy it still?" suggested Mr. Malet.</p>
 <p>"I think that is very probable. But now I want to know why for all these years you have kept aloof from all your former friends, and buried yourself here?"</p>
 </div>
-<div>
-<head>CHAPTER XLV<lb/>POOR PAT</head>
+<div id="jrnuns055" type="chapter" n="45">
+<head>CHAPTER XLV.<lb/>POOR PAT.</head>
 <p>THE little town where Donegal holds her assizes was crowded when the day came on which Patrick Corrigan was to stand his trial. All the world was there&#x2014;and if the world's wife did not also put in her appearance, it was simply because fashion, at that benighted period, had not set a hall-mark on many things which are considered quite proper and delightful now.</p>
 <p>Many of the persons we have met had secured or been secured high seats and humbler standing-room.</p>
 <p>The Calgarry folk mustered in force. Mr. McKye, junior, had left his flock for the day, and Mr. McKye, senior, his farm. Byrne had got a good place, and Mr. Stirling squeezed himself into a corner. A select party from Mostrene drove over sufficiently early to take seats before the rush began.</p>
@@ -4563,8 +4603,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>"If you come to that, what were <hi rend="italic">you</hi> doing on the spot?" retorted Mark, with a savage quickness which made Mr. Malet feel very thankful Mr. Barry had not been able to ask him in court, "There was a sore feeling on your part against Mr. Conway, was there not, concerning the living of Mostrene?"</p>
 </div>
 <pb n="394"/>
-<div>
-<head>CHAPTER XLVI<lb/>WELCOME HOME</head>
+<div id="jrnuns056" type="chapter" n="46">
+<head>CHAPTER XLVI.<lb/>WELCOME HOME.</head>
 <p>A WEEK later Terence Conway was still lingering at Strabane, where his friends had persuaded him to rest ere returning to Calgarry. "And if you can induce him not to go back there at all for some time, so much the better," added his doctor.</p>
 <p>By common consent to Letitia was intrusted the delicate task of reconciling Terence to this arrangement, and, after gradually preparing the ground for a decisive attack, she opened fire one morning when the invalid was lying on a hard couch covered with haircloth, looking wearily out of window, and the rest of the party were employing themselves as best they might.</p>
 <p>"I want to know, Terence&#x2014;" she began.</p>
@@ -4688,8 +4728,8 @@ before now, as you choose, of course," answered the other; "but I must say your 
 <p>It was true&#x2014;the child had disappeared. Fairies never took anything more silently, or concealed their stolen treasure more effectually.</p>
 <p>"This is Walley's doing," said the Vicar with conviction; and next morning Donegal was placarded over with bills offering 1000 <hi rend="italic">l</hi>. for the recovery of the child, and 1000 <hi rend="italic">l</hi>. for the apprehension of Daniel Walley.</p>
 </div>
-<div>
-<head>CHAPTER XLVII<lb/>CONCLUSION</head>
+<div id="jrnuns057" type="chapter" n="47">
+<head>CHAPTER XLVII.<lb/>CONCLUSION.</head>
 <p>NEITHER reward was ever claimed; but though day succeeding to day brought no tidings to Calgarry, Terence for a long time did not feel quite hopeless.</p>
 <p>"Mark says, once we get poor Pat free, he will ferret Walley out&#x2014;he knows all his haunts." But Mr. Malet shook his head.</p>
 <p>"Don't build too much on Corrigan," he answered. "You must remember the Governor of the prison wrote to me he had met with a nasty accident, and he may not be able to help."</p>
