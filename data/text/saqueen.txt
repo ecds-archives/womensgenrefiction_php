@@ -1,43 +1,168 @@
-MY QUEEN;
-
-OR,
-
-OREANA BRENTFORD.
-
-PART FIRST.
-
-CHAPTER I
-
-THE BRENTFORDS.
-
-THE BRENTFORDS, of Brentford Farm, Middlesex, England, were an ancient and honorable yeoman family, who, in the secure enjoyment of moderate wealth, led a peaceful, pleasurable existence upon their own goodly estate.
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>My Queen, an electronic edition</title>
+<author n="Walsh, Marie A.">Sandette</author>
+</titleStmt>
+<extent></extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2004</date>
+<availability>
+<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about  this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA  30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email:  beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>"Sandette"</author>. <title>My Queen. A Romance of the
+Great Salt Lake</title>. <pubPlace>New York</pubPlace>:
+<publisher>G.W. Carleton &amp; Co., Publishers</publisher>;
+<pubPlace>London</pubPlace>: <publisher>S. Low, Son &amp;
+Co.</publisher>, <date>1878</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<samplingDecl>
+<p>The title page, select front matter,  and body text of novels and stories have been transcribed and encoded.  Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only.</p></samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.  The
+source for this elecrtonic edition of Sandette's <hi rend="italic">My
+Queen</hi> includes ornamental drop caps at the beginning of each
+chapter, which we have not represented in this text. Digital
+page images are linked to the text file.</p></editorialDecl>
+<classDecl>
+  <taxonomy id="lcsh">
+     <bibl>
+       <title>Library of Congress Subject Headings</title>
+     </bibl>
+  </taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="ethnicity"></rs>
+<rs type="form">unedited</rs>
+<rs type="genre">novel</rs>
+<rs type="geography"></rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>English literature--20th Century--Fiction.</item>
+<item>Women authors, British--20th Century.</item>
+<item></item>
+<item></item>
+<item></item>
+<item></item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2004-August-10</date>
+<respStmt><name>Erika Farr,</name>
+<resp>project manager.</resp></respStmt>
+<item>XML tags inserted in compliance with  TEI guidelines using TEILITE.</item>
+</change>
+<change>
+<date>2004-Jun-21</date>
+<respStmt><name>Erika Farr,</name>
+<resp>project manager.</resp></respStmt>
+<item>Figures and figure elements added.</item></change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<pb entity="" n="[iii]" pages="Title Page"/>
+<titlePage>
+<docTitle>
+<titlePart type="main">MY QUEEN.</titlePart>
+<titlePart type="sub">A ROMANCE
+<lb/>OF
+<lb/>THE GREAT SALT LAKE.</titlePart>
+</docTitle>
+<byline>By
+<lb/><docAuthor>"Sandette."</docAuthor></byline>
+<epigraph>
+<quote>
+<l>"--Is this my doom?</l>
+<l>Are all my dreams, my hopes of heavenly bliss,</l>
+<l>My purity, my pride, then come to this?"</l>
+</quote>
+<bibl><hi rend="italic">Moore.</hi></bibl>
+</epigraph>
+<docImprint>
+<pubPlace>NEW YORK</pubPlace>:
+<lb/>Copyright, <docDate>1878</docDate>, by
+<publisher><hi rend="italic">G. W. Carleton &amp; Co., Publishers</hi></publisher>.
+<lb/><pubPlace>LONDON</pubPlace>: <publisher>S. LOW, SON &amp;
+CO.</publisher>
+<lb/><date>MDCCCLXXVIII</date>.
+</docImprint>
+</titlePage>
+</front>
+<body>
+<div id="saqueen01" type="part" n="1">
+<pb n="[7]"/>
+<head>MY QUEEN;
+<lb/>OR,
+<lb/>OREANA BRENTFORD.
+<lb/>PART FIRST.
+<div id="saqueen02" type="chapter" n="1">
+<head>CHAPTER I
+<lb/>THE BRENTFORDS.</head>
+<p>THE BRENTFORDS, of Brentford Farm, Middlesex, England, were an ancient and honorable yeoman family, who, in the secure enjoyment of moderate wealth, led a peaceful, pleasurable existence upon their own goodly estate.</p>
 <p>The only shadow that obscured the happiness of the Brentfords was the thought that soon the old name would be extinct; for Mr. and Mrs. William Bremtford had but one child--a daughter. However, to make amends for this disappointment, this daughter was richly endowed with beauty and mental gifts; and as she grew to womanhood, the fond parents forgot they were sonless in the joy of having such a
 daughter.</p>
 <p>"My queen," the proud father called her; and the
 <pb n="8     THE BRENTFORDS."/>
- 
-title seemed well suited to the stately figure, far above the usual stature of woman, yet so harmoniously proportioned that one knew not which to admire most,--its grace, or its majesty. A queen, indeed, Oreana Brentford appeared, as she moved among her girl companions, with the dignified reserve of a sovereign; and no crown did she need; save the massive braids of her chestnut-brown hair. But when soul enthusiasm flamed out of her hazel gray eyes, and the pale, statuesque face grew luminous in the glowing radiations, when the regal form swayed in the ecstasy of exaltation, the queen became a priestess.</p>
+ title seemed well suited to the stately figure, far above the usual stature of woman, yet so harmoniously proportioned that one knew not which to admire most,--its grace, or its majesty. A queen, indeed, Oreana Brentford appeared, as she moved among her girl companions, with the dignified reserve of a sovereign; and no crown did she need; save the massive braids of her chestnut-brown hair. But when soul enthusiasm flamed out of her hazel gray eyes, and the pale, statuesque face grew luminous in the glowing radiations, when the regal form swayed in the ecstasy of exaltation, the queen became a priestess.</p>
 <p>Perhaps it was the blending of these peculiar types that gave to Oreana an undefinable expression, as of some hidden power, or some strange destiny, that would isolate her from woman kind.</p>
 <p>This idea of expectancy, this vague surmising of what she would do,--what would happen to her, impressed and attracted a stranger more than did her beauty.</p>
 <p>Had she suddenly developed into a Deborah or--a Judith, few would have felt surprised; except, perhaps, her parents, who deemed it impossible that a Brentford could ever diverge from the well-known path within whose narrow limits they and their ancestors had walked contentedly.</p>
 <p>At the age of eighteen Oreana accepted as her affianced husband Julian Bellew, the heir of the manor, and her second cousin. The Bellews and Brentfords hailed with delight this engagement. It promised the realization of all their hopes and wishes, for the union of Oreana and Julian had always been the pet scheme of the two families.</p>
 <p>For once the course of true love ran smoothly--
-<pb n="THE LOVERS.     9"/>
-
+<pb n="9     THE LOVERS."/>
 every one seemed delighted. Those who had prophesied an ominous destiny for Oreana were silenced; some still shook their heads and pitied Julian, but they numbered few, and the general voice declared the lovers the happiest of the happy.</p>
 <p>Pre-eminently happy they seemed to be, blest with love, beauty, home joys, and the world's favors.</p>
-
-CHAPTER II.
-
-THE LOVERS.
-
-
-ONE bright spring afternoon in the year 1856, within a rustic pavilion at Brentford, sat the lovers. Julian read aloud the "Fire Worshipers." Oreana was supposed to be listening, but it was evident from her abstracted gaze, that her spirit had wandered too far away to hear even a lover's tones. At last, Julian, discovering that Oreana did not hear him, closed the book, and drew near to his lady-love, saying:</p>
+</div>
+<div id="saqueen03" type="chapter" n="2">
+<head>CHAPTER II.
+<lb/>THE LOVERS.</head>
+<p>ONE bright spring afternoon in the year 1856, within a rustic pavilion at Brentford, sat the lovers. Julian read aloud the "Fire Worshipers." Oreana was supposed to be listening, but it was evident from her abstracted gaze, that her spirit had wandered too far away to hear even a lover's tones. At last, Julian, discovering that Oreana did not hear him, closed the book, and drew near to his lady-love, saying:</p>
 <p>"Oreana, what are you thinking about? For the last half-hour you have sat silent, immovable, with all the sunshine gone from your face. I do not think you have heard a word that I have read. Do, love, look again like yourself, or I shall fancy you are a Parca, about to snip my life-thread."</p>
 <p>"A Parca! What a queer fancy; and yet, perhaps it is a truthful one. I am a Fate."</p>
 <p>"You are mine, darling,--my Clotho. Weave my web of golden threads.  But there,--these fingers could weave nought else but gold. Won't you smile? this is our last <hi rend="italic">tete &agrave; tete</hi> for a long week."</p>
 <pb n="10     THE LOVERS."/>
-
 <p>"A week?" echoed Oreana, half dreamily, half interrogatively.</p>
 <p>"Why yes, dear, to-morrow you know I go to Liverpool; and you, the next day, to Cousin Laura's; so we shall not meet again until next week."</p>
 <p>"Perhaps never again."</p>
@@ -53,8 +178,7 @@ ONE bright spring afternoon in the year 1856, within a rustic pavilion at Brentf
 <p>"Oreana, you are driving me mad. Say it is all a jest. You cannot possibly mean that you are a Mormon."</p>
 <p>"I do not jest; I am a Mormon."</p>
 <p>Julian started as if stung, his eyes dilated with horror.</p>
-<pb n="THE LOVERS.     11"/>
-
+<pb n="11     THE LOVERS."/>
 <p>"Oreana, I cannot believe it. You, so pure, so good, so noble, to accept an abominable creed like Mormonism."</p>
 <p>"Abominable! Julian, you know not of what you speak. The early Christians were also called abominable. Christ was crucified as a conspirator. Luther was charged with every crime. Surely, then, we can endure calumny. What do you know about the saints, or Mormons as you call them, that you malign them in this way?"</p>
 <p>"You speak truly, Oreana; but the early Christians were pure. Do not these Mormons commend and practice polygamy?"</p>
@@ -63,15 +187,13 @@ ONE bright spring afternoon in the year 1856, within a rustic pavilion at Brentf
 <p>"I own I have never studied the Bible sufficiently to refute your arguments in a learned manner; but certainly, common sense seems to confute them."</p>
 <p>"Yes, the wisdom of the serpent is found in the mouths of the wicked; and in the Latter Day their hearts shall be hardened. But Julian, do not you be like unto them. Come with me to the desert that has
 <pb n="12     THE LOVERS."/>
-
 blossomed like a rose, to the city of God on the mountains. Leave Babylon!--leave the wicked!"</p>
 <p>"Nonsense, my love; there is no wickedness here. Are not our parents as good as they can be, are not our friends upright, intelligent, God-loving Christians?
 I own I am not very churchy, but I try to do right, to lead a peaceful life. Again: why should you imagine God is in one particular spot? Does not the Bible say that He is everywhere--and wherever good will and happiness reign, there he loves to dwell? God smiles upon us here, in this lovely vale,--as benignly as He would on that far-off mountain; and certainly we can serve Him as well, if not better, here among civilized people, than we could among savages."</p>
 <p>"No, Julian: in Zion only can we serve God, in Zion only can we be saved at that awful day--of doom fast, fast approaching; in Zion only can our marriage be recorded in Heaven. To Zion I go; no earthly obstacle is strong enough to prevent me."</p>
 <p>"My love, my love," cried Julian, pressing her to his heart." I conjure you, I implore you, by all that is holy, by the sacred words <hi rend="italic">home</hi> and <hi rend="italic">love</hi>, banish these ideas. Our heavenly Father cannot wish you to break these sacred ties, to kill your fond parents, for they will die if you leave them thus. No! God cannot wish it. It is blasphemy to say He does. Oreana, have pity upon me, upon yourself. Do not leave all that is bright and beautiful. Break away from this evil influence--throw off these delusion--promise me you will think no more of these wild projects, promise, beseech you--"</p>
 <p>Oreana disengaged herself from Julian's embrace, walked slowly to the door of the pavilion, and there
-<pb n="THE LOVERS.     13"/>
-
+<pb n="13     THE LOVERS."/>
 stood silent and motionless gazing out upon the glowing West, as if seeking inspiration.</p>
 <p>At length she turned to speak.</p>
 <p>Julian started with surprise. Was this Oreana, or was it not rather a pythoness of ancient Delphos about to pronounce his doom?  Never did priestess look more inspired than did Oreana. Her figure seemed to grow tall and expand; a wondrous light shone in her face, and her features became luminously transparent. She stood, framed in sunbeams, one radiant hand stretched out towards the West, a personification of religious enthusiasm.</p>
@@ -88,21 +210,17 @@ who silently left the pavilion, never again to enter it together.</p>
 <p>Often did he look back and wave adieus to Oreana, who stood watching him as he slowly disappeared. Not until a turn in the road hid him from her sight did she move, and then it was to run to the pavilion steps, from whence she could see him enter the manor.</p>
 <p>One last farewell; then Oreana turned towards the house. She walked slowly, looking fondly at every familiar object.</p>
 <p>She, also, seemed to dread meeting her parents; for she avoided the parlor, and sought her own room, where, with locked doors, she knelt in prayer.</p>
-<pb n=" THE DEVOTEE.     15"/>
-
-CHAPTER II.
-
-THE DEVOTEE.
-
-
-OREANA was unfortunate, in that she was placed out of her proper sphere and age.</p>
+<pb n="15      THE DEVOTEE."/>
+</div>
+<div id="saqueen04" type="chapter" n="3">
+<head>CHAPTER III.
+<lb/>THE DEVOTEE.</head>
+<p>OREANA was unfortunate, in that she was placed out of her proper sphere and age.</p>
 <p>Born a century later, when a rational education could have developed her reason and trained her energies, she would have been a heroic leader in the march of Progress, instead of a discontented, eccentric young lady. Or had she belonged to the charmed circle of nobility, she might have indulged her marked individualisms, without entailing upon her sad consequences. But she was only a well-to-do nobody, with just sufficient luxury, education, and position, to make her one of the happy ones without a history.</p>
 <p>Oreana longed for action. Feminine avocations were distasteful to her, and the gaiety of visits, parties and balls, disgusted her. She was profoundly religious; yet she declined to take active interest in church duties, because the creeds did not satisfy her soul.</p>
 <p>At one time she thought of becoming a foreign missionary; but, upon further deliberation, she concluded that any religion that was fashionable, popular, or even tolerated, could not be the true one.</p>
 <p>Oreana sighed for persecution. Her nature was strongly combative. Veneration and spirituality were controlled by combativeness. Her soul demanded persecution, so that she might sacrifice her loves--herself, to win a martyr's laurels.</p>
 <p>And here, a psychological problem suggests itself. Do not the characteristics of would-be martyrs, their                                                    <pb n="16      THE   DEVOTEE."/>
-               
-
 defiance of the world, and self-crucifixion, spring from the same source as the war-loving, cruel impulses of the warrior and tyrant?</p>
 <p>In the fanatic, combativeness is spiritualized; in the tyrant, it is brutalized. In the former, God is the  end, self the victim: in the latter, self is the end, the neighbor the victim.</p>
 <p>With a nature so contradictory and unsatisfied, Oreana could not be happy. Misunderstood by all around her, she had no friends in whom she could confide. She belonged to a class of happy, unthinking people, who accepted their church without a question, and who considered the problems of the day as entirely out of their sphere, if, indeed, they gave them a thought.</p>
@@ -112,15 +230,14 @@ defiance of the world, and self-crucifixion, spring from the same source as the 
 <p>Bah! she was sick of it all! What merit was there in such ease and luxury?</p>
 <p>How she sighed for the catacombs of the early Christians!</p>
 <p>During one of these discontented fits, she visited some cousins at Liverpool; there she became acquainted with the sect of Latter Day Saints.</p>
-<pb n="THE DEVOTEE.     17"/>
-
+<pb n="17     THE DEVOTEE."/>
 <p>She was attracted to it immediately.</p>
 <p>The rude, unadorned meeting-house,--the preacher, plain in appearance and language, yet so earnest and inspirational, like unto the Galilean fishermen, the fanatical devotion of the lowly assembly, all delighted her. It almost equalled the catacombs.</p>
 <p>Then the command to leave the world and its follies; to assemble, as the Jews of old, in a city of God, satisfied her impatient energies. Here was a field for action. Her fancy was dazzled by its prophets and apostles, its visions and revelations, by its gospel miraculously found, and as miraculously read by means of the Urim and Thummim. Her imagination rejoiced in this restoration of the past.</p>
 <p>But when the preacher depicted the murder of the prophet Joseph, the banishment of the saints from Nauvoo, their trials and persecutions, Oreana wept for joy. She had found that which she had so long desired. Before leaving Liverpool she received baptism.</p>
 <p>Oreana failed in her attempt to convert her family. No one would listen to her exhortations; the books she placed on her father's desk, in her mother's work-basket, were speedily burned. Julian laughed, her friends pitied her hallucination, her mother wept, and her father threatened to disown her. Oreana's nature prompted heroic defiance, but wary Silvertung advised dissimulation. Secret influence, he said, was the most efficacious; by its means she might yet win souls. So Oreana made a mighty effort, went to church as usual, and spoke no word of Zion. Her friends rejoiced, and soon forgot the temporary eccentricity. Repression increased Oreana's enthusiasm. She resolved to forsake her parents, her lover, her home, all for Christ's sake.</p>
 <pb n="18     MRS. LASCELLE."/>
-
+</div>
 CHAPTER IV.
 
 MRS. LAS8ELLE.
@@ -135,7 +252,7 @@ A KNOCK at the door interrupted Oreana's devotions.</p>
 <p>"Now, my love," said Oreana, who had partly succeeded in calming the grief of her visitor, "tell me what it is that so distresses you."</p>
 <p>"Oreana, my heart will break. I cannot, cannot do it. Why does God demand such sacrifices? I cannot. My heart will break."</p>
 <p>"My dear Mary, there's no such word as cannot; and what is the breaking of a poor, sinful heart, compared to the woe pronounced against those who disobey? But what is this new trouble?"</p>
-<pb n="MRS. LASCELLE.     19"/>
+<pb n="19     MRS. LASCELLE."/>
 
 <p>"It is the revelation."</p>
 <p>"Have you had a revelation?"</p>
@@ -151,7 +268,7 @@ A KNOCK at the door interrupted Oreana's devotions.</p>
 <p>"Know ye, that I am the Lord thy God: He that brought the children of Israel out from the land of Egypt: He whom thy fathers adored, even the same. I am the Lord thy God, a jealous God, who visitest judgment upon the wicked, yea to the third and fourth generation. Listen ye, 0 my servant; for inasmuch as thou hast left all things to keep my commandments, even so will I speak unto thee.</p>
 <p>"Verily I say unto thee, Go unto my chosen servant, Mary Lascelle, and say unto her:</p>
 <p>"Thus saith the Lord! Thy tears and prayers have found favor in my sight, even as the sacrifice of
-<pb n="20     MRS. LASCELLE."/>
+<pb="20     MRS. LASCELLE."/>
 
 Abel. Know ye the will of the Lord. Even so as the man thou now callest husband has despised my ways, and mocked at my commandments, he shall be cut down and cast into the fire.</p>
 <p>"Verily say unto thee, he is no longer thy husband but if thou wouldst enter into the land that I have reserved for those who love me and keep my commandments, then verily, I say unto thee: Arise, take thy child, go forth from those that love iniquity, follow my servant, Moses Silvertung, into the wilderness unto Zion. For I say unto thee that any one who prefers father, mother, husband, or child, to Me, is not worthy of my kingdom: him will I destroy, as I destroyed thousands of Israelites in the desert.</p>
@@ -162,8 +279,7 @@ There was silence for a few moments, when Oreana cried:</p>
 <p>"Blessed be God, who remembereth His people, and who permitteth us to live in the days of the Renewal of the Covenant! Think of our privilege, Mary, and exult For ages the world has been desolate, God's voice was silent; but now He speaketh again.  Mary, I envy you. A special revelation. Thrice blessed woman!</p>
 <p>"And you hesitate after such a declaration of the Divine Will?"</p>
 <p>"But it is so horrible."</p>
-<pb n="MRS. LASCELLE     21"/>
-
+<pb n="21     MRS. LASCELLE."/>
 <p>"Not more so than the sacrifice that Abraham was commanded to make."</p>
 <p>"Yes, but be did not make it."</p>
 <p>"Neither will you, in the end. Your departure will awaken your husband: he will follow you to Zion, and great will be your happiness."</p>
@@ -189,8 +305,7 @@ MRS. LASCELLE had always been a pet; and only the exceeding gentleness of her ch
 <p>Her parents kept watch over her, fearful lest a breeze should rudely sweep her curls, or that a wavelet from the troubled ocean of life might break over her path.</p>
 <p>Mary early evinced a peculiar impressibility concerning religious matters, consequently they would not allow her to receive the instructions generally given to children.</p>
 <p>"Wait until she is old enough not to worry herself
-<pb n="THE IVY VINE     23"/>
-
+<pb n="23     THE IVY VINE."/>
 about sin and death," was their answer to those who considered this negligence reprehensible. All serious studies were also considered as worries, and discarded accordingly; a boarding-school was out of the question, even a day-school was deemed too severe for little fairy. So Mary grew up under her mother's eye, in ignorant innocence of life's problems and responsibilities, without a care.</p>
 <p>At the age of eighteen she became the wife of Edward Lascelle, who tried to be as careful of his little wife as her parents had been. But he had his way to make in the world, and business obliged him to leave her to her own guidance in many things.</p>
 <p>As long as her parents lived, it was of no consequence; but in the fifth year of her marriage death took away these guardians. Mary was overwhelmed with grief, and, as a natural consequence, sought consolation in the church.</p>
@@ -204,8 +319,7 @@ about sin and death," was their answer to those who considered this negligence r
 <p>This indifference wounded her, gradually the husband's influence grew weaker, and another's grew stronger. This other was the preacher Silvertung: a man pleasing to look at, of insinuating manners, and a great favorite with the female converts. He could pray and sing so beautifully, and his piety was so touching.</p>
 <p>Elder Silvertung admired lovely women, especially if they belonged to the type glorified by the poets, worshiped by sentimentalists, and extolled by the goody ones of the day,--the ivy vine women,--those who love to twine around the gnarled oaks, the decayed stumps, or some worm-eaten, crooked posts.Ah! well! the ivy vine makes ugliness picturesque: so let it thrive in the human family.</p>
 <p>Mrs. Lascelle, either by nature or education, or perhaps both, belonged to this type of women; and Elder Silvertung admired her so much, that he felt a special call to assure the salvation of this sweet creature. He soon discovered how matters stood with the young
-<pb n="THE IVY VINE     25"/>
-
+<pb n="25     THE IVY VINE."/>
 couple; how of late the tree had thrown off the vine; how the vine had drooped without support. It gave him a fine opportunity, of which he hastened to avail himself.</p>
 <p>The ivy found a support around which it could tiwne,--spiritually of course,--but in this world it is sometimes difficult to distinguish between spiritual and material, so much do they intermingle.</p>
 <p>In Elder Silvertung Mrs. Lascelle found a sympathizer, a counselor, a guide and conductor, on the road to Zion. Under the elder's teaching she was soon convinced that her husband would be doomed to woe if he still continued unregenerate. Only the Saints could enter heaven, only those who accepted the Covenant would reign with Christ. She must save her husband. Her love and faith gave her strength; laughter, ridicule, even anger could not silence her.</p>
@@ -226,8 +340,7 @@ the wicked. Leave them,--flee from them; for destruction cometh as the whirlwind
 <p>"What I did I speak? I was not conscious of it. Sometimes, indeed, the Spirit speaks through me, unworthy as I am. If I have grieved or offended you, dear sister, forgive me."</p>
 <p>"Then, indeed, am I lost," ejaculated the poor woman. "Misery on every side! but I cannot forsake my husband."</p>
 <p>Mrs. Lascelle left hurriedly, without another word. She was frightened. For some time she avoided the saints, and love for her husband seemed to have gained the ascendancy. If Edward Lascelle had sympathized ever so little with her religious sentiments she would have been saved. But fate seemed working against her. The husband who worshiped her as a beautiful idol, who treasured up every word that fell from her lips, who lavished upon her the fruits of his labor, the wealth of his love, was an unrelenting tyrant in the matter that most interested her.  Then Oreana, a
-<pb n="THE IVY VINE.     27"/>
-
+<pb n="27     THE IVY VINE."/>
 friend who would not be avoided, never ceased her exhortations. Just at this time, little Elsie suddenly fell sick. Oreana declared the illness to be a judgment from heaven. The weak woman believed it. She ran to Elder Silvertung and begged him to minister to the child, promising complete submission to the will of God if her darling was cured.</p>
 <p>Elsie's sickness was only a child's ailment, from which she must recover in a few days; but Mrs. Lascelle's distorted imagination magnified it into a death-warning. As a matter of course, the child got well, and the mother became more fervent than ever; for gratitude and repentance quickened her devotion.</p>
 <p>One day, Elder Silvertung announced his departure for Zion. He should leave with the next band of saints.</p>
@@ -243,8 +356,7 @@ LOST !
 WHILE Mary Lascelle was struggling hopelessly between the dictates of her womanly conscience and the evil influences of fanaticism, her husband hurried homewards, his step buoyant, his eye sparkling, for he had that day won a position he had desired for many a long year, and as he drew near the pretty rustic villa which he called home, the exuberance of joy burst out in song.</p>
 <p>"How glad Mary will be," he murmured. Then suddenly his brow contracted; some dark thought had chased away the sunshine. He is not a pleasant man to look at when he frowns, when storms gather in the dark eyes, when passion dilates the nostril and makes the brown face glow with swarthy redness. But the very intensity of his nature rendered him a devoted husband and father; perhaps somewhat egotistic and dictatorial, yet loving and tender withal. Edward Lascelle idolized his wife and child. In them centered all his hopes, his affections, his aspirations. They were his world, his heaven. And the Mormon shadow had crept into his home, chilling love's warmth, shadowing the sweet face of his darling Mary. How he hated this religious craze about the New Jerusalem! The mere thought of it enraged him. But success has made him far too happy to-day to be depressed by a shadow.</p>
 <p>"Pshaw," he said to himself. "Mary will soon forget these silly ideas. She must have a change of
-<pb n="LOST!     29"/>
-
+<pb n="29     LOST!"/>
 scene. I can well afford it now. How happy Mary will be."</p>
 <p>As he entered the gate, a winsome, brown-eyed sprite of four summers danced out to meet him.</p>
 <p>"Papa, I tho glad you're come. Mamma gone and I'm lonethome."</p>
@@ -265,9 +377,8 @@ wrapt and gloomy, imprisoned him. Shadowy forms surrounded him. The shadows beca
 <p>"Thank God, 'tis but a dream!" he cried, as he awoke 'to find a bright form bending over him. It was his wife. Her sweet face wore a strange expression of mingled sorrow and love. Fear looked out of the blue eyes, while on their gold-tipped fringe, teardrops glistened.</p>
 <p>The awakened man gazed upon her in wondering love, little dreaming of the cause of her quivering lips and hunted look.</p>
 <p>To him she appeared so beautiful. He noted even the shimmering of her blue dress, and the fragrance of the blush rose that nestled in the dainty lace at her throat.</p>
-<pb n="LOST!     31"/>
- 
-<p>"How lovely you are, darling! But why so sad? I have news that will make you glad. Dance with glee, little wife. I am a partner now. Isn't that gay? Why, you are sighing instead of laughing. Are you not pleased?".</p>
+<pb n="31     LOST!"/>
+ <p>"How lovely you are, darling! But why so sad? I have news that will make you glad. Dance with glee, little wife. I am a partner now. Isn't that gay? Why, you are sighing instead of laughing. Are you not pleased?".</p>
 <p>"Oh, yes, dear, but--"</p>
 <p>"But what? Why, I declare you are quite pale, and all trembling. You want change of air and scene. You are growing nervous."</p>
 <p>"That is what I tell her, Edward," said Oreana, entering the room. "In fact, I have come this evening on purpose to talk with you on the subject. Tomorrow afternoon, I am going to London to cousin Laura's for a week; and I think it would do Mary ever so much good to go with me. You know I ought to have some matron to chaperon me; now mamma says it is impossible for her to leave, and cousin Laura never goes out, so you will be good and let Mary come, won't you? You see I am very selfish."</p>
@@ -288,7 +399,7 @@ so low-spirited and nervous. Now go to-morrow, like a brave little woman, and I 
 <p>"Forgive you, darling? What ever for? There, now, one kiss. Good bye, till next week. Cheer up, little wife. Oreana, do try to make her once more her old self, and persuade her to forget those horrid Mormons, as you have done." (Oreana winced.) "Take good care of yourselves and our little Elsie. Good bye."</p>
 <p>He left the house whistling a merry tune, and was soon out of sight.</p>
 <p>Mary watched him with strained eyes, then she fell on her knees by the side of her sleeping child, moaning, "Lost, lost! and I--"</p>
-<pb n="THE DELVILLES.     33"/>
+<pb n="33     THE DELVILLES."/>
 
 CHAPTER VII.
 
@@ -296,10 +407,7 @@ THE DELVILLES.
 
 ROBERT DELVILLE, silk mercer and linen draper, of High street, Liverpool, was a ruddy, coarse-featured, loud man, with the physique of a pugilist. Rumor hinted at a wild youth, addicted to low games and cruel companions; but that was all in the far past. Many a year ago Robert Delville had settled down into a good, blunt citizen, rather sharp at a bargain, yet honest in the main. He was loved by his family, and liked by his friends, regular at church, and fond of the Bible. It is true that he displayed a predilection for witnessing executions (but that was nothing singular in those days), and frequently he would emphatically declare his dissatisfaction at the existing state of things, social, moral, and religious.</p>
 <p>He had eagerly embraced the new gospel, and soon after astonished his little world with the announcement that he was going to Zion. For some time a clearance sale has been going on. It is all over now. The place is empty and deserted; the shutters going up. Upstairs, in the family apartments, the greatest confusion reigns. Some are boxing furniture, others packing trunks. The day's work is almost over. The mistress, a portly, good-natured-looking woman, sits down upon a trunk to rest awhile. She has a very troubled look, and every now and then she wipes her eyes, from which the tears will flow in spite of her efforts to repress them. A pretty little girl lays her cheek caressingly against her mother's, and cries
-
-2*
 <pb n="34     THE DELVILLES."/>
-
 because her mother weeps. In one corner of the room, a serious-faced boy is packing away some books, carefully, tenderly, as if he loved them.</p>
 <p>Another son, the eldest, a bright sturdy youth of fifteen, is working with a will.</p>
 <p>"Is this to go, mother?" he asks, pointing to a beautiful picture of Aurora.</p>
@@ -318,8 +426,7 @@ because her mother weeps. In one corner of the room, a serious-faced boy is pack
 
 
 
-<pb n="THE DELVILLES      35"/>
-
+<pb n="35     THE DELVILLES"/>
 prize, sold as if we were ruined. Just think, how happy we have been here. Why can't we be as good Saints here, as in that way-off-country?"</p>
 <p>"Now, Lucy, would you stay here and be burned up with the wicked, instead of reigning with Christ in a city paved with gold, and whose walls are of precious stones. Besides dear, a great destiny awaits me there. I have had wonderful dreams of late; and then Brother Trapp, who often converses with God, has told me of great things in store for you and me, and the children, if we remain faithful."</p>
 <p>"But, Rob, we don't want anything more than we have; and they do whisper of terrible things done by the leaders of this people."</p>
@@ -346,7 +453,7 @@ busy-bodies, pickpockets, vagabonds, filthy persons, hireling clergy, and their 
 
 <p>"Now, what do you think of that? Why, bless me, you don't smile."</p>
 <p>"I should think not; it is outrageous. I don't re-
-<pb n="THE DELVILLES.     37"/>
+<pb n="37     THE DELVILLES."/>
  
 spect the prophet half as much as I did. 0, Robert! I am afraid this is a bad move."</p>
 <p>"Lucy, I thought you were a good saint, anxious to receive the endowments, which we can't do till we get to Zion. Even our marriage is not perfect. If we were to die now, we should be as strangers in heaven; and, as they don't marry there, we should have to live apart for all eternity. As soon as we reach Zion we will be sealed to each other, won't we, Lucy?"</p>
@@ -369,8 +476,7 @@ JULIAN.
 WHEN Julian parted from Oreana, it seemed to him that chaos reigned throughout the world; he almost dreaded to step, lest the unstable earth should sink beneath him. Oreana's fanatic declarations subverted all order, destroyed all harmony. Before she uttered them, the future shone bright and clear, and he gazed with delight upon the coming years, all freighted with love and happiness. But, now, shadows obscured the glorious vision. These shadows were as yet formless, but when they should take actual shape, what unknown horror would they reveal?</p>
 <p>Julian, whose life had been without a care, found himself suddenly confronted by an ugly, scowling fate; an obstacle had arisen--an eccentric, vague obstacle--yet none the less a stern reality, which stopped his joyous career; the violent jar unnerved him. In the midst of his love triumph he was crushed by a terrible rival--a rival whom he could not slay. Oreana's wild words still rang in his ears. She required him to renounce his church, his home, to become a dishonored, contemned man--a Mormon--and Oreana, the noble, the beautiful, was already this creature of scorn. The thought was maddening.</p>
 <p>What was sickness?--death! to this. Sickness and death were sacred sorrows, direct from the hand of God; sorrows that strengthened the bond of human sympathy, and brought mortals nearer to Heaven; but this that rankled within his heart was no such
-<pb n="JULIAN.     39"/>
-
+<pb n="39     JULIAN."/>
 holy grief. No, it was a monstrous wrong, a willful disturbance of civilized laws, a sundering of sympathies, a wandering away from approved of, comfortable beliefs, to follow visionary will-o'-the-wisps; it was a disruption of peace; it meant persecution, dishonor, banishment, poverty, despair.</p>
 <p>Such were the thoughts that surged through Julian's mind for some time after the conversation in the pavilion. Whichever way he viewed Oreana's infatuation, and its possible results, he could only see misery. What should he do to save her?</p>
 <p>Neither ridicule nor stern opposition would avail. These weapons had been used when Oreana first spoke of the new doctrines, and the consequence was the desperate resolve to leave all for Zion. If he or her father had listened then, sympathetically, their wider knowledge of the world, their more sceptical minds, might have exposed the errors and thus prevented the delusion from gaining ground. Perhaps it was not too late now. The thought gave him hope.</p>
@@ -386,8 +492,7 @@ which he kept restlessly pushing back his hair, as if the touch fevered him.</p>
 <p>But the affectionate animals seemed to disbelieve him; they followed the carriage, whining piteously, until Julian forced them back.</p>
 <p>The heir of the manor passed out from his home; the gates closed behind him; yet no warning voice cried beware; no evil omen crossed his path to bid him return; no dread foreboding revealed to him aught of his fate. Even his previous gloom began to disappear in the excitement of departure, and in his firm conviction that he could easily disabuse Oreana of her delusion.</p>
 <p>At the station, Julian met Mr. Lascelle. This gentleman was in a joyous state, for his wife's prayer to be forgiven, he had interpreted as a promise that she
-<pb n="JULIAN.     41"/>
-
+<pb n="41     JULIAN."/>
 had renounced Mormonism forevermore; and her reluctance to leave him, seemed a revival of the old love. Thus reassured, Mr. Lascelle gave himself up to the enjoyment of his success. Julian felt the cheerful influence, and for a while Zion and the Saints were forgotten.</p>
 <p>"By the way, Julian, my little wife is going to London to take care of Oreana."</p>
 <p>The news startled Julian. It brought back to him back to the unpleasantness of the afternoon.</p>
@@ -407,8 +512,7 @@ great deal of good. She has been fretting herself nervous of late about that Mor
 <p>"I think you are in error there, Lascelle. Would it not be wiser to enter into your wife's thoughts and fancies, in order to guide her understandingly? Women are led by their sympathies. Lovers act upon this law, but after marriage it seems to be ignored."</p>
 <p>"Well, perhaps, there is something in that; but I have no patience with such whims."</p>
 <p>"You could acquire patience."</p>
-<pb n="A SURPRISE.     43"/>
-
+<pb n="43     A SURPRISE."/>
 <p>"What a model husband you will be, Julian!" remarked Lascelle, laughing.</p>
 <p>"A truce to jesting, Edward. To be candid with you, I feel anxious to learn all about this creed that attracts such women as your wife and Oreana. Now, suppose while we are away we go to their meetings, eh!--what say you? We need not mention it, you know; but when the subject is referred to again in our homes, we shall know how to answer."</p>
 <p>"All right! It will be great fun. I shall have very little time, but I will go with you once or so. I tell you though, beforehand, that it is all nonsense."</p>
@@ -428,8 +532,7 @@ It suited the period which gave it birth. It coincided with its predominating id
 <p>Besides its array of so-called miracles, prophesies, and its aureole of persecution, there was an absolute positiveness about the dogmas and denunciations of the new creed that subjugated--the timid and wavering, while its promises attracted the ambitious and discontented.</p>
 <p>Men like Mr. Delville, who wished to enrich themselves in the service of the Lord, had an eye to apostleships, to goodly herds and lands in the kingdom, insured against the fires of the Last Day. A religion that combined earthly treasures with eternal bliss; a religion whose honors were not all taken by an exclusive nobility--that was the religion for them.</p>
 <p>To the pariahs of society, excluded from all pleasure,--those whom the Church overlooks, society oppresses, and the happy forget,--Mormonism promised beautiful homes in a land overflowing with milk and honey, thrones of honor among the chosen ones of
-<pb n="A SURPRISE.     45"/>
-
+<pb n="45     A SURPRISE."/>
 God; from <hi rend="italic">which elevated position</hi> they should see their oppressors swept from the face of the earth. Already they, the poor and the lowly, rejoiced in the title of "Saint," while the rich and powerful were Gentiles, accursed. Ah! what a sweet revenge!
 <p>But polygamy! How could civilized men and women accept such degradation?</p>
 <p>Polygamy was kept in the background as much as possible. The teachers knew well how to give milk to babes, how to prepare their infant stomachs for stronger food.</p>
@@ -450,8 +553,7 @@ its working. Their imagination could not realize a system so foreign to their ac
 <p>"That man believes what he preaches, anyway."</p>
 <p>"He does certainly; and if that is Mormonism, it is not so bad."</p>
 <p>"Pshaw, Julian! That is not Mormonism; that is religion, ethics poetized by the supernatural. All sects are based upon religion, but none of them remain content with the simple structure; they must, forsooth, build a fine temple unlike any other that has ever been. So they call to their aid ambition, prejudice, ignorance, with a host of other evils inherent in human nature, and they rear a meretricious, ugly, shaky affair that they term a church, which effectually hides religion."</p>
-<pb n="A SURPRISE.     47"/>
-
+<pb n="47     A SURPRISE."/>
 <p>"Lascelle, you are too skeptical."</p>
 <p>"Not at all; it is only the truth. There is just that difference between religions and creeds. I do respect the former, but the latter I despise. They do very well to amuse women and children, but some are not even fit for that. Take this one, for instance, with its New Jerusalem and polygamy. Now that man whom we have just heard still clings to religion; he has never yet looked at the creed. I'll wager he has never been to the Mormon city, and knows very little of this prophet Joe Smith, or Brigham Young. Let us go and find out."</p>
 <p>Julian readily assented. The preacher received them pleasantly, but with a quiet dignity that seemed natural to him.</p>
@@ -473,15 +575,13 @@ its working. Their imagination could not realize a system so foreign to their ac
 <p>"Very little. I heard him once. Ah! he is a great patriarch."</p>
 <p>"No doubt," answered Lascelle, with a shade of irony in his tone. "Now, have you seen the actual workings of polygamy?"</p>
 <p>"I am obliged to answer, no."</p>
-<pb n=" A SURPRISE.     49/>
-
+<pb n="49     A SURPRISE."/>
 <p>"Just as I thought," continued Lascelle. "You know nothing of polygamy, of Zion, nor of Zion's ruler, and when you do become acquainted with them,--you will, mark my words,--you will abjure Mormonism. Do not be offended; you interest me very much, and I mean no harm, but you will renounce this creed."</p>
 <p>There was a general laugh at this, and Julian said, jestingly, "Why, Edward, you are usurping the priviledges of the Saints; have you this gift?" he added, turning to the preacher.</p>
 <p>"The gift of prophecy is a glorious gift, and God bestoweth it upon whomsoever He pleases-often upon the most unworthy, the most lowly-to show forth the greatness of His power. Thus, sometimes, the Holy Spirit, has empowered me to see dimly into the future-and thus it is that, now, I see you in Zion; and beware! there is deception, there is danger, before you. I see but dimly, very little is the veil lifted-perhaps I should say I feel, rather than that I see." The preacher stopped as if bewildered.</p>
 <p>"This is becoming interesting," said Lascelle, laughing. "Can't you tell me something? I prophesied for you."</p>
 <p>"My friend," replied the preacher, "you laugh now, but presently, you will weep. Philosophy may do for prosperity; but in adversity, we want faith, faith and trust in God our Father. If we do not cling fast to the rock of faith we are but toys of our passions. Remember this, my friend, when the dark cloud bursts over your head. Something tells me we
-<pb n=" 50     A SURPRISE. />
-
+<pb n="50     A SURPRISE."/>
 shall meet in the distant future, and that I shall be of use to you and yours. What is your name?"</p>
 <p>"Lascelle--Edward Lascelle"--</p>
 <p>"And mine is Menly. God guard you, my friends--"</p>
@@ -494,7 +594,7 @@ shall meet in the distant future, and that I shall be of use to you and yours. W
 <p>Julian did not go again to the meeting-house, but he remembered the departure of the Mormon vessel. On the morning it was to sail he rose with the intention of spending the morning on board the "Eagle," but an unexpected meeting with a friend detained him and it was nearly noon when he reached the vessel.</p>
 <p>As he curiously scanned the crowd of emigrant pilgrims, his attention was arrested by the figure of a woman whose stately grace made him think of Oreana.</p>
 <p>"What a magnificent creature for such a fate," thought he. He lost all interest in the other pilgrims; he could only see that one. Her dress was neat, yet
-<pb n="A SURPRISE.     51"/>
+<pb n="51     A SURPRISE."/>
 
 very coarse, and without the slightest attempt at ornament; a short serge dress, a dark shawl, and a huge sun-bonnet which completely concealed her head and features. She stood apart from the rest, erect, motionless, heedless of the confusion around her, all absorbed in her thoughts. Julian felt fascinated; never had the sight of a stranger impressed him so deeply. He must see her face. He threaded his way through the crowd, to the spot where she stood looking away off in to the west. A strange fear crept over him. He dared not speak. If he could but see her face--if she would only look at him. His wish was granted. The sea-breeze came sweeping by,--the bonnet fell back,--then the woman turned towards Julian. It was Oreana.</p>
 
@@ -506,7 +606,6 @@ very coarse, and without the slightest attempt at ornament; a short serge dress,
 <p>"The young lady was on the eve of marriage with Mr. Julian Bellew, of the manor of S--; but she became so infatuated with the Mormon delusion, that she forsook parents, home and lover, for Zion, as the Mormons call their city, situated somewhere in the wilds of America.</p>
 <p>"The young lady's family had not the faintest idea
 <pb n="52     A SURPRISE."/>
-
 of her mad determination; however, it happened that her lover, who had gone to Liverpool on business, strolled down to the quay, and, prompted by curiosity, visited the 'Eagle.' There he found Miss Brentford. A touching scene ensued. The lover entreated his affianced wife to return to her family. The lady (who is of age), remained deaf to his prayers; though very much moved, she clung to her resolve to go to Zion.</p>
 <p>"Finding that his entreaties were without avail, Mr. Bellew declared he would save his betrothed, he would bring her back to her family, or die in the attempt.</p>
 <p>"The vessel was to sail in an hour, but to love there is nothing impossible. Mr. Bellew made all his arrangements for a trip to the deserts of the western hemisphere, and was by the side of his promised bride when the vessel sailed.</p>
@@ -519,7 +618,7 @@ of her mad determination; however, it happened that her lover, who had gone to L
 
 <p>What pathos, what despair do not these items express!</p>
 <p>At Bellew Manor and Brentford Farm joy and
-<pb n="TO THE FAR WEST.     53"/>
+<pb n="53    TO THE FAR WEST."/>
 
 laughter are changed to mourning and the wailing of broken hearts.</p>
 <p>But there is a home yet more desolate, a dishonored, deserted hearth, where Edward Lascelle, forsaken, alone struggles with the madness of despair.</p>
@@ -547,7 +646,7 @@ Thus sang the pilgrims as they made the last preparations for their unparallelle
 mind. The earnest faith of these people, who had forsaken all for Zion, touched him. Gradually his disgust gave way to pity, then to admiration.</p>
 <p>He listened more attentively to Oreana, when she offered to expound to him the new gospel. From her lips, its tenets appeared beautiful; for she clothed them with the poetry and exalted purity of her soul. Julian was impressed.   Heretofore, attendance at church upon Sundays, and upholding the ministry constituted his ideas of religion. Now he was forced to consider it daily, hourly. There was nothing repulsive in their principles; on the contrary their eager desire to restore the simplicity of the days when "God spoke with His people," seemed most laudable. Julian had been taught to revere the past, to believe in the golden age, in the moral and spiritual retrogression of mankind; therefore, he could not conscientiously condemn doctrines that resuscitated these good old days. Common sense confuted them, but common sense arguments seemed very weak when brought to bear against the multitude of Biblical texts the Saints produced to prove their doctrines.  Julian was not sufficiently conversant with the Scriptures to fight them with their own weapons'; it was the natural versus the supernatural, and Julian grew awed. If they were right,--perhaps they were,--the thoughtless young man grew thoughtful. Oreana saw this change, and continued with greater force her exhortations and prayers.</p>
 <p>Some things there were that appeared to Julian very antagonistic to right-mindedness,--such as Mrs. Lascelle leaving her husband, and some suspicious proceedings on the part of Elder Silvertung, that
-<pb n="TO THE FAR WEST.     55"/>
+<pb n="55     TO THE FAR WEST."/>
  
 
 savored more of hypocrisy and libertinage than of patriarchal simplicity; but Oreana declared it would all be made clear and right, as soon as he received the fullness of the gospel.</p>
@@ -846,7 +945,6 @@ Such was the condition of the people that thronged one of the meeting-houses in 
 <p>This address destroyed all mental equilibrium; it determined the crisis. Men and women accused themselves and each otherof sins, real and imaginary. Faster, faster, accusation followed accusation; louder grew the cries. The meeting-house      became a Babel with the sobs, groans, prayers, for baptism. The people were crazed; the craze extended far and wide. Every stream was thronged with men and women, imploring baptism. And as the madness grew, the chief looked on and smiled.</p>
 <p>"It is well," he murmured. "Now for the extermination of the enemies of Israel!"</p>
 
-4*
 <pb n="82     OLD ACQUAINTANCES."/>
 
 CHAPTER XVII.
@@ -4095,3 +4193,6 @@ CONCLUSION
 
 
 <hi rend="center">THE END.</hi>
+</body>
+</text>
+</TEI.2>
