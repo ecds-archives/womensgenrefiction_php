@@ -1,47 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
 <TEI.2>
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>THE HEAVENLY TWINS</title>
-				<author/>
-			</titleStmt>
-			<publicationStmt>
-				<pubPlace/>
-				<publisher/>
-				<publisher/>
-				<date/>
-			</publicationStmt>
-			<sourceDesc>
-				<p/>
-			</sourceDesc>
-		</fileDesc>
-		<profileDesc/>
-	</teiHeader>
-	<text>
-		<front>
-			<titlePage>
-				<docTitle>
-					<titlePart>THE HEAVENLY TWINS</titlePart>
-				</docTitle>
-				<byline/>
-				<byline/>
-				<docImprint>
-					<name/>
-					<name/>
-					<name/>
-					<date/>
-				</docImprint>
-			</titlePage>
-		</front>
-		<body>
-			<head/>
-			<!--missing pages 1,2-->
-			<pb n="3"/>
-			<div>
-				<head>CHAPTER I</head>
-				<p>AT nineteen Evadne looked out of narrow eyes at an untried world inquiringly. She wanted to know. She found herself forced to put prejudice aside in order to see beneath it, deep down into the sacred heart of things, where the truth is, and the bewildering clash of human precept with human practice ceases to vex. And this not of design, but of necessity. It was a need of her nature to know. When she came across something she did not understand, a word, a phrase, or an allusion to a phase of life, the thing became a haunting demon only to be exorcised by positive knowledge on the subject. Ages of education, ages of hereditary preparation had probably gone to the making of such a mind, and rendered its action inevitable. For generations, knowledge is acquired, or rather instilled by force in families, but, once in a way, there comes a child who demands instruction as a right; and in her own family Evadne appears to have been that child. Not that she often asked for information. Her faculty was sufficient to enable her to acquire it without troubling herself or anybody else, a word being enough on some subjects to make whole regions of thought intelligible to her. It was as if she only required to be reminded of things she had learnt before. Her mother said she was her most satisfactory <pb n="4"/>child. She had been easy of education in the schoolroom. She had listened to instruction with interest and intelligence, and had apparently accepted every article of faith in God and man which had been offered for her guidance through life, with unquestioning confidence, at least she had never been heard to object to any time-honoured axiom. And she did in fact accept them all, but only provisionally. She wanted to know. Silent, sociable, sober, and sincere, she had walked over the course of her early education and gone on far beyond it with such ease, that those in authority over her never suspected the extent to which she had outstripped them.</p>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>The Heavenly Twins, Volume I, an electronic edition</title>
+<author n="Grand, Sarah">Sarah Grand</author>
+</titleStmt>
+<extent>570kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2004</date>
+<availability>
+<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA  30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email:  beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Grand, Sarah</author>. <title>The Heavenly Twins, In
+Three Volumes, Volume I</title>. <pubPlace>London</pubPlace>:
+<publisher>William Heinemann</publisher>, <date>1893</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded.  Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p></samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+     <bibl>
+       <title>Library of Congress Subject Headings</title>
+     </bibl>
+  </taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">unedited</rs>
+<rs type="genre">novel</rs>
+<rs type="geography">Great Britain</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>English literature--19th Century--Fiction.</item>
+<item>Women authors, British--19th Century.</item>
+<item></item>
+<item></item>
+<item></item>
+<item></item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2003-December-10</date>
+<respStmt><name>Erika Farr,</name>
+<resp>project manager.</resp>
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<pb entity="" n="[i]" pages="Title Page"/>
+<titlePage>
+<docTitle>
+<titlePart type="main">THE HEAVENLY TWINS</titlePart>
+</docTitle>
+<byline>By <lb/><docAuthor>SARAH GRAND</docAuthor> <lb/><hi rend="italic>Author or</hi>
+ "Ideala, <hi rend="italic">etc., etc.</hi></byline>
+<titlePart type="desc">IN THREE VOLUMES <lb/>VOL. I.</titlePart>
+<epigraph>
+<q>
+<l>"They call us the Heavenly Twins.'</l>
+<l>"What, signs of the Zodiac?" said the Tenor.</l>
+<l>"No; signs of the times," said the Boy.</l>
+</q>
+</epigraph>
+<docImprint>
+<pubPlace>London</pubPlace>
+<publisher>William Heinemann</publisher>
+<docDate>1893</docDate>
+<imprimatur>[<hi rend="italic">All rights reserved</hi>]</imprimatur>
+</docImprint>
+</titlePage>
+</front>
+<pb n="3"/>
+<div>
+<head>CHAPTER I</head>
+<p>AT nineteen Evadne looked out of narrow eyes at an untried world inquiringly. She wanted to know. She found herself forced to put prejudice aside in order to see beneath it, deep down into the sacred heart of things, where the truth is, and the bewildering clash of human precept with human practice ceases to vex. And this not of design, but of necessity. It was a need of her nature to know. When she came across something she did not understand, a word, a phrase, or an allusion to a phase of life, the thing became a haunting demon only to be exorcised by positive knowledge on the subject. Ages of education, ages of hereditary preparation had probably gone to the making of such a mind, and rendered its action inevitable. For generations, knowledge is acquired, or rather instilled by force in families, but, once in a way, there comes a child who demands instruction as a right; and in her own family Evadne appears to have been that child. Not that she often asked for information. Her faculty was sufficient to enable her to acquire it without troubling herself or anybody else, a word being enough on some subjects to make whole regions of thought intelligible to her. It was as if she only required to be reminded of things she had learnt before. Her mother said she was her most satisfactory <pb n="4"/>child. She had been easy of education in the schoolroom. She had listened to instruction with interest and intelligence, and had apparently accepted every article of faith in God and man which had been offered for her guidance through life, with unquestioning confidence, at least she had never been heard to object to any time-honoured axiom. And she did in fact accept them all, but only provisionally. She wanted to know. Silent, sociable, sober, and sincere, she had walked over the course of her early education and gone on far beyond it with such ease, that those in authority over her never suspected the extent to which she had outstripped them.</p>
 				<p>It was her father who struck the key-note to which the tune of her early intellectual life was set. She was about twelve years old at the time, and they were sitting out on the lawn at Fraylingay one day after dinner, as was their wont in the summer; he, on this occasion, under the influence of a good cigar, mellow in mind and moral in sentiment, but inclining to be didactic for the moment because the coffee was late; she in a receptive mood, ready to gather silently, and store with care, in her capacious memory any precept that might fall from his lips, to be taken out and tried as opportunity offered.</p>
 				<p>"Where is your mother?" he asked.</p>
 				<p>"I dont know, father," Evadne answered. "I think she is in the drawing-room."</p>
