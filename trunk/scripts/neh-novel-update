@@ -1,0 +1,317 @@
+#!/usr/bin/perl
+
+$bin_name = "neh-novel-update";
+
+## a script to check Indiana's website for OCRed documents
+##   - Downloads new documents, and turns zip file of single-page text
+##     files into one text file with numbered <pb> tags
+##
+## Rebecca Sutton Koeser, March 2003
+
+use LWP::UserAgent;
+
+$allfiles = 0;
+$file_next = 0;
+$single_file = 0;
+
+## command line options
+foreach $arg (@ARGV) {
+  if ($arg =~ "-all") {
+    # download all of the files
+    $allfiles = 1;
+  } elsif ($arg =~ "-f") {
+    $file_next = 1;
+  } elsif ($file_next) {
+    $single_file = $arg;   # assumes file is in zipdir... (FIXME?)
+  }
+  # should perhaps add an option to process a single zipfile?
+}
+
+
+# load general configuration variables
+require("nnu-config");
+# load variables set from last run of script
+require("$lastrun_file");
+
+if ($single_file) {
+  $error = process_file($single_file);
+  if ($error) {
+    # FIXME: better error-condition handling
+    print "processing failed\n";
+    print $error;
+  }
+  exit(0);
+}
+
+
+# get current date
+chop($today = `date +"%b %d %Y"`);
+
+
+# Create a user agent object
+$ua = LWP::UserAgent->new;
+$ua->agent("NEH-novel-update perlbot/0.1 ");   # Create a request
+my $req = HTTP::Request->new(GET => "$base_url");
+
+# Pass request to the user agent and get a response back
+my $res = $ua->request($req);   # Check the outcome of the response
+if ($res->is_success) {
+  # split document into lines
+   @doc = split(/^/, $res->content);
+#   print "$#doc lines in content\n";
+} else {
+  print "Couldn't open url $base_url\n";
+}
+
+$email_msg = '';
+$num_downloaded = 0;
+$num_processed = 0;
+$num_files = 0;
+@dload_errors = ();
+@process_errors = ();
+
+## how to check if it has already done them?
+foreach $line (@doc) {
+  ## FIXME: need to do something with the other stuff 
+  ## (bare minimum, store it somewhere to send an email...)
+  if ($line =~ /<h4>(.*)</ ) { 	 ## date of following added texts
+    $date = ($1);
+    $date =~ s/,//g;	# strip out comma
+    # check if this is more recent than last-run date
+    $new = newer($date, $last_run);
+    if ($new || $allfiles) {
+      $email_msg .=  "\nNew files posted on $date:\n";
+    }
+  } elsif ($line =~ /<a href="(.*zip)">/ ) {
+    $zipfile = $1;      # link to zipfile
+    if ($allfiles || $new || grep(/$zipfile/, @error_files)) {
+      $num_files++;
+      # if this is new or file is in error list
+      $line =~ s/<a href=".*">/\[/g; # take care of href tag (open)
+      $line =~ s/<\/a>/\]/g;	     # (close)	
+      $line =~ s/<[a-zA-Z\/]+>//g;   # get rid of html tags for email message
+      $email_msg .= " * $line";	# add line to email message
+      # download the file to zip directory
+      if (download_file($base_url, $zipfile)) {
+	# if download succeeds, add to list of files to be processed
+	push(@process_list, $zipfile);
+	$num_downloaded++;
+      } else {
+	# if download fails, add file to failure list
+	push(@dload_errors, $zipfile);
+      }
+    }
+  }
+}  # end processing lines in html document
+
+
+# now process the zip files & generate single text files for each
+foreach $f (@process_list) {
+  $err = process_file($f);
+  if ($err) {
+    # FIXME: better error-condition handling
+    print "processing failed\n";
+    push(@process_errors, $f);
+    print $err;
+    # add file to error list?
+  } else {
+    $num_processed++;
+  }
+}
+
+
+
+# output last-run file
+#open(LASTRUN, ">$lastrun_file");
+open(LASTRUN, ">$lastrun_file");
+print LASTRUN "## automatically generated data for $bin_name script\n\n";
+print LASTRUN "\$last_run = \"$today\";\n";
+print LASTRUN "\@error_files = (";
+foreach $f (@new_error_files) {
+  print LASTRUN "\"$f\" ";
+}
+print LASTRUN ");\n\n";
+print LASTRUN "return 1;\n#EOF";
+close(LASTRUN);
+
+
+open(MAIL, "|mail -s \"NEH novel update\" $email");
+
+print MAIL "\nNEH novel update Summary:
+    Found $num_files new file(s) +
+    Files successfully downloaded: $num_downloaded (of $num_files)
+    Files successfully processed:  $num_processed (of $num_downloaded)\n";
+if (@dload_errors) {
+  print MAIL "There were errors downloading the following files:\n";
+  foreach $f (@dload_errors) {
+    print MAIL "    $f\n";
+  }
+}
+if (@process_errors) {
+  print MAIL "There were errors processing the following files:\n";
+  foreach $f (@process_errors) {
+    print MAIL "    $f\n";
+  }
+}
+
+print MAIL "\n+ Note: \"new\" files may include downloads that previously failed\n";
+
+
+print MAIL "\n\nDetails:\n$email_msg";
+print MAIL "\n\n\nDownloaded zip files are stored in $zipdir.\n";
+print MAIL "Generated text files are stored in $txtdir.\n";
+close(MAIL);
+
+
+
+
+# subroutines
+
+## subroutine to sort the files by page
+##   (some sets have page numbers not 3-digit format)
+sub bypage {
+  my($a_num, $b_num) = (0, 0);
+  if ($a =~ /([a-zA-Z]*)(\d+)\.txt/) {
+    $a_string = $1;
+    $a_page = $2;  		  # grab page number from 1st file name
+    $a_num = 1;
+  }
+  if ($b =~ /([a-zA-Z]*)(\d+)\.txt/) {
+    $b_string = $1;
+    $b_page = $2;  		  # grab page number from 2nd file name
+    $b_num = 1;
+  }
+
+  if ($a_num && $b_num) {
+    if ($a_string ne $b_string) {
+      return $a_string cmp $b_string;
+    }
+    return $a_page <=> $b_page;
+  } elsif ($a_num) {	# a is a number, b is not
+    return 1;   ## a greater than b (string should go first)
+  } elsif ($b_num) {	# b is a number, a is not
+    return -1;  ## a less than b
+  } else {	# if neither are numbers, do a string compare (arbitrary)
+    return $a cmp $b;	
+  }
+
+}
+
+# return true if first date is newer than second
+# args: two date strings, in format:  Mon Date Year
+sub newer {
+  my($a, $b) = @_;
+  %month_num = ("Jan", 1,
+		"Feb", 2,
+		"Mar", 3,
+		"Apr", 4,
+		"May", 5,
+		"Jun", 6,
+		"Jul", 7,
+		"Aug", 8,
+		"Sep", 9,
+		"Oct", 10,
+		"Nov", 11,
+		"Dec", 12);
+
+  my($amonth, $aday, $ayear) = split(/ /, $a);
+  my($bmonth, $bday, $byear) = split(/ /, $b);
+  # compare years
+  if ($ayear > $byear) {
+    return 1;
+  }
+  # compare months; leave only same month to day comparison
+  if ($month_num{"$amonth"} > $month_num{"$bmonth"}) {
+    return 1;
+  } elsif ($month_num{"$amonth"} < $month_num{"$bmonth"}) {
+    return 0;
+  }
+  # if we are in the same month, decide by date
+  if ($aday >= $bday) {     # assume new if same day
+    return 1;		    # FIXME: is this a good asumption?
+  } else {
+    return 0;
+  }
+}
+
+
+# download zipfile from the web
+# args are base url, filename; automatically outputs to $zipdir
+sub download_file {
+  my($url, $file) = @_;
+
+  $req = HTTP::Request->new(GET => "$url/$file");
+  $res = $ua->request($req);
+  if ($res->is_success) {
+  open(OUT, ">$zipdir/$file");  # store all files in NEH zipdir
+  print OUT $res->content;
+  close(OUT);
+  return 1;
+  } else {
+    # failed to download
+    return 0;
+  }
+}
+
+# create a directory, unzip the file, generate one text file with <pb>s
+sub process_file {
+  my($file) = @_;
+  my($errstring) = '';
+
+  $name = $file;
+  $name =~ s|(.*)\.zip|$1|;  # get the part of the name before .zip
+  $tmpdir = "/tmp/$name";
+
+  # save current directory
+  chomp($cwd = `pwd`);
+
+  mkdir ("$tmpdir") ||
+    ($errstring .= "Error! Couldn't create $tmpdir: $!\n");
+  chdir ("$tmpdir") ||
+    ($errstring .= "Error! Couldn't change directory to $tmpdir.");
+
+  #unzip the files into the newly created directory
+  system("/usr/bin/unzip $zipdir/$file");
+  # FIXME: should check for error here...
+
+  # get the list of one-page text files
+  opendir(DIR, "$tmpdir");
+  # get all the files (except . and ..), and sort them
+  @files = sort bypage( grep { !/^\./ } readdir(DIR));
+#TESTING
+print "testing sort bypage...\n";
+  for($i=0; $i<$#files; $i++) {
+    print "$files[$i]\n";
+  }
+  closedir(DIR);
+
+  # output file into globally defined $txtdir
+  open(OUT, ">$txtdir/$name.txt") ||
+    ($errstring .= "Error! Could not open output file $name.txt: $!\n");
+
+  # copy all of the files into the new document, inserting <pb> tags
+  foreach $f (@files) {
+    if ($f =~ /[a-zA-Z]*(\d+)\.txt/) {
+      $num = $1;  		  # grab page number from file name
+      $num =~ s/^0*(\d+)/$1/;     # strip off leading zeroes
+      print OUT "<pb n=\"$num\"/>\n";
+    } else {
+      print OUT "<pb>\n<!-- could not determine page number -->\n";
+    }
+
+    open(IN, "$tmpdir/$f") ||
+      ($errstring .= "Error!  Could not open file $f: $!\n");
+    while(<IN>) { print OUT $_; }  # copy entire file
+    close(IN);
+  }
+  close(OUT);
+
+  # clean up -- remove 1-page files & temp directory
+  system("rm -f $tmpdir/*");
+  chdir($cwd);
+  rmdir($tmpdir) || 
+    ($errstring .= "Error!  Failed to remove temp dir $tmpdir: $!\n");
+
+  return $errstring;
+}
+
