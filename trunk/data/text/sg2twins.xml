@@ -1,3 +1,4 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./neh-tei.dtd">
 <TEI.2>
 <teiHeader>
 <fileDesc>
@@ -5,20 +6,20 @@
 <title>The Heavenly Twins, Volume II, an electronic edition</title>
 <author n="Grand, Sarah">Sarah Grand</author>
 </titleStmt>
-<extent>550kb</extent>
+<extent>520kb</extent>
 <publicationStmt>
 <publisher>Emory University, Lewis H. Beck Center</publisher>
 <pubPlace>Atlanta, Georgia</pubPlace>
-<date>2004</date>
+<date>2005</date>
 <availability>
-<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
 <address>
 <addrLine>Lewis H. Beck Center</addrLine>
 <addrLine>Emory University</addrLine>
 <addrLine>Robert W. Woodruff Library</addrLine>
 <addrLine>Atlanta, GA  30322-0053</addrLine>
 <addrLine>United States of America</addrLine>
-<addrLine>Email:  beckctr@emory.edu</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
 </address>
 </p></availability></publicationStmt>
 <seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
@@ -33,7 +34,11 @@ Three Volumes, Volume II</title>. <pubPlace>London</pubPlace>:
 </fileDesc>
 <encodingDesc>
 <projectDesc>
-<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the
+Women's Genre Fiction Project. Project participants intend for this
+encoded text, as well as all texts produced by this project, to be
+made available on the web for educational, scholarly and pedagogical
+purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
 <samplingDecl>
 <p>The title page, selected front matter, and body text of novels and
 stories have been transcribed and encoded.  Paratextual elements such
@@ -42,16 +47,16 @@ provided as digital images only, with some exceptions.</p></samplingDecl>
 <editorialDecl>
 <p>Processing this electronic text file began by creating TIFF images
 of each page using either a flatbed scanner or a PowerPhase FX digital
-camera.  Text pages were captured in grayscale at 400dpi while
-illustrations and covers were captured in color at 300dpi.  These
+camera. Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi. These
 digital images were converted to an electronic text file by Optical
-Character Recognition (OCR) software.  The text files produced by the
+Character Recognition (OCR) software. The text files produced by the
 OCR software have been proofread against the original novel or TIFF
-images of the original novel.  This proofread text file has then been
+images of the original novel. This proofread text file has then been
 encoded using the recommendations for Level 3 of the TEI in Libraries
-Guidelines.  For the details of Level 3 encoding, please see the
+Guidelines. For the details of Level 3 encoding, please see the
 webpage for TEI Guidelines for Best Encoding practices at
-http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em
 dashes with two dashes.  Page numbers displayed in brackets have been
 added by the encoder and do not appear in the original text.</p></editorialDecl>
 <classDecl>
@@ -75,25 +80,29 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <list>
 <item>English literature--19th Century--Fiction.</item>
 <item>Women authors, British--19th Century.</item>
-<item></item>
-<item></item>
-<item></item>
-<item></item>
+<item>Syphilis.</item>
+<item>Infidelity, marital.</item>
+<item>Marital Seperation.</item>
 </list>
 </keywords>
 </textClass>
 </profileDesc>
 <revisionDesc>
 <change>
-<date>2003-December-10</date>
+<date>08-Feb-2005</date>
 <respStmt><name>Erika Farr,</name>
 <resp>project manager.</resp>
-<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
 </change>
 </revisionDesc>
 </teiHeader>
 <text>
 <front>
+<div id="sg2twins000" type="half-title page">
+<figure entity="" rend="inline">
+<figDesc></figDesc>
+</figure>
+</div>
 <pb entity="" pages="Title Page"/>
 <titlePage>
 <docTitle>
@@ -118,8 +127,38 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </titlePage>
 </front>
 <pb n="3"/>
-<div>
-<head>THE HEAVENLY TWINS<lb/>CHAPTER I</head>
+<div id="sg2twins001" type="book" n="3">
+<head>BOOK III.
+<lb/>DEVELOPMENT AND ARREST OF DEVELOPMENT.</head>
+<epigraph>
+<cit>
+<quote>
+<speaker><hi rend="italic">Fury</hi>:</speaker>
+<l>Blood thou canst see, and fire; and canst hear groans; --</l>
+<l>Worse things, unheard, unseen, remain behind.</l>
+<speaker><hi rend="italic">Prometheus</hi>:</speaker>
+<l>Worse?</l>
+<speaker><hi rend="italic">Fury</hi>:</speaker>
+<l>In each human heart terror survives</l>
+<l>The ravin it has gorged. The loftiest fear</l>
+<l>All that they would disdain to think were true:</l>
+<l>Hypocrisy and Custom make their minds</l>
+<l>The fanes of many a worship now outworn.</l>
+<l>They dare not devise good for man's estate,</l>
+<l>And yet they know not what they do not dare.</l>
+<l>The good want power but to weep barren tears:</l>
+<l>The powerful goodness want,--worse need for them:</l>
+<l>The wise want love: and those who love want wisdom:</l>
+<l>And all best things are thus confused to ill.</l>
+<l>Many are strong and rich and would be just,</l>
+<l>But live among their suffering fellow men</l>
+<l>As if none felt: they know not what they do.</l>
+</quote>
+<bibl>--<hi rend="italic">Prometheus Unbound</hi>.</bibl>
+</cit>
+</epigraph>
+<div id="sg2twins002" type="chapter" n="1">
+<head>THE <lb/>HEAVENLY TWINS.<lb/>CHAPTER I.</head>
 <p>EDITH was married in the Cathedral at Morningquest, and of course the twins were present at the wedding. From what social gathering were they ever excluded if they chose to be present? Mrs. Beale had not thought of asking them at all, but Angelica intimated, in her royal way, that she wished to be a bridesmaid, and Diavolo must be a page, and Lady Adeline begged Mrs. Beale for heaven's sake to arrange it so, lest worse should come of it.</p>
 <p>But the twins did not enjoy the occasion at all, for the truth was that they were not as they had been. Angelica was rapidly outstripping Diavolo, as was inevitable at that age. He was still a boy, but she was verging on womanhood, and already had thoughts which did not appeal to him, and moods which he could not comprehend, the consequence being continual quarrels between them,&#x2014;those quarrels in which people are hottest and bitterest, not because of their hate, but because of their love for each other. There is such agony in misunderstanding and blame when all has hitherto been comprehension, approval, and sympathy. The shadow of approaching maturity, which would separate them inevitably for the next few years, already touched Angelica perceptibly, and, although to the onlookers they seemed to treat each other as usual, both children felt that there was something wrong, and their discomfort was all the greater because neither of them could account for the change. Angelica had been for some time in her most <pb n="4"/>
 hoydenish, least human stage, during which she had given up hugging Diavolo, and taken to butting him in the stomach instead. But she was growing beyond that now, and was in fact just on the borderland, hovering between two states, in the one of which she was a child, all nonsense and mischievous tricks; and in the other a girl with tender impulses and yearning senses seeking some satisfaction.</p>
@@ -157,7 +196,7 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <pb n="7"/>
 <p>Lord Dawne looked grave: "What will become of that child, Angelica?" he said.</p>
 <p>"Oh, you needn't be anxious about her," Dr. Galbraith replied, looking full at him with sympathy and affection in his kind grey eyes. "She has no vice in her whatever, and not a trace of hysteria. Her talk is mere exuberance of intellect."</p>
-<p>"I don't know," her uncle answered. "<hi rend="italic">Qui peut tout dire arrive &#x00E0;, tout faire</hi>, you know."</p>
+<p>"I don't know," her uncle answered. "<hi rend="italic">Qui peut tout dire arrive &#x00E0; tout faire</hi>, you know."</p>
 <p>"I find that falsified continually in my profession," Dr. Galbraith rejoined. "It depends entirely as a rule upon how the thing is said, and why. If it be a matter of inclination only controlled by fear of the law or public opinion which is expressed, the aphorism would hold, probably; but lauguage which is the outcome of moods or phases that are transient makes no permanent mark upon the character."</p>
 <p>Lord Dawne took Dr. Galbraith to the drawing-room, where they found Lady Adeline with Mr. Hamilton-Wells and the tutor. Mr. Ellis had been a great comfort to Lady Adeline ever since he came to the house. She felt, she said, that she should always owe him a deep debt of gratitude for his patient care of her terrible children.</p>
 <p>"You are just in time for tea, George," she said to Dr. Galbraith. "Dawne, you had better wait here for the children. They won't be late this afternoon, I am sure, because Mr. Kilroy of Ilverthorpe is here, and Angelica likes him to talk to."</p>
@@ -233,8 +272,8 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>And then they scampered out together into the hall, and kicked each other in the exuberance of their spirits, but without ill-will.</p>
 </div>
 <pb n="14"/>
-<div>
-<head>CHAPTER II</head>
+<div id="sg2twins003" type="chapter" n="2">
+<head>CHAPTER II.</head>
 <p>As soon as the Heavenly Twins were safely settled at Morne, Mr. Hamilton-Wells played them a huge trick. He made Lady Adeline pack up and set off with him for a voyage round the world without them. When their parents were well on the way, and the news was broken to the children, the people at Morne expected storm and trouble; but the Heavenly Twins saw the joke at once, and chuckled immoderately.</p>
 <p>"I wonder how long it took him to think it out?" said Diavolo.</p>
 <p>"It must have been a brilliant impromptu," Angelica supposed&#x2014;"because, you know, our coming here was all arranged in a moment. If you remember, we came because they looked so sure that we shouldn't. I expect as soon as we had gone, it was such a relief, that papa said: 'Adeline, my dear, we must prolong this period of peace.' And he's just about hit on the only way to do so!"</p>
@@ -289,8 +328,8 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>"Aren't our ancestors like us?" Diavolo whispered to Angelica enthusiastically. But Angelica damped his ardent admiration of the <hi rend="italic">coup</hi> by refusing to believe that the diminutive duke had "done it on purpose."</p>
 </div>
 <pb n="24"/>
-<div>
-<head>CHAPTER III</head>
+<div id="sg2twins004" type="chapter" n="3">
+<head>CHAPTER III.</head>
 <p>THE next day Diavolo happened to stroll into the oriel room about tea-time, and finding his grandfather sitting there alone, looking down upon Morniugquest from his accustomed seat in the great deep window, which was open, he carefully chose a soft cushion, placed it on the low sill so that he could rest his back against it, and stretching himself out on the floor, looked up at the old gentleman sociably.</p>
 <p>"You're growing a big fellow, sir," the latter observed.</p>
 <p>"But not growing so fast as Angelica is," said Diavolo.</p>
@@ -385,8 +424,8 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>"Yes," he answered gravely; "they will both be of us eventually; only we must make no move, but wait in patience '<hi rend="italic">Until the day break, and the shadows flee away</hi>.'"</p>
 </div>
 <pb n="36"/>
-<div>
-<head>CHAPTER IV</head>
+<div id="sg2twins005" type="chapter" n="4">
+<head>CHAPTER IV.</head>
 <p>THERE was much high talk of doing good and living for others at Morne in these days, to which the twins listened attentively. It is evident from the thoughts they expressed at this time that the minds of both were in a state of fermentation, and that the more active pursuits in which they still indulged occasionally were the mere outcome of habit. When the conversation was interesting, they would sit beside Father Ricardo (whom they insisted on classing with themselves as an inferior being) and watch the speakers by the hour together, and Father Ricardo too, gauging his moral temperature, and noting every sigh of pity or shiver of disapprobation that shook his sensitive frame.</p>
 <p>"Where does it hurt you, <hi rend="italic">dear?</hi>" Diavolo asked him once. "I know you are a bad, bad man, because you say so yourself&#x2014;&#x2014;"</p>
 <p>"I never said so!" Father Ricardo exclaimed with a puzzled air.</p>
@@ -456,8 +495,8 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>"But I think we ought to begin at once," Angelica added thoughtfully. "Just give me time to consider. And come out into the grounds for a frolic. I feel smothered in here; and there's a moon!"</p>
 </div>
 <pb n="46"/>
-<div>
-<head>CHAPTER V</head>
+<div id="sg2twins006" type="chapter" n="5">
+<head>CHAPTER V.</head>
 <p>EDITH BEALE had now been married for more than a year to Sir Mosley Menteith, and the whole of their life together had been to her a painful period of gradual disillusion&#x2014;and all the more painful because she was totally unprepared even for the possibility of any troubles of the kind which had beset her. Parental opinion and prejudice, ignorance, education, and custom had combined to deceive her with regard to the transient nature of her own feeling for her lover; and it was also inevitable that she should lend herself enthusiastically to the deception; for who would not believe, if they could, that a state so ecstatic is enduring? Even people who do know better are apt to persuade themselves that an exception will be made in their favour, and this being so, it naturally follows that a girl like Edith, all faith and fondness, is foredoomed by every circumstance of her life and virtue of her nature, to make the fatal mistake. But, as Evadne told her, passion stands midway between love and hate, and is an introduction to either; and there is no doubt that, if Menteith had been the kind of repentant erring sinner she imagined him, her first wild desire would have cooled down into the lasting joy of tranquil love. Menteith, however, was not at all that kind of man, and, consequently, from the first the marriage had been a miserable example of the result of uniting the spiritual or better part of human nature with the essentially animal or most degraded side of it. In that position there was just one hope of happiness left for Edith, and that was in her children. If such a woman so situated can be happy anywhere it will be in her nursery. But Edith's child, which arrived pretty promptly, only proved to be another whip to <pb n="47"/>scourge her. Although of an unmistakable type, he was apparently healthy when he was born, but had rapidly degenerated, and Edith herself was a wreck.</p>
 <p>They had been out to Malta for a short time, but had come home, Menteith being invalided, and were now at a bracing sea-side place, trying what the air would do for them all.</p>
 <p>It was Edith's habit to send the child out with his nurse directly after breakfast, and having done so as usual one morning, she remained alone with her husband in the breakfast-room, which looked out upon the sands. She had her hands idly folded on her lap, and was watching Menteith as she might have watched a stranger about whom she was curious. He sat at some distance from her reading a paper, and there was no perceptible change in him; but sho had changed very much for the worse. Why was she not recovering her strength? Why had it pleased heaven to afflict her? That was what she was thinking, but at the same time she blamed herself for repining, and, in order to banish the thought, she rose, and, going over to her husband, laid her hand gently on his shoulder, courting a caress. He had been lavish enough of caresses at first, but all that was over now, and he finished the paragraph he was reading before he noticed Edith at all. Then he glanced at her, but his eyes were cold and critical.</p>
@@ -503,8 +542,8 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>She had not realized the fact; but latterly her husband's presence had oppressed her.</p>
 </div>
 <pb n="55"/>
-<div>
-<head>CHAPTER VI</head>
+<div id="sg2twins007" type="chapter" n="6">
+<head>CHAPTER VI.</head>
 <p>THE Beales had not seen their daughter and grandson for some months, and the appearance of both was a shock to them. They said not a word to each other at first, hut neither of them could help looking at Edith furtively from time to time on the evening of her arrival. When the Bishop came up to the drawing-room after dinner and had settled himself in his accustomed easy chair, Edith had crept to his side, and, slipping her hand through his arm, sat leaning her head against his shoulder, and staring straight before her, neither speaking nor listening except when directly addressed. Her father, between whom and herself there had always been a great deal of sympathy, was inexpressively touched by this silent appeal to his love; and letting his paper lie on his lap, he sat silent also, and serious, feeling, without in any way knowing, that all was not well.</p>
 <p>Mrs. Beale was also depressed, although she assured herself again and again that such deep devotion between father and daughter was an elevating and beautiful sight, which it was a privilege to witness; and tried 1o persuade herself that they were all extremely happy in the tranquil joy of this peaceful evening spent alone together, with the world shut out.</p>
 <p>"That child is not right," the Bishop said, when Edith had gone to bed. "Have you noticed her face? I don't like the look of it at all; not at all."</p>
@@ -582,8 +621,8 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>She had seen enough in one momentary glance, and she fled from the room. The Bishop followed her. Mrs. Beale was there when they entered, standing behind her daughter's chair, but she did not look at her husband, nor he at her. For the first time in their married life, poor souls, they were afraid to meet each other's eyes.</p>
 </div>
 <pb n="63"/>
-<div>
-<head> CHAPTER VII</head>
+<div id="sg2twins008" type="chapter" n="7">
+<head> CHAPTER VII.</head>
 <p>NEXT day, in the afternoon, Mrs. Beale being otherwise engaged, Edith proposed that she and Angelica should go for a drive together. Edith was feeling better, and Angelica had recovered her equanimity. She suggested that they should drive towards Fountain Towers. Edith had not been on that road since her marriage, and when they passed the place where she and her mother had seen the young French girl lying insensible on the pathway with her baby beside her she was reminded of the incident, and described it to Angelica, adding: "I have so often longed to know what became of her."</p>
 <p>"I can tell you," said Angelica. "I know her quite well by sight. She is living with Nurse Griffiths, in Honeysuckle Cottage, on Dr. Galbraith's estate. Nurse Griffiths told us he brought her there one day in his carriage very ill, and she has been there ever since. He always gets angry and snaps at you if he's bothered about anybody who's ill or unfortunate, and Diavolo and I met him that day coming away from the cottage, and he spoke to us so shortly we were sure there was something bad the matter, so we went to see what it was, and Nurse Griffiths said she was French. I've not been there since, but I expect it's the same girl. Shall we stop and see? We pass the end of the lane where the cottage is."</p>
 <p>Edith agreed eagerly. She said it would be a relief to her mind to know that the girl was well cared for and happy.</p>
@@ -630,15 +669,15 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>It was only the Cathedral clock striking the hour, but it sounded portentously through the solemn stillness of the night, and with quickened attention they all looked up and listened.</p>
 <p>Slowly the big bell boomed forth ten strokes. Then came a pause; and then the chime rolled through the room, a deafening volume of sound, in long reverberations, from amidst which the <pb n="68"/>constant message disentangled itself as it were, but distinctly, although to each listener with a different effect.</p>
 <p>
-<figure>
+<figure entity="" rend="inline">
 <figDesc>Be, watch-ing o- ver Is - ra - el, slumbers not, nor sleeps.</figDesc>
 </figure>
 </p>
 <p>It awoke Dr. Galbraith from a train of painful reflections; it reassured the Bishop; and it made Angelica fret for Diavolo remorsefully.</p>
 </div>
 <pb n="69"/>
-<div>
-<head>CHAPTER VIII</head>
+<div id="sg2twins009" type="chapter" n="8">
+<head>CHAPTER VIII.</head>
 <p>ANGELICA must have fallen asleep the moment she got into bed that night, and just as instantly she began to dream. She had never hitherto felt a throb of passion. She had given the best love of her life to her brother, and had made no personal application of anything she had heard or seen or read of lovers, so that the possibility of ever having one of her own had never cost her a serious thought. But the excitement of that clay and the occupations had so wrought upon her imagination that when she slept she dreamt, and in her dream she saw a semblance, the semblance of a man, a changing semblance, the features of which she could not discern, although she tried with frenzied effort, because she knew that when she saw him fully face to face he would be hers. They were not in this world, nor in the next. They were not even in the universe. They were simply each the centre of a great light which formed a sphere about them, and separated them from one another; and heaven and hell, and earth and sky, and night and day, and life and death were all added to the glory of those spheres of light. And she knew <hi rend="italic">how;</hi> but there is no word of human speech to express it. She lay on light, she stood on light, she sat on light, she swam in light; and wallowed, and walked and ran and leaped and soared, rolling along in her own sphere until the monotony made her giddy; and all her endeavour was to reach her lover, not for himself so much as because she knew that if their two lights could be added in equal parts to each other and mingled into one, their combined effulgence would make a pathway to heaven. But try as she would she could not attain her object, and finally she became so exhausted by the struggle that she was <pb n="70"/>obliged to desist. The moment she did so, however, the other sphere turned of its own accord, and rolled up to her. "Dear me!" said Angelica. "How easily things are done when the right time comes!" The semblance now took shape, and kissed her. "How nice!" thought Angelica, returning the kiss. "This is love. Love is life. I am his. He is mine. Most of all, he is <hi rend="italic">mine!</hi>" "No, we can't allow that!" said a chorus of men from the earth. "You're beginning to know too much. You'll want to be paid for your labour next just as well as we are, and that is <hi rend="italic">unwomanly!</hi>" But Angelica only laughed and kissed her lover. "Talk does no good," she said, "this is the one thing the great man-boy-booby understands at present!" So she kissed him again, and every time she kissed him, he changed. He was Samson, Abraham, Lot, Anthony, C&#x00E6;sar, Pan, Achilles, Hercules, Jove, he was Lancelot and Arthur, Percival, Galahad and Gawaine. He was Henry VIII., Richelieu, Robespierre, Luther, and several Popes. He was David the Psalmist, beloved of the man-god of the Hebrews. He was golden-haired Absalom, and St. Paul in his unregenerate days. But he never was Solomon. She saw hundreds of women dividing Solomon amongst them, and cherishing the little bits in the Woman's Sphere of their day, and they offered her a portion, but she refused to take it. She said she would have the whole of him or none at all, and they were horribly shocked. They said: "Fie! you are no true woman! A woman is satisfied with very little, and silently submits." But Angelica answered: "Rubbish! What do you know of womanhood and truth? you talk like a bishop!" And the clergy were dreadfully offended at this. They said she was all wrong. They said it mildly. They shouted it rudely. They whispered it persuasively, and then they blustered. "We are right, and you are wrong!" they maintained. "Well, I have only your word for that," said Angelica, which provoked them again. "We speak in the name of the Lord!" they answered. "Oh, anybody could do that," said Angelica, "but it <pb n="71"/>wouldn't prove that they have the Lord's permission to use His name." Then they reminded her that the true spirit of God had been bestowed upon them for transmission, and she answered: "Yes, but it was taken from you again for your sins, and confided to us; and wherever a virtuous woman is, there is the spirit of God, and the will of God, and there only!" Then they drew off a little and consulted, and when they spoke again they had lowered their tone considerably. "But you will allow, I suppose, that we have done some good in the world?" they said collectively. "Oh, yes," she answered, "you have done your duty here and there to the best of your ability, but your ability was considerably impaired by vice. However, you have brought the world up out of the dark ages of physical force at our instigation, and helped to prepare it for us: now step down gracefully, take your pensions and perquisites, and hold your tongues. Men are the muscle, the hard working material of the nation; women are the soul and spirit, the directing intelligence." They were about to reply, but before they could do so, a stentorian voice proclaimed:</p>
 <p>"HOME IS THE WOMAN'S SPHERE!"</p>
 <p>"Who are you?" said Angelica coolly. "I am the Pope of Rome," he answered, strutting up to her, with dignity. "And what do <hi rend="italic">you</hi> know about the Woman's Sphere?" she said laughing. "I am informed of God!" he declared. But she answered that she had much later information, and slammed the doors of the Sphere in his face. Then she peeped through the keyhole, and saw that the Pope was in consultation with the Archbishops of Canterbury and York, and two popular Cardinals. They were very quiet at first, but presently they began to quarrel. "Don't make such a noise," she shrieked through the keyhole: "go away and be good, will you? We're very busy in here, and you disturb us. We're revising the moral laws. The shock of this intelligence electrified them, and while they stared at each <pb n="72"/>other helplessly, not knowing what to do, she armed herself with the vulgar vernacular, which was the best weapon, she understood, to level at cant. "Lord," she said to herself, "how Diavolo would enjoy this! I wish he was here!" She found the work of the Sphere very heavy, and she tried to remember the name of some saint, but for the life of her she couldn't think of any, so she called upon Ouida and Rhoda Broughton. Then she peeped through the keyhole again, and finding that the Pope was listening, she squirted water into his ear. The other Ecclesiastical Commissioners remained in the background, looking anxious. "We're attending to man the iniquitous now," she called to them kindly to relieve their minds. "He's been too much for you, it seems, but we'll soon settle him." "You're a nasty minded woman," said the Pope. "Always abusive, old candles and vestments," Angelica retorted. "Candles and vestments&#x2014;<hi rend="italic">in excess</hi>," said the Archbishop of York, hurriedly. "Where?" And he went off to see about them. "To the pure all things are pure," a powerful voice proclaimed at that moment. "Ah, that is St. Paul!" said Angelica, surprised and delighted, and then she shook hands with him. "The sacred duties of wife and mother," one of the cardinals began to pipe&#x2014;&#x2014;"There you are meddling again," Angelica interrupted him rudely; "will you go away, and let us mind our own business?" "This is all your fault," the Pope said to the Archbishop of Canterbury. The Archbishop defended himself courteously, but another quarrel seemed inevitable nevertheless. Before it could come off, however, it suddenly appeared that if it were anything it was UNWOMANLY! About that they were quite in accord; and having made the discovery they went their several ways, shaking their several heads impressively. "Now I shall have time to consider the state of the Sphere," said Angelica. "Just wait till I can come and teach you your duty," she called to the women there. "I am not Esther, most decidedly! But I am Judith. I am Jael. I am Vashti. I <pb n="73"/>am Godiva. I am all the heroic women of all the ages rolled into one, not for the shedding of blood, but for the saving of suffering." They did not understand her a bit, however, they were so dazed, and they all looked askance at her. "I see," she said; "I shall have to save you in spite of yourselves." But when she had looked a little longer, and seen men, women, and children crowding like loathsome maggots together, she was disheartened. "All this filth will breed a pestilence," she said, "and I shouldn't be surprised if that pestilence were ME! "But just at that moment the light went out, someone uttered a cry, and Angelica awoke. The room was flooded with moonlight. "I am awake now," she said, to herself, "and that was a real cry. It was 'murder! I think"&#x2014;and she rose intrepidly to rush to the rescue. She was going off at once, just as she was, in her nightdress; but the house was so still at the moment that she thought she might be mistaken. She was determined to go and see for herself, however, in order to make sure; and having pinned up her hair, she put on her shoes and stockings, and a dressing-gown, and opened the door, her heart beating wildly all the time. It was a sickening sensation. But as she listened she became aware of voices speaking naturally, and people moving to and fro, which somewhat reassured her. She left the room, however, and ran down the corridor.</p>
@@ -674,8 +713,8 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>Angelica sprang from her hiding place. "And take that," she cried, "for a present, you father of a speckled toad!" And seizing the heavy quarto Bible from the table, she flung it with all her might full in his face. It happened to hit him on the bridge of his mose, which it broke.</p>
 </div>
 <pb n="79"/>
-<div>
-<head> CHAPTER IX</head>
+<div id="sg2twins010" type="chapter" n="9">
+<head> CHAPTER IX.</head>
 <p>LATER in the day, Lord Dawne, who had ridden in, saw Dr. Galbraith's carriage waiting before Mrs. Orton Beg's little house in the Close. He reined in his horse, which was fidgety, and at the same moment Dr. Galbraith came out.</p>
 <p>"Nothing wrong here, I hope?" Lord Dawne inquired.</p>
 <p>"No," was the curt response, "it is that poor child at the Palace I have been up with her all night."</p>
@@ -727,8 +766,8 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>Angelica stole away to her own room, put on her things, and walked back to Morne alone.</p>
 </div>
 <pb n="84"/>
-<div>
-<head>CHAPTER X</head>
+<div id="sg2twins011" type="chapter" n="10">
+<head>CHAPTER X.</head>
 <p>ANGELICA had been baptized into the world of anguish. She had assisted at horrid mysteries of life and death, and the experience was likely to be warping.</p>
 <p>She had fled from the Palace, first because she could not bear the place any longer, and secondly because she felt imperatively that she must see Diavolo. He had been in bed and asleep for some time when she went to his room that night, and awoke him by flashing a light in his face. He was startled at first, but when he saw who it was, he remembered their last quarrel and the base way she had deserted him by going to stay at the Palace, and he thought it due to his wounded heart to snap at her.</p>
 <p>"What <hi rend="italic">do</hi> you mean by disturbing me so late at night?" he drawled plaintively; "bringing in such a beastly lot of fresh air with you too. You make me shiver."</p>
@@ -805,7 +844,7 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>"It must be solid masonry then," he answered, smiling; and, <pb n="92"/>stepping up to the panel, he tapped it hard with his knuckles; but, contrary to his expectations, the sound it emitted was somewhat hollow. Then he examined it carefully, and discovered that it was not fitted into grooves as the other panels were, but was held in its place by four screws, the heads of which had been carefully concealed by putty, stained and varnished to the colour of the oak. "I will see about this at once," he said.</p>
 <p>The message from the Palace that morning, sent by Mrs. Orton Beg, had been: "Edith still lingers," and Lord Dawne had intended to go there to see the Bishop (in times of sickness and sorrow he was everywhere welcome); but now he went with the further intention of finding Dr. Galbraith. In this he was successful, and they had a long talk about the state of affairs at the Castle, and it was finally arranged that Dr. Galbraith should dine there that evening and remain for the night.</p>
 <p>"That panel must be removed," he said, "and it should be done with great ceremony. The best time would be midnight. But leave all that to Father Ricardo, and only insist upon one thing, and that is the presence of the Heavenly Twins."</p>
-<p>"Are you meditating a <hi rend="italic">coup de th&#x00E9;&#x00E2;re?</hi>"s</p>
+<p>"Are you meditating a <hi rend="italic">coup de th&#x00E9;&#x00E2;tre?</hi>"s</p>
 <p>"No, not at all," Dr. Galbraith replied. "Only I am quite sure that if there is any exorcism to be done, the Heavenly Twins will accomplish it better than any priest."</p>
 <p>Lord Dawne, however, remained somewhat uncertain about the wisdom of this recommendation, but as Dr. Galbraith had always managed his father's foibles and other difficult matters at the Castle with admirable tact and delicacy he gave in.</p>
 <p>The twins themselves soon perceived that there was something in the air. During the day several strange priests arrived, all looking more or less important; but they did not dine with the duke. The demeanour of the latter was portentously solemn; Diavolo tried to take him out of himself, but was reproved for his levity; and Father Ricardo and Lady Fulda went about with <pb n="93"/>exalted expressions of countenance, and looking greatly in need of food and rest. Even in the early part of the evening nobody talked much, and as the hours dragged on slowly towards midnight, the silence in the Castle became oppressive. The servants stole about on tiptoe, and in pairs, being nervous about going into the big empty rooms, and down the long shadowy corridors alone. There was, besides, a general inclination to glance about furtively, as the hush of anxious expectancy settled upon everybody. The twins felt it themselves, but they were everywhere all the same, and if any particular preparations had been made, it would have been at the risk of their discovering them. The night was sultry and very dark. Dr. Galbraith and Lord Dawne stood together, stirring their coffee, at an open window in the great drawing-room.</p>
@@ -837,8 +876,8 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>And then the congregation scattered hurriedly from the sacred precincts, leaving the candles burning on the altar, the doll lying on the pavement, the gaping niche and the fallen panel to bear witness to some of the incredible phases through which the human race passes on its way from incomprehensible nothingness to the illimitable unknown.</p>
 </div>
 <pb n="98"/>
-<div>
-<head>CHAPTER XI</head>
+<div id="sg2twins012" type="chapter" n="11">
+<head>CHAPTER XI.</head>
 <p>THE Heavenly Twins had disappeared for the night. Those who ran round to the outside wall of the sacristy to look for them found only a shred of Angelica's gown hanging on a shrub. Their footsteps could be followed cutting across the grass of a soppy lawn, but beyond that was a walk of hard asphalt, and there all trace of them was lost. But Lady Fulda said they must be found, and brought back, and sleepy servants were accordingly aroused and set to search the grounds, while grooms were sent off on horseback to scour the lanes. The storm was still muttering in the distance, but above Morne the sky had cleared, and the crescent moon shone out to facilitate the search. It was quite fruitless, however. From Morne to Morningquest the messengers went, passing backwards and forwards from the Castle the whole night long. Lady Fulda never closed her eyes, and when the party assembled at breakfast next morning they were all suffering from want of sleep.</p>
 <p>The duke, Lord Dawne, Dr. Galbraith, Mr. Ellis, Father Ricardo and the four strange priests were at table.</p>
 <p>"What <hi rend="italic">can</hi> have become of those children?" Lady Fulda was exclaiming for the hundredth time, when the door opened, and the twins themselves appeared hand in hand, smiling affably.</p>
@@ -910,8 +949,8 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 </p>
 </div>
 <pb n="106"/>
-<div>
-<head>CHAPTER XII</head>
+<div id="sg2twins013" type="chapter" n="12">
+<head>CHAPTER XII.</head>
 <p>EVADNE spent eighteen months in Malta without going from the island for a change, but at the end of her second cold season she went to Switzerland with the Malcomsons and Sillengers, and Colonel Colquhoun went on leave at the same time alone to some place which he vaguely described as "<hi rend="italic">The Continent</hi>."</p>
 <p>When they met again, Evadne noticed a change in him, and she feared it was a change for the worse. He was out of health, out of temper, and depressed.</p>
 <p>He had spent most of his leave at Monte Carlo, but he did not say so at first; he was waiting for her to question him. Had she done so he would have said something snappy about feminine curiosity; as she did not do so, he lost his temper, went off to the mess, and drank too much.</p>
@@ -956,7 +995,7 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>Articulation ceased here because the startling theory that a vicious dissipated man is not a fallen angel easily picked up, but a frightful source of crime and disease, recurred to him, with the charitable suggestion that a repentant woman of his own class would be the proper person to reform him; ideas which settled upon his soul and silenced him, being full-fraught for him with the cruel certainty that the end of "all <hi rend="italic">true</hi> womanliness" is at hand.</p>
 </div>
 <pb n="114"/>
-<div>
+<div id="sg2twins014" type="chapter" n="13">
 <head>CHAPTER XIII.</head>
 <p>COLONEL COLQUHOUN'S first interest in Evadne lasted longer than might have been expected, but the pleasure of hanging about her palled on him at last, and then he fell off in his kind attentions. This did not happen, however, so soon as it would have done by many months, had their relations been other than they were. It began in the usual way. Little acts to which she had become accustomed were omitted, resumed again, and once more omitted, intermittently, then finally allowed to drop altogether. When the change had set in for certain, Evadne regretted it. The kindly feeling for each other which had come to exist between them was largely due to her appreciation of the numberless little attentions which it had pleased him to pay her at first; they had not palled upon her, and she missed them&#x2014;not as a wife would have done, however, and that she knew; so that when the fact that there <hi rend="italic">was</hi> to be a falling off became apparent, she found in it yet another cause for selfcongratulation, and one that was great enough to remove all sting from the regret. What she was prepared to resent, however, was any renewal of the gush after it had once ceased; she required to be held in higher estimation than a toy which could be dropped and taken up again upon occasion&#x2014;and Colonel Colquhoun gave her an opportunity, and, what was worse, provoked her into saying so, to her intense mortification when she came to reflect.</p>
 <p>There was to be a ball at the Palace one night, a grand affair, given in honour of that same fat foreign Prince who had stayed with her people at Fraylingay, just before she came out, and had been struck by the promise of her appearance. In the early days of their acquaintance, Colonel Colquhoun had given her some very beautiful <pb n="115"/>antique ornaments of Egyptian design, and she determined to wear them on this occasion for the first time, but when she came to try them with a modern ball-dress, she found that they made the latter look detestably vulgar. She therefore determined to design a costume, or to adapt one, which should be more in keeping with the artistic beauty of her jewels; and this idea, with the help of an excellent maid, she managed to carry out to perfection&#x2014;which, by the way, was the accident that led her finally to adopt a distinctive style of dress, always a dangerous experiment, but in her case, fortunately, so admirably successful, that it was never remarked upon as strange by people of taste; only as appropriate.</p>
@@ -978,13 +1017,13 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>"Well, I hope I may be pardoned at that distance," rejoined Colonel Colquhoun, confused.</p>
 <p>"Royal Egypt is more audacious than ever," Mrs. Guthrie <pb n="118"/>Brimston observed. "This is a new departure. The reign of ideas is over, I fancy, and a season of social success has begun."</p>
 <p>Evadne danced till daylight, unconscious of the sensation she had made, and rose next morning fresh for the usual occupations of the day; but her success of the night before had so enhanced her value in Colonel Colquhoun's estimation that he was inclined to be effusive. He returned to lunch, and hung about her the whole afternoon, much to her inconvenience, because he had not been included in her arrangements for some months now, and she could not easily alter them all at once just to humour a whim of his. But wherefore the whim? A very little reflection explained it. Looks and tones, and words of her partners of the previous night, not heeded at the time, recurred to her now, and made her thoughtful. But she could not feel flattered, for it was obviously not her whom Colonel Colquhoun was worshipping, it was success, and the perception of this truth suggested a possible parallel which made her shudder. It was a terrible glimpse of what might have been, what certainly <hi rend="italic">would</hi> have been, had not the dear Lord vouchsafed her the precious knowledge which had preserved her from the ultimate degradation and the insult which such an endeavour as that of a woman she had in her mind, to win back a wandering husband, would have resulted in. "<hi rend="italic">I</hi> do not care," was her happy thought when she began to see less of Colonel Colquhoun; "but a wife would feel differently, and it would have been just the same had I been his wife."</p>
-<p>He was not surprised to find her submit to his extra attentions in silence that afternoon, because that was her way, but he found her looking at him once or twice with an expression of deep thought in her eyes which provoked him at last to ask what it was all about. "I was thinking," she answered, "of that painful incident in <hi rend="italic">La Femme de Trente-ans</hi> where Julie so far forgot her self-respect as to try and re-awaken her husband's admiration for her by displaying her superior accomplishments at the house of that low woman, Madame de S&#x00E8;ricy. You remember she made quite a sensation by <pb n="119"/>her singing: '<hi rend="italic">Et son mari, r&#x00E9;veil&#x00E9; par le r&#x00F4;le qu'elle venait de jouer, voulut l'honorer d'une fantaisie, et la p&#x0155;it en go&#x00FB;t, comme il e&#x00F9;t fait d'une actrice</hi>.' I was thinking, when she became aware of what she had done, of the degradation of the position in which she had placed herself, how natural it was that she should despise herself, cursing marriage which had brought her to such a pass, and wishing herself dead."</p>
+<p>He was not surprised to find her submit to his extra attentions in silence that afternoon, because that was her way, but he found her looking at him once or twice with an expression of deep thought in her eyes which provoked him at last to ask what it was all about. "I was thinking," she answered, "of that painful incident in <hi rend="italic">La Femme de Trente-ans</hi> where Julie so far forgot her self-respect as to try and re-awaken her husband's admiration for her by displaying her superior accomplishments at the house of that low woman, Madame de S&#x00E8;ricy. You remember she made quite a sensation by <pb n="119"/>her singing: '<hi rend="italic">Et son mari, r&#x00E9;veil&#x00E9; par le r&#x00F4;le qu'elle venait de jouer, voulut l'honorer d'une fantaisie, et la prit en go&#x00FB;t, comme il e&#x00F9;t fait d'une actrice</hi>.' I was thinking, when she became aware of what she had done, of the degradation of the position in which she had placed herself, how natural it was that she should despise herself, cursing marriage which had brought her to such a pass, and wishing herself dead."</p>
 <p>Colonel Colquhoun became moody upon this: "My having stayed at home with you this afternoon suggests a parallel, I suppose, after your success of last night?" he inquired, "And you have been congratulating yourself all day," he proceeded, summing up judicially, "upon having escaped the degradation of being the wife <hi rend="italic">de facto</hi> of a man whose admiration for you could cool&#x2014;under any circumstances; and be revived again by a vulgar success in society?"</p>
 <p>She was silent, and he got up and walked out of the house. From where she sat she saw him go, twirling his blond moustache with one hand, and viciously flipping at the flowers as he passed with the stick he carried in the other; a fine soldier-like man in appearance certainly, and not wanting in intelligence since he could comprehend her so exactly; but, oh, how oppressive when in an admiring mood! This was her first feeling when she got rid of him; but a better frame of mind supervened, and then she suffered some mortification for having weakly allowed herself to be betrayed into speaking so plainly. Yet it proved in the long run to have been the kindest thing she could have done, for Colonel Colquhoun was enlightened at last, and they were both the better for the understanding.</p>
 <p>But the house seemed full of him still after he had gone that day, and she therefore put on her things, and, hurrying out into the fresh air, walked quickly to the house of a friend where she knew she Mould find a fresh moral atmosphere also. She was soul-sick and depressed. Life felt like the end of a ball, all confusion, and <pb n="120"/>every carriage up but her own; torn gowns, worn countenances, spiteful remarks, ill-natures evident that were wont to be concealed, disillusion generally, and headache threatening. But, fortunately, she found a friend at home to whom she instinctively went for a moral tonic. This was a new friend, Lady Clan, the widow of a Civil Service official, who wintered all over the world as a rule, but had passed that year at Malta. She was a cheery old lady, masculine in appearance, but with a great, kind, womanly heart, full of sympathetic insight&#x2014;and a good friend to Evadne, whom she watched with fear as well as with interest, doubting much what would come of all that was unaccustomed about the girl. The sweet grave face and half shut eyes appealed to her pathetically that afternoon in particular, as Evadne sat silently beside her, busy with a piece of work she had brought. Lady Clan thought her lips too firm; as she grew older, she feared, her mouth would harden in expression if she were not happy&#x2014;and the old lady inwardly prayed heaven that she might be saved from that; prayed that little arms might come to clasp her neck, and warm little lips shower kisses upon <hi rend="italic">her</hi> lips to keep them soft and smiling, lest they settled into stony coldness, and forgot the trick.</p>
 </div>
 <pb n="121"/>
-<div>
+<div id="sg2twins015" type="chapter" n="14">
 <head>CHAPTER XIV</head>
 <p>MALTA was enlivened that winter by a joke which Mrs. Guthrie Brimston made without intending it.</p>
 <p>Mrs. Malcomson had written a book. She was thirty years of age, and had been married to a military man for ten, and in that time she had seen some things which had made a painful impression upon her, and suggested ideas that were only to be got rid of by publishing them. Ideas cease to belong to an author as soon as they are made public; if they are new at all somebody else appropriates them; and if they are old, as, alas! most of them must be at this period of the world's progress, the mistaken reproducer is relieved of the horrid responsibility by kindly critics promptly. Blessed is the man who never flatters himself with the delusion that he can do anything original; for, verily, he shall not be disappointed.</p>
@@ -1068,8 +1107,8 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>And then they began to talk of things indifferent, but with a new and happy consciousness of an excellent understanding between them.</p>
 </div>
 <pb n="140"/>
-<div>
-<head>CHAPTER XV</head>
+<div id="sg2twins016" type="chapter" n="15">
+<head>CHAPTER XV.</head>
 <p>THE following day, as Colonel Colquhoun went out in the afternoon, he met Evadne coming in with Mrs. Malcomson and Mrs. Sillenger. Evadne was leaning on Mrs. Malcomson's arm. She looked haggard and pale, and the other two ladies were evidently also much distressed.</p>
 <p>"Has anything happened?" Colquhoun asked with concern. "Are you ill, Evadne?"</p>
 <p>"I am sick at heart," she answered bitterly.</p>
@@ -1097,28 +1136,43 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <pb n="144"/>
 <p>After her arrival her pompous papa continued "firm," as he called it, and as she was equally "firm" herself, he would not have her at Fraylingay. He repeated that if there were one human weakness which is more reprehensible than another, it is obstinacy, and he told Mrs. Frayling that she must choose between himself and Evadne. If she preferred the latter, she might go to see her, but she should not return to him. He meant to be master in his own house&#x2014;and so on, at the top of his voice, with infinite bluster&#x2014;to which it was that Mrs. Frayling submitted. She never could bear a noise.</p>
 <p>Evadne, therefore, saw nothing of her mother or brothers or sisters, and must have been lonely, indeed, had it not been for Mrs. Orton Beg, who took charge of her, and nursed her, and brought her round, and remained with her until Colonel Colquhoun returned. They spent most of their time in the Western Highlands, but stayed also in London and Paris.</p>
-<p>Colonel Colquhoun was absent a year, and made the most of every opportunity to distinguish himself. At the end of the war he was made C.B., and promoted to the rank of Colonel; and, his time with his regiment having expired, he was further honoured by being immediately appointed to the command of the depot at Morningquest. Evadne was glad to see him again. She had missed him, and had waited anxiously for his return. She had no one to care for in his absence, no one, that is to say, who was specially her charge, to be attended to and made comfortable. He had narrowed her sphere of usefulness down to that by the promise he had exacted, and in his absence she had what to her was a useless, purposeless existence, wandering about from place to place. During this period she made few notes in the <hi rend="italic">Commonplace Book</hi>, but the few all bore witness to one thing, viz., her ever increasing honor of unpleasantness in any shape or form.</p>
+<p>Colonel Colquhoun was absent a year, and made the most of every
+opportunity to distinguish himself. At the end of the war he was made
+C.B., and promoted to the rank of Colonel; and, his time with his
+regiment having expired, he was further honoured by being immediately
+appointed to the command of the dep&#x00F4;t at Morningquest. Evadne
+was glad to see him again. She had missed him, and had waited
+anxiously for his return. She had no one to care for in his absence,
+no one, that is to say, who was specially her charge, to be attended
+to and made comfortable. He had narrowed her sphere of usefulness down
+to that by the promise he had exacted, and in his absence she had what
+to her was a useless, purposeless existence, wandering about from
+place to place. During this period she made few notes in the <hi
+rend="italic">Commonplace Book</hi>, but the few all bore witness to
+one thing, viz., her ever increasing honor of unpleasantness in any
+shape or form.</p>
+</div>
+<trailer>END OF BOOK III.</trailer>
 </div>
 <pb n="145"/>
-<div>
-<head>BOOK IV<lb/>THE TENOR AND THE BOY.&#x2014;AN INTERLUDE</head>
+<div id="sg2twins020" type="book" n="4">
+<head>BOOK IV.<lb/>THE TENOR AND THE BOY.&#x2014;<lb/>AN INTERLUDE</head>
 <epigraph>
+<cit>
+<quote>
 <lg>
 <l>His words are bonds, his oaths are oracles;</l>
 <l>His love sincere, his thoughts immaculate;</l>
 <l>His tears pure messengers sent from his heart,</l>
 <l>His heart as far from fraud as heaven from earth.</l>
 </lg>
-<p>&#x2014;<bibl>Two Gentlemen of Verona</bibl>
-</p>
+</quote>
+<bibl>&#x2014;<hi rend="italic">Two Gentlemen of Verona</hi></bibl>
+</cit>
 </epigraph>
-<pb n="146"/>
-<!--blank page 146-->
-<p/>
-</div>
 <pb n="147"/>
-<div>
-<head>CHAPTER I</head>
+<div id="sg2twins021" type="chapter" n="1">
+<head>CHAPTER I.</head>
 <p>MORNINGQUEST, with the sunset glow upon it, might have made you think of Arthur's "dim rich city;" but Morningquest had already flourished a thousand years longer than Caerlyon, and was just as many times more wicked. And it was known to be so, although not a tithe of the crimes committed in it were ever brought to light; but even of those which were known and recorded, no man could have told you the half, so great was their number. Of course, as the place was wicked, the doctors were well to the fore, combating the wages of sin gallantly; and the lawyers also, needless to say, were busy; and so, too, were the clergy in their own way, ecclesiasticism being well-worked; Christianity, however, was much neglected, so that, for the most part, the devil went unmolested in Morningquest, and had a good time.</p>
 <p>There were seventy-five churches besides the Cathedral within the city boundary, and a large sprinkling of religious sects of all denominations, which caused ferment enough to prevent stagnation; and, of course, where so many churches were the clergy swarmed, and were made the subject of the usual well-worn pleasantries. If you asked what good they were doing, you would hear that nobody knew; but you would also be assured that at all events they were, as a rule, too busy about candles and vestments, and what not of that kind of thing, discussing such questions with heat enough to convince anyone that the Lord in heaven cares greatly about the use of one gaud more or less in His service, to do much harm. But, upon the whole, the attitude of the citizens towards the clergy was friendly and unexacting. If nobody heeded them much, nobody opposed them much either, so that, as in any other profession, they <pb n="148"/>enjoyed the liberty of earning their livelihood in their own way. The people considered them without reverence as a part of the population merely; their services were accepted as a necessity in the regular routine of life as bread-and-butter was, and doubtless they did good in some suoh way, although the one was as much forgotten as the other before it was well assimilated. If the citizens mentioned their teaching at all, it was merely to repeat what they said of the clergy themselves&#x2014;that it did no harm.</p>
 <p>This was a pleasantry of which they never wearied; but sometimes they would add to it another article of their faith. "The Lord is gracious," they would declare, "and when He sends dull preachers, He mercifully sends sleep also to comfort His afflicted people." So the preachers preached, and their congregations slumbered tranquilly, and everybody was satisfied. If the clergy squabbled amongst themselves, and with their churchwardens, their fellow citizens were rather grateful to them than otherwise for varying the monotony, so that they were encouraged to wage their internecine combats to their hearts' content, and when these lapsed and they let each other alone, it was always interesting to see how they turned upon the Bishop. But nobody was disturbed, for in such a sleepy old place&#x2014;and the respectable part of it <hi rend="italic">was</hi> sleepy!&#x2014;men habitually view the vagaries of their friends with smiling tolerance, and if they comment upon them at all, it is without bitterness.</p>
@@ -1138,7 +1192,8 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <p>The stranger bowed to his little audience, returned the music, and left the building.</p>
 <p>He was a young man, tall and striking in appearance; clean shaven, with delicate features, dark dreamy grey eyes, and a tumbled mop of golden hair, innocent of parting. He was well-dressed, but his clothes hung upon him loosely, as if he had grown thinner since they were made; his face was pale too, and pinched in appearance, and his movements were languid, giving him altogether the air of a man just recovering from some serious illness. That he was a gentleman no one would have doubted for a moment, nor would they have been surprised to hear that he was a great man in the sense of being a peer or something of that kind, for there was that indefinable something in his look and bearing which people call aristocratic, and his manner was calm and assured like that of a well-bred man of the world accustomed to good society.</p>
 <p>The people who flocked to the afternoon service that day regarded him with much curiosity, and he was certainly unlike anyone whom they had hitherto seen in the choir. A surplice had been found for him, and the dead white contrasted well with the brightness of his hair, and made the refined beauty of his face even more remarkable <pb n="153"/>than it had been in his morning dress. Sitting with the lay clerks behind the choristers, he looked like the representative of another and a higher race, and even those of them whose personal attractions had hitherto been considered more than merely passable when they appeared beside him were suddenly seen to be hopelessly commonplace. But, although the interest he excited was evident enough, it was equally evident that he himself remained quite unaware of it. In his whole bearing there was not the slightest assumption. He entered with the choir, and might have been in the habit of doing so all his life, so perfectly unconscious did he seem of anything new or strange in the position. As soon as he was seated, without even glancing at the people, he had taken up his music, and continued lost in the study of it until the service opened; and then he sang his part with ease and precision, which, however, attracted less attention at the moment than his appearance. The rest of the choir, animated by his presence, exerted themselves to the utmost, but were too delighted with their own performances to think much of his before the solo began.</p>
-<p>Then, however, they awoke. The first note he uttered was a long <hi rend="italic">crescendo</hi> of such rich volume and so sweet, that the people held their breath and looked up:</p>
+<p>Then, however, they awoke. The first note he uttered was a long <hi rend="italic">crescendo</hi> of such rich volume and so sweet, that the people held their breath and looked up:
+<q>
 <lg>
 <l>"The world recedes; it disappears!</l>
 <l>Heaven opens on my eyes! my ears</l>
@@ -1147,6 +1202,7 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
 <l>O Grave! where is thy victory?</l>
 <l>O Death! where is thy sting?"</l>
 </lg>
+</q></p>
 <p>I was if a delicious spell had been cast upon the congregation, which held them bound until the last note of the exquisite voice, even the last reverberation of the organ accompaniment, had trembled into silence, and then there was a movement, a flutter, a great sigh of relief heaved, so to speak, as if the pleasure had been <pb n="154"/>too great, and nerves and senses were glad to be released from the tension of it.</p>
 <p>The Tenor was slightly flushed when he resumed his seat, but otherwise his face was as serenely impassive as ever.</p>
 <p>"It is some great singer from abroad," the people whispered to each other. "He is used to every kind of success, and does not even trouble himself to see if we are pleased. He has sung doubtless to gratify some whim of his own. Such artists are capricious folk." To which the answer was: "Long may such whims continue!"</p>
@@ -1183,8 +1239,8 @@ sympathy and attention from the good women who had not self-love enough to be wo
 <p>The Tenor's cheeks had been haggard and worn when he first settled in Morningquest, and dark circles round his eyes had betokened sleepless nights, and the ceaseless gnawing ache of a great grief. But all that had passed as the days wore on, giving place to a settled expression of peace&#x2014;peace tinged with a certain sadness, but dignified by resignation. Gradually, too, although he remained slender, he ceased to be emaciated, and his cheeks assumed a healthy hue that very well became them.</p>
 </div>
 <pb n="163"/>
-<div>
-<head>CHAPTER II</head>
+<div id="sg2twins022" type="chapter" n="2">
+<head>CHAPTER II.</head>
 <p>IT was thought at first that the Dean's intimacy with the new Tenor arose from a sense of duty sharpened by the feeling of self-reproach with which he had regarded his fancied neglect of the old one; but, however that might have been, it was continued from a genuine liking for the man himself. No one in Morningquest knew the Tenor half so well as the Dean did, no one could have had a truer regard for him, or watched the passing of his trouble with more affectionate interest, or noted the change for the better which had been wrought by the regular occupation of those peaceful days with greater satisfaction. The Dean knew the Tenor's story, so that their relations might be called confidential; but for two years no allusion had been made by either of them to the past, neither had any plans been formed for the future.</p>
 <p>At the end of that time, however, the Dean noticed signs of awakening energy in his friend. The Tenor performed his duties less mechanically. His apathy was broken by fits of restlessness. He had found the mornings long lately; he had thought the afternoons objectless; and when evening came and the lamps were lighted, he wearied of his books and music, and chafed a little for something, not change exactly; but he was conscious of a desire&#x2014;and this he only felt at times&#x2014;a desire for some trifling human interest which should make the life he was leading fuller. He had awakened, in fact, from his long lethargy, and found himself alone.</p>
 <p>The Dean of Morningquest was a remarkable man. He had the fine physique, the high-breeding, and the scholarly reputation common to that order of divines who keep up the dignity of the <pb n="164"/>Church without doing much for Christianity. In person he was tall, but stooped from the shoulders. He had white hair, a fine intellectual face; fresh, and with that young look in it which has been called saint-like, and is only seen on the faces of those in whom passion has not died a natural death as the vital powers decay, but has been brought into subjection, and made to do good work instead of evil. No man consorted more habitually with his equals, or seldomer entertained the notion that there were such people in the world as his inferiors. He practised his religion to the last letter of church law, and worshipped Christ the Son of God; but there is no doubt that he would have turned his exclusive back on Christ the carpenter's son, and had him prosecuted for an impostor had He presented Himself with no better pedigree. He could tell the story of the Saviour's sufferings with infinite pathos because he knew who the Saviour was; but he could not have told the same story with the same power had the hero of it been merely one common man sacrificing his life for others. What affected the Dean was the enormous condescension. It was the greatness of the Man, not the greatness of the deed, that appealed to him. A poor tradesman might sacrifice his life nobly also; but, then, what is the life of a tradesman comparatively speaking?</p>
@@ -1196,9 +1252,8 @@ sympathy and attention from the good women who had not self-love enough to be wo
 <p>The Tenor sat silent and thoughtful for awhile.</p>
 <p>"No," he began at last, "I do not even yet long for change, as you would understand the longing. I have begun to feel a want, though I scarcely know of what&#x2014;of companionship, perhaps, of some new interest; but I have no inclination for any change that would take me away from here. After the storm I passed through, this place has been for me a perfect haven of rest; and now that my peace of mind has returned to me, do you think it would be wise, by any voluntary act, to alter the present course of my life, seeing that it is so well with me as it is? When a man is content, it does not seem to me that any change can be for the better; and, trifles apart, I really am content."</p>
 <p>"God grant it may last," the Dean responded earnestly. "Only I would warn you to be ready for change in case it comes to <pb n="167"/>you in spite of yourself. I would warn you not to feel too secure. For I have noticed this, that, for some mysterious reason which no mortal can fathom, it appears to be the will of Heaven that when a man is able to say sincerely 'I am happy;' when he is most confident, believing his happiness to be as firmly placed as earthly happiness can be, then is the time for him to be most watchful, for then is change most likely to be at hand. Indeed, it has seemed to me that this feeling of security, or rather of content with things as they are, is in itself an indication of coming change."</p>
-<p>As he finished speaking the Cathedral clock above them began to strike the hour. Slowly the mellow notes followed each other, filling the night with sound, and dying away in a long reverberation when the twelfth had struck. Then came silence, then the chime, voicelike, clear, and resonant&#x2014;</p>
-<p>
-<figure>
+<p>As he finished speaking the Cathedral clock above them began to strike the hour. Slowly the mellow notes followed each other, filling the night with sound, and dying away in a long reverberation when the twelfth had struck. Then came silence, then the chime, voicelike, clear, and resonant&#x2014;
+<figure entity="" rend="inline">
 <figDesc>He, watch-ing o-ver Is - ra - el, slumbers not, nor sleeps.</figDesc>
 </figure>
 </p>
@@ -1206,36 +1261,54 @@ sympathy and attention from the good women who had not self-love enough to be wo
 <p>The next day was Saturday, and in the afternoon the Tenor had to sing.</p>
 </div>
 <pb n="168"/>
-<div>
-<head> CHAPTER III</head>
+<div id="sg2twins023" type="chapter" n="3">
+<head> CHAPTER III.</head>
 <p>THERE is human nature, both literally and figuratively speaking, in Wagner's method of setting a character to a tune of its own, for, although our lives can hardly be said to order themselves to one consistent measure, our days often do.</p>
 <p>For months now, "<hi rend="italic">When the orb of day departs</hi>," Schubert's song, had accompanied the Tenor. It had soothed him, it had irritated him; it had expressed passionate longing, it had been the utterance of despairing apathy; it had marked the vainest regret, and it had suggested hope; it had wearied him; it had comforted him; but it had never left him. That Saturday morning, however, when he awoke, his mind was set to another measure. Schubert's song had gone as it had come, without conscious effort on his part; but it had left a substitute, for the Tenor, as he lingered over his morning's work, found himself continually murmuring whole phrases of a chant which he had heard once upon a time when he was staying in an old town in France. It was the Litany of the Blessed Virgin sung at Benediction by some unseen singer with a wonderfully sympathetic mezzo-soprano voice. The Tenor had gone again and again to hear her in this chant, the music of which suited her as well as it did the theme. The words of adoration, "<hi rend="italic">Sancta Maria, Sancta Dei G&#x00E9;netrix, Sancto Virgo virginum</hi>," were uttered evenly on notes that admitted of the tenderest expression, while the supplication, the "<hi rend="italic">Ora pro nobis</hi>," rose to the full compass of the singer's voice, and was delivered in tones of passionate entreaty. At the end, in the <hi rend="italic">Agnus Dei</hi>, the music changed, dropping into the minor with impressive effect, the effect of earnestness wearied by effort but still unshaken; and it was this final appeal in all its pathetic beauty that now recurred to the Tenor.</p>
 <pb n="169"/>
-<p>He had not thought of the chant for years, nor had there been anything apparently to recall it now; but all that day it possessed him, and at intervals he caught himself involuntarily singing it aloud.</p>
+<p>He had not thought of the chant for years, nor had there been anything apparently to recall it now; but all that day it possessed him, and at intervals he caught himself involuntarily singing it aloud.
+<q>
 <lg>
 <l>Agnus Dei, qui tollis pecc&#x00E1;ta mundi, parce nobis D&#x00F3;mine,</l>
 <l>Agnus Dei, qui tollis pecc&#x00E1;ta mundi, exaudi nos Domine,</l>
 <l>Agnus Dei, qui tollis pecc&#x00E1;ta mundi, miser&#x00E9;re nobis."</l>
 </lg>
-<p>He sang it while he was dressing; he whistled it with his hands in his pockets while he walked up and down the room waiting for his breakfast, and at breakfast, with the newspaper before him, he hummed it to himself steadily. He began it again as he crossed the road to enter the Cathedral for the early morning service; he continued it while he was putting on his surplice; he marched to it in the procession, and he rapped it out on his music book when he had taken his scat in the choir. Ho opened the book to study his solo for the afternoon service, but before he was half way through his mind was busily rendering, not the music before him, but</p>
+</q>
+He sang it while he was dressing; he whistled it with his hands in his pockets while he walked up and down the room waiting for his breakfast, and at breakfast, with the newspaper before him, he hummed it to himself steadily. He began it again as he crossed the road to enter the Cathedral for the early morning service; he continued it while he was putting on his surplice; he marched to it in the procession, and he rapped it out on his music book when he had taken his scat in the choir. Ho opened the book to study his solo for the afternoon service, but before he was half way through his mind was busily rendering, not the music before him, but
+<q>
 <lg>
 <l>"Agnus Dei, qui tollis pecc&#x00E1;ta mundi, parce nobis D&#x00F3;mine."</l>
 </lg>
-<p>The haunting strain had become an intolerable nuisance by this time, and he made a vigorous effort to get rid of it by giving his mind to what was going on around him, and interesting himself in the people as they entered and took their places in stall and choir, and canon's pew, chancel and transept. Being Saturday, there was a good attendance even at this early service. Strangers from a distance came in to see the Cathedral, and people in the place came in to see the strangers; so that there was plenty to observe, especially for one who (unlike the Tenor) was a little behind the scenes or had peeped beneath the surface and beheld the various incidents of the life-dramas which were constantly being enacted in the sacred edifice itself from service to service in the midst and with the help of psalms and hymns and spiritual songs, prayers and sermons, under the Dean's very nose, and often in the presence of the <pb n="170"/>Bishop. The world at worship is a worldly sight, and there was a certain appropriateness in the Tenor's<hi rend="italic">miserere</hi>; but he failed to apply it although it kept him company to the end, and was still faithful when he sallied forth from the gloom of the Cathedral and went his way with the rest in the sunshine and freshness of a glad new day.</p>
+</q>
+The haunting strain had become an intolerable nuisance by this time, and he made a vigorous effort to get rid of it by giving his mind to what was going on around him, and interesting himself in the people as they entered and took their places in stall and choir, and canon's pew, chancel and transept. Being Saturday, there was a good attendance even at this early service. Strangers from a distance came in to see the Cathedral, and people in the place came in to see the strangers; so that there was plenty to observe, especially for one who (unlike the Tenor) was a little behind the scenes or had peeped beneath the surface and beheld the various incidents of the life-dramas which were constantly being enacted in the sacred edifice itself from service to service in the midst and with the help of psalms and hymns and spiritual songs, prayers and sermons, under the Dean's very nose, and often in the presence of the <pb n="170"/>Bishop. The world at worship is a worldly sight, and there was a certain appropriateness in the Tenor's<hi rend="italic">miserere</hi>; but he failed to apply it although it kept him company to the end, and was still faithful when he sallied forth from the gloom of the Cathedral and went his way with the rest in the sunshine and freshness of a glad new day.</p>
 <p>As the time for the afternoon service approached, the people began again to flock to the Cathedral, but in crowds now, for it had been rumoured that the Tenor was to sing.</p>
-<p>The choir, from their lateral position on either side of the aisle, were able to look up and down the church, having on the one hand and opposite the distinguished visitors who were accommodated with seats in the stalls, the Canon's and the Dean's pews; and on the other the officiating clergy and the congregation generally. It was an advantageous position for those who came to observe, but the Tenor had not hitherto been one of these. The music, when it was interesting, absorbed him; and when it was dull the monotony soothed him, so that he noticed nothing. It had done so this afternoon. During all the first part of the service he neither saw nor heard, but did his work mechanically like one in a dream; and in every pause of it the old chant recurred to him, filling his heart with a separate undercurrent of solemn supplication, now in French:&#x2014;"<hi rend="italic">Agneau de Dieu, qui effacez les p&#x00E9;ch&#x00E9;s du monde, ayez piti&#x00E9; de nous</hi>," and now in Latin:&#x2014;"<hi rend="italic">Agnus Dei, qui tollis pecc&#x00E1;ta mundi, miser&#x00E9;re nobis</hi>."</p>
+<p>The choir, from their lateral position on either side of the aisle,
+were able to look up and down the church, having on the one hand and
+opposite the distinguished visitors who were accommodated with seats
+in the stalls, the Canon's and the Dean's pews; and on the other the
+officiating clergy and the congregation generally. It was an
+advantageous position for those who came to observe, but the Tenor had
+not hitherto been one of these. The music, when it was interesting,
+absorbed him; and when it was dull the monotony soothed him, so that
+he noticed nothing. It had done so this afternoon. During all the
+first part of the service he neither saw nor heard, but did his work
+mechanically like one in a dream; and in every pause of it the old
+chant recurred to him, filling his heart with a separate undercurrent
+of solemn supplication, now in French:&x2014;"<hi rend="italic">Agneau de Dieu, qui effacez les p&#x00E9;ch&#x00E9;s du monde, ayez piti&#x00E9; de nous</hi>," and now in Latin:&#x2014;"<hi rend="italic">Agnus Dei, qui tollis pecc&#x00E1;ta mundi, miser&#x00E9;re nobis</hi>."</p>
 <p>The Dean preached a <hi rend="italic">sermonette</hi> on Saturday afternoon, which he took the precaution to deliver before the anthem, so that the people might still have something to look forward to and keep their seats. The <hi rend="italic">sermonette</hi> over, the organ played the opening bars of the Tenor's solo, and the choir stood up. While he waited for the note, the Tenor absently fixed his eyes on a lady in the Canon's pew. The spell of the old chant was still upon him, and, instead of preparing his mind for his task, he let it murmur on:&#x2014;" <hi rend="italic">Agnus Dei, qui</hi>
 <pb n="171"/>
 <hi rend="italic"> tollis pecc&#x00E1;ta mundi, parce nobis Domine</hi>"&#x2014;while a rapt silence fell upon the congregation&#x2014;not a rihbon rustled; the expression of expectation was most intense. One would scarcely have expected the Tenor to take up the note at the right moment, his mind being preoccupied by another strain, but he did. The lady in the Canon's pew held the music of the authem before her, and had been following that; but when the first clear notes of the Tenor's voice rang through the building she looked up as if in surprise, their eyes met, and with a shock the Tenor awoke from his lethargy, faltered for a moment, and then stopped. The organ played on, however, and he quickly recovered; but the pause had been quite perceptible, and the people were amazed. It was the first time that such a thing had happened with their Tenor, which made it a matter of moment; and the wonder of it grew, parties being formed, the one to excuse the slip and call it nothing, the other to blame him for his carelessness, as people who never disappoint us are blamed, with bitterness, if for once by chance they err.</p>
 <p>That night the Tenor's restlessness grew to a head. He was engaged upon a piece of work he wished to finish, but he could not settle to it, and after making an ineffectual effort to concentrate his attention upon it, he took up his hat and strolled out.</p>
-<p>It was a lovely moonlight night. The lime trees in the Close were in flower, and their sweetness was overpowering. He did not stay there, however, but wandered out into the city, with his hat pushed back from his forehead, and his hands in his pockets. The gas was not lighted in the streets as the moon was near the full; and, beneath her rays, all common objects, however obtrusively vulgar by daylight, were refined into beauty for the moment.</p>
+<p>It was a lovely moonlight night. The lime trees in the Close were in flower, and their sweetness was overpowering. He did not stay there, however, but wandered out into the city, with his hat pushed back from his forehead, and his hands in his pockets. The gas was not lighted in the streets as the moon was near the full; and, beneath her rays, all common objects, however obtrusively vulgar by daylight, were refined into beauty for the moment.
+<q>
 <lg>
-<l>Pater de c#x0153;lis Deus, miser&#x00E9;re nobis;</l>
+<l>Pater de c&x0153;lis Deus, miser&#x00E9;re nobis;</l>
 <l>Fili Redemptor mundi Deus, miser&#x00E9;re nobis,</l>
 <l>Spiritus sancte Deus, miser&#x00E9;re nobis;</l>
 <l>Sancte Trinitas unus Deus, miser&#x00E9;re nobis"&#x2014;</l>
 </lg>
-<p>the Tenor sang softly to himself as he slowly pursued his way.</p>
+</q>
+the Tenor sang softly to himself as he slowly pursued his way.</p>
 <pb n="172"/>
 <p>He had some sort of a vague idea that he would like to go and look at the quaint old market-place by moonlight, and when he reached it, he stopped at the corner, interrupting his song to gaze in keen artistic appreciation at the silent scene before him, at the heavy masses of shade interspersed with intervals of mellow moonlight, and the angles of roof and spire and ornament cut clean as cameos against "the dark and radiant clarity of the beautiful night sky."</p>
 <p>The market-place was an irregular square, picturesquely enclosed by tall houses of different heights, and most original construction, among which the east end of a church and part of a public building of ancient date were crowded in; without incongruous effect, however, the moonlight, crisp, cool, and clear, having melted hue and form of all alike into one harmonious whole, to the charm of which even the covered stalls, used in the day's dealings, and now packed in the middle of the square, and the deserted footways, added something.</p>
@@ -1248,9 +1321,8 @@ sympathy and attention from the good women who had not self-love enough to be wo
 <pb n="173"/>
 <p>The girl had been wandering off again, but at the first note of the supplication she stopped. A chord of memory stirred. She knew the words, she knew the tune. She had sung them both herself often and often at home in France. She was a Child of Mary then&#x2014;and now?</p>
 <p>As the Tenor finished the last note of the phrase and paused, she clasped her hands convulsively, and gasped: "O mon Dieu! mon Dieu! ayez piti&#x00E9; de moi!"</p>
-<p>Her half-inarticulate cry did not reach the Tenor and the Boy, neither had they observed her distress, for just at that moment the city clock struck one, and both had raised their heads involuntarily in expectation of the chime. And presently out upon the night it rolled, a great wave of sound, swelling and spreading, muffled by distance somewhat, but still distinctly sweet and insistent&#x2014;</p>
-<p>
-<figure>
+<p>Her half-inarticulate cry did not reach the Tenor and the Boy, neither had they observed her distress, for just at that moment the city clock struck one, and both had raised their heads involuntarily in expectation of the chime. And presently out upon the night it rolled, a great wave of sound, swelling and spreading, muffled by distance somewhat, but still distinctly sweet and insistent&#x2014;
+<figure entity="" rend="inline">
 <figDesc>He, watch -ing o-ver Is - ra - el, slumbers not, nor sleeps.</figDesc>
 </figure>
 </p>
@@ -1258,7 +1330,7 @@ sympathy and attention from the good women who had not self-love enough to be wo
 <p>The Tenor lifted his hat, and brushed his hand back over his hair. "Do I believe it in spite of <hi rend="italic">that?</hi> you would say," he answered, considering the girl, with quiet eyes. "Yes, I believe it," he declared, "in spite of <hi rend="italic">that</hi>, which has puzzled older heads than yours."</p>
 <p>With which he turned to retrace his steps, taking up the Litany of the Blessed Virgin once more as he went, the supplication: "<hi rend="italic">Agnus Dei, qui tollis pecc&#x00E1;ta mundi, miser&#x00E9;re nobis</hi>," being audible long after he was out of sight.</p>
 <p>The Boy remained as he had left him for some time, apparently lost in thought; and the girl still stood a little way off in a dejected <pb n="174"/>attitude, her hands clasped before her, her eyes fixed on the ground. She looked ill and spiritless. The Boy, glancing at her carelessly, wondered at the intent expression of her face; he did not perceive that she was praying, but she was.</p>
-<p>The midnight stillness deepened about those two; there was not another living creature to be seen. The irregular old buildings on every side looked ruinous in the shadowy moonlight, and the whole market-place presented to the Boy a picture of desolation which chilled him. He was about to turn away with a last cursory glance at the other solitary figure, when something suddenly occurred which arrested his attention. It seemed to startle him too, for he sprang back, with prompt agility, into a dark doorway behind him, from whence he watched what followed with the keenest interest, being careful, however, to conceal himself the while. He had not felt any movement of pity or kindly compassion for the girl; perfect indifference had succeeded the first sensation of repugnance; he would have left her there to any fate that might await her, and would have expected all right-minded people to do the same. It was therefore with unmitigated astonishment that he beheld the scene which was now being enacted before him. They were no longer alone. A tall and graceful lady of most dignified bearing, with a countenance of peculiar serenity and sweetness, had approached from the opposite direction, and was standing beside the girl, speaking to her evidently, but the boy was too far off to hear what was said. He could see, however, that the girl's whole attitude had changed. She was no longer dejected, but eager; and she gazed in the lady's face as she listened to her words, with an expression of admiration and wonder, one had almost said of adoration, upon her own, as though it were a heavenly visitant who had hailed her. The lady, as she spoke, pointed to a street opposite, and the girl cast a quick glace in that direction; she seemed to be measuring a distance she was impatient to traverse, and moved a step forward at the same time, uttering some short sentence with</p>
+<p>The midnight stillness deepened about those two; there was not another living creature to be seen. The irregular old buildings on every side looked ruinous in the shadowy moonlight, and the whole market-place presented to the Boy a picture of desolation which chilled him. He was about to turn away with a last cursory glance at the other solitary figure, when something suddenly occurred which arrested his attention. It seemed to startle him too, for he sprang back, with prompt agility, into a dark doorway behind him, from whence he watched what followed with the keenest interest, being careful, however, to conceal himself the while. He had not felt any movement of pity or kindly compassion for the girl; perfect indifference had succeeded the first sensation of repugnance; he would have left her there to any fate that might await her, and would have expected all right-minded people to do the same. It was therefore with unmitigated astonishment that he beheld the scene which was now being enacted before him. They were no longer alone. A tall and graceful lady of most dignified bearing, with a countenance of peculiar serenity and sweetness, had approached from the opposite direction, and was standing beside the girl, speaking to her evidently, but the boy was too far off to hear what was said. He could see, however, that the girl's whole attitude had changed. She was no longer dejected, but eager; and she gazed in the lady's face as she listened to her words, with an expression of admiration and wonder, one had almost said of adoration, upon her own, as though it were a heavenly visitant who had hailed her. The lady, as she spoke, pointed to a street opposite, and the girl cast a quick glace in that direction; she seemed to be measuring a distance she was impatient to traverse, and moved a step forward at the same time, uttering some short sentence with
 <pb n="175"/>
 <!---page missing-->
 <pb n="176"/>
