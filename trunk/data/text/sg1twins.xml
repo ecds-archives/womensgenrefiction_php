@@ -88,7 +88,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <change>
 <date>2003-December-10</date>
 <respStmt><name>Erika Farr,</name>
-<resp>project manager.</resp>
+<resp>project manager.</resp></respStmt>
 <item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item>
 </change>
 </revisionDesc>
@@ -97,17 +97,16 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <front>
 <pb/>
 <div id="sg1twins000" type="half-title page">
-<figure enitity="" rend="inline>
-<figDesc>
-</figDesc>
+<figure entity="sg1twinshtp " rend="inline">
+<figDesc>The half-title page for the first volume of Grand's <hi rend="italic">The Heavenly Twins</hi>.</figDesc>
 </figure>
 </div>
-<pb entity=""  n="[i]" pages="Title Page"/>
+<pb entity="sg1twinstp"  n="[i]" pages="Title Page"/>
 <titlePage>
 <docTitle>
 <titlePart type="main">THE HEAVENLY TWINS</titlePart>
 </docTitle>
-<byline>By <lb/><docAuthor>SARAH GRAND</docAuthor> <lb/><hi rend="italic>Author or</hi>
+<byline>By <lb/><docAuthor>SARAH GRAND</docAuthor> <lb/><hi rend="italic">Author or</hi>
  "Ideala, <hi rend="italic">etc., etc.</hi></byline>
 <titlePart type="desc">IN THREE VOLUMES <lb/>VOL. I.</titlePart>
 <epigraph>
@@ -121,8 +120,8 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <pubPlace>London</pubPlace>
 <publisher>William Heinemann</publisher>
 <docDate>1893</docDate>
-<imprimatur>[<hi rend="italic">All rights reserved</hi>]</imprimatur>
 </docImprint>
+<imprimatur>[<hi rend="italic">All rights reserved</hi>]</imprimatur>
 </titlePage>
 <pb n="[iii]"/>
 <div id="sg1twins001" type="epigraph">
@@ -143,16 +142,16 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <l>Welcomed by all that cursed its hour of birth</l>
 <l>And folded in the same encircling arms</l>
 <l>That cast it like a serpent from their hold!</l>
+</lg>
 <bibl>--<author><hi rend="italic">Oliver Wendell
 Holmes</hi></author>.</bibl>
-</lg>
 </q>
 </div>
 <div id="sg1twins002" type="proem" n="Proem">
 <head>PROEM.</head>
-<figure entity="" rend=**>
-<figDesc>
-</figDesc>
+<figure entity="sg1twinsillv" rend="inline">
+<figDesc>A line of music from Mendelssohn's "Elijah," including the
+words: He, watching over Israel, slumbers not, nor sleeps.</figDesc>
 </figure>
 <p>From the high Cathedral tower the solemn assurance floated forth
 to be a warning, or a promise, according to the mental state of those
@@ -278,7 +277,7 @@ ventured to take his name in vain when they were angry, and also to
 call upon him for help, with many apologies, when there was nobody
 else to whom they could apply; although, so long as the current of
 their lives ran smoothly on, they seldom troubled their heads about
-him at all.</q>
+him at all.</p>
 <p>There were deeper natures than those, however, who were not
 content with this small advance, and these last had by degrees, as
 suited their convenience, but, without perceiving it, gradually
@@ -322,7 +321,10 @@ only, when the message sounded, they listened with that full-hearted
 pleasure which is the best praise and thanks. Mendelssohn must have
 felt it when the melody first occurred to him, and the words had
 wedded themselves to the music in his soul!</p>
-<figure></figure>
+<figure entity="sg1twinsillx" rend="inline">
+<figDesc>A line of music with the words: He, watching over Israel,
+slumbers not, nor sleeps.</figDesc>
+</figure>
 <p>And the chime certainly had power to move the hearts of many; but
 it would be hard to say when it had most power or upon
 whom. Doubtless, the majority of those who had ears to hear in the
@@ -509,6 +511,7 @@ they rejected it, the bells would utter their condemnation, and leave
 them to their fate.</p>
 </div>
 </front>
+<body>
 <pb n="3"/>
 <div id="sg1twins000" type="book" n="1">
 <head>BOOK I.
@@ -519,17 +522,17 @@ them to their fate.</p>
 animals, though far from being completely fashioned, afford a more agreeable
 sensation than the full grown; because the Imagination is entertained with the
 promise of something more, and does not acquiesce in the present object of the
-sense.<quote>--<bibl><hi rend="italic">Burke on the Sublime</hi></bibl>.</cit>
+sense.</quote><bibl>--<hi rend="italic">Burke on the Sublime</hi>.</bibl></cit>
 <cit>
 <quote>I am inclined to agree with Francis Galton in believing that education
 and environment produce only a small effect on the mind of any one, and that
-most of our qualities are innate.</quote>--<bibl><hi rend="italic">Darwin</hi></bibl>.<cit>
+most of our qualities are innate.</quote><bibl>--<hi rend="italic">Darwin.</hi></bibl></cit>
 </epigraph>
 <pb n="[3]"/>
 <div id="sg1twins001" type="chapter" n="1">
 <head>THE
-</lb>HEAVENLY TWINS.
-</lb>CHAPTER I.</head>
+<lb/>HEAVENLY TWINS.
+<lb/>CHAPTER I.</head>
 <p>AT nineteen Evadne looked out of narrow eyes at an untried world
 inquiringly. She wanted to know. She found herself forced to put prejudice
 aside in order to see beneath it, deep down into the sacred heart of things,
@@ -780,8 +783,12 @@ happening to find it throwing about, took charge of it, read it with avidity,
 and found for herself a world of thought in which she could breathe
 freely.</p>
 <p><hi rend="italic">The Vicar of Wakefield</hi> was one of her early favourites. She read it several times, and makes mention of it twice in her <hi rend="italic">Commonplace Book</hi>. Her first notice of it is a childish little synopsis, very quaint in its unconscious irony; but interesting, principally from the fact that she was struck even then by the point upon which she afterwards became so strong.</p>
-<q><p>"The Vicar." she says, "was a good man, and very fond of his wife and family, and they were very fond of him, but his wife was queer, and could only read a little. <hi rend="italic">And he never taught her to improve herself although</hi> he had books and was learned.<**ref target="f-18-01">*</ref> He had two daughters who wore spiteful, and did not like other girls to be pretty. They had had taste too, and wanted to go to church overdressed, and thought it finer to ride a plough-horse than walk. It does not say that they ever read anything either. If they had they would have known better. There is a very nasty man in the book called Squire Thornhill, and a nice one, called Sir William Thornhill, who was his uncle. Sir William marries Sophia and Squire Thornhill marries Olivia, although he does not intend to. Olivia was a horrid deceitful girl, and it served her right to get such a husband. They have a brother called Moses, who used to talk philosophy with his father at dinner, and once sold a cow for a gross of green spectacles. A gross is twelve dozen. Of course they were all annoyed, but the Vicar himself was cheated by the same man when he went to sell the horse. He seemed to think a great deal of knowing Latin and Greek, but it was not much use to him then. It was funny that he should be conceited about what he knew himself, and not want his wife to know anything. He said to her once: 'I never dispute your abilities to make a goose pie, and I beg you'll leave argument to me,' which she might have thought rude, but perhaps she was not a lady, as ladies do not make goose pies. I forgot, though, they had lost all their money. They had great troubles, and the Vicar was</p>
-<** id="f-18-01">* This is the point alluded to.</p>
+<q><p>"The Vicar." she says, "was a good man, and very fond of his
+wife and family, and they were very fond of him, but his wife was
+queer, and could only read a little. <hi rend="italic">And he never
+taught her to improve herself although</hi> he had books and was
+learned.<ref target="sg1twinsn01">*</ref><note id="sg1twinsn01" n="1"
+resp="auth" place="foot">*This is the point alluded to.</note> He had two daughters who wore spiteful, and did not like other girls to be pretty. They had had taste too, and wanted to go to church overdressed, and thought it finer to ride a plough-horse than walk. It does not say that they ever read anything either. If they had they would have known better. There is a very nasty man in the book called Squire Thornhill, and a nice one, called Sir William Thornhill, who was his uncle. Sir William marries Sophia and Squire Thornhill marries Olivia, although he does not intend to. Olivia was a horrid deceitful girl, and it served her right to get such a husband. They have a brother called Moses, who used to talk philosophy with his father at dinner, and once sold a cow for a gross of green spectacles. A gross is twelve dozen. Of course they were all annoyed, but the Vicar himself was cheated by the same man when he went to sell the horse. He seemed to think a great deal of knowing Latin and Greek, but it was not much use to him then. It was funny that he should be conceited about what he knew himself, and not want his wife to know anything. He said to her once: 'I never dispute your abilities to make a goose pie, and I beg you'll leave argument to me,' which she might have thought rude, but perhaps she was not a lady, as ladies do not make goose pies. I forgot, though, they had lost all their money. They had great troubles, and the Vicar was</p>
 <pb n="19"/>
 <p>put in prison. He was very ill. but preached to the prisoners, and everybody loved him. I like <hi rend="italic">The Vicar of Wakefield</hi> very much, and if I cannot find another book as nice I shall read it again. <hi rend="italic">Turn, Gentle Hermit</hi>, is silly. I suppose <hi rend="italic">Punch</hi> took Edwin and Angelina out of it to laugh at them."</p></q>
 <p>Quite three years must have elapsed before she again mentions <hi rend="italic">The Vicar of Wakefield</hi>, and in the meantime she had been reading a fair variety of books, but for the most part under schoolroom supervision, carefully selected for her. Some, however, she had chosen for herself&#x2014;during the holidays when discipline was relaxed; but it was a fault which she had to confess, and she does so always, honestly. Lewes' <hi rend="italic">Life of G&#x00F6;ethe</hi> was one of these. She wrote a glowing description of it, at the end of which she says:&#x2014;</p>
@@ -796,7 +803,7 @@ but her <pb n="20"/> father stood ready always, a post of resistance to
 innovation, upon which she could sharpen the claws of her conclusions silently
 whenever they required it.</p>
 <p>When next she mentions <hi rend="italic">The Vicar of Wakefield</hi>, she says expressly:&#x2014;</p>
-<q><p>"I do not remember what I wrote about it the first time I read it, and I will not look to see until I have written what I think now, because I should like to know if I still agree with myself as I was then."</q></p>
+<q><p>"I do not remember what I wrote about it the first time I read it, and I will not look to see until I have written what I think now, because I should like to know if I still agree with myself as I was then."</p>></q>
 <p>And it is interesting to note how very much she does agree with herself as she "was then "; the feeling in fact is the same, but it has passed from her heart to her head, and been resolved by the process into positive opinion, held with conscious knowledge, and delivered with greatly-improved power of expression.</p>
 <q>
 <p>"<hi rend="italic">The Vicar of Wakefield</hi> makes me think a good deal,"
@@ -1145,7 +1152,10 @@ which I ought to have been rigorously repressing."</p>
 <q><p>"The daily life into which people are born, and into which they are absorbed before they are aware, forms chains which only one in a hundred has moral strength enough to despise, and to break when the right time comes&#x2014;when an inward necessity for independent action arises, which is superior to all outward conventionalities."</p></q>
 <p>She stopped here, and pushed the volume away from her. It was the only passage in it which she cared to remember.</p>
 <p>She had lost the confidence of the child by this time, and become humbly doubtful of her own opinion; and instead of summing up <hi rend="italic">Ruth</hi> boldly, as she would have done the year before, she paused now a moment to reflect before she wrote with diffidence:&#x2014;</p>
-<q><p>"The principal impression this book has made upon me is that Mrs. Gaskell must have been a very lovable woman.<ref target="f-41-01">*</ref> The story seems to me long drawn out, and of small significance. It is full of food for the heart, but the head goes empty away, and both should be satisfied by a work of fiction, I think. But perhaps it is my own mood that is at fault. At another time I might have found gems in it which now in my dulness I have failed to perceive."</p></q>
+<q><p>"The principal impression this book has made upon me is that
+Mrs. Gaskell must have been a very lovable woman.<ref
+target="sg1twinsn02">*</ref><note id="sg1twinsn02" n="2" resp="auth"
+place="foot">* George Eliot thought so too, years before Evadne was born, and expressed the thought in a letter in which she also prophesied that <hi rend="italic">Ruth</hi> would not live through a generation. The impression the book made upon Evadne is another proof of prescience in the geat writer.</note> The story seems to me long drawn out, and of small significance. It is full of food for the heart, but the head goes empty away, and both should be satisfied by a work of fiction, I think. But perhaps it is my own mood that is at fault. At another time I might have found gems in it which now in my dulness I have failed to perceive."</p></q>
 <p>Somebody knocked at the door as she blotted the words.</p>
 <p>"Come in, auntie," she said, as if in answer to an accustomed signal; and Mrs. Orton Beg entered in a long, loose, voluminously draped, white wrapper.</p>
 <p>Evadne drew an easy chair to the fire for her.</p>
@@ -1153,7 +1163,6 @@ which I ought to have been rigorously repressing."</p>
 <p>Mrs. Orton Beg was in the habit of coming to Evadne's room every evening when she was at Fraylingay, to chat, or sit silently sociable over the fire with her before saying good night.</p>
 <p>"Do I ever fail you?" she asked, smiling.</p>
 <p>"No. But I have been afraid of the fatal fascination of that great fat foreign Prince. He singled you out for special attention, find I have been jealous."</p>
-<p id="f-41-01">* George Eliot thought so too, years before Evadne was born, and expressed the thought in a letter in which she also prophesied that <hi rend="italic">Ruth</hi> would not live through a generation. The impression the book made upon Evadne is another proof of prescience in the geat writer.</p>
 <pb n="42"/>
 <p>"Well, you need not have been, for he singled me out in order to talk about you. He thinks you are a nice child. You interest him."</p>
 <p>"Defend me!" said Evadne. "But you mistake me, dear aunt. It was not of him I was jealous, but of you. The fat Prince is nothing to me, and you are a very great deal."</p>
@@ -1639,7 +1648,6 @@ former on every possible occasion.</p>
 <p>His visit was to have been for a few days only, but it extended itself to some weeks, at the end of which time Evadne had accepted him, the engagement had been announced in the proper papers, Mrs. Frayling was radiant, congratulations poured in, and everybody concerned was in a state of pleasurable excitement from morning till night.</p>
 <p>Mrs. Frayling was an affectionate woman, and it was touching to see her writing fluent letters of announcement to her many friends, the smiles on her lips broken by ominous quiverings now and then, and a handkerchief held crumpled in her left hand, and growing gradually damper as she proceeded, with the happy tears that threatened her neat epistle with blots and blisters.</p>
 <q>
-<q>
 <p>"It has been the prettiest idyl to us onlookers," she wrote to Lady
 Adeline. "Love at first sight with both of them, and their first glimpse of
 each other was in church, which we all take to be the happiest omen that Gods
@@ -1977,9 +1985,12 @@ moment, and with the desire to go forth and do great deeds of love.</p>
 <p>A gale was blowing without. The old elms in the Close were tossing their stiff bare arms about, the ground was strewed with branches and leaves from the limes; and a watery wintry sun made the misery of the muddy ground apparent, and accentuated the blight of the flowers and torn untidiness of the creepers, and all the items which make autumn gardens so desolate. The equinoctial gales had set in early that year. They began on Evadne's wedding day with a fearful storm which raged all over the country, and burst with especial violence upon Morningquest, and the Wind continued high, and showed no sign of abating. It was depressing weather, and Mrs. Orton Beg sighed more than once unconsciously.</p>
 <p>But presently the Cathedral clock began to strike, and she raised her head
 to listen. One, two, three, four, the round notes fell; then there was a
-pause; and then the chime rolled out over the storm-stained city: <figure>
-<figDesc>He, watch-ing o- ver Is - ra - el, slumbers not, nor
-sleeps.</figDesc> </figure> Mechanically, Mrs. Orton Beg repeated the phrase
+pause; and then the chime rolled out over the storm-stained city:
+<figure entity="sg1twinsillx" rend="inline">
+<figDesc>A line of music with the words: "He, watching over Israel,
+slumbers not, nor sleeps.</figDesc>
+</figure>
+Mechanically, Mrs. Orton Beg repeated the phrase
 with each note <pb n="89"/> as it floated forth, filling the silent spaces;
 and then she awoke with a start to thought once more, and knew that she had
 been a long, long time alone.</p>
@@ -2112,10 +2123,10 @@ gave <pb n="95"/> myself up to it unreservedly. Certainly, I was a
 fool&#x2014;there is no other word for it."</p>
 <p>"But are you married, Evadne?' Mrs. Orton Beg asked in a voice rendered unnatural by the rapid beating of her heart.</p>
 <p>"Let me tell you, auntie, all about it," Evadne answered hoarsely. She drew her chair a little closer to the fire, and spread her hands out to the blaze. There was no other light in the room by this time. The wind without howled dismally still, but at intervals, as if with an effort. During one of its noisiest bursts, the cathedral clock began to strike, and hushed it, as it were, suddenly. It seemed to be listening, to be waiting, and Evadne waited and listened too, raising her head. There was a perceptible, momentary pause, then came the chime, full, round, mournful, melodious, yet glad too, in the strength of its solemn assurance, filling the desolate regions of sorrow and silence with something of hope whereon the weary mind might repose:&#x2014;
-<figure>
-<figDesc>He, watch-ing o- ver Is - ra - el, slumbers not, nor sleeps.</figDesc>
-</figure>
-</p>
+<figure entity="sg1twinsillx" rend="inline">
+<figDesc>A line of music with the words: "He, watching over Israel,
+slumbers not, nor sleeps.</figDesc>
+</figure></p>
 <p>When the last reverberation of the last note had melted out of hearing, Evadne sighed; then she straightened herself, as if collecting her energy, and began to speak.</p>
 <p>"Yes, I am married," she said, "but when I went to change my dress after the ceremony, I found this letter. It was intended, you see, to reach me some days before it did, but unfortunately it was addressed to Fraylingay, and time was lost in forwarding it." She handed it to her aunt, who raised her eyebrows when she saw the writing, as if she recognized it, hastily drew the letter from its envelope, and held it so that the blaze fell upon it while she read. Evadne knelt on the hearthrug, and stirred the fire, making it burn up brightly.</p>
 <pb n="96"/>
@@ -2244,9 +2255,12 @@ my heart swells. I leave all that is inexplicable to Him, and thank Him for the 
 <body>
 <div id="sg1twins018" type="letter">
 <salute>"My poor misguided Child,</salute>
-<p>"Your whole action since your marriage and your extraordinary resolution have occasioned your dear father, your poor husband, and myself the very greatest anxiety and pain. We have grave fears for your sanity. I have never in my life heard of a young lady acting in such a way. Your poor husband has been very sweet and good all through this dreadful trial. He very much fears the ridicule which of course would attach to him if his brother officers hear what has happened; but, so far, I am thankful to say, no inkling of the true state of the case has leaked out. The servants talk, of course, but they <hi rend="italic">know</hi> nothing. What they suspect however, is, I believe, that you have gone out of your mind, and I even ventured to suggest something of the kind to Jenny, who, after all these years, is naturally concerned at the sight of my deep distress. I assure you, I have taken nothing since your letter arrived but a little tea. So do, dear child, end this distressing state of things by returning to your right mind <hi rend="italic">at once</hi>. You are a legally married woman, and you must obey the law of the land; but of course your husband would rather not invoke the law and make a public scandal if he can help it. He does not wish to force your inclinations in any way, and he therefore generously gives you more time to consider. In fact he says: 'She must come back of her own free will.'<ref target="f-107-1">*</ref> And he is as ready, I am sure, as your father and myself are, to forgive you freely for all the trouble and anxiety you have caused him, and is waiting to welcome you to his heart and home with open arms.</p>
+<p>"Your whole action since your marriage and your extraordinary
+resolution have occasioned your dear father, your poor husband, and
+myself the very greatest anxiety and pain. We have grave fears for
+your sanity. I have never in my life heard of a young lady acting in
+such a way. Your poor husband has been very sweet and good all through this dreadful trial. He very much fears the ridicule which of course would attach to him if his brother officers hear what has happened; but, so far, I am thankful to say, no inkling of the true state of the case has leaked out. The servants talk, of course, but they <hi rend="italic">know</hi> nothing. What they suspect however, is, I believe, that you have gone out of your mind, and I even ventured to suggest something of the kind to Jenny, who, after all these years, is naturally concerned at the sight of my deep distress. I assure you, I have taken nothing since your letter arrived but a little tea. So do, dear child, end this distressing state of things by returning to your right mind <hi rend="italic">at once</hi>. You are a legally married woman, and you must obey the law of the land; but of course your husband would rather not invoke the law and make a public scandal if he can help it. He does not wish to force your inclinations in any way, and he therefore generously gives you more time to consider. In fact he says: 'She must come back of her own free will.'<ref target="sg1twinsn03">*</ref><note id="sg1twinsn03" n="3" resp="auth" place="foot">* What he did say exactly was: "She went of her own accord, and she must come back of her own accord, or not at all. Just as she likes, <hi rend="italic">I</hi> shall not trouble about her."</note> And he is as ready, I am sure, as your father and myself are, to forgive you freely for all the trouble and anxiety you have caused him, and is waiting to welcome you to his heart and home with open arms.</p>
 <p>"And, Evadne, remember: a woman has it in her power to change even a reprobate into a worthy man&#x2014;and I know from the way George talks that he is fur from being a reprobate now. And just think what a work that is! The angels in heaven rejoice over the sinner that repents, and you have before you a sphere of action which should gladden your heart to contemplate. I</p>
-<p id="f-107-1">* What he did say exactly was: "She went of her own accord, and she must come back of her own accord, or not at all. Just as she likes, <hi rend="italic">I</hi> shall not trouble about her."</p>
 <pb n="108"/>
 <p>don't deny that there <hi rend="italic">were</hi> things in George's past life which it is very sad to think of, but women have always much to bear. It is our <hi rend="italic">cross</hi>, and you must take up yours patiently and be sure that you will have your reward. <hi rend="italic">Whom the Lord loveth He chasteneth</hi>. I wish now that I had talked to you on the subject before you were married, and prepared you to meet some forms of wickedness in a proper spirit; you would not then have been at the mercy of the wicked woman who has caused all this mischief. She is some clever designing adventuress, I suppose, and she must have told you dreadful things which you should never have heard of at your age, and I suspect that jealousy is at the bottom of it all. She may herself have been cast off in her wickedness for my own sweet innocent child's sake. When I think of all the happiness she has destroyed, of these dark days following such bright propects, I could see her <hi rend="italic">whipped</hi>, Evadne, I could indeed. Everything had arranged itself so beautifully. He is an excellent match. The Irish property, which he <hi rend="italic">must</hi> have, is one of the best in the country, and as there is only one fragile child between him and the Scotch estates, you might almost venture to calculate upon becoming mistress of them also. And then, he certainly is a handsome and attractive man of most charming manners, so what more do you want? He is a good Churchman too. You know how regularly he accompanied you to every service. And, <hi rend="italic">really</hi> if you will just think for a <hi rend="italic">moment</hi>, I am sure you will see yourself that you have made a terrible mistake, and repent while it is called to-day. But we do not blame you entirely, dear. You have surprised and distressed us, but we all freely forgive you, and if you will come back at once, you need fear <hi rend="italic">no</hi> reproaches, for not another word will <hi rend="italic">ever</hi> be said on the subject.&#x2014;I am, dear child,</p>
 <closer>"<salute>Ever your loving Mother,</salute>
@@ -2293,7 +2307,7 @@ my heart swells. I leave all that is inexplicable to Him, and thank Him for the 
 <body>
 <opener>"The Close, Morningquest,
 <dateline>"13th October.</dateline>
-<salute>"Dear Mother,</salute>
+<salute>"Dear Mother,</salute></opener>
 <p>"You say that no girl in your young days would have behaved so outrageously as I am doing. I wish you had said ' so decidedly,' instead of 'outrageously,' for I am sure that any resistance to the old iniquitous state of things is a quite hopeful sign of coming change for the better. We are a long way from the days when it was considered right and becoming for women in our position to sit in their ' parlours,' do Berlin woolwork, and say nothing. We should call that conniving now. But, happily, women are no longer content to be part of the livestock about the place; they have acquired the right of reason and judgment in matters concerning themselves in particular, and the welfare of the world at large. Public opinion now is composed of what <hi rend="italic">we</hi> think, to a very great extent. You remind me of what other women have done, and how patiently they have submitted. I have found the same thing said over and over again in the course of my reading, but I have not yet found any particular mention made of the great good which would naturally have come of all the submission which has been going on for so many centuries, if submission on our part is truly an effectual means of checking sin. On the contrary. St. Monica doubtless marie things pleasanter for her own husband by rewarding him with forgiveness, a happy home, and good nursing, when he returned to her exhausted by vice, but at the same time she set a most pernicious example. So long as men believe that women will forgive anything they will do anything. Do you see what I mean? The mistake from the beginning has been that women have practised self-sacrifice, when they should have been teaching men self-control. You say that I do not know the world, but my father does, and that, therefore, I must let him judge for me. He probably does know the world, but he quite evidently does not know me. Our point of view, you see, is necessarily very different. I have no doubt that Major Colquhoun is agreeable in the temporary good fellowship of the smoking-room, and he is agreeable in the drawing-room also, but society and his own interests require him to be so; it is a trick of manner merely which may conceal the most objectionable mind. Character is what we have most to consider in the choosing of a partner for life, and how are we to consider it except by actions, such as a man's misdeeds, which are specially the outcome of his own individuality, and are calculated in their consequences to do more injury to his family than could be compensated for by the most charming manners in the world.</p>
 <p>"Of course, I deprecate my father's anger, but, I must again repeat, I do not consider that I deserve it.</p>
 <pb n="113"/>
@@ -2360,7 +2374,7 @@ my heart swells. I leave all that is inexplicable to Him, and thank Him for the 
 <p>"Nothing; I wanted to know."</p>
 </div>
 <pb n="121"/>
-<div id="sg1twins020" type="chapter" n="16"/>
+<div id="sg1twins020" type="chapter" n="16">
 <head>CHAPTER XVI.</head>
 <p>WHEN breakfast was over at Fraylingay next morning, and the young people had left the table, Mrs. Frayling helped herself to another cup of coffee, and solemnly opened Evadne's last letter. The coffee was cold, for the poor lady had been waiting, not daring to take the last cup herself, because she knew that the moment she did so her husband would want more. The emptying of the urn was the signal which usually called up his appetite for another cup. He might refuse several times, and even leave the table amiably, so long as there was any left; but the knowledge or suspicion that there was none, set up a sense of injury, unmistakably expressed in his countenance, and not to be satisfied by having more made immediately, although he invariably ordered it just to mark his displeasure. He would get up and ring for it emphatically, and would even sit with it before him for some time after it came, but would finally go out without touching it, and be, as poor Mrs. Frayling mentally expressed it: "Oh, dear! quite upset for the rest of the day."</p>
 <p>On this occasion, however, the pleasure of a wholly new grievance left no space in his fickle mind for the old-worn item of irritation, and he never even noticed that the coffee was done. 'Dear George' sat beside Mrs. Frayling. She kept him there in order to be able to bestow a stray pat on his hand or make him some other sign of that maternal tenderness of which she considered the poor dear fellow stood so much in need.</p>
@@ -2794,13 +2808,11 @@ my heart swells. I leave all that is inexplicable to Him, and thank Him for the 
 <p>"You never seem to be here, somehow," said Diavolo, struggling with a big thought he could not express. "I always feel when you come in as if you were miles and miles away from us. Now, mamma is always close to us, and papa gets quite in the way; but you seem to be"&#x2014;he raised both hands high above his head, with the palms spread outwards, and then let his arms sink to his sides slowly. The gesture expressed an immeasurable distance above and beyond him.</p>
 <p>"Yes," said Angelica, "I feel that too. But sometimes, when there's music and flowers and no light to speak of&#x2014;in church, you know&#x2014;and you feel as if angels might be about, or even the Lord himself, I rise up beside you somehow, and come quite close."</p>
 <p>Lady Fulda's eyes deepened with feeling as Angelica spoke, and drawing the child to her side, she smoothed her hair, and gazed down into her face earnestly, as if she would penetrate the veil of flesh that baffled her when she tried to see clearly the soul of which Angelica occasionally gave her some such glimpse. <pb n="180"/>The old duke glanced round at the clock, and instantly the attentive priest stepped to the window and opened it wide. Then the duke raised his hand as if to enjoin silence, and presently the music of the bells of the city clocks, striking the hour in various tones, and all at different moments, causing a continuous murmurous sea of sound, arose from below. When the last vibration ceased there was a quite perceptible pause. The duke took off his little round black velvet cap, and leant forward, listening intently; Lady Fulda bent her head and her lips moved; the priest folded his hands and looked straight before him with the unconscious eyes of one absorbed in thought or prayer who sees not; the twins, assuming a sanctimonious expression, bowed their hypocritical heads and watched what was going on out of the corners of their eyes. There was a moment's interval, and then came the chime, mellowed by distance, but clear and resonant:
-<figure>
-<figDesc>
-<p>He, watch-ing o-ver</p>
-<p>Is-ra-el,</p>
-<p>slumbers not, nor sleeps.</p>
-</figDesc>
+<figure entity="sg1twinsillx" rend="inline">
+<figDesc>A line of music with the words: "He, watching over Israel,
+slumbers not, nor sleeps.</figDesc>
 </figure>
+</p>
 <p>It was the habit of the old duke to listen for it hour by hour, and while it rang, he, and those of his household who shared his faith, offered a fervent prayer for the restoration of Holy Church.</p>
 <p>Lady Fulda insisted on sending the children home under proper escort. They ttrongly objected. They said they were not going straight home; they had to call on the Bishop of Morningquest.</p>
 <p>"Why are you going to call on the Lishop of Morningquest?" their aunt asked.</p>
@@ -3045,19 +3057,23 @@ Diavolo chanted, accompanying the words with a little dance, in which Angelica, 
 <div id="sg1twins028" type="book" n="2">
 <head>BOOK II.
 <lb/>A MALTESE MISCELLANY.</head>
-<epigraph>DEATH itself to the reflecting mind is less serious than
+<epigraph>
+<cit>
+<quote>DEATH itself to the reflecting mind is less serious than
 marriage. The elder plant is cut down that the younger may have room to
 flourish; a few tears drop into the loosened soil, and buds and blossoms
 spring over it. Death is not a blow, is not even a pulsation; it is a
 pause. But marriage unrolls the awful lot of numberless generations. Health,
 genius, honour are the words inscribed on some; on others are disease,
-fatuity and infamy.--<bibl><hi rend="italic">Walter Savage
-Landor</hi></bibl>.</epigraph>
-<epigraph>THE great leading idea is quite new to me, viz., that during the
+fatuity and infamy.</quote><bibl>--<hi rend="italic">Walter Savage
+Landor.</hi></bibl></cit></epigraph>
+<epigraph>
+<cit>
+<quote>THE great leading idea is quite new to me, viz., that during the
 late ages, the mind will have been modified more thatn the body; yet I had not
 got as far as to see with you, that the struggle between the races of man
 depended entirely on intellectual and <hi rend="italic">moral</hi>
-qualities.--<bibl><hi rend="italic">Darwin: Letter to A.R. Wallace</bibl>.</epigraph>
+qualities.</quote><bibl>--<hi rend="italic">Darwin: Letter to A.R. Wallace</hi>.</bibl></cit></epigraph>
 <pb n="213"/>
 <div id="sg1twins029" type="chapter" n="1">
 <head>CHAPTER I.</head>
@@ -3613,9 +3629,10 @@ and uttered not a word. Yet there was nothing in Colonel Colquhoun's manner, not
 <p>"Who told you we had both&#x2014;refused a clergyman?" Evadne asked.</p>
 <p>"Everybody in Malta knows that St. John proposed to Miss Beale," he answered, "and your father told me about the offer you had. He remarked at the time that girls will only have manly men, and that therefore we soldiers get the pick of them."</p>
 <p>Evadne was silent. She was thinking of something her father had once remarked in her presence on the same subject: "I have observed," he had said, in his pompous way, "that the clergy carry off all the nicest girls. You will see some of the finest, who have money of their own too, marry quite commonplace parsons. But the reason is obvious. It is their faith in the superior moral probity of Churchmen which weighs with them."</p>
-y<p>The Beales went home the following week to prepare for the wedding, which was to take place immediately. They both wrote to Evadne kindly before they left, and she replied in the same tone, but she could not persuade herself to see them again, nor did they wish it.</p>
+<p>The Beales went home the following week to prepare for the wedding, which was to take place immediately. They both wrote to Evadne kindly before they left, and she replied in the same tone, but she could not persuade herself to see them again, nor did they wish it.</p>
 </div>
 <trailer>ENDO F BOOK II.--VOL. I.</trailer>
+</div>
 </body>
 <back>
 <div id="sg1twins045" type="colophon">
