@@ -1,3 +1,99 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./neh-tei.dtd">
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Aunt Anne,, an electronic edition</title>
+<author n="Clifford, W.K., Mrs., d.1929">Mrs. W.K. Clifford</author>
+</titleStmt>
+<extent>550kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2005</date>
+<availability>
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA  30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email:  beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Clifford, W.K., Mrs.</author>. <title>Aunt
+Anne</title>. <pubPlace>New York</pubPlace>:
+<publisher>Harper and Brothers</publisher>, <date>1892</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded.  Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p></samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+     <bibl>
+       <title>Library of Congress Subject Headings</title>
+     </bibl>
+  </taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">unedited</rs>
+<rs type="genre">novel</rs>
+<rs type="geography">Great Britain</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>English literature--19th Century--Fiction.</item>
+<item>Women authors, British--19th Century.</item>
+<item></item>
+<item></item>
+<item></item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2005-February-09</date>
+<respStmt><name>Erika Farr, </name>
+<resp>project manager.</resp></respStmt>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
 <body>
 <pb n="[1]"/><div n="1" type="chapter"><head><l>AUNT ANNE</l><l>CHAPTER I</l></head>
 <p>MR. and MRS. WALTER HIBBERT had been married just four months when Aunt Anne first appeared on the scene. They were at Brighton, whither they had gone from Friday to Tuesday, so that Mr. Hibbert might get braced up after a hard spell of work. Besides doing his usual journalism, he had been helping a friend with a popular educational weekly, and altogether "had slaved quite wickedly," so his wife said. But he had declared that, though he found matrimony, as far as he had gone, very delightful, it had to be paid for, especially at the beginning of its career, when it ran into furniture, linen, plate, and expensive presents to a dear little wife, though the expensiveness of the last he generously kept to himself. So it resulted in the visit to Brighton. They spent the happiest four days in the world there, and felt quite sad when Tuesday morning arrived. But they wisely did their best to forget that the evening train would take them back to London, and resolved that their last day should pass merrily.</p></p>"Suppose we have a long drowsy morning on the pier," she suggested. "Nothing is nicer or more restful than to listen to the band and look down into the water. We needn't see the horrid people--indeed, if we sit on one of
@@ -1000,7 +1096,7 @@ fully. "Dear Aunt Anne!" she said, and that was thanks enough. "I thought, my lo
 <p>"But you are too good, Aunt Anne."</p>
 <p>"It is you who have been too good to me," the old lady answered, tenderly. "And now, my darling, let me take you up to your chamber; it is ready for your reception."</p>
 <p>There was a triumphant note in her voice that prepared Florence for the fire in her grate and the bouquet on the dressing-table, and all the little arrangements that Mrs. Baines had devised to add to her comfort. It was very cheery, she thought; Aunt Anne had a knack of making one enjoy a home-coming. She pulled out Walter's letter and sat for a few moments alone over the bedroom fire, and read it, and kissed it, and put it back into her pocket. Then she looked round the cosey room again, and noticed a little packet on the corner of the drawers. Aunt Anne must have placed it there when she went out of the room. On it was written, <hi rend="italic">For my darling Florence</hi>. "Oh," she said, "it's another present"--and, regretfully, her fingers undid the string. Inside the white paper was a little pin-cushion, covered with blue velvet, and having round it a rim of silver filigree work. Attached to it was a little note, which ran thus:</p>
-<div type="letter"><p>"MY DARLING,--Accept this little token of my love and gratitude. I feel that there is no way in which I can better prove how much I appreciated your generous gift to me than by spending a portion of it on a token of my affection to you. I trust you will honor my little gift with your acceptance."</P></div>
+<div type="letter"><p>"MY DARLING,--Accept this little token of my love and gratitude. I feel that there is no way in which I can better prove how much I appreciated your generous gift to me than by spending a portion of it on a token of my affection to you. I trust you will honor my little gift with your acceptance."</p></div>
 <p>"Oh," said Florence again, in despair, "I wonder if she
 <pb n="122     AUNT ANNE"/>
 has once thought of Madame Celestine's bill or the others. What is the good of giving her money if one gets it back in the shape of presents?"</p>
