@@ -27,7 +27,7 @@
 <resp>Principal Investigators</resp></respStmt>
 </seriesStmt>
 <sourceDesc>
-<bibl><author>Southworth, E.D.E.N.</author> <title>A Tortured Hear,
+<bibl><author>Southworth, E.D.E.N.</author> <title>A Tortured Heart,
 Being Part Second of "The Trail of the Serpent"</title>. <pubPlace>New
 York</pubPlace>:<publisher>A.L. Burt Company</publisher>, <date>1907</date>.</bibl>
 </sourceDesc>
@@ -85,17 +85,48 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </profileDesc>
 <revisionDesc>
 <change>
-<date>2005-March-04</date>
+<date>2005-March-14</date>
 <respStmt><name>Erika Farr, </name>
 <resp>project manager.</resp></respStmt>
 <item>XML tags inserted in compliance with TEI guidelines.</item>
 </change>
 </revisionDesc>
 </teiHeader>
+<text>
+<front>
+<div id="esheart000" type="covers">
+<figure entity="esheartfc" rend="inline">
+<figDesc>The front cover of Southworth's <hi rend="italic">A Tortured Heart</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="eshearttp" pages="Title Page" n="[1]"/>
+<titlePage>
+<docTitle>
+<titlePart type="main">A TORTURED HEART</titlePart>
+<titlePart type="sub">Being the Part Second of "The Trail of the
+Serpent"</titlePart></docTitle>
+<byline>By <docAuthor>MRS. E.D.E.N. SOUTHWORTH</docAuthor>
+<lb/>Author of "Nearest and Dearest," "Little Nea's Engagement,"
+<lb/>"The Lost Lady of Lone," "The Struggle of a Soul," <lb/>"Em,"
+"Em's Husband," Etc.</byline>
+<docImprint>
+<publisher>A.L. BURT COMPANY <lb/>PUBLISHERS</publisher>
+<pubPlace>NEW YORK</pubPlace>
+</docImprint>
+</titlePage>
+<pb n="[2]"/>
+<div id="esheart001" type="advert">
+<figure entity="esheartad" rend="inline">
+<figDesc>Advertisement included in the front of Southworth's <hi rend="italic">A Tortured Heart</hi>.</figDesc>
+</figure>
+</div>
+</front>
+<body>
 <pb n="3"/>
-<p>A TORTURED HEART</p>
-<p>CHAPTER I</p>
-<p>"FOLLOW THIS MAN"</p>
+<div id="esheart002" type="chapter" n="1">
+<head>A TORTURED HEART
+<lb/>CHAPTER I
+<lb/>"FOLLOW THIS MAN"</head>
 <p>"FOLLOW this man."</p>
 <p>Lona Pond, the fair, fragile girl who lay back in a mesmeric trance, heard the words and her fingers trembled.</p>
 <p>Old Nan Crook, the mesmerist, waited, with her eyes fixed upon the girl It was her purpose to send the clairvoyant in quest of the mortal remains of the late Earl of Hawkewood and claim the reward promised for the discovery.</p>
@@ -261,10 +292,10 @@ housekeeper at Hawke Hall gave me a holiday this afternoon, but she bade me be a
 <p>"Very strange--very strange," she muttered to herself. "Has this experiment been a failure, like the other was, or is there a secret hidden under all this show?</p>
 <p>"I never knowed a clare-woy-ant to go off on a false scent in my life before, and it would be odd if this gel was the very fust one to do it.</p>
 <p>"I hev knowed hounds to go off on a false scent afore now; and policemen and detectives is most in general sure to go off on false scents; but I never knowed a clare-woy-ant to do it, never!</p>
-<p>"Now, what's the secret of this gel's disclosures? Let me remember how it was in the fust instance. W'en I fust put her into a trance, I sent her off in search of Mrs. Irvine's body. And she followed of it--not to the bottom of the Demondike, or out with the tide, or on to some lonesome beach; no, indeed. But into a first-class carriage on the express train, and up to a great city where it prospered finely, and</p>
-<p>%"'Dwelt in marble halls,'*</p>
-<p>and where it lived on the fat of the land, and</p>
-<p>*"'Walked in silk attire.'*</p>
+<p>"Now, what's the secret of this gel's disclosures? Let me remember how it was in the fust instance. W'en I fust put her into a trance, I sent her off in search of Mrs. Irvine's body. And she followed of it--not to the bottom of the Demondike, or out with the tide, or on to some lonesome beach; no, indeed. But into a first-class carriage on the express train, and up to a great city where it prospered finely, and
+<q><l>"'Dwelt in marble halls,'</l></q>
+and where it lived on the fat of the land, and
+<q><l>"'Walked in silk attire.'</l></q></p>
 <p>"That didn't look much like being drowned in Demondike and cast up by the waves on some lonesome part of
 <pb n="12     A TORTURED HEART"/>
 the coast! Not a bit! It looked like a scheme, a deception, a conspiracy, or summat of that sort. Ah, if I could only find out the truth about that my fortune would be made! But my mejum failed me just there! Traced her or somebody to some palatial mansion and there lost her! And this palatial mansion might be in London, or Paris, or Rome, or New York, for aught I know.</p>
@@ -273,8 +304,10 @@ the coast! Not a bit! It looked like a scheme, a deception, a conspiracy, or sum
 <p>"I know wot I'll do! I'll put that gel in a trance and send her off arter Ham Gow! He may throw some light on the subject! Besides, I want to hear about him, poor lad! I should have sent her arter him to-day, only I was so anxious to find the earl's body and get the reward that I sent her arter that first (and much I got for my pains), and when she had gone through that search she was too weak to be put into another trance.</p>
 <p>"Heigh-ho! It's a rum world!"</p>
 <p>With this philosophical remark, Old Nan arose and made up the fire in the fireplace, and filled her kettle with water and hung it over the blaze, preparatory to getting her evening meal.</p>
-<p>CHAPTER II</p>
-<p>A TERRIBLE NIGHT AND DAY</p>
+</div>
+<div id="esheart003" type="chapter" n="2">
+<head>CHAPTER II
+<lb/>A TERRIBLE NIGHT AND DAY</head>
 <p>ON the morning succeeding the evening when Isoline Irvine had been frightened nearly out of her senses by a
 <pb n="13     A TORTURED HEART"/>
 real or supposed apparition in the park of Belle Isle, strict inquiries were made among the servants as to whether any of them had been walking in the grounds on that occasion, and it was very satisfactorily ascertained that they were not; on the contrary, that they were all in the servants' hall, engaged in a round game of cards.</p>
@@ -297,9 +330,9 @@ a hassock on the carpet, with a volume of Waverly Novels on her lap, and eyes an
 <p>"Oh, my heart! my heart!--Victoria! Look! look!" she gasped, in suffocating and scarcely articulate tones, as she clutched the young lady's shoulder.</p>
 <p>Lady Victoria, violently dragged from the twelfth to the nineteenth century, raised her dark eyes in questioning amazement.</p>
 <p>She was facing the mirror, in which she now saw reflected a picture that at once fixed her gaze.</p>
-<p>It was the beautiful, pale face of a woman, crowned with</p>
-<p>*Aureole of ebon locks,*</p>
-<p>and looking out from the green shades of the foliage.</p>
+<p>It was the beautiful, pale face of a woman, crowned with
+<q><l>Aureole of ebon locks,</l></q>
+and looking out from the green shades of the foliage.</p>
 <p>With an exclamation of astonishment, Lady Victoria dropped her book and ran down the length of the library toward the bay window.</p>
 <p>But when she reached it the face was gone.</p>
 <p>She threw up the sash and stepped out into the plantation and gazed around, but no sign of a human being was to be seen or heard.</p>
@@ -381,17 +414,27 @@ There will be no danger to me. And now, as I shall be off to the meet to-morrow 
 <p>"From Northumberland. News from Squire Humber, I presume. How did this come?" inquired her grace, as she broke the seal.</p>
 <p>"An office boy brought it over from Hawkeville in the ferryboat, your grace."</p>
 <p>The duchess glanced over the dispatch and then read it aloud to her daughters:</p>
-<p>*"HUMBER HOLD, October 25, 18--.</p>
+<q>
+<text>
+<body>
+<div id="esheart100" type="letter">
+<opener><dateline><name type="place">"HUMBER HOLD</name>, <date>October 25, 18--.</date></dateline></opener>
 <p>"Mr. Humber died here at one o'clock A. M. to-day. I shall remain here until after the funeral, the time of which is not yet fixed. I will write by the first mail.</p>
-<p>"HAWKEWOOD."*</p>
+<closer><signed>"HAWKEWOOD."</signed></closer>
+</div></body></text></q>
 <p>"So he is gone at length, poor old gentleman," said Lady Hawkewood.</p>
 <p>"Is the messenger waiting?" inquired the duchess.</p>
 <p>"Yes, your grace."</p>
 <p>"Then bring me writing materials from the library."</p>
 <p>When the servant had obeyed this order, the duchess wrote a hasty acknowledgment of the telegram, as follows:</p>
-<p>*"CASTLE BELLE ISLE, October 25, 18--.</p>
+<q>
+<text>
+<body>
+<div id="esheart101" type="letter">
+<opener><dateline>"<name type="place">CASTLE BELLE ISLE</name>, <date>October 25, 18--</date>.</dateline></opener>
 <p>"We have just received your message announcing the sorrowful intelligence of Mr. Humber's decease. The duke is absent, but shall be immediately summoned. We all offer our sincere sympathy and await your letter.</p>
-<p>"ELEANOR BELLE ISLE."*</p>
+<closer><signed>"ELEANOR BELLE ISLE."</signed></closer>
+</div></body></text></q>
 <p>The duchess sent this answer by the same boy who brought the dispatch.</p>
 <p>Then she gave orders that a mounted groom should ride full speed to Bowling Green to carry the news to the duke--news that would certainly recall him immediately to the castle.</p>
 <p>"And, oh! may Heaven grant that the messenger may find him before the start!" fervently prayed the duchess. "It may be the means of saving his life, by preventing him from mounting Malignant!" she added.</p>
@@ -432,8 +475,10 @@ of anguish, as he flew to support the tottering form of the duchess, who, livid,
 <p>But the heavy form of the duchess slipped from his embrace upon the floor, at his feet.</p>
 <p>Her son and daughter stooped instantly to raise her.</p>
 <p>But the Duchess of Grand Manors was dead!</p>
-<p>CHAPTER III</p>
-<p>A DAY OF DOOM</p>
+</div>
+<div id="esheart004" type="chapter" n="3">
+<head>CHAPTER III
+<lb/>A DAY OF DOOM</head>
 <p>THERE was no mistaking death in a case like this. In the ghastly hue, in the glazed and fixed eyes, and in the fallen chin, the agonized son and daughter saw the death of their mother!</p>
 <p>Stupefied with sudden sorrow, they tenderly lifted the body, bore it into the adjoining room, laid it on a couch, and knelt beside it, mutely using all those simple means of restoration that first occur to the mind under such circumstances, yet feeling all the while how vain such efforts must be.</p>
 <p>In the midst of their despairing endeavors, Dr. Ellis hurriedly, yet quietly, entered the room.</p>
@@ -573,9 +618,11 @@ That is the reason why I prefer to serve in the army rather than in the navy. Do
 <p>"You will be my wife and go with me to Australia?"</p>
 <p>"Yes," she answered, sweetly and clearly. "I will be your wife and go with you."</p>
 <p>And, not at all suiting the action to the word, she slipped away from his arms and glided back into the house.</p>
+</div>
 <pb n="32     A TORTURED HEART"/>
-<p>CHAPTER IV</p>
-<p>THE LOVERS</p>
+<div id="esheart005" type="chapter" n="4">
+<head>CHAPTER IV
+<lb/>THE LOVERS</head>
 <p>As SOON as Isoline had left him, Cosmo Belle Isle strolled into the house in search of the young duke.</p>
 <p>"I must tell Grand Manors at once. So much is due him. I hope the boy will not consider our action as any disrespect to the memory of the late duke and duchess. He must see the necessity of the course," he said to himself.</p>
 <p>He came upon his cousin wandering aimlessly about the halls and corridors of the castle, and looking very dejected.</p>
@@ -697,8 +744,10 @@ the bill with them," she said to the saleswoman, as she returned the book and pe
 haps, that it was some one who had come about the lady's maid's place.</p>
 <p>"I really do not know, ma'am. She is a stranger to us all. When I inquired her name she said it was of no consequence. Shall I tell her that you are engaged, ma'am?" inquired Mrs. Greylock, who had brought the message.</p>
 <p>"No," said Isoline Irvine. "Show her up."</p>
-<p>CHAPTER V</p>
-<p>A LITTLE LIGHT ON A DARK MYSTERY</p>
+</div>
+<div id="esheart006" type="chapter" n="5">
+<head>CHAPTER V
+<lb/>A LITTLE LIGHT ON A DARK MYSTERY</head>
 <p>A SLENDER girl in deep mourning entered the room, courtesied respectfully, and drew aside her heavy black crape veil, revealing the thin, white face, light-blue eyes and pale-yellow hair of Leonora Pond.</p>
 <p>Miss Irvine arose quickly and held out her hand to her former maid, exclaiming:</p>
 <p>"Lona! Lona Pond, my dear girl, I am so surprised and so pleased to see you. Sit down, child; don't stand. You have had a long walk if you came on foot from Hawkewood," she added, kindly.</p>
@@ -710,7 +759,8 @@ haps, that it was some one who had come about the lady's maid's place.</p>
 <p>"Yes, dear Lona, I heard it, and I should have gone to see you in your trouble but for the double bereavement that afflicted this family at the time and kept me here," said Miss Irvine, with a feeling of compunction at the thought of having neglected the poor orphan in her sorrow.</p>
 <p>The next words of Lona Pond absolved her from blame: "I knew you would have come to me but for the trouble in the castle. And mother's death was very sudden. Apo-
 <pb n="42     A TORTURED HEART"/>
-plexy, Dr. Ellis said it was, and it was all over so soon--funeral and all."</p>
+plexy, Dr. Ellis said it was, and it was all over so soon--funeral and
+all."</p>
 <p>"I am very sorry for you, Lona."</p>
 <p>"I know you are very kind, ma'am. She was only my stepmother, to be sure, and a stepmother ain't like a real mother, and I used to think she was unkind to me; but still she was the only friend and protector I had in the world, and now she's gone, I think that she was not so unkind after all, and that her strictness was meant for my good, and that I myself was often perverse and undutiful. Death opens our eyes sometimes, ma'am, and makes us feel very different toward them that are gone."</p>
 <p>"It does, indeed, Lona! I know that from my own experience. The worst part of our grief for the departed is oftentimes remorse, or, at least, compunction. We are none of us as good as we ought to be to each other, and we never find it out until it is too late. But, Lona, my dear girl, what can I do for you?"</p>
@@ -811,10 +861,14 @@ she wore upon her dark hair a little breakfast cap of white crepe lisse.</p>
 <p>And she laid the blank envelope down on the table and vanished.</p>
 <p>"What does the child mean by such a freak?" murmured the countess, as she took up the blank envelope and drew the inclosure from it.</p>
 <p>Recognizing the handwriting of the earl in the superscription, she frowned, and would have thrown the letter into the fire had not a few words attracted and fixed her attention, as the writer had intended they should.</p>
-<p>These words were as follows: "IMPORTANT. A proposal for the adjustment of our difficulties is submitted within."</p>
+<q><p>These words were as follows: "IMPORTANT. A proposal for the adjustment of our difficulties is submitted within."</p></q>
 <p>Lady Hawkewood now did what she had not done since the beginning of the estrangement between herself and the earl. She opened and read his letter--read it the more willingly that it was couched in the coldest, most formal and businesslike terms.</p>
-<p>"CASTLE BELLE ISLE, Oct. 27, 18-.</p>
-<p>"TO THE COUNTESS OF HAWKEWOOD--MADAM: Your sudden anger, long-continued resentment, and obstinate silence as to the cause of offense, have nearly discouraged me from seeking an explanation with you; but such an
+<q>
+<text>
+<body>
+<div id="esheart102" type="letter">
+<opener><dateline>"<name type="place">CASTLE BELLE ISLE</name>, <date>Oct. 27, 18-</date>.</dateline>
+<salute>"TO THE COUNTESS OF HAWKEWOOD--MADAM</salute>:</opener><p>Your sudden anger, long-continued resentment, and obstinate silence as to the cause of offense, have nearly discouraged me from seeking an explanation with you; but such an
 <pb n="49     A TORTURED HEART"/>
 explanation you must acknowledge to be absolutely necessary in view of the duties we owe to ourselves, our friends and the world.</p>
 <p>"That you have, or that you believe you have, just cause of offense against me is evident.</p>
@@ -823,13 +877,23 @@ explanation you must acknowledge to be absolutely necessary in view of the dutie
 <p>"If I had reason to suppose that I had been injured by any man or woman I should not bury the wrong in my own heart to embitter my own life and destroy my faith in human nature. I should consider such a cause unjust and cruel to the supposed wrongdoer. I should consider that he had the same right to know the nature of the charge against him, that he might defend himself, if he could do so, as the criminal, even the very worst criminal, has to an open trial and a full opportunity of defense.</p>
 <p>"I claim from you, madam, only the right of a fair trial. I protest against being condemned unheard.</p>
 <p>"Give me an interview, arraign me, and if I plead guilty, or should be proved guilty of any offense for which I should forfeit your esteem and confidence, I will submit to any penalty in the form of separation or divorce that you may please to adjudge.</p>
-<p>"Pending your action, I remain, madam, your most obedient servant, HAWKEWOOD."</p>
+<closer>"Pending your action, <salute>I remain, madam, your most
+obedient servant,</salute> <signed>HAWKEWOOD.</signed>"</closer>
+</div></body></text></q>
 <p>The countess read this strange letter quite through. Then holding it in her hand, upon her lap, she mused upon it for some moments.</p>
 <p>"The most reckless letter, under the circumstances, that I ever read!" she muttered to herself. "Does he not know why I will not associate with him any longer? Does not his conscience warn him? Does he pretend that he wants an explanation, because he believes that I will not have the courage to give one? Oh! I have but little courage for such a terrible ordeal!" she added, with a shudder; "but whether he really desires an interview with an explanation, or whether he only pretends that he does, in the belief that I am afraid to make one, and that he will in this manner place me at disadvantage--one thing is cer-
 <pb n="50     A TORTURED HEART"/>
-tain: he has uttered an unanswerable argument, given a convincing reason why I should not condemn him unheard; but give him the felon's privilege of defending himself! He cannot do it, of course! Neither could the wife poisoner, who was executed last week, but who had his trial all the same! Yes, Lord Hawkewood, you shall have your will! I will arraign you before me to answer for the murder of the late earl!"</p>
-<p>CHAPTER VI</p>
-<p>*THE SECRET OUT</p>
+tain: he has uttered an unanswerable argument, given a convincing
+reason why I should not condemn him unheard; but give him the felon's
+privilege of defending himself! He cannot do it, of course! Neither
+could the wife poisoner, who was executed last week, but who had his
+trial all the same! Yes, Lord Hawkewood, you shall have your will! I
+will arraign you before me to answer for the murder of the late
+earl!"</p>
+</div>
+<div id="esheart007" type="chapter" n="6">
+<head>CHAPTER VI
+<lb/>THE SECRET OUT</head>
 <p>THE countess arose and touched the bell.</p>
 <p>She looked very pale and grim. Her naturally bright and beautiful face was blanched and fixed as in the stony rigidity of death.</p>
 <p>Mrs. Greylock entered the room.</p>
@@ -964,8 +1028,10 @@ time, my eyes growing accustomed to the obscurity, I saw that the furniture was 
 my nerves were still in a shaken condition, I felt deeply humiliated by the memory of my weakness of the preceding night, and did not like to expose that weakness to the comments--perhaps to the contempt--of others. In the second place, by acknowledging my nocturnal visit to my cousin's chamber, and my discovery of the murder, which I had failed at the moment to reveal, I must have laid myself open to the darkest suspicions, if not to immediate arrest; for it is a maxim in law, that when a murder has been committed by an unknown hand, we are to look for the murderer among those who are to be most benefited by the death of the victim. Now, who was the party most to be benefited by the death of the earl? Myself, his heir and successor. My reflection upon these facts sealed my lips on the subject of my nocturnal adventure. Fortunately, no one had the slightest idea that I had anything to testify in regard to that nights tragedy, and so no one called me at the inquest. Nor, indeed, would my testimony, if given, have thrown the least light on the mystery. I had been the first to discover the murder--that was all."</p>
 <p>As the earl finished speaking he attempted to take his wife's hand; but she withdrew it gently, "saying, with a sigh:</p>
 <p>"For all that, I wish you had roused the household when you first made the discovery."</p>
-<p>CHAPTER VII</p>
-<p>*LOVERS AND HUSBANDS</p>
+</div>
+<div id="esheart008" type="chapter" n="7">
+<head>CHAPTER VII
+<lb/>LOVERS AND HUSBANDS</head>
 <p>After all, the reconciliation between the husband and wife was but a superficial one.</p>
 <p>She assented to every measure he proposed, but in a cool and indifferent manner. She agreed to return with him to Hawkewood Hall, to live in retirement, which her own physical condition, no less than the very recent decease of her parents, rendered necessary and proper--until the meeting of Parliament should summon the earl to London, when, if all should be well with her, they would go for the season to their town house in Piccadilly.</p>
 <pb n="61     A TORTURED HEART"/>
@@ -1148,7 +1214,7 @@ Castle Belle Isle in time for the first train, and had gone into the second-clas
 <p>"Oh, yes, of course. But do you know who you are going to take out in your ship?"</p>
 <p>"Our regiment is going. I don't know any others."</p>
 <p>"Well, then, listen to this--the whole of it," said the duke. And he read as follows:</p>
-<p>"MATRIMONIAL AND OFFICIAL.--The marriage of Belmont, Viscount Seyres, with Mary, daughter of the late Rev. James Smith, and grand-niece and heiress of the late Maria, Princess Zavieski, is fixed for the 28th instant.</p>
+<q><p>MATRIMONIAL AND OFFICIAL.--The marriage of Belmont, Viscount Seyres, with Mary, daughter of the late Rev. James Smith, and grand-niece and heiress of the late Maria, Princess Zavieski, is fixed for the 28th instant.</p></q>
 <p>"The viscount has been recently appointed Governor of Tasmania, and will sail, with his bride and their suit, on the <hi rend="italic">Australasian</hi>, which leaves Portsmouth on the first of December, proximo. The cabins of the government ship have been fitted up in elegant style for the accommodation of the new governor and his party."</p>
 <p>"There! what do you think of that? Why, Cosmo, you and Mrs. Belle Isle will not only have the honor of the governor's company, but the delight of the woman's, who,
 <pb n="73     A TORTURED HEART"/>
@@ -1160,15 +1226,17 @@ by refraining from matrimony during the life of her aunt, deprived yourself of t
 <p>Our party arose in haste. Trains do not wait for tender, lingering adieux. Steam has no sentiment of its own, and no consideration for other people's.</p>
 <p>Hasty, earnest good-bys were exchanged. Children were kissed in such a hurry that the salute was more like an assault than a caress.</p>
 <p>And almost before the little bride could collect her scattered faculties she found herself seated in a first-class railway carriage, with her husband beside her, and her maid before her, being whirled onward at the rate of sixty miles an hour.</p>
-<p>CHAPTER VIII</p>
-<p>*"THE DEAD ALIVE"</p>
-<p>THERE was no one else in the compartment, and the bridegroom would gladly have dispensed with the company of the lady's maid, so that he might have enjoyed a <hi rend="italic>t&ecirc;te-&agrave;-t&ecirc;te</hi> journey with his bride. But by no word or look did he express this feeling. He was much too refined and amiable to criticise any arrangement made by her.</p>
+</div>
+<div id="esheart009" type="chapter" n="8">
+<head>CHAPTER VIII
+<lb/>"THE DEAD ALIVE"</head>
+<p>THERE was no one else in the compartment, and the bridegroom would gladly have dispensed with the company of the lady's maid, so that he might have enjoyed a <hi rend="italic">t&ecirc;te-&agrave;-t&ecirc;te</hi> journey with his bride. But by no word or look did he express this feeling. He was much too refined and amiable to criticise any arrangement made by her.</p>
 <p>By some fine sympathy she discovered his hidden annoyance, and bending toward him, said in a low tone:</p>
 <pb n="74     A TORTURED HEART"/>
 <p>"I have Lona Pond in here with us, because whatever she may be in years, she is but a child in intellect, and not to be trusted to travel alone in a second-class carriage. You do not mind, dear, do you?"</p>
 <p>"Oh, no, not at all," returned Cosmo, who thereupon resolved that he would "not mind" any arrangement his "angel" might be pleased to make on that happy day.</p>
 <p>Lona Pond had not heard one word of the conversation of which she had been the subject.</p>
-<p>Instinctively feeling that she was an intruder upon a bridal <hi rend="italic>t&ecirc;te-&agrave;-t&ecirc;te</hi> , notwithstanding that she was there by her mistress' direction, the girl had seated herself as far away from the newly married pair as the limited dimensions of the compartment would permit, had shrunk into her corner, made herself as small and insignificant as possible, and persistently looked out of the little window beside her on the expanse of the sea, beside which the railroad ran for many a mile.</p>
+<p>Instinctively feeling that she was an intruder upon a bridal <hi rend="italic">t&ecirc;te-&agrave;-t&ecirc;te</hi> , notwithstanding that she was there by her mistress' direction, the girl had seated herself as far away from the newly married pair as the limited dimensions of the compartment would permit, had shrunk into her corner, made herself as small and insignificant as possible, and persistently looked out of the little window beside her on the expanse of the sea, beside which the railroad ran for many a mile.</p>
 <p>It was a short, swift, and uneventful journey.</p>
 <p>After a ride of five hours the party arrived about dusk at Portsmouth, where Mr. Belle Isle engaged rooms at the Fountain Hotel.</p>
 <p>It wanted a week now to the time of embarkation.</p>
@@ -1238,8 +1306,10 @@ passed?" she inquired, as she sat down on the short sofa opposite her berth.</p>
 <p>"Mother!"</p>
 <p>"My child! my child! how came you here?"</p>
 <p>"Mother! Mother! Mother!"</p>
-<p>CHAPTER IX</p>
-<p>*MOTHER AND DAUGHTER</p>
+</div>
+<div id="esheart010" type="chapter" n="9">
+<head>CHAPTER IX
+<lb/>MOTHER AND DAUGHTER</head>
 <p>WITH that agonized cry of strangely mingled terror, joy, and amazement, Isoline sank down at her mother's feet and dropped her head in her mother's lap.</p>
 <p>Yet she was not so utterly overcome by the shock of this discovery as might have been anticipated. Perhaps the "apparition" that had startled her on three several occasions had also secretly prepared her for this most strange <hi rend="italic">d&eacute;nouement</hi>.</p>
 <pb n="79     A TORTURED HEART"/>
@@ -1339,8 +1409,10 @@ Once in the night, on the terrace at Castle Belle Isle, and once at sunset, look
 <p>"I misunderstood you, mamma. I have misunderstood, I have been misinformed about many matters. I have been led to believe that 'Miss Smith' never married; that her inheritance of the great Zavieski estate was made conditional upon her remaining unmarried during the lifetime of the testator," said Isoline, gravely, for she could not see how this lady could possibly come blameless out of this dark affair which looked so like--felony.</p>
 <p>"Isola," said the viscountess, "you have told me, at my request, all that you remember of our joint lives. Now I will supplement that by telling you all that I remember of mine."</p>
 <p>"If you please, mamma," said the girl, with a deep sigh.</p>
-<p>CHAPTER X</p>
-<p>*A TEMPTED LIFE</p>
+</div>
+<div id="esheart011" type="chapter" n="10">
+<head>CHAPTER X
+<lb/>A TEMPTED LIFE</head>
 <p>"You know that I was the only child of the late Rev. James Smith, curate of St. Peter's Church, Lambeth, and that I lost both my parents in early childhood."</p>
 <pb n="86     A TORTURED HEART"/>
 <p>"I have often heard you say so, mamma."</p>
@@ -1444,8 +1516,10 @@ remember that night of woe we spent there together, when you could not understan
 <p>"My agony arose from the feeling that it was the last night we should ever pass together. In brief, as soon as you had left me and had gone to bed and to sleep, I arose and made my preparations for departure. I wrote a note to leave with you, to lead you to suppose that I was going in the early morning to Castle Belle Isle, on important business. I went, in fact, as far as Demondike, where I stayed long enough to manufacture evidence of my death by accidental drowning--that evidence which proved so conclusive to the coroner's jury that they brought in a verdict 'in accordance with the facts.'</p>
 <p>"In the course of that morning's walk, in the darkness, before day, I met but one person, Dennis Prout, the coast guardsman, who was on his heat. He turned the bull's-eye of his lantern full upon me, and, seeing that I was not 'a suspicious character,' begged my pardon and passed on out of sight. After which I left the bridge and walked to the Hawkeville railway station, where, closely veiled, I took a ticket for the early express to London, where, first of all, I went to a mourning outfitting establishment, got a proper dress, and then proceeded to the Palace Zavieski, where I arrived, apparently in answer to the notice that I knew must have been sent to Osnik, but which had not had time to reach me at Hawkeville.</p>
 <p>"I was in good time to attend the funeral of my aunt and the reading of the will, which constituted me her sole heiress. I entered into undisputed possession of my enormous fortune."</p>
-<p>CHAPTER XI</p>
-<p>*BERRY'S DEADLY PERIL</p>
+</div>
+<div id="esheart012" type="chapter" n="11">
+<head>CHAPTER XI
+<lb/>BERRY'S DEADLY PERIL</head>
 <p>"I ENTERED into undisputed possession of my estate," continued the lady, "and yet I held it not in peace! I was haunted with the fear of recognition by some of the people whom I had met in the autumn, or the Christmas parties
 <pb n="97     A TORTURED HEART"/>
 at Castle Belle Isle, and whom I might happen to meet in London.</p>
@@ -1558,8 +1632,10 @@ Would you bring your mother to a felon's dock? Condemn her to a felon's fate?"</
 appetite, for the motion of the ship was beginning to affect them all.</p>
 <p>Isoline was glad of the excuse of seasickness to retire from the table into the solitude of her own stateroom, where not even her husband intruded upon her, for duty called him elsewhere, nor her maid, for the latter, like most of her class, was the first to succumb to the malady of the sea and turn to her berth.</p>
 <p>And for several days from this Isoline was confined to her stateroom with severe indisposition.</p>
-<p>CHAPTER XII</p>
-<p>*THE FEARS OF A GUILTY ONE</p>
+</div>
+<div id="esheart013" type="chapter" n="12">
+<head>CHAPTER XII
+<lb/>THE FEARS OF A GUILTY ONE</head>
 <p>MORE than ten days passed before the daughter saw her mother again. Isoline lay in her berth, prostrated with nervous exhaustion.</p>
 <p>She was suffering much more in mind than in body, but all her illness was set down to the account of seasickness.</p>
 <p>Lady Seyres sent her own maid, Mrs. Lowe, every day, to see Mrs. Belle Isle and to inquire after her health.</p>
@@ -1624,11 +1700,13 @@ most extraordinary likeness without detecting identity between them.</p>
 <p>To lose them! To forfeit the place she held in her husband's heart! There was, indeed, madness in the thought.</p>
 <p>Yet this, she felt, must be the penalty which, sooner or later, she must pay for the fraud she had committed.</p>
 <p>Her threat of suicide was no idle one. She would not have survived dishonor. She was one of those women of whom the great poet wrote. Like her:</p>
-<p>*"That living, sinful thing</p>
-<p>Whose every passion was a sting</p>
-<p>Which urged to guilt, but could not face</p>
-<p>That guilt's detection and disgrace."</p>
-<p>She had begged of her wronged, unhappy daughter a respite until the ship should reach port. But then--what then? She did not know. She only knew that she had the</p>
+<q>
+<lg>
+<l>"That living, sinful thing</l>
+<l>Whose every passion was a sting</l>
+<l>Which urged to guilt, but could not face</l>
+<l>That guilt's detection and disgrace."</l></lg></q>
+<p>She had begged of her wronged, unhappy daughter a respite until the ship should reach port. But then--what then? She did not know. She only knew that she had the
 <pb n="111     A TORTURED HEART"/>
 respite, which was getting shorter and shorter as the ship neared her destination.</p>
 <p>Meanwhile, the unhappy woman was almost a self-condemned prisoner.</p>
@@ -1676,8 +1754,10 @@ her several hours, describing the terrific scenery of the coast she had viewed, 
 <p>While doing so she perceived that the slow, laborious motion of the great ship had entirely ceased and that the <hi rend="italic">Australasian</hi> was gliding along as swiftly and smoothly as a steamboat on a river.</p>
 <p>This circumstance, taken in connection with the bustle in the cabin outside, revealed to her the fact that the ship had entered Derwent River and was very near port, and that the passengers were preparing to land.</p>
 <p>"The day of judgment has come," she said.</p>
-<p>CHAPTER XIII</p>
-<p>*"ALL IS OVER"</p>
+</div>
+<div id="esheart014" type="chapter" n="13">
+<head>CHAPTER XIII
+<lb/>"ALL IS OVER"</head>
 <p>Isoline hurried through her simple toilet and went up on deck.</p>
 <p>What a wonderful change! What a delightful scene met her view!</p>
 <p>Had they passed out of Purgatory into Paradise during the night? The dark, "stern and rockbound coast"--the dread, frowning, threatening coast which seemed to inclose all imaginable horrors, and along which they had sailed all day and night--was left far behind, quite out of sight, and the ship rode at anchor in a beautiful little cove at the head of which stood Hobart Town, picturesquely built on rising ground and half encircled by an amphitheater of richly wooded hills, beyond which were lofty mountains whose blue summits towered to the clouds.</p>
@@ -1756,13 +1836,34 @@ husband--not with longing, but with dread. She prayed--prayed earnestly--that so
 <p>Oh, how she wished, in the depths of her heart, that something might happen!</p>
 <p>While she sat thus a chambermaid came to her room bearing a note, which the girl told the lady had been brought by a soldier from the barracks, and that he would wait for an answer.</p>
 <p>Isoline opened the envelope and read:</p>
-<p>*"OFFICERS' MESSROOM, HOBART TOWN</p>
-<p>BARRACKS, Thursday Evening.</p>
-<p>"DEAREST LOVE: I feel so annoyed to find that I cannot get leave tonight. I am on duty here and cannot get away to see you until morning. Keep Lona Pond in your room all night, and see that the fastenings of your doors and windows are secure. This I advise merely to make 'assurance doubly sure.' You need not be afraid. You are quite safe. Heaven bless you. COSMO."</p>
+<q>
+<text>
+<body>
+<div id="esheart103" type="letter">
+<opener><dateline>"OFFICERS' MESSROOM, <name type="place">HOBART TOWN</name><lb/>
+BARRACKS, Thursday Evening.</dateline>
+<salute>"DEAREST LOVE</salute>:</opener> <p>I feel so annoyed to find
+that I cannot get leave tonight. I am on duty here and cannot get away
+to see you until morning. Keep Lona Pond in your room all night, and
+see that the fastenings of your doors and windows are secure. This I
+advise merely to make 'assurance doubly sure.' You need not be
+afraid. You are quite safe. Heaven bless you.</p>
+<closer><signed> COSMO."</signed></closer>
+</div></body></text></q>
 <p>"Another respite!" said Isoline to herself, as she heaved a deep sigh--not of disappointment, but of relief.</p>
 <p>She sat down and penned the following lines:</p>
-<p>*"ROYAL VICTORIA HOTEL, Thursday Evening.</p>
-<p>"MY OWN DEAREST ONE: Do not give yourself a moment's uneasiness. I am not afraid to stay here with Lona Pond in this well-filled house. If circumstances permitted I would like never, never to be parted from you even for an hour. But when duty interferes to separate us for a few hours I must not, and I do not, complain. May Heaven bless you also! ISOLINE."</p>
+<q>
+<text>
+<body>
+<div id="esheart104" type="letter">
+<opener><dateline><name type="place">"ROYAL VICTORIA HOTEL</name>, Thursday Evening.</dateline>
+<salute>"MY OWN DEAREST ONE</salute>:</opener> <p>Do not give yourself
+a moment's uneasiness. I am not afraid to stay here with Lona Pond in
+this well-filled house. If circumstances permitted I would like never,
+never to be parted from you even for an hour. But when duty interferes
+to separate us for a few hours I must not, and I do not, complain. May
+Heaven bless you also!</p><closer><signed> ISOLINE."</signed></closer>
+</div></body></text></q>
 <pb n="120     A TORTURED HEART"/>
 <p>She sent this note down by the chambermaid to the soldier who was waiting to take it to the barracks.</p>
 <p>And Isoline breathed again.</p>
@@ -1771,12 +1872,20 @@ husband--not with longing, but with dread. She prayed--prayed earnestly--that so
 <p>Isoline took the letter and recognized her mother's handwriting.</p>
 <p>She opened it "in tremor and in fear."</p>
 <p>She read:</p>
-<p>*"GOVERNMENT HOUSE, Thursday Evening.</p>
-<p>"ISOLINE: I know that your husband has been occupied all day, so that you have had no opportunity of confiding to him the dreaded secret you feel it your duty to tell, even at the price of your mother's life and honor. I know also that Lieut. Belle Isle is on duty at the barracks, and that you are alone at your hotel, and that you will have no occasion to make your communication to him until to-morrow morning.</p>
+<q>
+<text>
+<body>
+<div id="esheart105" type="letter">
+<opener><dateline>"<name type="place">GOVERNMENT HOUSE</name>, Thursday Evening.</dateline>
+<salute>"ISOLINE</salute>:</opener> <p>I know that your husband has been occupied all day, so that you have had no opportunity of confiding to him the dreaded secret you feel it your duty to tell, even at the price of your mother's life and honor. I know also that Lieut. Belle Isle is on duty at the barracks, and that you are alone at your hotel, and that you will have no occasion to make your communication to him until to-morrow morning.</p>
 <p>"I also am alone in my private apartments, his excellency being closeted with some gentlemen for the evening.</p>
 <p>"Now, I must have a <hi rend="italic">t&ecirc;te-&agrave;-t&ecirc;te</hi>with you this very night. I have received by the <hi rend="italic">Labrador</hi> the most startling news from England, which will profoundly affect my destiny and yours. I must impart this news to you at once, before you have any explanations on a certain subject with your husband.</p>
 <p>"Come to me without delay. I send a carriage for you.</p>
-<p>"You may bring your maid, if you please; but if you do, you must leave her in the carriage outside while you come in to me. Come quickly to your sorely tried but still affectionate mother, M. SEYRES."</p>
+<p>"You may bring your maid, if you please; but if you do, you must
+leave her in the carriage outside while you come in to me. Come
+quickly to your sorely tried but still affectionate mother,</p>
+<closer><signed> M. SEYRES</signed>."</closer>
+</div></body></text></q>
 <p>Isoline folded the note and put it in her pocket, summoned her own maid, and said:</p>
 <p>"Give me my traveling hat and sacque, and then get ready quickly to attend me. I am going out for a drive."</p>
 <p>The astonished girl was too respectful to express her feelings on this seemingly strange resolution of her mis-
@@ -1813,9 +1922,13 @@ a fraud that, if brought home to me, would be felony, punishable with transporta
 <pb n="123     A TORTURED HEART"/>
 <p>The viscountess turned up the light of the moderator lamp on the sofa stand and drew a letter from the pocket of her ruby velvet dress.</p>
 <p>"It is from Poinsett, poor man! He thought I would be quite overwhelmed by the news he had to tell me. He little knew what a deliverance it would be. Listen:</p>
-<p>*"'LINCOLN'S INN FIELDS, LONDON,</p>
-<p>Dec. 15, 18--.</p>
-<p>"MY DEAR MADAM: I fear the announcement I am about to make will fill you with as much surprise and distress as I myself experienced on first discovering the facts.</p>
+<q>
+<text>
+<body>
+<div id="esheart106" type="letter">
+<opener><dateline>"'<name type="place">LINCOLN'S INN FIELDS, LONDON,</name>
+<date>Dec. 15, 18--.</date></dateline>
+<salute>"MY DEAR MADAM</salute>:</opener> <p>I fear the announcement I am about to make will fill you with as much surprise and distress as I myself experienced on first discovering the facts.</p>
 <p>"'You may remember that on the occasion of the reading of the will of my late client, Maria, Princess Zavieski, I informed you that I had not been employed to draw up that will, and that my father and predecessor had drawn it up, under the immediate verbal instructions of the princess, and that the custody of the will had descended to me with that of all other documents relating to the Zavieski estate, which came to me with the business of my father.</p>
 <p>"'At the time that I produced this will, after the funeral of the late princess, I had not the slightest suspicion that a later will existed.</p>
 <p>"'Last week, however, on opening a box containing some old leases to which I wished to refer, I found, to my astonishment, a will dated some five years later than the one under which you inherited the whole property.</p>
@@ -1824,7 +1937,10 @@ a fraud that, if brought home to me, would be felony, punishable with transporta
 <p>"'However, the present will is the only one valid in law, and under it the nephew by marriage of the late Princess Zavieski--Lieut. the Hon. Cosmo Belle Isle--inherits half the estate.</p>
 <p>"'I am really very sorry for this on your account.</p>
 <pb n="124     A TORTURED HEART"/>
-<p>"'Waiting your instructions in the premises, I am, madam, your obedient servant, PETER POINSETT.'</p>
+<closer>"'Waiting your instructions in the premises, <salute>I am,
+madam, your obedient servant,</salute> <signed>PETER
+POINSETT</signed>.'</closer>
+</div></body></text></q>
 <p>"There!" said the viscountess, "that is the lawyer's letter. I have the legal right to one-half my late aunt's estate, for it was left me unconditionally. Cosmo Belle Isle has a legal right to the other half, and to no more. So he will not be wronged out of a farthing. He will, of course, receive the rents and the interest of invested funds to the amount of half the income of the estates for the last year, and an equal share of the real estate and capital as soon as the transfer can be made. So you see, Isoline, you have not the least occasion to denounce your mother to your husband," concluded the lady.</p>
 <p>"No, I have not, And, oh! how I thank Heaven for this deliverance!" exclaimed Isoline, bursting into tears and sobbing for joy.</p>
 <p>"Of course, I have a confession to make to my own husband--a most humiliating confession indeed, which this new will at once forces upon me and facilitates," said the viscountess, in a grave tone.</p>
@@ -1877,7 +1993,7 @@ latest copy of the <hi rend="italic">London Times</hi>, that had come out in the
 <p>"I have unexpectedly come into a fortune, I fancy!" he continued.</p>
 <p>"What about it?" inquired the young lady, with a shrewd suspicion of the truth, inspired by the knowledge she already possessed.</p>
 <p>"Listen!" exclaimed Cosmo, and he proceeded to read the following paragraph:</p>
-<p>"It is rumored that a second will of the late Princess Zavieski has been found, of a later date than the one which was read after her funeral, which it supersedes. By this will the enormous fortune of the deceased princess is bequeathed equally and unconditionally to her grandniece, Mary Smith (now Viscountess Seyres) and Lieut. the Hon. Cosmo Belle Isle, who is her nephew by marriage."</p>
+<q><p>"It is rumored that a second will of the late Princess Zavieski has been found, of a later date than the one which was read after her funeral, which it supersedes. By this will the enormous fortune of the deceased princess is bequeathed equally and unconditionally to her grandniece, Mary Smith (now Viscountess Seyres) and Lieut. the Hon. Cosmo Belle Isle, who is her nephew by marriage."</p></q>
 <p>"There! What do you think of that, my dear?" inquired the young man, lifting his candid blue eyes from the paper when be had finished reading the paragraph.</p>
 <p>"Cosmo, I have heard it before," replied the truthful Isoline, being thus appealed to.</p>
 <p>"You have heard it before!" exclaimed the lieutenant, in surprise.</p>
@@ -1902,8 +2018,12 @@ latest copy of the <hi rend="italic">London Times</hi>, that had come out in the
 <p>The last question was addressed to Miss Pond, who had put her head into the door.</p>
 <p>"If you please, sir, it is the soldier from the government house. He has brought a note for my mistress," answered the girl, as she walked across the room and laid a folded paper in the lap of the lady.</p>
 <p>Isoline opened it and read:</p>
-<p>*"GOVERNMENT HOUSE, Friday Morning.</p>
-<p>"ISOLINE: All is over! I have had a full explanation with Lord Seyres this morning.</p>
+<q>
+<text>
+<body>
+<div id="esheart107" type="letter">
+<opener><dateline>"<name type="place">GOVERNMENT HOUSE</name>, Friday Morning.</dateline>
+<salute>"ISOLINE</salute>:</opener> <p>All is over! I have had a full explanation with Lord Seyres this morning.</p>
 <p>"Oh! he has forgiven me! He has forgiven me like his own noble and magnanimous self!</p>
 <p>"But I am overwhelmed with sorrow and humiliation! For I know now through the deep grief that it has caused him how great my sin has been! And though he is more deeply grieved than angered, and though, having once forgiven me, he will never, never. by word or look, reproach me with my fault, yet I feel and know that I have fallen so far beneath his esteem that I can never, never be reinstated in it!</p>
 <p>"Oh, it is bitter! It is passing bitter!</p>
@@ -1912,10 +2032,12 @@ latest copy of the <hi rend="italic">London Times</hi>, that had come out in the
 <p>"'But we must not let the guiltless young people suffer for our own misfortunes. Send for your poor daughter and her husband. See them alone at first. It will be less embarrassing. I will see them later.'</p>
 <p>"Yes, Isoline, those were his words! I never loved and honored him so much as now, when, oh, my soul! I have forfeited his good opinion forever!</p>
 <p>"He has gone out and left me here to receive you and Cosmo. Come at once and bring him to your poor mother.</p>
-<p>*"M. SEYRES.</p>
+<closer><signed>"M. SEYRES.</signed></closer></div>
 <pb n="131     A TORTURED HEART"/>
+<div id="esheart108" type="postscript">
 <p>"P. S. Show Cosmo this letter if you will, and prepare him, as you come on, for what he is to see and hear.</p>
-<p>*"M. S."</p>
+<closer><signed>"M. S."</signed></closer>
+</div></body></text></q>
 <p>Isoline finished and folded the letter, with a deep sigh.</p>
 <p>"That is a long note, my love! Who is it from and what is it about--if I may be permitted to ask you? You need not answer unless you like," said Lieut. Belle Isle, in a light and bantering tone, for the young fellow felt very gay and happy over his unexpected inheritance of a fortune.</p>
 <p>"It is from my moth--from the Viscountess Seyres. She wants me immediately at the government house. And you will escort me there, if you please, dear," said Isoline, with some embarrassment.</p>
@@ -1960,8 +2082,10 @@ as Mrs. Berners Irvine, so that she might appear in London as Miss Smith, and cl
 <p>"What induced her ladyship at last to divulge the secret?"</p>
 <p>"The news of the discovery of the second will, and also the knowledge that it could no longer be kept hidden," said Isoline.</p>
 <p>As she spoke the carriage drew up before the government house.</p>
-<p>CHAPTER XIV</p>
-<p>*FACE TO FACE</p>
+</div>
+<div id="esheart015" type="chapter" n="14">
+<head>CHAPTER XIV
+<lb/>FACE TO FACE</head>
 <p>ISOLINE's heart was throbbing violently.</p>
 <p>"Oh, Cosmo," she whispered, in a half-suffocated voice, as the hot blood surged up over bosom, neck and face--"oh, Cosmo, in the midst of justice remember mercy! Do
 <pb n="134     A TORTURED HEART"/>
@@ -2068,8 +2192,10 @@ course of conduct. Ah! my punishment, like Cain's, is harder than I can bear!"</
 <pb n="142     A TORTURED HEART"/>
 <p>At eleven o'clock they took leave and returned to the Royal Victoria.</p>
 <p>A few days after this Isoline joined her husband at his quarters in the barracks, which had been fitted up comfortably and even luxuriously for her reception.</p>
-<p>CHAPTER XV</p>
-<p>*A STRANGE ENCOUNTER</p>
+</div>
+<div id="esheart016" type="chapter" n="15">
+<head>CHAPTER XV
+<lb/>A STRANGE ENCOUNTER</head>
 <p>ISOLINE depended much for society on the ladies of the regiment, and there were a good many of them in the Hobart Town barracks.</p>
 <p>There were the wife and three grown daughters of Col. Newton; the wife and two daughters of Surg. Boggs; the wife and one daughter of Chaplain Rhodes; and the wives of the other staff and line officers.</p>
 <p>The colonel's house was a handsome edifice built of the native dark-gray freestone, with a flourishing garden and conservatories; the officers' quarters were neat and comfortable.</p>
@@ -2124,8 +2250,8 @@ course of conduct. Ah! my punishment, like Cain's, is harder than I can bear!"</
 <p>"Struck the very pupil of the bull's-eye!" added the ensign.</p>
 <p>"I don't understand you," said Mr. Belle Isle.</p>
 <p>"Don't you!" laughed Norwood.</p>
-<p>*"'There's many a shaft at random sent</p>
-<p>Finds mark the archer never meant.'"</p>
+<q><l>"'There's many a shaft at random sent</l>
+<l>Finds mark the archer never meant.'"</l></q>
 <p>"I wish you would explain yourself, Norwood," said the lieutenant.</p>
 <p>"All right. So I will. You observed, did you not, that this savage wilderness was like the impenetrable wood of the sleeping beauty--or words to that effect--did you not?"</p>
 <p>"Yes, but what of that?"</p>
@@ -2178,8 +2304,8 @@ paradisial beauty of the place, nor the unequaled grandeur of the prospect," rep
 <p>"Inmates cannot be said to live in solitude, for its members have the society of each other; but they live in absolute retirement from the world--in the sumptuous, luxurious retirement of an oriental <hi rend="italic">seraglio</hi>."</p>
 <p>"Oh!" exclaimed Miss Rhodes, as if suddenly recollecting herself. "The enchanted princess--what about her? You said that there was only the man and his servants came to the colony."</p>
 <p>"Oh, yes; the sleeping beauty in the wood. Well, my dear Miss Rhodes, there is said to be a young lady, beautiful as an houri, living in that paradise--but--really,</p>
-<p>*"'Whether she he dark or bright,</p>
-<p>Or little loved, or loved aright,'</p>
+<q><l>"'Whether she he dark or bright,</l>
+<l>Or little loved, or loved aright,'</l></q>
 <p>I am sure I cannot tell you," laughed the young ensign.</p>
 <p>"But do the people hold no communication whatever with the outside world?" inquired Mr. Rhodes.</p>
 <p>"None whatever--with the one exception that proves the rule. That is, once a week, when the mail ships come in,
@@ -2209,8 +2335,10 @@ a manservant, whose name is said to be Stackpole, comes down into the town, mail
 <p>"Oh, madam--when I went out walking this morning--after my work was done--I saw him--Ham Gow--in the chain gang--breaking stones on the road!" gasped the girl, amid suffocating sobs and tears.</p>
 <p>"A convict!" exclaimed the horrified lady.</p>
 <p>"Oh, yes, madam, a convict, and--my heart will break!" wailed the unhappy girl.</p>
-<p>CHAPTER XVI</p>
-<p>*HAM GOW AGAIN</p>
+</div>
+<div id="esheart017" type="chapter" n="16">
+<head>CHAPTER XVI
+<lb/>HAM GOW AGAIN</head>
 <p>"Ham Gow a convict in the chain gang on these roads!" exclaimed Mrs. Belle Isle, with a start of incredulous amazement.</p>
 <p>"Oh, yes, madam! yes! I saw him, I say! I saw him, and my heart is broken!" wailed Lona Pond, wringing her hands.</p>
 <p>"But this is quite impossible, my poor girl! You could not have seen him! You were certainly mistaken. It must have been some one else whom you took for him,' said her mistress, speaking with confidence.</p>
@@ -2302,8 +2430,10 @@ man vagabond! The poor wretch who was falsely charged with the murder of his pat
 <p>And with this the lieutenant struck a fusee, lighted his cigar and walked out into the garden attached to their quarters to smoke.</p>
 <p>Isoline was very much fatigued with her day's excursion, and soon retired to bed--not, however, before she had informed Lona Pond, who attended her night toilet, that she had spoken to Lieut. Belle Isle in favor of the convict supposed to Ham Gow, and that the lieutenant had promised promptly to interest himself in the case.</p>
 <p>With this gleam of hope the poor, faithful betrothed of Ham Gow retired to her cot.</p>
-<p>CHAPTER XVII</p>
-<p>*"NO. 4444"</p>
+</div>
+<div id="esheart018" type="chapter" n="17">
+<head>CHAPTER XVII
+<lb/>"NO. 4444"</head>
 <p>THE next day was an anxious one for the mistress and the maid.</p>
 <pb n="159     A TORTURED HEART"/>
 <p>Lieut. Belle Isle was on duty all the forenoon. In the afternoon, however, he went out on his errand of mercy. He was gone two hours, and returned with the result of his quest. It might be deemed satisfactory according to the manner in which those most concerned might take it.</p>
@@ -2423,10 +2553,10 @@ the colonies was the hope of finding him here--a forlorn hope at the best, my po
 <p>"I think you are perfectly right, Belle Isle. And let me add, that I am very glad that your sense of honor, which detains you at your post of duty, also keeps you near us, so that we enjoy your society," replied the viscount, with a genial smile, as he turned and bowed to Isoline, as if to include her in his compliment.</p>
 <p>"You are very kind to say so," answered the lieutenant, warmly.</p>
 <p>"And, besides, mamma, you know that Cosmo and myself are too happy to be near you and papa," added Isoline, with a fond glance toward Lord Seyres, whom she had learned to love and honor above all mankind, except her own husband.</p>
-<p>"I thank you, my dear child. Believe me that we also hold</p>
-<p>*'Your blooming life</p>
-<p>A part of our life's joy,'"</p>
-<p>said the viscount, quoting the lines as he laid his hand caressingly on the head of his stepdaughter.</p>
+<p>"I thank you, my dear child. Believe me that we also hold
+<q><l>'Your blooming life</l>
+<l>A part of our life's joy,'"</l></q>
+said the viscount, quoting the lines as he laid his hand caressingly on the head of his stepdaughter.</p>
 <p>Luncheon was then announced.</p>
 <p>Lady Seyres arose and took the arm of Lieut. Belle Isle, and led the way to the dining room.</p>
 <p>Lord Seyres offered his to Mrs. Belle Isle, and followed.</p>
@@ -2444,8 +2574,10 @@ lingered rather long at the table toying with the delicious tropical fruits that
 <p>It was no ordinary malefactor who had broken his chains, but the ferocious man-demon, Hice, whose name was a terror to all who had ever heard of him.</p>
 <p>This escape actually spread a panic over the female portion of the community, as if a great Numidian lion, in a state of hydrophobia, had broken loose and was roaming at large through their neighborhood.</p>
 <p>Not a woman would venture out to walk, ride, or drive beyond the city's limits until the fugitive monster should be recaptured.</p>
-<p>CHAPTER XVIII</p>
-<p>*THE FUGITIVE</p>
+</div>
+<div id="esheart019" type="chapter" n="18">
+<head>CHAPTER XVIII
+<lb/>THE FUGITIVE</head>
 <p>WE have left the Countess of Hawkewood only half reconciled to her husband, awaiting the advent of her heir at Hawke Hall, in Cornwall; and we have left Old Nan Crook
 <pb n="169     A TORTURED HEART"/>
 hoarding her ill-gotten money and quarreling with her daughter at the Ruined Tower of Demondike; and now we must leave the Viscountess Seyres mentally and spiritually expiating her offenses in the presence of the pure-hearted and noble-minded man who had loved and trusted her sufficiently to make her his wife, and whose very forbearance to reproach her she felt as her deepest reproach; and Mr. and Mrs. Belle Isle enjoying their protracted honeymoon at his post of duty, and poor Lona Pond bewailing her lost lover--all these last-mentioned people being at the antipodes; and we must go after one of the lost men of our story, Ham Gow, the ubiquitous, who was seen and sworn to, at three several places, when, according to the laws of nature, he could only have been at one.</p>
@@ -2543,10 +2675,15 @@ risked such a contingency yet! But I may have to do so before I reach London."</
 <pb n="176     A TORTURED HEART"/>
 I am going there, and I mean to make my fortune by hook or by crook, so as to send for you and marry you and make a lady of you, as many a poor man has done by his sweetheart before me," said the tramp.</p>
 <p>"Lord grant it, Ham, dear! But now listen while I read you this description, which was like enough to you a month ago, but see how it fits you now," said the girl. And sitting down on the pile of stones, with her back to the fence, she held out the broad poster between her two hands, and read as follows:</p>
-<p>*"'TWO HUNDRED POUNDS REWARD.</p>
-<p>"'By order of the Lord Lieutenant of the county the above reward is hereby offered and will be given for the apprehension of Henri Delaplaine and Ham Gow, charged with the murder of the late Earl of Hawkewood. Said Henri Delaplaine--'</p>
+<q>
+<text>
+<body>
+<div id="esheart109" type="excerpt">
+<head>"'TWO HUNDRED POUNDS REWARD.</head>
+<p>"'By order of the Lord Lieutenant of the county the above reward is hereby offered and will be given for the apprehension of Henri Delaplaine and Ham Gow, charged with the murder of the late Earl of Hawkewood. Said Henri Delaplaine--'</p></div></body></text></q>
 <p>"But I'll skip all that and come to you," said Lona Pond, interrupting herself, as she passed the poster down through her hands and read on--with running comments:</p>
-<p>"'The same Ham Gow is of medium height and size'--You have fallen away so that you look rather tall and slim--'with a large head covered with a shock of long, black, coarsely curling hair.'--Your hair is cut so close that your head looks rather small than otherwise.--'He has a dark, ruddy, sunburned complexion, black, shaggy eyebrows, large, vigorous black eyes, and a very full and long black beard.'--You are as pale as a ghost, with lantern jaws, languid eyes, not much eyebrows to speak of, and no beard at all, only a pitiful, genteel little mustache on your upper lip.--'He wore, when last seen, an old wide-awake, brown felt hat, much battered, a coarse, gray blouse, travel-stained and torn, a pair of brown duck trousers, and leather-top boots, much broken.'</p>
+<q>
+<p>"'The same Ham Gow is of medium height and size'--You have fallen away so that you look rather tall and slim--'with a large head covered with a shock of long, black, coarsely curling hair.'--Your hair is cut so close that your head looks rather small than otherwise.--'He has a dark, ruddy, sunburned complexion, black, shaggy eyebrows, large, vigorous black eyes, and a very full and long black beard.'--You are as pale as a ghost, with lantern jaws, languid eyes, not much eyebrows to speak of, and no beard at all, only a pitiful, genteel little mustache on your upper lip.--'He wore, when last seen, an old wide-awake, brown felt hat, much battered, a coarse, gray blouse, travel-stained and torn, a pair of brown duck trousers, and leather-top boots, much broken.'</p></q>
 <p>"Now, let us see! You have a natty little soft hat, a jacket and trousers of new navy-blue cloth, and a pair of neat shoes. I don't see the least resemblance between you and your printed description, Ham," said the girl, as she rolled up the poster.</p>
 <pb n="177     A TORTURED HEART"/>
 <p>"Neither do I!" exclaimed the tramp. "I think I shall be quite safe on the road, once I am out of this neighborhood."</p>
@@ -2559,8 +2696,10 @@ I am going there, and I mean to make my fortune by hook or by crook, so as to se
 <p>"Lona! Lona! Lona! Where are you, me gel?"</p>
 <p>"Oh, I must go, or she will be out here after me and she will find you! And that would be ruin! Good-by! Good-by, dear Ham! I will think of you and love you always and pray for you every night and morning!"</p>
 <p>"Good-by, love! Lona! Good-by! Good-by! I seem to leave my life in leaving you! But I will win a fortune for you and bring you out and marry you and make a lady of you, as I promise and vow! Good-by! Good-by!"</p>
-<p>CHAPTER XIX</p>
-<p>*THE LOVERS' PARTING</p>
+</div>
+<div id="esheart020" type="chapter" n="19">
+<head>CHAPTER XIX
+<lb/>THE LOVERS' PARTING</head>
 <p>THE lovers were locked for a moment in each other's arms and then broke suddenly asunder, as the girl turned and ran in to the gate to meet and stop her rushing stepmother, and the man donned his hat, shouldered his stick with the bundle at the end of it, and walked slowly off in the direction of the road, meaning to commence at once his tramp to London.</p>
 <p>But before he reached the road, in crossing the field by a narrow private path, he came full tilt upon a horseman, whom he immediately recognized as Ellis, the village doctor.</p>
 <p>Now, if there was one man in the whole community who would have recognized Ham Gow, under his present metamorphosis, that man was Dr. Ellis, who had tended the
@@ -2654,10 +2793,12 @@ twelve hours' walk of the great metropolis, which he hoped to reach quite easily
 <p>"Hello!" he exclaimed, as he turned a page. "What is this?"</p>
 <p>He looked at the heading that had caught his sight with more attention, and then burst into a peal of laughter.</p>
 <p>The paragraph was:</p>
-<p>"NOT HAM GOW.</p>
+<q><text><body>
+<div id="esheart110" type="excerpt">
+<head>"NOT HAM GOW.</head>
 <p>"The ruffian who was arrested a few days ago, for the notorious Gow, turns out to be another man, one Jack Hice, a convict recently returned from Tasmania, where he has been serving out his term of seven years' penal servitude for burglary, and who, since his arrival here, has been at
 <pb n="185     A TORTURED HEART"/>
-his old tricks, and is now wanted by the police on another account. And, therefore, though Mr. Hice is freed from the charge of murder in Cornwall, he is held for highway robbery in Kent. The criminal, Ham Gow, is still supposed to be at large."</p>
+his old tricks, and is now wanted by the police on another account. And, therefore, though Mr. Hice is freed from the charge of murder in Cornwall, he is held for highway robbery in Kent. The criminal, Ham Gow, is still supposed to be at large."</p></div></body></text></q>
 <p>Mr. Gow read this paragraph very carefully from beginning to end, and then threw back his head and laughed long and loudly.</p>
 <p>When his peal of mirthful laughter was over, he thrust the paper in his pocket and arose to resume his journey, muttering to himself as he walked down the lane:</p>
 <p>"Now, then, Ham, instead of going to a police court and giving ourselves up to go to prison and be hanged, we will betake ourselves to the East India Docks and look out for a ship bound for Australia."</p>
@@ -2689,11 +2830,13 @@ ment of seamen?" inquired Gow, laying hold of another flying stevedore.</p>
 <p>"N-n-o," replied the officer, with a smile. "Are you ready?"</p>
 <p>"Quite, sir," replied the tramp, glancing over his shoulder at the bundle on the end of his stick, to intimate that it contained all his worldly goods.</p>
 <p>"Then pass forward there, and lend a hand. You can sign your articles later."</p>
-<pb n="187"     A TORTURED HEART/>
+<pb n="187     A TORTURED HEART"/>
 <p>"Ay, ay, sir!" promptly responded the new seaman, touching his hat.</p>
 <p>And so Ham Gow sailed for Australia.</p>
-<p>CHAPTER XX</p>
-<p>*GOLD</p>
+</div>
+<div id="esheart021" type="chapter" n="20">
+<head>CHAPTER XX
+<lb/>GOLD</head>
 <p>THE passage of many months in a single human life without the occurrence of any special event deemed worthy of record is a perpetual though not a very general experience.</p>
 <p>Duplicate Hawke made the voyage from England to Australia without a single "adventure."</p>
 <p>It was about the first of October when he sailed, as a man before the mast, in the emigrant ship <hi rend="italic">Janssen Tasman</hi>, from London for Melbourne.</p>
@@ -2753,7 +2896,7 @@ the panful. That was always my luck. But what is your news?" inquired Duplicate 
 a mate. In working a shaft, three mates were desirable--one was indispensable; but our traveler hoped to pick up one or more, either on the road or at the new diggings.</p>
 <p>So he tramped on alone, nor did he seek to overtake and join his fellow travelers until they had left the city boundary behind them.</p>
 <p>The sun had sunk below the Western horizon, and</p>
-<p>*"The shades of night were falling fast,"</p>
+<q><l>"The shades of night were falling fast,"</l></q>
 <p>when he came up with the group, who had reached the top of a green hill and had sat down to rest for a few minutes.</p>
 <p>"Hello, mates! Bound for the diggings?" demanded Duplicate Hawke, stopping and throwing himself down beside them with the freedom of his caste.</p>
 <p>"Bound for the dickens, if the new gold field does not turn out any better than some that have been lately bragged on," answered a red-bearded man, with a loud laugh, in which the others joined--probably with no better reason than the love of laughter.</p>
@@ -2815,8 +2958,10 @@ where all was so still, so breathless, in the midsummer night, that even the wil
 <p>It was a delightful scene to come upon after a night's weary walk. Sight, hearing, smell, were all saluted with
 <pb n="196     A TORTURED HEART"/>
 pleasant views, sounds, and scents; mind and heart were gratified by the presence of sweet human affections, and interests found suddenly in desert places.</p>
-<p>CHAPTER XXI</p>
-<p>*MEETING AN OLD IFRIEND</p>
+</div>
+<div id="esheart022" type="chapter" n="21">
+<head>CHAPTER XXI
+<lb/>MEETING AN OLD FRIEND</head>
 <p>THE walking party and the camping party perceived each other in the same instant, and set up a simultaneous shout of greeting.</p>
 <p>"Throw down your swag, mates, and stop and get some breakfast with us. Here, mother! Put another gallon of water and half pound of coffee into the kettle. We have got company!" cried a stalwart, brown-bearded man of middle age, who seemed to be the leader of this gang.</p>
 <p>"Thank you very kindly, mate; but here are eight of us--a formidable number to add to your domestic circle," replied George Traverse, with a doubtful glance toward his companions, and a longing one toward the steaming, fragrant coffeekettle.</p>
@@ -2901,7 +3046,7 @@ noonday while we are traveling, we shall sleep through the whole night while you
 <p>They plodded on patiently for a few hours longer, their progress slow on account of uncertain light and the perilous road.</p>
 <p>They passed other watch fires and camping parties. Sometimes they were challenged by the watchmen at the fires, but always allowed to pass in peace. For some hours
 <pb n="203     A TORTURED HEART"/>
-they had seen looming ahead of them, through the semidarkness, a huge black mass that seemed to reach from east to west, and from earth to heaven.</p>
+they had seen looming ahead of them, through the semi-darkness, a huge black mass that seemed to reach from east to west, and from earth to heaven.</p>
 <p>As the morning dawned slowly they began to recognize a lofty mountain range whose vast front bristled with stunted evergreens and sharp rocks.</p>
 <p>At its base, like a crimson star, gleamed the watch fire of some camping party.</p>
 <p>"We shall have to stop here, mates, until sunrise, it would be useless to attempt to find the pass of that mountain in this obscure light," announced George Traverse.</p>
@@ -2949,9 +3094,11 @@ Don't you see?" said Duplicate Hawke, holding up his wisp of brush.</p>
 <p>Not a hundred yards off he met George Traverse hurrying toward him.</p>
 <p>"Thought you were lost!" exclaimed the latter.</p>
 <p>"No. Met a friend from the old country. Man at watch fire over there. He is quite alone. I'm going back to him to share his watch and have a talk. Will see you again after an hour or so. Here's your kindling, and a plenty of it," said Duplicate Hawke, hurriedly; and he pushed his bundle of brush into the arms of his mate, and turned and strode back to the watch fire where Mr. Hamilton Gower, with uncontrollable impatience, awaited him.</p>
+</div>
 <pb n="206     A TORTURED HEART"/>
-<p>CHAPTER XXII</p>
-<p>*REVEALING A MYSTERY</p>
+<div id="esheart023" type="chapter" n="22">
+<head>CHAPTER XXII
+<lb/>REVEALING A MYSTERY</head>
 <p>THE sun was rising when Duplicate Hawke got back, under the shelter of the great mountain, where Mr. Hamilton Gower sat by his fading watch fire.</p>
 <p>Hawke burst into a loud laugh as he approached.</p>
 <p>"What is the matter with you?" testily demanded Mr. Gower.</p>
@@ -3031,7 +3178,7 @@ stood before it and contemplated my transfigured self--my delicate enameled comp
 <p>"I moved, slightly lifted my head, and divined, rather than knew, that I was alone. I rolled over and let myself roll off the table on to the floor.</p>
 <p>"The shock did me good. I saw that all the windows were hoisted, and I crawled to one of them and managed to draw the bolt and open the shutters. Then I nearly fainted from the reaction after the effort.</p>
 <p>"The light of the late moon that rose near morning streamed in through the open window, and showed me, among other objects of interest, a decanter of brandy standing on a side table.</p>
-<p>"Il I could only reach that brandy, I thought; and I crawled on all fours to the side table and helped myself to my knees by holding on to its top, and so I got hold of that decanter of brand and took a good pull of it.</p>
+<p>"If I could only reach that brandy, I thought; and I crawled on all fours to the side table and helped myself to my knees by holding on to its top, and so I got hold of that decanter of brand and took a good pull of it.</p>
 <p>"It gave me strength. I tottered to my feet, and staggered to the window and went out through it to the lawn.</p>
 <p>"With every step I seemed to gain strength. I turned my steps toward the Ruined Tower, and--tottering, failing, resting, rising--I managed to reach it by sun up. I reeled into the strong room and into the presence of the two women, and fell down for dead!"</p>
 <p>"You must have startled them a little!" said Mr. Hamilton Gower.</p>
@@ -3092,8 +3239,10 @@ fortunately for him, for there was a price on his head well as on mine."</p>
 with You and Delaplaine and my indelible birthmark to claim my rights and eject interlopers!"</p>
 <p>"I will return with you, of course, my lord! But how will you be able to lay your hands upon Delaplaine, if you do not know where he went?"</p>
 <p>"I have his solemn pledge to meet me at Hawkewood Hall, on my twenty-first birthday. And I know, if he live, he will keep his word But what movement is that I see among your friends below?" inquired Mr. Hamilton Gower, as he held a pocket telescope up to his eye, and squinted through it at the party gathered around the watch fire, further down.</p>
-<p>CHAPTER XXIII</p>
-<p>*IN THE NEW GOLD FIELDS</p>
+</div>
+<div id="esheart024" type="chapter" n="23">
+<head>CHAPTER XXIII
+<lb/>IN THE NEW GOLD FIELDS</head>
 <p>"I THINK they are preparing breakfast! By the way, their leader, George Travers, is a brother of your parson; but he has never been in Hawkeville, and knows next to nothing of his relations there!"</p>
 <p>"Another Cornwall man out here!"</p>
 <p>"Lots of them!"</p>
@@ -3162,7 +3311,7 @@ day! Or, we have done so until this morning. Now, however, I fear that we must t
 <p>"Shouldn't wonder. I never made anything by digging, though I've seen fortunes dug up all around me."</p>
 <p>"And lost, lad! See here, honey, I have been following after new rushes ever since the first great rush after the
 <pb n="221     A TORTURED HEART"/>
-great Bathurst nugget was found--'cause, you see, it is only on the new fields that I can make my profit. When all the claims get pretty much settled, there's women enough to take the work out'n my hands. The diggers send for their wives, or go and fetch 'em, if they have any, and the bachelors go and get married. But in the new rushes the men come mostly without their families, and stay without them for months, and sometimes for years; so it is in the first months I make my jack. But I began to tell you, honey, how fortunes are lost. The gold diggers mostly do make fortunes; but the liquor sellers and the storekeepers mostly get them. Now, you see that there man there!" she exclaimed, pointing to the other solitary traveler, who seemed to be out of place in this moving crowd.</p>
+great Bathhurst nugget was found--'cause, you see, it is only on the new fields that I can make my profit. When all the claims get pretty much settled, there's women enough to take the work out'n my hands. The diggers send for their wives, or go and fetch 'em, if they have any, and the bachelors go and get married. But in the new rushes the men come mostly without their families, and stay without them for months, and sometimes for years; so it is in the first months I make my jack. But I began to tell you, honey, how fortunes are lost. The gold diggers mostly do make fortunes; but the liquor sellers and the storekeepers mostly get them. Now, you see that there man there!" she exclaimed, pointing to the other solitary traveler, who seemed to be out of place in this moving crowd.</p>
 <p>"I see him, a pale, puny fellow with a small bundle on the end of a stick, and nothing in himself or his equipments to indicate either the digger or the dealer. I wonder what on earth he has come for?"</p>
 <p>"To make lots of money, as he has been making ever since the first rush. Like me, he takes after the new rushes."</p>
 <p>"But what does he do?"</p>
@@ -3216,8 +3365,10 @@ And down in the depths of the gully, upon the margin of the stream on both sides
 <pb n="225     A TORTURED HEART"/>
 <p>And so he left the gold fields to pursue his travels through the wonderful new world of Australia.</p>
 <p>The next time we shall meet him will be in the wilds of Van Dieman's Land, and under very startling circumstances.</p>
-<p>CHAPTER XXIV</p>
-<p>*"FOREGATHERED WI' THE DE'IL!"</p>
+</div>
+<div id="esheart025" type="chapter" n="24">
+<head>CHAPTER XXIV
+<lb/>"FOREGATHERED WI' THE DE'IL!"</head>
 <p>THE excitement of Hobart Town over the escape of the most notorious desperado in all the convict penal settlements had not abated in the least degree, even when a month had passed since that event.</p>
 <p>That little city of the Antipodes, you see, is not like London or New York, where a new sensation of to-day makes us forget that of yesterday.</p>
 <p>And, besides, this escape of an atrocious criminal was alarming in its way, as the outbreak of a furious wild beast would have been which was known to be roaming at large through the woods around the town.</p>
@@ -3301,8 +3452,10 @@ of the world? But pardon me, my interest in the subject had betrayed me into imp
 <p>again without company or protection;" he said, very seriously.</p>
 <p>"Oh, no, for although I think there is only about one chance in a million for such a misadventure to happen to me again, yet I would not risk that one," solemnly replied the girl.</p>
 <p>The sun had now set, but the glorious "afterglow" of these Southern sunset skies still illumined the heavens and, the earth.</p>
-<p>CHAPTER XXV</p>
-<p>*THE MYSTIC MOUNTAIN HOME</p>
+</div>
+<div id="esheart026" type="chapter" n="25">
+<head>CHAPTER XXV
+<lb/>THE MYSTIC MOUNTAIN HOME</head>
 <p>THEY now came in sight of a spacious, white mansion, built in the midst of beautifully terraced and ornamented grounds on the table-land above them.</p>
 <p>A long flight of steps cut in the solid rook led them up to the lowest terrace, which was carpeted with green grass and shaded with trees, and traversed by flagstone walks edged with continuous lines of rose bushes, and flanked here and there by arbors and rustic seats.</p>
 <p>Passing across this terrace by its sinuous walks they came to a short flight of half a dozen stone steps leading up to the second terrace, which was laid out in parterres of flowers, bordered with hedges of box, between which wound white gravel walks that shone like pebbles of pearl in sands of silver.</p>
@@ -3434,9 +3587,9 @@ for he had known no more fashionable hours since his arrival in the Australian c
 <p>Mr. Gower, in his fresh toilet, his spotless white linen coat and pantaloons, felt quite in harmony with his surroundings.</p>
 <p>He went to one of the vases, took a crimson moss rosebud from among its flowers and set it in his buttonhole.</p>
 <p>Then he went to the book table and picked up "Thompson's Seasons," bound in crimson and gold and beautifully illustrated.</p>
-<p>While he was looking over its pages, and just as his eyes had lighted on the lines,</p>
-<p>*"Come, gentle spring, ethereal mildness, come!"</p>
-<p>the door opened, and Spring herself, embodied in the form of his young hostess, entered the room.</p>
+<p>While he was looking over its pages, and just as his eyes had lighted on the lines,
+<q><l>"Come, gentle spring, ethereal mildness, come!"</l></q>
+the door opened, and Spring herself, embodied in the form of his young hostess, entered the room.</p>
 <p>He stepped forward to meet her, and as he took her hand
 <pb n="240     A TORTURED HEART"/>
 to lead her to a seat he thought he never had seen so fair a vision. We have before described her classic features, her fair, transparent, blooming complexion, her large, soft, pathetic, dark eyes, shaded by their long lashes and arched by their dark eyebrows, and her wealth of yellow, golden hair, which was now carried back from her sweet, low forehead by a bandeau of pearls and flowed in rippling wavelets down over her shoulders. She wore a trained dress of white silk, embroidered down the front, around the borders and on the edges of her short sleeves and low neck. Strings of pearls adorned her lovely bare arms and bosom. And she wore white kid gloves like a London belle.</p>
@@ -3511,8 +3664,10 @@ washed and his hair combed, and his wretched convict suit exchanged for a clean 
 <p>"I have given him forty drops of laudanum in two ounces of brandy, and the treatment has somewhat lulled his pain and revived his fainting strength," said Mr. Elfinstar.</p>
 <p>At the sound of voices, the dying man slowly lifted his heavy lids and fixed a pair of large, black eyes full noon the face of the younger man, who now started violently, exclaiming:</p>
 <p>"Ham Gow! Heaven of heavens! Ham Gow!"</p>
-<p>CHAPTER XXVI</p>
-<p>*A DEATHBED REVELATION</p>
+</div>
+<div id="esheart027" type="chapter" n="26">
+<head>CHAPTER XXVI
+<lb/>A DEATHBED REVELATION</head>
 <p>"HAM Gow! Is it possible that I find you in this condition?" demanded Mr. Gower, in a tone of great mental distress, as he bent over the wounded man, who just stared stupidly for an instant and then, with a sigh, closed his eyes.</p>
 <p>"You know this man, then, sir?" inquired Mr. Elfinstar, in some surprise.</p>
 <p>"Yes, I recognize him now as a man I have known from boyhood in the old country, and for a short time in these colonies also," gravely and sadly replied Mr. Gower.</p>
@@ -3680,7 +3835,7 @@ the depths of perdition; and he could only wonder at the extraordinary and unacc
 <p>When he had first met Ham Gow, in the mad rush on the way to the new gold fields, he had learned from that vagrant all about the perplexity occasioned in the neighborhood of Hawkeville by what seemed to be the miraculous ubiquity of the one Ham Gow, or his equally miraculous multiplicity into three Ham Gows.</p>
 <p>And now Mr. Hamilton Gower understood the mystery.</p>
 <p>The tramp was the first and only real Ham Gow--he who had foregathered with the doctor in the neighborhood of Stony Fells on the morning of his flight from Hawkeville.</p>
-<p>The earl was the second Ham Gow, and bid ridden in the train with the parson on the day of his departure from Hawekwood.</p>
+<p>The earl was the second Ham Gow, and bid ridden in the train with the parson on the day of his departure from Hawkewood.</p>
 <p>And the felon was the third Ham Gow, who had escaped to France on Abbott's fishing smack on the morning of the homicide at Hawke Hall.</p>
 <p>All was clear now; but whence came the extraordinary likeness between three men so far removed in station and so different in character as the earl, the tramp, and the felon?</p>
 <p>While Mr. Hamilton Gower turned these questions over in his mind the prison doctor was examining the wounds of the man Hice, who was now awake, feverish, and groaning with pain. The surgeon's touch seemed to agonize him. He winced and writhed.</p>
@@ -3762,11 +3917,12 @@ man observed that his "peri" was as pensive as she who had been banished from Pa
 <p>"How have you left our patient?" inquired Mr. Hamilton Gower, as soon as they were seated at the table.</p>
 <p>"His fever increases; he is very much excited; he evidently believes that he is going to die. He has asked to see a minister," answered the host, as he sent a plate of soup down to his guest.</p>
 <p>"He! That ruffian--that desperado, who 'fears not God, neither regards man!' He asks for a minister!" exclaimed the young man, in surprise.</p>
-<p>"Ah! my young friend," sighed the host,</p>
+<p>"Ah! my young friend," sighed the host,
 <pb n="261     A TORTURED HEART"/>
-<p>*'A deathbed's a detecter of the heart.'</p>
-<p>'Conscience cloth makes cowards of us all.'</p>
-<p>And I fear that man's conscience is a moral cesspool. I sent Jonas Stackpole back to Hobart Town two hours ago to fetch the jail chaplain--a good and earnest man, I have heard--and I hope he will arrive here before night."</p>
+<q><lg>
+<l>'A deathbed's a detecter of the heart.'</l>
+<l>'Conscience cloth makes cowards of us all.'</l></lg></q>
+And I fear that man's conscience is a moral cesspool. I sent Jonas Stackpole back to Hobart Town two hours ago to fetch the jail chaplain--a good and earnest man, I have heard--and I hope he will arrive here before night."</p>
 <p>"Papa, dear, who is with him now?" inquired Miss Elfinstar.</p>
 <p>"Mrs. Annis, my child. I always leave Mrs. Annis with him when neither Mr. Gower nor myself are on guard."</p>
 <p>"Will you let me go and take Mrs. Annis' place after dinner, papa?"</p>
@@ -3808,8 +3964,10 @@ man observed that his "peri" was as pensive as she who had been banished from Pa
 man, but that right there and then lay the suffering and dying sinner, needing his ministrations.</p>
 <p>"You wished to see me, Hice?" he said, in a gentle tone, as he bent over the agonized creature.</p>
 <p>"I wanted to see your reverence yes. Oh-h-h! If I were a Roman Catholic I should want to make a confession. As it is, I want to tell a story--Oh-h-h! Sir, brute, convict, desperado, as I am called, I am the son of a belted earl!"</p>
-<p>CHAPTER XXVII</p>
-<p>*A MYSTERY CLEARED UP</p>
+</div>
+<div id="esheart028" type="chapter" n="27">
+<head>CHAPTER XXVII
+<lb/>A MYSTERY CLEARED UP</head>
 <p>"YES, sir; and, gentlemen, you may stare, but I repeat it--thief, convict, desperado as I am called, I am the son of a belted earl, the son of a peer of England! You will believe me when I tell you my story," said the dying felon, in a faint voice.</p>
 <p>"Had we not better retire?" inquired Mr. Elfinstar, in a low tone.</p>
 <p>"Why?" demanded the felon, almost in a whisper.</p>
@@ -3892,8 +4050,10 @@ nothing contraband in it. I was allowed to go my way, taking my property with me
 learned from Minette, who, during the last days of our home life at Boulogne, had picked up all the information she possibly could, in my interests--that my father was the Earl of Hawkewood, and that his post office was Hawkeville, in Cornwall.</p>
 <p>"I had but seven shilling in my pocket, but I found my way to the Paddington station, and took a third-class ticket through to Penzance with one shilling left.</p>
 <p>"I inquired the road to Hawkeville. I could no longer afford to ride, even third class, so I set out to walk to Hawkeville. The journey took me two days. Sometimes I got a lift in a wagon, or it would have taken me longer. I lived on two pence a day, for I bought nothing but bread and milk, and I slept under trees or hayricks."</p>
-<p>CHAPTER XXVIII</p>
-<p>*IN HIS FATHER'S HOUSE</p>
+</div>
+<div id="esheart029" type="chapter" n="28">
+<head>CHAPTER XXVIII
+<lb/>IN HIS FATHER'S HOUSE</head>
 <p>"IT was warm August weather when I reached Hawkeville, early one morning, and there I inquired the way to Hawke Hall, and learned that the old earl was just dead and buried, and that the young earl, a boy of five years, was living there under the care of an old parson.</p>
 <p>"This was another bitter disappointment, but not so bitter as the first. I set out to walk to Hawke Hall, which I reached in the afternoon. I understood by what had been said of the 'young earl, a boy of five years old,' that my father had married again, and that I had a younger brother. How my childish heart yearned toward that younger brother!</p>
 <p>"As soon as I reached the Hall I inquired of one of the outdoor servants, who were raking up fallen leaves on the lawn, if I could see his reverence, the parson, who was taking care of my brother.</p>
@@ -3987,8 +4147,10 @@ of a gentleman's, or even a gentleman's servant's, wardrobe.</p>
 <p>"This was the first intelligence I received that I had
 <pb n="281     A TORTURED HEART"/>
 killed a man, whom I only had intended to stun, and that the man was my own brother. I was a fratricide. The curse of Cain was upon me!"</p>
-<p>CHAPTER XXIX</p>
-<p>*WHILE LIFE, HOPE</p>
+</div>
+<div id="esheart030" type="chapter" n="29">
+<head>CHAPTER XXIX
+<lb/>WHILE LIFE, HOPE</head>
 <p>THE wretched man, overwhelmed by the memory of his fratricidal murder, unintentional though it had been, covered his haggard face with his horny hands and relapsed into silence that continued for a few moments.</p>
 <p>Then, with a deep sigh that seemed to rend his bosom, he continued:</p>
 <p>"Yes, I felt that the curse of Cain was upon me. I had killed the young brother whom I had never seen, but whom in my heart I had loved and longed to look upon, from the first hour that I had heard of his existence. I fell into a state of despair, of desperation!</p>
@@ -4150,8 +4312,10 @@ he had been, and so opposite in appearance to the printed description of his per
 <p>"Yes, yes."</p>
 <p>"Just now you must go to sleep, all the same. I shall leave you, and send Mrs. Annis to sit by you. Her presence will not disturb you," said the young gentleman.</p>
 <p>And he arose and left the room.</p>
-<p>CHAPTER XXX</p>
-<p>*MERCY</p>
+</div>
+<div id="esheart031" type="chapter" n="30">
+<head>CHAPTER XXX
+<lb/>MERCY</head>
 <p>HE had told the wretched convict enough to ease the guilty conscience by relieving it of the supposed crime of fratricide; but he had not given the man his full confidence. He reserved that for the present. If Hice were to recover, he would never tell him more than he had already told; but if Hice were going to die, he would confide a certain secret to him.</p>
 <pb n="294     A TORTURED HEART"/>
 <p>With these thoughts he joined his host and the chaplain in the sitting room, where he said:</p>
@@ -4217,8 +4381,10 @@ here reported of his material one--the symptoms are more favorable than they wer
 <pb n="298     A TORTURED HEART"/>
 <p>But they found a collation laid out by the thoughtful hospitality of Mr. Elfinstar, who invited them to sit down and partake of it while their horses were being fed and watered.</p>
 <p>They thanked their host and sat down with him and with his daughter to the table; and there the chaplain made his proposition in John Hice's favor.</p>
-<p>CHAPTER XXXI</p>
-<p>*THE CHAPLAIN'S SUCCESS</p>
+</div>
+<div id="esheart032" type="chapter" n="31">
+<head>CHAPTER XXXI
+<lb/>THE CHAPLAIN'S SUCCESS</head>
 <p>"TAKE the convict Hice into my service," murmured old Mr. Elfinstar, in a very thoughtful tone.</p>
 <p>"I think, if you should be so disposed, you may do it with perfect safety," said the chaplain.</p>
 <p>"I do not wish to urge the matter upon you, sir, but if you should want an outdoor servant, I believe you may take this man without risk," added the surgeon.</p>
@@ -4334,29 +4500,37 @@ happy girl we have been discussing is never mentioned in the presence of my fath
 <p>Mr. Hamilton Gower bowed, arose to his feet, and offered his arm to the young lady.</p>
 <p>She took it with a slight inclination of her head, and led the way around to the rear of the house where the pineries were situated.</p>
 <p>No more was said on the subject of the young convict, Margaret Campbell.</p>
-<p>CHAPTER XXXII</p>
-<p>*THE HOUSE'S MYSTERY</p>
+</div>
+<div id="esheart033" type="chapter" n="32">
+<head>CHAPTER XXXII
+<lb/>THE HOUSE'S MYSTERY</head>
 <p>HE recalled all the circumstances as he had followed them through the daily papers, from the first announcement of the discovery of the murder to the very end of the affair, when the convicted young murderess had had her sentence of death commuted to transportation for life.</p>
 <p>He recalled a certain dismal vacation spent at Hawkewood, when it drizzled incessantly for a month, and when his only excitement was the daily arrival of the <hi rend="italic">Times</hi>, and how he thought just then that the "Thunderer" was about as heavy as the weather, until one morning when he read the caption of a paragraph as follows:</p>
-<p>*STRANGE DISAPPEARANCE OF A CHILD</p>
+<q><text><body><div id="esheart111" type="excerpt">
+<head>STRANGE DISAPPEARANCE OF A CHILD</head>
 <p>"The neighborhood of Rosedale has been thrown into considerable excitement by the unaccountable disappearance of George Stuart Douglas Campbell, aged one year, only son and heir of the late George Murray Stuart Campbell, Esq., of Rose Hill Manor, Yorkshire. It appears that on Monday morning last the nurse, on rising, went to the crib as usual to see to her little charge, and was surprised to find the boy gone and the bed clothing in disorder.</p>
 <p>"The nurse was not alarmed, however, as she supposed
 <pb n="306     A TORTURED HEART"/>
 that the child might have awakened early and been carried off by his mother into her room, which adjoined the nursery, and to which she immediately repaired, only to receive the terrifying report that the boy had not been taken by his mother, or by anyone else, that morning.</p>
 <p>"An anxious and thorough examination of the house and grounds was to no effect.</p>
 <p>"No clue to the child's disappearance could be gained.</p>
-<p>"The utmost anxiety prevails, not only through the house but through the entire neighborhood. The most skillful detectives have been employed to prosecute the search. Large rewards have been offered for news."</p>
+<p>"The utmost anxiety prevails, not only through the house but
+through the entire neighborhood. The most skillful detectives have
+been employed to prosecute the search. Large rewards have been offered
+for news."</p></div></body></text></q>
 <p>This was the first intimation the public received of an event that was destined to develop into one of the most heartrending domestic tragedies that ever desolated a Christian home or shocked a civilized community.</p>
 <p>A few days passed, which, of this affair, only chronicled the futile efforts of detectives to discover the fate of the lost boy.</p>
 <p>At the end of the week came another sensational paragraph:</p>
-<p>*"DISCOVERY OF THE MUTILATED REMAINS OF THE CHILD AT</p>
-<p>THE BOTTOM OF A DRY WELL.</p>
-<p>"No clue has been obtained to the murderer. The coroner's inquest will be held to-day."</p>
+<q><text><body><div id="esheart112" type="excerpt">
+<head>"DISCOVERY OF THE MUTILATED REMAINS OF THE CHILD AT
+<lb/>THE BOTTOM OF A DRY WELL.</head>
+<p>"No clue has been obtained to the murderer. The coroner's inquest will be held to-day."</p></div></body></text></q>
 <p>Then followed the distressing details of the finding of the body, the grief of the mother, the opinion of the doctor.</p>
 <p>And for days after this the papers were half filled with details of the inquest and the examination of innumerable witnesses; but no clue was found to the mystery of the murder.</p>
 <p>At last, at the end of the second week, came this:</p>
-<p>*"THE ROSE HILL MYSTERY.</p>
-<p>"Startling Developments--Shocking Juvenile Depravity--The Arrest of Margaret Mabel Campbell, a Young Girl of Fourteen Years, and a Cousin of the Deceased, on the Charge of Having Murdered the Late George Stuart Douglas Campbell."</p>
+<q><text><body><div id="esheart113" type="excerpt">
+<head>"THE ROSE HILL MYSTERY.</head>
+<p>"Startling Developments--Shocking Juvenile Depravity--The Arrest of Margaret Mabel Campbell, a Young Girl of Fourteen Years, and a Cousin of the Deceased, on the Charge of Having Murdered the Late George Stuart Douglas Campbell."</p></div></body></text></q>
 <pb n="307     A TORTURED HEART"/>
 <p>Here followed all the details of the circumstances attending the crime, from the first secret clue gained by the detectives to the unraveling of the whole web of mystery, and the discovery of the murderess in the person of a child of fourteen years.</p>
 <p>Never had such a shock, from a private source, fallen upon the community.</p>
@@ -4438,7 +4612,7 @@ penal settlement, this savage land of convicts, bushmen, and wild beasts!</p>
 <p>"Then pray consider yourself even as a son of the house as long as you can endure us," said Mr. Elfinstar, cordially, while the nearest approach to a smile that the young man had ever seen here beamed in the eyes of Seraph Elfinstar.</p>
 <p>"I cannot but express my wonder and gratification that you should receive me--a total stranger--with as much of courtesy and confidence as though I had come accredited to you by letters of introduction from the most reliable sources," said the young stranger.</p>
 <p>"There are faces, or, I should say, countenances, my dear sir, which are sufficient letters of introduction to observant
-<pb n="314"     A TORTURED HEART/>
+<pb n="314     A TORTURED HEART"/>
 and thoughtful men. Your countenance, I beg leave to say, is such a one, in its character of expression. Besides, you forget the vital, the invaluable service you rendered us in rescuing my daughter from the hands of that maddened ruffian."</p>
 <p>"Oh, Mr. Elfinstar, I was but too highly favored of fortune to have the opportunity of so serving Miss Elfinstar. I am but too happy to have been of use to her!" warmly responded the young man.</p>
 <p>It was evident that the spirits of both the father and the daughter were raised by the prospect of retaining their guest for some time longer.</p>
@@ -4494,8 +4668,10 @@ intercession of the chaplain and the surgeon, you will be assigned to private se
 <p>"Under the Divine Providence, Hice," added the old man.</p>
 <p>"Under the Divine Providence, sir," assented the convict.</p>
 <p>And the two gentlemen left him with his new hopes.</p>
-<p>CHAPTER XXXIII</p>
-<p>*LOVE IN A WILDERNESS</p>
+</div>
+<div id="esheart034" type="chapter" n="33">
+<head>CHAPTER XXXIII
+<lb/>LOVE IN A WILDERNESS</head>
 <p>THE morning after the events recorded in the last chapter the surgeon appeared at the Mountain Hermitage, bringing with him the necessary documents that transferred John Hice, a prisoner of the crown, sentenced to seven years of transportation and hard labor, to the special service of Theobald Elfinstar, Esq., of Mount Humboldt.</p>
 <p>When Mr. Elfinstar and Dr. Boggs went to the bedside of the convict with this news, the man warmly grasped the hand of his new master and turned a grateful look upon the surgeon, saying:</p>
 <p>"I don't want to disparage medical science, doctor, but--the news you bring me is more healing than all your drugs."</p>
@@ -4613,8 +4789,10 @@ could never 'a' said John Hice had run away, because he hadn't. He never would '
 <p>"Come, Gower; let us go down to the gardener's cottage and see what really has happened. The poor fellow has not run away, thank Heaven! and he can't be dead, you know; it is out of the question! I saw him and talked with him myself yesterday at sunset, and he was in excellent health and spirits then. It is all nonsense about his being dead, you know."</p>
 <p>"Oh, my dear father, I am so relieved to think he has not run away! I--I really think I would rather hear that he had died, indeed, than that he had so betrayed us and destroyed himself."</p>
 <p>"I agree with you entirely, my dear; but I hope that neither is the case. Come, Mr. Gower," said the old gentleman, leading the way, and followed by his guest and his gardener.</p>
-<p>CHAPTER XXXIV</p>
-<p>*AT PEACE</p>
+</div>
+<div id="esheart035" type="chapter" n="34">
+<head>CHAPTER XXXIV
+<lb/>AT PEACE</head>
 <p>THE party walked down all the terraces to the lowest plain of the grounds, where the cottage stood in its grove of shade trees close by the garden gate.</p>
 <pb n="326     A TORTURED HEART"/>
 <p>They were met at the door by Sarah Tod, the gardener's old sister, and she was weeping, with her apron held up to her eyes.</p>
@@ -4625,9 +4803,12 @@ could never 'a' said John Hice had run away, because he hadn't. He never would '
 <p>"Let me see it," said Mr. Elfinstar, gently pushing his way past the weeping woman, and entering the house.</p>
 <p>"It is upstairs on his own bed, sir; there's where I laid it out, sir. I'll show you the way."</p>
 <p>"I can find it. I know his room. Come, Gower," said the old gentleman, leading the way upstairs, followed by his guest and the gardener's sister.</p>
-<p>They entered the front room over the parlor--a bedroom as clean, neat, and dainty as the chamber of a young girl. There were white muslin curtains to the one front window, a white draped dressing table under it and a white bed, on which,</p>
-<p>*"Calm as a child that sinks to sleep,"</p>
-<p>the body of the young gardener lay.</p>
+<p>They entered the front room over the parlor--a bedroom as clean,
+neat, and dainty as the chamber of a young girl. There were white
+muslin curtains to the one front window, a white draped dressing table
+under it and a white bed, on which,
+<q><l>"Calm as a child that sinks to sleep,"</l></q>
+the body of the young gardener lay.</p>
 <p>Sarah Tod turned down the sheet and revealed the peaceful face, to which death had given the touch of refinement it had lacked in life.</p>
 <p>"Poor fellow! Oh, poor fellow!" murmured Mr. Elfinstar, placing his hand gently upon the pale, cold brow. "And we thought he had run away! How unjust we have been in our judgment of him! He is gone, indeed! But, oh, how much better that he should be gone as he has than that he should have gone as we supposed him to have done. And, great Heaven, Mr. Gower, how much he looks like you now!" suddenly exclaimed Mr. Elfinstar.</p>
 <p>But Hamilton Gower had turned away and was apparently gazing out of the window.</p>
@@ -4768,8 +4949,10 @@ to shower her favors upon the good-for-nothing--I am the possessor of wealth and
 <p>"Dear me! dear me! dear me! Have you spoken to my daughter on this subject?" inquired Mr. Elfinstar, in a tone of distress.</p>
 <p>"Certainly not, sir! I would not do so without your consent," gravely replied the lover.</p>
 <p>"Then do not speak to her of this. Mr. Gower, Seraph Elfinstar can never marry."</p>
-<p>CHAPTER XXXV</p>
-<p>*THREE LITTLE WORDS</p>
+</div>
+<div id="esheart036" type="chapter" n="35">
+<head>CHAPTER XXXV
+<lb/>THREE LITTLE WORDS</head>
 <p>THE young suitor gazed at the old gentleman with incredulous surprise for a moment, and then said:</p>
 <p>"I beg your pardon--I--I cannot have understood you. You surely did not mean to tell me--"</p>
 <p>"That my daughter must never marry! Yes, Mr. Gower, that is just what I meant to tell you. Dear me! Ah! dear, dear me!" sighed the old man at the end of his speech.</p>
@@ -4879,8 +5062,10 @@ surmount in order to win you!" he answered, with enthusiasm; for he was again th
 <pb n="344     A TORTURED HEART"/>
 I will conquer fate! If you will consent, I will carry you off to England as my wife!"</p>
 <p>"I would give my consent, but that consent would only mock you by its uselessness. You could not marry me and take me home to England, no, not if we all wished it ever so much; not if I consented ever so eagerly, you could not do so if all our lives depended on your doing it! I tell you, fate--inexorable fate--immutable fate, divides us now and must divide us forever!"</p>
-<p>CHAPTER XXXVI</p>
-<p>*THE HIDDEN WOE</p>
+</div>
+<div id="esheart037" type="chapter" n="36">
+<head>CHAPTER XXXVI
+<lb/>THE HIDDEN WOE</head>
 <p>"AND now I think I know the name of that Fate" said the young man, firmly.</p>
 <p>Seraph looked up in some alarm.</p>
 <p>"Her name is Margaret Campbell! But she shall not divide us!"</p>
@@ -4945,7 +5130,7 @@ ise that he had made to Seraph some weeks before, never to mention that name in 
 <p>"You are very kind to say so. I know that the six weeks that I have passed under your hospitable roof have been the happiest of my whole life!"</p>
 <p>"How pleasant it is to hear you say that! Well, give us as much of your company in the future as you possibly can, my young friend," said the old gentleman, heartily. Then, taking up a pile of papers from the table beside him, he said: "Here are the latest mails from London. Stackpole brought them from town an hour ago. They come by the Norfolk, which reached port yesterday. Here is the London Times, only five months old, and with all the latest news--to us," he added, with a smile.</p>
 <p>Hamilton Gower took up the paper and looked over it. By what seemed the merest accident, his eyes lighted on the column of "Births, Marriages, and Deaths," and the very first item immediately caught his attention:</p>
-<p>*"At Hawke Hall, Cornwall, on Monday, the second instant, the Countess of Hawkewood of a son and heir."</p>
+<q><p>"At Hawke Hall, Cornwall, on Monday, the second instant, the Countess of Hawkewood of a son and heir."</p></q>
 <p>"Indeed!" mentally ruminated Mr. Hamilton Gower.' "Who in the deuce is the Countess of Hawkewood? So Mr. Lewis Manton imagines himself to be an earl, has taken, unto himself a countess, and even provided himself with a son and heir! Well, I hope the 'Countess of Hawkewood' and the infant Viscount Hawke are both as well as can be expected. Will there not be something like a disagreeable surprise somewhere about the first of next September! But, <hi rend="italic">dormez tranquille, madame et messieurs</hi>, several months must elapse before the deluge, and somebody may die or get shipwrecked on his way home to England."</p>
 <p>This gave the young man so much food for thought that he scarcely uttered another word during his stay in the library.</p>
 <pb n="349     A TORTURED HEART"/>
@@ -4956,23 +5141,23 @@ ise that he had made to Seraph some weeks before, never to mention that name in 
 <p>"Hello! What is this?"</p>
 <p>What, indeed?</p>
 <p>Here is the paragraph:</p>
-<p>*"At Hawke Hall, Cornwall, on Tuesday, the third instant, Volante, Countess of Hawkewood, in the twenty-first year of her age."</p>
+<q><p>"At Hawke Hall, Cornwall, on Tuesday, the third instant, Volante, Countess of Hawkewood, in the twenty-first year of her age."</p></q>
 <p>"Poor, poor, young lady!" muttered the reader, compassionately. "Volante? Volante? That must have been Lady Volante Belle Isle, the black-haired beauty with whom I waltzed at my birthnight ball, and with whom I was somewhat taken, but not enough to keep me from running away! Well, I should have thought she would have had more spirit than to have married that fellow Manton! But I dare say it was her mother's influence--'Preaching down a daughter's heart,' and so on! And now! what is this? Whew! Death has been busy at Hawke Hall!"</p>
 <p>His eyes had fallen on a short paragraph immediately below that which announced the demise of the young Countess of Hawkewood.</p>
 <p>It was as follows:</p>
-<p>*"At Hawke Hall, Cornwall, on Tuesday, the third in-
+<q><p>"At Hawke Hall, Cornwall, on Tuesday, the third in-
 <pb n="350     A TORTURED HEART"/>
-stant, Lewis Charles Henry, Viscount Hawke, aged one day, infant son and heir of Lewis, seventeenth Earl of Hawkewood."</p>
+stant, Lewis Charles Henry, Viscount Hawke, aged one day, infant son and heir of Lewis, seventeenth Earl of Hawkewood."</p></q>
 <p>"Poor baby! Poor young mother! Heavens! what an uncertain thing is human life! But, after all, are they not much happier to have died--the mother in her early youth, the boy in his earliest infancy--than to have lived a long life under the precious rule of the admirable Mr. Manton? I must get back to England before that gentleman's year of mourning has expired, or he has had a chance of beguiling another young lady by means of his false rank and title! Ah! what is rank, wealth, or title, in a world where life is so uncertain? Where few that are born live to grow up? Where fewer, still, live to middle age, and not one in a thousand to old age?"</p>
 <p>So deeply moved was the young man by what he had just read, that he did not care to examine the other portions of the paper at all, but he remained buried in grave thought until he was startled by the ringing of the dressing bell.</p>
 <p>"Dear me! How time flies!" exclaimed Mr. Elfinstar, laying down his book and taking off his spectacles.</p>
 <p>Both gentlemen left the library and repaired to their rooms to dress for dinner, for this ceremony was observed in the Mountain Hermitage as punctiliously as in Belgravia or the Champs de l'Elysee.</p>
 <p>At dinner, Hamilton Gower again met Seraph Elfinstar.</p>
 <p>Not the slightest allusion was made by either of the three to the interviews of the morning. Only Mr. Elfinstar remarked:</p>
-<p>"Our esteemed guest insists on leaving us to-morrow morning! And--unfortunately--as we live in the nineteenth century, I have no power to prevent him! I do not live in a castle, as my remote ancestors did. I cannot detain a guest, or prisoner, as one of them might have done, by thundering forth the order of the old Douglass of Angus:</p>
-<p>*'Up drawbridge, grooms! What, warder, ho!</p>
-<p>Let the portcullis fall!'</p>
-<p>for we haven't any castle, and drawbridge, any portcullis, or any warder; no, nor any grooms to speak of, saving a
+<p>"Our esteemed guest insists on leaving us to-morrow morning! And--unfortunately--as we live in the nineteenth century, I have no power to prevent him! I do not live in a castle, as my remote ancestors did. I cannot detain a guest, or prisoner, as one of them might have done, by thundering forth the order of the old Douglass of Angus:
+<q><l>'Up drawbridge, grooms! What, warder, ho!</l>
+<l>Let the portcullis fall!'</l></q>
+for we haven't any castle, and drawbridge, any portcullis, or any warder; no, nor any grooms to speak of, saving a
 <pb n="351     A TORTURED HEART"/>
 few stableboys to help our old coachman; so if our guest will go he must go!"</p>
 <p>Mr. Hamilton Gower laughed at the quotation and the commentary, saying:</p>
@@ -5044,14 +5229,14 @@ sooner receive the manuscript from Seraph, and get to some quiet room in the Roy
 <p>Still smiling, he unfolded it and began to read it.</p>
 <p>Heaven! What was it that caused him to start and shake that note off his hand as if it had been an asp that had stung him? What was it that curdled his blood in his veins, turned his cheeks to the hue of death, and threw him back in his chair, as near fainting as a strong young man could be?</p>
 <p>It was this:</p>
-<p>*"Before you begin to read my narrative, you must know this in explanation: Mr. Elfinstar is not my father, but my grandfather, and I am Margaret Campbell."</p>
+<q><p>"Before you begin to read my narrative, you must know this in explanation: Mr. Elfinstar is not my father, but my grandfather, and I am Margaret Campbell."</p></q>
 <p>The effect of this remarkable disclosure and the full story of Margaret Campbell's life will be told in another volume,
 <pb n="356     A TORTURED HEART"/>
 bound in handsome cloth binding, uniform with this volume, under the title of "The Test of Love."</p>
-<p>*THE END OF "A TORTURED HEART."</p>
-<p>(PART II, "THE TRAIL OF THE SERPENT.")</p>
-<p>THE TRAIL OF THE SERPENT.</p>
-<p>(PART I.)</p>
-<p>THE TEST OF LOVE.</p>
-<p>(PART III, "THE TRAIL OF THE SERPENT.")</p>
-<p>
+<trailer>THE END OF "A TORTURED HEART."
+<lb/>(PART II, "THE TRAIL OF THE SERPENT.")
+<lb/>THE TRAIL OF THE SERPENT.
+<lb/>(PART I.)
+<lb/>THE TEST OF LOVE.
+<lb/>(PART III, "THE TRAIL OF THE SERPENT.")</trailer>
+</div></body></text></TEI.2>
