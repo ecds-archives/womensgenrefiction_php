@@ -1,0 +1,20 @@
+## configuration variables used by neh-novel-update
+## if anything needs to be changed, it should be modified here
+
+
+## email address of NEH admin(s)
+#$email = "elfarr\@learnlink.emory.edu, rsutton\@emory.edu";
+$email = "rsutton\@emory.edu";
+
+
+# website where zip files are being posted
+$base_url = "http://www.letrs.indiana.edu/web/e/emory";
+# where to output files:
+   # downloaded zipfiles
+   $zipdir = "/chaucer/data/neh/zipfiles";
+   # generated text files
+   $txtdir = "/chaucer/data/neh/data/text";
+
+# location of file automatically generated & loaded by nnu each time it runs
+$lastrun_file = "nnu-lastrun";
+
