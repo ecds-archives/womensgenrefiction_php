@@ -3,7 +3,7 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title>A Japanese Blosom, an electronic edition</title>
+<title>A Japanese Blossom, an electronic edition</title>
 <author n="Watanna, Onoto, 1879-1954">Onoto Watanna</author>
 </titleStmt>
 <extent>196kb</extent>
@@ -93,14 +93,20 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </teiHeader>
 <text>
 <front>
-<pb/>
-<div id="ojapan000" type="frontispiece">
-<figure entity="owjapan" rend="inline">
-<figDesc>Frontispiece for Watanna's <hi rend="italic">A Japanese
+<div id="ojapan0001" type="covers">
+<figure entity="owjapanfc" rend="inline">
+<figDesc>Front cover of  Watanna's <hi rend="italic">A Japanese
 Blossom</hi>.</figDesc>
 </figure>
 </div>
 <pb/>
+<div id="ojapan000" type="frontispiece">
+<figure entity="owjapanfp" rend="inline">
+<figDesc>Frontispiece for Watanna's <hi rend="italic">A Japanese
+Blossom</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="owjapantp" pages="Title Page"/>
 <titlePage>
 <docTitle>
 <titlePart type="main">A JAPANESE <lb/>BLOSSOM</titlePart>
@@ -116,7 +122,7 @@ type="person">L. W. Ziegler</name></byline>
 </titlePage>
 <pb/>
 <div id="ojapan001" type="copyright">
-<figure entity="owjapan" rend="inline">
+<figure entity="owjapancr" rend="inline">
 <figDesc>Copyright information for Watanna's <hi rend="italic">A Japanese
 Blossom</hi>.</figDesc>
 </figure>
@@ -127,12 +133,12 @@ Blossom</hi>.</figDesc>
 </div>
 <pb/>
 <div id="ojapan003" type="list of illustrations">
-<figure entity="owjapan" rend="inline">
+<figure entity="owjapanill" rend="inline">
 <figDesc>List of illustrations for Watanna's <hi rend="italic">A Japanese
 Blossom</hi>.</figDesc>
 </figure>
 </div>
-<pb entity="owjapan" pages="half-title page"/>
+<pb entity="owjapanhtp" pages="half-title page"/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main">A JAPANESE BLOSSOM</titlePart>
@@ -140,7 +146,7 @@ Blossom</hi>.</figDesc>
 </titlePage>
 </front>
 <body>
-<pb entity="owjapan" n="[1]" pages="1"/>
+<pb entity="owjapan001" n="[1]" pages="1"/>
 <div id="ojapan004" n="1" type="chapter">
 <head>A JAPANESE BLOSSOM<lb/>I</head>
 <p>THE children sat in a little semicircle about their grandmother, listening intently as she read to them the last letter from their father in America. Ever since they could remember, his business as a tea merchant had taken him away from Japan on long visits to the foreign countries. His latest absence had continued for three years now, and little Juji--born a short time after his departure--had never seen him.</p>
@@ -282,7 +288,7 @@ children had learned them like parrots. Madame Sano tapped both of the
 little girls on the shoulder and caressed them. Clinging to each
 other's sleeves, off they tripped into the other room, where was the
 great "secret." The secret consisted of a few articles of American
-attire, which the little girls had induced a jinrikiman to bring them
+attire, which the little girls had induced a jinriki-man to bring them
 from Tokio. All of the money Gozo had left behind for them as his
 parting gift had been expended thus. How the boy's angry heart would
 have stormed had he known his little sisters had spent his gift for
@@ -325,7 +331,7 @@ never, never repeat it to my future husband."</p>
 <p>"Something bad?"</p>
 <p>"No, not bad exactly," said Plum Blossom, who disliked her future sister-in-law. "He has been learning jiu-jitsu."</p>
 <p>It was Summer's turn to gasp, thus displacing her elaborate headgear.</p>
-<p>"What! A baby of ten learn jiujitsu?"</p>
+<p>"What! A baby of ten learn jiu-jitsu?"</p>
 <pb entity="owjapan021" pages="21" n="21     A JAPANESE BLOSSOM"/>
 <p>"Eleven," corrected Plum Blossom. "His grandfather was samurai. Ver' well. That grandfather's friend teach him jiu-jitsu--a few tricks of jiu-jitsu."</p>
 <p>"What for? Will he, too, fight the Russians?" inquired Miss Summer, sarcastically.</p>
@@ -357,12 +363,12 @@ hair-dagger she took from the girl's coiffure.</p>
 <p>"You did, for your cousin told me so."</p>
 <p>"Oh, the wicked little fiend!"</p>
 <p>"Young ladies," called a maid from below. "Come, come; come quickly. Your father is seen. The jinrikishas! Hurry! Your honor-
-<pb entity="owjapan" pages="" n="24     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan024" pages="" n="24     A JAPANESE BLOSSOM"/>
 able grandmother wishes you to be at the door to welcome him!"</p>
 <p>In a panic the little girls rushed about the room, gathering up their various articles. Then, grasping each other's sleeves, they tripped down the stairs.</p>
 </div>
 <pb entity="owjapan025" pages="25" n="25"/>
-<div id="owjapan006" n="3" type="chapter">
+<div id="ojapan006" n="3" type="chapter">
 <head>III</head>
 <p>WHILE the husband assisted the children and nurse to alight from the jiririkishas, Mrs. Kurukawa the second stood looking about her.</p>
 <p>She was a little woman, possibly thirty-five years old. Her face was expressive, showing a somewhat shy and timid nature. Her large, brown eyes had a look of appeal in them as she turned them towards her husband. He smiled reassuringly and put an affectionate hand upon her arm. Immediately her momentary restraint and fear left her.</p>
@@ -387,7 +393,7 @@ ment before the two little boys had been with her, and she had sent immediately 
 <p>"Gozo? What of Gozo?"</p>
 <p>The two old people looked at each other. They did not know what to say.</p>
 <p>"Pray come into the house, my son," said Madame Sano. "We can better speak there."</p>
-<p>They had been talking in Japanese. Noting her husband's look of worry, Mrs. Kurukwa anxiously inquired the reason. Without explaining, he led her into the house. As they entered they were startled by the strange sound that greeted them. It was like the sharp sigh of a wind in an empty house. In reality it
+<p>They had been talking in Japanese. Noting her husband's look of worry, Mrs. Kurukawa anxiously inquired the reason. Without explaining, he led her into the house. As they entered they were startled by the strange sound that greeted them. It was like the sharp sigh of a wind in an empty house. In reality it
 <pb entity="owjapan029" pages="29" n="29     A JAPANESE BLOSSOM"/>
 was the panic-stricken flight from the hallway of the children of Mr. Kurukawa.</p>
 <p>Grouped closely together, the four children and Miss Summer had retreated to the far end of the hall, where they awaited the advent of the dreaded "barbarian" stepmother, for such Gozo had made them believe she must be. For many months they had conjured up in imagination pictures of their stepmother and her children.</p>
@@ -409,7 +415,7 @@ the nurse joined him. This unusual mirth in the house brought the children cauti
 <p>"Come agin," and this she kept
 <pb entity="owjapan033" pages="33" n="33     A JAPANESE BLOSSOM"/>
 mechanically reiterating. "Come agin--come agin--come agin."</p>
-<p>Here it is painful to relate that the young son of Mrs. Kurukaw chose to make himself heard in uncouth American slang. Billy spoke almost reflectively, as if he had heard that "Come agin" somewhere before. "Come agin, on agin, gone agin, Finnegan!" said Billy, promptly.</p>
+<p>Here it is painful to relate that the young son of Mrs. Kurukawa chose to make himself heard in uncouth American slang. Billy spoke almost reflectively, as if he had heard that "Come agin" somewhere before. "Come agin, on agin, gone agin, Finnegan!" said Billy, promptly.</p>
 <p>"Oh, Billy, hush!" said his mother, reprovingly, but Plum Blossoms' face radiated. Here was a kindred spirit, one who had repeated her own words. "Come agin," and then possibly finer ones.</p>
 <p>Meanwhile, Iris, showing first a curious little topknot, gradually projected her head, and then her whole body through the dividing doors. She stood in the opening greedily watching Plum Blossom. Half hidden behind her scanty little skirt,
 <pb entity="owjapan034" pages="34" n="34     A JAPANESE BLOSSOM"/>
@@ -417,7 +423,7 @@ the small, fat face of Juji peered. Though no one so far had seen him, Juji, wit
 <p>"Oh, the darling little boy!" cried the little American girl, and ran to him to lift him up. Juji's lip began to protrude ominously. Plum Blossom sprang into the breach.</p>
 <p>"Juji! Juji!" she cried, in motherly Japanese, "don't cry! Good boy! Give nice present to--l-lady!"</p>
 <p>Whereupon Juji held out a grimy
-<pb entity="owjapan035" pages="35" n="35     A JAPANESE BL0SS0M"/>
+<pb entity="owjapan035" pages="35" n="35     A JAPANESE BLOSSOM"/>
 little hand, from which Plum Blossom extracted a crumpled paper package. She presented it to Mrs. Kurukawa with a smiling bow.</p>
 <p>"Peanut!" said she, in English; "nize. For you!" She had remembered the words now.</p>
 <p>"Oh, thank you, thank you, darling," said Mrs. Kurukawa. Wishing to show her delight in the gift, she added:</p>
@@ -431,7 +437,7 @@ little hand, from which Plum Blossom extracted a crumpled paper package. She pre
 <p>"And now," said Mr. Kurukawa, rubbing his hands and speaking in a loud voice: "Where are my sons? Taro!" he called.</p>
 <p>Promptly the boy answered. He came literally tumbling into the hall, which, with the panels pushed aside, had now become a large room.</p>
 <p>Taro's eyes evaded his father. For some time he had been watching intently the American boy from his peep-hole in the paper shoji. As he appeared at the call of his father, his eyes were still riveted upon his hated rival. Suddenly he made a catlike spring in the boy's direction and landed sprawling on Billy's chest. For the astonished Billy, tripped unawares, was lying on his back. A great flame of indignation, and yet
-<pb entity="owjapan037" pages="37" n="37     JAPANESE BL0SS0M"/>
+<pb entity="owjapan037" pages="37" n="37     JAPANESE BLOSSOM"/>
 almost unwilling admiration, stirred within the heart of the prize fighter of a certain Chicago school.</p>
 <p>Could it be possible that this little mite of a Jap was sitting victoriously on his chest? He growled and moved a bit, but Taro, wildly trying to keep in mind the few jiu-jitsu tricks he had lately learned, touched the boy's arm in a sensitive place.</p>
 <p>Billy rose like a lion shaking off a troublesome cub. As Taro caught him about the calf of his leg, Billy reached down and took the little Japanese boy by the waist and coolly tucked him under his arm; then he marched up and down, singing at the top of his voice:</p>
@@ -533,7 +539,7 @@ soldier--fight Lussians. He angry account <hi rend="italic">you</hi>--therefore 
 Left to the care of his doting old grandparents, Mr. Kurukawa saw clearly how much Gozo had needed the guiding hand of a father.</p>
 </div>
 <pb entity="owjapan052" pages="52" n="52"/>
-<div n="5" type="chapter"/>
+<div id="ojapan008" n="5" type="chapter">
 <head>V</head>
 <p>MARION sat on a gigantic moss-grown rock, looking with somewhat wistful eyes at the children in the family pond. She envied them their intense enjoyment. The family pond, it should be explained, was also the family bathtub. It was a great pool of water, set in the heart of the garden, a beautiful and alluring spot for the children. All about it the blossoming trees bent their heads as if to look at their own reflected images in the mirror of the water. The Kurukawas had added to its natural beauty by placing along its banks huge rocks of strange
 <pb/>
@@ -541,7 +547,6 @@ Left to the care of his doting old grandparents, Mr. Kurukawa saw clearly how mu
 <figDesc>Illustration from Watanna's <hi rend="italic">A Japanese
 Blossom</hi>.</figDesc>
 </figure>
-</div>
 <pb entity="owjapan053" pages="53" n="53     A JAPANESE BLOSSOM"/>
 formation, very charming to look at, and comfortable to sit upon.</p>
 <p>Out over the water a sort of pleasure-booth was built, over which the wistaria vines clambered and bloomed in wild profusion. This was the dolls' house of the little Japanese girls. In the water were two diminutive sampans and also a raft, the property of Taro, inherited from Gozo.</p>
@@ -733,7 +738,7 @@ step-sisters. The wings of the dainty sleeves of her dress fluttered back and fo
 <pb entity="owjapan085" pages="85" n="85     A JAPANESE BLOSSOM"/>
 his hands full of petals. He held them a moment and then lightly tossed them into the air.</p>
 <p>"<hi rend="italic">That</hi> is how we want them, boy. We use them like confetti. Now fill all your sleeves, children. Get as many as you can, and then we'll start."</p>
-<p>Soon the long sleeves of their dresses were filled with the petals, and hung like little pillows. Mrs. Kurukava was the last to join the merry party. All the children helped her to fill her sleeves, for she, too, wore the national kimono.</p>
+<p>Soon the long sleeves of their dresses were filled with the petals, and hung like little pillows. Mrs. Kurukawa was the last to join the merry party. All the children helped her to fill her sleeves, for she, too, wore the national kimono.</p>
 <p>"Here are your masks, children," said the father. With laughing chatter they fastened on the grotesque masks and clambered into the jinrikishas. It was a joyful day.</p>
 <p>They passed numbers of picnickers, and exchanged showers of cherry-blossom petals with them.</p>
 <pb entity="owjapan086" pages="86" n="86     A JAPANESE BLOSSOM"/>
@@ -752,7 +757,7 @@ his hands full of petals. He held them a moment and then lightly tossed them int
 <p>"It's about a little woman," said Mr. Kurukawa, "and she was called 'The Widow of Sanyo."</p>
 </div>
 <pb entity="owjapan088" pages="88" n="88"/>
-<div id="17" n="10" type="chapter">
+<div id="ojapan17" n="10" type="chapter">
 <head>X</head>
 <p>THIS is the story the Japanese father told, in English, for his own children understood the language better than they spoke it.</p>
 <p>You must know, children, that all loyal Japanese love and reverence Ten-shi-sama (the Mikado). No true Japanese would hesitate to give his life for the father of us all. That is why our boys go to war with faces shining like the sun. That is why we bid them go, and do not weep because we love them. We are proud and glad to give them for such service."</p>
@@ -816,7 +821,7 @@ more beautiful than any paint could do. Then they robed her in a rosy gown--one 
 <p>"Nakoda!" Even Mrs. Kurukawa echoed the word.</p>
 <p>"Professional match-maker."</p>
 <p>"Oh-h--what did she want there?" questioned Marion.</p>
-<p>"A husband," said Mr. Kurukawa. "Well, in she walked, and the Nakoda, when he beheld her glorious beauty, was overcome with the honor of her presence in his house. Said she:
+<p>"A husband," said Mr. Kurukawa. "Well, in she walked, and the Nakoda, when he beheld her glorious beauty, was overcome with the honor of her presence in his house. Said she:</p>
 <pb entity="owjapan098" pages="98" n="98     A JAPANESE BLOSSOM"/>
 <p>"'Honorable creature, cease to degrade yourself at my insignificant feet. Pray arise.'</p>
 <p>"He did so, humbly and apologetically.</p>
@@ -868,26 +873,27 @@ the fate of the first. Her sixth died scarcely six months later, and her seventh
 so thickly upon him that he seemed half buried in them. Mr. Kurukawa bent over him tenderly. He turned his head back towards his wife; at once she came and knelt among the petals by his side. His voice was husky.</p>
 <p>"That is how my Gozo looked as a little boy," he said, softly.</p>
 <p>She kissed the sleeping Juji.</p>
-<pb entity="owjapan" pages="" n="105">
-</div><div n="11" type="chapter">
+</div>
+<pb entity="owjapan105" pages="105" n="105"/>
+<div id="ojapan018" n="11" type="chapter">
 <p>LIFE would be delightful were it made up entirely of flower picnics. But even in the land of sunrise storms must come.</p>
 <p>The little family of Kurukawa, idling and playing in the small inland town, for the nonce seemed to put behind them all thought of care. Even the father, in the first few weeks of his return, refused utterly to do otherwise than enjoy what he termed his "honeymoon" with his wife and children. But the honeymoon season began to wane. It was not possible for any Japanese, however optimistic and cheerful in tem-
-<pb entity="owjapan" pages="" n="106     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan106" pages="106" n="106     A JAPANESE BLOSSOM"/>
 perament, at such a crisis in his nation's history to be free from care. Then, was not Gozo at the front? Mr. Kurukawa might laugh and play all day with the children, but at night, when, worn out, they slept soundly and well, he would lie awake thinking and worrying. At first it was his boy Gozo who occupied his night thoughts to the exclusion of all else. After all, he was a true Japanese at heart, for, although father-like, he scarcely dared to think of the possible death of his son, yet he was glad that Gozo was serving the Mikado. All the papers, local and foreign, he could get he read with avidity. Because he knew it would give his wife pain, he read them at night when she was asleep. After a time the father-love was slowly pushed aside for a greater, deeper emotion, the longing to help his country.
-<pb entity="owjapan" pages="" n="107     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan107" pages="107" n="107     A JAPANESE BLOSSOM"/>
 He was of samurai ancestry, and patriotism was as natural and deep-rooted in him as life itself. Yet he had married a woman belonging to a country that believed that the men of his age did their duty best by remaining at home, the protectors of the weak. So she had told him many times. Often he had believed himself convinced of its truth.</p>
 <p>But reading and hearing of his countrymen's sacrifices, struggles, splendid heroism and victories, a wavering, an aching grew within him to emulate their example and give himself to the glorious service of his nation.</p>
 <p>A Japanese wife would have shared in his confidence at this time, would have understood his feelings and suffered with him. More, she would have been the first to urge him, command him to leave her.</p>
-<pb entity="owjapan" pages="" n="108     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan108" pages="108" n="108     A JAPANESE BLOSSOM"/>
 <p>Mr. Kurukawa thought he understood completely the character of the American woman who was his wife. Hence he hid from her his feelings.</p>
 <p>But his wife was more sensitive than he knew. Her husband's evident depression began to be noticed by her. She sought the cause, and attributed it to the absence of Gozo. She, too, suffered because she was the innocent cause of his exile. One night there was a moon festival in the little town. The people gathered in the river booths and drank their sake and tea in the moonlight. She remarked to her husband that more than three-quarters of the festival-makers were women. He had turned about with a sudden movement; then answered in an almost hoarse voice:</p>
 <p>"That is as it should be."</p>
 <p>So silent and taciturn was he during the rest of the evening that for
-<pb entity="owjapan" pages="" n="109     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan109" pages="109" n="109     A JAPANESE BLOSSOM"/>
 her the festival was spoiled; but even the moon gave not enough light to show her tears. Restless that night, she could not sleep, or slept so lightly that she waked at intervals. It must have been almost morning, when, waking from a restless sleep, she saw the dim light of an andon shining through the paper shoji that divided their chamber from an adjoining room; clearly outlined by the light on the shoji was the silhouette of her husband. His bed was empty. She went to him quickly and pushed the shoji apart. Then she saw the papers about him on all sides. He had not time to hide them. His startled face betrayed him.</p>
 <p>She sank down on the floor beside him, terror in her eyes.</p>
 <p>"Kiyo!" she cried. "Oh, Kiyo! I understand--everything. Why did you not tell me before?"</p>
-<pb entity="owjapan" pages="" n="110     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan110" pages="110" n="110     A JAPANESE BLOSSOM"/>
 <p>He spoke with difficulty. His hands trembled as he folded up the papers.</p>
 <p>"It is all right. I read the news--of the victories. What Japanese could help himself?"</p>
 <p>"Oh, but you read it in secret; you hide your feelings from me. Why do you not confide in me?"</p>
@@ -896,12 +902,12 @@ her the festival was spoiled; but even the moon gave not enough light to show he
 <p>"It ought to make no difference what I am. I am your wife. Do not treat me as an alien--a stranger."</p>
 <p>He drew her warmly to him at that.</p>
 <p>"No, I will not," he said. "I will tell you everything--all my thoughts. You know, Ellen, I am of samurai ancestry, and as a young man I was brought up in that school. When I
-<pb entity="owjapan" pages="" n="111     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan111" pages="111" n="111     A JAPANESE BLOSSOM"/>
 became old enough I served for a time in the army. I hold a commission. Later, my father, who was one of the most enlightened of the men of old Japan, was imbued with the new thought. He put aside old traditions and pride. I was forced, so to speak, into a commercial life. Conditions changed for the samurai then. We were desperately poor for a time. They looked to me to redeem the family fortunes. And to do it I had to be taken from one school of thought and put into another from samurai to tradesman. It was a strange transformation for a Japanese of such ancestry as mine. But I learned to like the work. I succeeded. You know of my long sojourn in America, till I could almost believe that I thought as your people think, and saw things as you in America see them. I seemed to
-<pb entity="owjapan" pages="" n="112      A JAPANESE BLOSSOM"/>
+<pb entity="owjapan112" pages="112" n="112      A JAPANESE BLOSSOM"/>
 be a living example of the evolution of an Oriental mind long swayed by Occidental environment. I called myself American many times, as you know. We came back here. The war, with all it meant to Japan, and the old patriotic feeling aroused, began a struggle with my acquired Occidental sense. Now I know that I never can he other than what I am by every inherent instinct--a true Japanese! I loved you, so I feared to tell you. You married me thinking possibly I was other than I am, Japanese only by birth, but of thought the same as you. That is why I have not confided in you."</p>
 <p>"But I knew it all the time," she said. "I never thought you other than you were. Because you wore our dress, it did not make you of our country, nor did I love you for that, Kiyo. I did not require that you
-<pb entity="owjapan" pages="" n="113     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan113" pages="113" n="113     A JAPANESE BLOSSOM"/>
 should become like my people. I, as your wife, was willing to become one of you, if you would let me."</p>
 <p>For a long time he was silent. Then with a sudden impulse he held the light before her face.</p>
 <p>"Let me see your face then," he said, "when I tell you of my resolve."</p>
@@ -909,29 +915,31 @@ should become like my people. I, as your wife, was willing to become one of you,
 <p>"I must give you up for one who has a larger claim upon me--for beloved Ten-shi-sama!"</p>
 <p>He saw her face whitening in the dim light. She tried to part her lips to speak, but no words came. Then she smiled, a smile so full of bravery and love that he almost dropped the light.</p>
 <p>"Now I know," he said, "that you are my own true wife--not foreign to me, but as my wife should be."</p>
-<pb entity="owjapan" pages="" n="114     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan114" pages="114" n="114     A JAPANESE BLOSSOM"/>
 <p>Then she spoke: "Yes, as a Japanese wife would be. Oh, Kiyo, <hi rend="italic">I</hi> have understood them. It is not because they do not love their husbands that they do not weep and protest when they must lose them for a glorious cause. It <hi rend="italic">is</hi> brave to give up the loved ones freely, willingly."</p>
 <p>He began rapidly to discuss plans for his going, watching her face closely. She bore it all with that brave cheerfulness peculiar to the Japanese woman. Only when he planned the disposition of his fortune in case of his death, did she protest.</p>
 <p>"We will not anticipate the worst, Kiyo."</p>
 <p>"Is it not best to do so?" he gently interposed.</p>
 <p>"I know it is Japanese," she said, wistfully, "but I will always look for
-<pb entity="owjapan" pages="" n="[115]     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan115" pages="115" n="[115]     A JAPANESE BLOSSOM"/>
 you to return. In that you can't make me Japanese."</p>
 <p>"A Japanese soldier never expects to return. His wife gives him up forever. But I, like you, will have the better hope, my wife. I will come back to you."</p>
 
 <p>"It is a promise," she said, and for the first time her eyes were full of tears. He took her in his arms and held her closely.</p>
 <p>"It is a promise," he said, solemnly. He wiped the tears away from her eyes.</p>
 <p>"There must he no more of these," he said. "else how can I have the strength to go?"</p>
-<p>"I have shed my last tear, Kiyo," was her answer. "You have promised me!"</p>
-<pb entity="owjapan" pages="" n="116"/>
-</div><div n="12" type="chapter">
+<p>"I have shed my last tear, Kiyo," was her answer. "You have
+promised me!"</p>
+</div>
+<pb entity="owjapan116" pages="116" n="116"/>
+<div id="ojapan019" n="12" type="chapter">
 <head>XII</head>
 <p>THE "glorious news," as they termed it, was given to the children the following morning. Even Juji was called to the family council, while the nurse-maid, Norah, held the baby in her arms.</p>
 <p>Mr. Kurukawa talked of his going to the front as if it were a cause to make them happy and rejoice. His words had the desired effect upon the Japanese children. Taro, Plum Blossom, and Iris were thrilled with pride and excitement. Taro wanted to rush out to the village at once to proclaim to every one the great tidings. His father was going to serve Ten-shi-sama. He was going to re-
-<pb entity="owjapan" pages="" n="117     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan117" pages="117" n="117     A JAPANESE BLOSSOM"/>
 cruit a new regiment from their town and vicinity. And they would all march away, with drums beating and the sun flag flying. His satisfaction and excitement spread to some extent to Billy, who began begging his step-father to let him and Taro go, too, as "drummer-boys," just as the little boys in the Kipling stories did. But Marion stole from the room to weep. She loved her stepfather as dearly as if he were her own father, and so in imagination she saw him wounded, or even killed. Her tender little heart was bruised at the thought. The pride and elation of her stepbrothers and sisters horrified her. She could not understand it. She cried out her thoughts in her mother's arms.</p>
 <p>"Oh, mamma, mamma, hear them singing! Oh!--and papa may be killed, and they are <hi rend="italic">glad--glad!</hi>"</p>
-<pb entity="owjapan" pages="" n="118      A JAPANESE BLOSSOM"/>
+<pb entity="owjapan118" pages="118" n="118      A JAPANESE BLOSSOM"/>
 <p>She had expected her mother at least to understand, and to weep with her, but to her astonishment her mother put her gently from her arms.</p>
 <p>"Listen, Marion! Listen, darling, to what they are singing! Don't you know what it is? It is the national hymn, Marion. Oh, my little girl, be brave, too, with them. There is nothing to cry about--nothing--nothing!"</p>
 <p>Taro bounded into the room, his cheeks aflame. "My fadder goin' ride away. Mebbe he leave to-marllow."</p>
@@ -939,25 +947,25 @@ cruit a new regiment from their town and vicinity. And they would all march away
 <p>"Then we can see into the chest to-day!" he cried, excitedly.</p>
 <p>"Yes."</p>
 <p>Taro rushed into the hail to speak in excited Japanese to his father.
-<pb entity="owjapan" pages="" n="119     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan119" pages="119" n="119     A JAPANESE BLOSSOM"/>
 With the two boys clinging to his arms Mr. Kurukawa came into the room.</p>
 <p>"There's a little ceremony I have promised the boys, mother," he said. "It was once customary for Japanese soldiers to look at, and often worship, the swords of their ancestors before starting for the seat of war."</p>
 <p>"We are going to look into the ancestor's chest," cried Billy; "that old brown thing in the go-down."</p>
 <p>The "old brown thing" was brought reverently into the room by careful servants. At Mr. Kurukawa's quiet command complete silence reigned before he touched it. Then he said, in the gravest of voices:</p>
 <p>"You children must learn to control your feeling. You exhibit too much excitement. You, Billy, and Taro, both of you, evince the same excitement over a solemn occasion
-<pb entity="owjapan" pages="" n="120     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan120" pages="120" n="120     A JAPANESE BLOSSOM"/>
 such as this, as you would over a festival or a game. Appreciate and remember this occasion, my boys."</p>
 <p>The boys, reproved, hung their heads. Mr. Kurukawa then opened the old chest. One by one he brought forth the various articles within it. Some of them were mouldering with age. These he handled with reverent touch. He explained to the family what each relic was after this fashion:</p>
 <p>"This garment, my children, was worn exactly three hundred years ago by your ancestor, Carsunora. He was in the service of the Emperor. The Shogun Lyesade set a price upon his head, and after repeated battles with his clan they succeeded in surrounding his fortress at Carsunora. Here for fifty-five days they kept a siege. His brave men preferred death to surrender, despite the prom-
-<pb entity="owjapan" pages="" n="121     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan121" pages="121" n="121     A JAPANESE BLOSSOM"/>
 ise of Lyesade. Day and night the assault was made upon the fortress. Its turrets and windows were demolished. Starvation stared them in the face. Still your ancestor held out. Finally one of the enemy started a fire under the walls, and the brave ones were driven out into the open. Your ancestor was surrounded on all sides. The swords of his enemy pierced him. See, there are the rents in his garments. It is said there were over a hundred wounds upon his body. But desperately and valiantly he fought on, killing or wounding all who came within touch of his sword. See it, my children, bent and rusty, with the very stains of the enemy's blood preserved upon it! But even the most valiant of heroes cannot bear up against a host of men. With his retainers dead on all sides, wounded by the eager
-<pb entity="owjapan" pages="" n="122     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan122" pages="122" n="122     A JAPANESE BLOSSOM"/>
 swords of a thousand enemies, he suddenly signified his intention of committing supuku.</p>
 <p>"For the first time in many hours the enemy, out of respect, lowered their weapons. Your ancestor broke his shorter sword--here are the pieces. Then taking the longer one, he thrust it into his bowels, and expired."</p>
 <p>One bit of grewsome history after another he related to the children, listening with awe-struck faces.</p>
 <p>Subdued and very quiet the children left the room when the "ceremony" was over. Marion alone had been unable to contain her emotion, and, weeping bitterly, had been sent from the room. Now husband and wife were alone for the first time that day.</p>
 <p>"Does it seem strange to you," he said, "that I should repeat such tales to my children?"</p>
-<pb entity="owjapan" pages="" n="123     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan123" pages="123" n="123     A JAPANESE BLOSSOM"/>
 <p>"No," she said, steadily, "not if they are accustomed to such things."</p>
 <p>"Japanese children are told stories of war from their youngest years. That is why they seem impassive when their own family's gory history is unfolded to them."</p>
 <p>"But the little girls," she said; "their eyes shone with as great a zeal as Taro's."</p>
@@ -968,17 +976,18 @@ swords of a thousand enemies, he suddenly signified his intention of committing 
 <p>"Will it be the same with our baby?" she asked, earnestly.</p>
 <p>"Would you have it so?" was his question.</p>
 <p>She thought a moment, and then
-<pb entity="owjapan" pages="" n="124     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan124" pages="124" n="124     A JAPANESE BLOSSOM"/>
 she said: "Yes--yes, indeed. Who would not? Even our Billy is affected."</p>
 <p>"Billy has inquired most earnestly of me whether when he grew up he could be a Japanese soldier, and I told him he would have to be a Japanese citizen first. He said his father--meaning me--was Japanese, and he would be whatever he was!"</p>
 <p>"And so he will be," said she, earnestly.</p>
 <p>"But we will wait till he is a man to decide that," said her husband.</p>
-<pb entity="owjapan" pages="" n="125"/>
-</div><div n="13" type="chapter">
+</div>
+<pb entity="owjapan125" pages="125" n="125"/>
+<div id="ojapan020" n="13" type="chapter">
 <head>XIII</head>
 <p>THE old grandmother was the first to arise on the auspicious morning. The sun had not yet made its appearance when she opened her shoji and looked out at the dawning.</p>
 <p>She dressed herself hastily, and then went to arouse the servants. While the family still slept the house was put in perfect order, and soon breakfast was preparing. When she had set all the maids at their tasks the grandmother returned to the floor above, and entered the room now shared jointly by Taro and Billy. Opening the shutters she let in the light. Then as they did not
-<pb entity="owjapan" pages="" n="126     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan126" pages="126" n="126     A JAPANESE BLOSSOM"/>
 stir, she deftly turned down their bedclothes and drew the pillows from beneath their heads. Taro sat up grumbling and yawning, while Billy turned over on his side, felt about for the pillow, and then slept uneasily without it. Taro, now awake, shook Billy.</p>
 <p>"Oh, let me sleep," complained Billy.</p>
 <p>"All ride," said Taro, slipping out of bed and beginning to put on his clothes quickly. "You kin sleep when we marsh off with my fadder. No more Port Authur. Soon no more Lussians!"</p>
@@ -986,28 +995,28 @@ stir, she deftly turned down their bedclothes and drew the pillows from beneath 
 <p>"I'll beat you dressing," said he.</p>
 <p>Meanwhile, Madame Sano was helping the little girls with their toilets.</p>
 <p>Iris was standing patiently while
-<pb entity="owjapan" pages="" n="127     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan127" pages="127" n="127     A JAPANESE BLOSSOM"/>
 her hair was being dressed in an elaborate mode. Plum Blossom, her round, fat little face still flushed with sleep, was sitting on the floor drawing on a white stocking.</p>
 <p>A maid was helping Marion. The latter's hair was arranged in the same fanciful mode as her stepsisters.</p>
 <p>"Grandmother, please let me wear my new cherry-blossom kimono today," coaxed Iris.</p>
 <p>"You must wear your white," said the grandmother; "all wear white today. You must look your best. Now, Plum Blossom, let O'Chika arrange your hair."</p>
 <p>"Please, grandmother, tie my obi. You do it so beautifully," begged Marion.</p>
 <p>Smiling, Madame Sano pulled and twisted the little girl's kimono into correct shape, wound the sash about
-<pb entity="owjapan" pages="" n="128     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan128" pages="128" n="128     A JAPANESE BLOSSOM"/>
 her, and tied it in a huge bow behind. Then she slipped a fan and two little paper handkerchiefs into the sleeves of each little girl. Now that they were all ready, she took occasion to give them a short lecture.</p>
 <p>"You mus' wear sweed, smiling face to-day, liddle gells. No more cry."</p>
 <p>"Oh, grandmother, how can I help it?" asked Marion, a catch in her voice which already betokened the forbidden tears. "I'd better stay home. I <hi rend="italic">can't</hi> see father go away to that awful, cruel war."</p>
 <p>"When Gozo went away I nebber cry one tear!" said Plum Blossom, fervently.</p>
 <p>"I no cry needer," said Iris; "and when he say good-bye I laff and wave both these han's like this."</p>
 <p>"She have flag in both those han's," explained Plum Blossom.</p>
-<pb entity="owjapan" pages="" n="129      A JAPANESE BLOSSOM"/>
+<pb entity="owjapan129" pages="129" n="129      A JAPANESE BLOSSOM"/>
 <p>"She have <hi rend="italic">my</hi> flag also; so when I also wave <hi rend="italic">my</hi> han's I have no flag, but jus' same--me--<hi rend="italic">I</hi> laff, too."</p>
 <p>"Oh, didn't Gozo feel bad to see you laughing at him like that?"</p>
 <p>"No," cried Plum Blossom, indignantly. "My! how good he feel. He hol' himself like thisaway." She threw out her chest in illustration. "And when he reached corner of street he put Juji down."</p>
 <p>"Juji? Where was he?"</p>
 <p>"Gozo carry him on shoulder all way down stleet. And Taro he too marsh ride flex' his side with Gozo. Then when Gozo reach that corner he put Juji down and he putting his han' on his head thisaway, and then he turn quick, and thad was las' time we saw Gozo."</p>
 <p>Her voice fell at the end, and her face had now a distressed expression.</p>
-<pb entity="owjapan" pages="" n="130     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan130" pages="130" n="130     A JAPANESE BLOSSOM"/>
 <p>"<hi rend="italic">I</hi> only cry after he gone way," admitted Iris.</p>
 <p>Plum Blossom turned on her fiercely.</p>
 <p>"If you talk of thad cry <hi rend="italic">now</hi>, you goin' cry again, and to-day you <hi rend="italic">mus'</hi> smile, accounts our fadder marshing, too."</p>
@@ -1017,7 +1026,7 @@ her, and tied it in a huge bow behind. Then she slipped a fan and two little pap
 <p>"No, Juji never cry, even after Gozo gone. Everybody cry then 'cept Juji. He forget he god brudder naime Gozo."</p>
 <p>"Now all honorably go downstairs and sedately wait for your august parents to descend for breakfast."</p>
 <p>Later the grandmother dressed lit-
-<pb entity="owjapan" pages="" n="131     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan131" pages="131" n="131     A JAPANESE BLOSSOM"/>
 tle Juji, and the baby, too, for the lazy Norah could not see the necessity for such early rising, and grumbled at being awakened.</p>
 <p>"Shure an' wot time is it he's afther goin' away?" she inquired of the grandmother.</p>
 <p>"Your master go away at three o'clock," said the grandmother, quietly.</p>
@@ -1026,30 +1035,31 @@ tle Juji, and the baby, too, for the lazy Norah could not see the necessity for 
 <p>"And you get up at thray in the morning because he laves at thray in the afthernoon?"</p>
 <p>The grandmother did not answer. She was unused to such questioning from her own servants, and found it hard to tolerate it from the Irish girl. But Norah persisted:</p>
 <p>"What's the sinse of getting up before you're awake?"</p>
-<pb entity="owjapan" pages="" n="[132]      A JAPANESE BLOSSOM"/>
+<pb entity="owjapan132" pages="132" n="132      A JAPANESE BLOSSOM"/>
 <p>The grandmother condescended an explanation.</p>
 <p>"We desire to make this day a long one, since we can't have your master with us long."</p>
 <p>Still grumbling, the Irish girl dressed herself, and then took the baby from the grandmother.</p>
-<pb entity="owjapan" pages="" n="133"/>
-</div><div n="14" type="chapter">
+</div>
+<pb entity="owjapan133" pages="" n="133"/>
+<div id="ojapan021" n="14" type="chapter">
 <head>XIV</head>
 <p>THE farewell breakfast was as merry a one as they could make it under the circumstances. To please the father, it was served in the ceremonious Japanese fashion peculiar to such a time. There were hot rice and freshly fried fish, fruit, persimmons and oranges, and clear, delicious tea. Everything, in fact, there was to tempt the appetite at this time, when the appetite might fail them. Even Mrs. Kurukawa, whose white face showed a night of wakefulness, ate some of the crisp, inviting fish, and drank the tea with grateful relish. Mr. Kurukawa ap-
-<pb entity="owjapan" pages="" n="134      A JAPANESE BLOSSOM"/>
+<pb entity="owjapan134" pages="134" n="134      A JAPANESE BLOSSOM"/>
 peared all cheerfulness. He made them gifts. Each of the family had an exchange gift for him. Smiling whimsically, he looked at the little pile.</p>
 <p>"Do you suppose I can find room to take them to the front with me?" he asked his wife, jocularly.</p>
 <p>"Oh yes, yes," she said, earnestly, "for I advised them all to get you something you could use there."</p>
 <p>"Let me see." He began going over the heap of presents. There were needles and thread from Plum Blossom. Iris had bought a tiny pair of scissors. Taro's gift was a little drinking-cup which folded up, a foreign novelty. Billy gave a jackknife, such a one as he had long saved to buy for himself. A little Bible was Marion's gift. The grandparents gave the most sensible gift--certain clothes he would appreciate, compactly rolled in a small bundle,
-<pb entity="owjapan" pages="" n="135     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan135" pages="135" n="135     A JAPANESE BLOSSOM"/>
 and consisting of Japanese underwear and sandals. He would find them grateful after long use of the uniform. Juji had been permitted to choose his own gift.</p>
 <p>"Buy something for father," said Plum Blossom in the store. Then Juji had pointed with a fat finger at something bright. It proved to be a silk handkerchief. Even Norah and the baby had gifts for him. A pin the Irish girl had prized much, since it had been given her by an old sweetheart, and which bore in twisted letters of silver the legend, "Remember me," was the nurse's tribute. The baby's gift Mrs. Kurukawa had chosen--a leather folder containing the photographs of the entire family. Her own gift she put upon his finger, a ring he had given her. "Bring it back to me," she said, and he promised that he would.</p>
-<pb entity="owjapan" pages="" n="136     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan136" pages="136" n="136     A JAPANESE BLOSSOM"/>
 <p>The parting took place on the threshold. It was not similar to that of most Japanese farewells, for Mr. Kurukawa embraced his little girls and his wife, and they clung about his neck and kissed him, while Marion, because she could not keep back her tears, rushed into the house to hide them.</p>
 <p>The boys, Billy, Taro, and Juji, were allowed to go with him to the train. As Gozo had done, Mr. Kurukawa carried Juji on his shoulder.</p>
 <p>The little boys waved their flags as the train drew out, and shouted at the top of their voices.</p>
 <p>"Banzai! Banzai! Banzai Dai Nippon!"</p>
 <milestone rend="blank-line" unit="section"/>
 <p>They were silent as they made their way homeward. Even Billy, the garrulous, found he could not speak with such a great lump chok-
-<pb entity="owjapan" pages="" n="137     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan137" pages="137" n="137     A JAPANESE BLOSSOM"/>
 ing his throat. When they reached the house they found all the blinds drawn. Suspecting that the "females," as Taro called them, had retired to weep in their rooms, Taro drew Billy towards the pond.</p>
 <p>"Let's play," said he.</p>
 <p>Billy shook his head.</p>
@@ -1060,98 +1070,151 @@ ing his throat. When they reached the house they found all the blinds drawn. Sus
 <p>"I don't. Father says when I wear your old kimono I look Japanese. <hi rend="italic">I'll</hi> be Togo. I'm the oldest."</p>
 <p>Taro shook his head.</p>
 <p>"I tell you what," said Billy. "Juji can be the Russian. See how
-<pb entity="owjapan" pages="" n="138     JAPANESE BLOSSOM"/>
-sleepy and lazy he looks. Let's just duck him in the water and wake him up."</p>
+<pb entity="owjapan138" pages="138" n="138     JAPANESE BLOSSOM"/>
+sleepy and lazy he looks. Let's just duck him in the water and wake
+him up."</p>
 <p>"He'll cry too much."</p>
-<p>"Oh, the Russians all cry and pray and make a big noise, but they can't do anything after a Jap gets them. We won't really hurt Juji. He'll groan like a wounded Russian, and you can be a Red Cross Japanese doctor and make him better."</p>
+<p>"Oh, the Russians all cry and pray and make a big noise, but they
+can't do anything after a Jap gets them. We won't really hurt
+Juji. He'll groan like a wounded Russian, and you can be a Red Cross
+Japanese doctor and make him better."</p>
 <p>"All lide," said Taro.</p>
 <p>So they began to play.</p>
-<pb entity="owjapan" pages="" n="139"/>
-</div><div n="15" type="chapter">
+</div>
+<pb entity="owjapan139" pages="" n="139"/>
+<div id="ojapan022" n="15" type="chapter">
 <head>XV</head>
 <p>SUMMER, with its flowers, carnivals, moonlight f&ecirc;tes and banquets, is a season of unalloyed bliss to Japanese children. It seemed as if all nature took a holiday, and bade the children and the grown folks, too, come forth from their houses and rejoice at her beauty and happiness.</p>
 <p>Never before had the Japanese held so many celebrations. But this year their festivals were not in honor of the beauty of the flowers or the glory of the moon. They tossed their fans, their parasols, any article, above their heads. They marched
-<pb entity="owjapan" pages="" n="140     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan140" pages="140" n="140     A JAPANESE BLOSSOM"/>
 the streets of the towns at night with swinging lanterns and torches in their hands, sometimes singing and always shouting, "Banzai! Banzai!" Impassive faces turned ruddy with excitement and pride. Even delicate-faced ladies leaned from their jinrikishas in the public streets and waved the sun flags in their hands. Never had a flower festival drawn forth such enthusiasm and excitement. On all sides people spoke the word, breathlessly, with smiling lips:</p>
 <p>"Victory! Always victory for Dai Nippon."</p>
 <p>The Kurukawa family caught the spirit of the country. There was not a member of the little flock that did not feel a personal pride in Japan's achievements. Even Mrs. Kurukawa, after the first shock of the actual sense of loss had passed, refused to be oppressed by her sorrow.
-<pb entity="owjapan" pages="" n="141     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan141" pages="141" n="141     A JAPANESE BLOSSOM"/>
 By this time her husband's friends in the town were hers. She became a member of a society which had for its aim the succor of the town's poor families whose wage-earners had been given to the war. No Western women's club or society ever worked harder than did these little Japanese women when they took upon themselves the actual support of the poor of the town. Mrs. Kurukawa found a wonderful comfort in the work. All the little girls assisted. Immediately after the departure of her husband the grandmother had come to her with a suggestion that at first she could not understand.</p>
 <p>"Now that the master has gone," had said the old woman, "shall we not dismiss all the servants?"</p>
-<p>
-
-"But why?" she had inquired, astonished. "We can afford to keep them, can we not?"</p>
-<pb entity="owjapan" pages="" n="142    A JAPANESE BLOSSOM"/>
+<p>"But why?" she had inquired, astonished. "We can afford to keep them, can we not?"</p>
+<pb entity="owjapan142" pages="142" n="142    A JAPANESE BLOSSOM"/>
 <p>Madame Sano could not make her reasons understood. For a time she went about the house very gloomy and unhappy, shaking her old head as the servants waited upon their mistress and the children. She herself refused to be waited upon. Her own meals she cooked herself. It was shortly after she had become a member of the Aid Society that Mrs. Kurukawa learned from another member that most of the war families had dismissed their servants, or kept at most but one scullery maid. The little Japanese lady told her at the same time that none of them had bought new clothes since the beginning of the war, and that some of them had refused fire, food, and luxuries. The reason was this. Their husbands, sons, fathers, and brothers were suffering hardship and peril. It would be unseemly for them to live
-<pb entity="owjapan" pages="" n="143     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan143" pages="143" n="143     A JAPANESE BLOSSOM"/>
 in luxury. Since they could not share that hardship at the front with their men they would deny themselves at home.</p>
 <p>"But what of the servants?" Mrs. Kurukawa had asked. "They would be without employment."</p>
 <p>The answer was prompt. "The men-servants belong to the war service. Some of the women receive reduced wages. The money saved is devoted to charity. The servants themselves understand that they, too, must make sacrifices. Some of them are sent by their mistresses to the homes of the poor and the sick, there to work."</p>
 <p>When she returned home Mrs. Kurukawa called the family together to tell them of her resolve. They would keep but one maid-servant and Norah, the nurse. The maidservant would do the cooking and
-<pb entity="owjapan" pages="" n="144     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan144" pages="144" n="144     A JAPANESE BLOSSOM"/>
 the scullery work. Marion, Plum Blossom, and Iris were to do all the chamber work and keep the second floor clean and sweet. Madame Sano would do the sewing. The boys must take care of the garden and draw the water. Mrs. Kurukawa would see to the rest of the house. As the average Japanese family of similar circumstances kept a great many servants--in fact, any number of "assistants," cook's assistant, scullery assistant, etc.--the Kurukawas had in all fourteen, including the men who worked in the garden and the rice-fields. Of these, one old man's services were retained. The younger men were advised to enlist if they could. If not, they would receive reduced wages and be employed in caring for the poor. So the work previously done by the servants was now done cheerfully and happily
-<pb entity="owjapan" pages="" n="145     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan145" pages="145" n="145     A JAPANESE BLOSSOM"/>
 by the members of the Kurukawa family.</p>
 <p>No chamber-maid ever cleaned a sleeping-chamber with more pleasure than did the little girls. Their hair wrapped about in white linen, their sleeves rolled up, they made the bamboo brooms fly across the floor.</p>
 <p>"If one liddle bit of dust be in corner even," said Plum Blossom, "I shall die of shame."</p>
 <p>That was the spirit of all.</p>
 <p>They who had never known what it was to wash their own bright faces, now joyfully did all such services for themselves and for one another. They were always so busy that they found no time for sadness. They arose with the sun to busy themselves in the house throughout the mornings. The afternoon was given to more pleasurable work. They would sew and embroider in the garden, or write
-<pb entity="owjapan" pages="" n="146     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan146" pages="146" n="146     A JAPANESE BLOSSOM"/>
 letters to their father and Gozo. Often all of them would go on missions of charity to the town. Japan has no actual slums in her smaller towns. Asylums and "Refuges" are scarcely needed. The charity work done is all personal, and perhaps, better.</p>
-<pb entity="owjapan" pages="" n="147"/>
-</div><div n="16" type="chapter">
-<p>0CTOBER forced the little family in-doors. It was a bleak month, cold and chilly this year. There is a general superstition in Japan that this desolate month, when the gods are all absent, will bring disaster to all who observe events connected with home joys. The Kurukawas were Christians, and had no faith in these childish superstitions; nevertheless, they instinctively felt the contagion of the general feeling of dreariness everywhere. Nearly every afternoon they were wont to gather together in the great ozashiki, and there they would talk of the war, or
-<pb entity="owjapan" pages="" n="148     A JAPANESE BLOSSOM"/>
+</div>
+<pb entity="owjapan147" pages="" n="147"/>
+<div id="ojapan023" n="16" type="chapter">
+<p>OCTOBER forced the little family in-doors. It was a bleak month, cold and chilly this year. There is a general superstition in Japan that this desolate month, when the gods are all absent, will bring disaster to all who observe events connected with home joys. The Kurukawas were Christians, and had no faith in these childish superstitions; nevertheless, they instinctively felt the contagion of the general feeling of dreariness everywhere. Nearly every afternoon they were wont to gather together in the great ozashiki, and there they would talk of the war, or
+<pb entity="owjapan148" pages="148" n="148     A JAPANESE BLOSSOM"/>
 listen to tales of their ancestors' valor told by the grandfather, a garrulous story-teller when once upon a theme that pleased him. It is true his English was at times almost unintelligible, and he chose the most gory subjects for his tales, but he held his listeners spellbound. Indeed, Marion, high-strung and excitable as she had been, became quite hardened and used to stories of bloodshed.</p>
 <p>"I believe, mamma," she said, "<hi rend="italic">I</hi> could see a great fight now without closing my eyes."</p>
 <p>The gloominess of the month was broken by a great letter from the father. It had been written September 5th, during the action at Lyago-yang. He told the family little or nothing of the war itself beyond simple descriptions of his companions and of Russian prisoners he had seen. There was no word of the
-<pb entity="owjapan" pages="" n="149     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan149" pages="149" n="149     A JAPANESE BLOSSOM"/>
 hardships, no word of the battles fought, and he was now a veteran. He wrote that at night when he closed his eyes he could see them all so clearly, as they had looked in their cherry gowns on that day of the flower festival. It seemed now so far away that he sometimes wondered if he were the same man who, covered with cherry-blossom petals, told them the foolish story of "The Widow of Sanyo." There were messages for each child individually. Finally he wrote that he had not seen Gozo, but that he knew of his whereabouts. Soon he hoped to be with him.</p>
 <p>The children rushed for their little writing-desks. Soon, heels doubled under, all of them were busily engaged in writing to father. Mrs. Kurukawa, too, writing at her desk, described the absorbed group about
-<pb entity="owjapan" pages="" n="150     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan150" pages="150" n="150     A JAPANESE BLOSSOM"/>
 her. After a time the various epistles were read aloud by their authors. With her little lisp Plum Blossom read her letter:</p>
-<q rend="block"><p>"HONORABLE FADDER,--We got you proud ledder. Oh, how happy we feel! I kees this ledder ride this one place. Please kees me bag agin. I lig kees. I am now chamber-maid and Marion she also chamber-maid and Iris also. House never so clean before. We keep light all time burn for you and Gozo. Juji burn his liddle finger with match. When we hear of grade victory we blow plenty fire worg and Juji burn match. Thas something for him. I am now soon 13 years ole. Kees agin that spot as I do.</p>
-<l>Your most obedient and filialest</l>
-<l>"daughter foraver,</l>
-<l>"P. B."</l></q>
+<q>
+<text>
+<body>
+<div id="ojapan024" type="letter">
+<opener><salute>"HONORABLE FADDER,</salute></opener><p>--We got you
+proud ledder. Oh, how happy we feel! I kees this ledder ride this one
+place. Please kees me bag agin. I lig kees. I am now chamber-maid and
+Marion she also chamber-maid and Iris also. House never so clean
+before. We keep light all time burn for you and Gozo. Juji burn his
+liddle finger with match. When we hear of grade victory we blow plenty
+fire worg and Juji burn match. Thas something for him. I am now soon
+13 years ole. Kees agin that spot as I do.</p>
+<closer><salute>Your most obedient and filialest
+<lb/>"daughter foraver,</salute>
+<signed>"P. B."</signed></closer></div>
+</body></text></q>
 <p>As soon as Plum Blossom ceased, Iris began reading. Her letter proved to be, however, an almost exact copy of her sister's, for, sitting
-<pb entity="owjapan" pages="" n="151     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan151" pages="151" n="151     A JAPANESE BLOSSOM"/>
 close to Plum Blossom, she had simply copied her sister's letter bodily, thus saving herself the labor of composition. They all laughed when she re-read Plum Blossom's letter. Marion read hers shyly.</p>
-<q rend="block"><p>"DEAR FATHER,--Please come back soon. I pray for you every night. Have you got my Bible still? I hope you read it. Do you remember Miss Lamb in Chicago? She used to be my Sunday-school teacher, and when you became my papa she told me to be sure to urge you to read the Bible, for that was the way to convert the heathen, and I told her you were not a heathen, but my own dear father, and the best man in the world. But I don't know why I condescended to write about Miss Lamb at this time. It makes my letter so long.</p>
-<p>Dear father, I do love you. Mamma cries for you at night."</p></q>
+<q>
+<text>
+<body>
+<div id="ojapan025" type="letter">
+<opener><salute>"DEAR FATHER,</salute></opener><p>--Please come back soon. I pray for you every night. Have you got my Bible still? I hope you read it. Do you remember Miss Lamb in Chicago? She used to be my Sunday-school teacher, and when you became my papa she told me to be sure to urge you to read the Bible, for that was the way to convert the heathen, and I told her you were not a heathen, but my own dear father, and the best man in the world. But I don't know why I condescended to write about Miss Lamb at this time. It makes my letter so long.</p>
+<p>Dear father, I do love you. Mamma cries for you at night."</p></div></body></text></q>
 <p>She was interrupted here by a protest from the family. Father ought
-<pb entity="owjapan" pages="" n="152     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan152" pages="152" n="152     A JAPANESE BLOSSOM"/>
 not to be told of tears. So she scratched that sentence out laboriously, and then continued:</p>
-<q rend="block"><p>"I know she cries at night, because her eyes show it, and it's because she loves you so. So please come back to her at once and--"</p>
+<q><p>"I know she cries at night, because her eyes show it, and it's because she loves you so. So please come back to her at once and--"</p></q>
 <p>Billy interrupted this time. "How much longer is it?" he asked, gruffly. Marion continued, her face flushed:</p>
-<p>"--and this is all, dear father, and I hope you will win the fight, only please, please don't kill anybody or let any one kill you. Your own little 'Yankee girl,'</p>
-<l>"MARION."</l>
-<p>"P. S.--Give my best love to Gozo, and tell him I pray for him, too, and, please, also, would you lend him the Bible I gave you sometimes?"</p></q>
+<q><text><body>
+<div id="ojapan026" type="letter"><p>"--and this is all, dear father, and I hope you will win the fight, only please, please don't kill anybody or let any one kill you.</p><closer><salute> Your own little 'Yankee girl,'</salute>
+<signed>"MARION."</signed></closer></div>
+<div id="ojapan027" type="postscript"><p>"P. S.--Give my best love to Gozo, and tell him I pray for him, too, and, please, also, would you lend him the Bible I gave you sometimes?"</p></div></body></text></q>
 <p>It was Taro's turn. He began
-<pb entity="owjapan" pages="" n="153     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan153" pages="153" n="153     A JAPANESE BLOSSOM"/>
 reading in Japanese, but was forced to translate:</p>
-<q rend="block"><p>"AUGUST FATHER,--I would like much to be with you and fight. I could kill ten Russians now for Samurai Komatzou has taught me some great tricks. Billy says I would make a giant Russian look like '30 cents.' Billy also wants to be Japanese soldier. We hope war lasts till we grow up so your two dutiful sons may enlist. I sign myself now your unworthy son,</p>
-<l>"TARO."</l></q>
+<q><text><body><div id="ojapan028" type="letter">
+<opener><salute>"AUGUST FATHER,</salute></opener><p>--I would like
+much to be with you and fight. I could kill ten Russians now for
+Samurai Komatzou has taught me some great tricks. Billy says I would
+make a giant Russian look like '30 cents.' Billy also wants to be
+Japanese soldier. We hope war lasts till we grow up so your two
+dutiful sons may enlist.</p><closer><salute> I sign myself now your unworthy son,</salute>
+<signed>"TARO."</signed></closer>
+</div></body></text></q>
 <p>Billy's letter was characteristic.</p>
-<q rend="block"><p>"DEAR FATHER,--Are there any drummer-boys our age? Have you killed any Russians yourself? How did you do it? Did you shoot him or run your sword through his bowels like that ancestor you told us about did? Do you use my jackknife any? I hope it's useful. I wish I was grown-up. Say, would you ask Gozo, when you see him, to send me some Russian buttons. He sent one to Marion. <pb entity="owjapan" pages="" n="154     A JAPANESE BLOSSOM"/>
-It was all rusty, and she gave it to me, as Taro told there was blood on it. Taro and I worked very hard this summer in the garden, but it's great sport. We pretended we were digging trenches, and whenever we found stones we said they were bullets, and we piled them up together, and after a time had lots of ammunition. Say, there's a French boy living out here, and he told Taro that after a time there'd be no Japs left, because Japan was so small, and he said we'd all be killed off, and he said that the regiments would have to have boys in them soon, because his father said so. Is it true, and if so, can't Taro and I come at once? Taro licked the Frenehy till he squeaked for mercy, and his father came out and jabbered a lot of gibberish, and he got terribly excited and said, 'Insoolt to France!' and everybody laughed at him. Well, this is all. We want the French boy to play war with us, but he's like Rojestvensky, he bluffs--but we'll catch him yet. Say, father, write something about the fight and if you're wounded anywhere. Aff.,    "BILLY."</p></q>
-<pb entity="owjapan" pages="" n="[155]     A JAPANESE BLOSSOM"/>
+<q>
+<text><body><div id="ojapan029" type="letter">
+<opener><salute>"DEAR FATHER,</salute></opener><p>--Are there any
+drummer-boys our age? Have you killed any Russians yourself? How did
+you do it? Did you shoot him or run your sword through his bowels like
+that ancestor you told us about did? Do you use my jackknife any? I
+hope it's useful. I wish I was grown-up. Say, would you ask Gozo, when
+you see him, to send me some Russian buttons. He sent one to Marion.
+<pb entity="owjapan154" pages="154" n="154     A JAPANESE BLOSSOM"/>
+It was all rusty, and she gave it to me, as Taro told there was blood
+on it. Taro and I worked very hard this summer in the garden, but it's
+great sport. We pretended we were digging trenches, and whenever we
+found stones we said they were bullets, and we piled them up together,
+and after a time had lots of ammunition. Say, there's a French boy
+living out here, and he told Taro that after a time there'd be no Japs
+left, because Japan was so small, and he said we'd all be killed off,
+and he said that the regiments would have to have boys in them soon,
+because his father said so. Is it true, and if so, can't Taro and I
+come at once? Taro licked the Frenchy till he squeaked for mercy, and
+his father came out and jabbered a lot of gibberish, and he got
+terribly excited and said, 'Insoolt to France!' and everybody laughed
+at him. Well, this is all. We want the French boy to play war with us,
+but he's like Rojestvensky, he bluffs--but we'll catch him yet. Say,
+father, write something about the fight and if you're wounded
+anywhere.</p>
+<closer><salute>Aff.,</salute>
+<signed>"BILLY."</signed></closer></div>
+</body></text></q>
+<pb entity="owjapan155" pages="155" n="155     A JAPANESE BLOSSOM"/>
 <p>"Talk about long letters," said Marion.</p>
 <p>"Oh, well," said Billy, "I had something to say. Besides, if it's true what the Frenchy says, Taro and I will be soldiers soon, too, and father ought to know."</p>
-<pb entity="owjapan" pages="" n="156"/>
-</div><div n="17" type="chapter">
+</div>
+<pb entity="owjapan156" pages="156" n="156"/>
+<div id="ojapan030" n="17" type="chapter">
 <head>XVII</head>
 <p>THERE was a long silence from the soldier in Manchuria. The Kurukawas, like many other families in Japan, watched for the mail each day with greedy feverishness. But the autumn passed away and there was no further word from Kurukawa. He had told his wife she must expect these long silences. There were reasons that she must understand for such interludes. A soldier's letter cannot be had every day. And so she waited with the patience worthy of a brave woman. But when December was ushered in with a little drift of snow, and she
-<pb entity="owjapan" pages="" n="157     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan157" pages="157" n="157     A JAPANESE BLOSSOM"/>
 knew that winter was coming, her thoughts wandered unceasingly to that one out there in the frozen Manchuria, and, brooding over it, her strength gave way. Nights passed; alone with a terrified imagination further exhausted her. Suddenly she decided that she must go at once to Tokio and make inquiry of the Minister of War of the fate of her husband. Leaving Juji and the baby at home, she took the three little girls and two older boys with her. She told the children nothing of her fears. They believed the trip to Tokio was made for the purpose of making purchases for the Christmas and New Year's season.</p>
 <p>"When you come back," had said the smiling old grandmother, "the honorable house will be quite new and fresh for New-Year's."</p>
 <p>The children were excited by the
-<pb entity="owjapan" pages="" n="158     A JAPANESE BLOSSOM"/>
-prospect of a visit to Tokio. The Japanese children had never been in the large town. Thus it actually fell to Billy and Marion to describe Tokio to them, for they had passed two days in the city.
-
-</p>
+<pb entity="owjapan158" pages="158" n="158     A JAPANESE BLOSSOM"/>
+prospect of a visit to Tokio. The Japanese children had never been in the large town. Thus it actually fell to Billy and Marion to describe Tokio to them, for they had passed two days in the city.</p>
 <p>The little party arrived at the Shinbasi Station, where they took jinrikishas and rode through the bewildering streets to the Imperial Hotel. As it was past six o'clock, the children after dinner went straight to bed, thoroughly tired out. But Mrs. Kurukawa sought to see some one who could allay her anxiety. There were only two clerks left in the War Office at this hour. They were excessively polite and even sympathetic, going over all the lists of the dead and wounded they possessed. There were two Kurukawas among the wounded, but neither was her husband. She felt that a great load
-<pb entity="owjapan" pages="" n="159     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan159" pages="159" n="159     A JAPANESE BLOSSOM"/>
 had been lifted from her, and with a happier heart she drove back to the hotel. For the first time in many days she slept in peace.</p>
 <p>Early in the morning she was awakened by the children. They were crowded at the windows, looking out upon the streets and chattering.</p>
 <p>"I'm going to buy all my gifts today," announced Marion, "because if we don't buy early all the best things will be snapped up," she added, wisely.</p>
@@ -1160,7 +1223,7 @@ had been lifted from her, and with a happier heart she drove back to the hotel. 
 <p>Taro nodded.</p>
 <p>"I nod give Christmas presents. I give only New-Year's gift."</p>
 <p>"Oh, Taro!" cried Marion. "Why, we're going to have a Christmas-tree!
-<pb entity="owjapan" pages="" n="160      A JAPANESE BLOSSOM"/>
+<pb entity="owjapan160" pages="160" n="160      A JAPANESE BLOSSOM"/>
 Who wants to wait till January second?"</p>
 <p>"But that is day the otakara (treasure-ships) are on streets," explained Plum Blossom.</p>
 <p>"Yes," said Iris, "and in Tokio he has beau-tee-ful presents."</p>
@@ -1170,17 +1233,17 @@ Who wants to wait till January second?"</p>
 <p>"Oh, well," said Plum Blossom, consolingly, "the toshironschi is open in December, and I wan' take home wiz me plenty mochitsuki" (nice pastry).</p>
 <p>"Are you dressed, children?" asked Mrs. Kurukawa, coming into the room.</p>
 <p>They were in their quaint blue
-<pb entity="owjapan" pages="" n="161     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan161" pages="161" n="161     A JAPANESE BLOSSOM"/>
 linen Japanese night-dresses, a queer little group, all barefooted.</p>
 <p>They dressed quickly, busily talking and planning as they did so. The day was to be spent in the stores of Tokio. Never were there more enticing stores to shop in, the children thought. They got out their little savings, rolled up in paper handkerchiefs in their sleeves, and counted them over and over.</p>
 <p>Billy had the most money, nearly twenty dollars in all. He had not saved a penny, but becoming desperate as the Christmas season advanced, he had sold nearly all his American clothes to various susceptible Japanese youth of the town. One paid him two dollars for a sailor hat. A young man of eighteen years now wore the twelve-year-old Billy's short trousers under a kimono. Three of his shirts had been pur-
-<pb entity="owjapan" pages="" n="162     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan162" pages="162" n="162     A JAPANESE BLOSSOM"/>
 chased by Miss Summer, which she proudly wore on festival occasions. Even his suspenders had proved marketable, and also his heavy shoes and rubbers. When he had asked his mother's permission to "give" his clothes away she had laughed and told him that by the time he ceased to wear kimonos again he would be too large for the American clothes he now possessed, and so had lightly given her consent. But she was quite distressed when she learned he had sold them. Billy, however, was equal to the occasion, and soon persuaded her that he had done right. "It would have been wrong to make the proud Japanese accept secondhand American clothes as charity." So Billy was now rich, and accordingly avaricious. He wished he had a hundred dollars instead of twenty dollars; then he could buy cameras
-<pb entity="owjapan" pages="" n="163     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan163" pages="163" n="163     A JAPANESE BLOSSOM"/>
 and guns and such things which cost plenty of money, but since there was such a large family, and since the Japanese had to have presents at New-Year's as well, he couldn't afford costly ones. In any event he wanted them all to know that he was not going to spend more than half his money, as he was saving the other half for something for himself--he wouldn't tell what.</p>
 <p>Ten dollars was Taro's total, but he had in addition an unopened bank half full of sen (pennies). He had been saving all summer, and would have had a larger sum, but he had generously contributed two yen to the support of an old coolie whose sons were at the war and whom his mother was befriending. Billy, too, had made a like contribution, though he said nothing about it now. Taro, however, could not forget that two yen.</p>
-<pb entity="owjapan" pages="" n="164     A JAPANESE BLOSSOM"/>
-<p>"If I had thad two yen more I could buy fine present for you, Billy, but I have only liddler got+-I gotter buy for girls first. Mebbe I buy you something if I have aeny left."</p>
+<pb entity="owjapan164" pages="164" n="164     A JAPANESE BLOSSOM"/>
+<p>"If I had thad two yen more I could buy fine present for you, Billy, but I have only liddler got--I gotter buy for girls first. Mebbe I buy you something if I have aeny left."</p>
 <p>"Well, you'd just better," snorted Billy, "and you know what I want."</p>
 <p>Taro grunted discontentedly, but made no rash promises.</p>
 <p>"How much have you got?" Billy asked Plum Blossom, who had her money arranged in a neat row.</p>
@@ -1189,49 +1252,54 @@ and guns and such things which cost plenty of money, but since there was such a 
 <p>"Jus' same Plum Blossom," said Iris, who had not bothered to count.</p>
 <p>"Why, no, you silly, you haven't. I'll count for you." Iris possessed three yen and seventy-five sen, about two dollars and a quarter.</p>
 <p>Marion had seven dollars; two dollars she had saved, and five dollars
-<pb entity="owjapan" pages="" n="[165]     A JAPANESE BLOSSOM"/>
-an aunt had sent her "to buy a pretty kimono with."
-
-</p>
+<pb entity="owjapan165" pages="165" n="165     A JAPANESE BLOSSOM"/>
+an aunt had sent her "to buy a pretty kimono with."</p>
 <p>"But I have lots of kimonos," said Marion, "so I'll buy Christmas presents instead, as it's more blessed to give than to receive," she added, piously.</p>
 <p>"All right," grinned Billy. "You must not expect to <hi rend="italic">receive</hi> much, sis."</p>
-<pb entity="owjapan" pages="" n=""166"/>
-</div><div n="18" type="chapter"/>
+</div>
+<pb entity="owjapan166" pages="166" n="166"/>
+<div id="ojapan031" n="18" type="chapter">
 <head>XVIII</head>
 <p>WHEN the little Kurukawa family started for the shopping district the streets were bathed in the beautiful early winter sun. In a city where the distances are very great, where large parks and actual stretches of bare country exist in seemingly the centre of the town and where the streets zigzag in every direction, it is a matter often of hours to reach certain points. But the children enjoyed the long ride. They would have laughed aloud at the average foreigner's complaint against the "jerking jinrikisha." What child does not prefer a vehicle that bumps
-<pb entity="owjapan" pages="" n="167     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan167" pages="167" n="167     A JAPANESE BLOSSOM"/>
 up and down a bit to one that runs inanely and smoothly?</p>
 <p>Taro and Billy occupied one jinrikisha, Marion and Plum Blossom another, while Iris rode with her mother. They called across merrily to each other. When one runner, swifter-footed for the moment than his fellows, sped on ahead, the pair in advance would cheer in delight.</p>
-<p>The speed with which the jinrikimen ran, Billy thought wonderful.</p>
+<p>The speed with which the jinriki-men ran, Billy thought wonderful.</p>
 <p>"They would beat anybody at our Sunday-school picnic races," he told Taro.</p>
 <p>It would be great fun, suggested Taro, if some time they could come to Tokio alone and apprentice themselves to jinriki-men. Then they <hi rend="italic">would</hi> learn to run! The suggestion thrilled Billy. He saw in it glowing possibilities of easily earned
-<pb entity="owjapan" pages="" n="168     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan168" pages="168" n="168     A JAPANESE BLOSSOM"/>
 money; the opportunity to own a jinrikisha and learn to run like the wind. But, then, how would they be soldiers? Certainly their military ambitions came first.</p>
 <p>At the end of two hours' running they drew up before a tea-house which stood within a little park of its own. Smiling and bowing the jinriki-men suggested that their patrons must be thirsty, as they, the runners, were. Would they not condescend to refresh themselves with tea and sweetmeats? The suggestion went to the hearts of the children. They had no idea how hungry they were, and so "mother" smilingly nodded to the little, begging faces. In a few moments they were within the teahouse. At that season of the year the tea-house is not well patronized, but as it was close to the noon hour, a number of Japanese business-men
-<pb entity="owjapan" pages="" n="169     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan169" pages="169" n="169     A JAPANESE BLOSSOM"/>
 sat at the various tables eating their luncheon.</p>
 <p>A maiden with roguish black eyes came running over to the Kurukawas to help the children into their seats. Her rosy mouth slipped open as she saw that her visitors, despite their dress, were not all Japanese. For a moment she stood perfectly still staring at Marion, but when Mrs. Kurukawa addressed her she slipped to her knees, bowed very deeply, and inquired what they might command her to bring.</p>
 <p>All of them wanted tea and sweetmeats except Billy, who insisted upon having a piece of rare steak with fried onions. When Taro translated this astonishing order the little maid shook her head and laughingly declared that they were too poor a house to serve such extraordinary luxuries.</p>
-<pb entity="owjapan" pages="" n="170     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan170" pages="170" n="170     A JAPANESE BLOSSOM"/>
 <p>"Well," said Billy, crossly, "I'm tired of rice-cakes and sweet things. I want something else. Do you keep chop-suey?" It was a dish he liked very much, having become acquainted with it through a Chinese cook lately employed. The little maid thought she might bring something resembling chop-suey. So she sped away to fill the orders. Soon she was back, followed by another maid carrying the luncheon on black lacquer trays. The omelets ordered by Mrs. Kurukawa were served in the most attractive shapes. Each omelet was formed in a different pattern, as a chrysanthemum, a twig of pine-tree, a plum blossom.</p>
 <p>"They're too pretty to eat," said Marion, looking with delight at the flower form before her.</p>
 <p>Billy's chop-suey was a chicken-stew, to which had been added
-<pb entity="owjapan" pages="" n="171     A JAPANESE BLOSSOM"/>
+<pb/>
+<figure entity="owjapanill170" rend="inline">
+<figDesc>Illustration from Watanna's <hi rend="italic">Japanese
+Blossom</hi>.</figDesc></figure>
+<pb entity="owjapan171" pages="171" n="171     A JAPANESE BLOSSOM"/>
 mushrooms. As they ate the meal the little waitress brought her samisen, and, running her fingers lightly across it, she began to first play and then to sing:</p>
-<q><lg type="stanza"><l>"Oh, the soldiers march away,</l>
+<q>
+<lg type="stanza">
+<l>"Oh, the soldiers march away,</l>
 <l>See them march away.</l>
 <l>The maids at home must stay,</l>
 <l>Hush! do not weep, but pray,</l>
-<l>     Oh, the soldiers march away!</l></lg>
+<l>Oh, the soldiers march away!</l></lg>
 <lg type="stanza">
 <l>"Oh, how long now will they stay?</l>
 <l>No one truth can say.</l>
 <l>When soldiers march away,</l>
 <l>List! often 'tis for aye,</l>
-<l>     Oh, the soldiers march away!"</l></lg></q>
+<l>Oh, the soldiers march away!"</l></lg></q>
 <p>Her queer little staccato voice felt mournfully at the end, and the samisen concluded her song in its lower keys.</p>
 <p>Plum Blossom tried to explain to them what it was she sang, though both Billy and Marion now partially understood the language.</p>
-<pb entity="owjapan" pages="" n="172      A JAPANESE BLOSSOM"/>
+<pb entity="owjapan172" pages="172" n="172      A JAPANESE BLOSSOM"/>
 <p>"The soldiers marching way, naever, naever come bag. All maidens must not cry, bud pray for them."</p>
 <p>She threw a reproachful look at Marion, who had wept so often.</p>
 <p>"Tell her to sing something happy," said Billy.</p>
@@ -1244,84 +1312,98 @@ mushrooms. As they ate the meal the little waitress brought her samisen, and, ru
 <p>"Yes, augustness. By profession I am a geisha, but since the war our business is so poor we are obliged to become tea-waitresses also."</p>
 <p>"And are geishas also poetesses and musicians?"</p>
 <p>"Yes, gracious one. Shall I write my honorably foolish poetry for you,
-<pb entity="owjapan" pages="" n="173     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan173" pages="173" n="173     A JAPANESE BLOSSOM"/>
 and will you condescend to accept it?"</p>
 <p>"I should be delighted. I should keep it always. But sing to us again."</p>
 <p>She sang shrilly, to the high notes of her samisen:</p>
-<q><lg type="stanza"><l>"Look! the moon is peeping,</l>
+<q><lg type="stanza">
+<l>"Look! the moon is peeping,</l>
 <l>Little maid, take care!</l>
 <l>Lovers trysts are keeping,</l>
 <l>Little maid, take care!</l></lg>
-<lg type="stanza"><l>"Lovers oft are weeping,</l>
+<lg type="stanza">
+<l>"Lovers oft are weeping,</l>
 <l>Little maid, take care!</l>
 <l>When the moon is peeping,</l>
 <l>Little maid, take care!</l></lg>
-<lg type="stanza"><l>"Who is this comes creeping?</l>
+<lg type="stanza">
+<l>"Who is this comes creeping?</l>
 <l>Little maid, take care!</l>
 <l>Hah! the moon still peeping,</l>
 <l>Little maid, take care!</l></lg>
-<lg type="stanza"><l>"Oh, the heart upleaping!</l>
+<lg type="stanza">
+<l>"Oh, the heart upleaping!</l>
 <l>Little maid, take care!</l>
 <l>Lovers?--moon a-peeping!</l>
 <l>No! It's brother there!</l>
-<l>Little maid, take care!"</l></lg>
-<pb entity="owjapan" pages="" n="174     A JAPANESE BLOSSOM"/>
+<l>Little maid, take care!"</l></lg></q>
+<pb entity="owjapan174" pages="174" n="174     A JAPANESE BLOSSOM"/>
 <p>Still squatting on her heels, the little geisha-girl wrote her poems in Japanese characters for the American woman. Then bowing very deeply she presented them to her, saying sweetly:</p>
 <p>"Two sen, highness, one sen for each poem."</p>
 <p>Mrs. Kurukawa paid the price, and laughed as she did so.</p>
-<pb entity="owjapan" pages="" n="175"/>
-</div><div n="19" type="chapter">
+</div>
+<pb entity="owjapan175" pages="175" n="175"/>
+<div id="ojpapan39" n="19" type="chapter">
 <head>XIX</head>
 <p>THE tea-house was only a short distance from the shops, and the runners, rested and refreshed by sake, drew them swiftly into the heart of the town. Soon they were in a shop kept by a tiny Japanese, very old and very wrinkled, who begged, as he bowed deeply, that they would help themselves to all they saw in his most insignificant shop. The magnificence of this offer, made in intelligible English, quite delighted Billy. He began to have visions of what he would do with his twenty dollars since this Japanese was so polite that he was actually
-<pb entity="owjapan" pages="" n="176     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan176" pages="176" n="176     A JAPANESE BLOSSOM"/>
 offering to <hi rend="italic">give</hi> them the articles. Soon he was undeceived. In a short time the unwary children were enmeshed in the wily bargaining web of the shrewd small merchant of Tokio.</p>
 <p>Billy saw a flag which warmed his heart. It was a large Japanese flag, with the sun solidly embroidered in its centre. What a gift to send to his father! In imagination he saw the flag torn and cut by bullets. He priced it. It was ten dollars. The old man insinuated that he might take eight dollars for it. Billy shook his head, swallowing deep disappointment. The old man would let it go for five dollars. No? Possibly the young augustness was poor? Billy flushed proudly and dipped into his sleeve for his money. Then he said, sturdily: "I'll give you a dollar for it."</p>
-<pb entity="owjapan" pages="" n="178     A JAPANESE BLOSSOM"/>
-The old man shrugged, protested, but finally rolled up the flag tenderly and gratefully took the dollar in exchange.</p>
+<pb entity="owjapan177" pages="177" n="177     A JAPANESE BLOSSOM"/>
+<p>The old man shrugged, protested, but finally rolled up the flag tenderly and gratefully took the dollar in exchange.</p>
 <p>"My goodness!" said Billy, "are there Jews in Japan?"</p>
 <p>"Be careful, Billy," his mother warned.</p>
 <p>She herself, however, was feeling strangely drawn towards a certain padded silk dressing sack, heavily embroidered with chrysanthemums of the color most admired by her husband. Unlike Billy, she did not pause to bargain. Her husband had warned her: "The Japanese shopkeeper will take what he can get. Set your price and give no more."</p>
 <p>"I'll give you five dollars for that," said she. Then she felt ashamed of herself when he, with a sad shake of his head, began wrapping it up for her.</p>
-<pb entity="owjapan" pages="" n="178     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan178" pages="178" n="178     A JAPANESE BLOSSOM"/>
 <p>The little girls' purchases were trifling but pretty. Their sleeves, being full of parcels, hung down on either side like heavy bags. Billy's and Taro's purchases, however, were so large that there was some question how they were to be carried.</p>
 <p>Three swords, an old American rifle, and a water-pistol were among Taro's acquisitions. Billy had his large flag, a soldier's uniform, a miniature cannon, and a folio of bright pictures describing war. At the last moment his conscience smote him. Neither he nor Taro had bought presents for the girls. Both had been too absorbed in buying things for boys. They put their heads together and whispered now. Ten cents remained to each. Taro bought toothpicks, cheapest face-powder, nail-polish and a backscratcher, each article costing three
-<pb entity="owjapan" pages="" n="179     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan179" pages="179" n="179     A JAPANESE BLOSSOM"/>
 cents. He grudgingly gave up one of the articles he had already, and instead purchased for the mother a pot of the rosiest paint.</p>
 <p>Billy, too, begrudged the money necessary to spend on the girls, so he was determined not to part with any of his own things. His gifts cost in the neighborhood of a cent or two cents each. For Marion he bought one paper handkerchief, for Plum Blossom a brass ring, for Iris a hatpin, for Juji a bit of candy, and for Norah tooth-blacking. This, he thought, she could utilize for her shoes. As the presents looked very bright and gaudy, Billy and Taro felt that they had done their duty, and that the girls ought to be duly grateful.</p>
 <p>On the way home a shrill voice shouting in the street was recognized by the sharp-eared Taro.</p>
-<pb entity="owjapan" pages="" n="180     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan180" pages="180" n="180     A JAPANESE BLOSSOM"/>
 <p>"The treasure-ship!" he cried, excitedly.</p>
 <p>Around the corner came a most wonderful cart piled high with brightly colored toys and things dear to the heart of a child. Following the cart was a veritable procession of little children. Loudly the vendor shouted:</p>
 <p>"Otakara! Otakara!"</p>
 <p>Ambitious to imitate the commercial foreigner, the treasure-vendor had decided to play this little trick on his fellows. He would not wait till January 2nd, but would appear on the street with his treasure cart thus early in the season when people had not yet spent all their money.</p>
 <p>The entreaty in the faces of the children Mrs. Kurukawa could not resist. Soon some of the bright things of the treasure-cart were transferred to the jinrikishas.</p>
-<pb entity="owjapan" pages="" n="[181]     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan181" pages="181" n="181     A JAPANESE BLOSSOM"/>
 <p>"But, mind you, children," she said, as they turned gleefully homeward, "I'm going to put everything away until Christmas."</p>
-<pb entity="owjapan" pages="" n="182"/>
-</div><div n="20" type="chapter">
+</div>
+<pb entity="owjapan182" pages="182" n="182"/>
+<div id="ojapan040" n="20" type="chapter">
 <p>THE following day Mrs. Kurukawa yielded to the coaxing of the children and took them to hear one of the famous story-tellers of Tokio. There is not a child, I believe, of any nationality, who does not love a "story." In Japan story-telling is an actual profession, possessing its own halls and houses of entertainment. But the audience is not made up of children. People of all ages attend, though the story-teller is not as popular to-day as he once was. With eagerness, then, the little Kurukawa children, after hanging their clogs among others, entered the hall.
-<pb entity="owjapan" pages="" n="183     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan183" pages="183" n="183     A JAPANESE BLOSSOM"/>
 They were led into a square little booth or box. In a few minutes a waitress from an adjoining tea-house sold them refreshments.</p>
-<p>The hall was dimly lighted by candles. As black cloths were draped about the stage the place had a gloomy appearance. Presently the story-teller entered and seated himself on the raised dais. So horrible and weird was his aspect that the little girls involuntarily clung to one another's hands and looked at their mother apprehensively. His face and bald head were chalky white. Seen from the distance of their box his eyes were black chasms set into his white face. He appeared to have enormous teeth which protruded as long fangs beyond his lips. As he seated himself on the dais all the candles in the hail went out, seemingly of their own accord. Only<pb entity="owjapan" pages="" n="184     A JAPANESE BLOSSOM"/>
+<p>The hall was dimly lighted by candles. As black cloths were draped
+about the stage the place had a gloomy appearance. Presently the
+story-teller entered and seated himself on the raised dais. So
+horrible and weird was his aspect that the little girls involuntarily
+clung to one another's hands and looked at their mother
+apprehensively. His face and bald head were chalky white. Seen from
+the distance of their box his eyes were black chasms set into his
+white face. He appeared to have enormous teeth which protruded as long
+fangs beyond his lips. As he seated himself on the dais all the
+candles in the hail went out, seemingly of their own accord. Only
+<pb entity="owjapan184" pages="184" n="184     A JAPANESE BLOSSOM"/>
 those upon the stage remained burning.</p>
 <p>"Oh," said Marion, grasping Taro's hand in the darkness, "he looks like some horrible ghost!"</p>
 <p>"Sh!" whispered the little Japanese boy. "He's going to tell a ghost-story."</p>
 <p>"I thought," broke in Billy, "they told war-stories."</p>
 <p>"Sh! I'll tell you what he says, if you be quiet."</p>
 <p>"I don't want to hear," said Marion, covering her ears with her hands, for at that moment the deep and hollow voice of the story-teller fell upon the hushed audience. He was a pantomimist as well as a storyteller. As both Billy and Marion understood some Japanese he made his story clear even to them. As he proceeded with his tale the candles on the stage gradually flickered out, 
-<pb entity="owjapan" pages="" n="185     A JAPANESE BLOSSOM"/>
-
-
+<pb entity="owjapan185" pages="185" n="185     A JAPANESE BLOSSOM"/>
 until he was in darkness, save for a weird yellow glow surrounding him. Then it was that the thrilled audience thought they saw strange white shapes fluttering about him, first hovering over and covering the speaker, then wandering about the stage.</p>
 <p>The tale he told was an old one known to all Japanese. It was the story of the faithless husband who swore to his young and dying wife that he would never marry again. Scarcely, however, had she been cold in her grave before he married a young and beautiful girl. For many nights the bride was visited by a wraith with warning to leave her husband. She would wake screaming with fright, but always her husband, lying there beside her, would reassure her. Finally the ghost set a day for the bride's departure, telling
-<pb entity="owjapan" pages="" n="186     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan186" pages="186" n="186     A JAPANESE BLOSSOM"/>
 her that if she did not go on that day a terrible fate would befall her. That night the husband set a guard of twelve watchmen in their chamber. When the ghostly visitor entered the room of armed men they fell dead at the feet of the spirit as it crossed the threshold and went straight to the bed where the frightened bride cowered close against her sleeping lord, for although he had sworn to keep the watch with the guards he had yielded to irresistible slumber. The following morning, waking early, he stretched his arms out to enfold his bride. The form he held was stiff and cold. Something wet and slimy touched him. As he put out a hand to caress her hair he saw the thing beside him, a trunk from which the head had been torn away.</p>
 <p>As the story-teller finished the re-
-<pb entity="owjapan" pages="" n="187     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan187" pages="187" n="187     A JAPANESE BLOSSOM"/>
 cital there was a long interval of absolute silence in the hall. Then out of the darkness of the stage a white figure bore upon the vision. In the weird light that suddenly enwrapped the spectre the audience saw that it held aloft the head of a woman, the long, black hair floating away from the deathly face as though a wind were blowing through the hall.</p>
 <p>A stir, a shiver seemed to pass at once over the whole audience. Then--almost an unknown thing in Japan--a child's shrill voice startled the silence. Mrs. Kurukawa reached out to catch Marion in her arms; the little girl had become almost paralyzed with fear. A moment later the candles were lighted. People looked at one another in the new light--everywhere faces were pale and lined with fear.</p>
 <p>"Oh, let's go home," pleaded Marion, at which the mother arose.</p>
-<pb entity="owjapan" pages="" n="188     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan188" pages="188" n="188     A JAPANESE BLOSSOM"/>
 <p>"No, no!" protested Taro. "He'll tell war-tales now. <hi rend="italic">We</hi> want to stay."</p>
 <p>"Of course we do," cried Billy.</p>
 <p>"That old cry-baby always spoils our fun."</p>
@@ -1331,35 +1413,42 @@ cital there was a long interval of absolute silence in the hall. Then out of the
 <p>"Don't they ever tell pretty fairy-stories?" asked Marion.</p>
 <p>"No," said Taro, disgustedly. "They would have no business then."</p>
 <p>"Story-tellers' halls," said Billy,
-<pb entity="owjapan" pages="" n="[189]     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan189" pages="189" n="189     A JAPANESE BLOSSOM"/>
 didactically, "aren't for girls. Girls haven't the sense to enjoy tragedy."</p>
 <p>They remained until five o'clock, listening to exaggerated accounts of the war. Graphic details were recounted of the battles. Many Japanese fed their imaginations at the story-teller's table after the hunger left by mere official accounts published in the newspapers.</p>
-<pb entity="owjapan" pages="" n="190"/>
-</div><div n="21" type="chapter>
+</div>
+<pb entity="owjapan190" pages="" n="190"/>
+<div id="ojapan041" n="21" type="chapter">
 <p>THREE more days the little party remained in Tokio. Then, tired out, happy, and loaded down with purchases, they returned to their home. There they found the long-looked-for letter from the soldier. It had come during their absence.</p>
 <p>He had not written sooner because the soldiers had been forbidden to write to their families during a certain period of operations. He hoped that his letter would reach them in time to make their Christmas and New Year season happy. His letter ran:</p>
-<q rend="block"><p>"As I write, I am a happy man, despite the many things of which I am deprived.
-<pb entity="owjapan" pages="" n="191     A JAPANESE BLOSSOM"/>
+<q><p>"As I write, I am a happy man, despite the many things of which I am deprived.
+<pb entity="owjapan191" pages="191" n="191     A JAPANESE BLOSSOM"/>
 First, I am a servant in a glorious cause. Who could choose a nobler way to die? It is with cheerfulness that we soldiers bear the enforced hardships. Indeed, we scarcely feel them, so buoyed up are we by our cause. But I have still another reason for happiness at this time. I am with my boy Gozo at last, and if the fates but permit, we shall never separate again. I have told him about you all, and his letter to you will reach you with my own. The experiences he has been through since leaving his father's home have made a man of him. And it is with a man's deep understanding that he asks your pardon. But he speaks for himself.</p>
 <p>I cannot send you gifts this year, my children and my wife, but my prayers and blessings are for you always. Tell Billy I cannot send him the Russian buttons for which he asks. I think he would understand if he were here. Let him imagine the kind of man who would cut away a trifling souvenir from the body of a dead enemy. Tell the boys also that I do not doubt their zeal to serve Japan, but that it is not likely we shall need
-<pb entity="owjapan" pages="" n="192     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan192" pages="192" n="192     A JAPANESE BLOSSOM"/>
 their services. Their French friend had better revise his thoughts.</p>
 <p>"I read many times the letters from my little girls. Tell Plum Blossom so well have I kissed the spot she indicated in her letter that there is a little hole there now. Tell my little Yankee girl, too, that not only have I lent her Bible to Gozo, but it is the common property of the little band of Christians in our regiment. There are fifteen of us in all. It will give Marion pleasure to know that her gift to me passes from hand to hand, and fifteen loyal soldiers of Ten-shi-sama unconsciously bless her each day they read.</p>
 <p>"Take care of my house for me, my children, and my wife. Encourage my boys in thoughts of patriotism. Remember that always I think of you, and that is happiness enough."</p></q>
 <p>The letter from Gozo was brief, but his step-mother read it greedily. It was written in the English language.</p>
-<pb entity="owjapan" pages="" n="193     A JAPANESE BLOSSOM"/>
-<q rend="block"><p>"ESTEEMED MADAME, AND MOTHER-BY-LAW,--I know not to express myself good in your language. How I can find words begging your pardon? Put my rudeness to you down to my ignorance. I am more old to-day and through my honored father's words I am now acquainted with your respected character. I shall never have pleasure to look upon your honorable face, for I have given my insignificant life to my Emperor, yet I write begging for your affection.</p>
+<pb entity="owjapan193" pages="193" n="193     A JAPANESE BLOSSOM"/>
+<q>
+<text>
+<body>
+<div id="ojapan042" type="letter">
+<opener><salute>"ESTEEMED MADAME, AND MOTHER-BY-LAW,</salute></opener><p>--I know not to express myself good in your language. How I can find words begging your pardon? Put my rudeness to you down to my ignorance. I am more old to-day and through my honored father's words I am now acquainted with your respected character. I shall never have pleasure to look upon your honorable face, for I have given my insignificant life to my Emperor, yet I write begging for your affection.</p>
 <p>"Also I humbly asking that you will continue to show kindness to my little brothers and sisters, whom though they be unworthy, I am very sick to see. Sometimes I think all night long of that little Juji brother. Pray excuse each foolish emotion. I beg remain,</p>
-<l>Your filial step-son forever,</l>
-<l>"KURUKAWA GOZO."</l></q>
-<pb entity="owjapan" pages="" n="194"/>
-</div><div n="22" type="chapter"><head>XXII</head>
+<closer><salute>Your filial step-son forever,</salute>
+<signed>"KURUKAWA GOZO."</signed></closer></div>
+</body></text></q>
+</div>
+<pb entity="owjapan194" pages="194" n="194"/>
+<div id="ojapan043" n="22" type="chapter"><head>XXII</head>
 <p>THE country was ringing with the hateful news of the Kamrahn Bay incident. When a French name was mentioned, Japanese faces looked dark and bitter. Foreigners in Japan talked more about the matter than did the Japanese themselves, however, for they were silent and thought much. Nevertheless, this incident and others pierced deeply. Women, smiling strangely, told their little sons the story, and they repeated after their mothers the words: "We Japanese never forget!" In the higher classes of the schools the teachers quietly instructed their pu-
-<pb entity="owjapan" pages="" n="195     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan195" pages="195" n="195     A JAPANESE BLOSSOM"/>
 pils of the unfriendly act of a "friendly" nation. The story-tellers in their halls enlarged upon the theme, and told the story over and over again, with greater exaggeration each time. By-and-by the news reached the ears of the Kurukawa family. Billy and Taro held a council of war.</p>
 <p>"How to be revenged?" that was the question.</p>
 <p>They marched up and down the little garden-path discussing the subject from every standpoint. By some unfortunate coincidence the little French boy from the neighboring street happened to pass the Kurukawa house at the fateful moment when this fierce debate was in progress. In one of those flashes that often come, even to children, Billy and Taro simultaneously recognized in him the object for just vengeance.
-<pb entity="owjapan" pages="" n="196     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan196" pages="196" n="196     A JAPANESE BLOSSOM"/>
 With a bound Taro sprang through the garden-gate and seized the helpless and unsuspecting French boy, whom he dragged down the path. Then Taro sat upon him. Billy was jumping about wildly, throwing out his fists, and pretending to spit upon them. Taro, however, was quite calm.</p>
 <p>"We kinnod," said he, proudly, "both beat thad French boy. That's nod fair."</p>
 <p>Billy's jaw dropped. Then his face brightened.</p>
@@ -1367,11 +1456,11 @@ With a bound Taro sprang through the garden-gate and seized the helpless and uns
 <p>Taro shook his head.</p>
 <p>"You be England," said he, wisely; "she our honorable ally."</p>
 <p>"I am English, then," shrieked
-<pb entity="owjapan" pages="" n="197     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan197" pages="197" n="197     A JAPANESE BLOSSOM"/>
 Billy; "all our people come from England originally. Mamma said so. Let him up."</p>
 <p>Taro reluctantly arose, permitting the crushed young Frenchman to do likewise. He was a little fellow, though past his fourteenth year. His eyes were very black and furtive, and he had a tiny little mouth that would not keep closed. Actually his face was smiling. He spoke Japanese with only slight hesitancy. His polite suggestion was that they should go to his father to borrow swords with which to fight a decent duel. The boys received this suggestion with shouts of derision. Then the little Frenchman declared he would not fight at all, and crossing his arms over his chest, told them they could murder him if they wished.</p>
 <p>Billy surveyed him contemptuously.</p>
-<pb entity="owjapan" pages="" n="198     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan198" pages="198" n="198     A JAPANESE BLOSSOM"/>
 <p>"Say, what's your name, anyhow?" he queried, after a moment.</p>
 <p>"Alphonse Napoleon Taseherean."</p>
 <p>"Well, what do you think of that Kamrahn Bay matter?" continued Billy, curious to know the boy's views; but Alphonse only shrugged expressive shoulders and smiled a little, subtle, sneering smile.</p>
@@ -1380,53 +1469,53 @@ Billy; "all our people come from England originally. Mamma said so. Let him up."
 <p>"I no longer am afraid of heem," he said, contemptuously. "I will cut him up--so! if he touch me once again!"</p>
 <p>"You will?" cried Billy. "You think we're afraid of your old knife? Get it, Taro."</p>
 <p>Taro did get it, though he had a
-<pb entity="owjapan" pages="" n="199     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan199" pages="199" n="199     A JAPANESE BLOSSOM"/>
 scratch on his hand to show how dangerous the undertaking was. Then the French boy's assured manner vanished as if by magic. Quite piteously he began to cry. At the top of his voice he shouted aloud for "Pa-pa! Pa-pa!"</p>
 <p>"We're not going to hurt you after all," said Billy, after a moment. "We'll make you do something you'll remember. Taro, help me tie his hands first."</p>
 <p>They secured him firmly.</p>
 <p>"Now," ordered Billy, "you run to the house and get that old French flag you and I have been using as a mark for firing at for some time, and get a Jap flag, too."</p>
 <p>Taro was gone but a moment, and then returned with the desired flags. These Billy took and held before the French boy.</p>
 <p>"Now, you," said he, "if you don't
-<pb entity="owjapan" pages="" n="200     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan200" pages="200" n="200     A JAPANESE BLOSSOM"/>
 want to stay tied up here all night, you just do what we tell you. Kiss that sun flag-right in the centre. That's the thing! What!--Ah, you will, you divil," for the French boy put his lips against the flag but a second, and then withdrew them to spit at it.</p>
 <p>Taro had turned livid. In a flash he had seized the flag and was ramming it fiercely into the mouth of the French boy. Billy fought Taro back.</p>
 <p>"Here, Taro! That's not fair! He's tied!"</p>
 <p>He drew forth the flag. The dye ran down in livid streams on Alphonse's chin. He fought vainly to free his arms.</p>
 <p>"Now, you," said Billy, "we'll let you free if you'll fight either one of us alone. But if you won't, you'd better do what we tell you. If you don't--"</p>
-<pb entity="owjapan" pages="" n="201     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan201" pages="201" n="201     A JAPANESE BLOSSOM"/>
 <p>Taro had quietly stripped himself to the waist prepared for battle. He was younger by several years than the French boy, but the latter had already felt the taste of the little Japanese's strength. When he encountered that bloody purpose in the eye of Taro he trembled visibly.</p>
 <p>"I will do what you ask," he decided, suddenly.</p>
 <p>"Good!" cried Billy. "You believe in spitting, eh? Well, now you just spit good and plenty at that!" He thrust the French flag before Alphonse, who spat at his country's flag. Then shrugging his shoulders, he swore as little boys of some nationalities do not.</p>
 <p>Fifteen times he was forced to bow to the Japanese flag, touching each time the ground with his head. Finally he cried as instructed at the top of his voice:</p>
-<pb entity="owjapan" pages="" n="[202]     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan202" pages="202" n="202     A JAPANESE BLOSSOM"/>
 <p>"Vive la Nippon! Banzai!"</p>
 <p>He went home a very much wilted and bedraggled little Frenchman, but he did not tell his papa or mamma of the flag incident.</p>
 <p>When his father read with apparent exultation further news of Kamrahn Bay, Alphonse raised his little thin shoulders and eyebrows to venture the astonishing remark:</p>
 <p>"Was it <hi rend="italic">wise</hi> of France, pa-pa?"</p>
-<pb entity="owjapan" pages="" n="203"/>
-</div><div n="23" type="chapter"/>
-
+</div>
+<pb entity="owjapan203" pages="203" n="203"/>
+<div id="ojapan044"  n="23" type="chapter">
 <head>XXIII</head>
 <p>THERE came not many letters during the winter months to the little Kurukawa family, but the ones that did come were all the more precious. Before the first flowers of the year had begun to tint the plum-trees with their pink beauty, all Japan knew that the war would have but one ending. Victory followed victory. Instances of heroism became so frequent they could scarcely keep count of them. People, smiling, would hear the tale of a certain officer or soldier's self-sacrifice for his country, then they would say, still with that mysterious smile so com-
-<pb entity="owjapan" pages="" n="204     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan204" pages="204" n="204     A JAPANESE BLOSSOM"/>
 mon in Japan: "He has done only what any soldier of Japan would do."</p>
 <p>The newspapers, little, slim sheets, containing less than a quarter of the words an American newspaper would give to the war-story, seemed to drift about the empire. Everywhere they were found, everywhere people carried them.</p>
 <p>It was in April that the <hi rend="italic">Far East</hi> published a story of a certain act of surpassing heroism performed by a Japanese officer. Mrs. Kurukawa had seen the head-lines, and stopping in the street had bought the paper. She read it through slowly, still standing there in the street. As she stood, perfectly still, her white face tense and drawn, curious passers-by stopped to look at her, wondering what it was the foreign woman found in the paper to make her look so strangely. It was the act of
-<pb entity="owjapan" pages="" n="205     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan205" pages="205" n="205     A JAPANESE BLOSSOM"/>
 a child which aroused her. Passing, he lightly pulled the sleeve of her kimono. She started as if struck, the paper fluttered from her hand. Mechanically she reached for it, but a sudden wind caught it up and blew it hither and thither about the street. She stood there watching its flight until it had passed out of sight. It disappeared utterly. Surely it had never been at all, she had not really held it in her hand and read the story of her husband's terrible fate! Walking unsteadily and blindly, she started down the street.</p>
 <p>Madame Sano came swiftly from the garden-path to meet her, for the news had reached the house in Mrs. Kurukawa's absence.</p>
 <p>Japanese women are not demonstrative, but they are exquisitely tender. The touch of Madame Sano's hands upon her face was balm itself.
-<pb entity="owjapan" pages="" n="206     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan206" pages="206" n="206     A JAPANESE BLOSSOM"/>
 The stricken woman's features quivered. Sobs burst from her lips, and in the other woman's arms she wept as though she had found the haven of a mother's breast. Without speaking, Madame Sano led her into the house. The children, a pitiful, frightened group, were in the hall, waiting for her. Passionately, Marion called her mother by name, and clung to her a moment, but Madame Sano gently put the little girl aside and took the mother to her room. There she induced her to lie down until she waited upon her, murmuring words in soothing Japanese. When the younger woman was calmer, Madame Sano gently spoke of the sad news. She said, in a reverent voice:</p>
 <p>"God is good, my daughter. How gloriously he has rewarded your husband!"</p>
-<pb entity="owjapan" pages="" n="207     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan207" pages="207" n="207     A JAPANESE BLOSSOM"/>
 <p>The woman on the bed did not stir or speak. Madame Sano continued:</p>
 <p>"Think how many families there are in Japan whose men have never had the opportunity to give such august service to their Emperor. We are fortunate indeed."</p>
 <p>Mrs. Kurukawa covered her face with her hands. The tears came slipping through them; helpless, silent tears which would not be held back. Her voice was choked but inexpressibly sweet:</p>
 <p>"I know," she said, "it is all very--glorious--but--I will not give up hope."</p>
 <p>"Hope?" repeated Madame Sano. "Our best hopes are realized, my, daughter. Kurukawa Kiyskichi has made the supreme sacrifice. He has given his life to his Emperor and to his country."</p>
 <p>Now, Mrs. Kurukawa raised her
-<pb entity="owjapan" pages="" n="208     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan208" pages="208" n="208     A JAPANESE BLOSSOM"/>
 self. Two spots of red appeared in her cheeks. Her eyes were feverish, her nervous fingers clasped each other spasmodically.</p>
 <p>"I will tell you my hope--my belief. I feel, in spite of what we have heard, that my husband is not dead. I feel it somehow. I cannot explain. Only this I do know: he promised he would return, and he must! Oh, I am sure he will!"</p>
 <p>Gently the old woman spoke, smoothing the hands of the other woman as she did so.</p>
@@ -1434,13 +1523,13 @@ self. Two spots of red appeared in her cheeks. Her eyes were feverish, her nervo
 <p>Mrs. Kurukawa drew her hands passionately away.</p>
 <p>"That was not his meaning," she said.</p>
 <p>Madame Sano shook her head sadly.</p>
-<pb entity="owjapan" pages="" n="209     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan209" pages="209" n="209     A JAPANESE BLOSSOM"/>
 <p>"Ah, my child, be reconciled to the august inevitable."</p>
 <p>There was a smile upon the pale lips of the younger woman.</p>
 <p>"You do not understand my faith," she said, "and I cannot explain it. When I read that story in the street I felt as if something had struck me. I tried to push it from me with my hands, and I do not know how I found my way home. I still feel as if I had been hurt and bruised in some way, and yet I know--I feel--that it is not true--that he is--dead."</p>
 <p>Her voice whispered the word, and for a long interval there was silence in the room. Then she said, slowly: "It is a mistake--a horrible mistake. God give us courage to bear the mistake. But that is all it is."</p>
 <p>"You do not believe the story of
-<pb entity="owjapan" pages="" n="210     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan210" pages="210" n="210     A JAPANESE BLOSSOM"/>
 your husband's magnificent heroism?"</p>
 <p>"I do believe it."</p>
 <p>"Then you must admit that he has passed away. Is it not clearly stated that after he had saved almost the entire division that was caught in the ambush that he himself was struck down and his body carried away by the Russians, for what purposes can only be surmised?"</p>
@@ -1450,67 +1539,110 @@ your husband's magnificent heroism?"</p>
 <p>"Yes, to learn what I can. If necessary I will go again to Tokio, leaving the children with you."</p>
 <p>The old woman nodded.</p>
 <p>"They will make an honorable
-<pb entity="owjapan" pages="" n="211     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan211" pages="211" n="211     A JAPANESE BLOSSOM"/>
 effort," she said, "to obtain possession of your husband's body, and he will be given an exalted funeral. 'He died gloriously for Dai Nippon' will say all loyal Japanese."</p>
 <p>Mrs. Kurukawa smiled wearily.</p>
 <p>"He is not dead," she said. "Do not, clear Madame Sano, rob me of my hope. I want to be courageous, for while I feel he is not gone truly from me, I do not know what may have befallen him. It may be that he is wounded--sick--tortured--a prisoner. Oh, I cannot bear to think of it!"</p>
 <p>"Better, my child," urged the old woman, gently, "to believe he is at rest. Cherish not false hopes. Ah, had you been a true daughter of Japan, you would have looked for, expected, and even hailed this bereavement, but--"</p>
 <p>"Do not reproach me," cried Mrs.
-<pb entity="owjapan" pages="" n="[212]     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan212" pages="212" n="212     A JAPANESE BLOSSOM"/>
 Kurukawa. "My husband would not have done so. Oh, I have tried to be as he would wish me, and--and--I feel that he would have me believe as I do. I know he will keep his promised word. He will return to me."</p>
-</div><div n="24" type="chapter">
+</div>
+<pb entity="owjapan213" pages="213" n="213     A JAPANESE BLOSSOM"/> 
+<div id="ojapan045" n="24" type="chapter">
 <head>XXIV</head>
 <p>TWO weeks later the mail for Tokio contained several pathetic epistles. Most of them were written in the wandering, crude, yet peculiarly attractive handwriting of little children. Mrs. Kurukawa read them over and over again, crying softly as she did so.</p>
-<q rend="block"><p>"DARLING MAMMA--DO please let us come to you in Tokio. You do not know how sad we are without you. Little girls have little hearts, but I know that they can suffer much, just the same. Grandmother, too, is very sad, and Norah is crying, 'Wirrah, wirrah, wirrahl' all the time, and, oh, mamma, she says she hears the banshee every night wailing outside
-<pb entity="owjapan" pages="" n="214     A JAPANESE BLOSSOM"/>
+<q>
+<text>
+<body>
+<div id="ojapan046" type="letter">
+<opener><salute>"DARLING MAMMA</salute></opener><p>--DO please let us come to you in Tokio. You do not know how sad we are without you. Little girls have little hearts, but I know that they can suffer much, just the same. Grandmother, too, is very sad, and Norah is crying, 'Wirrah, wirrah, wirrah' all the time, and, oh, mamma, she says she hears the banshee every night wailing outside
+<pb entity="owjapan214" pages="214" n="214     A JAPANESE BLOSSOM"/>
 our house. Grandmother says it's only that old gray cat of Summer's. You probably remember her. But Norah says it is the banshee, and it means that some one in our family is dead. Oh, mamma, <hi rend="italic">how</hi> it made me cry! Grandmother has made us all the strangest-looking kimonos. They are of black cr&ecirc;pe, and I cannot bear to put mine on. She says that black is not the mourning color in Japan, but we must wear black in honor of you, mamma, because black cr&ecirc;pe is mourning in America. So yesterday we all went to church in those black kimonos, and everybody stared at us, and I put my head down on the pew, and cried and cried. Plum Blossom and Iris also hid their faces, and though <hi rend="italic">they</hi> say they did not cry, I think they did, for their eyes were all red. Everybody treats us as if we were great people. In church they all bowed so deeply to us as we went in. Sometimes the men we meet on the street will cheer when they see us. Taro says it is because father did such heroic things. Taro has no heart, I sometimes think, for he seems to be proud and happy that
-<pb entity="owjapan" pages="" n="215     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan215" pages="215" n="215     A JAPANESE BLOSSOM"/>
 father is gone, and he says he wishes he could have the chance to do what father did. Billy is very serious these days. He thinks he ought to be with you in Tokio, to take care of you and protect you. Oh, dear mamma, do let us know all the news you hear, and if we cannot come to you, <hi rend="italic">please</hi>, please come home to us soon.</p>
-<l>Your affectionate and loving,</l>
-<l>"MARION."</l></q>
-<q rend="block><p>"BELOVED DAUGHTER-IN-LAW--I hope that your health is excellent and that you will return home soon. The servants weep for their okusama (honorable lady of the house). The children are augustly sad without you. Billy has lost his appetite for food. He has the pale face got. When I request, 'Are you ill, Billy?' he makes reply, in boy rough way, 'No, but I ought to be with my mother.' Marion spoils her pretty eyes with too much weep. She and Juji weep enough tears for all the honorable family. Plum Blossom does all your work most neatly, and is learning excellently to be a good house
-<pb entity="owjapan" pages="" n="216     A JAPANESE BLOSSOM"/>
+<closer><salute>Your affectionate and loving,</salute>
+<signed>"MARION."</signed></closer></div>
+</body></text></q>
+<q>
+<text>
+<body>
+<div id="ojapan047" type="letter">
+<opener><salute>"BELOVED DAUGHTER-IN-LAW</salute></opener><p>--I hope that your health is excellent and that you will return home soon. The servants weep for their okusama (honorable lady of the house). The children are augustly sad without you. Billy has lost his appetite for food. He has the pale face got. When I request, 'Are you ill, Billy?' he makes reply, in boy rough way, 'No, but I ought to be with my mother.' Marion spoils her pretty eyes with too much weep. She and Juji weep enough tears for all the honorable family. Plum Blossom does all your work most neatly, and is learning excellently to be a good house
+<pb entity="owjapan216" pages="216" n="216     A JAPANESE BLOSSOM"/>
 keeper. You chose wisely to put her in your place, and she feels proudly your august confidence in her. Iris assists her in all things, but neither does she appear in good health. She has too much paleness in the face also. Taro is a great comfort. His father's heroism has inspired him with noble ambitions. He is a worthy son, though young. The baby has more words to say each day. Yesterday she spoke of the white moon which appeared in the sky while it was yet day as "ball," and she said, 'It is too high!' Those are many words for one so young. She has her august mother's eyes.</p>
-<p>"Excellent daughter-in-law, I beseech you to earnestly seek details concerning the fate of our beloved Gozo. It is said in some of the papers that he did accompany his father upon this expedition. I entreat you to think first of all of your august health and happiness. I sign myself, Your unworthy mother-in-law,</p>
-<l>"SANO-OTAMA."</l></q>
-<q rend="block"><p>"DEAR MOTHER,--Since father is dead, I ought to take care of you. I think
-<pb entity="owjapan" pages="" n="217     A JAPANESE BLOSSOM"/>
+<p>"Excellent daughter-in-law, I beseech you to earnestly seek details
+concerning the fate of our beloved Gozo. It is said in some of the
+papers that he did accompany his father upon this expedition. I
+entreat you to think first of all of your august health and
+happiness.</p>
+<closer><salute> I sign myself, Your unworthy mother-in-law,</salute>
+<signed>"SANO-OTAMA."</signed></closer></div>
+</body></text></q>
+<q>
+<text>
+<body>
+<div id="ojapan048" type="letter">
+<opener><salute>"DEAR MOTHER</salute></opener><p>,--Since father is dead, I ought to take care of you. I think
+<pb entity="owjapan217" pages="217" n="217     A JAPANESE BLOSSOM"/>
 about it all the time and want to come to you. I don't think it right for a woman to be alone, and I must come to you at once. Taro and I have not felt like doing anything lately. I don't know what's the matter with everything. The house doesn't seem the same without you. I can't write much. I want to be with you, mother.</p>
-<l>Your boy,</l>
-<l>"BILLY."</l></q>
-<q><p>"ESTEEMED MOTHER,--The plum-trees have much buds again got now, but very sad they make us this year. I think only of those cherry blossoms we did see with our honorable father. They are so like the plum. Billy says they make him sick if he look upon those trees. So we go not out much, as it makes so sorrow in the hearts to see those same trees shine.</p>
+<closer><salute>Your boy,</salute>
+<signed>"BILLY."</signed></closer>
+</div></body></text></q>
+<q>
+<text>
+<body>
+<div id="ojapan049" type="letter">
+<opener><salute>"ESTEEMED MOTHER,</salute></opener><p>--The plum-trees have much buds again got now, but very sad they make us this year. I think only of those cherry blossoms we did see with our honorable father. They are so like the plum. Billy says they make him sick if he look upon those trees. So we go not out much, as it makes so sorrow in the hearts to see those same trees shine.</p>
 <p>"Earnestly I endeavor to follow your honorable counsel about the house, and it is unworthily clean to your honor. I am become like Marion. Always my eyes those tears in them when I think about you, and several times I make my pillow
-<pb entity="owjapan" pages="" n="[218]     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan218" pages="" n="[218]     A JAPANESE BLOSSOM"/>
 wet. Therefore I praying until you <hi rend="italic">please</hi> come home with us. Tha's very sad that our father die and go way, but tha's sadder that we lose our mother also.</p>
-<l>"Unworthy and insignificant,</l>
-<l>"PLUM BLOSSOM."</l></q>
-<q rend="block"><p>"DEAR MAM,--I thought I would write you a letter, hoping that you are well. i like you very much, main, and i love the precious lambs, both the babby and Juji, but, mam, i cannot bear any longer so much sorrow, and it's a letter to you I'm writing to say i must go back to the old country, for i cannot bear so much trouble and i have heard the banshee cry at night and it's afraid i am that there's death hovering about. Will you buy my ticket, please, mam? And it's breaking my heart sure to leave you and the lambs.</p> <l>"Respectfully,</l>
-<l>N0RAH O'MALLEY."</l></q>
-<pb entity="owjapan" pages="" n="219"/>
+<closer><salute>"Unworthy and insignificant,</salute>
+<signed>"PLUM BLOSSOM."</signed></closer></div></body></text></q>
+<q>
+<text>
+<body>
+<div id="ojapan148" type="letter">
+<opener><salute>"DEAR MAM,</salute></opener><p>--I thought I would
+write you a letter, hoping that you are well. i like you very much,
+main, and i love the precious lambs, both the babby and Juji, but,
+mam, i cannot bear any longer so much sorrow, and it's a letter to you
+I'm writing to say i must go back to the old country, for i cannot
+bear so much trouble and i have heard the banshee cry at night and
+it's afraid i am that there's death hovering about. Will you buy my
+ticket, please, mam? And it's breaking my heart sure to leave you and
+the lambs.</p>
+<closer><salute>"Respectfully,</salute>
+<signed>NORAH O'MALLEY."</signed></closer></div>
+</body></text></q>
+</div>
+<pb entity="owjapan219" pages="219" n="219"/>
+<div id="ojapan149" type="chapter" n="25">
+<head>XXV</head>
 <p>THE letters brought the mother back to her home. She had altered strangely in the two months she had been in the city. Always slim, she seemed now a mere shadow of a woman--slight and frail as if a breath would blow her away. But the thin face still retained its gentle sweetness of expression and the eyes held that smile of hope.</p>
 <p>The children were glad to see her. Laughing and crying they clung to her.</p>
 <p>"Why," she said, as if she had only just realized it, "what a lot there is to live for!"</p>
-<pb entity="owjapan" pages="" n="220     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan220" pages="220" n="220     A JAPANESE BLOSSOM"/>
 <p>"Seven of us, mother," said Marion; "no, eight!--for there's Gozo, too."</p>
 <p>She took no one into her confidence, but began, in secret, a correspondence with the Minister of War. All of her inquiries were answered. In Japan her husband had not been without high influence, and his heroism had made his name revered by all Japanese. Hence the requests of his widow were given the greatest attention. Soon they had reached the highest authorities. Orders went straight to the field of action. At last there came a day when she knew that a special search was to be made for her husband--dead or alive.</p>
 <p>The Russians would tell if he were with them. If not, then, at least, his body must be found. Such were the orders issued from a high place.</p>
 <p>She was like a flower opening to
-<pb entity="owjapan" pages="" n="221     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan221" pages="221" n="221     A JAPANESE BLOSSOM"/>
 the sunshine and spring rain. The color came back to her pale cheeks and lips. Back also came the light of health to her eyes. She moved like a new person.</p>
 <p>The assurance that no stone would be left unturned to learn her husband's fate, and her strange faith that he was still alive, invigorated her. The change effected in her rapidly spread to the entire household. Gloom slipped out of the door and sunshine ventured in with summer. And this is as it should be in the house of children.</p>
 <p>While the cherry blossoms were still flying like myriad pink-and-white birds in the skies and all the mossy ground was white with the flowery carpet blown from the trees, the family went out once again on a flower picnic.</p>
 <p>In the same little flowery gowns,
-<pb entity="owjapan" pages="" n="222     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan222" pages="222" n="222     A JAPANESE BLOSSOM"/>
 the sleeve-wings weighted with petals, they started gayly for the picnic grounds where "father" had taken them only a year before. A gentle melancholy which pervaded even the youngest of them, at the memory of that absent one, was dispersed with the mother's thought!</p>
 <p>"Father would have you happy to-day, children. This is his day, darlings. So be happy."</p>
 <p>And so they were. They played the games popular in Japan, engaged in the fascinating sport of kite-flying, listened with eager ears to the tales of the grandfather, and then, sleepy, homeward bound in their jinrikishas lazily attacked passing festival-makers with the petals, to be smothered in turn with the flowery shower.</p>
 <p>When they reached home it was gloaming. Norah made the discovery that most of the children were asleep.</p>
-<pb entity="owjapan" pages="" n="223     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan223" pages="223" n="223     A JAPANESE BLOSSOM"/>
 <p>"Shure," said the girl, "they're all babbies, mam, just look at the darlints," and she indicated the heads of the three little girls all resting asleep on the back of the seat. Marion was in the middle with a hand of each step-sister in her own. Mrs. Kurukawa stood silently looking at them, then Norah interrupted her thoughts again.</p>
 <p>"Did you think, ma'am, I'd have the heart to leave them?"</p>
 <p>"I hoped not, Norah," she answered, gently, "but I know it has been hard for you, and you are a good girl."</p>
 <p>She helped the Irish girl lift the sleeping Juji from the carriage. As a maid from the house came to the jinrikisha Mrs. Kurukawa turned to direct her to assist Norah. Something in the girl's face startled her. The usual impassive expression was
-<pb entity="owjapan" pages="" n="224     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan224" pages="224" n="224     A JAPANESE BLOSSOM"/>
 gone, and in the dim light of the evening her mistress saw the silent tears rolling down her face.</p>
 <p>"Why are you crying, Norah?" she said. "Are you in trouble?"</p>
 <p>The girl shook her head.</p>
@@ -1519,14 +1651,14 @@ gone, and in the dim light of the evening her mistress saw the silent tears roll
 <p>"What is it?" she demanded, harshly, in Japanese. "It is unseemly to act so in the okusama's presence. Keep your troubles for your own chamber."</p>
 <p>"But I have no troubles," said the girl, rising and wiping her eyes with her sleeves. "I w-weep because I am happy."</p>
 <p>She brought the last word out with
-<pb entity="owjapan" pages="" n="225     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan225" pages="225" n="225     A JAPANESE BLOSSOM"/>
 such hysterical vehemence that she woke the older sleepers. They sat up, looking about them, startled from their dreams. But Mrs. Kurukawa shook the girl by the arm. Her voice was hoarse.</p>
 <p>"What is it, Norah? Tell me quickly!"</p>
 <p>For answer the girl turned towards the house and pointed to the silent figure standing there by the doorway. Even in the twilight the Japanese children knew him. They jumped tumblingly from the jinrikishas and ran towards him, calling his name aloud:</p>
 <p>"Gozo! Gozo! Gozo!"</p>
-<p>Mrs. Kurakawa turned and blindly followed the children.</p>
+<p>Mrs. Kurukawa turned and blindly followed the children.</p>
 <p>He put the clinging children aside from him and advanced a step towards her. Then suddenly he stopped short, standing uncertainly. She
-<pb entity="owjapan" pages="" n="226     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan226" pages="226" n="226     A JAPANESE BLOSSOM"/>
 spoke with a note of irresistible appeal in her voice.</p>
 <p>"Oh, you bring me news of my husband--your father!" she said.</p>
 <p>He made a sort of smothered sound; then, with a movement strangely reminiscent of his father, he seized her hand suddenly in his own and fell on his knees before her.</p>
@@ -1534,73 +1666,83 @@ spoke with a note of irresistible appeal in her voice.</p>
 <p>"He is alive!" she cried.</p>
 <p>"In Japan--the hospital at Saseho. I unworthily brought him home on--"</p>
 <p>He noticed that her hand fell feebly from his. Then he caught her as she reeled. She had fainted.</p>
-<pb entity="owjapan" pages="" n="227"/>
-</div><div n="26" type="chapter">
+<pb/>
+<figure entity="owjapaanill226" rend="inline">
+<figDesc>Illustration from Watanna's <hi rend="italic">A Japanese
+Blossom</hi>.</figDesc></figure></div>
+<pb entity="owjapan227" pages="227" n="227"/>
+<div id="ojapan060" n="26" type="chapter">
 <head>XXVI</head>
-<p>THE following morning Mrs. Kurukawa was with her husband, having travelled all night, accompanied by Gozo. He had known she would come. When she approached his bed he raised himself on his elbow and greeted her cheerily, with an airy wave of his arm. When she saw his dear, familiar face, with the kindly smile lighting up the features, she rushed with an inward sob towards him. She could not speak, so deep were the emotions that assailed her, but she clung to his hand as he whispered to her.</p>
+ <p>THE following morning Mrs. Kurukawa was with her husband, having travelled all night, accompanied by Gozo. He had known she would come. When she approached his bed he raised himself on his elbow and greeted her cheerily, with an airy wave of his arm. When she saw his dear, familiar face, with the kindly smile lighting up the features, she rushed with an inward sob towards him. She could not speak, so deep were the emotions that assailed her, but she clung to his hand as he whispered to her.</p>
 <p>Later, when she was calmer, she
-<pb entity="owjapan" pages="" n="228     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan228" pages="228" n="228     A JAPANESE BLOSSOM"/>
 took the chair Gozo placed for her; then, with broken sentences, she poured out to her husband all that was in her heart.</p>
 <p>The days that followed were cheery ones for the soldiers in Mr. Kurukawa's ward. His wife would come each day loaded with flowers, books, magazines, and food of various sorts. She seemed to forget no one in the ward. Sometimes her impatient and selfish husband actually begrudged the little time she spent away from his side, as she went from cot to cot with her gifts and her words of comfort and praise. He would hold her hand greedily when she would come to him and say:</p>
 <p>"There! At last, you have come. Tell me everything now. Ah! the letters. Read them, please, at once."</p>
 <p>They always began the day with her reading of the pile of letters that
-<pb entity="owjapan" pages="" n="229     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan229" pages="229" n="229     A JAPANESE BLOSSOM"/>
 came from the impatient children at home.</p>
 <p>Taro wanted his father's sword sent, unwashed, by express. If he waited until they returned home he feared that some one might steal the precious weapon in the interval. Of course, Gozo, as the eldest son, was rightfully entitled to the sword, but he had a sword of his own already, and Taro had none. If his father would only give him this one he would swear by it to use it only in glorious service. Billy, apparently inspired at his step-brother's request, wrote an eloquent plea for his father's rifle. If his father could spare his uniform, which must be all ragged and worn from bullet wounds and blood, Billy would cherish it as his choicest possession. Marion's epistles were always blurred by tear marks. They were sometimes al-
-<pb entity="owjapan" pages="" n="230     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan230" pages="230" n="230     A JAPANESE BLOSSOM"/>
 most undecipherable. Because the invalid insisted on hearing every word she had written, Mrs. Kurukawa usually spent more time over her letters than any of the other children's. The little girl was given to dissecting her inmost emotions. Her letters were usually a recital of how she felt when she heard this and that about her dear, dear, dear, brave father, whom she loved so much.</p>
 <p>Plum Blossom wrote pages of flowery words. The father had simply made a bird of her, she said. She wanted to sing and laugh all the time. She had a calendar. on which she chalked off each day the date, so she could keep count of the days until her father would return. The baby had fallen down the stairs, she wrote, but the floor, fresh padded with rice-paper, in anticipation of the
-<pb entity="owjapan" pages="" n="231     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan231" pages="231" n="231     A JAPANESE BLOSSOM"/>
 return of "father," was so soft that she only bounced when she reached the bottom. When Norah had picked her up the baby had actually laughed, and said: "Coco faw down." The baby could make long sentences now. She could even say a prayer Marion had taught her, but she was very rude, and often said "Amen" right in the middle.</p>
 <p>There were three soldiers in the town, and everybody was making a great fuss over them. Miss Summer had said she wished she could marry one of them, which showed she had no sense, since Gozo already was a soldier. Anyhow, the soldiers never deigned to look at little girls, and they only marched by the Kurukawa house because they wanted to see Norah, who said they were "small, but grand!"</p>
 <p>Iris's letters brimmed over with
-<pb entity="owjapan" pages="" n="232     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan232" pages="232" n="232     A JAPANESE BLOSSOM"/>
 the same expressions of love and entreaties for the quick return of her parents.</p>
 <p>Finally, there came an extraordinary little document penned by Juji. It was written in English, apparently under the direction of the faithful Norah, for at the bottom of the sheet she had written:</p>
-<p>"If you please, mam, it was Norah that taught the little lad to write the beautiful letter."</p>
+<q><p>"If you please, mam, it was Norah that taught the little lad to write the beautiful letter."</p></q>
 <p>Beautiful it was to the eye of the fond father. Every letter was printed and loving words misspelled. There were three smudges of ink on the page. One distinct little mark, where a dirty little finger had rested for a moment, pleased him.</p>
 <p>"Do you know," said Mrs. Kurukawa, very earnestly, "I would still be in Tokio if it had not been for
-<pb entity="owjapan" pages="" n="233     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan233" pages="233" n="233     A JAPANESE BLOSSOM"/>
 the children's letters. They used to come in every mail--little, soiled epistles of love, all hearing their childish pleas for mother to return. Why, I could not stay away from them. They just drew me back."</p>
 <p>Her husband looked at her fondly.</p>
 <p>"What a <hi rend="italic">mother</hi> you are!" he said.</p>
-<p>"Yes," said she, "that's my strongest trait--maternity. I love all children. There's nothing sweeter in the world than baby arms about one's neck, baby voices, baby kisses, baby touches. Oh, they are the most precious things in life!"</p>
+<p>"Yes," said she, "that's my strongest trait--maternity. I love all
+children. There's nothing sweeter in the world than baby arms about
+one's neck, baby voices, baby kisses, baby touches. Oh, they are the
+most precious things in life!"</p>
 <p>He looked a trifle injured.</p>
 <p>"You think more of babies than of husbands, then."</p>
 <p>She laughed with the tears in her eyes.</p>
 <p>"Why, husbands are the biggest babies of all!" she said. "I've al-
-<pb entity="owjapan" pages="" n="234     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan234" pages="234" n="234     A JAPANESE BLOSSOM"/>
 ways felt like a mother to you, you know."</p>
 <p>"You have?"</p>
 <p>She nodded brightly.</p>
 <p>"Don't you know what first appealed to me in you?"</p>
 <p>"No."</p>
-
-<p>"Well, it was your utter loneliness in a strange country. You seemed so strangely alone in America, and you wanted so much to be friendly. I saw it in your face."</p>
+<p>"Well, it was your utter loneliness in a strange country. You
+seemed so strangely alone in America, and you wanted so much to be
+friendly. I saw it in your face."</p>
 <p>"Yes, I did want to be friendly--with you," he admitted, gravely.</p>
 <p>"You did not find it hard, did you?" she asked, still smiling.</p>
 <p>"Yes, I did."</p>
 <p>"Why, I gave you every encouragement."</p>
 <p>"I know, but still I could not know that."</p>
 <p>Gozo came into the ward, and, joining them, tossed upon the bed a
-<pb entity="owjapan" pages="" n="[235]     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan235" pages="235" n="235     A JAPANESE BLOSSOM"/>
 number of newspapers and periodicals.</p>
-<p>"What are you talking about?" he asked, noting their smiling expressions.</p>
+<p>"What are you talking about?" he asked, noting their smiling
+expressions.</p>
 <p>Blushing like a girl, the wife looked at her husband shyly.</p>
 <p>"We were talking about our courtship days, my son," said Mr. Kurukawa.</p>
-<p>"Ah," said Gozo, very seriously, it makes one happy to think of those times, does it?"</p>
+<p>"Ah," said Gozo, very seriously, it makes one happy to think of
+those times, does it?"</p>
 <p>"Very, very happy," said his stepmother.</p>
 <p>Gozo sighed.</p>
 <p>"I cannot understand why," he said, simply.</p>
-<pb entity="owjapan" pages="" n="236"/>
-</div><div n="27" type="chapter">
-
+</div>
+<pb entity="owjapan236" pages="236" n="236"/>
+<div id="ojapan061" n="27" type="chapter">
 <head>XXVII</head>
 <p>"HURRY down to Takashima, Taro, and tell him he must send us without fail two large cases of the best and brightest fire-flies. Now, remember, they must be delivered by to-morrow morning at latest."</p>
 <p>"Can't we bring them back, grandma?" queried Taro.</p>
 <p>"No, oh no, you might break the netting and the flies escape. Where is Beely?"</p>
 <p>"Here I am, gam," answered the boy from his place on the back piazza. He was engaged in pasting carefully in a scrap-book several newspaper pictures of his step-father.</p>
-<pb entity="owjapan" pages="" n="237     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan237" pages="237" n="237     A JAPANESE BLOSSOM"/>
 <p>"Beely," said Madame Sano, speaking now in English, "you must go down to the river and get all the white pebbles and shells you can find. Fill up your sleeves full."</p>
 <p>"Aw right, gam," said the boy, obediently, though he left his fascinating book reluctantly.</p>
 <p>"What d'ye want with them, gam?"</p>
@@ -1609,21 +1751,17 @@ number of newspapers and periodicals.</p>
 <p>"Marion!" the grandmother called up the little stairway. In answer to the call she came running.</p>
 <p>"Yes, gramma."</p>
 <p>"Where's those bamboo palms?"</p>
-<pb entity="owjapan" pages="" n="238     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan238" pages="238" n="238     A JAPANESE BLOSSOM"/>
 <p>"I'll get them. Do you want them now?"</p>
 <p>"Ride away."</p>
 <p>"All right."</p>
 <p>Madame Sano took them from her and showed the little girl how to dust the eaves with them.</p>
-<p>"Bamboo means long life," she explained. "I always clean the house with them, and the gods will deign long life to give."
-
-</p>
+<p>"Bamboo means long life," she explained. "I always clean the house with them, and the gods will deign long life to give."</p>
 <p>"The gods!" gasped Marion, reproachfully. "Oh, grandmamma!"</p>
 <p>Madame Sano's withered little face turned rosy. She had been from girlhood a Christian, as she was proud to say.</p>
 <p>"I speak, my child," she explained, "only poetically, not religiously."</p>
-<p>
-
-"Oh," said Marion, dubiously; then after a moment of silent work she stopped and regarded the old woman earnestly.</p>
-<pb entity="owjapan" pages="" n="239     A JAPANESE BLOSSOM"/>
+<p>"Oh," said Marion, dubiously; then after a moment of silent work she stopped and regarded the old woman earnestly.</p>
+<pb entity="owjapan239" pages="239" n="239     A JAPANESE BLOSSOM"/>
 <p>"Dear grandma, you aren't a heathen, are you?"</p>
 <p>"Dear grandma" grunted, but went on with her work, her little old face puckered into a rather disdainful expression.</p>
 <p>"Are you, grandma?" pleaded Marion.</p>
@@ -1633,7 +1771,7 @@ number of newspapers and periodicals.</p>
 <p>Marion kissed her impulsively, whereupon she declared that the little girl was honorably rude, and no help at all.</p>
 <p>"Join your sisters for flowers," she ordered.</p>
 <p>"Shall we want so many flowers for the house, grandma?" asked Marion.</p>
-<pb entity="owjapan" pages="" n="240     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan240" pages="240" n="240     A JAPANESE BLOSSOM"/>
 <p>"No, no, no. Only one small bunch for house."</p>
 <p>"Then why--?"</p>
 <p>"The flowers are for the honorable picnic booth. It must have plenty."</p>
@@ -1643,55 +1781,54 @@ number of newspapers and periodicals.</p>
 <p>"Grandma," she called, "I'm going to take a wagon along and fill it. Will that be enough?"</p>
 <p>"Go, go, naughty one!" and the naughty one fled.</p>
 <p>On this day the Kurukawa house seemed alive with busy ones. In every room some one was moving about. Many of the old servants had been recalled. From the top to the bottom of the house work was in
-<pb entity="owjapan" pages="" n="241     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan241" pages="241" n="241     A JAPANESE BLOSSOM"/>
 progress. The shoji of the entire upper floor had been pushed aside, making a sort of roofed pavilion of this upper level. The little balconies were heaped with flowers and green trailing vines were threaded in and out among the railings. The long, bare expanse of exquisite matted floor needed no relief of furniture. This cool interior was the most attractive place imaginable. From all sides the breezes swept in, making it delightfully cool. Madame Sano bustled about the place throwing mats about.</p>
 <p>Here the family would dine this day. The outlook was picturesque, for one could see the blooming country and the blue fields and hills, and nestling in its heart the little village.</p>
 <p>This was the floor on which the children slept. It was only the work of a few minutes to slip the sliding-
-<pb entity="owjapan" pages="" n="242     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan242" pages="242" n="242     A JAPANESE BLOSSOM"/>
 walls back into place again. Japanese beds need no making. On the second floor Madame Sano had been most busy. How the chamber of the okusama shone! The long, white, foreign bed seemed not at all out of place in the room. It was the only furniture Mrs. Kurukawa had brought with her. She used the little toilet-boxes of Japan, and there were several bamboo chairs and one small rocker her husband had bought for her in Yokohama.</p>
 <p>The room was sweet with the odor of some faint perfume. Perhaps it was only the sandal-wood of the toilet-boxes, or the odor of sweet-smelling incense which had recently been burned to purify the house. There was not a speck of dust on the floor. Even Madame Sano, from whose sharp little eyes nothing seemed to escape, seemed satisfied as she
-<pb entity="owjapan" pages="" n="243     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan243" pages="243" n="243     A JAPANESE BLOSSOM"/>
 drew the sliding-doors in place and descended to the lower floor.</p>
 <p>In the guest-room a maid was polishing something round and dark golden in color. It was very ancient and beautiful, an old hibachi, highly prized by the master of the house. A serving-boy stood waiting at the tokonoma. He handed Madame Sano reverently the things he had brought from the go-down.</p>
 <p>She did not put the kakemona in place, but left it on a stand, for there was much else to see before she could spare the time for the tokonoma, always the last and pleasantest task. Besides, she had promised Plum Blossom the task of flower arrangement in the ancient house, and the hanging of the scroll.</p>
 <p>A visit to the kitchen revealed the fact that the cook and four assistants were deep in the preparation of 
-<pb entity="owjapan" pages="" n="244     A JAPANESE BLOSSOM"/>
-meal which promised to be perfect in its excellence.
-
-</p>
+<pb entity="owjapan244" pages="244" n="244     A JAPANESE BLOSSOM"/>
+meal which promised to be perfect in its excellence.</p>
 <p>Madame Sano felt and smelled of every bit of fish and meat, of fruit and vegetable, to see that everything was fresh. She condescended to speak a word of praise to the cook, an old man long in the service of the family.</p>
 <p>"Choice marketing is an art, excellent Taguchi. Worthily you excel."</p>
 <p>The cook bowed with the grace of an old-time courtier, his face wreathed in smiles. Did the elderly grandmother believe that the okusama would deign to be satisfied?</p>
 <p>The okusama would be honorably pleased, indeed, Madame Sano assured him. She left the kitchen helpers in a glow, and outside the door listened, her old face smiling to their happy chatter within.</p>
-<pb entity="owjapan" pages="" n="2[45]     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan245" pages="245" n="245     A JAPANESE BLOSSOM"/>
 <p>One said:</p>
 <p>"Hah! the master always liked his fish just so. If I give one more beat to the fish it will be spoiled. These cakes are ready now for frying."</p>
 <p>"The master," said another, "has not eaten civilized food for many moons. These rice-balls will water his palate."</p>
 <p>A woman's voice broke in shrilly.</p>
 <p>"Okusama will ask for the sugarcoated beans first of all. Look at these, fresh as if growing. Think of the pleasure of her tongue."</p>
 <p>"Talk less, work more," came the admonishing voice of the old chief cook. For a moment there was silence, then a woman's voice broke into song, and the song she sang was of war, furious, glorious war!</p>
-<pb entity="owjapan" pages="" n="246"/>
-</div><div n="28" type="chapter">
+</div>
+<pb entity="owjapan246" pages="246" n="246"/>
+<div id="ojapan064" n="28" type="chapter">
 <head>XXVIII</head>
 <p>JUST before the noon hour the train bearing the Kurukawas arrived. They were unprepared for the reception. The towns-people had gathered at the station. When Mr. Kurukawa, pale, but able to walk alone, appeared on the platform, a murmur which rapidly became a cheer arose from the crowd. Old friends and neighbors rushed forward to greet him. He was overwhelmed by the storm of banzais and cheers. The Japanese people do not often give way in this fashion, but in these times they let themselves loose, and they shouted now with all the pent-
-<pb entity="owjapan" pages="" n="247     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan247" pages="247" n="247     A JAPANESE BLOSSOM"/>
 up enthusiasm of months. Their heroes were sacred objects to them--to look at them even was an honor. How proud the little town had become! Did they not boast as a citizen one of the bravest heroes of the war? The gods had singled them out for the peculiar honor. Grateful and proud indeed they felt. Always a modest man by nature, the homage offered Mr. Kurukawa now almost distressed him. Indeed, his face showed bewilderment and embarrassment. Respectfully the people permitted his son to lead him to the waiting jinrikisha. The crowds impeded the progress of the vehicles, which they followed all the way to the house.</p>
 <p>At the house everything was ready for the reception. The children were in their gayest clothes. All were rosy with excitement. About them ev-
-<pb entity="owjapan" pages="" n="248     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan248" pages="248" n="248     A JAPANESE BLOSSOM"/>
 erything seemed to shine. Madame Sano, old as she was, made quite a picture. Her withered old cheeks were pink with pride.</p>
 <p>They were all waiting there in the hall. Hard by, the servants in their best attire waited also.</p>
 <p>"It's after twelve already," said Billy, consulting for the twentieth time his Christmas watch. "They're late."</p>
 <p>"I hear sounds," said Taro, his ears pinched up like a small dog's.</p>
 <p>Taro rushed to the shoji, and before his grandmother could prevent him he had thrust his fist through the beautiful new paper upon it. Billy, however, made a rush for the door, forgetting in one moment all the grandmother's injunctions concerning the "dignified and most refined" reception due at such a time. Billy's departure seemed to affect the girls. They looked at one another in hesi-
-<pb entity="owjapan" pages="" n="249     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan249" pages="249" n="249     A JAPANESE BLOSSOM"/>
 tation. Then almost with one accord they followed their brother's lead, dragging little Juji along with them. Down the garden-path they sped, stocking-footed, for they had not stayed to put on clogs. Billy and Taro pushed through the gate ruthlessly. Down the road they dashed. A moment later they were in the midst of the crowd following and cheering their father. They shouted as they ran and waved their arms wildly above their heads. Mr. Kurukawa saw them while still a distance off, and suddenly arose in his seat. Unmindful of the crowd, he gave an answering shout to the boys. How he reached the house he never could remember. His wife told him afterwards that the children seemed to fall upon him at once. They clung about his legs, his hands, and his waist.</p>
-<pb entity="owjapan" pages="" n="250     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan250" pages="250" n="250     A JAPANESE BLOSSOM"/>
 <p>Once across the threshold, he gave a great sigh. Then in a voice which went straight to the very heart of old Madame Sano, he said:</p>
 <p>"This house seems to be the most beautiful place on earth."</p>
 <p>He permitted an excited, happy maid to take off his sandals and bathe his feet. Then followed by the happy ones, he ascended the stairs to the upper floor, where the meal was served. Never in his life, he declared over and over again, had he been so hungry. He ate everything placed before him. When the children begged to be told this or that about his adventures he would answer: "After dinner. Talk, all of you, if you wish, but let me eat."</p>
-<p>"I thouht," said Billy, "that you were wounded, and that wounded men aren't allowed to eat so much."</p>
+<p>"I thought," said Billy, "that you were wounded, and that wounded men aren't allowed to eat so much."</p>
 <p>"So I thought in Saseho, my boy.
-<pb entity="owjapan" pages="" n="251     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan251" pages="251" n="251     A JAPANESE BLOSSOM"/>
 We ate not much in Manchuria, but we famished in the hospital."</p>
 <p>"Honorable father, why did you not send me that sword?" queried Taro.</p>
 <p>"I had none to send, my son. It was lost."</p>
@@ -1703,7 +1840,7 @@ We ate not much in Manchuria, but we famished in the hospital."</p>
 <p>Mr. Kurukawa smiled.</p>
 <p>"Hardly that, my boy. You see a sick man on a stretcher usually wears a--er--nightie--isn't that what they call it?"</p>
 <p>"Oh-h!" said Taro and Billy both together, apparently disappointed.</p>
-<pb entity="owjapan" pages="" n="252     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan252" pages="252" n="252     A JAPANESE BLOSSOM"/>
 <p>"If they put a Russian uniform on <hi rend="italic">me</hi>," growled Taro, "I would tear it off!"</p>
 <p>Billy's eyes rolled.</p>
 <p>"Hm! They'd never get one <hi rend="italic">on</hi> me!" said he.</p>
@@ -1715,7 +1852,7 @@ We ate not much in Manchuria, but we famished in the hospital."</p>
 <p>"Not even knout you?"</p>
 <p>"No. They were augustly kind--sometimes."</p>
 <p>"Sometimes!" repeated Billy, excitedly. "Then some other times they were cruel, huh?"</p>
-<pb entity="owjapan" pages="" n="253     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan253" pages="253" n="253     A JAPANESE BLOSSOM"/>
 <p>"Not exactly, but--well, there were many things we thought reasonable to ask for, and they did not agree with us."</p>
 <p>"What things?"</p>
 <p>Gozo looked at his father. The latter, still eating, nodded to him to continue.</p>
@@ -1724,13 +1861,14 @@ We ate not much in Manchuria, but we famished in the hospital."</p>
 <p>"They would take our letters, but they did not send them. Our people permitted Russian prisoners to write to their friends. Not always were the Japanese allowed to do so."</p>
 <p>"But on the whole," put in Mrs. Kurukawa, gently, "they treated you kindly, did they not?"</p>
 <p>Gozo's face was inscrutable. Then after a slight silence he answered, gravely:</p>
-<pb entity="owjapan" pages="" n="254     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan254" pages="254" n="254     A JAPANESE BLOSSOM"/>
 <p>"We were prisoners, madame mother--not guests."</p>
 <p>"I bet they herded you together like cattle!" cried Billy, indignantly.</p>
 <p>Gozo and his father exchanged smiles.</p>
 <p>"Hardly," said Mr. Kurukawa. "There were not enough Japanese prisoners to 'herd,' you know."</p>
-<pb entity="owjapan" pages="" n="255"/>
-</div><div n="29" type="chapter">
+</div>
+<pb entity="owjapan255" pages="255" n="255"/>
+<div id="ojapan066" n="29" type="chapter">
 <head>XXIX</head>
 <p>"TELL us a story of horrible carnage," said Billy, his freckled face aglow with excitement.</p>
 <p>Gozo took the long-stemmed pipe Plum Blossom had filled for him with sisterly solicitude. Three or four puffs only he drew, then permitted Iris in turn the pleasure of refilling it.</p>
@@ -1738,7 +1876,7 @@ We ate not much in Manchuria, but we famished in the hospital."</p>
 <p>"Oh, <hi rend="italic">you're</hi> a veteran, too," declared Billy, admiringly.</p>
 <p>"And a <hi rend="italic">hero!</hi>" added Marion, in an awed voice.</p>
 <p>Gozo permitted the ghost of a 
-<pb entity="owjapan" pages="" n="256     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan256" pages="256" n="256     A JAPANESE BLOSSOM"/>
 smile to flicker across the tranquillity of his face.</p>
 <p>"In liddle while," said Plum Blossom, smiling happily, "father coming down into garden. He'll tell story then."</p>
 <p>"He naever tell story 'bout his own self," said Taro, discontentedly. "He mos' greatest hero of all. Tha's right, Gozo?"</p>
@@ -1747,7 +1885,7 @@ smile to flicker across the tranquillity of his face.</p>
 <p>"'Cept <hi rend="italic">you</hi>," said Marion, still bent on hero worship.</p>
 <p>Gozo smiled in the little girl's direction. His usually impassive face was strangely winning when he smiled. Marion went closer to him, and, taking her hand, put it fondly against his cheek.</p>
 <p>"You see, Gozo," she said, "I used to think about you as a hero even before father went away."</p>
-<pb entity="owjapan" pages="" n="257     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan257" pages="257" n="257     A JAPANESE BLOSSOM"/>
 <p>"Yes," said Billy, disgustedly, "she thinks you're a greater hero than Togo even."</p>
 <p>"But Miss Summer--she say that you better have die," put in Taro.</p>
 <p>"Yes," said Gozo, sighing, "it was my misfortune not to get killed."</p>
@@ -1755,7 +1893,7 @@ smile to flicker across the tranquillity of his face.</p>
 <p>Gozo admitted that their acquaintance certainly was worth living for.</p>
 <p>"Our <hi rend="italic">acquaintance!</hi>" said Marion, reproachfully; "our <hi rend="italic">love</hi> you should say. We love you, Gozo."</p>
 <p>"Then if you love Gozo why you nod waid upon him like unto Iris an' me?" queried Plum Blossom. "See how we fill up thad pipe mebbe
-<pb entity="owjapan" pages="" n="258     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan258" pages="258" n="258     A JAPANESE BLOSSOM"/>
 twenty-one times, an' also we bring viz tea--"</p>
 <p>"An' also I fan him," added Iris, suiting the action to the words.</p>
 <p>For a moment Marion looked very thoughtful.</p>
@@ -1763,7 +1901,7 @@ twenty-one times, an' also we bring viz tea--"</p>
 <p>"Yes, but you only love me for mebbe liddle w'ile. Then soon's my father come you desert me. Tha's same thing with Plum Blossom and Iris. Me? I am grade hero when I am alone, but when my father come, I am jus' liddle insignificant speck--nothing!"</p>
 <p>"Oh, Gozo!"</p>
 <p>"Never mind," he said, with mock seriousness. "Nex' week I goin' sail for America. <hi rend="italic">Then</hi>, perhaps, you sorry."</p>
-<pb entity="owjapan" pages="" n="259     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan259" pages="259" n="259     A JAPANESE BLOSSOM"/>
 <p>The tears slipped from Marion's eyes, and she wiped them with the pink sleeve of her kimono.</p>
 <p>"Take me with you, dear Gozo!"</p>
 <p>"An' me, also."</p>
@@ -1774,7 +1912,7 @@ twenty-one times, an' also we bring viz tea--"</p>
 <p>Marion's pride arose. She ignored Billy entirely.</p>
 <p>"Gozo," she said, "mother let me do all kinds of work when the servants went."</p>
 <p>"Hoom!" grunted Billy, "you used to play at work. Plum Blossom did it all. If you take any <hi rend="italic">girl</hi>" he spoke the word with almost Orien-
-<pb entity="owjapan" pages="" n="260     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan260" pages="260" n="260     A JAPANESE BLOSSOM"/>
 tal contempt--"take Plum Blossom."</p>
 <p>The latter smiled gratefully in the direction of her stepbrother.</p>
 <p>"I goin' wait till you grow up, Beely. Then I keep house for you."</p>
@@ -1785,7 +1923,7 @@ tal contempt--"take Plum Blossom."</p>
 <p>"Plenty husband got small-pox," said Taro. "He also got lots money. Mebbe one hundred dollars."</p>
 <p>Plum Blossom pouted.</p>
 <p>"I goin' marry jus' same my
-<pb entity="owjapan" pages="" n="261     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan261" pages="261" n="261     A JAPANESE BLOSSOM"/>
 mother. Me? I goin' <hi rend="italic">loave</hi> my husband."</p>
 <p>"What's all this talk of husbands?" queried a cheerful voice.</p>
 <p>Mr. Kurukawa seated himself among the children. Plum Blossom and Iris found a seat, one on each of his knees. Between them Juji nestled against his father's shoulder. The hand which had rested so contentedly in Gozo's a moment since had become a bit restless. Marion, the fond, showed an inclination again to desert; but Gozo maliciously held her small hand tightly so that she could not escape.</p>
@@ -1794,7 +1932,7 @@ mother. Me? I goin' <hi rend="italic">loave</hi> my husband."</p>
 <p>"Yes, but--"</p>
 <p>"Hah! Did I not say so? Very well, you love me only sometimes. Tha's not kind love."</p>
 <p>She was contrite in a moment, es-
-<pb entity="owjapan" pages="" n="262     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan262" pages="262" n="262     A JAPANESE BLOSSOM"/>
 saying to put her hand back in his, but he waved it away bitterly.</p>
 <p>"No, no. Tha's too lade. Never mind. I know one girl never leave me."</p>
 <p>"You mean Summer?"</p>
@@ -1808,7 +1946,7 @@ saying to put her hand back in his, but he waved it away bitterly.</p>
 <p>"Then <hi rend="italic">who</hi>, Gozo?"</p>
 <p>"All of you."</p>
 <p>"Oh, won't that be lovely," she cried. "Father, are we all going to America in four years?"</p>
-<pb entity="owjapan" pages="" n="263     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan263" pages="263" n="263     A JAPANESE BLOSSOM"/>
 <p>He nodded, smiling. "After Gozo graduates."</p>
 <p>"An' naever come bag at Japan?" cried Plum Blossom, in a most tragic voice.</p>
 <p>"Oh yes, it will be only a visit, perhaps."</p>
@@ -1821,7 +1959,7 @@ saying to put her hand back in his, but he waved it away bitterly.</p>
 <p>"Oh do."</p>
 <p>All of the children chorussed assent.</p>
 <p>"Very well. Now it's a long, long
-<pb entity="owjapan" pages="" n="264     A JAPANESE BLOSSOM"/>
+<pb entity="owjapan264" pages="264" n="264     A JAPANESE BLOSSOM"/>
 story, and if any of you go to sleep in the telling--"</p>
 <p>"Oh, how could we?" breathed Marion.</p>
 <p>"Very well, then. Come close, all of you."</p>
