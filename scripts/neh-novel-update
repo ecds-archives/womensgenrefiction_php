@@ -182,7 +182,7 @@ close(LASTRUN);
 if ($debug) {
  select STDOUT;
 } else {
-  open(MAIL, "|mail -s \"NEH novel update\" $email");
+  open(MAIL, "|mail -s \"NEH novel update ($num_files new files)\" $email");
   select MAIL;
 }
 
