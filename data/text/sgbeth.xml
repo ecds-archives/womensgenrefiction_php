@@ -1,3 +1,4 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./teineh.dtd">
 <TEI.2>
 <teiHeader>
 <fileDesc>
@@ -83,6 +84,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <item>English literature--19th Century--Fiction.</item>
 <item>Women authors, British--19th Century.</item>
 <item>Bildungsromans</item>
+<item>Autobiographical fition</item>
 </list>
 </keywords>
 </textClass>
@@ -99,6 +101,21 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </teiHeader>
 <text>
 <front>
+<pb/>
+<div id="sgbeth063" type="half title page">
+<figure entity="sgbethfm1" rend="inline">
+<figDesc>An image of the half title page from Sarah Grand's <hi
+rend="italic">The Beth Book</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="sgbeth064" type="advert">
+<figure entity="sgbethfm2" rend="inline">
+<figDesc>An image of an advertisement included in the front matter
+of Sarah Grand's <hi rend="italic">The Beth Book</hi>.
+</figDesc>
+</figure>
+</div>
 <pb entity="" pages="Title Page"/>
 <titlePage>
 <docTitle>
@@ -125,6 +142,14 @@ peace, Sir? no;</hi></l>
 <docDate>1898</docDate>
 </docImprint>
 </titlePage>
+<pb/>
+<div id="sgbeth065" type="copyright">
+<figure entity="sgbethfm3" rend="inline">
+<figDesc>An image of the page that includes the copyright for Sarah
+Grand's <hi rend="italic">The Beth Book</hi>.
+</figDesc>
+</figure>
+</div>
 <pb/>
 <div id="sgbeth000" type="epigraph">
 <q><p>"<hi rend="italic">I cannot gather the sunbeams out of the east,
@@ -3167,6 +3192,7 @@ an outlet for ideas that oppressed her. She stood leaning against the doorpost, 
 <l>Of wreck-strewn beaches&#x2014;"</l>
 </lg>
 </q>
+</p>
 <p>"Who made that up?" said Sammy suspiciously.</p>
 <p>"I did," Beth answered off-hand. "At least I didn't make it up, it just came to me. When I make it up it'll most likely be quite different. It's like the stuff for a dress, you know, when you buy it. You get it made up, and it's the same stuff, and it's quite different, too, in a way. You've got it put into shape, and it's good for something.'</p>
 <p>"I don't believe you made it up," said Sammy doggedly. "You're stuffing me, Beth. You're always trying to stuff me."</p>
@@ -8671,10 +8697,75 @@ success she had most desired: that her words should come with comfort to thousan
 </div>
 </body>
 <back>
+<pb/>
 <div type="colophon">
 <p>Printed by Ballantyne, Hanson &amp; Co. <lb/> At the Ballantyne
 Press</p>
 </div>
-<div type="advert">
+<pb/>
+<div id="sgbeth055" type="advert">
+<figure entity="sgbethad1" rend="inline">
+<figDesc>An image of the first page of advertisements included in the
+bock matter of Sarah Grand's <hi rend="italic">The Beth
+Book</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="sgbeth056" type="advert">
+<figure entity="sgbethad2" rend="inline">
+<figDesc>An image of the second page of advertisements included in the
+bock matter of Sarah Grand's <hi rend="italic">The Beth
+Book</hi>.</figDesc>
+</figure>
+<pb/>
+<div id="sgbeth057" type="advert">
+<figure entity="sgbethad3" rend="inline">
+<figDesc>An image of the third page of advertisements included in the
+bock matter of Sarah Grand's <hi rend="italic">The Beth
+Book</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="sgbeth058" type="advert">
+<figure entity="sgbethad4" rend="inline">
+<figDesc>An image of the fourth page of advertisements included in the
+bock matter of Sarah Grand's <hi rend="italic">The Beth
+Book</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="sgbeth059" type="advert">
+<figure entity="sgbethad5" rend="inline">
+<figDesc>An image of the fifth page of advertisements included in the
+bock matter of Sarah Grand's <hi rend="italic">The Beth
+Book</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="sgbeth060" type="advert">
+<figure entity="sgbethad6" rend="inline">
+<figDesc>An image of the sixth page of advertisements included in the
+bock matter of Sarah Grand's <hi rend="italic">The Beth
+Book</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="sgbeth061" type="advert">
+<figure entity="sgbethad7" rend="inline">
+<figDesc>An image of the seventh page of advertisements included in the
+bock matter of Sarah Grand's <hi rend="italic">The Beth
+Book</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="sgbeth062" type="advert">
+<figure entity="sgbethad8" rend="inline">
+<figDesc>An image of the eighth page of advertisements included in the
+bock matter of Sarah Grand's <hi rend="italic">The Beth
+Book</hi>.</figDesc>
+</figure>
+</div>
+</div>
+</back>
 </text>
 </TEI.2>
