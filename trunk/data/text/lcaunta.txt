@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./neh-tei.dtd">
 <TEI.2>
 <teiHeader>
@@ -77,9 +76,8 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <list>
 <item>English literature--19th Century--Fiction.</item>
 <item>Women authors, British--19th Century.</item>
-<item></item>
-<item></item>
-<item></item>
+<item>Middle age women.</item>
+<item>Marriage.</item>
 </list>
 </keywords>
 </textClass>
@@ -94,9 +92,59 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </revisionDesc>
 </teiHeader>
 <text>
+<front>
+<pb entity="lcauntatp" pages="Title Page"/>
+<titlePage>
+<docTitle>
+<titlePart type="main">AUNT ANNE</titlePart>
+<titlePart type="sub">A Novel</titlePart>
+</docTitle>
+<byline>BY <lb/><docAuthor>MRS. W.K. CLIFFORD</docAuthor><lb/>AUTHOR
+OF "LOVE LETTERS OF A WORLDLY WOMAN"<lb/>"MRS. KEITH'S CRIME"
+ETC.</byline>
+<epigraph>
+<cit>
+<q>
+<l rend="italic">As less the golden glow abides</l>
+<l rend="italic">And less the chilier heart aspires</l>
+<l rend="italic">With drift-wood beached in past spring-tides</l>
+<l rend="italic">We light our sullen fires</l>
+</q><bibl>James Russell Lowell</bibl></cit></epigraph>
+<docImprint>
+<pubPlace>NEW YORK</pubPlace>
+<publisher>HARPER &amp; BROTHERS,</publisher><pubPlace>Franklin
+Square</pubPlace>
+<docDate>1892</docDate>
+</docImprint>
+</titlePage>
+<pb/>
+<div id="lcaunta000" type="copyright">
+<figure entity="lcauntacr" rend="inline">
+<figDesc>Page including copyright information for Mrs. Clifford's <hi
+rend="italic">Aunt Anne</hi>.</figDesc>
+</figure>
+</div>
+</front>
 <body>
-<pb n="[1]"/><div n="1" type="chapter"><head><l>AUNT ANNE</l><l>CHAPTER I</l></head>
-<p>MR. and MRS. WALTER HIBBERT had been married just four months when Aunt Anne first appeared on the scene. They were at Brighton, whither they had gone from Friday to Tuesday, so that Mr. Hibbert might get braced up after a hard spell of work. Besides doing his usual journalism, he had been helping a friend with a popular educational weekly, and altogether "had slaved quite wickedly," so his wife said. But he had declared that, though he found matrimony, as far as he had gone, very delightful, it had to be paid for, especially at the beginning of its career, when it ran into furniture, linen, plate, and expensive presents to a dear little wife, though the expensiveness of the last he generously kept to himself. So it resulted in the visit to Brighton. They spent the happiest four days in the world there, and felt quite sad when Tuesday morning arrived. But they wisely did their best to forget that the evening train would take them back to London, and resolved that their last day should pass merrily.</p></p>"Suppose we have a long drowsy morning on the pier," she suggested. "Nothing is nicer or more restful than to listen to the band and look down into the water. We needn't see the horrid people--indeed, if we sit on one of
+<pb n="1"/>
+<div id="lcaunta001" n="1" type="chapter">
+<head>AUNT ANNE<lb/>CHAPTER I</head>
+<p>MR. and MRS. WALTER HIBBERT had been married just four months when
+Aunt Anne first appeared on the scene. They were at Brighton, whither
+they had gone from Friday to Tuesday, so that Mr. Hibbert might get
+braced up after a hard spell of work. Besides doing his usual
+journalism, he had been helping a friend with a popular educational
+weekly, and altogether "had slaved quite wickedly," so his wife
+said. But he had declared that, though he found matrimony, as far as
+he had gone, very delightful, it had to be paid for, especially at the
+beginning of its career, when it ran into furniture, linen, plate, and
+expensive presents to a dear little wife, though the expensiveness of
+the last he generously kept to himself. So it resulted in the visit to
+Brighton. They spent the happiest four days in the world there, and
+felt quite sad when Tuesday morning arrived. But they wisely did their
+best to forget that the evening train would take them back to London,
+and resolved that their last day should pass merrily.</p>
+<p>"Suppose we have a long drowsy morning on the pier," she suggested. "Nothing is nicer or more restful than to listen to the band and look down into the water. We needn't see the horrid people--indeed, if we sit on one of
 <pb n="2     AUNT ANNE"/>the end seats and keep our faces turned seawards, we can forget that they even exist."</p>
 <p>Mr. Hibbert solemnly considered the proposal.</p>
 <p>"The only drawback is the music--it makes so much noise; that's the worst of music--it always does," he said, sadly. "Another thing is, that I cannot lie full length on the pier as I can on the beach."</p>
@@ -219,7 +267,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>"Oh, yes; I like to try and find out what mischief they are going to do next. If I had my way they should only be published monthly, if at all. All they do is to try and set people by the ears."</p>
 <p>"But they tell us the news," she said, valiantly.</p>
 <p>"Well, and what better are we for that? I don't want to know that a man was hanged last week, and a prince will be married to-morrow. I only waste my time reading about them, when I might be usefully employed minding my own business."</p>
-<p>"Walter writes for a paper," she said, distantly, determined to find out if Mr. Baines was being rude on purpose. A little dull curiosity came into his eyes, as he looked up and asked,
+<p>"Walter writes for a paper," she said, distantly, determined to find out if Mr. Baines was being rude on purpose. A little dull curiosity came into his eyes, as he looked up and asked,</p>
 <p>"Walter--who's Walter?"</p>
 <p>"I am," laughed the owner of the name; but she needn't have betrayed me." Mr. Baines was in no way disconcerted.</p>
 <p>"Oh! you write for a paper, do you ? Well, I am sorry for you; you might do something much better. Oh, here's Anne; now we had better go and eat."  With the aid of a stick, he shuffled out of the chair, refusing Walter's offered help. "I didn't know you wrote for a paper, or I would have held my tongue," he said, as a sort of apology. "No, thank you, I am all right once I am on my feet."</p>
@@ -251,7 +299,9 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>"I don't know any more, except that somehow they got married, and she turned up to-day as you saw; and I wish she hadn't given us any jam, confound it! I say, darling, let's throw it over that hedge."</p>
 <p>"Oh, I wouldn't for the world. It would be so unkind. She was a dear old lady, Walter, and I am glad we went to see her. She asked for our address in London, and said she would write to us."</p><milestone rend="blank-line" unit="section"/>
 <p>But Aunt Anne did not write for a long time, and then it was only to condole with Walter on the death of his father. The first year after their visit to Rottingdean she sent a large Christmas-card inscribed to "My dear Walter and Florence, from Aunt Anne"--but the second year even this was omitted. It was not until Mr. and Mrs. Hibbert had been married nearly seven years that Aunt Anne again appeared before them.</p>
-<pb n="[20]"/></div><div n="2" type="chapter"><head>CHAPTER H</head>
+<pb n="[20]"/></div>
+<div id="lcaunta002" n="2" type="chapter">
+<head>CHAPTER II</head>
 <p>MANY things had happened to Mr. and Mrs. Hibbert in those seven years. Most important of all--to themselves, at least--was the birth of their two children--lovely children Mrs. Hibbert declared them to be, and in his heart her husband agreed with her. But the time came when Walter found to his dismay that even lovely children would sometimes cry, and that as they grew older they wanted room to run about with that delightful patter-pattering sound that is usually more musical to a mother's ear than to a father's, especially when he has to produce intelligible copy. So the Hibberts moved away from the little flat in which they had begun their married life, to an ugly little upright house sufficiently near Portland Road to enable Walter to get quickly to the office. There a nursery could be made at the top of the house, where the children were not only out of sight, but out of hearing.</p>
 <p>Walter did a great deal of work and was fairly well paid, but that did not mean a large income for a young couple with two children and three servants, trying to keep up an appearance before the world. He wrote for magazines and literary journals, occasionally he did a long pot-boiler for one of those reviews he called refuges for destitute intellects, and altogether was thrown much among men better off than himself, so that he did not like to look poor. Besides, he preferred to live with a certain amount of comfort, even though it meant a certain
 <pb n="21     AUNT ANNE"/>amount of anxiety, to looking poverty-stricken or shabby for the sake of knowing precisely where he would stand at the end of the quarter, or being able at any moment to lay his hand on a ten-pound note.</p>
@@ -305,6 +355,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>"By the way, Fisher, I wonder if you would come on Thursday instead of on Wednesday. I expect an old friend and should like you to meet him; he is clever and rather off luck just now; of course you'll get your chat with my wife all right--in fact better if there are one or two people to engross me."</p>
 <p>"Very well, Thursday if you like; it will do equally well for me; I am free both evenings as far as I know."</p>
 <p>"Agreed then"--and Walter went down the office stairs pleased at his own success.</p>
+<milestone unit="section" rend="blank-line"/>
 <p>"That horrid Mr. Wimple will spoil our dinner; I never liked him," Florence exclaimed when she heard of the arrangement.</p>
 <p>"I know you didn't, and I don't like him either, which is mean of me, for he's a very old friend."</p>
 <pb n="30     AUNT ANNE"/>
@@ -322,12 +373,19 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>"Not if it did me good and gave me a thorough change; sometimes I think I need one."</p>
 <p>She looked at him for a moment.</p>
 <p>"No, not then," she answered.</p>
-<pb n="[31]"/></div><div n="3" type="chapter"><head>CHAPTER HI</head>
+<pb n="[31]"/></div>
+<div id="lcaunta003" n="3" type="chapter">
+<head>CHAPTER III</head>
 <p>FLORENCE sat thinking over Walter's hint concerning his health. She had succeeded in frightening herself a good deal; for there was really nothing the matter with him that rest and change would not set right. She remembered all the years he had been constantly at work, for even in their holidays he had taken away something he wanted to get done, and for the first time she realized how great the strain must have been upon him. "He must long for a change," she thought--"for a break in his life, an upsetting of its present programme. The best thing of all would be a sea voyage. That would do him a world of good."  She fancied him on board a P. and 0., walking up and down the long deck, drinking in life and strength. How vigorous he would grow--how sunburnt and handsome; and how delightful it would be to see him return. She hoped that Mr. Fisher would offer him a special correspondentship for a time, or something that would break the routine of his life and give him the excitement and pleasure that a spell of rest and complete change would entail. She would talk to Mr. Fisher herself, she thought. He always liked arranging other people's lives; he was so clever in setting things right for any one who consulted him, and so helpful; and no doubt he had noticed already that Walter was looking ill.</p>
 <p>"But he is quite well; it is nothing but overwork, and that can soon be set right--"</p>
 <pb n="32     AUNT ANNE"/>
 <p>There was a double knock at the street door.</p>
-<p>It was only eleven o'clock, too early for visitors. Florence left off thinking of Walter to wonder who it could be. The door was opened and shut; the servant's footsteps going up to the drawing-room were followed by others so soft that they could scarcely be heard at all.</p></p>"Mrs. Baines, ma'am. She told me to say that she was most anxious to see you."</p>
+<p>It was only eleven o'clock, too early for visitors. Florence left
+off thinking of Walter to wonder who it could be. The door was opened
+and shut; the servant's footsteps going up to the drawing-room were
+followed by others so soft that they could scarcely be heard at
+all.</p>
+<p>"Mrs. Baines, ma'am. She told me to say that she was most anxious to see you."</p>
 <p>"Mrs. Baines?" Florence exclaimed, absently. It was so long since she had seen Aunt Anne, and she had never heard her called by her formal name, that for the moment she was puzzled. Then she remembered and went up quickly to meet her visitor.</p>
 <p>Aunt Anne was sitting on the little yellow couch near the window. She looked thin and spare, as she had done at Brighton, but she had a woe-begone air now that had not belonged to her then. She was in deep mourning; there was a mass of crape on her bonnet, and a limp cashmere shawl clung about her shoulders. She rose slowly as Florence entered, but did not advance a single step.</p>
 <p>She stretched out her arms; the black shawl gave them the appearance of wings; they made her look, as she stood with her back to the light, like a large bat. But the illusion was only momentary, and then the wan face, the many wrinkles, and the nervous twitch of the left eye all helped to make an effect that was pathetic enough.</p>
@@ -435,7 +493,9 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>She gathered her shawl close round her shoulders and went slowly down the steps; when she was safely in the hansom and the door closed in front of her, she bowed with dignity to Florence, as if from the private box of a theatre.</p>
 <p>That same afternoon there arrived a pot of maidenhair fern, with a card attached to it on which was written, <hi rend="italic">Mrs. Walter Hibbert, from Aunt Anne</hi>, and two smaller pots of bright flowers, <hi rend="italic">For the dear children.</hi></p>
 <p>"How very kind of her!" exclaimed Florence; "but she ought not to spend her money on us--the money she earns too. Oh, she is much too generous."</p>
-<pb n="[44]"/></div><div n="4" type="chapter"><head>CHAPTER IV</head>
+<pb n="[44]"/></div>
+<div id="lcaunta004" n="4" type="chapter">
+<head>CHAPTER IV</head>
 <p>"I wish we could do something for Aunt Anne," Mrs. Hibbert said to her husband that evening. "It was very kind of her to send us those flowers."</p>
 <p>"Let's ask her to dine."</p>
 <p>"Of course we will--she is longing to see you; still, asking her to dine will not be doing anything for her."</p>
@@ -444,10 +504,25 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>"We must risk that. I'll tell you what, Floggie dear--ask her for next Thursday, with Fisher and Wimple and Ethel Dunlop. She'll make the number up to six, which will be better than five. It will please her enormously to be asked to meet people--in your invitation say, a small dinner-party."</p>
 <p>"Very well. It will be a comfort if she takes Mr. Wimple off our hands. Perhaps she will."</p>
 <p>So a quite formal invitation was sent to Aunt Anne,
-<pb n="45     AUNT ANNE"/>and her reply awaited with much anxiety. It came the next morning, and ran thus:</p><div type="letter">
-<p>"MY DEAR FLORENCE,--It gives me sincere pleasure to accept the invitation that you and your dear Walter have sent me for next Thursday. It is long since I went into society except in this house, where it is a matter of duty. But, for your sakes, dears, I will put aside my sorrow for the evening, and try to enjoy, as I ought, the pleasure of seeing you both, and of meeting those whom you honor with your friendship.</p>
+<pb n="45     AUNT ANNE"/>and her reply awaited with much anxiety. It
+came the next morning, and ran thus:</p>
+<q>
+<text>
+<body>
+<div id="lcaunta030" type="letter">
+<opener>"<salute>MY DEAR FLORENCE</salute>,--</opener><p>It gives me sincere pleasure to accept the invitation that you and your dear Walter have sent me for next Thursday. It is long since I went into society except in this house, where it is a matter of duty. But, for your sakes, dears, I will put aside my sorrow for the evening, and try to enjoy, as I ought, the pleasure of seeing you both, and of meeting those whom you honor with your friendship.</p>
 <p>"In the happiness and excitement of seeing you the other day, dear Florence, I forgot to mention one object of my visit. It is most important to me in my present unfortunate position to hide my poverty and to preserve an appearance that will prevent me from being slighted in the society in which--sorely against my will--I am thrown. Will you, therefore, my dear ones, send me a black satin sunshade, plain but good, lined with black in preference to white, and with a handle sufficiently distinctive to prevent its being mistaken for another person's if it is left in the hall when I am paying visits. There are many other things I require, but I do not like to tax your kindness too far, or, knowing your generous hearts, to cause you disquiet even by naming them. At the same time, dear Florence, I am sure you will understand my embarrassment when I tell you that I only possess four pocket-handkerchiefs fit to use in a house like this. If you have any lying by you with a deep black border, and would lend them to me till you require them, it would be a real boon.</p>
-<p>"Kiss your sweet children for me. I sent them yesterday a little token that I did not cease to think of you all as soon as I had left your presence--as the world is only too prone to do.</p><closer><l>"Your affectionate Aunt,</l><signed>"ANNE BAINES.</signed></closer><postscript>"P.S.--I should be glad, my darlings, to have the sunshade without delay, for the afternoons are getting to be so bright and sunny that I have requested Mrs. North to have out the open carriage for her afternoon drive."</postscript></div>
+<p>"Kiss your sweet children for me. I sent them yesterday a little
+token that I did not cease to think of you all as soon as I had left
+your presence--as the world is only too prone to
+do.</p><closer>"<salute>Your affectionate Aunt,</salute><signed>"ANNE
+BAINES.</signed></closer>
+</div>
+<div id="lcaunta031" type="postscript"><p>"P.S.--I should be glad, my
+darlings, to have the sunshade without delay, for the afternoons are getting to be so bright and sunny that I have requested Mrs. North to have out the open carriage for her afternoon drive."</p></div>
+</body>
+</text>
+</q>
 <p>"Really, Walter," Mrs. Hibbert said, "she is a most extraordinary person. If she is so poor that she cannot buy a few pocket-handkerchiefs, why did she send us those presents yesterday? Flowers are expensive at this time of year."</p>
 <pb n="46     AUNT ANNE"/>
 <p>"It was very like her," Walter answered. " I remember years ago hearing that she had quarrelled with my uncle Tom because she sent his son a wedding present, and then he would not lend her the money to pay the bill."</p>
@@ -625,7 +700,9 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 
 
 <p>"I wonder where he is going," Walter said to himself, as he went up-stairs again. "I don't believe he knows a soul in Queen's Gate."</p>
-<pb n="[64]"/></div><div n="5" type="chapter"><head>CHAPTER V</head>
+<pb n="[64]"/></div>
+<div id="lcaunta005" n="5" type="chapter">
+<head>CHAPTER V</head>
 <p>WALTER was going to India for the winter. It had all been arranged while Aunt Anne sat out on the balcony with Mr. Wimple. Mr. Fisher had explained to Florence that the paper wanted a new correspondent for a time, and that it would be an excellent thing for Walter to get the change and movement of the new life. He was to go out by P. and 0., making a short stay at Gibraltar, for press purposes, as well as one at Malta. He had looked anxiously enough at his wife when they were alone again that evening; but she had put out her two hands, as if in congratulation.</p>
 <p>"I am very glad," was all she said; "it will do you good and make you strong."</p>
 <p>"To live for you and the chicks, my sweet."</p>
@@ -673,7 +750,9 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>"Oh, but she is very kind," Florence said, as she displayed the presents. "I know did Mr. Wimple know that you were going to India?" she asked.</p>
 <p>"I met him yesterday at the office. He went to see Fisher; it was arranged that he should the other night."</p>
 <p>"It is very extraordinary, his striking up a friendship with Aunt Anne."</p>
-<p>"Yes, very extraordinary," he laughed, and then the old lady was forgotten.</p><milestone rend="blank-line" unit="section"/>
+<p>"Yes, very extraordinary," he laughed, and then the old lady was
+forgotten.</p>
+<milestone rend="blank-line" unit="section"/>
 <p>The days flew by, and the last one came. To-morrow (Thursday) Walter was to start by an early train for Southampton. All his arrangements were complete, and on that last day he had virtually nothing to do, "therefore, Floggie dear," he pleaded, "let us have a spree."</p>
 <p>"Yes," she answered, willingly enough, though her heart was heavier than his. "How shall we manage it?"</p>
 <p>"Let us stroll about all day or go to Richmond, and come back and have a cosey little dinner somewhere."</p>
@@ -740,7 +819,8 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>Then in a moment Aunt Anne recovered her old manner, the manner that had some indefinable charm in it, and looked at Florence.</p>
 <p>"Yes, my love," she said, "I am very much fatigued, and thankful indeed to enjoy your hospitality again. Before I retire to rest I must write some letters, if you will permit your servant to post them."</p>
 <p>Florence had to write one or two letters also. She gave three to the little housemaid to post; as she did so, one of Aunt Anne's caught her eye. It was addressed to Alfred Wimple. "Perhaps she wanted to tell him something about the Albert Memorial," she thought, wearily, and dismissed the matter from her mind.</p>
-<pb n="[77]"/></div><div n="6" type="chapter"><head>CHAPTER VI</head>
+<pb n="[77]"/></div>
+<div id="lcaunta006" n="6" type="chapter"><head>CHAPTER VI</head>
 <p>THEN it was that Florence discovered that Aunt Anne was really a charming person to have in the house, especially with children. She was so bright, so clever with them, so full of little surprises. In her pocket there always lingered some unexpected little present, and at the tip of her tongue some quaint bit of old-world knowledge that was as interesting to grown-up folk as to the children. To see her prim figure about the place seemed to Florence like having lavender among her linen. She was useful too--ready with her fingers to darn some little place in a table-cloth that every one else had overlooked, to sew a button on Monty's little shoe, or to mend a tear in Catty's pinafore. Above all, she was so complimentary, so full of admiration, and it was quite evident that she meant with her whole heart all the pretty things she said. She did, too. Walter was the son of her favorite brother, and to Florence she had really taken a fancy from the beginning.</p>
 <p>"I loved you from the first moment, my love," she said. "I shall never forget the look of happiness on your face that morning at Brighton I met you and your dear Walter together. It endeared you to me. It was a happy day," she added, with a sigh.</p>
 <p>"Yes, a very happy day," Florence answered, affectionately, remembering how ungrateful both she and dear Walter had been at the time. This was at breakfast one
@@ -828,7 +908,9 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>Florence bent her head and kissed the old lady's hands as she pushed the bit of crisp paper into them. Aunt Anne was not one whit offended; it seemed for a moment as if she were going to break down and cry; but she controlled herself.</p>
 <p>"Bless you, my darling, bless you indeed! I take it in the spirit you offer it me. I know the pleasure it is to your generous heart to give, and it is equally one to me to receive. I could not refuse any gift from you, Florence," she said, kissing Mrs. Hibbert, and when she departed, it was with an air of having done a gracious and tender deed. But, besides this, her footstep had grown lighter, there was a joyfulness in her voice and a flickering smile on her face that slowed how much pleasure and relief the money had given her.</p>
 <p>"I am so glad," Florence thought, as she noticed it. "Poor old dear! I wonder if it will go to Madame Celestine, or what she will do with it. And I wonder where she is gone."</p>
-<pb n="[86]"/></div><div n="7" type="chapter"><head>CHAPTER VH</head>
+<pb n="[86]"/></div>
+<div id="lcaunta007" n="7" type="chapter">
+<head>CHAPTER VII</head>
 <p>FLORENCE'S speculations concerning Aunt Anne were brought to an end by the arrival of Mr. Fisher. She was surprised at his paying her so early a visit, and for a moment feared lest it should mean bad news from Walter. But his benevolent expression reassured her.</p>
 <p>"I hope you will forgive my intruding on you at this hour, Mrs. Hibbert," he said. "My visit is almost a business one, if I may venture to call it so, and I hope its result may be pleasant to us both."  His manner was a faint echo of Aunt Anne's. "I would have written to ask you to see me, but the idea that brings me only occurred to me an hour or two ago."</p>
 <p>"But of course I would see you," she answered, brightly. "And I think the morning is a delicious time of day to which we devote far too much idleness."</p>
@@ -865,9 +947,11 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <pb n="91     AUNT ANNE"/>angry."  She laughed at the last words. She only said them to keep up Walter's dignity.</p>
 <p>"Oh no, he won't be angry," Mr. Fisher laughed back, and Florence thought he was quite good-looking when he was not too grave. He did not look more than forty, either--perhaps Ethel might be happy with him. Then, when she had written a few lines, he departed, satisfied with the result of his visit.</p>
 <p>An odd thing happened about that note. He went straight to the office and found a dozen matters of business awaiting his attention, and all remembrance of the Hibberts fled from him. Suddenly, an hour later, he dived into his pocket for a memorandum, and pulled out an unopened white envelope. He did not look at the address. "What's this?" he said, in utter forgetfulness, and tore it open; and--for his own name caught his eye--he read this passage in Mrs. Hibbert's note to her husband,</p>
-<p>"---<hi rend="italic">he is a kind old fogy, and I think he likes Ethel D. Would it not be funny if he married her?"</p>
+<q><p>"---<hi rend="italic">he is a kind old fogy, and I think he likes Ethel D. Would it not be funny if he married her?"</hi></p></q>
 <p>He folded it up quickly, for fear he should read more.</p>
-<p>"Why should it be funny, and a man isn't an old fogy at forty--" he said to himself.</p><milestone rend="blank-line" unit="section"/>
+<p>"Why should it be funny, and a man isn't an old fogy at forty--" he
+said to himself.</p>
+<milestone rend="blank-line" unit="section"/>
 <p>Meanwhile Aunt Anne was deeply engaged. She was delighted at Florence's unexpected gift; it would enable her to do a few things that only an hour or two ago she had felt to be impossible. She had not the least intention of paying Madame Celestine. She looked upon her as an inferior who must be content to wait till it was the pleasure of her superior to remember her bill, and any reminder of it she resented as a liberty. She spent a happy and very excited hour in Regent Street, and at eleven o'clock stood on the curbstone critically looking for a hansom.
 <pb n="92     AUNT ANNE"/>She let several go by that did not please her; but at last, with excellent instinct, she picked out a good horse and a smart driver, and a minute later was whirling on towards Waterloo Station. She liked driving in hansoms; she was of opinion that they were well-constructed, a great improvement on older modes of conveyance, and that it was the positive duty of people in a certain rank of life to encourage all meritorious achievements with their approval. She never for a moment doubted that she was one of those whose approval was important. She felt her own individuality very strongly, and was convinced that the world recognized it. She was keenly sensible of making effects--and it was odd, but, for all her eccentricities, there was in her the making of a great lady; or it might have seemed to a philosophical speculator that she was made of the worn-out fragments of some past great lady, and dimly remembered, at intervals, her former importance. She had perfect control over her manner, and could use it to the best advantage; she had reserve, a power of keeping off familiarity, a graciousness, a winsomeness when she chose, that all belonged to a certain type and a certain class. As she went on swiftly to the station she looked half-disdainfully, yet compassionately, at the people who walked and the people who passed in omnibuses. She told herself that the list were excellent institutions; she wondered what the lower class would do without them; it rejoiced her to think that they had not got to do without them; it was a satisfaction to feel.</p>
 <p>At Waterloo, with an air of decision that showed a perfect knowledge of her own generosity, she gave the cab-man sixpence over his fare and walked slowly into the sta-
@@ -903,7 +987,9 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 
 <pb n="96     AUNT ANNE"/>
 <p>But he could only nod. In a moment he was out of sight. He did not lean forward to look after her, he sat staring into space. "She must be seventy," he said. "I wonder--" Then he felt in his pocket for the third-class ticket he no longer needed. "Probably they will return the amount I paid for it." A sudden thought struck him. He looked at the ticket Mrs. Baines had given him. "It is for Portsmouth," he said, grimly.  The one he had taken himself had been for Liphook.</p>
-<pb n="[97]"/></div><div n="8" type="chapter"><head>CHAPTER VHI</head>
+<pb n="[97]"/></div>
+<div id="lcaunta008" n="8" type="chapter">
+<head>CHAPTER VIII</head>
 <p>IT was not at all a bad thing to do, Florence thought, as she sat and considered over the arrangement Mr. Fisher had so suddenly made in regard to the house in town and the cottage at Witley. The country would do the children good, and Aunt Anne would probably enjoy it. Of course the latter would consent to go with them. Indeed she had, clearly, no other resource. Florence wondered if she would like it.</p>
 <p>But Mrs. Baines was so full of news herself when she returned that she had no time to listen to any one else.</p>
 <p>"My love," she said, "I have passed a most important day."</p>
@@ -1004,8 +1090,8 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>"My love, anything you wish will be a pleasure to me."</p>
 <p>"If you please, ma'am," said Jane, entering, "the driver says you must start at once if you want to catch this train."</p>
 <p>"Then good-by, dear Aunt Anne; good-by, dear dickie-birds; be happy together. You shall see me very soon again; send me a letter every other day"--and with many embraces Florence was allowed to get out of the door. But Aunt Anne and the children ran, excitedly, after her to the gate, and helped her into the little wagonette, and kissed their hands and waved their handkerchiefs as she drove off, and called "Good-by, good-by"--and so, watching them, Florence went along the white road towards the station.</p>
-<pb n="[109]"/></div><div n="9" type="chapter"><head>CHAPTER IX</head>
-
+<pb n="[109]"/></div>
+<div id="lcaunta009" n="9" type="chapter"><head>CHAPTER IX</head>
 <p>THE days that followed were busy ones for Florence--busy in a domestic sense, so that the history of them does not concern us here. Mr. Fisher called one afternoon; by a strange coincidence it was while Ethel Dunlop was helping Florence with an inventory of china. Miss Dunlop readily promised to visit his mother, but she did not show any particular interest in the editor.</p>
 <p>"He has been so kind," Florence said; "and don't you think he is very agreeable?"</p>
 <p>"Oh yes; but you know, Florrie dear, he has a very square face."</p>
@@ -1067,9 +1153,32 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>Florence went slowly back to the dining-room and the inventory. Ethel Dunlop had gone. She was glad of it, for she wanted to think over her strange visitor.</p>
 <p>"I don't understand her," she said to herself. "She is unlike any one I ever met; she fascinated and repelled me. I felt as if I wanted to kiss her, and yet the touch of her hand made me shiver." Then she thought of Madame Celestine's bill, and of Aunt Anne, and wished that the dress had not been bought, especially for the dinner-party; it made her feel as if she had been the unwitting cause of Mrs. Baines's extravagance. She looked into the fire, and remembered the events of that wonderful evening, and thought of Walter away, and the bills at home that would have to be paid at Christmas. And she thought of her winter cloak, that was three years old and shabby, and of the things she had longed to buy for the children. Above all she thought of the visions she had had of saving little by little, and putting her savings away in a very safe place, until she had a cosey sum with which some day to give Walter a pleasant surprise, and suggest that they should go off
 <pb n="117     AUNT ANNE"/>together for "a little spree," as he would call it, to Paris or Switzerland. The fire burned low; the red coals grew dull; the light from the street-lamp outside seemed to come searching into the room, as though it were looking for some one who was not there. She thought of Walter's letter, safe in her pocket. He himself was probably at Malta by this time--getting stronger and stronger in the sunshine. Dear Walter, how generous he was; he, too, was a little bit reckless sometimes. She wondered if he inherited this last quality from Aunt Anne. She thought of her children at Witley having tea, most likely with cakes and jam in abundance; and of Aunt Anne in her glory. She wondered if Mr. Wimple had turned up. "Poor Aunt Anne!" she sighed, and there was a long bill in her mind. Presently she rose lighted a candle, drew down the blind--shutting out the glare from the street-lamp--and going slowly to the davenport in the corner, unlocked it, opened a little secret drawer, and looked in. There were three five-pound notes there--the remainder of her mother's gift. "I wonder if Mrs. North had Madame Celestine's bill," she thought. "But it doesn't matter; she said it was fifteen pounds. I can send her the amount."</p>
-<p>A couple of hours later, while she was in the very act of putting a check into an envelope, a note arrived. It had been left by hand. It was scented with violets, and ran thus:</p><div type="letter"
-<p>"DEAR MRS. HIBBERT,--I have ventured to pay Madame Celestine. I determined to do so while I was with you just now, but was afraid to tell you; that was why I changed the conversation so abruptly. Please don't let the old lady know that it is my doing, for she might be angry; but she was very good to me, and I am glad to do this for her. Forgive all the strange things I said this afternoon, and don't trouble to acknowledge this.</p><closer>"Yours sincerely,<signed>"E. NORTH."</signed></closer><postscript>"P.S.--I enclose receipt."</postscript></div></div>
-<pb n="[118]"/><div n="10" type="chapter"><head>CHAPTER X</head>
+<p>A couple of hours later, while she was in the very act of putting a
+check into an envelope, a note arrived. It had been left by hand. It
+was scented with violets, and ran thus:</p>
+<q>
+<text>
+<body>
+<div type="letter">
+<opener>"<salute>DEAR MRS. HIBBERT</salute>,--</opener><p>I have
+ventured to pay Madame Celestine. I determined to do so while I was
+with you just now, but was afraid to tell you; that was why I changed
+the conversation so abruptly. Please don't let the old lady know that
+it is my doing, for she might be angry; but she was very good to me,
+and I am glad to do this for her. Forgive all the strange things I
+said this afternoon, and don't trouble to acknowledge this.</p>
+<closer>"<salute>Yours
+sincerely</salute>,<signed>"E. NORTH."</signed></closer>
+</div>
+<div  id="lcaunta032" type="postscript"><p>"P.S.--I enclose
+receipt."</p></div>
+</body>
+</text>
+</q>
+</div>
+<pb n="[118]"/>
+<div id="lcaunta010" n="10" type="chapter">
+<head>CHAPTER X</head>
 <p>IT was not till Tuesday afternoon in the week following that Florence got back to Witley.</p>
 <p>Mrs. Burnett was at the station, sitting in a little governess-cart drawn by a donkey.</p>
 <p>"I am waiting for my husband," she explained; "he generally comes by this train, and I drive him home, donkey permitting. It is a dear little donkey, and we are so fond of him."</p>
@@ -1095,8 +1204,26 @@ dignity with which she felt her matronly position should be supported.</p>
 fully. "Dear Aunt Anne!" she said, and that was thanks enough. "I thought, my love, that you would like to partake of a substantial tea with your dear children on your return. Your later evening meal I have arranged to be a very slender one."</p>
 <p>"But you are too good, Aunt Anne."</p>
 <p>"It is you who have been too good to me," the old lady answered, tenderly. "And now, my darling, let me take you up to your chamber; it is ready for your reception."</p>
-<p>There was a triumphant note in her voice that prepared Florence for the fire in her grate and the bouquet on the dressing-table, and all the little arrangements that Mrs. Baines had devised to add to her comfort. It was very cheery, she thought; Aunt Anne had a knack of making one enjoy a home-coming. She pulled out Walter's letter and sat for a few moments alone over the bedroom fire, and read it, and kissed it, and put it back into her pocket. Then she looked round the cosey room again, and noticed a little packet on the corner of the drawers. Aunt Anne must have placed it there when she went out of the room. On it was written, <hi rend="italic">For my darling Florence</hi>. "Oh," she said, "it's another present"--and, regretfully, her fingers undid the string. Inside the white paper was a little pin-cushion, covered with blue velvet, and having round it a rim of silver filigree work. Attached to it was a little note, which ran thus:</p>
-<div type="letter"><p>"MY DARLING,--Accept this little token of my love and gratitude. I feel that there is no way in which I can better prove how much I appreciated your generous gift to me than by spending a portion of it on a token of my affection to you. I trust you will honor my little gift with your acceptance."</p></div>
+<p>There was a triumphant note in her voice that prepared Florence for
+the fire in her grate and the bouquet on the dressing-table, and all
+the little arrangements that Mrs. Baines had devised to add to her
+comfort. It was very cheery, she thought; Aunt Anne had a knack of
+making one enjoy a home-coming. She pulled out Walter's letter and sat
+for a few moments alone over the bedroom fire, and read it, and kissed
+it, and put it back into her pocket. Then she looked round the cosey
+room again, and noticed a little packet on the corner of the
+drawers. Aunt Anne must have placed it there when she went out of the
+room. On it was written, <hi rend="italic">For my darling
+Florence</hi>. "Oh," she said, "it's another present"--and,
+regretfully, her fingers undid the string. Inside the white paper was
+a little pin-cushion, covered with blue velvet, and having round it a
+rim of silver filigree work. Attached to it was a little note, which
+ran thus:</p>
+<q>
+<text>
+<body>
+<div id="lcaunta033" type="letter">
+<opener>"<salute>MY DARLING</salute>,--</opener><p>Accept this little token of my love and gratitude. I feel that there is no way in which I can better prove how much I appreciated your generous gift to me than by spending a portion of it on a token of my affection to you. I trust you will honor my little gift with your acceptance."</p></div></body></text></q>
 <p>"Oh," said Florence again, in despair, "I wonder if she
 <pb n="122     AUNT ANNE"/>
 has once thought of Madame Celestine's bill or the others. What is the good of giving her money if one gets it back in the shape of presents?"</p>
@@ -1207,7 +1334,8 @@ remembered the little scrimmage of the morning, she went on, quickly, "My love, 
 <p>"Then let us forget about it, my darling," Mrs. Baines said, with the gracious smile that always had its influence; "I could never remember anything long of you, but your kindness and hospitality. Believe me, I am quite sure that you did not mean to wound me this morning. It was your zealous care of dear Walter's interests that made you for a moment forget what was due to me. I quite understand, my darling. Now go for your walk, and be assured that Aunt Anne loves you."</p>
 <p>And Florence was dismissed, feeling as the children had felt the evening before, when they had been sent to bed and told of the chocolate under their pillows.</p>
 <pb n="[133]"/>
-</div><div n="11" type="chapter"/>
+</div>
+<div id="lcaunta011" n="11" type="chapter">
 <head>CHAPTER XI</head>
 <p>The gray sky and the dim trees, the black hedges and the absolute stillness--all these proved excellent comforters to Florence. They made her philosophical and almost smiling again. It was only when an empty wagonette of Steggall's passed her that she remembered the vexations of the morning. "Poor old lady!" she said to herself, with almost a laugh--"in future she must not be trusted with money, that is all. If she only would not scold me and treat me like a child, I should not mind it so much. Of course when Walter does it, I like it; but I don't like it from Aunt Anne."</p>
 <p>She had walked quite a long way. She was getting tired. The messengers of night were abroad--the stray breezes, the dark-flecked clouds, the shadows loitering by the trees, the strange little sounds among the hedges by the wayside. Far off, beyond the wood, she heard a clock, belonging to a big house, strike six. It was time to hurry home.  If she walked the two miles between herself and the cottage quickly, she would be in by half-past six. At seven, after the children had gone to bed, she and Aunt Anne were to sit down to a little evening meal they called supper. They would be very cosey that night; they would linger over their food; and Aunt Anne should talk of by-gone days, and the quaint old world that always seemed to be just behind her.</p>
@@ -1313,7 +1441,8 @@ so she put her hand softly on the one that Aunt Anne had stretched out to touch 
 <p>"Can't I help you, Aunt Anne?" Florence asked, almost entreatingly.</p>
 <p>"No, my love, I must be alone," Mrs. Baines repeated firmly, and, retreating into her room, she shut the door.</p>
 <pb n="[146]"/>
-</div><div n="12" type="chapter">
+</div>
+<div id="lcaunta012" n="12" type="chapter">
 <head>CHAPTER XII</head>
 <p>THE next morning Aunt Anne did not appear. She sent word that she would like her breakfast carried up, a fire lighted in her room, and to be left alone for a couple of hours.</p>
 <p>Florence was distracted. She had written to Walter; but, as the mail did not go out till three days later, nothing was gained by her haste. She had considered things all round, and the more she did so the more amazing did Mr. Wimple's proposal seem. It was all nonsense to suppose, as Aunt Anne evidently believed, that he was in love with a woman more than twice his age. Florence mentally reviewed Aunt Anne's charms. She was not even a round, plump old lady, with rosy cheeks and a stray dimple that seemed to have found her company so good it was loath to vanish altogether. She was wrinkled and thin and feeble-looking. Her eyes were small and weak; the left one had the nervous affection that so often provided an almost droll accompaniment to her talk. Her skin was withered and sallow. Florence tried to feel like a young man about to marry Aunt Anne, and the idea was not pleasant. She felt that it was almost a duty to prevent the marriage if possible--that Aunt Anne owed it to her past years, to her own dignity, to her relations, to every one and everything, not to make a fool of herself.</p>
@@ -1479,7 +1608,8 @@ to myself, 'I am old! I am old!' Alfred Wimple was standing by me and whispered,
 <pb n="164     AUNT ANNE"/>
 <p>"I trust you will study your mistress's comfort and interests in every way," Mrs. Baines continued, as she put a shawl over her knees, "and that you will be good to those dear children." The next moment she was on her way to Witley Station.</p>
 <pb n="[165]"/>
-</div><div n="13" type="chapter">
+</div>
+<div id="lcaunta013" n="13" type="chapter">
 <head>CHAPTER XIII</head>
 <p>PORTSEA PLACE, Connaught Square, is composed of very small houses, most of which are let out in apartments. It was to one of these that Mrs. Baines drove on her arrival in town. Her two canvas-covered boxes, carefully corded, were on the top of the cab, her many small packages piled up inside. Mr. Wimple was not with her. He had left her at Waterloo Station, but it had been arranged that he was to see her later on in Portsea Place, and that if she failed to take rooms there she was to leave a message where she was to be found.</p>
 <p>"Well, Mrs. Hooper," she said to the landlady, smilingly, but with the condescending air of a patroness, "you see I have not forgotten you, and if your rooms are still at liberty I should like to inspect them again."</p>
@@ -1564,7 +1694,7 @@ debted I feel to your courtesy and to the consideration with which you have trea
 <p>"You didn't say anything about me?"</p>
 <p>"No, my darling, you had desired me not to mention your name, and that was sufficient."</p>
 <p>"And he paid you out of his own pocket?"</p>
-<pb n="172"/>172                  AUNT ANNE
+<pb n="172     AUNT ANNE"/>
 <p>"Yes, my love; he was most anxious that I should not be inconvenienced--but our repast is ready. Come"--and she motioned him to the place opposite her, and, with happy dignity, went to the head of the table. "I hope you will do it justice."</p>
 <p>Mr. Wimple ate his dinner with much solemnity. He always accepted his food as if it was a responsibility that demanded his most serious attention. Presently he looked at her across the dinner-table--at the lace about her throat; at the little crinkly gold brooch which Florence had seen first, years before, at Rottingdean; at the lines and wrinkles that marked the tender old face; at the thin white hands with the loose skin and the blue veins--but no expression came into his dull, full eyes. When the meal was over he got up and stood by the fireplace.</p>
 <p>"My dear one," she said, "are you tired with the journey?"</p>
@@ -1580,7 +1710,7 @@ debted I feel to your courtesy and to the consideration with which you have trea
 <p>"My dear one," she said, "is it really true that all your heart is mine, are you sure, dear Alfred?"</p>
 <p>"Yes," he answered, in a voice he tried to make gentle, but that, oddly enough, sounded half defiant, "I told you so last night."</p>
 <p>"I know," she answered, "only I have not deserved such happiness"--and the tears stole down her cheeks. "I have lived so long alone, my darling; but all my life is yours, Alfred, all my life, and the truest love that woman can give I will give you." She clasped her hands while she spoke; she seemed to be making the promise before some unseen witness to whom she owed account of all her doings.</p>
-<milestone rend="blank-line"/>
+<milestone rend="blank-line" unit="section"/>
 <p>A week later Alfred Wimple and Mrs. Baines were married from the little lodging in Portsea Place. It was a sensation in Mrs. Hooper's monotonous life. She would have laughed and made fun of the wedding, but that Aunt Anne's dignity almost forbade a smile. The old lady seemed to be in a dream, the beginning of which she hardly remembered--to be living through the end of a poem, the first part of which she had learned in her youth. Her poor weak eyes looked soft and loving, and the bright smile that came and went about her mouth had something in it that was pathetic rather than ridiculous. She had conjured a gray wedding-dress from somewhere and a gray bonnet to match, but the cold caused her to wrap herself round in the big cloak she always wore. She pulled
 <pb n="174     AUNT ANNE"/>
 on her gloves, which were large and ill-fitting, and stood before the glass, looking at herself, but all the time her thoughts were straying back to forty years ago. If only time could be conquered and its cruel hand held back--if flesh and blood could change as little as sometimes do the souls they clothe, how different would be the lives of men and women. The woman who went down the stairs was old and wrinkled outwardly, but within she was as full of tenderness as any girl of twenty going forth to meet her lover. She stepped into the four-wheeled cab alone; the biting wind swept maliciously over her face; and, quickly, she pulled up the window. It was only a little way to the church. It stood in the middle of an open space. She started when she caught sight of it, then turned away her head for a moment with a strange dread. Her courage almost gave way as she stopped before the deserted doorway. Alfred Wimple heard her arrive and came to meet her, with the hesitating, half-doubtful look that his face always wore when he was with her. There was no tenderness in his manner; there was something almost like shame. But he seemed as one impelled by fate and unable to turn back. The old lady's heart was full; the tears came into her eyes. She took his arm, and together they walked up the empty aisle. The two odd people who had been pressed into service as witnesses came forward; the clergyman appeared; he looked for a moment at the couple before him, but it was no business of his to interfere, and slowly he began the service.</p>
@@ -1637,8 +1767,8 @@ you, but you have not said a tender word to me since we returned from the church
 <p>"No," he answered, dryly; "but I am not very sentimental, Anne. Perhaps you had better remember that"--and he put the wills carefully into his pocket. We will go by the 5:35 train. By the way, you might meet me at the station"--and he looked at her steadfastly.</p>
 <p>"If you do not come back for me I shall not go at all"--and something like an angry flash came from her eyes. He hesitated a moment.</p>
 <p>"Very well," he answered, "I will come back for you." She watched him go down the stairs; she listened while he opened the street door and closed it, and to his footsteps growing fainter along the pavement outside. Then she went back into the little drawing-room and shut herself in, and put her head down on the lumpy sofa-cushion, and sobbed with bitter disappointment and the hopelessness that had suddenly opened itself out before her.</p>
-<pb n="[180]"/></div><div n="14" type="chapter">
-
+<pb n="[180]"/></div>
+<div id="lcaunta014" n="14" type="chapter">
 <head>CHAPTER XIV</head>
 <p>Six months later. Walter was back in England, better in health, brown and handsome. Florence was in a seventh heaven of happiness. Her husband was her very devoted lover; the children were as good as gold; the little house near Regent's Park was decorated with all manner of Indian draperies and <hi rend="italic">bric-&agrave;-brac</hi>--what more could the heart of woman desire?</p>
 <p>"Really," she said, "it was worth your going away to know the delight of getting you back again."</p>
@@ -1833,7 +1963,8 @@ face, but feeling that she ought to stand by the principles that had been almost
 <p>"Oh yes, I understand," Mrs. North said; "you will come again if you can; but if you don't, it will only increase my respect for goodness. I shall think how precious it is, how valuable--it has to be guarded like the Kohinoor. Good-by, Mrs. Hibbert, good-by."  She rang the bell and bowed almost haughtily, so that Florence felt herself dismissed.</p>
 <p>"Good-by," the latter said, and slowly turned from the room. Somehow she knew that Mrs. North watched her until the door had half closed, and then threw herself, a little miserable heap, among the silk cushions. But she was half-way down the stairs before she realized this, and then the servant was waiting to show her out.</p>
 <p>"Oh, I was cold and cruel," she thought, when the street door had closed behind her, "but I could not help it; there is no sin in the world that seems so awful as that one."</p>
-<pb n="[198]"/></div><div n="15" type="chapter">
+<pb n="[198]"/></div>
+<div id="lcaunta015" n="15" type="chapter">
 <head>CHAPTER XV</head>
 <p>"I CAN understand what you felt," Walter said, when he heard of Florence's interview with Mrs. North; "still, I wish we could do something for her."</p>
 <p>"It has made me miserable; but I don't quite see what we can do. We can't invite her here--who would come to meet her? As for my going to see her again, I would go willingly if I thought I should do her any good; but I don't think she would care about seeing me. She imagines I am good and disagreeable."</p>
@@ -2019,7 +2150,8 @@ an old woman, Anne." She got up and went to the end of the room, and came back a
 <p>"Don't be foolish, Anne; I am irritable sometimes, and I am not strong--"</p>
 <p>"That is why I have borne so much from you."</p>
 <p>"I will go to Witley with you," he said, ignoring her remark altogether; "that is, if you like, and can raise the money to go. I have none."</p>
-</div><div n="16" type="chapter">
+</div>
+<div id="lcaunta016" n="16" type="chapter">
 <pb n="[216]"/>
 <head>CHAPTER XVI</head>
 <p>"Fisher was quite pleased when I asked him if we could get off to Monte Carlo at Whitsuntide for a fortnight," Walter told Florence a few weeks later.</p>
@@ -2090,13 +2222,13 @@ for he refused to come in, she felt, while she looked after him, as if she had b
 <p>"I should like to write to her just once, for I am afraid I was not very kind that day; but she took me by surprise."</p>
 <p>"Very well, then; write to her from Monte Carlo. It will give her an idea that we are not such terrible patterns of virtue ourselves, and perhaps she'll find that a consolation; but I don't see what more we can do for her. It is very difficult to help a woman in her position. She has put out to sea in an open boat, and, even if she doesn't
 <pb n="222     AUNT ANNE"/>
-get wrecked, every craft she runs against is sure to hurt her."
+get wrecked, every craft she runs against is sure to hurt her."</p>
 <milestone rend="blank-line" unit="section"/>
 <p>The letter was duly written and sent to the hotel at Marseilles. It found Mrs. North sitting alone, in her big room on the first floor. She was beside the open window, watching the great lighted <hi rend="italic">caf&eacute;s</hi> and the happy people gathered in little groups round the tables on the pavement.</p>
 <p>"Oh, what a pity it is," she said to herself, "that we cannot remember. I always feel as if we had lived since the beginning and shall go on till the end--if end there be; but if one only had a memory to match, how wonderful it would be. If I could but see this place just once as it was hundreds of years ago, with the Greek people walking about and the city rising up about them! Now it looks so thoroughly awake, with its great, new buildings and horrible improvements; but if it ever sleeps, how wonderful its dreams must be! If one could get inside them and see it all as it once was!" . . . She turned her face longingly towards the port, at the far end of the Cannebi&egrave;re. "I am so hungry to see everything, and to know everything," she said to herself--"so hungry for all the things I have never had . . . I wonder if I shall die soon--I can't go on living like this, longing and waiting and hoping and grasping nothing . . . I wish I could see the water. If I had courage I would drive down and look at it--or walk past those people sitting out on the pavement, and go down to the sea. There might be a ship sailing by towards England, and I should know how his ship will look if it ever sails by. Or a ship going on towards India, and I could look after it, knowing that every moment it was getting nearer and nearer to him. To-morrow I will
 <pb n="223     AUNT ANNE"/>
 
-find out precisely where the P. & O.'s sail from for Bombay; then I shall be able to guess what it all looked like when he set his foot on board, a year ago. Oh, thank God! I may think of him a little--that I am free--that it is not wickedness to think of him--or to love him," she added, with almost a sob.</p>
+find out precisely where the P. &amp; O.'s sail from for Bombay; then I shall be able to guess what it all looked like when he set his foot on board, a year ago. Oh, thank God! I may think of him a little--that I am free--that it is not wickedness to think of him--or to love him," she added, with almost a sob.</p>
 <p>She got up and looked round the room. It was nearly dark. She could see the outline of the furniture and of her own figure dimly reflected in the long glass of the wardrobe.</p>
 <p>"The place is so full of shadows they frighten me; but I am frightened at everything." She flung herself down again on the couch at the foot of the bed. "I wonder if the people who have always done right ever for a moment imagine that the people who have done wrong can suffer as much--oh, a thousand times more than themselves. They seem to imagine that sin is a sort of armor against suffering, and it does not matter how many blows are administered to those who have gone off the beaten track." She pillowed her head on her arms and watched the moving reflection of the light from the street. In imagination she stared through it at the long years before her,--wondering, almost in terror, how they would be filled. "I am so young, and I may live so long." There was a knock at her bedroom door.</p>
 <p>"Come in," she cried, thankful for any interruption.</p>
@@ -2104,15 +2236,23 @@ find out precisely where the P. & O.'s sail from for Bombay; then I shall be abl
 <p>"For me!" She seized it with feverish haste and looked at the direction by the window while the candles were being lighted. "I declare," she said, when the door was closed behind the <hi rend="italic">gar&ccedil;on</hi>, "it is from the immaculate Mrs. Hibbert. May the saints have guarded her from contamination while she wrote it to me!" Her happy spirits
 <pb n="224     AUNT ANNE"/>
 flashed back, and the weary woman of five minutes ago was almost a light-hearted girl again.</p>
-<p>"It is rather a nice letter," she said, and propped up the wicks of the flickering candles with the corner of the envelope. "I believe she wrote merely out of kindness; it proves that there is some generosity in even the most virtuous heart. I'll write to Mrs. Wimple--" she stopped--and reflected for a minute or two. "Poor old lady! she was very good to me; she was like a mother--no woman has called me 'my love' since she went away." She walked up and down the room for a moment, and looked out again at the wide street and the flashing lights. Suddenly she turned, seized her blotting-book, and knelt down by the table in the impulsive manner that characterized her. "I'll write at once," she said. "Of course it will shock her sweet old nerves; but I know she'll be glad to hear from  me, though she won't own it even to herself."
-<div type="letter">
-<p>"DEAREST OLD LADY,--I have been longing to know what had become of you. I only heard a little while ago that you were a happy bride, and I have just succeeded in getting your address. A thousand congratulations. I hope you are very much in love, and that Mr. Wimple is truly charming. He is, indeed, a most fortunate man and to be greatly envied by the rest of his sex.</p>
+<p>"It is rather a nice letter," she said, and propped up the wicks of the flickering candles with the corner of the envelope. "I believe she wrote merely out of kindness; it proves that there is some generosity in even the most virtuous heart. I'll write to Mrs. Wimple--" she stopped--and reflected for a minute or two. "Poor old lady! she was very good to me; she was like a mother--no woman has called me 'my love' since she went away." She walked up and down the room for a moment, and looked out again at the wide street and the flashing lights. Suddenly she turned, seized her blotting-book, and knelt down by the table in the impulsive manner that characterized her. "I'll write at once," she said. "Of course it will shock her sweet old nerves; but I know she'll be glad to hear from  me, though she won't own it even to herself."</p>
+<q>
+<text>
+<body>
+<div id="lcaunta034" type="letter">
+<opener>"<salute>DEAREST OLD LADY</salute>,--</opener><p>I have been
+longing to know what had become of you. I only heard a little while
+ago that you were a happy bride, and I have just succeeded in getting
+your address. A thousand congratulations. I hope you are very much in
+love, and that Mr. Wimple is truly charming. He is, indeed, a most
+fortunate man and to be greatly envied by the rest of his sex.</p>
 <p>"I fear you will be shocked to hear that Mr. North has divorced me. I never loved him, you know. I told you that when you were so angry with me that day in Cornwall Gardens, and it was not my fault that I married him. I have been very miserable, and I don't suppose I shall ever be happy again. But the world is a large place, and I am going to wander about; I have always longed to see the whole of it: now I shall go to the cast and the west, and the north and the south, like a Wandering Jewess. But before I start on these expeditions I shall be in England for a few weeks and should like to see you. Would you see me? I don't suppose you would come near me or let me go near you, though I should like to put my head down on your shoulder and feel your kind old arms round me again.</p>
 <p>"I am afraid you have eaten up all your wedding-cake, dear old
 <pb n="225     AUNT ANNE"/>
 lady, and even if you have any left you would, no doubt, think it far too good for the likes of me. I wonder if you would accept a very little wedding-present from me, for I should so much like to send you one? My love to you, and many felicitations to both you and Mr. Wimple.</p>
-<closer>Yours always,
-<signed>"E. NORTH."</signed></closer></div>
+<closer><salute>Yours always,</salute>
+<signed>"E. NORTH."</signed></closer></div></body></text></q>
 <p>When it was finished, her excitement gave way; her spirits ran down; she went, wearily, back to the sofa and pillowed her head on her arms once more. "I wonder what the next incident will be, and how many days and nights it is off." She shut her eyes, and in thought hurried down the street to the old port. She saw the masts of ships, and the moving water, and the passing lights in the distance. "0 God!" she said to herself, "how terrible it is to think that the land is empty for me from end to end. Though I walked over every mile of it, I should never see his face or hear his voice, and there is not a heart in the whole of it that cares one single jot for me. And the great sea is there, and the ships going on and on, and not a soul on board one of them who knows that I live or cares if I die. It frightens me and stuns me, and frightens me again. I am so hungry, and longing, and eager for the utter impossibilities. Oh, my darling, if you had only trusted me; if you could have believed that the sin was outside me and not in my heart; if you had written me just one little line to tell me that some day, even though it were years and years ahead, you would come to me and take me into your life forever, I would have been so good--I would have made myself the best woman on earth, so that I might give you the best love that ever Heaven sent into a human heart." There was another knock at the door, and something like a cry escaped from her lips.</p>
 <pb n="226     AUNT ANNE"/>
 <p>"Come in"--and again the <hi rend="italic">gar&ccedil;on</hi> entered with a letter. This time it was a thick packet.</p>
@@ -2122,8 +2262,8 @@ lady, and even if you have any left you would, no doubt, think it far too good f
 <p>"Sailing next month in <hi rend="italic">Deccan</hi>.</p>
 <p>"She fell down on her knees by the table and, putting her face on her hands, burst into passionate weeping.</p>
 <p>"0 dear God," she prayed, "forgive me and be merciful to me. I have not meant to do wrong, I have only longed to be happy. O dear Father, let me be so. I will try to do right all my life long, and to make him do right, too--only let him love me still. I have never been happy--let me be so. I have suffered so--I have suffered so! O dear God, is it not enough? Forgive me and let me be happy."</p>
-<pb n="[227]"/></div><div n="17" type="chapter">
-
+<pb n="[227]"/></div>
+<div id="lcaunta017" n="17" type="chapter">
 <head>CHAPTER XVII</head>
 <p>IT was chilly as only an English spring knows how to be. The fir-woods were deserted--the pathways through them wet and slippery. But overhead there was fitful sunshine and patches of blue sky, though the Surrey hills were misty and the fields were sodden with many rains. The leaves were beginning to unfold, fresh and green; the primroses were thick in the hedges; and here and there the little white stitchwort showed itself, tearful and triumphant. The thrushes and blackbirds were making ready for summer, though as yet there was not a sign of it.</p>
 <p>Alfred Wimple and Aunt Anne had been a month at the cottage. The latter pottered about the garden, looking at every up-coming plant with absent recognition; but that was all. She was too sad to care any more for the delights of the country. She had grown feeble, too, and could not walk very far--even the garden tired her. Mrs. Burnett's governess-cart had been her great comfort. She had no fear of doing the pampered pony, as she called it, any harm, and had driven herself for hours along the lonely roads between the fir-trees and the hedges of awakening gorse and heather. The straggling population for three miles round knew her well--the lonely old lady, with the black bonnet and the long black cloak fastened with the steel clasp. Alfred Wimple never went with her; he had refused from the very first. But he had a way of disappearing by himself for long hours together. Where
@@ -2238,7 +2378,8 @@ more directly away from him. "Anne," he said, "we had better make it up. It is n
 <pb n="239     AUNT ANNE"/>
 <p>"There," he said, "it's all right. To-morrow you shall go to London, and we will be more sensible in future." He touched her hand, and went out into the garden. When she had watched him out of sight, she sat down once more on the chair by the fire.</p>
 <p>"I am old!" she cried; "I am old, I am old!"--and, with a quick movement of fear, she hid her thin hands out of sight. "I cannot bear it--I am old."</p>
-<pb n="[240]"/></div><div n="18" type="chapter">
+<pb n="[240]"/></div>
+<div id="lcaunta018" n="18" type="chapter">
 <head>CHAPTER XVIII</head>
 <p>BEFORE nine the next morning, Aunt Anne was ready to set out on her journey to London. Mrs. Burnett's governess-cart was at the gate with Lucas, the gardener, in it, to drive her to the station. Alfred Wimple looked on at her preparations to go with an anxiety that was almost eagerness; and, stealthily, the old lady watched his every look and movement.</p>
 <p>"Jane can prepare the dinner after my return. I shall bring back some little dainty with me, hoping that it may tempt you, my love."</p>
@@ -2451,7 +2592,8 @@ you will remember it when it is too late to ask my forgiveness. You have insulte
 <p>The man was bewildered at the strange name, and looked at Aunt Anne doubtfully. Sir William clutched at the arms of his chair again, and his head sank back upon the pillow.</p>
 <p>"William-" she began.</p>
 <p>"Go!" he said, hoarsely. For a moment she hesitated, a red spot had burned itself on her check, and slowly she followed the servant down the stairs.</p>
-<pb n="[260]"/></div><div n="19" type="chapter">
+<pb n="[260]"/></div>
+<div id="lcaunta019" n="19" type="chapter">
 <head>CHAPTER XIX</head>
 <p>AUNT ANNE went slowly along Portman Square. She felt, and it was a cruel moment to do so, that she was growing very old. Her feet almost gave way beneath her; her hands had barely strength to hold her cloak together over her chest. There was a little cold breeze passing by; as it swept over her face she realized that she was half stunned and sad and sick at heart. But she dragged on, step by step, stopping once, to hold by the iron railings of a house, before she could find strength enough to turn into a side-street.</p>
 <p>"I won't believe it," she said; "it was not for the money. He could not have known; his uncle would not have told him--it is not likely that he would have betrayed the confidence of a client." And then she remembered what Sir William had said about the debt to the landlady in the Gray's Inn Road and to the mother in the country. Of course that meant Liphook. It gave her a world of comfort, had lifted a terrible dread from her heart, so that, even in spite of the insults of the last hour, she felt that her morning visit had not been wholly thrown away. She had not the faculty of looking forward very far, and it did not occur to her as yet that, by revealing her marriage, she had ruined her prospects with her cousin. It was the insults that had enraged her; the going back to Witley, the day's dinner, and the very near future, that perplexed her. A month, even a week, hence
@@ -2614,9 +2756,10 @@ she could not bear to see them. She looked at the cloth again, and taking up the
 <p>"You need not set a place for me," she said to Jane, who still lingered, half wonderingly. "I dined early in town; it is only for Mr. Wimple"--and she went back to the drawing-room. She hesitated for a moment by the door; she felt as if the dead people who had known it in by-gone years were softly crowding into it now, as if they would witness the scene that was before her, and look on at all she had to bear, just for a little while, before she became one of them. She gathered courage to walk to one of the chairs; she put the peacock screen beside her and waited. A quarter of an hour went by, while she stared at the fire with her hands clasped and her head drooping, or at the darkness outside the windows that looked towards the garden. But she could scarcely bear to turn her head in that direction. All the time she was listening, curiously and with a shrinking dread, for the sound of footsteps. Jane came to her.</p>
 <p>"The dinner is ready," she said; "it's a pity Mr. Wimple don't come--I wanted to get home to mother a bit early to-night. Her cough was worse this morning."</p>
 <p>"You can go as soon as you have finished your duties," Aunt Anne said; "and remind me to pay you your wages, for I am often oblivious--" the words died away on her lips. She heard the handle of the hall-door turn.</p>
-<pb n="[282]"/></div><div n="20" type="chapter">
+<pb n="[282]"/></div>
+<div id="lcaunta020" n="20" type="chapter">
 <head>CHAPTER XX</head>
-<p>The rain showed no signs of abating, but Alfred Wimple was chilly and hungry. Moreover, he was tired of the <hi rend=”italic">t&ecirc;te-&agrave;-t&ecirc;te</hi> in the shed, and he had a dull curiosity to hear the result of Aunt Anne's visit to town. It was certain to provide some sort of excitement for the evening. If she had brought back money he would reap the benefit of it; if she had not, he could at least make her suffer, and to watch her suffer would provide him a satisfaction over which he gloated more and more with every experience of it. He buttoned his coat, turned up the bottoms of his trousers, and looked for his umbrella; then hesitated a moment and looked out at the weather. He hated rain.</p>
+<p>The rain showed no signs of abating, but Alfred Wimple was chilly and hungry. Moreover, he was tired of the <hi rend="italic">t&ecirc;te-&agrave;-t&ecirc;te</hi> in the shed, and he had a dull curiosity to hear the result of Aunt Anne's visit to town. It was certain to provide some sort of excitement for the evening. If she had brought back money he would reap the benefit of it; if she had not, he could at least make her suffer, and to watch her suffer would provide him a satisfaction over which he gloated more and more with every experience of it. He buttoned his coat, turned up the bottoms of his trousers, and looked for his umbrella; then hesitated a moment and looked out at the weather. He hated rain.</p>
 <p>"I wish I had thought to bring myself an umbrella," his companion said; "it's a long way across. Joe Pook is over at the King's Head with his cart, and he'll drive me back, but it's a good bit to there."</p>
 <p>Alfred Wimple coughed.</p>
 <p>"I can't let you have mine"--and he held it firmly; "my chest is not strong."</p>
@@ -2651,7 +2794,7 @@ of the rain that would fall upon her as she drove to the cottage. He wondered if
 her arms round his neck, and call him endearing names, instead of the old woman, shrivelled and wrinkled, to whom in a moment or two he would have to submit himself? He went towards the front door, vaguely determining that he would make her miserable that night. He had a right to everything she could give, but she had no right to intrude herself upon his sight, and he would make her feel it.</p>
 <p>There was a click at the gate. Some one had entered the garden from the road. He stopped. A boy came up to him through the darkness.</p>
 <p>"Wimple? A telegram, sir. There is sixpence for porterage." He felt in his pocket among the silver the woman had given him in the shed; he found the sixpence, and the boy departed. He opened the yellow envelope, and stood still for a moment, with the telegram in his hand. He guessed what it meant. He took a match from his pocket, struck a light, and, protecting it from the wind with his hat, read:</p>
-<p>"Died at five o'clock from sudden attack."</p>
+<q><p>"Died at five o'clock from sudden attack."</p></q>
 <p>He screwed it up into a ball and put it carefully into his pocket. His feeling for Aunt Anne changed in a moment: he felt that for this one evening, at any rate, he would endure her--he would even be civil--since it was through her that he was about to gain all he wanted. He looked up at the cottage before he entered it with the almost pleasant feeling with which a prisoner sometimes looks at his cell before he departs into freedom. Aunt Anne was sitting by the drawing-room fire; he lingered by the doorway.</p>
 <p>"You are home then?" he said. There was something exalted in his voice, that at another time would have made
 <pb n="288     AUNT ANNE"/>
@@ -2722,7 +2865,7 @@ quickly. "I do not mean to go until I have the money William Rammage has left yo
 <pb n="294     AUNT ANNE"/>
 <p>"Yes," he said; "I like her, and I loathe you!" He drew the word out as if he gloated over the sound of it, and the awful look came into his eyes again.</p>
 <p>"Heaven has frustrated your design," she said. "Alfred, if you kill me you will gain nothing by it, and the law will punish you. William Rammage has burned his will. He burned it to-day before my eyes, when he heard that I had disgraced my family and my name by a marriage with you."</p>
-<p>"<hi rend=”italic">Burned it!</hi>" he put out his hands, almost as if he were going to strangle her. "Then I shall go; I shall go--when it suits me. I only wanted your money. A young man does not marry an old woman for anything but money, Anne. You are loathsome--loathsome and unwholesome," he repeated, watching the effect of every word upon her--"and I have loathed being with you. I shall go to the other woman. She is my wife; I like her--she is young, not old and loathsome like you! I only married you for the sake of your money." Aunt Anne never moved an inch; she only watched him steadily, as slowly he brought out his sentences, pausing between each one. "You have kept me from her all these months," he went on, concentrating himself on every word he said; "and now you have taken from me the money I deserved for being with you--for being with a wrinkled, withered old woman."</p>
+<p>"<hi rend="italic">Burned it!</hi>" he put out his hands, almost as if he were going to strangle her. "Then I shall go; I shall go--when it suits me. I only wanted your money. A young man does not marry an old woman for anything but money, Anne. You are loathsome--loathsome and unwholesome," he repeated, watching the effect of every word upon her--"and I have loathed being with you. I shall go to the other woman. She is my wife; I like her--she is young, not old and loathsome like you! I only married you for the sake of your money." Aunt Anne never moved an inch; she only watched him steadily, as slowly he brought out his sentences, pausing between each one. "You have kept me from her all these months," he went on, concentrating himself on every word he said; "and now you have taken from me the money I deserved for being with you--for being with a wrinkled, withered old woman."</p>
 <p>She did not move or speak. For a moment he showed his teeth again, then slowly lifted his hands.</p>
 <p>"Anne," he said, "I am going to strangle you"--and he bent over her. He had no intention of doing it, but it pleased him to torture and threaten her.</p>
 <p>"If you dare to touch me--" she said, and a shriek burs from her. There was the sound of a door opening and of footsteps entering.</p>
@@ -2758,7 +2901,7 @@ world. For a moment she was silent; she looked puzzled, as if she were doing a m
 <pb n="299     AUNT ANNE"/>
 down with the poker, as William Rammage had held down his burning will. As she did so her eyes caught the wedding-ring on her left hand; in a moment she had pulled it off her trembling finger and put it in the fire, too. The flame blazed and smouldered and died away, and her excitement with it. But she had not strength to rise from the floor on, which she had been kneeling; she pulled the cushion down from the back of the easy-chair, and sank, a miserable heap, upon the rug.</p>
 <pb n="[300]"/>
-</div><div n="21" type="chapter">
+</div><div id="lcaunta021" n="21" type="chapter">
 <head>CHAPTER XXI</head>
 <p>DURING the days that followed she was shut up in the cottage alone; and no one entered save Jane Mitchell, who came in the morning to light the fire while the remnant of coal lasted, and then was sent away.</p>
 <p>"I shall not require you any more," she said to Lucas, when he came to ask if she wanted the pony. She was covered with shame, and could never drive along the roads again.</p>
@@ -2860,7 +3003,8 @@ Aunt Anne says, all I have suffered has been an atonement for the wrong. One lit
 <p>"No, Aunt Anne, you are not going to get up yet," she said next morning, in answer to an inquiring look; "you must wait until the doctor has been; remember it is my turn to be autocratic."</p>
 <p>"Yes, my love"--and she dozed off. Half her time was spent in sleep. Since Mrs. North's arrival there had stolen over her a gradual contentment, as if a crisis had occurred, and the blackness of the past grown dim. Perhaps it was giving place to all that was in her heart, or the sound of Mrs. North's fresh young voice, or the loving touch of her hand. Be it what it might, Alfred Wimple and the misery that he had caused seemed to have gone farther and farther away, while peacefulness was stealing over her. "It is like being with my dear Florence and Walter," she said to Mrs. North once--"only perhaps you understand even better than they could, for you have gone through the pain.</p>
 <p>"Yes, dear Aunt Anne, I have gone through the pain"--and Mrs. North sat waiting for the doctor again, not that she was very uneasy to-day, for the old lady was a little better, and hope grows up quickly when youth passes by.</p>
-<pb n="[314]"/></div><div n="22" type="chapter">
+<pb n="[314]"/></div>
+<div id="lcaunta022" n="22" type="chapter">
 <head>CHAPTER XXII</head>
 <p>THE sound of the door-bell, and of some one being shown into the drawing-room.</p>
 <p>"The doctor has come, Aunt Anne," Mrs. North said. "I will invigorate myself with a talk before I bring him to you, and tell him that you are much better."  But instead of the doctor she found a little, dried-up-looking old gentleman standing in the middle of the room, holding his hat and umbrella in one hand. She looked at him inquiringly.</p>
@@ -2894,7 +3038,7 @@ thing so genuine in his bewilderment that Mrs. North began to believe in his hon
 come back from Monte Carlo. She has had a terrible shock, from which she will never recover; and besides that she has virtually starved herself and taken a hundred colds. She has not the strength of a fly left. I know she is dying," Mrs. North added, with a sob she could not help.</p>
 <p>"Don't you think that the good news I bring might save her life?"</p>
 <p>"No; and I am not sure that it would be good to save it, she has suffered so cruelly. What a wicked old man Sir William Rammage was!" she burst out, and looked up sympathetically at Mr. Boughton.</p>
-<p>"He was my client," the lawyer urged.
+<p>"He was my client," the lawyer urged.</p>
 <p>"He allowed the poor old lady to starve for want of money, and now that he is dead and she is dying it comes to her."</p>
 <p>"Yes, it is very unfortunate--very unfortunate."</p>
 <p>"Everything seems to be a point of view," Mrs. North went on, in the eager manner which so often characterized her. "Poverty is the point of view from which we look at riches we cannot get; from vice we look at virtue which we cannot attain; from hell we look at the heaven we cannot reach. Perhaps Sir William Rammage would appreciate the latter part of the remark now"--she said the last words between laughter and tears.</p>
@@ -2920,7 +3064,7 @@ come back from Monte Carlo. She has had a terrible shock, from which she will ne
 <p>"And are you sure it's good news, my love?" she asked Mrs. North.</p>
 <p>"I am quite sure," Mrs. North answered, as she tucked an eider-down quilt round Aunt Anne. "He has come from London on purpose to bring it to you."</p>
 <p>"Has he partaken of any refreshment since he arrived?"</p>
-<p>"No; but I will have some ready for him when he comes down from his talk with you. Now you shall have your <hi rend=”italic">t&ecirc;te-&agrave;-t&ecirc;te</hi>"--and Mrs. North went back to the lawyer.</p>
+<p>"No; but I will have some ready for him when he comes down from his talk with you. Now you shall have your <hi rend="italic">t&ecirc;te-&agrave;-t&ecirc;te</hi>"--and Mrs. North went back to the lawyer.</p>
 <p>"You must break it to her very, very gently, and you
 <pb n="320     AUNT ANNE"/>
 mustn't be more than five or ten minutes with her," she said, as she took him up to the bedroom door.</p>
@@ -2942,9 +3086,9 @@ address here." She did not hear him; her eyes had closed again, and her chin res
 <pb n="322     AUNT ANNE"/>
 come to-morrow. It will have to be rather late in the day, I am afraid, but I can sleep at the inn. In the meantime get the other will destroyed. Why, bless me! if she died to-night it might make an awful scandal; I would not have it happen for all I am worth."</p>
 <p>Mr. Boughton departed; and the doctor came, and gave so bad a report that Mrs. North sent off yet another telegram to Walter and Florence--this time to London--asking them not to waste a moment on their arrival, but to come straight to Witley. And then the second post brought her the morning's letters which had been sent on. Among them was one with the Naples post-mark, which she tore open with feverish haste and could scarcely read for tears of joy.</p>
-<p>"I could not write before," it said. "I am detained here by a friend's illness; but now that I am thus far I send you just a line to say I shall be with you soon, and shall never leave you again. I hate to think it all. The fault was mine, and the suffering has been yours. But I love you, and only live to make you reparation."</p>
+<q><p>"I could not write before," it said. "I am detained here by a friend's illness; but now that I am thus far I send you just a line to say I shall be with you soon, and shall never leave you again. I hate to think it all. The fault was mine, and the suffering has been yours. But I love you, and only live to make you reparation."</p></q>
 <p>"It is too much happiness to bear," she said, with a sob. "It is all I wanted, that he should love me--I must write this minute, or he will wonder"--and she got out her blotting-case, just as she did at the hotel at Marseilles--it seemed as if that scene had been a suggestion of this--and, kneeling down by the table, wrote,</p>
-<p>"I am here with Mrs. Baines, and she is dying. I have just--just had your letter. Oh, the joy of it! What can I say, or do?--you know everything that is in my heart better than words can write down."</p>
+<q><p>"I am here with Mrs. Baines, and she is dying. I have just--just had your letter. Oh, the joy of it! What can I say, or do?--you know everything that is in my heart better than words can write down."</p></q>
 <p>She sealed it up; and, seizing her lat, went once round the garden, for the cottage seemed too small a house hold so great a happiness as that which had come upon
 <pb n="323     AUNT ANNE"/>
 her. She looked up to the sky, and thought how blessed it was to be beneath it, and away at the larches and fir-trees, and wondered if he and she would ever walk between them. Something told her that they would if--if all came right, if she found that he loved her so much that he could not live without her. They would lead such ideal lives; they would do their very best for everyone, and make so many people happy, and cover up the past with all the good that love would surely put it into their hearts to do. "It would be too much to bear," she said to herself; "it is too much to think of yet--I will go back to my dear old lady, and comfort her."</p>
@@ -2989,9 +3133,10 @@ eager to die. But I want to know that he will go away--that none of those I care
 <q><p>"This is the last Will and Testament of me, Anne Baines (sometime called Wimple). I revoke all other wills and codicils, and give and bequeath everything that is mine or may be mine to my dear nephew and niece, Walter and Florence Hibbert."</p></q>
 <p>The maid came and stood on one side and Mrs. North on the other, while Aunt Anne gave a little wink to herself, and pushed aside the end of the lavender ribbon lest
 <pb n="328     AUNT ANNE"/>
-it should smudge the paper, and signed <hi rend=”italic">Anne Baines</hi>, looking at every letter as she made it with intense interest.</p>
+it should smudge the paper, and signed <hi rend="italic">Anne Baines</hi>, looking at every letter as she made it with intense interest.</p>
 <p>"I am glad to write that name once more," she said, and fell back, with a sigh.</p>
-<pb n="[329]"/></div><div n="23" type="chapter">
+<pb n="[329]"/></div>
+<div id="lcaunta023" n="23" type="chapter">
 <head>CHAPTER XXIII</head>
 <p>IT was a long night that followed. A telegram had arrived from the Hibberts. They were on their way, and coming as fast as possible, they said; but through the dark hours, as Mrs. North sat beside Aunt Anne, she feared that death would come still faster.</p>
 <p>Her bronchitis was worse at times; she could hardly breathe; it was only the almost summer-like warmth that saved her. She talked of strange people when she could find voice to do so--people of whom Mrs. North had never heard before; but it seemed somehow as if they had silently entered--as if they filled the house, and were waiting. At midnight and in the still small hours of the morning she could fancy that they were going softly up and down the stairs; that they peered into the room in which Aunt Anne lay--the one to the front that looked down on the long white road stretching from the city to the sea. "Oh, if the Hibberts would come," Mrs. North said, a dozen times. "I want her to die with her own people. I love her, but I am a stranger."</p>
@@ -3042,6 +3187,64 @@ face towards the window, as though she were listening, and looked at Aunt Anne's
 <p>"Dear Aunt Anne," they said, tenderly, "we have come." Then a look of joy spread over the old lady's face. She made one last struggle to speak.</p>
 <p>"My dear Walter and Florence," she said, and stopped for a moment. "I have not been able . . . To make any preparation for your arrival . . . but Mrs. North"--she stopped again, and her eyes closed. They went a little nearer to each other, and stood watching.</p>
 <p>The scent of the fresh spring air filled the room. The sunshine was passing over the house. There was the clear note of a bird, but not another sound. The bird ceased, and all was still--so still that Florence looked up, with a questioning look of fear upon her face. Walter bent over the bed for a moment, then gently put his arm round his wife's shoulder. Aunt Anne had journeyed on.</p>
-</div>
 <trailer>THE END</trailer>
-</body></text>
+</div>
+</body>
+<back>
+<div id="lcaunta050" type="adverts">
+<pb/>
+<figure entity="lcauntabm01" rend="inline">
+<figDesc>Advertisement included at the end of Mrs. Clifford's <hi
+rend="italic">Aunt Anne</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="lcauntabm02" rend="inline">
+<figDesc>Advertisement included at the end of Mrs. Clifford's <hi
+rend="italic">Aunt Anne</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="lcauntabm03" rend="inline">
+<figDesc>Advertisement included at the end of Mrs. Clifford's <hi
+rend="italic">Aunt Anne</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="lcauntabm03" rend="inline">
+<figDesc>Advertisement included at the end of Mrs. Clifford's <hi
+rend="italic">Aunt Anne</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="lcauntabm04" rend="inline">
+<figDesc>Advertisement included at the end of Mrs. Clifford's <hi
+rend="italic">Aunt Anne</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="lcauntabm05" rend="inline">
+<figDesc>Advertisement included at the end of Mrs. Clifford's <hi
+rend="italic">Aunt Anne</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="lcauntabm06" rend="inline">
+<figDesc>Advertisement included at the end of Mrs. Clifford's <hi
+rend="italic">Aunt Anne</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="lcauntabm07" rend="inline">
+<figDesc>Advertisement included at the end of Mrs. Clifford's <hi
+rend="italic">Aunt Anne</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="lcauntabm08" rend="inline">
+<figDesc>Advertisement included at the end of Mrs. Clifford's <hi
+rend="italic">Aunt Anne</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="lcaunta060" type="paratext">
+<figure entity="lcauntabm09" rend="inline">
+<figDesc>Circulation record for The Craddock Circle pasted into the
+back of  Mrs. Clifford's <hi rend="italic">Aunt Anne</hi>.</figDesc>
+</figure>
+</div>
+</back>
+</text>
+</TEI.2>
