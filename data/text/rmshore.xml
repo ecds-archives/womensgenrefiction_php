@@ -1,47 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
 <TEI.2>
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title/>
-				<author/>
-			</titleStmt>
-			<publicationStmt>
-				<pubPlace/>
-				<publisher/>
-				<publisher/>
-				<date/>
-			</publicationStmt>
-			<sourceDesc>
-				<p/>
-			</sourceDesc>
-		</fileDesc>
-		<profileDesc/>
-	</teiHeader>
-	<text>
-		<front>
-			<titlePage>
-				<docTitle>
-					<titlePart/>
-				</docTitle>
-				<byline/>
-				<byline/>
-				<docImprint>
-					<name/>
-					<name/>
-					<name/>
-					<date/>
-				</docImprint>
-			</titlePage>
-		</front>
-		<body>
-			<pb n="1"/>
-			<div>
-				<head>Chapter I<lb/>A HEREDITARY BEQUEST</head>
-				<p>DURING the first week of Peter Margerison's first term at school, Urquhart suddenly stepped, a radiant figure on the heroic scale, out of the kaleidoscopic maze of bemusing lights and colours that was Peter's vision of his new life.</p>
-				<p>Peter, seeing Urquhart in authority on the football field, asked, "Who is it?" and was told, "Urquhart, of course," with the implication, "Who else could it be?"</p>
-				<p>"Oh," Peter said, and blushed. Then he was told, "Standing right in Urquhart's way like that! Urquhart doesn't want to be stared at by all the silly little kids in the lower-fourth." But Urquhart was, as a matter of fact, probably used to it.</p>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>The Lee Shore, an electronic edition</title>
+<author n="Macaulay, Rose, Dame">Rose Macaulay</author>
+</titleStmt>
+<extent>600kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2004</date>
+<availability>
+<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA  30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email:  beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Macaulay, Rose</author>. <title>The Lee
+Shore</title>. <pubPlace>London</pubPlace>: <publisher>Hodder and
+Stoughton</publisher>, <date>1915</date>. Fifth Edition.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded.  Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions. </p></samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+     <bibl>
+       <title>Library of Congress Subject Headings</title>
+     </bibl>
+  </taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">unedited</rs>
+<rs type="genre">novel</rs>
+<rs type="geography">Great Britain</rs>
+<date>1900-1999</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>English literature--20th Century--Fiction.</item>
+<item>Women authors, British--20th Century.</item>
+<item></item>
+<item></item>
+<item></item>
+<item></item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2003-December-10</date>
+<respStmt><name>Erika Farr,</name>
+<resp>project manager.</resp>
+<item>XML tags inserted in compliance with  TEI guidelines using TEILITE.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<pb entity="" n="[iii]" pages="Title Page"/>
+<titlePage>
+<docTitle>
+<titlePart type="main">THE LEE SHORE</titlePart>
+</docTitle>
+<byline>By <lb/><docAuthor>ROSE MACAULAY</docAuthor> <lb/>Author of
+"Abbot's Verney," "The Valley Captive," <lb/>"Views and Vagabonds,"
+etc.</byline>
+<titlePart type="desc">FIRST PRIZE IN <lb/>HODDER AND STOUGHTON'S
+<lb/>&#x00A3;1000 NOVEL COMEPTITION <lb/>1912</titlePart>
+<docEdition>FIFTH EDITION</docEdition>
+<docImprint>
+<publisher>HODDER AND STOUGHTON</publisher>
+<pubPlace>London</pubPlace><pubPlace>New
+York</pubPlace><pubPlace>Toronto</pubPlace>
+</docImprint>
+</titlePage>
+</front>
+<body>
+<pb n="1"/>
+<div>
+<head>Chapter I<lb/>A HEREDITARY BEQUEST</head>
+<p>DURING the first week of Peter Margerison's first term at school, Urquhart suddenly stepped, a radiant figure on the heroic scale, out of the kaleidoscopic maze of bemusing lights and colours that was Peter's vision of his new life.</p>
+<p>Peter, seeing Urquhart in authority on the football field, asked, "Who is it?" and was told, "Urquhart, of course," with the implication, "Who else could it be?"</p>
+<p>"Oh," Peter said, and blushed. Then he was told, "Standing right in Urquhart's way like that! Urquhart doesn't want to be stared at by all the silly little kids in the lower-fourth." But Urquhart was, as a matter of fact, probably used to it.</p>
 				<p>So that was Urquhart. Peter Margerison hugged secretly his two pieces of knowledge; so secret they were, and so enormous, that he swelled visibly with them; there seemed some danger that they might even burst him. That great man was Urquhart. Urquhart was that great man. Put so, the two pieces of knowledge may seem to have a certain similarity; there was in effect a delicate discrimination between them. If not wholly distinct one from the other, they were anyhow two separate aspects of the same startling and rather magnificent fact.</p>
 				<p>Then there was another aspect: did Urquhart <pb n="2"/>know that he, Margerison, was in fact Margerison? He showed no sign of such knowledge; but then it was naturally not part of his business to concern himself with silly little kids in the lower-fourth. Peter never expected it.</p>
 				<p>But a few days after that, Peter came into the lavatories and found Urquhart there, and Urquhart looked round and said, "I say, you&#x2014;Margerison. Just cut down to the field and bring my cap. You'll find it by the far goal, Smithson's ground. You can bring it to the lavatories and hang it on my peg. Cut along quick, or you'll be late."</p>
