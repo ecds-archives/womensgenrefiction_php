@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./neh-tei.dtd">
 <TEI.2>
 <teiHeader>
@@ -86,26 +85,65 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </profileDesc>
 <revisionDesc>
 <change>
-<date>2005-March-04</date>
+<date>2005-March-14</date>
 <respStmt><name>Erika Farr, </name>
 <resp>project manager.</resp></respStmt>
 <item>XML tags inserted in compliance with TEI guidelines.</item>
 </change>
 </revisionDesc>
 </teiHeader>
-<pb n="1"/>
-<head><l>MARNA'S MUTINY</l><l>CHAPTER I</l></head>
+<text>
+<front>
+<pb/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">MARNA'S <lb/>MUTINY</titlePart>
+</docTitle>
+</titlePage>
+<pb/>
+<div id="hfmarna000" type="advert">
+<figure entity="hfmarnaad" rend="inline">
+<figDesc>Advertisement included in the front of Fraser's <hi
+rend="italic">Marna's Mutiny</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="hfmarnatp" pages="Title Page"/>
+<titlePage>
+<docTitle>
+<titlePart type="main">MARNA'S <lb/>MUTINY</titlePart>
+</docTitle>
+<byline>By <lb/><docAuthor>MRS. HUGH FRASER</docAuthor> <lb/>Author
+of <hi rend="italic">"A Diplomatist's <lb/>Wife in Japan," "Little <lb/>Grey Sheep," &#x0026;c.</hi></byline>
+<docEdition>SECOND EDITION</docEdition>
+<docImprint>
+<pubPlace>London</pubPlace>
+<publisher>HUTCHINSON &#x0026; CO</publisher>
+<pubPlace>Paternoster Row</pubPlace> <date>1901</date>
+</docImprint>
+</titlePage>
+<pb/>
+<div id="hfmarna001" type="copyright">
+<figure entity="hfmarnacr" rend="inline">
+<figDesc>Copyright for Fraser's <hi rend="italic">Marna's
+Mutiny</hi>.</figDesc>
+</figure>
+</div>
+</front>
+<body>
+<pb n="[1]"/>
+<div id="hfmarna002" type="chapter" n="1">
+<head>MARNA'S MUTINY<lb/>CHAPTER I</head>
 <p>"THERE is no use in saying anything more. I have quite made up my mind about it."</p>
 <p>When a woman says this, it means that she is prepared to discuss the matter from a liberal point of view and at great length; but it takes two to carry on a discussion, and this woman was alone, tiresomely and unjustly alone, she would have said, for the person who should have been her companion on this March evening had gone off, in the most disloyal way, to dine with her intimate enemy. Reprisals appeared to be imminent. Marna had hesitated about employing such weapons before, because she did not wish to take the edge off them too soon in the combat. But now the time had come. So she finished her coffee and set the cup down quite sternly; then she walked across to her writing-table as if she were going to take command of a battery of artillery. She was a tall girl, with a clear com-
 <pb n="2   Marna's Mutiny"/>
 plexion just a shade too dark for her gold-shot hair; her eyes were of a changing hazel, where gleams of gold came and went through the brown; she had the most serious mouth in the world, with an obstinate dimple at one corner. Marna pretended not to know about the dimple, and tried hard to prevent it from influencing her fate; but it would twinkle suddenly, so that all her solemn remarks were turned into funny ones, and then people would not believe how extremely in earnest she was. Her actions were about to show that now.</p>
 <p>In the first mildness of the Eastern spring all the windows were open, and eager moths of many shapes came and fluttered round Marna's lamp as she wrote to her only ally, a young married woman who lived a little farther up the hill. This was what Marna wrote:</p>
-<q><text><div type="letter">
-<p>"DEAREST MRS. HAYES,--Please call for me on the way to the Carters' dance. I have nobody to go with, as usual. Of course Papa wanted <hi rend="italic">her</hi> to chaperon me, and of course I said <hi rend="italic">NO</hi>. He said: 'Very well, then you may stay at home,' and he went off to dine with the sweet lady. I will not stay at home, to-night or at any time, <hi rend="italic">any</hi> more! I will be ready in my jin-rik-sha, and will join you the moment you pass."</p>
-<signed><l>"Your afflicted</l><l>"MARNA."</l></signed></div></text></q>
+<q><text><body><div id="hfmarna020" type="letter">
+<opener><salute>"DEAREST MRS. HAYES,</salute></opener><p>--Please call for me on the way to the Carters' dance. I have nobody to go with, as usual. Of course Papa wanted <hi rend="italic">her</hi> to chaperon me, and of course I said <hi rend="italic">NO</hi>. He said: 'Very well, then you may stay at home,' and he went off to dine with the sweet lady. I will not stay at home, to-night or at any time, <hi rend="italic">any</hi> more! I will be ready in my jin-rik-sha, and will join you the moment you pass."</p>
+<closer><salute>"Your afflicted</salute> <signed>"MARNA."</signed></closer></div></body></text></q>
 <pb n="3   Marna's Mutiny"/>
 <p>She did not look really afflicted; on the contrary, she gave the note to her blue jin-rik-sha slave, with a happy smile, as if she were doing a good action.</p>
-<p>"You be at the steps at half-past nine, Rats," she said, and then the 0 Jo Sama, as Rats would have called her, went off to dress. Rats also had another name, in many syllables. But he was thin, and so brown that he was almost black, and "Rats" described him, as Marna felt, most truly. When she reached her room on the upper floor, a quaint little figure came forward to greet her with a beaming smile, and then the clever Japanese fingers began to undo her frock and prepare for her dressing in the intelligent silence which makes it such a comfort to be waited on by these people.</p>
+<p>"You be at the steps at half-past nine, Rats," she said, and then the O Jo Sama, as Rats would have called her, went off to dress. Rats also had another name, in many syllables. But he was thin, and so brown that he was almost black, and "Rats" described him, as Marna felt, most truly. When she reached her room on the upper floor, a quaint little figure came forward to greet her with a beaming smile, and then the clever Japanese fingers began to undo her frock and prepare for her dressing in the intelligent silence which makes it such a comfort to be waited on by these people.</p>
 <p>Marna de Wesloff was the daughter of a Scandinavian gentleman, who had accepted the post of Consul at one of the great Japanese ports. A cheerful widower, he was glad to have his only daughter join him when she left the school where all her learning years were passed. He did not realise that the little girl of twelve, to whom he had said farewell eight years before, had grown into a rather masterful young woman, with an equipment of ready-made ideas and judgments for which he had paid large sums quarterly, but which were as antagonistic to his own pleasant ravelled philosophies as anything could well be. Having lived for many years in the softest old slippers, metaphorically speaking, he found
 <pb n="4   Marna's Mutiny"/>
 that he was suddenly expected to wear tight boots, day in, day out.</p>
@@ -172,7 +210,9 @@ she wanted time to change her frock before the dance, so she said to him:</p>
 <p>"Angel!" murmured the Major, as she closed the door, and he rose, rather carefully, to go and obey her commands. The diminutive of his daughter's name had been one of the strongest proofs of Mrs. Adair's Designing Minxhood in Marna's eyes. What impertinence, she thought, to turn her beautiful name, with the marching note in it, to a "Minnie" that came tripping along like high heels in a polka!</p>
 <pb n="17   Marna's Mutiny"/>
 <p>When Major de Wesloff reached home, the place was empty, and a hurried visit to his daughter's bedroom only showed him Tak&egrave;, puttings things to rights.</p>
-<p>"Missie Marna?" she said. "Oh, long time gone away. Missie Hayes come fetch. She no savvy--Danna<note n="*" place="foot">*The master.</note> San come back!"</p>
+<p>"Missie Marna?" she said. "Oh, long time gone away. Missie Hayes
+come fetch. She no savvy--Danna<ref target="hfmarnan17">*</ref><note
+id="hrmarnan17" n="*" resp="auth" place="foot">*The master.</note> San come back!"</p>
 <p>Danna San went downstairs, very angry at being cheated out of an act of magnanimity. His headstrong rebel had not even waited to be forgiven. Here was half an hour to be got rid of before he could meet his goddess at the dance, for she had not Marna's eagerness to begin early and finish late. He sat down in the deserted dining-room for a smoke. The lamp was burning badly, Marna's coffee-tray stood cold on the table, and his favourite chair had got to the wrong side of the fireplace. No wonder that he, also, felt the time for strong measures approaching. He rehearsed some very fine speeches as he smoked--speeches well seasoned with paternal majesty, grave warning, and really touching pathos. If Marna could only keep awake long enough to listen to them when she got back from the dance, he felt convinced that life would take on a different colour. His own, which had been rather vivid after dinner, subsided gently, his musings soon became as misty as the smoke, and he was rewarded for all his good intentions by a sweet, refreshing sleep.</p>
 <pb n="18   Marna's Mutiny"/>
 <p>He did not wake till nearly eleven, and was horrified to find how late it was. His patient kurumaya had been sitting on the steps for nearly two hours.</p>
@@ -199,7 +239,8 @@ was making him waltz round the ballroom with her, much to the annoyance of the y
 <pb n="21   Marna's Mutiny"/>
 <p>In the hills at Chuzenji there was a cottage which had been Major de Wesloff's present to his daughter the summer before. It owned a bit of pine-wood, a few yards of the lake shore, and the kind of climate that one visits in one's dreams if one can. The ground (of course bought in the name of a Japanese), the house itself, and all the furniture, consisting of little beyond mats and cooking utensils, had cost about two hundred pounds, and was Marna's very own. It seemed ungrateful to fortify herself therein against the giver, but then it would be finally for his own good.</p>
 <pb n="22"/>
-</div><div n="2" type="chapter">
+</div>
+<div id="hfmarna003" n="2" type="chapter">
 <head>CHAPTER II</head>
 <p>IT is little to say that Major de Wesloff was relieved when Marna came down, very sweet and good, to breakfast the next morning, and said that she thought she would go off to the cottage for a week or two, if she could get Mrs. Hayes to go with her. As Mrs. Hayes was always ready for anything that could be called a spree, there was not much doubt of her answer. She was only a year or two older than Marna, and her husband, the junior partner in a very prosperous firm, had no objection to her amusing herself. The young housekeeper in the East has so little to do, that unless the small family makes an early appearance, she has every opportunity of becoming a confirmed butterfly. The less you fuss over Japanese servants, the better they work. Those who take service with strangers come as a rule from a much lower class than those who would occupy corresponding positions in a Japanese gentleman's household; but even the strangers' servants are zealous to please, quick to learn, and on the whole no more dishonest than Europeans similarly placed.</p>
 <pb n="23   Marna's Mutiny"/>
@@ -264,7 +305,24 @@ friend's husband always seemed grossly overrated in Marna's eyes.</p>
 <p>Saturday morning came all too soon, and after Rats had started to pull Mrs. Hayes down to the station, Marna had a few minutes of depression. She had never tried this complete isolation before, and she could not quite answer for the effect it might produce upon herself. These apprehensions were not mingled with any nervous qualms, for she felt as safe in her lonely cottage as at the Consulate in the town. Her arrival had been notified to the inspector, who came with his subordinate to pay his respects and assure her of his services. During the two summers that she had been at Chuzenji, she had made friends with the innkeeper and one or two of the humble inhabitants of the place, talking to them in her odd, broken Japanese with so much courage that it made up for all her mistakes. Of course a thief might come--for those little paper shanties are a joy to the wandering burglar--but there were the men-servants, and Marna felt equal to accounting for two thieves at least, herself, with the toy revolver which she kept loaded, wrapped up in a pocket-handkerchief, inside a slipper under her bed. She was horribly afraid of it.</p>
 <p>The upper hills in the end of March repay the I   
 <pb n="35   Marna's Mutiny"/>
-traveller for a few bleak hours or belated snows. The Japanese have made March the girls' month, and there is something very feminine in its thousand changes of mood and measure. One day the rain is hurled down in straight black lances on our roof. The next breaks in a balmy dream of soft sunshine, nascent peach blossoms, bridal veils of light and moisture trailing on every hilltop; the fruit-trees burst in their rosy foam, the wild azalea runs in fire from hill to hill, the wistaria tosses out the bunch of downy, grey beans that will give you your own height in purple garlands by-and-by; the gardener frees the palms from their winter wrappers of matting, and the green leaves seem to clap their hands at feeling the light; and you wonder why Naratak&eacute; still leaves his delicate maze of string, netting the pine-tree's twigs to the mast he planted by its trunk in November? Perhaps because the days are short still, and he likes to get back to his snug cottage behind the shrubbery and smoke his pipe while Mrs. Naratak&eacute; gets his supper. Doubtless he will liberate the twigs from their leading-strings to-morrow morning. And to-morrow morning comes, and you go to your window for your first breakfast of fresh air, your first glance towards Fuji over the trees of the garden, and a thin, white mantle of snow is on everything, from Fuji to the orange-tree by your doorstep. The palms are holding shovelfuls of it
+traveller for a few bleak hours or belated snows. The Japanese have
+made March the girls' month, and there is something very feminine in
+its thousand changes of mood and measure. One day the rain is hurled
+down in straight black lances on our roof. The next breaks in a balmy
+dream of soft sunshine, nascent peach blossoms, bridal veils of light
+and moisture trailing on every hilltop; the fruit-trees burst in their
+rosy foam, the wild azalea runs in fire from hill to hill, the
+wistaria tosses out the bunch of downy, grey beans that will give you
+your own height in purple garlands by-and-by; the gardener frees the
+palms from their winter wrappers of matting, and the green leaves seem
+to clap their hands at feeling the light; and you wonder why
+Naratak&eacute; still leaves his delicate maze of string, netting the
+pine-tree's twigs to the mast he planted by its trunk in November?
+Perhaps because the days are short still, and he likes to get back to
+his snug cottage behind the shrubbery and smoke his pipe while
+Mrs. Naratak&eacute; gets his supper. Doubtless he will liberate the
+twigs from their leading-strings to-morrow morning.</p>
+<p> And to-morrow morning comes, and you go to your window for your first breakfast of fresh air, your first glance towards Fuji over the trees of the garden, and a thin, white mantle of snow is on everything, from Fuji to the orange-tree by your doorstep. The palms are holding shovelfuls of it
 <pb n="36   Marna's Mutiny"/>
 in their green fans, and are none the worse; but Naratak&eacute;'s cherished pine branches, level as an early sunbeam, would have been weighed down a dozen times over, weighed down so that they would never regain their shape, but for the elaborate rigging of little strings that holds them all in place. But how beautiful this blossom world is, everywhere breaking through the soft, muffling whiteness with gallant tints of rose and violet, and pale green and orange, that only shine out the braver for the spotless background. And they are right, these brilliant firstlings of the spring, for the March snows melt in the March sun, and long before he has set, the victory is with them.</p>
 <p>The night closed in sharp and still on Marna in her cottage after her friend had left her. She was glad of the lighted brazier and the warm lamps which are so often used for heating our rooms in Japan. Tak&eacute; had piled a mountain of silk wadded quilts on her bed, and Marna crept under them and dreamed that she was a tiny girl in Copenhagen, with an apple roasting on the top of the porcelain stove for her to have the first thing in the morning. And when the morning came, Tak&eacute; laughed as she opened the shutters, and her hair had white powderings among its jetty twists, because she had run across the garden after Rep, and one of the little shrubs had shaken down all its new-fallen crystals on her head.</p>
@@ -301,7 +359,8 @@ and Mrs. Carter has been very kind to me. She often recommends my little place t
 <pb n="42   Marna's Mutiny"/>
 mean engaged--just now; but I will show you the garden if you like."</p>
 <p>She thought she might concede that much, and, after all, it was pleasant to have somebody to speak to, even a person who was so rude as to forget names.</p>
-<pb n="43"/></div><div n="3" type="chapter">
+<pb n="43"/></div>
+<div  id="hfmarna004" n="3" type="chapter">
 <head>CHAPTER III</head>
 <p>"WHAT a charming place!" exclaimed Lord Kilmorack, as his companion led him from the wood and paused at the garden gate-a gate made of fine grey pine-twigs bound together, with a row of cone spikes set on top. The gate was low, and, looking over it, the Englishman saw an exquisite bit of landscape gardening stretching away towards the house, which, with its gold-coloured woods and its powderings of snow, stood out gaily against the blue sunshine of the lake and the soft grey and agate of the hills and the sky. The sun was doing his work through light films of mist, and every beam on Marna's eaves was dropping showers from the melting snow. A group of spring maples close to the porch had already spread out their pale green and wine-coloured leaves, which now, half-veiled in snow, caught the sun on their wet surfaces and looked like velvet under ermine. Inside the carved archway hung a bronze bell, with its camphor-wood hammer on a scarlet string; the azaleas of the garden were fluttering off the snow, as if they
 <pb n="44   Marna's Mutiny"/>
@@ -415,7 +474,8 @@ alone you'd be at all, at all, my dear young friend, for by this and by that and
 It did not go into Betty's pocket, as modern girls do not wear pockets, but it was pushed in between her tight satin waistbelt and the pink blouse, and if it heard anything, it would have heard a quite honest commotion in the heart which they covered. "Dear old boy, fancy his writing again!" so ran Betty's thoughts. "Oh, if only the impossible could happen and there were something for us to marry on!" Then aloud she said:</p>
 <p>"Well, Lord Kilmorack, did O'Brien give you your soothing powder? <hi rend="italic">No</hi> nursery should be without it."</p>
 <pb n="62"/>
-</div><div n="4" type="chapter">
+</div>
+<div  id="hfmarna005" n="4" type="chapter">
 <head>CHAPTER IV</head>
 <p>TERENCE in the afternoon was a cheery creature, with plenty of good sense and even a certain amount of reticence at his friends' command; Terence in the evening was apt to be a trifle noisy in his gaiety, until he was overcome by tender regrets and somewhat compromising reminiscences. At such times the exquisite pathos of life appealed to him so strongly that his generous soul longed to share it with others. The borderland between these two states furnished the grand old story of the man who went to the wrong funeral, and the companion tale of how his friend Fitzgerald eluded the bailiffs in the year of the great snowstorm. These classics, dear to his audience, never palled, and made people laugh even if they were inclined to be seasick--a great point on board a yacht. As I have said before, Kilmorack took them into consideration when bringing O'Brien to sea.</p>
 <p>After dinner on this particular evening, Kilmorack, who had resented Betty's usurpation of Lady Cecilia's seat, pointedly asked this lady to come and play
@@ -442,21 +502,29 @@ woman than yourself, and upon my word, only a very little younger. She makes as 
 <p>"And what became of her?" inquired the lady, who, looking at the clock, saw that it was nearly nine, and thought she might as well let him run on, since it made him so happy.</p>
 <p>"I can't say," said he. "The waves close over us, and the ocean roars, and our dear ones are carried away. I couldn't recollect the name if I tried, and that's against finding her out. It was a dream. Let it remain the solace of my lonely age."</p>
 <p>"Come along," said Mrs. Mowbray, jumping up, "there are the others. Where are the counters?"</p>
-<p>The baccarat went gaily on till twelve. Kimorack lost, and Mrs. Mowbray won a good deal; she went off to bed feeling so young and happy that she could have found it in her heart to forgive her divorced husband all her own sins against him, if he had turned up at that moment. Betty also went to her room, but soon came out to the closed-in verandah, and walked to the far end of it, where De Fresel was waiting for her. There she sat down on two chairs, feet well crossed on one, more open-work stocking showing, and a dream of a dressing-gown falling carelessly away from the eternal petticoat, and even a little from a small satin thing with bows in it, which, as the advertisements indicated, lengthened the waist by two inches without costing pain. The subjugation of Simon was as
+<p>The baccarat went gaily on till twelve. Kilmorack lost, and Mrs. Mowbray won a good deal; she went off to bed feeling so young and happy that she could have found it in her heart to forgive her divorced husband all her own sins against him, if he had turned up at that moment. Betty also went to her room, but soon came out to the closed-in verandah, and walked to the far end of it, where De Fresel was waiting for her. There she sat down on two chairs, feet well crossed on one, more open-work stocking showing, and a dream of a dressing-gown falling carelessly away from the eternal petticoat, and even a little from a small satin thing with bows in it, which, as the advertisements indicated, lengthened the waist by two inches without costing pain. The subjugation of Simon was as
 <pb n="67   Marna's Mutiny"/>
 complete as it was intended to be, for he was too young yet to be weary of the tricks of the drill. He knew, indeed, that Betty was only amusing herself, but though there was no chance for him, he always took what solace might be procured for his losses, at least.</p>
-<p>Betty's calculations and attacks, her poses and her piques, were merely a part of her uniform; she had to wear it, like all the other paupers in the social union who are condemned to beg their maintenance in a decent official way. But when she could drop it, and there was nobody to pirouette for, she was a warm-hearted, honest girl, who would and could do a good deal for anybody whom, to use her own language, she elevated to the dignity of a "pal."</p>
-
+<p>Betty's calculations and attacks, her poses and her piques, were
+merely a part of her uniform; she had to wear it, like all the other
+paupers in the social union who are condemned to beg their maintenance
+in a decent official way. But when she could drop it, and there was
+nobody to pirouette for, she was a warm-hearted, honest girl, who
+would and could do a good deal for anybody whom, to use her own
+language, she elevated to the dignity of a "pal."</p>
 <p>She was a gentleman's daughter, at least, and some of the paternal qualities were very well entrenched behind her flippant, careless exterior. She had a little story of her own, with some pathetic sides to it, though she insisted on regarding them as merely funny. Some three years earlier, she had, after endless trouble on her mother's part, become engaged to a man who was an excellent match in many ways; he was young, and well-off, kind, and "straight." His sporting tastes made him popular with a good class of men; but unfortunately he had too many of them. He had a stable, and honestly ran and backed his own horses; he played high as well, and never refused
 <pb n="68   Marna's Mutiny"/>
 to lend money if he had it, or his name to a friend's bill if he had none. So one morning Harry Winstanley woke up to find himself definitely ruined.</p>
 <p>He came to Betty with a very long face, and told her what had happened. She gave him a severe scolding for his folly, and then threw her arms round his neck and declared that she did not care, she meant to marry him all the same. They would pull it off, somehow, she was sure. But Harry said he would not take it; it would be years before he could give her a decent home, and he would not let her sacrifice her youth in waiting for what might never come.</p>
 <p>"All right," the young lady had replied, "if you don't want me to trust you, of course I shall not bother to do it." And then they parted in some anger. Harry disappeared; she heard later that he was working in an Irish training stable, and, seeing that her life lay before her, she set herself, very half-heartedly, to marry Kilmorack. That was turning out to be a slow and difficult task, and when the post brought her a letter in the Nikko hotel, she was weary of the whole thing. The letter, which she brought when she came out to talk to Simon, ran thus:</p>
-<q><text><div type="letter">
-<p>"DARLING BETTY,--You are not married yet, are you? Because if not, I want you to give me a show. It is like this. I have had God's own luck, my dear,
+<q><text><body>
+<div id="hfmarna021" type="letter">
+<opener><salute>"DARLING BETTY,</salute></opener>
+<p>--You are not married yet, are you? Because if not, I want you to give me a show. It is like this. I have had God's own luck, my dear,
 <pb n="69   Marna's Mutiny"/>
 and Mr. le Pareilleur, whose Miss Betty got home in such grand style at Aintree, is me, with fifty thousand pounds in my pocket, and the next steamer to this will bring me out to marry you in Japan if you will have me, for you know it was only the being so absolutely 'stony' that ever made me give you up. I could not have taken you to the Irish training stable where I have made my eternal fortune, could I, now? It was there I picked up this other Miss Betty,--God bless her!--for twenty pounds off a farmer that took a fancy to a Winchester I had. I paid him half with the rifle and half with a bull-pup, a perfect beauty, and this morning I sent him a hundred pounds as a tip. I trained Miss Betty myself, and Jim Turner got home on her when even the stable would not back her. You should have seen the faces in the Ring that day. Nobody cheered but I and the groom. Now, dearest old girl, it is you and me against the field, and if you will stand by me, we'll pound the lot. We can get our little affair fixed up at a Consulate or something, and I am bringing the ring, a solid hoop--diamonds every one. Do you think I'd marry <hi rend="italic">you</hi> with a bit of common gold when I've waited two years for you? Betty, I have been straight to you all along, and if I cannot have you, I'll never marry anybody else. I do want to see your dear pretty face again.</p>
-<signed><l>"Your own</l><l>"HARRY."</l></signed></div></text></q>
+<closer><salute>"Your own</salute><signed> "HARRY."</signed></closer>
+</div></body></text></q>
 <pb n="70   Marna's Mutiny"/>
 <p>Betty's eyes were shining in the dark when she came out to tell her news to Simon, who was generous enough to rejoice with her, being by this time resigned to the hopelessness of his own case. Meanwhile, another set of confidences was being exchanged in Kilmorack's room between him and Terence, the latter quite sobered by having to defend himself against Mrs. Mowbray at baccarat. Kilmorack had revolted at the lady's shameless cheating. "It is simply sickening," he said, sitting on the edge of his table <hi rend="italic">&agrave; la</hi> Betty, and balancing a glass in his hand. "I board and lodge them for six months and give them a chance to make friends with a millionaire (Ansell is an awfully good-hearted chap when you know him) and they insult his wife, and the mother cheats us all round, and the girl cheeks me about my nose and pats me on the back afterwards. I won't stand it Terence, I tell you fairly. Betty is getting altogether too chummy for me. You must invent a pretext to break up the party. I'll keep you and Simon, and the rest must go home by steamer. I'd like to make them go steerage."</p>
 <p>"You are over-excited, Kilmorack," said the indulgent Terence. "The old woman cheats like Satan, I'll grant that, but the girl is a good girl. There's not a bit of malice in Betty, and all her teasing only means that she likes you, you thank-less boy."</p>
@@ -508,7 +576,9 @@ golden head down against the motherly knee and let them fall one by one without 
 <pb n="79   Marna's Mutiny"/>
 for the day is waning, and I must get back to Nikko."</p>
 <p>She would not let Marna walk down the hill again, but told her to come the next day but one and lunch with her at the hotel; and as the party disappeared, and Marna had caught the last glimpse of her friend, high on the men's shoulders and turning back to smile at her on the thin-leafed threshold of the woods, she felt that it really was too lonely at Chuzenji, and wondered what she could have been so foolishly cross about when she left her other home.</p>
-<pb n="80"/></div><div n="5" type="chapter"><head>CHAPTER V</head>
+<pb n="80"/></div>
+<div id="hfmarna006" n="5" type="chapter">
+<head>CHAPTER V</head>
 <p>MAJOR DE WESLOFF was sauntering down the Bund towards the club, at twelve o'clock. It was a lovely morning, and the harbour, full of steamers, and warships at anchor, with sampans flying backwards and forwards like brown shuttles over the dancing blue, made a gay and pretty sight. It is not Japan at all, for the buildings that face the sea are purely European, and the coolies and jin-rik-sha men alone proclaim the strand to be that of Dai Nihon; but it is fresh and inspiriting, and at any rate represents a very important link in the chain that draws East and West together for their mutual good.</p>
 <p>On the club steps two or three men were lingering before going to lunch; it is a twelve o'clock meal and they call it "tiffin," and prepare for it with cocktails of weird strength and savour. Willie Barnes, looking rather ill, jumped down two steps and greeted the new-comer with enthusiasm. "You don't look well, Willie," said the kindly
 <pb n="81   Marna's Mutiny"/>
@@ -535,7 +605,7 @@ wished to see Mrs. Hayes first. Perhaps she was really going back; indeed, he ho
 <p>Mrs. Hayes was all rippling smiles by the time the Major entered her room, and it was evident that she underrated her own powers. How good of him to come, she exclaimed, and she <hi rend="italic">had</hi> enjoyed her little visit so much! It was too horrid having to come away and leave dear Marna so soon, but she was only to be alone for a few hours, as her friend was
 <pb n="84   Marna's Mutiny"/>
 coming up from Nikko that evening. Who? Oh--oh--a Danish friend, Miss something--Mrs. Hayes never could remember those queer names.</p>
-<p>Major de Westoff heaved a sigh of relief. That was all right, then, and he need not leave his affairs to take care of themselves, or his affianced bride to mourn his absence. For only last evening Mrs. Adair had consented to be his, with one quite proper little proviso--that Marna should give her consent. She liked the handsome Major very truly, but not enough to fight daily battles with another woman for the possession of him. So now the Major thought he would make a bold stroke and enlist Mrs. Hayes as an ally. Her influence with Marna might help him.</p>
+<p>Major de Wesloff heaved a sigh of relief. That was all right, then, and he need not leave his affairs to take care of themselves, or his affianced bride to mourn his absence. For only last evening Mrs. Adair had consented to be his, with one quite proper little proviso--that Marna should give her consent. She liked the handsome Major very truly, but not enough to fight daily battles with another woman for the possession of him. So now the Major thought he would make a bold stroke and enlist Mrs. Hayes as an ally. Her influence with Marna might help him.</p>
 <p>"Dear lady," he began, "you set my mind at rest. When that boy," and he nodded forgivingly at Willie, "told me you had come back, I thought my girl was up there alone, and of course that would not be quite the right thing, would it? She is the most harum-scarum creature, and always wants somebody to keep her in order. I wonder who the friend is? Can you really not remember?"</p>
 <p>"Oh--somebody she knew at home, I suppose," Mrs. Hayes replied quickly. "There are so many visitors in Nikko this year. Won't you smoke?" and she offered him a cigarette to change the subject.</p>
 <p>At last Willie went, promising to come back in
@@ -615,7 +685,8 @@ letter in her pocket quite quietly; "it makes a good place to lunch in."</p>
 to go on all night. We had better start to find our way home at once."</p>
 <p>But it was a long time before they reached that friendly haven, and when they did, there was a little surprise in store for them.</p>
 <pb n="98"/>
-</div><div n="6" type="chapter">
+</div>
+<div id="hfmarna007" n="6" type="chapter">
 <head>CHAPTER VI</head>
 <p>"BETTY, what is the matter with you?" Mrs. Mowbray asked her daughter. "You seem to have quite lost your head, and you are generally so clever at managing people. Kilmorack has gone off in a huff, and no wonder! You couldn't have been ruder if you had come into fifty thousand a year."</p>
 <p>"Don't I look as if I had?" replied Betty. "I am sure I feel so. I suppose it is this lovely day," she added piously. "I am always so subject to the influences of nature."</p>
@@ -709,8 +780,7 @@ yet, he thought; although, as he acknowledged with candour, she would not care a
 <p>"He is the kindest and truest creature in the world," cried Betty. "There is not one of us who has ever heard him say an unkind thing. And as for his looks, give Terence a banking account, and he would be the handsomest man in London."</p>
 <p>"There's no disputing about tastes," said Simon loftily, "and I'll wait till he gets the banking account to make up my mind about the other point. There will not be any hurry, I daresay."</p>
 <p>This was the moment when Betty stopped to wait for Terence.</p>
-
-<milestone rend="dots" unit="section"/>
+<milestone rend="stars" unit="section"/>
 <p>Some hours later a wet and forlorn convoy paused
 <pb n="114   Marna's Mutiny"/>
 in the middle of a muddy torrent bed which had once been a road.</p>
@@ -729,7 +799,8 @@ of which he had caught sight between the slanting lances of the rain.</p>
 <p>Simon and Terence had also been relieved of their coats, and were warming their shoeless feet at the fire as the women returned. The four wayfarers sat down to be very jolly while making up their minds
 <pb n="117   Marna's Mutiny"/>
 to stay all night in this delightfully comfortable place. The boy had said something about "Missy" having gone out, and even Terence had forgotten Miss Schmidt's existence, when the garden gate flew open in a burst of the storm, and three more drenched creatures made one dash for the shelter of the verandah.</p>
-<pb n="118"/></div><div n="7" type="chapter">
+<pb n="118"/></div>
+<div id="hfmarna008" n="7" type="chapter">
 <head>CHAPTER VII</head>
 <p>IF Lord Kilmorack has appeared so far in this history as an unamiable young man who did not know his own mind, injustice has been done him. He was so anxious to find out his mind and take counsel with it, that he was often impatient with people who interrupted the process. When he first made friends with them (being, in truth, a fairly sociable individual), it was always with the hope that he had struck something solid at last, that he would obtain a flash of freshness, of genuine liking, or good sound antipathy, to persuade him of the reality of life, and he was almost always disappointed, finding that the men were as silly as the women, and the women as selfish as the men. He had come rather unwillingly to believe that the highest female claim to consideration lay in good looks. Nothing would induce him to make the acquaintance of an ugly woman, but he was never carried away by his admiration for a pretty one. He was an unconscious idealist, going through the world, like St. Christopher, in search of a master powerful enough
 <pb n="119   Marna's Mutiny"/>
@@ -742,7 +813,21 @@ asked to take his place on the eve of battle without knowing to which regiment h
 <p>That is not for all of us, but at any rate, we should keep ourselves in sufficiently good training to answer a call if it comes, and Hugh was beginning to be conscious that in some things he was weaker than he had been a few years before. The mere smoothness and luxury of life were more important to him, his self-control in the matter of temper was relaxed, and in reviewing his whole conduct, there were points in it which made him wince. He had neglected old friends; snubbed a poor relation, he remembered; forgotten to provide for an invalided servant before he came away; he had drawn his income for years without ever inquiring farther into the welfare of his tenets than to make sure that his agent was a fairly honest man. And here he was, fourteen thousand miles away from home, spending thousands
 <pb n="121   Marna's Mutiny"/>
 of pounds on entertaining people, who, barring Terence and Simon, did not need it, hardly enjoyed it, and bored him to extinction. How had he come, he mused, to make such a fool of himself?</p>
-<p>It would have been more to the point to inquire how he had suddenly become conscious of that exploit, here in Japan. Perhaps, since he was really unspoilt, the majesty of the place in which he was, appealed to him. Nikko is full of a large simplicity, an honest grandeur, which speaks to souls who have not bartered all their birthright away in the scramble for excitement and pleasure. The secret of this power lies in subtle inherited allegiances dormant in these <hi rend="italic">&acirc;mes d'&eacute;lite</hi>, which awake and obey when summoned in the tones they can recognise. The Japanese acknowledge beauty of scenery and architecture as ennobling influences. The dear old lady, who some years ago committed suicide at Nikko, because, as the letter found beside her explained, "she was too old to hope to revisit this glorious place, and so preferred to remain here for ever,"<note n="*" place="foot"><hi rend="italic">Vide</hi> "The Reclaiming of Kokichi."</note> had many admirers and perhaps some imitators in her calm option for the best things in the world. Perhaps, too, the young man's spirit had been touched into a stronger life by the meeting with Marna. He found his thoughts constantly returning
+<p>It would have been more to the point to inquire how he had suddenly
+become conscious of that exploit, here in Japan. Perhaps, since he was
+really unspoilt, the majesty of the place in which he was, appealed to
+him. Nikko is full of a large simplicity, an honest grandeur, which
+speaks to souls who have not bartered all their birthright away in the
+scramble for excitement and pleasure. The secret of this power lies in
+subtle inherited allegiances dormant in these <hi
+rend="italic">&acirc;mes d'&eacute;lite</hi>, which awake and obey
+when summoned in the tones they can recognise. The Japanese
+acknowledge beauty of scenery and architecture as ennobling
+influences. The dear old lady, who some years ago committed suicide at
+Nikko, because, as the letter found beside her explained, "she was too
+old to hope to revisit this glorious place, and so preferred to remain
+here for ever,"<ref target="hfmarnan121">*</ref><note id="hfmarnan121"
+n="*" place="foot"><hi rend="italic">Vide</hi> "The Reclaiming of Kokichi."</note> had many admirers and perhaps some imitators in her calm option for the best things in the world. Perhaps, too, the young man's spirit had been touched into a stronger life by the meeting with Marna. He found his thoughts constantly returning
 <pb n="122   Marna's Mutiny"/>
 to that "fresh experience" of a few days ago. The girl's picture, her simplicity and completeness, seemed to rise up before him when he tried to look at other people. The first glimpse of her, after he got the snow out of his eyes that morning, was so enchantingly real. Not a bit of "make-up" anywhere, her fresh face, rosy and wet, her hair in and out of curl, blown all round it, her happy laughing mouth, her simple dress and ungloved hands. Ah! surely here was something real at last. He had put himself into a bad temper by combating the desire to see her again, the conflict only suggested by his fear that the picture would lose on a second view; but now he thought he would risk that, and try to make his peace.</p>
 <p>So he let his party sort themselves for the day, was very nice to Lady Cecilia at lunch, and disappeared almost immediately after that meal, leaving no explanations behind him. She and Ansell rather enjoyed being left together for once, and Ansell took her out for a walk and bought her an armful of Nikko specialities, including a quantity of the soft grey monkey fur which is so delightfully warm and becoming. Long before the storm came on they were safe indoors again, together with the prudent Brandon, who always wrote letters when it rained.</p>
@@ -814,8 +899,12 @@ you'll have to have a reconciliation, and all my work will be undone!"</p>
 <p>"O-o-oh?" queried Kilmorack, the anger in his face giving place to amusement.</p>
 <p>"Yes," whispered Terence, "come on here, and I will report progress." And he drew him into a snuggery on the other side of the passage, where an open screen showed a glimpse of two deep chairs and a row of pipes on the wall. It was the spot where Major de Wesloff dozed away the hot summer afternoons.</p>
 <p>"Speak gently, then," suggested Hugh; "if ever walls had ears, those are the ones!" and he pointed at a hole in the paper screen, where some stick or finger had been pushed through.</p>
-<p>"Oh, I'm not about to burden you with information," said Terence in his splendid stage whisper; "'tis an integral part of my design that you should be an innocent actor in it. Just accept any monstrous accusation that Miss Betty, dear girl, may fling at you. You'll survive it, and it's a relief to her feelings."
-"But what have you been telling them, Terence ?" asked Kilravock. "I really don't care much about myself, but I cannot have those women, my friends after all, shocked and pained. You never told her what I said about silk skirts and compliments, surely ? I would never forgive you, Terence."</p>
+<p>"Oh, I'm not about to burden you with information," said Terence in
+his splendid stage whisper; "'tis an integral part of my design that
+you should be an innocent actor in it. Just accept any monstrous
+accusation that Miss Betty, dear girl, may fling at you. You'll
+survive it, and it's a relief to her feelings."</p>
+<p>"But what have you been telling them, Terence ?" asked Kilravock. "I really don't care much about myself, but I cannot have those women, my friends after all, shocked and pained. You never told her what I said about silk skirts and compliments, surely ? I would never forgive you, Terence."</p>
 <pb n="133     Marna's Mutiny"/>
 <p>"Set your intelligence at rest, my boy," replied his friend. "I am too fond of Miss Betty to make her feel bad by repeating the outpourings of your sore heart when you had had a shocking bad dinner, and Mrs. Mowbray had been shoving the counters about afterwards. No, no, I only mentioned you once, in a casual and indirect manner. No connection or aspersion on present company was so much as hinted at.  I know how to manage women, my dear fellow! <hi rend="italic">Suaviter in modo</hi>--"</p>
 <p>"Kissed her <hi rend="italic">in re</hi>!" laughed Hugh, "I know you, you dear old humbug! But, what was it you said? She is frightfully angry with me!"</p>
@@ -837,8 +926,10 @@ Would you mind telling me if rows of pipes are habitually found in ladies' board
 <pb n="136     Marna's Mutiny"/>
 what I am, for once--profoundly ignorant on the subject, and most unwilling to discuss it. Will that satisfy you?"</p>
 <p>"It will," exclaimed Terence. "And now, see if we can find a drink. I never was so thirsty in my life."</p>
-<p>"We will seek that other unexplained trifle called Willie," said Hugh. "He seems to have an idea where things are kept. You are right, as usual, Terence; we are in the heart of an 'elegant mystery.'"
-<pb n="137"/></div><div n="8" type="chapter">
+<p>"We will seek that other unexplained trifle called Willie," said Hugh. "He seems to have an idea where things are kept. You are right, as usual, Terence; we are in the heart of an 'elegant mystery.'"</p>
+<pb n="137"/>
+</div>
+<div id="hfmarna009" n="8" type="chapter">
 <head>CHAPTER  VIII</head>
 <p>IT is not often that a typhoon visits Japan so early as the end of April, but when it does, it appears to be quite ready for its work. No bad weather on this side of the world can serve as an illustration of its fury. The terrific external commotion is accompanied by acute electric disturbances, which act painfully on the nerves and inexplicably on the barometer, where the needle hardly stays still for a moment, but goes dancing round the circle from "Change" to "Set Fair" a dozen times an hour. Once only, in the worst storm I ever witnessed, when people could not hear each other speak for the uproar, and all roads and railways were broken up for many miles, the glass stuck at "Set Fair" for several hours, with a sublime abstraction which seemed a little cruel to people who were expecting to have the roof carried away at any moment.</p>
 <p>The collection of men and women in Marna's cottage were more than usually interested in their own and each other's affairs on that stormy evening; but by the time the conspirators had found their "drinks," and Betty had repented of her hasty words
@@ -932,7 +1023,8 @@ scruff of his neck, "was it worth while for three precious young lives to be ris
 be called out on active duty again, for we should have to perform it deprived of a uniform."</p>
 <p>"That," said Simon, in the calm voice that always had a monastic note in it, "would be (what is it you always say, Hughie?) distinctly fresh. Oh, my dear cousin, you meant well, I know, but take me back to Piccadilly! I have had almost enough of the Sunny East."</p>
 <pb n="154"/>
-</div><div n="9" type="chapter">
+</div>
+<div id="hfmarna010" n="9" type="chapter">
 <head>CHAPTER IX</head>
 <p>THROUGH the rest of that long night the men sat together in Marna's dining-room, where Willie collected for their benefit all the tobacco he could lay hands on, unlimited drinks, and the most comfortable chairs in the house. Towards three o'clock there was a lull in the gale, but by that time the foreigners' nerves were getting deadened to the continued roar and shaking, and a general atmosphere of thick smoke, damp clothes, genial talk, and whisky, prevailed in the meeting. Terence was in great form, and as all his stories were new to Willie, he kept the young man in roars of laughter, while Kilmorack and Simon smiled sympathetically through the smoke. The bulldog had taken a great fancy to Simon, and kept his muzzle on his knee, gazing up into his face with such pathetic admiration that Kilmorack suggested "Beauty and the Beast," or the "Awakening of a Soul."</p>
 <p>"Who knows?" said Simon languidly, "he may be choosing the features he will appear with next
@@ -1048,7 +1140,8 @@ that easy delight in a new-found playfellow, which is part of one's youth--proce
 <p>"You are a new experience," exclaimed Betty. "I never make friends with women, but you are simply <hi rend="italic">champion.</hi>"</p>
 <p>And much to Marna's surprise, Betty threw her arms round her neck and kissed her on both cheeks. "Now!" said the lively damsel, "I am going to do my mother's hair, and in the middle of it I'll make her consent to my engagement, on pain of looking like a frump all day."</p>
 <pb n="174"/>
-</div><div n="10" type="chapter">
+</div>
+<div id="hfmarna011" n="10" type="chapter">
 <head>CHAPTER X</head>
 <p>"IT is all very well, Betty," said Mrs. Mowbray; "but there is no necessity to go and get up an intimacy with Miss Schmidt. At the best, she seems to be a person who takes paying guests. I wonder how Kilmorack will manage about the bill."</p>
 <p>"You have a little clump of white hair on your temple," remarked Betty, as if that were an answer to her mother's words.</p>
@@ -1199,7 +1292,8 @@ burning cheeks once more on the motherly lap and wept for joy.</p>
 <p>Duchess Thyra stooped and kissed Marna's hair.</p>
 <p>"May he be merciful to you, my dear."</p>
 <pb n="194"/>
-</div><div n="11" type="chapter">
+</div>
+<div id="hfmarna012" n="11" type="chapter">
 <head>CHAPTER XI</head>
 <p>BETTY had decided that she must have an ally. Simon De Fresel was only a supporter, and his admiration of her, tepid as it might be, would prevent him from being very enthusiastic in the interests of Harry Winstanley. Simon had never yet been able to face the whole of a love affair. Half-way through, he was apt to decide that the thing was turning out less interesting than he had hoped, and then, if some more ardent lover stepped in, he gave up his place, with the famous bow. The lady was made to understand that, if she had the bad taste to prefer passion to good manners in her admirers, he had no desire to dispute her ruling; but he hovered about her in an impersonal way, as if to watch her downward career, and the woman thought she had made a lifelong friend, and used him unmercifully whenever he could be useful. Ornamental he always was, and, after all, that is something in a world where automobiles may any day become the fashion, and Eiffel Towers set the note in architecture, Betty liked to have Simon beside her when she was on parade, but for real
 <pb n="195     Marna's Mutiny"/>
@@ -1309,7 +1403,8 @@ dress up, in one of her smartest frocks, a very fair presentment of herself, stu
 <p>"Talking of consuls," said Father Andrews, "I met one up in Tokyo--the Danish consul, I was told. Such a good sort! He gave me no end of information about things to see and so on. He asked me to come and pay him a visit next week, here in Yokohama. But I want to get up to Nikko while you are about there, Lord Kilmorack. It is worth seeing, is it not?"</p>
 <p>"The most beautiful place I ever saw in my life," replied Kilmorack, with profound conviction.</p>
 <pb n="214"/>
-</div><div n="12" type="chapter">
+</div>
+<div id="hfmarna013" n="12" type="chapter">
 <head>CHAPTER XII</head>
 <p>THE first thing Mr. Winstanley did in the morning was to send off a wire to Betty to announce his arrival in Yokohama, and to say that he would join her the next day. Betty was thrown into a state of triumphant agitation by the news, which she at once communicated to Terence, and they had a long consultation as to whether Mrs. Mowbray should be told or not. Betty was for telling everybody she met; she never was inclined to be secretive, and her happiness had come so unexpectedly that it had swept her off her feet. But Terence advised caution and undertook to sound Mrs. Mowbray on the subject, and to come back and report to her daughter how she appeared disposed.</p>
 <p>"Maybe she will do it for me, when she'd not consent for your asking, my dear," he said. "I have a good influence on Mrs. Mowbray, as I always have on women! No woman can be much with a noble-minded, warm-hearted man, without trying to meet him halfway, and of all the women I've loved and lost (and I have not been unloved, Betty), none were
@@ -1403,7 +1498,8 @@ whether she had gone to discuss the matter with Marna in person. There was no sa
 <pb n="231     Marna's Mutiny"/>
 <p>And Harry beamed at his cigar, the landscape, his companions--anything that came within his love-illumined vision.</p>
 <p>"You are a very happy sort of man, it seems to me," said Kilmorack.</p>
-<pb n="232"/></div><div n="13" type="chapter">
+<pb n="232"/></div>
+<div id="hfmarna014" n="13" type="chapter">
 <head>CHAPTER XIII</head>
 <p>"AND are you Mr. Winstanley," asked Terence, shaking hands with the young man on the platform at Nikko, where the sacrilegious railway has cut through the famous cryptomeria avenue for the fourth time. "Will I walk up with you then? I have some messages from a lady, and by the time we get to the top she will be waiting for you there, she says."</p>
 <p>"Very well," said Harry; "only, won't it delay me in getting up, if I walk?"</p>
@@ -1535,7 +1631,8 @@ when you recognised her. Are you quite certain it is the same?"</p>
 Kilmorack; "cheer up, Terence, the vacancy is filled."</p>
 <p>"And you never looked up papa and mamma and Egerton Villas?" exclaimed Mrs. Mowbray.</p>
 <p>"I stopped getting drunk at balls," said Terence solemnly. "'Twas a small reform bought at a great price, but that was better than nothing."</p>
-<pb n="255"/></div><div n="14" type="chapter">
+<pb n="255"/></div>
+<div id="hfmarna015" n="14" type="chapter">
 <head>CHAPTER XIV</head>
 <p>THE morning after Terence had confided his sad history to his friends, Major de Wesloff went up the hill, intending to have a decisive interview with his daughter. He had found Mrs. Adair more attractive than usual, as she intended that he should; and now, instead of dictating terms, she had adopted a sweet, pleading attitude, which was far more likely to work on his feelings than stronger measures could have done.</p>
 <p>She wished him to try and implore Marna to be reasonable, she said, holding his hand affectionately, and he at once decided to act with energy and decision. He had forgotten at that moment that he was a little afraid of Marna, but he remembered it as he started on his lonely walk. He had reached Nikko too late to go up to Chuzenji the evening before, and besides, he wished to see Mrs. Adair first.</p>
@@ -1646,7 +1743,7 @@ are of no importance either way. There are so many."</p>
 <p>"Understand what?" asked Hugh uneasily.</p>
 <p>"Mrs. Mowbray," replied the girl. "Oh, she was too sweet! She picked out a bedroom for herself, and said she would have stayed a day or two, if she had had her boxes, and they had all been <hi rend="italic">so</hi> comfortable, and <hi rend="italic">you</hi> would settle the account. I could not make out what she was talking about, but I see now. This is what you call--fresh, isn't it?" And Marna ended in peals of laughter.</p>
 <p>"Disgustingly impertinent!" said Kilmorack, looking black as thunder. "I am so very sorry; please forgive the whole stupid mistake. It was a little bit your fault in the beginning and alto-
-<pb n="270"/> 270   lIarnma's D'utfn 
+<pb n="270"/> 270   Marna's Mutiny 
 gether mine afterwards. I could easily have found out."</p>
 <p>"You were very anxious to take a room yourself, do you remember?" she said, quite recovered from her anger now, "and I told the second half of my story to explain why you could not, but the rain opened the door to you in the end, didn't it?"</p>
 <p>"And I liked it so much when I got inside," said Kilmorack. "Do you know, I think I shall build a little house, just like it, and stay all summer?"</p>
@@ -1676,7 +1773,8 @@ take his leave. Miss de Wesloff seemed to be admiring the view. It was she who s
 <p>"I have an impression that this one will," he answered, speaking half to himself, as he looked down at her, for they were standing at the window now. Then he said: "To-morrow at twelve o'clock I will be at the Hatoba with the steam launch. Now I must go and give my orders. It <hi rend="italic">is</hi> good of you to come."</p>
 <pb n="273     Marna's Mutiny"/>
 <p>He did not kiss her hand, for he was not romantic enough to think of it. But he held it in both his for nearly a minute, looking into her clear, sweet eyes, until the lids drooped and she remembered to withdraw her hand, and Kilmorack turned and went out without another word.</p>
-<pb n="274"/></div><div n="15" type="chapter">
+<pb n="274"/></div>
+<div id="hfmarna016" n="15" type="chapter">
 <head>CHAPTER XV</head>
 <p>So there she was at last, the golden-haired girl, on the white ship, with one or two others, to be sure, but King Tom was rubbing his silky brown length against her dress, and seemed to be saying with those wonderful eyes that were so like hers, "I <hi rend="italic">am</hi> glad you have come. We have waited such a time for you, Hughie and I."</p>
 <p>Kilmorack had summoned Simon and Terence from the hotel to come and help to entertain Marna's companion, whoever she might prove to be, and they were carrying out their orders to the letter, keeping Mrs. Hayes good and amused at the other end of the ship and leaving the host free to talk to Miss de Wesloff.</p>
@@ -1750,7 +1848,7 @@ as she had told Betty, went to make of an engagement a sacred thing, an event wh
 <pb n="284     Marna's Mutiny"/>
 was from Marna, who seemed to have got no farther than Nikko, and ran thus:</p>
 <p>"So sorry, completely forgot my promise to go with Duchess to Kyoto and Osaka. Must be away ten days. Do not like to break faith with old friend of my mother," etc., etc.--all the unnecessary repetitions which women love to pay for in telegrams.</p>
-<p>Kilmorack was angry for a moment, and then laughed at his own anger. She might have told him before, he reflected; and then remembered that until yesterday afternoon he had no right to ask her to tell him anything. But what on earth was he going to do with himself for ten days? He could explain himself to Major de Wesloff in as many minutes, and then? He envied Father Andrews his interest in missions, Ansell his curiosity about the geishas. For himself, all the beauty with which he was surrrounded seemed unfortunate, superfluous, since he was only asking for one thing which it could not give him, and which he could not have just now--Marna's society. Katsu was in despair, for he could not amuse his patron, and at last Simon (who, having got Lady Cecilia's promise of Ansell's assistance, had backed out of travelling home with them) suggested that they should go cruising down the Inland Sea for ten days, and perhaps run up to Kyoto from Kobe, and try to catch sight of Hughie's fugitive goddess there. The moving
+<p>Kilmorack was angry for a moment, and then laughed at his own anger. She might have told him before, he reflected; and then remembered that until yesterday afternoon he had no right to ask her to tell him anything. But what on earth was he going to do with himself for ten days? He could explain himself to Major de Wesloff in as many minutes, and then? He envied Father Andrews his interest in missions, Ansell his curiosity about the geishas. For himself, all the beauty with which he was surrounded seemed unfortunate, superfluous, since he was only asking for one thing which it could not give him, and which he could not have just now--Marna's society. Katsu was in despair, for he could not amuse his patron, and at last Simon (who, having got Lady Cecilia's promise of Ansell's assistance, had backed out of travelling home with them) suggested that they should go cruising down the Inland Sea for ten days, and perhaps run up to Kyoto from Kobe, and try to catch sight of Hughie's fugitive goddess there. The moving
 <pb n="285     Marna's Mutiny"/>
 about would be better than doing nothing in Yokohama, at any rate.</p>
 <p>As for Terence, Kilmorack could hardly get him to go on shore at all. He was mortally afraid of meeting the lady who had passed so near to him at Nikko; he had found out on inquiry that she called herself Mrs. Emily Adair, and that she had a pretty house in Yokohama, where she entertained a little and counted for a vote in the small social affairs of the place. How she came by her present name he had no idea, and did not wish to inquire, and his only desire was to get away quietly without having to inform her of his existence. In his universal indulgence he confided to Simon de Fresel that she looked quiet and respectable enough on the whole, and if she and that amiable foreigner wished to make each other happy, he did not see that it was his duty to interfere, and if it were, he did not mean to, so there was an end of it.</p>
@@ -1778,7 +1876,8 @@ precious for what shines through it, cheap if the surface is all. His test of wh
 <p>Tom blinked his amber eyes and gave a loving little whine.</p>
 <p>"Quite so," said Hugh. "You would even prefer the turnips and a grey morning at home. Well, we will see what can be done before September."</p>
 <pb n="292"/>
-</div><div n="16" type="chapter">
+</div>
+<div id="hfmarna017" n="16" type="chapter">
 <head>CHAPTER  XVI</head>
 <p>THE <hi rend="italic">Aurora</hi> was nearing a group of islets scattered like a handful of stray leaves on the water at about a mile from the mainland. Two or three were mere points of rock where a few seeds had found roothold and were throwing up branches that waved out of reach in the wind; one island was of a strange shape, like a roofless building whose walls alone were left standing. From the ship it was impossible to see over the ramparts of grey stone which closed it in, but the open space in the centre was testified to by a clump of trees that showed green on a tiny hill above the surrounding rocks. As the details became clearer to the eye, Kilmorack saw that a tall, irregular archway opened through to the heart of the little fortress, and that a boat was rocking empty on the water outside.</p>
 <p>"Is the place inhabited," he asked of Katsu, who had just come up.</p>
@@ -1841,7 +1940,10 @@ said to Katsu. "We can send another boat to fetch them back to the ship."</p>
 <p>So the sailor took the humble offering, saying, "Thank you, missis, and I wish it had gone where it was meant." Then she got hold of her long paddles, stood up in the stern and set her face towards the land, rowing backwards according to European ideas. The wind was a little against her, but she made good progress, and soon there was a wide bit of blue between her and the foreigners who stood watching her. Just then the first rays of the sun
 <pb n="304     Marna's Mutiny"/>
 shot out from the East, and caught the brown boat with its freight of flowers and death, with its one little rower bending to the stroke while her blue gown shivered and flapped in the wind, and the baby on her back laughed loud for joy at the warm beams. Soon the sea was a floor of intolerable splendour and the receding boat showed one dark line overflowed by a billow of faint rose, where the sunbeams flooded the flowers. As Kilmorack turned to step into his own boat, the dancing wavelets brought a handful of white petals back to his feet.</p>
-<pb n="305"/></div><div n="17" type="chapter"><head>CHAPTER XVII</head>
+<pb n="305"/>
+</div>
+<div id="hfmarna018" n="17" type="chapter">
+<head>CHAPTER XVII</head>
 <p>FOR all that the journey had separated her from Kilmorack, Marna was having a very happy time, running about the country with the Duchess and her people, and seeing more of Japan in that intelligent company than she had seen yet in her many months of residence. The Duchess was a highly cultivated woman who had read a good deal of Japanese history and philosophy in preparation for her voyage, knew what she wished to see, and would not be cheated out of it by threats of discomfort and rough travelling. Marna, who could never find a companion of her own sex energetic enough to keep pace with her, found herself really tired at the end of a day of sight-seeing with this lady, who was twice her age. Apart from the things that she <hi rend="italic">would</hi> see, the Duchess was anxious never to miss any that she <hi rend="italic">could</hi> see, and would go diving off into narrow streets and disused temples, wayside farmyards or obscure silk factories, in a way which constantly disorganised the day's travelling, and caused night to catch the perplexed party at three
 <pb n="306     Marna's Mutiny"/>
 or four hours' distance from the resting-place and inn decided on in the morning. Then the guide and his assistant, engaged to show the Duchess everything of interest on pain of instant dismissal, would have to make the best of some wayside chaya or fourth-rate inn, borrowing beds, cooking utensils, and even food from the head man of the village, who, if not afraid of foreigners, would perhaps put his own house at their disposal. But such liberal-minded elders were rare; and the hostelry would, as a rule, be made tolerable for one night's rest. More than once the leader dragged her party quite beyond the bounds of her passport, and then, her rank counting for nothing at all, she was politely requested to move on by the police inspector who came to catalogue the travellers.</p>
@@ -1898,7 +2000,7 @@ sumptuousness, danger--the three elements which even to-day are palpable and ter
 <p>A long time passed, the night toilettes were made, Marna's beautiful hair had been shaken out and plaited in a long tail by the Duchess's maid, and the maid had disappeared to sleep in some corner near by, and still the window was not opened. There were no bells, of course. Marna went into the passage, wrapping her blue kimono around her, and clapped her hands, but no one came. She could hardly go and seek the gentlemen's help in that costume, and since the Duchess, accustomed to have her wishes promptly attended to, was still fretting over the exhausted air in the room, Marna, nothing daunted, undertook to manage the matter alone.</p>
 <p>After one or two mistakes (for she had no idea on which side the verandah might be) she found the right opening in the sliding walls, and stepped
 <pb n="317     Marna's Mutiny"/>
-out into a gallery, closely shuttered in. Fortunately for her, and for the others, as the event showed, she had grown familiar at Chuzenji with the tricks of Japanese carpenters, and knew where to look for the only slide which could be moved. With some trouble she got it out, at the end of the gallery, and stood for a moment, entranced, to gaze at the empty silence of the world outside. The light seemed to have dissolved the solid matter of the landscape and to have left only the ghosts of trees and rocks floating in a bath of liquid sheen. Then a chilly breeze swept over the tree tops and set all the white fleurs de lys in the brook a-shivering, and Marma caught the shiver and ran back to the inner room on bare white feet, pulling her light robe closely round her.</p>
+out into a gallery, closely shuttered in. Fortunately for her, and for the others, as the event showed, she had grown familiar at Chuzenji with the tricks of Japanese carpenters, and knew where to look for the only slide which could be moved. With some trouble she got it out, at the end of the gallery, and stood for a moment, entranced, to gaze at the empty silence of the world outside. The light seemed to have dissolved the solid matter of the landscape and to have left only the ghosts of trees and rocks floating in a bath of liquid sheen. Then a chilly breeze swept over the tree tops and set all the white fleurs de lys in the brook a-shivering, and Marna caught the shiver and ran back to the inner room on bare white feet, pulling her light robe closely round her.</p>
 <p>"Good child!" murmured the Duchess from her side of a screen. "Now we shall sleep. Good-night!"</p>
 <p>"Good-night, madame," said Marna, and crept in under her wadded silks.</p>
 <p>Three hours later she sat up with a start, and then felt as if she must die of fright, because she had made a rustling with the clothes. Something was happening, she knew not what or where. Hearing became such a strain that her heart beat wildly to be able to support it. From where she lay in the shadow of a screen she could see only a part of the big room, the end of Madame de Behr's little encampment, some garments folded in a pile on the
@@ -1920,8 +2022,11 @@ and felt the wood and ivory of the screen near her face. It was on both sides of
 <pb n="322     Marna's Mutiny"/>
 <p>"Where is Marna?" cried the Duchess. "I had her with me."</p>
 <p>They looked and called, but Marna was not there, and no answer came from the ruin, where the dust was begining to settle, although a few tiles still came sliding down from the roof.</p>
-<pb n="323"/></div><div n="18" type="chapter"><head>CHAPTER XVIII</head>
-<p>WHEN Kilmorack landed from the <hi rend=”italic">Aurora</hi> at Kob&eacute;, he was greeted with the news of the earthquake. It had happened the night before, and he remembered that at about one o'clock, as he was lying in his bunk gazing at the full moon on the water, he had felt what seemed to be a strong shock on the ship's bottom, as if she had struck on a rock. In a moment he was on deck, and found others there also. But the <hi rend=”italic">Aurora</hi> was steaming along calmly, and the captain recognised the effect of an earthquake felt at sea. This was not his first voyage in the Japanese waters.</p>
+<pb n="323"/>
+</div>
+<div id="hfmarna019" n="18" type="chapter">
+<head>CHAPTER XVIII</head>
+<p>WHEN Kilmorack landed from the <hi rend="italic">Aurora</hi> at Kob&eacute;, he was greeted with the news of the earthquake. It had happened the night before, and he remembered that at about one o'clock, as he was lying in his bunk gazing at the full moon on the water, he had felt what seemed to be a strong shock on the ship's bottom, as if she had struck on a rock. In a moment he was on deck, and found others there also. But the <hi rend="italic">Aurora</hi> was steaming along calmly, and the captain recognised the effect of an earthquake felt at sea. This was not his first voyage in the Japanese waters.</p>
 <p>It was in the office of the consulate, where Kilmorack had come to report himself and collect information generally, that he heard such particulars as were to hand. The town itself had suffered a great deal, the consulate had lost a chimney or two, and the place generally looked as if it had undergone a day or two of bombardment. But greater damage had been wrought inland; one or two towns and many villages had been all but destroyed, railways
 <pb n="324     Marna's Mutiny"/>
 were torn up, bridges snapped, and, alas! many lives lost.</p>
@@ -1935,7 +2040,7 @@ were torn up, bridges snapped, and, alas! many lives lost.</p>
 <pb n="325     Marna's Mutiny"/>
 they have got stuck somewhere on the road. They will turn up all right."</p>
 <p>"We must go and have a look, Simon," said Kilmorack, as they came out together. "It will give us something to do for to-day."</p>
-<p>He spoke lightly enough, but Simon saw that he was troubled. They then tried to explain their wish to Katsu, who earnestly advised going back to the <hi rend=”italic">Aurora</hi> instead of wandering through a disorganised country full of sad sights.</p>
+<p>He spoke lightly enough, but Simon saw that he was troubled. They then tried to explain their wish to Katsu, who earnestly advised going back to the <hi rend="italic">Aurora</hi> instead of wandering through a disorganised country full of sad sights.</p>
 <p>"My lord not like at all," he said. "Not pretty not amusing, hotels smashed, no dinner! Ship more better!"</p>
 <p>Kilmorack took no notice of his pleadings, and with some difficulty a sufficient number of conveyances was found to take the little party up country. The Duchess and her people could not be far off the great road leading from Kyoto to Tokyo, the old road along which such glittering processions of Daimyo's retainers used to pass, and which is now all but deserted for the railway, which substituted twenty-four hours' for twelve days' travelling. All Japan seems to lie along the Nakasendo, but only the more courageous sightseers will face the two hundred miles to be covered in a jin-rik-sha.</p>
 <p>Kilmorack had felt, in witnessing the humble tragedy on the island, that he was in presence of forces unknown to him till now. After two days, passed in moving through a country just visited by
@@ -1957,7 +2062,7 @@ He was not lavish in his phrases of sympathy, but Kilmorack always thought that 
 <pb n="330     Marna's Mutiny"/>
 companions made their way through the grove, for the ground had opened in three or four deep rifts and was covered with fallen trees. A hum of voices and movements reached their ears, and when they came out on the other side, the garden seemed to be full of soldiers and policemen. The central part of the house rose up in a dark outline against a green and orange sky, a lower roof was still standing on one side, a torn sunk mass had fallen away from it on the other. An inspector noticed the new-comers and approached them, bowing. He took them for officials from the Legation. Kilmorack felt all but strangled at having to get his information through Katsu.</p>
 <p>"Where are the ladies? What has happened? Make the man speak!" he cried, in wild impatience.</p>
-<p>Then the speech began, in many words and respectful phrases, such as a well-educated policeman must use to persons of high rank, and before it was well started Kilmorack broke away with a strong word and strode towards the ruin where the crowd seemed thickest. He was so tall that he could look over their heads, but as he came up they made way for him, and he saw that they were a fatigue party of soldiers with spades and mattocks in their hands, and that they were leaning on their tools like men who had just accomplished a heavy task. He peered into the <hi rend=”italic">d&eacute;bris</hi> before them and saw, where roof-beams and rafters had been cut away and rubbish shovelled off on
+<p>Then the speech began, in many words and respectful phrases, such as a well-educated policeman must use to persons of high rank, and before it was well started Kilmorack broke away with a strong word and strode towards the ruin where the crowd seemed thickest. He was so tall that he could look over their heads, but as he came up they made way for him, and he saw that they were a fatigue party of soldiers with spades and mattocks in their hands, and that they were leaning on their tools like men who had just accomplished a heavy task. He peered into the <hi rend="italic">d&eacute;bris</hi> before them and saw, where roof-beams and rafters had been cut away and rubbish shovelled off on
 <pb n="331     Marna's Mutiny"/>
 either side, a piece of fine matted floor, with a blue silk cushion half buried at one end under some bricks; on one side a superb inlaid screen was thrown back on itself, and peeping out from under the cushion was a tiny thing that the searchers appeared to have overlooked. Kilmorack pulled it out, and recognised a favourite old cigarette case of his which he had lost weeks before.</p>
 <p>"Where is she?" he cried, all his features drawn and tightened with sudden terror. "Is she killed? Give her to me."</p>
@@ -1987,7 +2092,8 @@ out all right. The merciful unconsciousness which came upon her had robbed the s
 which an unknown young man in spectacles was commanding her to swallow.</p>
 <p>In five minutes more Major de Wesloff was shaking the doctor's hand in tearful gratitude, and asking a great many questions without waiting for an answer. And then the Duchess came out, and the Major kissed her hand, and Marna was allowed to put her arms round his neck for a minute if she would not try to sit up. She found the minute long enough to whisper in his ear that he was the dearest man in the world (mental reservation--except one) and that she would never leave him again (mental reservation number two--except once), and that now she came to think of it, the whole thing had been really rather amusing.</p>
 <p>In another twelve hours she was fit to travel, and Kilmorack, who was the most positive man for his age that I ever knew, swore that she should only stay long enough on land to get off it. At least that was how Terence related the conversation to Marna afterwards.</p>
-<p>"He said there was only one bit of ground solid enough for your pretty feet, and that was the deck of the <hi rend=”italic">Aurora</hi>. You remember how the dear fellow proposed to you there? Those gold letters look grand, with the date and all! 'Tis there you would be married, if I had my way."</p>
+<p>"He said there was only one bit of ground solid enough for your
+pretty feet, and that was the deck of the <hi rend="italic">Aurora</hi>. You remember how the dear fellow proposed to you there? Those gold letters look grand, with the date and all! 'Tis there you would be married, if I had my way."</p>
 <p>So Kilmorack took command of things in general, and persuaded Major de Wesloff to bring Marna
 <pb n="336     Marna's Mutiny"/>
 off to the yacht, where, as he said, he should feel safe about her. His violent speeches to the Duchess were condoned, and Terence forgave the rest of the company their safety as soon as he was satisfied about hers. But he confided to Simon, who entirely agreed with him, that had there been a single Britisher in the party the thing would not have happened.</p>
@@ -2003,23 +2109,28 @@ about the world, and it is no more possible to fall in love with them than with 
 <p>"Hughie," said Marna, after a long silence, "let us be married here, on board. I cannot bear the idea of going back to Yokohama and fussing over a wedding. What do we want with silver-edged cards and new clothes and crowds of people staring at us?"</p>
 <p>"I may as well tell you," said Kilmorack, "that no power on earth would induce me to go through with it.
 <pb n="339     Marna's Mutiny"/>
-I should have lured you on board the day before, and Captain Tucker would have had orders to get up steam and steer for open sea. We must be married on board the <hi rend=”italic">Aurora</hi>! That is evidently the only way to do it."</p>
+I should have lured you on board the day before, and Captain Tucker would have had orders to get up steam and steer for open sea. We must be married on board the <hi rend="italic">Aurora</hi>! That is evidently the only way to do it."</p>
 <p>"I want the Duchess," said Marna, "and Mrs. Hayes, and Willie, and all the dogs. Do you think King Tom will eat Rep?"</p>
 <p>"I am sure he has too much regard for his own health," replied Hugh. "Besides, he would never touch a friend of yours, would you, Tom?"</p>
-<p>Major de Wesloff seemed to approve of Marna's idea of being married on board the <hi rend=”italic">Aurora</hi>. Perhaps he dreaded complications on shore; perhaps he felt unequal to the organising of such a solemn affair as a wedding, without an elder woman by his side. Mrs. Adair's name had not been mentioned since he and his daughter met, and if he still intended to marry her, he evidently intended also to keep silence on the subject until Marna's affairs were happily settled.</p>
+<p>Major de Wesloff seemed to approve of Marna's idea of being married on board the <hi rend="italic">Aurora</hi>. Perhaps he dreaded complications on shore; perhaps he felt unequal to the organising of such a solemn affair as a wedding, without an elder woman by his side. Mrs. Adair's name had not been mentioned since he and his daughter met, and if he still intended to marry her, he evidently intended also to keep silence on the subject until Marna's affairs were happily settled.</p>
 <p>It seemed as if some little conflict might arise when the religious question came to be discussed, and Kilmorack introduced Father Andrews to Mademoiselle de Wesloff as the clergyman who would perform the ceremony.</p>
 <p>"But I am not a Catholic!" she exclaimed, looking rather alarmed.</p>
 <p>"And I am," said he, smiling, "and since you
 <pb n="340     Marna's Mutiny"/>
 are going to be my dear wife, and the mistress of a Catholic household, we will have our own priest to marry us on our own ship, and when you like to go to your church you may; but I think you will soon get tired of saying your prayers alone, and I shall be glad when you feel like coming with me."</p>
-<p>It was a sweet May morning when these two stood at last, hand in hand, above the golden letters on the deck, to be made man and wife. The <hi rend=”italic">Aurora</hi> was dressed from end to end with gay flags that danced in the sun and the breeze. The Duchess, protesting a little about the irregularity, had consented at last, and came down herself to Marna's beautiful white room to pin on her veil and her little myrtle wreath. The girl looked as fresh as the sea foam when she came along the deck in her spotless robes and floating veil to meet her bridegroom; the May sunshine was not brighter than her eyes, or the ripples more buoyant than her step, and Kilmorack was a proud man as she came up to him and said, her heart in her voice:</p>
+<p>It was a sweet May morning when these two stood at last, hand in hand, above the golden letters on the deck, to be made man and wife. The <hi rend="italic">Aurora</hi> was dressed from end to end with gay flags that danced in the sun and the breeze. The Duchess, protesting a little about the irregularity, had consented at last, and came down herself to Marna's beautiful white room to pin on her veil and her little myrtle wreath. The girl looked as fresh as the sea foam when she came along the deck in her spotless robes and floating veil to meet her bridegroom; the May sunshine was not brighter than her eyes, or the ripples more buoyant than her step, and Kilmorack was a proud man as she came up to him and said, her heart in her voice:</p>
 <p>"Oh, Hughie, it has come at last."</p>
-<p>"<hi rend=”italic">You</hi> have come, sweet comrade," he said, looking down at her with a glory of love in his own eyes. "My heart is too full; I cannot talk about it now, but in a hundred years or so, when you are begining to understand what you are to me--"</p>
+<p>"<hi rend="italic">You</hi> have come, sweet comrade," he said, looking down at her with a glory of love in his own eyes. "My heart is too full; I cannot talk about it now, but in a hundred years or so, when you are begining to understand what you are to me--"</p>
 <p>"A hundred years?" said Marna. "Ah, where shall we be in a hundred years?"</p>
 <pb n="341     Marna's Mutiny"/>
 <p>"Where we are now, in a way," he answered; "together somewhere. That is all I know and all I want. Come, my heart, they are waiting for us."</p>
-<milestone rend="dots">
-<p>So they were married and sailed away, like the prince and princess in the fairy tale. And they have their beautiful home in the Highlands and Marna loves it dearly, but she loves best of all the white ship with the gold letters in the deck. On their last voyage to Japan (for they come back sometimes) they were not alone. The ship was noisy with a pair of scampering little feet, and the other day, somebody going up to Chuzenji passed "Miss Schmidt's Hotel," and saw a grand little Viking sitting on the gate singing, "King Christian stood before the mast," at the top of his voice.</p></div>
-<trailer>THE END</trailer></body>
-<colophon>Printed by Hazell, Watson, & Viney, Ld., London and Aylesbury.</colophon>
+<milestone unit="section" rend="stars"/>
+<p>So they were married and sailed away, like the prince and princess in the fairy tale. And they have their beautiful home in the Highlands and Marna loves it dearly, but she loves best of all the white ship with the gold letters in the deck. On their last voyage to Japan (for they come back sometimes) they were not alone. The ship was noisy with a pair of scampering little feet, and the other day, somebody going up to Chuzenji passed "Miss Schmidt's Hotel," and saw a grand little Viking sitting on the gate singing, "King Christian stood before the mast," at the top of his voice.</p>
+<trailer>THE END</trailer>
+</div>
+</body>
+<back>
+<div id="hfmarna022" type="colophon">
+<p>Printed by Hazell, Watson, &#x0026; Viney, Ld., London and Aylesbury.</p>
+</div></back>
 </text></TEI.2>
