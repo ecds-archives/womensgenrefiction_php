@@ -69,7 +69,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <rs type="form">unedited</rs>
 <rs type="genre">novel</rs>
 <rs type="geography">United States</rs>
-<date>1900+1999</date>
+<date>1900-1999</date>
 </creation>
 <textClass>
 <keywords scheme="lcsh">
@@ -84,13 +84,64 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </profileDesc>
 <revisionDesc>
 <change>
-<date>2005-March-03</date>
+<date>2005-April-08</date>
 <respStmt><name>Erika Farr, </name>
 <resp>project manager.</resp></respStmt>
 <item>XML tags inserted in compliance with TEI guidelines.</item>
 </change>
 </revisionDesc>
 </teiHeader>
+<text>
+<front>
+<pb n="[i]"/>
+<div id="mjwitch000" type="advert">
+<figure entity="mjwitchad1" rend="inline">
+<figDesc>Advertisement included in the front of Johnston's <hi
+rend="inline">The Witch</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="mjwitch001" type="frontispiece">
+<figure entity="mjwitchfp" rend="inline">
+<figDesc>Frontispiece for Johnston's <hi rend="inline">The Witch</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="mjwitchtp" n="[iii]" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">THE WITCH</titlePart>
+</docTitle>
+<byline>BY <lb/><docAuthor>MARY JOHNSTON</docAuthor></byline>
+<docImprint>
+<pubPlace>BOSTON AND NEW YORK</pubPlace>
+<publisher>HOUGHTON MIFFLIN COMPANY</publisher>
+<publisher>The Riverside
+Press</publisher><pubPlace>Cambridge</pubPlace>
+<docDate>1914</docDate>
+</docImprint>
+</titlePage>
+<pb n="[iv]"/>
+<div id="mjwitch002" type="copyright">
+<figure entity="mjwitchad1" rend="inline">
+<figDesc>Copyright information for Johnston's <hi rend="inline">The Witch</hi>.</figDesc>
+</figure>
+</div>
+<pb n="[v]"/>
+<div id="mjwitch003" type="table of contents">
+<figure entity="mjwitchtc1" rend="inline">
+<figDesc>Table of contents for Johnston's <hi rend="inline">The Witch</hi>.</figDesc>
+</figure>
+<figure entity="mjwitchtc2" rend="inline">
+<figDesc>Table of contents for Johnston's <hi rend="inline">The Witch</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">THE WITCH</titlePart>
+</docTitle>
+</titlePage>
+</front>
 <body>
 <pb n="1"/>
 <div>
