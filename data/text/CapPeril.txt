@@ -1,18 +1,142 @@
-<pb>
-<!-- could not determine page number -->
-The majority of this text OCR-ed very well. 
-
-poor OCR sections:
-odd pages 27 - 49 are garbled because of curvature of text toward spine.
-
-<pb n="5"/>
-CAPITOLA'S PERIL.
-CHAPTER I.
-OLD HURRICANE STORMS.
-At this Sir Knight flamed up with ire!
-His great chest heaved, his eyes flashed fire,
-The crimson that suffused his face
-To deepest purple now gave place.
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Capitola's Peril, an electronic edition</title>
+<author n="Southworth, Emma Dorothy Eliza Nevitte 1819-1899">Mrs. E.D.E.N. Southworth</author>
+</titleStmt>
+<extent>500kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2005</date>
+<availability>
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA  30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email:  beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Southworth, E.D.E.N</author>. <title>Capitola's Peril</title>. <pubPlace>Chicago</pubPlace>:
+<publisher>M.A. Donohue and  Company</publisher>, <date>n.d. [18--?]</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded.  Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p></samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="language">English</rs>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">unedited</rs>
+<rs type="genre">novel</rs>
+<rs type="geography">United States</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>American literature--19th Century--Fiction.</item>
+<item>Women authors, American--19th Century.</item>
+<item>Assertiveness in women.</item>
+<item>Seduction in literature.</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2005-April-11</date>
+<respStmt><name>Erika Farr, </name>
+<resp>project manager.</resp></respStmt>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div id="esperil000" type="covers">
+<figure entity="esperilfc" rend="inline">
+<figDesc>Front cover of Southworth's <hi rend="italic">Capitola's
+Peril</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="esperiltp" n="[2]" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">CAPITOLA'S PERIL</titlePart>
+<titlePart type="sub">A NOVEL</titlePart>
+</docTitle>
+<byline>BY <lb/><docAuthor>MRS. E.D.E.N. SOUTHWORTH</docAuthor>
+<lb/>Author of "Self-Raised," "Ishmael," "A Noble Lord," "The Bridal
+Eve," <lb/>"The Deserted Wife," "Eudora," "The Haunted Homestead,"
+<lb/>"The Lost Heiress," "The Missing Bride," "Victor's
+<lb/>Triumph," "The Wife's Victory," etc.</byline>
+<docImprint>
+<pubPlace>CHICAGO</pubPlace>
+<publisher>M. A. DONOHUE &#x0026; COMPANY</publisher>
+</docImprint>
+</titlePage>
+<pb n="[3]"/>
+<div id="esperil001" type="copyright">
+<figure entity="esperilcr" rend="inline">
+<figDesc>Copyright for Southworth's <hi rend="italic">Capitola's
+Peril</hi>.</figDesc>
+</figure>
+</div>
+</front>
+<pb n="[5]"/>
+<div id="esperil011" type="chapter" n="1">
+<head>CAPITOLA'S PERIL.
+<lb/>CHAPTER I.
+<lb/>OLD HURRICANE STORMS.</head>
+<epigraph>
+<cit>
+<q>
+<lg type="stanza">
+<l>At this Sir Knight flamed up with ire!</l>
+<l>His great chest heaved, his eyes flashed fire,</l>
+<l>The crimson that suffused his face</l>
+<l>To deepest purple now gave place.</l>
+</lg></q></cit></epigraph>
 <p>Who can describe the frenzy of Old Hurricane upon discovering the fraud that had been practiced upon him by Black Donald?</p>
 <p>It was told him the next morning in his tent, at his breakfast table, in the presence of his assembled family, by the Rev. Mr. Goodwin.</p>
 <p>Upon first hearing it, he was incapable of anything but blank staring, until it seemed as though his eyes must start from their sockets.</p>
@@ -94,7 +218,6 @@ and old Dorkey Knight, and the ghost as draws people's curtains of a night, just
 </hi>"Won't he skin you?" asked Cap.</p>
 <p>"No, miss, not less you 'form ag'in me, case he didn't tell me not to tell you, case, you see, he didn't think how I knowed! But leastways, I know from what I heerd, old marse wouldn't have you to know nothin' 'bout it, no, not for de whole worl'."</p>
 <p>"He does not want me to call at the Hidden House! That's it! Now, why doesn't he wish me to call there? I shall have to go in order to find out, and so I will," thought Cap.</p>
-*line, layout of poetry
 CHAPTER II.
 CAP'S VISIT TO THE HIDDEN HOUSE.
 And such a night "she" took the road in
@@ -177,7 +300,7 @@ lock her up and keep her on bread and water until she learns to behave herself!"
 <p>"Twelve o'clock, and no news of her yet!"</p>
 <p>And then, unwillingly, he went to bed, attended by Mrs. Condiment and Pitapat instead of Wool, who was supposed to be out in search of Capitola, but who was, in fact, fast asleep on the floor of a dry cellar.</p>
 <p>Meanwiile, where did this midnight hour find Capitola?</p>
-*line, layout of poetry
+
 CHAPTER III.
 THE HIDDEN HOLLOW.
 On every side the aspect was the same,
@@ -356,7 +479,7 @@ would not be here until morning; I was caught, as you see! I am dripping wet," r
 <pb n="31"/>
 CHAPTER V.
 THE INMATE OF THE HIDDEN HOUSE.
-*layout of poem
+
 There is a light around her brow,
 A holiness in those dark eyes,
 That show, though wandering earthward now,
@@ -428,7 +551,6 @@ and as she lives here in solitude, I would not like her to hear of it."</p>
 <p>"Mr. Le Noir never gets up until very late, and so we do not wait for him," said Dorcas Knight, as she took her seat at the head of the table, and signed to the young girls to gather around it.</p>
 <p>After breakfast, Capitola, promising to come again soon, and inviting Clara to return her visit, took leave of her entertainers and set out for home.</p>
 </hi>"Thank Heaven, I have got her off in time and safety!" muttered Dorcas Knight, in triumph.</p>
-*line
 CHAPTER VI
 CAP'S RETURN
 Must I give way and room for your rash choler
@@ -628,7 +750,6 @@ how you scorn that love, or continue to taunt me with the mention of an unworthy
 <p>And Clara on her part did not tax his forbearance by appearing in his presence oftener than she could possibly avoid.</p>
 <p>At the end of the week the expected letter came. It was short and to the purpose. It ran thus:</p>
 <pb n="52     Cap Frees the Captive."/>
-*font size and spacing
 WASHINGTON, Dec. 14, 18--.
 <p>MY DEAR CRAVEN:--You are losing time. Do not hope to win the girl by the means you propose. She is too acute to be deceived and too firm to be persuaded. We must not hesitate to use the only possible means by which we can coerce her into compliance. I shall follow this letter by the first stagecoach; and, before the beginning of the next month, Clara Day shall be your wife. Your affectionate father,</p>
 GABRIEL LE NOIR;
@@ -764,7 +885,7 @@ ing--until it had seemed to have turned him into stone--from which stage of petr
 <pb n="63     Cap in Captivity."/>
 <p>And not until he had been repeatedly assured that no harm should befall him, did Wool gain composure enough to say, amid tears of cruel grief and fear.</p>
 <p>"Oh, marsers, my young missus, Miss Black, done been conjured and bewitched and turned into somebody else, right afore my own two looking eyes, and gone off in dat coach! 'deed she is, and ole marse kill me 'deed he will, gemmen. He went and ordered me not to take my eyes offen her, and no more I didn't. But what good that do, when she turned to somebody else, and went off right afore my two looking eyes! But ole marse won't listen to reason! He'll kill me, I know he will!" whimpered Wool, refusing to be comforted.</p>
-*line
+
 CHAPTER IX.
 CAP IN CAPTIVITY.
 I lingered here and rescue planned
@@ -887,7 +1008,6 @@ That was his highest style of praise.
 Then Herbert told his own little story of getting his commission and being ordered to Mexico.
 "God bless you, lad, and save you in the battle, and bring you home with victory!" was Old Hurricane's comment.
 Then, seeing that the young people were quite worn out with fatigue, and feeling not averse to his own comfortable couch, Old Hurricane broke up the circle, and they all retired to rest.
-*line, formatting of poem
 CHAPTER X.
 AN UNEXPECTED VISITOR
 "Friend, wilt thou give me shelter here?
@@ -919,7 +1039,9 @@ Marah Rocke, all in a flutter of excitement, as she strained Clara to her bosom.
 <p>"Yes, it is I, sweet friend; come to stay with you a long time, perhaps," said Clara, softly, returning her, caresses.</p>
 <p>"Oh, my lamb! my lamb! What a joyful surprise! I do think I shall go crazy! Where did you come from, my pet? Who came with you? When did you start? Did Le Noir consent to your coming? And how did it happen? But, dear child, how worn and weary you look. You must be very tired. Have you had supper? Oh, my darling, come and lie down on this soft lounge, while I put away your things and get you some refreshment," said Marah Rocke, in a delirium of joy, as she took off Clara's hat and sacque and laid her down to rest on the lounge, which she wheeled up near the fire.</p>
 <p>"Oh, my sweet, we have been so anxious about you--Traverse and myself. Traverse is still at St. Louis, love, getting on slowly. He has written to you every week, and so, indeed, have I, but we neither of us have so much as one letter in reply. And yet neither of us ever doubted your true heart, my child. We knew that the letters must have been lost, miscarried or intercepted," said Marah, as she busied herself putting on the teakettle.</p>
-<p>"They must, indeed, since my experience in regard to letters exactly corresponds with yours. I have written every week to both of you, *illegible word never received one line in reply from either," said Clara.</p>
+<p>"They must, indeed, since my experience in regard to letters
+exactly corresponds <corr resp="printer">with</corr> yours. I have written every week to both of
+you, <gap reason="illegible" resp="printer" extent="one to three letters"/> received one line in reply from either," said Clara.</p>
 <p>"We knew it; we said so. Oh, those Le Noirs! Those Le Noirs! But, my darling, you are perfectly exhausted, and though I have asked you a half an hundred questions, you shall not reply to one of them, nor talk a bit more until you have rested and had refreshment Here, my love, here is Traverse's last letter. It will amuse you to lie and read it while I am getting tea," said Marah, taking the paper from her bosom and handing it to Clara, and then placing the stand with the light near the head of her couch, that she might see to read it without rising.</p>
 <p>And while Clara, well pleased, perused and smiled over her lover's letter, Marah Rocke laid the cloth and spread
 <pb n="76     An Unexpected Visitor."/>
@@ -937,7 +1059,9 @@ a delicate repast of tea, milk toast and poached eggs, of which she tenderly pre
 <p>A long time yet they talked together, and then they retired to bed, and still talked until they fell asleep in each other's arms.</p>
 <p>The next morning the widow arose early, gazed a little
 <pb n="77     An Unexpected Visitor."/>
-while with delight upon the sleeping daughter of her heart, pressed a kiss upon her cheek so softly as not to disturb her rest, and then, leaving *illegible word in the deep, sweet sleep of wearied youth, she went downstairs to get a nice breakfast.</p>
+while with delight upon the sleeping daughter of her heart, pressed a
+kiss upon her cheek so softly as not to disturb her rest, and then,
+leaving <gap reason="illegible" resp="printer" extent="half inch"> in the deep, sweet sleep of wearied youth, she went downstairs to get a nice breakfast.</p>
 <p>Luckily a farmer's cart was just passing the road before the cottage on its way to market.</p>
 <p>Marah took out her little purse from her pocket, hailed the driver, and expended half her little store in purchasing two young chickens, some eggs and some dried peaches, saying to herself:</p>
 <p>"Dear Clara always had a good appetite, and healthy young human nature must live substantially, in spite of all its little heartaches."</p>
@@ -950,7 +1074,7 @@ while with delight upon the sleeping daughter of her heart, pressed a kiss upon 
 <p>"We can work for our living together," continued Clara, as she gayly flitted about from the dresser to the table, placing the cups and saucers and plates--"you can sew the seams and do the plain hemming, and I can work the buttonholes and stitch the bosoms, collars and wristbands. And 'if the worst comes to the worst,' we can
 <pb n="78     An Unexpected Visitor."/>
 hang out our little shingle before the cottage-gate, inscribed with:
-*layout
+
 MRS. ROCKE AND DAUGHTER,
 SHIRT MAKERS,
 <hi rend="italic">Orders Executed with Neatness and Despatch.</hi>
@@ -990,7 +1114,6 @@ from the neighborhood of the Hidden House. You are aware that the late judge of 
 <p>Mrs. Rocke approved this plan, and placed writing materials on the table. And, while the matron employed herself in closing up the rooms, packing what was needful to take with them to the doctor's, and putting out the fire, Clara wrote and sealed her letter. They then put on their bonnets, locked up the house, and set out. They called at the post office just in time to mail their letter, and they reached the doctor's house just as he himself walked up to the door, accompanied by the lawyer. The latter greeted the daughter of his old client and her friend, and they all went into the house together.</p>
 <pb n="81     Cap Spoils for a Fight."/>
 <p>In the doctor's study the whole subject of Clara's flight, and its occasion, was talked over, and the lawyer agreed to commence proceedings immediately.</p>
-*line
 CHAPTER XI.
 CAP SPOILS FOR A FIGHT.
 'Tis hardly in a body's power,
@@ -1077,7 +1200,6 @@ And all this tornado of passion and invective arose just because he had unexpect
 <p>Clara and Mrs. Rocke took up their abode at Willow Heights, and seized an hour, even of that busy time, to write to Traverse and apprise him of their good fortune.</p>
 <p>Old Hurricane and his party set out for their home, where they arrived before nightfall.</p>
 <p>And the next day but one Herbert Greyson took leave of his friends and departed to join his company on their road to glory.</p>
-*line
 CHAPTER XII.
 BLACK DONALD.
 Feared, shunned, belied, ere youth had lost her force,
@@ -1128,7 +1250,13 @@ lighted and rudely fitted up. Upon a large natural platform of rock, occupying t
 <p>"That girl, that capital Capitola! I would not sell my prospect of possessing her for double your bribe!"</p>
 <p>"Your 'prospect!' Your prospect is about as deceptive as a <hi rend="italic">fata morgana!</hi> What have you been doing, I ask you again, toward realizing this prospect, and earning the money you have already received?"</p>
 <pb n="92     Black Donald."/>
-<p>"Fair and easy, my colonel! Don't let temper get the better of justice! What have I been doing toward earning the money you have already paid me? In the first place, I lost my time and risked my liberty watching around Hurricane Hall. Then, when  had identified the girl, and the room she slept in, by seeing her at her window, I put three of my best men in jeopardy to capture her! Then, when she, the witch, had captured them, I sacrificed all my good *illegible transmogrifying myself into a frightful old field preacher, and went to the camp-meeting to watch, among other things, for an opportunity of carrying her off! The sorceress! She gave me no such opportunity! I succeeded in nothing, except in fooling the wiseacres and getting admitted to the prison of my comrades, whom I furnished with instruments by which they made their escape. Since that time we have had to lie low--yes, literally--to lie low--to keep out of sight; to burrow under ground! In a word, to live in this cavern!"</p>
+<p>"Fair and easy, my colonel! Don't let temper get the better of
+justice! What have I been doing toward earning the money you have
+already paid me? In the first place, I lost my time and risked my
+liberty watching around Hurricane Hall. Then, when  had identified the
+girl, and the room she slept in, by seeing her at her window, I put
+three of my best men in jeopardy to capture her! Then, when she, the
+witch, had captured them, I sacrificed all my good <gap reason="illegible" resp="printer" extent="three to four letters"/> transmogrifying myself into a frightful old field preacher, and went to the camp-meeting to watch, among other things, for an opportunity of carrying her off! The sorceress! She gave me no such opportunity! I succeeded in nothing, except in fooling the wiseacres and getting admitted to the prison of my comrades, whom I furnished with instruments by which they made their escape. Since that time we have had to lie low--yes, literally--to lie low--to keep out of sight; to burrow under ground! In a word, to live in this cavern!"</p>
 <p>"And since which you have abandoned all intention of getting the girl and earning the five thousand dollars," sneered Le Noir.</p>
 <p>"Earning the remaining five thousand, you mean, colonel! The first five thousand I consider I have already earned. It was the last five thousand that I was to get when the girl should be disposed of."</p>
 <p>"Well?" </p>
@@ -1168,7 +1296,6 @@ has not at present legal proof enough to establish her identity and her rights b
 Shell out, my colonel. Shell out, and never fear. Capitola shall be a wife, and Back Donald a widower before many weeks shall pass."
 "I'll do it. I have no time for disputation, as you know; and you profit by the knowledge. Ill do it, though under protest," muttered Le Noir, grinding his teeth.
 "That's my brave and generous patron," said Black Donald, as he arose to attend Le Noir from the cavern. "That's my magnificent colonel of cavalry. The man who runs such risks for you should be very handsomely remunerated."
-*line, layout of poem
 CHAPTER XIII.
 GLORY!
 What Alexander sighed for,
@@ -1220,7 +1347,8 @@ had received her legacy, and that the thousand dollars left you by Dr. Day had b
 <p>"It was my impatience!" exclaimed Traverse. "It was my impatience! Dr. Day always faithfully warned me against it--always told me that most of the errors, sins and miseries of this world arose from simple impatience, which is want of faith. And now I know it! And now I know it  What had I, who had an honorable profession, to do with becoming a private solder?"</p>
 <p>"Well, well, it is honorable at least to serve your country," said Herbert, soothingly.</p>
 <p>"If a foreign foe invaded her shores, yes; but what had I to do with invading another's country? Enlisting for a war of the rights and wrongs of which I know no more than anybody else does! Growing impatient because fortune did not at once empty her cornucopia upon head! Oh, fool!"</p>
-<p>"You blame yourself too severely, Traverse. Your act was natural enough and justifiable enough, much *illegible it is to be regretted," said Herbert, cheerfully.</p>
+<p>"You blame yourself too severely, Traverse. Your act was natural
+enough and justifiable enough, much as it is to be regretted," said Herbert, cheerfully.</p>
 <p>"Come, come, sit on this plank bench beside me--if you are not ashamed to be seen with a private who is also a donkey--and tell me all about it. Show me the full measure of the happiness I have so recklessly squandered away," exclaimed Traverse, desperately.</p>
 <p>"I will sit beside you and tell you everything you wish to know, on condition that you stop berating yourself in a manner that fills me with indignation," replied Herbert, as they went to a distant part of the dusty inclosure and took their seats upon a rude bench.</p>
 <p>"Oh, Herbert, bear with me; I could dash my wild, impatient head against a stone wall!"</p>
@@ -1248,7 +1376,7 @@ And the next morning the company was ordered on board, and the whole expedition 
 Now we might just as easily as not accompany our troops to Mexico and relate the feats of arms there performed, with the minuteness and fidelity of an eyewitness, since we have sat at dinner tables where the heroes of that war have been honored guests, and where we have heard them fight their battles over till "thrice the foe was slain, and thrice the field was won."
 We might follow the rising star of our young lieutenant, as by his own merits and others' mishaps he ascended from rank to rank, through all the grades of military promotion, but we need not, because the feats of lieutenant--captain--major and Colonel Greyson, are they not written in the chronicles of the Mexican War?
 We prefer to look after our little domestic heroine, our brave little Cap, who, when women have their rights, shall be a lieutenant-colonel herself. Shall she not, gentlemen?
-*line of asterisks
+<milestone unit="section" rend="stars"/>
 In one fortnight from this time, while Mr. Rocke and Clara were still living comfortably at Willow Heights, and waiting anxiously to hear from Traverse,
 whom they still supposed to be practicing his profession at St. Louis, they received his last letter written on the eve of his departure for the seat of war. At first the news overwhelmed them with grief, but then they sought relief in faith, answered his letter cheerfully, and commanded him to the infinite mercy of God.
 <pb n="103"/>
@@ -1318,7 +1446,7 @@ her road and riding slowly toward a five-barred gate, allowed her to overtake hi
 <p>Not to excite her suspicion, Craven Le Noir avoided
 <pb n="109     Cap Captivaes a Craven."/>
 meeting Capitola for a few days, and then threw himself in her road, and, as before, allowed her to overtake him.</p>
-<p>Very subtilely (*misspelling or unknown word?) he entered into conversation with her, and guarding every word and look, took care to interest, without alarming her. He said no more of friendship, but a great deal of regret for wasted years and wasted talents in the past, and good resolutions for the future.</p>
+<p>Very subtilely he entered into conversation with her, and guarding every word and look, took care to interest, without alarming her. He said no more of friendship, but a great deal of regret for wasted years and wasted talents in the past, and good resolutions for the future.</p>
 <p>And Cap listened good-humoredly. Capitola being of a brave, hard, firm nature, had not the sensitive perceptions, fine intuitions and true insight into character that distinguished the more refined nature of Clara Day--or at least, she had not these delicate faculties in the same perfection. Thus her undefined suspicions of Craven's sincerity were overborne by a sort of noble benevolence which determined her to think the best of him which circumstances would permit.</p>
 <p>Craven, on his part, having had more experience, was much wiser in the pursuit of his object; he had also the advantage of being in earnest; his passion for Capitola was sincere, and not, as it had been in the case of Clara, simulated; he believed, therefore, that when the time should be ripe for the declaration of his love, he would have a much better prospect of success, especially as Capitola, in her ignorance of her own great fortune, must consider his proposal the very climax of disinterestedness.</p>
 <p>After three more weeks of riding and conversing with Capitola, he had, in his own estimation, advanced so far in her good opinion as to make it perfectly safe to risk a declaration. And this he determined to do upon the very first opportunity.</p>
@@ -1386,7 +1514,6 @@ whose wife he should take! Will nobody serve your purpose but somebody else's sw
 <pb n="115     Cap's Rage."/>
 of an overseer, and then, with his bride, start for Paris, the paradise of the epicurean, where he designed to fix their principal residence.
 Craven Le Noir was so pleased with his plan that he immediately set about putting it in execution. Our next chapter will show how he succeeded.
-*line
 CHAPTER XV.
 CAP'S RAGE.
 Is he not approved to the height of a villain, who hath slandered, scorned, dishonored thy kinswoman! Oh! that I were a man for his sake, or had a friend who would be one for mine!
@@ -1504,7 +1631,6 @@ sluggish blood stagnates in my veins! no spark of the liquid fire of my life's c
 <p>"Which is perfectly true," she said to herself, "since I am utterly indisposed to go. And, besides, I have sworn
 <pb n="124     Capitola Caps the Climax."/>
 never again to sit at the same table with my cousins, until for the wrongs done me, I have received ample satisfaction."
-*line
 CHAPTER XVI.
 CAPITOLA CAPS THE CLIMAX.
 Oh! when she's angry, she is keen and shrewd;
@@ -1585,7 +1711,7 @@ a dreadful deed?" exclaimed the utterly confounded magistrate.</p>
 <p>"Miserable young woman, if this be proved true, I shall have to commit you!"</p>
 <p>"Just as you please," said Cap, "but, bless your soul, that won't help Craven Le Noir a single bit!"</p>
 <p>As she spoke several persons entered the office in a state of high excitement--all talking at once, saying:</p>
-<p>"That is the girl"</p> *missing punctuation
+<p>"That is the girl"</p>
 <p>"Yes, that is her!"</p>
 <p>"She is Miss Black, old Warfield's niece."</p>
 <p>"Yes, he said she was," etc., etc., etc.</p>
@@ -1646,7 +1772,6 @@ your heart's content. Hang it, miss, answer me and say."</p>
 <p>Old Hurricane, permitting his excitement to subside in a few expiring grunts, rang the bell and gave orders for breakfast to be served.</p>
 <p>And after that meal was over, he set out with his niece for Hurricane Hall.</p>
 <p>And, upon arriving at home, he addressed a letter to Mr. Le Noir, to the effect that as soon as the latter should have recovered from the effect of his fright and mortification, he, Major Warfield, should demand and expect satisfaction.</p>
-*line, poem layout
 CHAPTER XVII.
 BLACK DONALD'S LAST ATTEMPT.
 Who can express the horror of that night,
@@ -1716,7 +1841,6 @@ curtained; two closets, a dressing-bureau, workstand, washstand and two armchair
 <p>The first thing that met her sight was the waiter of provisions upon the stand. And at this fresh instance of her little maid's forethought, she burst into an uncontrollable fit of laughter.</p>
 <p>She did not see a dark figure glide from behind the window curtains, steal to the door, turn the lock and withdraw the key.</p>
 <p>But still retaining her prejudice against the presence of food in her bedchamber, she lifted up the waiter in both hands to carry it out into the passage, turned and stood face to face with--Black Donald!</p>
-*line, poem layout
 CHAPTER XVIII.
 THE AWFUL PERIL OF CAPITOLA.
 Out of this nettle, danger,
@@ -1902,7 +2026,6 @@ because I would not send you prayerless into the presence of your Creator! For, 
 <p>The outlaw shot downward! There was an instant's vision of a white and panic-stricken face, and wild, up-lifted hands as he disappeared, and then a square, black opening was all that remained where the terrible intruder had sat.</p>
 <p>No sight or sound came up from that horrible pit to hint of the secrets of the prison-house.</p>
 <p>One shuddering glance at the awful void, and then Capitola turned and threw herself, face downward, upon the bed, not daring to rejoice in the safety that had been purchased by such a dreadful deed, feeling that it was an awful, though a complete victory!</p>
-*line, poem layout
 CHAPTER XIX.
 THE NEXT MORNING.
 Oh, such a day
@@ -1990,7 +2113,6 @@ dress that fellow and put him to bed, and examine his injuries, while I send off
 <p>In a word, it was several weeks before the strong constitution of the outlaw prevailed over his many injuries, and he was pronounced well enough to be taken before a magistrate and committed to prison to await his trial. Alas! his life, it was said, was forfeit by a hundred crimes, and there could be no doubt as to his fate. He maintained a self-possessed, good-humored and laughingly defiant manner, and, when asked to give up his accomplices, he answered, gayly:</p>
 <p>"That treachery was a legal virtue, which outlaws could not be expected to know anything about"</p>
 <p>Capitola was everywhere lauded for her brave part in the capture of the famous desperado. But Cap was too sincerely sorry for Black Donald to care for the applause.</p>
-*line, poem layout
 CHAPTER XX.
 A FATAL HATRED.
 Oh, heaven and all its hosts, he shall not die!
@@ -2164,7 +2286,6 @@ ing over me! It was several minutes before I could travel back from the pleasant
 <p>"They are well! They are well and happy! Oh, thank God they are so! Oh, Herbert, never let them know how I shall die! If they think I fell honorably in battle, they will get over it in time; but if they know I died a convict's death, it will break their hearts! Oh, Herbert! my dear friend! by all our boyhood's love! never let my poor mother and dear Clara know the manner of my death!" cried Traverse, in an imploring voice.</p>
 <p>Before he could say another word or Herbert could answer, an orderly sergeant entered and put into Major Greyson's hands a paper that proved to be a summons for him to attend immediately at headquarters to serve upon a court-martial, to try Private Traverse Rocke upon the charge of sleeping on his post.</p>
 <p>"This is done on purpose to prevent me becoming a witness for the defense!" whispered Herbert to his friend; "but take courage! We will see yet whether they shall succeed!"</p>
-*line, layout of poem
 CHAPTER XXI.
 THE COURT-MARTIAL.
 I wish I could
@@ -2230,7 +2351,6 @@ sidered the colonel of his regiment his personal enemy and, as such, could have 
 <p>The fact of the offense, and the law affixing the penalty of death to that offense, was established, and, as the judge-advocate truly said, nothing remained but for the court to find their verdict in accordance with both.</p>
 <p>Extenuating circumstances there were, certainly; but extenuating circumstances were seldom admitted in courts-martial, the law and practice of which were severe, to the extent of cruelty.</p>
 <p>Another circumstance against him was the fact that it did not require an unanimous vote to render a legal verdict; but that, if a majority of two-thirds should vote for conviction, the fate of the prisoner would be sealed. Traverse had but one friend in the court, and what could his single voice do against so many? Apparently, nothing; yet, as the prisoner, on leaving the courtroom, raised his eyes to that friend, Herbert Greyson returned the look with a glance of more than encouragement--of triumph!</p>
-*line, poem layout
 CHAPTER XXII.
 THE VERDICT.
 We must not make a scarecrow of the law,
@@ -2343,7 +2463,6 @@ ency of the executive could wipe out. Gentlemen, will you do this? No! I am sure
 <p>"Nonsense " said Herbert, laughing; "didn't I tell you
 <pb n="184     The End of the War."/>
 that the Lord reigns, and that the devil is a fool? This is only the beginning of victories!"</p>
-*line, layout of poem
 CHAPTER XXIII.
 THE END OF THE WAR.
 Now are our brows bound with victorious wreaths,
@@ -2542,7 +2661,6 @@ hand in. Then the invalid was hastily invested in a slight bathing-gown and lift
 <p>The terms of the engagement were soon arranged, and Traverse prepared to accompany his new friend to his "beautiful retreat," the private madhouse. But first
 <pb n="199     The Mysterious Maniac."/>
 Traverse wrote to his mother and to Clara in Virginia, and also to Herbert Greyson in Mexico, to apprise them of his good fortune.</p>
-*line, poem layout
 CHAPTER XXV.
 THE MYSTERIOUS MANIAC.
 Stay, jailer, stay, and hear my woe:
@@ -2619,7 +2737,6 @@ came a fallen angel! She lost her reason through sorrow and shame! This relative
 <pb n="205"/>
 CHAPTER XXVI.
 THE MANIAC'S STORY.
-*poem layout
 A scheming villain forged the tale
 That chains me in this dreary cell,
 My fate unknown, my friends bewail,
@@ -2658,7 +2775,8 @@ Traverse had, therefore, a fair excuse for his daily visits to her cell.</p>
 <p>"I believe you, madam, on my sacred honor, I do," said Traverse, fervently.</p>
 <pb n="208     The Maniac's Story."/>
 <p>"And yet you could get no one about this place to believe you! They have taken my brother-in-law's false story, indorsed as it is by the doctor proprietor, for granted. And just so long as I persist in telling my true story, they will consider me a monomaniac, and so often as the thought of my many wrongs and sorrows, combines with the nervous irritability to which every woman is occasionally subject, and make me rave with impatience and excitement, they will report me a dangerous lunatic, subject to periodical attacks of violent frenzy; but, young man, even at my worst I am no more mad than any other woman, wild with grief and hysterical through nervous irritation, might at any time become without having her sanity called in question."</p>
-<p>"I am sure that you are not, nor ever could have been, entirely within the control of medicine, which mania, proper, is not. You will use the means that I prescribe proper is not. (*the previous sentence appears to be an accidental addition by the printer, a combination of lines around it) You will use the means that I prescribe and your continued calmness will go far to convince even those dullards that they have been wrong."</p>
+<p>"I am sure that you are not, nor ever could have been, entirely
+within the control of medicine, which mania, proper, is not. <sic resp="printer">You will use the means that I prescribe proper is not.</sic> You will use the means that I prescribe and your continued calmness will go far to convince even those dullards that they have been wrong."</p>
 <p>"I will do everything you recommend; indeed for some weeks before you came, I had put a constraint upon myself and forced myself to be very still; but the effect of that was, that acting upon their theory they said that I was sinking into the last or 'melancholy-mad' state of mania, and they put me in here with the incurables."</p>
 <p>"Lady," said Traverse, respectfully taking her hand, "now that I am acquainted in some slight degree with the story of your heavy wrongs, do not suppose that I will ever leave you, until I see you restored to your friends."</p>
 <p>"Friends! Ah, young man, do you really suppose, that if I had friends, I should have been, left thus long unsought? I have no friends, Dr. Rocke, except yourself, newly sent me by the Lord! nor any relatives except a young daughter whom I have seen but twice in my life--once upon the dreadful night when she was born and torn away from my sight, and once about two years ago, when she must have been sixteen years of age. My little daughter does not know that she has a poor mother living, and I have no friends upon earth but you, whom the Lord has sent."</p>
@@ -2676,7 +2794,6 @@ you have no other friends, yet you have the law to protect you. I will make your
 <p>"I will do whatever you think best," said the lady.</p>
 <p>Traverse lifted her hand to his lips, bowed, and retreated from the cell.</p>
 <p>That same night Traverse wrote to his friend Herbert Greyson in Mexico, and to his mother and Clara, describing his interesting patient, though as yet he could tell but little of her, not even in fact her real name, but promising fuller particulars next time, and declaring his intention of bringing her home for the present to their house. </p>
-*line, layout of poem
 CHAPTER XXVII.
 END OF THE LADY'S STORY.
 Of the present naught is bright,
@@ -2848,7 +2965,6 @@ nightcap, pulled it off his head and threw it violently upon the floor. Then rem
 <pb n="227"/>
 CHAPTER XXIX.
 CAPITOLA A CAPITALIST.
-*poem layout
 Plumed victory
 Is truly painted with a cheerful look,
 Equally distant from proud insolence
@@ -3001,7 +3117,6 @@ mother from her prison at the madhouse! And now, my dear Cap, I must bid you goo
 <p>Major Warfield received her with all a soldier's gallantry, a gentleman's courtesy and a father's tenderness.</p>
 <p>He next shook hands with his old acquaintance, Mrs. Le Noir.</p>
 <p>And then supper was ordered, and the evening was passed in general and comparative reminiscences and cheerful conversation.</p>
-*line, poem layout
 CHAPTER XXX.
 LIGHT AT THE EVENTIDE.
 They shall be blessed exceedingly; their store
@@ -3087,7 +3202,7 @@ fastened him. Then taking his face between her hands, and looking him in the eye
 <p>Presently the boy came back, bringing the gig. Cap once more hugged Gyp about the neck, pressed her cheek against his mane, and with a whispered "Good-by, dear Gyp," sprang into the gig, and ordered the boy to drive home.</p>
 <p>"An' leab the pony, miss?"</p>
 <p>"Oh, yes, for the present; everybody knows Gyp; no one will steal him. I have left him length of line enough to move around a little and eat grass, drink from the brook, or lie down. You can come after him early to-morrow morning."</p>
-<p>The little groom thought this a queer arrangement, but he was not in the habit of criticising (*British spelling?) his young mistress' actions.</p>
+<p>The little groom thought this a queer arrangement, but he was not in the habit of criticising his young mistress' actions.</p>
 <p>Capitola got home to a late supper, and to the anxious inquiries of her friends she replied that she had been to the prison to take leave of Black Donald, and begged that they would not pursue so painful a subject.</p>
 <p>And, in respect to Cap's sympathies, they changed the conversation.</p>
 <p>That night the remnant of Black Donald's band were assembled in their first old haunt, the Old Road Inn. They had met for a twofold purpose--to bury their old matron, Mother Raven, who, since the death of her patron and the apprehension of her captain, had returned to the inn to die--and to bewail the fate of their leader, whose execution was expected to come off the next day.</p>
@@ -3145,6 +3260,4 @@ and, as his heart is satisfied and at rest, his temper is gradually improving. A
 <p>I wish I could say "they all lived happy ever after." But the truth is, I have reason to suppose that even Clara had sometimes occasion to administer to Dr. Rocke dignified curtain lectures; which, no doubt, did him good. And I know for a positive fact that our Cap sometimes gives her "dear, darling, sweet Herbert" the benefit of the sharp edge of her tongue, which, of course, he deserved.</p>
 <p>But notwithstanding all this, I am happy to say that they all enjoy a fair amount of human felicity.</p>
 <p>"CAPITOLA'S PERIL" is the sequel to "THE HIDDEN HAND," a copy of which will be mailed upon receipt of 25 cents for paper cover, or 75 cents for the cloth edition.</p>
-<p>THE END.</p>
-
-*ads omitted from OCR.
+<trailer>THE END.</trailer>
