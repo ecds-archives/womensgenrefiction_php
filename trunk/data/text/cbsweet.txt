@@ -1,3 +1,100 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Sweet Clover, an electronic edition</title>
+<author n="Burnham, Clara Louise, 1854-1927">Clara Louise Burnham</author>
+</titleStmt>
+<extent>550kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2005</date>
+<availability>
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA  30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email:  beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Burnham, Clara Louise</author>. <title>Sweet
+Clover</title>. <pubPlace>Boston</pubPlace> and <pubPlace>New York</pubPlace>:
+<publisher>Houghton, Mifflin and  Company</publisher>,
+<date>1895</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded.  Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p></samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="language">English</rs>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">unedited</rs>
+<rs type="genre">novel</rs>
+<rs type="geography">United States</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>American literature--19th Century--Fiction.</item>
+<item>Women authors, American--19th Century.</item>
+<item></item>
+<item></item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2005-April-25</date>
+<respStmt><name>Erika Farr, </name>
+<resp>project manager.</resp></respStmt>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
 <pb n="1"/>
 SWEET CLOVER. CHAPTER I. FAIR HARVARD.
 <p>" WELL, Jack," said Mr. Van Tassel, entering his son's room at Cambridge, "the deed is done. Behold you a full-fledged alumnus of glorious old
@@ -3447,7 +3544,7 @@ walking post in this new Camp Sheridan, alertly conscious of their routine busin
 <p>"Then why don't you go there?" asked Jack. "I don't know who has a better right to the flowers of life."</p>
 <p>"I did think of getting Clover to take me next summer, but now, wonder of wonders, the mountain has come to Mahomet. Don't you want to go down to parade to-night?"</p>
 <p>"Yes; I don't know just how to make you comfortable, though. The mob is something marvelous. I looked over their heads a minute last night, but being in the sixth or seventh row, concluded the game was n't worth the candle."</p>
-<p>"Ah, that is where the convenience comes in of having a military friend," returned Mildred gayly. "We shall not need to mingle with the <hi rend=”italic">hoi polloi<hi rend=”italic">. Won't you come too, Clover?" as her sister entered the room.</p>
+<p>"Ah, that is where the convenience comes in of having a military friend," returned Mildred gayly. "We shall not need to mingle with the <hi rend="italic">hoi polloi<hi rend="italic">. Won't you come too, Clover?" as her sister entered the room.</p>
 <pb n="DRESS PARADE. 353"/>
 
 <p>"Where?"</p>
@@ -3537,12 +3634,12 @@ one, you will know all. They can talk only on one subject," was the rather stiff
 
 and see me, Mr. Van Tassel," holding out her hand. "Remember you owe me a game of tennis. I assure you, you would not beat all the time. Are you coming with me, Fred?"</p>
 <p>"I believe not, unless you want me. If these people are determined to go to the Clambake, I think I shall have to go too; but remember, you are to save a two-step for me to-night."</p>
-<p>"<hi rend=”italic">Au revoir,</hi> then;" and Miss Eames, her last glance for Jack, moved away.</p>
+<p>"<hi rend="italic">Au revoir,</hi> then;" and Miss Eames, her last glance for Jack, moved away.</p>
 <p>"We won't go with Mildred," said Clover, "for we have had tea recently, and are n't hungry yet. You would never guess where, either. Good-by, Mr. Eames. We are all greatly indebted to you."</p>
 <p>"Indeed we are," said Gorham, shaking hands cordially with the lieutenant. "That was a most interesting sight. I congratulate you on being one fit to survive that tremendous training. This is the show side, but I know something of the other."</p>
 <p>"Where did you have tea; where?" demanded Mildred, smiling into Gorham's serious face. He instantly smiled back. Those cold, abstracted eyes of Page's had learned a new look recently, as though so much sunshine had warmed his heart that there was an overflow.</p>
 <p>"It would make you so discontented with the Clambake, dear," suggested Clover with mischievous deprecation.</p>
-<p>"Why, I <hi rend=”italic">will</hi> know."</p>
+<p>"Why, I <hi rend="italic">will</hi> know."</p>
 <p>"The New Jersey house."</p>
 <pb n="362      SWEET CLOVER."/>
 
@@ -3562,7 +3659,7 @@ and see me, Mr. Van Tassel," holding out her hand. "Remember you owe me a game o
 <p>"But where are they?" asked Mildred aggrievedly, as they entered the busy, noisy eating-room.</p>
 <p>"The cadets mess upstairs," returned Eames, with latent satisfaction. "Did you suppose they fell in here with the general company? You don't know much of military discipline, Miss Bryant."</p>
 <p>"Never mind; if they are going to run up and down that staircase all the time, as they are doing now, I shall see a great deal of them."</p>
-<p>"There is n't much order to-night," remarked the lieutenant. "The cadets own the Fair for the moment, and permits have been issued <hi rend=”italic">ad libitum</hi>."</p>
+<p>"There is n't much order to-night," remarked the lieutenant. "The cadets own the Fair for the moment, and permits have been issued <hi rend="italic">ad libitum</hi>."</p>
 <p>But supper had scarcely been brought to the three friends when, with a grand clatter on the bare staircase, the remainder of the corps came hurrying down, walked out the door, and quickly forming in ranks marched back to camp.</p>
 <p>"Now, does that pay for mingling in this drove of people and getting half-served?" asked Jack, with disdain.</p>
 <p>"Fully," exclaimed Miss Bryant, with enthusiasm. "Without those absurd straps around their faces, one can see what beautiful creatures they are."</p>
@@ -3610,11 +3707,10 @@ self hoping, even though I say over every day that there cannot be the slightest
 <p>Before she ceased speaking, Van Tassel had released her and recovered himself.</p>
 <p>"And the Peristyle," he added steadily, "you are forgetting that."</p>
 <p>She did not smile, and her lips quivered.</p>
-<p>"So long as my only rivals are your sweet self and the Indians, Helmsmen, <hi rend=”italic">et. al.</hi>, who view the country from the top of the Peristyle, I cannot despair. Perhaps I ought to, dear, but I can't."</p>
+<p>"So long as my only rivals are your sweet self and the Indians, Helmsmen, <hi rend="italic">et. al.</hi>, who view the country from the top of the Peristyle, I cannot despair. Perhaps I ought to, dear, but I can't."</p>
 <p>Mildred wondered if her companion were really so pale as the shadows made him appear.</p>
 <p>"Hope springs eternal in the human breast, and I am going to hope until you announce your en-
 <pb n="368     SWEET CLOVER."/>
-
 gagement to me. Then, until I receive your wedding cards, I shall look to see you find that engagement a mistake. And if you are married," Jack paused; "I don't know. My mind turns blank when it occurs to me that you might marry another man."</p>
 <p>"I am not worth it. I am not worth it," repeated the girl.</p>
 <p>"Have I made you unhappy? Shall I go away? Will my presence be a burden to you now?"</p>
@@ -3622,11 +3718,8 @@ gagement to me. Then, until I receive your wedding cards, I shall look to see yo
 <p>He turned to her, tender consideration in his tone.</p>
 <p>"That is a great deal, Mildred. I must try not to forfeit it."</p>
 <pb n="369"/>
-
 CHAPTER XXV.
-
 IN THE PERISTYLE.
-
 <p>THE next morning, before seven o'clock, Miss Berry, while busy arranging matters in the dining-room preparatory to breakfast, was summoned by a maid to the back door with the word that a gentleman wished to see her.</p>
 <p>To her great surprise, it was Gorham Page who stood waiting on the path.</p>
 <p>"Well, well, Mr. Gorham, ain't the days long enough for you?" she asked, smiling, as she came out of the door. "This is new manners for you. Go 'way, Blitzen. Look out, Mr. Gorham, his paws must be wet."</p>
@@ -3752,7 +3845,7 @@ Building to-night, and we have been in a dozen minds about going: but I think it
 <p>She took his offered arm; they started down the half-deserted walk, and quickly came one of the magic changes of the place. The lights vanished, and the colossal moonlit gateway of the Peristyle gained new majesty.</p>
 <p>"At last I can thank you for your letter," said Page.</p>
 <p>"Were you glad to get it? I am afraid it was not much of an epistle."</p>
-<p>"As if any word you would write could be anything but precious! It breathed of you in every line. All things are made new since I read it. My whole life, all my powers, every worthy thing I may ever attain, are yours. Is it possible that you are really going to accept them, that you can care for <hi rend=”italic">me,</hi> Clover?"</p>
+<p>"As if any word you would write could be anything but precious! It breathed of you in every line. All things are made new since I read it. My whole life, all my powers, every worthy thing I may ever attain, are yours. Is it possible that you are really going to accept them, that you can care for <hi rend="italic">me,</hi> Clover?"</p>
 <p>She felt his strong arm tremble under her hand, and it thrilled her; but she was silent, and his impetuous speech rushed on.</p>
 <p>"I have had to hold under with an iron will all
 <pb n="382     SWEET CLOVER."/>
@@ -3797,7 +3890,7 @@ CHAPTER XXVI.
 THE NEW YEAR.
 
 <p>THE reception at the Woman's Building proved attractive. It was late when Mildred and Jack returned home that night. All was still about the house. They parted in the usual friendly fashion, which both sought to make easy, and each felt to be constrained.</p>
-<p>Mildred went quietly to her sister's door and listened. All was still. "Then she has been at home some time," thought the girl. "Good! That speaks volumes. Poor fellow, I'm sorry for him." The <hi rend=”italic">frou-frou</hi> of her dress as she turned away almost drowned the voice that spoke her name. Not quite, however. She turned the handle of the door.</p>
+<p>Mildred went quietly to her sister's door and listened. All was still. "Then she has been at home some time," thought the girl. "Good! That speaks volumes. Poor fellow, I'm sorry for him." The <hi rend="italic">frou-frou</hi> of her dress as she turned away almost drowned the voice that spoke her name. Not quite, however. She turned the handle of the door.</p>
 <p>"Did you call me, Clover?"</p>
 <p>"Yes; come in."</p>
 <p>"I did n't mean to disturb you."</p>
@@ -3899,7 +3992,7 @@ will make in it. Indeed, I feel more than I can say on the subject.
 <p>"ROBERT."</p>
 
 <p>With the early autumn came the Parliament of Religions,--the congress which, among the many that preceded and followed it, proved, to the general surprise, to be the one of greatest interest to the public. Miss Berry was indefatigable in her attendance; and her young ladies were often with her. The names of those Orientals, whose words she listened to as to music, were impracticable to her; but their dark faces and graceful gestures were fixed in her mind forever. Aunt Love was one of thousands whose complacent generalization of "the heathen" received a blow.</p>
-<p>Clover did her share in the entertaining of some of these scholarly delegates from the far East; and Mildred found a totally novel <hi rend=”italic">sauce piquante</hi> in the society of a handsome coffee-colored Indian, who wore a pink silk turban and mouse-colored robe, and talked transcendental philosophy in the purest English while gazing at her from long, beautiful eyes.</p>
+<p>Clover did her share in the entertaining of some of these scholarly delegates from the far East; and Mildred found a totally novel <hi rend="italic">sauce piquante</hi> in the society of a handsome coffee-colored Indian, who wore a pink silk turban and mouse-colored robe, and talked transcendental philosophy in the purest English while gazing at her from long, beautiful eyes.</p>
 <p>Lieutenant Eames had rejoined his regiment, whether or no hiding a heart-wound, Clover did not know. Mildred said nothing. October, the busiest, gayest month of the Fair, came on. Such of society as had hitherto been obdurate, now return-
 <pb n="396      SWEET CLOVER."/>
 
