@@ -59,7 +59,8 @@ Guidelines.  For the details of Level 3 encoding, please see the
 webpage for TEI Guidelines for Best Encoding practices at
 http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
 dashes with two dashes.  Page numbers displayed in brackets have been
-added by the encoder and do not appear in the original text.</p></editorialDecl>
+added by the encoder and do not appear in the original
+text.</p></editorialDecl>
 <classDecl>
 <taxonomy id="lcsh">
 <bibl>
@@ -90,7 +91,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </profileDesc>
 <revisionDesc>
 <change>
-<date>2005-April-25</date>
+<date>2005-April-27</date>
 <respStmt><name>Erika Farr, </name>
 <resp>project manager.</resp></respStmt>
 <item>XML tags inserted in compliance with TEI guidelines.</item>
@@ -99,40 +100,101 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </teiHeader>
 <text>
 <front>
-<pb/>
+<pb n="[i]"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">BIRTH</titlePart>
+</docTitle>
+</titlePage>
+<pb n="[ii]"/>
+<div id="zgbirth000" type="advert">
+<figure entity="zgbirthad" rend="inline">
+<figDesc>Advertisement included in the front of Gale's <hi
+rend="italic">Birth</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="zgbirthtp" n="[iii]" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">BIRTH</titlePart>
+</docTitle>
+<byline>BY <lb/><docAuthor>ZONA GALE</docAuthor> <lb/>Author of "Friendship Village," etc.</byline>
+<titlePart type="desc">WITH A PREFACE BY <lb/><name
+type="person">WILLIAM LYON PHELPS</name></titlePart>
+<docImprint>
+<pubPlace>New York</pubPlace>
+<publisher>THE MACMILLAN COMPANY</publisher>
+<docDate>1924</docDate>
+</docImprint>
+<imprimatur><hi rend="italic">All rights reserved</hi></imprimatur>
+</titlePage>
+<pb n="[iv]"/>
+<div id="zgbirth500" type="copyright">
+<figure entity="zgbirthcr" rend="inline">
+<figDesc>Copyright information for Gale's <hi
+rend="italic">Birth</hi>.</figDesc>
+</figure>
+</div>
+<pb n="[v]"/>
 <div id="zgbirth001" type="dedication">
-<q><l>TO MY BEST OF FRIENDS</l>
-<l>MY FATHER AND MOTHER</l>
-<l>CHARLES FRANKLIN GALE</l>
-<l>ELIZA BEERS GALE</l></q>
-<pb/>
-</div><div id="zgbirth002" type="epigraph">
-<q><l>"The world's greatest need is a sense of the intangible."</l>
-<l>--JENKIN LLOYD JONES.</l></q>
-</div><div id="zgbirth003" type="preface">
+<q><p>TO MY BEST OF FRIENDS
+<lb/>MY FATHER AND MOTHER
+<lb/>CHARLES FRANKLIN GALE
+<lb/>ELIZA BEERS GALE</p></q>
+</div>
+<pb n="[vii]"/>
+<div id="zgbirth002" type="epigraph">
+<cit><q><p>"The world's greatest need is a sense of the intangible."</p>
+<bibl>--JENKIN LLOYD JONES.</bibl></q></cit>
+</div>
+<div id="zgbirth003" type="preface" n="Preface">
 <pb n="ix"/>
 <head>PREFACE</head>
 <p>It happens that the name of this novel is even more significant than the author intended it to be, for it signalised her Birth as an Artist.</p>
 <p>Zona Gale was born in Wisconsin, and took both the Bachelor's and Master's degrees at the State University. She passed into literature through journalism and sentimental fiction. She was employed on Milwaukee newspapers, then on that admirable daily, the <hi rend="italic">New York World</hi>, and gradually began to acquire reputation as a contributor of stories to magazines. Of her books published before 1918, perhaps the best known are <hi rend="italic">Friendship Village</hi> (1908) and <hi rend="italic">Heart's Kindred</hi> with <hi rend="italic">Birth</hi>, he will be amazed, first, that the same author wrote both, and second, at her intellectual and artistic advance.</p>
-<p>When it was published in 1918, <hi rend="italic">Birth</hi> drew little notice. There was a large war in progress, and such critics as had paid any attention to Miss Gale's previous stories thought they had her classified--a common error made about people who are not writers at all. In 1920, however, she became a figure of national importance by the appearance of her novel <hi rend="italic">Miss Lulu Bett</hi>, wherein the characters glow with fidelity to life; and the structure of the narrative, in its economy and beauty, has the perfection of a masterpiece of sculpture. Transferred to the stage by the novelist's own hand, the play produced so vivid an impression as to with the Pulitzer Prize.  That so unpretentious a work should make this double hit in 1920 is the more remarkable when we remember that in the same year appeared Edith Wharton's <hi rend="italic">The Age of Innocence</hi> and Sinclair Lewis's <hi rend="italic">Main Street.</hi>
+<p>When it was published in 1918, <hi rend="italic">Birth</hi> drew
+little notice. There was a large war in progress, and such critics as
+had paid any attention to Miss Gale's previous stories thought they
+had her classified--a common error made about people who are not
+writers at all. In 1920, however, she became a figure of national
+importance by the appearance of her novel <hi rend="italic">Miss Lulu
+Bett</hi>, wherein the characters glow with fidelity to life; and the
+structure of the narrative, in its economy and beauty, has the
+perfection of a masterpiece of sculpture. Transferred to the stage by
+the novelist's own hand, the play produced so vivid an impression as
+to with the Pulitzer Prize.  That so unpretentious a work should make
+this double hit in 1920 is the more remarkable when we remember that
+in the same year appeared Edith Wharton's <hi rend="italic">The Age of
+Innocence</hi> and Sinclair Lewis's <hi rend="italic">Main
+Street.</hi>
 <pb n="x"/>
 <p>Following the good fortune of many other authors, there should then have been a rebirth of <hi rend="italic">Birth</hi>. Over and over again a successful book has floated all its predecessors, which had lain <hi rend="italic">perdu,</hi>--consider what happened to the three earlier novels of A. S. M. Hutchinson, after the whole world had excitedly read <hi rend="italic">If Winter Comes</hi>. Now either the neglect of <hi rend="italic">Birth</hi> was the fault of a careless public, or the fault of the publisher, who, the moment that <hi rend="italic">Lulu</hi> conquered American, should have seen his opportunity to advertise <hi rend="italic">Birth</hi>. Perhaps he did.</p>
 <p>I was not so surprised by the excellence of <hi rend="italic">Miss Lulu Bett</hi> as most critics were, because I was one of the few who had read <hi rend="italic">Birth</hi> and heartily admired it. It must be apparent to anyone who reads it attentively that it is realistic art of a high order. The pictures of the dead town and the people embalmed there are sufficiently striking to make one pause and reflect; the story itself, with the attention concentrated on one character, has a high splendour all its own. And the title, which expresses the philosophy of the work, was an inspiration. In the sixth chapter of the first part, there is an anticipation of the earth-shaking <hi rend="italic">Main Street</hi>, which was to come two years later.</p>
-<milestone rend="blank-line" unit="section"/>
 <q><p>All down the little Main Street men came to their work. They thought about the orders they must fill that day, the amounts due them; a train whistled, and they knew that it was ten minutes late; so-and-so's grass needed cutting, they noted; and there was his brother visiting him from Seattle, why didn't he do it? Fat geese waddled about a back yard. Somebody had a little tree of crab apples, and the family was gathering them for a jar of marmalade. Locusts sang. It was going to be a hot day. Cans of cream were driven to the creamery. A bill poster put up a terrible warning, calculated to lure: "The Candy Ladies. Come and See." Old Mrs. Jellsie fed the white rooster which her son had sent her a week ago. Little Curt Whitman went by with his red card. The Messers' baby cried.</p>
 <pb n="xi"/>
 <p>Once an excitement was caused by Aden Older, whose mind was queer, appearing on his front veranda and screaming about the protective tariff. His daughter, with her embroidery in one hand, came and led him away, successfully diverting his attention from national politics by telling him that his custard was ready. Once Alden Older had been the boss of the County. Now he almost ran to his custard.</p></q>
-<milestone rend="blank-line" unit="section"/>
 <p>No sentimentality here: only <hi rend="italic">l'humble v&eacute;rit&eacute;.</hi></p>
 <p>I do not suppose that Sinclair Lewis had seen this book; the monotony and triviality of small town life are favourite subjects with novelists. His original contribution was to make an epic out of a street.</p>
 <p>In <hi rend="italic">Birth</hi> the note of satire and scorn is not predominant; there is sympathy, there is admiration, and overwhelming pity expressed for the Superfluous Man, all the more overwhelming because he tried so hard. With considerably less than one talent, he showed the same perseverance and eagerness as the man with ten; he failed for the lack of mental capital. Even his death was ridiculous "in the sight of men." He was a good and faithful servant, and though the story of his life is a tragedy, we do not despair. For the mind of the author penetrates below the surface of life to its source.</p>
-<signed>WILLIAM LYON PHELPS.</signed>
-</front><body>
-<div n="1" id="zgbirth004" type="chapter">
+<bibl>WILLIAM LYON PHELPS.</bibl>
+</div>
+<pb n="[xiii]"/>
+<div id="zgbirth501" type="table of contents">
+<figure entity="zgbirthtc" rend="inline">
+<figDesc>Table of contents for  Gale's <hi rend="italic">Birth</hi>.</figDesc>
+</figure>
+</div>
+</front>
+<body>
+<pb n="[1]"/>
+<div n="Chapter 1: Marshall Pitt" id="zgbirth004" type="chapter">
+<head>MARSHALL PITT</head>
 <pb n="3"/>
-</div><div n="1" id="zgbirth005" type="section"><head><l>BIRTH</l>
-<l>MARSHALL PITT</l><l>I</l></head>
-</div><div n="1" id="zgbirth006" type="subsection">
+<div n="I" id="zgbirth005" type="section">
+<head>BIRTH
+<lb/>MARSHALL PITT
+<lb/>I</head>
+<div n="1" id="zgbirth006" type="subsection">
 <head>(1)</head>
 <p>A DAY of heat withered Burage. It was the eighth day of such heat. The people had counted, they began to take delight in its continuance. "She's gone up two degrees to-day," they told one another. And: "Looks like this'll go down as the hot Summer of Eighty-seven." Burage watched the thermometer, observed when the Wisconsin river ice finally blocked and when this ice began to move in Spring, kept in vases the list of these dates, and delighted when degrees and dates surpassed themselves. With many, this was no conscious touch  with Nature, but a substitute for the competition impossible in  their small town living, and yet not outgrown. However, there were some who kept these tallies for love of them.</p>
 <p>At four o'clock on the eighth day of the heat, there came down the Burage main street a youth of six-and-twenty. His hair was flat and glossy-damp on his forehead, a limp handkerchief was tucked in his collar, his cheap, neat suit was dusty. He carried a sample case. His name was Marshall Pitt, and he was "traveling representative" for Hart, Hollow and Orr, Pickle and Fruit Products.</p>
@@ -178,7 +240,8 @@ restraint. She was shaken by her sobs. To Pitt, who was very near her, was commu
 <p>"I'm very much obliged to you, I'm sure," he said to the lady, "for your time and attention, and also for your order and--ah--for the tea, both on behalf of myself and my firm, at least—-ah--not for the tea. . . ." He dwindled to silence and a great blush.</p>
 <p>"Not in the least," said the lady. She was looking toward the door, and was hardly attending.</p>
 <p>Then he turned and followed the girl. He might have known that he was following her, when his glance swept the walk on the opening of the door. Already she was mounting the steep steps to the house across the street.</p>
-</div><div n="2" id="zgbirth007" type="subsection">
+</div>
+<div n="2" id="zgbirth007" type="subsection">
 <head>(2)</head>
 <p>On the veranda of the Halsey House four chairs stood every day, waiting for the public. The public rarely sat there, save the constable, in his idleness; and the host of the hotel. This man, Flo Buckstaff, seemed to have nothing in this world to do but to occupy one of his own chairs.</p>
 <p>After supper, on the evening of the eighth day of the heat in Burage, Flo strolled to the veranda and sat down, his feet high on a post. It was this man's tragedy that he had all the social qualities of the host of an inn excepting, so to say, the guests. He was gregarious, open-faced, smiling. He would have liked his lobby and not merely his bar to be frequented. He was always wistfully accosting the people. To-night he had it in his mind to waylay the sole guest who had entered the dining-room to a doubtful dinner.</p>
@@ -201,7 +264,8 @@ both mortgaged. Nice little thing, too--Barbara Ellsworth. Cute walk.</p>
 <p>The little man there on the Burage main street wanted to get on, wanted to be happy. In his undeveloped, inconsiderable person were colossal longings, undirected, indeterminate. And for him the chance of their realization lay solely in that sample case of Pickle and Fruit Products, checked behind the desk in
 <pb n="10     BIRTH"/>
 the Halsey House. His life, his manner of death, his descendants, all strapped up there under the desk in the Halsey House. And sometimes he wondered how he came to be selling Pickle and Fruit Products. In a crowded train he had once sat with a man who had that day made a phenomenal sale of apple butter. This man had fired Pitt, shown him his destiny. He had been tossed to this harbor, all the time in the illusion that he was choosing. It was so now, when sick with longing for the unknown, Pitt went up the steep steps of the little house on the eminence.</p>
-</div><div n="3" id="zgbirth008" type="subsection">
+</div>
+<div n="3" id="zgbirth008" type="subsection">
 <head>(3)</head>
 <p>When he found himself at the top of the steps, and observed, he was terrified. The large woman, with the huge shoulders and breast, whom he had seen with the chairs, was now coming down the walk carrying a hot-water bottle. On a clothes-line bed covers were hanging, gratuitous intimacies with the case of the dead, exposed with indecent haste. The woman, on a near view, had a serene and gentle face, now mildly curious. She paused, swinging her hot-water bottle by its neck, and plainly half regretting her leave-taking. He passed her, with no word, and she went her way.</p>
 <p>From an unscreened door the house gaped at him. The sitting-room chairs stood about the four walls. He saw a hanging-lamp, a shelf crowded with vases and paper flowers, a spray of fern on the floor. There blew on his face from within a faint, sickly-sweet odor. His knock on the casing made no adequate sound, nothing within was conscious of him, he drew back with a quick distaste, he wanted to run away. He stepped down to the walk, about which unconsidered petunias and four o'clocks presented themselves as if from the little porch, if from anywhere, they might expect the help which had so plainly been denied them. He had taken three steps or four from the house, when a sound of squeaking and nozzling signaled him. Beyond a stretch of garden, plowed but never planted, stood a
@@ -282,7 +346,8 @@ Dusk was falling. Below in the street there went the desultory thud and tap of f
 <p>"Good night," she said. "And if it's good-by--"</p>
 <p>She stood there, quietly breathing, looking at him.</p>
 <p>"It won't be good-by," he said, and went.</p>
-</div><div n="4" id="zgbirth009" type="subsection">
+</div>
+<div n="4" id="zgbirth009" type="subsection">
 <head>(4)</head>
 <p>In the upper sash of Pitt's window at the Halsey House there were four panes. He lay for hours staring at the thin dark of these panes. Occasional bright worlds swung into the squares, crossed glittering, went on into space. The high paper curtain was torn in a triangle. Now and then a world poised there, and passed.</p>
 <p>Pitt was not thinking. It was only that within him, atoms over which he had no control appeared to be gathering from the whole area of his being, and approaching one another, singing. His flesh sang, and with it sang his spirit. There had taken place an obscure enhancement of his being. Another level of existence seemed to have presented itself. For this he had in thought no correspondences--he could make no mental calculation whatever. All this had little to do with thought. Only
@@ -292,7 +357,8 @@ with vitality. He lay awake, and this deepening existence had its way with him.<
 <p>He had no plan, no decision, almost no speculation. He gave himself up to this slight lessening of the tension of toil, of discouragement, of loneliness. He was happy.</p>
 <p>Once Bessie crossed his mind--that remote Bessie, of the soda water fountain: An image of her spareness, her thin lips, her sauciness, her withdrawals. Over against these came no image, but a sense of ripe thickness and bloom. . . . </p>
 <p>At dawn he woke to this new consciousness, leaped to it as into receiving arms. Later, he emerged from the Halsey House with no quest, but merely as one going out to see what would befall. But first, he bought a collar and a bright cravat.</p>
-</div><div n="5" id="zgbirth010" type="subsection">
+</div>
+<div n="5" id="zgbirth010" type="subsection">
 <head>(5)</head>
 <p>The delivery boy of the Burage Grocery, which had "Mark and Arum, Dry Goods" over its door--he had no idea of being a First Cause to anybody. His long wrists, his scattered glances, his slouching gait, his one suspender, all these precluded his entrance on any stage as "god from the machine."</p>
 <p>He came driving down Main Street that morning, a loose wheel rattling. His white horse was hanging out its tongue, and this not at all because of hard driving, but from preference. As he drove this boy continually looked over his shoulder in an effort to sort out his load mentally, and to route himself. As there was usually nothing else on Burage main street, this habit mattered little, but everybody spoke of it. That Spate boy,
@@ -326,7 +392,8 @@ look at him, would you. Someday he'd have a collision. You wait. You mark my wor
 <p>"Don't I?" said Pitt. "Don't I?"</p>
 <p>He went nearer. His mouth found hers. He buried his face in the ripe, thick bloom of her cheek.</p>
 <p>Not until he was running for the two-ten to Rickman was he assailed by the obvious: Was it hard, he wondered, to be a wall-paper hanger?</p>
-</div><div n="6" id="zgbirth011" type="subsection">
+</div>
+<div n="6" id="zgbirth011" type="subsection">
 <head>(6)</head>
 <p>Village girls, ill-adjusted, wistful of the unknown, pretty--Barbara might have been any one of them. She had waked to a measure of consciousness, had gone on with little more. In some richer chamber of nature she might have risen to self-consciousness. But as life offered itself, she moved in little areas, and within her the struggling new functions, brain, spirit, lay budded but never called to bloom. The old inheritances, self-seeking, gregariousness, love of pleasure, passion, laughter, these she bore. She longed for "good times," for laughter. It seemed to be a physical thing which she desired, for talk, as she understood it, was hardly less muscular than laughter--a mere give and take of the discharge of nervous force. A blaring band, flattery, the presence of a strange man, sweets--all these supplied her need. A scarlet wreath in the cemetery filled her with delight. She wanted anything which set in motion anything within her. Of the newer racial gifts, the latest that she knew were the sense of personal liberty--"My head works as good as theirs," you often heard her say--and a kind of passionate honesty about money.</p>
 <p>When she was nine her mother had died. Barbara remembered her: A thin woman who cooked, washed, sewed and swept. They were always poor, and this condition had developed in
@@ -349,7 +416,9 @@ or for laughing loudly on the street ("What'll people think of me if you act lik
 <pb n="23     MARSHALL PITT"/>
 her feet would have run. But there was no chorus, no march of feet in unity. The child stood alone on a spot of the world which was as unconscious of the wheel and roll of the world as was the farthest star.</p>
 <pb n="24"/>
-</div></div><div n="2" id="zgbirth012" type="section">
+</div>
+</div>
+<div n="II" id="zgbirth012" type="section">
 <head>II</head>
 <div n="1" id="zgbirth013" type="subsection">
 <head>(1)</head>
@@ -400,7 +469,8 @@ was ten years older'n either of you when I married Hellie Copper, and so was he,
 <p>His reply was an amazement to them both. He suddenly folded his arms about her and kissed her fiercely.</p>
 <p>She gave a little cry. "You love me!" she said.</p>
 <p>"Sure," said the little man. "Sure I do!" And was gone. She stood staring after him. It was as if she had not thought of that possibility.</p>
-</div><div n="2" id="zgbirth014" type="subsection">
+</div>
+<div n="2" id="zgbirth014" type="subsection">
 <head>(2)</head>
 <p>At ten minutes to two, Pitt once more unlatched the iron gate before Lawyer Granger's house. Two weeks ago, he was saving over exultantly--and look at him now! It was almost as if he had attained at a bound to the Grangers' social status. It is true that he was miserable at the immediate ordeal, and saved himself only by reflecting on his grandeur.</p>
 <p>Again the hall was cool and dim, but now it was filled with soft stirring and voices. Pitt's eyes began to glaze. Of all that was to follow he would be one-third unconscious--there was that merciful arrangement.</p>
@@ -451,7 +521,8 @@ toothsome desserts in Burage. To these women Miss Arrowsmith felt very near; and
 <p>There were tea and cakes and ices, in the black walnut dining-room. There was the bride, extravagantly at her ease, secretly watching Miss Arrowsmith, and imitating her to the last fold of her tea-napkin on her knee. There was the groom, extravagantly miserable, balancing his plate at so perilous an angle that Miss Arrowsmith finally pushed toward him a little table, with a gay comment about honor due. There were the young girls, noisy, determined to keep on laughing. There were the older women, in the respectful silence always induced by the taking of food, every one storing up secret facts as to flavoring--all, that is, save Mis' Henry Bates. She took two "crackers" from her pocket, and asked for a cup of hot water.</p>
 <pb n="32     BIRTH"/>
 <p>"I have," she confided to the servant who brought them, "a very peculiar stomach."</p>
-</div><div n="3" id="zgbirth015" type="subsection">
+</div>
+<div n="3" id="zgbirth015" type="subsection">
 <head>(3)</head>
 <p>At last the Arrowsmith carriage stood at the door. The bride had run informally across the street to change her gown; she brought her bag to her door, and the groom went after it before the Arrowsmith coachman could obey his order. Every one was out on the side-walk before Lawyer Granger's house, and a dozen passers-by lingered. Barbara appeared in a blue lady's-cloth gown which she had made, and a straw hat trimmed with high pink bows. She was forcing on new gray kid gloves, short of thumb and long of finger. From nowhere came a shower of rice bags which filled the carriage and Pitt's hat-brim and his neck.</p>
 <p>"Go on--get going!" Pitt cried in agony to the coachman.</p>
@@ -476,10 +547,11 @@ dent. There dashed alongside another vehicle, a landau, filled with the younger 
 <p>"Here we go!" she said. "Wave--wave--<hi rend="italic">wave!</hi>"</p>
 <p>Pitt looked straight ahead.</p>
 <p>"I'm darned if I will," he said--but his resentment was not telling. She did not notice it, or whether or not he waved. Nothing that he did was telling, poor little man.</p>
+</div></div>
 <pb n="35"/>
-</div><div n="3" id="zgbirth016" type="section">
+<div n="III" id="zgbirth016" type="section">
 <head>III</head>
-</div><div n="1" id="zgbirth017" type="subsection">
+<div n="1" id="zgbirth017" type="subsection">
 <head>(1)</head>
 <p>AT that season there occupied the stage in Chicago one of those hybrid presentations, half vaudeville, half opera, with which the public appetite, not so much jaded as feeble, sought to excite itself. A "comic opera," advertised exactly as Spring styles and sweet-meats are advertised.</p>
 <p>The playbills of this amusement, showing a row of pale blue women laughing over-shoulder at a row of scarlet devils--for who can pluralize "Mephistopheles?"--caught Barbara's eye. This play, above all things, filled her desire. She said so.</p>
@@ -530,7 +602,8 @@ him. Pitt had a way of permitting his head to sink between his shoulders, like a
 <p>He was still in that momentary crest of tenderness and emotion from her question. His dog-like upward look sought hers.</p>
 <p>"Tired now?" he said.</p>
 <p>"Well, let's get out of this," answered his bride, and frowned.</p>
-</div><div n="2" id="zgbirth018" type="subsection">
+</div>
+<div n="2" id="zgbirth018" type="subsection">
 <head>(2)</head>
 <p>In Chicago night is not only the wretchedness, crime, gayety, indulgence, vice, beauty of older cities, but also here it is something else. It is the terror and pathos of the sleep of a giant child, naked by a lake.</p>
 <p>One hears this child breathe. One divines its terrible dreams. There go demons and beings in wrath hand in hand with little bright joys and innocent desires, the happy laughter of youth and little lovers of sweetmeats and junketings. There treads the old heaviness, in its ancient dress, woe of failure, of the irrevocable; and there hope plays. But the night streets never hear these breathings. Not the dozing drivers, the roysterers with faces out of drawing, watchers of the sick, prowlers, the homeless, the absorbed; not the great hotels, dedicated less to sleep than to waking, to surcease from living; not the homes, small and pathetic backwaters of safety and sweetness or of scum and death. These are the very figures of the dreams of the child.</p>
@@ -539,7 +612,8 @@ him. Pitt had a way of permitting his head to sink between his shoulders, like a
 <pb n="40     BIRTH"/>
 <p>At dawn, along the lake front, the flat, dead figures on their newspapers gather their sprawled legs, rise, shake themselves and stare at the white east across the white lake.</p>
 <p>At dawn, on that July day, Barbara Pitt lay gazing at the gray and green wall-paper, the terrible chandelier, the dusty rep lambrequin above the window of a room on the hotel court. And she felt that she detested the little man, sleeping, a freckled hand outspread on the coverlet.</p>
-</div><div n="3" id="zgbirth019" type="subsection">
+</div>
+<div n="3" id="zgbirth019" type="subsection">
 <head>(3)</head>
 <p>On one errand in the City Pitt had decided. He would seek out a wall-paper hanger and beg to be allowed for an hour to watch him work. He took the address at which such an one was said, at his shop, to be engaged, and announced that he would go there.</p>
 <p>"Yes," said Barbara, "you do that."</p>
@@ -554,7 +628,8 @@ tip-toed through the littered rooms, in a pleasant sense of having been sufficie
 <p>"Say," said he, "could you give me some pointers on the wall-papering business?"</p>
 <p>The man, who was scraping away old paper, laid down his tool.</p>
 <p>"What?" said he, and peered over at Pitt, and on his repetition, burst into dry laughter. "Gosh," said the workman, "there's a order. What you goin' to do? Paper the flat?"</p>
-<p>Pitt leaned against the casement of a door, and looked up with importance.</p>
+<p>Pitt leaned against the casement of a door, and looked up with
+importance.</p>
 <p>"No," he said, "I got a little wall-paper business of my own. I--I just took a-hold of it. I'd like to find out how to run it."</p>
 <p>The man descended his ladder, and had a thorough look at Pitt, and spat on the hard-wood floor.</p>
 <p>"You got your nerve," he said, "and it's a good thing <hi rend="italic">for</hi> you. How many men you goin' to hev workin' for ye? Get in some that knows the business and you don't <hi rend="italic">got</hi> to know it. That's the way they mostly does. I'm workin' for one that's like that, right now."</p>
@@ -577,8 +652,9 @@ tip-toed through the littered rooms, in a pleasant sense of having been sufficie
 <p>Barbara's eyes had a look not of stars but of fire.</p>
 <p>"I'd like to live nice!" she cried.</p>
 <p>"We will live nice," Pitt promised, and his eyes were like a little boy's eyes.</p>
+</div></div>
 <pb n="43"/>
-</div></div><div n="4" id="zgbirth020" type="section">
+<div n="IV" id="zgbirth020" type="section">
 <head>IV</head>
 </div><div n="1" id="zgbirth021" type="subsection">
 <head>(1)</head>
@@ -617,7 +693,8 @@ Barbara and Pitt looked at each other across that table, his face held a satisfa
 <p>"Something terrible."</p>
 <p>"I don't care. I got some ideas that'll make Mayme Carbury sit up."</p>
 <p>And so on. It was not only that they had functioned merely in externals. Even the externals had been veiled to them.</p>
-</div><div n="2" id="zgbirth022" type="subsection">
+</div>
+<div n="2" id="zgbirth022" type="subsection">
 <head>(2)</head>
 <p>At ten o'clock they lighted the little bed-room off the parlor. The wall-paper was stained and peeled, the matting was discolored, the yellow oak furniture filled the room save for a little
 <pb n="46     BIRTH"/>
@@ -645,7 +722,8 @@ His eyes, which were really beautiful in their depth and directness, flew to her
 <p>Without a word to her, he walked to the front door, unlocked and opened it.</p>
 <p>"Come along, you fellows!" he cried, and fumbled for his purse.</p>
 <pb n="48     BIRTH"/>
-</div><div n="3" id="zgbirth023" type="subsection">
+</div>
+<div n="3" id="zgbirth023" type="subsection">
 <head>(3)</head>
 <p>Miss Rachel Arrowsmith dropped in next morning.</p>
 <p>She happened, for her arrival, on a pretty moment. But then Miss Arrowsmith had never arrived anywhere unseasonably. She had a genius for the opportune, and such faculties and their failures are almost as real as the operations of the five senses.</p>
@@ -660,7 +738,16 @@ His eyes, which were really beautiful in their depth and directness, flew to her
 <pb n="49     MARSHALL PITT"/>
 <p>"Dear me, come on in," the hostess observed precipitantly. "What in the world are we hanging around here for?"</p>
 <p>"Yes, let's--let's go in," Pitt stammered.</p>
-<p>The eyes of Miss Arrowsmith dwelt speculatively on the little man, there in the midst of his domain: The weed-grown lot, the unplanted garden, the empty wagon-shed, the poor house, and that little wall-paper place whence must issue the nourishment of all his pathetic hopes. With that look in his eyes at her own innocent reference to Barbara's casual comment on his expertness, Pitt stood before her as naked as souls can be--Pitt and his future and Barbara and her future, all naked and piteous. Miss Arrowsmith accepted the situation as simply as she would have accepted the need to fill any other awkward gap in her surroundings.</p>
+<p>The eyes of Miss Arrowsmith dwelt speculatively on the little man,
+there in the midst of his domain: The weed-grown lot, the unplanted
+garden, the empty wagon-shed, the poor house, and that little
+wall-paper place whence must issue the nourishment of all his pathetic
+hopes. With that look in his eyes at her own innocent reference to
+Barbara's casual comment on his expertness, Pitt stood before her as
+naked as souls can be--Pitt and his future and Barbara and her future,
+all naked and piteous. Miss Arrowsmith accepted the situation as
+simply as she would have accepted the need to fill any other awkward
+gap in her surroundings.</p>
 <p>"Because I wondered--do you think that I could have you at once--to-morrow? I want my own two rooms done over, walls and ceiling."</p>
 <p>"Oh, my God!" said Pitt, "I couldn't do that."</p>
 <p>She wanted to put her arms about him.</p>
@@ -675,10 +762,11 @@ His eyes, which were really beautiful in their depth and directness, flew to her
 <p>"You got to do it, somehow," returned Barbara positively and ambiguously withal.</p>
 <pb n="50     BIRTH"/>
 <p>Mis' Hellie Copper, with the perfect authority of long custom, had entered and was rattling dishes in the kitchen. This woman went about among her neighbors, doing their work for them as another might have carried them flowers. She was as definitely beyond payment as one in the offices of consolation or the pouring of tea. Something of her quality came to Pitt as he stood there by the side porch where Miss Arrowsmith had left him. For all his anxiety, he felt a kind of sweetness and a faint joyousness. He smiled down at Barbara, and touched her. Life looked at him with an unsuspected face.</p>
+</div></div>
 <pb n="51"/>
-</div><div n="5" id="zgbirth024" type="section">
+<div n="V" id="zgbirth024" type="section">
 <head>V</head>
-</div><div n="1" id="zgbirth025" type="subsection">
+<div n="1" id="zgbirth025" type="subsection">
 <head>(1)</head>
 <p>IT was this face of kindness which now continually turned toward him. Within two days Mis' Matt Barber, true to her intimation on their wedding-day, notified Barbara that she meant to give a "company" for her and her husband.</p>
 <p>"Don't expect much," she warned them. "I can't do the work I used to do. Twenty years ago I could kill myself, easy, getting up a spread. I can't do it any more. Don't you look for it."</p>
@@ -695,7 +783,8 @@ reached there before her. She was wearing her wedding dress. The front of white 
 <p>"Barbara," she said, "I had a recipe book all wrapped up ready to bring you, but at the last minute I forgot and left it on the window sill. No, I guess it was on the machine. I wouldn't have forgot it, only the vegetables came, and I'd ordered eggs too. And if I'm not right there in the kitchen when they come, the boy puts them loose in the sink, and he usually cracks one or two. I've told him and told him about it, but I might as well be birds in the trees. Of course, Mr. Miles is very fond of eggs, and nothing upsets him like wasting fresh ones when . . ."</p>
 <p>Mis' Nick True broke in with determination to discuss Barbara's wedding, still fresh though every detail had been many times reviewed. Mis' Miles dwindled away without resentment. Somebody always had to do that to her. Sometimes they had let her go on to see how long it would last, but nobody had ever had the patience to see her through.</p>
 <pb n="53     MARSHALL PITT"/>
-<p>"Well now tell us," said Mis' True, "about the City. What was the sights?"</p>
+<p>"Well now tell us," said Mis' True, "about the City. What was the
+sights?"</p>
 <p>Barbara, her eyes sparkling, straightened her lace front and told about the play. She attempted the plot, such as it was, and was early lost in a bewilderment of "he says" and "she says" and "then the other fellow that he took him for," until the thread was indiscernible. Then she gave the "cute speeches" of the heroine, and the funny man, laughing heartily herself. It is well known that a comic stage piece can not be related. But every one continued not the less to smile, and waited with patience to say something herself.</p>
 <p>"See here," said Mis' Henry Bates, working forward to the edge of her low chair, "here we are now, by ourselves. I wonder if we can't give Barbara some advice? I know I've wished, often and often, that I could have had some advice when I was her age and starting life."</p>
 <p>The others, understanding "I" in place of her metaphorical "we," kept respectful silence.</p>
@@ -711,7 +800,8 @@ slacker than to neglect that. Keep your dish-cloth delicate, Barbara--remember w
 apron over the white dress with the medallions. She saw no one, but fixed her eyes up the street.</p>
 <p>"I never saw anything like Hellie in my life," she observed acidly. "He'll be late to my funeral. He'll be late to his own funeral. It isn't as if I hadn't laid out all his things. He's 
 just late--that's all, the way some folks are blind, or halt. Everything's ready and spoiling--there he comes, taking his time. I declare, I'd get a divorce now if it wasn't for keeping the supper waiting."</p>
-<p>Mr. Hellie Copper crossed the street, narrowly escaping a sprinkling cart.</p>
+<p>Mr. Hellie Copper crossed the street, narrowly escaping a
+sprinkling cart.</p>
 <p>"For land sakes," began his wife blankly, and as he mingled with the men and gave his good evening, she burst out upon him.</p>
 <p>"What have you got <hi rend="italic">that</hi> coat on for?" she demanded. "What was the matter with your other one?"</p>
 <p>He was, in fact, wearing striped gray trousers, and waistcoat, and a light linen coat. He stood at the foot of the steps and looked up at her.</p>
@@ -724,7 +814,9 @@ just late--that's all, the way some folks are blind, or halt. Everything's ready
 <p>"The idea," protested Mis' Barber. "I never heard of such a thing. You don't know where things are."</p>
 <pb n="56     BIRTH"/>
 <p>"I can find them," Mis' Hellie promised capably. "Set down, I say."</p>
-<p>Mis' Barber turned on her sharply. "Am I giving this supper or are you, Kate Copper?" she demanded. "I guess I'm going to serve it, like any hostess would."</p>
+<p>Mis' Barber turned on her sharply. "Am I giving this supper or are
+you, Kate Copper?" she demanded. "I guess I'm going to serve it, like
+any hostess would."</p>
 <p>Mis' Copper, worsted, sat down in the remaining chair. No place had been laid for the hostess. Throughout the supper, she went and came tirelessly, serving her guests; hardly once did she enter the conversation.</p>
 <p>Hellie Copper, put out of conceit by the public criticism from his wife, had a store of bitterness which had to be disgorged on somebody. His ill nature was further nourished by the slices of water-melon at each plate. Hellie could not eat water-melon, and he realized that he would therefore eat nothing for good five minutes more. He looked about for a suitable victim, caught sight of the minister a few chairs away, and landed on him.</p>
 <p>"Well," he said clearly, "have you fellows got rid of hell yet? Or ain't you?"</p>
@@ -751,7 +843,7 @@ root," Mis' Hellie Copper had once confided. "I get so nervous waiting for her t
 <p>"Don't speak of him," said he.</p>
 <p>Hellie chuckled. "He put hell where it belonged," said he. "Hell--they ain't none."</p>
 <p>"You may be repudiatin' your dwelling-place to come, as well as your given name, Hellie Copper," said Nick True, with a wink.</p>
-<pb n="59     MARSHALL PITT
+<pb n="59     MARSHALL PITT"/>
 <p>"I don't care anything about hell or Beecher or any of them," said Mis' Copper, "compared to Jenny Lind. If she ever gets within a hundred miles of me, I'm going to hear her sing if I never get a new parlor set."</p>
 <p>"Land," said Mis' Henry Bates, "the only new thing I ever expect to set in my parlor is my coffin. You know, honestly, it seems a terrible waste, all that nice black-broadcloth covered article, just lasting the two days, when my red rep has set in there for fifteen years. I tell 'em I've a good notion to buy my casket now, and fix it up nice with cushions, like a sofa, and get some good out of the money."</p>
 <p>In the midst of the laughter, Pitt stole a glance at Barbara, and felt a thrust of dismay. She was looking at him with a displeasure as marked as words. Her brows went up in a question, and down in a comment, and she held his eyes. He knew. He ought to be saying more. His silence had been virtually unbroken. Of this he had been for some time uncomfortably aware, had tried to make up by joining ardently in the laughter, and in warm, promiscuous endorsements and assents. He understood swiftly that she was ashamed of him. So he turned to his host, on whose right he was seated, and burst his way into the talk with:</p>
@@ -763,7 +855,8 @@ root," Mis' Hellie Copper had once confided. "I get so nervous waiting for her t
 <pb n="60     BIRTH"/>
 <p>"Oh," said Pitt, "it wasn't hotels as much as it was lunch-counters. Fried egg sandwich and a doughnut was most of mine--"</p>
 <p>Even Barbara could not cover this. She began talking to Nick True, beside her, but first Pitt had seen her face, and he was troubled. What was the matter? Everybody ate at lunch counters. . . .</p>
-</div><div n="2" id="zgbirth026" type="subsection">
+</div>
+<div n="2" id="zgbirth026" type="subsection">
 <head>(2)</head>
 <p>Walking home in the star-light, Pitt waited for Barbara to speak. He was wretched in the knowledge that he had made her ashamed of him. She wasted no time, no words, no delicacy.</p>
 <p>"Why don't you talk more, Marshall?" she said.</p>
@@ -782,7 +875,8 @@ root," Mis' Hellie Copper had once confided. "I get so nervous waiting for her t
 <p>"I've got nice friends," she admitted.</p>
 <pb n="61     MARSHALL PITT"/>
 <p>It seemed to occur to neither that the party was given for Pitt, too.</p>
-</div><div n="3" id="zgbirth027" type="subsection">
+</div>
+<div n="3" id="zgbirth027" type="subsection">
 <head>(3)</head>
 <p>From the heart of his intention to live up to Barbara's certainties concerning him, Pitt telephoned to his new friend Strain, the paper hanger, in Chicago. Strain had said that he would do him a good turn, if he could. Well, would he send a man to Burage, immediate, to help out on an unexpected job, a job which must be done, Pitt stressed it, particular. Strain could do that, certainly; but there would be the man's expenses. Pitt accepted everything. Only the job must be done. For it was most particular.</p>
 <p>And when the man presented himself, to Pitt's great joy it was Strain himself. He explained that he was glad of a peep at the country, that he was, in fact, looking out for a little place in the country where his wife wanted to bring up their boy. Pitt hardly heard him. He had on new white overalls and a white cap; he boldly marched into Lawyer Granger's house, ascended to Miss Arrowsmith's rooms, faced those expanses of wall and ceiling, reflecting on what would have been his feelings had he not been flanked by Strain. When the doors were closed upon them, little Pitt, the employer, took his lessons in the arts of scraping and applying.</p>
@@ -795,7 +889,8 @@ root," Mis' Hellie Copper had once confided. "I get so nervous waiting for her t
 building; and these, it appeared, simultaneously needed paper. Other walls paled and flowered at Pitt's touch. He was getting so that he dare take a job on his own account. When the day came that he could put in the bank Fifty Dollars toward the debts, he sang and whistled about the house, hugged Barbara, surreptitiously chased the little pigs--now "growing to size," Miss Hellie said--and to his friends shed greetings that were as light.</p>
 <p>Barbara said to him: "Marshall! You're grand about that money. Don't you think I don't know you're grand."</p>
 <p>But she said it with an air of compunction. Always now, in her rare moments of melting, she melted with that air of compunction. This the little man never noticed. It was enough for him that the days were his.</p>
-</div><div n="4" id="zgbirth028" type="subsection">
+</div>
+<div n="4" id="zgbirth028" type="subsection">
 <head>(4)</head>
 <p>For the first time in his life, Pitt was living a life of relationships. No more lonely evenings in Halsey Houses, no strolling the streets of strange towns, wistfully peering here and there, wondering how a man could "get to meet a nice girl," no such paucity of interests that Bessie, of a soda-water fountain, could fill imagination.</p>
 <p>Pitt had become a member of that which called itself "the bunch." Mayme Carbury, Buck, the whole bevy who had been present at the wedding, had attended the bride and groom to the train and, on their return, had chanted and groaned under their window that terrible epithalamium. "The bunch" welcomed Pitt to fellowship. They called themselves lively, "up and coming," said they, always ready for a good time, inaugurating, devising, going "Dutch treat." In their humble way they were prototypes of that young world of country clubs and yacht clubs and luxurious summer camps. "Something doing all the time," was the way Burage put it. Inexpensive pleasures, but involving endless trouble. To row to Government Bend and take supper in baskets; to go to Loon Lake to spend a day; to charter the
@@ -835,7 +930,8 @@ Blank silence. Then a kind little giggle from Mayme Carbury, and the talk went o
 They stood at the counter, with its uncovered fruit-juices and cloying odors and swinging, fly-specked signs. Pitt was aware that three or four of a lower estate were having milk-shake and enviously watching the gay group. He ordered something all round, and felt the magnanimous, dispensing host. Buddy Winchell, the young drug-clerk himself, was serving them. When Pitt tried to pay, Buddy winked at the others and said:</p>
 <p>"My treat, old man. Bring yours with you next time."</p>
 <p>So that, too, was poisoned. Pitt laughed it off, swore he'd had a fine time and that they must do it again soon; said " Sure, sure, sure" times innumerable, and went off with Barbara, the empty basket on his arm, his long, thin wrist, cuffless, pressed on the basket's edge.</p>
-</div><div n="5" id="zgbirth029" type="subsection">
+</div>
+<div n="5" id="zgbirth029" type="subsection">
 <head>(5)</head>
 <p>At the bend in the road, the maples made a green dusk for their treasure of silver light. The little houses, withdrawn in their lawns, looked always out instead of in, and waited for the house holders. These little villages at night have the aspect of tryst places for gods, wistful of green seclusions.</p>
 <p>"For heaven's sake," said Barbara, "why couldn't you have remembered that pop? They all think you forgot it on purpose."</p>
@@ -854,11 +950,16 @@ mounted the porch. Pitt felt for the key on the nail among the vines, and turned
 <p>"Barbara! <hi rend=”italic">You</hi> don't think I'm one?"</p>
 <p>She looked at him, seer-sucker coat and all, and answered:</p>
 <p>"I'm thinking of what my friends think."</p>
-<p>He stood miserably before her. He saw it all. He had made her unhappy--he had shamed her--she wished that she had never seen him! When, in a little while, he tried to have her hands, she pushed him from her, with a jerk of shoulders.</p>
-<p>"That isn't because she has head-ache," Pitt thought, in mortal terror now.</p>
+<p>He stood miserably before her. He saw it all. He had made her
+unhappy--he had shamed her--she wished that she had never seen him!
+When, in a little while, he tried to have her hands, she pushed him
+from her, with a jerk of shoulders.</p>
+<p>"That isn't because she has head-ache," Pitt thought, in mortal
+terror now.</p>
 <p>The moon-light shone full on the little houses. Here and there was Love, the solvent. Here and there was tragedy. Seldom, though, a tragedy of love or hate or grief. Instead, there were tragedies of pop, and the like. As if the gods, wistful of green seclusions, had fallen in a trap.</p>
+</div></div>
 <pb n="69"/>
-</div></div><div n="6" id="zgbirth030" type="section">
+<div n="VI" id="zgbirth030" type="section">
 <head>VI</head>
 <div n="1" id="zgbirth031" type="subsection">
 <head>(1)</head>
@@ -871,12 +972,15 @@ mounted the porch. Pitt felt for the key on the nail among the vines, and turned
 <p>"Sure. Sure. I should say." And laughter at the well known jest.</p>
 <pb n="70     BIRTH"/>
 <p>"Can he pay?"</p>
-<p>"I d'no'. But I owe him one. He's the first person I talked to about you."</p>
+<p>"I d'no'. But I owe him one. He's the first person I talked to
+about you."</p>
 <p>"Wouldn't anybody else listen?"</p>
 <p>"Nobody else got the chance. I headed for you myself."</p>
 <p>"Silly!"</p>
 <p>This was decidedly better. Conversation like this had not of late been prevalent. Pitt went, whistling, to his work. The little houses in the street, still looking outward, were as regardless of that which went on within as if all were merely their digestion. Strong sun on the leaves, a martin's laughter, a cart rattling by,--and Pitt was glad again.</p>
-</div><div n="2" id="zgbirth032" type="subsection"><head>(2)</head>
+</div>
+<div n="2" id="zgbirth032" type="subsection">
+<head>(2)</head>
 <p>The village day went on. Everywhere the invisible ruled. The sign for the Angelus was given from the steeple, and the memorial to a moment--mystic and imperishable--beat in many hearts. The little shops were opened, and out came the humble symbols--cakes, fruit, fabrics. Awnings were lowered, watering-cans made cool the old boards, an&aelig;mic little boys drew large mops across the windows. A faint odor of browned crust began to steal from the bakery. The photographer set out on the little "cobbled" shelf before an upper window, his negatives--a bride and groom, an old man who "sat" for the last time and to please the children; a naked baby. The doors of the Burage <hi rend=”italic">Weekly</hi> were open, and the smell of wet ink and paper hung in the air. In the cramped Post Office the contents of a lean bag were distributed by the old post-master, as slowly as if the mail were the mills of God; dusty, fly-specked little hole, where the state functioned as precisely as under hardwood and marble; and, in their tiny glass coffins, marked with worn red letters, were popped missives of death, of life, of love, of unspeakable commonplace.</p>
 <p>Epps, the undertaker, ran round the corner. He was going to make ready for burial the body of Lee Ashe. His body lay
 <pb n="71     MARSHALL PITT"/>
@@ -892,8 +996,10 @@ at the house of a friend across the alley, and there his funeral would be held, 
 <pb n="73     MARSHALL PITT"/>
 gone. It seems to have touched nothing. A few women water the plants. Ministers go patiently about making expected calls and entering them in their little books. A load of hay comes creaking under the elms. Tillie Paul strolls by with a cake which her mother has baked for somebody. The Youngers are carrying their father's supper down to the shop. Poor Jeff Cribb is out walking up and down the bricks--waiting. Everybody knows for what he waits, walking there every day, coughing. A group of girls in pink and blue and yellow, as yielding as thistledown, go footing home from some errand, manufactured for its own delight. Children pass, singing or quarreling. Garments are gathered in from lines and from grass, and sprinkled. Bennie Jedd drives home his mother's cow.</p>
 <p>Six o'clock. Over the golden aisles of the streets, mysterious with maple boughs, once more the Angelus, the bass of the roundhouse whistle, the treble of the brick-yard whistle. Burage breathes deep, all the tension of the day dissolves. A new air permeates the village. It relaxes, expects. It is as if some great brooding, wistful face, so close to all, changes expression; and every one replies. A creative moment, spiritual, tender, human. All Burage either goes home or welcomes home. Meetings, supper, complaints, tenderness, irritations, control. An impressive and spectacular and glorious moment, and a terrible moment. The expansion of human beings in centers carefully contrived. Or the crushing of human beings into centers benumbing, crippling. Beings seldom  thrilling from  creative work, but leaden from toil of rote. The cry of all the world in the throat of the people of Burage at six o'clock.</p>
-</div><div n="3" id="zgbirth033" type="subsection"><head>(3)</head>
-</p>At six o'clock Pitt left the Halsey House and flew along the main street. He walked always with rapid steps and stiff knees and lowered head. Usually he whistled in a limited and piercing register.</p>
+</div>
+<div n="3" id="zgbirth033" type="subsection">
+<head>(3)</head>
+<p>At six o'clock Pitt left the Halsey House and flew along the main street. He walked always with rapid steps and stiff knees and lowered head. Usually he whistled in a limited and piercing register.</p>
 <p>He ran up the steep steps of his home, cleared the porch
 <pb n="74     BIRTH"/>
 with a swelling sense of proprietorship, and sped to the kitchen. He meant to take Barbara in his arms and make her know (he said) how much he thought of her.</p>
@@ -903,7 +1009,9 @@ with a swelling sense of proprietorship, and sped to the kitchen. He meant to ta
 <p>"You're sick, Barbara!"</p>
 <p>She held her voice and told him, sobs breaking through:</p>
 <p>"They've gone and got up a party to Cuff's Farm without us. We aren't invited. They've left us out. That's what you did for us in Dorset Woods!"</p>
-</div><div n="4" id="zgbirth034" type="subsection"><head>(4)</head>
+</div>
+<div n="4" id="zgbirth034" type="subsection">
+<head>(4)</head>
 <p>Mis' Hellie Copper, having three visitors, called in a passing little boy and sent him to the bakery for a pint of ice-cream. He brought it in a paper pail. Mis' Copper sent him off with his nickel, apportioned the delicacy in four of her china saucers, and served it on the front porch.</p>
 <p>Her front porch was close to the side-walk. The four ladies were all large, with rolled gold wedding rings which cut fat fingers. They rocked gently as they ate, with little elegancies of fingering and of deliberation. The creak of a board mingled in their talk.</p>
 <p>And, as they ate and rocked, the events of their world moved about them in fantasy, strangely contorted, strangely guised, and by that guise, all judged them.</p>
@@ -986,13 +1094,17 @@ hundred tragedies they knew, and all from the secret history of Burage. None of 
 <p>She walked with the three visitors down the street. At the corner they left her, buying blue-berries for supper, her little gloved finger pointing here and there for the best box, her forehead puckered, housewifely. And the three told one another
 <pb n="81     MARSHALL PITT"/>
 that of course there was nothing in all this. Blue-berries and ginger-bread. . .</p>
-</div><div n="5" id="zgbirth035" type="subsection">
+</div>
+<div n="5" id="zgbirth035" type="subsection">
 <head>(5)</head>
 <p>Pitt was in the bedroom packing his bag when Barbara came home. He looked older. Three days and nights of acute anguish had drained the little man of any boyishness. His was no droop of wings for he had no wings, seen or unseen; it was a droop of being.</p>
 <p>She was light enough in manner. The praise of him by these women was in her veins. It gave her back a sense of his value. Indeed, from the moment of the receipt of Strain's telephone, Pitt's value to her had begun to return.</p>
 <p>When the message had come the evening before, the third since the day of the party at Cuff's Farm, Pitt and Barbara had been at the depths. From deep to deep they had gone in the three days. She had spared him nothing--tears, recrimination, her inability to eat, and the resulting attacks of nerves. They were sitting silent at the supper table. And everything hung in the balance. For Pitt's contrition was at last being ridden hard by his neat sense of justice. Indignation, self-pity, so far held in leash by his over-mastering conviction that he was a bounder, began to be assertive in his heart, and to claim a voice. Three times or four, over the dish of baked beans which made their supper, he had gone through in his mind what he could say. In another five minutes he would have said it.</p>
 <p>Then came the message that he was wanted by Central for long distance. He put on his cap and essayed to stalk. Poor little man, he had never stalked in his life. He merely walked fast and stiff-kneed, and slammed the screen-door, which was comic.</p>
-<p>He came back as another presence. He took his seat in silence, an approach to dignity which any one can maintain. Barbara sat gazing into her empty plate. Pitt threw out his news carelessly--but in spite of all that he could do, a little
+<p>He came back as another presence. He took his seat in silence, an
+approach to dignity which any one can maintain. Barbara sat gazing
+into her empty plate. Pitt threw out his news carelessly--but in spite
+of all that he could do, a little
 <pb n="82     MARSHALL PITT"/>
 catch of breath belied him: Strain wanted him to run down to Chicago and help him out on a Michigan Avenue job.</p>
 <p>Barbara's eyes brightened.</p>
@@ -1010,7 +1122,8 @@ catch of breath belied him: Strain wanted him to run down to Chicago and help hi
 <p>"I've been thinking," he went on, "I could do something with what time I have there."</p>
 <p>He hesitated.</p>
 <p>"What could you do?" she asked curiously.</p>
-<p>"If I knew how to go at it," he said, and seemed not to know how to go on.</p>
+<p>"If I knew how to go at it," he said, and seemed not to know how to
+go on.</p>
 <p>She took off her hat and drew her hands through her hair critically.</p>
 <pb n="83     MARSHALL PITT"/>
 <p>"If I knew what you were talking about--" she suggested.</p>
@@ -1038,8 +1151,9 @@ Maybe you notice things and don't like to tell me? Maybe you could tell me what 
 <p>She put her hands on his head. His cravat was over his collar at the back, but this time she did not chide him, or see.</p>
 <p>"Dear Marshall!" she said.</p>
 <p>And heaven was within the little man.</p>
+</div></div>
 <pb n="85"/>
-</div></div><div n="7" id="zgbirth036" type="section">
+<div n="VII" id="zgbirth036" type="section">
 <head>VII</head>
 <div n="1" id="zgbirth037" type="subsection">
 <head>(1)</head>
@@ -1087,11 +1201,11 @@ a thick woman, busy, ends of her veil always a-fly; her eyes quick-moving, upon 
 <p>"I read 'David Copperfield' a while ago."</p>
 <p>Mrs. Hudson raised her eye-brows. "Dickens. I read all of Dickens before I was fourteen," she said.</p>
 <p>Barbara became miserable. She should have read Dickens long ago, it seemed. . . .</p>
-<p>"I always read <hi rend=”italic">all</hi> the late magazines," she amended eagerly.</p>
+<p>"I always read <hi rend="italic">all</hi> the late magazines," she amended eagerly.</p>
 <p>Bags having been exhausted, some one caught this. It was Mrs. Stubbs.</p>
 <p>"Magazines!" she exclaimed. "My, my! I just wish you could see our house. We take seven magazines. Seven."</p>
 <p>"We take eight," said Mrs. Ames. "I'm reading three continued stories. I just have mental indigestion every minute."</p>
-<p>"I see by <hi rend=”italic">Demorest's</hi> some kind of Greek dress is coming in," said Mrs. Brewster. "Won't they be dowdy, after bustles?"</p>
+<p>"I see by <hi rend="italic">Demorest's</hi> some kind of Greek dress is coming in," said Mrs. Brewster. "Won't they be dowdy, after bustles?"</p>
 <p>Mrs. Hudson still hoped to keep the conversation in the right channels.</p>
 <p>"I've started in reading the Waverley novels all through again this Summer," she observed. "Then I've been reading my Eggleston." No one met this. Some one said that mosquitoes were prevalent. "Do you read Eggleston?" Mrs. Hudson asked Barbara, not to be submerged.</p>
 <p>"No," said Barbara humbly. "But I've heard of him."</p>
@@ -1139,7 +1253,8 @@ among their trim summer silks and simple challie gowns. She ought never to have 
 <p>Again the bell which so often sounded. One would have said that the baby was all Barbara's.</p>
 <pb n="93     MARSHALL PITT"/>
 <p>"Marshall," she cried. "I'm afraid of it! I hate it! I wish I was dead."</p>
-</div><div n="2" id="zgbirth038" type="subsection">
+</div>
+<div n="2" id="zgbirth038" type="subsection">
 <head>(2)</head>
 <p>The glory of November sunsets falls full and glows on the exposed walls among the trees and on an open bridge over the little river at Burage. Teams cross, and the drivers do not turn their heads to look. They go oblivious, sodden, black against the yellow west, as if they were cartoons called "The Sunset."  Carriages drive onto the bridge, and pause; and the occupants tell one another that it is "too heavenly." Usually, a few pedestrians linger there, caught by some call, obscurely divined. Little boys gather and skip stones on the red water.</p>
 <p>Burage numbers her trees by thousands. In the morning, the sun comes in strong gold, lavished upon the grass, save where the leaves lay their veils. All the narrow green strips outside the walks turn bright.</p>
@@ -1149,7 +1264,8 @@ among their trim summer silks and simple challie gowns. She ought never to have 
 <pb n="94     BIRTH"/>
 instruments have not the delicacy. Her old tools of the flesh quiver and yearn along old paths, while the new paths of the brain are but faintly marked--in a thousand years more they will function and report. Meanwhile only the soul knows what she sees. And here and there she finds the means of utterance: A child crossing the market-square in star-light; a homeless man swept by his isolation; lovers. To these comes that sudden enhancement of being which intimates new channels into the unknown. The unknown is the creative. The creative motivates all.</p>
 <p>When at last on these same paths folk tread in deepened consciousness, they will look backward to our intimations as we look on flint and steel. For them sunsets will flame, rainfall, sun and moon relume; and deep within all, their eyes being lightened, creation will burn, as with a countenance. As might be now, even in Burage, save that eyes sleep the sleep of the dead. Also, the meaning of such words will be heightened so that they will be quick with an essence now withheld.</p>
-</div><div n="3" id="zgbirth039" type="subsection">
+</div>
+<div n="3" id="zgbirth039" type="subsection">
 <head>(3)</head>
 <p>Among such potentialities was Barbara. But her days were bitterness, her nights were a kind of death. If this natural expectation of hers had ever occurred to her, manifestly it had occurred as a far-off possibility, sometime to be faced, like death, but as remotely. Met by the certainty, her attitude was of exasperation, of outrage, of stupefaction. She dreamed that it was not true, and woke happy, and plunged again to despair. She was confounded by the impossibility of escape. Hope, it seemed, was cut off. The event was absolute.</p>
 <p>The women of the village knew her attitude. She isolated herself, and when they went to seek her out, they found her face discolored with weeping. "After a while, I shouldn't have minded," was the way she put it.</p>
@@ -1171,7 +1287,8 @@ But motherhood was the gulf to be crossed by amateurs. Here the apprenticeship s
 <p>Also, Miss Arrowsmith understood the springs of laughter. Her familiar spirit did not go gravely, but explored with her the sources of humor, a spiritual bestowal. Sometimes, in her
 <pb n="97     MARSHALL PITT"/>
 companionship, Barbara had fleet glimpses of that which living might be. But she never thought of this as possible to her, or as conditioned by anything save vague physical preferments and escapes.</p>
-</div><div n="4" id="zgbirth040" type="subsection">
+</div>
+<div n="4" id="zgbirth040" type="subsection">
 <head>(4)</head>
 <p>When his child was born, Pitt was kalsomining the parlor of a little house on the edge of town. By its emptiness and its silence the room seemed to ally itself with the open fields. A bee drifted in, inquired, and its buzz died along the warm air. Below on the road a hidden farm-wagon creaked and passed. The simple presence of early Summer was in exquisite evidence, and all the emanations of the time offered some inheritance.</p>
 <p>Pitt's brush was approaching the window. On the wall, giants and huge animals were bodied forth by stain and crack. Pitt's brush made its clean progress. Before its sharp slap there retreated the exquisite gentleness of the wind's sound. He touched away a spider, demolished its careful web, and felt sharp compunction. Where were the little spiders? They might be hidden and waiting. He held up his brush, waited for the fat, alarmed little life to spin itself clear, swing over the abyss, catch and cling safe to the casement. Beyond the pendant body stretched a long slope, bright with short grain. On the road the sun fell in ocher pools, so that the shadows became positives. Along this road came running Nicky True.</p>
@@ -1193,8 +1310,9 @@ world. If the mystery of birth might flame in the faces of us all, no one could 
 <p>He pushed open the door and stood there, half expecting the peevish voice to which he had now grown used. She heard, looked, saw him; and she smiled. He stood beside her, choking, inarticulate. She put out her hand and it closed about his own. He kissed her, and she kissed him.</p>
 <p>"Have you seen him?" he heard her say.</p>
 <p>Afterward, he went into his little wall paper shop and closed the door. He stood there, swept clean of everything save love and awe. It was as if strong currents were blowing through him, and a new orb lighted his sky. Sweetness, emptiness, the dominion of love within him. He was in the exhaustion of a great spiritual experience. Something had taken him. He would never be the same. He had laid hold upon a guarantee of life. He was face to face with a great light, remade by it. He felt infinitely able--he felt tall.</p>
+</div></div>
 <pb n="100"/>
-</div></div><div n="8" id="zgbirth041" type="section">
+<div n="VIII" id="zgbirth041" type="section">
 <head>VIII</head>
 <div n="1" id="zgbirth042" type="subsection">
 <head>(1)</head>
@@ -1245,13 +1363,17 @@ world. If the mystery of birth might flame in the faces of us all, no one could 
 <p>"That don't matter," Bonniebell said, and unaccountably blushed, and said no more. As they were leaving the kitchen, she whispered:</p>
 <p>"I don't believe they told you I was coming, did they?"</p>
 <p>"I'm so glad you did come," Barbara said.</p>
-<p>"They never think of it," added P. W.'s sister. "I don't mind that--only it makes it bad about the beds. You just let me bunk on the floor or anywheres."</p>
+<p>"They never think of it," added P. W.'s sister. "I don't mind
+that--only it makes it bad about the beds. You just let me bunk on the
+floor or anywheres."</p>
 <p>After supper came the ceremony as Pitt had planned it for many a night. He brought in the tin dispatch box from the office, and from it took a packet. This packet contained two envelopes of bank notes. These he laid on Uncle Phoenix's knee. Uncle Phoenix counted the bills with the fearful deliberation and regard with which some men handle money. It was all there. Pitt could not forbear a side glance at Barbara. It was a surprise--she had not known that the money was all saved. She sent Pitt a look that left him tingling, refreshed as from a draught. The whole Paisley shawl debt paid! And the last interest.</p>
 <p>"Commendable. Commendable," said Uncle Phoenix, and hunted through his three wallets for the note. At this note, Barbara looked and wept. It was signed by her father--a cramped, open-lettered hand in which was revealed the poor man's pathetic history. Of this she saw nothing, but she wept for the hand that had signed. "Commendable!" insisted Uncle Phoenix at intervals. Aunt Clauson was nodding. She had slipped off her shoes and she held them in her hand and occasionally let them fall, roused, picked them up, and observed conservatively that it was beginning to be bed-time. Bonniebell was tatting. Pitt glowed; agonized for Barbara's grief; but he glowed.</p>
 <pb n="105     MARSHALL PITT"/>
 <p>Being relatives and re-united, there was a certain etiquette to be observed about not going to bed too early. Every one got very sleepy. Uncle Phoenix, reeking with fresh information regarding the number of trains that ran through Burage daily, the price of Burage real estate, and the tax percentage, at last frankly slept, chin well down and sidewise. Pitt yawned and stifled each yawn irrevocably too late. At last Uncle Phoenix awoke, looked about him in a pretty defiance, and inquired: "Was it Hamlet who said 'To bed, to bed, to bed'? William Shakespeare always hit the nail on the head, didn't he?"</p>
 <p>When they were alone, Barbara went to Pitt, put her arms about him, kissed him. And as she kissed him she was weeping. It was as if she had said, as plain as words: "If I could love you. If only I could love you!" Pitt took the kiss, knew her gratitude, was repaid for everything.</p>
-</div><div n="2" id="zgbirth043" type="subsection"><head>(2)</head>
+</div>
+<div n="2" id="zgbirth043" type="subsection">
+<head>(2)</head>
 <p>Aunt Clauson had lived in Burage in her girlhood. Next day she fared forth to pick up certain threads. In Burage there is no sending of cards, no time wasted on notifications. It is the visitor who goes about calling on old friends, and must slight no one. Uncle Phoenix, in the abject discipleship of the man who goes a-visiting, accompanied her, with the unjustified hope of finding diversion. At every visit, he annoyed Aunt Clauson by rising prematurely with "Well, hadn't we better be getting on?"</p>
 <p>When they were alone, Bonniebell turned eagerly to Barbara. "Let me bathe the baby!" she cried. Barbara, in the vivid importance of young motherhood, proud of her recently achieved technique, demurred, and had the baby taken summarily from her arms. She fell silent. P. W.'s sister was one of the women who have the right to children. Her hands caressed, her arms, her heart possessed. It was as if she had brought over from another way of life her skill and her accustomedness.
 <pb n="106     BIRTH"/>
@@ -1266,8 +1388,10 @@ Only there was also her eagerness. Barbara bathed her child as if already the pr
 <p>They turned the pages, commenting, returning, laughing, in a tacit pretense at light scorn. Bonniebell slipped the magazine in the newspaper rack on the kitchen-wall. "I looked at them last night," she owned.</p>
 <p>Barbara said nothing. An old wound had been opened.</p>
 <p>Her own attitude toward her child was fond, tolerant, tender. She had felt the initial thrill, the growing wonder. But these had not filled her. Her spirit was satisfied, but she was not yet sufficiently identified with her spirit to be aware of this satisfaction. Barbara's flesh was her true identity, and it was still seeking.</p>
+</div>
 <pb n="107     MARSHALL PITT"/>
-</div><div n="3" id="zgbirth044" type="subsection"><head>(3)</head>
+<div n="3" id="zgbirth044" type="subsection">
+<head>(3)</head>
 <p>In a week Uncle Phoenix announced that they were going on. He was bound to get out of this country. The climate was fit for Injuns. Injuns. As for him, he had been reading the Florida folders. They could board themselves and keep warm. Cool nights, daylight temperature of eighty degrees, warm gulf waters--he detailed those folders.</p>
 <p>"I think, with his kidneys and all," said Aunt Clauson, judicially, "we'd better go. We might as well use up what we've got. I did dread the spiders for a while, but I'm reconciled. I've got a great deal of faith in Eucalyptus oil."</p>
 <p>"Will you go too?" Barbara asked Bonniebell.</p>
@@ -1287,7 +1411,8 @@ Only there was also her eagerness. Barbara bathed her child as if already the pr
 <p>"Here she comes!" Pitt explodes, having barely heard an invisible vehicle. It proves indeed to be Flo Buckstaff on the Halsey House 'bus. Anxiety disappears. Thanks and blessings and kisses. Uncle Phoenix and Aunt Clauson depart down the walk with Pitt between. They have not thought of Bonniebell. Here she comes from the bedroom where the baby lies asleep.</p>
 <p>"Good-by, Barbara," she says, and kisses her with surprising passion. "Good-by. Oh, love what you've got. Love what you've got!"</p>
 <p>The little bird-like thing clings to Barbara. For a moment she has spoken free, with no bonds, no veils. She is gone. High time, too, for Flo Buckstaff is just closing the 'bus door, having forgotten all about her.</p>
-</div><div n="4" id="zgbirth045" type="subsection">
+</div>
+<div n="4" id="zgbirth045" type="subsection">
 <head>(4)</head>
 <p>Following a departure, a house must be tuned to the pitch of those left behind. There is a general disturbance, a need of new orientation. It was evening before the sitting-room resumed its wonted air.</p>
 <p>Evening, and such an evening as had settled upon the house since the coming of the child. The baby having been put to bed, Barbara lay on the couch behind the sitting-room stove.
@@ -1308,8 +1433,12 @@ Pitt read to her. Pitt's idea of reading aloud was to sit with a newspaper befor
 <p>She lay silent, thinking of Bonniebell, envying her. But no one would look at Bonniebell. There she would be, and no one would dream of giving her a good time. While she, Barbara, if she had the clothes--</p>
 <p>Pitt did not speak. He was face to face with he knew not what. A kind of death was in the room.</p>
 <p>As for Bonniebell of the anomalous name, she was watching her own pinched face against the flying night beyond a car window. She had no envy, almost no wonder. She was the colorless sister of her benefactor. She was trained to no work, she had no hope. Perpetually she lived the lives of others without the radiance of self-sacrifice. She accepted all, she died to her physical possibility, her social relationships--but she grew luminous. A thousand filaments bound her. Of these she fashioned her garments. Incalculable waste--incalculable victory. There was a kind of silence in her, where pure influences found entrance. Virgin, she was a mother. In Barbara, the mother, a brood of desires ravaged, unmothering her.</p>
-<pb n="111"/></div></div><div n="9" id="zgbirth046" type="section">
-<head>IX</head><div n="1" id="zgbirth047" type="subsection"><head>(1)</head>
+</div></div>
+<pb n="111"/>
+<div n="IX" id="zgbirth046" type="section">
+<head>IX</head>
+<div n="1" id="zgbirth047" type="subsection">
+<head>(1)</head>
 <p>MISS MAYME CARBURY, in a rose broadcloth, white velvet toque and flowing veil, came down Burage main street on an afternoon in early Spring.</p>
 <p>She had no errand, yet she walked as one having an errand. This was a part of Miss Carbury's air. On Spring afternoons, she dressed in the best that she owned, and fared forth into the open, like a robin and for a robin's reasons, lacking their dignity.</p>
 <p>Mark and Arum's store, with its wax ladies and pampas grass in the windows, she entered, traversed its length, priced lace, returned the salute of the junior proprietor.</p>
@@ -1340,7 +1469,8 @@ Pitt read to her. Pitt's idea of reading aloud was to sit with a newspaper befor
 <pb n="113     MARSHALL PITT"/>
 well be the Goddess of Liberty. Say, what a swell rig!"</p>
 <p>"This old thing!" Miss Carbury shrugged and was gone.</p>
-</div><div n="2" id="zgbirth048" type="subsection">
+</div>
+<div n="2" id="zgbirth048" type="subsection">
 <head>(2)</head>
 <p>Barbara was cutting a little petticoat on the dining-room table. She wore a blue calico skirt, a flannel dressing sacque and an apron. The baby rolled at her feet. When the bell rang, and rose broadcloth and white velvet filled the house, Barbara grimly ushered her guest to the dining-room, strewn with her work. If Mayme Carbury wanted to pity her, she should pity.</p>
 <p>By right of her father's position as health officer, by right of her mother's money, and by right of their square brick home at the end of Main Street, Miss Carbury should have belonged to the group of the Stubbs, the Brewsters, the Hudsons and the others. But Miss Carbury, it appeared, was common. A drive or two with a traveling salesman picked up by means far from circuitous, a pronounced taste for color in street-clothes, a penchant for expressions "not used," these had gradually barred her. She had slipped down to the next estate, and there she ruled discreetly. She had a large heartedness, an unconscious democracy and a really fine independence. "I won't be miserable just to be grand," she dismissed her dismissal from the self-constituted <hi rend="italic">&eacute;lite</hi>. The story of her gradual descent is a chronicle. And of course at large social affairs, Miss Carbury and her friends were always included. They need hardly have observed the difference, had not the accounts of the small affairs from time to time reached them. But then a reversal of some standards exists in Burage. To be bidden not to the small affairs but to the large ones is the compliment. "Oh, no. It wasn't much of a party. Only eight." And "It was a wonderful success. The house was crowded. Everybody was there," mark the relative desirabilities. In like manner, the front seats in the Burage Opera House, far from being sought, are at discount. "Side seats and first six rows and last ten rows, thirty-
@@ -1377,7 +1507,8 @@ Get out some, and you'd <hi rend="italic">be</hi> her. If you'd dilly-nip around
 <p>When Pitt came home on Saturday night, he heard Barbara singing in the kitchen. At his step, she ran through the house, clasped his neck.</p>
 <p>"Wait till you see what I've got," she cried, like a little girl.</p>
 <p>Pitt held her hungrily. These moments came so seldom, now. He kissed her and she kissed him tempestuously. Who was there to tell the little man that it was not he whom she saluted, but some effigy of life itself?</p>
-</div><div n="3" id="zgbirth049" type="subsection">
+</div>
+<div n="3" id="zgbirth049" type="subsection">
 <head>(3)</head>
 <p>The tent show was in the Market Square. There were huge dirty canvas, with three flaps raised, and rows of rickety seats, without backs, facing a stage whose curtain was painted with dancing figures, neither of yesterday nor of to-morrow. Outside the door, a band, dressed for no reason as common sailors, played brief, frequent, assailing tunes. On the side-walk a crowd was gathering. The tide from "down-town" turned idly up the main street toward the music. These folk were peculiarly a part of the picture--their laughter, their bold gestures, their emphasis. But the great elms of the square and the lemon and rose in the sky were as alien as if they had been superimposed, in the vain hope of obscuring the ruck of folk and their noises.</p>
 <p>Barbara and her friends came, laughing. It seemed essential to laugh--a kind of <hi rend="italic">faux pas</hi> not to laugh, or a lack of good faith. There were six or eight young married women and girls. All continually looked about them. They were like cats in the time of young birds. Husbands and Sweethearts were to join
@@ -1413,7 +1544,9 @@ them at large in the street. But Pitt was in Chicago, helping Strain.</p>
 <p>Buck was beside them, his tickets ready in a crimson string.</p>
 <p>"Nine times," he counted them. "Fall in. Come along. Catch hold of father's apron string!"</p>
 <p>They moved toward the tent door. Barbara looked over-shoulder. The man stood there gravely watching her. She nodded.</p>
-</div><div n="3" id="zgbirth050" type="subsection"><head>(3)</head>
+</div>
+<div n="3" id="zgbirth050" type="subsection">
+<head><sic>(3)</sic></head>
 <p>Two hours later she stood once more in the doorway of the tent.</p>
 <p>"Here," she heard him say.</p>
 <p>She followed him into the dusk of the square.</p>
@@ -1459,8 +1592,12 @@ body and beats out in pulses and rhythms to join with other pulses in like rhyth
 <p>She gave him her hand.</p>
 <p>"You'll be there?" He kept her hand until she heard herself answer: "I will--yes--I'll be there."</p>
 <p>He released her hand, gravely bowed, and was gone. Barbara went up the steps, a soft current threading through her, or through this one who spoke and moved in her place.</p>
-<pb n="123"/></div></div><div n="10" id="zgbirth051" type="section">
-<head>X</head><div n="1" id="zgbirth052" type="subsection"><head>(1)</head>
+</div></div>
+<pb n="123"/>
+<div n="X" id="zgbirth051" type="section">
+<head>X</head>
+<div n="1" id="zgbirth052" type="subsection">
+<head>(1)</head>
 <p>PITT was in the City for four days. For four nights Barbara walked until midnight with Max Bayard.</p>
 <p>Those days saw in her a process almost atomic. However the process went on, it concerned itself not at all with her thought. It was as if a great area of the old Barbara were inhibited and as if, across areas now first unsealed, were flowing unguessed forces with which she could not cope. But none of these forces were of the mind. What forces were they? She knew. But she found her refuge in the form which they took. They were not as one would have supposed. One would have supposed that they were evil, but they were good. This was not in the least like all that she had learned to fear. Here was nothing save the tenderest understanding. So she herself spoke and answered. Then:</p>
 <p>"Well, but what about Marshall?"</p>
@@ -1508,7 +1645,8 @@ nothing of marriage. He played on all the strings to which he knew that she woul
 <p>All this had gone swiftly. She reached home before Pitt and was mixing bread sponge in the kitchen when he came in. As her spoon stirred, something within her was laughing and crying: Bread sponge.</p>
 <p>Pitt sat reading, moving his lips with a whispering sound. This did not disturb her--it was so that she herself read. But he had slipped off his shoes, and this did disturb her, not because it disturbed her, but because she divined that it is not done.</p>
 <p>She went into the dark bed-room and leaned above the baby. He followed her there, stood by her side. It is as if the soul discerns the ruin of its own, and can seize upon last moments to prolong and to remember. He said nothing, and she felt the silence like an evil. In the darkness they could not see the baby or each other. They merely stood there, hearing the breathing of the child. Pitt did not touch her. She felt as if he knew all. Life seemed to have stopped about them, and they to be rushing on. She went weeping from the room. He came and said a thousand stupid things, as "Now  then!" "There, sir!" "Well, well, well!"</p>
-</div><div n="2" id="zgbirth053" type="subsection">
+</div>
+<div n="2" id="zgbirth053" type="subsection">
 <head>(2)</head>
 <p>"Barbara," he said at breakfast, "I've got something to ask you."</p>
 <pb n="128     BIRTH">
@@ -1532,7 +1670,8 @@ the baby--she knew how Pitt would miss the baby. However, that other person who 
 <p>"Then you don't want to sell?" he said.</p>
 <p>"You do as you like with the place," she said. "But one thing you must do: If it is sold, you must keep whatever is left after paying the mortgage. You must promise that."</p>
 <p>She said to herself that this would partly repay him, and from that hour she insisted that the house should be put in Pitt's name. He protested, but her point was won. In any case, she must stand by Pitt until the debts were paid; then, if he had the house, he would have lost nothing. To the one scrupulous nicety of her upbringing she was true.</p>
-</div><div n="3" id="zgbirth054" type="subsection">
+</div>
+<div n="3" id="zgbirth054" type="subsection">
 <head>(3)</head>
 <p>Within a fortnight, Miss Rachel Arrowsmith desired a floor waxed and certain walls hung. Pitt's bill was Twenty-eight Dollars. It had amounted to slightly more than that, but he had a fancy to keep it at Twenty-eight, the sum that he coveted.</p>
 <p>He threw the check in Barbara's lap. She was feeding the baby. With her free hand she spread the check on the baby's shoulder, read, raised understanding eyes. He was profoundly affected by the change which the moment wrought. Listless, brooding, relaxed, she had been sitting. At sight of the check her cheek colored, her eyes filled with light.</p>
@@ -1567,9 +1706,9 @@ can quirk my finger a good deal grander if I know it's solid."</p>
 <pb n="132     BIRTH"/>
 unusual length; this bangle had flirted engagingly whenever she lifted her spoon.</p>
 <p>Barbara now opened Bonniebell's letter. It set forth in childish delight that they had come to Hoboken, New Jersey, to visit distant relatives of Uncle Phoenix's; that they had been there for two weeks; and that Bonniebell had been twice to New York.</p>
-<milestone rend="blank-line" type="subsection">
+<q>
 <p>"I was never so happy in my life as when I had two hours to spend alone in Lord and Taylor's store. Barbara, I didn't know there were such lovely things in the world. Dresses trimmed with <hi rend=”italic">fur</hi>--can you imagine?  Velvet dresses, with panels embroidered in colors. Brocaded dolmans. Damask curtains . . . a magnificent set of garnets . . . enormous swan's down fans . . . and a pink dress <hi rend=”italic">with no sleeves at all</hi>. . . . Everyone here drives about in low open carriages. We went to the Grand Opera House, and I heard Patti--I took the money I had for a hat, because I got some ideas free here and can trim my own. I saw one. . . ."</p>
-<milestone rend="blank-line" type="subsection"/>
+</q>
 <p>"Bonniebell!" said Barbara. "Think of her having all that!"</p>
 <p>"Look what she's sent," said Pitt.</p>
 <p>It was her Patti concert program, and a Lord and Taylor catalogue. Barbara turned the pages, looked, longed. It was Bonniebell in her flapping woolen skirts who sent Barbara this news--Bonniebell, the lover of home, with a genius for its mere machinery.</p>
@@ -1610,8 +1749,10 @@ self had been. And now nothing guarded her. She was subject to wild, random forc
 <p>"Barbara--you're coming with me?"</p>
 <p>But he seemed at last to understand that Barbara would do that which she would not put into words--again her compunction, plus her inarticulateness. Then, too, there was her starved romanticism. And her emptiness. Understanding none of these things, Bayard yet understood how to treat all.</p>
 <p>"Put a light for me to-night then," he whispered. "Near your front window. To say you'll go. You'll hear me answer--I'll whistle back some tune. And that's our promise. You'll go! Don't fail me, dearest. . . ."</p>
+</div>
 <pb n="135     MARSHALL PITT"/>
-</div><div n="4" id="zgbirth055" type="subsection"><head>(4)</head>
+<div n="4" id="zgbirth055" type="subsection">
+<head>(4)</head>
 <p>All the evening Pitt worked at his sample books in the little shop. Barbara sat in the parlor, in the darkness. It would be the red glass lamp which she had filled that morning and set on its shelf in the kitchen. If she had known that to light that lamp to-night would open the door for her. . . .</p>
 <p>Her mind was clear and occupied with matters of no importance, or with the tasks which she had in hand for the morrow--to wash her hair, to turn the mattresses, to pin a clean cover on the ironing-board. She had promised Mrs. Nick True ten cents for the missionary society and had forgotten to take it to her.</p>
 <p>Pitt came in and said: "All in the dark? Why don't you have a light in here?"</p>
@@ -1644,10 +1785,12 @@ felt it after long wakefulness. She set the lamp in the parlor window.</p>
 <p>"Don't set it there. It shines in my face."</p>
 <p>"I'll take it away in a minute or two," said Barbara.</p>
 <p>She stood in such wise that her body should shield Pitt's face from the lamp's rays. For a long time she stood there. From the little hot bed-room came the sound of the creak of the springs. Then she heard a gay tune, whistled in the street. It was a cheap, popular tune of the time--"Two Little Maids in Blue."</p>
+</div></div>
 <pb n="138"/>
-</div></div><div n="11" id="zgbirth057" type="section">
+<div n="XI" id="zgbirth057" type="section">
 <head>XI</head>
-<div n="1" id="zgbirth058" type="subsection"><head>(1)</head>
+<div n="1" id="zgbirth058" type="subsection">
+<head>(1)</head>
 <p>IN her preparation she was detached and without thought, as if her mind hung somewhere in solution.</p>
 <p>All that last day, Pitt was at home. She did her packing almost before his eyes. She pressed her laces, ironed the baby's best white dress, blackened shoes, took stray stitches, all in Pitt's presence. He noticed nothing. Pitt never noticed anything.</p>
 <p>The weight which lay upon her whenever, for a flash, thought did come, was not the burden of her choice, but the burden of Pitt's loss of the baby. In her confusion, it had not once presented itself to her that she could do other than take the baby. She had never been anything but a physical mother, and the bond of the body held. She could measure Pitt's loneliness for the child, and about it there formed her inevitable compunction.</p>
@@ -1668,7 +1811,8 @@ felt it after long wakefulness. She set the lamp in the parlor window.</p>
 <p>And she knew that this would be one of the things that he would remember.</p>
 <p>Abruptly Pitt turned and looked at the house. He saw her watching him and momentarily stopped, with a sense that she wanted something or that something was wrong, since she was looking after him. She smiled and waved the fork. He waved back with his sudden high-eyebrowed grin. And this, she thought, he would remember.</p>
 <p>She was cooking the dishes that he liked best. And when he came back, she went through the dinner quite serenely. "The big thing is afterward--not yet," she thought childishly.</p>
-</div><div n="2" id="zgbirth059" type="subsection">
+</div>
+<div n="2" id="zgbirth059" type="subsection">
 <head>(2)</head>
 <p>Pitt was at home when she dressed and when she left the house. When she wrote her note to him, he was in the next room, hammering at a broken catch on a door."</p>
 <p>"--that I could never keep this up all my life, Marshall. . . . It's nobody's fault--not yours, not mine. It just is this way. . . . I waited till the money was earned--the house is yours. Strain's buying it makes it that much easier. . . ."</p>
@@ -1684,7 +1828,8 @@ felt it after long wakefulness. She set the lamp in the parlor window.</p>
 <p>"I'm going out for a while," she said, at last. "I'm going out," she corrected conscientiously. She tried to glance back at Pitt, casually. He was examining the latches on the other doors; but he came toward her, executed an insane and favorite noise of his to make the baby laugh, and stooped and kissed him.</p>
 <p>"Good-by, Marshall," she said, before she knew that she was going to say it, and put up her face. That look of passionate and dog-like devotion flamed in his eyes with the quick surprise of what she had done. As usual, he was speechless. He watched them down the street. Barbara did not look back.</p>
 <p>The Chicago train left at six o'clock. For an hour she walked about the Burage streets, making little purchases, chatting with a friend or two. Toward six she asked Mis' Nick True's little boy if he would take the baby carriage home for her and be sure to give that note to Mr. Pitt. She did not know that it was, by chance, Nicky True who had gone to the farmhouse to announce to Pitt the birth of their child. Then she walked to the station with the baby in her arms, boarded the train without buying a ticket, and gave herself up to her new singing.</p>
-</div><div n="3" id="zgbirth060" type="subsection">
+</div>
+<div n="3" id="zgbirth060" type="subsection">
 <head>(3)</head>
 <p>These were the days of the beginnings of cycling. All Burage cycled on high wheels, and on the installment plan. Buck Car-
 <pb n="141     MARSHALL PITT"/>
@@ -1709,7 +1854,7 @@ bury did little but cycle--he wore goggles and a visor and knickerbockers and le
 <p>"What's this? " said Pitt, without alarm, and broke the seal.</p>
 <p>But, as for Buck Carbury, he stopped breathing. Something that Mayme had been saying since that first night of the tent show recurred to him.</p>
 <p>Pitt raised his eyes.</p>
-<p>"What <hi rend=”italic">is</hi> this, Buck?" he said. "She's playing off. Was Mayme with her . . ."</p>
+<p>"What <hi rend="italic">is</hi> this, Buck?" he said. "She's playing off. Was Mayme with her . . ."</p>
 <p>Buck stepped to his side. Together they read the letter through, and stood staring at each other.</p>
 <p>"Glory," said Buck. "That was the last train out."</p>
 <p>"She--she don't say anything about the Chicago train," Pitt found to say. He stood with the back of his hand on his mouth, the picture of the uncomprehending and the ineffectual.</p>
@@ -1731,8 +1876,9 @@ bury did little but cycle--he wore goggles and a visor and knickerbockers and le
 <p>Mayme replied that his face was dirty, and as for Barbara, she had been seen walking with Max Bayard, that tent-show band-master. But that Buck was not to feel compelled to repeat this fact. To which her brother replied crossly and ungratefully that to his knowledge no one had repeated it excepting herself. And he kept thinking of Pitt as he had last seen him, with his face all awry and ugly.</p>
 <p>At midnight Pitt had moved only from his empty porch to his empty kitchen, and there he sat, seeing nothing. Once he rose and looked out, and brought in the baby carriage.</p>
 <p>"In case it should rain," he explained aloud.</p>
+</div></div>
 <pb n="144"/>
-</div></div><div n="12" id="zgbirth062" type="section">
+<div n="XII" id="zgbirth062" type="section">
 <head>XII</head>
 <div n="1" id="zgbirth063" type="subsection">
 <head>(1)</head>
@@ -1761,7 +1907,7 @@ wait," she thought. She turned off the light and stood by the window.</p>
 <p>"Leave him!" he threw back, surprisingly. "I should think not."</p>
 <pb n="146     BIRTH"/>
 <p>"And then I thought, if he was yours, how I'd love him--If there'd been more time--oh, did I do it wrong?" she cried. "You said you liked that little kid with the show--"</p>
-<p>"Why, it isn't the baby so much," said Bayard. "It's the man. What am I going to do with <hi rend=”italic">him?</hi>"</p>
+<p>"Why, it isn't the baby so much," said Bayard. "It's the man. What am I going to do with <hi rend="italic">him?</hi>"</p>
 <p>This man's processes were simple: A lark with a village girl was one thing. A mix-up with a husband was another. For this he had no mind, and he did not see the necessity. This necessity, however, he reflected, was now thrust upon him. Whatever they might say or do, the die had been cast.</p>
 <p>He swung round and leaned on the sill, looking at Barbara. She was very lovely, very desirable. What he had intended for the future he could not have told. He had been drifting, according to his custom. And this now was no fault of his. In fine, he might as well hang for a sheep as for a lamb.</p>
 <p>He held out his arms.</p>
@@ -1786,7 +1932,8 @@ moved him vaguely, but he thought that what moved him was the humor of the time;
 <p>"Wait a minute," said Bayard.</p>
 <p>He threw away his cigar and folded his arms.</p>
 <p>"Barbara," he said, "my life's been pretty rotten. I've been wanting for quite some time to clean my soul. I don't know whether you'll see it--but I guess this is the time."</p>
-</div><div n="2" id="064" type="subsection">
+</div>
+<div n="2" id="064" type="subsection">
 <head>(2)</head>
 <p>Swift maturity is one of the possibilities of its universe to which the human animal is unused. Ripening is expected to be gradual. When some forcing process is operative, he falls in the inarticulateness to which he is subject in all extremes--grief, fear, love.</p>
 <p>In this stupor, Barbara sat through the night. She had wept, sat quiet, wept again. But all the time her understanding was hardly functioning. She was beaten upon by that of which she had no knowledge. She was like primitive man, shocked by electricity. She had nothing to which to relate or by which to gauge her experience. It was notable that the whole effect was
@@ -1816,21 +1963,25 @@ as much physical as spiritual. Because her body was accustomed to function more 
 sustain them. And then she was unimaginative, and such a course presented itself as involving no finality of separation from the baby. The suggestion once given, her cloudy mental processes were wholly usurped. She held only to the fact that Marshall would be in the City on the next day and that she herself might take the baby home. There followed the physical relief of planning.</p>
 <milestone rend="blank-line" type="subsection"/>
 <p>It was early when she came down stairs and, in the lobby, asked her direction of a young girl. This girl, ruddy, laughing, and carrying a gold-mesh bag, was entering the cafe with her parents, substantial and preoccupied. The girl directed Barbara kindly, and with a pretty air of importance at knowing her way. To Barbara, seeing her so safe, with her braided gray gown and her gold-mesh bag, she represented another period, another order of being, like Helen or Titania.</p>
-</div><div n="3" id="zgbirth065" type="subsection">
+</div>
+<div n="3" id="zgbirth065" type="subsection">
 <head>(3)</head>
 <p>Into the Chicago train-shed Pitt came with an air of death. He had not slept or eaten or shaved. He had on the seersucker coat and his hat was too large. He looked as men look about whom young, giggling girls cruelly remark: "Somebody loves him."</p>
 <p>Buck Carbury silently walked beside him.</p>
 <p>"Where do they inquire for--for folks that go off like that?" Pitt asked.</p>
 <p>Buck groaned. "Oh, Lord. Oh, Lord." He kept on with his meditations. He could not tell Pitt what he suspected. He must tell Pitt what he suspected. Buck suffered, trod upon the feet of those who glared at him in consequence and were not even observed. Finally, in the station, Buck managed to intimate what he feared. Pitt merely shook his head, and absently. Oh, no. Buck was mistaken. Why, he, Pitt, had never heard Barbara even mention a Mr. Bayard.</p>
-<pb n="151"/></div></div><div n="13" id="zgbirth066" type="section">
+</div></div>
+<pb n="151"/>
+<div n="XIII" id="zgbirth066" type="section">
 <head>XIII</head>
-<div n="1" id="zgbirth067" type="subsection"><head>(1)</head>
+<div n="1" id="zgbirth067" type="subsection">
+<head>(1)</head>
 <p>AS she alighted from her train, Barbara stared about the Burage platform. For an instant she thought that it was not Burage.</p>
 <p>The trainmaster, passing, pointed to his hat with his thumb. Barbara nodded, crimsoned, her eyes shifting. Did he know?</p>
 <p>"Why, say," this man cried in concern, "you just missed your husband. He went in on Number 8."</p>
 <p>"I know," she said, and in her double relief, she smiled at him radiantly. "It's too bad," she added lamely, and signaled the hotel "rig." Flo Buckstaff himself was driving. He was shirt-sleeved, smoking, sociable. She was alone in the vehicle, and he flung one leg over the arm of the seat and discoursed to her.</p>
 <p>"Gosh," he said, "if it hadn't been for your dime this mornin', I might as well have been dead as drivin'. That's all the public cares about you. Do you s'pose they'll ride so's to patronize you? Not them lubbers. They'll hoof it and leave you starve to death."</p>
-<p>So <hi rend=”italic">he</hi> did not know either!</p>
+<p>So <hi rend="italic">he</hi> did not know either!</p>
 <p>He drove through the main street, and every blind seemed to Barbara to shield accusing eyes. Mis' Miles was painting her picket fence a sharp green. Barbara looked straight ahead, but Mis' Miles's voice called to her gayly, and Flo pulled up.</p>
 <p>"Land, Barbara, been gaddin'? Look at us. Ain't we scrumptious? "She came outside and Barbara knew at once that she, too, knew nothing. Mis' Miles made dabs at the baby, and would have exchanged a few words with Barbara save that Flo, his leg
 <pb n="152     BIRTH"/>
