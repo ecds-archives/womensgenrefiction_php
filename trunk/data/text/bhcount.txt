@@ -91,7 +91,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </profileDesc>
 <revisionDesc>
 <change>
-<date>2005-April-25</date>
+<date>2005-May-02</date>
 <respStmt><name>Erika Farr, </name>
 <resp>project manager.</resp></respStmt>
 <item>XML tags inserted in compliance with TEI guidelines.</item>
@@ -100,11 +100,47 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </teiHeader>
 <text>
 <front>
+<div id="bhcount000" type="covers">
+<figure id="bhcountfc" rend="inline">
+<figDesc>Front cover of  Harrison's <hi rend="italic">The
+Count and the Congressman</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="bhcount001" type="frontispiece">
+<figure id="bhcountfp" rend="inline">
+<p>"How intensely beautiful the night is! How restful, how
+uplifting!" --Page 82</p>
+<figDesc>Frontispiece included in Harrison's <hi rend="italic">The
+Count and the Congressman</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="bhcounttp" n="[1]" pages="Title Page"/>
+<titlePage>
+<docTitle>
+<titlePart type="main">THE COUNT AND THE <lb/>CONGRESSMAN</titlePart>
+</docTitle>
+<byline>By <lb/>MRS. BURTON HARRISON <lb/>Author of "A Bachelor
+Maid," "The Carlyles," "The<lb/> Circle of a Century,""The
+Anglomaniacs," Etc.</byline>
+<titlePart type="desc">ILLUSTRATED BY ALEX. O. LEVY</titlePart>
+<docImprint>
+<pubPlace>New York</pubPlace>
+<publisher>CUPPLES &#x0026; LEON COMPANY<lb/> Publishers</publisher>
+</docImprint>
+</titlePage>
+<pb n="[2]"/>
+<div id="bhcount002" type="copyright">
+<figure id="bhcountcr" rend="inline">
+<figDesc>Copyright information for Harrison's <hi rend="italic">The
+Count and the Congressman</hi>.</figDesc>
+</figure>
+</div>
 </front>
 <body>
 <pb n="3"/>
-<div n="1" id="" type="chapter">
-<head><l>THE COUNT AND THE CONGRESSMAN</l><l>CHAPTER I.</l></head>
+<div n="1" id="bhcount011" type="chapter">
+<head>THE COUNT AND THE CONGRESSMAN<lb/>CHAPTER I.</head>
 <p>A TEPID night of early spring in Washington saw the Honourable Angus McPhail, member of Congress from a city of the middle West which had long ceased to allure him after the close of the session in the National Capital, bidding farewell to the guests convened at his house for dinner followed by "a little bridge."</p>
 <p>It was one A. M. when they arose from the tables. A brief discussion of <hi rend="italic">p&#x00E2;te</hi> sandwiches, hot bouillon, and other enticements, sent them, both men and women, refreshed to the carriages and herdics lined up in the bowery street below. McPhail himself escorted to her brougham the large pink and white Ambassadress who had honoured him with her efflorescent presence. As he put her inside, he kissed the plump hand from whose wrist depended a bag of flexible gold set with sapphires, now comfortably filled with her evening's winnings.</p>
 <pb n="4     THE COUNT AND THE CONGRESSMAN."/>
@@ -113,9 +149,9 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <p>While the host was remounting the stairs to the drawing-room floor, he passed a man coming down them.</p>
 <p>"Dropped my cigar case and went back to look for it. Good night, again, McPhail."</p>
 <p>"Good night. Hope you found the missing article."</p>
-<p>"Yes, thanks, in the little 'porcelain' room at the end of the suite yonder. That--and something else. Won't delay your t&#xOOEA;te-&#x00E0;-t&#xOOEA;te."</p>
+<p>"Yes, thanks, in the little 'porcelain' room at the end of the suite yonder. That--and something else. Won't delay your t&#x00EA;te-&#x00E0;-t&#x00EA;te."</p>
 <p>He spoke significantly. McPhail looked annoyed, and a tinge of deeper red came upon his full cheeks.</p>
-<p>"t&#xOOEA;te-&#x00E0;-t&#xOOEA;te? What d'ye mean, Grisson? Everybody's gone but you."</p>
+<p>"t&#x00EA;te-&#x00E0;-t&#x00EA;te? What d'ye mean, Grisson? Everybody's gone but you."</p>
 <pb n="5     THE COUNT AND THE CONGRESSMAN."/>
 <p>"And one other," said Grisson, cynically smiling. "About the time I dropped my cigarette case, she must have dropped her fan. She's still looking for it. Let her down gently, Mac. She's older than most women, and has seen better days."</p>
 <p>McPhail did not answer. When the scoffer had gone out of the open portal with sleepy servants standing on either side, the master of this luxurious bachelor establishment turned with a frowning face, and hurried into the drawing-rooms.</p>
@@ -233,7 +269,9 @@ obsession--his longing to get Harmony Hall back has been! But since he cannot	--
 <p>It was as if Heaven were opening before her. The desire of her husband's heart brought within his grasp! The question was, would he or would he not possess himself of it. If Margot would--ah! Margot <hi rend="italic">must!</hi></p>
 <p>"Oh, Mr. McPhail," she repeated, brokenly. "I'm not sure--but I think yes, I am almost sure. If she were here, I believe I'd be quite sure."</p>
 <p>"I shall leave it to you, dear madam," said McPhail with gleaming eyes.</p>
-<pb n="28"></div><div n="2" type="chapter">
+</div>
+<pb n="28"/>
+<div id="bhcount012" n="2" type="chapter">
 <head>CHAPTER II.</head>
 <p>MARGOT leaned over the balustrade of the wide balcony fronting their suite of rooms in an hotel of ideal prettiness upon a lake where every prospect pleased. On this blazing first of June, the quality of the lazy air compacted with scents of the horse-chestnut blooms in the great avenue running parallel with the water, reminded her of her far away home in Washington. She did not altogether wish to be reminded of Washington or of her home or its people. That morning, a certain cable message had come for Aunt Katrina, and following it a battle of words had passed between the two women. The struggle had left Margot sore and stirred to the core of her resistent heart. After luncheon, Mrs. Methuen had betaken herself to rest on the chaise-longue in her pleasant salon. The girl had stolen out on the balcony to look down upon the passing show in the garden beneath, and wonder where she might turn for aid and comfort in sore stress of mind.</p>
 <pb n="29     THE COUNT AND THE CONGRESSMAN."/>
@@ -349,7 +387,9 @@ their best to get hold of him as a society lion, but in vain. He will have nothi
 <pb n="54     THE COUNT AND THE CONGRESSMAN."/>
 along the shore on either side the lake began calling to evensong. Upon the white ribbon of the high road near by, passed a procession of villagers carrying a crucifix and singing. Obeying a sign from their employer, the boatmen rested oars beneath a wall dripping with purple wistaria, till it had passed. Above against a background of black-green cypresses, sprang two Japanese trees having stems and boughs of a vivid red-like coral. Everywhere in the grounds of the villa beneath whose walls they had taken refuge, blossomed roses, standard and clinging. Far away, up on the dusky mountain crest above, lights like stars were beginning to twinkle in humble little homes.</p>
 <p>Margot could not resist a glance in the direction where she knew Stelvio's house to be. No sight or sound of his boat was upon the waters. It was as if it had already passed into the shadows that never lift.</p>
-<pb n="55"/></div><div n="3" type="chapter">
+</div>
+<pb n="55"/>
+<div id="bhcount013" n="3" type="chapter">
 <head>CHAPTER III.</head>
 <p>"OF course I have asked Stelvio," said Countess Fleury, who was pouring tea for a few friends in a bran new classic temple perched half way up the hillside dominating her beautiful Seventeenth Century villa just charmingly renovated with all requirements of Twentieth Century taste and luxury. "In the first place, because we are neighbours and have no end of common interests; and secondly, because I wanted to present him to my pretty countrywoman here, who has a rage for 'types,' and will accept nothing modern or commonplace in these surroundings."</p>
 <p>"Except a second cup of your delicious tea," answered Miss Methuen, hoping that her studied calm was not belied by the sudden rush of pleasurable expectation conveyed by Countess Fleury's words.</p>
@@ -460,7 +500,9 @@ seemed to her imagination to be erased, the stoop gone from his office-bowed sho
 <pb n="75     THE COUNT AND THE CONGRESSMAN."/>
 charge's spirits. "I wish it would enter Stelvio's head to invite us to visit him in return. Mr. Lee tells me there are some treasures of art to be seen at Far Niente, but that nobody ever gets in there."</p>
 <p>"I can hardly think that invitation would 'enter into Count Stelvio's head,'" said Margot, dreamily. Her dashed hopes about her father were already mingling with happier thoughts, as she unfolded her napkin and broke off a bit of roll. Mrs. Methuen, taking quiet note of this lightning change of mood, wondered if Margot's experience in the great outer world were not really beginning to teach her common sense, at last?</p>
-<pb n="76"/></div><div n="4" type="chapter">
+</div>
+<pb n="76"/>
+<div id="bhcount014" n="4" type="chapter">
 <head>CHAPTER IV.</head>
 <p>THE wonderful summer days trooped on joyously like a procession of Botticelli's nymphs. Margot would not admit to herself what magic was at work in keying her spirits to a pitch they had never before reached during her travels with her aunt. Nothing more was said about McPhail's visit, and--if occasionally, a shade of anxiety came over her because Aunt Katrina had ominously ceased all allusion to the detested American wooer--in such beautiful weather, in such a world of bloom and sunshine it was not possible to dwell upon disagreeable things, so long as she did not see or hear them! Nor had further reference been made to the prospect held for a moment before her dazzled eyes, of lifting the life burden from her father's shoulders. She almost thought it had been a dream that Aunt Katrina had ever promised to tell her how this blessed task could be accomplished; if not a dream of her own, at least a delusion of Aunt Katrina's, who when she
 <pb n="77     THE COUNT AND THE CONGRESSMAN."/>
@@ -534,7 +576,9 @@ the steps. For a moment, she let her fingers lie within his happily. All seemed 
 <p>"<hi rend="italic">&#x00C0; demain!</hi>" she cried, in a joyous voice.</p>
 <p>"<hi rend="italic">&#x00C0; demain!</hi>" he echoed, and the launch was off upon the dark and silent stream. Even Mrs. Clandeboye remained under the spell of their late experience. Without words, the two women lay back on their cushions and let themselves be carried swiftly through the gloom. As they were passing Villa Far Niente the voice of their boatman broke the magic spell.</p>
 <p>"Look, Signorina!" he said in his queer hoarse whisper. "Yonder, in Count Stelvio's chamber, the lamp is still burning before his mother's crucifix. Some say it's because her soul is not at rest. Chi lo sa? I give you what we people talk about in our homes on winter evenings when the tourists are gone, and the pleasure boats lie up in dry-dock. Chi lo sa!"</p>
-<pb n="90"></div><div n="5" type="chapter">
+</div>
+<pb n="90"/>
+<div id="bhcount013" n="5" type="chapter">
 <head>CHAPTER V.</head>
 <p>MARGOT found Aunt Katrina sitting up in bed to receive her. The headache that had kept Mrs. Methuen from dining with Countess Fleury had apparently vanished. In her pink peignoir, with a scarf of old Malines lace draped about her head, her eyes bright and alerts her face wreathed in smiles, the lady looked and felt thirty. Naturally, she was prepared to treat even a younger, prettier woman with consideration.</p>
 <p>"Well, my dear, was it pleasant?" she began, cheerfully. "Lydia, you may go now, but first twist a bit of pink paper over that electric bulb, and put my glass of eau de fleur d'oranger beside me on the table de nuit. Sit there, in the fauteuil near the foot of the bed, Margot, where I can see you. That frock Cento turned you out in twenty-four hours in Rome, is a distinct success. I never saw you look nicer."</p>
@@ -557,7 +601,7 @@ apprehension. She is quite willing for you to play with Count Stelvio, as you ha
 <p>Margot, in the darkness of her window retreat, hung her head guiltily. At that moment, turning aside to gaze into the garden, she saw passing under a cluster of electric lights erected upon the summit of an iron pillar on the walk nearest the water, the form of the subject of their discussion! She had not been mistaken, then, in thinking that Stelvio's boat had followed theirs to the hotel!</p>
 <pb n="94     THE COUNT AND THE CONGRESSMAN."/>
 <p>Stelvio was alone, smoking as he strode down the path to be lost in the shadowy grove beyond. But there, a few seconds later, she beheld the glowing tip of a cigar turn in the direction of her window, then remain stationary. A bounding joy passed into her heart, her veins ran quicksilver with delight. And it was he whom Aunt Katrina thought "made no difference" to her!</p>
-<milestone rend="blank-line" type="section"/>
+<milestone rend="blank-line" unit="section"/>
 <p>"Three ladies and a gentleman?" grumbled old Assunta, once Stelvio's nurse, now his housekeeper. "And where do you think the food is coming from, unless the good Lord rains it down from heaven which he has not yet seen fit to do for the Stelvio family."</p>
 <p>"I have been out this morning and caught these," her master answered, joyfully displaying a fine string of fish. "Fillet them, Assunta dear, as you can do it, and make a sauce tartare. Begin with an omelette 'aux fines herbes,' of course, or use mushrooms, that is better. Then--"</p>
 <p>"Then?" echoed Assunta, transfixing him with a scornful eye.</p>
@@ -586,7 +630,7 @@ a sweet whatever you like, and for dessert a dish of wood strawberries that I en
 <p>"Six of my baby chickens," mused the crone as she retired carrying her prize. "Madre di Dio, that is too much to ask. Five now, one apiece for each of the greedy strangers, one for Guido I might consent to. They would never notice while they were talking, that the platter went off quite empty. Five, even, is a great number. That lad Guido, is young and strong and
 <pb n="98     THE COUNT AND THE CONGRESSMAN."/>
 vigorous, he would be none the worse for going without. He could make it up on gniocchi, of which I will fill a large dish. If I can get Guiseppe to understand that he is to pass our young master quickly, as if the chicken had been offered and was refused! Four chickens--that is a sufficiency for the forestieri and four they shall have, not another blessed little creature shall be sacrificed. Now, I must send up the hill for the herd's wife to come down and help me. She will be well paid with a bunch of onions and young carrots from the garden. I must take time too to sew the braid upon the lapels of Guiseppe's livery coat. Lucky that yesterday I washed and starched his other shirt. Four--yes, four! Never, never, six!"</p>
-<milestone rend="blank-line" type="section"/>
+<milestone rend="blank-line" unit="section"/>
 <p>Mrs. Methuen, Mrs. Clandeboye and Margot, sat in their boat at the foot of water-steps green with the ooze of ages, while Mr. Lee, with agility born of a bookman's fond anticipation, skipped up to tug at the handle of a jingling bell hanging beside the lovely scroll work of an iron grille set in the wall arising from the lake. Over the summit of the wall above their heads foamed roses. In the heart of the little grotto seen through the grille waved a mass of luxuriant
 <pb n="99     THE COUNT AND THE CONGRESSMAN."/>
 maidenhair. The hillside behind and around the desolate old weather-scaled mansion was clothed in glorious beech and chestnut trees. In the terraced garden to one side, sprang a marvel of flowers and leafage with clumps of rhododendrons and red camellia springing from amid their shed petals as from islands of rosy snow. In this witchery of early summer foliage and bloom, with the joyous thunder of the cataract sounding ever in the ear, the swift rush of its subterranean river racing to the lake beneath a stone archway in the foundations of the house, a chorus of bird songs from every flowery thicket, even Far Niente wore a happy and welcoming aspect.</p>
@@ -599,7 +643,7 @@ down to open the grille. His bossy back, as he tottered ahead of them on the ret
 <pb n="101     THE COUNT AND THE CONGRESSMAN."/>
 my life. Your being here is really all that gives me courage to go on with it. When I remember parties that I have been with to visit a bachelor's domain! The astonishment of the women that mere man can be so comfortable and luxurious, without one of them to look after him. The little flattering cries and gushing praises of its ornaments and conveniences! If you had done me the honour to visit me at Castel Stelvio, you'd have found it perched upon a precipice that fell away six hundred feet below, with arcades and loggia, campanile and outside stairways, sculptured lions and griffins, tapestried halls and all the rest of it! But poor Far Niente has no architectural features to recommend it, and is desperately shabby at the best."</p>
 <p>"Don't say another disparaging word!" exclaimed the girl, as they came up with the rest of the party. "And remember, that to-day I am determined to be happy and pleased with everything I see!"</p>
-<p>Stelvio flashed upon her a radiant look of gratitude. As they followed him through the bare mouldering rooms, with their faded frescoes and portraits of blacka-vised ancestors whose frames were ranged under high dim ceilings touched with half obliterated gilding, he seemed to her an image of immortal youth that time
+<p>Stelvio flashed upon her a radiant look of gratitude. As they followed him through the bare mouldering rooms, with their faded frescoes and portraits of black-a-vised ancestors whose frames were ranged under high dim ceilings touched with half obliterated gilding, he seemed to her an image of immortal youth that time
 <pb n="102     THE COUNT AND THE CONGRESSMAN."/>
 nor chance can ever mar. In the chief salon their host paused hesitantly to let them glance in passing at the dusty mirrors and chandeliers of Venetian glass, the tattered satin of divans and fauteuils, the cracked and tuneless grand piano, the rigid rows of high-backed chairs, the tasteless ornaments.</p>
 <p>"This is by rights, our room of state," he said, with easy grace, "but I am quite conscious that most ladies would gladly dispense with the ceremony of being received in it to hurry on to a more habitable spot."</p>
@@ -631,7 +675,7 @@ seemed to me to be leading to the stars! To-day my theology has changed."</p>
 <p>"In what detail?" she asked, laughing.</p>
 <p>"Possibly that I am satisfied Heaven is here below," he said, in a low fervent tone.</p>
 <p>"That's unfair, Count Stelvio! I never looked for mere pretty speeches from you. Don't destroy my illusions, now, when everything else seems perfect."</p>
-<p>"The Signor Count is served," came in a mournful croak at Stelvio's elbow. Within the window stood old Guiseppe, bearing ineffaceably written upon his countenance his sense of mortification that after having so recently appeared in the character of door-porter, he should be now compelled to assume that of <hi rend="italic">ma&#x00EE;tre d'h&#x00F4;tel and that, with no line of liveried footmen to stand behind him awaiting the passage of the guests.</p>
+<p>"The Signor Count is served," came in a mournful croak at Stelvio's elbow. Within the window stood old Guiseppe, bearing ineffaceably written upon his countenance his sense of mortification that after having so recently appeared in the character of door-porter, he should be now compelled to assume that of <hi rend="italic">ma&#x00EE;tre d'h&#x00F4;tel</hi> and that, with no line of liveried footmen to stand behind him awaiting the passage of the guests.</p>
 <p>Stelvio smiled in boyish fashion. Margot smiled with him.</p>
 <p>"Poor old boy, he is overweighted with our family importance," said the young man. "At this moment, he would give worlds to have you think a chef and his scullions were at work in the kitchen, instead of his own crusty spouse, Assunta, assisted by the herd's wife from up the hill. I am only hoping Assunta will keep
 <pb n="108     THE COUNT AND THE CONGRESSMAN."/>
@@ -665,10 +709,17 @@ tooled with marguerites and fleur-de-lys--did not at first observe the dish prof
 <pb n="114     THE COUNT AND THE CONGRESSMAN."/>
 apology, apparently without shame. Another circumstance weighed on the old man's mind. Stelvio had forgotten that the infirm knife of the four vermeil-handled ones remaining to them, had been put at his plate. There was brief delay in the crash of the impending crisis. Stelvio's blade promptly parted company with its handle, flying sidewise to break one of the few rare Venetian hock glasses (pale green with crystal spirals) deluging Mrs. Clandeboye's plate with wine and splinters, and finally landing in the lady's lap!</p>
 <p>It was all very well for it Signor Conte to spring up from his plate with a thousand protestations of regret, to kneel at the lady's side, and with his own napkin remove the traces of the mishap, thought old Guiseppe. If wishes could have pierced the heart, his master's would have suffered then. The offensive part of it to Guiseppe was the laughter of that heartless American meess, whom he could not in any sense approve of, since the boatman of Villa d'Este had informed him in a whispered colloquy at the grille, that the bellissima Signorina was no heiress like the rest of her compatriots, but only the companion of the rich widow his employer (Guiseppe had even looked twice
+<pb/>
+<figure id="bhcountill114" rend="inline">
+<p>Margot amused herself by strewing the petals of the costly roses
+upon the water in their wake. -- Page 185</p>
+<figDesc>Illustration included in Harrison's <hi rend="italic">The
+Count and the Congressman</hi>.</figDesc>
+</figure>
 <pb n="115     THE COUNT AND THE CONGRESSMAN."/>
 at the widow reluctantly deciding that she was a little past the age!) When Stelvio followed up his enormity by shouting to Guiseppe to fetch him another knife, the old servant gazed at him reproachfully. Bring on one of the plebeian knives used every day he would not, were he shot for it! He stood stock-still, his salad bowl in hand, his wits deserting him.</p>
 <p>"Oh! might I have one leaf more of that perfect salad?" cried Margot, unconscious of the old man's enmity to her. The tide was turned, the meal proceeded to its end. The guests could not have divined that to pay for the hot-house grapes and forced peaches served in a basket of silver-gilt, Stelvio would have to go without cigars for a fortnight!</p>
-<milestone rend="blank-line" type="section"/>
+<milestone rend="blank-line" unit="section"/>
 <p>Mrs. Methuen, feeling at peace with the world, sat back in Stelvio's new crimson leather chair, sipping her coffee from a wee cup of gold, chiselled after a model of Benvenuto Cellini's, by one of that doughty goldsmith's pupils. Beside her, on a small table, stood a queer old coffer of tortoise-shell inlaid with silver. Opposite, Mrs. Clandeboye had drawn up a chair and was eyeing the coffer eagerly.</p>
 <p>Mr. Lee, who did not smoke, could hardly restrain
 <pb n="116     THE COUNT AND THE CONGRESSMAN."/>
@@ -680,8 +731,9 @@ his patience after luncheon, until Stelvio taking pity on him, had conducted the
 voice, accompanied him out into the gardens. After all, thought she, was it not her last chance to be alone with him in unconstrained intercourse? Strive as she might against it, the dark cloud of McPhail's arrival was gathering upon her mental horizon. After to-day, during the brief time that remained before her aunt's projected removal to the Engadine, there would be nothing but strife and stress in avoiding her persistent suitor.</p>
 <p>To go out alone with Stelvio into these beautiful covetable gardens she had so often viewed from the water!</p>
 <p>"A little while, only a little while to be happy in his company," she kept repeating to herself. "And then I awake from an impossible dream and become myself again."</p>
+</div>
 <pb n="118"/>
-</div><div n="6" id="" type="chapter">
+<div n="6" id="bhcount016" type="chapter">
 <head>CHAPTER VI.</head>
 <p>MARGOT and Stelvio stood in a grassy glade on the outskirts of the Far Niente gardens. Leaving behind the thickets wherein rhododendron massed its crimson, pink, white and sulphur-tinted bloom; where oranges hung like burnished gold, and red camellias glowed, where acacia and banksia twined their flowery garlands everywhere; where roses ran up tall tree trunks, throwing back branches starred with countless vivid blossoms--they had come into this sweet and solitary spot near the water's edge. The only tenants beside themselves were a marble hermes, the worse for time and moss, but smiling eternally between mottled tree boles under his umbrella of tender foliage--and a sunbeam, that defying the ban placed by nature upon his kind elsewhere at Far Niente, peeped through the trees to rest upon the young girl's radiant face.</p>
 <p>Stelvio saw with a fearsome joy that she was happy beyond all his imaginings of her. So long had he re-
@@ -787,8 +839,9 @@ sume that I need not present him to my guest, his countrywoman? Miss Methuen has
 his client preoccupied with guests. He had lost no time in bringing the would-be purchaser directly to the spot where he could view the coveted treasure and close the transaction with its owner. Of all days for Stelvio to have visitors!</p>
 <p>Signor Barrera was too much preoccupied by his own eager anxieties to observe anything unusual in the manner of his American client toward the Italian one at the moment of their coming together. He did not see the flash of suspicion in McPhail's bold black eyes succeeding his look of astonished pleasure that had fallen upon Margot Methuen's radiant youth and beauty enshrined in the Stelvio garden. Still less did Signor Barrera take note of the girl's sudden pallor, the hunted look upon her face as she coldly placed her finger-tips in McPhail's broad right hand in greeting.</p>
 <p>Stelvio, vexed beyond measure at the interruption, excused himself to the new-comers, promising to rejoin them shortly, and conducted Miss Methuen into the house. It was not until some time after his luncheon guests were safely installed in their boat and waving back to him from the water, that he could control himself to return to the Court of Hermes, and request Barrera and McPhail to come into his library.</p>
+</div>
 <pb n="137"/>
-</div><div n="7" id="" type="chapter">
+<div n="7" id="bhcount017" type="chapter">
 <head>CHAPTER VII.</head>
 <p>MARGOT, who on the return from the luncheon at Villa Far Niente, had shut herself in her own room ostensibly for a rest before tea, rejoiced that by a happy accident, Aunt Katrina had not become aware of the arrival at Count Stelvio's domicile of Mr. McPhail in company with the man of law, nor of her encounter with them in the garden. She had kept her own counsel, feeling that the crash of events was close enough at hand without her precipitating it. She could not bring herself to mention the hated name of her American suitor, or to meet the torrent of discussion the announcement of the incident would let loose. With Stelvio's withering roses pressed close to her cheeks, she lay for a while upon the chaise-longue trying to live over every minute of that exquisite golden half hour spent with him in the Court of Hermes. Into her life, her veins, her hopes, had passed irrevocably the sweet overmastering influence of a pure first love.
 <pb n="138     THE COUNT AND THE CONGRESSMAN."/>
@@ -846,7 +899,7 @@ trident, bestriding his scarlet and emerald dolphin with a look of conscious hau
 <pb n="151     THE COUNT AND THE CONGRESSMAN."/>
 Barrera. We don't need to intrude upon Count Stelvio's time any longer, eh? Most interesting place this of yours, Count Stelvio. If you come again to Washington, you must be sure to let me know. I have several rather good bits to show you in Connecticut Avenue."</p>
 <p>The visitors took their leave, Stelvio escorting them to the water-steps with a world of old-fashioned courtesy. When they were well out upon the lake, the owner of Far Niente went back into the great dreamy room full of shadows, that contained the Biberon, his no more, and dropping into a chair by the table where remained the crystal monster, gazed at it with a new sensation of gratitude. No longer did he lament his sacrifice! All now was for the brighter side of life and beautiful Margot!</p>
-<milestone rend="blank-line" type="section"/>
+<milestone rend="blank-line" unit="section"/>
 <p>McPhail, who, it must be owned, came rather well out of the affair of his important purchase, saw Signor Barrera off in the bus from Villa d'Este to catch the evening train to Milan, then went to his own room, considerably elated. He considered that to get what one wants above all things inanimate--a possession till now obstinately refused to him--was to pave the way to other victories over resistent Fate. His encounter with
 <pb n="152     THE COUNT AND THE CONGRESSMAN."/>
 Margot, while disconcerting to his vanity, could not subdue his powerful will. If he joined these ladies, as Mrs. Methuen's letter to Genoa had suggested, on their approaching journey to the Engadine, there would be ample opportunity to press his suit in a quiet, persistent way. He might even project for them a preliminary excursion somewhere. He knew very well through further advices from Margot's aunt, that his hope lay in time, in devotion, above all in what he had done, and could do for the girl's family. Since his re-opening of his campaign thro' the dejected personality of Margot's mother, he had been able to accomplish many things that inclined that poor lady favourably toward him. Mrs. Augustin Methuen had, indeed, never dared tell her husband and daughters what a skilful web McPhail had woven around her.</p>
@@ -857,8 +910,9 @@ wife trembled at the recollection of her own audacity in proposing it. McPhail h
 <pb n="154     THE COUNT AND THE CONGRESSMAN."/>
 salon door to escort the ladies in to dinner. Flushed with his conquest of the Biberon, he believed himself invincible.</p>
 <p>Still less did Margot suspect that her emotion at the mention of Stelvio's name had awakened in Mrs. Methuen's quick-witted apprehension, a pretty fair understanding of what must have passed between the young people in the garden, while she had sat drowsing in the Count's comfortable chair, over a lapful of old rings and watches. The chaperon blamed herself, was annoyed at the mischief evidently done, yet in her plenitude of power over the girl's movements, did not consider that mischief irrevocable. With McPhail's help, she could no doubt devise some definite interruption to the dangerous intercourse between two penniless sentimentalists, each of whom stood in the other's light.</p>
+</div>
 <pb n="155"/>
-</div><div n="8" id="" type="chapter">
+<div n="8" id="bhcount018" type="chapter">
 <head>CHAPTER VIII.</head>
 <p>WHEN Guiseppe, on going into his young master's room the morning after the great event of a breakfast party at Far Niente, found the Count ill and feverish, inclined to cling to his pillow, instead of being alert and calling out for his cold bath, the sour-visaged old servitor showed but little sympathy. It was doubtless an attack of influenza, such as Signor Guido had contracted at a cheap hotel in Rome the winter before, that had already come back more than once; or at most a touch of the sun. The patient would not die of it; and for the present the illness would clearly interrupt the dangerous intercourse between himself and the American Mees, a consummation devoutly to be wished, thought Guiseppe and his wife.</p>
 <p>The crabbed old fellow had transmitted orders to the boatmen to be in readiness to convey their master to Villa d'Este at the earliest available hour this morning. He was cognizant of the long t&#x00EA;te-&#x00E0;-t&#x00EA;te between the young people in the garden. He knew full well that
@@ -882,7 +936,7 @@ had not only lost a precious day and failed in his appointment with Miss Methuen
 <p>With these thoughts, sweet, proud and eager, thronging upon his brain, Stelvio made haste to light a candle
 <pb n="160     THE COUNT AND THE CONGRESSMAN."/>
 for the better decipherment of his precious missive. And this is what rewarded him:</p>
-<q><p>"When you did not come this morning," Margot wrote, "and when I did not hear from you, I felt sure you too had come to a realising sense of the mistake we both made yesterday. I do not doubt you, I will never cease to think kindly of you, but after we parted it was borne in upon me painfully that we had better never meet again than plunge deeper into the sadness and sorrow awaiting us and others whom I forgot for a moment--but not too long. How shall I express my regret that I had no more self-control than to let matters go so far? Please forgive my share of it, as I shall yours! I hardly know what I am writing in the confusion around me. My aunt has suddenly decided to accept the invitation of a friend for a motor party to Venice, and when we return to Como, it will be to go directly to Maloja. All is packing and talking around me, and we leave in a few minutes. I seem to be swept up and carried away by some wind of Destiny more powerful than my will. Whatever you do, don't remember me unkindly, and whether or not we meet again, believe in my faithful friendship. M. M."</p></q>
+<q><p>"When you did not come this morning," Margot wrote, "and when I did not hear from you, I felt sure you too had come to a realising sense of the mistake we both made yesterday. I do not doubt you, I will never cease to think kindly of you, but after we parted it was borne in upon me painfully that we had better never meet again than plunge deeper into the sadness and sorrow awaiting us and others whom I forgot for a moment--but not too long. How shall I express my regret that I had no more self-control than to let matters go so far? Please forgive my share of it, as I shall yours! I hardly know what I am writing in the confusion around me. My aunt has suddenly decided to accept the invitation of a friend for a motor party to Venice, and when we return to Como, it will be to go directly to Maloja. All is packing and talking around me, and we leave in a few minutes. I seem to be swept up and carried away by some wind of Destiny more powerful than my will. Whatever you do, don't remember me unkindly, and whether or not we meet again, believe in my faithful friendship. <bibl>M. M.</bibl>"</p></q>
 <pb n="161     THE COUNT AND THE CONGRESSMAN."/>
 <p>Assunta, unable to bear the dread silence in Stelvio's room following his discovery of the letter, crept in from the dressing-room, where she had been hiding behind a moth-eaten porti&#x00E8;re of Oriental web. She found her boy stretched sidewise upon his bed, his face buried in his pillow. Her prayers to him to eat, to drink, to answer her, were unheeded. Roughly, imperiously he bade her leave him to himself, and she fled scared and conscious-stricken to the kitchen, where Guiseppe sat bunched in a corner, gobbling from an earthenware bowl his supper of white beans with oil and garlic dear to his ancient soul.</p>
 <p>"He has had a blow!" she exclaimed, in piteous accents. "Something dreadful has happened, I know not what. A plague upon the Americans, say I. They have brought ill-luck to Villa Far Niente and our master."</p>
@@ -901,7 +955,7 @@ strange gentleman talked to the Signor Count in the dining-room. But I am not an
 <p>"To the fiend with your chattering tongue!" interrupted the old servant, rising furiously and letting fall his bowl of beans to crash on the stone floor. For the moment he was terrible in his towering wrath and pain.
 <pb n="164     THE COUNT AND THE CONGRESSMAN."/>
 Then, as Assunta fled before him, he sank again upon his stool by the table, buried his head in his hands, and like his master, hid the sorrow of his face from human view.</p>
-<milestone rend="blank-line" type="section"/>
+<milestone rend="blank-line" unit="section"/>
 <p>"I have always heard of these grand seigneur doings of your rich Americans, but never before experienced them," said Mrs. Clandeboye, leaning with Mrs. Methuen over the balcony of their hotel in Venice, the day following the scenes just recorded as taking place at Villa Far Niente. "And I little thought when I met your Mr. McPhail at Homburg last summer, that I should be motoring with him from Como to Mestre and accepting his magnificent hospitality for a stay of three days at this hotel. Last time I was here I was bargaining with the proprietor for a room on the third floor, with a rat-hole for my maid. I came and went and got into my gondola without creating the least sensation. Here we are now in the Royal suite, with red satin and gilt furniture all over the place. Every time I walk through the hall, gold-banded caps fly off and uniformed beings bow down before me. No table d'h&#x00F4;te dishes containing the legs of chickens in cold gravy, are offered at my elbow. These daintily spread tables in
 <pb n="165     THE COUNT AND THE CONGRESSMAN."/>
 a private room, with fresh flowers at each plate, and everything one wants, come as if by magic. Really, my dear lady, I'm immensely grateful to you for giving me a share of the experience. I well know I do not owe it to my own surpassing charms. The good man is just mad about your niece, and to get her here, made up his party of those who were at hand, meaning myself, Mr. Lee, and Countess Fleury's little man from the Beaux Arts. Two motor cars, the piano nobile of the hotel, all this splendour--it is beyond belief. But what I do wonder at, is that you did not ask for an invitation for our beautiful Stelvio instead of the little decorator, who is, after all, rather dull."</p>
@@ -939,8 +993,9 @@ not been so positive, so explicit. She repented especially the words "we had bet
 <pb n="174     THE COUNT AND THE CONGRESSMAN."/>
 proval, Mr. McPhail manoeuvred his way into the gondola of which she and Mrs. Clandeboye took possession, when they all came down presently to go out on the Canal.</p>
 <p>Margot, in her vexation, decided she had had enough of her attempt at reform in her treatment of the honourable Angus. She was wickedly inclined to say something irrevocably wounding, that would let him find this out, and, if possible, alienate him permanently. But Mrs. Clandeboye's chatter allowed her no opportunity, and by and by, as their gondola formed into line and passing around by the Piazzetta, glided beneath the Bridge of Sighs into the witchery of unknown <hi rend="italic">piccole canale</hi>, the girl gave up her truculent resolve, and abandoned herself to the soothing influence of the hour and scene.</p>
+</div>
 <pb n="175"/>
-</div><div n="9" id="" type="chapter">
+<div n="9" id="bhcount019" type="chapter">
 <head>CHAPTER IX.</head>
 <p>"As I was telling Mrs. Methuen," said Mrs. Clandeboye, who had made up her practical mind to get something substantial out of this adventure with rich Americans, "it is a revelation to me how easily and delightfully your countrymen entertain. One sits upon a magic carpet and is whisked to the ends of the earth--"</p>
 <p>"Anything less like the magic carpet than a motor car, I can't imagine," interposed Margot, "and I am sure the princes of the Arabian Nights never sniffed petrol."</p>
@@ -1016,16 +1071,19 @@ because, unless her ears tricked her, this was Stelvio singing now! Stelvio and 
 the violin quality--both going straight to the heartstrings and twanging on them without mercy. Even I felt ready to cry over him! It just shows what we said about Stelvio was true. He could do anything with a great audience. And instead, family pride keeps him shut up in that dreadfully dreary old villa, hugging his curios and his Biberon--"</p>
 <p>"Hush!" said someone from a near-by gondola. He is going to sing again."</p>
 <p>This time it was something, to their surprise, in English. Simple words, a simple melody, phrased as only a true artist can do it, to make every word and shade of meaning tell. Better than all, the song lacked that Italian mispronunciation of the mother-tongue so often marring the performance of trained professionals of Anglo-Saxon origin.</p>
-<q><lg><l>"Time flies. The swift hours hurry by</l>
+<q><lg type="stanza">
+<l>"Time flies. The swift hours hurry by</l>
 <l>And speed us on to untried ways;</l>
 <l>New seasons ripen, perish, die,</l>
 <l>And yet love stays.</l></lg>
-<lg><l>"Time flies. In vain our prayers, our tears</l>
+<lg type="stanza">
+<l>"Time flies. In vain our prayers, our tears</l>
 <l>We cannot tempt him to delays;</l>
 <l>Down to the past he bears the years,</l>
 <l>And yet love stays.</l></lg>
 <pb n="192     THE COUNT AND THE CONGRESSMAN."/>
-<lg><l>"Time flies. He steals our pulsing youth</l>
+<lg type="stanza">
+<l>"Time flies. He steals our pulsing youth</l>
 <l>He robs us of our care-free days</l>
 <l>He takes away our trust and truth.</l>
 <l>And yet love stays!"</l></lg></q>
@@ -1047,8 +1105,9 @@ voice to his somewhere adrift on the stream of life. It must be a family trait o
 <p>"It is only another illustration of the patent fact
 <pb n="195     THE COUNT AND THE CONGRESSMAN."/>
 that all comes to him who knows how to wait," said McPhail, with a certain triumph in his tone. It appeared to him indeed that everything considered, he was coming out of this dubious evening better than he had supposed!</p>
+</div>
 <pb n="196"/>
-</div><div n="10" id="" type="chapter">
+<div n="10" id="bhcount020" type="chapter">
 <head>CHAPTER X.</head>
 <p>LONG after the rest of the hotel guests had put out the lights of their respective floors; when the last music boat had ceased its distracting repetition of "Non ver," "Funiculi, Funicula," and the rest of them; when the glorious majesty of night had been left to reign undisturbed over the darkly flowing tides of the water city, a poor sorrowing young girl sat at her high casement looking out upon slumbering Venice. Never, if she lived to a green old age, could Margot Methuen forget the vigil of that night! For it is to youth, after all, that sorrow and disappointment loom largest in this world. In later years, human nature knows what to expect of its fellow beings and of the decrees of Destiny. The blow falls, the iron sears deeply, but life is inexorable and must be lived. What one has had and may have no more, passes to join the great procession of accomplished joys; it is of what is left that
 <pb n="197     THE COUNT AND THE CONGRESSMAN."/>
@@ -1071,7 +1130,7 @@ caping an immediate collapse. But I see and know better than any doctor could te
 lieve me, what <hi rend="italic">is left of that money is what we are living upon now!</hi> Poor papa, as you know, always gives me his salary when he draws it at the end of the month, and he does not dream how long it must be before we can possibly get back to living upon that small sum even as poorly as before. The bills had simply piled up, and I dared not let him see them. Some of them had to be paid at once and others still hang on. But for our kind noble friend, we should be in the extreme of misery. And when I think that Harmony Hall with the servants and horses is waiting for us, not a soul to enjoy it, and that our being there would be a protection to the place, and your father could oversee the farm work, exactly what he loves to do, and be out all day in the fresh air, do you wonder that I cry out to you to try and help us? Do try and think more patiently and kindly of the man who has so long loved you. Don't think me an unnatural mother, my precious child. You are my last born, my very dearest, and I do want one of you, at least, to be spared all the miseries of poverty like ours. Mr. McPhail told me, before he left, that he was going to ask you again, and begged me to speak a good word for him. A son could not have been gentler, more devoted, and I believe he would make you a
 <pb n="203     THE COUNT AND THE CONGRESSMAN."/>
 splendid husband. Oh! Margot, when you have seen life as I have, you will know that almost no woman living ever gets all she expects in marriage. She is bound to be disillusioned, disappointed, somewhere. One has to look at a man as he is, with all his faults and shortcomings and virtues and attractions heaped together, and decide whether to bear with him or let everything go to wreck by fighting against him. The love part of it, the girl's dream of being a queen, an idol, lasts so short a time in most cases! With you I believe it would be a different tale. Angus McPhail worships the ground you tread on, he is prepared to do everything to make you happy, and his first wish, after that, is to relieve your father's distressing situation, by placing him in charge of Harmony Hall and the estate as manager, with a salary of the most liberal description. It is you only who could win your father to take this offer, not from Mr. McPhail's but from your own hand. McPhail proposes to settle the estate upon you as a marriage gift, to do with as you please."</p></q>
-<milestone rend="blank-line" type="section"/>
+<milestone rend="blank-line" unit="section"/>
 <p>So far as this Margot had deciphered her mother's pinched and painful scrawl. At this point she let it
 <pb n="204     THE COUNT AND THE CONGRESSMAN."/>
 fall, and burst into bitter weeping, the first tears she had shed during the whole of that piteous night!</p>
@@ -1087,9 +1146,9 @@ fall, and burst into bitter weeping, the first tears she had shed during the who
 <pb n="206     THE COUNT AND THE CONGRESSMAN."/>
 suspend it around the neck a miracle of Venetian craftsmanship in emeralds and pearls. For a moment Margot's face lit with the pleasure of surveying the exquisite thing, which she remembered to have seen in a jeweller's window in the Piazza, the day before. (Mrs. Clandeboye had said in commenting upon it, that it was fit for a bridal present to a queen!)</p>
 <p>Then her eye fell upon the giver's card, upon which he had pencilled a few words, begging her to wear this trifle for his sake, in token that she had at least learned to look more kindly upon his efforts to give her pleasure. A vivid blush ran up into the roots of her hair, as with a desperate effort at self-mastery, she took the chain and threw it over her shoulders.</p>
-<milestone rend="blank-line" type="section"/>
+<milestone rend="blank-line" unit="section"/>
 <p>Lydia had to return, bearing Mrs. Methuen's request that their young lady would hurry, since all of the others were assembled and awaiting her in the lower ball of the hotel. Margot, who wore that day a thin white muslin covered with a light tracery of embroidery (one of Aunt Katrina's aesthetic contributions to her wardrobe which that beauty-loving lady could never hope to duplicate with similarly pleasing results in the case of her legitimate heir, Miss Minnie Fothergill!)
-<pb n="207     THE COUNT AND THE CONGRESSMAN.</p>
+<pb n="207     THE COUNT AND THE CONGRESSMAN."/>
 hastily put on a large pale green hat of Neapolitan straw wreathed with white roses, which, set aslant according to capricious fashion upon the splendid waves of her ruddy hair, added the exact touch of style and colour needful to intensify her radiancy of young beauty. No trace of her lonely vigil marred her blooming cheeks and lips. Her head was carried high, a spark of proud resolve gleamed in her eye. Only a closer, more accurate observer than any likely to look upon her face that day would have said that she had grown older in a night.</p>
 <p>Unfurling a large white frilled parasol, she took her place with intrepidity in the line of guests waiting on the steps to dispose of themselves in the gondolas that were to conduct the party to the place of rendezvous at the Piazzetta. To her lot in transit fell the companionship of her aunt and M. Amadou, the young French artist provided to meet their need of "an extra man" through the flagging interest of his welcome patroness, Countess Fleury. McPhail, last to embark in the gondola where sat his own man-servant keeping guard over sundry hampers and boxes of tempting exterior, together with wraps and parasols, had bestowed upon the lady of his love as she appeared among them
 <pb n="208     THE COUNT AND THE CONGRESSMAN."/>
@@ -1104,6 +1163,13 @@ her family would in the end atone for his other less desirable qualities as a hu
 <p>The expression of McPhail's face, as he helped them ashore at the steps of the Piazzetta, went far to convince her that Margot had already revealed to him this signal mark of her resolve to favour him. He was proud, joyous, and yet so much in check that Mrs. Methuen thought he had never appeared to so great advantage. He made no attempt to emphasize his desire that Margot should reign as the chief lady of his party, letting her pass ahead in company with Monsieur Amadou, whilst he himself lingered looking over the lagune as if awaiting some one else.</p>
 <p>"Aren't we all here?" said Mrs. Methuen. "I thought our gondola was the last."</p>
 <p>"I have been fortunate enough to secure an addi-
+<pb/>
+<figure id="bhcountill210" rend="inline">
+<p>Margot, pale and sad, came into the room holding out her hand to
+him in shy greeting. -- Page 295</p>
+<figDesc>Illustration included in Harrison's <hi rend="italic">The
+Count and the Congressman</hi>.</figDesc>
+</figure>
 <pb n="211     THE COUNT AND THE CONGRESSMAN."/>
 tion to our number," answered McPhail, "in the persons of two American ladies, Miss Carteret of Washington, and her charge, Miss Conners."</p>
 <p>"The young person Countess Fleury designs for Count Stelvio," interposed Mrs. Clandeboye who was standing near. "And as Miss Conners and her chaperon are now on their way to visit our clever friend, who knows what may come out of her diplomacy? But imagine the Chicago maiden under the mouldering roof of Far Niente. All of her dollars could not make it a tolerable shelter for her."</p>
@@ -1165,13 +1231,14 @@ might save him future annoyance at her hands, since in his letter-case he held a
 all my heart I could help you more tangibly. Will it comfort you to believe that the man you are going to accept as a lover loves you with such a deep and unselfish passion as he has never felt before? That he is capable of the largest generosities, and will never separate or wean you from those you love, and that in marrying him you are assuming a wide opportunity for good that he will try to maintain always."</p>
 <p>"You think so?" asked the girl, tears starting to her eyes.</p>
 <p>"I am sure," answered Betty Carteret; and then for a few moments before separating, each woman gazed over the little steamer's rail at a panorama of sunbathed sky and water to which neither assuredly gave a thought!</p>
+</div>
 <pb n="223"/>
-</div><div n="11" id="" type="chapter">
+<div n="11" id="bhcount021" type="chapter">
 <head>CHAPTER XI.</head>
 <p>IT was mid-August and summer held burning sway over the lawns and gardens of the old Virginian mansion perched upon a wooded hill-top, whose white colonnades and walls had for over a hundred years stood as a landmark to the voyagers upon the Potomac river-boats, and were revered by the humbler neighbours as a visible sign and seal of the high ideal of landed aristocracy still dominant over the popular mind of the venerable State. In the eyes of the country people the trivial fact that old Harmony Hall had drifted out of possession of the Methuen family, its Colonial owners, into that of a man of yesterday with no grandfathers in particular who happened to be in the Congress of the United States, did not affect their persistent habit of referring to it as "the grand old Methuen place, you know, where General Washington was as much at home as at Mount Vernon."</p>
 <p>The neighbourhood had not seen much in late years
 <pb n="224     THE COUNT AND THE CONGRESSMAN."/>
-of any Methuen. Years ago, Wilfred, the handsome rover had sold out his share of the estate to Augustin, his elder brother, had married a rich lady up "Nawth" and spent most of his time travelling with her in "Eurrup" until he died. Augustin, sad to say, had gone steadily down hill in point of fortune. "A perfect gentleman, but no faculty," was the way they spoke of him. "Clerk in one of the Departments at Wash'n't'n," they believed. "Family all scattered, the boys having no interest in old Virginia, anyway, regular Westerners they had become, the girls getting to be old maids, all except the youngest, the beauty, she that was 'took abroad' by Wilfred Methuen's widow. Living image, ''twas said,' of her famous Colonial great-aunt, the belle of Williamsburg and the lower James, also a Margot Methuen!" Every farmer's wife and petty tenant in the Harmony Hall district knew the traditions of the first Margot Methuen, and speculated as to whether Augustin's youngest wasn't going to build up the family fortunes by a firstrate match. A poor picture of the young lady cut from the Sunday column of a Washington Society journal was a part of the decoration of every farm-house best room for miles around the limits of Harmony Hall.</p>
+of any Methuen. Years ago, Wilfred, the handsome rover had sold out his share of the estate to Augustin, his elder brother, had married a rich lady up "Nawth" and spent most of his time travelling with her in "Eurrup" until he died. Augustin, sad to say, had gone steadily down hill in point of fortune. "A perfect gentleman, but no faculty," was the way they spoke of him. "Clerk in one of the Departments at Wash'n't'n," they believed. "Family all scattered, the boys having no interest in old Virginia, anyway, regular Westerners they had become, the girls getting to be old maids, all except the youngest, the beauty, she that was 'took abroad' by Wilfred Methuen's widow. Living image, ''twas said,' of her famous Colonial great-aunt, the belle of Williamsburg and the lower James, also a Margot Methuen!" Every farmer's wife and petty tenant in the Harmony Hall district knew the traditions of the first Margot Methuen, and speculated as to whether Augustin's youngest wasn't going to build up the family fortunes by a first-rate match. A poor picture of the young lady cut from the Sunday column of a Washington Society journal was a part of the decoration of every farm-house best room for miles around the limits of Harmony Hall.</p>
 <pb n="225     THE COUNT AND THE CONGRESSMAN."/>
 <p>During the previous autumn, workmen had been set to work at the decayed old dwelling, strengthening beams, enlarging wings and roofs, putting in modern plumbing and tanks for acetylene gas, laying new floors, introducing pipes for steam heat into halls and corridors hitherto glacial at mid-winter; and rebuilding entirely a glass room or winter garden, about which tradition told proud tales of its having been added in bygone days by a travelled Methuen who had seen its original in a Russian palace.</p>
 <p>For many a long year this annex had been an eyesore, a wrecked haunt, for broken furniture and accumulated household debris, cobwebs, dust and bats. Now, to the awesome astonishment of those privileged to behold it, arose again a crystal dome intended to overarch in winter a steam-warmed bower of greenery with walks of golden sand, a fountain surrounded by great-leafed Egyptian plants, roses trained over green trellis work upon the walls, and tall palms and bamboos planted in clumps amid couches, chairs and tables of jaunty wicker-work! The country now, indeed, sat up and began to look with respect upon the new proprietor of old Harmony.</p>
@@ -1211,7 +1278,7 @@ should remind you of one thing. You are not to expect any immediate recognition 
 <pb n="233     THE COUNT AND THE CONGRESSMAN."/>
 could not afford to look down upon this match. His friends generally would consider it a Godsend.</p>
 <p>As for the extraordinarily calm and almost haughty young person, Methuen's daughter, the doctor could not fathom her attitude to the affair, and would not try. Next winter there would be a superb new hostess for Angus McPhail's dinners, and all the world would be raving of her beauty and surroundings. In the meantime the doctor would hasten arrangements to get poor Methuen out of town.</p>
-<milestone rend="blank-line" type="section"/>
+<milestone rend="blank-line" unit="section"/>
 <p>When Margot for the first time told her mother what she had told the doctor a half hour previously, Mrs. Methuen grew quite faint with joy. A heavenly vista seemed to open before her. She even found herself lifting her child's hands to her poor pale lips and kissing them. She did not offer to kiss her face.</p>
 <p>"Understand me, mother," said the girl, drawing back ashamed at this unusual demonstration. "I am doing this thing for my father. I had decided upon it when your last letter came to me in Venice, and at once told Mr. McPhail I would marry him some day, if only he would give me time to be used to the idea. I suppose he considers that we are engaged. But to-day,
 <pb n="234     THE COUNT AND THE CONGRESSMAN."/>
@@ -1221,7 +1288,7 @@ when I felt that a way opened to take our poor darling where it might save his l
 <p>"Mayn't I even tell you that there's been a letter from Julia to-day, saying she is going to make another visit in Fauquier, and needn't be home till the end of August. The Tankervilles have invited her, thank Heaven. And there's something better. She's met Mr. Slacum again at the Tankervilles and he has prospects of a place in North Carolina with a decent salary; and he's told her just to wait a little while and see. Was there ever anything better; for Julia, I must say, was completely soured over that Slacum failure. Not even
 <pb n="235     THE COUNT AND THE CONGRESSMAN."/>
 to visit Harmony Hall would she leave Fauquier now. So we'll be at rest on her score for the present. Poor Maud and Jessy will go crazy with joy over Harmony, I expect, and as for me, that and your father's betterment to-day, have made me ten years younger, I do declare."</p>
-<milestone rend="blank-line" type="section"/>
+<milestone rend="blank-line" unit="section"/>
 <p>As the little procession wound up to the high ground on which the Hall stood, and Margot keeping ahead of the limp Maud and Jessy, took in the full beauty and finish of the scene, her heart swelled with an excitement that was not altogether displeasing. All that McPhail had told her about it in the Frari, was more than justified by actuality. The ancient house had been made to live again, was endued with all its old-time stateliness. Gardens, orchards, fields, uplands, forest, nestled around it in the plentitude of summer's golden prime, the whole a "goodly heritage," linking past with present.</p>
 <p>Two servants, a man and a woman, quiet, discreet and pleasant of manner, were at the door to welcome them. These people had received their orders, and acted upon them strictly. The Methuens, whenever they signified their intention of visiting the place were to be
 <pb n="236     THE COUNT AND THE CONGRESSMAN."/>
@@ -1281,7 +1348,7 @@ poor humanity, arose an image of the still form in the shaded chamber depending 
 <p>"Look over there!" she said sombrely, pointing to a glimpse of the mansion and gardens seen through an opening between verdant oak boughs. "You don't know, perhaps, that not one inch of this land, one brick of the old house, nothing out or inside of it, is ours? Yet it is giving refuge to my poor father and mother, to all of us--and it is I who must pay the price."</p>
 <p>Presently, she resumed:</p>
 <p>"Is it shameful to tell you this? If so, you must forgive me, for I could think of nothing to say to you but the truth. Even if things were different with you, it has gone too far for me to draw back. Nothing can help me now, but his refusing me, and that is not likely."</p>
-<pb n="250     THE COUNT AND THE CONGRESSMAN.</p>
+<pb n="250     THE COUNT AND THE CONGRESSMAN."/>
 <p>"Not likely, no!" and Stelvio's beautiful face was distorted by the angry snarl with which he said the words. "Do you mean that your father knows of and sanctions this damnable sacrifice?"</p>
 <p>Margot's head fell forward, the lashes swept her cheek. She resented the sting of contempt in her lover's words.</p>
 <p>"He knows nothing--since his attack came on he has been like a child in our hands."</p>
@@ -1298,8 +1365,9 @@ or poor. You were only you. . . . We went away to Venice, and I thought I was se
 <pb n="253     THE COUNT AND THE CONGRESSMAN."/>
 fence, struck into the high road leading to the farmhouse where his motor-man had found shelter and refreshment.</p>
 <p>Then she could see him no more for bitter, blinding tears.</p>
+</div>
 <pb n="254"/>
-</div><div n="12" id="" type="chapter">
+<div n="12" id="bhcount022" type="chapter">
 <head>CHAPTER XII.</head>
 <p>THE night of the hot day when Count Stelvio sprang into his automobile in front of Farmer Cleveland's little white house and told the chauffeur to go at full speed back to Washington, to the awe and admiration of a bevy of Virginian yokels assembled to view the marvel, a great storm visited Harmony Hall. Lightning spread in a white glare over the face of Heaven, thunder ripped through the air, floods of rain descended and still the temperature remained stifling hot. Every body in the house was awakened to sleep no more, saving the invalid only. To the thankful relief of the family, Mr. Methuen continued to doze comfortably throughout the turmoil. Margot, who could not have slept in any case, came in her wrapper with her hair braided in one long ruddy rope, to enquire of Miss Belknap how her father did, and was followed by Mrs. Methuen in a cotton kimona, whose general spirit of nervous unrest sought company in misfortune. They found the good
 <pb n="255     THE COUNT AND THE CONGRESSMAN."/>
@@ -1408,8 +1476,9 @@ former partnership and of interest to him only--at such an extraordinarily high 
 <pb n="279     THE COUNT AND THE CONGRESSMAN."/>
 Niente garden, ringed in by verdure set with glowing flowers.</p>
 <p>"That blanked macaroni eater!" was what McPhail's concrete American mind found to say in comment upon the tormenting suggestion. But when Jarvis, while seeing his master off in his motor early next morning had incidentally revealed the fact of Count Stelvio's visit to Harmony Hall two days before, there was no jocularity left in Congressman McPhail. The prospect of meeting the payment offered to the widow Methuen for possession of her husband's papers, did not now present itself under an alluring aspect, following the liberal sum given for the Stelvio Biberon.</p>
+</div>
 <pb n="280"/>
-</div><div n="13" id="" type="chapter">
+<div n="13" id="bhcount023" type="chapter">
 <head>CHAPTER XIII.</head>
 <p>STELVIO had drifted into the Metropolitan Club for dinner--partly because, love he never so hopelessly man must dine, and partly because he knew no better place in Washington wherein to spend the two hours before bed-time. His own immediate friends were out of town, and nobody he saw seemed ever to have looked upon his face before. Truth to tell, the desert of an American fashionable city at Midsummer was at the present moment entirely to his taste. In less than forty-eight hours he was going to sail for home and had rather determined never to set eyes upon Washington again. In this mood, between a cup of iced consomm&#x00E9; and a cutlet, he picked up a newspaper, a thing he had not previously done since his visit to Harmony Hall four days earlier, and was shocked to see that the funeral of Mr. Augustin Methuen had taken place that morning. An item, elsewhere registered, announced the fact that Mrs. and the Misses Methuen were im-
 <pb n="281     THE COUNT AND THE CONGRESSMAN."/>
@@ -1435,7 +1504,7 @@ impression of the picturesque, but I'll swear his account of the gloomy old morg
 look favourably upon one of their celestial circle strayed to earth and in trouble over mere mortal lendings."</p>
 <p>"It is an hereditary charge, that of the Methuen family in your office, isn't it, Don?" said the Counsellor while lighting his cigar. "I seem to remember that good old Ashton, your honored chief, did what he could to straighten out their affairs. But I'm afraid if all we hear is true, even Ashton can't "put Humpty Dumpty together again." What an ill-considered thing of Destiny to launch upon a poor man's hands four--five daughters--how many are there?--in succession, and only one of them good to look at. What becomes of women like the older Misses Methuen?"</p>
 <p>"I will try to answer you this day six months," said Don, laughing. He seemed, however, to be pretty cheerful about the Methuens, so thought the Counsellor.</p>
-<milestone rend="blank-line" type="section"/>
+<milestone rend="blank-line" unit="section"/>
 <p>Stelvio could think of nothing above, below, past or future,--but of Margot free, Margot sorrowing for her loved father, Margot needing his love and consolation. The days since he had quitted her in the little wood overhanging the Potomac, had been to him unutterably blank and miserable. He had gone off alone to spend them at a small inn in the suburbs where he need speak
 <pb n="286     THE COUNT AND THE CONGRESSMAN."/>
 to no man or woman and could abandon himself to passionate regret. He had opened neither book nor newspaper, interested himself in nothing, until it was time to return to town to get his belongings together, sleep the night, and take the first express next morning for New York. And now--now--what rush of strong blinding sunshine had suddenly swept over him as if from beneath a lifting cloud! His eyes were dazzled by it, he felt giddy, uncertain what to do.</p>
@@ -1511,5 +1580,24 @@ turned up and proved valuable, after her father's death. It's nothing very remar
 </div>
 <trailer>THE END.</trailer>
 </body>
+<back>
+<pb/>
+<div id="bhcount008" type="adverts">
+<figure id="bhcountad1" rend="inline">
+<figDesc>Advertisement  included in the back of Harrison's <hi
+rend="italic">The Count and the Congressman</hi>.</figDesc>
+</figure>
+<pb/>
+<figure id="bhcountad2" rend="inline">
+<figDesc>Advertisement  included in the back of Harrison's <hi
+rend="italic">The Count and the Congressman</hi>.</figDesc>
+</figure>
+<pb/>
+<figure id="bhcountad3" rend="inline">
+<figDesc>Advertisement  included in the back of Harrison's <hi
+rend="italic">The Count and the Congressman</hi>.</figDesc>
+</figure>
+</div>
+</back>
 </text>
 </TEI.2>
