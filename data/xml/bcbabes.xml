@@ -74,10 +74,9 @@ id="lcsh">
 <creation>
 <rs type="language">English</rs>
 <rs type="ethnicity">Caucasian</rs>
-<rs type="form">unedited</rs>
-<rs type="genre">novel</rs>
-<rs type="geography">Great
-Britain</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
+<rs type="geography">Great Britain</rs>
 <date>1900-1999</date></creation>
 <textClass>
 <keywords
@@ -120,18 +119,17 @@ to mark section breaks.</item>
 <div type="covers" id="bcbabes035">
 <figure entity="bcbabesspine" rend="inline">
 <figDesc>Image of the spine from B.M. Croker's <hi rend="italic">Babes in the Wood</hi>.</figDesc></figure></div><pb n="[i]"/>
-<div type="cover page" id="bcbabes036">
-<figure entity="bcbabestp" rend="inline">
-<figDesc>The cover page for Croker's <hi rend="italic">Babes in the Wood</hi>
-</figDesc>
-</figure>
-</div>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">BABES IN THE WOODS</titlePart>
+</docTitle>
+</titlePage>
 <div type="front advertisement" id="bcbabes037">
 <figure entity="bcbabesfmii" rend="inline">
 <figDesc>A page including a list of other novels by Croker.</figDesc>
 </figure></div>
 <pb entity="bcbabesfmiii" n="[iii]" pages="Title Page"/>
-<titlePage>
+<titlePage type="full">
 <docTitle>
 <titlePart type="main">BABES IN THE WOODS</titlePart>
 <titlePart type="sub">A Romance of the Jungles</titlePart>
