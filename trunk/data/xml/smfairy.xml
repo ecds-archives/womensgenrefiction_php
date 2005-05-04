@@ -41,10 +41,11 @@
 </taxonomy></classDecl></encodingDesc>
 <profileDesc>
 <creation>
+<rs type="collection">Genre Fiction</rs>
 <rs type="language">English</rs>
 <rs type="ethnicity">Caucasian</rs>
-<rs type="form">unedited</rs>
-<rs type="genre"> </rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Short Stories</rs>
 <rs type="geography">United States</rs>
 <date>1800-1899</date>
 </creation>
@@ -76,12 +77,12 @@
 <head>THULE AND THE DWARF.--Page 122.</head>
 <figDesc>An illustration from May's <hi rend="italic">Fairy Book</hi>, included just before the illustrated title page.</figDesc>
 </figure></div>
-<div type="front illustration" id="smafairy025">
+<div type="title page" id="smafairy025">
 <pb n="[1]"/>
 <figure entity="smfairyill2" rend="inline">
 <figDesc>An image of the illustrated title page for May's <hi rend="italic">Fairy Book</hi>.</figDesc></figure></div>
 <pb entity="smfairytp" n="[3]" pages="Title Page"/>
-<titlePage>
+<titlePage type="full">
 <docTitle>
 <titlePart type="series">LITTLE PRUDY SERIES.</titlePart>
 <titlePart type="main">FAIRY BOOK.</titlePart>
@@ -105,7 +106,7 @@
 <p>THIS BOOK OF FAIRY TALES IS DEDICATED TO LITTLE BESSIE.</p>
 </div>
 <pb n="[6]"/>
-<div type="front advertisements" id="smfairy015">
+<div type="advert" id="smfairy015">
 <figure entity="smfairyfm6" rend="inline">
 <figDesc>An image of a page advertising other books by Sophie May.</figDesc>
 </figure></div>

@@ -61,10 +61,11 @@ page images are linked to the text file.</p></editorialDecl>
 </encodingDesc>
 <profileDesc>
 <creation>
+<rs type="collection">Genre Fiction</rs>
 <rs type="language">English</rs>
 <rs type="ethnicity">Caucasian</rs>
-<rs type="form">unedited</rs>
-<rs type="genre">novel</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Short Stories</rs>
 <rs type="geography">Great Britain</rs>
 <date>1900-1999</date>
 </creation>
@@ -106,7 +107,6 @@ page images are linked to the text file.</p></editorialDecl>
 <text>
 <front>
 <div type="covers" id="mostori030">
-
 <figure entity="mostorifc" height="504" rend="inline" width="357">
 <figDesc>Image of the front cover of Mrs. Oliphant's <hi rend="italic">
 Stories of the Seen and Unseen</hi>.</figDesc>
@@ -119,7 +119,7 @@ Stories of the Seen and Unseen</hi>.</figDesc>
 </docTitle>
 </titlePage>
 <pb entity="mostoritp" n="[iii]" pages="Title Page"/>
-<titlePage>
+<titlePage type="full">
 <docTitle>
 <titlePart type="main">Stories of the Seen and the Unseen</titlePart>
 </docTitle>
@@ -133,7 +133,6 @@ Stories of the Seen and Unseen</hi>.</figDesc>
 </titlePage>
 <pb n="[v]"/>
 <div type="table of contents" id="mostori031">
-
 <figure entity="mostoritc" height="504" rend="inline" width="311">
 <figDesc>Image of the table of contents for Mrs. Oliphant's <hi rend="italic">
 Stories of the Seen and Unseen</hi>.</figDesc>
@@ -144,7 +143,7 @@ Stories of the Seen and Unseen</hi>.</figDesc>
 <text>
 <front>
 <pb n="[1]"/>
-<titlePage>
+<titlePage type="half">
 <docTitle>
 <titlePart type="main">The Open Door</titlePart>
 </docTitle>
@@ -435,7 +434,7 @@ By that time we had settled, and found for ourselves a pleasant home of our own.
 <text>
 <front>
 <pb n="[73]"/>
-<titlePage>
+<titlePage type="half">
 <docTitle>
 <titlePart type="main">OLD LADY MARY</titlePart>
 </docTitle>
@@ -1003,7 +1002,7 @@ ful in her mission. But at last, when the warmth of her appointed home had melte
 <text>
 <front>
 <pb n="[181]"/>
-<titlePage>
+<titlePage type="half">
 <docTitle>
 <titlePart type="main">THE PORTRAIT</titlePart>
 </docTitle>
@@ -1311,7 +1310,7 @@ heavenly? Who can say? Flesh and blood is not made for such encounters: they wer
 <text>
 <front>
 <pb n="[247]"/>
-<titlePage>
+<titlePage type="half">
 <docTitle>
 <titlePart type="main">THE LIBRARY WINDOW</titlePart>
 </docTitle>

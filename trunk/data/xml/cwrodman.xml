@@ -65,10 +65,11 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </encodingDesc>
 <profileDesc>
 <creation>
+<rs type="collection">Genre Fiction</rs>
 <rs type="language">English</rs>
 <rs type="ethnicity">Caucasian</rs>
-<rs type="form">unedited</rs>
-<rs type="genre">novel</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Short stories</rs>
 <rs type="geography">United States</rs>
 <date>1800-1899</date>
 </creation>
@@ -79,6 +80,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <item>Women authors, American--19th Century.</item>
 <item>Regional realism--Southeast.</item>
 <item>Reconstruction.</item>
+<item>Short stories.</item>
 </list>
 </keywords>
 </textClass>
@@ -95,7 +97,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <text>
 <front>
 <pb entity="cwrodmantp" n="[1]" pages="Title Page"/>
-<titlePage>
+<titlePage type="full">
 <docTitle>
 <titlePart type="main">RODMAN <lb/>THE KEEPER:</titlePart>
 <titlePart type="sub"><hi rend="italic">SOUTHERN
@@ -143,8 +145,6 @@ Keeper</hi>.</figDesc>
 </figure>
 </div>
 </front>
-<group>
-<text>
 <body>
 <div id="cwrodman004" type="story" n="1">
 <head>RODMAN THE KEEPER.</head>
@@ -2501,11 +2501,9 @@ or a&#x2014;guide, I wish you would apply to Mr. Head."</p>
 <p>Wainwright re&#x00EB;ntered society; society received him with gladness. A fresh supply of mothers smiled upon him, a fresh supply of daughters filed past him. He made his little compact remarks as before, and appeared unaltered; but he let the lime-light play about him rather more continuously now, and took fewer journeys. He will never swerve from Adelaide again. As they grow older, the chances are that <pb n="339     UP IN THE BLUE RIDGE"/>some day he will say to her, "Why should we not be married, Adelaide?"</p>
 <p>And she will answer, "Why not, indeed?"</p>
 <p>This woman loved him; the other would never have given him more than gratitude. What would you have?</p>
-</div>
 <trailer>THE END.</trailer>
 </div>
+</div>
 </body>
-</text>
-</group>
 </text>
 </TEI.2>

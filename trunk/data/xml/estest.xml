@@ -61,10 +61,11 @@ text.</p></editorialDecl>
 </encodingDesc>
 <profileDesc>
 <creation>
+<rs type="collection">Genre Fiction</rs>
 <rs type="language">English</rs>
 <rs type="ethnicity">Caucasian</rs>
-<rs type="form">unedited</rs>
-<rs type="genre">novel</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
 <rs type="geography">United States</rs>
 <date>1800-1899</date>
 </creation>
@@ -102,25 +103,22 @@ text.</p></editorialDecl>
 <text>
 <front>
 <div type="covers" id="estest050">
-
 <figure entity="estestfc" height="504" rend="inline" width="349">
 <figDesc>Image of the front cover of Southworth's <hi rend="italic">
 Test of Love</hi>.</figDesc>
 </figure>
-
 <figure entity="estestsp" height="504" rend="inline" width="116">
 <figDesc>Image the book's spine from  Southworth's <hi rend="italic">
 Test of Love</hi>.</figDesc>
 </figure>
 </div>
 <pb entity="estesttp" n="[1]" pages="Title Page"/>
-<titlePage>
+<titlePage type="full">
 <docTitle>
 <titlePart type="main"> The Test of Love</titlePart>
 <titlePart type="sub">Being Third and Last Part of "The Trail of the Serpent"</titlePart>
 </docTitle>
 <byline>By  <docAuthor>MRS. E. D. E. N. SOUTHWORTH</docAuthor> Author of "Nearest and Dearest," "Little Nea's Engagement," "The Lost Lady of Lone," "The Struggle of a Soul," "Why Did He Wed Her," etc.</byline>
-
 <figure entity="estest_tp_fig" height="569" width="1015">
 <figDesc>Stylized profile of a woman's head and flowing
 hair.</figDesc>
@@ -131,8 +129,7 @@ hair.</figDesc>
 </docImprint>
 </titlePage>
 <pb n="[2]"/>
-<div type="front advertisement" id="estest046">
-
+<div type="advert" id="estest046">
 <figure entity="estestfm2" height="504" rend="inline" width="323">
 <figDesc>A page including a list of other books by
 Mrs. E.D.E.N. Southworth and copyright information.</figDesc>

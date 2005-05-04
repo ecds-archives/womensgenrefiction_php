@@ -65,10 +65,11 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </encodingDesc>
 <profileDesc>
 <creation>
+<rs type="collection">Genre Fiction</rs>
 <rs type="language">English</rs>
 <rs type="ethnicity">Caucasian</rs>
-<rs type="form">unedited</rs>
-<rs type="genre">novel</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
 <rs type="geography">Great Britain</rs>
 <date>1800-1899</date>
 </creation>
@@ -102,7 +103,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </docTitle>
 </titlePage>
 <pb entity="sg1twinstp"  n="[i]" pages="Title Page"/>
-<titlePage>
+<titlePage type="full">
 <docTitle>
 <titlePart type="main">THE HEAVENLY TWINS</titlePart>
 </docTitle>
@@ -125,7 +126,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </titlePage>
 <pb n="[iii]"/>
 <div id="sg1twins301" type="epigraph">
-<q>
+<cit><q>
 <lg>
 <l>The time is racked with birth-pangs; every hour</l>
 <l>Brings forth some gasping truth, and truth new-born</l>
@@ -143,8 +144,8 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <l>And folded in the same encircling arms</l>
 <l>That cast it like a serpent from their hold!</l>
 </lg>
-<bibl>--<author><hi rend="italic">Oliver Wendell
-Holmes</hi></author>.</bibl>
+<bibl>--<name type="person"><hi rend="italic">Oliver Wendell
+Holmes</hi></name>.</bibl></cit>
 </q>
 </div>
 <div id="sg1twins302" type="proem" n="Proem">

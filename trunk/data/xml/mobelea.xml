@@ -60,10 +60,11 @@ page images are linked to the text file.</p></editorialDecl>
 </encodingDesc>
 <profileDesc>
 <creation>
+<rs type="collection">Genre Fiction</rs>
 <rs type="language">English</rs>
 <rs type="ethnicity">Caucasian</rs>
-<rs type="form">unedited</rs>
-<rs type="genre">novel</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
 <rs type="geography">Great Britain</rs>
 <date>1800-1899</date>
 </creation>
@@ -84,7 +85,7 @@ page images are linked to the text file.</p></editorialDecl>
 <date>2003-Aug-11</date>
 <respStmt><name>Erika Farr,</name>
 <resp>project manager.</resp></respStmt>
-<item>XML tags inserted in compliance with  TEI guidelines using TEILite.</item>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
 </change>
 <change>
 <date>2004-Jun-21</date>
@@ -102,18 +103,17 @@ page images are linked to the text file.</p></editorialDecl>
 </docTitle>
 </titlePage>
 <pb n="[ii]"/>
-<div type="front advertisement" id="mobelea013">
+<div type="advert" id="mobelea013">
 <p>
-
 <figure entity="mobeleapub" height="504" rend="inline" width="314">
 <figDesc>Image of the page listing the publisher and publishing houses.</figDesc>
 </figure>
 </p>
 </div>
 <pb entity="mobeleatp" n="[iii]" pages="Title Page"/>
-<titlePage>
-<docTitle><titlePart>A BELEAGUERED
-<lb/>CITY</titlePart></docTitle>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">A BELEAGUERED <lb/>CITY</titlePart></docTitle>
 <byline>BY <docAuthor>MRS. OLIPHANT</docAuthor></byline>
 <docImprint>
 <publisher>MACMILLAN AND CO., LIMITED</publisher>
@@ -124,7 +124,6 @@ page images are linked to the text file.</p></editorialDecl>
 <pb n="[iv]"/>
 <div type="copyright" id="mobelea014">
 <p>
-
 <figure entity="mobeleacr" height="504" rend="inline" width="324">
 <figDesc>Image of the page containing the copyright information for
 Mrs. Oliphant's <hi rend="italic">A Beleaguered City</hi>.</figDesc>
