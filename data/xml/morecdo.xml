@@ -64,6 +64,7 @@ page images have been linked to the text file.</p></editorialDecl>
 </encodingDesc>
 <profileDesc>
 <creation>
+<rs type="collection">Genre Fiction</rs>
 <rs type="language">English</rs>
 <rs type="ethnicity">Caucasian</rs>
 <rs type="form">Unedited</rs>
@@ -101,7 +102,7 @@ rend="italic">The Rector and The Doctor's Family</hi>.</figDesc>
 </figure>
 </div>
 <pb entity="morecdotp1" pages="Title Page"/>
-<titlePage>
+<titlePage type="full">
 <docTitle>
 <titlePart type="series">Chronicles of Carlingford</titlePart>
 <titlePart type="main">THE RECTOR
@@ -122,7 +123,7 @@ is reserved.</hi></titlePart>
 <text>
 <front>
 <pb entity="morecdotp2" pages="Title Page"/>
-<titlePage>
+<titlePage type="half">
 <docTitle>
 <titlePart type="series">Chronicles of Carlingford</titlePart>
 <titlePart type="main">THE RECTOR</titlePart>
@@ -395,7 +396,7 @@ than he. Something better, though it might be sadder, harder, more calamitous, w
 <text>
 <front>
 <pb entity="morecdotp3" n="[53]" pages="Title Page"/>
-<titlePage>
+<titlePage type="half">
 <docTitle>
 <titlePart type="series">CHRONICLES OF CARLINGFORD</titlePart>
 <titlePart type="main">THE DOCTOR'S FAMILY</titlePart>

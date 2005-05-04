@@ -65,10 +65,11 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </encodingDesc>
 <profileDesc>
 <creation>
+<rs type="collection">Genre Fiction</rs>
 <rs type="language">English</rs>
 <rs type="ethnicity">Caucasian</rs>
-<rs type="form">unedited</rs>
-<rs type="genre">novel</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Short Stories</rs>
 <rs type="geography">Great Britain</rs>
 <date>1800-1899</date>
 </creation>
@@ -80,7 +81,8 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <item>Empire.</item>
 <item>China.</item>
 <item>War.</item>
-<item>Interracial marriage.</item> 
+<item>Interracial marriage.</item>
+<item>Short stories.</item>
 </list>
 </keywords>
 </textClass>
@@ -103,7 +105,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </docTitle>
 </titlePage>
 <pb entity="lmdragontp" n="[iii]" pages="Title Page"/>
-<titlePage>
+<titlePage type="full">
 <docTitle>
 <titlePart type="main">Under the Dragon Throne</titlePart>
 </docTitle>
@@ -139,10 +141,12 @@ the Dragon Throne</hi>.</figDesc>
 <group>
 <text>
 <front>
-<div id="lmdragon002" type="half-title page">
 <pb n="1"/>
-<p>RICHARD MAITLAND, CONSUL.</p>
-</div>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">RICHARD MAITLAND, CONSUL.</titlePart>
+</docTitle>
+</titlePage>
 </front>
 <body>
 <pb entity="lmdragonpg3" pages="3" n="[3]"/>
@@ -510,9 +514,11 @@ for me?"</p>
 <text>
 <front>
 <pb n="[55]"/>
-<div id="lmadragon0010" type="half-title page">
-<p>A VICTIM OF THE KOLAO-HWUY</p>
-</div>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">A VICTIM OF THE KOLAO-HWUY</titlePart>
+</docTitle>
+</titlePage>
 </front>
 <body>
 <pb entity="lmdragonpg57" pages="57" n="[57]"/>
@@ -875,10 +881,13 @@ for me?"</p>
 </body>
 </text>
 <text>
-<front><pb n="[109]"/>
-<div id="lmdragon060" type="half-title page">
-<p>MRS. WYNDHAM'S SEASON OF TERROR</p>
-</div>
+<front>
+<pb n="[109]"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">MRS. WYNDHAM'S SEASON OF TERROR</titlePart>
+</docTitle>
+</titlePage>
 </front>
 <body>
 <pb entity="lmdragonpg111" pages="111" n="[111]"/>
@@ -1428,9 +1437,11 @@ I would rather die than be false to you."</p>
 <text>
 <front>
 <pb n="[177]"/>
-<div id="lmdragon030" type="half-title page">
-<p>TRAPPED BY A CHINAMAN</p>
-</div>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">TRAPPED BY A CHINAMAN</titlePart>
+</docTitle>
+</titlePage>
 </front>
 <body>
 <pb  entity="lmdragonpg179" pages="179" n="[179]"/>
@@ -2039,9 +2050,11 @@ bear, and at the end of the first part of the trial she felt so faint and sick t
 </div>
 </div>
 <pb  entity="lmdragonpg253" pages="253" n="[253]"/>
-<div id="lmdragon040" type="half-title page">
-<p>A DANGEROUS EXPERIMENT</p>
-</div>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">A DANGEROUS EXPERIMENT</titlePart>
+</docTitle>
+</titlePage>
 <pb n="[255]"/>
 <div id="lmdragon100" type="story" n="A Dangerous Experiment">
 <head>A DANGEROUS EXPERIMENT</head>

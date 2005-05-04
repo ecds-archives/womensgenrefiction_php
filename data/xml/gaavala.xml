@@ -70,10 +70,11 @@ page images are linked to the text file.</p></editorialDecl>
 </taxonomy></classDecl></encodingDesc>
 <profileDesc>
 <creation>
+<rs type="collection">Genre Fiction</rs>
 <rs type="language">English</rs>
 <rs type="ethnicity">Caucasian</rs>
-<rs type="form">unedited</rs>
-<rs type="genre">novel</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
 <rs type="geography">United States</rs>
 <date>1900-1999</date>
 </creation>
@@ -103,16 +104,17 @@ page images are linked to the text file.</p></editorialDecl>
 <text>
 <front>
 <pb n="[i]"/>
-<div type="cover page" id="gaavala055">
-<figure entity="gaavalacp" rend="inline">
-<figDesc>The cover page for Gertrude Atherton's <hi rend="italic">The Avalanche</hi>.</figDesc>
-</figure></div>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">THE AVALANCHE</titlePart>
+</docTitle>
+</titlePage>
 <pb n="[ii]"/>
-<div type="front advertisement" id="gaavala056">
+<div type="advert" id="gaavala056">
 <figure entity="gaavalafm1" rend="inline">
 <figDesc>A page including a list of other books by Mrs. Atherton.</figDesc></figure></div>
 <pb entity="gaavalatp" n="[iii]" pages="Title Page"/>
-<titlePage>
+<titlePage type="full">
 <docTitle>
 <titlePart type="main">THE AVALANCHE</titlePart>
 <titlePart type="sub">A MYSTERY STORY</titlePart>
@@ -126,7 +128,7 @@ page images are linked to the text file.</p></editorialDecl>
 <pb n="[iv]"/>
 <div type="copyright" id="gaavala057">
 <figure entity="gaavalafm2" rend="inline">
-<figDesc>A page including copyright information for Gertrude Atherton's <hi rend="italic">The Avalanche</hi>.</figDesc></figure></div><pb entity="gaavaladed" n="[v]" pages="Dedication"/>
+<figDesc>Copyright information for Gertrude Atherton's <hi rend="italic">The Avalanche</hi>.</figDesc></figure></div><pb entity="gaavaladed" n="[v]" pages="Dedication"/>
 <div type="dedication" id="gaavala001">
 <p>To CHARLES HANSON TOWNE</p></div>
 </front>

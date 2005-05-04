@@ -57,18 +57,19 @@ dashes with two dashes.  Page numbers displayed in brackets have been
 added by the encoder and do not appear in the original text.</p></editorialDecl>
 <classDecl>
 <taxonomy id="lcsh">
-     <bibl>
-       <title>Library of Congress Subject Headings</title>
-     </bibl>
-  </taxonomy>
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
 </classDecl>
 </encodingDesc>
 <profileDesc>
 <creation>
+<rs type="collection">Genre Fiction</rs>
 <rs type="language">English</rs>
 <rs type="ethnicity">Caucasian</rs>
-<rs type="form">unedited</rs>
-<rs type="genre">novel</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
 <rs type="geography">Great Britain</rs>
 <date>1900-1999</date>
 </creation>
@@ -100,7 +101,7 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </docTitle>
 </titlePage>
 <pb entity="rmshorefm2" n="[iii]" pages="Title Page"/>
-<titlePage>
+<titlePage type="full">
 <docTitle>
 <titlePart type="main">THE LEE SHORE</titlePart>
 </docTitle>
@@ -142,23 +143,17 @@ have not, runs so deep as almost <lb/>to run to the bottom."</p>
 <figDesc>An image of the first page of the table of contents for Rose Macaulay's <hi
 rend="italic">The Lee Shore</hi>.</figDesc>
 </figure>
-</div>
 <pb n="[x]"/>
-<div id="rmshore030" type="table of contents">
 <figure entity="rmshorefm7" rend="inline">
 <figDesc>An image of the second page of the table of contents for Rose Macaulay's <hi
 rend="italic">The Lee Shore</hi>.</figDesc>
 </figure>
-</div>
 <pb n="[xi]"/>
-<div id="rmshore031" type="table of contents">
 <figure entity="rmshorefm8" rend="inline">
 <figDesc>An image of the third page of the table of contents for Rose Macaulay's <hi
 rend="italic">The Lee Shore</hi>.</figDesc>
 </figure>
-</div>
 <pb n="[xii]"/>
-<div id="rmshore032" type="table of contents">
 <figure entity="rmshorefm9" rend="inline">
 <figDesc>An image of the fourth page of the table of contents for Rose Macaulay's <hi
 rend="italic">The Lee Shore</hi>.</figDesc>

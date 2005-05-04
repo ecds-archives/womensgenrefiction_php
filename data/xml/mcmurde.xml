@@ -45,10 +45,11 @@
 </classDecl></encodingDesc>
 <profileDesc>
 <creation>
+<rs type="collection">Genre Fiction</rs>
 <rs type="language">English</rs>
 <rs type="ethnicity">Caucasian</rs>
-<rs type="form">unedited</rs>
-<rs type="genre">novel</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
 <rs type="geography">Great Britain</rs>
 <date>1800-1899</date>
 </creation>
@@ -90,14 +91,13 @@ manager.</resp></respStmt>
 <text>
 <front>
 <pb n="[i]"/>
-<div type="cover page" id="mcmurde016">
-<figure entity="mcmurdetp1" rend="inline">
-<figDesc>Image of cover page for Marie Corelli's <hi
-rend="italic">The Murder of Delicia</hi>.</figDesc>
-</figure>
-</div>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">THE MURDER OF DELICIA</titlePart>
+</docTitle>
+</titlePage>
 <pb entity="mcmurdetp2" n="[iii]" pages="Title Page"/>
-<titlePage>
+<titlePage type="full">
 <docTitle>
 <titlePart type="main">THE MURDER OF DELICIA</titlePart>
 </docTitle>
