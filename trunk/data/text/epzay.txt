@@ -1,17 +1,109 @@
-<pb>
-<-- could not determine page number -->
-Although the contrast between the text and background was remarkably high in these images, it was also possible to see through the page to the text on the other side, which, combined with the excessive skewing of the pages and some curvature of the lines of text, caused lots of garbling in the text files.
-
-From pages 5 through page 39, there are only a few files with high confidence levels - most are in the 700's or lower, and the text files range from needing a few corrections to completely useless.
-
-Page 40 through page 50, about half the pages have high confidence indexes, and none are completely garbled.
-
-After page 50 and continuing through the end, most of the pages are legible, and have acceptable confidence indexes. 
- -----------------------------------------------------------------
-
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Doctor Zay, an electronic edition</title>
+<author n="Phelps, Elizabeth Stuart, 1844-1911">Elizabeth Stuart Phelps</author>
+</titleStmt>
+<extent>320kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2005</date>
+<availability>
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA  30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email:  beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Phelps, Elizabeth Stuart</author>. <title>Doctor
+Zay</title>. <pubPlace>Boston</pubPlace>: <publisher>Houghton, Mifflin and
+Company</publisher>, <date>1888</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the
+Women's Genre Fiction Project.  Project participants intend for this
+encoded text, as well as all texts produced by this project, to be
+made available on the web for educational, scholarly and pedagogical
+purposes.  This project is funded by a grant from the National
+Endowment for the Humanities.</p></projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded.  Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p></samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em
+dashes with two dashes. Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="language">English</rs>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
+<rs type="geography">United States</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>American literature--19th Century--Fiction.</item>
+<item>Women authors, American--19th Century.</item>
+<item>Medicine.</item>
+<item>Doctor-patient relationships.</item>
+<item>Women doctors.</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2005-May-05</date>
+<respStmt><name>Erika Farr, </name>
+<resp>project manager.</resp></respStmt>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+</front>
+<body>
 <pb n="5"/>
-
-DOCTOR ZAY.      
+ DOCTOR ZAY.      
 
 I.
 
@@ -1917,7 +2009,7 @@ would be safer for you to wait till the next boat. You are hardly ready for the 
 checked himself. She did not ask him to finish his sentence, but sat with downcast, troubled lids before him.</p>
 <p>"Suppose you could love me," he urged, "in the course of time, after a good while; suppose you did not thwart or deny the feeling of  kindliness which I hope I may say you have for me; suppose you reconsidered the reasonableness of the miracle."</p>
 <p>"It would make no difference; none at all!" She lifted her head, and her eyes, like sleepless sentinels, forced him off. All his manhood roused itself to defy them. He felt himself swept along by a power as mysterious to him as if he only out of the world had ever come into helpless and beautiful contact with it. All his lot, like a Pagan fate, moved on in its destined way to its appointed and. He experienced the terrible acceleration of a passion, and found that neither nature nor observation had given him any more prevision of the force of the torrent than they had power where-with to stay it.</p>
-<p>"I love you," he repeated,--"I love you!" as if the fact itself must be an appeal inexorable to her as the laws of light, or gravitation, or any natural code which she could not infringe without penalty·</p>
+<p>"I love you," he repeated,--"I love you!" as if the fact itself must be an appeal inexorable to her as the laws of light, or gravitation, or any natural code which she could not infringe without penaltyÂ·</p>
 
 <pb n="DOCTOR ZAY.     209"/>
 
