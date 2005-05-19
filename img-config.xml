@@ -1,0 +1,32 @@
+<config>
+ <!-- input file locations -->
+ <input>
+   <!-- directories are relative to build directory -->
+   <imagedir>input/</imagedir>
+ </input>
+
+<!-- figure conversion info -->
+ <image>
+   <size>
+     <page>504x504</page>	 	<!-- long dimension : 7 inches -->
+     <thumbnail>72x72</thumbnail>	<!-- long dimension : 1 inch -->
+   </size>
+   <entities>docs/entity_list</entities>
+
+  <!-- settings to secure copy image files to server -->
+   <load>
+      <server>chaucer.library.emory.edu</server>
+      <imgdir>/data/neh/data/images/</imgdir>
+      <thumbdir>/data/neh/data/images/thumbnails</thumbdir>
+      <user>rsutton</user>	<!-- userid on remote server -->
+      <key>/home/rsutton/.ssh/id_rsa</key>  <!-- path to ssh key for server -->
+   </load>
+ </image>
+
+<!-- directories used in build process -->
+
+ <dir>docs<images>imgs/<thumbnails>imgs/thumbnails</thumbnails>
+   </images>
+ </dir>
+</config>
+
