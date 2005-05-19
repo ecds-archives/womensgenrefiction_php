@@ -1,0 +1,152 @@
+<project name="Women's Transatlantic Genre Fiction" default="all" basedir=".">
+
+<target name="all" depends="images" description="* Process images"/>
+
+<target name="config">
+  <echo message="Loading configuration settings from config file."/>
+  <echo message="************************************************"/>
+
+  <!-- import settings from config file -->
+  <xmlproperty file="img-config.xml"/>
+
+<!-- user-readable printout of settings loaded from config file -->
+
+  <echo message="Using the following input directory:"/>
+  <echo message="   images       : ${basedir}/${config.input.imagedir}"/>
+  <echo message="Using the following settings for image processing:"/>
+  <echo message="   pagesize     : ${config.image.size.page}"/>
+  <echo message="   thumbnail    : ${config.image.size.thumbnail}"/>
+
+<!--   <echo message="Internal directories used by build:"/>
+  <echo message="   image dir    : ${config.dir.images}"/>
+  <echo message="   image thumbs : ${config.dir.images.thumbnails}"/> -->
+
+
+<!-- set some properties according to whether directories have been created yet -->
+  <available file="${config.dir}" type="dir" property="config.dir.exists"/>
+  <available file="${config.dir.images}" type="dir" property="config.dir.images.exists"/>
+  <available file="${config.dir.images.thumbnails}" type="dir" 
+	property="config.dir.images.thumbnails.exists"/>
+
+<!-- pattern sets for matching files -->
+  <patternset id="tiffs">
+    <include name="*.tif"/>
+    <include name="*.tiff"/>
+  </patternset>
+
+  <patternset id="jpegs">
+    <include name="*.jpg"/>
+    <include name="*.jpeg"/>
+  </patternset>
+ 
+</target> <!-- end target config -->
+
+
+<!-- create base work directory, unless it already exists -->
+<target name="work-dir" unless="config.dir.exists">
+  <mkdir dir="${config.dir}"/>
+</target>
+
+
+<target name="images" depends="config,work-dir,images-resize,image-thumbs,load-images" 
+	description="* Convert images to jpeg format, resize, create thumbnails"/> 
+
+
+
+<target name="images-resize" depends="config,work-dir">
+<!-- move tif images to working directory, convert & resize to page-image dimensions --> 
+
+<!-- make sure image dir is empty -->
+<delete dir="${config.dir.images}"/>
+<mkdir dir="${config.dir.images}"/>
+
+<!-- copy tif images from input dir to working directory -->
+  <copy todir="${config.dir.images}">
+    <fileset  dir="${config.input.imagedir}">
+     <patternset refid="tiffs"/>
+    </fileset>
+  </copy>
+
+<!-- use mogrify to resize and convert to jpg -->
+ <echo message="Running mogrify to resize and convert to jpeg in ${config.dir.images}."/>
+ <echo message="   mogrify -format jpg -resize ${config.image.size.page}"/>
+ <apply executable="mogrify" parallel="true" failonerror="true" skipemptyfilesets="true" 
+	dir="${config.dir.images}">
+   <arg line="-format jpg -resize ${config.image.size.page}"/>
+   <fileset dir="${config.dir.images}">
+     <patternset refid="tiffs"/>
+   </fileset>
+ </apply>
+
+<!-- delete tiff files (no longer needed) -->
+  <delete>
+    <fileset dir="${config.dir.images}">
+      <patternset refid="tiffs"/>
+    </fileset>
+  </delete>
+
+</target>  <!-- end target images-resize -->
+
+
+<target name="image-thumbs" depends="config" if="config.dir.images.exists">
+
+<!-- make sure thumbnail dir is empty before using it -->
+<delete dir="${config.dir.images.thumbnails}"/>
+<mkdir dir="${config.dir.images.thumbnails}"/>
+
+<!-- copy resized jpeg images to thumbnail directory -->
+  <copy todir="${config.dir.images.thumbnails}">
+    <fileset dir="${config.dir.images}">
+     <patternset refid="jpegs"/>
+    </fileset>
+  </copy>
+
+<!-- use mogrify to create thumbnails -->
+ <echo message="Running mogrify to generate thumbnails in ${config.dir.images.thumbnails}."/>
+ <echo message="   mogrify -format jpg -resize ${config.image.size.thumbnail}"/>
+ <apply executable="mogrify" parallel="true" failonerror="true" skipemptyfilesets="true" 
+	dir="${config.dir.images.thumbnails}" >
+   <arg line="-format jpg -resize ${config.image.size.thumbnail}"/>
+   <fileset dir="${config.dir.images.thumbnails}">
+     <patternset refid="jpegs"/>
+   </fileset>
+ </apply>
+
+</target>  <!-- end target image-thumbs -->
+
+<target name="ask-imgload" depends="config" if="config.dir.images.exists">
+  <input
+    message="Would you like to copy the image files to the webserver? "
+    validargs="y,n"
+    addproperty="response"
+  />
+  <condition property="do.imgload">
+    <equals casesensitive="false" arg1="y" arg2="${response}"/>
+  </condition>
+</target>  <!-- ask-imgload -->
+
+<target name="load-images" depends="config,ask-imgload" if="do.imgload" description="* Copy images and thumbnails to webserver" >
+
+  <!-- scp is an optional target; must have jsch.jar file in ant lib -->
+
+  <!-- copy all images to main image directory -->
+  <scp todir="${config.image.load.user}@${config.image.load.server}:${config.image.load.imgdir}" 
+	keyfile="${config.image.load.key}" 
+	passphrase="">
+    <fileset dir="${config.dir.images}">
+      <patternset refid="jpegs"/>
+    </fileset>
+  </scp>
+
+
+  <!-- copy thumbnails to thumbnail subdirectory -->
+  <scp todir="${config.image.load.user}@${config.image.load.server}:${config.image.load.thumbdir}" 
+	keyfile="${config.image.load.key}" passphrase="${config.image.load.passphrase}">
+    <fileset dir="${config.dir.images.thumbnails}">
+      <patternset refid="jpegs"/>
+    </fileset>
+  </scp> 
+
+</target>
+
+</project>
