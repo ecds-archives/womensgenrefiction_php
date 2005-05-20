@@ -8,24 +8,27 @@
 <!-- figure conversion info -->
  <image>
    <size>
-     <page>504x504</page>	 	<!-- long dimension : 7 inches -->
+     <page>720x720</page>	 	<!-- long dimension : 7 inches -->
+<!-- 504x504 should be 7 inches (at 72 dpi), but is too small on the screen -->
+<!--     <page>504x504</page>  --> 	<!-- long dimension : 7 inches -->
      <thumbnail>72x72</thumbnail>	<!-- long dimension : 1 inch -->
    </size>
-   <entities>docs/entity_list</entities>
+   <quality>100</quality>               <!-- quality of jpeg to create -->
+	<!-- note: added a quality parameter to reduce text pixelization -->
 
   <!-- settings to secure copy image files to server -->
    <load>
-      <server>chaucer.library.emory.edu</server>
-      <imgdir>/data/neh/data/images/</imgdir>
-      <thumbdir>/data/neh/data/images/thumbnails</thumbdir>
-      <user>rsutton</user>	<!-- userid on remote server -->
-      <key>/home/rsutton/.ssh/id_rsa</key>  <!-- path to ssh key for server -->
+      <server>bohr.library.emory.edu</server>
+      <imgdir>images_tgfw/</imgdir>
+      <thumbdir>images_tgfw/thumbs/</thumbdir>
+      <user>elfarr</user>	<!-- userid on remote server -->
+      <key>/home/elfarr/.ssh/id_rsa</key>  <!-- path to ssh key for server -->
    </load>
  </image>
 
 <!-- directories used in build process -->
 
- <dir>docs<images>imgs/<thumbnails>imgs/thumbnails</thumbnails>
+ <dir><images>imgs/<thumbnails>imgs/thumbnails</thumbnails>
    </images>
  </dir>
 </config>
