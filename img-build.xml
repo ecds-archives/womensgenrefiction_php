@@ -42,18 +42,12 @@
 </target> <!-- end target config -->
 
 
-<!-- create base work directory, unless it already exists -->
-<target name="work-dir" unless="config.dir.exists">
-  <mkdir dir="${config.dir}"/>
-</target>
-
-
-<target name="images" depends="config,work-dir,images-resize,image-thumbs,load-images" 
+<target name="images" depends="config,images-resize,image-thumbs,load-images" 
 	description="* Convert images to jpeg format, resize, create thumbnails"/> 
 
 
 
-<target name="images-resize" depends="config,work-dir">
+<target name="images-resize" depends="config">
 <!-- move tif images to working directory, convert & resize to page-image dimensions --> 
 
 <!-- make sure image dir is empty -->
@@ -69,10 +63,10 @@
 
 <!-- use mogrify to resize and convert to jpg -->
  <echo message="Running mogrify to resize and convert to jpeg in ${config.dir.images}."/>
- <echo message="   mogrify -format jpg -resize ${config.image.size.page}"/>
+ <echo message="   mogrify -format jpg -resize ${config.image.size.page} -quality ${config.image.quality}"/>
  <apply executable="mogrify" parallel="true" failonerror="true" skipemptyfilesets="true" 
 	dir="${config.dir.images}">
-   <arg line="-format jpg -resize ${config.image.size.page}"/>
+   <arg line="-format jpg -resize ${config.image.size.page} -quality ${config.image.quality}"/>
    <fileset dir="${config.dir.images}">
      <patternset refid="tiffs"/>
    </fileset>
@@ -125,7 +119,13 @@
   </condition>
 </target>  <!-- ask-imgload -->
 
-<target name="load-images" depends="config,ask-imgload" if="do.imgload" description="* Copy images and thumbnails to webserver" >
+<!-- note: this version of load-images asks user before transferring
+    files. -->
+<!-- <target name="load-images" depends="config,ask-imgload"
+if="do.imgload" description="* Copy images and thumbnails to
+webserver" > -->
+
+<target name="load-images" depends="config" description="* Copy images and thumbnails to webserver" >
 
   <!-- scp is an optional target; must have jsch.jar file in ant lib -->
 
