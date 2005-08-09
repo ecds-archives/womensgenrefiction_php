@@ -1,4 +1,180 @@
-<header>PROLOGUE</header>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Voices in the Night, an electronic edition</title>
+<author n="Steel, Flora Annie Webster, 1847-1929">Flora Annie Steel</author>
+</titleStmt>
+<extent>875kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2005</date>
+<availability>
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Steel, Flora Annie</author>. <title>Voices in the
+Night</title>. <pubPlace>London</pubPlace>: <publisher>William Heinemann
+</publisher>, <date>1900</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded. Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p></samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera. Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi. These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel. This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines. For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em
+dashes with two dashes. Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="collection">Genre Fiction</rs>
+<rs type="language">English</rs>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
+<rs type="geography">Great Britain</rs>
+<date>1900-1999</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>British literature--20th Century--Fiction.</item>
+<item>Women authors, British--20th Century.</item>
+<item>India.</item>
+<item>Colonialism.</item>
+<item>War.</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2005-August-09</date>
+<respStmt><name>Erika Farr, </name>
+<resp>project manager.</resp></respStmt>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div id="fsnight000" type="covers">
+<figure entity="fsnightfc" rend="inline">
+<figDesc>Front cover of Steel's <hi rend="italic">Voices in the
+Night</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="fsnight001" type="advert">
+<figure entity="fsnightad1" rend="inline">
+<figDesc>Advertisement included in the front of Steel's <hi rend="italic">Voices in the
+Night</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="fsnightad2" rend="inline">
+<figDesc>Advertisement included in the front of Steel's <hi rend="italic">Voices in the
+Night</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="fsnightad3" rend="inline">
+<figDesc>Advertisement included in the front of Steel's <hi rend="italic">Voices in the
+Night</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="fsnightad4" rend="inline">
+<figDesc>Advertisement included in the front of Steel's <hi rend="italic">Voices in the
+Night</hi>.</figDesc>
+</figure>
+</div>
+<pb n="[iii]"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">Voices in the Night</titlePart>
+</docTitle>
+</titlePage>
+<pb n="[iv]"/>
+<div id="fsnight002" type="advert">
+<figure entity="fsnightad5" rend="inline">
+<figDesc>Advertisement included in the front of Steel's <hi rend="italic">Voices in the
+Night</hi>.</figDesc>
+</figure>
+</div>
+<pb n="[v]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">Voices in the Night</titlePart>
+</docTitle>
+<byline>By <lb/><docAuthor>Flora Annie Steel</docAuthor> <lb/>Author
+of <lb/>'On the Face of the Waters,
+ etc.</byline>
+<docImprint>
+<pubPlace>London</pubPlace>
+<publisher>William Heinemann</publisher>
+<docDate>1900</docDate>
+</docImprint>
+</titlePage>
+<pb n="[vi]"/>
+<div id="fsnight003" type="copyright">
+<figure entity="fsnightcr" rend="inline">
+<figDesc>Copyright information for  Steel's <hi rend="italic">Voices in the
+Night</hi>.</figDesc>
+</figure>
+</div>
+<pb n="[vii]"/>
+<div id="fsnight004" type="table of contents">
+<figure entity="fsnighttc1" rend="inline">
+<figDesc>Table of contents for  Steel's <hi rend="italic">Voices in the
+Night</hi>.</figDesc>
+</figure>
+<pb n="viii"/>
+<figure entity="fsnighttc2" rend="inline">
+<figDesc>Table of contents for  Steel's <hi rend="italic">Voices in the
+Night</hi>.</figDesc>
+</figure>
+</div>
+</front>
+<body>
+<pb n="[1]"/>
+<div id="fsnight010" type="prologue">
+<head>PROLOGUE</head>
 <p>THE new year was already some hours old, but the world to which it had come was still dark. Dark with a curious obscurity, that was absolutely opaque yet faintly luminous, because of the white fog which lay on all things and hid them from the stars; for the sky above was clear, cold, almost frosty.</p>
 <p>That was why the fog, born, not of cool vapour seeking for cloud life among the winds of heaven, but of hot smoke loving the warmth of dust and ashes, clung so closely to the earth; to its birthplace.</p>
 <p>It was an acrid, bitter smoke, not even due to the dead hearthfires of a dead day, since they--like all else pertaining to the domestic life of India--give small outward sign of existence, but to the smouldering piles of litter and refuse which are lit every evening upon the outskirts of human habitation. Dull heaps with a minimum of fire, a maximum of smoke, where the humanity which has produced the litter, the refuse, gathers for gossip or for warmth.</p>
@@ -6,7 +182,6 @@
 <p>So it was small wonder if here, at Nushapore, with its fifty thousand and odd dwellers in cantonments, its two hundred and odd thousand dwellers in the town, the smoke fog hid earth from heaven; hid even the steady coming of day.</p>
 <p>For it was close on dawn. The most silent, most restful hour of an Indian night, yet one still holding that vague sense of life and movement inseparable from an environment in which there is no set time for sleeping or waking; in which
 <pb n="2 VOICES IN THE NIGHT"/>
-
 folk gossip all night, and sleep all day, should the humour so take them.</p>
 <p>It had so seized on some one, apparently, this New Year's night, for two voices rose, not in whispers, but monotone, from one of the verandahs in Government House--rose insistently, until, from within the closed doors, came a sharp though drowsy order for silence--</p>
 <p>'<hi rend="italic">Chupra'o!</hi>'</p>
@@ -19,10 +194,11 @@ folk gossip all night, and sleep all day, should the humour so take them.</p>
 <p>So the threat ceased, and between the beats of the guns the voices had their say unchecked.</p>
 <p>About what?</p>
 <p>That is a difficult question to answer, when the voices are in the night.</p>
-<pb>
-
-<header>CHAPTER I</header>
-<p>THE TOTALISATOR</p>
+</div>
+<pb n="[3]"/>
+<div id="fsnight011" type="chapter" n="1">
+<head>CHAPTER I
+<lb/>THE TOTALISATOR</head>
 <p>'WHAT'S the big blackboard with white sums?' asked little Jerry Arbuthnot.</p>
 <p>Jack Raymond, who was holding the child's hand, looked down at the six-year-old figure in the natty riding-suit so like his own, save for the racing silk which he himself wore half-hidden by a covert coat.</p>
 <p>'It is the map of India,' he began, then pulled up at the sight of Jerry's face. 'You shouldn't believe everything you're told, young man--it hampers the sense of humour! No, Jerry, that's the totalisator--a calculating machine for doing sums in the compound rules. Ask Miss Drummond if it isn't?'</p>
@@ -33,7 +209,6 @@ folk gossip all night, and sleep all day, should the humour so take them.</p>
 <p>'Practical boy!' commented Jack Raymond with a laugh. 'It is "as you was " generally; for you see, Jerry, the world backs the favourite as a rule. It likes to follow a lead! And, if you divide the total of the tickets by their number, it's poor fun! So take my advice, young man; when you totalise, go for a rank outsider and stand to collar the lot!'</p>
 <p>Lesley Drummond, being the child's governess, frowned I see your mother arriving, Gerald,' she said, 'and we were to join her at once. Come!
 <pb n="4 VOICES IN THE NIGHT"/>
-
 But Jerry held his new-found friend fast by the hand 'You come too,' he petitioned, 'my mother is just an orful nice person.'</p>
 <p>There was a moment's pause, during which the child's grip on the man tightened, before the latter replied, 'I know that, Jerry; your mother and I are old friends; but I have only time to see you safe across the green. I'm up in this race.'</p>
 <p>'I used to wide waces when I was in India once,' began the child, when Lesley cut him short.</p>
@@ -43,8 +218,7 @@ But Jerry held his new-found friend fast by the hand 'You come too,' he petition
 <p>'I don't!' protested the six-year-old. 'I weally thought I had. But I will, anyhow, when I'm big. An' I'll bet wif the bookies evewy time, Mr. Waymond, like you do.'</p>
 <p>That glance at the collar and cuffs showed guilt in it this time. 'Not a bit of it,' said the conscious sinner stoutly. 'You'll be a mighty big swell like your father, Sir George--'</p>
 <p>'Please, they call my daddy "His Honour the Lieutenant Governor" now,' interrupted Jerry, 'and his salute is
-<pb n="THE TOTALISATOR 5"/>
-
+<pb n="5 THE TOTALISATOR"/>
 twenty-one whole guns. They made an orful booming at the wailway station. But I liked it. An' the twoops pwesented arms to him to-day at the Queen's pawade--didn't they, Miss Dwummond?'</p>
 <p>'Of course, dear! As Lieutenant-Governor, your father is entitled to these honours,' replied Lesley, head in air.</p>
 <p>'Of course!' echoed the man beside her, making her, in her turn, glance at him, and wonder if contempt or envy brought that odd note to his voice. Either way, she admitted reluctantly, he would have carried such honours bravely; but then so would have half the Englishmen she had seen since landing at Bombay. The environment of India had a trick of giving an air of distinction to the Anglo-Saxon.</p>
@@ -67,7 +241,7 @@ the last echo of the East in a white turban above a frock coat.</p>
 <p>Lesley's disdain became active, though she told herself the remark was only to be expected from 'that type of man.'</p>
 <p>'May I ask why?' she said superbly.</p>
 <p>'Because it is contrary to his own estimate of the proprieties, and it is impossible to be virtuous on another person's decalogue, isn't it?' he replied coolly; then, ere she had time
-<pb n="THE TOTALISATOR 7"/>
+<pb n="7 THE TOTALISATOR "/>
 
 to reply, went on: 'There are a lot of chaps want kicking in this crowd, I can tell you. For instance, do you see that man buttonholing the Rightful Heir?'</p>
 <p>'With the red tie?' she asked, feeling interested in spite of herself. 'Is he English?'</p>
@@ -93,7 +267,7 @@ dressed, and with the beautiful manners which a perfectly calm consciousness of 
 <p>It seemed so by the cheer which rose as the winners went by.</p>
 <p>'I suppose he has won a lot of money,' sniffed Lesley, noting the rider's pleased face.</p>
 <p>'Not a penny, Miss Drummond!' protested the young fellow. 'Raymond is only <hi rend="italic">on</hi> the saddle when he rides another chap's horse, as he's doing to-day; and it <hi rend="italic">is</hi> safer, you know.'</p>
-<pb n="THE TOTALISATOR 9"/>
+<pb n="9 THE TOTALISATOR "/>
 
 <p>'I do <hi rend="italic">not</hi> know, Captain Lloyd,' she retorted loftily. 'I know nothing about horse-racing. <hi rend="italic">Why</hi> is it safer?'</p>
 <p>He coughed uneasily. 'Ah! I thought you would know, you know, and it's a bit hard to explain. You see, Indian racing is sometimes a trifle odd--considering, I mean, that we are all gentlemen--or supposed to be so. But Raymond,' here he brightened up, 'is always a straight win. That's why Lucre and his crew--'</p>
@@ -115,7 +289,7 @@ be a peach-brandy, you know. Have tea, or a chocolate caramel, just to show ther
 <p>She had read books on that past tragedy, she had told herself that it <hi rend="italic">was</hi> past, that it should be forgotten; and now--</p>
 <p>'Drink your tea sharp!' said Nevill Lloyd with kindly familiarity, 'or you'll be getting ague. That's the worst of this beastly hole. It's always in extremes. Hot as blazes one moment, chill as charity--' He paused, for the iron hand beneath the parti-coloured velvet and brocade glove of India was resolved to have the girl in its grip at once, and a rattling thud, followed by a dull reverberation, rose from the near distance, making more than one in the chattering crowd pause also, until the sound came again, when the pause ended cheerfully in fresh chatter.</p>
 <p>'It's a funeral,' explained Nevill Lloyd in answer to Lesley's look. 'The cemetery is close to the course, and enteric is shocking bad in barracks just now. Young
-<pb n="THE TOTALISATOR 11"/>
+<pb n="11 THE TOTALISATOR "/>
 
 Summers of ours is down with it, too. Awful ill, poor chap--couldn't be worse, I'm afraid.'</p>
 <p>A lady, passing, turned to listen, and, as she went on, said to her companion in a whisper, 'I do hope they won't have to put off the ball to-night--I've got such a jolly new dress from Paris for it.'</p>
@@ -145,7 +319,7 @@ art with her pupil. 'And <hi rend="italic">I</hi> don't know which is the rankes
 <p>'Only the other end of it, please,' corrected Jerry; whereat one flush vanished in two laughs.</p>
 <p>'My name doesn't matter, dear; read the next,' began Lesley, when Jack Raymond interrupted her.</p>
 <p>'Excuse me, we gamblers believe in omens.--H'm! country-bred mare--undersized--maiden--Of course I remember! a post entry, railed down this morning--owner up--that looks good--white and green sleeves--better--the fellow knows his border ballads. Bonnie Lesley it is, my boy, for the luck'--'of the name' trembled on his tongue, but the immaculate collar and cuffs made him alter the phrase to 'the thing.'</p>
-<pb n="THE TOTALISATOR 13"/>
+<pb n="13 THE TOTALISATOR "/>
 
 <p>The next instant he and Jerry were elbowing their way to the totalisator, Lesley waiting for them out of the crush, and watching fresh white strokes come as fast as they could to number two on the blackboard. That, she thought, must be the favourite's number, while poor Bonnie Lesley, the rankest outsider, was probably thirteen, with but one white stroke!</p>
 <p>She turned to the bookmakers' booths to see if she could verify her guess by their lists, but all save one, round which a few determined old stagers were lounging, had already closed. however, she saw what she wanted there--Kingscraft, No. 2, Bonnie Lesley, No. 13!</p>
@@ -174,7 +348,7 @@ art with her pupil. 'And <hi rend="italic">I</hi> don't know which is the rankes
 <p>'And your winnings also.'</p>
 <p>Their eyes met, and he took his cue once more from what he saw. 'I'll get <hi rend="italic">them</hi> after. It is a good lot, for I backed the little mare properly because she had your name. Only depreciated rupees though! Jerry! can you do sums yet? What is five thousand rupees at one shilling and threepence farthing? That, I think, is to-day's quotation, is it not, Miss Drummond?'</p>
 <p>His reflected defiance made the original stronger.</p>
-<pb n="THE TOTALISATOR 15"/>
+<pb n="15 THE TOTALISATOR "/>
 
 <p>'Tell Mr. Raymond, Jerry, that you haven't yet begun his system of compound multiplication, and, as I hope you never will, he had better drop the subject.'</p>
 <p>She had not looked at the straight line of those bushy fair eyebrows, or she might have realised the futility of high-handedness; but she did realise it, with a certain respect, from the first words he spoke.</p>
@@ -195,7 +369,7 @@ past also, so that her manner had all the elaborate graciousness she accorded to
 <p>Her voice was loud and firm, and Sir George glanced uneasily at the door of his secretary's room; for the fear of a certain proverb about grey mares lingered with him. It dies hard in Indian bureaucracy.</p>
 <p>'Horribly mean,' she went on, 'for it does not lessen your responsibility; or alter the position, so far as you're concerned.'</p>
 <p>Sir George took up his pen a trifle irritably--a sign that he was beginning to weary of the discussion. 'Pardon me, I
-<pb n="THE TOTALISATOR 17"/>
+<pb n="17 THE TOTALISATOR "/>
 
 think it does. So long as these secret instructions were in my confidential box I was bound, in any crisis, to follow them; but now they are destroyed'--he paused at her look, pointed to a pile of grey ashes in the fireplace, and went on heartily--' upon my soul, it's a relief! The contents can't leak out now; and I've been awfully nervous about that ever since Ewebank took to asking questions about a secret plan of campaign in the House. Some one got a hint of it somehow; and, as you know, that pestilent paper here, the <hi rend="italic">Voice of India</hi>, has been on the bad-faith tack. And I can't imagine anything more disastrous, just at present when the city is seething about the plague and the withdrawal of municipal powers, than that this policy--which, frankly, subverts all our professions--should be got at. Even at home it would be ruination during the elections; a regular party cry.'</p>
 <p>'And yet,' said Lady Arbuthnot with a fine scorn, 'every sane man knows we can't proclaim everything from the housetops in India; knows we must have secret orders. And, paper or no paper, we have them still! If there is a row, Government will expect you--'</p>
@@ -216,7 +390,7 @@ up the wide shallow stairs, so un-English, so still more un-Indian, which led to
 <p>Half an hour afterwards she was answering the police officer's questions still more calmly.</p>
 <p>'Only a string of pearls--large ones--they belonged to my mother, who got them, I believe, from one of the late Naw&acirc;b's wives, and a few small trinkets--there is a list of them--that was all.'</p>
 <p>'A letter or two, milady,' suggested Needham, who had been giving her evidence.</p>
-<pb n="THE TOTALISATOR 19"/>
+<pb n="19 THE TOTALISATOR "/>
 
 <p>'Of no value to any one save the owner,' smiled Lady</p>
 <p>Arbuthnot, and her husband smiled back at her, for he</p>
@@ -765,7 +939,7 @@ sort danced, as in old days, in kings' houses, Dilar&acirc;m would
 have known who else sought to flutter in her footsteps. But
 with new pleasures, Naw&acirc;b-<hi rend="bold">sahib</hi>, come new pains. She is
 *1 The Mohammedan Easter.
-<pb n=" COBWEBS 37"/>
+<pb n="37  COBWEBS "/>
 not of us in the city; that is sure. But there are baggages
 with bleached hair and powdered faces outside it. Ask Miss
 Leezie! I heard her say she lacked apprentices.' Her lazy
@@ -851,7 +1025,7 @@ London, which the low value of the rupee causes to be
 greater every year, hath an eye on the endowment of the
 mausoleum.'
 Govind the editor stifled a yawn of disappointment. 'That
-<pb n="COBWEBS 39"/>
+<pb n="39 COBWEBS "/>
 tale is old,' he put in contemptuously, 'I heard it a week
 past from the Secretariat Office. My cousin is clerk--as I
 should have been but for injustice--and saw the papers. It
@@ -2105,7 +2279,7 @@ of the only English life he knew, had made him think of the
 ~, ~'       Lady in Comus; for he could have no standard save that of
 books.
 She looked dainty enough for any heroine's part even now,
-t ·            after eighteen months' disillusionment, as she stood before him,
+t Â·            after eighteen months' disillusionment, as she stood before him,
 in a paucity of pink muslin neglige (which had mostly run to
 ,!~' (frills) and a plenitude of powder. She had an open note in
 one hand, a half-smoked Turkish cigarette--of Mr. Lucan-
@@ -15968,7 +16142,7 @@ BY HALL CAINE
 In One Volume, price 6s. 
 The Times.-' In our judgment it excels in dramatic force all the Author
 previous efforts. For grace and touching pathos Naomi is a character whid
-any romancist in the world might be proud to have created, and the tale °
+any romancist in the world might be proud to have created, and the tale Â°
 her parents' despair and hopes, and of her own development, confers upo"
 The Scapegoat a distinction which is matchless of its kind.'
 The Guardian.-' Mr. Hall Caine is undoubtedly master of a style whic
