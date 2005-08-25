@@ -1,12 +1,20 @@
+Still needs header and main title page, although the stories are pre-div'ed.  The first page of each story is formatted in a complicated way, as some stories have individual epigraphs.
+
 <TEI.2><text>
+<front>
 
-
+</front>
+<group>
 <pb n="[7]"/>
-<head>THE CALL</head>
+<text><front>
+<titlePage type="half">
+<docTitle type="main">THE CALL</docTitle></titlePage>
+</front><body>
 <pb n="[9]"/>
-<div n="1" id="" type="section">
-(I)
-"THE CALL"
+<div n="1" id="blsome001" type="story">
+<head>THE CALL</head>
+<div n="1" id="blsome002" type="section">
+<head>(I)</head>
 <p>HELEN ACKERINGTON lay, fully dressed, on her half of the Jacobean four-post bed which had been her present to herself last Christmas. Like almost all the young married women belonging to the having-somehow-profited-by-the-war strata of society, she was now an eager collector of old furniture.</p>
 <p>It was close on half-past six, and so quite dark on this December evening; but she had not cared to turn up the light.</p>
 <p>The fashionable nerve-specialist of the moment had told her that she ought to take off her clothes and rest, for at least an hour, between tea and dinner. But after a few days she had given up practising the first part of his prescription. For one thing, it was too much of what she called to herself "a bore "; for another, she was aware that her condition had nothing to do with what the specialist, smiling down into the face of one who was still a delightfully pretty woman, had described as her "flipperty-gibberty, rackety life."</p>
@@ -34,7 +42,7 @@ o'clock, child. She's got to be home by seven. Two hours of bliss in eight month
 <p>"How about Lily? I thought James was jealous--sometimes?"</p>
 <p>She remembered, now, how she had laughed, a real, genuine peal of still girlish laughter, as she had answered, "Never of the right man--and of course there isn't a right man! No, no, we all run straight, Lewis."</p>
 <p>She wondered if Lewis knew, in the sailors'--in Nelson's--heaven, that she was now running very crooked, and, far from being ashamed, exulted in her crookedness?</p>
-<milestone rend="blank-line" unit="section"/>
+<milestone rend="blank-line" unit="subsection"/>
 <p>Helen's excited, troubled mind swung back to its immediate painful problem. Douglas Curtin had said he would come in late this afternoon,
 <pb n="14     Some Men and Women"/>
 and though he had played her false four times in the last three weeks, something seemed to tell her that he would keep faith to-day.</p>
@@ -51,16 +59,16 @@ others, had remarked, just a little significantly, only yesterday, "I'm told Mr.
 <p>The other day, when driving with her mother, she, Helen, had suddenly begun to cry; and the older woman, instead of expressing her concern, had only patted her hand, and the dear comfortable old face had become anxious, troubled, questioning . .. and yet she had asked no question.</p>
 <pb n="16     Some Men and Women"/>
 <p>The Georgian church close by chimed half-past six, and Helen forced herself to face the fact that Douglas Curtin was evidently going to "chuck" again.</p>
-<p>She suddenly visualized, with a horrid vividness of vision, her prim parlourmaid, Belt, coming up the two long flights of stairs; and she almost heard the tap on the door which would precede the uttering of the words, "Mr. Curtin has telephoned to say, ma'am, that he can't come this evening; he has an important business appointment at a quarter to seven."</p>
+<p>She suddenly visualized, with a horrid vividness of vision, her prim parlour-maid, Belt, coming up the two long flights of stairs; and she almost heard the tap on the door which would precede the uttering of the words, "Mr. Curtin has telephoned to say, ma'am, that he can't come this evening; he has an important business appointment at a quarter to seven."</p>
 <p>And then, all at once, her heart gave a leap of joy, for there had fallen on her ears, as if flung up through the still air of the London street, Douglas Curtin's familiar, unmistakable double knock. There was something authoritative, if perhaps just a trifle defiant and self-assertive, in the loud rat-tat-tat. It was the knock of a man sure of himself, who will command, if he has not already won, success.</p>
 <p>She slid off her bed, turned on the light, and, after pausing for a brief moment before the dim mirror of the small Chippendale dressing-table which was her latest and most prized present to herself, she ran down the one flight of stairs, and was in the drawing-room before she heard the front door open.</p>
 <pb n="17     The Call"/>
-</div><div n="2" id="" type="section">
+</div><div n="2" id="blsome003" type="section">
 <head>(2)</head>
 <p>There was a strain of prudence, of clear good sense, in Helen Ackerington, and so, from the first moment of their closer friendship, she had always exacted, when he came to her husband's house, a certain formality of approach between her lover and herself. And now, as they shook hands in front of the servant who had brought him up, there was a quick, apparently careless, interchange of question and answer. Would he like some late tea--or how about one of the cocktails which were then coming into fashion in her set?</p>
 <p>But Douglas Curtin, alone among the many men who came and went to that hospitable house, generally had the strength of mind to refuse a cocktail, even after a long hard day's work.</p>
 <p>To-night he shook his head twice, explaining that he had had tea at the Courts, for, yes, it had been a very busy day, and as for a cocktail, well, no, he didn't feel like having one just now.</p>
-<p>After what seemed an eternity to one of the three, the parlourmaid left the room. And even then the two waited until there came the distant sound of the shutting of the door which separated the landing, below, from the stairs leading to the basement. But at last he took her closely into his arms, kissing her with more tremulous
+<p>After what seemed an eternity to one of the three, the parlour-maid left the room. And even then the two waited until there came the distant sound of the shutting of the door which separated the landing, below, from the stairs leading to the basement. But at last he took her closely into his arms, kissing her with more tremulous
 <pb n="18     Some Men and Women"/>
 emotion, more depth of feeling, than he had shown for a long, long time.</p>
 <p>Helen was the first to break away, and as she gazed into her lover's keen clear-cut face, and met the direct, now tender, glance of his gleaming, narrow-lidded eyes, the jealous, suspicious pain which had so lately possessed her vanished, leaving her with the delicious sensation of relief and drowsy joy which an an&#x00E6;sthetic brings to one in pain.</p>
@@ -113,7 +121,7 @@ his breast pocket, and then, suddenly, she did something which touched him queer
 <p>They both ran downstairs, he snatching up his hat, his coat, his stick, in the hall, while she hurried off to her husband's study. As
 <pb n="24     Some Men and Women"/>
 he swung out of the house, and shut the front door, with something of a slam, behind him, he muttered aloud: "Thank God that's over! Well--well over!"</p>
-</div><div n="3" id="" type="section">
+</div><div n="3" id="blsome004" type="section">
 <head>(3)</head>
 <p>After he had escaped from the house towards which for so long his eager feet had ever been hurrying, Douglas Curtin decided that to-night he would walk, and not drive, as he was wont to do, back to his rooms in the Temple.</p>
 <p>Of late he had become uneasily aware that increasing prosperity had brought certain unwise changes in his daily way of life. In the days when he had been working at his Bar exams. and later, when eating out his heart as a poor, still briefless barrister, he had been a great walker. But now, when out of doors, he almost lived in taxis, partly because he had plenty of petty cash, and also for the better reason that he had become a busy man.</p>
@@ -147,7 +155,7 @@ bear it, Douglas, if you were to be caught by one of those horrid, fast, modern 
 <pb n="30     Some Men and Women"/>
 dancing, and some nine months of each year spent in a lonely part of Lincolnshire. But the girl he loved was what is termed "well-connected," and Douglas Curtin, being the manner of man he was, could not but be aware that marriage to Rose Murray would improve his position as a prospective Parliamentary candidate.</p>
 <p>And so it was that as he came within hail of what he still was to call for a little while "home," Helen Ackerington at last receded into what seemed the mists of the past, and he entered in the fragrant garden of the future--a sunny garden, free from mouldering byways and mazes, and filled with the presence of the girl he now worshipped, and to whom he intended to be the most devoted and faithful of lover-husbands.</p>
-</div><div n="4" id="" type="section">
+</div><div n="4" id="blsome005" type="section">
 <head>(4)</head>
 <p>Douglas Curtin put his key into the heavy door of the pleasant chambers which he, or rather a friend of Helen's for him. had discovered to be vacant, two years ago, in Fountain Court.</p>
 <p>Turning on the electric light, he looked instinctively at the narrow Empire table (a birthday present from Helen) which took up so little space in the tiny lobby, and yet which was so useful that he had sometimes wondered how he had ever done without it.</p>
@@ -186,15 +194,18 @@ over the telephone; she had early decreed that it would be dangerous to do so.</
 <p>Slowly he raised his head. There came over him, in that darkened room, a flood of remorseful, poignant, ardent memories. After all, he wasn't an utter cur--?</p>
 <p>"Of course I'll go with you!" he called out, heartily, feelingly.</p>
 <p>A deep sense of peace, comfort, security, flooded the broken voice which answered,</p>
-<p>"I thought you would; I told mother I <hi rend="italic">knew</hi> you would. Dearest, don't be shocked, don't be angry with me--I've told mother that we love one another. I think she knew, poor old darling. I think--I think she even understands."</p>
-
-
+<p>"I thought you would; I told mother I <hi rend="italic">knew</hi> you would. Dearest, don't be shocked, don't be angry with me--I've told mother that we love one another. I think she knew, poor old darling. I think--I think she even understands."</p></div></div></body></text>
 <pb n="[35]"/>
-<head>THE PHILANDERER</head>
-
+<text><front>
+<titlePage type="half">
+<docTitle type="main">THE PHILANDERER</docTitle></titlePage>
+</front><body>
 <pb n="37"/>
-<body><div n="1" id="" type="section">
-<head>THE PHILANDERER<lb/>(I)</head>
+<div n="2" id="blsome006" type="story">
+<head>THE PHILANDERER</head>
+<div n="1" id="blsome007" type="section">
+<head>(I)</head>
+
 <p>THE stable-yard clock struck seven. Leonard Hardwyke, a fine, upstanding man, looking a good deal younger than his age, which was forty-one, jumped up from his chair. Time he went to see the lady whom he facetiously called his missus.</p>
 <p>It was Christmas Eve, and to many a cheery house-party gathered together within a motor drive of Allways Place he would have been a welcome addition. But, according to his rather peculiar moral code, it was not fitting for him to be away from his own quiet, shadowed house on either Christmas Eve or Christmas Day. Other people might forget what Hardwyke owed to his wife, but he never forgot. At the time of their marriage he had been nearly penniless, and now he was for all practical purposes master of a large fortune.</p>
 <p>As he was walking to the door of his pleasant study, the telephone bell rang. He turned, took up the receiver, listened for a moment,
@@ -212,7 +223,7 @@ Still, she had called him a hypocrite, and the word stung. Far from being a hypo
 <pb n="40     Some Men and Women"/>
 <p>His mind took a sudden twist. He didn't envy the fellow who married Rosalind Ardleigh. There was a regular little spitfire for you! Extraordinary that his wife had ever taken such a girl for her companion. And still more extraordinary that she had liked her and kept her.</p>
 <p>And then, as if his thought had brought her, the door opened, and Miss Ardleigh came through it, her ardent glance enveloping him as in a blast of flame.</p>
-<p>For a moment he felt queerly disconcerted, almost as though he had been caught out doing something he should not do. And yet that was far from being the case. On the contrary, with regard to this young woman he had acted with unusual good sense. Your born philanderer--and Hardwyke was a born philanderer--is very rarely tempted to assume the <hi rend="italic">r&ocirc;le***</hi> of a Don Juan, and, when he is so tempted, that instinct of self-preservation, which is the strongest instinct of all, comes to his aid--and turns him from a Don Juan into a Joseph.</p>
+<p>For a moment he felt queerly disconcerted, almost as though he had been caught out doing something he should not do. And yet that was far from being the case. On the contrary, with regard to this young woman he had acted with unusual good sense. Your born philanderer--and Hardwyke was a born philanderer--is very rarely tempted to assume the <hi rend="italic">r&#x00F4;le</hi> of a Don Juan, and, when he is so tempted, that instinct of self-preservation, which is the strongest instinct of all, comes to his aid--and turns him from a Don Juan into a Joseph.</p>
 <p>Not for a long time--indeed, not since early October--had Rosalind Ardleigh sought him out like this, in his own quarters.</p>
 <p>"Mrs. Hardwyke is not feeling well to-night," she said, quietly. "I'm afraid she will not be able to see you."</p>
 <pb n="41     The Philanderer"/>
@@ -240,7 +251,7 @@ thoroughly well liked, not only by his friends, but by a large circle of neighbo
 <pb n="44     Some Men and Women"/>
 she was not far away, only on the other side of the house, probably thinking of him with mingled malignity and--well, why not call it "passion"?</p>
 <p>There came back to him the vivid memory of an occasion when the girl had frightened him badly. It had been on a summer evening, when they had had a secret meeting some way from home. She had suddenly turned on him, exclaiming in wild, despairing accents that, situated in the miserable position in which they found themselves, each loving the other not wisely but too well, the only solution was--suicide. He had wondered, looking down into her lovely almond-shaped eyes, whether the passionate creature could be really English. But he had once met her father, a broken-down old man who had failed in business, and he was certainly English all through.</p>
-</div><div n="2" id="" type="section">
+</div><div n="2" id="blsome008" type="section">
 <head>(2)</head>
 <p>The fun at Paringham Hall was at its height, though some of the older people were beginning to think of the supper which was to be served as soon as the children had been sent off to bed.</p>
 <p>Because of the children, all sorts of childish games had been played to-night, and now they had come to "Blind Man's Buff." Leonard Hardwyke was the only man over forty in the game, but, as he was in the pink of physical
@@ -273,9 +284,9 @@ smiling, he felt really angry. At one time Rosalind Ardleigh had fallen into the
 <pb n="48     Some Men and Women"/>
 have a little supper--I've got it all ready on a tray for you."</p>
 <p>There came a lump in Hardwyke's throat. What a good fellow Glencomb was! What good friends he had in every class of life! He put out his hand and clasped the other man's, warmly.</p>
-<p>And then, standing there in the stone passage, he began to eat the cold chicken and p&acirc;t&eacute***;-de-foie-gras mousse which Glencomb had prepared for him. But though a few minutes ago he had felt quite hungry, he could eat very little now. Still, he did manage to finish the half bottle of excellent champagne which Glencomb had also thoughtfully provided.</p>
+<p>And then, standing there in the stone passage, he began to eat the cold chicken and p&#x00E2;t&#x00E9;-de-foie-gras mousse which Glencomb had prepared for him. But though a few minutes ago he had felt quite hungry, he could eat very little now. Still, he did manage to finish the half bottle of excellent champagne which Glencomb had also thoughtfully provided.</p>
 <p>Poor Jane--poor, dear Jane! Well, he had made her as happy as any man could have made her. She had told him so, albeit a little grudgingly, on the occasion of his last birthday, when she had given him a big cheque to buy a new hunter. He remembered, too, that she had remade her will this autumn, in deference to a suggestion of his. Several of the people to whom she had left money in her last will, made at the time of their marriage, had died. . . .</p>
-<milestone rend="blank-line" unit="section"/>
+<milestone rend="blank-line" unit="subsection"/>
 <p>In the daylight it takes not much more than a quarter of an hour to reach Allways Place from Paringham Hall, but the chauffeur was
 <pb n="49     The Philanderer"/>
 agreeably aware that he had to deal with a master who never cared to take risks. Besides, where was the use of hurrying now? So Hardwyke had a little time for thought as he sat back in his luxurious car.</p>
@@ -285,7 +296,7 @@ agreeably aware that he had to deal with a master who never cared to take risks.
 with her while she ate her lunch, when she drank her afternoon tea, and during her plain little supper.</p>
 <p>He had grown very fond of Allways Place, the charming Elizabethan manor-house of which he had become master in so curious and romantic a way--Hardwyke always liked to think of his marriage as curious and romantic--but, even so, how glad he would be to get away from it for a while!</p>
 <p>He suddenly remembered, with a feeling of real gratitude and emotion, that with regard to that recent will of hers his wife had made one very important alteration. In her first will she had put in a clause common enough in men's wills, but uncommon in a woman's will. This was that in the event of his re-marriage he should only have a thousand a year. But she had cut out that clause, leaving him absolutely free, and sole owner of her considerable fortune. He thought, again with emotion, that she needn't have altered that clause. Marry again? Not he! To Leonard Hardwyke's mind a rich bachelor's life is the ideal life.</p>
-</div><div n="3" id="" type="section"><head>(3)</head>
+</div><div n="3" id="blsome009" type="section"><head>(3)</head>
 <p>He had thought Miss Ardleigh would meet him at the front door, and he was relieved to see no one there but his wife's old butler, a man whom
 <pb n="51     The Philanderer"/>
 it had taken him a long time to win round, but with whom he was now on the very best of terms. Why there were actually tears in the odd fellow's eyes. How touching!</p>
@@ -394,8 +405,6 @@ what you mean. We have nothing to be ashamed of--far from it."</p>
 <p>"You can make Brown get up--if the doctor really wants to hear what went on this evening," she said in a hard voice; and then she left the room.</p>
 <p>A few moments later Dr. Fenner was shown in, and the two men shook hands in silence.</p>
 <p>"I'm more sorry than I can say that I was out," began the doctor. "That parish nurse of ours is a good soul--she waited up till she heard
-
-
 <pb n="62     Some Men and Women"/>
 me go by, and then she ran out and hailed me. So I've heard it all from her, and I fear, from what she says, that I could have done very little."</p>
 <p>"I shall never forgive myself," said Leonard Hardwyke, in a broken voice, "for having been out to-night. But I got a message from my poor wife saying that she didn't feel very well, and urging me to accept Mrs. Langdon's invitation. They had a children's party over at Paringham, and I'm awfully fond of the kids, as you know, doctor."</p>
@@ -405,8 +414,6 @@ me go by, and then she ran out and hailed me. So I've heard it all from her, and
 <p>"The coroner?" he exclaimed, in a tone which betrayed his discomfiture.</p>
 <p>The other man raised his eyebrows.</p>
 <p>"I thought you realized," he said, "that there'll have to be an inquest. Mrs. Hardwyke's dislike to members of my profession unfortunately makes it a necessity. We can't avoid it. If only I'd seen her within the last two or three weeks I could have signed the death certificate at once. But I haven't seen Mrs. Hardwyke
-
-
 <pb n="63     The Philanderer"/>
 since Armstrong came down from London, and that's months ago."</p>
 <p>"I suppose it is," said Hardwyke, mechanically. "But--but, there won't have to be a post-mortem, will there?"</p>
@@ -450,17 +457,19 @@ pity for himself, and his eyes began to smart with unshed tears. He told himself
 <pb n="68     Some Men and Women"/>
 <p>"Yes--no--there may be, in the harness-room."</p>
 <p>The doctor got up and took a step forward. He laid his hand heavily on the other's shoulder.</p>
-<p>"I'd no right to ask you that question, Hardwyke. I'll forget your answer. But remember that anything you say, from now on, may be used in evidence against you."</p>
-<pb n="69"/>
-"GOD HAS MADE MEN SO"
-
+<p>"I'd no right to ask you that question, Hardwyke. I'll forget your answer. But remember that anything you say, from now on, may be used in evidence against you."</p></div></div></body></text>
+<pb n="[69]"/>
+<text><front>
+<titlePage type="half">
+<docTitle type="main">"GOD HAS MADE MEN SO"</docTitle></titlePage>
+</front><body>
 <pb n="71"/>
-"GOD HAS MADE MEN SO"
-<p>"Ah, my dear Alexander, God has made men so, once
-for all!"--DOSTOIEVSKY.</p>
-</div><div n="1" id="" type="section">
+<div n="3" id="blsome010" type="story">
+<head>"GOD HAS MADE MEN SO"</head>
+<epigraph><q>"Ah, my dear Alexander, God has made men so, once
+for all!"</q>--DOSTOIEVSKY.</epigraph>
+<div n="1" id="blsome011" type="section">
 <head>(I)</head>
-
 <p>"I REMEMBER thinking that you would be very much surprised."</p>
 <p>"Surprised! When Billy came back from the club and said, 'Jenny Carlton has divorced Jack,' you could have knocked me down with a very small feather."</p>
 <p>Jenny Carlton smiled-a queer little reminiscent smile. In the days that had belonged to her other life, this friend of hers, Rose Grayson, had always talked in that vigorous, literally inaccurate fashion; it had been one of her charms for the over-fastidious, reserved woman Jenny had then been.</p>
@@ -549,8 +558,7 @@ for quite a long time. I believe she's very popular there now, and quite liked i
 <p>"D'you keep in touch with anyone there?"</p>
 <p>"No, I've cut England out of my life. I helped to run a canteen at one of the big Paris stations during the war, and now I don't even take in an English paper."</p>
 <p>Mrs. Grayson rose from her chair. She had learnt all she wanted to know. "I must be off now," she said, and the other made no effort to detain her.</p>
-<milestone rend="blank-line" unit="section"/>
-
+<milestone rend="blank-line" unit="subsection"/>
 <p>Four hours later Jenny Carlton was sitting in what most people would have described as her very delightful little dining-room. She tried to force herself to eat the delicate fish dish prepared for her by the faithful Frenchwoman who had been with her since she had first gone to France, but somehow she found she couldn't eat to-night. She felt excited, and ill-at-ease; sorry, also, that she had been betrayed into those painful, intimate confidences to a woman who, she now suspected, had only sought her out to satisfy a not too kindly curiosity.</p>
 <p>Just as she was getting up from the table the telephone bell rang in the hall, and a moment later her maid came and said that the lady who had called this afternoon wanted to speak to Madame for a moment.</p>
 <pb n="83     'God has made Men so'"/>
@@ -574,7 +582,7 @@ She took a toss, and landed wrong. There was an account of the accident in the <
 <p>Towards morning she fell into a heavy sleep, and then all at once it was as if she awoke to hear the old call, the old cry: "Jenny! Jenny? Where are you? I want you." She heard her own voice in eager answer, "'I'm coming, Jack, I'm coming--"</p>
 <p>And when the woman who was friend as well as servant brought in her breakfast, she said to her, "Josette? I'm going to England to-day. I don't know yet how long I'll be away--I should think about a week."</p>
 <pb n="85     'God has made Men so'"/>
-</div><div n="2" id="" type="section"><head>(2)</head>
+</div><div n="2" id="blsome012" type="section"><head>(2)</head>
 <p>There are two ways of reaching Fossington from the countryside railway station. One is by the high road, the other by a muddy lane. On this late March afternoon Jenny Carlton chose the muddy lane. And, as she walked along in the fast-gathering twilight, her courage began to ebb away. During the weary journey from Monte Carlo, and even during the night she had spent at an hotel in London, she had felt upheld and exalted, but now, what she had come so long a way to do suddenly appeared impossible of achievement.</p>
 <p>She stayed her footsteps and gazed up into the stormy sky with a feeling of distress, and, yes, shame. Acting on what she now realized had been an impulse bred of desperate loneliness, and the unnatural life she had led for two years, she had done a very foolish thing. How could she have supposed that to force an interview on the man whom she still thought of as her husband could be anything but acutely painful to them both?</p>
 <p>Still, as she had come here, and as there was no train back to London for two hours, she might surely venture to make her way by the side gate which gave from a field-path straight into the grounds of Fossington Manor, and see
@@ -601,7 +609,7 @@ which entirely covered the floor, and which had been moved there from one of the
 standard, and his hands felt for the pipe he knew was there.</p>
 <p>Then he turned himself round, and with a pang she saw that his face had altered. In the old days there had been something very simple and guileless in his expression, but now he looked stern and secretive as well as unhappy, and Time, which had dealt so kindly with her, had dealt unkindly with him.</p>
 <p>Unconscious of what she was doing, she moved forward and pressed her face against the window, her soft travelling hat forming no obstacle.</p>
-</div><div n="3" id="" type="section">
+</div><div n="3" id="blsome013" type="section">
 <head>(3)</head>
 <p>All at once Jack Carlton saw the face pressed against the window, and there came into his eyes an expression of fear. He half rose from his chair, and as he did that, she shrank back, receded out of the beam thrown by the electric light and, turning quickly, began running across the grass. Jack Carlton rushed to the glass door and unlocked it. Stepping out into the cold darkness, he looked eagerly this way and that, though reason told him that the pale face he had seen must surely be a figment of his weary and excited brain. Even so, he, too, began running across the grass, but when he reached a path, he paused
 <pb n="90     Some Men and Women"/>
@@ -670,7 +678,7 @@ as he dropped it, "Are you going by the eight-forty train?" he asked in a casual
 <p>"Yes, Jack?"</p>
 <p>"I've your word, haven't I, your word of honour--nay, that's not necessary with you--to stay here till I come back?"</p>
 <p>And she exclaimed, reproachfully, "Of course I will."</p>
-</div><div n="4" id="" type="section">
+</div><div n="4" id="blsome014" type="section">
 <head>(4)</head>
 <p>When he had shut the door quietly, she sat down again in the Early Victorian low chair and began to think over what they had said to one another.</p>
 <p>In the old days invariably it had been she who, in her very gentle, high-falutin' way, had always ruled the roost and made Jack do what she
@@ -703,7 +711,6 @@ and bought his ticket, and she heard the deferential tone of the station-master 
 <p>"I've brought you something to eat," he said,
 <pb n="101     'God has made Men so'"/>
 abruptly. "You must be hungry by now, Jenny."</p>
-
 <p>"Have you had anything, Jack?"</p>
 <p>He looked at her and smiled. It was the first time he had really smiled at her, and it seemed to turn him again into the old sunny-natured Jack she had loved--and lost.</p>
 <p>"To tell you the truth, Jenny, I had a drink!"</p>
@@ -729,18 +736,16 @@ Jack? You were smoking your pipe in the business-room. Have a pipe now!"</p>
 <pb n="103     'God has made Men so'"/>
 <p>He bent over the hand he held.</p>
 <p>"I always thought," he said, in a moved voice, "that this was the prettiest hand in the world."</p>
-<p>"I used to know another hand," she whispered back, "quite as pretty," and then she put out her right hand and laid it on the other.</p>
-
-
-
+<p>"I used to know another hand," she whispered back, "quite as pretty," and then she put out her right hand and laid it on the other.</p></div></div></body></text>
 <pb n="[105]"/>
-THE ANSWER
-
+<text><front>
+<titlePage type="half">
+<docTitle type="main">THE ANSWER</docTitle></titlePage>
+</front><body>
 <pb n="107"/>
-<div n="1" id="" type="section">
+<div n="4" id="blsome015" type="story">
 <head>THE ANSWER</head>
-
-<q><lg><l>See this poor shell of flesh,</l>
+<epigraph><q><lg><l>See this poor shell of flesh,</l>
 <l>Still warm, but newly emptied of its soul;</l>
 <l>Could other spirit, loth to quit the world,</l>
 <l>In pain of parting dash to this resource,</l>
@@ -751,8 +756,8 @@ THE ANSWER
 <l>Earthbound within?</l></lg>
 <lg><l>Oh, really, my good Sir!</l>
 <l>Excuse a smile--that's poetry, that's not science!</l>
-<l>Bless me, what would Professor Poodle say?</l></lg><q>
-<div n="1" id="" type="section">
+<l>Bless me, what would Professor Poodle say?</l></lg><q></epigraph>
+<div n="1" id="blsome016" type="section">
 <head>(I)</head>
 <p>SYBIL ANCORET hurried along the narrow path close to the dipping edge of the cliffs which gave the Norfolk fishing village its name of Upcliffe. In her white flannel dress she looked like some delicate winged thing borne helplessly along on the strong north wind, which even on this hot July morning gave the air a keen tang.</p>
 <p>Her heart was full of anguish, of a bitter, resentful agony which yet held a faint glimmer of hope. For the great London specialist who
@@ -765,7 +770,7 @@ had come down four days ago had used the words, "Your husband is in great danger
 <p>Instinctively she sought out the roof under which that awful struggle between life and death had now been going on for so long. Yes, there was the house, the last of a row of small semi-detached villas between the village and the sea. She and Lance had chosen it because there was a studio in the garden, and they were both painters.</p>
 <p>During the first winter of their married life, a winter spent in Italy, it had seemed to Sybil Ancoret that life could not hold greater joy, greater love satisfied, than had been hers. But now she knew that she had been wrong. For she had been more joyful, and more loved and loving, in the commonplace little villa which looked like a child's ugly toy from up here, than in those early days of joint shy communion.</p>
 <p>Her husband, the night before he fell ill, had read to her in the twilight Trench's poem, "The
-<pb n="110 Some Men and Women"/>
+<pb n="110     Some Men and Women"/>
 Night," and now it was as if she could hear the beloved voice whispering the last lines,
 <q><lg><l>Slow, amid leaves, in silence,</l>
 <l>Rapt as the holy pray</l>
@@ -774,7 +779,7 @@ Night," and now it was as if she could hear the beloved voice whispering the las
 <l>Flame into flame we trembled,</l>
 <l>And the world sank away.</l></lg></q></p>
 <p>The gods, envious of two poor mortals' happiness, had stricken Lance down, and now he and she were both being tortured, he tortured physically, she tortured in every way that a woman could be tortured, or so it seemed to her.</p>
-<p>During the last few days she had felt as if some all-powerful entity were pursuing her with malignant hatred. More than once she had remembered the terrible lines, "The President of the Immortals, in &Aelig;***schylean phrase, had ended his sport with Tess." He had not ended his sport with her, Sybil Ancoret.</p>
+<p>During the last few days she had felt as if some all-powerful entity were pursuing her with malignant hatred. More than once she had remembered the terrible lines, "The President of the Immortals, in &#x00C6schylean phrase, had ended his sport with Tess." He had not ended his sport with her, Sybil Ancoret.</p>
 <p>What irony to think that all this frightful misery had been wrought on poor mortals by the criminal carelessness of one other mortal--the farmer who supplied Upcliffe with milk. There had been many cases of typhoid in the village, but the only serious cases had been Lance Ancoret's and that of a prosperous young business man, named Croft, who owned the house next door to theirs.</p>
 <p>Sybil was consciously glad that she had never
 <pb n="111     The Answer"/>
@@ -786,7 +791,7 @@ trivialities; while Sybil Ancoret, standing at the open window of her husband's 
 <p>But within the last day or two Tessie Croft's pretty, rather silly little face had grown anxious an pinched-looking, and Sybil had once seen her come out of the house crying bitterly, though, even then, her words to the woman she was taking to the gate had been all of herself. "I don't feel as if I could go on any longer! I wish Jim's sister could come--not that I like her, she's a horrid woman, but she's Jim's twin, and I know I'll be blamed if--if--" She had stopped abruptly, but Sybil knew what that "if" portended, and with an involuntary tremor she had hidden her face in her hands. . . .</p>
 <p>As she turned her eyes from the group of dwellings at which she had been gazing, her glance rested on certain excavations of a supposed Roman camp on the down, in which she and her husband had taken a keen interest. There surged up in her mind a wave of recollection of the last time they had been there together. For Lance had talked to her then, with an undercurrent of questioning gravity under his whimsical gaiety, concerning tree-worship and other origins of popular religion. The Romans, in his view, had been much more rational in their mytho-
 <pb n="113     The Answer"/>
-logical beliefs than the moderns had been in that faith which had come so strangely out of Jud&aelig;***a to envelop what was now called Christendom.</p>
+logical beliefs than the moderns had been in that faith which had come so strangely out of Jud&#x00E6;a to envelop what was now called Christendom.</p>
 <p>Last evening the rector of Upcliffe had come, not for the first time, "to inquire," and she had seen him for a moment in the hall. He had said hesitatingly, "Would you mind if--if I ask for prayers for your husband, Mrs. Ancoret?" And, though feeling curiously comforted by the kindness in his voice, she had answered, "I think he would rather not, and I'm sure I would rather not, Mr. Stair. To my mind it would be hypo-critical, for you know how we feel about these things." He had bowed his head, and then, with a piteous, childish longing for sympathy, she had put her hand on his thin arm. "You do understand--I hope you understand?" "I do understand. But I hope you won't mind my praying for you? I realize a little what you are going through." And she had remembered, then, that he and his wife had lost a beloved child. . . .</p>
 <p>Seven o'clock began to chime from Mr. Stair's church tower. She naturally regarded it as Mr. Stair's tower, for she did not believe in Mr. Stair's God. Her mind swung back again to the whimsical discussion which she and Lance had had the last time they had been up here together. She
 <pb n="114     Some Men and Women"/>
@@ -862,7 +867,7 @@ change come over her patient's face--from pale Mrs. Ancoret had suddenly become 
 <p>Only that morning Lance Ancoret's nurse had said to her, "Isn't it strange that he never
 <pb n="124     Some Men and Women"/>
 has asked for his wife?" And she, Mrs. Ancoret's nurse, had replied, "I expect he only thinks of himself."</p>
-</div><div n="2" id="" type="section"><head>(2)</head>
+</div><div n="2" id="blsome017" type="section"><head>(2)</head>
 <p>It was mid-August now, and Sybil Ancoret lay back, feeling what poor mortals are so seldom permitted to feel, utterly at peace. The two long garden chairs had been put on the tiny front lawn in full view of the road, but there were very few passers-by at any time, and the only sound which broke the deep quietude was the soothing, unending murmur of the sea. The house next door was shut up, for the newly widowed Mrs. Croft had gone away for a change.</p>
 <p>Here, the nurses had left yesterday, and all that had happened during those weeks of both physical and mental disturbance and pain was already becoming a blurred memory. She, Sybil, and he, Lance, had both come back to life, but her illness had been simply the result, so the doctor said, of shock.</p>
 <p>As yet husband and wife had scarcely met, though Lance had been allowed to sit by her side for an hour yesterday. But the nurses had been coming in and out of the room all the time, and all he had done had been to hold her hand and stroke it. The gossamer caress had moved her, for Lance was so reserved that, in the old days,
@@ -879,8 +884,6 @@ ma'am. But I've told him I can't remember his having the kind of jacket he wants
 <p>"I think Mr. Ancoret must mean that light brown jacket he used to wear last summer."</p>
 <p>The maid's face cleared. "Why, yes, I do believe he meant that one. But he seemed to speak so rough, and it flustered me, ma'am."</p>
 <p>"Mr. Ancoret is not well yet," said Sybil soothingly.</p>
-
-
 <p>"He seems so different from what he used to be," the maid muttered, as she went back into the house.</p>
 <p>Sybil sighed. Jane's half complaint had been such a little thing--nothing really--but somehow it had damped her joy, taken away that wonderful feeling of peace. She closed her eyes, and then she gave a sudden stifled cry, for Lance had crept quietly over the grass, bent over her, and kissed her full on the mouth.</p>
 <p>She blushed like a girl, realized that he was going to kiss her again, and telling herself that anyone might come down the road any moment,
@@ -891,9 +894,7 @@ exclaimed, "Lie down, my dearest! The doctor said you were to lie down as much a
 <p>Jane was right. Lance, as a result of his illness, had changed. But she, herself, was changed too. She felt nervous, apprehensive she scarcely knew of what. In the old days there was nothing she could not have said to Lance. But now, suddenly recalling a word of the doctor's, a word that had seemed to her so very unnecessary, and yet the meaning of which must, she now felt, be somehow conveyed to Lance--she found herself unable to say it. But they would both come right very soon, and she, Sybil, mustn't feel upset.</p>
 <p>Her husband was now lying down on the other garden chair, a little to her left, and she was tensely conscious of every line of his long body--the envelope of the rare and whimsically delightful soul she knew so well.</p>
 <p>"I'm glad you found the brown jacket, after all," she said at last.</p>
-<p>"I didn't find it," he answered, shortly. "This thing isn't what I meant. But as it was
-
- brought to me, I put it on."</p>
+<p>"I didn't find it," he answered, shortly. "This thing isn't what I meant. But as it was brought to me, I put it on."</p>
 <p>"Jane was quite upset about it. I think the poor soul is very tired; she needs a holiday."</p>
 <pb n="128     Some Men and Women"/>
 <p>He turned and with a swift, almost sly glance, "Couldn't we send her away, and get someone else--?"</p>
@@ -903,7 +904,7 @@ exclaimed, "Lie down, my dearest! The doctor said you were to lie down as much a
 <p>"I see."</p>
 <p>But she did not see, for to her--and she would have thought to Lance also--Jane seemed to have become part of their joint lives.</p>
 <p>She lowered her voice, nervously afraid lest Jane should overhear this discussion.</p>
-<p>"Give me a little while," she said, "and I'll look out for someone else. But you know it isn't easy to get a good house-parlourmaid."</p>
+<p>"Give me a little while," she said, "and I'll look out for someone else. But you know it isn't easy to get a good house-parlour-maid."</p>
 <p>In spite of herself her voice trembled, for she was still very weak.</p>
 <p>Lance jumped off his garden chair and, kneeling
 <pb n="129     The Answer"/>
@@ -914,10 +915,9 @@ on the grass by her side, he put his arms round her.</p>
 <p>She had never before heard Lance use the common expression "playing the game," but it did state the case, exactly.</p>
 <p>She looked at him with a feeling of profound tenderness, realizing that Dr. Green was a wiser man than she had taken him to be. It was true that Lance had been affected, curiously affected, by the ordeal to which his soul and body had been exposed. For the moment, at any rate, he was very unlike his old self. She could no more have imagined the Lance with whom she had lived those six cloudless years saying such a thing as he had said about their good servant than--imagination failed to supply a simile. Yet how quickly he had caught himself up, ashamed of the unkind, almost unseemly, suggestion he had made.</p>
 <p>After all, there was something in race. Men of the same race, however different they may be,
-
 <pb n="130     Some Men and Women"/>
 have certain things in common. She told herself, with a little conscious feeling of pride, that no foreigner would have said that thing about not "playing the game." A foreigner might have felt it, but he wouldn't have put it that way. . . .</p>
-<p>It was odd indeed that Lance had put it that way, for he had a sort of horror of slang, and a contempt for what he and she, when talking to one another, called <hi rend="italic">clich***s</hi>.</p>
+<p>It was odd indeed that Lance had put it that way, for he had a sort of horror of slang, and a contempt for what he and she, when talking to one another, called <hi rend="italic">clich&#x00E9;s</hi>.</p>
 <p>She moved nearer to him and laid her cheek on his. After all, if he didn't mind the passers-by, why should she? He put his arm round her, and again their lips met. There was a puzzled look on his face, and at last he said in a low voice,</p>
 <p>"I feel as if everything was beginning again. I feel, darling, as if I were wooing you afresh!"</p>
 <p>And that gave her a chance of saying what she had thought she could not bring herself to say.</p>
@@ -927,25 +927,20 @@ have certain things in common. She told herself, with a little conscious feeling
 <pb n="131     The Answer"/>
 <p>"Is this Dr. Green's idea?" he asked, abruptly, and she faltered out the one word, "Yes."</p>
 <p>His face clouded. "All right," he said. "I quite understand."</p>
-</div><div n="3" id="" type="section">
-
+</div><div n="3" id="blsome018" type="section">
 <head>(3)</head>
 <p>The long summer days wore themselves away, but Sybil made no headway. Again and again during those days that, instead of flying past as they had been wont to fly past, had dragged leadenly along, she felt as if she was at odds with the world, and, what was far worse, at odds with Lance.</p>
 <p>No wonder that often, kind as he was, he displayed irritation at her waywardness. Such a little thing would sometimes upset, if not one, then the other. Yesterday it had been less than nothing--the cause, a book of verse by a new poet which an old friend had sent her. She had read a few lines aloud--"Aren't they good?"--to hear him answer, "I can't make head or tail of them!" He had seen that she was hurt, and then he had exclaimed, "Darling, bear with me--I'm not clever, like you!"</p>
 <p>Now sometimes in the old days--ah! but in such a different way--Lance had protested, "I'm not as clever as you are,"--and she had laughed, knowing well that it was quite untrue.</p>
 <p>This time she had said sorely, "It's nothing
 <pb n="132     Some Men and Women"/>
-to do with cleverness. But sometimes I feel as if we no longer cared for the same things," and to her secret amazement he had retorted, "I 
-
-don't think that men and women do care for the same things--as a rule."</p>
+to do with cleverness. But sometimes I feel as if we no longer cared for the same things," and to her secret amazement he had retorted, "I don't think that men and women do care for the same things--as a rule."</p>
 <p>He had said that trite yet, as applied to her and to him, astounding thing, lightly, good-humouredly, and she had not known what to answer.</p>
 <p>To-day, after having moved about restlessly doing nothing for a while--he never went into the studio now--Lance asked, "D'you feel up to a little walk?"</p>
 <p>She didn't--but nevertheless she assented eagerly; and, though she still felt oddly weak, as they passed out of their little gate she told herself that a walk might do her good, and calm her aching heart.</p>
 <p>But when he was for taking the turning which led towards the cliff path, she put her hand on his arm, "Don't let's go that way, Lance. I went there just before I fell ill--the day you had your crisis. I don't want to go there now. Let's go straight on--"</p>
 <p>So they sauntered on, he chattering idly, as he had fallen into the way of doing since his illness, along the narrowing country road.</p>
-<p>At last they came to the cornfield beyond
-
- which lay the fine old church of Upcliffe, and
+<p>At last they came to the cornfield beyond which lay the fine old church of Upcliffe, and
 <pb n="133     The Answer"/>
 what has been described as the prettiest churchyard in England; and there, by the stile leading into the cornfield, Lance stopped her in his turn.</p>
 <p>"Let's go to the left--inland, darling. For--for--I'd rather not see the new-made graves."</p>
@@ -962,9 +957,7 @@ what has been described as the prettiest churchyard in England; and there, by th
 said, at the art school where they had first met.</p>
 <p>"Ancoret? Oh, he's a slack chap!"</p>
 <p>Of course it hadn't been true then, and it had never become true. But whatever of truth there had been in the spiteful words was gone--gone. Since his illness, Lance had become almost oppressively energetic and buoyant.</p>
-<p>They went on, inland, till they found themselves opposite the club-house of the local golf club,
-
-and there Lance stayed his steps.</p>
+<p>They went on, inland, till they found themselves opposite the club-house of the local golf club, and there Lance stayed his steps.</p>
 <p>Suddenly it was as if Sybil saw into her companion's mind.</p>
 <p>"Why shouldn't you take up golf?" she asked.</p>
 <p>He looked round quickly. "D'you mean that?"</p>
@@ -981,9 +974,8 @@ and there Lance stayed his steps.</p>
 <p>"He said you'd once told him that neither of us cared for games at all. But that isn't true of me now, at any rate."</p>
 <p>"I remember quite well, when we were engaged, seeing you play tennis," she cried, quickly. "You played awfully well!"</p>
 <p>He turned to her delighted. "Did I? It all seems so long ago."</p>
-<p>"It is long ago." She nearly added, "***aeons and aeons ago," but she checked herself.</p>
-<milestone rend="blank-line" unit="section"/>
-
+<p>"It is long ago." She nearly added, "&#x00E6;ons and &#x00E6;ons ago," but she checked herself.</p>
+<milestone rend="blank-line" unit="subsection"/>
 <p>Early the next afternoon Sybil went upstairs for her daily rest. Before lying down, she walked across to her dressing-table and gazed intently at herself. What was it that made
 <pb n="136     Some Men and Women"/>
 her look so unlike the Sybil of, say, three months ago?</p>
@@ -1004,8 +996,7 @@ Croft? I'm glad you spoke to her, dearest. Coming back to that empty house must 
 <p>Again there came over his face that pathetic, half-puzzled look of fear, and he went on, hesitatingly,</p>
 <p>"I told her I felt sure you wouldn't mind my going in after supper and having a game with her myself." Then, gathering courage, "Of course, I said I hadn't played for years, and that I didn't know whether I should be able to get on at all--"</p>
 <p>"I'm sure you'll get on very well," she said, cordially. "It's only a matter of practice with any game."</p>
-<milestone rend="blank-line" unit="section"/>
-
+<milestone rend="blank-line" unit="subsection"/>
 <p>And from then on it seemed to Sybil Ancoret that her husband and Mrs. Croft were always
 <pb n="138     Some Men and Women"/>
 playing some game together, either tennis--he had soon recovered his form--or a round of golf on the funny little nine-hole course.</p>
@@ -1014,17 +1005,14 @@ playing some game together, either tennis--he had soon recovered his form--or a 
 <p>What filled her with a secret and ever-growing dismay was the knowledge that now she preferred Lance in any mood except the tender mood. She suspected--nay, deep in her heart she knew--that he had become aware of that, to her the greatest, if the least acknowledged, fact of their new relationship. As far as was possible she
 <pb n="139     The Answer"/>
 never faced that probing pain and fear for, when Lance was not actually in her presence, it seemed to her incredible that he and she should no longer be on the same emotional plane--that they should be afraid, as it were, of one another.</p>
-<milestone rend="blank-line" unit="section"/>
-
+<milestone rend="blank-line" unit="subsection"/>
 <p>And then, one early August night, it was upon her--the looming, menacing shape which she had known to be lying in wait for her, if not to-day, then to-morrow, if not to-morrow then at some time which, however long delayed, would be always too soon for her.</p>
 <p>Lance had been out of the house from early morning, playing golf with one of the summer visitors who had been introduced to him by Mrs. Croft. Then there had come from him, at one o'clock, an awkwardly expressed note saying that he would not be home to lunch, as his new friend had asked him to join in a motor picnic. So Sybil had spent the afternoon in the studio, trying to paint.</p>
 <p>While changing her frock for dinner, she heard a car stop next door, and looking out, she saw Lance, two other men, and Mrs. Croft, get out of it. Then there rose on the still air Mrs. Croft's shrill voice, "Come in, all of you--and I'll mix you each a cocktail!" And Sybil was vaguely glad to hear Lance call back, "Not for me, thank you; I'm late as it is."</p>
 <pb n="140     Some Men and Women"/>
 <p>It had been, so he told her joyously during dinner, a wonderful expedition--and again she felt in him that disconcerting touch of enthusiasm so easily evoked in the man who remains a grown-up boy. Listening indulgently, she told herself that Dr. Green was right; Lance's illness had altered not his body, but his brain; not only his brain, but his mind. And the pity of it was that while her perceptions had become sharpened, his had become blunted.</p>
 <p>In the old days he would have known without being told that she and Mrs. Croft had, and could have, nothing in common, but to-night he ended the account of his day with the words, wistfully uttered, "I wish you liked her better, Sybil. She likes you so much."</p>
-<p>"I do like her," she forced herself to say, while sorely tempted to add, "There is nothing in her either to like or dislike--from  my point of view." But she held the words back, shocked at her own lack of charity, of kindness, and of
-
- good fellowship.</p>
+<p>"I do like her," she forced herself to say, while sorely tempted to add, "There is nothing in her either to like or dislike--from  my point of view." But she held the words back, shocked at her own lack of charity, of kindness, and of good fellowship.</p>
 <p>Apologetically he said, "I know she's not 'highbrow' like you, but she's really a good little sort."</p>
 <p>What an extraordinary expression for Lance to use! But then he was mixing now daily, hourly, with the sort of people with whom that kind of language is habitual.</p>
 <pb n="141     The Answer"/>
@@ -1063,8 +1051,7 @@ straining her to him, his lips sought her soft, quivering mouth, while she, alas
 <p>When near the turning which led to their house, they passed a bench on which lay a young man clasping a girl in his arms.</p>
 <p>Lance dropped Sybil's hand, and put his hand heavily on her shoulder. "Like us," he said, thickly, "like us, sweetheart."</p>
 <p>She told herself wildly that she had become unhuman--that it was she, not he, who had changed. Lance had always been more kindly than she had been to any manifestation of ordinary human nature; but now he had become--she did not know how to put it to herself, for she would not say more earthy, while she, unhappy woman that she was, had become what he in the old days had laughingly sometimes accused her of being--unreasonably ethereal. But that, she told herself confusedly, was not only unreasonable, but wickedly selfish, for it was true that Lance had been very patient with her. True, also, as he had reminded her so sorely, that she was his wife. . . .</p>
-</div><div n="4" id="" type="section">
-
+</div><div n="4" id="blsome019" type="section">
 <head>(4)</head>
 <p>After her husband had shut the door of her bedroom the next morning, Sybil waited till she heard him go downstairs before she got up herself. And even then, after she was quite ready, she stood for a moment on the tiny landing--in no hurry to begin the day.</p>
 <pb n="145     The Answer"/>
@@ -1097,7 +1084,6 @@ got a Frenchman in the Cottage Hospital, who can't speak a word of English, and 
 <p>She added, after a moment's pause, "I think of going by the shore."</p>
 <p>"Then you mustn't be late starting. Someone was caught by the tide the other day--and only just managed to escape."</p>
 <p>She looked at him a little strangely. "D'you remember that day four years ago when we were caught--you and I, Lance?"</p>
-
 <p>"Were we?" He looked puzzled.</p>
 <p>"I was so frightened--so terribly frightened--but you were so calm, Lance, so brave."</p>
 <p>"Was I?" He looked boyishly pleased.</p>
@@ -1135,44 +1121,34 @@ misgiving. "You do love me, don't you, Sybil?" he whispered.</p>
 <l>Yours sincerely,</l>
 <l>SYBIL ANCORET.</l></q>
 <p>And then she put down her pen and stared at what she had just written. Could she have put down those words--she, Sybil Ancoret? Three months ago the idea of writing such a note would have seemed grotesque, outrageous. But then, three months ago she had been quite a different woman from the woman she was now.</p>
-
 <p>She took up a book and tried to read, and then, about eleven, she went into the kitchen.</p>
 <pb n="151     The Answer"/>
 <p>"Anything you would like me to order at Lowcliffe, Mrs. Pearson?"</p>
-<p>"You'll have to hurry if you're going to take the charabang, ma'am. You've only got five minutes to get to the post office."</p>
+<p>"You'll have to hurry if you're going to take the charabanc, ma'am. You've only got five minutes to get to the post office."</p>
 <p>"I can do it in three, easily. I think I'll bring back a lobster from Lowcliffe. Mrs. Croft will probably come in to dinner, and you know how fond Mr. Ancoret has become of hot lobster done in the way you learnt to do it at the Carlton, in your days of glory. By the way, will you ask Jane to take this note in to next door, after I'm gone?"</p>
-<p>"All right, ma'am. But hurry along, do, or you'll miss that charabang--"</p>
+<p>"All right, ma'am. But hurry along, do, or you'll miss that charabanc--"</p>
 <p>After she had shut the kitchen door, Sybil did not obey her dear old cook. She did not hurry. Slowly, deliberately, she put on her outdoor shoes, her little loose coat, and her hat. But, once out of doors, she walked to the village at what was for her a great pace, and she even went right into the post office, there to hear with concern that the charabanc had gone full two minutes ago.</p>
 <p>Then she turned back again, towards the sea; and the postmaster testified, later, that it had never occurred to him to warn Mrs. Ancoret, because he thought that she must surely know how dangerous it was to try and get to Lowcliffe by the shore way, when the tide was running in.</p>
-
-
-
-
+</div></div></body></text>
 <pb n="[153]"/>
-THE GUN ROOM
-
-
-
-
-
-
+<text><front>
+<titlePage type="half">
+<docTitle type="main">THE GUN ROOM</docTitle></titlePage>
+</front><body>
 <pb n="155"/>
-THE GUN ROOM
-</div><div n="1" id="" type="section">
+<div n="5" id="blsome020" type="story">
+<head>THE GUN ROOM</head>
+<div n="1" id="blsome021" type="section">
 <head>(I)</head>
 <p>LADY GRENDON leant forward and tapped on the sheet of glass between herself and the chauffeur. The car slowed down and came to a dead stop in the middle of the old stone bridge.</p>
-<p>It was from the bridge that more than one great water-colour painter of the Early English
-
- School had painted the beautiful little town of Grendon Regis and its famous castle. Lady Grendon was not given to quoting Scripture, but involuntarily she murmured, "A city set on a hill." And it was in a most intimate sense her city, for, as one of her only child's trustees had said to her yesterday, there was scarcely a house in Grendon Regis which she had not improved or beautified, and there was not a paving-stone in even the humblest alley which she had not trodden many times since she had
+<p>It was from the bridge that more than one great water-colour painter of the Early English School had painted the beautiful little town of Grendon Regis and its famous castle. Lady Grendon was not given to quoting Scripture, but involuntarily she murmured, "A city set on a hill." And it was in a most intimate sense her city, for, as one of her only child's trustees had said to her yesterday, there was scarcely a house in Grendon Regis which she had not improved or beautified, and there was not a paving-stone in even the humblest alley which she had not trodden many times since she had
 
 first come to the castle as a bride nineteen years ago.</p>
 <p>Yet she was still, at forty-three, a beautiful woman--far too beautiful and attractive, most
 <pb n="156     Some Men and Women"/>
 people would have thought, to devote herself, as she had elected to do during the whole of her widowhood, to the management of her daughter's property.</p>
 <p>There were some in her own high little world who would have told you that Katharine Grendon was a hard woman, far more concerned with the material things of life than with any form of the ideal. Yet it may be doubted if any one of her critics would have felt, as she was feeling now, the tranquil loveliness of the scene.</p>
-<p>Lady Grendon had reason for her soft, perceptive, mood to-day. It was delightful to come home after as long an absence as seven weeks; and she had been moved by the pleasure everyone at the little station, which lay a mile beyond the town, had shown at seeing her again. She was a woman who always knew exactly what she
-
- wanted, and who made her plans accordingly, and so she had written to her young daughter and said that she would prefer not to be met by her.</p>
+<p>Lady Grendon had reason for her soft, perceptive, mood to-day. It was delightful to come home after as long an absence as seven weeks; and she had been moved by the pleasure everyone at the little station, which lay a mile beyond the town, had shown at seeing her again. She was a woman who always knew exactly what she wanted, and who made her plans accordingly, and so she had written to her young daughter and said that she would prefer not to be met by her.</p>
 <p>But there was one person she had made sure would be at the station, and she had been at once relieved and surprised when she had become aware that there he was not.</p>
 <p>As the train had steamed in, she had stood by the carriage door, her eyes sweeping the platform. But she sought in vain for the tall, spare figure
 <pb n="157     The Gun Room"/>
@@ -1188,9 +1164,7 @@ now so bitterly regretted, and which she would have given years of her life to b
 <p>She remembered, now, that at the end of his first six months at Grendon Regis she had actually decided that Varley must be "chucked." But even then she had felt in the young man something so compellingly alluring to a certain side of her nature that she had hesitated and so--been lost.</p>
 <p>During the dreary weeks she had just spent in a nursing home she had tried to persuade herself that the war had been responsible for what she now plainly acknowledged to herself had been an ignominious fall. That Jim Varley was going into mortal peril had been at the time an excuse at which her proud heart had clutched with desperate eagerness. But, deep in that proud heart, she knew that had there been no war, had life pursued its usual even tenor, she must have yielded--not so much to his eager importunity as because she was thirsting for love satisfied, the one thing her full, successful life had never brought her.</p>
 <pb n="160     Some Men and Women"/>
-<p>There had been short, sharp quarrels, and long-drawn-out, delicious reconciliations during their years of secret passion. Once, at least, she had been bitterly jealous, and jealousy had brought 
-
-with it an intolerable feeling of shame, for its object was the wife of a local vet., and the girl, before her marriage, had been a mannequin where she, Lady Grendon, bought her clothes. . . .</p>
+<p>There had been short, sharp quarrels, and long-drawn-out, delicious reconciliations during their years of secret passion. Once, at least, she had been bitterly jealous, and jealousy had brought with it an intolerable feeling of shame, for its object was the wife of a local vet., and the girl, before her marriage, had been a mannequin where she, Lady Grendon, bought her clothes. . . .</p>
 <p>As a girl, when staying in a country house, she had overheard a man, alluding to a certain notorious intrigue, observe, "My father used to say that those sort of affairs always end in cabs and tears!" She remembered those absurd words, now that her intrigue was about to end--not, thank God, in any pitiable way, but decently, and in order.</p>
 <p>When going through London she had spent an afternoon with her daughter's trustees. And quietly, composedly, she had told the two men, who she knew heartily liked and respected her, that she thought the time had come to make a change with regard to Captain Varley. Kitty would be eighteen this May, ready to see, and be seen by, the world in which she was bound to play a part as her father's daughter and as a great heiress. She, the mother, would be absorbed in the girl's "coming out," and so would not be able to give the time and thought she had hitherto given to the estate.</p>
 <pb n="161    The Gun Room"/>
@@ -1203,7 +1177,7 @@ with it an intolerable feeling of shame, for its object was the wife of a local 
 <pb n="163     The Gun Room"/>
 <p>So far the gods had been kind. Laurence was already boyishly in love with his pretty, gentle neighbour, and Kitty--? The mother could not help suspecting that Kitty was aware of his feeling and, in a measure, returned it. But there was plenty of time--Laurence was still at Oxford, Kitty was not yet eighteen. Let them both see something of the world before they settled down.</p>
 <p>It was a happy woman, in spite of the one dark shadow on her heart, who drove through the great gate, and so up to the wide porch of Grendon Castle, there to be welcomed in the good, old-fashioned, feudal way, by the upper servants of the big household. And again it was a relief to see--as she saw at once--that Captain Varley was not there. His absence added a touch of delicious serenity to her joy in the eager, almost ecstatic, welcome of the fair-haired girl who stood poised on the lower step ready to leap into her mother's arms.</p>
-</div><div n="2" id="" type="section">
+</div><div n="2" id="blsome022" type="section">
 <head>(2)</head>
 <p>"Mummy? Darling, darling Mummy--"</p>
 <p>The two were alone together in Lady Grendon's own sitting-room upstairs. Save for the firelight they were in darkness, and the girl had slipped off the low chair where she had been sitting, and was now kneeling on the floor.</p>
@@ -1248,9 +1222,7 @@ very young--" and the mother's voice broke suddenly.</p>
 <p>And then Kitty gave a kind of cry. "I'm so happy, Mummy--so very, very happy! I've felt so dreadfully frightened the last few days. I was so afraid that you'd be angry with me, and try to break our engagement--and Jim's so proud."</p>
 <pb n="168     Some Men and Women"/>
 <p>A look of unutterable contempt flashed across Lady Grendon's face. That cur, proud? But all she said was, "Poor little girl, who didn't know how much her mother loved her!"</p>
-<p>She was rocking Kitty in her arms now, feeling
-
- as if the child was a baby again.</p>
+<p>She was rocking Kitty in her arms now, feeling as if the child was a baby again.</p>
 <p>"After all," she murmured, "it's happiness that matters in this world, my dear; and if Jim Varley can make you happy--?" and then she stopped, choked by the lying words.</p>
 <p>For a while they remained cheek to cheek, heart to heart, and then Lady Grendon gently released herself.</p>
 <p>"I think you will agree, dearest, that it will be better to say nothing for a while. After all, you're not yet eighteen, and your trustees have great powers, you know, right up to when you're five-and-twenty."</p>
@@ -1303,8 +1275,7 @@ that," she murmured. "You've been a wonderful, wonderful mother to me." And then
 <p>"I don't think so, Mummy." The answer was given a little awkwardly. "Miss Mills is such an old goose, and she thought she had a cold most of the time you've been away. It's lucky she felt well enough to travel this morning!"</p>
 <p>Lady Grendon said nothing. She was telling herself what a fool she had been to trust the stupid old governess with her treasure.</p>
 <p>Kitty waited a moment, and then, more easily, she added, "I'm sure Jim will quite agree with you as to keeping our engagement private till everything is settled--I mean with the trustees, and so on."</p>
-<milestone rend="blank-line" unit="section"/>
-
+<milestone rend="blank-line" unit="subsection"/>
 <p>After her daughter had gone Lady Grendon bent down and looked at her watch. It was a
 <pb n="174     Some Men and Women"/>
 quarter to eight. Dinner would be at half-past eight, so she had plenty of time to do that which had to be done at the first opportunity.</p>
@@ -1336,12 +1307,11 @@ winding stair leading straight down into a large hall-like apartment called the 
 <pb n="178     Some Men and Women"/>
 <p>But there came no movement--no sound of the hurried opening and shutting of doors. At this time of the evening the servants were all engaged on their various duties far from this side of the castle.</p>
 <p>After a moment's thought and rapid calculation, she stooped and laid the gun down at a certain angle on the stone floor, close to the piteous, sprawling thing which had been Jim Varley.</p>
-<milestone rend="blank-line" unit="section"/>
-
+<milestone rend="blank-line" unit="subsection"/>
 <p>When she stepped back into her brilliantly lighted bedroom she found herself, to her half-shamed surprise, trembling. . . . Opening her dressing-case, she saw that, though it had been unpacked, her maid had left the tiny flask of brandy undisturbed in its pocket, and for the first time in her life she unscrewed the top of the flask and drank a mouthful of the reviving spirit. Then she put her hands carefully all over her tweed coat and, also, felt her narrow skirt. She was too much of a sportswoman not to know the peculiar, gluey, feel of blood. But both coat and skirt were dry.</p>
 <p>After slowly undressing herself, she put on a dressing-gown and went into her bathroom. The water was still very hot. Then she had been only a short time away? It had seemed an eternity to her.</p>
 <pb n="179     The Gun Room"/>
-</div><div n="3" id="" type="section">
+</div><div n="3" id="blsome023" type="section">
 <head>(3)</head>
 <p>When the head housemaid came in to light the fire the next morning, Lady Grendon was lying back, wide awake, under the great yellow canopy of her broad bed.</p>
 <p>"Good morning, Lucy!" she called out, cheerily. "I'm glad to see you again."</p>
@@ -1407,17 +1377,17 @@ quavering voice. "I don't think your ladyship ought to go in there--if I may mak
 <p>"Mummy! What is it? What's happened?"</p>
 <p>"Jim's dead. He was found--shot. In the gun-room. An accident." And then she clutched at what the doctor had said, "To think he went through the worst of the war, to end like this--"</p>
 <p>She was sobbing now, the tears raining down her cheeks, her face convulsed, disfigured--and it was Kitty who remained quiet and collected, and who, at last, putting her arms round her mother, whispered,</p>
-<p>"Don't be so sorry for me, Mummy. I will be brave, I can bear it, as I've got <hi rend="italic">you</hi> left--"</p>
-
-
-<pb n="187"/>
-ONE MAN'S WAY
-
-
-
+<p>"Don't be so sorry for me, Mummy. I will be brave, I can bear it, as I've got <hi rend="italic">you</hi> left--"</p></div></div></body></text>
+<pb n="[187]"/>
+<text><front>
+<titlePage type="half">
+<docTitle type="main">ONE MAN'S WAY</docTitle></titlePage>
+</front><body>
 <pb n="189"/>
-ONE MAN'S WAY
-<div n="1" id="" type="section"><head>(I)</head>
+<div n="6" id="blsome024" type="story">
+<head>ONE MAN'S WAY</head>
+<div n="1" id="blsome025" type="section">
+<head>(I)</head>
 <p>WITH a quick turn of the hand, which he hoped had been unobserved by his clever, sharp-eyed old mother, Gerald Maynard glanced at his watch. He had been with her just over half an hour, so now he felt he could go.</p>
 <p>As he bent down and kissed her, the old lady looked up into his sensible, unimaginative face. Her son was neither handsome nor plain, but he was in good physical condition, and looked well pleased with himself and the world he lived in.</p>
 <p>She said, affectionately, "It was good of you to come, my dear, the more so that I know you must be terribly busy just before such a journey."</p>
@@ -1425,11 +1395,8 @@ ONE MAN'S WAY
 <p>His mother stayed on her lips the words, "I wish you hadn't done that." Instead she
 <pb n="190     Some Men and Women"/>
 said, "Why don't you take Nelly with you this time?"</p>
-
 <p>"Take Nelly with me to Buenos Ayres? What on earth for?"</p>
-<p>"For the pleasure of being together," she 
-
-rapped out.</p>
+<p>"For the pleasure of being together," she rapped out.</p>
 <p>It was in a very firm tone that he answered, "No, mother, I shouldn't think of taking her on such a trip. It's entirely business this time. Besides, she's going to Scotland."</p>
 <p>"You used to take her everywhere with you--when you were first married."</p>
 <p>He looked rather startled at this, but quickly his face cleared.</p>
@@ -1439,7 +1406,6 @@ rapped out.</p>
 <p>He was so much surprised at her words that all unconsciously he put his hat back on the chair from which he had taken it up.</p>
 <pb n="191     One Man's Way"/>
 <p>"Look here, mother--what d'you mean? Surely you wouldn't have me bore my wife with what happens in the office? Dad never did that with you."</p>
-
 <p>"That's all you know about it! Sometimes we used to talk for hours, in the night, about things that were troubling him. But then, I know that you never are troubled--in the way that your poor father used to be."</p>
 <p>He felt a little vexed.</p>
 <p>"I assure you I have my business worries just as much as other people."</p>
@@ -1468,14 +1434,13 @@ really a very happy couple. Needless to say, I never deny her anything."</p>
 <p>Ought she to have said more? She remembered the French proverb, "In doubt abstain." She was aware that her son belonged to the type of man who goes through life with his eyes holden. He had been born to good fortune, good health and good character; and his only break-away from convention had been when he had fallen passionately in love with the very lovely girl, the daughter of an unsuccessful stockbroker, who was now his wife.</p>
 <p>Old Mrs. Maynard wondered whether her son still remembered the one probing talk concerning human life they had ever had together. It had been late one evening, when he had suddenly told her that he intended to ask Nelly Bell to become his wife.</p>
 <pb n="194     Some Men and Women"/>
-
 <p>She had opened what had been to them both a painful conversation with the words:</p>
 <p>"I fear you are going to make a mistake, my boy, and it's best to say so before it is too late. I know that there is a great deal that is good in Nelly's nature. She has a sense of duty, and she is very patient with that tiresome father of hers, but she's too pretty for my taste, and you and she have nothing really in common."</p>
 <p>Of course her words had had no effect on him at all; and she now told herself that she had been so far wrong in that her son and his wife did seem to get on very well together.</p>
 <p>During the war Nelly Maynard had not only really worked hard, making artificial fingers for the wounded, but she had also gone out a great deal. Gerald Maynard had made a second fortune, besides being among those men of business who were mysteriously considered indispensable at home.</p>
 <p>But since the end of the war Nelly had steadied down. She was an excellent mother to her two little girls, and certainly made her husband very comfortable. Outwardly all was well. Still, to old Mrs. Maynard's thinking there had long been a cloud in her prosperous son's blue sky, though he was blandly unaware of it.</p>
 <pb n="195     One Man's Way"/>
-</div><div n="2" id="" type="section">
+</div><div n="2" id="blsome026" type="section">
 <head>(2)</head>
 <p>As Gerald Maynard walked away from his mother's house, he felt what he very seldom did feel--slightly confused and puzzled. He was not a clever man--though he would have been very much surprised had anyone told him so--but he knew the way his mother's mind worked. He felt sure that she had had some reason for suggesting that he should take his wife with him on this tiresome business trip to South America.</p>
 <p>The very fact that his mother said so little, and interfered not at all in their married life, gave the clever old woman a kind of hidden power. He had felt its influence over him to-day.</p>
@@ -1485,15 +1450,13 @@ really a very happy couple. Needless to say, I never deny her anything."</p>
 surprised when she had said, "I've promised the children to take them into the square garden this afternoon. You can come to us there, after you've been to see your mother."</p>
 <p>They were not often so domestic as that!</p>
 <p>Though he had said they were going to have a Darby and Joan dinner this evening, Maynard intended to ask his friend, Captain Ogilvy, to come and take potluck with them. But as to his appointment with dear old Gill this afternoon he had said nothing to his wife, for Gill, to his surprise, had asked him to keep the fact that they were going to meet to himself.</p>
-<p>Captain Ogilvy's present job--one found him 
-
-by Gerald Maynard--was that of "runner" for a big stockbroker, and, thanks to Maynard, he had been able to introduce some very valuable business to his firm. Even so, the amount he earned in commissions was not enough to keep him in decent comfort, and now this good friend wondered whether the pal whom he had never failed yet was going to ask if he could find him still another job?</p>
+<p>Captain Ogilvy's present job--one found him by Gerald Maynard--was that of "runner" for a big stockbroker, and, thanks to Maynard, he had been able to introduce some very valuable business to his firm. Even so, the amount he earned in commissions was not enough to keep him in decent comfort, and now this good friend wondered whether the pal whom he had never failed yet was going to ask if he could find him still another job?</p>
 <p>Being one of those men who never spend money unnecessarily on themselves, he got on to the top of an omnibus, and, as he went towards that part of the town which constitutes the clubman's London, he told himself, not for the first time, that Gill was a fool to prefer one uncomfortable 
 <pb n="197     One Man's Way"/>
 little room off St. James's Street, instead of nice diggings in a less fashionable quarter. Of course Gill had a good excuse. Men like dear old Gill always have. His club--one of the most exclusive in the world--was just round the corner from that horrid little room, and he practically lived at his club.</p>
 <p>And then, all at once, Maynard asked himself why Gill had not suggested their meeting at his club. Did that mean that his friend was determined to run no risk of interruption? Last time they had lunched together there, Gill had been fetched three times to the telephone.</p>
 <p>There had been moments when Gerald Maynard had rather envied his friend the easy-going, sunny nature which enabled him to be always happily lazy. Not that Ogilvy had been lazy in the war. He had done splendidly in Flanders, winning a bar to his Military Cross by a deed of valour which in any other war would have got him the V.C.</p>
-<milestone rend="blank-line" unit="section"/>
+<milestone rend="blank-line" unit="subsection"/>
 <p>Maynard was walking quickly down the narrow, shadowed street where Captain Ogilvy dwelt in what would have been called, in any other part of London, a somewhat sordid lodging-house, when he ran right into the man he was going to see.</p>
 <p>"You're a bit late, old man. Besides, I
 <pb n="198     Some Men and Women"/>
@@ -1536,7 +1499,6 @@ Why had Gill not brought her along to see Nelly?</p>
 <p>Ogilvy went on, gravely, almost apologetically, "We met at a theatre party about three months ago, and after supper I drove her home, to a palace in Belgrave Square. She asked me to come and see them. But I didn't go, Gerry, though I would have done--if they'd been just ordinary people. Then I got an invitation from her mother--the old lady's probably sorry now that she sent it. So I did go, and now we're going to be married."</p>
 <p>Maynard turned and looked at his friend. Somehow he felt just a little bit concerned. He remembered the wild feeling of triumph and exultation which had swept over him when
 <pb n="202     Some Men and Women"/>
-
 penniless Nelly Bell had said, "Yes," after what had been an ardent, passionate, and at first unsuccessful, wooing. Gill did not look as happy as he ought to look, surely?</p>
 <p>"And now," the other went on, still making those elaborate arabesques on the dry earth of the path on which their feet rested, "I want you to make my peace with Nelly, old man. I'm afraid she'll feel awfully offended that I've said nothing to her about all this. But how could I? It was only really settled two days ago. You're the first person I've told."</p>
 <p>Maynard was touched and pleased that dear old Gill had told him this wonderful news first.</p>
@@ -1568,7 +1530,7 @@ a curious amount of fuss about to-night's dinner. But the important thing was Gi
 <p>As the two men parted in Piccadilly, Gill
 <pb n="206     Some Men and Women"/>
 reminded his friend of the arrangement about telephoning, and then, without waiting to see Maynard into his taxi, Fortune's favourite began slowly retracing his steps. He felt thoroughly wretched, and--what, oddly enough, he very seldom had felt in his thirty-nine years of easy-going life--ashamed. He hoped with all his heart that his telephone bell would not ring, and that he would not be compelled to spend a miserable, hypocritical evening between those two people who, in their different ways, had both been such wonderful friends to him.</p>
-</div><div n="3" id="" type="section">
+</div><div n="3" id="blsome027" type="section">
 <head>(3)</head>
 <p>Passing through the gate which his wife had left ajar for him, Maynard walked quickly into the enclosure which formed the centre of the quiet square where they had lived ever since their marriage ten years ago.</p>
 <p>Nelly was sitting on a bench, staring straight before her, though a book lay open on her lap. The children were a few yards off, playing "Tip and Run."</p>
@@ -1651,7 +1613,7 @@ to bed, while he had Gill over to dine with him alone. But it was too late now.<
 <p>"Well," she answered, "perhaps I had."</p>
 <p>He kissed her with real tenderness. "Gill will be a lucky fellow if he has half as good a wife As I've got," he whispered.</p>
 <p>And then it was as if she suddenly crumpled up in his arms. She muttered, "I feel so queer, Gerry. Hold me--hold me!" and she fainted.</p>
-</div><div n="4" id="" type="section">
+</div><div n="4" id="blsome028" type="section">
 <head>(4)</head>
 <p>When Maynard first sat down to breakfast the next morning he felt so worried about his wife that he told himself he could not eat anything. But the mushroom omelette was done to a turn, and the iced melon was so delicious, that he ended by making a very good meal. Nelly always took special trouble over her husband's breakfast, for she knew that as a rule he only had a very light lunch.</p>
 <p>And now there came over him a rush of almost
@@ -1744,13 +1706,17 @@ life to have been able to kill Gill, swiftly, secretly, treacherously.</p>
 <p>"I wonder if he will like that," she said, hesitatingly.</p>
 <p>"If he doesn't like it, he will have to lump it," he answered, shortly.</p>
 <pb n="223     One Man's Way"/>
-<p>And, being the manner of man he was, Gerald Maynard was surprised, the next time he went through his pass-book, to find that the handsome cheque he had made out in the name of Captain Ogilvy had not been cashed.</p>
+<p>And, being the manner of man he was, Gerald Maynard was surprised, the next time he went through his pass-book, to find that the handsome cheque he had made out in the name of Captain Ogilvy had not been cashed.</p></div></div></body></text>
 <pb n="[225]"/>
-<head>"I GOES BY THE FACE"</head>
+<text><front>
+<titlePage type="half">
+<docTitle type="main">"I GOES BY THE FACE"</docTitle></titlePage>
+</front><body>
 <pb n="227"/>
-<div n="1" id="" type="section">
-<head>"I GOES BY THE FACE"<lb/>
-(I)</head>
+<div n="7" id="blsome029" type="story">
+<head>"I GOES BY THE FACE"</head>
+<div n="1" id="blsome030" type="section">
+<head>(I)</head>
 <p>"I GOES by the face," said Mrs. Pilley, mildly yet firmly.</p>
 <p>Though she was no longer a young woman, she was rarely in a public place without some lonely man glancing at her with interest; she looked so wholesome, as well as mild and kind. But there was a streak of firmness in her nature. Mrs. Pilley always knew what she wanted, and she generally managed to secure what she did want.</p>
 <p>"D'you mean you know nothing at all about this Mr. Brown? Don't he ever talk about himself?" asked Mrs. Waller, inquisitively.</p>
@@ -1846,7 +1812,7 @@ trusting me with a latchkey, I'll leave the beef-tea on your hall table in the m
 <p>"Next door seems very far away to a lonely chap like me," said Mr. Brown, humbly; and then again he began to cough, though, even then, he went on holding her hand.</p>
 <p>"Talking's the very worst thing for you!" exclaimed Mrs. Pilley, and then she gently, but firmly, withdrew her hand from that strong clasp, reminding herself of a saying she had heard when she was a girl, but to which she hadn't always given, maybe, quite enough heed. That saying was, "'Tis man's part to try, and woman's to deny."</p>
 <pb n="242     Some Men and Women"/>
-</div><div n="2" id="" type="section">
+</div><div n="2" id="blsome031" type="section">
 <head>(2)</head>
 <p>At exactly three o'clock the next day Mrs. Pilley stood by the post office in Parliament Street, Westminster.</p>
 <p>She felt absurdly light-hearted--quite like being young again, so she put it, with a rueful little smile, to herself. But something so very curious and unexpected had happened this morning.</p>
@@ -1929,13 +1895,17 @@ been a young chap! There's some that runs down the war, Mrs. Pilley, but it gave
 <p>"'The past is past--the future is my own,'" he said, solemnly. "That's what a very good chap, though a parson, once recited to me."</p>
 <p>He waited a moment, then, "I want you to let my future be yours, Mrs. Pilley. Though it may greatly surprise you to hear it, this is the first time in my long life I've ever asked any lady to be my wife. There's my hand on it!"</p>
 <p>He held out his strong, well-kept hand, and all at once Mrs. Pilley caught herself wondering what Mr. Brown's finger-tips looked like. She also saw, as in a mirage, the city church where she had triumphantly--it had seemed a great triumph at the time--led Mr. Pilley to the altar.</p>
-<p>She shivered a little; then, slowly, from under her black shawl embroidered with gay posies of flowers, her soft little hand crept out. . . .</p>
-<pb n="253"/>
-<head>THE DUCHESS'S STORY</head>
+<p>She shivered a little; then, slowly, from under her black shawl embroidered with gay posies of flowers, her soft little hand crept out. . . .</p></div></div></body></text>
+<pb n="[253]"/>
+<text><front>
+<titlePage type="half">
+<docTitle type="main">THE DUCHESS'S STORY</docTitle></titlePage>
+</front><body>
 <pb n="255"/>
-<div n="1" id="" type="section"/>
-<head>THE DUCHESS'S STORY</lb>
-(I)</head>
+<div n="8" id="blsome032" type="story">
+<head>THE DUCHESS'S STORY</head>
+<div n="1" id="blsome033" type="section">
+<head>(I)</head>
 <p>"DON'T they look happy?" said the Duchess in a low voice. But it was with gloomy, frowning eyes that the Duke, from the end of the long, book-lined room where they always sat now after dinner, contemplated his daughter and her lover, sitting in the firelight hand in hand.</p>
 <p>"From what I can make out, he's no private means at all. He spent the little money he had on two contested elections--"
 <p>"How romantic of him!" whispered the Duchess.</p>
@@ -1988,7 +1958,7 @@ that somehow prove a rule," said the Duchess, soothingly.</p>
 <p>Her son-in-law elect hoped that his face was not betraying the pain he felt at the thought that any woman should have to flatter a husband so grossly in order to put him in a good humour. He was surprised when this particular husband turned round and observed, rather crossly, "That may have been true once, my dear, but it's no longer true now, and well you know it!"</p>
 <p>And then the Duke kissed his daughter. "Well, good night and God bless you," he said, solemnly. Making an effort over himself, he pressed, quite warmly for him, the hand of the "Radical prig," who, he felt, had stolen his dear little clever Lavvy, and then he turned away.</p>
 <p>The Duchess put her hand through the Duke's arm, and went with him half-way down the long room. Then she gave a little skip, and kissed the end of his long nose.</p>
-<p>"After all, if it wasn't for Lavy's engagement we should have had a large party here now," she murmured, "and you wouldn't have liked that!"</p>
+<p>"After all, if it wasn't for Lavvy's engagement we should have had a large party here now," she murmured, "and you wouldn't have liked that!"</p>
 <p>"Rather an expensive solitude," he answered, drily. "Like burning down the house to roast a pig."</p>
 <pb n="261     The Duchess's Story"/>
 <p>Over by the fire, Gerald Arbuthnot, hearing the Duchess's sudden joyous peal of laughter, began to think that she must be really fond of the Duke to laugh like that at anything such a dull man could possibly have said. Lady Lavinia's lover knew very little of her sort of people, but he had supposed that, on the whole, they were less fond of one another than were ordinary married couples. He was beginning to revise that view, as well as some other of his opinions.</p>
@@ -1998,7 +1968,7 @@ that somehow prove a rule," said the Duchess, soothingly.</p>
 <p>"He meant that, whatever may have been the case once, dukes don't matter now any more than dustmen," she answered.</p>
 <p>It was odd that her dear, brilliant Gerald hadn't understood that. Though she was very much in love with him, Lady Lavinia was beginning to wonder whether Gerald, able as he was--quite the ablest of the younger men in the House of Commons--was exactly quick at the up-take, as her mother would have put it.</p>
 <pb n="262     Some Men and Women"/>
-</div><div n="2" id="" type="section">
+</div><div n="2" id="blsome034" type="section">
 <head>(2)</head>
 <p>"I don't feel as if I could tell you a ghost story to-night.  But I will tell you a very strange, mysterious tale, and one connected with this house, and with ourselves."</p>
 <p>There was a touch of solemnity in the voice of the Duchess. She looked round her young audience, and her glance rested for a moment on the one she still felt to be a stranger for all that he would soon be her son-in-law-"a poor thing, but mine own," as she had more than once had occasion to remind herself when he had said something that had irritated her.</p>
@@ -2025,15 +1995,15 @@ sixty-one at the time my story opens, and that he had three children--two sons, 
 <p>"She must have had a very poor-spirited mother," observed Lady Lavvy, slowly.</p>
 <p>"Her mother, pretty Duchess Charlotte, whose portrait by Gainsborough is in my sitting-room, had died five days after she was born, my dear, and she was brought up by an old governess called Miss Tubb. And it's clear that Miss Tubb
 <pb n="265     The Duchess's Story"/>
-was terrified of the Duke, and that poor Lavinia was very much afraid of Miss Tubb. But there was one person of whom your great-aunt Lavinia was really fond. This was her French maid, Ad***le Bontemps, who was only a few years older than herself. The two were allowed to walk about, as much as Ade***le's young lady cared to do, in the park--but nowhere else."</p>
+was terrified of the Duke, and that poor Lavinia was very much afraid of Miss Tubb. But there was one person of whom your great-aunt Lavinia was really fond. This was her French maid, Ad&#x00E8;le Bontemps, who was only a few years older than herself. The two were allowed to walk about, as much as Ad&#x00E8;le's young lady cared to do, in the park--but nowhere else."</p>
 <p>"That must have been very dull!" exclaimed little Lady Mary, indignantly.</p>
 <p>"Old Magnifico liked pomp and power," went on the Duchess, "so that he was much gratified when he was asked to go on a special mission to St. Petersburg. By that time his daughter was eighteen, and might very well have gone with him. One of her aunts also wanted to have her in London. But the Duke would not hear of it, and he arranged that she should go on living down here with Miss Tubb, till he came back from Russia.</p>
-<p>"Off he went in great state and splendour, and from wherever he and his suite stayed on the way he wrote his daughter an affectionate, pompous letter. Meanwhile, the poor girl led an unnaturally dull, secluded life, reading serious books with Miss Tubb, and going long walks in the park with Ade***le Bontemps. They would be out for hours and hours, and later it became known that sometimes, during that hot, dry
+<p>"Off he went in great state and splendour, and from wherever he and his suite stayed on the way he wrote his daughter an affectionate, pompous letter. Meanwhile, the poor girl led an unnaturally dull, secluded life, reading serious books with Miss Tubb, and going long walks in the park with Ad&#x00E8;le Bontemps. They would be out for hours and hours, and later it became known that sometimes, during that hot, dry
 <pb n="266     Some Men and Women"/>
 summer, they forded the river which forms, as you know, one of the boundaries of the park."</p>
 <p>"I wonder why they did that," observed Lady Lavvy; "there's nothing to do, or to see, even now, on the other side of the river."</p>
-<p>"In those days there lived on the other side of the river a young Scotch shepherd whom the Duke had brought south from Ardvilly, and with this shepherd it is supposed that Ade***le Bontemps fell in love. Be that as it may, the three of them--the young lady from the castle, her French maid, and the young shepherd--were seen once or twice together by certain of the townspeople who had roamed out that way.</p>
-<p>"Old Magnifico came back from Russia just before Christmas, and he posted down here in all haste, full of joy at the thought of seeing his beloved Lavinia again. But on Christmas Day he and his daughter had a quarrel--no one ever knew the reason why. It must have been a very serious quarrel, for during the whole week that followed she stayed upstairs in her bedroom and the sitting-room next to it--your rooms, Lavvy. During those days she was virtually a prisoner, even her food being taken in to her there by Miss Tubb. As for the maid, Ad***dle Bontemps, she was sent away in disgrace, the Duke's own man taking her to Southampton, and putting her, or so he declared, on the packet for France."</p>
+<p>"In those days there lived on the other side of the river a young Scotch shepherd whom the Duke had brought south from Ardvilly, and with this shepherd it is supposed that Ad&#x00E8;le Bontemps fell in love. Be that as it may, the three of them--the young lady from the castle, her French maid, and the young shepherd--were seen once or twice together by certain of the townspeople who had roamed out that way.</p>
+<p>"Old Magnifico came back from Russia just before Christmas, and he posted down here in all haste, full of joy at the thought of seeing his beloved Lavinia again. But on Christmas Day he and his daughter had a quarrel--no one ever knew the reason why. It must have been a very serious quarrel, for during the whole week that followed she stayed upstairs in her bedroom and the sitting-room next to it--your rooms, Lavvy. During those days she was virtually a prisoner, even her food being taken in to her there by Miss Tubb. As for the maid, Ad&#x00E8;le Bontemps, she was sent away in disgrace, the Duke's own man taking her to Southampton, and putting her, or so he declared, on the packet for France."</p>
 <pb n="267     The Duchess's Story"/>
 <p>"What a curious thing," mused the latter-day Lady Lavinia.</p>
 <p>"It had long been arranged," went on the Duchess, "that a party of the Duke's political friends should come here on New Year's Eve for a few days' shooting, and when they arrived they found the Duke's daughter, looking very pale and wan, ready to receive them."</p>
@@ -2042,591 +2012,139 @@ summer, they forded the river which forms, as you know, one of the boundaries of
 <p>The Duchess waited a moment, and she heard her eldest daughter explaining to Gerald Arbuthnot, "In the old days of which mother is talking, the door of what we now call the small hall was the main entrance to the castle. That is why we always let the New Year in there."</p>
 <p>"The clock struck twelve," continued the Duchess, "the front door, as it was then, was thrown open, everyone wished everyone else a happy New Year, and then some of those present noticed that Lady Lavinia was not there, and--<hi rend=”italic">she was ever seen again!</hi>"</p>
 <pb n="268     Some Men and Women"/>
-<p>Gerald Arbuthnot leant forward eagerly. " Did
-anyone see her go through the open door into the
-night, Duchess ?"
-" No one saw her go out, and no one noticed
-when she left the hall. As a matter of fact, she
-was not really missed till the next morning. Her
-father evidently believed that, still feeling the
-terrible weight of his displeasure, she had slipped
-away to bed, unwilling to go through the jolli-
-fication of seeing the New Year in. The majority
-of the guests only just knew her by sight, and
-the new maid had been told that she need not
-sit up. So it was not till the next day that the
-girl was known to have disappeared-and the
-moment of her disappearance has always remained
-a mystery."
-The Duchess looked round at the young faces
-turned towards her. She detected in most of
-them a slight touch of disappointment; they
-had hoped for something more thrilling than a
-mere disappearance. But Lady Lawy looked
-interested and excited, and Gerald Arbuthnot
-again leant forward eagerly, "Did she leave
-no word-no note ? " he asked.
-The Duchess hesitated before answering, and
-then,
-" It has always been my belief," she said, with
-a touch of reluctance, "that she did leave a
-letter for her father. But he never acknow-
-
-
-
-
-<pb n="269"/>
-The Duchess's Story          269
-ledged that she had done so, while showing, at
-any rate during the first three or four days
-which followed her disappearance, a strange
-unwillingness to have her really searched for.
-Once the fact of her disappearance had been
-published abroad, however, the search was
-prosecuted in every possible way, all over the
-three kingdoms, and even on the Continent.
-I was looking last week through a packet of
-letters from the poor girl's aunt, and in one of
-
-them there is a hint that some people believed
-she had not gone very far, and that. she was
-hidden comparatively close to her old home-
-that is, near here.
-" I once talked to Dr. Wakefield's grandmother
-about it all, and she told me that her own
-father had organized a force of fifty men who
-had beaten every bush, not only in the park,
-but on all the wide downs which surround
-the country side of the park.  One obvious
-theory was that she had wandered out, been
-killed, and her body hidden, for the sake of
-the jewels she wore on the night of her dis-
-appearance; not that those jewels were what
-
-we should now consider of much value."
-" And no trace of her was ever found ? How
-very, very extraordinary!" exclaimed Gerald
-Arbuthnot. He did not approve of an unsolved
-mystery.
-
-
-
-
-<pb n="270"/>
-270       Some Men and Women
-"When the Duke told me the pitiful tale," 
-
--the Duchess was addressing the young man 
-now, for she felt that he alone of her audience
-was still absorbed in her story, " he showed me a 
-curious little handbill which was, it seems, dis-
-tributed by the thousand, and in which Lady
-Lavinia was described-her name and rank not
-being given."
-She got up and went and unlocked a drawer
-in the writing-table at which she often sat and
-wrote her letters. Then she came back and
-held out to her daughter's lover a small, shabby
-square of yellow paper.
-ONE THOUSAND POUNDS REWARD.
-The above reward will be given for information concern-
-ing a young woman who disappeared last New Year's Eve
-in Sussex. She is fair, with long pale-golden hair; her
-eyes are blue, her mouth is small-she has all her teeth.
-The top of one of her fingers is missing. Speaks in a
-low, clear voice, but with a slight lisp.  When last seen was
-wearing a white flounced muslin dress and a white, silk-
-fringed shawl. May be wearing a pale-blue plush bonnet
-with white ruching. Any information concerning her
-present whereabouts, dead or alive, married or single, should
-be sent to Messrs. J. P. Downing and Sons, io, Chancery
-Lane, London.
-/
-"The top of one of her fingers missing?"
-exclaimed the young man.
-"Yes, the top of the third finger of her left
-hand had been bitten off by a savage dog, when
-she was a child."
-
-
-
-
-<pb n="271"/>
-The Duchess's Story           271
-"I suppose there were many false clues-if
-only because of the reward ? "
-The Duchess told herself that it was nice of
-Gerald to be so interested. It made her feel
-as if he was becoming one of the family-at last.
-"Hundreds of people came forward in the
-hope of getting the reward. But no trace of
-her was ever found, and, at the end of the year,
-poor Old Magnifico and his sons went into
-mourning, and an announcement of Lady
-Lavinia's death was published in the London
-papers. But it was widely believed that this
-had only been done to stop idle gossip."
-"What a strange, strange story," muttered
-the young man.
-Lady Lawy crept cose up to her mother.
-" Mother," she whispered. "Mother ? I want
-to ask you something."
-"Yes, my dear ? "
-"What became of the shepherd ?"
-The Duchess looked round. The children
-had melted away-the younger ones were play-
-ing hide-and-seek at the other end of the long
-library, and her eldest son and Gerald Arbuthnot
-had just begun talking, apart.
-"The shepherd," she whispered back in a
-very low voice, "disappeared about the same
-time. Some thought he'd gone to France after
-the maid-some, I fancy, thought otherwise."
-
-
-
-
-<pb n="272"/>
-272     Some Men and Women                   |
-(3)
-The Duchess got up. "Children! Children ?, 
-It's ten minutes to twelve; we must go into
-the small hall! " 
-Her future son-in-law was the first to obey
-her call, and together they went through from  :
-the library into the beautiful vaulted chamber, 
-at one end of which was the huge, iron-studded  :
-door which Gerald Arbuthnot had never seen
-open.
-"Now that we're so poor, and living entirely  3
-this side of the castle, I think it would be a very
-sensible thing to go back to the old entrance,"
-observed the Duchess. "It would be far more 
-convenient for us, but, alas I not so convenient
-for the servants, so I suppose we shall have to
-stick to the grand entrance for ever and    i
-ever."
-He said solemnly, "Wouldn't that be a 
-pity ?"
-She answered his thought. "To give in to
-the servants ? But they're our masters, after
-all, though very kind masters, and-"
-He interrupted-it was a way he had, and a 
-way which the Duchess found very tiresome.
-"The rising tide of democracy -" he-began. 
-She cut him short, with a slight toss of the
-head.  " Oh, no, Mr. Ar-I mean Gerald- it's
-
-
-
-
-<pb n="273"/>
-The Duchess's Story          278
-nothing to do with the rising tide of democracy.
-Why, my own grandmother, in her day the
-most autocratic old woman in the three king-
-doms, was terribly afraid of her maid. In fact,
-her maid was supposed to be the only person
-of whom she had ever been afraid-and she
-had had three husbands ! "
-And then silence fell upon them all till the
-clock in the bell-tower began to strike. When
-that happened, Lord Ardvilly together with Lady
-Lavvy's lover, walked to the great iron-studded
-door, undid the heavy bolts, and turned the big
-key.
-It all took a little longer than they expected,
-and the last stroke of twelve had fallen on the
-
-still air when the door swung slowly back, admit-
-ting a rush of icy wind. The Duchess drew her
-beautiful Spanish shawl more closely round her,
-and suddenly told herself how nice it is to be
-young, really young I For her children had
-all rushed forward, and were peering out eagerly,
-while her eldest son had actually stepped through
-on to the frozen snow. She could no longer see
-him. He was engulfed in the darkness.
-For a moment the Duchess's heart stood still.
-Supposing he were to disappear now, for ever I
-What would happen to the happy House of
-Life in which she dwelt so securely? She
-visualized, with terrible vividness, the scene of
-18
-
-
-
-
-<pb n="274"/>
-274     Some Men and Women
-seventy years ago, when another party had been  :
-gathered here seeing the New Year in.
-It was with a queer feeling of relief that she
-saw her darling, a slender, good-looking boy.  -
-of nineteen, emerge from the blackness outside. 
-For a moment he stood silent on what had been
-for hundreds of years the threshold of his home;  :
-and then he put up his hand.
-"Mother I" he called out. " There's someone 
-lying outside, on the snow. I think it's a child
-who must have lost her way coming across the  &
-park to night.  Arbuthnot, will you help me 
-bring her in ?"
-The Duchess ran out through the open door,
-and her children followed her-and then some-
-one struck a match.
-Making a dark patch on the frozen snow, lay
-huddled up a piteous little figure. And while 
-the two young men were lifting it up, the Duchess 
-hastened into the library, and rang the bell. Then
-she sent off one of her little boys for the old
-nurse who had now been for many years one of
-the props of her great household.
-Coming back into the hall she heard Gerald 
-Arbuthnot saying in his decided tone, "We
-must put her down flat on the floor. That's
-always the best place for anyone who has
-fainted." 
-When this had been done they all drew near,
-
-
-
-
-<pb n="275"/>
-The Duchess's Story           275
-to see that the unbidden guest was no child,
-but a tiny old woman, clad in workhouse dress.
-The Duchess knelt down on the stone flags
-and bent over the still, stark figure lying there.
-The shrunken face, framed in a round, old-
-fashioned quilted bonnet, had about it a certain
-austere dignity.
-"Poor, poor old thing I How can she have
-got so far out of her way ?" she murmured
-pitifully.
-Then she rose from her knees. "Do go,
-somebody, and hurry Nanna and Denham     -"
-But before anyone could obey her, the small
-hall was suddenly filled with men and maids,
-and they all stood round, mingled in one common
-humanity, while the nurse tried to force a few
-drops of the Duke's liqueur brandy between
-the blue lips of the old woman lying on the
-floor.
-" I wonder where she comes from, Denham ?"
-the Duchess turned to the butler, always her
-friend in need.
-"I expect from Manningford Workhouse,
-your Grace. They let out the old people now
-and again to see their friends. She must have
-been trying for that short cut across the park
-and then, deceived by the snow, lost her way."
-At last the nurse stood up; she turned to her
-mistress. "She's dead, your Grace," she said
-.Q*
-
-
-
-
-<pb n="276"/>
-276     Some Men and Women
-in a low voice. "Not a doubt of it! It's
-bitter cold to-night, and the poor soul may have
-been lying there for hours." 
-The Duchess was looking with a perplexed
-feeling of doubt down into the small, wrinkled
-face. She told herself that Nanna, with all
-her knowledge, was very old-fashioned. They
-have wonderful new ways, nowadays, of bringing
-people back from apparent death.
-She turned to the butler again, "Will you
-telephone and say that I shall be very much
-obliged if Dr. Wakefield could make it con-
-venient to come here as soon as possible."
-The Duchess went back to the group still
-standing awestruck round  the  still figure
-stretched on the floor of the hall. "Children  !
-You must all go off to bed quietly now, and you
-must only sing 'Old Lang Syne ' in your hearts,
-to-night."
-And then she turned to her eldest son. "I
-should like you and Gerald to carry her to the 
-bed in the Queen's Room. It's the nearest
-
-bedroom to here. Besides," her eyes filled
-with tears, " I should not like to feel any dead
-woman so poor that we, at any rate, should not
-do her reverence." 
-Her son bent forward; impulsively he kissed  I
-his mother. He had been too young to play 
-any part in the war, and this was the first time
-
-
-
-
-<pb n="277"/>
-The Duchess's Story           277
-he had seen death. He was deeply moved-
-far more moved than anything in his quiet
-manner showed.
-He looked round for his future brother-in-law.
-That composed young nian was in a corner,
-talking to Lady Lawy.
-" Arbuthnot ? My mother would like us to
-put this poor old woman into a bedroom that's
-very seldom. used now. It's close by-just
-through the library."
-There trembled on Gerald Arbuthnot's lips
-the words, "Oh, but no one ought to move a
-body till the doctor comes."
-But, somehow, he did not utter them. In-
-stead, he helped the younger man to lift that
-which lay there at their feet, looking so light, so
-small, and yet, even to him, so awe-inspiring.
-It was a slow-moving procession which went
-down the long library, and so through a broad
-corridor beyond, into which opened what was
-called "The Queen's Room," because Queen
-Victoria had slept there no fewer than seven
-times during her long reign.
-" And now," said the Duchess, " I wish every-
-one to go to bed, except Denham. He will have
-to wait up for Dr. Wakefield, of course, and so
-must I."
-After they had all trooped off, she sat on in the
-library till she heard firm, quick steps echoing
-
-
-
-
-<pb n="278"/>
-278     Some Men and Women 
-through the hall which had seen so strange and
-sad a scene so short a time ago.
-"Well, Duchess? This is a sad affair tI
-Denham  tells me that the poor old woman    .i
-is dead, or, at any rate, that your nurse says
-so?"                                         i
-The three of them, the butler, the doctor, and
-the Duchess, went to the Queen's Room. The
-doctor bent down over the great canopied bed . . . .
-"There's nothing to be done! " he declared
-at last, straightening himself.
-The butler had slipped away unobtrusively j
-and, for a few moments, the two that remained
-there stood silently looking down at the stray,
-aged remnant of humanity.
-It was the man who spoke first.
-"I will arrange for her to be taken away to
-the mortuary to-morrow morning."
-" But I would far rather she were left here! 
-I can't bear the thought of the poor little creature
-being put in a mortuary. After all, she came 
-here, to us, for shelter .. ."
-Dr. Wakefield looked a little surprised. He
-had known the Duchess a good many years,     j
-he was truly attached to her, and he had never
-once thought of her as being what he called to
-himself " foolishly sentimental."
-" There willhave to be an inquest," he observed,
-rather drily.
-i i
-
-
-
-
-<pb n="279"/>
-The Duchess's Story           279
-"Bit it could be held here-in the castle,
-I mean? '
-" It could be-certainly. But would the Duke
-like that? "
-" The Duke always likes what I like," she said,
-a little stiffly. And Dr. Wakefield felt, what
-he very seldom had occasion to feel-snubbed.
-He bent down again over the great bed. " I
-see she wears a wedding ring," he observed; and
-then, in a tone of surprise, he added, " Why, the
-
-top of her wedding finger is off. What an extra-
-ordinary thing I "
-The Duchess gave a sharp cry. It was clear
-that her nerves had been thoroughly upset by
-the sad end to her day.
-" Are you sure ? " she exclaimed in an agitated
-voice-" sure, Dr. Wakefield ? "
-"Sure ? " He looked round at her, puzzled.
-"Do you mean, am I sure that she is dead,
-Duchess ? I haven't a doubt of it."
-"I don't mean that. I mean are you sure
-about her finger-about the top of it being
-off?"
-" Perfectly sure. Would you like to see for
-yourself ? There is nothing repugnant about it
--I should judge it to have been cut off a great
-many years ago."
-And then, with the tears rolling down her face,
-the Duchess, too, bent down over the great bed
-
-
-
-
-<pb n="280"/>
-280     Some Men and Women
-and looked at the pathetic little stump circled
-by a worn wedding-ring.
-"How strange," she murmured at last-" how
-very, very strange I " and there came a perplexed, 
-undecided expression over her face.
-"Must there really be an inquest ? " she asked,
-suddenly.
-"I'm afraid there must; though, of course, 
-it's obvious enough what happened. The poor 
-old soul-she must have been very, very old, by  ?
-the way-lost her way when going across the park,  )
-and her death was due to the cold and exposure." 
-"I feel sure that the Duke will wish her to
-be buried in the Old Churchyard-in our enclosure,
-I mean. I know that he would not like her-
-any more than I should-to be put in a pauper's
-grave." 
-Dr. Wakefield felt more and more surprised.
-He told himself that there was no accounting for
-the vagaries of women-or, perhaps one ought to 
-say, for the vagaries of duchesses. This Duchess
-and he were good, as well as old, friends, and he 
-remembered with what courage and resignation
-she had taken the one great trouble of her married
-life-the death of a little daughter of eighteen
-months. She had felt the loss most bitterly,
-yet she had been extremely unselfish and brave.
-Perhaps what had happened to-night had brought 
-that sad time back to her mind ? But surely,  j
-
-
-
-
-<pb n="281"/>
-The Duchess's Story         281
-not even to humour his wife, would the Duke
-allow this poor old pauper to be buried in that
-portion of what was called the Old Churchyard
-where his ancestors were buried.
-" I will see the coroner to-morrow," he said,
-soothingly, " and arrange for the inquest to be
-held here. Perhaps you would like me also to
-
-speak to the undertaker. I take it you would
-like just a plain coffin-- "
-" Yes," she said in a low voice, " quite a plain
-coffin. It has always shocked me that anyone
-could want anything else."
-She walked back with him through the now
-dark and silent house, and, though Denham was
-in attendance, she herself saw the doctor into his
-two-seater. "Thank you very much,"    she
-murmured, "and a very Happy New Year to
-you, my dear, kind friend."
-About ten o'clock the next morning the Duchess
-was told that Dr. Wakefield wished to speak to
-her Grace on the telephone. She was with the
-Duke when she received the message, and he
-saw that she looked worried, undecided, un-
-comfortable.
-" Would you rather I went ? " he asked, very
-gently for him. "Hadn't I better speak to him,
-my darling ? "
-She shook her head. " No, you'd better keep
-out of it all. Besides, you hate the telephone I "
-
-
-
-
-<pb n="282"/>
-282     Some Men and Women
-" I thought you would like to know something
-more about that poor old woman," Dr. Wake-
-field began-" though it's only a very short page
-from  'the simple annals of the poor.' The
-Master of Manningford Workhouse says that she
-and her husband-a very dour Scot, named
-MacAndrew-settled here some twenty-five years
-ago. Until before the war they lived in a singu-
-larly lonely place-a two-roomed cottage at the
-top of the second down. There seems no doubt
-that they had saved some money, though they
-were reduced to sore straits before the old man's
-death. She lived on for a while all by herself,
-and people-I mean the people of her own class
--were very kind and generous to her, as they
-so often are to one another. And then, when
-during the war the food question became acute,
-one of her cronies persuaded her to go into the
-workhouse. She became a great favourite there,
-it seems. Like so many Scotswomen of that
-
-type, she was well educated, and she used to
-read to the other old people. She gave her age
-when she came in as seventy-five, but the Master
-thinks she was a good deal older than that. He
-suspects she was close on, or even over, ninety
-when she died. Lately her mind had been going
-a little, and that perhaps accounts for her having
-wandered into the park, which was reallyquite
-out of her way for Manningford. I have arranged
-
-
-
-
-<pb n="283"/>
-The Duchess's Story           288
-for the inquest to take place to-morrow at twelve.
-Do you still wish it to be held in the castle ? "
-"Certainly I do," came the quiet answer,
-"for the Duke and I both feel that we should
-not like her to be moved more than must be."
-"And about the funeral ?" the doctor went
-on. "1 suggest that the funeral shall follow on
-the inquest as soon as possible. How about the
-day after to-morrow-early in the morning? Do
-you still wish her to be buried in the Enclosure ?"
-Again she said, "Certainly we do. And-
-Dr. Wakefield ? "
-"Yes, Duchess ?"
-"Don't let the funeral be too early. We shall
-all go to it, and I'm sure the upper servants will
-want to go, too."
-He did not allow the surprise he felt to appear
-in his voice. "Then shall I say about eleven
-o'clock on Wednesday ? "
-" Yes, that will do very well. And, doctor?
-One word more--"
-"Yes," he called back. " Yes ?"
-"What was her Christian name ?"
-"Her Christian name? It was Charlotte,
-a rather unusual one for a person of her class.
-Charlotte MacAndrew was the name under which
-she was admitted to Manningford Workhouse."
-Two days later, Gerald Arbuthnot, while
-
-
-
-
-<pb n="284"/>
-284     Some Men and Women 
-following the old pauper woman's plain oak 
-coffin up the stone paths of the Old Churchyard,  ?
-perceived that the grave had been prepared very
-near the grand tomb of that duke who had been 
-known to his contemporaries as Old Magnifico. 
-The world does move, after all, he reflected, for
-was he not now witnessing an example-albeit
-in a most unexpected place-of the true
-brotherhood of man ?
-,.4
-Prngted at The Chapel River Press, Kingston, Surrey. 
-
-
-
-
+<p>Gerald Arbuthnot leant forward eagerly. "Did anyone see her go through the open door into the night, Duchess?"</p>
+<p>"No one saw her go out, and no one noticed when she left the hall. As a matter of fact, she was not really missed till the next morning. Her father evidently believed that, still feeling the terrible weight of his displeasure, she had slipped away to bed, unwilling to go through the jollification of seeing the New Year in. The majority of the guests only just knew her by sight, and the new maid had been told that she need not sit up. So it was not till the next day that the girl was known to have disappeared--and the moment of her disappearance has always remained a mystery."</p>
+<p>The Duchess looked round at the young faces turned towards her. She detected in most of them a slight touch of disappointment; they had hoped for something more thrilling than a mere disappearance. But Lady Lavvy looked interested and excited, and Gerald Arbuthnot again leant forward eagerly, "Did she leave no word--no note?" he asked.</p>
+<p>The Duchess hesitated before answering, and then,</p>
+<p>"It has always been my belief," she said, with a touch of reluctance, "that she did leave a letter for her father. But he never acknow-
+<pb n="269     The Duchess's Story"/>
+ledged that she had done so, while showing, at any rate during the first three or four days which followed her disappearance, a strange unwillingness to have her really searched for. Once the fact of her disappearance had been published abroad, however, the search was prosecuted in every possible way, all over the three kingdoms, and even on the Continent. I was looking last week through a packet of letters from the poor girl's aunt, and in one of them there is a hint that some people believed she had not gone very far, and that she was hidden comparatively close to her old home--that is, near here.</p>
+<p>"I once talked to Dr. Wakefield's grandmother about it all, and she told me that her own father had organized a force of fifty men who had beaten every bush, not only in the park, but on all the wide downs which surround the country side of the park. One obvious theory was that she had wandered out, been killed, and her body hidden, for the sake of the jewels she wore on the night of her disappearance; not that those jewels were what we should now consider of much value."</p>
+<p>"And no trace of her was ever found? How very, very extraordinary!" exclaimed Gerald Arbuthnot. He did not approve of an unsolved mystery.</p>
+<pb n="270       Some Men and Women"/>
+<p>"When the Duke told me the pitiful tale,"--the Duchess was addressing the young man now, for she felt that he alone of her audience was still absorbed in her story, "he showed me a curious little handbill which was, it seems, distributed by the thousand, and in which Lady Lavinia was described--her name and rank not being given."</p>
+<p>She got up and went and unlocked a drawer in the writing-table at which she often sat and wrote her letters. Then she came back and held out to her daughter's lover a small, shabby square of yellow paper.</p>
+<q><l>ONE THOUSAND POUNDS REWARD.</l>
+<p>The above reward will be given for information concerning a young woman who disappeared last New Year's Eve in Sussex. She is fair, with long pale-golden hair; her eyes are blue, her mouth is small--she has all her teeth. The top of one of her fingers is missing. Speaks in a low, clear voice, but with a slight lisp.  When last seen was wearing a white flounced muslin dress and a white, silk-fringed shawl. May be wearing a pale-blue plush bonnet with white ruching. Any information concerning her present whereabouts, dead or alive, married or single, should be sent to Messrs. J. P. Downing and Sons, 10, Chancery
+Lane, London.</p></q>
+<p>"The top of one of her fingers missing?" exclaimed the young man.</p>
+<p>"Yes, the top of the third finger of her left hand had been bitten off by a savage dog, when she was a child."</p>
+<pb n="271     The Duchess's Story"/>
+<p>"I suppose there were many false clues--if only because of the reward?"</p>
+<p>The Duchess told herself that it was nice of Gerald to be so interested. It made her feel as if he was becoming one of the family--at last.</p>
+<p>"Hundreds of people came forward in the hope of getting the reward. But no trace of her was ever found, and, at the end of the year, poor Old Magnifico and his sons went into mourning, and an announcement of Lady Lavinia's death was published in the London papers. But it was widely believed that this had only been done to stop idle gossip."</p>
+<p>"What a strange, strange story," muttered the young man.</p>
+<p>Lady Lavvy crept close up to her mother.</p>
+<p>"Mother," she whispered. "Mother? I want to ask you something."</p>
+<p>"Yes, my dear?"</p>
+<p>"What became of the shepherd?"</p>
+<p>The Duchess looked round. The children had melted away--the younger ones were playing hide-and-seek at the other end of the long library, and her eldest son and Gerald Arbuthnot had just begun talking, apart.</p>
+<p>"The shepherd," she whispered back in a very low voice, "disappeared about the same time. Some thought he'd gone to France after the maid--some, I fancy, thought otherwise."</p>
+<pb n="272     Some Men and Women"/>
+</div><div n="3" id="blsome035" type="section">
+<head>(3)</head>
+<p>The Duchess got up. "Children! Children? It's ten minutes to twelve; we must go into the small hall!"</p>
+<p>Her future son-in-law was the first to obey her call, and together they went through from the library into the beautiful vaulted chamber, at one end of which was the huge, iron-studded door which Gerald Arbuthnot had never seen open.</p>
+<p>"Now that we're so poor, and living entirely this side of the castle, I think it would be a very sensible thing to go back to the old entrance," observed the Duchess. "It would be far more convenient for us, but, alas! not so convenient for the servants, so I suppose we shall have to stick to the grand entrance for ever and ever."</p>
+<p>He said solemnly, "Wouldn't that be a pity?"</p>
+<p>She answered his thought. "To give in to the servants? But they're our masters, after all, though very kind masters, and--"</p>
+<p>He interrupted--it was a way he had, and a way which the Duchess found very tiresome. "The rising tide of democracy--" he began.</p>
+<p>She cut him short, with a slight toss of the head.  "Oh, no, Mr. Ar--I mean Gerald--it's
+<pb n="273     The Duchess's Story"/>
+nothing to do with the rising tide of democracy. Why, my own grandmother, in her day the most autocratic old woman in the three kingdoms, was terribly afraid of her maid. In fact, her maid was supposed to be the only person of whom she had ever been afraid--and she had had three husbands!"</p>
+<p>And then silence fell upon them all till the clock in the bell-tower began to strike. When that happened, Lord Ardvilly together with Lady Lavvy's lover, walked to the great iron-studded door, undid the heavy bolts, and turned the big key.</p>
+<p>It all took a little longer than they expected, and the last stroke of twelve had fallen on the still air when the door swung slowly back, admitting a rush of icy wind. The Duchess drew her beautiful Spanish shawl more closely round her, and suddenly told herself how nice it is to be young, really young! For her children had all rushed forward, and were peering out eagerly, while her eldest son had actually stepped through on to the frozen snow. She could no longer see him. He was engulfed in the darkness.</p>
+<p>For a moment the Duchess's heart stood still. Supposing <hi rend=”italic">he</hi> were to disappear now, for ever! What would happen to the happy House of Life in which she dwelt so securely? She visualized, with terrible vividness, the scene of
+<pb n="274     Some Men and Women"/>
+seventy years ago, when another party had been gathered here seeing the New Year in.</p>
+<p>It was with a queer feeling of relief that she saw her darling, a slender, good-looking boy of nineteen, emerge from the blackness outside. For a moment he stood silent on what had been for hundreds of years the threshold of his home; and then he put up his hand.</p>
+<p>"Mother!" he called out. "There's someone lying outside, on the snow. I think it's a child who must have lost her way coming across the park to night. Arbuthnot, will you help me bring her in?"</p>
+<p>The Duchess ran out through the open door, and her children followed her--and then someone struck a match.</p>
+<p>Making a dark patch on the frozen snow, lay huddled up a piteous little figure. And while the two young men were lifting it up, the Duchess hastened into the library, and rang the bell. Then she sent off one of her little boys for the old nurse who had now been for many years one of the props of her great household.</p>
+<p>Coming back into the hall she heard Gerald Arbuthnot saying in his decided tone, "We must put her down flat on the floor. That's always the best place for anyone who has fainted."</p>
+<p>When this had been done they all drew near,
+<pb n="275     The Duchess's Story"/>
+to see that the unbidden guest was no child, but a tiny old woman, clad in workhouse dress.</p>
+<p>The Duchess knelt down on the stone flags and bent over the still, stark figure lying there. The shrunken face, framed in a round, old-fashioned quilted bonnet, had about it a certain austere dignity.</p>
+<p>"Poor, poor old thing! How can she have got so far out of her way?" she murmured pitifully.</p>
+<p>Then she rose from her knees. "Do go, somebody, and hurry Nanna and Denham--"</p>
+<p>But before anyone could obey her, the small hall was suddenly filled with men and maids, and they all stood round, mingled in one common humanity, while the nurse tried to force a few drops of the Duke's liqueur brandy between the blue lips of the old woman lying on the floor.</p>
+<p>"I wonder where she comes from, Denham?" the Duchess turned to the butler, always her friend in need.</p>
+<p>"I expect from Manningford Workhouse, your Grace. They let out the old people now and again to see their friends. She must have been trying for that short cut across the park and then, deceived by the snow, lost her way."</p>
+<p>At last the nurse stood up; she turned to her mistress. "She's dead, your Grace," she said
+<pb n="276     Some Men and Women"/>
+in a low voice. "Not a doubt of it! It's bitter cold to-night, and the poor soul may have been lying there for hours."</p>
+<p>The Duchess was looking with a perplexed feeling of doubt down into the small, wrinkled face. She told herself that Nanna, with all her knowledge, was very old-fashioned. They have wonderful new ways, nowadays, of bringing people back from apparent death.</p>
+<p>She turned to the butler again, "Will you telephone and say that I shall be very much obliged if Dr. Wakefield could make it convenient to come here as soon as possible."</p>
+<p>The Duchess went back to the group still standing awestruck round the  still figure stretched on the floor of the hall. "Children! You must all go off to bed quietly now, and you must only sing 'Old Lang Syne' in your hearts, to-night."</p>
+<p>And then she turned to her eldest son. "I should like you and Gerald to carry her to the bed in the Queen's Room. It's the nearest bedroom to here. Besides," her eyes filled with tears, "I should not like to feel any dead woman so poor that we, at any rate, should not do her reverence."</p>
+<p>Her son bent forward; impulsively he kissed his mother. He had been too young to play any part in the war, and this was the first time
+<pb n="277     The Duchess's Story"/>
+he had seen death. He was deeply moved--far more moved than anything in his quiet manner showed.</p>
+<p>He looked round for his future brother-in-law. That composed young man was in a corner, talking to Lady Lavvy.</p>
+<p>"Arbuthnot? My mother would like us to put this poor old woman into a bedroom that's very seldom used now. It's close by--just through the library."</p>
+<p>There trembled on Gerald Arbuthnot's lips the words, "Oh, but no one ought to move a body till the doctor comes."</p>
+<p>But, somehow, he did not utter them. Instead, he helped the younger man to lift that which lay there at their feet, looking so light, so small, and yet, even to him, so awe-inspiring.</p>
+<p>It was a slow-moving procession which went down the long library, and so through a broad corridor beyond, into which opened what was called "The Queen's Room," because Queen Victoria had slept there no fewer than seven times during her long reign.</p>
+<p>"And now," said the Duchess, "I wish everyone to go to bed, except Denham. He will have to wait up for Dr. Wakefield, of course, and so must I."</p>
+<p>After they had all trooped off, she sat on in the library till she heard firm, quick steps echoing
+<pb n="278     Some Men and Women"/>
+through the hall which had seen so strange and sad a scene so short a time ago.</p>
+<p>"Well, Duchess? This is a sad affair! Denham tells me that the poor old woman is dead, or, at any rate, that your nurse says so?"</p>
+<p>The three of them, the butler, the doctor, and the Duchess, went to the Queen's Room. The doctor bent down over the great canopied bed. . . .</p>
+<p>"There's nothing to be done!" he declared at last, straightening himself.</p>
+<p>The butler had slipped away unobtrusively and, for a few moments, the two that remained there stood silently looking down at the stray, aged remnant of humanity.</p>
+<p>It was the man who spoke first.</p>
+<p>"I will arrange for her to be taken away to the mortuary to-morrow morning."</p>
+<p>"But I would far rather she were left here! I can't bear the thought of the poor little creature being put in a mortuary. After all, she came here, to us, for shelter. . . ."</p>
+<p>Dr. Wakefield looked a little surprised. He had known the Duchess a good many years, he was truly attached to her, and he had never once thought of her as being what he called to himself "foolishly sentimental."</p>
+<p>"There will have to be an inquest," he observed, rather drily.</p>
+<pb n="279     The Duchess's Story"/>
+<p>"But it could be held here--in the castle, I mean?"</p>
+<p>"It could be--certainly. But would the Duke like that?"</p>
+<p>"The Duke always likes what I like," she said, a little stiffly. And Dr. Wakefield felt, what he very seldom had occasion to feel--snubbed.</p>
+<p>He bent down again over the great bed. "I see she wears a wedding ring," he observed; and then, in a tone of surprise, he added, "Why, the top of her wedding finger is off. What an extraordinary thing!"</p>
+<p>The Duchess gave a sharp cry. It was clear that her nerves had been thoroughly upset by the sad end to her day.</p>
+<p>"Are you sure?" she exclaimed in an agitated voice--"<hi rend=”italic">sure</hi>, Dr. Wakefield?"</p>
+<p>"Sure?" He looked round at her, puzzled. "Do you mean, am I sure that she is dead, Duchess? I haven't a doubt of it."</p>
+<p>"I don't mean that. I mean are you sure about her finger--about the top of it being off?"</p>
+<p>"Perfectly sure. Would you like to see for yourself? There is nothing repugnant about it--I should judge it to have been cut off a great many years ago."</p>
+<p>And then, with the tears rolling down her face, the Duchess, too, bent down over the great bed
+<pb n="280     Some Men and Women"/>
+and looked at the pathetic little stump circled by a worn wedding-ring.</p>
+<p>"How strange," she murmured at last--"how very, very strange!" and there came a perplexed, undecided expression over her face.</p>
+<p>"Must there really be an inquest?" she asked, suddenly.</p>
+<p>"I'm afraid there must; though, of course, it's obvious enough what happened. The poor old soul--she must have been very, very old, by the way--lost her way when going across the park, and her death was due to the cold and exposure."</p>
+<p>"I feel sure that the Duke will wish her to be buried in the Old Churchyard--in our enclosure, I mean. I know that he would not like her--any more than I should--to be put in a pauper's grave."</p>
+<p>Dr. Wakefield felt more and more surprised. He told himself that there was no accounting for the vagaries of women--or, perhaps one ought to say, for the vagaries of duchesses. This Duchess and he were good, as well as old, friends, and he remembered with what courage and resignation she had taken the one great trouble of her married life--the death of a little daughter of eighteen months. She had felt the loss most bitterly, yet she had been extremely unselfish and brave. Perhaps what had happened to-night had brought that sad time back to her mind? But surely,
+<pb n="281     The Duchess's Story"/>
+not even to humour his wife, would the Duke allow this poor old pauper to be buried in that portion of what was called the Old Churchyard where his ancestors were buried.</p>
+<p>"I will see the coroner to-morrow," he said, soothingly, "and arrange for the inquest to be held here. Perhaps you would like me also to speak to the undertaker. I take it you would like just a plain coffin--"</p>
+<p>"Yes," she said in a low voice, "quite a plain coffin. It has always shocked me that anyone could want anything else."</p>
+<p>She walked back with him through the now dark and silent house, and, though Denham was in attendance, she herself saw the doctor into his two-seater. "Thank you very much," she murmured, "and a very Happy New Year to you, my dear, kind friend."</p>
+<p>About ten o'clock the next morning the Duchess was told that Dr. Wakefield wished to speak to her Grace on the telephone. She was with the Duke when she received the message, and he saw that she looked worried, undecided, uncomfortable.</p>
+<p>"Would you rather I went?" he asked, very gently for him. "Hadn't <hi rend=”italic">I</hi> better speak to him, my darling?"</p>
+<p>She shook her head. "No, you'd better keep out of it all. Besides, you hate the telephone!"</p>
+<pb n="282     Some Men and Women"/>
+<p>"I thought you would like to know something more about that poor old woman," Dr. Wakefield began--"though it's only a very short page from 'the simple annals of the poor.' The Master of Manningford Workhouse says that she and her husband--a very dour Scot, named MacAndrew--settled here some twenty-five years ago. Until before the war they lived in a singularly lonely place--a two-roomed cottage at the top of the second down. There seems no doubt that they had saved some money, though they were reduced to sore straits before the old man's death. She lived on for a while all by herself, and people--I mean the people of her own class--were very kind and generous to her, as they so often are to one another. And then, when during the war the food question became acute, one of her cronies persuaded her to go into the workhouse. She became a great favourite there, it seems. Like so many Scotswomen of that type, she was well educated, and she used to read to the other old people. She gave her age when she came in as seventy-five, but the Master thinks she was a good deal older than that. He suspects she was close on, or even over, ninety when she died. Lately her mind had been going a little, and that perhaps accounts for her having wandered into the park, which was really quite out of her way for Manningford. I have arranged
+<pb n="283     The Duchess's Story"/>
+for the inquest to take place to-morrow at twelve. Do you still wish it to be held in the castle?"</p>
+<p>"Certainly I do," came the quiet answer, "for the Duke and I both feel that we should not like her to be moved more than must be."</p>
+<p>"And about the funeral?" the doctor went on. "I suggest that the funeral shall follow on the inquest as soon as possible. How about the day after to-morrow--early in the morning? Do you still wish her to be buried in the Enclosure?"</p>
+<p>Again she said, "Certainly we do. And--Dr. Wakefield?"</p>
+<p>"Yes, Duchess?"</p>
+<p>"Don't let the funeral be too early. We shall all go to it, and I'm sure the upper servants will want to go, too."</p>
+<p>He did not allow the surprise he felt to appear in his voice. "Then shall I say about eleven o'clock on Wednesday?"</p>
+<p>"Yes, that will do very well. And, doctor? One word more--"</p>
+<p>"Yes," he called back. "Yes?"</p>
+<p>"What was her Christian name?"</p>
+<p>"Her Christian name? It was Charlotte, a rather unusual one for a person of her class. Charlotte MacAndrew was the name under which she was admitted to Manningford Workhouse."</p>
+<milestone rend="blank-line" type="subsection"/>
+<p>Two days later, Gerald Arbuthnot, while
+<pb n="284     Some Men and Women"/>
+following the old pauper woman's plain oak coffin up the stone paths of the Old Churchyard, perceived that the grave had been prepared very near the grand tomb of that duke who had been known to his contemporaries as Old Magnifico. The world does move, after all, he reflected, for was he not now witnessing an example--albeit in a most unexpected place--of the true brotherhood of man?</p></div></div></body></text></group>
+
+<back><div id="blsome036" type="colophon">Printed at The Chapel River Press, Kingston, Surrey.</div>
+
+</back></text></TEI.2>
 
