@@ -1,30 +1,161 @@
-THE DAISY CHAIN.
-PART I.
-<pb>
-<pb>
-<p>THE DAISY CHAIN;</p>
-<p>OR,</p>
-<p>ASPIRATIONS.</p>
-<p>A FAMILY CHRONICLE.</p>
-<p>BY THE AUTHOR OF THE HEIR OF REDCLYFFE,</p>
-<p>ETC.</p>
-<p>'To the highest room,</p>
-<p>Earth's lowliest flowers our Lord receives:</p>
-<p>Close to His heart a place He gives,</p>
-<p>Where they shall ever bloom.'</p>
-<p>LONDON:</p>
-<p>JOHN W. PARKER AND SON, WEST STRAND.</p>
-<p>MDCCCLVI.</p>
-<pb n="vii PREFACE.">
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>The Daisy Chain, part I, an electronic edition</title>
+<author n="Yonge, Charlotte Mary, 1823-1901">Charlotte Mary Yonge</author>
+</titleStmt>
+<extent>900kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2005</date>
+<availability>
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Yonge, Charlotte Mary</author>. <title>The
+Daisy Chain, part I</title>. <pubPlace>London</pubPlace>:
+<publisher>John W. Parker and Son</publisher>, <date>1856</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded. Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p></samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera. Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi. These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel. This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines. For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em
+dashes with two dashes. Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="collection">Genre Fiction</rs>
+<rs type="language">English</rs>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
+<rs type="geography">Great Britain</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>British literature--19th Century--Fiction.</item>
+<item>Women authors, British--19th Century.</item>
+<item>Christianity.</item>
+<item>Domestic fiction.</item>
+<item>Sisters.</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2005-October-21</date>
+<respStmt><name>Erika Farr, </name>
+<resp>project manager.</resp></respStmt>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front>
+<div id="cy1daisy000" type="covers">
+<figure entity="cy1daisyfc" rend="inline">
+<figDesc>Front cover of the first part of Yonge's <hi
+rend="italic">The Daisy Chain</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="cy1daisybc" rend="inline">
+<figDesc>Back cover of the first part of Yonge's <hi
+rend="italic">The Daisy Chain</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="cy1daisysp" rend="inline">
+<figDesc>Spine of the first part of Yonge's <hi
+rend="italic">The Daisy Chain</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="cy1daisytp" pages="Title Page" n="[v]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">THE DAISY CHAIN;</titlePart>
+<titlePart type="sub">OR, <lb/>ASPIRATIONS.</titlePart>
+<titlePart type="sub">A FAMILY CHRONICLE.</titlePart>
+</docTitle>
+<byline>BY THE AUTHOR OF THE HEIR OF REDCLYFFE, <lb/>ETC.</byline>
+<epigraph>
+<q><lg type="stanza">
+<l>'To the highest room,</l>
+<l>Earth's lowliest flowers our Lord receives:</l>
+<l>Close to his heart a place He gives,</l>
+<l>Where they shall ever bloom.'</l></lg></q>
+</epigraph>
+<docImprint>
+<pubPlace>LONDON:</pubPlace>
+<publisher>JOHN W. PARKER AND SON,</publisher> <pubPlace>WEST STRAND.</pubPlace>
+<docDate>MDCCCLVI.</docDate>
+</docImprint>
+</titlePage>
+<pb n="[vii]"/>
+<div id="cy1daisy001" type="dedication">
+<head>PREFACE.</head>
 <p>No one can be more sensible than is the Author that the present is an overgrown book of a nondescript class, neither the " tale" for the young, nor the novel for their elders, but a mixture of both.</p>
 <p>Begun as a series of conversational sketches, the story outran both the original intention and the limits of the periodical in which it was commenced; and, such as it has become, it is here presented to those who have already made acquaintance with the May family, and may be willing to see more of them. It would beg to be considered merely as what it calls itself, a Family Chronicle--a domestic record of home events, large and small, during those years of early life when the character is chiefly formed, and as an endeavour to trace the effects of those aspirations which are
-<pb n="viii PREFACE.">
+<pb n="viii PREFACE."/>
 a part of every youthful nature. That the young should take one hint, to think whether their hopes and upward-breathings are truly upwards, and founded in lowliness, may be called the moral of the tale.</p>
 <p>For those who may deem the story too long, and the characters too numerous, the Author can only beg their pardon for any tedium that they may have undergone before giving it up.</p>
-<p>FEB. 22ND, 1856.</p>
-<pb n="1 THE DAISY CHAIN.">
-<p>CHAPTER I.</p>
-<p>'Si douce est la Marguerite.'--CHAUCER.</p>
+<closer><dateline>FEB. 22ND, 1856.</dateline></closer>
+</div>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">THE DAISY CHAIN.</titlePart>
+<titlePart type="sub">PART I.</titlePart>
+</docTitle>
+</titlePage>
+</front>
+<body>
+<pb n="[1]"/>
+<div id="cy1daisy011" type="chapter" n="1">
+<head>THE DAISY CHAIN.
+<lb/>CHAPTER I.</head>
+<epigraph><cit><q><l>'Si douce est la Marguerite.'</l></q><bibl>--CHAUCER.</bibl></cit></epigraph>
 <p>'Miss WINTER, are you busy? Do you want this afternoon? Can you take a good long walk?'</p>
 <p>'Ethel, my dear, how often have I told you of your impetuosity--you have forgotten.'</p>
 <p>'Very well'--with an impatient twist--'I beg your pardon. Good morning, Miss Winter,' said a thin, lank, angular, sallow girl, just fifteen, trembling from head to foot with restrained eagerness, as she tried to curb her tone into the requisite civility.</p>
@@ -47,7 +178,7 @@ eyelids, a tendency to crack the joints of the fingers, and an unquietness at th
 <p>'O, we have settled that,' said Ethel, 'we mean to make the donkey a sumpter-mule, so, if you are tired, you may ride home on her.'</p>
 <p>'But, my dear, has your mamma considered? They are such a set of wild people at Cocksmoor; I don't think we could walk there alone.'</p>
 <p>'It is Saturday,' said Ethel, 'we can get the boys.'</p>
-<p>'If you would reflect a little! They would be no protection. Harry would be getting into scrapes, and you and Mary running wild.</p>'
+<p>'If you would reflect a little! They would be no protection. Harry would be getting into scrapes, and you and Mary running wild.'</p>
 <pb n="3 THE DAISY CHAIN."/>
 <p>'I wish Richard was at home!' said Flora.</p>
 <p>'I know!' cried Ethel. 'Mr. Ernescliffe will come. I am sure he can walk so far now. I'll ask him.'</p>
@@ -95,10 +226,10 @@ eyelids, a tendency to crack the joints of the fingers, and an unquietness at th
 <pb n="6 THE DAISY CHAIN."/>
 ones' mistakes, the fidgetting of the boys, or Harry's audacious impertinence to Miss Winter; and no less glad was Harry to have his mother there, and be guarded from himself.</p>
 <p>The Catechism was repeated, and a comment on the Sunday Services read aloud. The Gospel was that on the taking the lowest place, and when they had finished, Ethel said, 'I like the verse which explains that:</p>
-<p>*"They who now sit lowest here,</p>
-<p>When their Master shall appear,</p>
-<p>He shall bid them higher rise,</p>
-<p>And be highest in the skies."'*</p>
+<q><lg type="stanza"><l>"They who now sit lowest here,</l>
+<l>When their Master shall appear,</l>
+<l>He shall bid them higher rise,</l>
+<l>And be highest in the skies."'</l></lg></q>
 <p>'I did not think of that being the meaning of "when He that bade thee cometh,"' said Norman, thoughtfully.</p>
 <p>'It seemed to be only our worldly advantage that was meant: before,' said Ethel.</p>
 <p>'Well, it means that too,' said Flora.</p>
@@ -151,11 +282,13 @@ The Swan inn was not forty yards from Dr. May's back gate, and, at every spare m
 <pb n="11 THE DAISY CHAIN."/>
 all the old family appellations had been used up, was an open question. The Doctor protested against Alice and Edith, which he said were the universal names in the present day. The boys hissed. every attempt of their sisters at a romantic name, and then Harry wanted it to be Atalantis! At last Dr. May announced that he should have her named Dowsabel if they did not agree, and Mrs. May advised all the parties concerned, to write their choice on a slip of paper, and little Aubrey should draw two out of her bag, trusting that Atalantis Dowsabel would not come out as Harry confidently predicted.</p>
 <p>However, it was even worse, Aubrey's two lots were Gertrude and Margaret. Ethel and Mary made a vehement uproar to discover who could have written Margaret, and at last traced it home to Mr. Ernescliffe, who replied that Flora, without saying why, had desired him to set down his favourite name. He was much disconcerted, and did not materially mend the matter by saying it was the first name that came into his head.</p>
-<p>CHAPTER II.</p>
-<p>'Meadows trim with daisies pied.'--MILTON.</p>
+</div>
+<div id="cy1daisy012" type="chapter" n="2">
+<head>CHAPTER II.</head>
+<epigraph><cit><q><l>'Meadows trim with daisies pied.'</l></q><bibl>--MILTON.</bibl></cit></epigraph>
 <p>ETHEL'S navigation lesson was interrupted by the dinner-bell. That long table was a goodly sight. Few ever looked happier than Dr. and Mrs. May, as they sat opposite to each other, presenting a considerable contrast in appearance as in disposition. She was a little woman, with that smooth pleasant plumpness that seems to belong to perfect content and serenity, her complexion fair and youthful, her face and figure very pretty, and full of quiet grace and refinement, and her whole air and expression denoting a serene, unruffled, affectionate happiness, yet with much authority in her mildness--warm and open in her own family, but reserved beyond it, and shrinking from general society.</p>
 <p>The Doctor, on the contrary, had a lank, bony figure, nearly six feet high, and looking more so from his slightness; a face sallow, thin, and strongly marked, an aquiline nose, highly developed forehead, and peculiar temples, over which the hair strayed in thin curling flakes. His eyes were light-coloured, and were seldom seen without his near-sighted spectacles, but the expressions of the mouth were everything--so varying, so bright, and so sweet were the smiles that showed beautiful white teeth--moreover, his hand was particularly well made, small and delicate; and it always turned out that no one ever recollected that Dr. May was plain, who had ever heard his kindly greeting.</p>
-<pb n="12" THE DAISY CHAIN."/>
+<pb n="12 THE DAISY CHAIN."/>
 <p>The sons and daughters were divided in likeness to father and mother; Ethel was almost an exaggeration of the Doctor's peculiarities, especially at the formed, but unsoftened age of fifteen; Norman had his long nose, sallow complexion, and tall figure, but was much improved by his mother's fine blue eyes, and was a very pleasant-looking boy, though not handsome; little Tom was a thin, white, delicate edition of his father; and Blanche contrived to combine great likeness to him with a great deal of prettiness. Of those that, as nurse said, favoured their mamma, Margaret was tall and blooming, with the same calm eyes, but with the brilliance of her father's smile; Flora had greater regularity of feature, and was fast becoming a very pretty girl, while Mary and Harry could not boast of much beauty, but were stout sturdy pictures of health; Harry's locks in masses of small tight yellow curls, much given to tangling and matting, unfit to be seen all the week, till nurse put him to torture every Saturday, by combing them out so as, at least, to make him for once, like, she said, a gentleman, instead of a young lion.</p>
 <p>Little Aubrey was said by his papa to be like nothing but the full moon. And there he shone on them, by his mamma's side, announcing in language few could understand, where he had been with papa.</p>
 <p>'He has been a small doctor,' said his father, beginning to cut the boiled beef as fast as if his hands had been moved by machinery. 'He has been with me to see old Mrs. Robins, and she made so much of him, that if I take you again you'll be regularly spoilt, young master.'</p>
@@ -260,13 +393,15 @@ papa!' cried Ethel, 'and then you would know how tiresome it is not to see twice
 <p>'In one way, yes,' said Mrs. May; 'but how do I know how long--' Calm as she was, she could not finish that sentence. 'No, Margaret, depend upon it, the only security is, not to think about ourselves at all, and not to fix our mind on any affection on earth. The least share of the Love above, is the fulness of all bless-
 <pb n="19 THE DAISY CHAIN."/>
 ing, and if we seek that first, all these things will be added unto us, and are,' she whispered more to herself than to Margaret.</p>
-<p>CHAPTER III.</p>
-<p>*'Wee modest crimson-tipped flower,</p>
-<p>Thou'st met me in an evil hour,</p>
-<p>For I maun crush amang the stoure</p>
-<p>Thy slender stem.</p>
-<p>To spare thee now is past my power,</p>
-<p>Thou bonnie gem.'--BURNS.*</p>
+</div>
+<div id="cy1daisy013" type="chapter" n="3">
+<head>CHAPTER III.</head>
+<epigraph><cit><q><lg type="stanza"><l>'Wee modest crimson-tipped flower,</l>
+<l>Thou'st met me in an evil hour,</l>
+<l>For I maun crush amang the stoure</l>
+<l>Thy slender stem.</l>
+<l>To spare thee now is past my power,</l>
+<l>Thou bonnie gem.'</l></lg></q><bibl>--BURNS.</bibl></cit></epigraph>
 <p>'Is this all the walking party?' exclaimed Mr. Ernescliffe, as Miss Winter, Flora, and Norman gathered in the hall.</p>
 <p>'Harry won't go because of Ethel's spectacles,' answered Flora; 'and Mary and he are inseparable, so they are gone with Hector to have a shipwreck in the field.'</p>
 <p>'And your other sisters?'</p>
@@ -280,17 +415,17 @@ ing, and if we seek that first, all these things will be added unto us, and are,
 <p>'But Mount Vesuvius didn't <hi rend="italic">spout </hi> till it overthrew Pompeii.'</p>
 <p>'Murder!' cried Norman, I forgot! It's lucky you put me in mind. I must make a fresh beginning. There go my six best lines! However, it was an uncanny place, fit for hob-goblins, and shades, and funny customers, which will do as well for my purpose. Ha! that's grand about its being so much better than the <hi rend="italic">vana gloria triumphalis </hi>--only take care of the scanning there--'</p>
 <pb n="20 THE DAISY CHAIN."/>
-<p>'If it was but English. Something like this:--</p>
-<p>*For what is equal to the fame</p>
-<p>Of forgetting self in the aim?*</p>
-<p>That's not right, but--'</p>
+<p>'If it was but English. Something like this:--
+<q><lg type="couplet"><l>For what is equal to the fame</l>
+<l>Of forgetting self in the aim?</l></lg></q>
+That's not right, but--'</p>
 <p>'Ethel, Norman, what are you about?' cried Flora. 'Do you mean to go to Cocksmoor to-day?'</p>
 <p>'Oh yes!' cried Ethel, flying into vehement activity; 'only I've lost my blue-edged handkerchief--Flora, have you seen it?'</p>
 <p>'No; but here is your red scarf.'</p>
-<p>'Thank you, there is a good Flora. And oh! I finished a frock all but two stitches. Where is it gone? Go on, all of you, I'll overtake you--</p>
-<p>*Purer than breath of earthly fame,</p>
-<p>Is losing self in a glorious aim.*</p>
-<p>Is that better, Norman?'</p>
+<p>'Thank you, there is a good Flora. And oh! I finished a frock all but two stitches. Where is it gone? Go on, all of you, I'll overtake you--
+<q><lg type="couplet"><l>Purer than breath of earthly fame,</l>
+<l>Is losing self in a glorious aim.</l></lg></q>
+Is that better, Norman?'</p>
 <p>'You'll drive us out of patience,' said Flora, tying the handkerchief round Ethel's throat, and pulling out the fingers of her gloves, which of course were inside out; 'are you ready?'</p>
 <p>'Oh, my frock! my frock! There 'tis--three stitches--go on, and I'll come,' said Ethel, seizing a needle, and sewing vehemently at a little pink frock. ' Go on, Miss Winter goes slowly up the hill, and I'll overtake you.'</p>
 <p>'Come, Norman, then; it is the only way to make her come at all.'</p>
@@ -329,8 +464,8 @@ be beat, Ethel--I never have been beat by any one, except by you, when you take 
 utterly careless of the fame of them; I say, that love of glory is a mighty spring.'</p>
 <p>'A mighty one!' said Alan; 'but I think, as far as I understand the question, that Ethel has the best of it.'</p>
 <p>'I don't mean that people should not serve the cause first of all,' said Norman, 'but let them have their right place and due honour.'</p>
-<p>'They had better make up their minds to do without it,' said Alan. 'Remember</p>
-<p>*"The world knows nothing of its greatest men."*</p>
+<p>'They had better make up their minds to do without it,' said Alan. 'Remember
+<q><l>"The world knows nothing of its greatest men."</l></q></p>
 <p>'Then it is a great shame,' said Norman.</p>
 <p>'But do you think it right,' said Ethel, 'to care for distinction? It is a great thing to earn it, but I don't think one should care for the outer glory.'</p>
 <p>'I believe it is a great temptation,' said Alan. 'The being over elated or over depressed by success or failure in the eyes of the world, independently of the exertion we have used--'</p>
@@ -459,14 +594,16 @@ employment; Norman sat with his elbow on his knee, and a very aching head restin
 <p>The nurse sent them all to bed, taking the two girls to their own room, undressing them, and never leaving them until Mary was in a fair way of crying herself to sleep--for saying her prayers had brought the tears; while Ethel lay so wide awake that it was of no use to wait for her, and then she went to the boys, tucked them each in, as when they were little children, and saying, 'Bless your dear hearts!' bestowed on each of them a kiss which came gratefully to Norman's burning brow, and which even Harry's boyish manliness could not resist.</p>
 <p>Flora was in Margaret's room, too useful to be spared.</p>
 <p>So ended that dreadful Saturday.</p>
-<p>CHAPTER IV.</p>
-<p>*'They may not mar the deep repose</p>
-<p>Of that immortal flower:</p>
-<p>Though only broken hearts are found</p>
-<p>To watch her cradle by,</p>
-<p>No blight is on her slumbers found,</p>
-<p>No touch of harmful eye.'</p>
-<p>LYRA INNOCENTIUM.*</p>
+</div>
+<div id="cy1daisy014" type="chapter" n="4">
+<head>CHAPTER IV.</head>
+<epigraph><cit><q><lg type="stanza"><l>'They may not mar the deep repose</l>
+<l>Of that immortal flower:</l>
+<l>Though only broken hearts are found</l>
+<l>To watch her cradle by,</l>
+<l>No blight is on her slumbers found,</l>
+<l>No touch of harmful eye.'</l></lg></q>
+<bibl>LYRA INNOCENTIUM.</bibl></cit></epigraph>
 <p>SUCH a strange sad Sunday! No going to Church, but all the poor children moving in awe and oppression about the house, speaking under their breath, as they gathered in the drawing-room. Into the study, they might not go, and when Blanche would have asked why, Tom pressed her hand and shuddered.</p>
 <p>Etheldred was allowed to come and look at Margaret, and even to sit in the room for a little while, to take the place of Miss Winter; but she was not sensible of sufficient usefulness to relieve the burden of fear and bewilderment in the presence of that still, pale form; and, what was almost worse, the sight of the familiar objects, the chair by the fire, the sofa, the books, the work-basket, the letter-case, the dressing things, all these were too oppressive. She sat crouched up, with her face hidden in her hands, and the instant she was released, hastened back to Norman. She was to tell him that he might go into the room, but he did not move, and Mary alone went in and out with messages.</p>
 <p>Dr. May was not to be visited, for he was in the same half-conscious state, apparently sensible only of bodily suffering, though
@@ -562,12 +699,15 @@ fashion was to collect all the Christenings for the month into one Sunday, excep
 <p>He looked as if he wished it; but said, 'No, I think not, better not rouse her,' and sighed heavily; then, as they stood round his bed, unwilling to go, he added 'Girls, we must learn carefulness and thoughtfulness. We have no one to take thought for us now.'</p>
 <p>Flora pressed the babe in her arms, Ethel's two reluctant tears stood on her cheeks, Mary exclaimed, 'I'll try not to be naughty;' and Blanche climbed up to kiss him, saying, 'I will be always good, papa.'</p>
 <p>'Daisy--papa's Daisy--your vows are made,' whispered Ethel, gaining sole possession of the babe for a minute, 'You have promised to be good and holy. We have the keeping of you, mamma's precious flower, her pearl of truth! Oh, may God guard you to be an unstained jewel, till you come back to her again--and a blooming flower, till you are gathered into the wreath that never fades--my own sweet poor little motherless Daisy!'</p>
-<p>CHAPTER V.</p>
-<p>*'Through lawless camp, through ocean wild,</p>
-<p>Her prophet eye pursues her child;</p>
-<p>Scans mournfully her poet's strain,</p>
-<p>Fears for her merchant, loss alike and gain.'</p>
-<p>LYRA INNOCENTIUM.*</p>
+</div>
+<div id="cy1daisy015" type="chapter" n="5">
+<head>CHAPTER V.</head>
+<epigraph><cit><q><lg type="stanza">
+<l>'Through lawless camp, through ocean wild,</l>
+<l>Her prophet eye pursues her child;</l>
+<l>Scans mournfully her poet's strain,</l>
+<l>Fears for her merchant, loss alike and gain.'</l></lg></q>
+<bibl>LYRA INNOCENTIUM.</bibl></cit></epigraph>
 <p>DR. MAY took the management of himself into his own hands, and paid so little attention to Mr. Ward's recommendations, that his sons and daughters were in continual dread of his choosing to do something that might cause injurious agitation.</p>
 <p>However, he did not attempt to go farther than Margaret's bedside, where he sat hour after hour, his eyes fixed upon her, as she continued in a state bordering on insensibility. He took little notice of anything else, and hardly spoke. There were heavy sighs now and then, but Richard and Flora, one or other of whom were
 <pb n="41 THE DAISY CHAIN."/>
@@ -652,23 +792,24 @@ of forwardness in coming down in this way after Mr. Ernescliffe. Ethel was very 
 <p>Flora took up her work, and began to consult with Richard, while Ethel moved to Norman's side, and kneeling so as to lean against his shoulder, as he sat on a low cushion, they read their mother's last letter, by the fire-light, with indescribable feelings, as
 <pb n="48 THE DAISY CHAIN."/>
 they went through the subjects that had lately occupied them, related by her who would never be among them again. After much of this kind, for her letters to Mrs. Arnott were almost journals, came,</p>
-<p>*this text is a letter, and continues intermittently onto page 49, the font needs to be smaller*'You say it is long since you had a portrait gallery of the chicken daisies, and if I do not write in these leisure days, you will hardly get it after I am in the midst of business again. The new Daisy is like Margaret at the same age--may she continue like her! Pretty creature, she can hardly be more charming than at present. Aubrey, the moon-faced, is far from reconciled to his deposition from babyhood; he is a sober, solemn gentleman, backward in talking, and with such a will of his own, as will want much watching; very different from Blanche, who is Flora over again, perhaps prettier, and more fairy-like, unless this is only one's admiration for the buds of the present season. None of them has ever been so winning as this little maid, who even attracts Dr. Hoxton himself, and obtains sugar-plums and kisses. "Rather she than I," says Harry, but notice is notice to the white Mayflower, and there is my anxiety--I am afraid it is not wholesome to be too engaging ever to get a rebuff. I hope having a younger sister, and outgrowing baby charms may be salutary. Flora soon left off thinking about her beauty, and the fit of vanity does less harm at five than fifteen. My poor Tom has not such a happy life as Blanche, he is often in trouble at lessons, and bullied by Harry at play, in spite of his champion, Mary; and yet I cannot interfere, for it is good for him to have all this preparatory teazing, before he goes into school. He has good abilities, but not much perseverance or energy, and I must take the teaching of him into my own hands till his school-days begin, in hopes of instilling them. The girlishness and timidity will be knocked out of him by the boys, I suppose; Harry is too kind and generous to do more than teaze him moderately, and Norman will see that it does not go too far. It is a common saying that Tom and Mary made a mistake, that he is the girl, and she the boy, for she is a rough, merry creature, the noisiest in the house, always skirmishing with Harry in defence of Tom, and yet devoted to him, and wanting to do everything he does. Those two, Harry and Mary, are exactly alike, except for Harry's curly mane of lion-coloured wig. The "yellow haired laddie" is papa's name for Harry, which he does not mind from him, though furious if the girls attempt to call him so. Harry is the thorough boy of the family, all spirit, recklessness, and mischief, but so true, and kind, and noble-hearted, that one loves him the better after every freely confessed scrape. I cannot tell you how grateful I am to my boy for his perfect confidence, the thing that chiefly lessens my anxiety for him in his half-school, half-home life, which does not seem to me to work quite well with him. There are two sons of Mrs. Anderson's at the school, who are more his friends than I like, and he is too easily led by the desire not to be outdone, and to show that he fears nothing. Lately, our sailor-guest has inspired him with a vehement wish to go to sea; I wish it was not necessary that the decision should be made so early in life, for this fault is just what would make us most fear to send him into the world very young, though in some ways it might not do amiss for him.</p>
-<p>So much for the younger bairns, whom you never beheld, dear Flora. The three whom you left, when people used to waste pity on me for their being all babies together, now look as if any pair of them were twins, for Norman is the tallest, almost outgrowing his strength, and Ethel's sharp face, so like her papa's, makes her look older than Flora. Norman and Ethel do indeed take after their papa, more than any of the others, and are much alike. There is the same brilliant cleverness, the same strong feeling, not easy of demonstration, though impetuous in action; but poor Ethel's old foibles, her harum-scarum nature, quick temper, uncouth manners, and heedlessness of all but one absorbing object, have kept her back, and caused her much discomfort; yet I sometimes think these manifest defects have occasioned a discipline that is the best thing for the character in the end. They are faults that show themselves, and which one can tell how to deal with, and I have full confidence that she has the principle within her that will conquer them.'</p>
+<q><p>'You say it is long since you had a portrait gallery of the chicken daisies, and if I do not write in these leisure days, you will hardly get it after I am in the midst of business again. The new Daisy is like Margaret at the same age--may she continue like her! Pretty creature, she can hardly be more charming than at present. Aubrey, the moon-faced, is far from reconciled to his deposition from babyhood; he is a sober, solemn gentleman, backward in talking, and with such a will of his own, as will want much watching; very different from Blanche, who is Flora over again, perhaps prettier, and more fairy-like, unless this is only one's admiration for the buds of the present season. None of them has ever been so winning as this little maid, who even attracts Dr. Hoxton himself, and obtains sugar-plums and kisses. "Rather she than I," says Harry, but notice is notice to the white Mayflower, and there is my anxiety--I am afraid it is not wholesome to be too engaging ever to get a rebuff. I hope having a younger sister, and outgrowing baby charms may be salutary. Flora soon left off thinking about her beauty, and the fit of vanity does less harm at five than fifteen. My poor Tom has not such a happy life as Blanche, he is often in trouble at lessons, and bullied by Harry at play, in spite of his champion, Mary; and yet I cannot interfere, for it is good for him to have all this preparatory teazing, before he goes into school. He has good abilities, but not much perseverance or energy, and I must take the teaching of him into my own hands till his school-days begin, in hopes of instilling them. The girlishness and timidity will be knocked out of him by the boys, I suppose; Harry is too kind and generous to do more than teaze him moderately, and Norman will see that it does not go too far. It is a common saying that Tom and Mary made a mistake, that he is the girl, and she the boy, for she is a rough, merry creature, the noisiest in the house, always skirmishing with Harry in defence of Tom, and yet devoted to him, and wanting to do everything he does. Those two, Harry and Mary, are exactly alike, except for Harry's curly mane of lion-coloured wig. The "yellow haired laddie" is papa's name for Harry, which he does not mind from him, though furious if the girls attempt to call him so. Harry is the thorough boy of the family, all spirit, recklessness, and mischief, but so true, and kind, and noble-hearted, that one loves him the better after every freely confessed scrape. I cannot tell you how grateful I am to my boy for his perfect confidence, the thing that chiefly lessens my anxiety for him in his half-school, half-home life, which does not seem to me to work quite well with him. There are two sons of Mrs. Anderson's at the school, who are more his friends than I like, and he is too easily led by the desire not to be outdone, and to show that he fears nothing. Lately, our sailor-guest has inspired him with a vehement wish to go to sea; I wish it was not necessary that the decision should be made so early in life, for this fault is just what would make us most fear to send him into the world very young, though in some ways it might not do amiss for him.</p>
+<p>So much for the younger bairns, whom you never beheld, dear Flora. The three whom you left, when people used to waste pity on me for their being all babies together, now look as if any pair of them were twins, for Norman is the tallest, almost outgrowing his strength, and Ethel's sharp face, so like her papa's, makes her look older than Flora. Norman and Ethel do indeed take after their papa, more than any of the others, and are much alike. There is the same brilliant cleverness, the same strong feeling, not easy of demonstration, though impetuous in action; but poor Ethel's old foibles, her harum-scarum nature, quick temper, uncouth manners, and heedlessness of all but one absorbing object, have kept her back, and caused her much discomfort; yet I sometimes think these manifest defects have occasioned a discipline that is the best thing for the character in the end. They are faults that show themselves, and which one can tell how to deal with, and I have full confidence that she has the principle within her that will conquer them.'</p></q>
 <pb n="49 THE DAISY CHAIN."/>
-<p>'If--' mournfully sighed Ethel; but her brother pointed on</p>
-<p>further.</p>
-<p>'My great hope is her entire indifference to praise--not approval, but praise. If she has not come up to her own standard, she works on, not always with good temper, but perseveringly, and entirely, unheeding of commendation till she has satisfied herself, only thinking it stupid not to see the faults. It is this independence of praise that I want to see in her brother and sister. They justly earn it, and are rightly pleased with it; but I cannot feel sure whether they do not depend on it too much. Norman lives, like all school-boys, a life of emulation, and has never met with anything but success. I do believe Dr. Hoxton and Mr. Wilmot are as proud of him as we are; and he has never shown any tendency to conceit, but I am afraid he has the love of being foremost, and pride in his superiority, caring for what he is, compared with others, rather than what he is himself.'</p>
+<p>'If--' mournfully sighed Ethel; but her brother pointed on further.</p>
+<q><p>'My great hope is her entire indifference to praise--not approval, but praise. If she has not come up to her own standard, she works on, not always with good temper, but perseveringly, and entirely, unheeding of commendation till she has satisfied herself, only thinking it stupid not to see the faults. It is this independence of praise that I want to see in her brother and sister. They justly earn it, and are rightly pleased with it; but I cannot feel sure whether they do not depend on it too much. Norman lives, like all school-boys, a life of emulation, and has never met with anything but success. I do believe Dr. Hoxton and Mr. Wilmot are as proud of him as we are; and he has never shown any tendency to conceit, but I am afraid he has the love of being foremost, and pride in his superiority, caring for what he is, compared with others, rather than what he is himself.'</p></q>
 <p>'I know,' said Norman; 'I have done so, but that's over. I see what it is worth. I'd give all the <hi rend="italic">quam optimes </hi> I ever got in my life to be the help Richard is to papa.'</p>
 <p>'You would if you were his age.'</p>
 <p>'Not I, I'm not the sort. I'm not like her. But are we to go on about the elders?'</p>
 <p>'Oh! yes, don't let us miss a word. There can't be anything but praise of them.'</p>
-<p>'Your sweet goddaughter. I almost feel as if I had spoken in disparagement of her, but I meant no such thing, dear girl. It would be hard to find a fault in her, since the childish love of admiration was subdued. She is so solid and steady, as to be very valuable with the younger ones, and is fast growing so lovely, that I wish you could behold her. I do not see any vanity, but there lies my dread, not of beauty-vanity, but that she will find temptation in the being everywhere liked and sought after. As to Margaret, my precious companion and friend, you have heard enough of her to know her, and, as to telling you what she is like, I could as soon set about describing her papa. When I thought of not being spared to them this time, it was happiness indeed to think of her at their head, fit to be his companion, with so much of his own talent as to be more up to conversation with him, than he could ever have found his stupid old Maggie. It was rather a trial of her discretion to have Mr. Ernescliffe here while I was up-stairs, and very well she seems to have come out of it. Poor Richard's last disappointment is still our chief trouble. He has been working hard with a tutor all through the vacation, and has not even come home to see his new sister, on his way to Oxford. He had made a resolution that he would not come to us, till he had passed, and his father thought it best that it should be kept. I hope he will succeed next time, but his nervousness renders it still more doubtful. With him it is the very reverse of Norman. He suffers too much for want of commendation, and I cannot wonder at it, when I see how much each failure vexes his father, and Richard little knows how precious is our perfect confidence in him, how much more valuable than any honours he could earn. You would be amused to see how little he is altered from the pretty little fair fellow, that you used to say, was so like my old portrait, even the wavy rings of light glossy hair sit on his forehead, just as you liked to twist them; and his small trim figure is a fine contrast to Norman's long legs and arms, which--'</p>
+<q><p>'Your sweet goddaughter. I almost feel as if I had spoken in disparagement of her, but I meant no such thing, dear girl. It would be hard to find a fault in her, since the childish love of admiration was subdued. She is so solid and steady, as to be very valuable with the younger ones, and is fast growing so lovely, that I wish you could behold her. I do not see any vanity, but there lies my dread, not of beauty-vanity, but that she will find temptation in the being everywhere liked and sought after. As to Margaret, my precious companion and friend, you have heard enough of her to know her, and, as to telling you what she is like, I could as soon set about describing her papa. When I thought of not being spared to them this time, it was happiness indeed to think of her at their head, fit to be his companion, with so much of his own talent as to be more up to conversation with him, than he could ever have found his stupid old Maggie. It was rather a trial of her discretion to have Mr. Ernescliffe here while I was up-stairs, and very well she seems to have come out of it. Poor Richard's last disappointment is still our chief trouble. He has been working hard with a tutor all through the vacation, and has not even come home to see his new sister, on his way to Oxford. He had made a resolution that he would not come to us, till he had passed, and his father thought it best that it should be kept. I hope he will succeed next time, but his nervousness renders it still more doubtful. With him it is the very reverse of Norman. He suffers too much for want of commendation, and I cannot wonder at it, when I see how much each failure vexes his father, and Richard little knows how precious is our perfect confidence in him, how much more valuable than any honours he could earn. You would be amused to see how little he is altered from the pretty little fair fellow, that you used to say, was so like my old portrait, even the wavy rings of light glossy hair sit on his forehead, just as you liked to twist them; and his small trim figure is a fine contrast to Norman's long legs and arms, which--'</p></q>
 <p>There the letter broke off, the playful affection of the last words making it almost more painful to think that the fond hand would never finish the sentence.</p>
+</div>
 <pb n="50 THE DAISY CHAIN."/>
-<p>CHAPTER VI.</p>
-*'A drooping daisy changed into a cup,</p>
-<p>In which her bright-eyed beauty is shut up.'</p>
-<p>WORDSWORTH.*</p>
+<div id="cy1daisy016" type="chapter" n="6">
+<head>CHAPTER VI.</head>
+<epigraph><cit><q><l>'A drooping daisy changed into a cup,</l>
+<l>In which her bright-eyed beauty is shut up.'</l></q>
+<bibl>WORDSWORTH.</bibl></cit></epigraph>
 <p>'So there you are up for the day--really you look very comfortable,' said Ethel, coming into the room where Margaret lay on her bed, half raised by pillows, supported by a wooden frame.</p>
 <p>'Yes, is not it a charming contrivance of Richard's? It quite gives me the use of my hands,' said Margaret.</p>
 <p>'I think he is doing something else for you,' said Ethel; 'I heard him carpentering at six o'clock this morning, but I suppose it is to be a secret.'</p>
@@ -809,10 +950,12 @@ you'll tear that crape. Here, let me help you. Don't you see, make it go in and 
 <p>Mary was happy to help, and Ethel was dressed and cheered by the time Dr. May came in, for a hurried visit and report of his doings; Flora followed on her way from her room. Then all went to tea, leaving Margaret to have a visit from the little ones under charge of nurse. Two hours' stay with her, that precious time when she knew that sad as the talk often was, it was truly a comfort to him. It ended when ten o'clock struck, and he went down--Margaret hearing the bell, the sounds of the assembling servants, the shutting of the door, the stillness of prayer time, the opening again, the feet moving off in different directions, then brothers and sisters coming in to kiss her and bid her good-night, nurse and Flora arranging her for the night, Flora coming to sleep in her little bed in the corner of the room, and, lastly, her father's tender good-night, and melancholy look at her, and all was quiet, except the low voices and movements as Richard attended him in his own room.</p>
 <p>Margaret could think: 'Dear, dear Ethel, how noble and high she is! But I am afraid! It is what people call a difficult, dangerous age, and the grander she is, the greater danger of not managing her rightly. If those high purposes should run only into romance like mine, or grow out into eccentricities and unfemininesses, what a grievous pity it would be! And I, so little older, so much less clever, with just sympathy enough not to be a wise restraint--I am the person who has the responsibility, and oh, what shall I do? Mamma trusted to me to be a mother to them, papa looks to me, and I so unfit, besides this helplessness. But God sent it, and put me in my place. He made me lie here, and will raise me up if it is good, so I trust He will help me with my sisters.'</p>
 <p>'Grant me to have a right judgment in all things, and evermore to rejoice in Thy holy comfort.'</p>
+</div>
 <pb n="60 THE DAISY CHAIN."/>
-<p>CHAPTER VII.</p>
-<p>*'Something between a hindrance and a help.'</p>
-<p>WORDSWORTH.*</p>
+<div id="cy1daisy017" type="chapter" n="7">
+<head>CHAPTER VII.</head>
+<epigraph><cit><q><l>'Something between a hindrance and a help.'</l></q>
+<bibl>WORDSWORTH.</bibl></cit></epigraph>
 <p>ETHELDRED awoke long before time for getting up, and lay pondering over her visions. Margaret had sympathized, and therefore they did not seem entirely aerial. To earn money by writing was her favourite plan, and she called her various romances in turn before her memory, to judge which might be brought down to sober pen and ink. She considered till it became not too unreasonably early to get up. It was dark, but there was a little light close to the window: she had no writing-paper, but she would interline her old exercise-book. Down she ran, and crouching in the school-room window-seat, she wrote on in a trance of eager composition, till Norman called her, as he went to school, to help him to find a book.</p>
 <p>This done, she went up to visit Margaret, to tell her the story, and consult her. But this was not so easy. She found Margaret with little Daisy lying by her, and Tom sitting by the fire over his Latin.</p>
 <p>'O, Ethel, good morning, dear! you are come just in time.'</p>
@@ -853,16 +996,16 @@ Margaret's pulse, asked her a few questions, and talked to the baby. Ethel longe
 <pb n="63 THE DAISY CHAIN."/>
 ment, and had no time to eat. There was a general outcry, that it was bad enough when he was well, and now he must not take liberties; Flora made him drink some tea; and Richard placed morsels in his way, while he read his letters. He ran up for a final look at Margaret, almost upset the staid Miss Winter as he ran down again, called Richard to take the reins, and was off.</p>
 <p>It was French day, always a trial to Ethel. M. Ballompr&eacute;, the master, knew what was good and bad French, but could not render a reason, and Ethel, being versed in the principles of grammar, from her Latin studies, chose to know the why and wherefore of his corrections--she did not like to see her pages defaced, and have no security against future errors; while he thought her a troublesome pupil, and was put out by her questions. They wrangled, Miss Winter was displeased, and Ethel felt injured.</p>
-<p>Mary's inability to catch the pronunciation, and her hopeless dull look when she found that <hi rend=italic>c&oelig;ur</hi> must not be pronounced <hi rend=italic>cour</hi>, nor <hi rend=italic>cur</hi>, but something between, to which her rosy English lips could never come--all this did not tease M. Ballompr&eacute;, for he was used to it.</p>
-<p>His mark for Ethel's lesson was '<hi rend=italic>de l'humeur</hi>.'</p>
+<p>Mary's inability to catch the pronunciation, and her hopeless dull look when she found that <hi rend="italic">c&oelig;ur</hi> must not be pronounced <hi rend="italic">cour</hi>, nor <hi rend="italic">cur</hi>, but something between, to which her rosy English lips could never come--all this did not tease M. Ballompr&eacute;, for he was used to it.</p>
+<p>His mark for Ethel's lesson was '<hi rend="italic">de l'humeur</hi>.'</p>
 <p>' I am sorry,' said Miss Winter, when he was gone. 'I thought you had outgrown that habit of disputing over every phrase.'</p>
 <p>' I can't tell how a language is to be learnt without knowing the reasons of one's mistakes,' said Ethel.</p>
 <p>' That is what you always say, my dear. It is of no use to renew it all, but I wish you would control yourself. Now, Mary, call Blanche, and you and Ethel take your arithmetic.'</p>
 <p>So Flora went to read to Margaret, while Blanche went lightly and playfully through her easy lessons, and Mary floundered piteously over the difficulties of Compound Long Division. Ethel's mind was in too irritated and tumultuous a state for her to derive her usual solace from Cube Root. Her sum was wrong, and she wanted to work it right, but Miss Winter, who had little liking for the higher branches of arithmetic, said she had spent time enough over it, and summoned her to an examination such as the governess was very fond of and often practised. Ethel thought it useless, and was teased by it; and though her answers were chiefly correct, they were given in an irritated tone. It was of this kind:--</p>
-<p>*What is the date of the invention of paper?</p>
+<q><p>What is the date of the invention of paper?</p>
 <p>What is the latitude and longitude of Otaheite?</p>
 <p>What are the component parts of brass?</p>
-<p>Whence is cochineal imported?*</p>
+<p>Whence is cochineal imported?</p></q>
 <p>When this was over, Ethel had to fetch her mending-basket, and Mary her book of selections; the piece for to-day's lesson was the quarrel of Brutus and Cassius; and Mary's dull droning tone was a
 <pb n="64 THE DAISY CHAIN."/>
 trial to her ears; she presently exclaimed, 'O Mary, don't murder it!'</p>
@@ -870,9 +1013,9 @@ trial to her ears; she presently exclaimed, 'O Mary, don't murder it!'</p>
 <p>'That use of exaggerated language,'--began Miss Winter.</p>
 <p>'I've heard Papa say it,' said Ethel, only wanting to silence Miss Winter. In a cooler moment, she would not have used the argument.</p>
 <p>'All that a gentleman may say, may not be a precedent for a young lady; but you are interrupting Mary.'</p>
-<p>*'Only let me show her. I can't bear to hear her, listen, Mary.</p>
-<p>'"What shall one of us</p>
-<p>That struck the foremost"'--*</p>
+<p>'Only let me show her. I can't bear to hear her, listen, Mary.
+<q><l>'"What shall one of us</l>
+<l>That struck the foremost"'--</l></q></p>
 <p>'That is declaiming,' said Miss Winter. 'It is not what we wish for in a lady. You are neglecting your work and interfering.'</p>
 <p>Ethel made a fretful contortion, and obeyed. So it went on all the morning, Ethel's eagerness checked by Miss Winter's dry manner, producing pettishness, till Ethel, in a state between self-reproach and a sense of injustice, went up to prepare for dinner, and to visit Margaret on the way.</p>
 <p>She found her sister picking a merino frock to pieces. 'See here,' she said eagerly, 'I thought you would like to make up this old frock for one of the Cocksmoor children; but what is the matter?' as Ethel did not show the lively interest that she expected.</p>
@@ -960,14 +1103,17 @@ step if you will only put your shoes side by side when you take them off.'</p>
 <p>'I do mean to try, papa.'</p>
 <p>'Yes, you must, Ethel. I believe I was hasty with you, my poor girl. I was vexed, and we have no one to smooth us down. I am sorry, my dear, but you must bear with me, for I never learnt <hi rend="italic">her</hi> ways with you when I might. We will try to have more patience with each other.'</p>
 <p>What could Ethel do but hang round his neck and cry, till he said, but tenderly, that they had given Margaret quite disturbance enough to-day, and sent her to bed, vowing to watch each little action, lest she should again give pain to such a father and sister.</p>
-<p>CHAPTER VIII.</p>
-<p>*"Tis not enough that Greek or Roman page</p>
-<p>At stated hours, his freakish thoughts engage,</p>
-<p>Even in his pastimes he requires a friend</p>
-<p>To warn and teach him safely to unbend,</p>
-<p>O'er all his pleasures gently to preside,</p>
-<p>Watch his emotions, and control their tide.'</p>
-<p>COWPER.*</p>
+</div>
+<div id="cy1daisy012" type="chapter" n="2">
+<head>CHAPTER VIII.</head>
+<epigraph><cit><q><lg type="stanza">
+<l>"Tis not enough that Greek or Roman page</l>
+<l>At stated hours, his freakish thoughts engage,</l>
+<l>Even in his pastimes he requires a friend</l>
+<l>To warn and teach him safely to unbend,</l>
+<l>O'er all his pleasures gently to preside,</l>
+<l>Watch his emotions, and control their tide.'</l></lg></q>
+<bibl>COWPER.</bibl></cit></epigraph>
 <p>THE misfortunes of that day disheartened and disconcerted Etheldred. To do mischief where she most wished to do good, to grieve where she longed to comfort, seemed to be her fate; it was vain to attempt any thing for any one's good, while all her warm feelings and high aspirations were thwarted by the awkward ungainly hands, and heedless eyes that Nature had given her. Nor did the following
 <pb n="70 THE DAISY CHAIN."/>
 day, Saturday, do much for her comfort, by giving her the company of her brothers. That it was Norman's sixteenth birth-day seemed only to make it worse. Their father had apparently forgotten it, and Norman stopped Blanche, when she was going to put him in mind of it; stopped her by such a look as the child never forgot, though there was no anger in it. In reply to Ethel's inquiry what he was going to do that morning, he gave a yawn and stretch, and said, dejectedly, that he had got some Euripides to look over, and some verses to finish.</p>
@@ -1127,16 +1273,19 @@ her harsh speech about a poor ignorant woman, overwhelmed with poverty, children
 <p>'And I know what she will say,' said Ethel. 'O I am so glad,' and she jumped over three puddles in succession.</p>
 <p>'And, Ethel, you must learn to keep your frock out of the dirt.'</p>
 <p>'I'll do anything, if you'll help me at Cocksmoor.'</p>
-<p>CHAPTER IX.</p>
-<p>*'For the structure that we raise,</p>
-<p>Time is with materials filled;</p>
-<p>Our to-days and yesterdays,</p>
-<p>Are the blocks with which we build.</p>
-<p>Truly shape and fashion these,</p>
-<p>Leave no yawning gaps between;</p>
-<p>Think not, because no man sees,</p>
-<p>Such things will remain unseen.'--</p>
-<p>LONGFELLOW.*</p>
+</div>
+<div id="cy1daisy012" type="chapter" n="2">
+<head>CHAPTER IX.</head>
+<epigraph><cit><q><lg type="stanza">
+<l>'For the structure that we raise,</l>
+<l>Time is with materials filled;</l>
+<l>Our to-days and yesterdays,</l>
+<l>Are the blocks with which we build.</l></lg>
+<lg type="stanza"><l>Truly shape and fashion these,</l>
+<l>Leave no yawning gaps between;</l>
+<l>Think not, because no man sees,</l>
+<l>Such things will remain unseen.'--</l></lg></q>
+<bibl>LONGFELLOW.</bibl></cit></epigraph>
 <p>WHEN Ethel came home, burning with the tidings of the newly-excited hopes for Cocksmoor, they were at once stopped by Margaret eagerly saying, 'Is Richard come in? pray call him;' then on his
 <pb n="81 THE DAISY CHAIN."/>
 entrance, 'O, Richard, would you be so kind as to take this to the Bank. I don't like to send it by any one else-it is so much;' and she took from under her pillows a velvet bag, so heavy, that it weighed down her slender white hand.</p>
@@ -1156,7 +1305,10 @@ entrance, 'O, Richard, would you be so kind as to take this to the Bank. I don't
 <p>'Well,' said he, 'I was just too late. He died as I got there, and I could not leave the daughter till old Mrs. Bowers came.'</p>
 <p>'Poor thing,' said Margaret. 'He was a good old man.'</p>
 <p>'Yes,' said Dr. May, sitting wearily down, and speaking in a worn-out voice. 'One can't lightly part with a man one has seen at Church every Sunday of one's life, and exchanged so many friendly words with over his counter. 'Tis a strong bond of neighbourliness in a small place like this, and, as one grows old, changes come heavier--"the clouds return again after the rain." Thank you, my dear,' as Ethel fetched his slippers, and placed a stool for his feet, feeling somewhat ashamed of thinking it an achievement to have, unbidden, performed a small act of attention which would have come naturally from any of the others.</p>
-<p>'Papa, you will give me the treat of drinking tea with me?' said Margaret, who saw the quiet of her room would suit him better than the bustle of the children down stairs. 'Thank you,' as he gave a smile of assent.</p>
+<p>'Papa, you will give me the treat of drinking tea with me?' said
+Margaret, who saw the quiet of her room would suit him better than the
+bustle of the children down stairs. 'Thank you,' as he gave a smile of
+assent.</p>
 <p>That Margaret could not be made to listen this evening was plain, and all that Ethel could do, was to search for some books on schools. In seeking for them, she displayed such confusion in the chiffoniere, that Flora exclaimed, 'Oh, Ethel, how could you leave it so?'</p>
 <p>'I was in a hurry, looking for something for Norman. I'll set it to rights,' said Ethel, gulping down her dislike to being reproved by Flora, with the thought that mamma would have said the same.</p>
 <p>'My dear!' cried Flora presently, jumping up, 'what are you doing? piling up those heavy books on the top of the little ones; how do you think they will ever stand? let me do it.'</p>
@@ -1175,7 +1327,7 @@ and setting-to-rights, sorting magazines, burning old catalogues, and finding he
 <p>'I'll tell you why I proposed it,' said Margaret. 'I think it would be a relief to Ethel to escape from Miss Winter's beloved Friday questions.'</p>
 <p>'Great nonsense they are,' said Flora. 'Why don't you tell Miss Winter they are of no use?'</p>
 <p>'Mamma never interfered with them,' said Margaret. 'She only kept Ethel in her own hands, and if you would be so kind as to
-<pb n="84 THE DAISY CHAIN.">
+<pb n="84 THE DAISY CHAIN."/>
 change sometimes and sit in the school-room, we could spare Ethel, without hurting Miss Winter's feelings.'</p>
 <p>'Well, I'll call Ethel, if you like, but I shall go and practise in the drawing-room. The old school-room piano is fit for nothing but Mary to hammer upon.'</p>
 <p>Flora went away, evidently annoyed, and Margaret's conjectures on the cause of it, were cut short, by Ethel running in with a slate in one hand, and two books in the other, the rest having all tumbled down on the stairs.</p>
@@ -1313,16 +1465,18 @@ speak; was this the moment? and he stood gazing at the fire, oppressed with the 
 <p>'And when the roving spirit once lays hold of a lad, he must have his way--he is good for nothing else,' said Dr. May.</p>
 <p>'I suppose a man may keep from evil in that profession, as well as in any other,' said Margaret.</p>
 <p>'Aha! you are bit too, are you?' said the Doctor; 'tis the husbandman and viper, is it? Then his smile turned into a heavy sigh,
-<pb n=" THE DAISY CHAIN.94"/>
+<pb n="94 THE DAISY CHAIN."/>
 as he saw he had brought colour to Margaret's pale cheek,' but she answered calmly, 'Dear mamma did not think it would be a bad thing for him.'</p>
 <p>'I know,' said the Doctor, pausing; 'but it never came to this with her.'</p>
 <p>'I wish he had chosen something else; but'--and Margaret thought it right to lay before her father some part of what he had said of the temptations of the school at Stoneborough. The Doctor listened and considered; at last he rose, and said, 'Well, I'll set Ritchie to write to Ernescliffe, and hear what he says. What must be, must be. 'Tis only asking me to give up the boy, that's all;' and as he left the room, his daughter again heard his sigh and half-uttered words, 'O Maggie, Maggie.'</p>
-<p>CHAPTER X.</p>
-<p>*'A tale</p>
-<p>Would rouse adventurous courage in a boy,</p>
-<p>And make him long to be a mariner,</p>
-<p>That he might rove the main.'</p>
-<p>SOUTIEY.*</p>
+</div>
+<div id="cy1daisy020" type="chapter" n="10">
+<head>CHAPTER X.</head>
+<epigraph><cit><q><lg type="stanza"><l>'A </l>
+<l>Would rouse adventurous courage in a boy,</l>
+<l>And make him long to be a mariner,</l>
+<l>That he might rove the main.'</l></lg></q>
+<bibl>SOUTHEY.</bibl></cit></epigraph>
 <p>ETHELDRED had the satisfaction of seeing the Taylors at school on Sunday, but no Halls made their appearance, and, on inquiry, she was told, 'Please ma'am, they said they would not come;' so Ethel condemned Granny Hall as 'a horrid, vile, false, hypocritical old creature! It was no use having any thing more to do with her.'</p>
 <p>'Very well,' said Richard; 'then I need not speak to my father.'</p>
 <p>'Ritchie now! you know I meant no such thing!'</p>
@@ -1403,19 +1557,21 @@ there was something rising up in their throats at the thought that they had very
 <p>Ethel could answer with dignity, but her heart sank at the aspect of what she had undertaken. She knew there would be evil, but she had expected it in a more striking and less disagreeable form.</p>
 <p>That walk certainly made her less impatient, though it did not relax her determination, nor the guard over her lion and bear, which her own good feeling, aided by Margaret's counsel, showed her were the greatest hindrances to her doing anything good and great.</p>
 <p>Though she was obliged to set to work so many principles and
-<pb n="100 THE DAISY CHAIN."/>
+<pb n="100 HE DAISY CHAIN."/>
 reflections to induce herself to wipe a pen, or to sit straight on her chair, that it was like winding up a steam-engine to thread a needle; yet the work was being done--she was struggling with her faults, humbled by them, watching them, and overcoming them.</p>
 <p>Flora, meanwhile, was sitting calmly down in the contemplation of the unexpected services she had rendered, confident that her character for energy and excellence was established, believing it herself, and looking back on her childish vanity and love of domineering as long past and conquered. She thought her grown-up character had begun, and was too secure to examine it closely.</p>
-<p>CHAPTER XI.</p>
-<p>*One thing is wanting in the beamy cup</p>
-<p>Of my young life! one thing to be poured in;</p>
-<p>Aye, and one thing is wanting to fill up</p>
-<p>The measure of proud joy, and make it sin.'</p>
-<p>F. W. F.*</p>
+</div>
+<div id="cy1daisy021" type="chapter" n="11">
+<head>CHAPTER XI.</head>
+<epigraph><cit><q><lg type="stanza"><l>One thing is wanting in the beamy cup</l>
+<l>Of my young life! one thing to be poured in;</l>
+<l>Aye, and one thing is wanting to fill up</l>
+<l>The measure of proud joy, and make it sin.'</l></lg></q>
+<bibl>F. W. F.</bibl></cit></epigraph>
 <p>HOPES that Dr. May would ever have his mind free, seemed as fallacious as mamma's old promise to Margaret, to make doll's clothes for her whenever there should be no live dolls to be worked for in the nursery.</p>
 <p>Richard and Ethel themselves had their thoughts otherwise engrossed. The last week before the holidays was an important one. There was an examination, by which the standing of the boys in the school was determined, and this time it was of more than ordinary importance, as the Randall scholarship of &pound;100 a year for three years would be open in the summer to the competition of the first six boys. Richard had never come within six of the top, but had been past at every examination by younger boys, till his father could bear it no longer; and now Norman was too young to be likely to have much chance of being of the number. There were eight decidedly his seniors, and Harvey Anderson, a small, quick-witted boy, half a year older, who had entered school at the same time, and had always been one step below him, had, in the last three months, gained fast upon him.</p>
 <p>Harry, however, meant Norman to be one of the six, and declared all the fellows thought he would be, except Anderson's party. Mr. Wilmot, in a call on Ethel and Flora, told them that he thought their brother had a fair chance, but he feared he was over-working himself, and should tell the Doctor so, whenever he could catch him; but this was difficult, as there was a great deal of illness just then, and he was less at home than usual.</p>
-<pb n="101 THE DAISY CHAIN.">
+<pb n="101 THE DAISY CHAIN."/>
 <p>All this excited the home party, but Norman only seemed annoyed by talk about it, and though always with a book in his hand, was so dreamy and listless, that Flora declared there was no fear of his doing too much--she thought he would fail for want of trying.</p>
 <p>'I mean to try,' said Norman; 'say no more about it, pray.'</p>
 <p>The great day was the 20th of December, and Ethel ran out, as the boys went to school, to judge of Norman's looks, which were not promising. 'No wonder,' said Harry, since he had stayed up doing Euripides and Cicero the whole length of a candle that had been new at bed-time. 'But never mind, Ethel, if he only beats Anderson, I don't care for anything else.'</p>
@@ -1477,9 +1633,9 @@ boy, had followed the politics of the Whichcote foundation year by year all his 
 <p>Norman himself was asleep when Harry went to give this narration. He came down late, and his father rose to meet him as he entered. 'My boy,' he said, 'I had not expected this of you. Well done, Norman!' and the whole tone and gesture had a heartfelt approval and joy in them, that Ethel knew her brother was deeply thrilled by, for his colour deepened, and his lips quivered into something like a smile, though he did not lift his eyes.</p>
 <p>Then came Richard's warm greeting and congratulation, he, too, showing himself as delighted as if the honours were his own; and then Dr. May again, in lively tones, like old times, laughing at Norman for sleeping late, and still not looking well awake, asking him if he was quite sure it was not all a dream.</p>
 <p>'Well, said Norman, 'I should think it was, if it were not that you all believe it.'</p>
-<p>'Harry had better go to sleep next,' said Dr. May, 'and see what dreaming will make him. If it makes Dux of Norman, who knows but it may make Drakes of him? Ha! Ethel--</p>
-<p>*'O, give us for our Kings such Queens,</p>
-<p>And for our Ducks such Drakes.'*</p>
+<p>'Harry had better go to sleep next,' said Dr. May, 'and see what dreaming will make him. If it makes Dux of Norman, who knows but it may make Drakes of him? Ha! Ethel--
+<q><l>'O, give us for our Kings such Queens,</l>
+<l>And for our Ducks such Drakes.'</l></q></p>
 <p>There had not been such a merry breakfast for months. There was the old confusion of voices; the boys, Richard, and the Doctor had much to talk over of the school doings of this week, and there was nearly as much laughing as in days past. Ethel wondered whether anyone but herself observed that the voice most seldom heard was Norman's.</p>
 <p>The promised call was made by Dr. Hoxton, and Mr. Everard, an old friend, and after their departure Dr. May came to Margaret's room with fresh accounts, corroborating what Harry had said of the clear knowledge and brilliant talent that Norman had displayed, to a degree that surprised his masters, almost as much as the examiners. The copy of verses Dr. May brought with him, and construed them to Margaret, commenting all the way on their ease, and the fulness of thought, certainly remarkable in a boy of sixteen.</p>
 <p>They were then resigned to Ethel's keeping, and she could not help imparting her admiration to their author, with some apology for vexing him again.</p>
@@ -1535,14 +1691,16 @@ harassed and overworked; if we had wanted to occasion brain fever we could not h
 <p>'No, no, certainly not. Don't say a word of this to him. I shall find Harry, and ask about these disturbed nights, and then watch him, trusting it may not have gone too far; but there must be dreadful excitability of brain!'</p>
 <p>He went away, leaving Margaret to comfort Ethel as well as she could, by showing her that he had not said the mischief was done, putting her in mind that he was wont to speak strongly; and trying to make her thankful that her brother would now have such care as might avert all evil results.</p>
 <p>'But, oh,' said Ethel, 'his success has been dearly purchased!'</p>
-<p>CHAPTER XII.</p>
-<p>*'It hath do me mochil woe.'</p>
-<p>'Yea hath it? Use,' quod he, 'this medicine;</p>
-<p>Every daie this Maie or that thou dine,</p>
-<p>Go lokin in upon the freshe daisie,</p>
-<p>And though thou be for woe in poinct to die,</p>
-<p>That shall full gretly lessen thee of thy pine.'</p>
-<p>CHAUCER.*</p>
+</div>
+<div id="cy1daisy022" type="chapter" n="12">
+<head>CHAPTER XII.</head>
+<epigraph><cit><q><l>'It hath do me mochil woe.'</l>
+<l>'Yea hath it? Use,' quod he, 'this medicine;</l>
+<l>Every daie this Maie or that thou dine,</l>
+<l>Go lokin in upon the freshe daisie,</l>
+<l>And though thou be for woe in poinct to die,</l>
+<l>That shall full gretly lessen thee of thy pine.'</l></q>
+<bibl>CHAUCER.</bibl></cit></epigraph>
 <p>THAT night Norman started from, what was not so much sleep, as a trance of oppression and suffering, and beheld his father's face watching him attentively.</p>
 <p>'Papa! What's the matter?' said he, starting up. 'Is anyone ill?'</p>
 <p>'No; no one, lie down again,' said Dr. May, possessing himself of a hand, with a burning spot in the palm, and a throbbing pulse.</p>
@@ -1662,20 +1820,22 @@ house close by, in the hollow behind us, there's a girl recovering from a fever.
 <p>'At least if Cheviot and Forder do, for they ought. I only hope Anderson won't. I can stand anything but that. But that is non-sense too.'</p>
 <p>'You are quite right, Norman,' said the Doctor, 'and it is a great relief to me that you see the thing so sensibly.'</p>
 <p>'No, I don't see it sensibly at all, papa. I hate it all the time, and I don't know whether I can keep from thinking of it, when I have nothing to do; but I see it is wrong; I thought all ambition and nonsense was gone out of me, when I cared so little for the examination; but now I see, though I did not want to be made first, I can't bear not to be first; and that's the old story, just as she used to tell me to guard against ambition. So I'll take my chance, and if I should get put down, why 'twas not fair that I should be put up, and it is what I ought to be, and serves me right into the bargain--'</p>
-<pb n="118 THE DAISY CHAIN.">
+<pb n="118 THE DAISY CHAIN."/>
 <p>'Well, that's the best sort of sense, your mother's sense,' said the Doctor, more affected than he liked to show. 'No wonder she came to you in your dream, Norman, my boy, if you had come to such a resolution. I was half in hopes you had some such notion when I came upon you, on Far-view down.'</p>
 <p>'I think that sky did it,' said Norman, in a low voice; 'it made me think of her in a different way--and what you said too.'</p>
 <p>'What did I say? I dont remember.'</p>
 <p>But Norman could not repeat the words, and only murmured 'golden hills'--It was enough.</p>
 <p>'I see,' said the Doctor, 'you had dwelt on the blank here, not taken home what it is to her.'</p>
 <p>'Aye'--almost sobbed Norman, 'I never could before--that made me,' after a long silence, 'and then I know how foolish I was, and how she would say it was wrong to make this fuss, when you did not like it, about my place, and that it was not for the sake of my duty, but of ambition; I knew that, but till I went to bed to-night, I could not tell whether I could make up my mind, so I would say nothing.</p>
-<p>CHAPTER XIII.</p>
-<p>*'The days are sad, it is the Holy tide,</p>
-<p>When flowers have ceased to blow and birds to sing.'</p>
-<p>F. TENNYSON.*</p>
+</div>
+<div id="cy1daisy023" type="chapter" n="13">
+<head>CHAPTER XIII.</head>
+<epigraph><cit><q><l>'The days are sad, it is the Holy tide,</l>
+<l>When flowers have ceased to blow and birds to sing.'</l></q>
+<bibl>F. TENNYSON.</bibl></cit></epigraph>
 <p>IT had been a hard struggle to give up all thoughts of study, and Norman was not at first rewarded for it, but rather exemplified the truth of his own assertion, that he was worse without it; for when this sole occupation for his mind was taken away, he drooped still more. He would willingly have shown his father that he was not discontented, but he was too entirely unnerved to be either cheerful or capable of entering with interest into any occupation. If he had been positively ill, the task would have been easier, but the low intermittent fever that hung about him, did not confine him to bed, only kept him lounging, listless and forlorn, through the weary day, not always able to go out with his father, and on Christmas-Day unfit even for Church.</p>
 <p>All this made the want of his mother, and the vacancy in his home, still more evident, and nothing was capable of relieving his sadness but his father's kindness, which was a continual
-<pb n="119 THE DAISY CHAIN.">
+<pb n="119 THE DAISY CHAIN."/>
 surprise to him. Dr. May was a parent who could not fail to be loved and honoured; but, as a busy man, trusting all at home to his wife, he had only appeared to his children either as a merry playfellow, or as a stern paternal authority, not often in the intermediate light of guiding friend, or gentle guardian; and it affected Norman exceedingly to find himself, a tall school-boy, watched and soothed with motherly tenderness and affection; with complete comprehension of his feelings, and delicate care of them. His father's solicitude and sympathy were round him day and night, and this, in the midst of so much toil, pain, grief, and anxiety of his own, that Norman might well feel overwhelmed with the swelling, inexpressible feelings of grateful affection.</p>
 <p>How could his father know exactly what he would like--say the very things he was thinking--see that his depression was not wilful repining--find exactly what best soothed him! He wondered, but he could not have said so to anyone, only his eye brightened, and, as his sisters remarked, he never seemed half so uncomfortable when papa was in the room. Indeed, the certainty that his father felt the sorrow as acutely as himself, was one reason of his opening to him. He could not feel that his brothers and sisters did so, for, outwardly, their habits were unaltered, their spirits not lowered, their relish for things around much the same as before, and this had given Norman a sense of isolation. With his father it was different. Norman knew he could never appreciate what the bereavement was to him--he saw its traces in almost every word and look, and yet perceived that something sustained and consoled him, though not in the way of forgetfulness. Now and then Norman caught at what gave this comfort, and it might be hoped he would do so increasingly; though, on this Christmas-Day, Margaret felt very sad about him, as she watched him sitting over the fire, cowering with chilliness and headache, while everyone was gone to Church, and saw that the reading of the service with her had been more of a trouble than a solace.</p>
 <p>She tried to think it bodily ailment, and strove hard not to pine for her mother, to comfort them both, and say the fond words of refreshing cheering pity that would have made all light to bear. Margaret's home Christmas was so spent in caring for brother, father, and children, that she had hardly time to dwell on the sad change that had befallen herself.</p>
@@ -1714,7 +1874,7 @@ Norman is very busy too; it is quite the fashion for boys not to be idle now.'</
 <p>'Richard thinks it might drive them away to insist at first,' said Ethel; 'we will try to bring it about in time.'</p>
 <p>'Well, Mrs. Ledwich is nearly resolved to insist, so you had better be warned, Ethel. She cannot suffer such untidiness and rags to spoil the appearance of the school, and, I assure you, it is quite unpleasant to the teachers.'</p>
 <p>'I wish they would give them all to me!' said Ethel. 'But I do hope Mrs. Ledwich will have patience with them, for they are only to be gained gently.'</p>
-<p>The visitors took their leave, and the two sisters began exclaiming--Ethel at their dislike of her <hi rend="italic">prot&eacute;g&eacute;s<hi rend="italic">, and Flora at what they
+<p>The visitors took their leave, and the two sisters began exclaiming--Ethel at their dislike of her <hi rend="italic">prot&eacute;g&eacute;s</hi>, and Flora at what they
 <pb n="122 THE DAISY CHAIN."/>
 had said of Norman. 'And you, Ethel, how could you go and tell them we were surprised, and Norman thought it was hard on the other boys? They'll have it all over the town that he got it unjustly, and knows it, as they say already it was partiality of Mr. Everard's.</p>
 <p>'O no, no, they never can be so bad!' cried Ethel; 'they must have understood better that it was his noble humility and generosity.'</p>
@@ -1793,14 +1953,14 @@ what would not go down with papa, he did not honestly stand up to the point, and
 <p>'Yes, but his pulse is better to-night. He was lying awake to hear what Fleet thought of me. I suppose Richard told you.'</p>
 <p>'Yes, dear papa, what a comfort it is!'</p>
 <p>'Those fellows in London do keep up to the mark! But I would not be there for something. I never saw a man so altered. However, if he can only do for you as well--but it is of no use talking about it. I may trust you to keep yourself calm, my dear?'</p>
-<p>'I am trying--indeed I am, dear papa. If you could help being anxious for me--though I know it is worse for you, for I only have to lie still, and you have to settle for me. But I have been thinking how well off I am, able to enjoy so much, and be employed all day long. It is nothing to compare with that poor girl you told me of, and you need not be unhappy for me. I have some verses to say over to myself to-night:</p>
-<p>*"O Lord my God, do Thou Thy holy will,</p>
-<p>I will lie still,</p>
-<p>I will not stir, lest I forsake Thine arm</p>
-<p>And break the charm</p>
-<p>That lulls me, clinging to my Father's breast</p>
-<p>In perfect rest."*</p>
-<p>Is not that comfortable?'</p>
+<p>'I am trying--indeed I am, dear papa. If you could help being anxious for me--though I know it is worse for you, for I only have to lie still, and you have to settle for me. But I have been thinking how well off I am, able to enjoy so much, and be employed all day long. It is nothing to compare with that poor girl you told me of, and you need not be unhappy for me. I have some verses to say over to myself to-night:
+<q><lg type="stanza"><l>"O Lord my God, do Thou Thy holy will,</l>
+<l>I will lie still,</l>
+<l>I will not stir, lest I forsake Thine arm</l>
+<l>And break the charm</l>
+<l>That lulls me, clinging to my Father's breast</l>
+<l>In perfect rest."</l></lg></q>
+Is not that comfortable?'</p>
 <pb n="127 THE DAISY CHAIN."/>
 <p>'My child--my dear child--I will say no more, lest I should break your sweet peace with my impatience. I will strive for the same temper, my Margaret. Bless you, dearest, good-night.'</p>
 <p>After a night spent in waking intervals of such thoughts, Margaret found the ordinary morning, and the talk she could not escape, somewhat oppressive. Her brothers and sisters disturbed her by their open expressions of hope and anxiety; she dreaded to have the balance of tranquillity overset; and then blamed herself for selfishness in not being as ready to attend to them as usual. Ethel and Norman came up after breakfast, their aversion by no means decreased by further acquaintance. Ethel was highly indignant at the tone in which he had exclaimed, 'What, May, have you one as young as this?' on discovering the existence of the baby; and when Norman observed that was not so atrocious either, she proceeded, 'You did not hear the contemptuous compassionate tone when he asked papa what he meant to do with all these boys.'</p>
@@ -1824,16 +1984,18 @@ what would not go down with papa, he did not honestly stand up to the point, and
 <pb n="129 THE DAISY CHAIN."/>
 in London, and was answering his inquiries for the Dick May of ancient times.</p>
 <p>'Poor May! I never saw a man so thrown away. With his talent and acuteness, he might be the most eminent man of his day, if he had only known how to use them. But he was always the same careless soft-hearted fellow, never knowing how to do himself any good, and he is the same still, not a day older nor wiser. It was a fatal thing for him that there was that country practice ready for him to step into, and even of that he does not make as good a thing as he might. Of course he married early, and there he is, left a widower with a house full of children--screaming babies, and great tall sons growing up, and he without a notion what he shall do with them, as heedless as ever--saving nothing of course. I always knew it was what he would come to, if he would persist in burying himself in that wretched little country town, but I hardly thought, after all he has gone through, to find him such a mere boy still. And yet he is one of the cleverest men I ever met--with such talent, and such thorough knowledge of his profession, that it does one good to hear him talk. Poor May! I am sorry for him, he might have been anything, but that early marriage and country practice were the ruin of him.'</p>
-<p>CHAPTER XIV.</p>
-<p>*'To thee, dear maid, each kindly wile</p>
-<p>Was known, that elder sisters know,</p>
-<p>To check the unseasonable smile</p>
-<p>With warning hand and serious brow.</p>
-<p>From dream to dream with her to rove,</p>
-<p>Like fairy nurse with hermit child;</p>
-<p>Teach her to think, to pray, to love,</p>
-<p>Make grief less bitter, joy less wild.'</p>
-<p>LINES ON A MONUMENT AT LICHFIELD.*</p>
+</div>
+<div id="cy1daisy024" type="chapter" n="14">
+<head>CHAPTER XIV.</head>
+<epigraph><cit><q><l>'To thee, dear maid, each kindly wile</l>
+<l>Was known, that elder sisters know,</l>
+<l>To check the unseasonable smile</l>
+<l>With warning hand and serious brow.</l>
+<l>From dream to dream with her to rove,</l>
+<l>Like fairy nurse with hermit child;</l>
+<l>Teach her to think, to pray, to love,</l>
+<l>Make grief less bitter, joy less wild.'</l></q>
+<bibl>LINES ON A MONUMENT AT LICHFIELD.</bibl></cit></epigraph>
 <p>SIR Matthew Fleet's visit seemed like a turning-point with the May family, rousing and giving them revived hopes. Norman began to shake off his extreme languor and depression, the Doctor was relieved from much of the wearing suffering from his hurt, and his despondency as to Margaret's ultimate recovery had been driven away. The experiment of taking her up succeeded so well, that on Sunday she was fully attired, 'fit to receive company.' As she lay on the sofa there seemed an advance toward recovery. Much sweet coquetry was expended in trying to look her best for her father; and her best was
 <pb n="130 THE DAISY CHAIN."/>
 very well, for though the brilliant bloom of health was gone, her cheeks had not lost their pretty rounded contour, and still had some rosiness, while her large bright blue eyes smiled and sparkled. A screen shut out the rest of the room, making a sort of little parlour round the fire, where sundry of the family were visiting her after coming home from Church in the afternoon. Ethel was in a vehement state of indignation at what had that day happened at school. 'Did you ever hear anything like it! When the point was, to teach the poor things to be Christians, to turn them back, because their hair was not regulation length!'</p>
@@ -1948,14 +2110,17 @@ designs that showed themselves to have been well matured. Mr. Wilmot heard, cord
 <p>'Aye, aye!' said the Doctor, 'there's much more in the boy than I used to think. He's a capital fellow, and more like his mother than any of them.'</p>
 <p>'He is,' said Mr. Wilmot; 'there was a just, well-weighed sense and soberness in his plans that put me in mind of her every moment.'</p>
 <p>Dr. May gave his hand a squeeze, full of feeling, and went up to tell Margaret. She, on the first opportunity, told Richard, and made him happier than he had been for months, not so much in Mr. Wilmot's words, as in his father's assent to, and pleasure in them.</p>
-<p>CHAPTER XV.</p>
-<p>*'Pitch thy behaviour low, thy projects high,</p>
-<p>So shalt thou humble and magnanimous be;</p>
-<p>Sink not in spirit; who aimeth at the sky</p>
-<p>Shoots higher much than he that means a tree.</p>
-<p>A grain of glory mixed with humbleness,</p>
-<p>Cures both a fever and lethargicness.'</p>
-<p>HERBERT.*</p>
+</div>
+<div id="cy1daisy025" type="chapter" n="15">
+<head>CHAPTER XV.</head>
+<epigraph><cit><q><lg type="stanza">
+<l>'Pitch thy behaviour low, thy projects high,</l>
+<l>So shalt thou humble and magnanimous be;</l>
+<l>Sink not in spirit; who aimeth at the sky</l>
+<l>Shoots higher much than he that means a tree.</l>
+<l>A grain of glory mixed with humbleness,</l>
+<l>Cures both a fever and lethargicness.'</l></lg></q>
+<bibl>HERBERT.</bibl></cit></epigraph>
 <p>'NORMAN, do you feel up to a long day's work?' said Dr. May, on the following morning. 'I have to set off after breakfast to see old Mrs. Gould, and to be at Abbotstoke Grange by twelve; then I thought of going to Fordholm, and getting Miss Cleveland to give us some luncheon--there are some poor people on the way to look at; and that girl on Far-view Hill; and there's another place to call at in coming home. You'll have a good deal of
 <pb n="140 THE DAISY CHAIN."/>
 sitting in the carriage, holding Whitefoot, so if you think you shall be cold or tired, don't scruple to say so, and I'll take Adams to drive me.'</p>
@@ -1976,7 +2141,7 @@ sharp wind, and drove about till he found a sheltered place on the lee side of t
 <pb n="142 THE DAISY CHAIN."/>
 <p>'At Stoneborough,' said Norman, a little amused at the thought how angry Ethel and Harry would be that the paragraph of the county paper, where 'N. W. May' was recorded as prizeman and foremost in the examination, had not penetrated even to Abbotstoke Grange, or rather to its owner's memory.</p>
 <p>However, his father could not help adding, 'He is the head of the school--a thing we Stoneborough men think much of.'</p>
-<p>This, and Mr. Rivers's civil answer, made Norman so hot, that he did not notice much in passing through a hall full of beautiful vases, stuffed birds, busts, &c. tastefully arranged, and he did not look up till they were entering a handsome dining-room, where a small square table was laid out for luncheon near a noble fire.</p>
+<p>This, and Mr. Rivers's civil answer, made Norman so hot, that he did not notice much in passing through a hall full of beautiful vases, stuffed birds, busts, &#x0026;c. tastefully arranged, and he did not look up till they were entering a handsome dining-room, where a small square table was laid out for luncheon near a noble fire.</p>
 <p>The two ladies were there, and Mr. Rivers introduced them as his daughter and Mrs. Larpent. It was the most luxurious meal that Norman had ever seen, the plate, the porcelain, and all the appointments of the table so elegant, and the viands, all partaking of the Christmas character, and of a recherch&eacute; delicate description quite new to him. He had to serve as his father's right hand, and was so anxious to put everything as Dr. May liked it, and without attracting notice, that he hardly saw or listened till Dr. May began to admire a fine Claude, on the opposite wall, and embarked in a picture discussion. The Doctor had much taste for art, and had made the most of his opportunities of seeing paintings during his time of study at Paris, and in a brief tour to Italy. Since that time, few good pictures had come in his way, and these were a great pleasure to him, while Mr. Rivers, a regular connoisseur, was delighted to meet with one who could so well appreciate them. Norman perceived how his father was enjoying the conversation, and was much interested both by the sight of the first fine paintings he had ever seen, and by the talk about their merits; but the living things in the room had more of his attention and observation, especially the young lady who sat at the head of the table; a girl about his own age; she was on a very small scale, and seemed to him like a fairy, in the airy lightness and grace of her movements, and the blithe gladsomeness of her gestures, and countenance. Form and features, though perfectly healthful and brisk, had the peculiar finish and delicacy of a miniature painting, and were enhanced by the sunny glance of her dark soft smiling eyes. Her hair was in black silky braids, and her dress, with its gaiety of well-assorted colour, was positively refreshing to his eye, so long accustomed to the deep mourning of his sisters. A little Italian greyhound, perfectly white, was at her side, making infinite variations of the line of beauty and grace, with its elegant outline, and S-like tail, as it raised its slender nose in hopes of a fragment of bread which she from time to time dispensed to it.</p>
 <pb n="143 THE DAISY CHAIN."/>
 <p>Luncheon over, Mr. Rivers asked Dr. May to step into his library, and Norman guessed that they had been talking all this time, and had never come to the medical opinion. However, a good meal and a large fire made a great difference in his toleration, and, it was so new a scene, that he had no objection to a prolonged waiting, especially when Mrs. Larpent said, in a very pleasant tone, 'Will you come into the drawing-room with us?'</p>
@@ -2076,13 +2241,15 @@ but, after all, that is made up to me by the petting and kindness I get from all
 <pb n="151 THE DAISY CHAIN."/>
 beauty and sweetness waiting on the creature within. I can hardly believe that it is a real place, and that I have seen it.'</p>
 <p>'Though you have brought these pretty tokens that your fairy is as good as she is fair,' said Margaret, smiling.</p>
-<p>CHAPTER XVI.</p>
-<p>*EVANS.  Peace your tattlings. What is fair, William?</p>
-<p>WILLIAM.  PULCHER.</p>
-<p>QUICKLY.  Poulcats! there are fairer things than poulcats sure!</p>
-<p>EVANS.  I pray you have your remembrance, child, accusativo HING HANG HOG.</p>
-<p>QUICKLY.  HANG HOG is Latin for bacon, I warrant you.</p>
-<p>SHAKESPEARE.*</p>
+</div>
+<div id="cy1daisy026" type="chapter" n="16">
+<head>CHAPTER XVI.</head>
+<epigraph><cit><q><sp><speaker>EVANS.</speaker><p>Peace your tattlings. What is fair, William?</p></sp>
+<sp><speaker>WILLIAM.</speaker>  <p>PULCHER.</p></sp>
+<sp><speaker>QUICKLY.</speaker>  <p>Poulcats! there are fairer things than poulcats sure!</p></sp>
+<sp><speaker>EVANS.</speaker>  <p>I pray you have your remembrance, child, accusativo HING HANG HOG.</p></sp>
+<sp><speaker>QUICKLY.</speaker>  <p>HANG HOG is Latin for bacon, I warrant you.</p></sp></q>
+<bibl>SHAKESPEARE.</bibl></cit></epigraph>
 <p>IN a large family it must often happen, that since every member of it cannot ride the same hobby, nor at the same time, their several steeds must sometimes run counter to each other; and so Ethel found it, one morning when Miss Winter, having a bad cold, had given her an unwonted holiday.</p>
 <p>Mr. Wilmot had sent a large parcel of books for her to choose from for Cocksmoor, but this she could not well do without consultation. The multitude bewildered her, she was afraid of taking too many or too few, and the being brought to these practical details made her sensible that though her schemes were very grand and full for future doings, they passed very lightly over the intermediate ground. The <hi rend="italic">'Paul&ograve; post futurum</hi>' was a period much more developed in her imagination than the future, that the present was flowing into.</p>
 <p>Where was her coadjutor, Richard? Writing notes for papa, and not to be disturbed. She had better have waited tranquilly, but this would not suit her impatience, and she ran up to Margaret's room. There she found a great display of ivy leaves, which Norman, who had been turning half the shops in the town upside down in search of materials, was instructing her to imitate in leather work--a regular mania with him, and apparently the same with Margaret.</p>
@@ -2104,7 +2271,7 @@ I would not make the little books from the New Testament too common.'</p>
 <p>Presently she heard the study door open, and hoped; but though it was Richard who entered the room, he was followed by Tom, and each held various books that boded little good to her. Miss Winter had, much to her own satisfaction, been relieved from the charge of Tom, whose lessons Richard had taken upon himself; and thus Ethel had heard so little about them for a long time past, that even in her vexation and desire to have them over, she listened with interest, desirous to judge what sort of place Tom might be likely to take in school.</p>
 <p>She did not perceive that this made Richard nervous and uneasy. He had a great dislike to spectators of Latin lessons; he never had forgotten an unlucky occasion, some years back, when his father was examining him in the Georgics, and he, dull by nature, and duller by confusion and timidity, had gone on rendering word for word--<hi rend="italic">enim</hi> for, <hi rend="italic">seges</hi> a crop, <hi rend="italic">lini</hi> of mud, <hi rend="italic">urit</hi> burns, <hi rend="italic">campum</hi> the field,
 <pb n="153 THE DAISY CHAIN."/>
-<hi rend="italic">aven&aelig</hi>; a crop of pipe, <hi rend="italic">urit</hi> burns it, when Norman and Ethel had first warned him of the beauty of his translation by an explosion of laughing, when his father had shut the book with a bounce, shaken his head in utter despair, and told him to give up all thoughts of doing anything--and when Margaret had cried with vexation. Since that time, he had never been happy when anyone was in earshot of a lesson; but to-day he had no escape--Harry lay on the rug reading, and Ethel sat forlorn over her books on the sofa. Tom, however, was bright enough, declined his Greek nouns irreproachably, and construed his Latin so well, that Ethel could not help putting in a word or two of commendation, and auguring the third form. 'Do let him off the parsing, Ritchie,' said she, coaxingly--'he has said it so well, and I want you so much.'</p>
+<hi rend="italic">aven&aelig;</hi> a crop of pipe, <hi rend="italic">urit</hi> burns it, when Norman and Ethel had first warned him of the beauty of his translation by an explosion of laughing, when his father had shut the book with a bounce, shaken his head in utter despair, and told him to give up all thoughts of doing anything--and when Margaret had cried with vexation. Since that time, he had never been happy when anyone was in earshot of a lesson; but to-day he had no escape--Harry lay on the rug reading, and Ethel sat forlorn over her books on the sofa. Tom, however, was bright enough, declined his Greek nouns irreproachably, and construed his Latin so well, that Ethel could not help putting in a word or two of commendation, and auguring the third form. 'Do let him off the parsing, Ritchie,' said she, coaxingly--'he has said it so well, and I want you so much.'</p>
 <p>'I am afraid I must not,' said Richard; who, to her surprise, did not look pleased or satisfied with the prosperous translation; 'but come, Tom, you shan't have many words, if you really know them.'</p>
 <p>Tom twisted and looked rather cross, but when asked to parse the word <hi rend="italic">viribus</hi>, answered readily and correctly.</p>
 <p>'Very well, only two more--<hi rend="italic">affuit?</hi>'</p>
@@ -2184,15 +2351,17 @@ terribly shocked by finding out what we have often thought about poor little Tom
 cross to Margaret, and unkind to Tom--of wishing to be a tell-tale. But still, though displeased with herself, she was dissatisfied with Margaret; it might be right, but it did not agree with her notions. She wanted to see everyone uncompromising, as girls of fifteen generally do; she had an intense disgust and loathing of underhand ways, could not bear to think of Tom's carrying them on, and going to a place of temptation with them uncorrected; and she looked up to her father with the reverence and enthusiasm of one like minded.</p>
 <p>She was vexed on another score. Norman came home from Abbotstoke Grange without having seen Miss Rivers, but with a fresh basket of choice flowers, rapturous descriptions of Mr. Rivers's prints, and a present of an engraving, in shading, such as to give the effect of a cast, of a very fine head of Alexander. Nothing was to be thought of but a frame for this--olive, bay, laurel, everything appropriate to the conqueror. Margaret and Norman were engrossed in the subject, and, to Ethel, who had no toleration for fancy work, who expected everything to be either useful or intellectual, this seemed very frivolous. She heard her father say how glad he was to see Norman interested and occupied, and certainly, though it was only in leather leaves, it was better than drooping and attending to nothing. She knew, too, that Margaret did it for his sake, but, said Ethel to herself, 'It was very odd that people should find amusement in such things. Margaret always had a turn for them, but it was very strange in Norman.'</p>
 <p>Then came the pang of finding out that this was aggravated by the neglect of herself; she called it all selfishness, and felt that she had had an uncomfortable, unsatisfactory day, with everything going wrong.</p>
-<p>CHAPTER XVII.</p>
-<p>*'Gently supported by the ready aid</p>
-<p>Of loving hands, whose little work of toil</p>
-<p>Her grateful prodigality repaid</p>
-<p>With all the benediction of her smile,</p>
-<p>She turned her failing feet</p>
-<p>To the softly cushioned seat,</p>
-<p>Dispensing kindly greetings all the time.'</p>
-<p>R. M. MILNES.*</p>
+</div>
+<div id="cy1daisy027" type="chapter" n="17">
+<head>CHAPTER XVII.</head>
+<epigraph><cit><q><lg type="stanza"><l>'Gently supported by the ready aid</l>
+<l>Of loving hands, whose little work of toil</l>
+<l>Her grateful prodigality repaid</l>
+<l>With all the benediction of her smile,</l>
+<l>She turned her failing feet</l>
+<l>To the softly cushioned seat,</l>
+<l>Dispensing kindly greetings all the time.'</l></lg></q>
+<bibl>R. M. MILNES.</bibl></cit></epigraph>
 <p>THREE great events signalized the month of January. The first was, the opening of the school at Cocksmoor, whither a cart transported half-a-dozen forms, various books, and three dozen plum-
 <pb n="159 THE DAISY CHAIN."/>
 buns, Margaret's contribution, in order that the school might begin with &eacute;clat. There walked Mr. Wilmot, Richard, and Flora, with Mary, in a jumping capering state of delight, and Ethel, not knowing whether she rejoiced. She kept apart from the rest, and hardly spoke, for this long probation had impressed her with a sense of responsibility, and she knew that it was a great work to which she had set her hand--a work in which she must persevere, and in which she could not succeed in her own strength.</p>
@@ -2318,16 +2487,21 @@ done with my pocket book. Mind, I ask no impertinent questions; but, if you have
 <pb n="168 THE DAISY CHAIN."/>
 reasonable dependance--and there won't be much among eleven of you. It makes my heart ache to think of it, come what may, as far as I can see, and without her to judge. The only comfort is, that poor Margaret herself knows nothing of it, and is at peace so far. It will be ordered for them, anyhow. Good night, my dear.'</p>
 <p>Ethel sought her room, with graver deeper thoughts of life than she had carried up stairs.</p>
-<p>CHAPTER XVIII.</p>
-<p>*'Saw ye never in the meadows,</p>
-<p>Where your little feet did pass,</p>
-<p>Down below, the sweet white daisies</p>
-<p>Growing in the long green grass?</p>
-<p>Saw you never lilac blossoms,</p>
-<p>Or acacia white and red,</p>
-<p>Waving brightly in the sunshine,</p>
-<p>On the tall trees over head?'</p>
-<p>HYMNS FOR CHILDREN, C. F. A.*</p>
+</div>
+<div id="cy1daisy028" type="chapter" n="18">
+<head>CHAPTER XVIII.</head>
+<epigraph><cit><q><lg type="stanza">
+<l>'Saw ye never in the meadows,</l>
+<l>Where your little feet did pass,</l>
+<l>Down below, the sweet white daisies</l>
+<l>Growing in the long green grass?</l>
+</lg>
+<lg type="stanza">
+<l>Saw you never lilac blossoms,</l>
+<l>Or acacia white and red,</l>
+<l>Waving brightly in the sunshine,</l>
+<l>On the tall trees over head?'</l></lg></q>
+<bibl>HYMNS FOR CHILDREN, C. F. A.</bibl></cit></epigraph>
 <p>MY dear child, what a storm you have had! how wet you must be! exclaimed Mrs. Larpent, as Meta Rivers came bounding up the broad staircase at Abbotstoke Grange.</p>
 <p>'Oh, no; I am quite dry; feel.'</p>
 <p>'Are you sure?' said Mrs. Larpent, drawing her darling into a luxurious bed-room, lighted up by a glowing fire, and full of pretty things. 'Here, come and take off your wet things, my dear, and Bellairs shall bring you some tea.'</p>
@@ -2453,7 +2627,8 @@ Norman was telling papa, the other day, that it was very odd Dr. Hoxton gave the
 <p>'You see,' said Margaret, kindly, 'we all know that men have more power than women, and I suppose the time has come for Norman to pass beyond you. He would not be cleverer than anyone, if he could not do more than a girl at home.'</p>
 <p>'He has so much more time for it,' said Ethel.</p>
 <p>'That's the very thing. Now consider, Ethel. His work, after he goes to Oxford, will be doing his very utmost--and you know what an utmost that is. If you could keep up with him at all, you must give your whole time and thoughts to it, and when you had done so--if you could get all the honours in the University--what would it come to? You can't take a first-class.'</p>
-<p>'I don't want one,' said Ethel; 'I only can't bear not to do as Norman does, and I like Greek so much.'</p>
+<p>'I don't want one,' said Ethel; 'I only can't bear not to do as
+Norman does, and I like Greek so much.'</p>
 <p>'And for that would you give up being a useful, steady daughter and sister at home? The sort of woman that dear mamma wished to make you, and a comfort to papa.'</p>
 <p>Ethel was silent, and large tears were gathering.</p>
 <p>'You own that that is the first thing?'</p>
@@ -2481,13 +2656,16 @@ authority over her; she lets me scold her, asks my leave, never seems to recolle
 <p>'She is a fine creature,' said Dr. May, emphatically. 'It just shows the fact, the higher the mind, the readier the submission. But you don't mean that you have any difficulty with the others?'</p>
 <p>'O no, no. Flora never could need any interference, especially from me, and Mary is a thorough good girl. I only meant that Ethel lays herself out to be ruled in quite a remarkable way. I am sure, though she does love learning, her real love is for goodness, and for you, papa.'</p>
 <p>Ethel would have thought her sacrifice well paid for, had she seen her father's look of mournful pleasure.</p>
-<p>CHAPTER XIX.</p>
-<p>*'O ruthful scene! when from a nook obscure,</p>
-<p>His little sister doth his peril see,</p>
-<p>All playful as she sate, she grows demure,</p>
-<p>She finds full soon her wonted spirits flee,</p>
-<p>She meditates a prayer to set him free.'</p>
-<p>SHENSTONE.*</p>
+</div>
+<div id="cy1daisy029" type="chapter" n="19">
+<head>CHAPTER XIX.</head>
+<epigraph><cit><q><lg type="stanza">
+<l>'O ruthful scene! when from a nook obscure,</l>
+<l>His little sister doth his peril see,</l>
+<l>All playful as she sate, she grows demure,</l>
+<l>She finds full soon her wonted spirits flee,</l>
+<l>She meditates a prayer to set him free.'</l></lg></q>
+<bibl>SHENSTONE.</bibl></cit></epigraph>
 <p>THE setting sun shone into the great west window of the school at Stoneborough, on its bare walls, the master's desks, the forms polished with use, and the square, inky, hacked and hewed chests, carved with the names of many generations of boys.</p>
 <p>About six or eight little boys were clearing away the books or papers that they, or those who owned them as fags, had left astray, and a good deal of talk and laughing was going on among them. 'Ha!' exclaimed one, 'here has Harrison left his book behind him that he was showing us the gladiators in!' and, standing by the third master's desk, he turned over a page or two of Smith's Antiquities, exclaiming, 'It is full of pictures--here's an old man blowing the bellows--'</p>
 <p>'Let me see!' cried Tom May, precipitating himself across the benches and over the desk, with so little caution, that there was an
@@ -2623,7 +2801,7 @@ she only received sorrowful signs as answers. At the same moment Dr. May called 
 <p>'Indeed! and why was I left to send him to school without knowing it? The place of all others to foster deceit.'</p>
 <p>'It was my fault, papa,' said Margaret.</p>
 <p>'And mine,' put in Richard; and she continued, 'Ethel told us
-<pb n="192 THE DAISY CHAIN.">
+<pb n="192 THE DAISY CHAIN."/>
 we were very wrong, and I wish we had followed her advice. It was by far the best, but we were afraid of vexing you.'</p>
 <p>'Everyone seems to have been combined to hide what they ought not!' said Dr. May, though speaking to her much more softly than to Norman, to whom he turned angrily again. 'Pray, how came you not to identify this paper?'</p>
 <p>'I did not know it,' said Norman, speaking with difficulty.</p>
@@ -2663,21 +2841,23 @@ tell why you go and make yourself ill, by fancying it worse than it is. The boy 
 <p>'And then his--his quick way of speaking may do harm.'</p>
 <p>'Yes, that was what I feared for Tom,' said Richard, 'and there was the mistake. I see it now. My father always is right in the main, though he is apt to frighten one at first, and it is what ought to be, that he should rule his own house. But now, Margaret, it is silly to worry about it any more--let me fetch baby, and don't think of it.'</p>
 <p>And Margaret allowed his reasonableness, and let herself be comforted. After all, Richard's solid soberness had more influence over her than anything else.</p>
+</div>
 <pb n="195 THE DAISY CHAIN."/>
-<p>CHAPTER XX.</p>
-<p>*'Think how simple things and lowly,</p>
-<p>Have a part in Nature's plan,</p>
-<p>How the great hath small beginnings,</p>
-<p>And the child will be a man.</p>
-<p>Little efforts work great actions,</p>
-<p>Lessons in our childhood taught</p>
-<p>Mould the spirit of that temper</p>
-<p>Whereby blessed deeds are wrought.</p>
-<p>Cherish, then, the gifts of childhood,</p>
-<p>Use them gently, guard them well,</p>
-<p>For their future growth and greatness</p>
-<p>Who can measure, who can tell!'</p>
-<p>MORAL SONGS.*</p>
+<div id="cy1daisy030" type="chapter" n="20">
+<head>CHAPTER XX.</head>
+<epigraph><cit><q><l>'Think how simple things and lowly,</l>
+<l>Have a part in Nature's plan,</l>
+<l>How the great hath small beginnings,</l>
+<l>And the child will be a man.</l>
+<l>Little efforts work great actions,</l>
+<l>Lessons in our childhood taught</l>
+<l>Mould the spirit of that temper</l>
+<l>Whereby blessed deeds are wrought.</l>
+<l>Cherish, then, the gifts of childhood,</l>
+<l>Use them gently, guard them well,</l>
+<l>For their future growth and greatness</l>
+<l>Who can measure, who can tell!'</l></q>
+<bibl>MORAL SONGS.</bibl></cit></epigraph>
 <p>THE first shock of Tom's misdemeanor passed away, though it still gave many an anxious thought to such of the family as felt responsible for him.</p>
 <p>The girls were busily engaged in preparing an Easter feast for Cocksmoor. Mr. Wilmot was to examine the scholars, and buns and tea were provided, in addition to which Ethel designed to make a present to everyone--a great task, considering that the Cocksmoor funds were reserved for absolute necessaries, and were at a very low ebb. So that twenty-five gifts were to be composed out of nothing!</p>
 <p>There was a grand turn-out of drawers of rubbish, all over Margaret, raising such a cloud of dust, as nearly choked her. What cannot rubbish and willing hands effect! Envelopes and wafer boxes were ornamented with pictures, bags, needle-cases, and pincushions, beautiful balls, tippets, both of list and gay print, and even sun-bonnets and pinafores were contrived, to the supreme importance and delight of Mary and Blanche, who found it as good or better than play, and ranged their performances in rows, till the room looked like a bazaar. To provide for boys was more difficult; but Richard mended old toys, and repaired the frames of slates, and Norman's contribution of half-a-crown bought mugs, marbles, and penny knives, and there were even hopes that something would remain for bodkins, to serve as nozzles to the bellows, which were the pride of Blanche's heart.</p>
@@ -2865,10 +3045,13 @@ spectacles to see them better, and showed her their special merits. Mr. Rivers a
 awkwardness might make an unfavourable impression, but, at least, she said to herself, it was anything but vulgar awkwardness.</p>
 <p>Their reflections were interrupted by the fly stopping. It was at a little shop in the outskirts of the town, and Dr. May explained that he wanted to inquire for a patient. He went in for a moment, then came back to desire that they would go home, for he should be detained some little time. No one need sit up for him--he would let himself in.</p>
 <p>It seemed a comment on Ethel's thoughts, bringing them back to the present hour. That daily work of homely mercy, hoping for nothing again, was surely the true way of doing service.</p>
-<p>CHAPTER XXI.</p>
-<p>*WATCHMAN.  How, if he will not stand?</p>
-<p>DOGBERRY.  Why, then, take no note of him, but let him go.</p>
-<p>MUCH ADO ABOUT NOTHING.*</p>
+</div>
+<div id="cy1daisy031" type="chapter" n="21">
+<head>CHAPTER XXI.</head>
+<epigraph><cit><q>
+<sp><speaker>WATCHMAN.</speaker>  <p>How, if he will not stand?</p></sp>
+<sp><speaker>DOGBERRY.</speaker>  <p>Why, then, take no note of him, but let him go.</p></sp></q>
+<bibl>MUCH ADO ABOUT NOTHING.</bibl></cit></epigraph>
 <p>DR. MAY promised Margaret that he would see whether the black hole of Cocksmoor was all that Norman depicted it, and, accordingly, he came home that way on Tuesday evening, the next week, much to the astonishment of Richard, who was in the act of so mending the window that it might let in air when open, and keep it out when shut, neither of which purposes had it ever yet answered.</p>
 <p>Dr. May walked in, met his daughter's look of delight and surprise, spoke cheerfully to Mrs. Green, a hospital acquaintance of his, like half the rest of the country, and made her smile and courtesy by asking if she was not surprised at such doings in her house; then looked at the children, and patted the head that looked most fit to pat, inquired who was the best scholar, and offered a penny to whoever could spell copper tea-kettle, which being done by three merry mortals, and having made him extremely popular, he offered Ethel a lift, and carried her off between him and Adams, on whom he now depended for driving him, since Richard was going to Oxford at once.</p>
 <p>It was possible to spare him now. Dr. May's arm was as well as he expected it ever would be; he had discarded the sling, and could use his hand again, but the arm was still stiff and weak--he could not stretch it out, nor use it for anything requiring strength; it
@@ -2925,7 +3108,10 @@ one's feelings, you know--and June,' added he, with a ridiculous confidential ai
 <p>'That was May senior, our Dux.'</p>
 <pb n="217 THE DAISY CHAIN."/>
 <p>'Was it? I am very glad you should be with him, my dear George. He is very kind to you, I hope?'</p>
-<p>'He is a jolly good fellow,' said Larkins, sincerely, though by no means troubling himself as to the appropriateness of the eulogy, nor thinking it necessary to explain to his mother the terms of the conversation.</p>
+<p>'He is a jolly good fellow,' said Larkins, sincerely, though by no
+means troubling himself as to the appropriateness of the eulogy, nor
+thinking it necessary to explain to his mother the terms of the
+conversation.</p>
 <p>It was not fruitless; Larkins did avoid mischief when it was not extremely inviting, was more amenable to May senior, and having been put in mind by him of his home, was not ashamed to bring the thought to the aid of his eyes, when, on Sunday, during a long sermon of Mr. Ramsden's, he knew that Axworthy was making the grimace which irresistibly incited him to make a still finer one.</p>
 <p>And Ballhatchet was so much convinced of 'that there young May' being in earnest, that he assured his persuasive customers that it was as much as his license was worth, to supply them.</p>
 <p>Evil and insubordination were more easily kept under than Norman had expected, when he first made up his mind to the struggle. Firmness had so far carried the day, and the power of manful assertion of the right had been proved, contrary to Cheviot's parting auguries, that he would only make himself disliked, and do no good.</p>
@@ -2981,13 +3167,16 @@ dancing in the forbidden field, and something like the waving of a flag, but it 
 <p>But gruff voices broke in upon them. 'There they are, nothing like 'em for mischief.'</p>
 <p>'Come, young gentlemen,' said a policeman, 'be off, if you please. We don't want to have none of you at the Station to-night.'</p>
 <p>A general hurry-skurry ensued. Norman alone, strong in innocence, walked quietly away, and, as he came forth from the darkness of the Alley, beheld something scouring away before him, in the direction of home. It popped in at the front door before him, but was not in the drawing-room. He strode up-stairs, called, but was not answered, and found, under the bed-clothes, a quivering mass, consisting of Tom, with all his clothes on, fully persuaded that it was the policeman who was pursuing him.</p>
+</div>
 <pb n="222"/>
-<p>CHAPTER XXII.</p>
-<p>*'Oh Life, without thy chequered scene,</p>
-<p>Of right and wrong, of weal and woe,</p>
-<p>Success and failure, could a ground</p>
-<p>For magnanimity be found?'</p>
-<p>WORDSWORTH.*</p>
+<div id="cy1daisy032" type="chapter" n="22">
+<head>CHAPTER XXII.</head>
+<epigraph><cit><q><lg type="stanza">
+<l>Oh Life, without thy chequered scene,</l>
+<l>Of right and wrong, of weal and woe,</l>
+<l>Success and failure, could a ground</l>
+<l>For magnanimity be found?'</l></lg></q>
+<bibl>WORDSWORTH.</bibl></cit></epigraph>
 <p>DOCTOR MAY was called for late the next day, Friday, and spent some time in one of the houses near the river. It was nearly eight o'clock when he came away, and he lingered, looking towards the school, in hopes of a walk home with his boys.</p>
 <p>Presently he saw Norman come out from under the archway, his cap drawn over his face, and step, gesture, and manner, betraying that something was seriously wrong. He came up almost to his father without seeing him, until startled by his exclamation, 'Norman--why Norman, what's the matter?'</p>
 <p>Norman's lips quivered, and his face was pale--he seemed as if he could not speak.</p>
@@ -3110,11 +3299,12 @@ everyone was praising him--that I had! Harvey Anderson is welcome to be Dux and 
 <p>'He is--that he is,' said Margaret, 'and, indeed, it is most beautiful to see how what has happened has brought him at once to what she wished, when, perhaps, otherwise it would have been a work of long time.'</p>
 <p>Ethel was entirely consoled. Flora thought of the words '<hi rend="italic">t&eacute;te Exalt&ecirc;e</hi>,' and considered herself alone to have sober sense enough to see things in a true light--not that she went the length of believing that Norman had any underhand motives, but she thought it very discreet in her to think a prudent father would not have been satisfied with such a desire to avoid investigation.</p>
 <p>Dr. May would not trust himself to enter on the subject with Dr. Hoxton in conversation; he only wrote a note.</p>
-<p>*'June 16th.</p>
-<p>'Dear Dr. Hoxton,</p>
+<q><text><body>
+<opener><dateline><date>'June 16th.</date></dateline>
+<salute>'Dear Dr. Hoxton,</salute></opener>
 <p>'My son has appealed to me to confirm his account of himself on Thursday evening last. I therefore distinctly state that he came in at half-past nine, with his hands full of plants from the river, and that he then went out again, by my desire, to look for his little brother.</p>
-<p>'Yours, very truly,</p>
-<p>'R. MAY.'*</p>
+<closer><salute>'Yours, very truly,</salute>
+<signed>'R. MAY.'</signed></closer></body></text></q>
 <p>A long answer came in return, disclaiming all doubt of Norman's veracity, and explaining Dr. Hoxton's grounds for having degraded him. There had been misconduct in the school, he said, for some time past, and he did not consider that it was any very serious reproach, to a boy of Norman's age, that he had not had weight enough to keep up his authority, and had been carried away by the general feeling. It had been necessary to make an example for the sake of principle, and though very sorry it should have fallen on one of such high promise and general good conduct, Dr. Hoxton trusted that it would not be any permanent injury to his prospects, as his talents had raised him to his former position in the school so much earlier than usual.</p>
 <p>'The fact was,' said Dr. May, 'that old Hoxton did it in a passion, feeling he must punish somebody, and now, finding there's no uproar about it, he begins to be sorry. I won't answer this note. I'll stop after church to-morrow and shake hands, and that will show we don't bear malice.'</p>
 <p>What Mr. Wilmot might think, was felt by all to affect them more nearly. Ethel wanted to hear that he declared his complete conviction of Norman's innocence, and was disappointed to find that he did not once allude to the subject. She was only consoled by
@@ -3162,12 +3352,15 @@ the rules to be less observed than in May's reign, and he enforced them upon the
 <p>To Anderson, Norman's cordial manner and ready support, were the strangest part of all, only explained by thinking that he deemed it, as he tried to do himself, merely the fortune of war, and was sensible of no injury.</p>
 <p>And, for Norman himself, when the first shock was over, and he was accustomed to the change, he found the cessation of vigilance a relief, and carried a lighter heart than any time since his mother's death. His sisters could not help observing that there was less sadness in the expression of his eyes, that he carried his head higher, walked with freedom and elasticity of step, tossed and flourished the Daisy till she shouted and crowed, while Margaret shrank at such freaks; and, though he was not much of a laugher himself, contributed much sport in the way of bright apposite sayings to the home circle.</p>
 <p>It was a very unexpected mode of cure for depression of spirits, but there could be no question that it succeeded; and when, a few Saturdays after, he drove Dr. May again to Groveswood to see young Mr. Lake, who was recovering, he brought Margaret home a whole pile of botanical curiosities, and drew his father into an animated battle over natural and Linn&aelig;an systems, which kept the whole party merry with the pros and cons every evening for a week.</p>
-<p>CHAPTER XXIII.</p>
-<p>*'Oh! the golden-hearted daisies,</p>
-<p>Witnessed there before my youth,</p>
-<p>To the truth of things, with praises</p>
-<p>Of the beauty of the truth.'</p>
-<p>E. B. BROWNING.*</p>
+</div>
+<div id="cy1daisy033" type="chapter" n="23">
+<head>CHAPTER XXIII.</head>
+<epigraph><cit><q><lg type="stanza">
+<l>'Oh! the golden-hearted daisies,</l>
+<l>Witnessed there before my youth,</l>
+<l>To the truth of things, with praises</l>
+<l>Of the beauty of the truth.'</l></lg></q>
+<bibl>E. B. BROWNING.</bibl></cit></epigraph>
 <p>'MARGARET, see here.'</p>
 <p>The Doctor threw into her lap a letter, which made her cheeks light up.</p>
 <p>Mr. Ernescliffe wrote that his father's friend, Captain Gordon, having been appointed to the frigate Alcestis, had chosen him as one
@@ -3283,14 +3476,17 @@ now that the aunt had committed herself by commendation. And she did not retract
 <p>There certainly was a peculiar happiness about Margaret Rivers; her vexations were but ripples, rendering the sunny course of her life more sparkling, and each exertion in the way of goodness was productive of so much present joy, that the steps of her ladder seemed, indeed, to be of diamonds.</p>
 <p>Her ladder--for she was, indeed, mounting upwards. She was very earnest in her Confirmation preparation, most anxious to do right and to contend with her failings; but the struggle at present was easy; and the hopes, joys, and incentives, shone out more and more upon her in this blithe stage of her life.</p>
 <p>She knew there was a dark side, but hope and love were more present to her than was fear. Happy those to whom such young days are granted.</p>
+</div>
 <pb n="246 THE DAISY CHAIN."/>
-<p>CHAPTER XXIV.</p>
-<p>*'It is the generous spirit, who, when brought</p>
-<p>Among the tasks of real life, hath wrought</p>
-<p>Upon the plan that pleased his childish thought,</p>
-<p>Whose high endeavours are an inward light,</p>
-<p>Making the path before him always bright.'</p>
-<p>WORDSWORTH.*</p>
+<div id="cy1daisy034" type="chapter" n="24">
+<head>CHAPTER XXIV.</head>
+<epigraph><cit><q><lg type="stanza">
+<l>'It is the generous spirit, who, when brought</l>
+<l>Among the tasks of real life, hath wrought</l>
+<l>Upon the plan that pleased his childish thought,</l>
+<l>Whose high endeavours are an inward light,</l>
+<l>Making the path before him always bright.'</l></lg></q>
+<bibl>WORDSWORTH.</bibl></cit></epigraph>
 <p>THE holidays had commenced about a week when Harry, now duly appointed to H. M. S. Alcestis, was to come home on leave, as he proudly expressed it.</p>
 <p>A glad troop of brothers and sisters, with the Doctor himself, walked up to the station to meet him, and who was happiest when, from the window, was thrust out the rosy face, with the gold band? Mary gave such a shriek and leap, that two passengers and one guard turned round to look at her, to the extreme discomfiture of Flora and Norman, evidenced by one by a grave 'Mary! Mary!' by the other, by walking off to the extreme end of the platform, and trying to look as if he did not belong to them, in which he was imitated by his shadow, Tom.</p>
 <p>Sailor already, rather than school-boy, Harry cared not for spectators; his bound from the carriage, and the hug between him and Mary would have been worthy of the return from the voyage. The next greeting was for his father, and the sisters had had their share by the time the two brothers thought fit to return from their calm walk on the platform.</p>
@@ -3337,7 +3533,7 @@ our hearts about it. I don't want any comfort now, for having gold instead of gl
 <p>'In charity!' repeated Harry. 'Papa! you don't want us to like a horrid, sneaking, mean-spirited pair like those, that have used Norman in that shameful way?'</p>
 <p>'No, certainly not; I only want you to feel no more personal anger, than if it had been Cheviot, or some indifferent person, that had been injured.'</p>
 <p>'I should have hated them all the same!' cried Harry.</p>
-<p>'If it is <hi rend="italic>all the same</hi>, and it is the treachery you hate, I ask no more,' said the Doctor.</p>
+<p>'If it is <hi rend="italic">all the same</hi>, and it is the treachery you hate, I ask no more,' said the Doctor.</p>
 <p>'I cant help it, papa, I can't! If I were to meet those fellows, do you think I could shake hands with them? If I did not lick Ned all down Minster-street, he might think himself lucky.'</p>
 <p>'Well, Harry, I won't argue any more. I have no right to preach forbearance. Your brother's example is better worth than my precept. Shall we go back to Margaret, or have you anything to say to me?'</p>
 <p>Harry made no positive answer, but pressed close to his father, who put his arm round him, while the curly-head was laid on his shoulder. Presently, he said, with a great sigh, 'There's nothing like home.'</p>
@@ -3408,9 +3604,6 @@ the nursery. I can't bear it; and the worst of it is, that--' she added, finishi
 <p>'It will be one voice,' said Ethel; 'but oh! if I could only say half what I have in my mind, they must see the error. 'Why, these, these--what they call formal--these the ties--links on to the Church--on to what is good--if they don't learn them soundly--rammed down hard--you know what I mean--so that they can't remember the first--remember when they did not know them--they will never get to learn--know--understand when they can understand!'</p>
 <p>'My dear Ethel, don't frown so horribly, or it will spoil your eloquence,' said Margaret.</p>
 <p>'I don't understand either,' said Richard, gravely. 'Not understand when they can understand? What do you mean?'</p>
-<p></p>
-<p></p>
-<p></p>
 <pb n="253 THE DAISY CHAIN."/>
 <p>'Why, Ritchie, don't you see? If they don't learn them--hard, firm, by rote when they can't--they won't understand when they can.'</p>
 <p>'If they don't learn when they can't, they won't understand when they can?'--puzzled Richard-making Margaret laugh--but Ethel was too much in earnest for amusement.</p>
@@ -3478,10 +3671,12 @@ his spelling-card--Anne Harris kicked Susan Pope, and would not say she was sorr
 <p>'And twopence for pocket-handkerchiefs, if you please,' said Norman, with a gesture of disgust.</p>
 <p>'Very well. From Blanche, upwards. Margaret shall have a book, and set down marks against us--hold an audit every Saturday night. What say you, Blanche?'</p>
 <p>'O I hope Flora will leave something about!' cried Blanche, dancing with glee.</p>
+</div>
 <pb n="257 THE DAISY CHAIN."/>
-<p>CHAPTER XXV.</p>
-<p>*'O no, we never mention her,</p>
-<p>We never breathe her name.'--SONG.*</p>
+<div id="cy1daisy035" type="chapter" n="25">
+<head>CHAPTER XXV.</head>
+<epigraph><cit><q><l>'O no, we never mention her,</l>
+<l>We never breathe her name.'</l></q><bibl>--SONG.</bibl></cit></epigraph>
 <p>A GREAT deal of merriment had come home with Harry, who never was grave for ten minutes without a strong reaction, and distracted the house with his noise and his antics, in proportion, as it sometimes seemed, to the spaces of serious thought and reading spent in the study, where Dr. May did his best to supply Mr. Ramsden's insufficient attention to his Confirmation candidates, by giving an hour every day to Norman, Ethel, and Harry. He could not lecture, but he read with them, and his own earnestness was very impressive.</p>
 <p>The two eldest felt deeply, but Harry often kept it in doubt, whether he were not as yet too young and wild for permanent impressions; so rapid were his transitions, and so overpowering his high spirits. Not that these were objected to; but there was a feeling that there might as well be moderation in all things, and that it would have been satisfactory if, under present circumstances, he had been somewhat more subdued and diligent.</p>
 <p>'There are your decimals not done yet, Harry.'</p>
@@ -3722,13 +3917,15 @@ least attention from ourselves, and will be least noticed,' said Margaret.</p>
 corner of the seat, till all the voices had spoken, and then turned about in haste, and the two words came on the end of a sob.'</p>
 <p>'You will not keep him away on Sunday?' said Margaret.</p>
 <p>'Far be it from me. I know not who should come, if he should not.'</p>
-<p>CHAPTER XXVI.</p>
-<p>*'What matter, whether through delight,</p>
-<p>Or led through vale of tears,</p>
-<p>Or seen at once, or hid from sight,</p>
-<p>The glorious way appears?</p>
-<p>If step by step the path we see,</p>
-<p>That leads, my Saviour, up to thee!'*</p>
+</div>
+<div id="cy1daisy036" type="chapter" n="26">
+<head>CHAPTER XXVI.</head>
+<epigraph><q><l>'What matter, whether through delight,</l>
+<l>Or led through vale of tears,</l>
+<l>Or seen at once, or hid from sight,</l>
+<l>The glorious way appears?</l>
+<l>If step by step the path we see,</l>
+<l>That leads, my Saviour, up to thee!'</l></q></epigraph>
 <p>'I COULD not help it,' said Dr. May-'that little witch--'</p>
 <p>'Meta Rivers? Oh! what, papa?'</p>
 <p>'It seems that Wednesday is her birthday, and nothing will serve her but to eat her dinner in the old Roman camp.'</p>
@@ -3848,10 +4045,10 @@ having, but it is my nature. And Ethel,' she added, in a low voice, as the tears
 <p>'And she thinks it cannot be safe or right,' added Ethel, 'to live that happy bright life, as if people without care or trouble could not be living as Christians are meant to live. Is that it, Meta?'</p>
 <p>'Yes, I think it is,' said Meta. 'I seem to be only put here to be made much of!'</p>
 <p>'What did David say, Meta?' returned Dr. May.</p>
-<p>*'My Shepherd is the living Lord,</p>
-<p>Nothing therefore I need:</p>
-<p>In pastures fair, near pleasant streams,</p>
-<p>He setteth me to feed.'*</p>
+<q><lg type="stanza"><l>'My Shepherd is the living Lord,</l>
+<l>Nothing therefore I need:</l>
+<l>In pastures fair, near pleasant streams,</l>
+<l>He setteth me to feed.'</l></lg></q>
 <p>'Then you think,' said Meta, much touched, 'that I ought to
 <pb n="281 THE DAISY CHAIN."/>
 look on this as "the pastures fair," and be thankful. I hope I was not unthankful.'</p>
@@ -3919,64 +4116,179 @@ time, and had patiently put up with the injustice, and the loss of the scholarsh
 <p>And there was no helping it; the first kiss between Margaret May, and Margaret Rivers, was given in that overflowing sympathy of congratulation.</p>
 <p>The Doctor gave her his arm to take her to the carriage, and, on the way, his quick warm words filled up the sketch of Norman's behaviour; Meta's eyes responded better than her tongue, but, to her good-bye, she could not help adding, 'Now I <hi rend="italic">have</hi> seen true glory.'</p>
 <p>His answer was much such a gripe as her poor little fingers had already received, but though they felt hot and crushed, all the way home, the sensation seemed to cause such throbs of joy, that she would not have been without it.</p>
-<p>CHAPTER XXVII.</p>
-<p>*'And full of hope, day followed day,</p>
-<p>While that stout ship at anchor lay</p>
-<p>Beside the shores of Wight.</p>
-<p>The May had then made all things green,</p>
-<p>And floating there, in pomp serene,</p>
-<p>That ship was goodly to be seen,</p>
-<p>His pride and his delight.</p>
-<p>Yet then when called ashore, he sought</p>
-<p>The tender peace of rural thought,</p>
-<p>In more than happy mood.</p>
-<p>To your abodes, bright daisy flowers,</p>
-<p>He then would steal at leisure hours,</p>
-<p>And loved you, glittering in your bowers,</p>
-<p>A starry multitude.'</p>
-<p>WORDSWORTH.*</p>
-<p>HARRY'S last home morning was brightened by going to the school to see full justice done to Norman, and enjoying the scene for him. It was indeed a painful ordeal to Norman himself, who could, at the moment, scarcely feel pleasure in his restoration, excepting for the
+</div>
+<div id="cy1daisy037" type="chapter" n="27">
+<head>CHAPTER XXVII.</head>
+<epigraph><cit><q><lg type="stanza">
+<l>'And full of hope, day followed day,</l>
+<l>While that stout ship at anchor lay</l>
+<l>Beside the shores of Wight.</l>
+<l>The May had then made all things green,</l>
+<l>And floating there, in pomp serene,</l>
+<l>That ship was goodly to be seen,</l>
+<l>His pride and his delight.</l>
+</lg>
+<lg type="stanza">
+<l>Yet then when called ashore, he sought</l>
+<l>The tender peace of rural thought,</l>
+<l>In more than happy mood.</l>
+<l>To your abodes, bright daisy flowers,</l>
+<l>He then would steal at leisure hours,</l>
+<l>And loved you, glittering in your bowers,</l>
+<l>A starry multitude.'</l></lg></q>
+<bibl>WORDSWORTH.</bibl></cit></epigraph>
+<p>HARRY'S last home morning was brightened by going to the school to
+see full justice done to Norman, and enjoying the scene for him. It
+was indeed a painful ordeal to Norman himself, who could, at the
+moment, scarcely feel pleasure in his restoration, excepting for the
 <pb n="289 THE DAISY CHAIN."/>
-sake of his father, Harry, and his sisters. To find the head master making apologies to him, was positively painful and embarrassing, and his countenance would have been fitter for a culprit receiving a lecture. It was pleasanter when the two other masters shook hands with him, Mr. Harrison with a free confession that he had done him injustice, and Mr. Wilmot with a glad look of congratulation, that convinced Harry he had never believed Norman to blame.</p>
-<p>Harry himself was somewhat of a hero; the masters all spoke to him, bade him good speed, and wished him a happy voyage, and all the boys were eager to admire his uniform, and wish themselves already men and officers like Mr. May. He had his long-desired three cheers for 'May Senior!' shouted with a thorough good-will by the united lungs of the Whichcote foundation, and a supplementary cheer arose for the good ship Alcestis, while hands were held out on every side; and the boy arrived at such a pitch of benevolence and good humour, as actually to volunteer a friendly shake of the hand to Edward Anderson, whom he encountered skulking apart.</p>
-<p>'Never mind, Ned, we have often licked each other before now, and don't let us bear a grudge now I am going away. We are Stoneborough fellows both, you know, after all.'</p>
-<p>Edward did not refuse the offered grasp, and though his words were only, 'Good-bye, I hope you will have plenty of fun!' Harry went away with a lighter heart.</p>
-<p>The rest of the day Harry adhered closely to his father, though chiefly in silence; Dr. May had intended much advice and exhortation for his warm-hearted, wild-spirited son, but words would not come, not even when in the still evening twilight they walked down alone together to the cloister, and stood over the little stone marked M. M. After standing there for some minutes, Harry knelt to collect some of the daisies in the grass.</p>
+sake of his father, Harry, and his sisters. To find the head master
+making apologies to him, was positively painful and embarrassing, and
+his countenance would have been fitter for a culprit receiving a
+lecture. It was pleasanter when the two other masters shook hands with
+him, Mr. Harrison with a free confession that he had done him
+injustice, and Mr. Wilmot with a glad look of congratulation, that
+convinced Harry he had never believed Norman to blame.</p>
+<p>Harry himself was somewhat of a hero; the masters all spoke to him,
+bade him good speed, and wished him a happy voyage, and all the boys
+were eager to admire his uniform, and wish themselves already men and
+officers like Mr. May. He had his long-desired three cheers for 'May
+Senior!' shouted with a thorough good-will by the united lungs of the
+Whichcote foundation, and a supplementary cheer arose for the good
+ship Alcestis, while hands were held out on every side; and the boy
+arrived at such a pitch of benevolence and good humour, as actually to
+volunteer a friendly shake of the hand to Edward Anderson, whom he
+encountered skulking apart.</p>
+<p>'Never mind, Ned, we have often licked each other before now, and
+don't let us bear a grudge now I am going away. We are Stoneborough
+fellows both, you know, after all.'</p>
+<p>Edward did not refuse the offered grasp, and though his words were
+only, 'Good-bye, I hope you will have plenty of fun!' Harry went away
+with a lighter heart.</p>
+<p>The rest of the day Harry adhered closely to his father, though
+chiefly in silence; Dr. May had intended much advice and exhortation
+for his warm-hearted, wild-spirited son, but words would not come, not
+even when in the still evening twilight they walked down alone
+together to the cloister, and stood over the little stone marked
+M. M. After standing there for some minutes, Harry knelt to collect
+some of the daisies in the grass.</p>
 <p>'Are those to take with you?'</p>
 <p>'Margaret is going to make a Cross of them for my Prayer-book.'</p>
-<p>'Aye, they will keep it in your mind--say it all to you, Harry. She may be nearer to you everywhere, though' you are far from us. Don't put yourself from her.'</p>
-<p>That was all Dr. May contrived to say to his son, nor could Margaret do much more than kiss him, while tears flowed one by one over her cheeks, as she tried to whisper that he must remember and guard himself, and that he was sure of being thought of, at least, in every prayer; and then she fastened into his book the Cross, formed of flattened daisies, gummed upon a framework of paper. He begged her to place it at the Baptismal Service, for he said, 'I like that about fighting--and I always did like the Church being like a ship
+<p>'Aye, they will keep it in your mind--say it all to you, Harry. She
+may be nearer to you everywhere, though' you are far from us. Don't
+put yourself from her.'</p>
+<p>That was all Dr. May contrived to say to his son, nor could
+Margaret do much more than kiss him, while tears flowed one by one
+over her cheeks, as she tried to whisper that he must remember and
+guard himself, and that he was sure of being thought of, at least, in
+every prayer; and then she fastened into his book the Cross, formed of
+flattened daisies, gummed upon a framework of paper. He begged her to
+place it at the Baptismal Service, for he said, 'I like that about
+fighting--and I always did like the Church being like a ship
 <pb n="290 THE DAISY CHAIN."/>
 --don't you? I only found that prayer out the day poor little Daisy was Christened.'</p>
-<p>Margaret had indeed a thrill of melancholy pleasure in this task, when she saw how it was regarded. Oh! that her boy might not lose these impressions amid the stormy waves he was about to encounter.</p>
-<p>That last evening of home good nights cost Harry many a choking sob ere he could fall asleep; but the morning of departure had more cheerfulness; the pleasure of patronizing Jem Jennings was as consoling to his spirits, as was to Mary the necessity of comforting Toby.</p>
-<p>Toby's tastes were in some respects vulgar, as he preferred the stable, and Will Adams, to all Mary's attentions; but he attached himself vehemently to Dr. May, followed him everywhere, and went into raptures at the slightest notice from him. The Doctor said it was all homage to the master of the house. Margaret held that the dog was a physiognomist.</p>
-<p>The world was somewhat flat after the loss of Harry--that element of riot and fun--Aubrey was always playing at 'poor Harry sailing away,' Mary looked staid and sober, and Norman was still graver, and more devoted to books, while Ethel gave herself up more completely to the thickening troubles of Cocksmoor.</p>
-<p>Jealousies had arisen there, and these, with some rebukes for failures in sending children to be taught, had led to imputations on the character of Mrs. Green, in whose house the school was kept. Ethel was at first vehement in her defence; then when stronger evidence was adduced of the woman's dishonesty, she was dreadfully shocked, and wanted to give up all connexion with her, and in both moods was equally displeased with Richard for pausing, and not going all lengths with her.</p>
-<p>Mr. Wilmot was appealed to, and did his best to investigate, but the only result was, to discover that no one interrogated, had any notion of truth, except John Taylor, and he knew nothing of the matter. The mass of falsehood, spite, violence, and dishonesty, that became evident, was perfectly appalling, and not a clue was to be found to the truth--scarcely a hope that minds so lost to honourable feeling were open to receive good impressions. It was a great distress to Ethel--it haunted her night and day--she lay awake pondering on the vain hopes for her poor children, and slept to dream of the angry faces and rude accusations. Margaret grew quite anxious about her, and her elders were seriously considering the propriety of her continuing her labours at Cocksmoor.</p>
-<p>Mr. Wilmot would not be at Stoneborough after Christmas. His father's declining health made him be required at home, and since
+<p>Margaret had indeed a thrill of melancholy pleasure in this task,
+when she saw how it was regarded. Oh! that her boy might not lose
+these impressions amid the stormy waves he was about to
+encounter.</p>
+<p>That last evening of home good nights cost Harry many a choking sob
+ere he could fall asleep; but the morning of departure had more
+cheerfulness; the pleasure of patronizing Jem Jennings was as
+consoling to his spirits, as was to Mary the necessity of comforting
+Toby.</p>
+<p>Toby's tastes were in some respects vulgar, as he preferred the
+stable, and Will Adams, to all Mary's attentions; but he attached
+himself vehemently to Dr. May, followed him everywhere, and went into
+raptures at the slightest notice from him. The Doctor said it was all
+homage to the master of the house. Margaret held that the dog was a
+physiognomist.</p>
+<p>The world was somewhat flat after the loss of Harry--that element
+of riot and fun--Aubrey was always playing at 'poor Harry sailing
+away,' Mary looked staid and sober, and Norman was still graver, and
+more devoted to books, while Ethel gave herself up more completely to
+the thickening troubles of Cocksmoor.</p>
+<p>Jealousies had arisen there, and these, with some rebukes for
+failures in sending children to be taught, had led to imputations on
+the character of Mrs. Green, in whose house the school was kept. Ethel
+was at first vehement in her defence; then when stronger evidence was
+adduced of the woman's dishonesty, she was dreadfully shocked, and
+wanted to give up all connexion with her, and in both moods was
+equally displeased with Richard for pausing, and not going all lengths
+with her.</p>
+<p>Mr. Wilmot was appealed to, and did his best to investigate, but
+the only result was, to discover that no one interrogated, had any
+notion of truth, except John Taylor, and he knew nothing of the
+matter. The mass of falsehood, spite, violence, and dishonesty, that
+became evident, was perfectly appalling, and not a clue was to be
+found to the truth--scarcely a hope that minds so lost to honourable
+feeling were open to receive good impressions. It was a great distress
+to Ethel--it haunted her night and day--she lay awake pondering on the
+vain hopes for her poor children, and slept to dream of the angry
+faces and rude accusations. Margaret grew quite anxious about her, and
+her elders were seriously considering the propriety of her continuing
+her labours at Cocksmoor.</p>
+<p>Mr. Wilmot would not be at Stoneborough after Christmas. His
+father's declining health made him be required at home, and since
 <pb n="291 THE DAISY CHAIN."/>
-Richard was so often absent, it became matter of doubt whether the Miss Mays ought to be allowed to persevere, unassisted by older heads, in such a locality.</p>
-<p>This doubt put Ethel into an agony. Though she had lately been declaring that it made her very unhappy to go--she could not bear the sight of Mrs. Green, and that she knew all her efforts were vain while the poor children had such homes; she now only implored to be allowed to go on; she said that the badness of the people only made it more needful to do their utmost for them--there were no end to the arguments that she poured forth upon her ever kind listener, Margaret.</p>
-<p>'Yes, dear Ethel, yes, but pray be calm; I know papa and Mr. Wilmot would not put a stop to it, if they could possibly help it, but if it is not proper--'</p>
+Richard was so often absent, it became matter of doubt whether the
+Miss Mays ought to be allowed to persevere, unassisted by older heads,
+in such a locality.</p>
+<p>This doubt put Ethel into an agony. Though she had lately been
+declaring that it made her very unhappy to go--she could not bear the
+sight of Mrs. Green, and that she knew all her efforts were vain while
+the poor children had such homes; she now only implored to be allowed
+to go on; she said that the badness of the people only made it more
+needful to do their utmost for them--there were no end to the
+arguments that she poured forth upon her ever kind listener,
+Margaret.</p>
+<p>'Yes, dear Ethel, yes, but pray be calm; I know papa and Mr. Wilmot
+would not put a stop to it, if they could possibly help it, but if it
+is not proper--'</p>
 <p>'Proper! that is as bad as Miss Winter!'</p>
 <p>'Ethel, you and I cannot judge of these things--you must leave them to our elders--'</p>
 <p>'And men always are so fanciful about ladies--'</p>
 <p>' Indeed, if you speak in that way, I shall think it is really hurting you.'</p>
-<p>'I did not mean it, dear Margaret,' said Ethel, 'but if you knew what I feel for poor Cocksmoor, you would not wonder that I cannot bear it.'</p>
-<p>'I do not wonder, dearest, but if this trial is sent you, perhaps it is to train you for better things.'</p>
-<p>'Perhaps it is for my fault,' said Ethel. 'Oh! oh! if it be that I am too unworthy. And it is the only hope; no one will do anything to teach these poor creatures, if I give it up. What shall I do, Margaret?'</p>
-<p>Margaret drew her down close to her, and whispered, 'Trust them, Ethel dear. The decision will be whatever is the will of God. If He thinks fit to give you the work, it will come; if not, He will give you some other, and provide for them.'</p>
-<p>'If I have been too neglectful of home, too vain of persevering when no one but Richard would,' sighed Ethel.</p>
-<p>'I cannot see that you have, dearest,' said Margaret, fondly, 'but your own heart must tell you that. And now, only try to be calm and patient. Getting into these fits of despair is the very thing to make people decide against you.'</p>
-<p>'I will! I will! I will try to be patient,' sobbed Ethel; 'I know to be wayward and set on it would only hurt. I might only do more harm--I'll try. But oh! my poor children.'</p>
-<p>Margaret gave a little space for the struggle with herself, then advised her resolutely to fix her attention on something else. It
+<p>'I did not mean it, dear Margaret,' said Ethel, 'but if you knew
+what I feel for poor Cocksmoor, you would not wonder that I cannot
+bear it.'</p>
+<p>'I do not wonder, dearest, but if this trial is sent you, perhaps
+it is to train you for better things.'</p>
+<p>'Perhaps it is for my fault,' said Ethel. 'Oh! oh! if it be that I
+am too unworthy. And it is the only hope; no one will do anything to
+teach these poor creatures, if I give it up. What shall I do,
+Margaret?'</p>
+<p>Margaret drew her down close to her, and whispered, 'Trust them,
+Ethel dear. The decision will be whatever is the will of God. If He
+thinks fit to give you the work, it will come; if not, He will give
+you some other, and provide for them.'</p>
+<p>'If I have been too neglectful of home, too vain of persevering
+when no one but Richard would,' sighed Ethel.</p>
+<p>'I cannot see that you have, dearest,' said Margaret, fondly, 'but
+your own heart must tell you that. And now, only try to be calm and
+patient. Getting into these fits of despair is the very thing to make
+people decide against you.'</p>
+<p>'I will! I will! I will try to be patient,' sobbed Ethel; 'I know
+to be wayward and set on it would only hurt. I might only do more
+harm--I'll try. But oh! my poor children.'</p>
+<p>Margaret gave a little space for the struggle with herself, then
+advised her resolutely to fix her attention on something else. It
 <pb n="292 THE DAISY CHAIN."/>
-was a Saturday morning, and time was more free than usual, so Margaret was able to persuade her to continue a half-forgotten drawing, while listening to an interesting article in a review, which opened to her that there were too many Cocksmoors in the world.</p>
-<p>The dinner hour sounded too soon, and, as she was crossing the hall, to put away her drawing materials, the front door gave the click peculiar to Dr. May's left-handed way of opening it. She paused, and saw him enter, flushed, and with a look that certified her that something had happened.</p>
+was a Saturday morning, and time was more free than usual, so Margaret
+was able to persuade her to continue a half-forgotten drawing, while
+listening to an interesting article in a review, which opened to her
+that there were too many Cocksmoors in the world.</p>
+<p>The dinner hour sounded too soon, and, as she was crossing the
+hall, to put away her drawing materials, the front door gave the click
+peculiar to Dr. May's left-handed way of opening it. She paused, and
+saw him enter, flushed, and with a look that certified her that
+something had happened.</p>
 <p>'Well, Ethel! he is come.'</p>
 <p>'Oh papa! Mr. Ernes--'</p>
-<p>He held up his finger, drew her into the study, and shut the door. The expression of mystery and amusement gave way to sadness and gravity as he sat down in his arm-chair, and sighed as if much fatigued. She was checked and alarmed, but she could not help asking, 'Is he here?'</p>
+<p>He held up his finger, drew her into the study, and shut the
+door. The expression of mystery and amusement gave way to sadness and
+gravity as he sat down in his arm-chair, and sighed as if much
+fatigued. She was checked and alarmed, but she could not help asking,
+'Is he here?'</p>
 <p>'At the Swan. He came last night, and watched for me this morning, as I came out of the hospital. We have been walking over the meadows to Fordholm.'</p>
 <p>No wonder Dr. May was hot and tired.</p>
 <p>'But is he not coming?' asked Ethel.</p>
@@ -4071,12 +4383,15 @@ consolingly to her father, she went up to Flora, who had been a voluntary prison
 <p>In truth, the next ten days were very happy. The future was left to rest, and Alan spent his mornings in the drawing-room alone with Margaret, and looked ever more brightly placid, while, with the rest, he was more than the former kind play-fellow, for he now took his place as the affectionate elder brother, entering warmly into all their schemes and pleasures, and winning for himself a full measure
 <pb n="299 THE DAISY CHAIN."/>
 of affection from all; even his little god-daughter began to know him, and smile at his presence. Margaret and Ethel especially delighted in the look of enjoyment with which their father sat down to enter on the evening's conversation after the day's work; and Flora was well-pleased that Mrs. Hoxton should find Alan in the drawing-room, and ask afterwards about his estate; and that Meta Rivers, after being certified that this was <hi rend="italic">their</hi> Mr. Ernescliffe, pronounced that her papa thought him particularly pleasing and gentlemanlike. There was something dignified in having a sister on the point of being engaged.</p>
-<p>CHAPTER XXVIII.</p>
-<p>*'Sail forth into the sea, thou ship,</p>
-<p>Through breeze and cloud, right onward steer;</p>
-<p>The moistened eye, the trembling lip</p>
-<p>Are not the signs of doubt or fear!'</p>
-<p>LONGFELLOW.*</p>
+</div>
+<div id="cy1daisy038" type="chapter" n="28">
+<head>CHAPTER XXVIII.</head>
+<epigraph><cit><q><lg type="stanza">
+<l>'Sail forth into the sea, thou ship,</l>
+<l>Through breeze and cloud, right onward steer;</l>
+<l>The moistened eye, the trembling lip</l>
+<l>Are not the signs of doubt or fear!'</l></lg></q>
+<bibl>LONGFELLOW.</bibl></cit></epigraph>
 <p>TRANQUILLITY only lasted until Mr. Ernescliffe found it necessary to understand on what terms he was to stand. Everyone was tender of conscience, anxious to do right, and desirous to yield to the opinion that nobody could, or would give. While Alan begged for a positive engagement, Margaret scrupled to exchange promises that she might never be able to fulfil, and both agreed to leave all to her father, who, in every way, ought to have the best ability to judge whether there was unreasonable presumption in such a betrothal; but this very ability only served to perplex the poor Doctor more and more. It is far easier for a man to decide when he sees only one bearing of a case, than when, like Dr. May, he not only sees them, but is rent by them in his inmost heart. Sympathizing in turn with each lover, bitterly accusing his own carelessness as the cause of all their troubles, his doubts contending with his hopes, his conviction clashing with Sir Matthew Fleet's opinion, his conscientious sincerity and delicacy conflicting with his affection and eagerness, he was perfectly incapable of coming to a decision, and suffered so cruelly, that Margaret was doubly distressed for his sake, and Alan felt himself guilty of having rendered everybody miserable.</p>
 <pb n="300 THE DAISY CHAIN "/>
 <p>Dr. May could not conceal his trouble, and rendered Ethel almost as unhappy as himself, after each conversation with her, though her hopes usually sprang up again, and she had a happy conviction that this was only the second volume of the novel. Flora was not often called into his councils; confidence never came spontaneously from Dr. May to her; there was something that did not draw it forth towards her, whether it resided in that half-sarcastic corner of her steady blue eye, or in the grave common sense of her gentle voice. Her view of the case was known to be that there was no need for so much perplexity--why should not Alan be the best judge of his own happiness? If Margaret were to be delicate for life, it would be better to have such a home to look to; and she soothed and comforted Margaret, and talked in a strain of unmixed hope and anticipation that often drew a smile from her sister, though she feared to trust to it.</p>
@@ -4134,8 +4449,9 @@ which Richard and Flora would fain have checked; but Margaret let them continue,
 <p>To Mary was sent a daguerreotype of Harry; her glory and delight. Say, who would, that it had pig's eyes, a savage frown, a pudding chin, there were his own tight rings of hair, his gold-banded cap, his bright buttons, how could she prize it enough? She exhibited it to the little ones ten times a day, she kissed it night and morning, and registered her vow always to sleep with it under her 'pilow,' in a letter of thanks, which Margaret defended and despatched, in spite of Miss Winter's horrors at its disregard of orthography.</p>
 <pb n="305 THE DAISY CHAIN."/>
 <p>It was nearly the last letter before the Alcestis was heard of at Spithead. Then she sailed; she sent in her letters to Plymouth, and her final greetings by a Falmouth cutter--poor Harry's wild scrawl in pencil, looking very sea-sick.</p>
-<p>*'Dear papa and all, good-bye. We are out of sight of land. Three years, and keep up a good heart. I shall soon be all right.</p>
-<p>Your H. MAY.'*</p>
+<q><text><body>
+<opener><salute>'Dear papa and all,</salute></opener><p> good-bye. We are out of sight of land. Three years, and keep up a good heart. I shall soon be all right.</p>
+<closer><salute>Your</salute> <signed>H. MAY.'</signed></closer></body></text></q>
 <p>It was inclosed in Mr. Ernescliffe's envelope, and with it came tidings that Harry's brave spirit was not failing, even under unto-ward circumstances, but he had struggled on deck, and tried to write, when all his contemporaries had given in; in fact, he was a fine fellow--everyone liked him, and Captain Gordon, though chary of commendation, had held him up to the other youngsters as an example of knowing what a sailor was meant to be like.</p>
 <p>Margaret smiled, and cried over the news when she imparted it--but all serenely--and though she was glad to be alone, and wrote journals for Alan, when she could not send letters, she exerted herself to be the same sister as usual to the rest of the household, and not to give way to her wandering musings.</p>
 <p>From one subject her attention never strayed. Ethel had never found any lack of sympathy in her for her Cocksmoor pursuits; but the change now showed, that where once Margaret had been interested, merely as a kind sister, she now had a personal concern, and she threw herself into all that related to it as her own chief interest and pursuit--becoming the foremost in devising plans, and arranging the best means of using Mr. Ernescliffe's benefaction.</p>
@@ -4177,10 +4493,12 @@ one of the long engagements that often extend over half the life of a servant, e
 <p>And Margaret lay questioning with herself, whether the school-mistress had not been the most self-denying of the two; but withal gazing on the hoop of pearls which Alan had chosen as the ring of betrothal.</p>
 <pb n="309 THE DAISY CHAIN."/>
 <p>'The Pearl of great price,' murmured she to herself; 'if we hold that, the rest will soon matter but little! It remaineth that both they that have wives, be as they that have none, and they that weep, as though they wept not, and they that rejoice, as though they rejoiced not! If ever Alan and I have a home together upon earth, may all too confident joy be tempered by the fears that we have begun with! I hope this probation may make me less likely to be taken up with the cares and pleasures of his position, than I might have been last year. He is one who can best help the mind to go truly upward! But, oh! that voyage!'</p>
-<p>CHAPTER XXIX.</p>
-<p>*'Heart affluence in household talk,</p>
-<p>From social fountains never dry.'</p>
-<p>TENNYSON.*</p>
+</div>
+<div id="cy1daisy039" type="chapter" n="29">
+<head>CHAPTER XXIX.</head>
+<epigraph><cit><q><l>'Heart affluence in household talk,</l>
+<l>From social fountains never dry.'</l></q>
+<bibl>TENNYSON.</bibl></cit></epigraph>
 <p>'WHAT a bore!'</p>
 <p>'What's the matter now?'</p>
 <p>'Here has this old fellow asked me to dinner again!'</p>
@@ -4354,12 +4672,15 @@ the only events that, in their imagination, the world could furnish. Going to tr
 <pb n="319 THE DAISY CHAIN."/>
 <p>When they met the next morning, the excitement had passed from Norman's manner, but he looked dejected and resigned. He had made up his mind to lose, and was not grateful for good wishes; he ought never to have thought, he said, of competing with men from public-schools, and he knew his return of love of vain-glory deserved that he should fail. However, he was now calm enough not to be likely to do himself injustice by nervousness, and Margaret had hopes that Richard's steady equable mind, would have a salutary influence. So, commending Tom's lessons to Ethel, and hearing, but not marking, countless messages to Richard, he set forth upon <hi rend="italic">emprise</hi> while his anxiety seemed to remain as a legacy for those at home.</p>
 <p>Poor Dr. May confessed that his practice by no means agreed with his precept, for he could think of nothing else, and was almost as bad as Norman, in his certainty that the boy would fall from mere nervousness. Margaret was the better companion for him now, attaching less intensity of interest to Norman's success, than did Ethel; she was the more able to compose him, and cheer his hopes.</p>
-<p>CHAPTER XXX.</p>
-<p>*'Weary soul, and burdened sore,</p>
-<p>Labouring with thy secret load,</p>
-<p>Fear not all thy griefs to pour</p>
-<p>In this heart, love's true abode.'*</p>
-<p>LYRA INNOCENTIUM.</p>
+</div>
+<div id="cy1daisy040" type="chapter" n="30">
+<head>CHAPTER XXX.</head>
+<epigraph><cit><q><lg type="stanza">
+<l>'Weary soul, and burdened sore,</l>
+<l>Labouring with thy secret load,</l>
+<l>Fear not all thy griefs to pour</l>
+<l>In this heart, love's true abode.'</l></lg></q>
+<bibl>LYRA INNOCENTIUM.</bibl></cit></epigraph>
 <p>Tea had just been brought in on the eighth evening from Tom's departure, when there was a ring at the bell. There was a start, and look for expectation. 'Only a patient,' said the Doctor; but it surely was not for that reason that he rose with so much alacrity and opened the door, nor was 'Well, old fellow?' the greeting for his patients-so everybody sprang after him, and beheld something tall taking off a coat, while a voice said, 'I have got it.'</p>
 <p>The mass of children rushed back to Margaret, screaming. 'He has got it!' and then Aubrey trotted out into the hall again to see what Norman had got.</p>
 <p>'A happy face at least,' said Margaret, as he came to her. And that was not peculiar to Norman. The radiance had shone out
@@ -4506,4 +4827,7 @@ He had not thought of such things, and then Axworthy--It was more evident from m
 but Hector boldly standing his ground, with Blanche in his hand, the woodman discovered that here was the Miss Mary, of whom his little girls talked so much, thereupon cut down the choicest boughs, and promised to leave a full supply at Dr. May's. Margaret could have been angry at the taking the young ladies on so mad a scheme, but then Mary was so happy, and as to Hector, how scold him, when he had lifted Blanche over every ditch, and had carried her home one mile on his back, and another, Queen's-cushion fashion, between him and Mary?</p>
 <p>Flora, meanwhile, went her own way. The desire of compensating for what had past with Norman, led to great civilities from Dr. and Mrs. Hoxton, which nobody was at liberty to receive except Flora. Pretty, graceful, and pleasing, she was a valuable companion to a gentle little, inane lady, with more time and money than she knew what to do with; and Mrs. Hoxton, who was of a superior grade to the Stoneborough ladies in general, was such a chaperon as Flora was glad to secure. Dr. May's old loyal feelings could not help regarding her notice of his daughter as a favour and kindness, and Margaret could find no tangible objections, nor any precedent from her mother's conduct, even had anyone had the power to interfere with one so quiet, reasonable, and determined as Flora.</p>
 <p>So the intimacy became closer and closer, and as the winter passed on, Flora gradually became established as the dear friend and assistant, without whom Mrs. Hoxton could give no party. Further, Flora took the grand step of setting up a copperplate and cards of 'Miss Flora May,' went out frequently on morning calls with Mrs. Hoxton and her bay horses, and when Dr. May refused his share of invitations to dinner with the neighbours in the country, Flora generally found that she could go under the Hoxtons' guardianship.</p>
-<p>
+</div>
+</body>
+</text>
+</TEI.2>
