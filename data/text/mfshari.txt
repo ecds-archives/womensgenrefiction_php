@@ -102,14 +102,14 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </teiHeader>
 <text>
 <front>
-<pb n="[ii]" entity="***" pages="Advert"/>
+<pb n="[ii]"/>
 <div id="mfshari0001" type="advert">
-<figure entity="***" rend="inline">
-<figDesc>An image of an advertisement, "Popular Novels by May Agnes Fleming" in the front of <title>Sharing
-Her Crime</title>.</figDesc></figure>
+<figure entity="mfshariad" rend="inline">
+<figDesc>An image of an advertisement, "Popular Novels by May Agnes
+Fleming" in the front of <title>Sharing Her Crime</title>.</figDesc></figure>
 </div>
-<pb n="[iii]" entity="***" pages="Title Page"/>
-<titlePage>
+<pb entity="mfsharitp" pages="Title Page" n="[iii]"/>
+<titlePage type="full">
 <docTitle>
 <titlePart type="main">SHARING HER CRIME</titlePart>
 <titlePart type="sub">A NOVEL</titlePart>
@@ -125,7 +125,6 @@ ETC. ETC</byline>
 <l>To warn, to comfort, and command;</l>
 <l>And yet a spirit still and bright,</l>
 <l>With something of an angel light."</l></lg></q></epigraph>
-
 <docImprint>
 <pubPlace>NEW YORK:</pubPlace>
 <publisher>G. W. Dillingham, Publisher,</publisher>
@@ -134,23 +133,21 @@ ETC. ETC</byline>
 <date>MDCCCLXXXVIII</date>
 </docImprint>
 </titlePage>
-<pb n="[iv]" entity="***" pages="Copyright"/>
-
+<pb n="[iv]"/>
 <div type="copyright" id="mfshari0002">
-<figure entity="***" rend="inline">
+<figure entity="mfsharicr" rend="inline">
 <figDesc>Copyright page for Fleming's <title>Sharing Her
 Crime</title></figDesc>
 </figure>
 </div>
-
 <pb n="v"/>
 <div type="table of contents" id="mfshari0003">
-<figure entity="***" rend="inline">
+<figure entity="mfsharitc1" rend="inline">
 <figDesc>The table of contents for Fleming's <title>Sharing Her
 Crime</title>.</figDesc>
 </figure>
 <pb n="vi"/>
-<figure entity="***" rend="inline">
+<figure entity="mfsharitc2" rend="inline">
 <figDesc>The table of contents, continued, for Fleming's <title>Sharing Her
 Crime</title>.</figDesc>
 </figure>
@@ -1552,7 +1549,6 @@ stairs, and scolding, and shouting, and singing all in one burst, now. The squir
 <p>"Fall in love with any one else," indeed! Master Archie scorned the idea, and began to have sundry visions of joining the monks of La Trappe as soon as he grew old enough. This and his other threats of going to sea, of enlisting, of killing somebody, by way of relieving his spirits, kept poor Celeste trembling with fear for him from morning till night. And in her own gentle way she would put her arms round his neck and cry on his shoulder, and beg of him not to say such naughty things, for that Gipsy would come back yet--she <hi rend="italic">knew</hi> that she would.</p>
 <p>But Minnette, who didn't care a straw whether Gipsy ever came back or not, would laugh her short, deriding laugh, and advise him to become a Sister of Charity at once. And Celeste said <hi rend="italic">she</hi> would be one when she grew
 <pb n="139 THE 'STAR OF THE VALLEY.'"/>
-
 up, and then she would be always near to comfort him. And Minnette's taunts always sent poor Archie off to the woods in a more heart-broken state of mind than ever before.
 </p>
 </div>
