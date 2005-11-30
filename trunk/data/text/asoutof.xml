@@ -9,6 +9,7 @@
 				<author><name type="person"
 					      reg="Sergeant, Adeline, 1851-1904">Adeline Sergeant</name></author>
 			</titleStmt>
+<extent>350kb</extent>
 			<publicationStmt>
 				<publisher>Emory University, Lewis
 				H. Beck Center</publisher>
@@ -73,14 +74,14 @@ added by the encoder and do not appear in the original text.</p>
         <rs type="ethnicity">Caucasian</rs>
         <rs type="form">Unedited</rs>
         <rs type="genre">Novel</rs>
-        <rs type="geography">United States</rs>
+        <rs type="geography">Great Britain</rs>
         <date>1800-1899</date>
       </creation>
       <textClass>
         <keywords scheme="lcsh">
           <list>
-            <item>American literature--19th Century--Fiction.</item>
-            <item>Women authors, American--19th Century.</item>
+            <item>British literature--19th Century--Fiction.</item>
+            <item>Women authors, British--19th Century.</item>
             <item>Prostitution.</item>
             <item>Marital conflict.</item>
             <item>Infidelity, marital.</item>
@@ -101,7 +102,7 @@ added by the encoder and do not appear in the original text.</p>
   </teiHeader>
 	<text id="asoutof1204">
 		<front id="asoutof1202">
-		  <pb entity="***" pages="***"/>
+		  <pb/>
 			<titlePage type="half">
 				<docTitle>
 					<titlePart
@@ -109,14 +110,14 @@ added by the encoder and do not appear in the original text.</p>
 					Town and Country Library No. 176</titlePart>
 				</docTitle>
 			</titlePage>
-			<pb entity="***" pages="***"/>
+			<pb entity="asoutoftp" pages="Title Page"/>
 			<titlePage type="full">
 			  <docTitle>
 			    <titlePart type="main">OUT OF DUE
-			    SEASON<lb/>
-			    A MEZZOTINT</titlePart></docTitle>
+			    SEASON</titlePart>
+			    <titlePart type="sub">A MEZZOTINT</titlePart></docTitle>
 			    <byline>BY<lb/>
-			    ADELINE SERGEANT<lb/>
+			    <docAuthor>ADELINE SERGEANT</docAuthor><lb/>
 			    AUTHOR OF <lb/>THE MISTRESS OF THE QUEST,
 			    THE STORY OF A PENITENT SOUL,
 			    ETC.</byline>
@@ -133,7 +134,7 @@ added by the encoder and do not appear in the original text.</p>
 			</titlePage>
 			<pb/>
 			<div id="asoutof0001" type="copyright">
-			  <figure entity="***" rend="inline">
+			  <figure entity="asoutofcr" rend="inline">
 			    <figDesc>Copyright information included
 			    in Sergeant's <hi rend="italic">Out of
 			    Dues Season</hi>.</figDesc>
@@ -144,7 +145,6 @@ added by the encoder and do not appear in the original text.</p>
 			<pb n="1"/>
 			<div id="asoutof0002" n="1" type="chapter">
 				<head>OUT OF DUE SEASON.<lb/>
-			
 				I.</head>
 				<epigraph>
 					<q>"Little, unremembered acts&#x2014;&#x2014;"</q>
@@ -984,11 +984,9 @@ steadily and calmly on the heated, excited counte-
 				<p>Obed picked up the letter and straightened it out between his shaking fingers.</p>
 				<p>"You can read it," Gideon
 				muttered. And Obed read.</p>
-****<!-- check this mark-up please -->
 				<q><text><body><p>"When you get this letter," Emmy had written, "I shall be far away, and you need not look for me, for you will never find me, and I do not want to see you any more. I have found someone who loves me better than you ever did, and I have given up everything for his sake. You had better <pb n="172 OUT OF DUE SEASON"/>forget me as soon as you can&#x2014;I dare say it won't be difficult. I hope you will always be kind to Jacky, and think no more of</p>
-				<signed>
-					<name>"EMMY."</name>
-				</signed></body></text></q>
+				<closer><signed>"EMMY."</signed>
+				</closer></body></text></q>
 				<p>Obed Pilcher-was parish-clerk, and felt himself a pillar of the church, but after reading this letter, it must be recorded that he swore. If his curse could have rested on Emmy's fair false head for ever, and weighed it down to everlasting woe, he would have gladly uttered it again.</p>
 				<p>"Hush!" said Gideon, looking up with haggard eyes. "The boy will hear."</p>
 				<p>"But bean't you going to do something, Gideon? To send after her&#x2014;to punish the man, whoever 'tis&#x2014;&#x2014;"</p>
@@ -1446,15 +1444,13 @@ drawers and left it in the draught. It was a pretty little room,
 				<p>"Dunno. A five-pun note, mebbe. Open it and see," as Gideon made a movement as if to give it back. "Law bless you, I don't know what 'tis."</p>
 				<p>Gideon opened the letter. To his relief, it contained no money, nothing but a few words scrawled in pencil on a half-sheet of paper:
 				<q><text><body>
-					<p>"MISS VIOLET LESLIE,</p>
-
-				<p>191, <hi rend="italic">Coleman Street</hi>,</p>
-				<p>
-					<hi rend="italic">Westminster</hi>,</p>
-				<p>
-					<hi rend="italic">London</hi>, W.</p>
-				<p>"<hi rend="italic">Try this
-				address.&#x2014;G. H</hi>."</p>
+					<opener><salute>"MISS VIOLET LESLIE,</salute>
+				<dateline><address><addrLine>191, <hi rend="italic">Coleman Street</hi>,</addrLine>
+				<addrLine><hi rend="italic">Westminster</hi>,</addrLine>
+<addrLine><hi rend="italic">London</hi>, W.</addrLine></address></dateline></opener>
+			<p>"<hi rend="italic">Try this
+				address.</hi></p><closer><signed>&#x2014;<hi
+				rend="italic">G. H</hi>."</signed></closer>
 </body></text></q></p>
 				<p>Gideon stood looking at the paper. What did it mean? His mind, dazed with excitement and want of sleep, did not move quickly. Who was Miss Violet Leslie? And why should he try that address?</p>
 				<p>"Nothing but a word o' thanks, I s'pose," said the porter. "Them 'igh chaps is sometimes raight down me&#x00E4;n. He moight ha' been burnt to a cinder if you hadn't come along in time. Doctor says it's nobbut a broken leg and a rib or two, and he'll soon put him straight."</p>
@@ -1746,8 +1742,5 @@ she could stand the dulness of life alone with him!</p>
 <trailer>THE END</trailer>
 			</div>
 		</body>
-<back>	
-****Eight pages of advertisements
-</back>
 </text>
 </TEI.2>
