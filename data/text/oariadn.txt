@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
 <TEI.2 id="oariadn1207">
 <teiHeader id="oariadn1201">
@@ -96,16 +95,22 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 <text id="oariadn1205">
 <front id="oariadn1202">
 <div id="oariadn000" type="covers">
-<figure entity="***" rend="inline">
+<figure entity="oariadnfc" rend="inline">
 <figDesc>Front cover of Ouida's <hi
 rend="italic">Ariadne</hi>.</figDesc>
 </figure>
-<figure entity="***" rend="inline">
+<figure entity="oariadnsp" rend="inline">
 <figDesc>Spine of Ouida's <hi rend="italic">Ariadne</hi>.</figDesc>
 </figure>
 </div>
-<pb n="[2]" entity="***" pages="advert"/>
-<pb n="[3]" entity="***" pages="Title Page"/>
+<pb n="[2]"/>
+<div id="oariadn422" type="advert">
+<figure entity="oariadnad" rend="inline">
+<figDesc>Advertisement included in the front of Ouida's <hi
+rend="italic">Ariadne</hi>.</figDesc>
+</figure>
+</div>
+<pb n="[3]" entity="oariadntp" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">ARIADNE</titlePart>
@@ -120,9 +125,14 @@ FLAGS," "IDALIA," ETC.</byline>
 <docDate>1877</docDate>
 </docImprint>
 </titlePage>
-<pb n="[4]" entity="***" pages="copyright"/>
+<pb n="[4]"/>
+<div id="oariadn423" type="copyright">
+<figure entity="oariadncr" rend="inline">
+<figDesc>Copyright information for Ouida's <hi
+rend="italic">Ariadne</hi>.</figDesc>
+</figure>
+</div>
 </front>
-
 <body id="oariadn1203">
 <pb n="5"/>
 <div id="oariadn001" n="1" type="chapter">
@@ -712,7 +722,6 @@ bage-seeking swine. Pippo fried his cutlets by the saints' grace, and kept nigh 
 <p>When I had driven in the last brass nail, there was no sound at all but of their distant singing, and of the falling of the fountain near at hand. It was an hour past midnight, the hour, you know, when the buried and forgotten gods arise, they say, and pass through Rome, weeping, bound together by fetters of dead leaves.</p>
 <p>I laid myself down upon my plank, with Pal&egrave;s curled beneath it, and fell asleep: I dreamed of other lives than this, and in my dreams the nightingales sorrowing for Itys, and the Faun in the fountain-water piping of dead days, mingled themselves together, and told me many things.</p>
 <p>But who cares what they said, or would believe? These are only brown birds and perished fables: so you say! And I am only Crispino the cobbler, stitching at old leather for old Rome.</p>
-
 </div>
 <pb n="63     ARIADNE."/>
 <div  id="oariadn006" type="chapter" n="6">
@@ -3579,7 +3588,6 @@ and gold, like strutting paroquets, standing one above another. No doubt this ki
 <p>He spoke before I could speak.</p>
 <p>"If you were a younger man, you would kill me, would you not?"</p>
 <pb n="322     ARIADNE."/>
-
 <p>His blue eyes were serene, and met mine, but his face was troubled.</p>
 <p>I looked him also full in the face.</p>
 <p>"If I had not promised never to harm you, I would find the means to kill you now, old though I may be."</p>
@@ -3802,7 +3810,6 @@ to the Tiber's side. "Let us go home. I will work there in the tower. You shall 
 <pb n="339     ARIADNE."/>
 <div  id="oariadn0035" type="chapter" n="35">
 <head>CHAPTER XXXV.</head>
-
 <p>THAT very night I made a sculptor's workroom in the tower, and I had brought thither the earths and planes and tools of the glyptic art, and once more that desire to create entered into her without which the soul which has been once possessed by it is dumb as a flute without the breath of man, is empty as a temple whose gods have been overthrown.</p>
 <p>The passion which consumed her would at least find some vent and solace in this,--so I thought; even if, as I feared greatly, the genius in her might no more revive than can a flower that has been scorched by the noon sun and then frozen by the night. I did not know how this might prove; any way, obedient to her wish, I placed within her reach all the material necessaries of sculpture, and left her alone to summon what vision she would. Alas! no visions were possible to her now; on the silver of the sunlight, as on the blackness of the darkness, she saw only one face.</p>
 <p>Shut in her tower, where only the pigeons saw her, flying about the high casements to their homes in the roof, she held communion with that art which now was in her only another form of love. In the marbles she only saw his features and his form: as the soft winds touched her cheek, she thought of his kisses; when the stars shone on her, she thought only of his eyes. Love is an absolute possession of all the senses and all the soul, or it is nothing.</p>
@@ -3883,7 +3890,7 @@ eternal night of subterranean Rome. It was a religion, an instinct, and a paradi
 <p>She knew this, she who had been trained by Maryx; and even had she forgotten his teachings, her own genius, cast on broad and noble lines, would have obeyed the axiom by instinct.</p>
 <p>I stood silent and amazed before the statue: amazed because the spiritualized and perfect beauty given in it to Hilarion seemed to me the most amazing pardon that a woman's forgiveness ever on this earth bestowed; silent, because I, who had dwelt among sculptors all my years, could never have conceived it possible for her to give to any shape of stone such vitality, such proportion, such anatomical perfection, such personal sublimity, as were all here.</p>
 <p>It was a great work; it would have been great in Athens, and was how much greater in this modern age! And she was only a woman, and so young.</p>
-<p>"Oh, my dear! oh, my dear!” I moaned to her, standing before it. "Athene is with you still. You have the clue and the sword. Oh, my dear, with such gifts praise heaven!
+<p>"Oh, my dear! oh, my dear!" I moaned to her, standing before it. "Athene is with you still. You have the clue and the sword. Oh, my dear, with such gifts praise heaven!
 <pb n="346     ARIADNE."/>
 What does the pain or the loss of life matter? You are great!"</p>
 <p>She looked at me from under her lovely low brows and her half-falling hair, as the Ariadne of the Capitol looks at you; only with a look more intense,--a look of deep pity, deeper scorn.</p>
