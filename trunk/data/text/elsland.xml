@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
-<TEI.2>
-  <teiHeader>
+<TEI.2 id="elsland1207">
+  <teiHeader id="elsland1201">
     <fileDesc>
     	<titleStmt>
         <title>AUTOBIOGRAPHY OF A SLANDER</title>
@@ -99,7 +99,7 @@ added by the encoder and do not appear in the original text.</p>
     </revisionDesc>
 
     </teiHeader>
-	<text id="elsland1204">
+	<text id="elsland1205">
     <front id="elsland1202">
       <div id="elsland0000" type="covers">
 	   <figure entity="***" rend="inline">
@@ -845,7 +845,7 @@ added by the encoder and do not appear in the original text.</p>
         <p>For that day I wait, and though afterwards I shall be finally destroyed in the general destruction of all that is unmitigatedly evil, I promise myself a certain satisfaction and pleasure (a feeling I doubtless inherit from my progenitor), when I <pb n="[146]  AUTOBIOGRAPHY OF A SLANDER"/>watch the shame, and horror, and remorse of Mrs. O'Reilly and the rest of the people to whom I owe my existence and rapid growth.</p>
     	</div>
     </body>
-<back>
+<back id="elsland1208">
 <div type="colophon"><p><hi rend="italic">Printed by</hi> BALLANTYNE, HANSON &#x0026;
 CO.<lb/>
 <hi rend="italic">London and Edinburgh</hi>
