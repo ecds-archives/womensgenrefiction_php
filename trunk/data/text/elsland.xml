@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
 <TEI.2 id="elsland1207">
   <teiHeader id="elsland1201">
@@ -97,26 +96,28 @@ added by the encoder and do not appear in the original text.</p>
         <item>XML tags inserted in compliance with TEI guidelines.</item>
       </change>
     </revisionDesc>
-
     </teiHeader>
 	<text id="elsland1205">
     <front id="elsland1202">
       <div id="elsland0000" type="covers">
-	   <figure entity="***" rend="inline">
-	     <figDesc>Cover of Edna Lyall's <hi
+	   <figure entity="elslandfc" rend="inline">
+	     <figDesc>Front cover of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi>.</figDesc>
 	   </figure>
       </div>
-<!-- ***un-numbered pages in front matter -->
 <pb/>
       <titlePage type="half">
-	<docTitle><titlePart>AUTOBIOGRAPHY OF A SLANDER</titlePart></docTitle>
+	<docTitle><titlePart type="main">AUTOBIOGRAPHY OF A SLANDER</titlePart></docTitle>
       </titlePage>
-<pb entity="elsland***" pages="Title Page"/>
-<!-- missing frontispiece. ELF has requested via ILL -->
+<pb/>
+<div id="elsland0718" type="frontispiece">
+<p>[Frontispiece missing from Emory's copy of Lyall's <hi
+rend="italic">Autobiography of a Slander</hi>.]</p>
+</div>
+<pb entity="elslandtp" pages="Title Page"/>
     	<titlePage type="full">
         <docTitle>
-        	<titlePart>THE AUTOBIOGRAPHY OF A SLANDER</titlePart>
+        	<titlePart type="main">THE AUTOBIOGRAPHY OF A SLANDER</titlePart>
         </docTitle>
         <byline>BY<lb/>
 	<docAuthor>EDNA LYALL</docAuthor><lb/>
@@ -136,28 +137,26 @@ added by the encoder and do not appear in the original text.</p>
     	</titlePage>
 <pb/>
 <div id="elsland1001" type="copyright">
-<figure entity="elsland***" rend="inline">
+<figure entity="elslandcr" rend="inline">
 <figDesc>Copyright page for Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi>.</figDesc>
 </figure>
 </div>
-<div>
-<pb entity="elsland***" pages="epigraph"/>
-<epigraph><cit><q><lg type="stanza">
+<pb entity="elslandep" pages="Epigraph"/>
+<div id="elsland0719" type="epigraph">
+<q><lg type="stanza">
 <l>Trust not to each accusing tongue,</l>
 <l>As most weak persons do;</l>
 <l>But still believe that story false</l>
 <l>Which ought not to be true.</l></lg></q>
-<bibl>SHERIDAN</bibl></cit>
-</epigraph>
-<p/>
+<bibl>SHERIDAN</bibl>
 </div>
 <div id="elsland1002" type="dedication">
-<pb entity="elsland***" pages="dedication"/>
+<pb entity="elslandded" pages="Dedication"/>
 <p>DEDICATED<lb/>TO ALL<lb/>WHOM IT MAY CONCERN</p>
 </div>
 <div id="elsland1003" type="table of contents">
-<figure entity="elsland***">
+<figure entity="elslandtc" rend="inline">
 <figDesc>Table of Contents for Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi>.</figDesc>
 </figure>
@@ -293,18 +292,18 @@ added by the encoder and do not appear in the original text.</p>
         <p>As we passed down the High Street the bells rang out loud and clear, and they made me feel the same slight sense of discomfort that I had felt when I looked at Zaluski; however, I went on, and soon entered the church. It was a fine old Gothic building, and the afternoon sunshine seemed to flood the whole <pb n="26  AUTOBIOGRAPHY OF A SLANDER"/>place; even the white stones in the aisle were glorified here and there with gorgeous patches of colour from the stained glass windows. But the strange stillness and quiet oppressed me, I did not feel nearly so much at home as in Mrs. O'Reilly's drawing-room&#x2014;to use a terrestrial simile, I felt like a fish out of water.</p>
         <p>For some time, too, I could find no entrance at all into the mind of Lena Houghton. Try as I would, I could not distract her attention or gain the slightest hold upon her, and I really believe I should have been altogether baffled, had not the rector unconsciously come to my aid.</p>
         <p>All through the prayers and psalms I had fought a desperate fight without <pb n="27"/>gaining a single inch. Then the rector walked over to the lectern, and the moment he opened his mouth I knew that my time had come, and that there was a very fair chance of victory before me. Whether this clergyman had a toothache, or a headache, or a heavy load on his mind, I cannot say, but his reading was more lugubrious than the wind in an equinoctial gale. I have since observed that he was only a degree worse than many other clerical readers, and that a strange and delightfully mistaken notion seems prevalent that the Bible must be read in a dreary and unnatural tone of voice, or with a sort of mournful monotony; it is intended as a sort of reverence, but I suspect that it often plays into the <pb n="28  AUTOBIOGRAPHY OF A SLANDER"/>hands of my progenitor, as it most assuredly did in the present instance.</p>
-        <p>Hardly had the rector announced, "Here beginneth the forty-fourth verse of the sixteenth chapter of the book of the prophet Ezekiel," than a sort of relaxation took place in the mind I was attacking. Lena Houghton's attention could only have been given to the drearily read lesson by a very great effort; she was a little lazy and did not make the effort, she thought how nice it was to sit down again, and then the melancholy voice lulled her into a vague interval of thoughtless inactivity. I promptly seized my opportunity, and in a moment her whole mind was full of me. she was an excitable, impressionable sort of girl, and when once</p>
+        <p>Hardly had the rector announced, "Here beginneth the forty-fourth verse of the sixteenth chapter of the book of the prophet Ezekiel," than a sort of relaxation took place in the mind I was attacking. Lena Houghton's attention could only have been given to the drearily read lesson by a very great effort; she was a little lazy and did not make the effort, she thought how nice it was to sit down again, and then the melancholy voice lulled her into a vague interval of thoughtless inactivity. I promptly seized my opportunity, and in a moment her whole mind was full of me. she was an excitable, impressionable sort of girl, and when once
         <pb n="[29]"/>
-	<figure entity="elsland029" rend="inline">
+	<figure entity="elslandill29" rend="inline">
 	  <p>SHE WAS A LITTLE LAZY AND DID NOT MAKE THE EFFORT.</p>
 	  <figDesc>Illustration on page 29 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi>.
 	  </figDesc>
 	</figure>
         <pb n="[30]"/>
-        <!--page blank****-->
+<note resp="transcr">[Verso of illustration is blank.]</note>        
         <pb n="31 MY SECOND STAGE"/>
-        <p>I had obtained an entrance into her mind I found it the
+        I had obtained an entrance into her mind I found it the
 	easiest thing in the world to dominate her thoughts. Though
 	she stood, and sat, and knelt, and curtseyed, and articulated
 	words, her thoughts were entirely absorbed in me. I crowded
@@ -320,18 +319,18 @@ added by the encoder and do not appear in the original text.</p>
         <pb n="34  AUTOBIOGRAPHY OF A SLANDER"/>
         <p>And they walked home together.</p>
         <p>"I am so glad to have this chance of speaking to you," she began rather nervously. "I wanted particularly to ask your advice."</p>
-        <p>Mr. Blackthorne, being human and young, was not unnaturally flattered by this remark. True, he was becoming well accustomed to this sort of thing, since the ladies of Muddleton were far more fond of seeking advice from the young and good-looking curate than from the elderly and experienced rector. They said it was because Mr. Blackthorne was so much more sympathetic, and understood the difficulties of the day so much better; but I think they unconsciously deceived themselves, for the rector was one of a thousand,</p>
+        <p>Mr. Blackthorne, being human and young, was not unnaturally flattered by this remark. True, he was becoming well accustomed to this sort of thing, since the ladies of Muddleton were far more fond of seeking advice from the young and good-looking curate than from the elderly and experienced rector. They said it was because Mr. Blackthorne was so much more sympathetic, and understood the difficulties of the day so much better; but I think they unconsciously deceived themselves, for the rector was one of a thousand,
         <pb n="[35]"/>
-<figure entity="elsland035" rend="inline">
+<figure entity="elslandill35" rend="inline">
 	  <p>YOU WON'T TELL ANYONE I TOLD YOU?</p>
 	  <figDesc>Illustration on page 35 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi>.
 	  </figDesc>
 	</figure>
         <pb n="36"/>
-        <!--page blank***-->
+<note resp="transcr">[Verso of illustration is blank.]</note>        
         <pb n="37 MY SECOND STAGE"/>
-        <p>and the curate, though he had in him the makings of a fine man, was as yet altogether crude and young.</p>
+        and the curate, though he had in him the makings of a fine man, was as yet altogether crude and young.</p>
         <p>"Was it about anything in your district? " he asked, devoutly hoping that she was not going to propound some difficult question about the origin of evil, or any other obscure subject. For though he liked the honour of being consulted, he did not always like the trouble it involved, and he remembered with a shudder that Miss Houghton had once asked him his opinion about the "Ethical Concept of the Good."</p>
         <p>"It was only that I was so troubled about something Mrs. O'Reilly has just told me," said Lena Houghton. "You won't tell any one that I told you?"</p>
         <pb n="38  AUTOBIOGRAPHY OF A SLANDER"/>
@@ -358,21 +357,20 @@ added by the encoder and do not appear in the original text.</p>
 		</q></cit>
         	<bibl>THOMAS &#x00C0; KEMPIS</bibl>
 	</epigraph>
-
         <p>ALL through that evening, and through the first part of the succeeding day, I was crowded out of the curate's mind by a host of thoughts with which I had nothing in common; and though I hovered about him as he taught in the school, and visited several sick people, and argued with an habitual drunkard, and worked at his Sunday sermon, a Power, which I felt <pb n="44  AUTOBIOGRAPHY OF A SLANDER"/>but did not understand, baffled all my attempts to gain an entrance and attract his notice. I made a desperate attack on him after lunch as he sat smoking and enjoying a well-earned rest, but it was of no avail. I followed him to a large garden-party later on, but to my great annoyance he went about talking to every one in the pleasantest way imaginable, though I perceived that he was longing to play tennis instead.</p>
         <p>At length, however, my opportunity came. Mr. Blackthorne was talking to the lady of the house, Mrs. Courtenay, when she suddenly exclaimed:</p>
-        <p>"Ah, here is Mr. Zaluski just arriving. I began to be afraid that he had forgotten</p>
+        <p>"Ah, here is Mr. Zaluski just arriving. I began to be afraid that he had forgotten
         <pb n="[45]"/>
-	<figure entity="elsland045" rend="inline">
+	<figure entity="elslandill45" rend="inline">
 	  <p>ARGUED WITH AN HABITUAL DRUNKARD</p>
 	  <figDesc>Illustration on page 45 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi>.
 	  </figDesc>
 	</figure>
         <pb n="[46]"/>
-        <!--page blank***-->
+        <note resp="transcr">[Verso of illustration is blank.]</note> 
         <pb n="47 MY THIRD STAGE"/>
-        <p>the day, and he is always such an acquisition. How do you do, Mr. Zaluski?" she said, greeting my victim warmly as he stepped on to the terrace. "So glad you were able to come. You know Mr. Blackthorne, I think.?"</p>
+the day, and he is always such an acquisition. How do you do, Mr. Zaluski?" she said, greeting my victim warmly as he stepped on to the terrace. "So glad you were able to come. You know Mr. Blackthorne, I think.?"</p>
         <p>Zaluski greeted the curate pleasantly, and his dark eyes lighted up with a gleam of amusement.</p>
         <p>"Oh, we are great friends," he said, laughingly. "Only, you know, I sometimes shock him a little&#x2014;just a very little."</p>
         <p>"That is very unkind of you, I am sure," said Mrs. Courtenay, smiling.</p>
@@ -382,19 +380,18 @@ added by the encoder and do not appear in the original text.</p>
         <pb n="50  AUTOBIOGRAPHY OF A SLANDER"/>
         <p>Something of this began to stir in his mind, and he cordially hated the Pole, when Jim Courtenay, who arranged the tennis, came up and asked him to play in the next set, passing the curate by altogether.</p>
         <p>Then I found no difficulty at all in taking possession of him; indeed, he was delighted to have me brought back to his memory, he positively gloated over me, and I grew apace.</p>
-        <p>Zaluski, in the seventh heaven of happiness, was playing with Gertrude Morley, and his play was so good and so graceful that every one was watching it with pleasure. His partner, too, played well; she was a pretty, fair-haired girl, with soft grey eyes like the eyes of a</p>
+        <p>Zaluski, in the seventh heaven of happiness, was playing with Gertrude Morley, and his play was so good and so graceful that every one was watching it with pleasure. His partner, too, played well; she was a pretty, fair-haired girl, with soft grey eyes like the eyes of a
         <pb n="[51]"/>
-	<figure entity="elsland051" rend="inline">
+	<figure entity="elslandill51" rend="inline">
 	  <p>ASKED HIM TO PLAY IN THE NEXT SET, PASSING THE CURATE BY ALTOGETHER</p>
 	  <figDesc>Illustration on page 51 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi>.
 	  </figDesc>
 	</figure>
-
         <pb n="52"/>
-        <!-- page blank*** -->
+        <note resp="transcr">[Verso of illustration is blank.]</note> 
         <pb n="53 MY THIRD STAGE"/>
-        <p>dove; she wore a white tennis dress and a white sailor hat, and at her throat she had fastened a cluster of those beautiful orange-coloured roses known by the prosaic name of "William Allan Richardson."</p>
+        dove; she wore a white tennis dress and a white sailor hat, and at her throat she had fastened a cluster of those beautiful orange-coloured roses known by the prosaic name of "William Allan Richardson."</p>
         <p>If Mr. Blackthorne grew angry as he watched Sigismund Zaluski, he grew doubly angry as he watched Gertrude Morley. He said to himself that it was intolerable that such a girl should fall a prey to a vain, shallow, unprincipled foreigner, and in a few minutes he had painted such a dark picture of poor Sigismund that my strength increased tenfold.</p>
         <p>"Mr. Blackthorne," said Mrs. Courtenay, "would you take Mrs. Milton-Cleave to have an ice?"</p>
         <pb n="54  AUTOBIOGRAPHY OF A SLANDER"/>
@@ -428,19 +425,18 @@ added by the encoder and do not appear in the original text.</p>
         <p>"Must we really wait so long!" sighed Sigismund impatiently.</p>
         <p>She laughed at him gently.</p>
         <p>"A whole week! But then we are sure of each other. I do not think we ought to grumble."</p>
-        <p>"But perhaps they may think that a merchant is no fitting match for you," he suggested. "I am nothing but a plain merchant, and my people have been in the same business for four generations. As far as wealth goes I might perhaps</p>
+        <p>"But perhaps they may think that a merchant is no fitting match for you," he suggested. "I am nothing but a plain merchant, and my people have been in the same business for four generations. As far as wealth goes I might perhaps
         <pb n="[63]"/>
-	<figure entity="elsland063" rend="inline">
+	<figure entity="elslandill63" rend="inline">
 	  <p>IT WILL BE ENOUGH THAT WE LOVE EACH OTHER</p>
 	  <figDesc>Illustration on page 63 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi>.
 	  </figDesc>
 	</figure>
-
         <pb n="[64]"/>
-        <!--page blank***-->
+        <note resp="transcr">[Verso of illustration is blank.]</note> 
         <pb n="65 MY THIRD STAGE"/>
-        <p>satisfy your people, but for the rest I am but a prosaic fellow, with neither noble blood, nor the brain of a genius, nor anything out of the common."</p>
+        satisfy your people, but for the rest I am but a prosaic fellow, with neither noble blood, nor the brain of a genius, nor anything out of the common."</p>
         <p>"It will be enough for my mother that we love each other," she said shyly.</p>
         <p>"And your uncle?"</p>
         <p>"It will be enough for him that you are upright and honourable&#x2014;enough that you are yourself, Sigismund."</p>
@@ -458,7 +454,6 @@ added by the encoder and do not appear in the original text.</p>
             <l>Oh, the little more, and how much it is!</l>
         	</lg></q><bibl>R. Browning</bibl></cit>
         </epigraph>
-
         <p>MRS. MILTON-CLEAVE had one weakness&#x2014;she was possessed by an inordinate desire for influence. This made her always eagerly anxious to be interesting" both in her conversation and in her letters, and to this end she exerted herself with unwearying activity. She liked influencing Mr. Blackthorne, and spared no pains on him that afternoon; and indeed the curate was a good deal flattered by her friendship, and considered her one of the most <pb n="68  AUTOBIOGRAPHY OF A SLANDER"/>clever and charming women he had ever met.</p>
         <p>Sigismund and Gertrude returned to the ordinary world just as Mrs. Milton-Cleave was saying good-bye to the hostess. She glanced at them searchingly.</p>
         <p>"Good-bye, Gertrude," she said a little coldly. "Did you win at tennis?"</p>
@@ -542,13 +537,11 @@ added by the encoder and do not appear in the original text.</p>
         <p>"Oh, he must certainly take you in, <pb n="80
 	AUTOBIOGRAPHY OF A SLANDER" entity="elsland080" pages="80"/>my dear," said the Archdeacon. "And he seems a very clever, well-read man, I am sure you will find him easy to talk to."</p>
         <p>Poor Mrs. Selldon thought that she would rather have had some one who was neither clever nor well-read. But there was no help for her, and, whether she would or not, she had to go in to dinner with the literary lion.</p>
-       
-        	<figure><p>MARK SHREWSBURY</p>
+               	<figure><p>MARK SHREWSBURY</p>
             <figDesc>Illustration on page 80 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi></figDesc>
         	</figure>
-       
-        <p>Mr. Mark Shrewsbury was a novelist of great ability. Some twenty years before, he had been called to the bar, and, conscious of real talent, had been <pb n="81 MY FIFTH STAGE"/>greatly embittered by the impossibility of getting on in his profession. At length, in disgust, he gave up all hopes of success and devoted himself instead to literature. In this field he won the recognition for which he craved; his books were read everywhere, his name became famous, his income steadily increased, and he had the pleasant consciousness that he had found his vocation. Still, in spite of his success, he could not forget the bitter years of failure and disappointment which had gone before, and though his novels were full of genius they were pervaded by an undertone of sarcasm, so that people after reading them were more ready than before to take cynical views of life.</p>
+               <p>Mr. Mark Shrewsbury was a novelist of great ability. Some twenty years before, he had been called to the bar, and, conscious of real talent, had been <pb n="81 MY FIFTH STAGE"/>greatly embittered by the impossibility of getting on in his profession. At length, in disgust, he gave up all hopes of success and devoted himself instead to literature. In this field he won the recognition for which he craved; his books were read everywhere, his name became famous, his income steadily increased, and he had the pleasant consciousness that he had found his vocation. Still, in spite of his success, he could not forget the bitter years of failure and disappointment which had gone before, and though his novels were full of genius they were pervaded by an undertone of sarcasm, so that people after reading them were more ready than before to take cynical views of life.</p>
         <pb n="82  AUTOBIOGRAPHY OF A SLANDER"/>
         <p>He was one of those men whose quiet impassive faces reveal scarcely anything of their character. He was neither tall nor short, neither dark nor fair, neither handsome nor the reverse; in fact, his personality was not in the least impressive; while, like most true artists, he observed all things so quietly that you rarely discovered that he was observing at all.</p>
         <p>"Dear me!" people would say. "Is Mark Shrewsbury really here? Which is he? I don't see any one at all like my idea of a novelist."</p>
@@ -598,15 +591,14 @@ added by the encoder and do not appear in the original text.</p>
         <p>Shrewsbury, flattering himself that he had left a good impression by his last remark, thought better not to efface it later in the evening by any other con-<pb n="96  AUTOBIOGRAPHY OF A SLANDER"/>versation with his hostess. But in the small hours of the night, when he had finished his bundle of proofs, he took up his notebook and, strangling his yawns, made two or three brief, pithy notes of the story Mrs. Selldon had told him, adding a further development which occurred to him, and wondering to himself whether "Like a Green Bay Tree" would be a selling title.</p>
         <p>After this he went to bed, and slept the sleep of the just, or the unbroken sleep which goes by that name.</p>
         <pb n="[97]"/>
-       	<figure entity="elsland097" rend="inline">
+       	<figure entity="elslandill97" rend="inline">
             <p>WONDERING WHETHER "LIKE A GREEN BAY TREE" WOULD BE A
 	    SELLING TITLE</p>
 	    <figDesc>Illustration on page 97 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi></figDesc>
        	</figure>
-
         <pb n="[98]"/>
-        <!--page blank***-->
+        <note resp="transcr">[Verso of illustration is blank.]</note> 
     	</div>
     	<pb n="99"/>
     	<div id="elsland0006" type="chapter">
@@ -616,7 +608,6 @@ added by the encoder and do not appear in the original text.</p>
             <l>But whispering tongues can poison truth.</l>
         	</lg></q><bibl>COLERIDGE</bibl></cit>
         </epigraph>
-
         <p>London in early September is a somewhat trying place. Mark
 	Shrewsbury found it less pleasing in reality than in his
 	visions during the dinner-party at Dulminster. True, his
@@ -626,13 +617,11 @@ added by the encoder and do not appear in the original text.</p>
 	calculated to cheer him, he was nevertheless depressed. Town
 	was dull, the heat was trying, and he had never in his <pb
 	n="100  AUTOBIOGRAPHY OF A SLANDER" entity="elsland100" pages="100"/>life found it so difficult to settle down to work. He began to agree with the</p>
-        
-        	<figure><p>PUMP COURT</p>
+                	<figure><p>PUMP COURT</p>
             <figDesc>Illustration on page 100 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi></figDesc>
         	</figure>
-        
-        <p>Preacher, that "of making many books there is no end," and
+                <p>Preacher, that "of making many books there is no end," and
 	that, in spite of his <pb n="101 MY SIXTH STAGE"/>favourite "Remington's perfected No. 2," novel-writing was a weariness to the flesh. Soon he drifted into a sort of vague idleness, which was not a good, honest holiday, but just a lazy waste of time and brains. I was pleased to observe this, and was not slow to take advantage of it. Had he stayed in Pump Court he might have forgotten me altogether in his work, but in the soft luxury of his Club life I found that I had a very fair chance of being passed on to some one else.</p>
         <p>One hot afternoon, on waking from a comfortable nap in the depths of an arm-chair at the Club, Shrewsbury was greeted by one of his friends.</p>
         <p>"I thought you were in Switzerland, <pb n="102  AUTOBIOGRAPHY OF A SLANDER"/>old fellow!" he exclaimed, yawning and stretching himself.</p>
@@ -668,7 +657,6 @@ added by the encoder and do not appear in the original text.</p>
             <l>And the cruel echo answered</l>
             <l>Through long years again.</l>
         	</lg></q><bibl>A. A. PROCTER</bibl></cit></epigraph>
-
         <p>CURIOUSLY enough, I must actually have started for Russia on the same day that Sigismund Zaluski was summoned by his uncle at St. Petersburg to return on a matter of urgent business. I learnt afterwards that the telegram arrived at Muddleton on the afternoon of one of <pb n="108  AUTOBIOGRAPHY OF A SLANDER"/>those sunny September days and found Zaluski as usual at the Morleys. He was very much annoyed at being called away just then, and before he had received any reply from Gertrude's uncle as to the engagement. However, after a little ebullition of anger, he regained his usual philosophic tone, and, reminding Gertrude that he need not be away from England for more than a fortnight, he took leave of her and set off in a prompt, manly fashion, leaving most of his belongings at Ivy Cottage, which was his for another six weeks, and to which he hoped shortly to return.</p>
         <p>After a weary time of imprisonment in my envelope, I at
 	length reached my destination at St. Petersburg, and was <pb
@@ -687,13 +675,11 @@ added by the encoder and do not appear in the original text.</p>
         </p>
         <pb n="111 MY SEVENTH STAGE" entity="elsland111" pages="111"/>
         <p>Leonoff had nothing whatever to do with the Revolutionary movement, but</p>
-        
-        	<figure><p>THE HOUSE WAS SEARCHED, AND EVERY BOOK AND PAPER EXAMINED</p>
+                	<figure><p>THE HOUSE WAS SEARCHED, AND EVERY BOOK AND PAPER EXAMINED</p>
             <figDesc>Illustration on page 111 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi></figDesc>
         	</figure>
-        
-        <p>absolute innocence does not free people from the police inquisition, and five or six years ago, when the Search mania <pb n="112  AUTOBIOGRAPHY OF A SLANDER"/>was at its height, a case is on record of a poor lady whose house was searched seven times within twenty-four hours, though there was no evidence whatever that she was connected with the Nihilists; the whole affair was, in fact, a misunderstanding, as she was perfectly innocent.</p>
+                <p>absolute innocence does not free people from the police inquisition, and five or six years ago, when the Search mania <pb n="112  AUTOBIOGRAPHY OF A SLANDER"/>was at its height, a case is on record of a poor lady whose house was searched seven times within twenty-four hours, though there was no evidence whatever that she was connected with the Nihilists; the whole affair was, in fact, a misunderstanding, as she was perfectly innocent.</p>
         <p>This search in Dmitry Leonoff's house was also a misunderstanding, and in the dominions of the Czar misunderstandings are of frequent occurrence.</p>
         <p>Leonoff knew himself to be innocent, and he felt no fear, though considerable annoyance, while the search was prosecuted; he could hardly believe the evidence of his senses when, without a word of explanation, he was informed that he must take leave of his wife and children, <pb n="113 MY SEVENTH STAGE"/>and go in charge of the gendarmes to the House of Preventive Detention.</p>
         <p>Being a sensible man, he kept his temper, remarked courteously that some mistake must have been made, embraced his weeping wife, and went off passively, while the pristav carried away a bundle of letters in which I occupied the most prominent place.</p>
@@ -734,13 +720,11 @@ added by the encoder and do not appear in the original text.</p>
         <p>"It will never do to give way like this, or I shall be in a brain fever in no time," he reflected. "I will get leave to have books and writing materials. I will make the best of a bad business."</p>
         <pb n="120  AUTOBIOGRAPHY OF A SLANDER" entity="elsland120" pages="120"/>
         <p>He remembered how pleased he had been when Gertrude had once smiled on</p>
-        
-        	<figure><p>INVENTED SOLITARY GAMES</p>
+                	<figure><p>INVENTED SOLITARY GAMES</p>
             <figDesc>Illustration on page 120 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi></figDesc>
         	</figure>
-        
-        <p>him because, when all the others in the party were grumbling at the discomforts <pb n="121 MY TRIUMPHANT FINALE"/>of a certain picnic where the provisions had gone astray, he had gaily made the best of it and ransacked the nearest cottages for bread-and-cheese. He set to work bravely now; hoped daily for his release; read all the books he was allowed to receive, invented solitary games, began a novel, and drew caricatures.</p>
+                <p>him because, when all the others in the party were grumbling at the discomforts <pb n="121 MY TRIUMPHANT FINALE"/>of a certain picnic where the provisions had gone astray, he had gaily made the best of it and ransacked the nearest cottages for bread-and-cheese. He set to work bravely now; hoped daily for his release; read all the books he was allowed to receive, invented solitary games, began a novel, and drew caricatures.</p>
         <p>In October he was again examined; but, having nothing to reveal, it was inevitable that he could reveal nothing; and he was again sent back to his cell "to reflect."</p>
         <p>I perceived that after this his heart began to fail him.</p>
         <p>There existed in the House of Preventive Detention a system of communi-<pb n="122  AUTOBIOGRAPHY OF A SLANDER"/>cation between the luckless prisoners carried on by means of tapping on the wall. Sigismund, being a clever fellow, had become a great adept at this telegraphic system, and had struck up a friendship with a young student in the next cell; this poor fellow had been imprisoned three years, his sole offence being that he had in his possession a book of which the Government did not approve, and that he was first cousin to a well-known Nihilist.</p>
@@ -756,15 +740,14 @@ added by the encoder and do not appear in the original text.</p>
         <p>Valerian felt the tears start to his eyes. It was what he had all along expected, and for a time grief and indignation and his miserable helplessness made him almost beside himself. At last he remembered that there was at least one thing in his power. Each day he was escorted by a warder to a tiny square, walled off in the exercising ground, and was allowed to walk for a few minutes; he would take this opportunity of begging the warder to get the doctor for his friend.</p>
         <p>But unfortunately the doctor did not think very seriously of Zaluski's case. In
         <pb n="[125]"/>
-        	<figure entity="elsland125" rend="inline">
+        	<figure entity="elslandill125" rend="inline">
             <p>UNFORTUNATELY THE DOCTOR DID NOT THINK VERY SERIOUSLY
 	    OF ZALUSKI'S CASE</p>
 	    <figDesc>Illustration on page 125 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi></figDesc>
         	</figure>
-
         <pb n="[126]"/>
-        <!--page blank***-->
+        <note resp="transcr">[Verso of illustration is blank.]</note>
         <pb n="127 MY TRIUMPHANT FINALE"/>
         that dreary prison he had patients in the last stages of all kinds of disease, and Sigismund, who had been in confinement too short a time to look as ill as the others, did not receive much attention. Certainly, the doctor admitted, his lungs were affected; probably the sudden change of climate and the lack of good food and fresh air had been too much for him; so the solemn farce ended, and he was left to his fate. "If I were indeed a Nihilist, and suffered for a cause which I had at heart," he telegraphed to Valerian, "I could bear it better. But to be kept here for an imaginary offence, to bear cold and hunger and illness all to no purpose&#x2014;that beats me. There can't be a God, or such things would not be allowed."</p>
         <pb n="128  AUTOBIOGRAPHY OF A SLANDER"/>
@@ -792,13 +775,11 @@ added by the encoder and do not appear in the original text.</p>
 	happily he laboured on, never dreaming that his careless words
 	had doomed a fellow-man to a painful and lingering <pb n="134
 	AUTOBIOGRAPHY OF A SLANDER" entity="elsland134" pages="134"/>death; never dreaming that while his fingers flew to and fro over his dainty little keyboard, describing the clever doings of the unscrupulous foreigner, another man, the victim of his idle gossip, tapped dying messages on a dreary prison wall.</p>
-        
-        	<figure><p>TAPPED DYING MESSAGES ON A DREARY PRISON WALL</p>
+                	<figure><p>TAPPED DYING MESSAGES ON A DREARY PRISON WALL</p>
             <figDesc>Illustration on page 134 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi></figDesc>
         	</figure>
-        
-        <pb n="135 MY TRIUMPHANT FINALE"/>
+                <pb n="135 MY TRIUMPHANT FINALE"/>
         <p>For the end had come.</p>
         <p>Through the evening Sigismund rested wearily on his truckle-bed. He could not lie down because of his cough, and, since there were no extra pillows to prop him up, he had to rest his head and shoulders against the wall. There was a gas-burner in the tiny cell, and by its light he looked round the bare walls of his prison with a blank, hopeless, yet wistful gaze; there was the stool, there was the table, there were the clothes he should never wear again, there was the door through which his lifeless body would soon be carried. He looked at everything lingeringly, for he knew that this desolate prison was the last bit of the world he should ever see.</p>
         <p>Presently the gas was turned out. He <pb n="136  AUTOBIOGRAPHY OF A SLANDER"/>sighed as he felt the darkness close in upon him, for he knew that his eyes would never again see light&#x2014;knew that in this dark lonely cell he must lie and wait for death. And he was young and wished to live, and he was in love and longed most terribly for the presence of the woman he loved.</p>
@@ -829,17 +810,17 @@ added by the encoder and do not appear in the original text.</p>
         <p>"Sigismund!" she cried. "Oh, Sigismund! Now I know that you are dead indeed."</p>
         <pb n="142  AUTOBIOGRAPHY OF A SLANDER"/>
         <p>For a long, long time she lay in a sort of trance of misery. It seemed as if the life had been almost crushed out of her, and it was not until the bells began to ring for the six o'clock service, merrily pealing out their welcome of the new year morning, that full consciousness returned to her again. But, as she clearly realised what had happened, she broke into such a passion of tears as I had never before witnessed, while still in the darkness the new year bells rang gaily, and she knew that they heralded for her the beginning of a lonely life.</p>
-        <p>And so my work ended; my part in this world was played out. Nevertheless I still live; and there will come a day when Sigismund and Gertrude</p>
+        <p>And so my work ended; my part in this world was played out. Nevertheless I still live; and there will come a day when Sigismund and Gertrude
         <pb n="[143]"/>
-        <figure entity="elsland143" rend="inline">
+        <figure entity="elslandill143" rend="inline">
 	  <p>THE FULL-GROWN SLANDER</p>
 	  <figDesc>Illustration on page 143 of Edna Lyall's <hi
 	     rend="italic">Autobiography of a Slander</hi></figDesc>
 	</figure>
         <pb n="[144]"/>
-        <!--page blank***-->
+        <note resp="transcr">[Verso of illustration is blank.]</note>
         <pb n="145 MY TRIUMPHANT FINALE"/>
-        <p>shall be comforted and the slanderers punished.</p>
+shall be comforted and the slanderers punished.</p>
         <p>For poor Valerian was right, and there is an Avenger, in whom even my progenitor believes, and before whom he trembles.</p>
         <p>There will come a time when those self-satisfied ones, whose hands are all the time steeped in blood, shall be confronted with me, and shall realise to the full all that their idle words have brought about.</p>
         <p>For that day I wait, and though afterwards I shall be finally destroyed in the general destruction of all that is unmitigatedly evil, I promise myself a certain satisfaction and pleasure (a feeling I doubtless inherit from my progenitor), when I <pb n="[146]  AUTOBIOGRAPHY OF A SLANDER"/>watch the shame, and horror, and remorse of Mrs. O'Reilly and the rest of the people to whom I owe my existence and rapid growth.</p>
