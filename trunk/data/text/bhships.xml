@@ -97,9 +97,7 @@ added by the encoder and do not appear in the original text.</p>
         <item>XML tags inserted in compliance with TEI guidelines.</item>
       </change>
     </revisionDesc>
-
     </teiHeader>
-
   <text id="bhships1205">
     <front id="bhships1202">
       <titlePage type="half">
@@ -118,6 +116,7 @@ added by the encoder and do not appear in the original text.</p>
 	  silence"</l>
 	  </lg></q>
       </div>
+<pb entity="bhshipstp" pages="Title Page"/>
       <titlePage type="full">
         <docTitle>
           <titlePart type="main">SHIPS THAT PASS IN THE NIGHT</titlePart>
@@ -142,15 +141,14 @@ IS LOVINGLY DEDICATED.</p>
 <p><date value="1893-01-12">Jan. 12th, 1893</date></p>
 </div>
 <pb/>
-<div id="bhships1002" type="Table of Contents">
-<figure entity="bhships***" rend="inline">
-<p>CONTENTS</p>
-<figDesc>Table of Contents for Beatrice Harraden's <hi
-rend="italic">Ships That Pass in the Night</hi>
+<div id="bhships1002" type="table of contents">
+<figure entity="bhshipstc" rend="inline">
+<figDesc>Table of contents for Beatrice Harraden's <hi
+rend="italic">Ships That Pass in the Night</hi>.
 </figDesc>
 </figure>
 </div>
-    </front>
+</front>
     <body id="bhships1203">
         <pb n="[1]"/>
       <div id="bhships1003" type="part" n="1">
