@@ -1,4 +1,141 @@
-<pb n="[1]"/><div id="lmadven" type="chapter" n="1"><head>AN ADVENTURESS<lb/>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="lmadven1207">
+  <teiHeader id="lmadven1201">
+    <fileDesc>
+      <titleStmt>
+        <title>An Adventuress, an electronic edition</title>
+        <author><name type="person" reg=" Meade, L. T., 1854-1914">L. T. Meade</name></author>
+      </titleStmt>
+      <extent>600kb</extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2005</date>
+        <availability>
+          <p>&#x00A9; 2005, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Women's Genre Fiction, 1860-1920</title>
+        <respStmt>
+          <name>Sheila T. Cavanagh</name>
+          <name>Charles D. Spornick</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><author>Meade, L. T.</author>. <title>An Adventuress</title>. <pubPlace>London</pubPlace>:
+<publisher>Chatto &#x0026; Windus</publisher>, <date>1899</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded.  Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Genre Fiction</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Unedited</rs>
+        <rs type="genre">Novel</rs>
+        <rs type="geography">Great Britain</rs>
+        <date>1800-1899</date>
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item>British literature--19th Century--Fiction.</item>
+            <item>Women authors, British--19th Century.</item>
+            <item>Assertiveness in women.</item>
+	    <item>Mistaken identity.</item>
+            <item>Marriage--economic aspects.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2006-January-11</date>
+        <respStmt>
+          <name>Alice Hickcox, </name>
+          <resp>Electronic Text Specialist.</resp>
+        </respStmt>
+        <item>XML tags inserted in compliance with TEI guidelines.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text id="lmadven1206">
+<front id="lmadven1202">
+<pb/>
+<titlePage type="half">
+<docTitle>
+<titlePart>An Adventuress</titlePart>
+</docTitle>
+</titlePage>
+<pb/>
+<div type="advert" id="lmadvenfm000">
+<figure entity="lmadvert****" rend="inline">
+<figDesc>Advertisement page in L. T. Meade's <hi rend="italic">An
+Adventuress</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="lmadven****" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">AN ADVENTURESS</titlePart>
+</docTitle>
+<byline>BY<lb/>
+<docAuthor>L. T. Meade</docAuthor><lb/>
+AUTHOR OF<lb/>
+"THE VOICE OF THE CHARMER," "A SOLDIER OF FORTUNE," ETC.</byline>
+<docImprint>
+<pubPlace>LONDON</pubPlace>
+<publisher>CHATTO &#x0026; WINDUS</publisher>
+<docDate>1899</docDate>
+</docImprint>
+</titlePage>
+<pb/>
+<div type="copyright" id="lmadvenfm001">
+<figure entity="lmadven****" rend="inline">
+<figDesc>Copyright information for L. T. Meade's <hi rend="italic">An
+Adventuress</hi>.</figDesc>
+</figure>
+</div>
+</front>
+<body id="lmadven1203">
+<pb n="[1]"/><div id="lmadven0001" type="chapter" n="1"><head>AN ADVENTURESS<lb/>
 CHAPTER I</head>
 <p>THE time of year was January. In a sheltered valley about two miles
 outside the little seaport town of Mentone lovely summer weather
@@ -17,7 +154,7 @@ remarkable for firmness.</p>
 <p>The girl walked very slowly. She wore a large, shady hat, pushed
 back off her forehead, and a white dress. Just before her she could
 get a peep of the blue waters of the Mediterranean, and above her
-head<pb n="2     AN ADVENTURESS"/> was a perpendicular rock crowned
+head<pb n="2 AN ADVENTURESS"/> was a perpendicular rock crowned
 with olives. The path narrowed, then it took a sudden turn, and she
 found herself face to face with a small ch&#x00E2;let built on the
 side of the rock. The ch&#x00E2;let stood in a sheltered
@@ -43,7 +180,7 @@ girl she was looking for.</p>
 <p>"What a time you have been away, Kate!" she cried. "I have been so
 weary and ill--very ill. I think I must telegraph to-day. I don't
 believe I can endure this awful feeling much longer."</p>
-<p>"Oh yes, you can," replied Kate. "You will be<pb n="3     AN
+<p>"Oh yes, you can," replied Kate. "You will be<pb n="3 AN
 ADVENTURESS"/> better now that I have come back. See here, Kitty, I
 have brought these violets."</p>
 <p>"Oh, I am sick of them," said the girl. "Don't leave them there;
@@ -70,7 +207,7 @@ really thought when I saw you coming up the road that I was looking at
 myself. But why did you walk so slowly, and why did you turn your back
 for a moment, and what were you thinking of at the gate? You had a
 frown between your brows; you did not look very like me then. What was
-it, Kate? I am all curiosity."</p><pb n="4     AN ADVENTURESS"/>
+it, Kate? I am all curiosity."</p><pb n="4 AN ADVENTURESS"/>
 <p>"I was thinking," said Kate in a slow voice, "of the ironies of
 life. You, Kitty, are so rich, with such a splendid future before you,
 and yet you have no health; and, unless we are very careful, you--oh,
@@ -96,7 +233,7 @@ do. If he comes I suppose Ralph Henley will come with him."</p>
 <p>"Yes; poor old Ralph!"</p>
 <p>"When did you see him last?"</p>
 <p>"Eight years ago. Isn't it extraordinary? I am nineteen now. I saw
-Ralph last when I was eleven.<pb n="5     AN ADVENTURESS"/> I shall
+Ralph last when I was eleven.<pb n="5 AN ADVENTURESS"/> I shall
 never forget the time. I was a little girl and he was a big boy when
 he wished me good-bye, and kissed me gravely, and said, 'When you come
 back again, Kitty, you will be my little wife, won't you ?'</p>
@@ -121,7 +258,7 @@ shall he the richest landowners in all that side of the country. Is it
 not splendid? Have I not much to live for?"</p>
 <p>"Yes; and in order to live and enjoy it you must rest now," said
 Miss Mildmay. "There, I will put the violets away as you dislike
-them. You must<pb n="6    AN ADVENTURESS"/> tell me more about your
+them. You must<pb n="6 AN ADVENTURESS"/> tell me more about your
 Ralph when you have had some jelly. You know it tires you to talk
 long."</p>
 <p>"It does. It is so queer how this strange, terrible illness has
@@ -148,7 +285,7 @@ breath. "The same brows, the same little nose, the same mouth, the
 same firm chin. Hair the same colour, figure the same height, name the
 same--Kate. Yes, two Kates, two bodies and two souls; two Kates with
 two fortunes--one, a Kate going to stay in the world; another, a Kate
-going away. Oh, my God! the irony--the terrible, bitter<pb n="7     AN
+going away. Oh, my God! the irony--the terrible, bitter<pb n="7 AN
 ADVENTURESS"/> irony of life! Oh! I wish this temptation would not
 rise up and almost smother me! I feel as if I must yield. It would be
 all so fatally easy; and it would save mother, and no one in all the
@@ -174,10 +311,10 @@ girl who acted as maid to Kate Bouverie.</p>
 <p>"If I do it these two must go," thought Kate Mildmay to herself. "I
 wonder if I have courage. Mother would come here and help me. It is a
 dreadfully daring thing to do, but anything, anything is better than
-the future which lies before me!"</p><pb n="[8]"/></div>
-
-<div id="lmadven" type="chapter" n="2"><head>AN ADVENTURESS<lb/>
-CHAPTER II</head>
+the future which lies before me!"</p></div>
+<pb n="[8]"/>
+<div id="lmadven0002" type="chapter" n="2">
+<head>CHAPTER II</head>
 <p>SOON after <hi rend="italic">d&#x00E9;je&#x00FB;ner</hi> Dr. Fenton
 drove over from Mentone. He was the best English doctor in the place,
 and had a very large practice. He left his trap at the gate and walked
@@ -198,7 +335,7 @@ questions, and then he wrote a prescription, turning to Kate Mildmay
 as he did so and desiring her to send a messenger to Mentone for the
 necessary medicines. Soon afterwards he stood up and took his
 leave. He shook hands with Kate Bouverie, but he only bowed to Kate
-Mildmay. He walked down the<pb n="9     AN ADVENTURESS"/> little path
+Mildmay. He walked down the<pb n="9 AN ADVENTURESS"/> little path
 and mounted his trap, and turned back again towards Mentone. He had
 just done so when Kate Mildmay, catching up his prescription, said to
 Kate Bouverie--</p>
@@ -226,7 +363,7 @@ who looked full up at him.</p>
 <p>"Because she is placed for the present in my care, and I don't like
 her condition," said Kate Mildmay.</p>
 <p>Dr. Fenton uttered a short sigh.</p>
-<p>"I meant to speak to you before I left home,"<pb n="10     AN
+<p>"I meant to speak to you before I left home,"<pb n="10 AN
 ADVENTURESS"/> he said. " I did not do so to-night because I am in a
 hurry, but if you really insist--"</p>
 <p>"I want to know," said Kate. "She is in my care, and I ought to
@@ -256,7 +393,7 @@ seen him since she was a child."</p>
 <p>"How is it she has come here?"</p>
 <p>"She is her own mistress. Her father died in India, and she was on
 her way home. She wished to spend the winter at Mentone. She was quite
-well<pb n="11     AN ADVENTURESS"/> at the beginning of the
+well<pb n="11 AN ADVENTURESS"/> at the beginning of the
 winter. Mr. Hume does not even know of her illness."</p>
 <p>"It is one of those cases which develop very quickly--inherited
 doubtless," said the doctor under his breath. "Yes, poor girl, you
@@ -282,7 +419,7 @@ your mother bring it to-night?"</p>
 <p>"Then what were you talking about ?"</p>
 <p>"About you, dear."</p>
 <p>"Oh what, what? Does he really think I am very ill?"</p>
-<p>"He does; you are ill, Kate."</p><pb n="12     AN ADVENTURESS"/>
+<p>"He does; you are ill, Kate."</p><pb n="12 AN ADVENTURESS"/>
 <p>"Ah! I see that he thinks badly of me; I see it in your face. I am
 not going to die, Kate. Kate! Kate! I am not dying."</p>
 <p>"Poor Kitty!" said Kate Mildmay. She fell on her knees, wrapped the
@@ -312,7 +449,7 @@ doctors are old croaks. Dr. Fenton thinks your case serious, but he
 may be mistaken. Half the doctors diagnose cases wrongly. I know it;
 my father was a doctor, and a clever one too, and he made mistakes
 several times. You must keep up heart. And I mean you to be well
-nursed. My mother is<pb n="13     AN ADVENTURESS"/> the best nurse in
+nursed. My mother is<pb n="13 AN ADVENTURESS"/> the best nurse in
 the world; and she shall come and look after you. And we won't call in
 another doctor--not yet, because doctors are so often wrong."</p>
 <p>"We ought to write to my uncle," said Kate Bouverie, "and to Ralph
@@ -338,7 +475,7 @@ horse's head in the direction of a cheap pension where her mother
 lived. It was a very cheap pension indeed, quite on the outskirts of
 the West Bay. Mrs. Mildmay was housekeeper there, and, in
 consideration for her services, had her board and a small bedroom
-for<pb n="14     AN ADVENTURESS"/> nothing. It was the height of the
+for<pb n="14 AN ADVENTURESS"/> nothing. It was the height of the
 season, and, poor as the pension was, it was full. Kate left the pony
 at the gate, called to a boy to hold it, and walked up the little path
 which led to the front door. She entered, asked at once for
@@ -365,7 +502,7 @@ into; and it may--what is more, it must--succeed. But you must help
 me. I cannot do it without you. What do you say to having a
 boarding-house of your own--a good one, in this place? You would
 manage it splendidly, and make money; you would not be a mere drudge
-as you are at present."</p><pb n="15     AN ADVENTURESS"/>
+as you are at present."</p><pb n="15 AN ADVENTURESS"/>
 <p>"What do you mean, Kate? How wildly you talk! What I want is a
 five-pound note. Can you get it for me?"</p>
 <p>"I have no doubt I can if you will do what I want. I can get you
@@ -393,8 +530,8 @@ expression, child. You were always most daring. Yes; I will go with
 you. I will give notice immediately."</p>
 </div>
 
-<div id="lmadven" type="chapter" n="3"><head>AN ADVENTURESS<lb/>
-CHAPTER III</head>
+<div id="lmadven0003" type="chapter" n="3">
+<head>CHAPTER III</head>
 <p>LATE, very late that same night Mrs. Mildmay and her daughter sat
 out on the veranda of the villa Beau S&#x00E9;jour side by side. In
 the large bedroom within the sick girl slept heavily. She had been
@@ -414,7 +551,7 @@ wit to carry it through."</p>
 <p>"I do. If Kitty must die I may as well take her place. It will do
 her no harm. I love her; I would not hurt a hair of her head. But the
 case is hopeless. It will do just as well to have my name over the
-girl's grave."</p><pb n="17     AN ADVENTURESS"/>
+girl's grave."</p><pb n="17 AN ADVENTURESS"/>
 <p>"Oh, Kate, it does sound such an awful, awful sin; and I don't
 believe you will be able to manage it."</p>
 <p>"Yes, I will; I have thought the whole thing out. Nothing pleases
@@ -440,7 +577,7 @@ now go through--the life of a slave. I'd rather go on toiling; I am
 frightened at this."</p>
 <p>"You won't be frightened long, mother. Kitty must die. Dr. Fenton
 said so. When she dies it cannot do her any harm to bear my name on
-her<pb n="18     AN ADVENTURESS"/> tombstone. The dead do not suffer;
+her<pb n="18 AN ADVENTURESS"/> tombstone. The dead do not suffer;
 the dead do not come back."</p>
 <p>"Oh, you cannot say; perhaps they do," said Mrs. Mildmay in a
 frightened voice. "I know I shall never have a happy moment
@@ -468,7 +605,7 @@ kind."</p>
 cooking, you know, and stay away from the room. All I want is to
 dismiss Fanchon and Henriette. They must not be here. Those who knew
 the sick girl as Kate Bouverie must go away. Henriette wants to go
-back to her home at San Remo, and<pb n="19     AN ADVENTURESS"/> will
+back to her home at San Remo, and<pb n="19 AN ADVENTURESS"/> will
 never hear of poor little Kate any more; and Fanchon returns to
 Switzerland in a week. She told me yesterday that she could not live
 away from her mountains any longer; that they drew her. She has got
@@ -495,7 +632,7 @@ determined to have her own way in everything. I have seen her tell a
 distinct lie just for the sake of getting her own way. But this--this
 is awful! If it were not for Henry Merriman I believe I should be
 firm. I should tell her that I would have no part nor lot in<pb
-n="20     AN ADVENTURESS"/> the matter. An easy conscience is a
+n="20 AN ADVENTURESS"/> the matter. An easy conscience is a
 blessed possession. But, then, have I an easy conscience? And Merriman
 knows--he knows that I stole that money from Madame Argaut, and he has
 held it over me as a threat ever since. I have to pay him to keep him
@@ -521,7 +658,7 @@ reply. "Now lie very still. I have made you more comfortable, have I
 not?"</p>
 <p>"Much more comfortable."</p>
 <p>"If you lie just at that angle you are not likely to cough so
-badly. Go to sleep, and I will sit by you."</p><pb n="21     AN
+badly. Go to sleep, and I will sit by you."</p><pb n="21 AN
 ADVENTURESS"/>
 <p>"But I wish you wouldn't; it seems so selfish. And I don't suppose
 I am as bad as that."</p>
@@ -551,8 +688,8 @@ said Kate Mildmay. Now don't disturb me, mother. I have got her keys;
 I took them when I was bidding her good-night. The keys and the trunk
 must be back before daylight. I have got two or three hours. Go and
 sit with her. All will succeed."</p></div>
-
-<div id="lmadven" type="chapter" n="4"><head>AN ADVENTURESS<lb/>
+<pb n="22"/>
+<div id="lmadven0004" type="chapter" n="4"><head>AN ADVENTURESS<lb/>
 CHAPTER IV</head>
 <p>A TALL young man with broad shoulders and a somewhat fair type of
 face was standing kicking his heels impatiently in the outer room of a
@@ -575,7 +712,7 @@ two. But you must go at once."</p>
 <p>"You have wondered at Kate's silence?"</p>
 <p>"Rather. Has this anything to do with her? Has she been discovered
 at last?"</p>
-<p>"Yes; the naughty puss has been hiding in Men<pb n="23     AN
+<p>"Yes; the naughty puss has been hiding in Men<pb n="23 AN
 ADVENTURESS"/>tone all the winter. I received a telegram from her last
 night, and a long letter this morning. She is rather lonely, and wants
 us both to go. You may as well run off; you can put up at one of the
@@ -585,7 +722,7 @@ it for yourself."</p>
 <p>As the lawyer spoke he pointed to an open letter which lay on his
 desk. The young man took it up eagerly and was soon buried in its
 contents. It ran as follows:--</p>
-<q><text><body><div type="letter" id="lmadven">
+<q><text><body><div type="letter" id="lmadven1004">
 <opener>
 <salute>"DEAR UNCLE ROBERT,</salute></opener><p>You will wonder at my
 not writing to you for the last month or two, but you know I always
@@ -604,14 +741,14 @@ was very ill for a month, and I nursed her day and night, forgetting
 all about you and every one else in my intense sorrow and the heavy
 work which I had to go through. She died this morning; and now I feel
 terribly lonely. If it were not for her mother, who is staying with
-me, I<pb n="24     AN ADVENTURESS"/> do not know what I should
+me, I<pb n="24 AN ADVENTURESS"/> do not know what I should
 do. Poor, poor girl; and I loved her so much. Her name was Kate, and
 she had such a look of me. It is very strange; when I look now at her
 little dead face, I feel as though I were looking at myself, and it
 gives me the queerest sensation. Tell Ralph all about it, won't you;
 and come, dear Uncle Robert, as soon as you can to your loving
 niece,</p><closer><name>KATE BOUVERIE.</name></closer></div>
-<div type="postscript" id="lmadven">
+<div type="postscript" id="lmadven2004">
 <p>"<hi rend="italic">P.S.</hi>--If you start at once you will be in
 time for poor little Kate Mildmay's funeral, and I should so like you
 to he present. Don't delay; please come
@@ -632,7 +769,7 @@ ever wrote."</p>
 photograph enclosed in soft tissue paper. He handed it to Ralph
 Henley, who gazed at it attentively.</p>
 <p>"She is not much changed," he said. "She has not sent me one of
-these. I have not had a new<pb n="25     AN ADVENTURESS"/> portrait of
+these. I have not had a new <pb n="25 AN ADVENTURESS"/>portrait of
 her for a couple of years; but she is exactly what she always was. I
 should like to keep this if you don't mind, sir--at least, for the
 present. You shall have it back when I see you again."</p>
@@ -658,8 +795,8 @@ possessed her to hide herself in that place for the last three months
 passes my belief; but it is just like Kitty."</p>
 <p>"Yes, just like Kitty," said the young man. "But I think, sir, I
 love her all the better for her eccentricities."</p>
-<p>"Well, go out and see to the matter. I shall be<pb n="26     AN
-ADVENTURESS"/> busy until late this evening. I will manage to send a
+<p>"Well, go out and see to the matter. I shall be <pb n="26 AN
+ADVENTURESS"/>busy until late this evening. I will manage to send a
 letter off to-night; but that's about all I can do."</p>
 <p>Ralph Henley left Mr. Hume's chambers, and, going to the nearest
 post office, sent off a telegram to Kate Bouverie, Beau S&#x00E9;jour,
@@ -686,7 +823,7 @@ chaperon it can easily be managed."</p>
 had lain was empty. Mrs. Mildmay was lying back in a deep chair with
 her hands folded.</p>
 <p>"I am doing nothing, Kate," she said in a fretful voice. "I cannot
-turn my attention to anything.<pb n="27     AN ADVENTURESS"/> You
+turn my attention to anything. <pb n="27 AN ADVENTURESS"/>You
 won't ask me to cook a good dinner for you to-day, will you?"</p>
 <p>"No, certainly not," said Kate; "I am not hungry. Now listen,
 mother."</p>
@@ -712,7 +849,7 @@ again. You address me from this moment as Miss Bouverie; I speak to
 you as Mrs. Mildmay. Instead of you as my mother I take Mr. Hume as my
 uncle. I call him Uncle Robert. I take all Kate Bouverie's relations
 as mine; and Ralph Henley is betrothed to me. He saw me last when
-I<pb n="28     AN ADVENTURESS"/> was a child, not more than eleven
+I <pb n="28 AN ADVENTURESS"/>was a child, not more than eleven
 years old. He thinks himself in love with me. He shall be desperately,
 desperately in love with me, me myself--not because I have gold, not
 because I have a good old name, not because I am a lady by birth, but
@@ -738,7 +875,7 @@ the pony-trap to Mentone immediately after lunch. I mean to engage two
 good servants. You must dress yourself in your best, and appear as my
 friend and companion. Mr. Henley will sleep here. We will get the
 little room to the left of the stairs ready for him."</p><pb
-n="29     AN ADVENTURESS"/>
+n="29 AN ADVENTURESS"/>
 <p>"And where will you sleep, Kate?" began the mother.</p>
 <p>"Miss Bouverie, please," said Kate. "I shall sleep in that room. It
 will be ready on the night of his arrival."</p>
@@ -766,7 +903,7 @@ terrible girl. I could almost wish she had died when she was
 young."</p>
 <p>Kate remained behind. She looked round her. Then taking the
 telegram out of her pocket, she opened it swiftly, and looked at the
-words:--</p><pb n="30     AN ADVENTURESS"/>
+words:--</p><pb n="30 AN ADVENTURESS"/>
 <p>"Leave England to-night. With you Thursday morning. Ralph
 Henley."</p>
 <p>"Ah, Ralph," said the girl half aloud; I wonder what sort you
@@ -782,10 +919,10 @@ little Kate, and put no flowers over you even though you are Kate
 Mildmay. Forgive me, little Kitty--sweet, soft, pretty Kitty. And if
 it is in the power of the dead to help, let your mantle descend upon
 me in order that I may act your part worthily in the world."</p></div>
-
-CHAPTER V
-
-A GIRL and a man were walking slowly up one of the steep mountain passes near Mentone. The man's back was slightly bent ; there were furrows on his face and beads of perspiration on his brow. The girl had a springing step, and did not show the least trace of fatigue.
+<pb n="31"/>
+<div  id="lmadven0005" type="chapter" n="5">
+<head>CHAPTER V</head>
+<p>A GIRL and a man were walking slowly up one of the steep mountain passes near Mentone. The man's back was slightly bent ; there were furrows on his face and beads of perspiration on his brow. The girl had a springing step, and did not show the least trace of fatigue.
 "Need we go any farther, Katherine ?" said the man.
 "Not if you wish to rest, Uncle Robert. But see, there is a seat placed for the accommodation of weary climbers just round that next boulder. Let us make for it and sit down."
 The man said nothing further, but resumed his toiling march upwards.
