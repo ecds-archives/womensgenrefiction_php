@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
 <TEI.2 id="rcfriend1207">
 <teiHeader id="rcfriend1201">
@@ -12,9 +11,9 @@ Carey</name></author>
 <publicationStmt>
 <publisher>Emory University, Lewis H. Beck Center</publisher>
 <pubPlace>Atlanta, Georgia</pubPlace>
-<date>2005</date>
+<date>2006</date>
 <availability>
-<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<p>&#x00A9; 2006, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
 <address>
 <addrLine>Lewis H. Beck Center</addrLine>
 <addrLine>Emory University</addrLine>
@@ -103,12 +102,12 @@ added by the encoder and do not appear in the original text.</p></editorialDecl>
 </titlePage>
 <pb n="[ii]"/>
 <div id="rcfriend1000" type="paratext">
-<figure entity="rcfriend****" rend="inline">
-<figDesc>Paratext page for Rosa Nouchette Carey's <hi
+<figure entity="rcfriendfm1" rend="inline">
+<figDesc>Page displaying printer's mark included in the front matter of Rosa Nouchette Carey's <hi
 rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
 </figure>
 </div>
-<pb n="[iii]" entity="rcfriend****" pages="Title Page"/>
+<pb n="[iii]" entity="rcfriendtp" pages="Title Page"/>
 <titlePage type="full">
 <docTitle><titlePart type="main">'No Friend Like a
 Sister'</titlePart></docTitle>
@@ -135,25 +134,24 @@ COMPANY</publisher>
 </titlePage>
 <pb n="[iv]"/>
 <div id="rcfriend1001" type="copyright">
-<figure entity="rcfriend****" rend="inline">
+<figure entity="rcfriendcr" rend="inline">
 <figDesc>Copyright page for Rosa Nouchette Carey's <hi
 rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
 </figure>
 </div>
-<pb n="[v]"/>
+<pb entity="rcfriendded" pages="Dedication" n="[v]"/>
 <div id="rcfriend1002" type="dedication">
-<pb entity="rcfriend****" pages="Dedication"/>
 <p>To One Dear Memory</p>
 </div>
 <pb n="[vi]"/>
 <pb n="vii"/>
 <div id="rcfriend1003" type="table of contents"> 
-<figure entity="rcfriend****" rend="inline">
+<figure entity="rcfriendtc1" rend="inline">
 <figDesc>First contents page for Rosa Nouchette Carey's <hi
 rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
 </figure>
 <pb n="viii 'NO FRIEND LIKE A SISTER'"/>
-<figure entity="rcfriend****" rend="inline">
+<figure entity="rcfriendtc2" rend="inline">
 <figDesc>Second contents page for Rosa Nouchette Carey's <hi
 rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
 </figure>
@@ -230,7 +228,6 @@ chest of drawers, and <pb n="3 ST. MONICA'S LODGE"/>washstand there was also roo
 <l>The honest, earnest man must stand and work,</l>
 <l>The woman also.</l>
 	</lg></q>
-	
 <bibl>E. B. BROWNING.</bibl></cit>
 <cit><q><lg>
 <l>Can I be calm, beholding everywhere</l>
@@ -239,7 +236,6 @@ chest of drawers, and <pb n="3 ST. MONICA'S LODGE"/>washstand there was also roo
 <l>The evils that both soul and body bear?</l>
 </lg></q>	
 <bibl>BUCHANAN.</bibl></cit></epigraph>
-
 <p>A FEW days after this 'biographical conversation,' as Frances was wont to call it, a hansom drove up to the garden gate of St. Monica's Lodge, and a young lady in grey, with a very handsome grey fur stole, stepped out, and lifting down a small, light travelling bag, paid the driver, and then taking a key that hung from her chatelaine, let herself in and walked up the long garden path that led to the house.</p>
 <p>She was tall and rather slight, and she walked with a little swing
 that was not ungraceful. Her step was light and buoyant; there was
@@ -288,7 +284,7 @@ be <pb n="13 SISTER GRESHAM"/>pleased. I will find a hiding-place for my bag, an
 <p>'Ah, well, we can't think alike,' returned Lyall quickly, for he had already seen the woman who was to spoil his life. 'But let me finish. When Brandon bellowed out about the purple and fine linen Mallard gave me a queer look. "We don't batten much in luxury up at our place," he said drily. And I found out afterwards that he had not tasted meat for a week, and there was his poor sick wife. I told my sisters about it, and I have reason to know that sundry legs of mutton and rounds of beef were delivered at No. 9 Sugden Street. By-the-bye, Purley, could you not get their boy into St. Dunstan's School? He is a likely little chap, and they are giving him no education.'</p>
 <p>And then the two men were soon deep in a discussion of ways and means; for in spite of his vagaries Father Purley had a warm heart and loved to minister, both spiritually and physically, to his fellow-creatures. 'One cannot be a priest unless one is ready to live or die for the people entrusted to one's care,' Lyall Gresham once said.</p>
 	</div>
-	<pb n="23" entity="rcfriend023" pages="23/>
+	<pb n="23" entity="rcfriend023" pages="23"/>
 	<div id="rcfriend0003" type="chapter" n="3">
 <head>CHAPTER III<lb/>THE LAST STRAW</head>
 <epigraph>
@@ -442,7 +438,6 @@ beauty of the family, <pb n="37 A DIVIDED HOUSEHOLD"/>had been a very handsome g
 <l>To waken&#x2014;and not break&#x2014;their thrilling strings.</l>
 </lg></q>
 <bibl>F. HEMANS.</bibl></cit>
-
 <cit><q><p>Nothing can alter the responsibility which is laid upon each soul.&#x2014;</p></q><bibl>WESTCOTT.</bibl></cit>
 </epigraph>
 <p>BRIDE GRESHAM was sitting alone in the drawing-room at Grove House. At that hour it was rather a rare occurrence for either her or Elinor to be in the general sitting-room, for they much preferred their upstairs sanctum; but Bride, who was a little heedless in such matters, had let the fire burn too low, and being rather a chilly person she could not resist the pleasure of basking in the delicious warmth of the glorious piled-up logs in the drawing-room grate. Both her sisters-in-law were out. Elinor had a little business to transact at the West End, and Augusta had driven off an hour previously in the smart brougham which she always hired for her own use, and which looked so exactly like a private one. She intended to pay a round of calls&#x2014;her ordinary afternoon amusement.</p>
@@ -719,7 +714,6 @@ former times the owners of <pb n="85 WILDCROFT"/>Wildcroft must have been gentle
 <p>'I believe Bride would like them best,' returned Elinor; 'she does love anything quaint and out of the common. The inner room, which is not so large, would just do for her painting and all her messes. Rachel tells me there are some big attics upstairs, but it is really too dark to see any more. Ah, there comes the snow! Let us get our work and books and make ourselves cosy for the evening.' But in the end they were both so drowsy with fatigue and cold, that when Rachel came to summon them to supper, she found them dozing in the firelight like two blissful tabbies, with Rufus stretched luxuriously on the rug at his mistress's feet.</p>
 	</div>
 <pb n="87" entity="rcfriend087" pages="87"/>
-
 	<div id="rcfriend0009" type="chapter" n="9">
 <head>CHAPTER IX<lb/>'TWO LAME DOGS'</head>
 <epigraph><cit><q>
@@ -3206,7 +3200,70 @@ Mrs. Warburton&#x2014;our dear Elinor's <pb n="437 PICKING UP THREADS AND FINIS"
 <p>Sister Gresham always maintained stoutly that she would not have exchanged her own lot with any living woman.</p>
 <p>Her work had prospered. She had taken the house she coveted on a long lease, and 'St. Monica's Home for Nurses' was inscribed on the brass plate. Edith Holdsworth had given up her work at Guy's and was installed as matron and head of the Nurses' Home, while St. Monica's was reserved solely for sick people.</p>
 <p>No one who saw Frances Gresham in her daily life could doubt that she was a contented woman. Everything was going well with her dear ones, she had health, strength, a good conscience, and she loved her work. 'To me, too, the lines have fallen in pleasant places,' she murmured softly. And then she thought of the rapt and wondering expression on Lyall's face when his first-born son was laid in his arms, and of the pale mother's speechless happiness. And then her thoughts travelled to Elinor's sweet face. 'We all have our good things,' she whispered&#x2014;'our precious talents and our sacred gifts. May our Heavenly Father help us to use them rightly!' And there was a deep, unutterable content in Sister Gresham's eyes.</p>
-	</div>
+</div>
 </body>
-	</text>
+<back id="rcfriend1578">
+<pb/>
+<div id="rcfriend345" type="adverts">
+<figure entity="refriendbm1" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="refriendbm2" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/><figure entity="refriendbm3" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/><figure entity="refriendbm4" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/><figure entity="refriendbm5" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/><figure entity="refriendbm6" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/><figure entity="refriendbm7" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/><figure entity="refriendbm8" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/><figure entity="refriendbm9" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/><figure entity="refriendbm10" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/><figure entity="refriendbm11" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/><figure entity="refriendbm12" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/><figure entity="refriendbm13" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+<pb/>
+<figure entity="refriendbm14" rend="inline">
+<figDesc>Advertisement included in the back of Carey's <hi
+rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
+</figure>
+</div>
+</back>
+</text>
 </TEI.2>
