@@ -10,9 +10,9 @@
       <publicationStmt>
         <publisher>Emory University, Lewis H. Beck Center</publisher>
         <pubPlace>Atlanta, Georgia</pubPlace>
-        <date>2005</date>
+        <date>2006</date>
         <availability>
-          <p>&#x00A9; 2005, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+          <p>&#x00A9; 2006, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
 <address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
         </availability>
       </publicationStmt>
@@ -101,17 +101,17 @@ added by the encoder and do not appear in the original text.</p>
 <pb/>
 <titlePage type="half">
 <docTitle>
-<titlePart>An Adventuress</titlePart>
+<titlePart type="main">An Adventuress</titlePart>
 </docTitle>
 </titlePage>
 <pb/>
 <div type="advert" id="lmadvenfm000">
-<figure entity="lmadvert****" rend="inline">
+<figure entity="lmadvenad1" rend="inline">
 <figDesc>Advertisement page in L. T. Meade's <hi rend="italic">An
 Adventuress</hi>.</figDesc>
 </figure>
 </div>
-<pb entity="lmadven****" pages="Title Page"/>
+<pb entity="lmadventp" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">AN ADVENTURESS</titlePart>
@@ -128,7 +128,7 @@ AUTHOR OF<lb/>
 </titlePage>
 <pb/>
 <div type="copyright" id="lmadvenfm001">
-<figure entity="lmadven****" rend="inline">
+<figure entity="lmadvencr" rend="inline">
 <figDesc>Copyright information for L. T. Meade's <hi rend="italic">An
 Adventuress</hi>.</figDesc>
 </figure>
@@ -312,7 +312,6 @@ girl who acted as maid to Kate Bouverie.</p>
 wonder if I have courage. Mother would come here and help me. It is a
 dreadfully daring thing to do, but anything, anything is better than
 the future which lies before me!"</p><pb n="[8]"/></div>
-
 <div id="lmadven0002" type="chapter" n="2"><head>CHAPTER II</head>
 <p>SOON after <hi rend="italic">d&#x00E9;je&#x00FB;ner</hi> Dr. Fenton
 drove over from Mentone. He was the best English doctor in the place,
@@ -4159,7 +4158,6 @@ ordered a lamp to be supplied to her, and, taking out a yellow-backed
 novel, amused herself reading it until it was time for bed.</p>
 <p>The next day, thoroughly refreshed and with all her wits about her,
 she wrote a note to Mrs. Mildmay.</p>
-
 <q><text><body><opener><salute>"DEAR
 MADAM,--</salute></opener><p>I should be glad to see you as soon as
 possible on a private matter. I have a message from Mrs. Henley for
@@ -5493,8 +5491,9 @@ sleep. The end was in view, however, and the thought of that supported
 her. In one week she would be safe. She had taken, under the
 circumstances, the best possible steps to ensure her safety, but the
 ordeal was not yet over. Should she succeed, or should she fail?</p>
-
-<pb n="206"/><div id="lmadven0021" type="chapter" n="21"><head>CHAPTER
+</div>
+<pb n="206"/>
+<div id="lmadven0021" type="chapter" n="21"><head>CHAPTER
 XXI</head>
 <p>ABOUT seven o'clock on the following morning Kate rose and partly
 dressed. She opened the door of her room, crossed the corridor, and
@@ -5939,7 +5938,6 @@ not an hour ago."</p>
 MISS HUME,</salute></opener><p>--I will call to see you this evening
 at nine o'clock.--</p><closer><signed>Yours faithfully,<name>"JOHN
 FENTON-DOUGLAS."</name></signed></closer></body></text></q>
-
 <p>"Dinner--quick, please," said Mary, her eyes sparkling; "and, by
 the way, Mrs. Grace, can we have a private sitting-room."</p>
 <p>"Certainly, Miss Mary; 'tain't likely you would want your dinner in
@@ -10368,7 +10366,6 @@ AN ADVENTURESS"/> get rid of those bells in her ears, and to secure
 the forgiveness of God for her sin. That is all, sir and ladies, I
 thought I would tell you. I am going back now. I shall sleep to-night
 at the Inn; you can do what you please with me."</p></div>
-
 <div id="lmadven" type="chapter" n="42"><pb n="[389]"/><head>CHAPTER
 XLII</head>
 <p>IT was a dreadful story, and to speak of the consternation, the
@@ -10576,7 +10573,11 @@ dead. But in other ways she was gentle and submissive, and loved
 Henley as much as she could love Ralph's brother.</p>
 <p>But Ralph was dead, she said. God had chosen to punish her in this
 way for her great sin.</p>
-<p>THE END</p></div>
-
-Printed by BALL.ANTYNE, HANSON & CO.
-Edinburgh & London
+<trailer>THE END</trailer></div>
+</body>
+<back>
+<div id="lmadven0388" type="colophon">
+<p>Printed by BALLANTYNE, HANSON &#x0026; CO.<lb/>
+Edinburgh &#x0026; London</p></div></back>
+</text>
+</TEI.2>
