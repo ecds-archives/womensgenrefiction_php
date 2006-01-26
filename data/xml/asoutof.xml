@@ -102,13 +102,14 @@ added by the encoder and do not appear in the original text.</p>
   </teiHeader>
 	<text id="asoutof1204">
 		<front id="asoutof1202">
-		  <pb/>
+		  <pb entity="asoutofhtp" pages="Half-Title Page"/>
 			<titlePage type="half">
 				<docTitle>
 					<titlePart
 					    type="Series">Appleton's
 					Town and Country Library No. 176</titlePart>
-				</docTitle>
+<titlePart type="main">OUT OF DUE SEASON</titlePart>				
+</docTitle>
 			</titlePage>
 			<pb entity="asoutoftp" pages="Title Page"/>
 			<titlePage type="full">
@@ -1009,7 +1010,7 @@ steadily and calmly on the heated, excited counte-
 				<p>"It's all over," he said sorrowfully. "Try to bear it, Gideon. He's gone."</p>
 				<p>Gideon rose from his knees, and looked from <pb n="175 OUT OF DUE SEASON"/>the child's placid lifelessness into his uncle's rugged, wrinkled face, as if he scarcely understood what had been said. As Obed's hand still pressed his arm and drew him from the bed, he made two steps towards the middle of the room, and then fell, like a log, prone upon the floor at Uncle Obed's feet.</p>
 			</div>
-			<pb n="176"/>
+			<pb entity="asoutof176" pages="176" n="176"/>
 			<div id="asoutof0008" n="7" type="chapter">
 				<head>CHAPTER VII.</head>
 				<epigraph>
@@ -1296,7 +1297,7 @@ drawers and left it in the draught. It was a pretty little room,
 			</div>
 			<pb n="228"/>
 			<div id="asoutof0010" n="9" type="chapter">
-				<head>IX</head>
+				<head>IX.</head>
 				<epigraph>
 					<q>"Wer nie sein Brod mit Thr&#x00E4;nen ass&#x2014;&#x2014;</q>
 				</epigraph>
@@ -1361,7 +1362,7 @@ drawers and left it in the draught. It was a pretty little room,
 			</div>
 			<pb n="248"/>
 			<div id="asoutof0011" n="10" type="chapter">
-				<head>X</head>
+				<head>X.</head>
 				<epigraph>
 					<q>"Let no man dream but that I love thee still."</q>
 				</epigraph>
@@ -1499,7 +1500,7 @@ drawers and left it in the draught. It was a pretty little room,
 			</div>
 			<pb n="272"/>
 			<div id="asoutof0012" n="11" type="chapter">
-				<head>XI</head>
+				<head>XI.</head>
 				<epigraph>
 					<q><lg><l>"Love seeketh not itself to please,</l>
 					<l>Nor for itself hath any care."</l></lg></q>
@@ -1609,7 +1610,7 @@ for some little time afterwards he heard his own words passed with loud, half-dr
 			</div>
 			<pb n="290"/>
 			<div id="asoutof0013" n="12" type="chapter">
-				<head>XII</head>
+				<head>XII.</head>
 				<epigraph>
 					<q>"And I shall claim thee mine before High God!"</q>
 				</epigraph>
