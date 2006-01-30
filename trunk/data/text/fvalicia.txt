@@ -1,6 +1,139 @@
-<pb n="[5]"/><div id="fvalicia" type="chapter" n="1"><head>A<lb/>STORY
-OF THE UPPER MISSOURI.<milestone unit="section" rend="line"/>CHAPTER
-I.<lb/>FATHER AND DAUGHTER.</head>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="fvalicia0000">
+<teiHeader id="fvalicia0001">
+<fileDesc>
+<titleStmt>
+<title>Alicia Newcome, an electronic edition</title>
+<author><name type="person" reg="Victor, Frances Fuller, 1826-1902">[Frances Fuller Victor]</name></author>
+</titleStmt>
+<extent>275kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2006</date>
+<availability>
+<p>&#x00A9; 2006, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<title>Women's Genre Fiction, 1860-1920</title>
+<respStmt>
+<name>Sheila T. Cavanagh</name>
+<name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp>
+</respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>[Victor, Frances Fuller]</author>. <title>Alicia
+Newcome: A Story of the Upper Missouri</title>. <pubPlace>London</pubPlace>:
+<publisher>George Routledge and Sons</publisher>, <date>[186-?]</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the
+Women's Genre Fiction Project.  Project participants intend for this
+encoded text, as well as all texts produced by this project, to be
+made available on the web for educational, scholarly and pedagogical
+purposes. This project is funded by a grant from the National
+Endowment for the Humanities.</p>
+</projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded. Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p>
+</samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera. Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi. These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software. The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel. This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines. For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p>
+</editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="collection">Genre Fiction</rs>
+<rs type="language">English</rs>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
+<rs type="geography">United States</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>American literature--19th Century--Fiction.</item>
+<item>Women authors, American--19th Century.</item>
+<item>Romance.</item>
+<item>Western fiction.</item>
+<item>Crime.</item>
+<item>Single fathers.</item>
+<item>Yellowback books.</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2006-January-30</date>
+<respStmt>
+<name>Erika Farr, </name>
+<resp>project manager.</resp>
+</respStmt>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text id="fvalicia0002">
+<front id="fvalicia0003">
+<div id="fvalicia000" type="covers">
+<figure entity="fvaliciafc" rend="inline">
+<figDesc>Front cover of Victor's <title rend="italic">Alicia Newcome</title>.</figDesc>
+</figure>
+<pb/>
+<figure entity="fvaliciabc" rend="inline">
+<figDesc>Back cover of Victor's <title rend="italic">Alicia Newcome</title>.</figDesc>
+</figure>
+</div>
+<pb/>
+<pb entity="fvaliciatp" pages="Title Page" n="[3]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">ALICIA NEWCOME.</titlePart>
+<titlePart type="sub">A Story of the Upper Missouri.</titlePart>
+</docTitle>
+<docImprint>
+<pubPlace>LONDON</pubPlace>
+<publisher>GEORGE ROUTLEDGE AND SONS,</publisher>
+<pubPlace>THE BROADWAY, LUDGATE.</pubPlace>
+</docImprint>
+</titlePage>
+</front>
+<body id="fvalicia0010">
+<pb entity="fvalicia5" pages="5" n="[5]"/>
+<div id="fvalicia011" type="chapter" n="1">
+<head>A<lb/>STORY OF THE UPPER MISSOURI.<lb/>
+CHAPTER I.<lb/>FATHER AND DAUGHTER.</head>
 <p>AWAY, away toward the almost trackless plain stretched the rolling
 prairies. The Indian Territory had given way before the advancing
 hosts of civilization, and surveyors, speculators, locaters,
@@ -12,7 +145,7 @@ insatiable "pale-faces" poured in to make the Indian wilderness to
 blossom with a new life. The grand old river, coming from the
 unexplored and mythic regions of the Rocky Mountains, poured its flood
 through plain and forest, through bluff and bottom, to bear on its
-bosom the new civilization which it was to serve with the best
+%bosom the new civilization which it was to serve with the best
 elements of health, wealth and peace. From its sides spread the
 avenues of settlement, and villages sprung up like magic to stand as
 buoys guiding the settler to the new regions beyond, where plains were
@@ -24,7 +157,7 @@ more to better his fortunes than to gratify an uneasy and reckless
 spirit, little fitted for the observations and restraints of a New
 England community. His history had been tinged with the
 romance--which, unfortunately for happiness and good order is too
-frequently<pb n="6     THE LAND-CLAIM."/> the truth--of a <hi
+frequently<pb n="6 THE LAND-CLAIM."/> the truth--of a <hi
 rend="italic">m&#x00E9;salliance</hi>; he had won the love of an
 artless girl, the daughter of a noble family which he served as
 gardener, and, with her, had fled to America. The mere child-wife of
@@ -44,7 +177,7 @@ whose boundaries--well defined on three sides by the river, the woods,
 and a ravine cutting down through the bluffs--were still open and a
 matter of doubt on the fourth side. The "blazing" of trees, and
 driving of stakes across the prairies, indicated the limits of the
-land "located" by the preemptors. Where these lines were thus plainly
+land "located" by the pre&#x00EB;mptors. Where these lines were thus plainly
 marked, no doubts could arise as to each man's proper possessions;
 where the lines were not so marked, or where the stakes had been moved
 either by accident or design, the limits of the claim might become a
@@ -60,7 +193,7 @@ extent, and he proceeded to pull up the offending landmarks. The
 stakes, however, were replaced by his bachelor neighbors, and the
 intimation given that they should insist upon their line--an
 intimation which stirred Newcome's heart to the point of resorting to
-powder and ball to defend his claim. Against<pb n="7     THE FRENCH
+powder and ball to defend his claim. Against<pb n="7 THE FRENCH
 TRADER."/> this spirit of her father, Alicia, his daughter, was
 powerless. Though but a girl in years, she was his only aid and
 house-keeper, and alone had to bear her heavy burden. The fear of
@@ -97,7 +230,7 @@ stopping to talk with <hi rend="italic">you</hi>, I'll make you sorry
 for encouraging such acquaintances."</p>
 <p>"But, how can I keep him from coming, or from talking to me if he
 should come?" asked Alicia, between grief and resentment at her
-father's harshness.</p><pb n="8     THE LAND-CLAIM."/>
+father's harshness.</p><pb n="8 THE LAND-CLAIM."/>
 <p>"There's ways enough. Every woman knows, or ought to know, how to
 rid herself of the society of disreputable men."</p>
 <p>"But I am not a woman yet, father; and I do <hi
@@ -133,7 +266,7 @@ allowance, and seeing every thing in the most favorable light, it was,
 after all, but a poor and barren spot for gentle youth and eminent
 beauty to take healthy root in.</p>
 <p>Perhaps some such thought was in the sullen breast of Thomas
-Newcome, as he stole a furtive glance at his daughter<pb n="9     THE
+Newcome, as he stole a furtive glance at his daughter<pb n="9 THE
 FOUR CLAIM-HUNTERS."/> straining her eyes to hem-stitch some curtains
 for the cabin-windows by the light of a single tallow candle. What
 would her proud English relations say, could they see her as he saw
@@ -148,10 +281,10 @@ stakes, I'll let daylight into them, without further notice."</p>
 and silently obeyed, retiring to the only bedroom, while her father
 threw himself on a "bunk" in the common living room; and stillness, if
 not sleep, fell upon the inmates of that lonely
-habitation.</p><milestone unit="section" rend="line"/></div>
-
-<div id="fvalicia" type="chapter" n="2"><head>CHAPTER II.<lb/>AN
-EVENING IN BACHELOR'S HALL.</head>
+habitation.</p>
+</div>
+<div id="fvalicia012" type="chapter" n="2">
+<head>CHAPTER II.<lb/>AN EVENING IN BACHELOR'S HALL.</head>
 <p>IN quite a different spirit had the evening been enjoyed by the
 squatters on a neighboring claim. For the sake of sociability, comfort
 and economy, four young hunters of claims had agreed to board and
@@ -204,7 +337,7 @@ accounts for their not being fit to eat."</p>
 <p>"Without doubt," put in the Squire, soberly; "women are among the
 most useful of the domestic animals. Now, a man may keep house very
 comfortably without a dog or a cat, a horse or a cow; but without a
-woman, something is pretty apt<pb n="11     MALE COOKERY."/> to go
+woman, something is pretty apt<pb n="11 MALE COOKERY."/> to go
 wrong. I shouldn't wonder, if we had a woman in the house, if she
 could put to flight these pilfering mice that are destroying every
 thing. There was Mrs. Smith that I boarded with when I studied
@@ -241,7 +374,7 @@ they be served?" asked Doc, with great interest.</p>
 <p>"In soup, I should say," suggested Squire.</p>
 <p>"Oh, you unsuspecting innocents!" laughed Flag, "would you, really
 now, desire some rat-tail soup?"</p>
-<p>"Why, of course, if it's good."</p><pb n="12     THE LAND-CLAIM."/>
+<p>"Why, of course, if it's good."</p><pb n="12 THE LAND-CLAIM."/>
 <p>Flag indulged in an uproarious burst of merriment, which nearly
 upset the table.</p>
 <p>"Explain yourself," said Squire.</p>
@@ -281,7 +414,7 @@ the table in a careless manner, as if it was intended to be thrown
 out. He won't mind that--he'd rather eat the pieces than cook any
 thing."</p>
 <p>"But I don't see what joke there is in that--it's just what he
-always does," said Doc.</p><pb n="13     A PRACTICAL JOKE."/>
+always does," said Doc.</p><pb n="13 A PRACTICAL JOKE."/>
 <p>"Let me finish," said Squire. "We'll just step out long enough to
 give him time to come in and eat, and, when the fatal deed is done, we
 will reappear in time to assure him he has just eaten our wolf-bait,
@@ -319,7 +452,7 @@ Ed?"</p>
 <p>"I eat some meat and bread, to be sure I did. But what is the
 matter? You all look as if you had the palsy."</p>
 <p>"You're a dead man!" exclaimed Doe, sinking upon one of the
-benches.</p><pb n="14     THE LAND-CLAIM."/>
+benches.</p><pb n="14 THE LAND-CLAIM."/>
 <p>"The wolf-bait! strychnine!" cried Squire and Flag, in tones of
 horror.</p>
 <p>"What do you say? Was the meat poisoned?" asked Ed piteously, his
@@ -398,7 +531,7 @@ much fun in it, I reckon."</p>
 right again, and it <hi rend="italic">is</hi> mean for the fellows to
 laugh when you have been in such danger."</p>
 <p>"Well, we weren't laughing at your accident, you know," added Flag,
-"but just at the funny parts of the treatment<pb n="16     THE
+"but just at the funny parts of the treatment<pb n="16 THE
 LAND-CLAIM."/> But I think, after all, Ed, we ought to make you pay
 for the wolf-skins, 'cause we'd surely have trapped three or four, was
 such a pretty night for them to be out."</p>
@@ -436,7 +569,7 @@ from its rest, and left the shanty without a word.</p>
 he did something ugly in revenge."</p>
 <p>"Yes, wouldn't he be enraged if the joke should get into the
 papers? His editorial dignity, and all that. He'll never forgive us,
-you may be sure."</p><pb n="17     MAY MORNING."/>
+you may be sure."</p><pb n="17 MAY MORNING."/>
 <p>"Nonsense! a tempest in a teapot," said Squire, with an uneasy
 laugh.</p>
 <p>"It will blow over by dinner-time; he didn't eat much breakfast,
@@ -449,10 +582,10 @@ his pet, or he might poison us, in good earnest;" saying which, the
 young man turned his face toward the western prairie, whistling gayly
 as he went.</p>
 <p>"Flag's a good fellow," said Doc, thoughtfully; "long may he
-wave!"</p><milestone unit="section" rend="line"/></div>
-
-<div id="fvalicia" type="chapter" n="3"><head>CHAPTER III.<lb/>THE
-TRAGEDY IN THE TIMBER.</head>
+wave!"</p>
+</div>
+<div id="fvalicia013" type="chapter" n="3">
+<head>CHAPTER III.<lb/>THE TRAGEDY IN THE TIMBER.</head>
 <p>THE beauty of this late May morning seemed to have called abroad
 every thing animate. Birds sung merrily from the neighboring
 woodland--the sly and graceful prairie-wolf leaped noiselessly through
@@ -470,7 +603,7 @@ the banks of the mighty Missouri, glimpses of which could be seen here
 and there, through long green vistas, made by ravines traversing the
 bluffs in a downward direction to the river. The sky had the beautiful
 azure hue which denotes a pure atmosphere; the sun shone brilliantly;
-and to the two young men who<pb n="18     THE LAND-CLAIM."/> sung, and
+and to the two young men who<pb n="18 THE LAND-CLAIM."/> sung, and
 laughed, and shouted as they walked, with axes slung over their
 shoulders that never felt the weight, life seemed a festival, bare
 existence a rich delight.</p>
@@ -505,7 +638,7 @@ dimensions and appearance, explained the occasion of her alarm.</p>
 Fred Allen.</p>
 <p>Alicia drew a long breath. "Oh, I beg your pardon, sirs, for
 interrupting your walk, but I am so timid about snakes, and don't know
-a harmless one from one that is venomous."</p><pb n="19     DISPUTED
+a harmless one from one that is venomous."</p><pb n="19 DISPUTED
 LANDMARKS."/>
 <p>This was said while the three hurried rapidly away from the
 ugly-looking coil.</p>
@@ -544,7 +677,7 @@ not to conceal from you that my father is in a terrible passion, and
 that he took his gun out with him this morning."</p>
 <p>"Then," said Allen, affecting an indifference he did not feel,
 "your father is safe, and it is only we who are in danger; for we, you
-perceive, are not armed."</p><pb n="20     THE LAND-CLAIM."/>
+perceive, are not armed."</p><pb n="20 THE LAND-CLAIM."/>
 <p>The child was not used to argument, nor to express her own
 convictions very often; therefore she gave for answer not words
 indeed, but such a look of touching appeal as was better than a whole
@@ -562,7 +695,7 @@ the contrary, might prove a means of conciliation, by giving her
 father time to cool his anger, in the bright morning air. Cheered by
 this hope, her native graciousness of manner returned to her, and she
 received the heaped up basket with mirthful thanks.</p>
-<p>"Good-morning now, Miss Newsome," Allen had replied; "perhaps your
+<p>"Good-morning now, Miss Newcome," Allen had replied; "perhaps your
 father may invite me home with him, to help eat them."</p>
 <p>"I hope he may," was the fervent rejoinder; the echo of which
 answer rung in Allen's ears, and lit, also, a half-conscious blush on
@@ -581,7 +714,7 @@ timid child they had just parted from, a better resolution replaced
 the promptings of passion.</p>
 <p>"All we can do in the premises," said Allen, "is to pull up these
 stakes, as Newcome has done, and put them back in their former
-places."</p><pb n="21     AN ALTERCATION."/>
+places."</p><pb n="21 AN ALTERCATION."/>
 <p>"Agreed," answered the Doctor. "I don't see any other way."</p>
 <p>For half an hour the young men worked uninterruptedly; but, coming
 to the border of the timber, they then perceived Newcome, leaning
@@ -617,7 +750,7 @@ blood it was--was roused.</p>
 expression Allen turned away, but not in time to have escaped a blow
 with a heavy stick, had it not been averted by the Doctor, who struck
 up the cudgel with the ax he carried in his hand, and which in
-descending just grazed the arm of Newcome.</p><pb n="22     THE
+descending just grazed the arm of Newcome.</p><pb n="22 THE
 LAND-CLAIM."/>
 <p>The man's eyes fairly blazed with malice, and instinctively he
 clutched and half raised his gun, which hitherto had rested against
@@ -653,9 +786,9 @@ forward as if smitten with a sudden mortal pang.</p>
 <p>The dead body of Edwards was conveyed to Fairview, the county town,
 and laid out in the room where the examination was to be held, before
 one of the district judges.</p></div>
-
-<pb n="23     THE CABIN AND ITS MISTRESS."/><div id="fvalicia"
-type="chapter" n="4"><head>CHAPTER IV.<lb/>THE EXAMINATION.</head>
+<pb n="23 THE CABIN AND ITS MISTRESS."/>
+<div id="fvalicia" type="chapter014" n="4">
+<head>CHAPTER IV.<lb/>THE EXAMINATION.</head>
 <p>WHEN Allen, who was the accuser of Newcome, was asked if there were
 any other witnesses to appear at the preliminary trial of the man, he
 was forced, very much against his own feelings, to name Alicia Newcome
@@ -686,7 +819,7 @@ in such a world.</p>
 singing, and it almost paralyzed his limbs; for how could he so soon
 change that happy music to cries of anguish? He knew she was flitting
 back and forth, and round and about, for he could notice the changes
-in the sound of her<pb n="24     THE LAND-CLAIM."/> voice as she did
+in the sound of her<pb n="24 THE LAND-CLAIM."/> voice as she did
 so. Just as he reached the porch, she had flitted to the door for
 another glance at the beautiful May landscape and smiling heavens, her
 flaxen curls prettily disordered by exercise, and such roses blushing
@@ -721,7 +854,7 @@ attended informally by two citizens of Fairview. The constable, who
 was a tender-hearted man in his rough way, was very much impressed in
 this instance with the unpleasantness of his duty.</p>
 <p>"So she tuk it hard, did she, poor thing! I'm glad I didn't see her
-faint away. Never could bear to have women<pb n="25     A DAUGHTER'S
+faint away. Never could bear to have women<pb n="25 A DAUGHTER'S
 GRIEF."/>folks mixed up in sich scrapes; they allus take on so, a man
 feels mighty bad to see 'em."</p>
 <p>Allen made no reply. He was thinking of the part he must act in
@@ -758,7 +891,7 @@ the latter part of this attempt at consolation.</p>
 thing proven agin 'em. Like as not this may turn out to be accidental
 shooting, at the worst."</p>
 <p>"Is it true, then, that my father killed some one?" cried<pb
-n="26     THE LAND-CLAIM."/> Alicia, a composure almost frightful in
+n="26 THE LAND-CLAIM."/> Alicia, a composure almost frightful in
 one so young settling upon her face. "Why," she continued, addressing
 Allen "<hi rend="italic">you</hi> are alive! and--and--who then was
 killed?"</p>
@@ -796,7 +929,7 @@ effort, forcing himself to speak. "Shall I send some one to you?"</p>
 <p>"Oh, no! oh, no! I do not wish to see any one, unless I could see
 my father," she added, looking inquiringly toward the constable.</p>
 <p>"Must say no to that, young lady, though I am real sorry;<pb
-n="27     PREPARATIONS FOR THE TRIAL."/> but you cannot see your
+n="27 PREPARATIONS FOR THE TRIAL."/> but you cannot see your
 father 'fore the examination," answered the officer.</p>
 <p>"Shall I come for you this afternoon?" asked Allen, thinking that,
 friendless as she seemed, she might accept this service even from him,
@@ -832,7 +965,7 @@ grief. But she was too young, and knew too little about the nature of
 evidence to realize that her own testimony would do more to commit him
 than that of any one else not a positive witness of the crime. The
 circumstances of the murder being all unknown to her, she
-naturally<pb n="28     LAND-CLAIM."/> looked for the convincing proofs
+naturally<pb n="28 LAND-CLAIM."/> looked for the convincing proofs
 to come from some one concerned in the affray. Therefore, in thinking
 over what she might have to say, she had almost persuaded herself that
 she could soften the weight of any but <hi rend="italic">positive</hi>
@@ -866,7 +999,7 @@ constantly averted. The witness testified, in a voice hardly audible
 from agitation, that her father had spoken very excitedly on the
 subject of the dispute the night previous; that he had said he would
 pull up the stakes of the other claimants; that he had even threatened
-to shoot them--the claimants. Also, that he was a<pb n="29     THE
+to shoot them--the claimants. Also, that he was a<pb n="29 THE
 PRISONER COMMITTED."/> man of irritable temper, and sometimes
 threatened her; and she raised her voice a little as she added, of her
 own accord, "but he never struck me when he has threatened, and so I
@@ -893,7 +1026,7 @@ man stood in reference to that direction.</p>
 <p>Witness "could not answer positively. In the excitement of the
 moment did not notice more than that the prisoner went into the woods
 behind us; but whether to the right or left, could not say."</p>
-<p>The surgeon then uncovered the body, and demonstrated jthat the
+<p>The surgeon then uncovered the body, and demonstrated that the
 ball must have come from the left of where the deceased was standing
 at the time; and also that it had been fired from a lower point of
 ground, as the appearance of the o wound indicated.</p>
@@ -903,7 +1036,7 @@ no emotion at the sight, but rather seemed curious to observe the
 correctness of the surgeon's observations.</p>
 <p>Upon the testimony offered, the Judge felt compelled to commit the
 prisoner for further trial, and to await the impaneling of the Grand
-Jury. The crowd, who had been<pb n="30     THE LAND-CLAIM."/> waiting
+Jury. The crowd, who had been<pb n="30 THE LAND-CLAIM."/> waiting
 in suppressed wrath to obtain this sanction to their already settled
 convictions, now began to mutter threats, and to talk about "stringing
 him up," "putting him in the Missouri," and the like methods of
@@ -938,8 +1071,8 @@ compassion for his suffering daughter--the impression of his cruel
 nature gaining more ground among those who witnessed this exhibition
 of it from this one circumstance, than from the accredited fact of the
 shooting an enemy.</p>
-<p>But there was pity for her in other hearts, if not in his*.<pb
-n="31     ATTEMPT AT RECONCILIATION."/> The constable's wife had
+<p>But there was pity for her in other hearts, if not in his.<pb
+n="31 ATTEMPT AT RECONCILIATION."/> The constable's wife had
 lingered behind to offer sympathy and protection; and now, when she
 beheld the misery and helplessness of the poor child, her woman's
 heart bled for her.</p>
@@ -952,11 +1085,10 @@ Silas Wyman's wife took a high rank in the esteem of all present--
 rank which she continued to hold by after deeds of goodness; for the
 friendless and homeless girl was taken immediately to her home and
 heart, and cherished and nourished through a lingering illness which
-had nearly cost her life.</p><milestone unit="section"
-rend="line"/></div>
-
-<div id="fvalicia" type="chapter" n="5"><head>CHAPTER V.<lb/>AN
-AN APPARITION.</head>
+had nearly cost her life.</p>
+</div>
+<div id="fvalicia015" type="chapter" n="5">
+<head>CHAPTER V.<lb/>AN AN APPARITION.</head>
 <p>THAT evening, when the surveyor was returning home, healthily
 weary, and in anticipation of the usual merry times at the shanty, he
 fell in with the editor, mounted on a pony, and pacing easily along in
@@ -972,7 +1104,7 @@ fellows back."</p>
 of humor if I please; but you need not feel troubled about it. As for
 paying you back, you may be sure I shall do that at the first
 opportunity; and there'll be time enough after that to shake
-hands."</p><pb n="32     THE LAND-CLAIM."/>
+hands."</p><pb n="32 THE LAND-CLAIM."/>
 <p>"Just as you please; hope it won't be long," answered Flag,
 good-humoredly. "Where did you get that pony?"</p>
 <p>"Bought him."</p>
@@ -1044,7 +1176,7 @@ him accidentally?"</p>
 the circumstances, and let another man bear the accusation of willful
 murder? It is not probable, in the least; and if nothing better than
 such a supposition comes to aid him, Newcome will surely be
-convicted."</p><pb n="34     THE LAND-CLAIM."/>
+convicted."</p><pb n="34 THE LAND-CLAIM."/>
 <p>The young men remained silent for some moments, each engaged in
 painful reflections. There was no light in the room but that of the
 moon, which shone in at the uncurtained windows so as to illuminate it
@@ -1068,7 +1200,7 @@ for a brief interval, neither of them spoke or stirred. Squire was the
 first to recover himself.</p>
 <p>"Did you see any thing, Flag?"</p>
 <p>"Why do you ask?" returned he, with an involuntary shudder. "Did
-<hi rned="italic">you</hi> see any thing?"</p>
+<hi rend="italic">you</hi> see any thing?"</p>
 <p>"I saw Doc standing beside the bed."</p>
 <p>"So did I. Can this be a trick of Ed's? He seems to be unusually
 sound asleep, for all our talking has not waked him, and that looks
@@ -1080,7 +1212,7 @@ the open prairie shining with dew, and no creature in sight except
 Ed's Indian pony quietly feeding near the house corner.</p>
 <p>"It is very strange," said Squire, standing in the open door, after
 satisfying himself that there was no intruder on the premises.</p>
-<p>"Listen!" said Flag; "is that Ed awake?"</p><pb n="35     ED'S
+<p>"Listen!" said Flag; "is that Ed awake?"</p><pb n="35 ED'S
 DREAM."/>
 <p>"What is the matter?" inquired Ed, as they turned toward
 him. "Where is Doc? Has any thing happened to him? Why are you not in
@@ -1111,8 +1243,8 @@ entirely corresponded.</p>
 <p>"Only because I wished to know whether you had had the same vision
 asleep which I had waking; for I, too, saw the Doctor come in and show
 his wound. Was that what <hi rend="italic">you</hi> saw, Flag?"</p>
-<p>"The very same."<ref target="fvalicia">*</ref><note id="fvalicia"
-n="*" resp="auth" place="foot">* This "short story" is repeated from
+<p>"The very same."<ref target="fvalician35">*</ref><note id="fvalician35"
+n="*" resp="auth" place="foot">This "short story" is repeated from
 the lips of a citizen of Omaha, who solemnly testifies to its actual
 occurrence, in a case nearly analogous to the incidents recorded in
 this chapter. Those curious in such matters may refer to Mrs. Crowe's
@@ -1123,14 +1255,14 @@ rend="italic">Footfalls on the Boundary of Another
 World</hi>."</note></p>
 <p>"Great God!" muttered Ed; "that is very singular!"</p>
 <p>After having related the events of the day over again to<pb
-n="36     THE LAND-CLAIM."/> their messmate, who gradually grew calm,
+n="36 THE LAND-CLAIM."/> their messmate, who gradually grew calm,
 and almost indifferent, the young men again returned to seek some
 repose but it was almost daylight in the cabin before sleep closed the
 eyes of any of that party to a brief oblivion of their mutual grief
-and uneasiness.</p><milestone unit="section" rend="line"/></div>
-
-<div id="fvalicia" type="chapter" n="6"><head>CHAPTER VI.<lb/>JUDGE
-LYNCH.</head>
+and uneasiness.</p>
+</div>
+<div id="fvalicia016" type="chapter" n="6">
+<head>CHAPTER VI.<lb/>JUDGE LYNCH.</head>
 <p>THE funeral services of Dr. Edwards being over, and his body
 committed to the virgin earth of prairie-land, people dispersed to
 their homes with minds somewhat softened and solemnized by the scene,
@@ -1155,7 +1287,7 @@ brother."</p>
 <p>"Yes," responded a second, "them are fine fellers. One is a lawyer,
 son of old Judge Allen, in Ohio, where I cum from; and t'other is a
 surveyor from Michigan--I don't remember his name, cause Allen allers
-calls him Flag, and so<pb n="37     THE ORPHAN."/> he's got to go by
+calls him Flag, and so<pb n="37 THE ORPHAN."/> he's got to go by
 that. I don't know much about that other feller--he's somebody that I
 don't like, nohow."</p>
 <p>"No; <hi rend="italic">he</hi> didn't shed any genuine tears; all
@@ -1194,7 +1326,7 @@ reckon--and disgraced at that."</p>
 handsome face and nobody to take care of it."</p>
 <p>"That's a fact. I heard old Mauvais going on about her beauty at a
 great rate just the day before the murder, and I reckon it's no good
-luck to have him a-foolin' around. He<pb n="38     THE LAND-CLAIM."/>
+luck to have him a-foolin' around. He<pb n="38 THE LAND-CLAIM."/>
 couldn't marry her if she'd have him, for his jealous Indian wives
 would tomahawk him, straight; besides, 'tain't likely he'd want to
 marry a murderer's daughter."</p>
@@ -1231,7 +1363,7 @@ haven't got a jail built yet. Only two days ago a man was
 shot--supposed to be by him--can't say yet as it was him--hope it
 wasn't."</p>
 <p>"And it is his daughter, then, who is at your house, very ill, as I
-have heard. Can I see her, do you think?"</p><pb n="39     THE
+have heard. Can I see her, do you think?"</p><pb n="39 THE
 STRANGER."/>
 <p>"Waal, I don't know what the doctor that tends her would say about
 it. Are you a relation of hers?"</p>
@@ -1271,7 +1403,7 @@ handed it to Mrs. Wyman, at the same time asking her if she saw any
 resemblance between that picture and Alicia Newcome when she was in
 health.</p>
 <p>"The dear Lord!" exclaimed the good woman, in admiring<pb
-n="40     THE LAND-CLAIM."/> wonder. "Was there anybody ever so
+n="40 THE LAND-CLAIM."/> wonder. "Was there anybody ever so
 handsome as that? Why, it's just like a picture! To be sure it <hi
 rend="italic">is</hi> a picture--but I mean it don't look like any
 human creature--only this poor child--and it's handsomer than she is,
@@ -1306,7 +1438,7 @@ quarters at the log-tavern.</p>
 voted themselves "the people" of the territory," and were unanimous in
 declaring that so vile a wretch as the murderer of Dr. Edwards ought
 not to be left to the uncertain execution of territorial
-justice. Doubtless he would find<pb n="41     MOB-LAW."/> some means
+justice. Doubtless he would find<pb n="41 MOB-LAW."/> some means
 of escaping from the sheriff's house, though he was ironed. Irons
 could be taken off without much trouble in several ways; especially
 where a man was confined in a room accessible to all who chose to go
@@ -1342,7 +1474,7 @@ bluffs--where the tree and the rope awaited him, and amid a sudden
 awful silence, were about to place the halter about his neck, when
 Allen, who had just been informed of the proceeding in time to
 interrupt it at the last moment, rushed hastily into the ring which
-had been formed about the gallows.</p><pb n="42     THE LAND-CLAIM."/>
+had been formed about the gallows.</p><pb n="42 THE LAND-CLAIM."/>
 <p>So unexpectedly did he appear, and so authoritative were the tones
 of his voice, as he raised it in vehement deprecation of their
 conduct, that it had the effect to check further action, and compel
@@ -1379,7 +1511,7 @@ fired the shot that killed Dr. Edwards. <hi rend="italic">I</hi> do
 not know that he <hi rend="italic">did</hi>; you do not know that he
 <hi rend="italic">did not</hi>. Let this matter then, be
 investigated. Find out who that man was that was in the woods with
-Newcome, and what his business was<pb n="43     EFFECT OF ALLEN'S
+Newcome, and what his business was<pb n="43 EFFECT OF ALLEN'S
 ADDRESS."/> and, if possible, find out whether he did not,
 accidentally or otherwise, commit the murder.</p>
 <p>"As for Newcome's threats, a great many men threaten who never do
@@ -1413,7 +1545,7 @@ advice," returned Allen, meeting his eye unflinchingly.</p>
 <p>"You seemed anxious to shift Newcome's crime to other
 shoulders."</p>
 <p>"I shall always be anxious to have justice done, I think,
-Ed."</p><pb n="44     THE LAND-CLAIM."/>
+Ed."</p><pb n="44 THE LAND-CLAIM."/>
 <p>"Perhaps you could yourself direct these people to some new object
 of suspicion, if old Newcome could only be spared. You take a great
 interest, apparently, in a man who, according to your belief, is the
@@ -1439,9 +1571,9 @@ and started a question in their minds concerning a certain other
 person, which prudence obliged them to keep concealed in their own
 bosoms, until some further and more tangible evidence of its truth
 should transpire.</p></div>
-
-<pb n="45    THE CONVALESCENT."/> <div id="fvalicia" type="chapter"
-n="7"><head>CHAPTER VII.<lb/>THE OLD-TIME WEDDING ANNIVERSARY.</head>
+<pb n="45 THE CONVALESCENT."/>
+<div id="fvalicia017" type="chapter" n="7">
+<head>CHAPTER VII.<lb/>THE OLD-TIME WEDDING ANNIVERSARY.</head>
 <p>"WELL, I declare, you look quite like yourself this morning, all
 but your hair!" exclaimed Mrs. Wyman, when she had carefully dressed
 her young charge, and placed her in the great, high-backed rocker, in
@@ -1470,7 +1602,7 @@ help us eat it. So don't get too tired, now, for then you won't enjoy
 it; and I want you to be as brisk as you can. Dear me! I believe I
 smell my cake a-burning."</p>
 <p>"I hope your cake is not burned," said Alicia, looking up as the
-good woman returned to the parlor with her<pb n="46     THE
+good woman returned to the parlor with her<pb n="46 THE
 LAND-CLAIM."/> hands full--a package in one--a bouquet of flowers in
 the other.</p>
 <p>"No indeed, it has got a nice bake. But look at these presents! One
@@ -1544,7 +1676,7 @@ later greeted her with a courteous good-morning, and asked in the
 gentlest manner after her health. Like a nervous little invalid as she
 was, she went from smiles to tears, and tears to smiles in the most
 capricious manner, without being able to make any rational reply to
-his inquiry.</p><pb n="48     THE LAND-CLAIM."/>
+his inquiry.</p><pb n="48 THE LAND-CLAIM."/>
 <p>Although Allen had neither age nor experience to guide him in this
 matter, he very easily guessed that the fluttering heart must be
 coaxed to relieve itself; and seating himself beside her, he took the
@@ -1579,7 +1711,7 @@ guilty man. That is all I can tell you; but you can put your faith in
 it:--I don't think you will be disappointed."</p>
 <p>Alicia had no words for her thanks. The ready tears ran over her
 cheeks, as she seized his hands and showered kisses upon them.</p><pb
-n="49     DINNER."/>
+n="49 DINNER."/>
 <p>"There, little girl," said he, "you need not be so grateful to me;
 it is Providence has done it."</p>
 <p>"At all events," she returned, "you are God's messenger to me."</p>
@@ -1615,7 +1747,7 @@ Allen, and afterward with her.</p>
 her hair is rather a short crop. She looks as if she'd been in the
 hands of the thief-whippers. There was three of them fellers catched
 up at Elktown yesterday, that got a whipping and their heads shaved;
-an' was told that if ever<pb n="50     THE LAND-CLAIM."/> they was
+an' was told that if ever<pb n="50 THE LAND-CLAIM."/> they was
 found in the territory agin, a whipping wouldn't serve 'em next
 time."</p>
 <p>"I wonder where the rascals hide," said Allen. "I should think a
@@ -1652,7 +1784,7 @@ every thing, that her heart immediately sunk with a sense of having
 done something very wrong. Her eyes drooped, and her fine spirits
 quite fled away. Seeing her so downcast, Mrs. Wyman supposed that she
 was thinking of her father's probable displeasure, and proceeded to
-mention it, as the best way of setting her at ease.</p><pb n="51     A
+mention it, as the best way of setting her at ease.</p><pb n="51 A
 SCHOOL FOR ALICIA."/>
 <p>"She don't like to accept it, she says, because her father wouldn't
 be pleased if he knew of her doing so; but I tell her there's nothing
@@ -1686,10 +1818,10 @@ herself."</p>
 her "clearing up" to look in at the parlor door.</p>
 <p>"Why Allen, here, is wantin' to make a school-marm of the little
 girl. What do you say to that, Mary?"</p>
-<p>"Say to that? I say it's all nonsense, and I don't see wha put it
+<p>"Say to that? I say it's all nonsense, and I don't see what put it
 in your head to think of such a thing, Mr. Allen!"</p>
 <p>"If you please, I should like it very much," put in Alicia eagerly,
-though with evident trepidation.</p><pb n="52     THE LAND-CLAIM."/>
+though with evident trepidation.</p><pb n="52 THE LAND-CLAIM."/>
 <p>"It wouldn't take her away from you at all, Mrs. Wyman, except
 during school hours. I would not propose to have her leave your
 protection at present, on any account. The Judge's wife first
@@ -1726,7 +1858,7 @@ saw--and asked me if you looked like that when you was well. I told
 him you did, and you didn't; that is, the picture was much the same as
 you in most of the features, but handsomer and prouder a great
 deal. When he went away he wouldn't tell me his business, but gave me
-a purse<pb n="53     THE PURSE OF GOLD."/> full of gold, which he said
+a purse<pb n="53 THE PURSE OF GOLD."/> full of gold, which he said
 was to buy things for you while you was sick. I told him I didn't want
 help about providing for you; but he just the same as said I had no
 right to refuse what he gave to you; and so I took it, but I haven't
@@ -1761,7 +1893,7 @@ you feel a presentiment of some remarkable good fortune?"</p>
 <p>"But I do; that is, I think there must be something in the
 mysterious conduct of the stranger which has a deeper meaning than
 simple benevolence. Haven't you any rich relatives that you know of?
-Pardon me the question; I<pb n="54     THE LAND-CLAIM."/> only ask it
+Pardon me the question; I<pb n="54 THE LAND-CLAIM."/> only ask it
 with a view of finding out the real meaning of this gift."</p>
 <p>"None that acknowledge us," answered the young girl, blushing.</p>
 <p>"Then you <hi rend="italic">had</hi> some who did not acknowledge
@@ -1786,9 +1918,9 @@ see such an open-hearted young man now-a-days. He reminds me of my son
 that was lost."</p>
 <p>What higher compliment could a mother pay to a young man, than to
 say he resembled her lost idol?</p></div>
-
-<pb n="55     THE TRADING-POST."/><div id="fvalicia" type="chapter"
-n="8"><head>CHAPTER VIII.<lb/>A CRISIS IN LOVE'S CALENDAR.</head>
+<pb n="55 THE TRADING-POST."/>
+<div id="fvalicia018" type="chapter" n="8">
+<head>CHAPTER VIII.<lb/>A CRISIS IN LOVE'S CALENDAR.</head>
 <p>THE trading-post was about a mile below Fairview--its grounds
 bordering on the lower side of the Newcome claim--and occupied one of
 the most picturesque situations on the river, where the limestone
@@ -1819,7 +1951,7 @@ direction of the post. All about the place itself was now as quiet as
 any country farm-house--there being only the trader, his agent, and a
 few domesticated Indians or half-breeds residing here.</p>
 <p>The building occupied by the trader was a long, two-story<pb
-n="56     THE LAND-CLAIM."/> block-house, sided over and painted
+n="56 THE LAND-CLAIM."/> block-house, sided over and painted
 white, and had the wide covered piazza and balcony, generally common
 to houses in Southern latitudes, and always characteristic of French
 settlements in this country.</p>
@@ -1857,7 +1989,7 @@ encounter Ka-shaw, the Indian mistress of the house.</p>
 <p>"Do rows happen about nothing, Henri? Tell me all," she said,
 sternly. The boy understood too well the sovereign will governing all
 in that house, even the master himself, to dare to deny her; and so he
-stammered out:</p><pb n="57     JEALOUSY."/>
+stammered out:</p><pb n="57 JEALOUSY."/>
 <p>"Mauvais sent a message to a lady, an' I didn't do the errand
 right."</p>
 <p>"Was it that Newcome girl?" she asked, her eyes glittering with
@@ -1893,7 +2025,7 @@ hurry. Where have you hid the thing, you witch?"</p>
 <p>"Mauvais can't have his coat," said the Indian woman, quietly.</p>
 <p>"What's the cause of this fol-de-rol?" asked Mauvais, angrily.</p>
 <p>"You can go to see that Newcome girl in your old clothes,"<pb
-n="58     THE LAND-CLAIM."/> returned the squaw, with a malicious
+n="58 THE LAND-CLAIM."/> returned the squaw, with a malicious
 smile, which, did not disguise her lively anger.</p>
 <p>"Are you jealous again, Ka-shaw?" asked the trader, becoming
 instantly more cool, and sitting down on the side of the bed. "Have
@@ -1925,9 +2057,9 @@ the knife; but she threw her heavy weight upon him, and forced him
 back upon the bed at such disadvantage that he would have been
 compelled to relinquish his hold of her arm in another moment. At this
 juncture, fortunately, the trader's agent made his appearance, having
-just returned from the Reserve. Seeing tbkt she was baffled for this
+just returned from the Reserve. Seeing that she was baffled for this
 time, the woman begged to be allowed to retire, with a somewhat
-humbled demeanor.</p><pb n="59     A DRIVE."/> 
+humbled demeanor.</p><pb n="59 A DRIVE."/> 
 <p>Mauvais dismissed her from the room with an oath, and a warning as
 to her future conduct; at the same time intimating that she need not
 go away if she would behave herself more discreetly hereafter.</p>
@@ -1958,12 +2090,12 @@ country.</p>
 Newcome."</p>
 <p>Alicia smiled the pleased and artless smile with which she always
 listened to any complimentary remarks, but made no reply, for she was
-not a young lady eveii of ordinary loquacity in the presence of
+not a young lady even of ordinary loquacity in the presence of
 strangers.</p>
 <p>"It would be a pity to fade them in the school-room," continued
 Mr. Mauvais.</p>
 <p>"I don't think my duties will be very trying," answerer Alicia,
-pleasantly.</p><pb n="60     THE LAND-CLAIM."/>
+pleasantly.</p><pb n="60 THE LAND-CLAIM."/>
 <p>"You are young enough to be a pupil instead of teacher, my dear
 young lady."</p>
 <p>"Oh, yes, and ignorant enough, that is true," she answered with a
@@ -1999,10 +2131,10 @@ then, so much more mature than mine?"</p>
 quite put the young girl out of countenance.</p>
 <p>"He has been so kind to me," was all she could say.</p>
 <p>"I would like to be kind to you, too, if you would allow<pb
-n="61     A WALK BY THE RIVER."/> me," said Mr. Mauvais, half
+n="61 A WALK BY THE RIVER."/> me," said Mr. Mauvais, half
 reproachfully, yet smiling very benevolently, at the same time.</p>
 <p>"Oh, you <hi rend="italic">have been</hi>--you are. Everybody is a
-great dea.* kinder to me than I deserve," she carelessly answered.</p>
+great deal kinder to me than I deserve," she carelessly answered.</p>
 <p>"Not a bit, little rose of the prairie. Could any one help wishing
 to tend a beautiful flower, or to have it for his own if he could?
 Mr. Allen is a promising young man, as young men go. But he is not old
@@ -2035,7 +2167,7 @@ Frenchman was gone, flying over the road at a "two-forty" rate.</p>
 <p>That evening Alicia received a call from her "brother," who had
 come to see how soon she would be able to begin her duties as teacher,
 and in reply she had frankly related to him all that the trader had
-said to her.</p><pb n="62     THE LAND-CLAIM."/>
+said to her.</p><pb n="62 THE LAND-CLAIM."/>
 <p>"And will you avail yourself of this man's generosity?" asked
 Allen.</p>
 <p>"I do not think my father will consent," she answered,
@@ -2072,7 +2204,7 @@ sister.'"</p>
 <p>"But I don't intend to call you 'little sister' any more. I have
 thought of another name I would prefer to call you by. Let us sit down
 here on this fallen tree and listen to the murmur of the river, and
-talk about the new name."</p><pb n="63     WHAT WAS SAID BY THE
+talk about the new name."</p><pb n="63 WHAT WAS SAID BY THE
 RIVER."/>
 <p>It was charming, the young girl thought, to sit there in the
 moonlight, hearing the river, and leaning on the strong arm that was
@@ -2109,7 +2241,7 @@ that Allen talked as if her father would bequeath her to somebody
 because he had no hopes of regaining his life and liberty; and she
 tremulously asked him if that was his meaning.</p>
 <p>"No," said he, "not as far as <hi rend="italic">my</hi> belief is
-concerned. I<pb n="64     THE LAND-CLAIM."/> have good hopes yet; but
+concerned. I<pb n="64 THE LAND-CLAIM."/> have good hopes yet; but
 your father may be doubtful, and may be prevailed upon as I said. And
 now, dear Alicia, to provide against what neither of us desire, let us
 talk about the new name. What does the little girl say to being called
@@ -2144,7 +2276,7 @@ do!--better than any one in the world. But I can not do any thing
 without my father's knowledge and consent. If he gives me away to
 Mr. Mauvais, I can not help it, and I must go, if it breaks my heart
 in doing so."</p>
-<p>"And mine too?" added Allen, his former confident<pb n="65     THE
+<p>"And mine too?" added Allen, his former confident<pb n="65 THE
 PROMISE."/> manner quite gone. "Do you think your father has a right
 to sacrifice you, on the verge of your happy womanhood? I can not
 think so."</p>
@@ -2172,9 +2304,9 @@ prevent it."</p>
 <p>The walk homeward was performed by feet all unconscious of motion
 or distance. Only two enraptured spirits had passed over that space,
 to part with reluctance at the constable's door.</p></div>
-
-<pb n="66     THE LAND-CLAIM."/><div id="fvalicia" type="chapter"
-n="9"><head>CHAPTER IX.<lb/>THE SACRIFICE.</head>
+<pb n="66 THE LAND-CLAIM."/>
+<div id="fvalicia19" type="chapter" n="9">
+<head>CHAPTER IX.<lb/>THE SACRIFICE.</head>
 <p>WHEN Alicia awakened next morning she found Mrs, Wyman standing
 beside her bed. "You sleep late, this morning," she said. "I guess you
 exerted yourself almost too much yesterday; but you would have been up
@@ -2205,7 +2337,7 @@ delicious coffee, which is just to my liking, always."</p>
 and I thought it would be just contrary to that. Isn't there something
 you can eat, dear?--'cause if there is you needn't be afraid to
 mention it. I don't think any thing of the trouble, if you would only
-relish any thing better."</p><pb n="67     INTERVIEW AT THE PRISON."/>
+relish any thing better."</p><pb n="67 INTERVIEW AT THE PRISON."/>
 <p>"Indeed, you spoil me with kindness," said Alicia, trying to
 smile. "Everybody pets me so much I have got to be quite a baby, and
 will soon be good for nothing, at this rate."</p>
@@ -2241,10 +2373,9 @@ him a tender word; but he was as silent and unmoved as on the day of
 the examination. It seemed as if the sight of his child's face
 recalled the bitter resentment of that day afresh.</p>
 <p>"I have not sent for you," he said, coldly, "to listen to<pb
-n="68     THE LAND-CLAIM."/> your professions of sorrow. I have other
+n="68 THE LAND-CLAIM."/> your professions of sorrow. I have other
 business with you to-day, which concerns your welfare, though you do
-not deserve that I should consult it. Take a chair, and listen to w
-alat I have to say."</p>
+not deserve that I should consult it. Take a chair, and listen to what I have to say."</p>
 <p>"Will you never forgive me?" she asked, passionately, "Oh, father!
 father! I do not care about my on welfare, if you will not be
 reconciled to me. I am so sorry; I wish so much to please you; and I
@@ -2277,7 +2408,7 @@ him again," she murmured, with quivering lips.</p>
 <p>"Mr. Mauvais will not give you the opportunity," returned the
 relentless man.</p>
 <p>"Father," said Alicia, approaching him, and sinking on her knees,
-"if I give up Mr. Allen, and do as you wish with<pb n="69     ANOTHER
+"if I give up Mr. Allen, and do as you wish with<pb n="69 ANOTHER
 VISITOR."/> regard to Mr. Mauvais, and am in every way dutiful toward
 you, as long as I live, will you not forgive me now, and let me see
 and comfort you while you are in this place? Oh, say 'yes!'"</p>
@@ -2312,7 +2443,7 @@ being altogether lost; but he quickly conquered his rising
 indignation, and addressed himself to Alicia's father, as if she were
 not present, or not plunged in grief and humiliation.</p>
 <p>"Mr. Newcome," said he, as firmly as possible, "I have called on
-you this morning to ask your consent to my<pb n="70     THE
+you this morning to ask your consent to my<pb n="70 THE
 LAND-CLAIM."/> engagement with your daughter. I love her, and she has
 promised to be my wife--"</p>
 <p>"Ah, she is forward for a girl of her age," interrupted Newcome,
@@ -2349,7 +2480,7 @@ sternly.</p>
 <p>"Ask your guardian?" was the freezing answer.</p>
 <p>Choking back her tears, the unhappy daughter approached the
 prisoner's chair, and, bending her lips to his cheek, kissed him
-lightly, as if afraid of being repulsed; and then,<pb n="71     A
+lightly, as if afraid of being repulsed; and then,<pb n="71 A
 VINDICTIVE FATHER."/> without a word or a look toward her lover,
 hastily left the apartment.</p>
 <p>Allen restrained the impulse which he felt to follow her, and
@@ -2377,11 +2508,11 @@ would you not prefer that she should receive it before that of
 Mr. Mauvais?"</p>
 <p>"No!" shouted the man, with a terrific oath. "I would see Mauvais
 take her to hell first!"</p></div>
-
-<pb n="72     THE LAND-CLAIM."/><div id="fvalicia" type="chapter"
-n="10"><head>CHAPTER X.<lb/>THE MYSTERY CLEARING AWAY.</head>
-<p>"HOW-DY?"<ref target="fvalicia">*</ref><note id="fvalicia" n="*"
-resp="auth" place="foot">* Omaha for "How do you do?"</note> exclaimed
+<pb n="72 THE LAND-CLAIM."/>
+<div id="fvalicia020" type="chapter" n="10">
+<head>CHAPTER X.<lb/>THE MYSTERY CLEARING AWAY.</head>
+<p>"HOW-DY?"<ref target="fvalician72">*</ref><note id="fvalician72" n="*"
+resp="auth" place="foot">Omaha for "How do you do?"</note> exclaimed
 Flag, bursting into Allen's office that afternoon, and finding the
 young lawyer with his face buried in his hands, and his elbows on the
 table before him. "Why, Squire, old fellow, what's the matter with
@@ -2411,7 +2542,7 @@ Allen in silent amazement for full two minutes.</p>
 fellow. Why, what an accomplished villain he was!"</p>
 <p>"Every villain, to be successful, must have talent and
 self-possession," replied Allen, "and he had both. Only once I caught
-him off his guard."</p><pb n="73     THE TRUE CULPRIT."/>
+him off his guard."</p><pb n="73 THE TRUE CULPRIT."/>
 <p>"But how did you find out about him, Squire? Has he been
 caught?"</p>
 <p>"I'll tell you all I know about it, and how I came to make up my
@@ -2448,7 +2579,7 @@ Newcome the guilty man.' I asked him quietly <hi rend="italic">how</hi> he knew,
 thrown off his guard, he replied: 'I heard you tell Flag so.' I
 retorted: '<hi rend="italic">I thought you were dreaming</hi>.' He
 gave me a very peculiar look in a sly way, but I affected not to see
-my advantage. However, he soon left my society,<pb n="74     THE
+my advantage. However, he soon left my society,<pb n="74 THE
 LAND-CLAIM."/> and the next morning he had business in another
 county.  Now you may give me your inference."</p>
 <p>Flag, whose countenance had undergone a variety of changes, was
@@ -2485,7 +2616,7 @@ went down to see him, and get a description of the man--that one of
 his horses could not have been got out of the stable by a stranger, or
 one who had never handled him, which made it pretty certain who the
 thief was."</p>
-<p>"And did the mill man describe Ed?"</p><pb n="75     A LOVER IN
+<p>"And did the mill man describe Ed?"</p><pb n="75 A LOVER IN
 TROUBLE."/>
 <p>"Exactly; there is no mistake about him. But the scoundrel got off
 safe, and sold the horses over in eastern Iowa."</p>
@@ -2522,7 +2653,7 @@ rend="italic">then</hi>. Confound it, I'm out of luck every way!"</p>
 <p>"Courage, old fellow! It's darkest always just before dawn. What's
 the reason you can not detain her here as a witness?"</p>
 <p>"They would get around that by taking depositions; and<pb
-n="76     THE LAND-CLAIM."/> she'll be hurried off and hid away in
+n="76 THE LAND-CLAIM."/> she'll be hurried off and hid away in
 some convent. That, I suspect, is the Frenchman's plan. There comes
 Wyman in a terrible hurry; I wonder what's the matter now?"</p>
 <p>"I've just run in to tell you, Squire Allen, that our little girl
@@ -2558,7 +2689,7 @@ time, in a muttering delirium. Of the cause of these symptoms
 Mrs. Wyman knew nothing. Evidently they were the effects of poison,
 but how administered she could not tell.</p>
 <p>"What has she eaten to-day?" asked the physician, at the<pb
-n="77     THE SQUAW'S REVENGE."/> same time preparing active means for
+n="77 THE SQUAW'S REVENGE."/> same time preparing active means for
 relieving the patient's stomach of its poisonous contents.</p>
 <p>"Almost nothing at all. She was ailing when she came back from
 visiting her father; and she laid down right away, and couldn't be
@@ -2595,7 +2726,7 @@ sign of agitation; only the twinkling of the small black eyes betrayed
 the secret triumph of the Indian woman's hate.</p>
 <p>"Mauvais is drunk," she said, contemptuously.</p>
 <p>"The lightning blast you!" cried the trader, quite beside himself
-with passion, and shaking her violently.</p><pb n="78     THE
+with passion, and shaking her violently.</p><pb n="78 THE
 LAND-CLAIM."/>
 <p>"Take care, Mauvais! An Omaha never forgives," said Ka-shaw with a
 warning calmness in her voice.</p>
@@ -2625,17 +2756,17 @@ it. I'm sorry I killed the squaw, for I don't like blood; but there is
 no doubt she poisoned Miss Newcome, and she might have done the same
 for me, seeing that Miss Newcome escaped dying. I'm going to quit this
 Indian life; I'm sick of it!"</p></div>
-
-<pb n="79     THE TRADER'S LIBERALITY."/><div id="fvalicia" type="chapter"
-n="11"><head>CHAPTER XI.<lb/>THE STORY OF A NIGHT.</head>
-<p>Two months had elapsed, and Alicia was still at Mrs. Wyman's. The
+<pb n="79 THE TRADER'S LIBERALITY."/>
+<div id="fvalicia021" type="chapter" n="11">
+<head>CHAPTER XI.<lb/>THE STORY OF A NIGHT.</head>
+<p>TWO months had elapsed, and Alicia was still at Mrs. Wyman's. The
 effects of the poisoning, and her continued delicate health, together
 with her anxiety to remain in Fairview until after her father's trial,
 had caused an order from her physician that she should be allowed to
 follow her own desire in this matter. Yet the preparations for a year
 at school were going on, and the little parlor of the constable's
 house was like a fancy bazaar, so great was the profusion of pretty
-oolors and fine fabrics which the trader's generosity had
+colors and fine fabrics which the trader's generosity had
 supplied.</p>
 <p>"I declare it seems just like getting ready for a wedding!"
 Mrs. Wyman exclaimed as she stood with upraised hands in the midst of
@@ -2659,7 +2790,7 @@ your uncle, or some relation to you, and these was your
 wedding-clothes, and you was going to be married to young Mr. Allen,
 it would be nice! If Allen was my own son, I couldn't feel much worse
 about his disappointment than I do; for I like him better than any
-young man I know.<pb n="80     THE LAND-CLAIM."/> And I'm sorry enough
+young man I know.<pb n="80 THE LAND-CLAIM."/> And I'm sorry enough
 you didn't just do what he asked you to--be married to him whether or
 no. For your father has cast you off; and Mauvais has no right to
 you--nobody thinks he has. It is worrying about this that keeps you so
@@ -2693,7 +2824,7 @@ gradually narrowed in depth to the top of the ridge, like a funnel
 with its wide end inclined downward to the river. Opposite to one of
 these openings Alicia observed a skiff moored, with the oars still
 wet; but the oarsman himself was not visible. Thinking it was one of
-the many that crossed the river daily on aome<pb n="81     AN
+the many that crossed the river daily on some<pb n="81 AN
 ACCIDENTAL MEETING."/> errand to the trading-post or village, she did
 not look about her for the owner. If she had, she would have seen a
 pair of piercing eyes gazing at her from behind the shrubs and vines
@@ -2730,7 +2861,7 @@ on me, darling; I could carry you up easily, you are grown so
 light. You look like a beautiful spirit--an angel without the wings,"
 said Allen, gazing on her with mingled sorrow and delight.</p>
 <p>It was so difficult to resist his impetuous manner, and so<pb
-n="82     THE LAND-CLAIM."/> hard to deny the pleader in her own heart, that Alicia ceased to think of it, and quietly accepted his offered assistance.</p>
+n="82 THE LAND-CLAIM."/> hard to deny the pleader in her own heart, that Alicia ceased to think of it, and quietly accepted his offered assistance.</p>
 <p> f you knew how unhappy I have been!" continued Allen, "and you
 too, darling--I do not need to be told that you are suffering with
 me. Oh, if I could bear it all, I would submit more cheerfully."</p>
@@ -2758,8 +2889,8 @@ these few brief hours."</p>
 <p>"Every one says," murmured Alicia, regarding him attentively, "that
 I am very much changed; but I can not think I am so changed as you
 are. Dear Frederick, how much pain I must have caused you! I am so
-sorry! I wish you cou!d forget me altogether."</p>
-<p>"*She sighed, and drew her hand away, as if her free renunciation
+sorry! I wish you could forget me altogether."</p>
+<p>"She sighed, and drew her hand away, as if her free renunciation
 would help him in making his.</p>
 <p>"Don't take your hand away, dear. Lovely little hand, whose owner
 talks of being forgotten! If I <hi rend="italic">could</hi> forget
@@ -2801,7 +2932,7 @@ won't tease you any more, for I see I have made a good guess."</p>
 sultry. The little porch was not a comfortable place on such an
 afternoon, and Allen proposed to seek the cooler shelter of the
 woods. The forest along these bluffs was crossed in every<pb
-n="84     THE LAND-CLAIM."/> direction by Indian trails, affording
+n="84 THE LAND-CLAIM."/> direction by Indian trails, affording
 well-beaten paths through the wildest thickets, and often leading into
 the most picturesque glens, dells and ravines. Alicia had formerly
 wandered about these paths alone, with the greatest delight, and now
@@ -2815,7 +2946,7 @@ loved society that the thought of parting again so soon began to
 overshadow their joy and make long pauses in their conversation.</p>
 <p>During one of these sad silences it was, that Allen felt Alicia
 give a sudden start of alarm and quickly withdraw herself from his
-arm."*</p>
+arm.<sic>"</sic></p>
 <p>"What is it, dear?"</p>
 <p>"I see a man in the woods; and was afraid he might observe us."</p>
 <p>"Don't be afraid, love," he replied, in a low tone; "which way from
@@ -2837,7 +2968,7 @@ single-handed and unarmed."</p>
 <p>"I will take him at a disadvantage," he replied, keeping his eye on
 the man. "He is coming this way. If he sees me he will retreat; but if
 he only sees you, and you do not appear to notice him, he will be less
-apt to take alarm. Now love,<pb n="85     A CAPTURE."/> if you can be
+apt to take alarm. Now love,<pb n="85 A CAPTURE."/> if you can be
 composed and cool enough to do as I tell you, your father is
 saved. Will you?"</p>
 <p>Alicia gave a sign of assent, and Allen pressed her hand in
@@ -2873,7 +3004,7 @@ am."</p>
 <p>"But I do!" exclaimed a stern voice behind him, and the next
 instant he was struggling violently in the iron grasp or a pair of
 powerful arms, which so pinioned his own that he could not use them
-for defense. In the struggle both fell to<pb n="86     THE
+for defense. In the struggle both fell to<pb n="86 THE
 LAND-CLAIM."/> the ground, Allen taking care to be uppermost; and
 while he saved his hands from injury by partially releasing his
 antagonist, he made his weight of good use in keeping him down while
@@ -2909,7 +3040,7 @@ have asked too much of you already; but if you would not be afraid I
 would like to leave that fellow in your charge for half an hour, while
 I go for an officer to take him."</p>
 <p>"Oh, let <hi rend="italic">me</hi> go for some one," pleaded
-Alicia, terrified at<pb n="87     THE PRISONER AND HIS GUARD."/> the
+Alicia, terrified at<pb n="87 THE PRISONER AND HIS GUARD."/> the
 thought of being alone with such a man, though ever so much bound.</p>
 <p>"Really, darling, I do not think that would be best. It is already
 getting late; you could not get to town one quarter as soon as I
@@ -2944,7 +3075,7 @@ to her seat and resuming her guard.</p>
 <p>He turned his face toward her, and continued to look at her for
 some minutes.</p>
 <p>"Do you know why I am in this situation?" he then asked.</p><pb
-n="88     THE LAND-CLAIM."/> 
+n="88 THE LAND-CLAIM."/> 
 <p>"I was not given liberty to answer questions; don't ask me any
 more, if you please," said Alicia, with a quiet show of displeasure at
 the freedom he used.</p>
@@ -2981,7 +3112,7 @@ tops together like giants in battle. The lightning flickered through
 the air, as if the heavens were one great electric battery, and every
 living thing a conductor. Above the roar of the wind came sharp
 reports of thunder, crash after crash, reverberating among the bluffs,
-and deafening the<pb n="89     THE RESCUE."/> ears that heard it. The
+and deafening the<pb n="89 THE RESCUE."/> ears that heard it. The
 rain poured down in torrents, beating upon the undefended form of the
 terrified girl-guard, and her equally terrified prisoner. Neither
 could see the other, except as the frequent vivid flashes of lightning
@@ -3017,7 +3148,7 @@ age of horror, the storm seeming rather to increase than to abate, the
 poor exhausted girl sunk upon the ground, weeping bitterly. Yet over
 the noise of the tempest she thought she caught they sound of voices,
 and raised her head to listen. Yes, they were close by but in the
-wrong direction.<pb n="90     THE LAND-CLAIM."/> What they said could
+wrong direction.<pb n="90 THE LAND-CLAIM."/> What they said could
 not be distinguished, though they were almost upon her. A horrible
 oath attested their surprise at what they saw, on coming near enough
 to discover the situation of Carnes and Alicia. She caught but a few
@@ -3052,7 +3183,7 @@ about her. Shuddering, she sobbed the name of Allen over and over, as
 if it had some charm to soothe the elements.</p>
 <p>But the last grand discharge had been made by heaven's
 batteries. The thunder retired, muttering, with a rolling sound, as if
-its flying artillery were hurrying to a new position<pb n="91     TOO
+its flying artillery were hurrying to a new position<pb n="91 TOO
 LATE."/> on the field of combat. The wind abated, and though the rain
 came down in heavier torrents than before, and the darkness thickened
 around her, this was less frightful and less dangerous than the
@@ -3091,7 +3222,7 @@ and shook his head gravely.</p>
 to Allen, he inquired for the prisoner.</p>
 <p>"He is escaped--got off during the storm, by the help of some of
 the gang. He had a boat down at the bluffs, he said, and may be over
-in Iowa by this time."</p><pb n="92     THE LAND-CLAIM."/>
+in Iowa by this time."</p><pb n="92 THE LAND-CLAIM."/>
 <p>"If he tried to cross in that storm, he is more likely at the
 bottom of the river, where he ought to be," said one of the
 constable's assistants.</p>
@@ -3128,7 +3259,7 @@ still kept his arms around her.</p>
 <p>"My wagon and horse are gone! I don't see what you will do, unless
 you carry her up to the cabin, and build up a fire. She can't get to
 town to-night through this mud and water. I must be after them rascals
-right off, without losin'<pb n="93     SLEEPING AND WATCHING."/>
+right off, without losin'<pb n="93 SLEEPING AND WATCHING."/>
 time. I reckon they went down the road--yes, there's a track--and I'll
 git horses and help at the tradin'-post. <hi rend="italic">Have you
 told her yet?</hi>" whispered Wyman, in Allen's ear.</p>
@@ -3165,9 +3296,9 @@ rest."</p>
 <p>All night Alicia slept profoundly, while Allen watched and
 slumbered alternately, sitting by the flickering light of the
 fire.</p></div>
-
-<pb n="94     THE LAND-CLAIM."/><div id="fvalicia" type="chapter"
-n="12"><head>CHAPTER XII.<lb/>THE ROGUES AT HOME.</head>
+<pb n="94 THE LAND-CLAIM."/>
+<div id="fvalicia022" type="chapter" n="12">
+<head>CHAPTER XII.<lb/>THE ROGUES AT HOME.</head>
 <p>WHEN the storm began, a party of Government surveyors, not having
 time to get to camp, two or three miles distant, took shelter in a
 deserted claim-cabin, in the edge of the timber that skirts the
@@ -3197,7 +3328,7 @@ last glare of the match shone accidentally on that desirable
 object. "Here, give us one more lucifer, Captain Flag."</p>
 <p>The lantern being lighted, the party, four in number, sat down upon
 the turf floor of the hut, to examine into the nature of the viands so
-unexpectedly provided for their suppers.</p><pb n="95     THE DESERTED
+unexpectedly provided for their suppers.</p><pb n="95 THE DESERTED
 CLAIM-CABIN."/>
 <p>"Cold beef, dried venison, bread, cheese, and ale. That's what I
 call a good supply of grub. The fellow that owns this claim has a
@@ -3234,7 +3365,7 @@ evidence on which Newcome could be discharged. Besides, he wanted to
 watch for his man."</p>
 <p>"Then he knows the man for certain? And <hi rend="italic">you</hi>
 knew, him, and neither of you have said a word about it? That's darned
-curious!"</p><pb n="96     THE LAND-CLAIM."/>
+curious!"</p><pb n="96 THE LAND-CLAIM."/>
 <p>"Well, we had our reasons, and were waiting to get the evidence all
 right. He'll be sure to turn up yet, for he's a doomed man, and can
 not escape."</p>
@@ -3307,7 +3438,7 @@ want."</p>
 Joe Carnes advanced to the open door, pausing an instant to listen for
 the noises which had so frightened his comrades; but not hearing them
 repeated, he cautiously stepped inside, when he felt himself suddenly
-hooded and<pb n="98     THE LAND-CLAIM."/> almost smothered in a thick
+hooded and<pb n="98 THE LAND-CLAIM."/> almost smothered in a thick
 woolen blanket deftly thrown over his head to prevent his making an
 outcry, while at the same time he was pinioned by the strong arms of
 his assailant, and thrust against the wall of the hut. In this
@@ -3330,7 +3461,7 @@ door open, the light disappeared and the two men felt themselves
 grasped by powerful hands, and with such expertness as to be deprived
 of the power of resistance. They were speedily dragged within the hut,
 uttering oaths mingled with expressions of alarm, to which their
-captors made no re-joinder, except to ask and give each other
+captors made no rejoinder, except to ask and give each other
 assistance in making fast their prisoners; which they did with the
 surveying chain, and whatever they had about them that would confine
 strong limbs.</p>
@@ -3344,7 +3475,7 @@ what you've taken me prisoner for. It's a d----d outrage to lay in
 wait for a man this way. But when a fellow is in pain, with a broken
 arm, he has to act the suppliant sometimes; and I want you to do me
 the favor to try to set my limb, which was broken by the branch of a
-tree falling on it."</p><pb n="99     THE PRISONERS."/>
+tree falling on it."</p><pb n="99 THE PRISONERS."/>
 <p>"I don't understand surgery; and besides there's no light," said
 Flag.</p>
 <p>"There's a lantern somewhere in the cabin," whined Carnes, overcome
@@ -3382,7 +3513,7 @@ I knowed the captain was expected over that arternoon, an' we was to
 meet him in the woods at dark. So I listened round, an' I heerd the
 feller that come arter the constable, a tellin' the constable that
 that was nobody to guard the prisoner but just Miss Newcome; an' that
-he must go right back agin. Then he started off, <pb n="100     THE
+he must go right back agin. Then he started off, <pb n="100 THE
 LAND-CLAIM."/> but in a minit thar come the awfulest clap of thunder
 ever I heerd, an' it struck the house old Newcome was in--so they
 said--and the young man run right off to see what had happened. But
@@ -3419,9 +3550,9 @@ desirable ends. Laid bound in the wagon, like calves destined for the
 shambles, they were escorted into Fairview by Flag and his assistants,
 and delivered into the hands of the authorities, to be dealt with
 according to law.</p></div>
-
-<pb n="101     MRS. WYMAN'S TROUBLES."/><div id="fvalicia" type="chapter"
-n="13"><head>CHAPTER XIII.<lb/>THE MESSENGER OF DESTRUCTION.</head>
+<pb n="101 MRS. WYMAN'S TROUBLES."/>
+<div id="fvalicia023" type="chapter" n="13">
+<head>CHAPTER XIII.<lb/>THE MESSENGER OF DESTRUCTION.</head>
 <p>WHEN the constable left town for the conveyance of Carnes, he had
 not time to leave word with his wife concerning the business he was
 on. In fact, he had not been at home that afternoon, and did not
@@ -3441,7 +3572,7 @@ a sufficient trial; but to be alone when the very air seemed on fire
 with electricity, and to feel the most harrowing uncertainty as to the
 safety of the young girl she had foolishly allowed to go on a lonely
 walk, unaccompanied, and not to know what had become of her husband
-either--all this seemed tao much for Mrs. Wyman to bear.</p>
+either--all this seemed too much for Mrs. Wyman to bear.</p>
 <p>At the first indications of the tempest, every window and door in
 the constable's house was made fast, and darkened, to keep out the
 glare of the lightning. When the first startling crash came, which, as
@@ -3451,7 +3582,7 @@ have "struck" somewhere within Fairview, she was ignorant of the
 terrible nature of the visitation. An hour or two afterward, when she
 ventured to put aside a curtain and look out, the town was lying in
 Egyptian darkness, while the rain poured down upon it in<pb
-n="102     THE LAND-CLAIM."/> inexhaustible torrents, driven aside in
+n="102 THE LAND-CLAIM."/> inexhaustible torrents, driven aside in
 sheets occasionally, by some fitful gusts of wind.</p>
 <p>To sleep, under such circumstances, was to Mrs. Wyman really
 impossible; and she continued to watch and wait roaming uneasily about
@@ -3487,7 +3618,7 @@ killed!</p>
 fit of crying, after which, being much exhausted, she threw herself on
 the parlor lounge, and toward morning fell off into a doze. At the
 first streak of day she was disturbed by a hasty and noisy summons at
-the door. Thinking<pb n="103     NEWCOME'S DEATH."/> it might be Silas
+the door. Thinking<pb n="103 NEWCOME'S DEATH."/> it might be Silas
 happily restored to her, she sprung to admit him very eagerly, and was
 astonished to see only Allen looking harassed and weary, as if he not
 been in bed.</p>
@@ -3525,7 +3656,7 @@ lightning entered the room where he was confined, doing much injury to
 the house before it took fire. But in the tempest and confusion no one
 could say exactly how it was. I was there three minutes after it was
 fired, and tried to enter the burning building at some point where
-the<pb n="104     THE LAND-CLAIM."/> prisoner could be
+the<pb n="104 THE LAND-CLAIM."/> prisoner could be
 reached. Failing in this, I called him from the windows to assist me
 in breaking the wooden bars; but as no one answered I conclude that he
 was already dead. There was nobody to do any thing but the sheriff's
@@ -3561,7 +3692,7 @@ wraps provided to keep off the heavy morning air.</p>
 <p>"Dear child," said Mrs. Wyman, taking her in her arms when she was
 quite ready to go home, "I believe your father has forgiven you, for
 spirits see with eyes different from our mortal ones."</p><pb
-n="105     ALICIA'S GRIEF."/> 
+n="105 ALICIA'S GRIEF."/> 
 <p>The quivering voice and significant accent told all.</p>
 <p>"My father is dead!" gasped Alicia, becoming ghastly white. "Oh,
 Mrs. Wyman, my father is dead!" and she clung to her friend for
@@ -3572,10 +3703,10 @@ with you. Let that comfort you, to feel that he is reconciled at
 last. Come, dear, let us go."</p>
 <p>She meant to give her something to do; she did not want to grant
 her an opportunity to give way to sorrow at first; so she put her arm
-about her and drew her to the door, where Allen was waiting."*</p>
+about her and drew her to the door, where Allen was waiting.<sic>"</sic></p>
 <p>"We are all ready," she said to him, with a glance of
 intelligence. "Help Alicia in first, if you please."</p>
-<p>*"Allen took her up in his arms, as he had done the evening before,
+<p><sic>"</sic>Allen took her up in his arms, as he had done the evening before,
 and placed her in the carriage. He whispered but one word in her
 ear--"My darling!"--but it unsealed the fountain of her tears, and
 when Mrs. Wyman was seated beside her, she threw herself upon her lap,
@@ -3588,9 +3719,9 @@ home.</p>
 was told her to confirm the horrible idea which haunted her--enough to
 quite scare away all efforts at composure, and sink her at last in a
 happy insensibility that lasted for hours.</p></div>
-
-<pb n="106     THE LAND-CLAIM."/><div id="fvalicia" type="chapter"
-n="14"><head>CHAPTER XIV.<lb/>THE "AVENGERS" JUSTICE.</head>
+<pb n="106 THE LAND-CLAIM."/>
+<div id="fvalicia024" type="chapter" n="14">
+<head>CHAPTER XIV.<lb/>THE "AVENGERS" JUSTICE.</head>
 <p>WHEN Allen returned from Mrs. Wyman's, he observed a large crowd
 gathered in the street in front of the big log tavern. Thinking it
 only a gathering of the citizens, who were talking over the
@@ -3621,7 +3752,7 @@ of the assemblage.</p>
 spokesman for the rest.</p>
 <p>"I mean to have him committed on that charge," answered Allen.</p>
 <p>Then followed an endless catalogue of questions and
-remarks.</p><pb n="107     AN EXCITED CROWD."/>
+remarks.</p><pb n="107 AN EXCITED CROWD."/>
 <p>"I thought you swore pretty strong agin Newcome!"</p>
 <p>"How did this feller--this horse-thief--come to be one of
 Dr. Edwards' mourners?"</p>
@@ -3657,7 +3788,7 @@ circumstantial evidence, as he had once related it to Flag, and adding
 what transpired the evening previous, he presented an argument
 terribly convincing against the wretched Carnes, which, taken in
 connection with his other crimes, amounted to certainty of his guilt
-in the minds of the listeners.</p><pb n="108     THE LAND-CLAIM."/>
+in the minds of the listeners.</p><pb n="108 THE LAND-CLAIM."/>
 <p>"That's enough! that's enough! Let's hang the rascal right off!"
 shouted several voices together.</p>
 <p>"No, my friends," said Allen, "that is not treating me right. You
@@ -3692,7 +3823,7 @@ the man now so certainly doomed, or to question his new accuser.</p>
 State's evidence to procure some favor for himself, or whether out of
 revenge for past injuries or present danger he betrayed his late
 leader--his statement was clear and apparently true. He said that, at
-the time of the shooting, Carnes<pb n="109     JIM'S EVIDENCE."/> was
+the time of the shooting, Carnes<pb n="109 JIM'S EVIDENCE."/> was
 not the Captain of their band, but had newly been initiated in it. On
 the evening previous to the murder, an appointment had been made for
 himself and Carnes to meet next morning in the woods, to lay plans for
@@ -3726,7 +3857,7 @@ although he still remonstrated against the abuse of the law, now saw
 that remonstrance was in vain, and not wishing to witness the
 operations of Judge Lynch, hastily extricated himself from the throng,
 and escaped to his office, which he locked to prevent
-intrusion.</p><pb n="110     THE LAND-CLAIM."/>
+intrusion.</p><pb n="110 THE LAND-CLAIM."/>
 <p>Left entirely to their own devices--for public feeling forbade any
 serious opposition to the mob--the patrons of speedy justice were not
 long in putting their principles into execution. Amid cries of every
@@ -3763,7 +3894,7 @@ rend="italic">his</hi> turn comes!" yelled others.</p>
 <p>"Gentlemen," said Jim, "I ain't a doin' this to save you the
 trouble, but to settle a little private account of my own."</p>
 <p>Carnes was tied to the post, and the whip handed to Jim,<pb
-n="111     JUDGE LYNCH."/> with orders to give him forty-nine lashes
+n="111 JUDGE LYNCH."/> with orders to give him forty-nine lashes
 in twice as many seconds. Then arose the most horrible medley of
 cries, shrieks, blows and groans, all mingled in one appalling
 discord. Presently there was a lull in the tempest. The scarred and
@@ -3797,7 +3928,7 @@ starting for the ferry, he turned to the bystanders.</p>
 hosses in this country, an' never was cotched before. I ken tell you
 where Squire Allen's han'som' bay is hid; he's tied to a tree in the
 thickest of the woods over on the mill-claim, an' I reckon he'd like
-to see an ear of corn by this time."</p><pb n="112     THE
+to see an ear of corn by this time."</p><pb n="112 THE
 LAND-CLAIM."/>
 <p>Having communicated this useful information, Jim left rather
 hurriedly for the river, his boyish comrade lingering far behind, as
@@ -3832,10 +3963,11 @@ miserable man was taken to the middle of the river, and then thrown
 out, to struggle vainly with the deadly current. With the last frantic
 cry of the drowning man mingled a shout of triumph from the Iowa
 shore. It was Jim, who had witnessed the end of his hated confederate
-from the other side.</p></div>
-
-<pb n="113     READY FOR THE SACRIFICE."/><div id="fvalicia" type="chapter"
-n="15"><head>CHAPTER XV.<lb/>THE LOST FOUND.</head>
+from the other side.</p>
+</div>
+<pb n="113 READY FOR THE SACRIFICE."/>
+<div id="fvalicia025" type="chapter" n="15">
+<head>CHAPTER XV.<lb/>THE LOST FOUND.</head>
 <p>THE appearance of Mrs. Wyman's parlor betokened preparations for a
 journey. Since Mr. Mauvais' return from St. Louis, these preparations
 had been very active, and now they had come to a conclusion. Trunks
@@ -3865,7 +3997,7 @@ last.</p>
 <p>"Oh, is that you, Frederick? I am so glad you have come!"</p>
 <p>"Did you fear I had forgotten you, my love? I was waiting for you
 to be alone. Do you realize how hard it would be for me not to see you
-this one time more alone?"</p><pb n="114     THE LAND-CLAIM."/>
+this one time more alone?"</p><pb n="114 THE LAND-CLAIM."/>
 <p>She made no answer except to place her hands in his, gazing with an
 eager, wistful look in his face. Did she feel that it would have been
 hard for her, too?</p>
@@ -3902,7 +4034,7 @@ refusing this young man; will you?" spoke a deep but pleasant voice at
 the door.</p>
 <p>The young people started to their feet in surprise and some
 confusion, to behold Mr. Mauvais and another gentleman, whom Allen
-immediately remembered seeing once before.</p><pb n="115     SIR
+immediately remembered seeing once before.</p><pb n="115 SIR
 DEMING CARLETON."/>
 <p>"Pardon this intrusion, Miss Newcome; I beg your pardon,
 Mr. Allen--that is your name, I believe--but my errand was one that
@@ -3931,7 +4063,7 @@ close to whose side he had drawn a chair. "Now, Mr. Mauvais,"
 continued Sir Deming, when Allen was seated, "please tell this young
 lady the errand we came upon."</p>
 <p>"This gentleman," said the Frenchman, addressing himself to Alicia,
-"has been able to convice me, however reluctantly, that his right to
+"has been able to <sic>convice</sic> me, however reluctantly, that his right to
 the guardianship of your fair self is better founded than my own. At
 all events, it is based on a legal claim, while mine is not. He is
 undoubtedly your uncle, on your mother's side, and is able to do for
@@ -3939,7 +4071,7 @@ you all which it would have been my highest pleasure to have
 done. Therefore, I resign you into his hands. I have already prepared
 him to find in you all that is lovely and endearing, and I wish you,
 dear Miss Alicia, all she happiness you so eminently deserve."</p><pb
-n="116     THE LAND-CLAIM."/> 
+n="116 THE LAND-CLAIM."/> 
 <p>Correct as was the Frenchman's speech, there was something in the
 tones of his voice which betrayed his inward disappointment and
 chagrin. Alicia's quick sensibility perceived it, and she hastened to
@@ -3967,7 +4099,7 @@ your niece to proper guardianship."</p>
 smiling at Alicia; "and, by the way, she has not yet given us her
 'motives' for refusing the change. Perhaps my niece is mercenary, and
 preferred the rich old Frenchman?"</p>
-<p>Alicia blushed and looked down, while Mrs. Wyman carne to the
+<p>Alicia blushed and looked down, while Mrs. Wyman came to the
 rescue.</p>
 <p>"She didn't prefer him, sir; that wasn't the way of it, at all. She
 just thought she must do whatever her father said; and she wouldn't
@@ -3976,7 +4108,7 @@ give it up, sir, not even after he died."</p>
 well. It was your constancy and obedience which secured my affection
 for you--for I have not been ignorant of what has occurred--and has
 restored you to your rights and proper social position." After a pause
-the baronet continued:</p><pb n="117     A DELICIOUS UNCLE."/> 
+the baronet continued:</p><pb n="117 A DELICIOUS UNCLE."/> 
 <p>"<hi rend="italic">I</hi> can tell you, Mr. Allen, the secret
 influence which enabled this tender young girl to withstand your entreaties and the impulse of her own feelings. It was the knowledge she had of the fruits of disobedience in her mother. My sister, the Lady Alicia Carleton, was the loveliest and sweetest-souled creature alive when she was my sister. But, she fell from her high estate. She disgraced her lineage by marrying clandestinely with a gardener. She lived a life of poverty and pain. Before she died, she wrote me, secretly, a confession of her fault, and told me that her <hi rend="italic">daughter would not resemble her in character</hi>. I have seen her severely tried, and I find she has her mother's grace without her mother's faults. I am satisfied with her. Embrace me, my dear child!"</p>
 <p>When Alicia felt herself enfolded in her uncle's arms, a weight of
@@ -4002,7 +4134,7 @@ nothing, and Allen blushed like a girl.</p>
 <p>"Yes, that is the way; said the baronet. "If I had told you both
 you should not have one another, you would have had enough to say. But
 having told you you should, there is perfect silence."</p>
-<p>"I should save Miss Newcome the embarrassment of<pb n="118     THE
+<p>"I should save Miss Newcome the embarrassment of<pb n="118 THE
 LAND-CLAIM."/> putting such a question, Sir Deming, did not a
 consciousness of my own unworthiness tie my tongue," said Allen.</p>
 <p>"What's that, sir! Are you suddenly become some terrible villain,
@@ -4085,11 +4217,10 @@ thing has come out right, I reckon ye can forgive me."</p>
 <p>When Allen went home that night he found Flag waiting for him at
 his office. What the young men talked about, it is not relevant to
 relate; but the "wee sma' hours" of morning had passed before slumber
-descended upon their eyelids.</p><milestone unit="section"
-rend="line"/></div>
-
-<div id="fvalicia" type="chapter" n="16"><head>CHAPTER XVI.<lb/>HOME
-AGAIN!</head>
+descended upon their eyelids.</p>
+</div>
+<div id="fvalicia026" type="chapter" n="16">
+<head>CHAPTER XVI.<lb/>HOME AGAIN!</head>
 <p>IT is seven years since the hasty and happy wedding at
 Mrs. Wyman's. Flag is rich, popular, married, and, what he deserves to
 be--a Congressman. His wife is one of the fair Western ladies in
@@ -4108,11 +4239,12 @@ both sides.</p>
 <p>"Flag, my old friend, I'm enraptured to meet you," said the
 gentleman, with warmth.</p>
 <p>"And I you. Did Santa Claus drop you out of his basket! Where in
-the world have you come from?"</p>
-<p><q>"I've come across the sea,<lb/>I've braved every danger,"</q>
+the world have you come from?"
+<q><lg><l>"I've come across the sea,</l>
+<l>I've braved every danger,"</l></lg></q>
 answered Allen, laughing. "But let me introduce you to my wife--and
 please make us acquainted with the lady on your arm."</p><pb
-n="121     ONE OF THE F. F. N.'S."/>
+n="121 ONE OF THE F. F. N.'S."/>
 <p>Flag introduced his wife. "After you departed territorial life,"
 said he, "I found myself so low-spirited that I was obliged to take a
 trip to the East. While on the rounds I fell in with this lady, and
@@ -4150,7 +4282,7 @@ to pay for what he had selected; so he lost it. They must be very
 poor."</p>
 <p>"But, Sir Deming left some money with him."</p>
 <p>"Well, he sent that to his daughter, whose husband was in trouble;
-and the old couple are pretty badly straitened."</p><pb n="122     THE
+and the old couple are pretty badly straitened."</p><pb n="122 THE
 LAND-CLAIM."/>
 <p>Flag's wife noticed that tears were standing in Lady Alicia's
 eyes. Allen, too, saw it.</p>
@@ -4200,7 +4332,7 @@ you! Will you not repent and be saved?' 'Yes,' answered a voice which
 I remembered, 'I <hi rend="italic">have</hi> repented--but I am not
 yet saved. I want you all to pray for me.' Hereupon the minister made
 one of the most touching prayers I ever heard, and the hardened
-villian wept like a child, while the congregation shouted, sung, and
+<sic>villian</sic> wept like a child, while the congregation shouted, sung, and
 responded to the prayer. It was the strangest scene I ever
 witnessed."</p>
 <p>"I doubt if Jim was saved by all their prayers. What has become of
@@ -4222,6 +4354,7 @@ life on the upper Missouri!' But here we are at my door."</p>
 the constable and his wife are no longer straitened in their
 circumstances, and that the Newcome claim has become their
 property.</p></div>
-
-
-THE END.
+<trailer>THE END.</trailer>
+</body>
+</text>
+</TEI.2>
