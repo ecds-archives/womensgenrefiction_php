@@ -1,5 +1,160 @@
-<pb n="[1]"/><div id="lbthing" type="chapter" n="1"><head>THE UNDER
-SIDE OF THINGS<lb/><milestone unit="section" rend="line"/>I<lb/>THE MOTHER OF ALICE</head>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="lbthing1205">
+<teiHeader id="lbthing1201">
+<fileDesc>
+<titleStmt>
+<title>The Under Side of Things, an electronic edition</title>
+<author><name type="person" reg="Bell, Lilian, 1867-1929">Lilian Bell</name></author>
+</titleStmt>
+<extent>325kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2006</date>
+<availability>
+<p>&#x00A9; 2006, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<title>Women's Genre Fiction, 1860-1920</title>
+<respStmt>
+<name>Sheila T. Cavanagh</name>
+<name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp>
+</respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Lilian Bell</author>. <title>The Under Side of
+Things</title>. <pubPlace>New York and London</pubPlace>:
+<publisher>Harper &#x0026; Brothers</publisher>, <date>1898</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p>
+</projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded. Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p>
+</samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera. Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi. These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel. This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines. For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em
+dashes with two dashes. Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p>
+</editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="collection">Genre Fiction</rs>
+<rs type="language">English</rs>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
+<rs type="geography">United States</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>American literature--19th Century--Fiction.</item>
+<item>Women authors, American--19th Century.</item>
+<item>Courtship.</item>
+<item>Motherhood.</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2006-May-18</date>
+<respStmt>
+<name>Erika Farr, </name>
+<resp>project manager.</resp>
+</respStmt>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text id="lbthing1204">
+<front id="lbthing1202">
+<div id="lbthing0000" type="covers">
+<figure entity="lbthingfc" rend="inline">
+<figDesc>Front cover of Bell's The Under Side of Things.</figDesc>
+</figure>
+<figure entity="lbthingbc" rend="inline">
+<figDesc>Back cover of Bell's The Under Side of Things.</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="lbthing0001" type="inscription">
+<figure entity="lbthingins" rend="inline">
+<figDesc>Inscription by the author in the front of Bell's The Under
+Side of Things.</figDesc>
+</figure>
+</div>
+<div id="lbthing0002" type="frontispiece">
+<figure entity="lbthingfp" rend="inline">
+<p>Lilian Bell</p>
+<figDesc>Frontispiece included in Bell's The Under Side of Things.</figDesc>
+</figure>
+</div>
+<pb entity="lbthingtp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">THE UNDER SIDE OF THINGS</titlePart>
+<titlePart type="sub">A Novel</titlePart>
+</docTitle>
+<byline>BY <lb/><docAuthor>Lilian Bell</docAuthor> <lb/>AUTHOR OF
+"THE LOVE AFFAIRS OF AN OLD MAID" <lb/>"A LITTLE SISTER TO THE
+WILDERNESS" ETC.</byline>
+<pubPlace>NEW YORK AND LONDON</pubPlace>
+<publisher>HARPER &#x0026; BROTHERS PUBLISHERS</publisher>
+<docDate>1898</docDate>
+</docImprint>
+</titlePage>
+<pb/>
+<div id="lbthing0003" type="copyright">
+<figure entity="lbthingcr" rend="inline">
+<figDesc>Copyright information for Bell's The Under Side of Things.</figDesc>
+</figure>
+</div>
+<pb entity="lbthingded" pages="dedication">
+<div id="lbthing0004" type="dedication">
+<p>THIS BOOK <lb/>Is Lovingly Dedicated to <lb/>MY SISTER <lb/>CLARA
+BELL LESSIG <lb/>WHO IS THE VERY PULSE OF MY HEART</p>
+</div>
+<pb/>
+<div id="lbthing0004" type="table of contents">
+<figure entity="lbthingtc" rend="inline">
+<figDesc>Table of contents for Bell's The Under Side of Things.</figDesc>
+</figure>
+</front>
+<body id="lbthing1203">
+<pb n="[1]"/>
+<div id="lbthing0011" type="chapter" n="1">
+<head>THE UNDER SIDE OF THINGS<lb/>
+I<lb/>THE MOTHER OF ALICE</head>
 <p>IT was written in the outlines of Mrs. Copeland's nose that she was
 a Code of Public Morals, which you would do well to investigate and
 live by. So remarkable was this eloquent feature that no description
@@ -11,8 +166,8 @@ Self, for if you could put your hand over her eyes, still you never
 would think of asking that nose for anything. No ill-clad, desperate
 man would beg her to visit his sick wife; no lost child ask her the
 way home. Had she been a man it would have been the nose of a
-money-getter, a money-lender, a usurer.</p><pb n="2     THE UNDER SIDE
-OF THINGS"/>
+money-getter, a money-lender, a usurer.</p>
+<pb n="2 THE UNDER SIDE OF THINGS"/>
 <p>The peculiar thing about it was that it had no salient points by
 which to describe it. You could not recall her to a friend by
 referring to her nose, for it was neither hooked nor retrouss&#x00E9;,
@@ -33,7 +188,7 @@ you ought to adopt it and that she thought so too, and that if you
 were in her family she would make you.</p>
 <p>After one critical look at her nose you knew why George Copeland
 went to West Point when his father hoped he would be a lawyer. You
-knew<pb n="3     THE MOTHER OF ALICE"/> why Alice Copeland, having
+knew<pb n="3 THE MOTHER OF ALICE"/> why Alice Copeland, having
 been brought up by her mother, loved her father the best. You knew why
 the poor sometimes refused to accept blankets from her, which entitled
 her to order their whole future lives to suit herself. You knew why
@@ -55,7 +210,7 @@ said so.</p>
 <p>This morning all that you could see of Judge Copeland across the
 breakfast-table was the Philadelphia <hi
 rend="italic">Press</hi>. Undoubtedly he was behind it, for<pb
-n="4     THE UNDER SIDE OF THINGS"/> no paper, no matter how stiff its
+n="4 THE UNDER SIDE OF THINGS"/> no paper, no matter how stiff its
 policy, could have sat up there alone. Besides, on either side of its
 outstretched pages you could see the judge's fingers, one of which
 wore an amethyst ring, with the crest of the Copelands embedded in it
@@ -96,7 +251,7 @@ West Point."</p>
 distinct silence, and an anxious shade crossed it.</p>
 <p>"That will be pleasant, I think, for then I can see George." He put
 forth this remark as one who was accustomed to apologize, not only for
-himself, but for existing circumstances.</p><pb n="6     THE UNDER
+himself, but for existing circumstances.</p><pb n="6 THE UNDER
 SIDE OF THINGS"/>
 <p>Still no reply. Mrs. Copeland's knife grated harshly through her
 toast, then slipped and struck her plate. A faint flush suffused her
@@ -121,7 +276,7 @@ that my name had been suggested."</p>
 news."</p>
 <p>The judge colored at her sarcastic emphasis.</p>
 <p>" I know it is not much of an honor, dlear, but you know I only
-accept these things on your ac<pb n="7     THE MOTHER OF
+accept these things on your ac<pb n="7 THE MOTHER OF
 ALICE"/>count. I don't care for them myself. I would much rather
 attend to my flowers and stay quietly at home with you. You are my
 greatest attraction."</p>
@@ -165,7 +320,7 @@ anticipates the courtesy of my husband."</p>
 <p>"Oh, my dear love, you misunderstood me. To me you are just as
 young and lovely as on our wedding-day, and Alice here is a surprise,
 a curious jest of Time. Alice, you must shorten your frocks.<pb
-n="9     THE MOTHER OF ALICE"/> It certainly is a mistake for me to
+n="9 THE MOTHER OF ALICE"/> It certainly is a mistake for me to
 have a grown daughter and a wife who looks even younger."</p>
 <p>"You will see George in his uniform, Alice, if father takes you to
 west Point, and they have dress parade every afternoon, and all the
@@ -185,7 +340,7 @@ that unfortunate time to be particularly disagreeable.</p>
 <p>"Oh, let her go, mother! Let them both go, and we will stay at home
 together. Or, no--you take me to Philadelphia. You promised, because I
 had the measles. Now do!" cried the real diplomat of the family,
-scrambling from his chair and<pb n="10     THE UNDER SIDE OF
+scrambling from his chair and<pb n="10 THE UNDER SIDE OF
 THINGS"/> rushing up to her. He trod upon her dress, but she did not
 push him away.</p>
 <p>"I'll see about it," she said.</p>
@@ -208,7 +363,7 @@ don't."</p>
 <p>"Very well. You can go, Elsie. The poor child is able to take so
 few pleasures!" sighed Mrs. Cope-land. Elsie's face, which had
 brightened at the prospect of Philadelphia, drew down to a proper
-degree of martyrdom at her mother's last words.<pb n="11     THE
+degree of martyrdom at her mother's last words.<pb n="11 THE
 MOTHER OF ALICE"/> She had everything in the world she wanted, yet she
 was always referred to as "poor little Elsie Copeland." Alas, to waste
 the heavenly gift of pity upon the carefully suffering rich!</p>
@@ -230,7 +385,7 @@ that I went in swimming on Saturday. You said you were going to, but
 you didn't. That's just like a girl. And I'll make her let you and
 father both go."</p>
 <p>"Perhaps you can't," said Alice, in a spiritless voice. "I
-couldn't."</p><pb n="12     THE UNDER SIDE OF THINGS"/>
+couldn't."</p><pb n="12 THE UNDER SIDE OF THINGS"/>
 <p>"Ho! don't you know I can make her do anything? That is, anything
 except let <hi rend="italic">me</hi> have any fun with guns and
 things. If I were father, I'd <hi rend="italic">make</hi> her let me have a gun. He says I am old enough."</p>
@@ -238,9 +393,9 @@ things. If I were father, I'd <hi rend="italic">make</hi> her let me have a gun.
 makes mother do anything. You oughtn't to speak so."</p>
 <p>"Ho! you're only a girl," said Gifford, scornfully, which
 incontestable fact Alice did not attempt to disprove.</p></div>
-
-<pb n="[13]"/><div id="lbthing" type="chapter" n="2"><head>II<lb/>A
-SMALL TOWN</head>
+<pb n="[13]"/>
+<div id="lbthing0012" type="chapter" n="2">
+<head>II<lb/>A SMALL TOWN</head>
 <p>STOCKBRIDGE, Pennsylvania, is situated on the Delaware River. It
 was an old town even on the day when Alice Copeland was declared old
 enough to see a little of the world outside its narrow limits, and
@@ -254,7 +409,7 @@ had gone on without a break caused by anything more exciting than a
 game of croquet in the morning or a game of whist in the evening.</p>
 <p>A small town in the East is as different from a small town in these
 later days in the West as black is from white. Their chief point of
-resem<pb n="14     THE UNDER SIDE OF THINGS"/>blance is that everybody
+resem<pb n="14 THE UNDER SIDE OF THINGS"/>blance is that everybody
 knows everybody's else affairs. Otherwise let no one confuse the
 two.</p>
 <p>In the West the broad open streets given by the generosity of the
@@ -275,7 +430,7 @@ provincialism of the East is maddeningly narrow. The innate feeling of
 a young man from a small Western town that he is only one of a
 tremendous mass of humanity and that in order to be individualized he
 must boisterously assert himself, that because his family name is
-unknown in the great city he must shout<pb n="15     A SMALL TOWN"/>
+unknown in the great city he must shout<pb n="15 A SMALL TOWN"/>
 it in your ear and begin each argument with the premise that he is
 just as good as anybody, springs from the nature of the new West. This
 newness largely consists of a broad, democratic brotherhood, which
@@ -296,7 +451,7 @@ civilizations.</p>
 <p>Because Alice Copeland had lived in the small town of Stockbridge
 all her life was no reason why she was provincial in the Western
 acceptation of the term. Her provincialism she inherited quite
-naturally from her mother, and it only took<pb n="16     THE UNDER
+naturally from her mother, and it only took<pb n="16 THE UNDER
 SIDE OF THINGS"/> the mild form of a feeling of indifference to all
 the world except Stockbridge and Philadelphia. The names of the two
 towns may differ in various Eastern States, but their tolerance rarely
@@ -318,7 +473,7 @@ admitted of no discussion.</p>
 distinctions, which set it apart from its fellows. It boasted no
 theatre, but it had nine churches. Of course the Scotch Presbyterian
 was the most prosperous, because the Copelands belonged there.<pb
-n="17     A SMALL TOWN"/> Unsaved Baptists and Methodists, with their
+n="17 A SMALL TOWN"/> Unsaved Baptists and Methodists, with their
 less handsome edifices, sometimes shook their heads over the luxuries
 of the Presbyterians, and smiled to think what old John Knox would
 have said to their cushions and velvet hangings and choir. But they
@@ -338,7 +493,7 @@ could boast such varied chronic complaints, which just gently stirred
 people's sympathy to a healthy activity and gave them an excuse for
 visiting, as Stockbridge. Nearly everybody who was full-grown, and
 there were also quite a goodly number of non-dangerous infantile
-disorders, had his<pb n="18     THE UNDER SIDE OF THINGS"/> own
+disorders, had his<pb n="18 THE UNDER SIDE OF THINGS"/> own
 private malady, which was as distinctive and peculiarly his own, and
 as unavailable to others, as his silver door-plate. Indeed, for one
 family to lap over into another family's complaint without adding a
@@ -360,7 +515,7 @@ annoyance. Outside gossip was scarce, of course, in a town like
 Stockbridge, where nothing ever happened. Still Mrs. Copeland thought
 there was no sense in Mrs. Overshine's acting as if she were the ark
 of the covenant just because she was in the inner circle of a
-celebrated<pb n="19     A SMALL TOWN"/> New York divorce case. And
+celebrated<pb n="19 A SMALL TOWN"/> New York divorce case. And
 when on Sunday Mrs. Overshine went so far as to keep her veil down all
 during the sermon, as if being related to the Vandevoorts made her
 sacred, and afterwards made her way out of church to her carriage with
@@ -382,7 +537,7 @@ madam."</p>
 terrace fronting the river. From all the windows you could look down
 upon the sinuous and tricky Delaware winding its indolent way to the
 sea. Indeed, as if to accommodate so influential a family as the
-Copelands, it even made<pb n="20     THE UNDER SIDE OF THINGS"/> a
+Copelands, it even made<pb n="20 THE UNDER SIDE OF THINGS"/> a
 gracious bend, and wandered past the dining-room windows, so that from
 all over the house you had the loveliest view of its friendly
 ways.</p>
@@ -407,7 +562,7 @@ Thirteenth Rhode Island and is now captain in the regular army?--he
 had a stiff knee for two years, but he got rid of it in some way. He's
 all right now."</p>
 <p>"Gad, I wish I knew how he did it," said Colonel Overshine, sitting
-down, his lame leg stretched<pb n="21     A SMALL TOWN"/> out stiffly
+down, his lame leg stretched<pb n="21 A SMALL TOWN"/> out stiffly
 before him. "I hear about these marvellous cures, but I never see
 them. Every once in a while me wife discovers a sure cure for a bald
 head. But look at mine. Me two complaints are a bald head and a lame
@@ -430,7 +585,7 @@ well, and they say she has written a book."</p>
 <p>Mrs. Copeland threw up both hands. "Poor John!" she said. "Is it
 published?"</p>
 <p>"No; and it may never be, now."</p>
-<p>Mrs. Copeland gave a sigh of relief. Things<pb n="22     THE UNDER
+<p>Mrs. Copeland gave a sigh of relief. Things<pb n="22 THE UNDER
 SIDE OF THINGS"/> were very bad indeed with poor John Vandevoort, but
 not as bad as they might be.</p>
 <p>"She is perfectly well and strong, I believe," said Mrs. Copeland,
@@ -451,7 +606,7 @@ couldn't say a word after that."</p>
 <p>"No, two; Frances and Margaret--Peggy, they call her."</p>
 <p>"What will he done with them?"</p>
 <p>"John says I am to have them for a time."</p>
-<p>"And bring them here?"</p><pb n="23     A SMALL TOWN"/>
+<p>"And bring them here?"</p><pb n="23 A SMALL TOWN"/>
 <p>"Yes."</p>
 <p>Mrs. Copeland cleared her throat in a pleased way. She was glad she
 was going to <hi rend="italic">see</hi> some of this trying and sad
@@ -474,7 +629,7 @@ exasperated silence.</p>
 Overshine. "Have I ever seen it before?"</p>
 <p>"I think not. My wife gave it to me on my last birthday," said the
 judge, taking it off and handing it to him.</p>
-<p>"Very fine stone. What is the design?"</p><pb n="24     THE UNDER
+<p>"Very fine stone. What is the design?"</p><pb n="24 THE UNDER
 SIDE OF THINGS"/>
 <p>Judge Copeland leaned back in his chair, set his finger tips
 together, and looked at the ceiling. Mrs. Copeland laid down her fancy
@@ -497,7 +652,7 @@ narrative grew really sacred. She knew it all, and followed it word by
 word as Mrs. Copeland began.</p>
 <p>"That ring, Colonel, contains the crest of the Copeland
 family. Copeland is French, you know, and was originally Copelin. The
-descent of the<pb n="25     A SMALL TOWN"/> judge's branch of the
+descent of the<pb n="25 A SMALL TOWN"/> judge's branch of the
 family is very direct through the Comte de Copelin, clear back to the
 Duc de Copelin, his most famous ancestor."</p>
 <p>Mrs. Copeland never went further back than the Duc de Copelin, for
@@ -518,7 +673,7 @@ Copelin."</p>
 <p>"Me wife has all the ancestors in our family," said Colonel
 Overshine, with ill-placed jocularity; "all I know of mine is that me
 grandfather was hanged for being a pirate."</p>
-<p>It is an old joke, but one very dear to the heart<pb n="26     THE
+<p>It is an old joke, but one very dear to the heart<pb n="26 THE
 UNDER SIDE OF THINGS"/> of the American man whose wife is interested
 in family trees.</p>
 <p>Mrs. Copeland colored with displeasure. Mrs. Overshine smiled. The
@@ -541,7 +696,7 @@ talk. All he wants is to have the custody of the children. She is
 capricious and utterly irresponsible. One week she loves them to
 death, and the next week they never see her. They are the sweetest,
 cleverest, worst children I ever saw; keen as razors, honest as the
-day--just like John--own<pb n="27     A SMALL TOWN"/> up to anything
+day--just like John--own<pb n="27 A SMALL TOWN"/> up to anything
 they have done, and the older one, Frances, is as pretty as a
 picture."</p>
 <p>Just then Gifford Copeland burst into the room.</p>
@@ -559,9 +714,9 @@ Colonel Overshine.</p>
 the neighborhood,'" said Mrs. Overshine, sweetly.</p>
 <p>Mrs. Copeland smiled. She always smiled when another woman showed
 temper.</p></div>
-
-<pb n="[28]"/><div id="lbthing" type="chapter"
-n="3"><head>III<lb/>ALICE GOES TO WEST POINT</head>
+<pb n="[28]"/>
+<div id="lbthing0013" type="chapter" n="3">
+<head>III<lb/>ALICE GOES TO WEST POINT</head>
 <p>IN some way, Gifford had managed it as he said he would, and Alice
 was going to West Point.</p>
 <p>Gifford and his sister were on more friendly terms than many small
@@ -578,7 +733,7 @@ off. Mrs. Copeland was up-stairs with a headache, a dark room, and
 smelling-salts.</p>
 <p>It was so early in the morning the horses tossed their heads
 impatiently and stamped their slim hoofs, for it was a glorious
-day.</p><pb n="29     ALICE GOES TO WEST POINT"/>
+day.</p><pb n="29 ALICE GOES TO WEST POINT"/>
 <p>Are you all right, sis?" asked Gifford, helping her in.</p>
 <p>"Yes, thank you, dear. Don't be disappointed that mother is too ill
 to take you to Philadelphia."</p>
@@ -601,7 +756,7 @@ trivialities. Sometimes they looked at each other and smiled, and
 once, when they made a sudden turn which flashed into view a long,
 narrow island almost covered with green grass, like a great emerald
 marquise ring set in the centre of the river, Alice slipped<pb
-n="30     THE UNDER SIDE OF THINGS"/> her little gloved hand into her
+n="30 THE UNDER SIDE OF THINGS"/> her little gloved hand into her
 father's with sympathetic understanding.</p>
 <p>Pacing up and down the station platform, waiting for the same train
 they were to take, Alice saw a tall young woman, whose black veil,
@@ -621,7 +776,7 @@ assured manners of a beauty, and she seemed to exercise a certain
 fascination upon every one in the car who sat within range of her.</p>
 <p>Her own carriage was waiting for her, and she gave no directions,
 only nodded to the footman in answer to his salute, stepped in; the
-door slammed,<pb n="31     ALICE GOES TO WEST POINT"/> the man sprang
+door slammed,<pb n="31 ALICE GOES TO WEST POINT"/> the man sprang
 upon the box, folded his arms--and they were off.</p>
 <p>Alice actually sighed as she disappeared. She was foolish and young
 and still had her ideals. Oh, lovely age, no matter when it comes,
@@ -642,7 +797,7 @@ had been going to the Astor House for twenty-five years. He had seen
 it in its jubilee days, before the war, when all the Southern society
 girls spent their winters there, when it occupied a proud position in
 the way of celebrated beauties and aristocratic inmates. It was the
-rallying place for all the flower and wealth of the<pb n="32     THE
+rallying place for all the flower and wealth of the<pb n="32 THE
 UNDER SIDE OF THINGS"/> South, and it witnessed such scenes of gayety
 among first families as now only occur in country-houses during the
 season. No hotel has ever been in this respect what the Astor House
@@ -665,7 +820,7 @@ their box--a certain Senator Cobb, from Ohio, one of their party on
 the Board of Visitors. After one glance Alice hardly looked at
 him. She was no judge of art; for in that one glance she decided that
 he might be a youngish man who looked old, or an oldish man who looked
-young.</p><pb n="33     ALICE GOES TO WEST POINT"/>
+young.</p><pb n="33 ALICE GOES TO WEST POINT"/>
 <p>But Senator Cobb, so far from feeling hurt by her indifference, was
 piqued into more acute interest in her than perhaps otherwise he might
 have felt. The few years which had elapsed since his accession to the
@@ -686,7 +841,7 @@ to lift. It proved to have such power of raising things that it not
 only blew the mortgage from overhead, but it lifted the Cobbs into
 social and political power in Ph&#x0153;nix with such force that it
 finally landed them in Washington.</p>
-<p>Perhaps it is hardly fair, for the honor of our na<pb n="34     THE
+<p>Perhaps it is hardly fair, for the honor of our na<pb n="34 THE
 UNDER SIDE OF THINGS"/>tional politics, to ascribe all this to
 coal--for the senator possessed undoubted ability, and made a very
 good senator as senators go. But it <hi rend="italic">is</hi> safe to
@@ -708,7 +863,7 @@ helm. For when she began to rest it was the beginning of the long
 rest. Her resting-time came too late.</p>
 <p>The senator did not know this, nor would he believe it if he could
 read this veracious history, for it would be a difficult as well as an
-unkind thing to<pb n="35     ALICE GOES TO WEST POINT"/> dislodge the
+unkind thing to<pb n="35 ALICE GOES TO WEST POINT"/> dislodge the
 idea of his own importance, seeing that he derived his chief happiness
 in life from fostering that harmless fallacy. It would have upset his
 dignity and hurt his vanity to give any credit for his career to the
@@ -728,7 +883,7 @@ have built up, my highest powers of heart and head, at my country's
 feet, and to serve her to the best of my ability in any capacity to
 which she may see fit to call me." (Prolonged applause.)</p>
 <p>It was a great speech, although, of course, this is only a sample,
-and, perhaps, an unfair one. It was<pb n="36     THE UNDER SIDE OF
+and, perhaps, an unfair one. It was<pb n="36 THE UNDER SIDE OF
 THINGS"/> much more impressive and stirring to hear him deliver it;
 for there he stood before them, a living example to all other poor
 boys who, like him, single-handed and alone have hewed or are hewing
@@ -749,7 +904,7 @@ fresh-complexioned girl in the front of the box who sat so still and
 followed the play with such breathless interest, among them the same
 tall young woman with auburn hair who had travelled with her from
 Stockbridge. She watched Alice through her opera-glasses, and seemed
-bored by her companions,<pb n="37     ALICE GOES TO WEST POINT"/> but
+bored by her companions,<pb n="37 ALICE GOES TO WEST POINT"/> but
 Alice was too far off and too much absorbed to recognize her.</p>
 <p>The next morning, just as they were leaving for the boat, a great
 box from the florist's was sent to Alice with Senator Cobb's card in
@@ -771,9 +926,9 @@ luggage. Then they went on deck and leaned over the railing, watching
 the boat put off from her pier, and steam her slow way between all the
 other craft, in the first stage of her beautiful journey up the
 Hudson.</p></div>
-
-<pb n="[38]"/><div id="lbthing" type="chapter"
-n="4"><head>IV<lb/>ALICE AND KATE VANDEVOORT</head>
+<pb n="[38]"/>
+<div id="lbthing0014" type="chapter" n="4">
+<head>IV<lb/>ALICE AND KATE VANDEVOORT</head>
 <p>ELDERLY admirers with unctuous manners and an oily skin can make
 themselves very revolting to sensitive young ladies with romantic
 tendencies. It was on this journey that the mentally dwarfing fact was
@@ -787,7 +942,7 @@ her discomfort to be seen were the scarlet cheeks and downcast eyes of
 the girl while Senator Cobb was talking to her. He must have given her
 quite plainly to understand his intentions concerning her, as elderly
 admirers with large fortunes have a little way of doing, for the
-moment she could escape from him she hurried<pb n="39     ALICE AND
+moment she could escape from him she hurried<pb n="39 ALICE AND
 KATE VANDEVOORT"/> to his box of flowers, and, watching for a
 favorable moment, she nerved herself to the ordeal of throwing the
 whole thing overboard in the wake of the steamer.</p>
@@ -808,7 +963,7 @@ had thrown them overboard.</p>
 you? Are you ill? To throw flowers overboard! Why didn't you give them
 to some one? Why didn't you tell me? I would have removed them."</p>
 <p>"They smelled too sweet," said Alice, with a show of petulance
-quite foreign to her.</p><pb n="40     THE UNDER SIDE OF THINGS"/>
+quite foreign to her.</p><pb n="40 THE UNDER SIDE OF THINGS"/>
 <p>She looked suspiciously at her father to see if he knew of any
 cause, but he, being a man, had seen nothing. He regarded her
 anxiously, however, and felt her hands to see if she were
@@ -831,7 +986,7 @@ hats so large for him that they touched his ears. She thought
 indulgently of his wide mouth--the kind of a mouth which always goes
 with a frank, open countenance and that sort of a hat--when she
 compared his capabilities of being snubbed into faint-heartedness with
-the confident<pb n="41     ALICE AND KATE VANDEVOORT"/> smile of
+the confident<pb n="41 ALICE AND KATE VANDEVOORT"/> smile of
 Senator Cobb and his deadly habit of "washing his hands in invisible
 soap," which so held Alice's eyes that she could not leave off looking
 at them.</p>
@@ -852,7 +1007,7 @@ tell them what she wanted. And all the time her father and George were
 near by and saw nothing of her distress, and all the time Senator Cobb
 stood guard at her elbow and allowed no one to displace him, until
 suddenly into the room walked a tall young woman in a white dress<pb
-n="42     THE UNDER SIDE OF THINGS"/> with yellow roses at her belt
+n="42 THE UNDER SIDE OF THINGS"/> with yellow roses at her belt
 and one against her bronze hair. She seemed to know everybody, bowing
 and smiling with perfect ease and unconcern to those who thronged
 around her, but moving slowly yet surely to where Alice Copeland sat
@@ -874,7 +1029,7 @@ and smiled brilliantly while waiting with her head rather haughtily
 poised.</p>
 <p>The senator recognized her attitude and flushed as he said:
 "Delighted, I'm sure. Miss Copeland, allow me to present Miss
-Vandevoort."</p><pb n="43     ALICE AND KATE VANDEVOORT"/>
+Vandevoort."</p><pb n="43 ALICE AND KATE VANDEVOORT"/>
 <p>Miss Vandevoort took both of Alice's hands in hers, and sat down
 beside her in the senator's chair.</p>
 <p>"Thank you, dear Senator Cobb," she said, sweetly. "Now will you go
@@ -897,7 +1052,7 @@ said, "I want the seamy side."</p>
 <p>"But it is more interesting. It is better to know it," answered
 Alice.</p>
 <p>"More interesting, certainly; and better to know it at my age;
-hardly at yours."</p><pb n="44     THE UNDER SIDE OF THINGS"/>
+hardly at yours."</p><pb n="44 THE UNDER SIDE OF THINGS"/>
 <p>"But let me begin with this, anyway. Tell me just how there was
 anything malicious in what I saw," urged Alice, not quite
 understanding how she dared to talk so freely, yet confident that her
@@ -919,7 +1074,7 @@ injury, I sent him to Mrs. Verry, who paid him such marked attention
 all last winter that people in Washington were driven to wondering if
 her intentions were honorable."</p>
 <p>"Driven to wondering what?"</p>
-<p>"Oh, driven to wondering if anything would come<pb n="45     ALICE
+<p>"Oh, driven to wondering if anything would come<pb n="45 ALICE
 AND KATE VANDEVOORT"/> of it. You see she is quite <hi
 rend="italic">prononc&#x00E9;e</hi>, and the affections of such a
 woman as that are not to be trifled with with impunity."</p>
@@ -941,7 +1096,7 @@ them. Couldn't get them. Lawyers couldn't get them. Court couldn't get
 them. Emily is sharper than a dozen of John's lawyers. I said nothing,
 but I watched my chance, and when Emily went out one day I picked up
 the little tots and whisked them down to Stockbridge before
-anybody<pb n="46     THE UNDER SIDE OF THINGS"/> could wink. There was
+anybody<pb n="46 THE UNDER SIDE OF THINGS"/> could wink. There was
 nobody else to do it, so I did it. I always have to do things that
 nobody else will do. The children were delighted to go with me. I
 could have taken them to Africa--they would have gone. I had to send
@@ -964,7 +1119,7 @@ attack."</p>
 how so radiant a creature as Miss Vandevoort could--could talk in this
 flippant way. It seemed to her Stockbridge sensibility almost
 indelicate.</p>
-<p>"He is so hopeless about you too. How can you<pb n="47     ALICE
+<p>"He is so hopeless about you too. How can you<pb n="47 ALICE
 AND KATE VANDEVOORT"/> bring yourself to flirt with him if you mean to
 take him in the end?"</p>
 <p>"Take him?" cried Alice, hotly. "I never thought of such a
@@ -987,7 +1142,7 @@ tried to give you, and you are going to allow these other girls to
 wrest the victory from you which you may have if you will. Now I have
 only been jesting with you, to try your mettle and to get my own
 bearings. Pull yourself together and get command of the situation, and
-I will give you<pb n="48     THE UNDER SIDE OF THINGS"/> the best time
+I will give you<pb n="48 THE UNDER SIDE OF THINGS"/> the best time
 you ever had in your life. You will have so many beaux that you won't
 be able to manage them."</p>
 <p>"I don't want then," said Alice, quickly. "I shouldn't know what to
@@ -1009,7 +1164,7 @@ and that is what I should like best."</p>
 <p>Miss Vandevoort looked at Alice Copeland with interest. Yes,
 without doubt, she was the prettiest girl in the room, and she had
 about her a little well-bred air, which just missed being
-Quakerish<pb n="49     ALICE AND KATE VANDEVOORT"/> by the spirited
+Quakerish<pb n="49 ALICE AND KATE VANDEVOORT"/> by the spirited
 lift of her head, and just missed being vivacious by the subduing
 effects of Presbyterianism and Stockbridge, Pennsylvania. People often
 said of this quite satisfactory combination, "What a little lady Alice
@@ -1032,7 +1187,7 @@ come?"</p>
 army. I like to see the young fellows," said Miss Vandevoort, coloring
 and moving her head restlessly.</p>
 <p>"Then you must know nearly everybody here," said Alice.</p><pb
-n="50     THE UNDER SIDE OF THINGS"/>
+n="50 THE UNDER SIDE OF THINGS"/>
 <p>"I do. I know them all, I think."</p>
 <p>"Well, are they all as much alike as they look?"</p>
 <p>Alice's confidential tone amused Miss Vandevoort, and she
@@ -1054,7 +1209,7 @@ impart it to each one as an appeal to the subtlety of his
 intelligence, which invited him to catch this clue that she threw out
 and to make the most of it.</p>
 <p>"Is he here to-night?" asked Alice, with more curiosity than she
-yet had shown about anybody.</p><pb n="51     ALICE AND KATE
+yet had shown about anybody.</p><pb n="51 ALICE AND KATE
 VANDEVOORT"/>
 <p>Just then Miss Vandevoort looked up and bowed to him.</p>
 <p>"No," she said, frankly doctoring the truth for the sake of the
@@ -1073,10 +1228,10 @@ rend="italic">difficile</hi> a person as yourself is to guarantee that
 he is different. He graduates third from the head of his class and he
 is first captain of the corps of cadets. No such colossal glory as the
 latter will ever come to him in after years should he even become
-President. Ah, here you are! Captain Counselman, allow me to pre-sent
+President. Ah, here you are! Captain Counselman, allow me to present
 you to Miss Copeland, the daughter of that most charming man, Judge
 Copeland, and the sister of your classmate. Probably you will not be
-allowed to remain unmolested long, as I have<pb n="52     THE UNDER
+allowed to remain unmolested long, as I have<pb n="52 THE UNDER
 SIDE OF THINGS"/> had daggers driven into me by the black eyes of
 Mr. Drake for the last ten minutes. He is even now glaring at me from
 the doorway, so hold the fort while you may, for there is no telling
@@ -1093,9 +1248,9 @@ come into her life which would remain with her, sleeping or waking,
 wherever she went, crowding everything in the world into a background
 for just this one face--the face of "the dearest fellow on earth," and
 one who was "different."</p></div>
-
-<pb n="[53]"/><div id="lbthing" type="chapter"
-n="5"><head>V<lb/>BREAKFAST AT COZZENS'S</head>
+<pb n="[53]"/>
+<div id="lbthing" type="chapter" n="5">
+<head>V<lb/>BREAKFAST AT COZZENS'S</head>
 <p>MUCH to Alice's bewilderment the next morning, as she and her
 father walked into breakfast, she saw people bowing to her whom she
 had no recollection of meeting and whose names were a sealed
@@ -1110,7 +1265,7 @@ intense that it almost made you wink.</p>
 her father.</p>
 <p>"A Mrs. Verry," answered Alice.</p>
 <p>"An excellent name; quite a hit indeed."</p>
-<p>Hardly were they seated before they saw Miss<pb n="54     THE UNDER
+<p>Hardly were they seated before they saw Miss<pb n="54 THE UNDER
 SIDE OF THINGS"/> Vandevoort appear at the door, and stop to speak to
 the head waiter, who pointed to three or four tables; but Miss
 Vandevoort shook her head. She nodded carelessly to Mrs. Verry, and
@@ -1132,7 +1287,7 @@ daughter?"</p>
 <p>"Oh, fie, Judge! You mustn't turn my head with your flattery."</p>
 <p>"If I can only succeed in turning it in my direction, you place a
 premium on what you term flattery," answered the judge,
-gallantly.</p><pb n="55     BREAKFAST AT COZZENS'S"/>
+gallantly.</p><pb n="55 BREAKFAST AT COZZENS'S"/>
 <p>Miss Vandevoort clapped her hands softly.</p>
 <p>"How lovely!" she cried. "Judge Copeland, you put some of these
 unattached men to shame with the grace of your pretty speeches. Alice
@@ -1153,7 +1308,7 @@ Europe, and we have a little way of flattering each other by a great
 deal of petting, which, if we were all at home, would have to be
 scattered over the whole family. As it is, we concentrate it all on
 two. It is a sort of Liebig's Extract of Affection that we live
-on."</p><pb n="56     THE UNDER SIDE OF THINGS"/>
+on."</p><pb n="56 THE UNDER SIDE OF THINGS"/>
 <p>Waves of color came into her face as she talked of her mother, and
 softened it and made it even more lovely.</p>
 <p>Alice was enchanted. She had been dazzled by Miss Vandevoort's
@@ -1195,7 +1350,7 @@ pair? Their son graduates this year, and a finer fellow never
 breathed. Mark my words, young Counselman will be heard from. I don't
 know why I say this, but I feel, whenever I am near him, that I am
 with the heart of a hero. His face follows me like the faces of some
-pictures in<pb n="58     THE UNDER SIDE OF THINGS"/> the
+pictures in<pb n="58 THE UNDER SIDE OF THINGS"/> the
 Luxembourg. There is a haunting quality in it, which gives me a
 feeling that Destiny has already laid her hand upon his brow. It is
 foolish to allow one's thoughts to wander in that way, but I am glad
@@ -1217,7 +1372,7 @@ a man like yourself, Judge."</p>
 after breakfast?"</p>
 <p>"With much pleasure. Oh, what exquisite roses! Look, Alice."</p>
 <p>Senator Cobb leaned back in his chair with a satisfied smile upon
-his face, as everybody turned<pb n="59     BREAKFAST AT COZZENS'S"/>
+his face, as everybody turned<pb n="59 BREAKFAST AT COZZENS'S"/>
 to watch the head waiter coming down the room bearing a glorious
 bouquet of roses, which almost concealed him from view.</p>
 <p>"They are for Miss Copeland," said the senator, rubbing his hands
@@ -1263,7 +1418,7 @@ with?"</p>
 them into the Hudson River, if you wish!" He chuckled again at this
 absurdity, and Miss Vandevoort coughed gently.</p>
 <p>"Then I think I will send a few of them to your mother, Miss
-Vandevoort, if you think she would<pb n="61     BREAKFAST AT
+Vandevoort, if you think she would<pb n="61 BREAKFAST AT
 COZZENS'S"/> care for them. Mrs. Vandevoort is ill this morning,
 Senator Cobb."</p>
 <p>Tears came into the senator's eyes at this exhibition of his
@@ -1276,9 +1431,9 @@ arms. And when presently she gave up guard-mounting, against the
 clamoring of a dozen importunate friends, in order to be with her
 mother at breakfast, she still had those flowers, all of which Alice
 had thrust upon her in a frenzy of gratitude.</p></div>
-
-<pb n="[62]"/><div id="lbthing" type="chapter"
-n="6"><head>VI<lb/>GUARD-MOUNTING</head>
+<pb n="[62]"/>
+<div id="lbthing0016" type="chapter" n="6">
+<head>VI<lb/>GUARD-MOUNTING</head>
 <p>MANY people, of wide experience in other matters, absolutely deny
 the existence of love at first sight. They lay great stress upon the
 impossibility of such an occurrence, and point with pride to the fact
@@ -1314,7 +1469,7 @@ these glories, frankly and unsuspiciously doing and saying the same
 things which millions of human beings had done before him, ingenuously
 believing that he was the first to discover just this delirious
 quality in the joy of love, betraying himself in a hundred little ways
-to any observant eyes, but utterly untormented by pa<pb n="64     THE
+to any observant eyes, but utterly untormented by pa<pb n="64 THE
 UNDER SIDE OF THINGS"/>gan doubts as to the genuineness or duration of
 this delightful state, such as occasionally will intrude themselves
 upon more experienced minds.</p>
@@ -1357,7 +1512,7 @@ even though he knew Pratt wanted to borrow money, he hailed him with
 an enthusiasm of which Pratt was not slow to avail himself.</p>
 <p>Gordon even allowed himself to be drawn into talk about it,
 although he had not a cent to lend, and really, except that his credit
-was good, was one<pb n="66     THE UNDER SIDE OF THINGS"/> of the most
+was good, was one<pb n="66 THE UNDER SIDE OF THINGS"/> of the most
 useless persons for Pratt to attempt. Gordon's kind heart, however,
 smote him for withholding his sympathy from so harassed a fellow as
 Pratt looked, and he thought perhaps if it were only a trifling scrape
@@ -1380,7 +1535,7 @@ just tell you. I got into debt over a woman--flowers and candy and
 truck. I'm in love with her. You needn't grin. You don't know what it
 is. But just you wait till some girl gets you in her clutches, and
 you'll be ready to sell your chevrons to get her a piece of the<pb
-n="67     GUARD-MOUNTING"/> moon if she wants it. Mine is that
+n="67 GUARD-MOUNTING"/> moon if she wants it. Mine is that
 kind. Other fellows give her the most expensive things and I've had
 to, or be left out of the race. I couldn't stand that, so I kept on
 till my credit was gone, and the governor shut down on me
@@ -1400,7 +1555,7 @@ head from his hands. "I'd lose the <hi rend="italic">girl!</hi>"</p>
 all the arrangements. If you will just indorse my note they will take
 it, and I can take care of the interest."</p>
 <p>"Why will they take my name instead of trusting you?"</p>
-<p>"Why, you have kept your credit good and mine<pb n="68     THE
+<p>"Why, you have kept your credit good and mine<pb n="68 THE
 UNDER SIDE OF THINGS"/> is all knocked into smithereens. Anyhow, I
 asked them, and they said your name would be all right if you'd give
 it to me."</p>
@@ -1450,7 +1605,7 @@ head. Then he put the matter out of his mind and went to hunt up
 George Copeland. He and George had been great friends, much to every
 one's surprise, but Gordon wanted to view him now in the new light of
 being Alice Copeland's brother. He sighed to think that if he only
-had<pb n="70     THE UNDER SIDE OF THINGS"/> known Alice sooner, what
+had<pb n="70 THE UNDER SIDE OF THINGS"/> known Alice sooner, what
 hours he could have spent asking George questions about her. He forgot
 that George probably would not have answered them. Brothers seldom are
 willing to sacrifice themselves to that extent, and George Copeland
@@ -1472,7 +1627,7 @@ Counselman, not knowing George's surly temper, out of pure humanity
 once thrust his head in at the door of Copeland's quarters and roared
 out a warning, whereat George is said to have hurled a boot at
 Gordon's head. That is where he made a mistake, for in less<pb
-n="71     GUARD-MOUNTING"/> time than one could wink, Gordon
+n="71 GUARD-MOUNTING"/> time than one could wink, Gordon
 Counselman, the well-known peacemaker, had hauled George Copeland out
 of bed and was thrashing him roundly; and when he had all but knocked
 the breath out of George's astonished body, he politely invited him to
@@ -1494,7 +1649,7 @@ spend with Alice Copeland.</p>
 <p>It really would be a delightful, as well as a most instructive
 thing, if a man occasionally could exchange places with the woman he
 loves and view his actions through her eyes. Perhaps he might<pb
-n="72     THE UNDER SIDE OF THINGS"/> better understand her causeless
+n="72 THE UNDER SIDE OF THINGS"/> better understand her causeless
 jealousies, her unreasonable way of holding him to account for quite
 harmless diversions. He might see how the moments he spends with other
 girls seem to lengthen into the basis of a quarrel--so different are
@@ -1516,7 +1671,7 @@ them. In vain she looked for Gordon Counselman. The brown faces under
 their shakoes all looked alike to her, and she was sure if he had been
 among them he would have looked different. The adjutant, covered with
 gold lace, made a brave showing; but still he was not the one she
-sought. Nevertheless<pb n="73     GUARD-MOUNTING"/> there were moments
+sought. Nevertheless<pb n="73 GUARD-MOUNTING"/> there were moments
 when the impressive spectacle before her drew her thoughts from him,
 and left no room for anything except the majesty of the military; for
 when, at the last, the old Officer of the Day turns the detail over to
@@ -1537,7 +1692,7 @@ upon them in the secret recesses of a heart which never before had
 known a pang of jealousy in all its gentle existence. She was partly
 consoled, however, by the unmistakable way in which his brown face
 flushed when he saw her. She even gave him credit for an effort to
-detach himself from the tenacious girls<pb n="74     THE UNDER SIDE OF
+detach himself from the tenacious girls<pb n="74 THE UNDER SIDE OF
 THINGS"/> who surrounded him, for she distinctly saw him bow and
 endeavor to withdraw; but they made such a little laughing clamor over
 him, and coaxed him so prettily, and he was so evidently their hero as
@@ -1558,7 +1713,7 @@ his shining buttons, as Peggotty was wont to shed hers under sudden
 effervescence of affection.</p>
 <p>So those two foolish young people looked across at each other and
 allowed the wrong people to monopolize them, and were frankly and
-honestly<pb n="75     GUARD-MOUNTING"/> miserable over the perversity
+honestly<pb n="75 GUARD-MOUNTING"/> miserable over the perversity
 of fate or their own stupidity in not rising to the occasion. When,
 finally, young Counselman made a dash for liberty, and asked her to
 walk down old Flirtation with him in his only hour of leisure, Alice
@@ -1581,7 +1736,7 @@ words:</p>
 <p>"I promised to go to walk with Senator Cobb, and just afterwards,
 when it was too late, Mr. Counselman asked me."</p>
 <p>Miss Vandevoort wrinkled her smooth brow in vexation for a moment,
-then she threw back her<pb n="76     THE UNDER SIDE OF THINGS"/> head
+then she threw back her<pb n="76 THE UNDER SIDE OF THINGS"/> head
 and laughed her old laugh of amusement at the ways of people.</p>
 <p>"Why do you laugh?" asked Alice.</p>
 <p>"Because if I didn't, I should weep. Laughing keeps me on the
@@ -1604,7 +1759,7 @@ millions of miles. Don't look so mystified, child. Whenever you are
 puzzled, nod your head with an air of intelligence calculated to
 deceive even the elect. Then keep your ears open and the gullible
 elect will straightway tell you all there is to know about it. When
-you are unhappy,<pb n="77     GUARD-MOUNTING"/> laugh. Laugh out loud,
+you are unhappy,<pb n="77 GUARD-MOUNTING"/> laugh. Laugh out loud,
 show all your teeth--you have very pretty teeth and you can afford to
 laugh even at poor jests. When you are with your sweetheart, don't
 smile and look contented and happy. If you do, some jealous girl will
@@ -1624,7 +1779,7 @@ spell 'necessary' and 'separate'? Shouldn't you think that I would
 spell 'believe' and 'receive' alike, and that I should much prefer to
 take my views on life from my husband? That is why I have such a good
 time. I am clever and nobody knows it. Promise not to betray my
-secret."</p><pb n="78     THE UNDER SIDE OF THINGS"/>
+secret."</p><pb n="78 THE UNDER SIDE OF THINGS"/>
 <p>Miss Vandevoort said this with such an engaging air, and with so
 whimsical an expression, that Alice was ready to declare that she was
 the funniest as well as the most fascinating woman she ever had met,
@@ -1645,7 +1800,7 @@ nothing but the truth, and let people hate you, as they surely
 will. Nobody wants undiluted honesty, least of all, men. But the
 mistake women make is in coloring the truth. They make it gray, and
 gray is dull and unbecoming. Now when <hi rend="italic">I</hi> color the truth I make it
-red. Most men love red. It warms<pb n="79     GUARD-MOUNTING"/> and
+red. Most men love red. It warms<pb n="79 GUARD-MOUNTING"/> and
 cheers, and my little pink and rose colored lies are among my greatest
 charms. Why, my dear Alice, if I had told the brutal truth to
 unattractive men all my life, I should be literally nowhere. I should
@@ -1667,7 +1822,7 @@ like a diadem. All my life I have been dodging bores and landing
 clever men and floating in to shore on the high tide of success
 without letting anybody catch me at my harmless little tricks, except
 other women. I wouldn't let them if I could have helped myself. But
-other women are<pb n="80     THE UNDER SIDE OF THINGS"/> sometimes too
+other women are<pb n="80 THE UNDER SIDE OF THINGS"/> sometimes too
 much for me. I never wound a man's vanity. Believe me, Alice, it is
 the best, the <hi rend="italic">only</hi> safe way. Now make a <hi rend="italic">bona fide</hi> engagement with me
 to spend every spare moment with me which you do not care to spend
@@ -1689,7 +1844,7 @@ head.</p>
 frock, the one which fits the best in the back. All your gowns should
 fit best in the back, for your back is at the mercy of the
 observer. You can defend the front in fifty ways, but how do you know
-what is going on behind you?<pb n="81     GUARD-MOUNTING"/> A woman of
+what is going on behind you?<pb n="81 GUARD-MOUNTING"/> A woman of
 genius has the backs of her gowns faultless. Mine are! The fronts of
 mine are plain. You never notice them, because I myself am the front
 of a gown. Now listen. Near your prettiest and go with him. Keep your
@@ -1709,7 +1864,7 @@ dead, you are so wonderful and so much alive!"</p>
 <p>It was but an idle form of speech, a childish exaggeration; but her
 smile froze as she saw the horror in Miss Vandevoort's face. Even her
 brilliant scarlet lips grew pale under Alice's stricken gaze.</p><pb
-n="82     THE UNDER SIDE OF THINGS"/> 
+n="82 THE UNDER SIDE OF THINGS"/> 
 <p>"Oh, what <hi rend="italic">have</hi> I said?" cried Alice, springing towards her and
 seizing her hand.</p>
 <p>"Nothing. It is nothing. Only my heart. It troubles me at times,"
@@ -1724,9 +1879,9 @@ trembling lips with her hands to keep down a bitter cry, murmuring
 brokenly,</p>
 <p>"Raise the dead, did she say? O God, dear God, if I only
 could!"</p></div>
-
-<pb n="[83]"/><div id="lbthing" type="chapter"
-n="7"><head>VII<lb/>DOWN FLIRTATION WALK</head>
+<pb n="[83]"/>
+<div id="lbthing0017" type="chapter" n="7">
+<head>VII<lb/>DOWN FLIRTATION WALK</head>
 <p>"I WONDER," said Miss Vandevoort to herself as she came out of the
 hotel on the veranda and began idly to pace its length, apparently
 absorbed in putting on her gloves, but in reality doing sentry duty,
@@ -1741,7 +1896,7 @@ seriously interested. I could easily bring myself to believe in both
 of them if it did not seem too good to be true--and good things of the
 heart come so seldom in this world. Gordon is too popular. If it is
 possible to spoil him these girls will do it. Ah, bless the boy!<pb
-n="84     THE UNDER SIDE OF THINGS"/> I can't blame them. He is the
+n="84 THE UNDER SIDE OF THINGS"/> I can't blame them. He is the
 delight of my eyes. But if I let him know it, I shall be just as
 unwise as they. I really pity these wonderfully attractive men, with
 such a natural, irresistible charm as Gordon has. The poor fellows
@@ -1784,7 +1939,7 @@ it. And she saw with genuine admiration the plucky way that Alice
 gathered herself together and held her head high and chatted with the
 senator.</p>
 <p>"Ah, there goes Alice Copeland," said Kate, calmly.</p>
-<p>"Where, where?" asked Gordon, dropping her<pb n="86     THE UNDER
+<p>"Where, where?" asked Gordon, dropping her<pb n="86 THE UNDER
 SIDE OF THINGS"/> hand and looking in all directions except the right
 one.</p>
 <p>"Why, down there. See?"</p>
@@ -1809,7 +1964,7 @@ dear boy, if Napoleon could have seen it, he would have made her a
 field-marshal."</p>
 <p>"Isn't Senator Cobb very rich?" asked Gordon, presently, with his
 brows drawn into a straight line.</p>
-<p>"I believe so. But the Copelands are richer."</p><pb n="87     DOWN
+<p>"I believe so. But the Copelands are richer."</p><pb n="87 DOWN
 FLIRTATION WALK"/>
 <p>"Then perhaps Mrs. Copeland would not favor him as a suitor on that
 ground."</p>
@@ -1833,7 +1988,7 @@ with such innocence that he laughed aloud, and Alice turned around and
 smiled at them.</p>
 <p>"Wait for us!" cried Kate, swinging her parasol at them.</p>
 <p>"What a darling you are!" whispered Gordon, audaciously.</p><pb
-n="88     THE UNDER SIDE OF THINGS"/>
+n="88 THE UNDER SIDE OF THINGS"/>
 <p>"How disrespectful of you," said Kate. "What do you mean?"</p>
 <p>She looked so surprised that Gordon was abashed. He was so honest
 himself that Miss Vandevoort's brilliant changes of base always
@@ -1855,7 +2010,7 @@ Copeland. I'll tell you some time when you come up to New York."</p>
 <p>"Oh, I never can wait that long. Tell me now. Perhaps Miss Copeland
 will walk with Mr. Counselman for a minute or two."</p>
 <p>"Well, come on, then. Leave them to follow. But mind you never
-breathe this."</p><pb n="89     DOWN FLIRTATION WALK"/>
+breathe this."</p><pb n="89 DOWN FLIRTATION WALK"/>
 <p>And so for a blissful thirty minutes Gordon Counselman and Alice
 followed in the wake of a bald head and a bronze head which were so
 close together that when they met Mrs. Verry and Pratt, Mrs. Verry was
@@ -1877,7 +2032,7 @@ faultless as Gordon, for he, her hero, was first captain of them
 all.</p>
 <p>It was an impressive sight. The visitors made a bright spot of
 color in front of the officers' quarters, with the old gray academy
-buildings looming up<pb n="90     THE UNDER SIDE OF THINGS"/> on one
+buildings looming up<pb n="90 THE UNDER SIDE OF THINGS"/> on one
 side, while away off at the other the grim barracks were aligned, in
 front of which the companies were forming. The lovely Hudson flowed
 softly beneath the bluff, visible beyond the Point like a curving band
@@ -1898,7 +2053,7 @@ marched out, as if to show <hi rend="italic">them</hi>selves, and paraded down t
 the column and back again, as much as to say, "Now, boys, watch
 us. This is the way you want to march." How the girls loved that band!
 They never could make up their minds which to prefer, the bearskin of
-the drum-major or the gold-lace of<pb n="91     DOWN FLIRTATION
+the drum-major or the gold-lace of<pb n="91 DOWN FLIRTATION
 WALK"/> the adjutant, who, just as soon as the band got back to their
 places, gave a hoarse command, which nobody understood, because that
 would have been unmilitary. Everybody obeyed it, however, because the
@@ -1920,7 +2075,7 @@ of the girls, who wished he had left them there indefinitely. The
 stupid part of dress-parade to women is where the officers receive
 reports and instructions. Everybody talks during this time. But when
 the order came "Parade is dismissed," and the adjutant took his place
-in the centre of the line of officers, who closed in<pb n="92     THE
+in the centre of the line of officers, who closed in<pb n="92 THE
 UNDER SIDE OF THINGS"/> upon him in front of the battalion, forming a
 small and exclusive column, Gordon, as first captain, still at the
 right, a sharp word of command came from the adjutant himself, and
@@ -1942,7 +2097,7 @@ but an ear greedy for more of the same thing.</p>
 attraction his sister had become. He was bored to death by cadets
 begging to be introduced, and to his disgust he found that whenever he
 wanted Counselman, it would be better and simpler just to look for
-Alice. He never<pb n="93     DOWN FLIRTATION WALK"/> had thought her
+Alice. He never<pb n="93 DOWN FLIRTATION WALK"/> had thought her
 pretty in Stockbridge. In fact, he never had thought of her at all,
 except when he wanted her to wait on him, for her willing feet flew on
 his errands as ungrudgingly as on her mother's. But here she was so
@@ -1985,7 +2140,7 @@ when Miss Vandevoort rapped smartly on Alice's door and came in to
 inspect her costume and to urge her to take herself well in hand,
 instead of the shy, timid little maid from Stockbridge she had
 expected to see, she was confronted by a radiant creature with eyes
-like stars, who held her head<pb n="95     DOWN FLIRTATION WALK"/>
+like stars, who held her head<pb n="95 DOWN FLIRTATION WALK"/>
 high and challenged your best admiration on the spot.</p>
 <p>"<hi rend="italic">Mon Dieu!</hi>" cried Miss Vandevoort. "Where is
 the little Alice Copeland I came to see? I am looking for a little
@@ -2008,7 +2163,7 @@ hand.</p>
 <p>"Don't add the sin of falsehood to your other crimes, Alice," she
 said, solemnly.</p>
 <p>"What other crimes?" asked Alice.</p>
-<p>"The crime of deceiving me. I thought you were<pb n="96     THE
+<p>"The crime of deceiving me. I thought you were<pb n="96 THE
 UNDER SIDE OF THINGS"/> a little brown wren. I find you a
 bird-of-paradise. Come on! I hear the band. We mustn't miss a moment
 to-night! As a rule I make a triumphant entry late, looking cool and
@@ -2031,7 +2186,7 @@ everybody to agree with me."</p>
 <p>"I do, at any rate, and I am a judge. You can tell quite a good
 deal about a man by the kind of flowers he sends you."</p>
 <p>"Then Senator Cobb must be very artistic," said Alice,
-laughing.</p><pb n="97     DOWN FLIRTATION WALK"/>
+laughing.</p><pb n="97 DOWN FLIRTATION WALK"/>
 <p>"Senator Cobb has an artistic florist. He never designates what
 kind of flowers shall be sent. Gordon does. Now hold your dress up on
 both sides--a little more on the left--and come with me."</p>
@@ -2053,7 +2208,7 @@ heartstrings like a human thing when you see it floating anywhere;
 which makes you want to put your hand on it and love it if you see
 pictures of it with hosts of others; which, when you accidentally run
 across it in Europe, makes you want to kiss and hug and cry over it,
-if you are a woman,<pb n="98     THE UNDER SIDE OF THINGS"/> and stand
+if you are a woman,<pb n="98 THE UNDER SIDE OF THINGS"/> and stand
 up and take your hat off to it, if you are a man.</p>
 <p>Gordon watched Alice as her eyes fell upon these flags. She looked
 up at him without speaking, and he pressed the hand which lay on his
@@ -2096,7 +2251,7 @@ pat his arm and ask how he was enjoying himself, when he was dashing
 from one partner to another.</p>
 <p>Perhaps his unfortunate experience of the morning had taught him a
 lesson in the despatch necessary to exercise with a popular girl, for
-in that<pb n="100     THE UNDER SIDE OF THINGS"/> walk down old
+in that<pb n="100 THE UNDER SIDE OF THINGS"/> walk down old
 Flirtation, he had mapped out the dances he wanted with Alice, and she
 had given them to him with such shy, happy eyes that the impetuous
 young cadet wanted to tell her right then and there that he loved her
@@ -2120,7 +2275,7 @@ to Stockbridge for the same time."</p>
 came up in her throat and choked her. Perhaps it was her own great
 happiness. Perhaps it was a something in Kate Vandevoort's wistful,
 smiling eyes. But whatever it was, when Kate made a little impetuous
-movement<pb n="101     DOWN FLIRTATION WALK"/> of her arms as if to
+movement<pb n="101 DOWN FLIRTATION WALK"/> of her arms as if to
 open them, Alice sprang forward and flung herself into them, hiding
 her face in the laces on Kate's breast, and clinging to her dumbly as
 if knowing that she understood because she was a woman. And while they
@@ -2143,7 +2298,7 @@ the sudden clutch of Kate's arms around her, and Kate bent her tall
 head and laid her cheek on Alice's soft hair a moment, and a sob rose
 in her throat that Alice could not help but hear--oh, the memories of
 old songs!--then she put the girl gently away from her and went
-out,<pb n="102     THE UNDER SIDE OF THINGS"/> still without
+out,<pb n="102 THE UNDER SIDE OF THINGS"/> still without
 speaking. Perhaps she could not bear to have Alice see her face.</p>
 <p>When she had gone, Alice went and knelt down by the open window and
 listened to the fresh young voices which floated the music up to her
@@ -2154,9 +2309,9 @@ hadn't. But it never does women any harm to weep and sob and cry their
 hearts out over tender, old-fashioned music. And if they were not just
 that gentle and sentimental and soft-hearted, the men would never love
 them as they do.</p></div>
-
-<pb n="[103]"/><div id="lbthing" type="chapter"
-n="8"><head>VIII<lb/>COUNTER-IRRITANTS</head>
+<pb n="[103]"/>
+<div id="lbthing0018" type="chapter" n="8">
+<head>VIII<lb/>COUNTER-IRRITANTS</head>
 <p>MRS. COPELAND so seldom indorsed anybody whom the family liked that
 it was quite a pleasant surprise to them when she metaphorically took
 Kate Vandevoort to her bosom and made it evident by her thawed manner
@@ -2170,7 +2325,7 @@ bones and bruised feelings, for, by a single "Thumbs down," he is apt
 to find himself shaken up, out of breath and dizzy from his fall.</p>
 <p>A social idol, a belle, is perhaps in the most precarious situation
 of all, and this made the triumphal march of Miss Vandevoort all the
-more surpris<pb n="104     THE UNDER SIDE OF THINGS"/>ing, inasmuch as
+more surpris<pb n="104 THE UNDER SIDE OF THINGS"/>ing, inasmuch as
 she conquered everything and everybody, wherever she chose, and did it
 apparently without effort. It was not that she was so beautiful--hosts
 of buds came on the scene of action whose features were more regular
@@ -2191,7 +2346,7 @@ buckler of Humor, when we might just as well have had both and been
 invulnerable, all but the heel.</p>
 <p>Tito Melema maintained his popularity by pretending to give the
 honor to another, always another, and apparently keeping himself in
-the back<pb n="105     COUNTER-IRRITANTS"/>ground, which cunning
+the back<pb n="105 COUNTER-IRRITANTS"/>ground, which cunning
 policy served to keep him the idol of the people until they discovered
 that they were being tricked.</p>
 <p>Although Miss Vandevoort was just the one to appreciate the
@@ -2212,7 +2367,7 @@ ridicule that they were compelled, much against their will, halfway to
 believe her. In consequence they, too, turned around and gave her the
 homage which she seemed to value so lightly, and which, with the true
 amiability of human nature, they so gladly would have withheld had
-they felt that she depended upon it.</p><pb n="106     THE UNDER SIDE
+they felt that she depended upon it.</p><pb n="106 THE UNDER SIDE
 OF THINGS"/>
 <p>Mrs. Copeland reverenced Power; perhaps because circumstances,
 Fate, Destiny, what you will, had denied her the exercise of it, save
@@ -2235,7 +2390,7 @@ sanitarium.</p>
 invited the Overshines and Miss Vandevoort to dine, changing her
 dinner-hour, as she did upon state occasions, from noon to seven
 o'clock, for the accommodation of their honored guest.</p><pb
-n="107     COUNTER-IRRITANTS"/>
+n="107 COUNTER-IRRITANTS"/>
 <p>Kate arrayed herself with unusual care for that dinner at the
 Copelands, and she was quite thoughtful for several hours
 beforehand. Her casual acquaintance with Mrs. Copeland, supplemented
@@ -2255,7 +2410,7 @@ again when she remembered that it was Miss Vandevoort who wore it.</p>
 elements of discomfort and pleasure, and repelled the foreign or
 appropriated her own whenever she found either. She could enter a room
 full of strangers and select those whom she would like, and who would
-like her, before speaking to any of them.</p><pb n="108     THE UNDER
+like her, before speaking to any of them.</p><pb n="108 THE UNDER
 SIDE OF THINGS"/>
 <p>In this instance she knew that there was a disturbing element
 present. She wondered what it was. She set herself quietly to observe
@@ -2278,7 +2433,7 @@ drawing-room at all to-night. She suffers so from hysteria. We
 approach her very cautiously."</p>
 <p>The corners of Kate's mouth twitched. When she found it was
 hysteria, and not that the child had cut her hand off or burst a
-blood-vessel, it<pb n="109     COUNTER-IRRITANTS"/> was with
+blood-vessel, it<pb n="109 COUNTER-IRRITANTS"/> was with
 difficulty that Kate kept herself from jumping at Elsie and giving her
 something to cry for.</p>
 <p>"How sadly the child is afflicted," sighed Mrs. Overshine.</p>
@@ -2299,7 +2454,7 @@ persuaded him to have the doctor see it. He said if it had been two
 inches higher it might have been serious."</p>
 <p>"How fortunate those two inches are! And George, has he
 arrived?"</p>
-<p>"No, he is still in New York, and I am afraid<pb n="110     THE
+<p>"No, he is still in New York, and I am afraid<pb n="110 THE
 UNDER SIDE OF THINGS"/> he is ill. I wrote him a ten-page letter,
 filled with advice about his health, and telling him all the primary
 symptoms of several diseases that I hear are prevailing there, and
@@ -2322,7 +2477,7 @@ Mrs. Copeland was Scotch.</p>
 <p>Kate immediately repented her impertinent little speech, which
 nobody except Colonel Overshine had recognized. She turned away from
 the spectacle of his red face, and said to the judge:</p><pb
-n="111     COUNTER-IRRITANTS"/>
+n="111 COUNTER-IRRITANTS"/>
 <p>"It was beautiful of you, Judge Copeland, to make such a noble gift
 to Stockbridge as that fine Public Library. Mollie and I have been all
 over it to-day, and although I tried with all the ingenuity at my
@@ -2344,7 +2499,7 @@ situation. But Peggy, together with two or three old ladies standing
 near--Mrs. Troutman and Mrs. Frazer, Chris--looked at her as if they
 thought her simply a harmless lunatic."</p>
 <p>"Oh, is Mrs. Frazer well enough to be out?" said Mrs. Copeland. "I
-heard that this new treat<pb n="112     THE UNDER SIDE OF
+heard that this new treat<pb n="112 THE UNDER SIDE OF
 THINGS"/>ment was helping her. She has had nervous prostration for
 fourteen years, and her mother died of heart disease. There is
 consumption in the family, too. It is a marvel to me that she is alive
@@ -2375,9 +2530,9 @@ our friends of that."</p>
 <p>"No, because I gave up my way at once. I always do."</p>
 <p>"Why, I thought you were quite pleased with the idea of the
 library," said the judge, with a note of anxiety in his voice.</p>
-<p>It seems as if some men never <hi rend="italic">would</hi> see the justice of the way a
-woman who has been affronted by somebody else takes it out on her
-husband, or whoever happens to be handy.</p>
+<p>It seems as if some men never <hi rend="italic">would</hi> see the
+justice of the way a woman who has been affronted by somebody else
+takes it out on her husband, or whoever happens to be handy.</p>
 <p>"You know perfectly well that I should have preferred a
 hospital."</p>
 <p>"I suppose, dear Mrs. Copeland," put in Colonel Overshine,
@@ -2389,7 +2544,7 @@ through its own impetus."</p>
 displeasure. Mrs. Overshine mentally washed her hands of her husband,
 who then looked at his ally, Kate, for the approval which the honest
 gentleman really expected to follow this well-meant jocularity.<pb
-n="114     THE UNDER SIDE OF THINGS"/> But Kate, in response to a
+n="114 THE UNDER SIDE OF THINGS"/> But Kate, in response to a
 telegram from Mollie, had turned her back on him. They meant to make
 him feel his disgrace.</p>
 <p>When dinner was announced, Elsie refused to move, so after politely
@@ -2410,7 +2565,7 @@ in in such a crisis! Kate merely sighed, and murmured, "Poor child!"</p>
 <p>Pefore the soup was removed, however, Elsie consented to get into
 her chair, provided it were changed from her mother's left to her
 right. Colonel Overshine accordingly offered to move, and Elsie<pb
-n="115     COUNTER-IRRITANTS"/> sat in the vacated chair with her hair
+n="115 COUNTER-IRRITANTS"/> sat in the vacated chair with her hair
 pulled over her eyes.</p>
 <p>Frank Overshine, with his kind, wide smile and genuine simplicity,
 was told off to Alice, who made spasmodic efforts to entertain him
@@ -2432,7 +2587,7 @@ is such a lovely fellow, and so clever. Colonel Sheldon told me that
 he had clone more towards the suppression of hazing at West Point than
 any other cadet who ever entered there. He is such a strong character
 that he could not fail of influencing any one with whom he came in
-contact. He is a great friend of George's, Mrs.<pb n="116     THE
+contact. He is a great friend of George's, Mrs.<pb n="116 THE
 UNDER SIDE OF THINGS"/> Copeland. I am glad your son had the good
 taste to like him."</p>
 <p>"Kate, was he the one I overheard you telling Mollie about--the one
@@ -2477,7 +2632,7 @@ such a rigorous extent that her spiritual brother often longed to go
 from her presence straight to the broad way which leadeth to
 destruction, just for a relish. Not only did she look after her son
 and her daughter and her man servant and her maid servant and her ox
-and her ass, but she also found<pb n="118     THE UNDER SIDE OF
+and her ass, but she also found<pb n="118 THE UNDER SIDE OF
 THINGS"/> time to attend to the moral well-being of every other ox and
 ass in all Stockbridge.</p>
 <p>"Yes, but, clear Mrs. Copeland," said Kate, sweetly, "his are not
@@ -2499,7 +2654,7 @@ that in an excess of ease and relief he relaxes his vigilance to the
 extent of showing where his teeth join, and sometimes, if the jest is
 an excellent one, even giving a good idea of the plate itself. Of
 course there is no harm in this," added Miss Vandevoort, genially,
-looking around to include<pb n="119     COUNTER-IRRITANTS"/>
+looking around to include<pb n="119 COUNTER-IRRITANTS"/>
 everybody, "only it is a little trying on the person opposite. If he
 were wretchedly poor, he would be a pathetic figure, and you would
 want to send him a red flannel nightcap for his poor old head, and a
@@ -2521,7 +2676,7 @@ thought up a better way to help that poor girl than so to degrade
 yourself in your own sight. Oh, poor Kate! You do try so hard to be
 good, but it is such desperately weary work, and there is nothing,
 absolutely nothing, in all this beautiful world for you to look
-forward to, except to be of use to those<pb n="120     THE UNDER SIDE
+forward to, except to be of use to those<pb n="120 THE UNDER SIDE
 OF THINGS"/> who are weaker than you. No love, no home, no fireside of
 your own. Just always to be an on-looker at the feast of others; to
 feel the warmth of others' fires and to go shivering yourself. Oh, the
@@ -2530,9 +2685,9 @@ mine has been wrecked? See her eat her heart out in the utter
 hopelessness of her just meed of joy? No, no"--her voice sank to a
 whisper--"no matter how hard it is, I must go on with it--as <hi rend="italic">he</hi> would
 have had me."</p></div>
-
-<pb n="[121]"/><div id="lbthing" type="chapter"
-n="9"><head>IX<lb/>THE CHILD PROBLEM</head>
+<pb n="[121]"/>
+<div id="lbthing019" type="chapter" n="9">
+<head>IX<lb/>THE CHILD PROBLEM</head>
 <p>DULL people, or those who have only stupid children, may well be
 excused for declaring that the bewildering precocity of the John
 Vandevoort children was unnatural and wellnigh impossible. Kate
@@ -2569,7 +2724,7 @@ round-eyed Peggy could wheedle the nose off his face, if she set her
 mind to do it. Kate arranged their studies for them. They already
 chattered in French and German as fluently as she herself, so she gave
 them drawing and music, on condition that they should learn spelling
-and arithmetic.<pb n="123     THE CHILD PROBLEM"/> Their manners in
+and arithmetic.<pb n="123 THE CHILD PROBLEM"/> Their manners in
 public would have put Beau Brummell to the blush, but in private
 Frances was a little demon, and Peggy would fight as quietly but as
 long as a bull-dog. Frances flew into a passion a dozen times a day,
@@ -2591,7 +2746,7 @@ rapturous delight.</p>
 stupid little Peggy's sweetness to her older sister's too clever
 intelligence.</p>
 <p>Nobody could take any comfort with as sharp a child as Frances, and
-people made no secret of<pb n="124     THE UNDER SIDE OF THINGS"/>
+people made no secret of<pb n="124 THE UNDER SIDE OF THINGS"/>
 their preference for the soothing companionship of her fat little
 sister. Most people prefer a pin-cushion to an emery--for daily
 use.</p>
@@ -2615,7 +2770,7 @@ lovers as you have."</p>
 <p>"Mamma. She often talked to us about them. She said you were an
 awful fool not to marry Sir James Whitehall. She said she thought your
 success had turned your head, because you kept refusing such fine
-offers, and that you would pick<pb n="125     THE CHILD PROBLEM"/> up
+offers, and that you would pick<pb n="125 THE CHILD PROBLEM"/> up
 a crooked stick after all. I asked her what a crooked stick meant,
 and she said papa was one. I told her I hoped you would marry a
 crooked stick then, and she slapped me."</p>
@@ -2638,7 +2793,7 @@ wasn't anything. She slapped us whenever anything went wrong, whether
 we did it or not. But the time she slapped and shook us till our
 heads most fel off--she's awful strong--was when she used to get
 hysterics and scream, and Peggy and I would screech and yell just
-like her, to see who could yell the loudest.<pb n="126     THE UNDER
+like her, to see who could yell the loudest.<pb n="126 THE UNDER
 SIDE OF THINGS"/> My, but she gave it to us then! Hortense pretended
 to help her, but she got us away from her and locked us in the nursery
 till Mamma cooled down. Then she let us out, and we went to drive in
@@ -2661,7 +2816,7 @@ is not as <hi rend="italic">Mrs.</hi> Somebody that I must address
 you.'"</p>
 <p>"Good heavens!" cried Kate, setting Frances up in her lap and
 holding her two arms down tightly, "what an awful thing to hear the
-cynicism<pb n="127     THE CHILD PROBLEM"/> of the world brought home
+cynicism<pb n="127 THE CHILD PROBLEM"/> of the world brought home
 by such baby lips as yours! Stop thinking about such things. Come,
 don't you want to go with me to see Miss Alice Copeland? I have a
 telegram in my hand which will make her eyes shine so that you could
@@ -2685,7 +2840,7 @@ rend="italic">love</hi> Stockbridge. It is so still, and the trees
 rustle so, and the grass is so soft and green, and I haven't seen a
 single sign 'Keep off the grass' since we have been here. In India
 once a man asked Papa what our national motto was, and he<pb
-n="128     THE UNDER SIDE OF THINGS"/> said the only national motto
+n="128 THE UNDER SIDE OF THINGS"/> said the only national motto
 that we enforced was 'Keep off the grass,' and everybody laughed
 except the Englishman who asked him. He believed it, Papa said."</p>
 <p>"Your father also told a man in London that our national dish was
@@ -2708,7 +2863,7 @@ if there is anything else."</p>
 <p>"Well, we know about them."</p>
 <p>"Oh yes; that's fashionable."</p>
 <p>"But isn't it fashionable for them to know about us?"</p><pb
-n="129     THE CHILD PROBLEM"/>
+n="129 THE CHILD PROBLEM"/>
 <p>"No, it is fashionable for them not to know about us."</p>
 <p>"Is that what makes Englishmen so funny?"</p>
 <p>"Yes," said Kate, laughing. "That is exactly what makes Englishmen
@@ -2733,7 +2888,7 @@ that way."</p>
 haven't seen any of it yet."</p>
 <p>"Stockbridge is nice," said Frances. "I like it because I can play
 with the coachman's children. Mamma never lets me in New York. But I
-don't<pb n="130     THE UNDER SIDE OF THINGS"/> see why. Sometimes I
+don't<pb n="130 THE UNDER SIDE OF THINGS"/> see why. Sometimes I
 want to play with them worse than anything else in the world. My
 geography says that people don't all belong to the same race. The
 Chinese are Mongolians, and we are Caucasians. Now, the coachman's
@@ -2775,7 +2930,7 @@ me so I've never forgotten it."</p>
 <p>"There are Peggy and Hortense!" she declared. "Don't call them
 over. Leave them, and let's go in alone."</p>
 <p>"Come, come, none of that, Miss Piggy Selfishness. Suppose you go
-home and leave me to go<pb n="132     THE UNDER SIDE OF THINGS"/> in
+home and leave me to go<pb n="132 THE UNDER SIDE OF THINGS"/> in
 alone. Haven't we come to be generous with Miss Copeland about the
 telegram?"</p>
 <p>"Yes, but it's so much easier to be generous with other people than
@@ -2799,7 +2954,7 @@ good?"</p>
 <p>"Yes; but remember, if you lead me into temptation, it will be a
 double sin for you."</p>
 <p>"But if I say to send Peggy back home, will you do it, and take me
-in alone?" she insisted.</p><pb n="133     THE CHILD PROBLEM"/>
+in alone?" she insisted.</p><pb n="133 THE CHILD PROBLEM"/>
 <p>"Yes."</p>
 <p>"Then call Peggy. Or, no, let me call her. Allons, Peggy! Hortense!
 Venez ici. Venez avec nous. Nous allons faire une visite &#x00E0;
@@ -2822,7 +2977,7 @@ particularly fond of her. Her chief fault was that she waged a
 perpetual war with the German governess.</p>
 <p>When Frances was good, she was very, very good, and also, like the
 little girl with the immortal curl in the middle of her immortal
-forehead, "when<pb n="134     THE UNDER SIDE OF THINGS"/> she was bad,
+forehead, "when<pb n="134 THE UNDER SIDE OF THINGS"/> she was bad,
 she was horrid." However, it was almost worth a tantrum to put her
 into the celestial state of mind which always followed an outburst,
 and to which she now had attained through her forbearance towards
@@ -2843,7 +2998,7 @@ stubborn silence.</p>
 <p>Frances instinctively held aloof from Mrs. Copeland, recognizing
 the coldness in her face, although much more interested in her than
 Elsie. But, as usual, Peggy, the little round diplomat, who would not
-have given a crumb where Frances would have<pb n="135     THE CHILD
+have given a crumb where Frances would have<pb n="135 THE CHILD
 PROBLEM"/> given her last crust or the whole loaf, engagingly climbed
 upon Mrs. Copeland's black satin knee, and artfully coiled herself in
 the iron receptacle which served that austere woman for a heart.</p>
@@ -2856,7 +3011,6 @@ back until Kate sent her after the rest.</p>
 and she knew what a genius for irritation Mrs. Copeland must possess,
 in order to stir up the storm in which that unhappy luncheon or dinner
 ended.</p></div>
-
 <pb n="[136]"/><div id="lbthing" type="chapter"
 n="10"><head>X<lb/>ON THE BOAT-HOUSE STEPS</head>
 <p>WHEN Mrs. Copeland drew from her pocket her fancy work, and settled
@@ -2873,7 +3027,7 @@ alone.</p>
 <p>"When is Senator Cobb coming to propose to you?"</p>
 <p>"How did you know he was going to?" asked Alice, startled.</p>
 <p>"I didn't. I only wanted to know. Are you going to accept him?"</p>
-<p>"I don't know. They--"</p><pb n="137     ON THE BOAT-HOUSE STEPS"/>
+<p>"I don't know. They--"</p><pb n="137 ON THE BOAT-HOUSE STEPS"/>
 <p>"You don't know! They--!" cried Kate, with a shake of Alice's
 shoulder that made her bite her tongue. "How dare you hint at such a
 thing? Do you mean to tell me that you love that awful old man?"</p>
@@ -2894,7 +3048,7 @@ case?"</p>
 <p>"I don't know. He would stand between us, I think, if I could only
 tell him."</p>
 <p>"Why don't you tell him?"</p>
-<p>"Oh, I couldn't. It seems so--so indelicate."</p><pb n="138     THE
+<p>"Oh, I couldn't. It seems so--so indelicate."</p><pb n="138 THE
 UNDER SIDE OF THINGS"/>
 <p>"Alice Copeland, I <hi rend="italic">hope</hi> there is nobody else in the world exactly
 like you."</p>
@@ -2917,7 +3071,7 @@ you just dealt to me."</p>
 <p>"I don't lay it up against you, because I hardly see how you could
 be anything else with the exam--ahem!-- with such surroundings. Good
 heavens, Alice! You ought to go around the world, and get a point of
-view."</p><pb n="139     ON THE BOAT-HOUSE STEPS"/>
+view."</p><pb n="139 ON THE BOAT-HOUSE STEPS"/>
 <p>Alice looked up, startled by Miss Vandevoort's vehemence. "A point
 of view?" she repeated, doubtfully.</p>
 <p>"Yes, yes; a point of view! Is anything more maddening than to go
@@ -2940,7 +3094,7 @@ appear to a pagan outsider, because you believe so absolutely that you
 are right and that I am wrong. Now I don't agree with you. I am wrong
 enough, Heaven knows, only you are more wrong than I. It is but a
 question of degree. You can't see it, and you are not believing me
-right<pb n="140     THE UNDER SIDE OF THINGS"/> now, because you are
+right<pb n="140 THE UNDER SIDE OF THINGS"/> now, because you are
 looking at me from the point of view of Stockbridge, Potts County,
 Pennsylvania. You are a different creature here from the girl I knew
 at West Point. Do you remember the night of the hop?"</p>
@@ -2954,7 +3108,7 @@ here? Has a pestilence swept them from the face of the earth?"</p>
 <p>"How do you know?"</p>
 <p>"Mother says so."</p>
 <p>"Um. Does she?"</p>
-<p>"Yes, she does. And I know that it is true."</p><pb n="141     ON
+<p>"Yes, she does. And I know that it is true."</p><pb n="141 ON
 THE BOAT-HOUSE STEPS"/>
 <p>"<hi rend="italic">Do</hi> you! You are very wise."</p>
 <p>If Kate expected to sting Alice by her tone into either question or
@@ -2980,7 +3134,7 @@ and withdrew her son's invitation in such a way that Gordon could not
 explain even to George, and there is a coolness between them now,
 because George is too proud to ask why, and Gordon too much of a
 gentleman to 'show a fellow's mother up to him in an unfavorable
-light.'<pb n="142     THE UNDER SIDE OF THINGS"/> And most of all,
+light.'<pb n="142 THE UNDER SIDE OF THINGS"/> And most of all,
 because Mrs. Copeland gave Gordon to understand that you were engaged
 to Senator Cobb. <hi rend="italic">That</hi> is why Gordon does not
 write. Your mother intimated that she wrote in your behalf to break
@@ -3001,7 +3155,7 @@ kills me? I didn't know before how determined she was. but if she has
 done all this, I might as well give up at once."</p>
 <p>"Poor Gordon," said Kate softly.</p>
 <p>Alice clutched her hand.</p>
-<p>"dp you think he cares?"</p><pb n="143     ON THE BOAT-HOUSE
+<p>"dp you think he cares?"</p><pb n="143 ON THE BOAT-HOUSE
 STEPS"/>
 <p>"I know that he cares. I only wish you had been noble enough to
 have faith in him--such faith as he would have had in you."</p>
@@ -3025,7 +3179,7 @@ with Death," began Kate, boldly. Then she covered her face with her
 hands, and a groan burst from her lips. "Oh, God, forgive me for
 saying that!" she murmured. "Once I did contest the field with Death,
 and Death won."</p>
-<p>"Oh, dear Miss Vandevoort," cried Alice, put<pb n="144     THE
+<p>"Oh, dear Miss Vandevoort," cried Alice, put<pb n="144 THE
 UNDER SIDE OF THINGS"/>ting her arms around Kate, and forgetting
 herself in a moment, as she always did in the face of another's
 trouble.</p>
@@ -3047,7 +3201,7 @@ true woman. I feel it, but I couldn't help being influenced, I
 couldn't help being dragged down. I couldn't keep my ideals high and
 clean when every passer-by dashed them down. So I lowered them inch by
 inch myself, until they were on a level with my eyes and I no longer
-had<pb n="145     ON THE BOAT-HOUSE STEPS"/> to look up to see
+had<pb n="145 ON THE BOAT-HOUSE STEPS"/> to look up to see
 them. Then they were not ideals any more. They were my familiars. But
 I could not bear their reproachful faces. So I wrapped them in
 sophistry and put them further away. I knew they were within reach. I
@@ -3068,7 +3222,7 @@ Point, and I had gone up there with my father and mother to spend the
 summer.</p>
 <p>"Max never cared for other girls, and I was flattered that I had
 won the attentions of the most difficult man at West Point. But it was
-only an<pb n="146     THE UNDER SIDE OF THINGS"/> outward victory, for
+only an<pb n="146 THE UNDER SIDE OF THINGS"/> outward victory, for
 although he was always with me, yet he held himself, his real self,
 aloof from me. I felt that it was because he did not approve of me,
 perhaps because he could not respect me. Love makes a women either
@@ -3089,7 +3243,7 @@ there are very few gentleman in the world, nevertheless when one is
 younger one feels such things much more keenly. I was sensitive and
 foolish and young--three most unfortunate things according to my way
 of thinking now--and I felt on raw nerves every one of the<pb
-n="147     ON THE BOAT-HOUSE STEPS"/> stings which his keen sarcastic
+n="147 ON THE BOAT-HOUSE STEPS"/> stings which his keen sarcastic
 wit was capable of making at Max's expense.</p>
 <p>"This is not a very noble love story I am telling you, is it Alice?
 Make excuses for me, if you can. Not that I excuse myself, but I have
@@ -3110,7 +3264,7 @@ them mentally; some too old ever to learn anything new; but most of
 them too gross not to repel as sensitive a creature as I, and I
 loathed them all for daring to call themselves in love with me. I
 suppose they thought they were. I suppose they believed in
-themselves. But, to my mind, they<pb n="148     THE UNDER SIDE OF
+themselves. But, to my mind, they<pb n="148 THE UNDER SIDE OF
 THINGS"/> never knew the meaning of the word. And so, in spite of
 lofty ideals, and wanting to believe in men, the very men themselves
 dragged their sex down for me, and lowered my standard of men, and
@@ -3131,7 +3285,7 @@ love me, just as hopelessly as men have loved you, and then, when I
 was ready, I would turn my back on you as heartlessly as you appeared
 to turn yours on them. But your simplicity, where I had expected to
 find arts and wiles, disarmed me too completely, and this is the
-result.'</p><pb n="149     ON THE BOAT-HOUSE STEPS"/>
+result.'</p><pb n="149 ON THE BOAT-HOUSE STEPS"/>
 <p>"That gave me a new point of view; but, Alice, I never had anything
 to terrify me so much in all my life. To think that a man, a great,
 strong, grown man, who had nothing against me but the fancied wrongs
@@ -3153,7 +3307,7 @@ encouraged him and lured him on, because it was exciting and different
 from anything I ever had encountered before, and because I didn't care
 what the consequences might be. I let the future take care of
 itself.</p>
-<p>"I could see that he was puzzled and surprised,<pb n="150     THE
+<p>"I could see that he was puzzled and surprised,<pb n="150 THE
 UNDER SIDE OF THINGS"/> but attracted. Wherever I led, he followed,
 but in silence. His resistance made me even more determined, more
 eager, until one day I wrung the truth from him, and he asked me to be
@@ -3175,7 +3329,7 @@ to be honest with him, and to give him the comfort of letting him know
 how I did love him. But I had the coquette's idea of keeping a man's
 love by withholding the full expression of it--of never saying that
 which he most wanted to hear. And although Max poured his whole
-honest, faithful<pb n="151     ON THE BOAT-HOUSE STEPS"/> soul out at
+honest, faithful<pb n="151 ON THE BOAT-HOUSE STEPS"/> soul out at
 my feet, he never knew how dearly I loved him. He knows it now.</p>
 <p>"Once you asked me why I loved West Point. It was because I fell in
 love with Max there. He wore the cadet gray. He walked with me down
@@ -3195,7 +3349,7 @@ over Max's grave. The lights went out for me then and forever.</p>
 every memory, now that he is dead, that I would give anything if I
 could remember every idle word, and all the jests, and little
 half-quarrels, and the joy of 'making up' in those days, before we
-knew that we loved each other. He is<pb n="152     THE UNDER SIDE OF
+knew that we loved each other. He is<pb n="152 THE UNDER SIDE OF
 THINGS"/> so much to me now that it seems as if I ought to have felt
 him coming, and known him out of all the world. <hi
 rend="italic">You</hi> know where you met Gordon. You remember the
@@ -3222,7 +3376,7 @@ Alice, you only half read it, no matter how carefully you look at each
 word. But when you trip over it by accident, and you have lived it all
 out in your heart beforehand, and the poet has only put your soul into
 words, <hi rend="italic">then</hi> you not only are reading it--you
-are living it.</p><pb n="153     ON THE BOAT-HOUSE STEPS"/>
+are living it.</p><pb n="153 ON THE BOAT-HOUSE STEPS"/>
 <p>"Max was not brilliant, but I was desperately ambitious for him, as
 I am for myself and for you and for every one I love--ambitious to
 make the most of every opportunity, and to wrest from life all that it
@@ -3243,7 +3397,7 @@ sacrifice, mistaken though it was, and made it so gladly because it
 was for me, how could I explain it to him? I did not understand his
 heroism even then. I had to have a harder lesson to teach me to have
 faith in humanity. He always comforted himself by his belief that his
-younger<pb n="154     THE UNDER SIDE OF THINGS"/> brother would
+younger<pb n="154 THE UNDER SIDE OF THINGS"/> brother would
 distinguish himself in his stead and win a higher place than Max ever
 could have won. His brother was the clever one, and Max idolized
 brilliancy, as most silent men do.</p>
@@ -3265,7 +3419,7 @@ life. Whatever I am, I owe to him.</p>
 <p>"I said a moment ago that the world said I ought to do better. It
 was the world, largely in the person of my father. I will speak no
 harm of the dead. The best I can say of him, and I believe this is the
-truth, is that he did not know how gen<pb n="155     ON THE BOAT-HOUSE
+truth, is that he did not know how gen<pb n="155 ON THE BOAT-HOUSE
 STEPS"/>uinely Max loved me, and I was too proud--too wicked, I call
 it now--to let any one, even Max himself, know how much I loved
 him. Oh, what a mistake coquettes make! If only I could have him back
@@ -3287,7 +3441,7 @@ here was an opportunity for him to distinguish himself, as I was sure
 he would.</p>
 <p>"Max gave up his business as cheerfully as if he already had not
 sacrificed one of the desires of his life to attain it. 'Duties never
-conflict,' he used to<pb n="156     THE UNDER SIDE OF THINGS"/> say to
+conflict,' he used to<pb n="156 THE UNDER SIDE OF THINGS"/> say to
 me when I rebelled at hard things. Ah, but he was a hero!</p>
 <p>"He wanted me to marry him before he went. There was where the fine
 simplicity of his nature came in, which I was too poor in spirit to
@@ -3307,7 +3461,7 @@ to better advantage than they do. If I wore no fetters I would show
 people that it was because I did not need them.</p>
 <p>"That was the sort of man Max was. But I could not explain myself
 to him, and, Alice, my hesitation was not <hi rend="italic">all</hi>
-base. It was partly jeal<pb n="157     ON THE BOAT-HOUSE STEPS"/>ousy
+base. It was partly jeal<pb n="157 ON THE BOAT-HOUSE STEPS"/>ousy
 for him. I wanted him to win distinction, so that the world would be
 obliged to say I had done well. I wanted them to appreciate him--to
 see him with my eyes. That's what women like me have to do for the
@@ -3327,7 +3481,7 @@ us, and that now I refused to give him his reward--I refused to live
 up to my noble sentiments, only he wouldn't hurt me by saying so. He
 only squared his shoulders and drew a deep breath and looked over my
 head at the opposite wall, while I stammered and fluttered, not daring
-to speak out, and let him despise me.</p><pb n="158     THE UNDER SIDE
+to speak out, and let him despise me.</p><pb n="158 THE UNDER SIDE
 OF THINGS"/>
 <p>"So he went away. He never reproached me. He only turned at the
 door and looked back at me, as Lohengrin looks at Elsa when he is
@@ -3348,7 +3502,7 @@ his. He forgot himself. He never thought of danger. He was like a lion
 when he was roused, and he was killed trying to make his men die like
 men. But they were mad with fear and almost rode him down.</p>
 <p>"He did nothing brilliant, Alice, dear. He neither saved the day
-nor obtained any glory. He<pb n="159     ON THE BOAT-HOUSE STEPS"/>
+nor obtained any glory. He<pb n="159 ON THE BOAT-HOUSE STEPS"/>
 simply gave up his life doing his duty as Max would do, only
 regretting that he had not succeeded better.</p>
 <p>"He lay where he fell for hours, wounded fatally. And when they
@@ -3366,7 +3520,6 @@ words. So they held each other closely and clung together as women do,
 looking out over the river with unseeing eyes. Then it was that Alice
 realized that perhaps in this lay the message of her life, and that
 here and now she had come to her soul's cross-roads.</p></div>
-
 <pb n="[160]"/><div id="lbthing" type="chapter"
 n="11"><head>XI<lb/>THE BATTLE OF STOCKBRIDGE</head>
 <p>STOCKBRIDGE Society was quite stirred up over the arrival in town
@@ -3384,7 +3537,7 @@ citizens, leaving the name blank, and then held it over to await
 developments.</p>
 <p>The other two arrivals were John Vandevoort, of New York, and
 Second Lieutenant Gordon Counselman, of the Third Artillery, who were
-guests of the Overshines.</p><pb n="161     THE BATTLE OF
+guests of the Overshines.</p><pb n="161 THE BATTLE OF
 STOCKBRIDGE"/> 
 <p>Gordon arrived in the afternoon, and found Miss Vandevoort waiting
 for him with such a radiant face and in so bewitching a gown that
@@ -3407,7 +3560,7 @@ the correctness of her advice.</p>
 inaugurated really comfortable rustic chairs, instead of the terrible
 back-breaking combination of slats and knots with which many excellent
 people strain the Christian forbearance of their guests. This simple
-<hi rend="italic">coup d'&#x00E9;tat</hi> trans<pb n="162     THE
+<hi rend="italic">coup d'&#x00E9;tat</hi> trans<pb n="162 THE
 UNDER SIDE OF THINGS"/>formed it for the delightful afternoon hours
 into an out-of-door drawing-room. Mollie's tea-table and Kate's
 work-stand, a foolish but attractive little thing, just the kind of a
@@ -3428,7 +3581,7 @@ stumbled along some distance behind, bravely swallowing her sister's
 dust.</p>
 <p>"I wonder if all that grown people tell children about dying is
 true," said Frances, pirouetting about her father and Kate and the
-others, in a smart frock and scarlet shoes.</p><pb n="163     THE
+others, in a smart frock and scarlet shoes.</p><pb n="163 THE
 BATTLE OF STOCKBRIDGE"/>
 <p>"I think so," said Colonel Overshine. "What, for instance?"</p>
 <p>"Well, is it true that somebody is dying somewhere in the world
@@ -3451,7 +3604,7 @@ herself into Kate's arms.</p>
 <p>Peggy saw nothing in her remark to laugh at. She got up from the
 grass and smeared her warm red face with her dirty little hand. She
 looked at her drawing critically, not with her head on one<pb
-n="164     THE UNDER SIDE OF THINGS"/> side as Frances would have
+n="164 THE UNDER SIDE OF THINGS"/> side as Frances would have
 done, but straight ahead, with her round eyes glued to the
 picture. Then she made her way slowly over to Colonel Overshine, and
 sidling up to him, she said, politely:</p>
@@ -3473,7 +3626,7 @@ legs?"</p>
 <p>"Not at all, me dear. Frank being me own son, I can speak freely,
 and say he is one of the most accommodating boys I ever saw. If you
 have no use for his legs, Peggy, let him go without. The<pb
-n="165     THE BATTLE OF STOCKBRIDGE"/> young fellows of to-day have
+n="165 THE BATTLE OF STOCKBRIDGE"/> young fellows of to-day have
 too many luxuries, anyhow."</p>
 <p>Frank Overshine was one of those amiable, well-meaning boys who,
 with the best heart in the world, always did everything wrong. He was
@@ -3494,7 +3647,7 @@ less interest.</p>
 <p>"How are they all?" asked Mr. Vandevoort. "I thought of going out
 there this evening."</p>
 <p>"Mrs. Copeland sent word that she hoped to see you very soon. I
-told her that Mr. Counselman<pb n="166     THE UNDER SIDE OF
+told her that Mr. Counselman<pb n="166 THE UNDER SIDE OF
 THINGS"/> was here, too, and she said she was sorry George was not in
 town."</p>
 <p>Kate smiled wickedly.</p>
@@ -3517,7 +3670,7 @@ and sat up straighter with the importance of this
 announcement. Mrs. Copeland generally treated him with a silent
 contempt, which the poor fellow never saw nor felt. But his mother saw
 it and felt it and resented it.</p>
-<p>"How is Alice?" she said, kindly, in order to<pb n="167     THE
+<p>"How is Alice?" she said, kindly, in order to<pb n="167 THE
 BATTLE OF STOCKBRIDGE"/> give him an opportunity to speak of her. He
 was her only son, and she could not help wanting to lift him over the
 hard places.</p>
@@ -3537,7 +3690,7 @@ this week for that fair the Presbyterian church is going to have."</p>
 <p>"She has. This doll table is a new idea."</p>
 <p>"It will be in her mother's name," murmured Mrs. Overshine, "but,
 as usual, Alice will do the work."</p>
-<p>Kate frowned abstractedly for a moment; then<pb n="168     THE
+<p>Kate frowned abstractedly for a moment; then<pb n="168 THE
 UNDER SIDE OF THINGS"/> she wandered aimlessly over to Frank, and
 under cover of the general conversation she said, in a low tone: "What
 did Mrs. Copeland want with you this morning?"</p>
@@ -3559,7 +3712,7 @@ cried Kate, indignantly.</p>
 <p>"I never thought of it at all," said Frank, honestly.</p>
 <p>"Of course not. Therein lies the secret of her power. It takes
 alien eyes to discover a despot so skilled as Mrs. Copeland."</p><pb
-n="169     THE BATTLE OF STOCKBRIDGE"/>
+n="169 THE BATTLE OF STOCKBRIDGE"/>
 <p>'Don't let anybody hear you say that," begged Frank. "It might get
 you into trouble. We have to be so careful what we say."</p>
 <p>"Thank Heaven I do not live in a small town!" cried hate, raising
@@ -3579,7 +3732,7 @@ and tormented by turns, but never obeyed. Everybody took a hand at
 managing them except their father, or, rather, everybody avenged his
 or her personal affront on them, and the result of this
 go-as-you-please system was that they were as they were.</p>
-<p>Kate was the only one who had a conscience<pb n="170     THE UNDER
+<p>Kate was the only one who had a conscience<pb n="170 THE UNDER
 SIDE OF THINGS"/> about them. She always treated them with respect and
 confidence, and they returned the compliment with the unstinted fervor
 of childhood.</p>
@@ -3603,7 +3756,7 @@ said Peggy.</p>
 <p>"Started what?" asked John Vandevoort, anxiously.</p>
 <p>"The row between Frances and Mrs. Copeland. But I was in it, too,"
 declared the child, honestly. "Because Frances was so mad she couldn't
-see,<pb n="171     THE BATTLE OF STOCKBRIDGE"/> and, of course, she
+see,<pb n="171 THE BATTLE OF STOCKBRIDGE"/> and, of course, she
 was talking in French, and Mrs. Copeland couldn't understand her."</p>
 <p>"Frances Vandevoort," began Mrs. Overshine.</p>
 <p>"Wait a moment, Mollie," said Kate. "Let us see how it began. What
@@ -3625,7 +3778,7 @@ he didn't want us to see that his child didn't know as much as we did,
 and she is bigger than we are. I was just going to say I was sorry I
 laughed, when Mrs. Copeland said, 'You are a very rude little girl,
 Frances, and if you were not a Vandevoort I would send you from the
-table.'"</p><pb n="172     THE UNDER SIDE OF THINGS"/>
+table.'"</p><pb n="172 THE UNDER SIDE OF THINGS"/>
 <p>"Ah-h!" breathed Kate.</p>
 <p>"Go on," said Colonel Overshine. "Then what?"</p>
 <p>"Nothing for a minute," put in Peggy, slowly. "But you ought to
@@ -3646,7 +3799,7 @@ looked perfectly furious, and she said, 'Who said that? I know you
 have heard some one say that. Tell me who it was.' But it didn't scare
 Peggy a particle. She just looked stupid, the way she does when she
 wants to, and I hollered out, 'Don't tell, Peggy.' And Mrs. Cope<pb
-n="173     THE BATTLE OF STOCKBRIDGE"/>land said we were the worst
+n="173 THE BATTLE OF STOCKBRIDGE"/>land said we were the worst
 children she ever saw, and that if we were hers, she would whip
 us."</p>
 <p>"Then Frances got down from her chair and threw her napkin on the
@@ -3668,7 +3821,7 @@ dear, what a pity the old lady didn't get that."</p>
 in her eyes. But she started for Frances, and I thought France would
 run, the way she does from Mamma, but she never moved. Just stood
 still and looked at Mrs. Copeland. And she stopped and never touched
-her. Frances said,<pb n="174     THE UNDER SIDE OF THINGS"/> 'Ring the
+her. Frances said,<pb n="174 THE UNDER SIDE OF THINGS"/> 'Ring the
 bell for Hortense.' Mrs. Copeland understood that, because she
 pointed. And when Hortense came, we shook hands with the judge, and
 said we had had a very nice time, and we kissed Miss Alice, and only
@@ -3690,7 +3843,7 @@ her life for her impertinence."</p>
 <p>"That is all right for you, Kate, because you don't live here. But
 after you go, <hi rend="italic">I</hi>'ve got to keep on living here. And don't forget for
 one moment that Mrs. Copeland will take it all out on me."</p><pb
-n="175     THE BATTLE OF STOCKBRIDGE"/> 
+n="175 THE BATTLE OF STOCKBRIDGE"/> 
 <p>"Poor Mollie. Well, let us hope that she will take into
 consideration that we are Vandevoorts," said Kate, wickedly.</p>
 <p>Mrs. Overshine had too keen a sense of humor not to relax a little
@@ -3698,7 +3851,6 @@ at Kate's irony. "Nevertheless, for the children's sake, you ought to
 punish them," she answered.</p>
 <p>But Kate shook her head. She remembered the child's face as she
 left her.</p></div>
-
 <pb n="[176]"/><div id="lbthing" type="chapter"
 n="12"><head>XII<lb/>THE COPELAND TERRACE</head>
 <p>IF Mrs. Overshine had been in Kate Vandevoort's confidence she
@@ -3715,7 +3867,7 @@ would raise their eyebrows.</p>
 <p>If the latter were true, hers was the art which conceals art, for
 while Mrs. Copeland, by monopolizing Mr. Counselman with an affability
 which was completely disarming the unsuspicious young fel<pb
-n="177     THE COPELAND TERRACE"/>low, and tempting him to think Miss
+n="177 THE COPELAND TERRACE"/>low, and tempting him to think Miss
 Vandevoort prejudiced in her sweeping denunciation of this amiable
 lady--while he was thus effectually being separated from Alice, with
 no signs of any change being compassed, and Alice's face was growing
@@ -3737,7 +3889,7 @@ ingenuous recital.</p>
 <p>In seating themselves on the boat-house steps, Gordon had no
 difficulty in placing himself beside Alice. He needed only half a
 chance; but no unwarned man is a suitable antagonist for a pre<pb
-n="178     THE UNDER SIDE OF THINGS"/>determined woman. Besides that,
+n="178 THE UNDER SIDE OF THINGS"/>determined woman. Besides that,
 it is said that even Jove nods upon occasions; but if Venus ever did,
 the record has been lost.</p>
 <p>In the half-light of the setting sun, which charitably did its best
@@ -3781,7 +3933,7 @@ are delicate objects to handle.</p>
 <p>Again she paused, and looked over her shoulder at Senator Cobb. It
 made him think she wanted him. He had no idea that Mr. Counselman was
 interested in Alice, or possibly he would not have been so amiable. He
-merely thought, as Gordon<pb n="180     THE UNDER SIDE OF THINGS"/>
+merely thought, as Gordon<pb n="180 THE UNDER SIDE OF THINGS"/>
 was in the way and he could not see Miss Copeland alone, that he might
 as well follow Miss Vandevoort. She always amused him. That was one
 reason why most men were willing to follow her. She always amused
@@ -3802,7 +3954,7 @@ fellows at West Point go crazy about her every time she comes
 there. She never has been the same since my brother's death. I tell
 you, Max was a fine fellow. The sweetest thing about Miss Vandevoort
 is the way she has done so many things that Max intended to do. Now
-she knew Max wanted me in the army. And one day<pb n="181     THE
+she knew Max wanted me in the army. And one day<pb n="181 THE
 COPELAND TERRACE"/> she said to me, 'Would you like to go to West
 Point?' Before I thought, I said, 'I'd rather go there than to do
 anything else in the world.' That was all. She just smiled. We never
@@ -3826,7 +3978,7 @@ said:</p>
 you this evening."</p>
 <p>"Were you? I hardly thought you would come the first day you were
 in town."</p>
-<p>Gordon laughed.</p><pb n="182     THE UNDER SIDE OF THINGS"/>
+<p>Gordon laughed.</p><pb n="182 THE UNDER SIDE OF THINGS"/>
 <p>"I wanted to come this afternoon--I should have liked to come
 straight from the train, but Miss Vandevoort wouldn't let me."</p>
 <p>"I suppose she thought it wouldn't have been proper."</p>
@@ -3849,7 +4001,7 @@ hidden it the most carefully; and yet she did not care. For the first
 time in her life she was indulging in an emotion unrestricted by
 anybody or anything. For the first time she was letting herself go. It
 had all the intoxication of a timorous daring to the little Quaker<pb
-n="183     THE COPELAND TERRACE"/> maiden. And when Gordon said, "I
+n="183 THE COPELAND TERRACE"/> maiden. And when Gordon said, "I
 love you, Alice, dear," it sounded so natural, so exactly as if he had
 been saying it forever, that she smiled at him with all her heart in
 her eyes, and the gates of Paradise swung open for another pair of
@@ -3871,7 +4023,7 @@ breed coquetry in a vestal virgin.</p>
 <p>"Nobody was ever so happy as we are, were they?" asked Gordon.</p>
 <p>"I don't see how they could be. I never was happy at all before, so
 I am no judge of it."</p>
-<p>"You never were? Why, I have been happy al<pb n="184     THE UNDER
+<p>"You never were? Why, I have been happy al<pb n="184 THE UNDER
 SIDE OF THINGS"/>ways. Not, of course, like this. But I have found
 world beautiful and people good, and I've always had plenty to be
 thankful for."</p>
@@ -3893,7 +4045,7 @@ it there."</p>
 <p>"Why not? My position is secure. I know exactly what I have to
 offer you, and why need we wait?"</p>
 <p>"My mother--" began Alice.</p>
-<p>Gordon squared his shoulders.</p><pb n="185     THE COPELAND
+<p>Gordon squared his shoulders.</p><pb n="185 THE COPELAND
 TERRACE"/>
 <p>"Yes, I know," he said. "I suppose she will want you to wait."</p>
 <p>"I am afraid she won't--"</p>
@@ -3916,7 +4068,7 @@ moment his wife and the senator from Ohio, and gave his consent before
 he realized what he was doing.</p>
 <p>Armed with this, Gordon, with slower steps, sought
 Mrs. Copeland.</p>
-<p>She was sitting unsuspiciously in her morning-<pb n="186     THE
+<p>She was sitting unsuspiciously in her morning-<pb n="186 THE
 UNDER SIDE OF THINGS"/>room, with her fancy work. Her manner when
 Gordon came in was almost cordial; but when he plunged at once into
 the heart of his subject, and she discovered what had taken place, her
@@ -3960,7 +4112,7 @@ look, you will see more heartaches than smiles."</p>
 <p>"I don't look for the heartaches," said Gordon, honestly. "And I
 see the smiles without looking."</p>
 <p>"Alice will not be happy with you long. The tears will come and
-they will come on your ac<pb n="188     THE UNDER SIDE OF
+they will come on your ac<pb n="188 THE UNDER SIDE OF
 THINGS"/>count. It is always so. The woman suffers; the man
 laughs."</p>
 <p>"I <hi rend="italic">hope</hi> not," said Gordon, vehemently. "I am going to be good to
@@ -3976,7 +4128,6 @@ without a word. Alice read his face and asked no questions. She knew
 that he had conquered, and she guessed at what he had undergone.</p>
 <p>"Alice," he said at length, "I wish you knew <hi
 rend="italic">my</hi> mother."</p></div>
-
 <pb n="[189]"/><div id="lbthing" type="chapter"
 n="13"><head>XIII<lb/>ALICE'S WEDDING-DAY</head>
 <p>For the <hi rend="italic">dramatis personae</hi>, a marriage
@@ -3994,7 +4145,7 @@ rend="italic">fianc&#x00E9;</hi> before their eyes, in order to assure
 them that it will stand the stress of economy. So that there is no
 balm in Gilead.</p>
 <p>Mrs. Copeland made Alice's a period of mourning. It so nearly
-shattered her always frail consti<pb n="190     THE UNDER SIDE OF
+shattered her always frail consti<pb n="190 THE UNDER SIDE OF
 THINGS"/>tution that she never was a well woman afterwards. All
 Stockbridge knew this, and marvelled in her presence at the wonder and
 mystery of mother-love.</p>
@@ -4015,7 +4166,7 @@ there against every one's wishes--even his own.</p>
 <p>The several unfortunate things which had befallen army officers
 during her lifetime were rehearsed at breakfast every morning, Alice's
 only defence being that, at least, none of them had occurred recently,
-or to any member of Gordon's class.</p><pb n="191     ALICE'S
+or to any member of Gordon's class.</p><pb n="191 ALICE'S
 WEDDING-DAY"/>
 <p>But in reality, since knowing Mr. Counselman and discussing family
 trees with him, Mrs. Copeland had no more intention of breaking off
@@ -4037,7 +4188,7 @@ pride would allow nothing to interfere then. She even caught herself
 singing once or twice; but the reproachful look in Mrs. Copeland's
 face was sufficient to make her stop instantly, and to cling to her
 mother in a real and somewhat remorseful affection, to think<pb
-n="192     THE UNDER SIDE OF THINGS"/> that she could be willing to
+n="192 THE UNDER SIDE OF THINGS"/> that she could be willing to
 leave her for anybody--even for Gordon.</p>
 <p>Two days before the wedding the papers were full of the suicide of
 Giles Pratt, Second Lieutenant of the One Hundred and Ninth
@@ -4058,7 +4209,7 @@ openly predicted would soon turn to rue.</p>
 <p>Many guests came clown from New York, and all the Giffords from
 Philadelphia came. Excellent people they were, with sterling
 principles and large bank accounts, and clothes four seasons
-behind<pb n="193     ALICE'S WEDDING-DAY"/> the times. That was the
+behind<pb n="193 ALICE'S WEDDING-DAY"/> the times. That was the
 Scotch of it--to buy good firm material which wore like iron, and then
 to wear it out.</p>
 <p>There were people from Washington and Fortress Monroe and Fort
@@ -4080,7 +4231,7 @@ life heard of anything so delicious!"</p>
 Alice, that woman is a genius. The senator no more wanted to marry her
 than he wanted to marry his grandmother. But she made him think he
 did. Oh, but she is clever! I always have said that a man could marry
-any woman he wanted to--given equal conditions--and<pb n="194     THE
+any woman he wanted to--given equal conditions--and<pb n="194 THE
 UNDER SIDE OF THINGS"/> now I shall forever afterwards add that a
 woman can marry any man she wants to. Oh, what a dear, beautiful,
 funny old world this is!"</p>
@@ -4102,7 +4253,7 @@ to Kate it was a problem which must be grappled with and solved before
 she could rest.</p>
 <p>"You must admit that it is rather superb of her, Alice."</p>
 <p>"How superb?"</p>
-<p>"Why, to marry a man you discarded and show<pb n="195     ALICE'S
+<p>"Why, to marry a man you discarded and show<pb n="195 ALICE'S
 WEDDING-DAY"/> him off at your wedding. It was a <hi
 rend="italic">coup d'&#x00E9;tat</hi>. I thought I would warn you
 before you saw them."</p>
@@ -4126,7 +4277,7 @@ him yesterday if he had heard of it, and he said it was infamous. Now,
 what made him show so much feeling about it? Do you think it possible
 that Gordon was ever jealous of Senator Cobb?"</p>
 <p>"No. No, indeed. He knows that I disliked him intensely."</p><pb
-n="196     THE UNDER SIDE OF THINGS"/>
+n="196 THE UNDER SIDE OF THINGS"/>
 <p>"Then I don't know what made Gordon look so stern about it. There,
 dear, you look lovely."</p>
 <p>"Thank you so much for coming to help me. I did not like the idea
@@ -4147,7 +4298,7 @@ conforming to the old rhyme. The most sensible women are superstitious
 about love affairs.</p>
 <p>'Now, Alice, here is a pearl heart which Gordon's mother sent with
 her best love and the hope that you would wear it at your wedding. I
-know<pb n="197     ALICE'S WEDDING-DAY"/> you did not intend to wear
+know<pb n="197 ALICE'S WEDDING-DAY"/> you did not intend to wear
 any jewels, but will you wear this?"</p>
 <p>"Yes, indeed. 'From Gordon's mother!' Oh, Miss Vandevoort, don't
 you think I am the most fortunate girl in the world?"</p>
@@ -4168,7 +4319,7 @@ little white bed in her wedding-dress.</p>
 best man, were in the full-dress uniform of the United States
 army. The bridesmaids were as pretty as newspapers always declare them
 to be. The ceremony was fifteen minutes late, as was perfectly
-proper--a ceremony<pb n="198     THE UNDER SIDE OF THINGS"/> on time
+proper--a ceremony<pb n="198 THE UNDER SIDE OF THINGS"/> on time
 looks like quite indecent haste. Frances and Peggy, who insisted on
 walking backwards in front of the bride, as they once had seen flower
 children do at a wedding in New York, had practised the difficult feat
@@ -4189,7 +4340,7 @@ love more deeply than Alice, but she always kept her head. She always
 knew where the hem of her gown was, and how her train was hanging, and
 that people were looking at her. It was a subconsciousness, entirely
 beyond her control and in no way interfering with the deep experiences
-of her life, yet because she<pb n="199     ALICE'S WEDDING-DAY."/>
+of her life, yet because she<pb n="199 ALICE'S WEDDING-DAY."/>
 talked about it people called her frivolous. Frivolity in women like
 Miss Vandevoort is but the casket enclosing jewels which only are
 shown to those who deserve to see their value.</p>
@@ -4199,7 +4350,6 @@ and then a burst of music, which announced that the wedding, the great
 event, was over, and Mr. and Mrs. Gordon Counselman were coming down
 the other aisle, with everybody turning and half rising to see their
 faces as they passed.</p></div>
-
 <pb n="[200]"/><div id="lbthing" type="chapter"
 n="14"><head>XIV<lb/>AT FORT HAMILTON</head>
 <p>FORT HAMILTON faces the sea. From the officers' quarters you look
@@ -4216,7 +4366,7 @@ the artillery.</p>
 her life. And though it was of the simplest description, she went on
 depending upon Gordon and asking his advice about the veriest trifles,
 just as she had been doing all her life with her mother.</p>
-<p>Gordon knew quite as little as she, but he was<pb n="201     AT
+<p>Gordon knew quite as little as she, but he was<pb n="201 AT
 FORT HAMILTON"/> adaptable and self-reliant, and so supplemented Alice
 in quite a delightful and satisfactory way. One shudders to think what
 might have occurred had he been otherwise.</p>
@@ -4238,7 +4388,7 @@ devotion before the shrine of her idol, that somehow it brought tears
 to your eyes to hear them. Or, if it did not go that far, perhaps it
 just made the bridge of your nose ache, which is the only
 stopping-place this side of tears for the pathos in the under side of
-things.</p><pb n="202     THE UNDER SIDE OF THINGS"/>
+things.</p><pb n="202 THE UNDER SIDE OF THINGS"/>
 <p>Alice, too, understood certain branches of cookery. She made
 delicious gruels and delicate custards, and when Gordon made fun of
 them, and expressed himself violently in favor of soups and roasts,
@@ -4261,7 +4411,7 @@ Gordon. "But you never left the house for days at a time."</p>
 <q><lg type="stanza"><l>"Commentators tell us</l>
 <l>That when from earth we go</l>
 <l>We'll follow the same handicraft</l>
-<l>We followed here below.</l></lg><pb n="203     AT FORT HAMILTON"/>
+<l>We followed here below.</l></lg><pb n="203 AT FORT HAMILTON"/>
 <lg type="stanza"><l>If this be true philosophy--</l>
 <l>(The parson he says no),</l>
 <l>What days of dance and song we'll have</l>
@@ -4283,7 +4433,7 @@ telling her of Gordon's promotion to be First Lieutenant, and begging
 her to come and celebrate with them.</p>
 <p>Kate telegraphed them from Denver. She was with a party of her
 English friends in a private car, <hi rend="italic">en route</hi> for
-California. She would come when she got back.</p><pb n="204     THE
+California. She would come when she got back.</p><pb n="204 THE
 UNDER SIDE OF THINGS"/>
 <p>But it was two months after her return before she really came.</p>
 <p>Alice was enchanted when she had Kate actually in her own home. She
@@ -4306,7 +4456,7 @@ always stops there. She doesn't like the last part. I'll play for
 you."</p>
 <p>"It is odd how so excellent a performer as Miss Vandevoort should
 break down in the middle of a thing like that," said Mrs. Fisher to
-Gordon. "It<pb n="205     AT FORT HAMILTON"/> is her temperament, I
+Gordon. "It<pb n="205 AT FORT HAMILTON"/> is her temperament, I
 think. She plays with a nervous tension. One of the most sympathetic
 and brilliant pianists I ever knew seldom managed to play a piece
 through. She nearly always broke down."</p>
@@ -4327,7 +4477,7 @@ call in books 'a spoiled beauty.'"</p>
 making."</p>
 <p>"And it is because of your dear little makeshifts that I can't
 stay. They are driving me away," she whispered to Alice, as she kissed
-her good-bye.</p><pb n="206     THE UNDER SIDE OF THINGS"/>
+her good-bye.</p><pb n="206 THE UNDER SIDE OF THINGS"/>
 <p>"I am going back to Paris. One can forget everything real in
 Paris."</p>
 <p>"She said I was changed, Gordon," said Alice, when Kate had
@@ -4349,7 +4499,7 @@ father. You are so interesting to talk with afterwards."</p>
 <p>Gordon smiled at her derisively.</p>
 <p>"No, now there is no danger of my spoiling you," she insisted. "You
 would have been spoiled long ago if flattery would do it. But you are
-so busy doing things for other people, and making<pb n="207     AT
+so busy doing things for other people, and making<pb n="207 AT
 FORT HAMILTON"/> fun, that you never seem to have time to notice what
 an attractive man you are."</p>
 <p>"Am I an attractive man?" asked Gordon, solemnly.</p>
@@ -4373,7 +4523,7 @@ Gordon, stoutly. "This world would be a better place if more men did
 it."</p>
 <p>"Miss Vandevoort says it doesn't last. She says it is the woman
 whom the man does not marry that he often loves the best."</p><pb
-n="208     THE UNDER SIDE OF THINGS"/>
+n="208 THE UNDER SIDE OF THINGS"/>
 <p>"Miss Vandevoort's cynicism is the most amusing thing in the world
 when you know her. If ever there was a girl capable of making the
 sweetest wife in the world, except you, it is Miss Kate. But that
@@ -4394,7 +4544,7 @@ smoke with your eyes shut?"</p>
 more normal and healthy, and is always funny. Mrs. Cobb's is more like
 the trail of a serpent. I don't believe I care to have you see much of
 her, Alice."</p>
-<p>"You are evading me," said Alice. "I asked<pb n="209     AT FORT
+<p>"You are evading me," said Alice. "I asked<pb n="209 AT FORT
 HAMILTON"/> you a question and you are trying to get my mind off the
 subject."</p>
 <p>"My dear wife, are you serious?"</p>
@@ -4417,7 +4567,7 @@ wife but you. I thought you knew that."</p>
 <p>"You sigh, and you are getting an up-and-down wrinkle between your
 eyebrows that only goes away when I rub it like that, and you shake
 your head this way."</p>
-<p>"You have sharp eyes, little girl."</p><pb n="210     THE UNDER
+<p>"You have sharp eyes, little girl."</p><pb n="210 THE UNDER
 SIDE OF THINGS"/>
 <p>"Tell me what it is."</p>
 <p>"Oh, it's nothing much. Just those debts. I hate to owe money."</p>
@@ -4441,7 +4591,7 @@ not to."</p>
 Mrs. Cobb. Why, even I only dislike her. What makes you, dear?"</p>
 <p>"I think she is a wicked woman, and utterly without principle. I--I
 can't tell you what she has done, or how I know it. I hope there are
-pal<pb n="211     AT FORT HAMILTON"/>liating circumstances that I
+pal<pb n="211 AT FORT HAMILTON"/>liating circumstances that I
 don't know of. Otherwise the injury she did a friend of mine, I could
 hardly forgive."</p>
 <p>"Oh, Gordon dear. I never will refer to it again. I did not know
@@ -4462,7 +4612,7 @@ in that big house of your father's."</p>
 <p>"Nothing in it? When you are here the whole world is in it for
 me."</p>
 <p>"No furniture, I meant. I don't count myself furniture."</p><pb
-n="212     THE UNDER SIDE OF THINGS"/>
+n="212 THE UNDER SIDE OF THINGS"/>
 <p>"Yet you furnish the house more than anything else," laughed
 Alice. "A sorry looking place it would be without you."</p>
 <p>"Well, I come under the head of useless decorations, together with
@@ -4484,7 +4634,7 @@ anyway?"</p>
 <p>"And doesn't everybody think those hammocks in the library are the
 most amusing and the queerest conceit in the world, and doesn't it put
 everybody at their ease immediately to sit in a hammock with
-anybody?"</p><pb n="213     AT FORT HAMILTON"/>
+anybody?"</p><pb n="213 AT FORT HAMILTON"/>
 <p>"It does."</p>
 <p>"Well, whose idea was that?" demanded Alice.</p>
 <p>"Mine."</p>
@@ -4506,7 +4656,7 @@ again. Are you really worried about that money?"</p>
 side.</p>
 <p>"How funny. Well, how are you going to pay it?"</p>
 <p>"I don't know. I'll find a way. I have several schemes in my
-head. I had thought of resigning."</p><pb n="214     THE UNDER SIDE OF
+head. I had thought of resigning."</p><pb n="214 THE UNDER SIDE OF
 THINGS"/>
 <p>"Gordon! You don't mean it? Why, I wouldn't have you for
 anything. Let's economize."</p>
@@ -4531,7 +4681,7 @@ before you could get it?"</p>
 owe."</p>
 <p>"Gordon, dear, won't you please, please let me get the money for
 you?"</p>
-<p>"Alice, if you knew some--just a few of the<pb n="215     AT FORT
+<p>"Alice, if you knew some--just a few of the<pb n="215 AT FORT
 HAMILTON"/> things your mother has said to me, you would know how
 impossible it would be for me to accept the smallest favor from her
 unless you were suffering."</p>
@@ -4545,7 +4695,6 @@ mind, dear. I've never had money. I shouldn't know what to do with
 it. But I've got you and you've got me, and as long as God lets us
 have each other, we will be happy. Don't fret now. There goes
 'tattoo.' Be at the window for me when I come back."</p></div>
-
 <pb n="[216]"/><div id="lbthing" type="chapter"
 n="15"><head>XV<lb/>THE FORK IN THE ROAD</head>
 <p>DURING the first years of their married life letters came regularly
@@ -4585,7 +4734,7 @@ know why you are so good, and when I see your father I know why you
 are so clever."</p>
 <p>"I am deeply thankful that it can be explained by heredity, and
 that, unlike Topsy, I have not 'just growed.'" laughed Gordon.</p><pb
-n="218     THE UNDER SIDE OF THINGS"/>
+n="218 THE UNDER SIDE OF THINGS"/>
 <p>"I hope Lloyd will be like you," said Alice, fondly. "Mrs. Fisher
 says he looks just like you."</p>
 <p>"Oh, I hope not ! I hope I don't look like that, Alice. I'm not
@@ -4608,7 +4757,7 @@ adores him when we are alone. He likes to tease me, that's all."</p>
 <p>No harm befell the child during his first year, in spite of Alice's
 constant worry. Gordon kept her away from Stockbridge, and gradually
 she came to believe that the healthful, merry little fellow,<pb
-n="219     THE FORK IN THE ROAD"/> who really was like Gordon, would
+n="219 THE FORK IN THE ROAD"/> who really was like Gordon, would
 live, if they would simply allow him to breathe and sleep and kick in
 his own sturdy little fashion.</p>
 <p>So the summer wore away and their third winter came. The
@@ -4631,7 +4780,7 @@ off her feet.</p>
 <p>"Oh, <hi rend="italic">what</hi> is it, Gordon?"</p>
 <p>"Regiment is ordered away. We are going to move!"</p>
 <p>"Oh," said Alice, her face falling.</p>
-<p>"Oh, what a disappointed tone! Why, it will be<pb n="220     THE
+<p>"Oh, what a disappointed tone! Why, it will be<pb n="220 THE
 UNDER SIDE OF THINGS"/> jolly. You don't know what fun it is to
 move. It gives a fellow something to do."</p>
 <p>"I should think it would," said Alice, ruefully.</p>
@@ -4651,7 +4800,7 @@ cool in Stockbridge we will follow you to Fort Jefferson."</p>
 when I want to tear down to Stockbridge the day after I let you go,"
 sighed Gordon.</p>
 <p>"Florida will be good for the baby," said Alice, wisely. "Cold
-weather doesn't agree with him very well."</p><pb n="221     THE FORK
+weather doesn't agree with him very well."</p><pb n="221 THE FORK
 IN THE ROAD"/>
 <p>"Florida will be good for the bamboo furniture," said Gordon. "It
 won't be necessary to have it padded and steam-heated the way we do
@@ -4676,7 +4825,7 @@ appear the only thing to do that Alice sensibly joined in, and soon
 was packing as crazily as the rest. Gordon was so big and strong and
 helpful, and made so merry over the hard work, that Alice spent most
 of her time laughing and following him around, holding the
-baby.</p><pb n="222     THE UNDER SIDE OF THINGS"/>
+baby.</p><pb n="222 THE UNDER SIDE OF THINGS"/>
 <p>The Counselmans were ready first, of course. Gordon had rushed
 around to such an extent, and they were young, and had so little to
 pack, that long before marching orders came he found time hanging
@@ -4698,7 +4847,7 @@ know," said Gordon, soothingly.</p>
 <p>Gordon insisted upon being paid by Welsh rare-bits made in the
 chafing-dish and eaten from tin plates, with everybody sitting around
 on boxes, and of winding up every evening with a "sing." Some<pb
-n="223     THE FORK IN THE ROAD"/>times voices broke and lips quivered
+n="223 THE FORK IN THE ROAD"/>times voices broke and lips quivered
 over the dear old songs which, perhaps, they might never sing together
 again.</p>
 <p>"I should be jealous of you, Counselman," said Major Prescott, who
@@ -4719,7 +4868,7 @@ with his spirits, and made the last days of the Third's stay at Fort
 Hamilton a jubilee that no one who participated ever forgot.</p>
 <p>The discontented and the fretful and the chronic complainers were
 the ones he took especial pleasure in diverting, and the result was
-that, for so<pb n="224     THE UNDER SIDE OF THINGS"/> radical a move,
+that, for so<pb n="224 THE UNDER SIDE OF THINGS"/> radical a move,
 it was the most harmonious the regiment ever experienced.</p>
 <p>Those ordered to Pensacola and Tortugas, he claimed, were the most
 favored. He painted Florida in glowing colors, and insisted that "Fort
@@ -4740,7 +4889,7 @@ this."</p>
 coat. You will catch your death cold with it flying open that
 way."</p>
 <p>Gordon obediently buttoned it. He thought it charming to be looked
-after in this way by his pretty little wife.</p><pb n="225     THE
+after in this way by his pretty little wife.</p><pb n="225 THE
 FORK IN THE ROAD"/>
 <p>"Now let the nurse hold the baby. You needn't be afraid people will
 think it is hers."</p>
@@ -4761,7 +4910,7 @@ unmistakable way. Although he never showed it, he disliked the house,
 the grounds, the whole place as only a proud man can where he has been
 insulted by a woman in scrupulously polite tones.</p>
 <p>He found Mrs. Copeland in a pious state of resignation, and Alice
-with a face whiter than the baby's dress.</p><pb n="226     THE UNDER
+with a face whiter than the baby's dress.</p><pb n="226 THE UNDER
 SIDE OF THINGS"/>
 <p>"What is the matter, dearest?" he said, taking her into his
 arms. "What are they tormenting you about now?"</p>
@@ -4785,7 +4934,7 @@ ought to stay."</p>
 <p>"Alice, do you really feel it your duty to stay?"</p>
 <p>"<hi rend="italic">She</hi> thinks it is."</p>
 <p>"Well, use your own conscience. What do <hi rend="italic">you</hi> think?"</p><pb
-n="227     THE FORK IN THE ROAD"/>
+n="227 THE FORK IN THE ROAD"/>
 <p>"I think I ought to go with you."</p>
 <p>"Then you shall go."</p>
 <p>Alice clung to him in silence, with her face buried in his coat,
@@ -4808,7 +4957,7 @@ have decided. I must stay here."</p>
 <p>Gordon said nothing. He was too bitterly disappointed to speak. He
 only took her in his arms, and kissed her and petted her all the rest
 of the time they were together, in a way which afterwards<pb
-n="228     THE UNDER SIDE OF THINGS"/> came back to her, as if, even
+n="228 THE UNDER SIDE OF THINGS"/> came back to her, as if, even
 then, he must have known.</p>
 <p>If he felt that Alice was wrong he never said so, and she could not
 seem to feel intuitively that she had failed at the supreme test. Men
@@ -4829,7 +4978,7 @@ in a lake.</p>
 Gordon forgot some of the deep-searching pain he had undergone. But
 his face, which always was so merry, took on such a look of anguish
 when he held his baby son in his arms for the last time that judge
-Copeland turned hastily away.</p><pb n="229     THE FORK IN THE
+Copeland turned hastily away.</p><pb n="229 THE FORK IN THE
 ROAD"/>
 <p>Gordon tried to go twice, and twice came back again, to undergo
 once more the sweet bitterness of pressing his face against the soft
@@ -4839,7 +4988,6 @@ was saying to him about dear papa's going away.</p>
 waving Lloyd's baby hand for him. Gordon was not ashamed of the tears
 which forced themselves to his eyes at the sudden mighty ache of his
 heart.</p></div>
-
 <pb n="[230]"/><div id="lbthing" type="chapter"
 n="16"><head>XVI<lb/>INTO SILENCE</head>
 <p>GORDON COUNSELMAN had all a soldier's idea of duty. He followed his
@@ -4855,7 +5003,7 @@ heart's desire, and yields that last, if at all. A woman with a
 conscience often makes a burnt-offering of her heart, from pure
 altruism. Men call such a woman either a saint, or--cold.</p>
 <p>To Alice's grief, she discovered that nearly everybody in
-Stockbridge, and, later, that even Miss<pb n="231     INTO SILENCE"/>
+Stockbridge, and, later, that even Miss<pb n="231 INTO SILENCE"/>
 Vandevoort herself, thought her entirely wrong in her course of
 action. Some gave her no quarter. The kindest only said that her
 conception of duty was ill considered. Her letters to Gordon's mother,
@@ -4877,7 +5025,7 @@ slightest degree. She knew just how Alice came to believe that. She
 dropped the letter in her lap and sat looking out over the blue waters
 of the Mediterranean as if her eyes saw something from the long
 ago.</p>
-<p>Little Lloyd was growing finely. He was one<pb n="232     THE UNDER
+<p>Little Lloyd was growing finely. He was one<pb n="232 THE UNDER
 SIDE OF THINGS"/> person to whom Alice could talk of Gordon by the
 hour. She tried to make him an entity to the child. She filled her
 rooms with pictures of him, and made him the hero of all the wonderful
@@ -4899,7 +5047,7 @@ with them when there was snow in Stockbridge.</p>
 <p>Suddenly a letter came which almost repaid Alice for her year of
 separation. The long-looked-for detail as professor of Military
 Science at Colby University had arrived, and with it Gordon's
-leave<pb n="233     INTO SILENCE"/> of absence. That meant no more
+leave<pb n="233 INTO SILENCE"/> of absence. That meant no more
 separations, no more debts, no more worry, and Gordon with her for at
 least four years. Alice almost ran to tell the good news to her
 friends. Gordon had saved it to surprise her. She talked to Lloyd
@@ -4921,7 +5069,7 @@ see him. How big is he, darling?"</p>
 when you see a great big man, and I say, 'That's your foddy,' will
 you?"</p>
 <p>"No," said the child, solemnly.</p>
-<p>"Come, let's sit at the window and watch for<pb n="234     THE
+<p>"Come, let's sit at the window and watch for<pb n="234 THE
 UNDER SIDE OF THINGS"/> him. His letter said, 'At any hour.' here, sit
 in mamma's lap, and let me brush your curls. Do you remember how we
 sent one of these curls to dear foddy, and he put it in the back of
@@ -4946,7 +5094,7 @@ tears and making no outcry.</p>
 <p>The doctor shook his head when day after day passed with no
 change. But nothing aroused her stunned intellect, nothing brought the
 healing tears, not even the presence and pitiful wailing of her<pb
-n="235     INTO SILENCE"/> boy, who could not understand why his
+n="235 INTO SILENCE"/> boy, who could not understand why his
 caresses were unnoticed and unreturned.</p>
 <p>When she grew strong enough to creep out into the light of day a
 letter came from Dr. Magnus, of Key West, who had gone to Gordon's
@@ -4973,7 +5121,7 @@ Counselman's date for departure was therefore delayed. But although
 repeatedly urged to go, the nurses were too few for him to permit
 himself to listen to their generous suggestions. I remained with him
 until the epidemic began to abate, when I returned to Key
-West.</p><pb n="236     THE UNDER SIDE OF THINGS"/>
+West.</p><pb n="236 THE UNDER SIDE OF THINGS"/>
 <p>"Two hours after my departure from the fort, on the 8th inst., he
 was violently stricken down, and although a gun was fired and the flag
 displayed at half-mast, the vessel upon which I left was too far out
@@ -5004,7 +5152,7 @@ he was taken,</p>
 <p>"I am, my dear madam,</p><closer><signed>"Very truly
 yours,<lb/><name>"JOSEPH
 MAGNUS."</name></signed></closer></div></body></text></q><pb
-n="237     INTO SILENCE"/>
+n="237 INTO SILENCE"/>
 <p>When Alice finished she buried her face in her baby's little white
 dress, and fell into the bitter, bitter weeping which only the widowed
 know.</p>
@@ -5025,7 +5173,7 @@ yourself so. I only wish that people knew how good he was. But they
 would forget, if they did know. You and I, Lloyd, will never
 forget. We will always remember him, won't we, baby?"</p>
 <p>"Papa's p'ecious little son," murmured the child, sleepily.</p><pb
-n="238     THE UNDER SIDE OF THINGS"/>
+n="238 THE UNDER SIDE OF THINGS"/>
 <p>Alice kissed him and smiled.</p>
 <p>"Is my foddy tummin' to-day?" he asked.</p>
 <p>"Not to-day, darling. Perhaps to-morrow."</p>
@@ -5050,7 +5198,7 @@ though that death was facing him in the awful form of pestilence. He
 chose to remain with his command, and in the words of Colonel Collins,
 his successor in command, 'stood by while the dead were being carried
 out, and now lies with ten of the men he tried so hard to
-save.'</p><pb n="239     INTO SILENCE"/>
+save.'</p><pb n="239 INTO SILENCE"/>
 <p>"Subjoined is an order issued by the Gulf Department, an honor
 rarely paid to a subaltern officer:</p>
 <p>"'HEADQUARTERS DEPARTMENT OF THE GULF,<lb/>"'HOLLY SPRINGS,
@@ -5080,7 +5228,7 @@ duty and at his post.</p>
 <p>Alice handed the paper back to her father.</p>
 <p>"It is cruel that you could not know these things first, daughter,"
 he said, kindly.</p>
-<p>"No, father. It is just as well. I am glad other<pb n="240     THE
+<p>"No, father. It is just as well. I am glad other<pb n="240 THE
 UNDER SIDE OF THINGS"/> people know them, too. But they will
 forget. Only <hi rend="italic">I</hi> shall remember."</p>
 <p>But when hosts of letters poured in upon her from Gordon's brother
@@ -5102,7 +5250,7 @@ God, why must Thou always take the best?"</p>
 <p>Alice controlled herself for her mother's sake. Mrs. Copeland could
 not bear the sight of any grief except her own. Elsie, too, was easily
 upset.</p>
-<p>Kate Vandevoort heard of it in Norway and<pb n="241     INTO
+<p>Kate Vandevoort heard of it in Norway and<pb n="241 INTO
 SILENCE"/> came directly home. But it was November before she
 arrived.</p>
 <p>"How will she bear it!" thought Kate. "If I could only see whether
