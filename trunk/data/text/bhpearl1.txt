@@ -1,5 +1,138 @@
-<text><body><pb n="[1]"/><div id="bhpearl1" type="chapter"
-n="1"><head>THE ADVENTURES<lb/>OF A<lb/>LADY PEARL-BROKER<milestone
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="bhpearl11207">
+  <teiHeader id="bhpearl11201">
+    <fileDesc>
+      <titleStmt>
+        <title>The Adventures of a Lady Pearl-Broker, an electronic edition</title>
+        <author><name type="person" reg="Heron-Maxwell, Beatrice, d. 1927">Beatrice Heron-Maxwell</name></author>
+      </titleStmt>
+      <extent>200kb</extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2005</date>
+        <availability>
+          <p>&#x00A9; 2005, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Women's Genre Fiction, 1860-1920</title>
+        <respStmt>
+          <name>Sheila T. Cavanagh</name>
+          <name>Charles D. Spornick</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><author>Heron-Maxwell, Beatrice</author>. <title>The
+	Adventures of a Lady Pearl-Broker</title>. <pubPlace>London</pubPlace>:
+	<publisher>The New Century Press, Limited</publisher>, <date>1899</date></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded. Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera. Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi. These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel. This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines. For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em
+dashes with two dashes. Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Genre Fiction</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Unedited</rs>
+        <rs type="genre">Novel</rs>
+        <rs type="geography">Great Britain</rs>
+        <date>1800-1899</date>
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item>British literature--19th Century--Fiction.</item>
+            <item>Women authors, British--19th Century.</item>
+<!--            <item>Women as writers.</item>
+            <item>Friendship.</item>
+            <item>Romance.</item> -->
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2006-May-23</date>
+        <respStmt>
+          <name>Alice Hickcox, </name>
+          <resp>Electronic Text Specialist.</resp>
+        </respStmt>
+        <item>XML tags inserted in compliance with TEI guidelines.</item>
+      </change>
+    </revisionDesc>
+    </teiHeader>
+<text id="bhpearl11202">
+  <front id="bhpearl1">
+<pb/>
+    <titlePage type="half">
+      <titlePart type="main">THE ADVENTURES <lb/>OF A LADY
+      PEARL-BROKER</titlePart>
+    </titlePage>
+    <div id="bhpearl1fm1" type="colophon">
+      <p>PRINTED AT<lb/>BRIGHTS, LIMITED,<lb/>BOURNEMOUTH AND
+      LONDON.</p>
+    </div>
+    <div type="frontispiece" id="bhpearl1fm2">
+      <figure entity="bhpearl1front" rend="inline">
+	<figDesc>A picture of a woman, entitled "The Lady
+	Pearl-Broker"</figDesc>
+      </figure>
+    </div>
+    <titlePage type="full">
+      <docTitle>
+	<titlePart type="main">THE ADVENTURES<lb/>OF A<lb/>LADY
+      PEARL-BROKER</titlePart>
+      </docTitle>
+      <byline>BY <docAuthor><name>BEATRICE
+      HERON-MAXWELL</name></docAuthor></byline>
+      <docImprint>
+	<pubPlace>LONDON</pubPlace>
+	<publisher>THE NEW CENTURY PRESS, LIMITED</publisher>
+	<address><addrLine>434, STRAND, W.C</addrLine></address>
+	<docDate>1899</docDate>
+      </docImprint>
+    </titlePage>
+  </front>
+  <body id="bhpearl11204">
+    <pb n="[1]"/>
+    <div id="bhpearl1001" type="chapter" n="1"><head>THE ADVENTURES<lb/>OF A<lb/>LADY PEARL-BROKER<milestone
 unit="section" rend="line"/>CHAPTER I.</head>
 <p>"WHAT I want is this," said Mr. Leighton, the prince of pearl
 merchants, throwing himself back in his chair, and looking severely at
@@ -351,7 +484,7 @@ hotel, and took a flat in Victoria Street.</p>
 shall be quite safe now."</p>
 <p>But I spoke a little too soon.</p></div>
 
-<pb n="[22]"/><div id="bhpearl1" type="chapter"
+<pb n="[22]"/><div id="bhpearl1002" type="chapter"
 n="2"><head>CHAPTER II.</head>
 <p>"WELL, Mrs. Delamere," said Mr. Leighton, as I entered his office
 one day, "are you still determined to go on with your work; or has
@@ -692,7 +825,7 @@ inadequate.</p>
 <p>But I mentally resolved to be more wary in my business appointments
 in the future.</p></div>
 
-<pb n="[42]"/><div id="bhpearl1" type="chapter"
+<pb n="[42]"/><div id="bhpearl1003" type="chapter"
 n="3"><head>CHAPTER III.</head>
 <p>"So your Oriental venture proved a failure,. Mrs. Delamere?" said
 Mr. Leighton, interrogatively, when I called at his office. "There are
@@ -1009,7 +1142,7 @@ Association of Gentlemen Burglars is not by any means the only one,
 nor the most unscrupulous, that lives and thrives in and near our
 law-ridden city.</p></div>
 
-<pb n="[60]"/><div id="bhpearl1" type="chapter"
+<pb n="[60]"/><div id="bhpearl1004" type="chapter"
 n="4"><head>CHAPTER IV.</head>
 <p>I GAVE myself a holiday for a few days after my involuntary
 exploration of the Society of Gentlemen Thieves, and then I turned my
@@ -1254,7 +1387,7 @@ and restored to Nellie her ring without any more fuss!"</p>
 <p>I smiled demurely. For the "clever idea" was a happy inspiration
 that I have often congratulated myself upon since then.</p></div>
 
-<pb n="[74]"/><div id="bhpearl1" type="chapter"
+<pb n="[74]"/><div id="bhpearl1005" type="chapter"
 n="5"><head>CHAPTER V.</head>
 <p>IN spite of the fact that there were frequently in my safe jewels
 sufficiently valuable to make it well worth the while of a
@@ -1564,7 +1697,7 @@ virtues, I fancy, and, but for the lucky chance of Serge's advent, I
 should have suffered an irreparable loss, in consequence of their
 careless loquacity.</p></div>
 
-<pb n="[92]"/><div id="bhpearl1" type="chapter"
+<pb n="[92]"/><div id="bhpearl1006" type="chapter"
 n="6"><head>CHAPTER VI.</head>
 <p>I was beginning to get over the phase of nervous inaction which
 resulted from my unpleasant interview with the burglar, and to feel
@@ -1852,7 +1985,7 @@ dismissal; but I persauded him at last to reconsider it, and promised
 to be very careful, and to have no more adventures if
 possible.</p></div>
 
-<pb n="[109]"/><div id="bhpearl1" type="chapter"
+<pb n="[109]"/><div id="bhpearl1007" type="chapter"
 n="7"><head>CHAPTER VII.</head>
 <p>IT was many weeks after my narrow escape on the journey to Bristol
 before Mr. Leighton would hear of my undertaking any large or
@@ -2160,7 +2293,7 @@ from Mr. Gervoise. I was lame for some time afterwards, but otherwise
 there was no ill result from what might have been a serious, if not
 fatal, accident to all three of us.</p></div>
 
-<pb n="[127]"/><div id="bhpearl1" type="chapter"
+<pb n="[127]"/><div id="bhpearl1008" type="chapter"
 n="8"><head>CHAPTER VIII.</head>
 <p>"ARE you sure that you have recovered from your last unlucky
 experience?" said Mr. Leighton doubtfully to me, when I presented
@@ -2449,7 +2582,7 @@ pearlbroking the game was always worth the candle.</p>
 interviews with unknown customers, and that in future discretion
 should take the place of valour with me.</p></div>
 
-<pb n="[144]"/><div id="bhpearl1" type="chapter"
+<pb n="[144]"/><div id="bhpearl1009" type="chapter"
 n="IX"><head>CHAPTER IX.</head>
 <p>THERE is no doubt that a profession entailing continued anxiety
 about other people's property is rather a strain on one's faculties,
@@ -2814,6 +2947,62 @@ year.</p>
 <p>And the pink pearl has again changed hands, for it belongs now to
 me, and was given to me, as one of my wedding presents on the happy
 day when I became Mrs. Anderson, and gave up the profession of
-pearl-broking once and for all.</p></div>
+pearl-broking once and for all.</p>
 
-THE END.
+<trailer>THE END.</trailer>
+</div>
+</body>
+<back id="bhpearl11205">
+  <div id="bhpearlbm" type="adverts">
+    <figure entity="bhpearl1bm1" rend="inline">
+      <figDesc>Advertisement page at the back of Beatrice
+Heron-Maxwell's <hi rend="italic">The Adventures of a Lady
+Pearl-Broker</hi>.
+      </figDesc>
+    </figure>
+    <figure entity="bhpearl1bm2" rend="inline">
+      <figDesc>Advertisement page at the back of Beatrice
+Heron-Maxwell's <hi rend="italic">The Adventures of a Lady
+Pearl-Broker</hi>.
+      </figDesc>
+    </figure>
+    <figure entity="bhpearl1bm3" rend="inline">
+      <figDesc>Advertisement page at the back of Beatrice
+Heron-Maxwell's <hi rend="italic">The Adventures of a Lady
+Pearl-Broker</hi>.
+      </figDesc>
+    </figure>
+    <figure entity="bhpearl1bm4" rend="inline">
+      <figDesc>Advertisement page at the back of Beatrice
+Heron-Maxwell's <hi rend="italic">The Adventures of a Lady
+Pearl-Broker</hi>.
+      </figDesc>
+    </figure>
+    <figure entity="bhpearl1bm5" rend="inline">
+      <figDesc>Advertisement page at the back of Beatrice
+Heron-Maxwell's <hi rend="italic">The Adventures of a Lady
+Pearl-Broker</hi>.
+      </figDesc>
+    </figure>
+    <figure entity="bhpearl1bm6" rend="inline">
+      <figDesc>Advertisement page at the back of Beatrice
+Heron-Maxwell's <hi rend="italic">The Adventures of a Lady
+Pearl-Broker</hi>.
+      </figDesc>
+    </figure>
+    <figure entity="bhpearl1bm7" rend="inline">
+      <figDesc>Advertisement page at the back of Beatrice
+Heron-Maxwell's <hi rend="italic">The Adventures of a Lady
+Pearl-Broker</hi>.
+      </figDesc>
+    </figure>
+    <figure entity="bhpearl1bm8" rend="inline">
+      <figDesc>Advertisement page at the back of Beatrice
+Heron-Maxwell's <hi rend="italic">The Adventures of a Lady
+Pearl-Broker</hi>.
+      </figDesc>
+    </figure>
+  </div>
+</back>
+</text>
+</TEI.2>
