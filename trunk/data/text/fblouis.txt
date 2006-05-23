@@ -1,5 +1,157 @@
-<pb n="[1]"/><div id="fblouis" type="chapter" n="1"><head>LOUISIANA.<milestone
-unit="section" rend="line"/>CHAPTER I.<lb/>LOUISIANA.</head>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="fblouis1205">
+<teiHeader id="fblouis1201">
+<fileDesc>
+<titleStmt>
+<title>Louisiana, an electronic edition</title>
+<author><name type="person" reg="Burnett, Frances Hodgson, 1849-1924">Frances Hodgson Burnett</name></author>
+</titleStmt>
+<extent>200kb</extent>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2006</date>
+<availability>
+<p>&#x00A9; 2006, Lewis H. Beck Center, Emory University. Emory
+University makes a claim of copyright only to original contributions
+made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p>
+</availability>
+</publicationStmt>
+<seriesStmt>
+<title>Women's Genre Fiction, 1860-1920</title>
+<respStmt>
+<name>Sheila T. Cavanagh</name>
+<name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp>
+</respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Burnett, Frances Hodgson</author>. <title>Louisiana</title>. <pubPlace>New York</pubPlace>:
+<publisher>Charles Scribner's Sons</publisher>, <date>1880</date>.</bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p>
+</projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded. Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p>
+</samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera. Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi. These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software. The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel. This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines. For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em
+dashes with two dashes. Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p>
+</editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="collection">Genre Fiction</rs>
+<rs type="language">English</rs>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
+<rs type="geography">United States</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>American literature--19th Century--Fiction.</item>
+<item>Women authors, American--19th Century.</item>
+<item>Social class.</item>
+<item>Fatherhood.</item>
+<item>Dialect literature, American.</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2006-May-23</date>
+<respStmt>
+<name>Erika Farr, </name>
+<resp>project manager.</resp>
+</respStmt>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text id="fblouis1204">
+<front id="fblouis1202">
+<pb n="[i]"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">LOUISIANA</titlePart>
+</docTitle>
+</titlePage>
+<pb/>
+<div id="fblouis001" type="frontispiece">
+<figure entity="fblouisfp" rend="inline">
+<p>"ASK YOU SISTER," SHE REPLIED, "IT WAS HER PLAN." (page 80)</p>
+<figDesc>Frontispiece included in  Burnett's Louisiana.</figDesc>
+</figure>
+</div>
+<pb entity="fblouistp" pages="Title Page" n="[iii]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">LOUISIANA</titlePart>
+</docTitle>
+<byline>By <docAuthor>Frances Hodgson Burnett</docAuthor> <lb/>AUTHOR
+OF "HAWORTH'S" "THAT LASS O' LOWRIE'S," ETC.</byline>
+<docImprint>
+<pubPlace>New York</pubPlace>
+<publisher>Charles Scribner's Sons</publisher>
+<pubPlace>743 AND 745 BROADWAY</pubPlace>
+<docDate>1880</docDate>
+</docImprint>
+</titlePage>
+<pb n="[iv]"/>
+<div id="fblouis002" type="copyright">
+<figure entity="fblouiscr" rend="inline">
+<figDesc>Copyright information for Burnett's Louisiana.</figDesc>
+</figure>
+</div>
+<pb n="[v]"/>
+<div id="fblouis003" type="table of contents">
+<figure entity="fblouistc1" rend="inline">
+<figDesc>Table of contents for Burnett's Louisiana.</figDesc>
+</figure>
+<pb n="vi"/>
+<figure entity="fblouistc2" rend="inline">
+<figDesc>Table of contents for Burnett's Louisiana.</figDesc>
+</figure>
+<pb n="vii"/>
+<figure entity="fblouistc3" rend="inline">
+<figDesc>Table of contents for Burnett's Louisiana.</figDesc>
+</figure>
+</div>
+</front>
+<body id="fblouis1203">
+<pb n="[1]"/>
+<div id="fblouis011" type="chapter" n="1">
+<head>LOUISIANA. <lb/>CHAPTER I.<lb/>LOUISIANA.</head>
 <p>OLIVIA FERROL leaned back in her chair, her hands folded upon her
 lap. People passed and repassed her as they promenaded the long
 "gallery," as it was called; they passed in couples, in trios; they
@@ -12,7 +164,8 @@ them.</p>
 of her element, and knew nobody. The fact that she was a New Yorker,
 and had never before been so far South, was rather against her. On her
 arrival she had been glanced over and commented upon with
-candor.</p><pb n="2     LOUISIANA."/>
+candor.</p>
+<pb n="2 LOUISIANA."/>
 <p>"She is a Yankee," said the pretty and remarkably youthful-looking
 mother of an apparently grown-up family from New Orleans. "You can see
 it."</p>
@@ -32,7 +185,7 @@ will privately regret it if they like me and remember it if they
 dislike me. Good-natured and warm-hearted as they seem among
 themselves, I am sure it will be I who will have to make the
 advances--if advances are made--and I must be very amiable, indeed, if
-I intend that they shall like me."</p><pb n="3     LOUISIANA."/>
+I intend that they shall like me."</p><pb n="3 LOUISIANA."/>
 <p>But she had not been well enough at first to be in the humor to
 make the advances, and consequently had not found her position an
 exciting one. She had looked on until she had been able to rouse
@@ -74,7 +227,7 @@ timorousness. Three waiters were wrestling with an ugly shawl, a
 dreadful shining valise, and a painted wooden trunk, such as is seen
 in country stores. In their enthusiastic desire to dispose creditably
 of these articles they temporarily forgot the owner, who, after one
-des<pb n="5     LOUISIANA."/>perate, timid glance at them, looked
+des-<pb n="5 LOUISIANA."/>perate, timid glance at them, looked
 round her in vain for succor. She was very pretty and very young and
 very ill-dressed--her costume a bucolic travesty on prevailing
 modes. She did not know where to go, and no one thought of showing
@@ -93,7 +246,7 @@ them, and a very interesting type it is, too."</p>
 <p>To render the peculiarities of this young woman clearer, it may be
 well to reveal here something of her past life and surroundings. Her
 father had been a literary man, her mother an illustrator of books and
-magazine articles. From<pb n="6     LOUISIANA."/> her earliest
+magazine articles. From<pb n="6 LOUISIANA."/> her earliest
 childhood she had been surrounded by men and women of artistic or
 literary occupations, some who were drudges, some who were geniuses,
 some who balanced between the two extremes, and she had unconsciously
@@ -112,7 +265,7 @@ upon the subject of "types" herself. During her sojourn at Oakvale she
 had studied the North Carolinian mountaineer "type" with the
 enthusiasm of an amateur. She had talked to the women in sunbonnets
 who brought fruit to the hotel, and sat on the steps and floor of the
-galleries awaiting the advent of customers<pb n="7     LOUISIANA."/>
+galleries awaiting the advent of customers<pb n="7 LOUISIANA."/>
 with a composure only to be equaled by the calmness of the noble
 savage; she had walked and driven over the mountain roads, stopping at
 wayside houses and entering into conversation with the owners until
@@ -132,7 +285,7 @@ men of the community,--sometimes she lives in a log cabin with a
 mother who smokes and chews tobacco, but in either case she is a
 surprise and a mystery. She is always pretty, she is occasionally
 beautiful, and in spite of her house, her people, her education or<pb
-n="8     LOUISIANA."/> want of it, she is instinctively a refined and
+n="8 LOUISIANA."/> want of it, she is instinctively a refined and
 delicately susceptible young person. She has always been to some
 common school, where she has written compositions on sentimental or
 touching subjects, and when she belongs to the better class she takes
@@ -151,7 +304,7 @@ wore a blue, much-ruffled muslin and a wide collar made of imitation
 lace. She had tucked her sleeves up to her elbow with a band and bow
 of black velvet, and her round, smooth young arms were adorable. She
 looked for a vacant place, and, seeing none, stopped short, as if she
-did not know what to do. Then<pb n="9     LOUISIANA."/> some magnetic
+did not know what to do. Then<pb n="9 LOUISIANA."/> some magnetic
 attraction drew her eye to Olivia Ferrol's. After a moment's pause,
 she moved timidly toward her.</p>
 <p>"I--I wish a waiter would come," she faltered.</p>
@@ -169,7 +322,7 @@ looked somewhat awkward.</p>
 <p>"I--don't know much about waiters," she ventured. "I'm not used to
 them, and I suppose they know it. I never was at a hotel before."</p>
 <p>"You will soon get used to them," returned Miss Ferrol.</p>
-<p>The girl fixed her eyes upon her with a ques<pb n="10     LOUISIANA."/>
+<p>The girl fixed her eyes upon her with a ques<pb n="10 LOUISIANA."/>
 tioning appeal. They were the loveliest eyes she had ever seen, Miss
 Ferrol thought--large-irised, and with wonderful long lashes fringing
 them and curling upward, giving them a tender, very wide-open
@@ -208,10 +361,10 @@ Ferrol answered. "I am alone, too."</p>
 starlit gallery to the other, winding their way through the crowd that
 promenaded, and, upon the whole, finding it rather pleasant.</p>
 <p>"I shall have to take care of her," Miss Ferrol was deciding; "but
-I do not think I shall minid the trouble."</p>
+I do not think I shall mind the trouble."</p>
 <p>The thing that touched her most was the girl's innocent trust in
 her sincerity--her taking for granted that this stranger, who had been
-polite to<pb n="12     LOUISIANA."/> her, had been so not for worldly
+polite to<pb n="12 LOUISIANA."/> her, had been so not for worldly
 good breeding's sake, but from true friendliness and extreme
 generosity of nature. Her first shyness conquered, she related her
 whole history with the unreserve of a child. Her father was a farmer,
@@ -253,7 +406,7 @@ slightest rectifying.</p>
 myself. Perhaps that is it."</p>
 <p>"It is a little dangerous, it is true," replied Miss Ferrol. "I
 have been bold enough to try it myself, and I never succeeded. I could
-give<pb n="14     LOUISIANA."/> you the address of a very thorough
+give<pb n="14 LOUISIANA."/> you the address of a very thorough
 woman if you lived in New York."</p>
 <p>"But I don't live there, you see. I wish I did. I never shall,
 though. Father could never spare me."</p>
@@ -283,9 +436,9 @@ myself Louise, couldn't I?"</p>
 <p>"Yes," Miss Ferrol replied.</p>
 <p>And then her <hi rend="italic">prot&#x00E9;g&#x00E9;e</hi> said
 "good-night" for the third time, and disappeared.</p></div>
-
-<pb n="[16]"/><div id="fblouis" type="chapter" n="2"><head>CHAPTER
-II.<lb/>WORTH.</head>
+<pb n="[16]"/>
+<div id="fblouis012" type="chapter" n="2">
+<head>CHAPTER II.<lb/>WORTH.</head>
 <p>SHE presented herself at the bed-room door with a timid knock the
 next morning before breakfast, evidently expecting to be taken charge
 of. Miss Ferrol felt sure she would appear, and had, indeed, dressed
@@ -297,7 +450,7 @@ eyes. It had never occurred to her that she might not come.</p>
 <p>"Oh, yes," she replied. "I never could go down alone when there was
 any one who would go with me."</p>
 <p>There was something on her mind, Miss Ferrol fancied, and presently
-it burst forth in a confidential inquiry.</p><pb n="17     WORTH"/>
+it burst forth in a confidential inquiry.</p><pb n="17 WORTH"/>
 <p>"Is this dress very short-waisted?" she asked, with great
 earnestness.</p>
 <p>Merciful delicacy stood in the way of Miss Ferrol's telling her how
@@ -318,7 +471,7 @@ thin--absolutely thin. But my things fit me, and my dressmaker
 understands me. If you were dressed as I am,"--pausing to look her
 over from head to foot--"Ah!" she exclaimed, pathetically, "how I
 should like to see you in some of my clothes!"</p>
-<p>A tender chord was touched. A gentle sad<pb n="18
+<p>A tender chord was touched. A gentle sad-<pb n="18
 LOUISIANA."/>ness, aroused by this instance of wasted opportunities,
 rested upon her. But instantaneously she brightened, seemingly without
 any particular cause. A brilliant idea had occurred to her. But she
@@ -327,7 +480,7 @@ did not reveal it.</p>
 me."</p>
 <p>She really was more at her ease already. Just this one little scrap
 of conversation had done that. She became almost affectionate in a shy
-way before they reached the dining-room.</p>
+ way before they reached the dining-room.</p>
 <p>"I want to ask you something," she said, as they neared the
 door.</p>
 <p>"What is it?"</p>
@@ -339,7 +492,7 @@ was quite tragic in a small way.</p>
 answered. "How would you like 'Miss Rogers?'"</p>
 <p>"I would rather have 'Louise,'" she said, disappointedly.</p>
 <p>"Well," returned Miss Ferrol, "'Louise' let it be."</p>
-<p>And "Louise" it was thenceforward. If she<pb n="19     WORTH."/>
+<p>And "Louise" it was thenceforward. If she<pb n="19 WORTH."/>
 had not been so pretty, so innocent, and so affectionate and humble a
 young creature, she might have been troublesome at times (it occurred
 to Olivia Ferrol), she clung so pertinaciously to their chance
@@ -359,7 +512,7 @@ Ferrol one night.</p>
 <p>"They are trying to dance a German," replied Miss Ferrol, "and the
 man who is leading them only knows one figure."</p>
 <p>As for the riding, she had been used to riding all her life; but no
-one asked her to join them,<pb n="20     LOUISIANA."/> and if they had
+one asked her to join them,<pb n="20 LOUISIANA."/> and if they had
 done so she would have been too wise,--unsophisticated as she was,--to
 accept the invitation. So where Miss Ferrol was seen she was seen
 also, and she was never so happy as when she was invited into her
@@ -421,7 +574,7 @@ where to begin. Who was Worth? Was he a poet?"</p>
 begin with Worth. He doesn't matter so much--really."</p>
 <p>"I thought," Miss Rogers said meekly, "that you Were inure troubled
 about my not having read o hat he wrote, than about my not knowing any
-of the others."</p><pb n="23     WORTH."/>
+of the others."</p><pb n="23 WORTH."/>
 <p>"Oh, no. You see--the fact is, he--he never wrote anything."</p>
 <p>"What did he do?" she asked, anxious for information.</p>
 <p>"He--it isn't 'did,' it is 'does.' He--makes dresses."</p>
@@ -443,7 +596,7 @@ in my trunk."</p>
 <p>"I will show them to you," she said. "I--I--should like you to try
 them on."</p>
 <p>"To try them on!" ejaculated the child in an awe-stricken
-tone. "Me?"</p><pb n="24     LOUISIANA."/>
+tone. "Me?"</p><pb n="24 LOUISIANA."/>
 <p>"Yes," said Miss Ferrol, unlocking the trunk and throwing back the
 lid. "I have been wanting to see you in them since the first day you
 came."</p>
@@ -463,7 +616,7 @@ controller. She was so timid and excited that she trembled all the
 time her toilette was being performed for her. Miss Ferrol went
 through this service with the manner of a priestess officiating at an
 altar. She laced up the back of the dress with the slender, golden
-cords;<pb n="25     WORTH."/> she arranged the antique drapery which
+cords;<pb n="25 WORTH."/> she arranged the antique drapery which
 wound itself around in close swathing folds. There was not the shadow
 of a wrinkle from shoulder to hem: the lovely young figure was
 revealed in all its beauty of outline. There were no sleeves at all,
@@ -483,7 +636,7 @@ it was too sublime to be true. She shook her head in deprecation.</p>
 <p>"It is no exaggeration," said Miss Ferrol, with renewed
 fervor. "Laurence himself, if he were not told that you had lived
 here, would never guess it. I should like to try you on him."</p><pb
-n="26     LOUISIANA."/>
+n="26 LOUISIANA."/>
 <p>"Who--is he?" inquired Louisiana. "Is he a writer, too?"</p>
 <p>"Well, yes,--but not exactly like the others. He is my
 brother."</p>
@@ -495,9 +648,9 @@ performed her task in an abstracted mood. When she had completed it
 she stood up-right and paused a moment, with quite a startled air.</p>
 <p>"Dear me!" she exclaimed. "I--actually forgot about
 Ruskin!"</p></div>
-
-<pb n="[27]"/><div id="fblouis" type="chapter" n="3"><head>CHAPTER
-III.<lb/>"HE IS DIFFERENT".</head>
+<pb n="[27]"/>
+<div id="fblouis013" type="chapter" n="3">
+<head>CHAPTER III.<lb/>"HE IS DIFFERENT."</head>
 <p>THE same evening, as they sat on one of the seats upon the lawn,
 Miss Ferrol became aware several times that Louisiana was regarding
 her with more than ordinary interest. She sat with her hands folded
@@ -510,7 +663,7 @@ actually a little open.</p>
 class?"</p>
 <p>"About your brother being one. I never thought I should see any one
 who knew an author--and you are related to one!"</p>
-<p>Her companion's smile was significant of im<pb n="28
+<p>Her companion's smile was significant of im-<pb n="28
 LOUISIANA."/>mense experience. It was plain that she was so accustomed
 to living on terms of intimacy with any number of authors that she
 could afford to feel indifferent about them.</p>
@@ -533,7 +686,7 @@ published."</p>
 <p>"Oh, why not?" exclaimed Louisiana.</p>
 <p>"Why not?" she repeated, dubiously and thoughtfully. And then,
 knitting her brows, she said, "I don't know why not."</p><pb
-n="29     'HE IS DIFFERENT.'"/>
+n="29 'HE IS DIFFERENT.'"/>
 <p>"I am sure if you have ever written anything, it ought to have been
 published," protested her adorer.</p>
 <p>"<hi rend="italic">I</hi> thought so," said Miss Ferrol. "But--but
@@ -576,7 +729,7 @@ rend="italic">I</hi> have."</p>
 <p>She rose from her seat, dropping her mysterious air and smiling
 encouragingly.</p>
 <p>"Come with me to my room," she said. "I want to talk to
-you."</p><pb n="31     'HE IS DIFFERENT'"/>
+you."</p><pb n="31 'HE IS DIFFERENT'"/>
 <p>If she had ordered her to follow her to the stake it is not at all
 unlikely that Louisiana would have obeyed. She got up meekly, smiling,
 too, and feeling sure something very interesting was going to
@@ -598,7 +751,7 @@ that you had lived all your life here."</p>
 <p>"Yes."</p>
 <p>Miss Ferrol kept her eyes fixed on her and watched her closely.</p>
 <p>"I have been thinking of it all the morning," she added. "I should
-like to try you on him."</p><pb n="32     LOUISIANA."/>
+like to try you on him."</p><pb n="32 LOUISIANA."/>
 <p>Louisiana was silent a moment. Then she spoke, hesitatingly:</p>
 <p>"Do you mean that I should pretend--," she began.</p>
 <p>"Oh, no," interrupted Miss Ferrol. "Not pretend either one thing or
@@ -638,13 +791,13 @@ whimsical planning so seriously. She herself had not thought of it as
 being serious at all. It would be interesting and amusing, and would
 prove her theory.</p>
 <p>"I will do what you want me to do," said Louisiana.</p>
-<p>"Then," said Miss Ferrol, wondering at an un<pb n="34
+<p>"Then," said Miss Ferrol, wondering at an un-<pb n="34
 LOUISIANA."/>expected sense of discomfort in herself, "I will dress
 you for supper now. You must begin to wear the things, so that you may
 get used to them."</p></div>
-
-<pb n="[35]"/><div id="fblouis" type="chapter" n="4"><head>CHAPTER
-IV.<lb/>A NEW TYPE.</head>
+<pb n="[35]"/>
+<div id="fblouis014" type="chapter" n="4">
+<head>CHAPTER IV.<lb/>A NEW TYPE.</head>
 <p>WHEN the two entered the supper-room together a little commotion
 was caused by their arrival. At first the supple young figure in
 violet and gray was not recognized. It was not the figure people had
@@ -658,7 +811,7 @@ rend="italic">sotto voce</hi>:</p>
 fit. Would you believe it?"</p>
 <p>"Don't look at your plate so steadily," whispered Miss
 Ferrol. "Lean back and fan yourself as if you did not hear. You must
-never show that you hear things."</p><pb n="36     LOUISIANA."/>
+never show that you hear things."</p><pb n="36 LOUISIANA."/>
 <p>"I shall be obliged to give her a few hints now and then," she had
 said to herself beforehand. "But I feel sure when she once catches the
 cue she will take it."</p>
@@ -678,7 +831,7 @@ puzzling to Olivia.</p>
 <p>"You are very clever," she said to her one day, the words breaking
 from her in spite of herself, after she had sat regarding her in
 silence for a few minutes. "You are even cleverer than I thought you
-Were, Louise."</p><pb n="37     A NEW TYPE."/>
+Were, Louise."</p><pb n="37 A NEW TYPE."/>
 <p>"Was that very clever?" the girl asked.</p>
 <p>"Yes, it was," Olivia answered, "but not so clever as you are
 proving yourself."</p>
@@ -700,7 +853,7 @@ companion had grasped her wrist.</p>
 done it!"</p>
 <p>Miss Ferrol turned and stared at her in amazement.</p>
 <p>She spoke in her old, uncontrolled, childish fashion. She was pale,
-and her eyes were dilated.</p><pb n="38     LOUISIANA."/>
+and her eyes were dilated.</p><pb n="38 LOUISIANA."/>
 <p>"What is the matter?" said Miss Ferrol, hurriedly, when she found
 her voice. "Is it that you really don't like the idea? If you don't,
 there is no need of our carrying it out. It was only nonsense--I beg
@@ -716,11 +869,12 @@ will leave you. We shall see each other again at supper."</p>
 left her instructress stunned. She could scarcely recover her
 equilibrium sufficiently to greet her brother decently when he reached
 her side. She had never been so thoroughly at sea in her
-life.</p><milestone unit="section" rend="blank-line"/>
+life.</p>
+<milestone unit="section" rend="blank-line"/>
 <p>After she had gone to her room that night, her brother came and
 knocked at the door.</p>
 <p>When she opened it and let him in he walked to a chair and threw
-himself into it, wearing a rather excited look.</p><pb n="39     A NEW
+himself into it, wearing a rather excited look.</p><pb n="39 A NEW
 TYPE."/>
 <p>"Olivia," he began at once, "what a bewildering girl I--"</p>
 <p>Olivia sat down opposite to him, with a composed smile.</p>
@@ -743,7 +897,7 @@ her. When I see her eyes I could fancy for a moment that she had been
 brought up in a convent or had lived a very simple, isolated life, but
 when she speaks and moves I am bewildered. I want to hear her talk,
 but she says so little. She does not even dance. I suppose her
-relatives are serious<pb n="40     LOUISIANA."/> people. I dare say
+relatives are serious<pb n="40 LOUISIANA."/> people. I dare say
 you have not heard much of them from her. Her reserve is so
 extraordinary in a girl. I wonder how old she is?"</p>
 <p>"Nineteen, I think."</p>
@@ -765,9 +919,9 @@ understand that."</p>
 I would wait."</p>
 <p>"Well," he said, after thinking a moment, "I am glad, after all,
 that you did."</p></div>
-
-<pb n="[41]"/><div id="fblouis" type="chapter" n="5"><head>CHAPTER
-V.<lb/>"I HAVE HURT YOU."</head>
+<pb n="[41]"/>
+<div id="fblouis015" type="chapter" n="5">
+<head>CHAPTER V.<lb/>"I HAVE HURT YOU."</head>
 <p>FROM the day of his arrival a new life began for Louisiana. She was
 no longer an obscure and unconsidered young person. Suddenly, and for
 the first time in her life, she found herself vested with a marvellous
@@ -800,7 +954,7 @@ beauty--as if it was the simplest thing in the world, and a state of
 affairs which must have existed from the first--she experienced a
 sense of terror. Just at the very first she would have been glad to
 escape from it and sink into her old obscurity.</p>
-<p>"It does not belong to me," she said to herself.<pb n="43     'I
+<p>"It does not belong to me," she said to herself.<pb n="43 'I
 HAVE HURT YOU.'"/> "It belongs to some one else--to the girl he thinks
 I am. I am not that girl, though; I will remember that."</p>
 <p>But in a few days she calmed down. She told herself that she always
@@ -819,7 +973,7 @@ best periodicals of the day and several standard books.</p>
 <p>"Well--it is a good plan," returned Olivia, rather absently.</p>
 <p>Truth to tell, she was more puzzled every day. She had begun to be
 quite sure that something had happened. It seemed as if a slight
-coldness<pb n="44     LOUISIANA."/> existed between herself and her
+coldness<pb n="44 LOUISIANA."/> existed between herself and her
 whilom adorer. The simplicity of her enthusiasm was gone. Her
 affection had changed as her outward bearing. It was a better
 regulated and less noticeable emotion. Once or twice Olivia fancied
@@ -839,7 +993,7 @@ young couples danced, in a desultory fashion and without any
 ceremony. The primitive, domesticated slowness of the place was
 charming. Most of the guests had come from the far South at the
 beginning of the season and would remain until the close of it; so
-they had had time to be<pb n="45     'I HAVE HURT YOU'"/>come familiar
+they had had time to be<pb n="45 'I HAVE HURT YOU'"/>come familiar
 with each other and to throw aside restraint.</p>
 <p>"There is nothing to distract one," Ferrol said, "nothing to rouse
 one, nothing to inspire one--nothing! It is delicious! Why didn't I
@@ -858,7 +1012,7 @@ for the first time.</p>
 <p>"It is a new life, and a new people," he said. "And, by the way,
 Olivia, where is the new species of young woman I was to see--the
 daughter of the people who does not belong to her sphere?"</p><pb
-n="46     LOUISIANA."/>
+n="46 LOUISIANA."/>
 <p>He turned to Louisiana.</p>
 <p>"Have you ever seen her?" he asked. "I must confess to a
 dubiousness on the subject."</p>
@@ -880,7 +1034,7 @@ broke it.</p>
 know what I have done!"</p>
 <p>In a little while he got up and began to roam aimlessly about the
 gallery. He strolled from one end to the other with his hands thrust
-in his coat pockets. Olivia, who had remained seated,<pb n="47     'I
+in his coat pockets. Olivia, who had remained seated,<pb n="47 'I
 HAVE HURT YOU.'"/> knew that he was waiting in hopes that Louisiana
 would return. He had been walking to and fro, looking as miserable as
 possible, for about half an hour, when at last she saw him pause and
@@ -903,7 +1057,7 @@ some reason best known to herself, Olivia had disappeared from the
 scene.</p>
 <p>Louisiana leaned against one of the slender, supporting pillars of
 the gallery. She did not look at Ferrol, but at the blackness of the
-moun<pb n="48     LOUISIANA."/>tains rising before them. Ferrol could
+moun-<pb n="48 LOUISIANA."/>tains rising before them. Ferrol could
 not look away from her.</p>
 <p>"If you had not come out again," he said, after a pause, "I think I
 should have remained here, baying at the moon, all night."</p>
@@ -922,7 +1076,7 @@ and--I deserve it."</p>
 <p>She turned her pretty, pale face round to him swiftly.</p>
 <p>"It is not you who need be unhappy," she exclaimed.	"It is I!"</p>
 <p>The next instant she had checked herself again, just as she had
-done before.</p><pb n="49     'I HAVE HURT YOU.'"/>
+done before.</p><pb n="49 'I HAVE HURT YOU.'"/>
 <p>"Let us talk of something else," she said, coldly.</p>
 <p>"It will not be easy for me to do so," he answered, "but I will
 try."</p>
@@ -958,9 +1112,9 @@ stood there, with trembling lips and dilated eyes.</p>
 <p>"Yes, you have!" she cried. "Yes, you have!"</p>
 <p>And she burst into tears and turned about and ran out of the
 room.</p></div>
-
-<pb n="[51]"/><div id="fblouis" type="chapter" n="6"><head>CHAPTER
-VI.<lb/>THE ROAD TO THE RIGHT.</head>
+<pb n="[51]"/>
+<div id="fblouis016" type="chapter" n="6">
+<head>CHAPTER VI.<lb/>THE ROAD TO THE RIGHT.</head>
 <p>THE morning after, Ferrol heard an announcement which came upon him
 like a clap of thunder.</p>
 <p>After breakfast, as they walked about the grounds, Olivia, who had
@@ -995,7 +1149,7 @@ his sentence. He ended it at last in a singular manner.</p>
 it--she said nothing whatever!"</p>
 <p>"And because she said nothing whatever--"began Olivia.</p>
 <p>He drew his hand across his forehead with a puzzled
-gesture.</p><pb n="53     THE ROAD TO THE RIGHT."/>
+gesture.</p><pb n="53 THE ROAD TO THE RIGHT."/>
 <p>"I fancied she <hi rend="italic">looked</hi> as if she knew," he said, slowly. "I am sure
 she looked as if she knew what I was talking about--as if she knew the
 places, I mean. It is very queer! There seems no reason in it. Why
@@ -1015,7 +1169,7 @@ even surprised at his own enthusiasm. He had seen so many pretty women
 that it was almost inconsistent that he should be so much moved by the
 prettiness of one charming creature, and particularly one who spoke so
 little, who, after all, was--but there he always found himself at a
-full stop. He could not say what she<pb n="54     LOUISIANA."/> was,
+full stop. He could not say what she<pb n="54 LOUISIANA."/> was,
 he did not know yet; really, he seemed no nearer the solution of the
 mystery than he had been at first. There lay the fascination. He felt
 so sure there was an immense deal for him to discover, if he could
@@ -1034,7 +1188,7 @@ played me such a trick, however, and I won't believe she will. I shall
 see her again--sometime. It will turn out fairly enough, surely."</p>
 <p>So with this consolation he supported himself. There was one day
 left and he meant to make the best of it. It was to be spent in
-driving to a cer<pb n="55     THE ROAD TO THE RIGHT."/>tain mountain,
+driving to a cer-<pb n="55 THE ROAD TO THE RIGHT."/>tain mountain,
 about ten miles distant. All tourists who were possessed of sufficient
 energy made this excursion as a matter of duty, if from no more
 enthusiastic motive. A strong, light carriage and a pair of horses
@@ -1054,7 +1208,7 @@ and attired herself in one of her own dresses, which she had had the
 boldness to remodel. She had seized a hint from some one of Olivia's
 possessions, and had given her costume a pretty air of primitive
 simplicity. It was a plain white lawn, with a little frilled cape or
-fichu which<pb n="56     LOUISIANA."/> crossed upon her breast, and
+fichu which<pb n="56 LOUISIANA."/> crossed upon her breast, and
 was knotted loosely behind. She had a black velvet ribbon around her
 lithe waist, a rose in her bosom where the fichu crossed, and a broad
 Gainsborough hat upon her head. One was reminded somewhat of the
@@ -1074,7 +1228,7 @@ arm.</p>
 <p>He drew up his horses and looked at her with surprise. There were
 two roads before them, and he had been upon the point of taking the
 one to the right.</p>
-<p>"But it is the only road to take," he continued.<pb n="57     THE
+<p>"But it is the only road to take," he continued.<pb n="57 THE
 ROAD TO THE RIGHT."/> "The other does not lead to the mountain. I was
 told to be sure to take the road to the right hand."</p>
 <p>"It is a mistake," she said, in a disturbed tone. "The left-hand
@@ -1087,9 +1241,9 @@ the other? Could you pilot us? If you can--"</p>
 yielding had passed. Her face assumed a set look.</p>
 <p>"I can't," she answered. "Take the road to the right. Why
 not?"</p></div>
-
-<pb n="[58]"/><div id="fblouis" type="chapter" n="7"><head>CHAPTER
-VII.<lb/>"SHE AIN'T YERE."</head>
+<pb n="[58]"/>
+<div id="fblouis017" type="chapter" n="7">
+<head>CHAPTER VII.<lb/>"SHE AIN'T YERE."</head>
 <p>FERROL was obliged to admit when they turned their faces homeward
 that the day was hardly a success, after all. Olivia had not been at
 her best, for some reason or other, and from the moment they had taken
@@ -1102,7 +1256,7 @@ were making. During the drive she had sat with her hands folded upon
 her lap, her eyes fixed straight before her. She had paid no attention
 to the scenery, only rousing herself to call their attention to one
 object. This object was a house they passed--the rambling, low-roofed
-white house of<pb n="59     'SHE AIN'T YERE.'"/> some well-to-do
+white house of<pb n="59 'SHE AIN'T YERE.'"/> some well-to-do
 farmer. It was set upon a small hill and had a long front porch,
 mottled with blue and white paint in a sanguine attempt at imitating
 variegated marble.</p>
@@ -1123,7 +1277,7 @@ darkened. Ferrol looked up, and his face assumed a rather serious
 expression.</p>
 <p>"If either of you is weather-wise," he said, "I wish you would tell
 me what that cloud means. You have been among the mountains longer
-than I have."</p><pb n="60     LOUISIANA."/>
+than I have."</p><pb n="60 LOUISIANA."/>
 <p>Louisiana glanced upward quickly.</p>
 <p>"It means a storm," she said, "and a heavy one. We shall be
 drenched in half an hour."</p>
@@ -1145,7 +1299,7 @@ again, as if with actual terror.</p>
 <p>"Yes," he answered. "We can reach there in time to save
 ourselves. Is there any objection to our going,--in the last
 extremity?"</p>
-<p>For a second they looked into each other's<pb n="61     'SHE AINT
+<p>For a second they looked into each other's<pb n="61 'SHE AINT
 YERE.'"/> eyes, and then she turned and sprang into the carriage. She
 laughed aloud.</p>
 <p>"Oh, no," she said. "Go there! It will be a nice place to stay--and
@@ -1166,7 +1320,7 @@ unwholesome yellow enlivened with large blue flowers; there was a
 bedstead in one corner, and the walls were ornamented with colored
 lithographs of moon-faced houris, with round eyes and round, red
 cheeks, and wearing low-necked dresses, and flowers in their bosoms,
-and bright<pb n="62     LOUISIANA."/> yellow gold necklaces. These
+and bright<pb n="62 LOUISIANA."/> yellow gold necklaces. These
 works of art were the first things which caught Ferrol's eye, and he
 went slowly up to the most remarkable, and stood before it, regarding
 it with mingled wonderment and awe.</p>
@@ -1186,7 +1340,7 @@ way, as if well used to the place, into the kitchen at the back of the
 house.</p>
 <p>A stout negro woman stood at a table, tilling a pan with newly made
 biscuits. Her back was toward the door and she did not see who
-entered.</p><pb n="63     'SHE AIN'T YERE.'"/>
+entered.</p><pb n="63 'SHE AIN'T YERE.'"/>
 <p>"Aunt Cassandry," the girl began, when the woman turned toward
 her.</p>
 <p>"Who's dar?" she exclaimed. "Lor', honey, how ye skeert me! I aint
@@ -1206,7 +1360,7 @@ know her at first in her fanciful-simple dress and her Gainsborough
 hat. He was not used to that style of thing, believing that it
 belonged rather to the world of pictures. He stared at her. Then he
 broke out with an exclamation,</p>
-<p>"Lo--rd! Louisianny!"</p><pb n="64     LOUISIANA."/>
+<p>"Lo--rd! Louisianny!"</p><pb n="64 LOUISIANA."/>
 <p>She kept her eyes on his face. They were feverishly bright, and her
 cheeks were hot. She laughed hysterically.</p>
 <p>"Don't speak loud," she said. "There are some strange people in the
@@ -1226,7 +1380,7 @@ folks air they?"</p>
 <p>"They came with me from the Springs," she answered; "and--and I
 want to--to play a joke on them."</p>
 <p>She put her hands up to her burning cheeks, and stood so.</p><pb
-n="65     'SHE AIN'T YERE.'"/>
+n="65 'SHE AIN'T YERE.'"/>
 <p>"A joke on 'em?" he repeated.</p>
 <p>"Yes," she said, speaking very fast. "They don't know I live here,
 they think I came from some city,--they took the notion
@@ -1266,7 +1420,7 @@ Louisianny. Mebbe I shall begin arter awhile."</p>
 feverish laugh, "or you'll spoil it all. Now come along in and--and
 pretend you don't know me," she continued, drawing him forward by the
 arm. "They might suspect something if we stay so long. All you've got
-to do is to pretend you don't know me."</p><pb n="67     'SHE AINT
+to do is to pretend you don't know me."</p><pb n="67 'SHE AINT
 YERE.'"/>
 <p>"Thet's so, Louisianny," with a kindly glance downward at her
 excited face as he followed her out. "Thar aint no call fur me to do
@@ -1287,7 +1441,7 @@ they considered themselves very fortunate.</p>
 <p>Their host received their protestations with much equanimity.</p>
 <p>"If ye'd like to set out on the front porch and watch the storm
 come up," he said, "thar's seats thar. Or would ye druther set here?
-Women<pb n="68     LOUSIANA."/>folks is gen'rally fond o' settin'
+Women<pb n="68 LOUSIANA."/>folks is gen'rally fond o' settin'
 in-doors whir thar's a parlor."</p>
 <p>But they preferred the porch, and followed him out upon it.</p>
 <p>Having seen them seated, he took a chair himself. It was a
@@ -1307,7 +1461,7 @@ heap o' pride in her picters. She allers had it in her mind that her
 little gal should have a showy parlor when she growed up."</p>
 <p>"You have a daughter?" said Ferrol.</p>
 <p>Their host hitched his chair a little to one side.<pb
-n="69     'SHE AINT YERE.'"/> He bent forward to expectorate, and then
+n="69 'SHE AINT YERE.'"/> He bent forward to expectorate, and then
 answered with his eyes fixed upon some distant point toward the
 mountains.</p>
 <p>"Wa-al, yes," he said; "but she aint yere, Louisianny aint."</p>
@@ -1325,7 +1479,7 @@ cloud, but plainly not thinking of it.</p>
 undertone. "Louisiana! Isn't that delicious?"</p>
 <p>Suddenly, even as he spoke, a new idea occurred to him.</p>
 <p>"Why," he exclaimed, "your name is Louise, isn't it? I think Olivia
-said so."</p><pb n="70     LOUSIANA."/>
+said so."</p><pb n="70 LOUSIANA."/>
 <p>"Yes," she answered, "my name is Louise."</p>
 <p>"How should you have liked it," he inquired, absent-mindedly, "if
 it had been Louisiana?"</p>
@@ -1346,7 +1500,7 @@ things. I never seen one before--not as I know on."</p>
 <p>"I wonder why not!" remarked Ferrol. "We are plentiful enough."</p>
 <p>"Air ye now?" he asked reflectively. "I had an idee thar was only
 one on ye now an' ag'in--jest now an' ag'in."</p>
-<p>He paused there to shake his head.</p><pb n="71     'SHE AINT
+<p>He paused there to shake his head.</p><pb n="71 'SHE AINT
 YERE.'"/>
 <p>"I've often wondered how ye could do it," he said. "<hi
 rend="italic">I</hi> couldn't. Thar's some as thinks they could if
@@ -1392,7 +1546,7 @@ good-fellowship. "Now, ladies an' gentlemen," he added, rising from
 his chair, "walk in an' have some supper."</p>
 <p>Ferrol and Olivia rose with some hesitation.</p>
 <p>"You are very kind," they said. "We did not intend to give you
-trouble."</p><pb n="73     'SHE AINT YERE.'"/>
+trouble."</p><pb n="73 'SHE AINT YERE.'"/>
 <p>"Trouble!" he replied, as if scarcely comprehending. "This yere
 aint no trouble. Ye haint ben in North Ca'liny before, hev ye?" he
 continued, good-naturedly. "We're bound to hev ye eat, if ye stay with
@@ -1411,7 +1565,7 @@ him. He glanced across at Louisiana to see if she was not as much
 pleased as he was himself. But the food upon her plate remained almost
 untouched. There was a strange look on her face; she was deadly pale
 and her downcast eyes shone under their lashes. She did not look at
-their host<pb n="74     LOUISIANA."/> at all; it struck Ferrol that
+their host<pb n="74 LOUISIANA."/> at all; it struck Ferrol that
 she avoided looking at him with a strong effort. Her pallor made him
 anxious.</p>
 <p>"You are not well," he said to her. "You do not look well at
@@ -1433,7 +1587,7 @@ fresh air will do me good."</p>
 <p>"If Louisianny was yere," he faltered, "she could give ye something
 to help ye. Camphire now--sperrits of camphire--let me git ye
 some."</p>
-<p>"No--no," said the girl. "No, thank you."</p><pb n="75     'SHE
+<p>"No--no," said the girl. "No, thank you."</p><pb n="75 'SHE
 AINT YERE.'"/>
 <p>And she slipped out of the door and was gone. Mr. Rogers sat down
 again with a sigh.</p>
@@ -1445,9 +1599,9 @@ round 'em. I know how it is with Louisianny."</p>
 his hand again and again, glancing at the open door as he did it. It
 was evident that his heart was outside with the girl who was like
 "Louisianny."</p></div>
-
-<pb n="[76]"/><div id="fblouis" type="chapter" n="8"><head>CHAPTER
-VIII.<lb/>"NOTHING HAS HURT YOU."</head>
+<pb n="[76]"/>
+<div id="fblouis018" type="chapter" n="8">
+<head>CHAPTER VIII.<lb/>"NOTHING HAS HURT YOU."</head>
 <p>THE storm was quite over, and the sun was setting in flames of gold
 when the meal was ended and they went out on the porch
 again. Mr. Rogers had scarcely recovered himself, but he had made an
@@ -1460,7 +1614,7 @@ was--Frankoyse--F-r-a-n-c-o-i-s, Frankoyse. Thet thar's a French name,
 aint it? Me an' Ianthy 'lowed it was common to the country. It don't
 belong yere, Frankoyse don't, an' it's got a furrin sound."</p>
 <p>"It--yes, it is a French name," assented Ferrol.</p>
-<p>A few minutes afterward they went out. Lou<pb n="77     'NOTHING
+<p>A few minutes afterward they went out. Lou<pb n="77 'NOTHING
 HAS HURT YOU.'"/>isiana stood at the end of the porch, leaning against
 a wooden pillar and twisting an arm around it.</p>
 <p>"Are ye better?" Mr. Rogers asked. "I am goin' to 'tend to my
@@ -1479,7 +1633,7 @@ decide that his best plan seemed to be to try to conceal his
 bewilderment and appear at ease. And, very naturally, the speech he
 chose to begin with was the most unlucky he could have hit upon.</p>
 <p>"He is charming," he said. "What a lovable old fellow! What a
-delicious old fellow! He<pb n="78     LOUISIANA."/> has been telling
+delicious old fellow! He<pb n="78 LOUISIANA."/> has been telling
 me about the novel. It is the the story of a Frenchman, and his
 name--try to guess his name."</p>
 <p>But Louisiana did not try.</p>
@@ -1520,7 +1674,7 @@ understand that it is not at him I have laughed, but--"</p>
 too hard to have time to read, and--" she stopped and dropped her
 hands with a gesture of unutterable pride. "Why should I tell you
 that?" she said. "It sounds as if I were apologizing for him, and
-there is no need that I should."</p><pb n="80     LOUISIANA."/>
+there is no need that I should."</p><pb n="80 LOUISIANA."/>
 <p>"If I could understand," began Ferrol,--"if I could realize--"</p>
 <p>"Ask your sister," she replied. "It was her plan. I--I" (with a
 little sob) "am only her experiment."</p>
@@ -1541,7 +1695,7 @@ would care."</p>
 fond of her, and I knew so very little that she forgot to think of
 me. I was only a kind of plaything--but I was too proud to remind
 her. I thought it would be soon over, and I knew how ignorant I was. I
-was<pb n="81     'NOTHING HAS HURT YOU.'"/> afraid to trust my
+was<pb n="81 'NOTHING HAS HURT YOU.'"/> afraid to trust my
 feelings at first. I thought perhaps--it was vanity, and I ought to
 crush it down. I was very fond of her."</p>
 <p>"Oh!" cried Olivia, piteously, "don't say 'was,' Louise!"</p>
@@ -1581,7 +1735,7 @@ Ask your sister to tell you how ignorant I am. She know. Why should
 you court here? There would always be as much to laugh at as there has
 been to-day. Go where you need not laugh. This is not the place for
 you. Good-by!"</p>
-<p>Then he knew he need say no more. She<pb n="83     'NOTHING HAS
+<p>Then he knew he need say no more. She<pb n="83 'NOTHING HAS
 HURT YOU.'"/> spoke with a child's passion and with a woman's proud
 obstinacy. Then she turned to Olivia. He was thrilled to the heart as
 he watched her while she did it. Her eyes were full of tears, but she
@@ -1625,9 +1779,9 @@ moonlight-flooded lawn. Everything was still and wore an air of
 desolation.</p>
 <p>"We won't talk about it," he said, at last, "but you have done me
 an ill-turn, Olivia."</p></div>
-
-<pb n="[85]"/><div id="fblouis" type="chapter" n="9"><head>CHAPTER
-IX.<lb/>"DON'T YE, LOUISIANNY?"</head>
+<pb n="[85]"/>
+<div id="fblouis019" type="chapter" n="9">
+<head>CHAPTER IX.<lb/>"DON'T YE, LOUISIANNY?"</head>
 <p>As he said it, Louisiana was at home in the house-room, sitting on
 a low chair at her father's knee and looking into the fire. She had
 not gone to bed. When he returned to the house her father had found
@@ -1664,7 +1818,7 @@ expectorating into the fire.</p>
 <p>"Louisianny," he said, "I'd like to ask ye one question. Was thar
 anybody thar as didn't--well, as didn't show ye respect--as was
 slighty or free or--or onconsiderate? Fur instants, any littery
-man--jest for instants, now?"</p><pb n="87     'DON'T YE,
+man--jest for instants, now?"</p><pb n="87 'DON'T YE,
 LOUISIANNY?'"/>
 <p>"No, no!" she answered. "They were very kind to me always."</p>
 <p>"Don't be afeared to tell me, Louisianny," he put it to her. "I
@@ -1686,7 +1840,7 @@ is!"</p>
 <p>"Wa-al," he said, meditatively, "ye know thar aint no reason why it
 should, Louisianny, if ye'd like to hev it fixed up more or
 different. If ye'd like a new paper--say a floweryer one--or a new<pb
-n="88     LOUISIANA."/> set of cheers an' things. Up to Lawyer
+n="88 LOUISIANA."/> set of cheers an' things. Up to Lawyer
 Hoskin's I seen 'em with red seats to 'em, an' seemed like they did
 set things off sorter. If ye'd like to hev some, thar aint no reason
 why ye shouldn't. Things has gone purty well with me, an'--an' thar
@@ -1706,7 +1860,7 @@ things besides us old folks, an' it's nat'ral as ye'd want 'em. Thar's
 things as kin be altered, an' thar's things as cayn't. Let's alter
 them as kin. If ye'd like a cupoly put on the house, or, say a coat of
 yaller-buff paint--Sawyer's new house is yaller buff, an' it's
-mighty<pb n="89     'DON'T YE, LOUISIANNY?'"/> showy; or a organ or a
+mighty<pb n="89 'DON'T YE, LOUISIANNY?'"/> showy; or a organ or a
 pianny, or more dressin', ye shall have 'em. Them's things as it aint
 too late to set right, an' ye shall hev 'em."</p>
 <p>But she only cried the more in a soft, hushed way.</p>
@@ -1742,9 +1896,9 @@ young."</p>
 <p>And he was so far moved by his secret thought that he smoothed her
 hair from her forehead the wrong way again with a light touch, before
 he let her go.</p></div>
-
-<pb n="[91]"/><div id="fblouis" type="chapter" n="10"><head>CHAPTER
-X.<lb/>THE GREAT WORLD.</head>
+<pb n="[91]"/>
+<div id="fblouis020" type="chapter" n="10">
+<head>CHAPTER X.<lb/>THE GREAT WORLD.</head>
 <p>THE next morning he went to the Springs.</p>
 <p>"I'll go an' settle up and bring ye your trunk an' things," he
 said. "Mebbe I mayn't git back till to-morrer, so don't ye be
@@ -1758,7 +1912,7 @@ duties he assumed as his share, his own seat on the hearth or porch
 and at table.</p>
 <p>"Folks may be clever enough," he used to say. "They air clever, as
 a rule--but it don't come nat'ral to be away. Thar ain't nothin' like
-home an' home ways."</p><pb n="92     LOUISIANA."/>
+home an' home ways."</p><pb n="92 LOUISIANA."/>
 <p>But he did not return that night, or even the next morning. It was
 dusk the next evening before Louisiana heard the buggy wheels on the
 road.</p>
@@ -1779,7 +1933,7 @@ as he tilted back and balanced himself on its back legs. She saw
 something new and disturbed in his face and manner. It was as if the
 bit of outside life he had seen had left temporary traces upon
 him. She wondered very much how it had impressed him and what he was
-thinking about.</p><pb n="93     THE GREAT WORLD."/>
+thinking about.</p><pb n="93 THE GREAT WORLD."/>
 <p>And after a short time he told her.</p>
 <p>"Ye must be lonesome," he said, "after stayin' down thar. It's
 nat'ral. A body don't know until they see it theirselves. It's gay
@@ -1817,7 +1971,8 @@ got up and turned toward the house and the room in which the kerosene
 lamp burned on the supper table.</p>
 <p>"I'll go an' talk to him," she said. "He likes to have me with him,
 and it will be better than sitting here."</p>
-<p>She went in and sat near him, resting her elbows<pb n="95     THE
+<milestone unit="section" rend="blank-line"/>
+<p>She went in and sat near him, resting her elbows<pb n="95 THE
 GREAT WORLD."/> upon the table and her chin on her hands, and tried to
 begin to talk. But it was not very easy. She found that she had a
 tendency to fall back in long silent pauses, in which she simply
@@ -1857,7 +2012,7 @@ speak. Once or twice the idea vaguely occurred to her that for some
 reason he did not want her to talk. It was a relief to her only to be
 called upon to listen, but still she was puzzled.</p>
 <p>"When we git fixed up," he said, "ye kin hev your friends
-yere. Thar's them folks, now, as<pb n="97     THE GREAT WORLD."/> was
+yere. Thar's them folks, now, as<pb n="97 THE GREAT WORLD."/> was
 yere the other day from the Springs--when we're fixed up ye mought
 invite 'em--next summer, fur instants. Like as not I shall be away
 myself an'--ye'd hev room a plenty. Ye wouldn't need me, ye see. An',
@@ -1872,9 +2027,9 @@ place. I don't want them."</p>
 Louisianny?"</p>
 <p>And he seemed to sink into a reverie and did not speak again for
 quite a long time.</p></div>
-
-<pb n="[98]"/><div id="fblouis" type="chapter" n="11"><head>CHAPTER
-XI.<lb/>A RUSTY NAIL."</head>
+<pb n="[98]"/>
+<div id="fblouis021" type="chapter" n="11">
+<head>CHAPTER XI.<lb/>A RUSTY NAIL."</head>
 <p>ON Monday Casey and his men came. Louisiana and her father were at
 breakfast when they struck their first blow at the end of the house
 which was to be renovated first.</p>
@@ -1889,7 +2044,7 @@ start too. It had such a strange sound."</p>
 hed--sorter. Seems like it wasn't sca'cely nat'ral. P'r'aps that's
 it."</p>
 <p>Neither of them ate much breakfast, and when the meal was over they
-went out together to look<pb n="99     A RUSTY NAIL."/> at the
+went out together to look<pb n="99 A RUSTY NAIL."/> at the
 workmen. They were very busy tearing off weather-boarding and
 wrenching out nails. Louisiana watched them with regretful eyes. In
 secret she was wishing that the low ceilings and painted walls might
@@ -1909,7 +2064,7 @@ thar. I'd useder think I should--"</p>
 and smiled.</p>
 <p>"Ye aint in the notion o' hevin' the cupoly," he said. "We kin hev
 it as soon as not--'n' seems ter me thar's a heap o' style to
-'em."</p><pb n="100     LOUISIANA."/>
+'em."</p><pb n="100 LOUISIANA."/>
 <p>"Anything that pleases you will please me, father," she said.</p>
 <p>He gave her a mild, cheerful look.</p>
 <p>"Ye don't take much int'russ in it yet, do ye?" he said. "But ye
@@ -1929,7 +2084,7 @@ one thing after another until the floor around her was strewn. Then
 she got up and left them, and ran to the bed and threw herself into a
 chair beside it, hiding her face in the pillow.</p>
 <p>'Oh, how dull it is, and how lonely!" she said. "What shall I do?
-What shall I do?"</p><pb n="101     A RUSTY NAIL."/>
+What shall I do?"</p><pb n="101 A RUSTY NAIL."/>
 <p>And while she sobbed she heard the blows upon the boards below.
 Before she went down-stairs she replaced the things she had taken from
 the trunk. She packed them away neatly, and, having done it, turned
@@ -1966,9 +2121,9 @@ listlessly on his hand.</p>
 <p>"I've got a touch o' dyspepsy, Louisianny," he said, "an' the
 knockin' hes kinder giv me a headache. I'll go to bed
 airly."</p></div>
-
-<pb n="[103]"/><div id="fblouis" type="chapter" n="12"><head>CHAPTER
-XII.<lb/>"MEBBE."</head>
+<pb n="[103]"/>
+<div id="fblouis022" type="chapter" n="12">
+<head>CHAPTER XII.<lb/>"MEBBE."</head>
 <p>SHE had been so full of her own sharp pain and humiliation during
 the first few days that perhaps she had not been so quick to see as
 she would otherwise have been, but the time soon came when she
@@ -1982,7 +2137,7 @@ change was his redoubled tenderness. She found that he watched her
 constantly, in a patient, anxious way. When they were together she
 often discovered that he kept his eyes fixed upon her when he thought
 she was not aware of his gaze. He seemed reluctant to leave her<pb
-n="104     LOUISIANA."/> alone, and continually managed to be near
+n="104 LOUISIANA."/> alone, and continually managed to be near
 her, and yet it grew upon her at last that the old, homely
 good-fellowship between them had somehow been broken in upon, and
 existed no longer. It was not that he loved her any less--she was sure
@@ -2065,7 +2220,7 @@ thar they air."</p>
 wear. She looked at the rolls of silk and the laces and feminine
 extras with a bewildered feeling.</p>
 <p>"They are beautiful things,she said. "I never thought of having
-such things for my own."</p><pb n="108     LOUISIANA."/>
+such things for my own."</p><pb n="108 LOUISIANA."/>
 <p>"Thar's no reason why ye shouldn't hev 'em," he said. "I'd oughter
 hev thought of 'em afore. Do they suit ye, Louisianny?"</p>
 <p>"I should be very hard to please if they didn't," she
@@ -2085,7 +2240,7 @@ length. "An' then she ses, 'She'd oughter be a very happy gal,' ses
 she, 'with such a father,' an' I ses, 'I 'low she is--mebbe.'"</p>
 <p>"Only maybe?" said the girl, "only maybe, father?"</p>
 <p>She dropped the roll of silk she had been holding and went to
-him. She put her hand on his<pb n="109     'MEBBE.'"/> arm again and
+him. She put her hand on his<pb n="109 'MEBBE.'"/> arm again and
 shook it a little, laughing in the same feverish fashion as when she
 had gone out to him on the porch on the day of her return. She had
 suddenly flushed up, and her eyes shone as he had seen them then.</p>
@@ -2103,7 +2258,7 @@ were said to have come from Paris.</p>
 <p>"What will they say when they see me at meeting in them?" she
 said. "Brother Horner will forget his sermons. There never were such
 things in Bowersville before. I am almost afraid they will think I am
-putting on airs."</p><pb n="110     LOUISIANA."/>
+putting on airs."</p><pb n="110 LOUISIANA."/>
 <p>When she reached a box of long kid gloves at the bottom, she burst
 into such a shrill laugh that her father was startled. There was a
 tone of false exhilaration about her which was not what he had
@@ -2124,15 +2279,15 @@ excited way.</p>
 brown and horny ones.</p>
 <p>"Louisianny," he said, "I <hi rend="italic">'low</hi> to make ye
 happy; ef the Lord haint nothin' agin it, I <hi
-rend="italic">'low</hi> to do it!"</p><pb n="111     'MEBBE.'"/>
+rend="italic">'low</hi> to do it!"</p><pb n="111 'MEBBE.'"/>
 <p>He went out after that, and left her alone to set her things to
 rights; but when he had gone and closed the door, she did not touch
 them. She threw herself down flat upon the floor in the midst of them,
 her slender arms flung out, her eyes wide open and wild and
 dry.</p></div>
-
-<pb n="[112]"/><div id="fblouis" type="chapter" n="13"><head>CHAPTER
-XIII.<lb/>A NEW PLAN.</head>
+<pb n="[112]"/>
+<div id="fblouis023" type="chapter" n="13">
+<head>CHAPTER XIII.<lb/>A NEW PLAN.</head>
 <p>AT last the day came when the house was finished and stood big and
 freshly painted and bare in the sun. Late one afternoon in the Indian
 summer, Casey and his men, having bestowed their last touches,
@@ -2145,7 +2300,7 @@ his job a neat one and was proud of it. When they were all gone
 Louisiana went out into the front yard to look at it. She stood in the
 grass and leaned against an apple-tree. It was near sunset, and both
 trees and grass were touched with a yellow glow so deep and mellow
-that it was almost a golden haze. Now that the<pb n="113     A NEW
+that it was almost a golden haze. Now that the<pb n="113 A NEW
 PLAN."/> long-continued hammering and sawing was at an end and all
 traces of its accompaniments removed, the stillness seemed
 intense. There was not a breath of wind stirring, or the piping of a
@@ -2166,7 +2321,7 @@ wandered back to the house and around to the back to where a new barn
 and stable had been built, painted and ornamented in accordance with
 the most novel designs. There was no other such barn or stable in the
 country, and their fame was already wide-spread and of an enviable
-nature.</p><pb n="114     LOUISIANA."/>
+nature.</p><pb n="114 LOUISIANA."/>
 <p>As she approached these buildings Louisiana glanced up and uttered
 an exclamation. Her father was sitting upon the door-sill of the barn,
 and his horse was turned loose to graze upon the grass before him.</p>
@@ -2186,7 +2341,7 @@ better. It--waal it kinder sets 'em off--it kinder sets 'em off."</p>
 <p>"Lord, yes! Thar aint no comparison. I was jest a-settin' thinkin'
 thet any one thet'd seed it as it was afore they'd not know
 it. Ianthy, fer instants--Ianthy she wouldn't sca'cely know it was
-home--thar's so much style to it."</p><pb n="115     A NEW PLAN."/>
+home--thar's so much style to it."</p><pb n="115 A NEW PLAN."/>
 <p>He suddenly stopped and rested against the door-lintel. He was pale
 again, though he kept up a stout air of good cheer.</p>
 <p>"Lord!" he said, after a little pause, "it's a heap stylisher!"</p>
@@ -2226,7 +2381,7 @@ stopped him right thar. 'Do ye mean it, Judge?' I ses. 'Yes,' ses
 he. 'Why not? My wife an' daughter hev talked about her many a time,
 an' said how they'd like to see her agin. Send her,' ses he. 'You're a
 rich man, an' ye kin afford it, Squire, if ye will.' An' I ses, 'So I
-kin ef she'd like to go, an' what's more, I'm<pb n="117     A NEW
+kin ef she'd like to go, an' what's more, I'm<pb n="117 A NEW
 PLAN."/> a-goin' to ask her ef she would--fer thar aint nothin' agin
 it--nothin'.'"</p>
 <p>He paused for a moment and turned to look at her.</p>
@@ -2267,7 +2422,7 @@ thought agin ye, not in my bottermost heart. Did ye think it? Lord,
 no! Thar aint nothin' ye've never dune in yer life that was meant to
 hurt or go agin me. Ye never did go agin me. Ye aint like me, honey;
 ye're kinder finer. Ye was borned so. I seed it when ye was in yer
-cradle. I've<pb n="119     A NEW PLAN."/> said it to Ianthy (an' sence
+cradle. I've<pb n="119 A NEW PLAN."/> said it to Ianthy (an' sence
 ye've growed up I've said it more). Thar's things ye'd oughter hev
 thet's diff'rent from what most of us wants--it's through you a-bein'
 so much finer. Ye mustn't be so tender-hearted, honey, ye
@@ -2292,9 +2447,9 @@ LOUISIANA."/> almost dusk, and he had his arm still around her. he did
 not let her go until they sat down at the table, and then she brought
 her chair quite close to his, and while he ate looked at him often
 with her soft, wet eyes.</p></div>
-
-<pb n="[121]"/><div id="fblouis" type="chapter" n="14"><head>CHAPTER
-XIV.<lb/>CONFESSIONS.</head>
+<pb n="[121]"/>
+<div id="fblouis024" type="chapter" n="14">
+<head>CHAPTER XIV.<lb/>CONFESSIONS.</head>
 <p>THEY had a long, quiet evening together afterward. They sat before
 the fire, and Louisiana drew her low seat near him so that she could
 rest her head upon his knee.</p>
@@ -2326,7 +2481,7 @@ of the dry wood burning in the great fire-place.</p>
 <p>"Ef ye aint a-goin' to Europe--" the old man began.</p>
 <p>"And I'm not, father," Louisiana put in.</p>
 <p>"Ef ye aint, we must set to work fixin' up right away. This mornin'
-I was a-layin' out to myself<pb n="123     CONFESSIONS."/> to let it
+I was a-layin' out to myself<pb n="123 CONFESSIONS."/> to let it
 stay tell ye come back an' then hev it all ready fer ye--cheers an'
 tables--an' sophias--an' merrors--an'--ile paintin's. I laid out to do
 it slow, Louisianny, and take time, an' steddy a heap, an' to take
@@ -2347,7 +2502,7 @@ faces and hated them; how she had burned with shame before them, she
 was stricken with a bitter pang of remorse.</p>
 <p>"Mother was fond of them," she said.</p>
 <p>"Thet's so," he answered, simply. "Thet's so, she was; an' you
-a-bein' so soft-hearted an'<pb n="124     LOUISIANA."/> tender makes
+a-bein' so soft-hearted an'<pb n="124 LOUISIANA."/> tender makes
 it sorter go agin ye to give in as they wasn't--what she took 'em
 fer. But ye see, thet--though it's nat'ral--it's nat'ral--don't make
 'em good or bad, Louisianny, an' Lord! it don't harm <hi
@@ -2369,7 +2524,7 @@ thar--it's a long way off--mebbe--an' I'd oughtn't to hev said
 it. It's a way old folks hev--but it's a bad way. Things git to seem
 sorter near to 'em--an' ordinary."</p>
 <p>The whole day had been to Louisiana a slow approach to a
-climax. Sometimes when her father<pb n="125     CONFESSIONS."/> talked
+climax. Sometimes when her father<pb n="125 CONFESSIONS."/> talked
 she could scarcely bear to look at his face as the firelight shone on
 it.</p>
 <p>So, when she had bidden him good-night at last and walked to the
@@ -2391,7 +2546,7 @@ do yerself jestice."</p>
 <p>But she would not be restrained.</p>
 <p>"I <hi rend="italic">must</hi> tell you," she said. "It has been on
 my heart too long. I ought never to have gone away. Everybody was different from
-us--and<pb n="126     LOUISIANA."/> had new ways. I think they laughed
+us--and<pb n="126 LOUISIANA."/> had new ways. I think they laughed
 at me, and it made me bad. I began to ponder over things until at last
 I hated myself and everything, and was ashamed that I had been
 content. When I told you I wanted to play a joke on the people who
@@ -2410,7 +2565,7 @@ educated,--his equal, and I knew how amazed he would be and how he
 would say he could not believe that I had lived here, and wonder at me
 and talk me over. And I could not bear it. I only wanted him to go
 away without knowing, and never, never see me again!"</p><pb
-n="127     CONFESSIONS."/>
+n="127 CONFESSIONS."/>
 <p>Remembering the pain and fever and humiliation of the past, and of
 that dreadful day above all, she burst into sobbing.</p>
 <p>"You did not think I was that bad, did you?" she said. "But I was!
@@ -2432,7 +2587,7 @@ seemed as if I was on fire. And I told them the truth--that you were
 <hi rend="italic">my</hi> father and that I loved you and was proud of
 you--that I might be ashamed of myself and all the rest, but not of
 you--never of you--for I wasn't worthy to kiss your feet!"</p><pb
-n="128     LOUISIANA."/> 
+n="128 LOUISIANA."/> 
 <p>For one moment her father watched her, his lips parted and
 trembling. It seemed as if he meant to try to speak, but could
 not. Then his eyes fell with an humble, bewildered, questioning glance
@@ -2451,7 +2606,7 @@ her head up to his breast and, with all the love and tenderness he had
 lavished upon her all her life, she had never known such love and tenderness as he expressed in this one movement.</p>
 <p>"Louisianny," he said, brokenly, when he had found his voice, "it's
 you as should be a-forgivin' me."</p>
-<p>"I!" she exclaimed.</p><pb n="129     CONFESSIONS."/>
+<p>"I!" she exclaimed.</p><pb n="129 CONFESSIONS."/>
 <p>He held her in his trembling arm so close that she felt his heart
 quivering.</p>
 <p>"To think," he almost whispered, "as I should not hev ben doin' ye
@@ -2473,7 +2628,7 @@ slungshot. I ses to myself, 'She's ashamed o' <hi
 rend="italic">me!</hi> It's <hi rend="italic">me</hi> she's ashamed
 of--an' she wants to pass me off fer a stranger!'"</p>
 <p>The girl drew off from him a little and looked up into his face
-wonderingly.</p><pb n="130     LOUISIANA."/>
+wonderingly.</p><pb n="130 LOUISIANA."/>
 <p>"You thought that!" she said. "And never told me--and humored me,
 and--"</p>
 <p>"I'd oughter knowed ye better," he said; "but I've suffered fer
@@ -2534,9 +2689,9 @@ how glad I am it come to-night! S'posin' somethin' hed happened to ary
 one of us an' the other hed ben left not a-knowin' how it was. I'm
 glad it didn't last no longer, Louisianny."</p>
 <p>And so they parted for the night.</p></div>
-
-<pb n="[133]"/><div id="fblouis" type="chapter" n="15"><head>CHAPTER
-XV.<lb/>"IANTHY!"</head>
+<pb n="[133]"/>
+<div id="fblouis025" type="chapter" n="15">
+<head>CHAPTER XV.<lb/>"IANTHY!"</head>
 <p>IT was later than usual when Louisiana awakened in the morning. She
 awakened suddenly and found herself listening to the singing of a bird
 on the tree near her window. Its singing was so loud and shrill that
@@ -2550,7 +2705,7 @@ feeling tired out and bewildered between the bird's shrill song and
 the strange voice.</p>
 <p>And then she heard heavy feet on the stairs and listened to them
 nervously until they reached her door and the door was pushed open
-unceremoniously.</p><pb n="134     LOUISIANA."/>
+unceremoniously.</p><pb n="134 LOUISIANA."/>
 <p>The negro woman Nancy thrust her head into the room.</p>
 <p>"Miss Louisianny, honey," she said. "Ye aint up yet?"</p>
 <p>"No."</p>
@@ -2589,7 +2744,7 @@ entered and for a second or so regarded her wonderingly. Then a change
 came upon him, his face lighted up--it seemed as if he saw all at once
 who had come to him.</p>
 <p>"Ianthy!" he said. "I didn't sca'cely know ye! Ye've bin gone so
-long! Whar hev ye bin?"</p><pb n="136     LOUISIANA."/>
+long! Whar hev ye bin?"</p><pb n="136 LOUISIANA."/>
 <p>But even then she could not realize the truth. It was so short a
 time since he had bidden her good-night and kissed her at the
 door.</p>
@@ -2600,8 +2755,8 @@ thought ye wouldn't never come back at all."</p>
 <p>And when she fell upon her knees at the bedside, with a desolate
 cry of terror and anguish, he did not seem to hear it at all, but lay
 fondling her bent head and smiling still, and saying happily:</p>
-<p>"Lord! I <hi rend="italic">am</hi> glad to see ye!"</p><milestone
-unit="section" rend="blank-line"/>
+<p>"Lord! I <hi rend="italic">am</hi> glad to see ye!"</p>
+<milestone unit="section" rend="blank-line"/>
 <p>When the doctor came--he was a mountaineer like the rest of them, a
 rough good-natured fellow who had "read a course" with somebody and
 "'tended lectures in Cincinnatty"--he could tell her easily enough
@@ -2609,7 +2764,7 @@ what the trouble was.</p>
 <p>"Pneumony," he said. "And pretty bad at that. He haint hed no
 health fer a right smart while. He haint never got over thet spell he
 hed last winter. This yere change in the weather's what's done it. He
-was a-complainin' to me the<pb n="137     'IANTHY.'"/> other day about
+was a-complainin' to me the<pb n="137 'IANTHY.'"/> other day about
 thet thar old pain in his chist. Things hes bin kinder 'cumylatin' on
 him."</p>
 <p>"He does not know me!" said Louisiana. "He is very ill--he is very
@@ -2631,7 +2786,7 @@ valises. They took the patient under their charge, applied their
 nostrums and when they were not busy seemed to enjoy talking his
 symptoms over in low tones. They were very good to Louisiana,
 relieving her of every responsibility in spite of herself,<pb
-n="138     LOUISIANA."/> and shaking their heads at each other
+n="138 LOUISIANA."/> and shaking their heads at each other
 pityingly when her back was turned.</p>
 <p>"She never give him no trouble," they said. "She's got thet to hold
 to. An' they was powerful sot on her, both him an' Ianthy. I've heern
@@ -2651,7 +2806,7 @@ congratulating himself upon being there.</p>
 <p>"Jest to think," he would say in a quiet, speculative voice, "that
 two year ago I didn't know ye--an' thar ye air, a-sittin' sewin', and
 the fire a-cracklin', an' the house all fixed. This yere's<pb
-n="139     'IANTHY!'"/> what I call solid comfort, Ianthy--jest solid
+n="139 'IANTHY!'"/> what I call solid comfort, Ianthy--jest solid
 comfort!"</p>
 <p>Once he wakened suddenly from a sleep and finding Louisiana bending
 over him, drew her face down and kissed her.</p>
@@ -2671,9 +2826,9 @@ expression and change.</p>
 day, "ef--"</p>
 <p>And she put her hands to her ears and buried her face in the
 pillow, that she might not hear the rest.</p></div>
-
-<pb n="[140]"/><div id="fblouis" type="chapter" n="16"><head>CHAPTER
-XVI.<lb/>"DON'T DO NO ONE A ONJESTICE."</head>
+<pb n="[140]"/>
+<div id="fblouis026" type="chapter" n="16">
+<head>CHAPTER XVI.<lb/>"DON'T DO NO ONE A ONJESTICE."</head>
 <p>HE was not ill very long. Toward the end of the second week the
 house was always full of visitors who came to sympathize and inquire
 and prescribe, and who, in many cases, came from their farms miles
@@ -2686,7 +2841,7 @@ towards the hearth and talked in spectral whispers.</p>
 <p>"The old man's purty low," they always said, "he's purty low." And
 then they added among themselves that he had "allers bin mighty
 clever, an' a good neighbor."</p>
-<p>When she heard them speak of him in this<pb n="141     'DON'T DO NO
+<p>When she heard them speak of him in this<pb n="141 'DON'T DO NO
 ONE A ONJESTICE.'"/> manner, Louisiana knew what it meant. She never
 left the room again after the first day that they spoke so, and came
 in bodies to look at him, and turn away and say that he had been good
@@ -2707,7 +2862,7 @@ nature and neighborliness and the kindly prayers for which he had been
 noted in "meetin'."</p>
 <p>On the last day of the second week the doctor held a consultation
 with Aunt 'Nervy and Aunt Ca'line on the front porch before he went
-away,<pb n="142     LOUISIANA."/> and when they re-entered the room
+away,<pb n="142 LOUISIANA."/> and when they re-entered the room
 they spoke in whispers even lower than before and moved about
 stealthily. The doctor himself rode away slowly and stopped at a house
 or so on the wayside, where he had no patients, to tell the
@@ -2726,7 +2881,7 @@ lips. A strange, vague memory of weary pain and dragging, uncertain
 days and nights came to him and he knew, and yet felt no fear.</p>
 <p>"Louisianny!" he said.</p>
 <p>He could only speak in a whisper and tremulously. Those who sat
-about him hushed their very breath.</p><pb n="143     'DON'T DO NO ONE
+about him hushed their very breath.</p><pb n="143 'DON'T DO NO ONE
 A ONJESTICE.'"/>
 <p>"Lay yer head--on the piller--nigh me," he said.</p>
 <p>She laid it down and put her hand in his. The great tears were
@@ -2748,15 +2903,15 @@ him.</p>
 I've--loved ye, honey--an' ye've desarved it--all. Don't ye--do no
 one--a onjestice."</p>
 <p>And then as she dropped her white face upon the pillow again he saw
-her no longer--nor the<pb n="144     LOUISIANA."/> people, nor the
+her no longer--nor the<pb n="144 LOUISIANA."/> people, nor the
 room, but lay quite still with parted lips and eyes wide open, smiling
 still at the golden tree waving and beckoning in the wind.</p>
 <p>This he saw last of all, and seemed still to see even when some one
 came silently, though with tears, and laid a hand upon his
 eyes.</p></div>
-
-<pb n="[145]"/><div id="fblouis" type="chapter" n="17"><head>CHAPTER
-XVII.<lb/>A LEAF.</head>
+<pb n="[145]"/>
+<div id="fblouis027" type="chapter" n="17">
+<head>CHAPTER XVII.<lb/>A LEAF.</head>
 <p>THERE was a sunny old grave-yard half a mile from the town, where
 the people of Bowersville laid their dead under the long grass and
 tangle of wild-creeping vines, and the whole country-side gathered
@@ -2769,7 +2924,7 @@ had lost a friend.</p>
 deserted their families that they might stay with her until all was
 over, doing their best to give her comfort. It was Aunt 'Nervy who
 first thought of sending for the girl cousin to whom the trunkful of
-clothes had been given.</p><pb n="146     LOUISIANA."/>
+clothes had been given.</p><pb n="146 LOUISIANA."/>
 <p>"Le's send for Leander's Jenny, Ca'line," she said. "Mebbe it'd
 help her some to hev a gal nigh her. Gals kinder onderstands each
 other, an' Jenny was allus powerful fond o' Lowizyanny."</p>
@@ -2790,7 +2945,7 @@ strange place."</p>
 <p>Then Louisiana broke into sobs, too.</p>
 <p>"It <hi rend="italic">is</hi> a strange place!" she cried--"a
 strange place--a strange place! Oh, if one old room was left--just one
-that I could go into and not feel so lonely!"</p><pb n="147     A
+that I could go into and not feel so lonely!"</p><pb n="147 A
 LEAF."/>
 <p>But she had no sooner said it than she checked herself.</p>
 <p>"Oh, I oughtn't to say that!" she cried. "I wont say it. He did it
@@ -2811,7 +2966,7 @@ together."</p>
 <p>After the return from the grave -yard there was a prolonged
 discussion held among the heads of the different branches of the
 family. They gathered at one end of the back porch and talked of<pb n=
-"148     LOUISIANA."/> Louisiana, who sat before the log fire in her
+"148 LOUISIANA."/> Louisiana, who sat before the log fire in her
 room upstairs.</p>
 <p>"She aint in the notion o' leavin' the place," said Aunt
 'Nervy. "She cried powerful when I mentioned it to her, an' wouldn't
@@ -2829,7 +2984,7 @@ rend="italic">He</hi> never did. He was powerful tender on her, was Elbert."</p>
 no one now, an' I dessay she'd like to stay an' keep house."</p>
 <p>"I don't see nothin' ag'in it," commented Uncle Steve, "if
 Louisianny don't. She's a settled woman, an's bin married, an' haint
-no family to pester her sence Nance is dead."</p><pb n="149     A
+no family to pester her sence Nance is dead."</p><pb n="149 A
 LEAF."/>
 <p>"She was allers the through-goin' kind," said Aunt
 'Nervy. "Things'll be well looked to--an' she thought a heap o'
@@ -2850,7 +3005,7 @@ presented herself to Louisiana she sat down before her, removed this
 sun-bonnet with a scientific flap and hung it on the back of her
 chair.</p>
 <p>"Ye look mighty peak-ed, Louisianny," she said. "Mighty
-peak-ed."</p><pb n="150     LOUISIANA."/>
+peak-ed."</p><pb n="150 LOUISIANA."/>
 <p>"I don't feel very well," Louisiana answered, "but I suppose I
 shall be better after a while."</p>
 <p>"Ye're takin' it powerful hard, Louisianny," said Mrs. Nance, "an'
@@ -2869,7 +3024,7 @@ to count the hours. There was no work for her, no one came in and out
 for whom she might invent some little labor of love; there was no one
 to watch for, no one to think of. She used to sit for hours at her
 window watching the leaves change their color day by day, and at last
-flutter down upon the grass at the least stir of wind.<pb n="151     A
+flutter down upon the grass at the least stir of wind.<pb n="151 A
 LEAF."/> Once she went out and picked up one of these leaves and
 taking it back to her room, shut it up in a book.</p>
 <p>"Everything has happened to me since the day it was first a leaf,"
@@ -2911,7 +3066,7 @@ things. The picters was the on'y things es was showy."</p>
 listener.</p>
 <p>"Wa-al, yes, she's kinder peak-ed," admitted Mrs. Nance. "She's
 kinder peak-ed, but she'll git over it. Young folks allers
-does."</p><pb n="153     A LEAF."/>
+does."</p><pb n="153 A LEAF."/>
 <p>But she did not get over it as soon as Mrs. Nance had expected, in
 view of her youth. The days seemed longer and lonelier to her as the
 winter advanced, though they were really so much shorter, and she had
@@ -2932,7 +3087,7 @@ pretty gal, but kinder consumpshony, an' she hedn't backbone enough to
 hold her up. She died eight or nine months after they'd
 quarreled. Mebbe she'd hev died anyhow, but thet sorter hastened it
 up. When folks is consumpshony it don't take much to set 'em
-off."</p><pb n="154     LOUISIANA."/>
+off."</p><pb n="154 LOUISIANA."/>
 <p>"I don't think I am 'consumpshony,'" said Louisiana.</p>
 <p>"Lord-a-massy, no!" briskly, "an' ye'd best not begin to think
 it. I wasn't a meanin' thet. Ye've kinder got into a poor way
@@ -2953,7 +3108,7 @@ gin'rally. Elbert 'd be ag'in it himself ef he knowed--an' I s'pose he
 does. Like as not him an' Ianthy's a-worryin' about it now, an' Lord
 knows ef they air it'll spile all their enjoyment. Kingdom come won't
 be nothin' to 'em if they're oneasy in their minds 'bout ye. Now an'
-ag'in it's<pb n="155     A LEAF."/> 'peared to me that mebbe harps an'
+ag'in it's<pb n="155 A LEAF."/> 'peared to me that mebbe harps an'
 crowns an' the company o' 'postles don't set a body up all in a minnit
 an' make 'em forgit their flesh an' blood an' nat'ral feelin's
 teetotally--an' it kinder troubles me to think o' Elbert an' Ianthy
@@ -2972,7 +3127,7 @@ they aint changed mightily, but, changed or not, I guess thar's mighty
 few sperrits es haint sense enough to see yer a-grievin' more an'
 longer than's good fur ye."</p>
 <p>Louisiana turned to her window again. She rested her forehead
-against the frame-work and<pb n="156     LOUISIANA."/> looked out for
+against the frame-work and<pb n="156 LOUISIANA."/> looked out for
 a little while. But at last she spoke.</p>
 <p>"Perhaps you are right," she said. "It is true it would have hurt
 them when they were here. I think--I'll try to--to be happier."</p>
@@ -2991,9 +3146,8 @@ kinder teched her an' sot her thinkin'. She was dretfle fond of her
 pappy an' she was allers a purty peaceable advise-takin' little
 thing--though she aint so little nuther. She's reel tall an'
 slim."</p></div>
-
-<pb n="[157]"/><div id="fblouis" type="chapter" n="18"><head>CHAPTER
-XVIII.<lb/>"HE KNEW THAT I LOVED YOU."</head>
+<pb n="[157]"/><div id="fblouis028" type="chapter" n="18">
+<head>CHAPTER XVIII.<lb/>"HE KNEW THAT I LOVED YOU."</head>
 <p>IT was almost dark when the buggy returned. As Jake drove up to the
 gate he bent forward to look at something.</p>
 <p>"Thar's a critter hitched to the fence," he remarked. "'Taint no
@@ -3007,7 +3161,7 @@ an' stylish, but not to say showy, an' he's polite sort o'
 manners."</p>
 <p>"Has he been waiting long?" Louisiana asked.</p>
 <p>"He's ben thar half a hour, an' I've hed the fire made up sence he
-come."</p><pb n="158     LOUISIANA."/>
+come."</p><pb n="158 LOUISIANA."/>
 <p>Louisiana removed her hat and cloak and gave them to
 Mrs. Nance. She did it rather slowly, and having done it, crossed the
 hall to the sitting-room door, opened it and went in.</p>
@@ -3028,7 +3182,7 @@ was wrong to come. Don't be angry with me."</p>
 waited for her to speak.</p>
 <p>"It was rather--sudden," she said, "but I am not--angry."</p>
 <p>There was a silence of a few seconds, because he was so moved by
-the new look her face wore<pb n="159     'HE KNEW THAT I LOVED
+the new look her face wore<pb n="159 'HE KNEW THAT I LOVED
 YOU.'"/> that he could not easily command his voice and words.</p>
 <p>"Have you been ill?" he asked gently, at last.</p>
 <p>He saw that she made an effort to control herself and answer him
@@ -3048,7 +3202,7 @@ twice. When he neared her the last time he stopped.</p>
 <p>"Must I go away?" he asked unsteadily. "I feel as if I had no right
 here."</p>
 <p>But she did not tell him whether he must go or stay.</p><pb
-n="160     LOUISIANA."/>
+n="160 LOUISIANA."/>
 <p>"If I stay I must tell you why I came and why I could not remain
 away," he said.</p>
 <p>She still drooped against her chair and did not speak, and he drew
@@ -3070,7 +3224,7 @@ woman."</p>
 this is the wrong time and that I must go away now, it will be better
 than some things you might say."</p>
 <p>She raised her face and let him see it.</p>
-<p>"No," she said, "it is not that it is the wrong<pb n="161     'HE
+<p>"No," she said, "it is not that it is the wrong<pb n="161 'HE
 KNEW THAT I LOVED YOU.'"/> time. It is a better time than any other,
 because I am so lonely and nay trouble has made my heart softer than
 it was when I blamed you so. It is not that it is the wrong time,
@@ -3078,7 +3232,7 @@ but--"</p>
 <p>"Wait a minute," he broke in. "Don't--don't do me an
 injustice!"</p>
 <p>He could not have said anything else so likely to reach her
-heart. She rememiered the last faltering words she had heard as she
+heart. She remembered the last faltering words she had heard as she
 bent over the pillow when the sun was shining on the golden tree with
 the wind waving its branches.</p>
 <p>"Don't do no one a onjestice, honey--don't ye--do no one--a
@@ -3092,9 +3246,10 @@ you--and he knew I--"</p>
 <p>"Don't be hard to me again," he whispered. "I have been so
 unhappy--I love you so tenderly. Did he know that you--speak to me,
 Louise."</p>
-<p>She put her hand upon his shoulder.</p><pb n="162     LOUISIANA."/>
+<p>She put her hand upon his shoulder.</p><pb n="162 LOUISIANA."/>
 <p>"He knew that I loved you," she said, with a little
-sob.</p><milestone unit="section" rend="blank-line"/>
+sob.</p>
+<milestone unit="section" rend="blank-line"/>
 <p>She was a great favorite among her husband's friends in New York
 the next year. One of her chief attractions for them was that she was
 a "new type." They said that of her invariably when they delighted in
@@ -3111,7 +3266,7 @@ that she was a most tremendous book-worm, and that her literary
 knowledge was something for weak, ordinary mortals to quail
 before. The story went, that by some magic process she committed to
 memory the most appalling works half an hour after they were issued
-from<pb n="163     'HE KNEW THAT I LOVED YOU.'"/> the press, and that,
+from<pb n="163 'HE KNEW THAT I LOVED YOU.'"/> the press, and that,
 secretly, Laurence stood very much in awe of her and was constantly
 afraid of exposing his ignorance in her presence. It was certainly
 true that she read a great deal, and showed a wonderful aptness and
@@ -3126,6 +3281,72 @@ that Mrs. Laurence is on her native heath."</p>
 <p>And though all the rest of the house was open, there was one room
 into which no one but Laurence and Louisiana ever went--a little room,
 with strange, ugly furniture in it, and bright-colored lithographs
-upon the walls.</p></div>
-
-END.
+upon the walls.</p>
+<trailer>END.</trailer>
+</div>
+</body>
+<back id="fblouis1357">
+<div id="fblouis040" type="adverts">
+<figure entity="fblouisbm1" rend="inline">
+<figDesc>Advertisement included in the back of Burnett's
+Louisiana.</figDesc>
+</figure>
+<pb/>
+<figure entity="fblouisbm2" rend="inline">
+<figDesc>Advertisement included in the back of Burnett's
+Louisiana.</figDesc>
+</figure>
+<pb/>
+<figure entity="fblouisbm3" rend="inline">
+<figDesc>Advertisement included in the back of Burnett's
+Louisiana.</figDesc>
+</figure>
+<pb/>
+<figure entity="fblouisbm4" rend="inline">
+<figDesc>Advertisement included in the back of Burnett's
+Louisiana.</figDesc>
+</figure>
+<pb/>
+<figure entity="fblouisbm5" rend="inline">
+<figDesc>Advertisement included in the back of Burnett's
+Louisiana.</figDesc>
+</figure>
+<pb/>
+<figure entity="fblouisbm6" rend="inline">
+<figDesc>Advertisement included in the back of Burnett's
+Louisiana.</figDesc>
+</figure>
+<pb/>
+<figure entity="fblouisbm7" rend="inline">
+<figDesc>Advertisement included in the back of Burnett's
+Louisiana.</figDesc>
+</figure>
+<pb/>
+<figure entity="fblouisbm8" rend="inline">
+<figDesc>Advertisement included in the back of Burnett's
+Louisiana.</figDesc>
+</figure>
+<pb/>
+<figure entity="fblouisbm9" rend="inline">
+<figDesc>Advertisement included in the back of Burnett's
+Louisiana.</figDesc>
+</figure>
+<pb/>
+<figure entity="fblouisbm10" rend="inline">
+<figDesc>Advertisement included in the back of Burnett's
+Louisiana.</figDesc>
+</figure>
+<pb/>
+<figure entity="fblouisbm11" rend="inline">
+<figDesc>Advertisement included in the back of Burnett's
+Louisiana.</figDesc>
+</figure>
+<pb/>
+<figure entity="fblouisbm12" rend="inline">
+<figDesc>Advertisement included in the back of Burnett's
+Louisiana.</figDesc>
+</figure>
+</div>
+</back>
+</text>
+</TEI.2>
