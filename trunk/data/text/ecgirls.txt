@@ -1,4 +1,148 @@
-<pb n="[9]"/><div id="ecgirls" type="chapter" n="1"><head>GIRLS ON THE
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="ecgirls1207">
+  <teiHeader id="ecgirls1201">
+    <fileDesc>
+      <titleStmt>
+        <title>Girls on the Gold Trail, an electronic edition</title>
+        <author><name type="person" reg="Cowper, E.E. (Edith
+					 Elise).">E.E. Cowper</name></author>
+      </titleStmt>
+      <extent>450kb</extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2006</date>
+        <availability>
+          <p>&#x00A9; 2006, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Women's Genre Fiction, 1860-1920</title>
+        <respStmt>
+          <name>Sheila T. Cavanagh</name>
+          <name>Charles D. Spornick</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><author>Cowper, E. E.</author> <title>Girls on the Gold
+	Trail: A Story of Strange Adventures in the
+	Northlands</title>. <pubPlace>New York</pubPlace>:
+<publisher>Thomas Nelson and Sons, Ltd.</publisher>, <date>[19--]</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded.  Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Genre Fiction</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Unedited</rs>
+        <rs type="genre">Novel</rs>
+        <rs type="geography">United States</rs>
+        <date>1900-1999</date>
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item>American literature--20th Century--Fiction.</item>
+            <item>Women authors, American--20th Century.</item>
+            <item>Adventure.</item>
+            <item>Childhood.</item>
+            <item>Native Americans.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2006-June-1</date>
+        <respStmt>
+          <name>Alice Hickcox, </name>
+          <resp>Electronic Text Specialist.</resp>
+        </respStmt>
+        <item>XML tags inserted in compliance with TEI guidelines.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+
+<text id="ecgirls1202">
+<front id="ecgirls1203">
+<div id="ecgirls000" type="covers">
+  <figure entity="ecgirlsfc" rend="inline">
+    <figDesc>Image of the front cover from E.E. Cowper's Girls on the Gold Trail.</figDesc>
+  </figure>
+  <figure entity="ecgirlsspine" rend="inline">
+    <figDesc>Image of the spine from E.E. Cowper's Girls on the Gold Trail.</figDesc>
+  </figure>
+</div>
+<div type="frontispiece" id="ecgirlsfrt">
+  <figure entity="ecgirlsfront" rend="inline">
+    <p>Pierre Corraine was not alone this time (p. 320)</p>
+    <figDesc>Frontispiece from E.E. Cowper's Girls on the Gold Trail.</figDesc>
+  </figure>
+</div>
+<pb n="[iii]" entity="ecgirlstp" pages="Title Page"/>
+<titlePage type="full">
+  <docTitle>
+    <titlePart type="main">GIRLS ON THE<lb/>GOLD TRAIL</titlePart>
+    <titlePart type="sub">A STORY OF STRANGE ADVENTURES<lb/>IN THE
+    NORTHLANDS</titlePart>
+  </docTitle>
+    <byline>BY <lb/><docAuthor>E. E. COWPER</docAuthor><lb/>
+    AUTHOR OF <lb/>"MAIDS OF THE MERMAID," "PAM AND THE COUNTESS"
+    <lb/>
+"THE MYSTERY OF SAFFRON MANOR"<lb/>ETC., ETC.</byline>
+<docImprint>
+  <publisher>THOMAS NELSON AND SONS, LTD.</publisher>
+  <pubPlace>LONDON, EDINBURGH, NEW YORK <lb/>TORONTO, AND
+  PARIS</pubPlace>
+</docImprint>
+</titlePage>
+<pb n="[v]"/>
+<div type="table of contents" id="ecgirlsfm1">
+  <figure entity="ecgirlstoc" rend="inline">
+    <figDesc>Table of Contents page from E.E. Cowper's Girls on the Gold Trail.</figDesc>
+  </figure>
+</div>
+</front>
+<body id="ecgirls1204">
+<pb n="9"/>
+<div id="ecgirls0001" type="chapter" n="1"><head>GIRLS ON THE
 GOLD TRAIL<lb/>CHAPTER I<lb/>THE MYSTERY OF THE INDIAN WATCHER</head>
 <p>THE time of year was early spring when an adventure began which was
 destined to take the three young Lockharts through danger and
@@ -10,8 +154,8 @@ to be shortened into "Pet," and so answered to the name of "Peter";
 and Jim. Their ages were, roughly--beginning at the eldest--eighteen,
 seventeen, and sixteen, Jim being youngest of these three, but not of
 the family, because the ten-year-old twins, Donald and Effie, or
-"Dolly"--so called because of her smallness--were also useful mem<pb
-n="10     GIRLS ON THE GOLD TRAIL"/>bers of the busy household, though
+"Dolly"--so called because of her smallness--were also useful mem-<pb
+n="10 GIRLS ON THE GOLD TRAIL"/>bers of the busy household, though
 they could not count on the trail, as shall be shown.</p>
 <p>Before the twins were born, Tom Lockhart, their father, his
 wonderful wife, the three eldest children, and Raa, the wolf-dog, had
@@ -30,8 +174,8 @@ because of the children chiefly. He built and improved his log-house,
 cleared the slope down to the river into something like a garden,
 banked up a watercourse close to the house to make a good supply--in
 fact, he made the place a home; and the whole family had become
-hard-bitten "old-timers"--"sour-doughs"--from the<pb n="11     MYSTERY
-OF INDIAN WATCHER"/> mother to little Doll. They could do anything,
+hard-bitten "old-timers"--"sour-doughs"--from the <pb n="11 MYSTERY
+OF INDIAN WATCHER"/>mother to little Doll. They could do anything,
 face anything, undertake any job. Making their own clothes of dressed
 leather was as easy to them as baking the real old-timer's
 bread. Traps were A B C to them all, from the dead-fall set to kill
@@ -51,7 +195,7 @@ called--and winter and summer the life at the Log House went on,
 varied at times by the arrival of a letter from Tom Lockhart. These
 letters were brought up from Cumberland House Settlement by some
 trapper or hunter, but they were few and far between and promised
-nothing definite;<pb n="12     GIRLS ON THE GOLD TRAIL"/> till at
+nothing definite; <pb n="12 GIRLS ON THE GOLD TRAIL"/>till at
 last, six months before this story begins, came a letter that startled
 the whole family into thrills of joyful excitement.</p>
 <p>He had won through. He had struck a "pay streak" in the summer, and
@@ -71,8 +215,8 @@ the wild lands, vague and with no apparent foundation in fact. Not
 good in this case, for the mysterious messages suggested that Tom
 Lockhart was dead; more, that he had died as far north as Great Slave
 Lake at the end of November.</p>
-<p>At first the family at the Log House refused<pb n="13     MYSTERY
-OF INDIAN WATCHER"/> to credit these tales, which they heard from old
+<p>At first the family at the Log House refused <pb n="13 MYSTERY
+OF INDIAN WATCHER"/>to credit these tales, which they heard from old
 Dick Hearne, who in turn heard them from trappers and settlement
 men. He believed them, and his belief acted on the Lockharts. By the
 end of March they all believed the truth of the rumours, but still
@@ -91,7 +235,7 @@ had altered in colour and surface. Day and night the reports of
 cracking broke the stillness, and yellow water was beginning to ooze
 out on to the top and spread. All along the shores stretched a border
 of rotten ice; in a little while the armour of the river would heave
-and burst, piling up in huge blocks, and drift<pb n="14     GIRLS ON
+and burst, piling up in huge blocks, and drift<pb n="14 GIRLS ON
 THE GOLD TRAIL"/> away on the free water with crashings and splitting
 noises you could hear for miles. When this going out of the ice
 happened on the Yukon and Mackenzie Rivers, the great waterways, it
@@ -111,7 +255,7 @@ at work on this particular evening, might have noticed that Elspeth,
 her brother Jim without drawing attention. She was a tall, slim girl,
 with a brown face of the hawk type, not exactly pretty--that was not
 the word--but very attractive because of its look of keen cleverness,
-the flash of white teeth, and hazel eyes set deep<pb n="15     MYSTERY
+the flash of white teeth, and hazel eyes set deep<pb n="15 MYSTERY
 OF INDIAN WATCHER"/> under straight black eyebrows. She was seventeen,
 and tough as the life she had led could make a perfectly healthy
 girl. From her thick, black-brown curls to her active feet Peter
@@ -131,7 +275,7 @@ eyes and saw there a sort of flashing eagerness, while a pink spot
 glowed on each thin brown cheek, he was rather inclined to withdraw
 into his own affairs and leave her to exercise thrills on Donald, who
 adored Peter, and believed in her as a dog believes in its master.</p>
-<p>"Why?" asked Jim cautiously.</p><pb n="16     GIRLS ON THE GOLD
+<p>"Why?" asked Jim cautiously.</p><pb n="16 GIRLS ON THE GOLD
 TRAIL"/>
 <p>"Well, I can't explain here. It's very weird--in fact, it's just
 about as rum as it can be."</p>
@@ -153,7 +297,7 @@ the wolf-dog, who had risen from his place by the stove, threw his
 arms round the dog's neck and dragged him back and down on to the
 bearskin bed where he had been lying. Peter glanced back with an
 understanding look. Donald simply rolled over with the dog, and
-engaged in a<pb n="17     MYSTERY OF INDIAN WATCHER"/> scuffle that
+engaged in a <pb n="17 MYSTERY OF INDIAN WATCHER"/>scuffle that
 kept Raa from his intention of following the others.</p>
 <p>Outside in the gathering dusk Peter led the way, striding with
 long, light steps down the slope, but diagonally, so as to keep in
@@ -173,7 +317,7 @@ around the brushwood was fairly dense, but the view was clear across
 the ice to the opposite banks of the river, where the woods came down
 to the shore unbroken.</p>
 <p>"Look here, Pete," began Jim, patient but decidedly bored, "I don't
-see why on earth you--"</p><pb n="18     GIRLS ON THE GOLD TRAIL"/>
+see why on earth you--"</p><pb n="18 GIRLS ON THE GOLD TRAIL"/>
 <p>"All right; you will in a minute. Keep down out of sight entirely,
 with your eye skinned for the farthest bank, and I'll tell you. It's
 an Indian." Jim made an impatient grunt. "I know, you think an Indian
@@ -194,7 +338,7 @@ can't think what he's up to. I've kept a pretty keen look-out in the
 evenings just here as the cover is thick. Now, if we wait till the
 moon comes up the odds are that we both see him again."</p>
 <p>The girl spoke with studied coolness, but it was plain she was
-keenly interested in this<pb n="19     MYSTERY OF INDIAN WATCHER"/>
+keenly interested in this<pb n="19 MYSTERY OF INDIAN WATCHER"/>
 wandering forest dweller; and Jim, thinking it over, began to get
 interested too. Indian trappers were as common as the white men, and
 "breeds," as the half-and-half class was called, came to the Log House
@@ -214,7 +358,7 @@ on her brother's sleeve. "<hi rend="italic">Now</hi> then," she urged,
 very softly.</p>
 <p>"I see," Jim allowed. "I say, Pete, he's coming over; before the
 moon rises, you bet! And if he isn't coming here! Down you go--<hi
-rend="italic">quiet</hi>."</p><pb n="20     GIRLS ON THE GOLD TRAIL"/>
+rend="italic">quiet</hi>."</p><pb n="20 GIRLS ON THE GOLD TRAIL"/>
 <p>There was small need to give such an order to Pete Lockhart. The
 brushwood swallowed her lithe figure with hardly a crack or rustle to
 testify she had disappeared. But hidden though they were, both sister
@@ -233,7 +377,7 @@ the broken bank he put on his snowshoes again and disappeared, going
 up and up, it seemed, towards the woods, not to the house.</p>
 <p>Just at that moment the noisy barking of a dog broke the stately
 silence of the scene. It was Jenny, the collie dog. Being a collie,
-she barked a good deal, either for joy or warning.<pb n="21
+she barked a good deal, either for joy or warning. <pb n="21
 MYSTERY OF INDIAN WATCHER"/>This time it seemed like warning. Raa
 never barked; he had too much of the wolf in him. He howled sometimes,
 and a very horrible sound it was when he did!</p>
@@ -254,7 +398,7 @@ ended. She stood still, thinking; then she said, "Did you see him
 clearly, Jim?"</p>
 <p>"Oh yes. He was a Cree all right--not a good specimen, either."</p>
 <p>"I know; but what I meant was, did you see one particular thing?
-Probably not, as you were on the other side."</p><pb n="22     GIRLS
+Probably not, as you were on the other side."</p><pb n="22 GIRLS
 ON THE GOLD TRAIL"/>
 <p>"How do you mean 'other side?' He stood still when he slipped his
 shoes off. I saw him pretty clear afterwards, when he was putting them
@@ -276,8 +420,8 @@ earnest. She went on, "If it wasn't <hi rend="italic">cut</hi> it had been shot 
 scar all along his cheek, and his hair was shaved off, or singed off,
 on that side of his head. He must have had a jolly narrow squeak for
 his life. I wonder what happened."</p>
-<p>"Oh, some fight, or perhaps he blew himself<pb n="23     MYSTERY OF
-INDIAN WATCHER"/> up with his own gun; those chaps get hold of pretty
+<p>"Oh, some fight, or perhaps he blew himself <pb n="23 MYSTERY OF
+INDIAN WATCHER"/>up with his own gun; those chaps get hold of pretty
 rotten fire-arms--sudden death when you least expect it! Probably that
 was what happened."</p>
 <p>"I wonder!" said Peter again. She was quite unconvinced by Jim's
@@ -296,7 +440,7 @@ Pete, just hark to Jenny; she's giving tongue. She sure scents that
 Cree, if she can't hear him."</p>
 <p>But in the moment that Peter opened her lips to say she didn't
 believe Jenny could have scented the Cree--he would take care of
-that<pb n="24     GIRLS ON THE GOLD TRAIL"/>--the interpretation of
+that<pb n="24 GIRLS ON THE GOLD TRAIL"/>--the interpretation of
 the collie's noisy protests echoed from the heights in a perfect riot
 of barking, the frenzied yelping made by a team of husky dogs when
 they greet, or rather insult, the dogs of any dwelling they are coming
@@ -317,12 +461,12 @@ pard--what's his name?--the pig! I hate him worse than Louis--"</p>
 <p>"You mean Fritz Neumann? What's the matter with him? He's not so
 decent as Sorenson and some of the others, but--"</p>
 <p>"Dad hated him. Dick loathes him, though he never says so. As for
-me, I hate and<pb n="25     MYSTERY OF INDIAN WATCHER"/> loathe him! I
+me, I hate and<pb n="25 MYSTERY OF INDIAN WATCHER"/> loathe him! I
 suppose they want supper and sleep. What rotten luck! Let's--" She
 checked the expression of what she proposed as a black shape slid in
 front of them with noiseless swiftness.</p></div>
 
-<pb n="[26]"/><div id="ecgirls" type="chapter" n="2"><head>CHAPTER
+<pb n="26"/><div id="ecgirls0002" type="chapter" n="2"><head>CHAPTER
 II<lb/>NIGHT AT THE LOG HOUSE</head>
 <p>THERE was a gurgle of quiet laughter as Donald thrust an arm
 through Peter's.</p>
@@ -336,7 +480,7 @@ they're in the worst rage you can imagine with each other and
 everybody in the world. Why, Neumann simply shouted at mother, and
 Louis chattered--you know how he chatters!"</p>
 <p>"I'll teach them to shout at mother," said Jim with
-decision.</p><pb n="27     NIGHT AT THE LOG HOUSE"/>
+decision.</p><pb n="27 NIGHT AT THE LOG HOUSE"/>
 <p>"You'd better chain up your temper as well as Raa," advised Donald
 in his odd, old-fashioned. voice. "Pegtop is as red as a mountain ash
 in September already, and as for Raa--well!"</p>
@@ -356,7 +500,7 @@ Donald gave a sort of elfish whoop and raced on ahead.</p>
 <p>In the big house-place was much light, heat, and noise. The stove
 was nearly red-hot, all available lamps were in use, and the long
 table was set for the guests, while Mrs. Lockhart and Peg served up a
-greatly enlarged supper.<pb n="28     GIRLS ON THE GOLD TRAIL"/> No
+greatly enlarged supper. <pb n="28 GIRLS ON THE GOLD TRAIL"/>No
 one minded that sort of thing in the back of beyond. A guest was
 honoured as a rule, but in this case the guests were unpopular. Jenny
 had been kicked into a corner by Neumann, and sat still, showing her
@@ -375,8 +519,8 @@ the master's interest in the Log House.</p>
 look at the young Lockharts to realize that. There they were, all five
 in their leather tunics, leggings, and moccasins, boys and girls
 alike. Even the twins were tall and strong for their years; indeed,
-the only smallish member of the<pb n="29     NIGHT AT THE LOG
-HOUSE"/> family was Mrs. Lockhart. Not tall, but with an air of
+the only smallish member of the <pb n="29 NIGHT AT THE LOG
+HOUSE"/>family was Mrs. Lockhart. Not tall, but with an air of
 dignity and assurance that made her look the inches she did not
 possess. Fair, like Peg and Dolly, with the same curiously steady
 grey-blue eyes and very definite features, there was nothing confused
@@ -395,7 +539,7 @@ the dogs' usual food. There was a tremendous lot of noise, because the
 huskies fought among themselves, and the men kicked them apart. La
 Perle hardly stopped talking for a moment; he was one of those people
 who seem to see everything at once, and only take half a second to<pb
-n="30     GIRLS ON THE GOLD TRAIL"/> see it! His white teeth shone in
+n="30 GIRLS ON THE GOLD TRAIL"/> see it! His white teeth shone in
 a face burned the colour of old leather.</p>
 <p>"A-ha, Mees Pete," he cried, "your so kind mother desire that we
 rest here. This is mos' fine for the poor trapper, very well for us;
@@ -415,8 +559,8 @@ joined battle again out of sympathy; it was the usual procedure with
 team dogs, of course, noise and fighting.</p>
 <p>Meanwhile Neumann was sitting near the stove watching the serving
 of supper: fried deer meat, bacon and beans, big flat cakes of
-home-made bread, pumpkin pie--for they grew<pb n="31     NIGHT AT THE
-LOG HOUSE"/> pumpkins in the garden, and took them in before the first
+home-made bread, pumpkin pie--for they grew <pb n="31 NIGHT AT THE
+LOG HOUSE"/>pumpkins in the garden, and took them in before the first
 frost could nip them--potatoes, and coffee sweetened with sugar
 instead of molasses. These luxuries were not everyday treats; they
 were offered to guests who perhaps had fared hard for weeks.</p>
@@ -434,8 +578,8 @@ to say the least, as all trappers are proud of very valuable skins,
 and these are the most beautiful. Nor did he refer, or allow reference
 to, the loss of his three huskies. The mention of this
 misfortune--inquired about by Peggy, for politeness' sake--appeared to
-irritate him still more. One more thing was odd,<pb n="32     GIRLS ON
-THE GOLD TRAIL"/> when you came to think of it, as Peter pointed out
+irritate him still more. One more thing was odd,<pb n="32 GIRLS ON
+THE GOLD TRAIL"/>when you came to think of it, as Peter pointed out
 afterwards: beyond asking if Tom Lockhart was back home again, he
 never referred to the master of the Log House, or to the rumours of
 his illness and death. And yet he must have heard, and was likely to
@@ -455,7 +599,7 @@ risk more kicks. Having conferred with her for some minutes in an
 undertone, his eyes were attracted to the trappers' guns set up
 against the wall in the corner by the door into the
 bunk-room. Instantly he went over to investigate, and had been
-engaged<pb n="33     NIGHT AT THE LOG HOUSE"/> in this most congenial
+engaged<pb n="33 NIGHT AT THE LOG HOUSE"/> in this most congenial
 occupation for several minutes before Neumann saw him. The man sprang
 up, strode across to the corner, and, snatching the rifle from him,
 flung the boy aside with a roughness that made him lose his
@@ -477,7 +621,7 @@ till you know how to use them."</p>
 <p>"We all know how to use them," Peter flamed at him.</p>
 <p>No one else spoke, but the two men went outside ostensibly to see
 to the sled for an early start. When they returned all the younger<pb
-n="34     GIRLS ON THE GOLD TRAIL"/> members of the family had
+n="34 GIRLS ON THE GOLD TRAIL"/> members of the family had
 disappeared. Mrs. Lockhart announced that breakfast would be ready
 before dawn, which is the usual time for striking camp on the trail;
 then she also departed, having done her duty to the utmost.</p>
@@ -496,7 +640,7 @@ used no club, his affection for him and the children developed into a
 wonder of rooted devotion, unswerving, dominant. It was Tom Lockhart
 who called him "Raa," giving him a new and happier life, though the
 name actually was drawn from the old life. In this wise.</p><pb
-n="35     NIGHT AT THE LOG HOUSE"/> 
+n="35 NIGHT AT THE LOG HOUSE"/> 
 <p>On the Yukon trails sled dogs are harnessed in single file with
 traces--like tandems--and the drivers urge them on with a shout of
 "Mush," or "M'hoosh." But on the other side of the Big Divide, in the
@@ -516,7 +660,7 @@ Log House.</p>
 that reason was tied up in the girls' room when Neumann and La Perle
 came, because he did not like them; and when Raa disliked people it
 was more than probable that inconvenient things might happen.</p>
-<p>Peter kneeled down by the dog and threw<pb n="36     GIRLS ON THE
+<p>Peter kneeled down by the dog and threw<pb n="36 GIRLS ON THE
 GOLD TRAIL"/> her arms round his shaggy neck. Then she explained to
 him that he hadn't missed any treat, because the men who had come were
 "pigs." After that she offered an excellent supper of thawed deer
@@ -536,7 +680,7 @@ one, firmly believing that the Log House was his object, though
 whether for good or ill remained to be seen.</p>
 <p>Peggy, who had nothing particular on her mind, went to sleep at
 once. She had got to be up before dawn to speed these guests on their
-way to the settlement, and, therefore, she<pb n="37     NIGHT AT THE
+way to the settlement, and, therefore, she<pb n="37 NIGHT AT THE
 LOG HOUSE"/> had no time to waste either in disliking them or playing
 with Raa. All that was quite like Pegtop's sound practical sense.</p>
 <p>As she said to Peter the last thing, "What did it matter whether
@@ -579,7 +723,7 @@ his course would seem to have come round from the front, unless he had
 climbed the slope right from the river shores. Peter could not see him
 well enough to be sure of details, in spite of her splendid sight and
 trained instinct, but she believed he was an Indian wrapped in<pb
-n="39     NIGHT AT THE LOG HOUSE"/> his blanket, and something in his
+n="39 NIGHT AT THE LOG HOUSE"/> his blanket, and something in his
 movement carried her mind back to the Cree without an ear who had
 crossed the river.</p>
 <p>"So that was why you snarled, old boy," she whispered to
@@ -600,7 +744,7 @@ Peggy; "every trapper who can collects at the settlement; the Company
 people make it lively for them."</p>
 <p>Peter waved aside these remarks as entirely beside the point. She
 curled herself up cross-legged on her bunk, and, bending forward,
-impressively told her sister of the watch kept<pb n="40     GIRLS ON
+impressively told her sister of the watch kept<pb n="40 GIRLS ON
 THE GOLD TRAIL"/> by that particular Indian from the opposite bank of
 the river; of the concealment of herself and Jim by the canoe cache,
 and the passing of the man so close that she made special note of his
@@ -621,7 +765,7 @@ him, poor wretch, of course, by a shot, a cut, or a blow and I
 wouldn't mind betting he's after the person who did it. He'll never
 rest till he pays out the man; but that makes it so odd his coming
 here--here, of all places! What have <hi rend="italic">we</hi>
-done?"</p><pb n="41     NIGHT AT THE LOG HOUSE"/>
+done?"</p><pb n="41 NIGHT AT THE LOG HOUSE"/>
 <p>Peggy asked this question in rather an offended voice--under her
 breath, though; she never lost her caution.</p>
 <p>Peter thumped softly on her blanket with a brown, clenched
@@ -643,7 +787,7 @@ howl that began in his throat deep down.</p>
 into their clothes they knew that the Log House was all
 astir.</p></div>
 
-<pb n="[42]"/><div id="ecgirls" type="chapter" n="3"><head>CHAPTER
+<pb n="42"/><div id="ecgirls0003" type="chapter" n="3"><head>CHAPTER
 III<lb/>"NOT ON YOUR LIFE, SIR"</head>
 <p>FOR many minutes the dreadful rending shrieks continued. When they
 died down into moans and silence the whole party was gathered round
@@ -657,7 +801,7 @@ seemed likely to recover. When Mrs. Lockhart, looking as always quiet
 and capable, showed her little figure in the doorway, Neumann was
 drawing Jim into the altercation by fairly broad hints that the deer
 meat given to his dogs the evening before must have been
-poisoned.</p><pb n="43     'NOT ON YOUR LIFE, SIR'"/>
+poisoned.</p><pb n="43 'NOT ON YOUR LIFE, SIR'"/>
 <p>"Considering we ate it ourselves!" retorted the boy,
 flushing. "Look here, sir, you can't be more put out than we are, but
 it won't ease matters any to go flinging out such talk as that."</p>
@@ -678,7 +822,7 @@ spoke.</p>
 to your good, and worth while to us, seeing that we want to get down
 to the settlement with this cargo. Now what do you say to taking three
 hundred dollars for your husky, old Raa? He's past his prime,<pb
-n="44     GIRLS ON THE GOLD TRAIL"/> but we'll admit he's a good dog,
+n="44 GIRLS ON THE GOLD TRAIL"/> but we'll admit he's a good dog,
 and would make a power of difference in the team. Hundred and fifty is
 about what you give for a sled dog in good condition, so I can't say
 better than double it, can I? Come, is that a deal?"</p>
@@ -697,7 +841,7 @@ Lockhart."</p>
 <p>Jim answered for the family. "Not on your life, sir. We're sorry
 for your misfortune, and we'd do what we could. But we shouldn't sell
 old Raa, not if we hadn't a cent in the world. Should we,
-mother?"</p><pb n="45     'NOT ON YOUR LIFE, SIR'"/>
+mother?"</p><pb n="45 'NOT ON YOUR LIFE, SIR'"/>
 <p>"Of course not," added Peggy with decision.</p>
 <p>But chaffering and bargain-driving was so usual a fashion among
 these men that Neumann was by no means put off.</p>
@@ -717,7 +861,7 @@ three! It is the <hi rend="italic">mos'</hi> bad luck!"</p>
 been losing dogs same way before, then?"</p>
 <p>Neumann answered nothing to this, but just repeated obstinately,
 "Anyway we've had no luck on this run, and I'm waiting to hear
-Mis'<pb n="46     GIRLS ON THE GOLD TRAIL"/> Lockhart's answer to my
+Mis'<pb n="46 GIRLS ON THE GOLD TRAIL"/> Lockhart's answer to my
 offer; it's firm at four hundred dollars."</p>
 <p>"What's four hundred dollars?" said Peter, loud enough to be heard,
 her accent scornful.</p>
@@ -738,7 +882,7 @@ pulled out; one man breaking trail ahead, the three weakened dogs
 pulling the heavy sled, and the other man at the gee-pole--that is to
 say, driving. Had the dogs been at their best the team would hardly
 have been equal to the load.</p>
-<p>"Good riddance of bad rubbish," remarked<pb n="47     'NOT ON YOUR
+<p>"Good riddance of bad rubbish," remarked<pb n="47 'NOT ON YOUR
 LIFE, SIR '"/> Donald in rather a sententious manner as the whip
 cracking and yelping grew fainter with distance.</p>
 <p>Peggy rebuked his manners. She was always a stickler for
@@ -758,7 +902,7 @@ another.</p>
 hoping for a clue; but he had been much too clever for that. The snow
 was thawing everywhere; its surface changed character each hour, while
 the drip, drip, trickle, trickle, continued ceaselessly from every
-bush, every clump of brushwood, besides the patter<pb n="48     GIRLS
+bush, every clump of brushwood, besides the patter<pb n="48 GIRLS
 ON THE GOLD TRAIL"/> from the trees overhead. She had wanted to make
 some discovery leading to better knowledge, but the conditions were
 baffling. Raising herself from a stooping position over a snapped
@@ -780,7 +924,7 @@ know, though--" Donald checked speech, and stood staring at the ground
 with unseeing eyes. Peter was just about to rouse him by a brisk
 reminder that he'd meant to say something, when the boy said, "I say,
 Pete, Dad never did have a little Winchester rifle, one of the new
-kind, did he?"</p><pb n="49     'NOT ON YOUR LIFE, SIR'"/>
+kind, did he?"</p><pb n="49 'NOT ON YOUR LIFE, SIR'"/>
 <p>"Not that I know of." Peter's voice became subdued. "He wanted one
 and couldn't afford it. He had the old muzzle-loader and the other
 rifles, and, of course, the automatics--well, we all have those. But
@@ -800,7 +944,7 @@ saw initials cut deep on the stock of one, and it was a Winchester,
 the kind Dad said he wanted. And the initials were 'T. L.' cut deep,
 just like he used to cut them on his things, and rubbed in with
 gunpowder. I was just staring at it when that chap came and<pb
-n="50     GIRLS ON THE GOLD TRAIL"/> dragged it out of my hand. The
+n="50 GIRLS ON THE GOLD TRAIL"/> dragged it out of my hand. The
 thing is, why was he in such a temper?"</p>
 <p>"Oh, well, he was in a temper all along," said Peter
 contemptuously. "He's got a brute of a temper--that's one reason why I
@@ -821,7 +965,7 @@ it's queer." She spoke low as Jim came up to them.</p>
 asked. "I thought you'd got him, Pete."</p>
 <p>"<hi rend="italic">I</hi> haven't seen him."</p>
 <p>"Not seen him since when?"</p>
-<p>Peter considered. "He was in our room<pb n="51     'NOT ON YOUR
+<p>Peter considered. "He was in our room<pb n="51 'NOT ON YOUR
 LIFE, SIR'"/> when they were getting off; but afterwards we were so
 busy, I never thought about him."</p>
 <p>"Well, I can't find him," said Jim in a final voice.</p>
@@ -842,7 +986,7 @@ set the trappers had been on getting the dog.</p>
 <p>Jim kicked up the snow thoughtfully. "Oh, well," he jerked out.</p>
 <p>"What Cree?" asked Donald eagerly.</p>
 <p>His sister told him in a few words, making little of it.</p><pb
-n="52     GIRLS ON THE GOLD TRAIL"/>
+n="52 GIRLS ON THE GOLD TRAIL"/>
 <p>"Of course, he poisoned old Neumann's dogs," decided Donald in a
 manner that allowed of no other opinion. "Of <hi rend="italic">course</hi> he did. It stares
 you in the face. I expect Neumann did him down somehow, and the Cree
@@ -862,7 +1006,15 @@ sedate voice. "But you can't call that <hi rend="italic">luck</hi>; it's just a 
 passed, and one never knows with dogs. Raa is very clever. Let's wait
 a bit. Never, never despair about things; it doesn't pay, my
 dears."</p>
-<p>Each one of the five gathered courage and<pb n="53     'NOT ON YOUR
+<p>Each one of the five gathered courage and
+<pb/>
+<figure entity="ecgirls***" rend="inline">
+<p>"We shouldn't sell old Raa, not if we hadn't a cent in the world"
+(p. 44)</p>
+<figDesc>Illustration opposite page 52 in E.E. Cowper's Girls on the
+Gold Trail</figDesc>
+</figure>
+<pb n="53 'NOT ON YOUR
 LIFE, SIR'"/> hope; their mother always had that effect. It was not
 what she said, but what she <hi rend="italic">was</hi>.</p>
 <p>In the afternoon Peter decided that she and Pegtop would go up into
@@ -883,7 +1035,7 @@ doubt in the world that the loss of Raa was going to make a great
 difference. Peggy said little for some minutes, and then suggested
 that it was possible the Cree Indian without an ear had had a hand in
 this trouble also.</p>
-<p>"Oh no." Peter shook her head.</p><pb n="54     GIRLS ON THE GOLD
+<p>"Oh no." Peter shook her head.</p><pb n="54 GIRLS ON THE GOLD
 TRAIL"/>
 <p>"Why not?"</p>
 <p>"Oh well, I'm sure he didn't. He killed Neumann's dogs because he
@@ -907,7 +1059,7 @@ Dick, turning back from his journey as he heard her speak.</p>
 them hereabouts. You know our brown bears are about as dangerous as
 chickens."</p>
 <p>"You never know with a b'ar when she's out of winter sleep with a
-cub. Don't you<pb n="55     'NOT ON YOUR LIFE, SIR'"/> gals go
+cub. Don't you<pb n="55 'NOT ON YOUR LIFE, SIR'"/> gals go
 foolhardin' with her. She might act ugly."</p>
 <p>Peter laughed and abruptly turned the subject. "Dick, have you seen
 an Indian around? A Cree with one ear? What's he up to?"</p>
@@ -928,7 +1080,7 @@ Injun more smarter one way an' another."</p>
 <p>Hearne chuckled to himself as over some secret joke. Peggy, who had
 been silent till now, suddenly asked,--</p>
 <p>"Dick, what do you suppose the trappers' dogs died of?"</p>
-<p>"Pizen," answered Hearne shortly.</p><pb n="56     GIRLS ON THE
+<p>"Pizen," answered Hearne shortly.</p><pb n="56 GIRLS ON THE
 GOLD TRAIL"/>
 <p>"Do you think that Cree did it?" added Peter.</p>
 <p>Dick made answer in rather a cryptic way. "Wal, there's times when
@@ -949,7 +1101,7 @@ and sped away into the woods in search of Madam Bear. A mile or two
 from home, where the slopes began to roughen into steeps and the woods
 had taken on all the grandeur and mystery of the wild forest, the
 girls came suddenly upon what they sought, but in the least expected
-way.</p><pb n="57     'NOT ON YOUR LIFE, SIR'"/>
+way.</p><pb n="57 'NOT ON YOUR LIFE, SIR'"/>
 <p>Their attention was drawn by the fussy chattering of a chipmunk,
 that most lively and elusive squirrel of the wilds. And there was some
 reason in this instance for the chipmunk to fuss, for it was being
@@ -967,7 +1119,7 @@ suit of clothes--and with a cub to feed.</p>
 <p>The sisters stood still, entranced, to see what would
 happen.</p></div>
 
-<pb n="[58]"/><div id="ecgirls" type="chapter" n="4"><head>CHAPTER
+<pb n="58"/><div id="ecgirls0004" type="chapter" n="4"><head>CHAPTER
 IV<lb/>GIJIK, THE CEDAR</head>
 <p>THE futile efforts of the hungry bear, and the angry face of the
 chipmunk popping in and out of his doorways, were both ridiculous; but
@@ -982,7 +1134,7 @@ squirrel while it whimpered with eagerness. Something in its figure
 and attitude went straight to Peter's heart.</p>
 <p>"Oh, Peg, we really <hi rend="italic">must</hi> have it. Do look at its face. We could
 bring it up, and it would run about the house quite tame."</p><pb
-n="59     GIJIK, THE CEDAR"/>
+n="59 GIJIK, THE CEDAR"/>
 <p>Seeing her sister actually make a move towards the fascinating
 infant, Peggy gripped her by the arm. "Are you cracked, Pete? You
 can't. You'd make the mother daft."</p>
@@ -1003,7 +1155,7 @@ them.</p>
 <p>But that is the way with black and brown bears--you never know!
 Ninety times out of a hundred safe as a cow, but, like a savage cow,
 utterly dangerous the rest of the times.</p>
-<p>Peggy and Peter did not wait to reason or<pb n="60     GIRLS ON THE
+<p>Peggy and Peter did not wait to reason or<pb n="60 GIRLS ON THE
 GOLD TRAIL"/> try to dodge. They were both as fleet of foot as girls
 of their type could be, and they were wearing snowshoes, also the
 route was downhill--all to their advantage.</p>
@@ -1024,7 +1176,7 @@ snowshoes.</p>
 her mouth open. There was no time to think or realize that the worst
 seemed certain, when there came a shattering report of fire-arms, and
 the bear, hit in the face and open mouth, gave a sort of choking grunt
-and rolled over headlong.</p><pb n="61     GIJIK, THE CEDAR"/>
+and rolled over headlong.</p><pb n="61 GIJIK, THE CEDAR"/>
 <p>In the confusion Peter had a vague idea she was saved by a shot
 from Peg's automatic. Both girls carried them at all times, and were
 good shots too; but the <hi rend="italic">sound</hi>, answering back and back in a succession
@@ -1046,14 +1198,14 @@ Dick. What's taken him?"</p>
 the forest. Close around grew thick clumps of young banksian pine, and
 the way between the trees was everywhere interrupted by
 undergrowth. Dodging through this had helped the girls in their<pb
-n="62     GIRLS ON THE GOLD TRAIL"/> flight, though, in a way, it had
+n="62 GIRLS ON THE GOLD TRAIL"/> flight, though, in a way, it had
 also impeded them--and the bear. Now it might conceivably hide the
 rescuer, but then why should he hide if it was old Hearne?</p>
 <p>Peter suddenly stood upright and stared at her sister, hazel eyes
 very wide open. "Pegtop, do you think it's that Cree? It can't be
 Neumann. Perhaps the Indian is hanging around still. 'Tisn't often
-they'll kill M&#x00E2;kw&#x00E2;,<ref target="ecgirls">*</ref><note
-id="ecgirls" n="*" resp="auth" place="foot">* The bear.</note> is it?
+they'll kill M&#x00E2;kw&#x00E2;,<ref target="ecgirls0004p62n1">*</ref><note
+id="ecgirls0004p62n1" n="*" resp="auth" place="foot">* The bear.</note> is it?
 They worship bears, don't they, or think they are spirits?"</p>
 <p>"Think they are spirits," agreed Peggy. "I believe they say all
 sorts of fine things to them before they shoot them! Look here, Pete,
@@ -1067,7 +1219,7 @@ rend="italic">can't</hi> let it starve."</p>
 <p>As a result the two of them arrived at the Log House some time
 later, carrying the baby bear between them. It made no objection,
 though it whimpered for its mother at moments and as soon as it began
-to feel hungry. There<pb n="63     GIJIK, THE CEDAR"/> was a great
+to feel hungry. There<pb n="63 GIJIK, THE CEDAR"/> was a great
 to-do when the party came in, and Jenny, the collie dog, gave tongue
 to her disgust.</p>
 <p>Peter, entirely unsubdued by the narrow escape of the afternoon,
@@ -1087,7 +1239,7 @@ that to catch every sound in this new world.</p>
 <p>"He shall be my own, and I will call him Barker," said Dolly
 seriously. Nobody contradicted the announcement, but they all began to
 think of Raa again--Raa, who had not come back; and presently, when
-"Mr. Barker"<pb n="64     GIRLS ON THE GOLD TRAIL"/> had curled
+"Mr. Barker"<pb n="64 GIRLS ON THE GOLD TRAIL"/> had curled
 himself into a ball on the big bear-skin by the stove, sharing very
 amicably with Jenny, silence again dropped on the family like a heavy
 curtain. Even Donald was speechless. Dick Hearne was in his own
@@ -1107,7 +1259,7 @@ another with questioning eyes, there was a knock at the door--not a
 bold knock, but a tapping that seemed rather furtive to expectant
 ears.</p>
 <p>Mrs. Lockhart looked at Jim, and he went forward at once, sliding
-along the heavy<pb n="65     GIJIK, THE CEDAR"/> wooden bars in their
+along the heavy<pb n="65 GIJIK, THE CEDAR"/> wooden bars in their
 sockets--two, top and bottom. Then he opened the door a little, and
 looked out. The others were aware of a sort of stiffening in his
 figure as though he were startled. Jenny burst out again, and was only
@@ -1128,7 +1280,7 @@ figure. He wore a blanket, carried a knife in his belt, and a
 muzzle-loading gun in his hand.</p>
 <p>Peter looked at the gun, and instantly jumped to a conclusion,
 which was correct. The giant advanced a step or two into the<pb
-n="66     GIRLS ON THE GOLD TRAIL"/> room, and in those seconds his
+n="66 GIRLS ON THE GOLD TRAIL"/> room, and in those seconds his
 deep-set, intensely black eyes had taken in every detail. One could
 see that in the shifting flash of the glances. Yet all the while his
 face remained inscrutably blank of any expression but dignity. It was
@@ -1148,16 +1300,16 @@ the woods and lakes."</p>
 eat," said Mrs. Lockhart, standing upright and somehow contriving to
 look quite tall, though she was not actually so. It was her manner and
 presence, and of course the force of character behind it.</p><pb
-n="67     GIJIK, THE CEDAR"/>
+n="67 GIJIK, THE CEDAR"/>
 <p>The Indian made a gesture of acknowledgment; then he said, in
-carefully chosen English, "Gijik,<ref target="ecgirls">*</ref><note
-id="ecgirls" n="*" resp="auth" place="foot">* The cedar.</note>
+carefully chosen English, "Gijik,<ref target="ecgirls0004p67n1">*</ref><note
+id="ecgirls0004p67n1" n="*" resp="auth" place="foot">* The cedar.</note>
 tallest of the Ojibways, a great chief, has travelled for many moons
 as fast as the feet of the moose fly when the wolf is hungry on his
 trail. When the word of my people passes it is not broken. It is
 everlasting as the rock that holds up the thundering water. In the
 month of Many-caribou-in-the-woods<ref
-target="ecgirls">&#x2020;</ref><note id="ecgirls" n="&#x2020;"
+target="ecgirls0004p67n2">&#x2020;</ref><note id="ecgirls0004p67n2" n="&#x2020;"
 resp="auth" place="foot">&#x2020; September.</note> my white brother
 halted at the little shack on Crooked River Creek, three sleeps beyond
 the Great Slave Lake, where the wide water comes through the little
@@ -1171,7 +1323,7 @@ that she, too, understood.</p>
 <p>"My white brother was very sick," continued the Indian, touching
 his own chest and throat with long brown fingers, and making as though
 to cough with effort. Then, suddenly sweeping his arm round as
-though<pb n="68     GIRLS ON THE GOLD TRAIL"/> indicating space, he
+though<pb n="68 GIRLS ON THE GOLD TRAIL"/> indicating space, he
 went on with a flash in his black eyes. "The Cedar is great amongst
 his people. His district is wide, his traps are never empty, and his
 pelts are packed in heaps. Mitawawa, his squaw, is clever to make them
@@ -1212,7 +1364,7 @@ that they have is his; their hearts are very warm towards the Cedar
 and his squaw Mitawawa, and his son, who shall one day be a great
 chief also."</p>
 <p>She spoke with some effort, keeping back all show of feeling. When
-she mentioned the<pb n="70     GIRLS ON THE GOLD TRAIL"/> child there
+she mentioned the<pb n="70 GIRLS ON THE GOLD TRAIL"/> child there
 was a curious softening of the hawk-like, fierce face.</p>
 <p>Then she turned and went away, giving a quick injunction to Jim as
 she passed him.</p>
@@ -1232,7 +1384,7 @@ gesture. Then Peggy, seized with an inspiration, went to her special
 box, a wooden chest in which her private treasures were stored, and
 brought out a long necklace of pink carnelian beads that had been sent
 to her by relatives in Scotland years ago. It was a greatly valued
-ornament; but noth<pb n="71     GIJIK, THE CEDAR"/>ing was too
+ornament; but noth<pb n="71 GIJIK, THE CEDAR"/>ing was too
 precious to give to the woman who had nursed the lonely sick man.</p>
 <p>She held out the chain of shimmering beads coiled on a bed of white
 wool, and noticed the flash of satisfaction that showed for a second
@@ -1252,7 +1404,7 @@ little ejaculation which is expressed by "How!" as well as anything,
 and made a polite gesture of vague dismissal. At the same time Peter
 thought that beneath the impassive mask there flamed a look of
 interest and intelligence. She decided that the Cedar either knew, or
-was interested to hear this news.</p><pb n="72     GIRLS ON THE GOLD
+was interested to hear this news.</p><pb n="72 GIRLS ON THE GOLD
 TRAIL"/>
 <p>She put out her hand and touched his gun. "My brother is a fine
 hunter," she said. "He killed the bear, eh?"</p>
@@ -1275,7 +1427,7 @@ family, had not yet attained grown-up manners!</p>
 <p>It was plain that these things struck astonishment into the heart
 of the Cedar.</p>
 <p>"How," he said, as he took the animal gingerly, and gazed at
-it. Then he smiled, making<pb n="73     GIJIK, THE CEDAR"/> a little
+it. Then he smiled, making<pb n="73 GIJIK, THE CEDAR"/> a little
 guttural sound like suppressed laughter as he realized the
 tea-things. After that he wrapped the things in a corner of his
 blanket, looked round at the party as he made a gesture of farewell,
@@ -1299,7 +1451,7 @@ made one of her long shots. "I wonder who was the man with a bad heart
 from whom Dad hid his gold? There <hi rend="italic">was</hi> an
 enemy."</p></div>
 
-<pb n="[74]"/><div id="ecgirls" type="chapter" n="5"><head>CHAPTER
+<pb n="74"/><div id="ecgirls0005" type="chapter" n="5"><head>CHAPTER
 V<lb/>PETER'S HEART'S DESIRE</head>
 <p>NEARLY twenty-four hours passed before the young ones saw the
 letter brought by Gijik. The following day, after supper, their mother
@@ -1313,12 +1465,12 @@ of dust on the Mackenzie River; said he was so eager to get home that
 he sold his claim after getting "enough," but never told how much the
 "enough" had been. He'd got his lungs frosted, he said, in a terrible
 cold spell, and felt bad; so he bought a dog team and hurried, taking
-the route across the<pb n="75     PETER'S HEART'S DESIRE"/> Great
+the route across the<pb n="75 PETER'S HEART'S DESIRE"/> Great
 Slave Lake, meaning to come into the River, then across Athabasca,
 Wollaston, and Deer Lakes and on to the Missinnippi River--the
 quickest way home by the frozen river trails. He'd unhitched at this
 shack he found on Crooked River Creek, and was waiting till the
-"Hoo-doo"<ref target="ecgirls">*</ref><note id="ecgirls" n="*"
+"Hoo-doo"<ref target="ecgirls0005p75n1">*</ref><note id="ecgirls0005p75n1" n="*"
 resp="auth" place="foot">* Bad luck.</note> let him go. There was a
 spell of forgetfulness after that--evidently illness hampered him;
 then he said he had buried the dust, and Gijik would tell them
@@ -1333,7 +1485,7 @@ a man. Then they must leave the Log House and go down to Montreal and
 make an engineer of Donald. All this was more and more difficult to
 decipher, because the sentences were disconnected as well as such
 faint writing. Quite at the end of the letter, which was not signed or
-finished--he had intended to continue it,<pb n="76     GIRLS ON THE
+finished--he had intended to continue it,<pb n="76 GIRLS ON THE
 GOLD TRAIL"/> no doubt--came a warning renewed against some one whose
 name was left out. And that was all. Just odd scraps of paper all
 shapes and sizes.</p>
@@ -1354,7 +1506,7 @@ given that man anything I possessed, and obliged him to stay and tell
 me everything; but it was so long before I could read it well enough
 to understand, and then he was gone. Jim, we <hi rend="italic">must</hi> see him again
 somehow, and the wife too. There, I'll go to bed, children. We will
-talk more to-morrow."</p><pb n="77     PETER'S HEART'S DESIRE"/>
+talk more to-morrow."</p><pb n="77 PETER'S HEART'S DESIRE"/>
 <p>When she and Dolly were gone, the others said to each other,
 "She'll be better now she really knows, poor little Mum;" and cutting
 into the dead pause that followed, Donald asked,--</p>
@@ -1373,7 +1525,7 @@ the place where the bear charged. It seemed he had a sled and dogs,
 but was travelling light and seemed in a hurry.</p>
 <p>"Fine buck he was," allowed the old man. "Right smart Injun,
 trigged up with all that fine work? I seen him strike camp and take
-the trail after he quit this. He wasn't allowin'<pb n="78     GIRLS ON
+the trail after he quit this. He wasn't allowin'<pb n="78 GIRLS ON
 THE GOLD TRAIL"/> no grass to sprout under his moccasins. Dunno when
 he came in--before dawn, like enough, and slep' in the day. Well, he
 was a right smart buck."</p>
@@ -1393,7 +1545,7 @@ not get away from the immense importance of the treasure--that gold
 dust--and of the journey to get it. The first and most obvious fact
 was this, that it must be fetched, and there was no one to fetch it
 but the Lockharts themselves. For days no one referred to the matter,
-though they were all thinking of it. Then Peggy,<pb n="79     PETER'S
+though they were all thinking of it. Then Peggy,<pb n="79 PETER'S
 HEART'S DESIRE"/> stealing down to the river-bank to look at the ice
 and muddy water sweeping away to the eastward, came upon Peter
 apparently doing the same thing. Both girls stood silently looking and
@@ -1414,7 +1566,7 @@ tiresome that Pegtop was so slow.</p>
 <p>"It's a serious question," said Peggy. "There's a lot to it,
 Pete. First of all, to take the long trail all that way is pretty hard
 for men, even the toughest of them, and Jim's only sixteen. Then we
-should leave mother alone."</p><pb n="80     GIRLS ON THE GOLD
+should leave mother alone."</p><pb n="80 GIRLS ON THE GOLD
 TRAIL"/>
 <p>"What about Dick Hearne?" asked Peter sharply.</p>
 <p>"He's an old man; he's very slow. Once we get up there among the
@@ -1424,7 +1576,7 @@ gold. What about mother then?"</p>
 made a gesture of almost passionate annoyance.</p>
 <p>"You are always the same--ice, freezing every little river of
 adventure. I believe you'd like to do just chores<ref
-target="ecgirls">*</ref><note id="ecgirls" n="*" resp="auth"
+target="ecgirls0005p80n1">*</ref><note id="ecgirls0005p80n1" n="*" resp="auth"
 place="foot">* Household tasks.</note> every hour of your life, Peg,
 round and round and never start out on a new trail. I'm <hi
 rend="italic">dying</hi> to go, I tell you truly. You bet Jim is
@@ -1437,7 +1589,7 @@ hunting trouble? We shall have some hold-ups, but I'm allowing a month
 or six weeks outside the time for that. Mother will be busy all
 summer. She'll have Dick and the children, and before winter--end of
 Many-caribou-in-the-woods month--we shall be safe home with the
-stuff. Then, if mother<pb n="81     PETER'S HEART'S DESIRE"/> wishes,
+stuff. Then, if mother<pb n="81 PETER'S HEART'S DESIRE"/> wishes,
 we can go to Edmonton, or anywhere. Can't you see how easy it is
 really when you face it?"</p>
 <p>"I see how easy you make it, Pete. Sounds all right the way you put
@@ -1457,7 +1609,7 @@ use of arguing? Point is, we shall <hi rend="italic">have</hi> to do it, so you 
 make the best of the job to start with."</p>
 <p>Now there was so much truth in this last remark that Peggy answered
 nothing. She had a clear, orderly vision about things, and realized
-this at any rate. Peter saw her mind<pb n="82     GIRLS ON THE GOLD
+this at any rate. Peter saw her mind<pb n="82 GIRLS ON THE GOLD
 TRAIL"/> and, loving her as she did with a most devoted admiration,
 softened from urgency to persuasion.</p>
 <p>"If it were nothing there'd be no fun, you see, would there, old
@@ -1477,7 +1629,7 @@ firmness. "We ought to remember she's had this bad knock, and not
 begin to worry her yet about trails and adventures. She comes first,
 and she's got a lot on her shoulders."</p>
 <p>Gloom fell upon Peter's spirit like a blight. She went to her work
-with lagging steps. The<pb n="83     PETER'S HEART'S DESIRE"/> bare
+with lagging steps. The<pb n="83 PETER'S HEART'S DESIRE"/> bare
 idea of having to wait a year--more than that, as the start was bound
 to be in May at earliest--lay like a weight on her mind. Raa was lost
 or dead! There was no hope now of poor Dad's return--the door was shut
@@ -1496,7 +1648,7 @@ she thought, a little pressure was allowable. It would be so much
 better for everybody to get this business done and finished.</p>
 <p>Considering, then, this dreary outlook, Peter got the surprise of
 her life at supper that night, and it was Mrs. Lockhart who gave
-it.</p><pb n="84     GIRLS ON THE GOLD TRAIL"/>
+it.</p><pb n="84 GIRLS ON THE GOLD TRAIL"/>
 <p>"Dick thinks the rivers will be clear and all conditions as
 favourable as we can expect in a month or so from now," she said. "Jim
 and Dick are going to make a new canoe at once, longer and stronger
@@ -1519,7 +1671,7 @@ list. Dick will tell us; he knows."</p>
 nothing had been said as to those picked out for the venture! Dick
 apparently, Jim too, Peggy seemed to be included! She dared not ask
 the question that would settle it, and listened with a drumming in
-her<pb n="85     PETER'S HEART'S DESIRE"/> ears to the talk that
+her<pb n="85 PETER'S HEART'S DESIRE"/> ears to the talk that
 followed. Canoe must be about fifteen feet or more, not less. It must
 be made of the strong winter bark, in one piece without a break
 underneath. They must have small steel traps as well as wires, a
@@ -1540,7 +1692,7 @@ Mr. <hi rend="italic">Boxer</hi>, because he sat up and boxed Jenny in such a 'c
 fashion. The collie was rather nervous of his smacks, too; he had
 claws.</p>
 <p>She explained her feeling to old Hearne, who was devoted to her;
-also to Donald, who was almost shocked.</p><pb n="86     GIRLS ON THE
+also to Donald, who was almost shocked.</p><pb n="86 GIRLS ON THE
 GOLD TRAIL"/>
 <p>"You see," she said, "it's quite a usual thing to go on the trail
 in the North; everybody does it sometimes. But it's not usual to have
@@ -1563,7 +1715,7 @@ and Dolly."</p>
 <p>"No, Dick must stay here. There's too much to do. Jim goes with Peg
 and Peter."</p>
 <p>Peter felt as though the floor rose and hit her in the face. Her
-voice when she spoke was a new voice,--</p><pb n="87     PETER'S HEART'S
+voice when she spoke was a new voice,--</p><pb n="87 PETER'S HEART'S
 DESIRE"/>
 <p>"<hi rend="italic">I'm</hi> to go, mother?"</p>
 <p>"Yes, dear. You can stand a lot, and I couldn't let Peggy go unless
@@ -1582,7 +1734,7 @@ voice, "Yes, if we die for it, we'll sure bring back that gold. Dad
 shan't have worked for nothing. He said you must have it, and you
 shall have it."</p></div>
 
-<pb n="[88]"/><div id="ecgirls" type="chapter" n="6"><head>CHAPTER
+<pb n="88"/><div id="ecgirls0006" type="chapter" n="6"><head>CHAPTER
 VI<lb/>A WOLF HOWLS IN THE NIGHT</head>
 <p>JUST about a month after that, the <hi rend="italic">Kinoj</hi>--in
 Indian language, meaning the "Pike"--was on her way down river heading
@@ -1617,7 +1769,7 @@ laughed because he was well content, enjoying himself immensely. Peggy
 alone looked serious. The only thing she said was,--</p>
 <p>"I wish mother knew that we're having a real good time. She went on
 the trail herself, and it was pretty bad then."</p>
-<p>"Yellow Head Pass, you mean," Jim an<pb n="90     GIRLS ON THE GOLD
+<p>"Yellow Head Pass, you mean," Jim an<pb n="90 GIRLS ON THE GOLD
 TRAIL"/>swered. "I remember that." Then his face fell, because he
 remembered Raa also.</p>
 <p>What was strange at first became habit in a few days, each one of
@@ -1658,7 +1810,7 @@ wonder whether that Winchester of Neumann's <hi rend="italic">was</hi> Dad's? I 
 was--always shall. The initials were pretty strong evidence."</p>
 <p>"What are you talking about?" asked Jim, just glancing up from his
 job of getting ready a snared rabbit for breakfast.</p>
-<p>"Oh, I forgot; it was Don who told me.<pb n="92     GIRLS ON THE
+<p>"Oh, I forgot; it was Don who told me.<pb n="92 GIRLS ON THE
 GOLD TRAIL"/> You others didn't know; something got in the way--Raa
 was lost. I was going to tell you, Jim, and then, what with Raa, and
 the bear and the Cedar--"</p>
@@ -1679,7 +1831,7 @@ it's true." Jim positively growled as he gave this opinion.</p>
 <p>"Thought you liked him, Pegtop?"</p>
 <p>"No--never. And La Perle's nearly as bad. Not quite, of course, but
 he's got a face like a mink--horrid little beast! Always slinking and
-biting--little bloodsucker!"</p><pb n="93     A WOLF HOWLS IN THE
+biting--little bloodsucker!"</p><pb n="93 A WOLF HOWLS IN THE
 NIGHT"/>
 <p>Peter and Jim laughed at this outburst from level-headed Pegtop,
 the former saying warmly, "I am so pleased. I hate them, and it's nice
@@ -1703,7 +1855,7 @@ over-shadowing them, rose the rocky knoll with its crown of pines. It
 was the end of a spur, apparently, and rose into hills as it went
 inland.</p>
 <p>Peter, unable to sleep, lay staring at this rampart and the shape
-of it, so humpish!<pb n="94     GIRLS ON THE GOLD TRAIL"/> She
+of it, so humpish!<pb n="94 GIRLS ON THE GOLD TRAIL"/> She
 wondered what was on the other side. Then she heard, far away, the
 howl of a wolf, terribly desolate and unmistakable in the quiet
 night. She had heard that sound very often in winter cold at the Log
@@ -1724,7 +1876,7 @@ feelings. Again she looked towards the black barrier, and at that
 moment the wolf cry came again from beyond it--anxious, wailing!</p>
 <p>Peter's heart gave a little leap of sheer excitement. This
 wandering wolf had scented the camp on the west wind, and was
-coming.<pb n="95     A WOLF HOWLS IN THE NIGHT"/> She wondered what it
+coming.<pb n="95 A WOLF HOWLS IN THE NIGHT"/> She wondered what it
 would do--certainly not approach the fire in any case. She gazed long
 and keenly at the rocks from behind which the cry came. Nothing;
 surely the wolf would go away up into the woods. It would not come
@@ -1744,7 +1896,7 @@ inquisitiveness. She had often heard from old Dick how wolves will
 come, six or seven even, and actually sit round a hunter's fire like
 dogs, enjoying the warmth, with their tongues hanging out--<hi rend="italic">when</hi> they
 are well fed, not when they are hungry! Was this wolf coming? She was
-very keen indeed to have<pb n="96     GIRLS ON THE GOLD TRAIL"/> a
+very keen indeed to have<pb n="96 GIRLS ON THE GOLD TRAIL"/> a
 real experience, and waited breathless for fear of scaring the wild
 thing.</p>
 <p>The shape of it was lost as it reached the base of the rocks, and
@@ -1765,7 +1917,7 @@ intently.</p>
 of a wolf--very large, too, and shaggy; it crawled low on the
 ground. Suddenly Peter fancied it was going to spring, and with a
 quick move she pulled a stick of smouldering wood from the fire and
-waved it<pb n="97     A WOLF HOWLS IN THE NIGHT"/> in little
+waved it<pb n="97 A WOLF HOWLS IN THE NIGHT"/> in little
 jerks. The sparks flew about, and flame ran up the branch. The
 crouching beast gave a quick swerve aside, but made no sound. A yard
 or two off it stopped again, and then Peter heard a low whine--a
@@ -1786,7 +1938,7 @@ wide-awake voice of Jim.</p>
 <p>"Sense? Here's Raa!" answered Peter in a tone of lofty triumph.</p>
 <p>Jim snorted. It is safe to say that he didn't believe it, but was
 too polite to give his sister the lie.</p>
-<p>"Well, she wouldn't be nursing a wolf,"<pb n="98     GIRLS ON TILE
+<p>"Well, she wouldn't be nursing a wolf,"<pb n="98 GIRLS ON TILE
 GOLD TRAIL"/> remarked Peggy, rubbing sleep out of her eyes, and
 matter-of-fact as usual.</p>
 <p>"Put wood on the fire and light up a bit," went on Peter. "He's got
@@ -1808,7 +1960,7 @@ panful of water. Jim said nothing, but his face grew blacker every
 minute.</p>
 <p>There was a stout thong of babiche, made of moose-hide, round the
 dog's neck, and what looked like the remains of a hastily made muzzle
-of the same, plaited; to this collar<pb n="99     A WOLF HOWLS IN THE
+of the same, plaited; to this collar<pb n="99 A WOLF HOWLS IN THE
 NIGHT"/> dangled a rope of the same babiche, and this was obviously
 cut through, leaving three or four feet of it trailing. The inference
 was that Raa had been muzzled, but had managed to rub and scrape this
@@ -1830,7 +1982,7 @@ day."</p>
 and then he'll tell us. Won't you, old man? A dog like Raa remembers
 to the end, either way, kindness or brutality--just like an Indian;
 they are on it till they die. I suppose it's not so very queer after
-all."</p><pb n="100     GIRLS ON THE GOLD TRAIL"/>
+all."</p><pb n="100 GIRLS ON THE GOLD TRAIL"/>
 <p>For three days the little camp rested under the shade of the rocky
 bluff and by the swiftly moving river, because daylight proved to them
 how very bad was old Raa's condition. What you could not see at night
@@ -1850,7 +2002,7 @@ first night they had not noticed anything much, because of the noise
 of the river and the west wind in the pine tops--the sound, too, was
 blown away from them; but next day it began to impress itself, and
 presently Jim said he was sure it meant the falls where the river
-tumbled into the lonely three-cornered lake that fills<pb n="101     A
+tumbled into the lonely three-cornered lake that fills<pb n="101 A
 WOLF HOWLS IN THE NIGHT"/> up the sharp bend of the Missinnippi at
 this point.</p>
 <p>"Oh, <hi rend="italic">triumph!</hi>" Peter gave a shout. "That shows what a long way
@@ -1872,7 +2024,7 @@ Jim--for Raa, I mean?"</p>
 the falls it would bring quite a new kind of trail.</p>
 <p>"We must cross, you see," he explained; "cross before the current
 gets too strong, and take the trail through the woods. That means hand
-porterage of all our pack, besides<pb n="102     GIRLS ON THE GOLD
+porterage of all our pack, besides<pb n="102 GIRLS ON THE GOLD
 TRAIL"/> the canoe. We shall find it a load without fish."</p>
 <p>Peggy said no more. She saw the difficulty. Peter brushed it aside
 cheerfully.</p>
@@ -1894,7 +2046,7 @@ way."</p>
 of Peter, but regarded her rather as one might a keg of dynamite--you
 never knew what she would be up to or what explosion she might cause!
 You had to be cautious in your dealings with her.</p>
-<p>Meanwhile Raa's wounds were being treated<pb n="103     A WOLF
+<p>Meanwhile Raa's wounds were being treated<pb n="103 A WOLF
 HOWLS IN THE NIGHT"/> with a certain healing balsam that the Indians
 use. It oozes from cracks in trees in the form of gum. Of course he
 licked it off where he could reach it, but he was mending every hour
@@ -1930,7 +2082,7 @@ visit another tribe in all their best. Dad told me about it; we saw a
 lot of them dressed up when we went down to the settlement. You bet
 they've been potting poor old M&#x00E2;kw&#x00E2; and put on these
 things to pacify his spirit. Beads, quills, and wool, fringes, and
-feathers! Rum<pb n="105     THE FOREST TRAIL"/> notions they have! But
+feathers! Rum<pb n="105 THE FOREST TRAIL"/> notions they have! But
 they'd got old M&#x00E2;kw&#x00E2;'s hide, sure thing. I saw it in the
 last canoe; must have come some way, for we didn't hear their
 shots."</p>
@@ -1953,7 +2105,7 @@ you got some?"</p>
 <p>"Great snakes, I expect they all got away!" cried Peter
 uneasily.</p>
 <p>"As long as the line hasn't got away--" began Peggy, but Peter was
-gone; like a shaft<pb n="106     GIRLS ON THE GOLD TRAIL"/> from a
+gone; like a shaft<pb n="106 GIRLS ON THE GOLD TRAIL"/> from a
 blow-gun she flew, and as noiseless on her active feet.</p>
 <p>The line was all right, thanks to a hitch over a stump; also there
 were fish on the hooks, besides those she had caught before. Peter
@@ -1974,7 +2126,7 @@ laughed dryly.</p>
 don't see it in the same light as we do. Besides, no good wearing out
 our moccasins running after them. They'll come here fast enough
 presently; hope they will, too, for I want to ask them about the
-forest trail and the falls."</p><pb n="107     THE FOREST TRAIL"/>
+forest trail and the falls."</p><pb n="107 THE FOREST TRAIL"/>
 <p>Sooner than the three expected Jim's prophecy came true.</p>
 <p>When supper was over, and the little camp quiet in fire-glow, while
 they sat talking over plans, Raa stiffened in warning; the hair on his
@@ -1996,7 +2148,7 @@ travellers.</p>
 <p>"Bo' jou'. Bo' jou'," said the oldest and foremost as Jim met him,
 and in friendly style they accepted tobacco and sat down on their
 heels in a half circle, the last of the three men being almost
-entirely in shadow.</p><pb n="108     GIRLS ON THE GOLD TRAIL"/>
+entirely in shadow.</p><pb n="108 GIRLS ON THE GOLD TRAIL"/>
 <p>As they filled their pipes they observed silently the two girls and
 the dog in the background, the girls receiving the most casual glance,
 as they proved nothing except that this expedition could not be
@@ -2036,7 +2188,7 @@ opposite shore and cut across the forest, a matter of sixty miles,
 perhaps, or, as Oo-koo-koo put it, "two sleeps" for the white brother;
 he would have done it in shorter time, as the Indians carried up to
 two hundred pounds by a "tump line" passed across their foreheads.</p>
-<p>Jim understood, and was not dismayed.<pb n="110     GIRLS ON THE
+<p>Jim understood, and was not dismayed.<pb n="110 GIRLS ON THE
 GOLD TRAIL"/> They expected to be driven to porterage. By that little
 diagram in the ashes he grasped the outlook, and the journey. He made
 several suggestions that occurred to him, but the chief dismissed them
@@ -2056,7 +2208,7 @@ and that he wanted to gain the friendship of the Indians. Nobody gave
 valuable goods away for nothing, in the opinion of the Crees,
 therefore the inexperience of this party was patent to them also.</p>
 <p>Having got all they could, the three men departed, Oo-koo-koo
-asserting that the hearts<pb n="111     THE FOREST TRAIL"/> of the
+asserting that the hearts<pb n="111 THE FOREST TRAIL"/> of the
 Crees were very good towards this white brother. From first to last
 the third Indian held what would be called in the law world a watching
 brief. Only his glittering black eyes showed he was not asleep, and he
@@ -2120,7 +2272,7 @@ breather."</p>
 <p>It was good going indeed, the best they could have hoped for--miles
 of pine forest, dazzling with its vistas of upright boles, over a
 carpet of pine needles with wonderfully little undergrowth. Grand
-going for a start, and<pb n="114     GIRLS ON THE GOLD TRAIL"/> the
+going for a start, and<pb n="114 GIRLS ON THE GOLD TRAIL"/> the
 sort of conditions they could not often hope for, as experience of the
 home forest had taught them. Seemingly endless miles of trees and
 tangled brushwood, rocks, ups and downs, terribly steep and difficult,
@@ -2141,7 +2293,7 @@ with its falls and rapids, was "two sleeps." Indians travelled thirty
 miles a day and more. The Lockharts felt very envious of these powers;
 but of course it might not be really so much as sixty. Peter felt sure
 it was not. When they made camp they were so tired and stiff with the
-exercise of un<pb n="115     THE FOREST TRAIL"/> accustomed muscles
+exercise of un<pb n="115 THE FOREST TRAIL"/> accustomed muscles
 that they all slept like winter bears.</p>
 <p>Peggy was up first, staunchly fulfilling her duties in spite of
 being stiffer than the night before.</p>
@@ -2161,7 +2313,7 @@ certain oppression of heat.</p>
 himself vigorously, remarked, "Thunderstorm!"</p>
 <p>"I thought it was getting like that," Peggy allowed. "Never mind,
 it will freshen us up and fill the streams. Let's camp when we come to
-water."</p><pb n="116     GIRLS ON TIE GOLD TRAIL"/>
+water."</p><pb n="116 GIRLS ON TIE GOLD TRAIL"/>
 <p>"Look at Raa," said Peter.</p>
 <p>Now the wind had shifted from its normal westerly position, and was
 coming in spasmodic puffs from the east and north. As every one knows,
@@ -2182,7 +2334,7 @@ camp before the storm comes."</p>
 hour they plodded on, and then the welcome sound of a small stream
 stopped them for the night. They had come on a first-class camping
 ground, and with great satisfaction set about their work. Dense clumps
-of banksian pine grew high enough to<pb n="117     THE FOREST
+of banksian pine grew high enough to<pb n="117 THE FOREST
 TRAIL"/> shield them from the weather, and forest trees of many kinds
 met in a roof high above. Aside from the track but a yard or two
 meandered the stream that had stopped them, its steepish, fern-grown
@@ -2204,7 +2356,7 @@ moss. The second would not interfere with them, they decided--the
 storm would come and be over; they'd have a fresh forest for the
 morning travel, and meanwhile sleep sound.</p>
 <p>So people settle things, and the fates overturn their
-plans.</p><pb n="118     GIRLS ON THE GOLD TRAIL"/>
+plans.</p><pb n="118 GIRLS ON THE GOLD TRAIL"/>
 <p>The supper finished, all three rolled up in their blankets and went
 to sleep at once. Then the thunder began, far away, with booming
 echoes. Lightning shivered with a sort of spasmodic gleam, showing up
@@ -2245,7 +2397,7 @@ frightened and silly. It stared trembling at the fightings of its
 mother when the white light showed up the scene.</p>
 <p>"What a <hi rend="italic">vile</hi> shame!" cried Peter to the forest, and in one instant
 made up her decided mind. Up the tree she climbed with little
-difficulty, flung herself out along the branch,<pb n="120     GIRLS ON
+difficulty, flung herself out along the branch,<pb n="120 GIRLS ON
 THE GOLD TRAIL"/> and hanging over, knife in hand, cut through the
 <hi rend="italic">loop</hi>; which was clever, because, had she simply severed the cord above
 the loop, the poor beast would have died before she could get down to
@@ -2280,7 +2432,7 @@ conclusion, and the trail was so strenuous that last day that no one
 had energy to waste!</p>
 <p>In this way. The forest became so much denser that the travellers
 were forced to cut a passage for the canoe. If ever you come to a
-winding tunnel about three feet from the<pb n="122     GIRLS ON THE
+winding tunnel about three feet from the<pb n="122 GIRLS ON THE
 GOLD TRAIL"/> ground, when you are on the trail through forests of the
 north-west, you will know that a canoe has been carried through It is
 a fairly arduous task, but the only way to make it.</p>
@@ -2299,7 +2451,7 @@ sat up suddenly and sniffed with her head raised high and nostrils
 moving. "I swear I smell river," she declared.</p>
 <p>Jim grunted. He didn't think they could have got through yet.</p>
 <p>Peggy suggested that the peninsula was not so wide as Oo-koo-koo
-thought. "Indians<pb n="123     FORTUNE OF THE TRAIL"/> measure by
+thought. "Indians<pb n="123 FORTUNE OF THE TRAIL"/> measure by
 'sleeps,'" she reminded them. "I don't see how it can be
 accurate."</p>
 <p>"All the same they <hi rend="italic">know</hi>," Jim said. "We haven't done badly." He was
@@ -2320,7 +2472,7 @@ added to the river smell, and the mist that clings to its shores
 before sunrise grew thicker. About a mile from the camp she came out
 suddenly on the bank, and her first look was forward--on the coming
 trail, to see what it would be and what it promised. It is more rocky
-here than back above the<pb n="124     GIRLS ON THE GOLD TRAIL"/>
+here than back above the<pb n="124 GIRLS ON THE GOLD TRAIL"/>
 falls. Rapids would be probable, for the water looked shallow and
 pebble-bottomed. That she took in with the first glance. Then, looking
 ahead, saw something startling and very arresting.</p>
@@ -2363,7 +2515,7 @@ rend="italic">Sure</hi> he shot Raa, and I bet he stole him in the
 first place. He poisoned old Neumann's huskies, and my opinion is that
 he caught Raa to <hi rend="italic">sell him</hi> to Neumann. Just what
 a low-down <hi rend="italic">neche</hi> would do--don't you see?
-Indians are sharp as thorns. They see a<pb n="126     GIRLS ON THE
+Indians are sharp as thorns. They see a<pb n="126 GIRLS ON THE
 GOLD TRAIL"/> notion like that a lot quicker than we should. Kill the
 trappers' dogs, and sell him Raa at a top figure. It doesn't matter to
 the Indian if Raa gets away after Neumann has handed over the dollar
@@ -2385,7 +2537,7 @@ perhaps."</p>
 <p>"He can hit. He shot Raa, we <hi rend="italic">know</hi>," said
 Peggy.</p>
 <p>"We don't know," muttered Peter obstinately. "Raa wouldn't let him
-get that near."</p><pb n="127     FORTUNE OF THE TRAIL"/>
+get that near."</p><pb n="127 FORTUNE OF THE TRAIL"/>
 <p>But neither of the others attended to her opinion. They had decided
 how the matter stood, and of course it was only one of Peter's
 "feelings." Besides, there was a lot too much to do for
@@ -2405,7 +2557,7 @@ too near the fire, because leather shrinks.</p>
 getting on so fast. Hundreds of miles had they come already, and
 though they knew what the journey back must be--against the stream, up
 the rapids, every obstacle enhanced, too, because of the weight they
-would have to carry--yet the buoyancy of their<pb n="128     GIRLS ON
+would have to carry--yet the buoyancy of their<pb n="128 GIRLS ON
 THE GOLD TRAIL"/> spirits and the splendid healthiness of this great
 life made them inclined to laugh at the prospect. It was <hi rend="italic">sure</hi> to be
 all right! Luck was with them--had been from the first, said they.</p>
@@ -2425,7 +2577,7 @@ as well as forest creatures.</p>
 course night, and making fine progress. They met with Indians, but it
 was a passing acquaintance, concluding amicably with a small present
 of tea or tobacco. They met old Salt Brydon, who had been a pal of
-Dick Hearne long years since, and his<pb n="129     FORTUNE OF THE
+Dick Hearne long years since, and his<pb n="129 FORTUNE OF THE
 TRAIL"/> "pardner" Olaf Sorenson, the big Swede; they were not coming
 down to the settlements as far south as Cumberland House, but held
 their pelts for the visit of the trader Mr. McAndrew, who went right
@@ -2445,7 +2597,7 @@ what they all know."</p>
 <p>Suddenly Peggy had a disquieting thought. "Jim, do you think some
 of the men will have found out the whole secret, and dug up Dad's
 treasure? He might have been watched."</p>
-<p>Jim shook his head, saying he depended on<pb n="130     GIRLS ON
+<p>Jim shook his head, saying he depended on<pb n="130 GIRLS ON
 THE GOLD TRAIL"/> Gijik. He was sure the Ojibway believed the secret
 was still a secret, nor could he be deceived. "He's sure too cute,"
 declared Jim.</p>
@@ -2488,7 +2640,7 @@ blinking lazily.</p>
 up a little at the corners--watched her alertly. There was a green
 shine in the eyes. Raa had that to a certain extent--not the sort of
 shine you would care to see supposing you had made camp in winter
-with<pb n="132     GIRLS ON THE GOLD TRAIL"/> the thermometer fifty
+with<pb n="132 GIRLS ON THE GOLD TRAIL"/> the thermometer fifty
 below zero, and no food anywhere except in your own pack!</p>
 <p>Without moving much, Peter pinched Peggy, who was next her, and was
 answered by a whispered,--</p>
@@ -2531,7 +2683,7 @@ such terror into the bravest heart.</p>
 <p>Only one mischance of a really tiresome nature occurred on the way
 up north, and that was on this same Lake Wollaston. The weather had
 been almost perfect from the time they left Log House till nearly the
-end of June.<pb n="134     GIRLS ON THE GOLD TRAIL"/> Then one day the
+end of June.<pb n="134 GIRLS ON THE GOLD TRAIL"/> Then one day the
 wind was stronger than usual, and the lake hit up into a flurry of
 waves.</p>
 <p>It was a favourable wind, so they held on, paddling with renewed
@@ -2574,7 +2726,7 @@ there!--what must be, must.</p>
 <p>You see there was a very dark cloud over Jim's cheerful outlook. He
 was the person who tied up the canoe, and he could not remember for
 the life of him exactly how he had done it. He thought it was a really
-strong hitch. He<pb n="136     GIRLS ON THE GOLD TRAIL"/> was so
+strong hitch. He<pb n="136 GIRLS ON THE GOLD TRAIL"/> was so
 careful at the time. He felt certain he had been careful, as he never
 forgot the importance of the canoe. And yet it was gone, and he felt
 uneasily that even Peggy believed the loss to be his fault. Neither of
@@ -2594,7 +2746,7 @@ with growth of briar and slippery with wet moss on stones. They rested
 at midday, silent and depressed, ate pemmican, drank tea, and went on
 again till dusk. No canoe was to be seen.</p>
 <p>Rolled in their blankets they slept, started again before dawn, and
-went on. During the<pb n="137     FORTUNE OF THE TRAIL"/> morning
+went on. During the<pb n="137 FORTUNE OF THE TRAIL"/> morning
 Peter roused to cheerfulness again. She felt so sure it would all turn
 out well. Raa, being hungry, chased rabbits, also caught them. The sun
 shone; chickadees, excited by these unusual presences, sang their
@@ -2617,7 +2769,7 @@ down to the water's edge, and stood there watching the moon--the big
 yellow summer moon--rise behind the forest, so that branches seemed
 painted on its surface, and the broken light began to pick out rocks
 and moss in the river bank.</p>
-<p>Motionless Peggy stood and heard a sound<pb n="139     A SONG IN
+<p>Motionless Peggy stood and heard a sound<pb n="139 A SONG IN
 THE WILDERNESS"/> on the wind from the lake; there was something
 rollicking and joyous in the sound, though no words were audible. Then
 the other two came from the fire and joined her. They all listened,
@@ -2640,7 +2792,7 @@ man with the strongest, swiftest strokes, and towing behind a second
 canoe empty.</p>
 <p>The paddles turned inshore by the side of a water-swept finger of
 sand. Jim and Peter sprang down to help; there was a meeting on the
-spit, a busy minute, and the three walked<pb n="140     GIRLS ON THE
+spit, a busy minute, and the three walked<pb n="140 GIRLS ON THE
 GOLD TRAIL"/> up together towards Peggy, who was standing in the
 moonlight with eyes shining and yellow curls looking like spun
 silver.</p>
@@ -2661,7 +2813,7 @@ trapper, a French Canadian, born and bred in the forests. In person he
 was not very tall, but well-built, and just as wiry and agile as a
 catamount--the name he gave to the big wild-cat of the woods. His
 black eyes danced with gaiety and shrewd intelligence, and instantly,
-though they hardly knew it, he<pb n="141     A SONG IN THE
+though they hardly knew it, he<pb n="141 A SONG IN THE
 WILDERNESS"/> began to influence the three Lockharts, while Raa
 accepted him at once without so much as a snarl.</p>
 <p>"And this canoe?" he asked as they all sat round the little
@@ -2705,7 +2857,7 @@ when there's a world of rabbits around. Now we've got to the bottom of
 it. We all were dead asleep, and the enemy came along to the bank but
 never landed just hacked through Jim's knot--"</p>
 <p>"Enemy!" echoed Peggy. "What enemy have we?"</p>
-<p>"I told you, the Cree," said Jim, very posi<pb n="143     A SONG IN
+<p>"I told you, the Cree," said Jim, very posi<pb n="143 A SONG IN
 THE WILDERNESS"/>tive. "For some reason known to himself he's got a
 down on us. You bet he stole Raa and tried to shoot him
 afterwards. He's been tracking us all along."</p>
@@ -2726,7 +2878,7 @@ eyes, but said no more. Presently they all rolled up in their blankets
 and went to sleep, taking the precaution of leashing Raa with a string
 of raw hide; he was too obedient to bite it through.</p>
 <p>But no enemy came, which is usually the way when you prepare for
-them!</p><pb n="144     GIRLS ON THE GOLD TRAIL"/>
+them!</p><pb n="144 GIRLS ON THE GOLD TRAIL"/>
 <p>That meeting with Corraine was the turning over of a fresh leaf in
 the story of the trail. He had been born and bred in the forests, and
 knew the rivers like roads. He taught them things that helped, because
@@ -2765,7 +2917,7 @@ shoulders almost fiercely.</p>
 <p>"What does God give us instincts for if we mayn't use them?" she
 demanded. "<hi rend="italic">Dogs</hi> know whom they may trust. You believe them,
 Jim--though all the same I'm not sure whether you'd believe Raa if he
-hated Neumann. Why do you like that man?"</p><pb n="146     GIRLS ON
+hated Neumann. Why do you like that man?"</p><pb n="146 GIRLS ON
 THE GOLD TRAIL"/>
 <p>"Well, he was a friend of Dad's. He never let any one down that I
 heard of. He didn't poison his own dogs, sure, and when he got so hot
@@ -2786,7 +2938,7 @@ spirits and in lovely weather, they landed to make camp. There was
 great rejoicing between the sisters, because they felt so near the end
 of the journey. Only that length of Slave River, and across Slave
 Lake, and they had <hi rend="italic">done</hi> it!</p>
-<p>The curious part was that in all their minds<pb n="147     A SONG
+<p>The curious part was that in all their minds<pb n="147 A SONG
 IN THE WILDERNESS"/> getting there seemed all. Getting back they did
 not discuss or appear to consider much. It would happen, they
 felt.</p>
@@ -2808,7 +2960,7 @@ what would you?"</p>
 gift," said Peggy, watching his brown face, which was like a hawk's
 about the brow and eyes. He seemed to see and hear what she could
 not.</p>
-<p>"You do not--no. That is deeferent. The<pb n="148     GIRLS ON THE
+<p>"You do not--no. That is deeferent. The<pb n="148 GIRLS ON THE
 GOLD TRAIL"/> woods are to me full of news--of message. Men there are,
 I feel, and there is something--"</p>
 <p>It was in Peggy's mind that Corraine was not happy about this
@@ -2828,7 +2980,7 @@ a winding silvery stream down in the bottom, and presently made out
 the shape of a man, then another man. They were camping down there on
 the mossy bank of the stream. Quite a perfect place, thought the girl,
 and said so to Corraine as she pointed out the two figures. He did not
-answer, and then she saw that he was watch<pb n="149     A SONG IN THE
+answer, and then she saw that he was watch<pb n="149 A SONG IN THE
 WILDERNESS"/>ing these campers with eyes that saw much more than she
 saw. His expression had changed to something tense and stern. Then he
 put out his hand, the strong, nervous brown hand that was
@@ -2849,7 +3001,7 @@ corn-coloured hair. Besides these things she was sweet in her steady
 unselfishness and wisdom. Full of common sense was Peggy.</p>
 <p>She was just going to answer him when something caught her eyes on
 the opposite cliff. Up till now she had been watching the gulch and
-the men down below. Then, quite sud<pb n="150     GIRLS ON THE GOLD
+the men down below. Then, quite sud<pb n="150 GIRLS ON THE GOLD
 TRAIL"/>denly, she noticed a movement, something passed from one clump
 of bush to another--it might have been a puma, though they were rare
 so far from the Rockies; hardly a deer, because it seemed to
@@ -2872,7 +3024,7 @@ rend="italic">Voil&#x00E0;</hi>--he wait and wait, but he cannot come
 near. These men of bad heart they can care for themself. <hi
 rend="italic">Bien</hi>, let them care; <hi rend="italic">we</hi>
 shall not make the mix-up. Come then; let us go."</p>
-<p>So they went, and saw no more of the little<pb n="151     A SONG IN
+<p>So they went, and saw no more of the little<pb n="151 A SONG IN
 THE WILDERNESS"/> camp down in the gulch, and the Indian prowling like
 a puma. Peggy was disturbed about it all, and troubled because this
 kind-hearted woodsman seemed cynical. When they got back under the
@@ -2893,7 +3045,7 @@ as he called it.</p>
 to the Fort. He'd been a stand-by in helping them forward; not that
 Jim thought so much of it as the others. After all they'd got on so
 far by themselves, he thought, but certainly Pierre had found the
-canoe and brought her to them. The girls<pb n="152     GIRLS ON THE
+canoe and brought her to them. The girls<pb n="152 GIRLS ON THE
 GOLD TRAIL"/> thanked him again and again for that good turn; Peter's
 mind pictured the delay and the distress vividly.</p>
 <p>"We can't thank you enough--how could we?" she said. "We shall
@@ -2916,7 +3068,7 @@ been injured by whites he might, in return, try to injure <hi rend="italic">all<
 whites.</p>
 <p>Later on Pierre Corraine departed into the morning mist, and the
 sisters felt a loss, much more than Jim did, naturally; for much
-as<pb n="153     A SONG IN THE WILDERNESS"/> the youngest member of
+as<pb n="153 A SONG IN THE WILDERNESS"/> the youngest member of
 the party liked and admired this capable woodsman, he "didn't see why
 they three shouldn't get on just as well without a stranger." In other
 words, Jim was the least bit jealous, which was plain to the
@@ -2972,7 +3124,7 @@ completeness in arrangements. Then--</p>
 struck this creek--going round and round hunting up a trail; and just
 see his hackles!"</p>
 <p>"Bear," said Jim briefly. His mouth was full, and he was enjoying
-his supper.</p><pb n="156     GIRLS ON THE GOLD TRAIL"/>
+his supper.</p><pb n="156 GIRLS ON THE GOLD TRAIL"/>
 <p>"Yes," agreed Peggy rather eagerly. "sure to be lots of bears
 coming down here." Then she called the dog and gave him his supper of
 fish, which he bolted and then lay down nose on paws, his lip just
@@ -2993,7 +3145,7 @@ a maddened beast. The three jumped to their feet, and Peter went off
 like a streak, with Jim after, calling her to come back. Peggy sat
 down again.</p>
 <p>"Oh dear," she said out loud; "what a horrible bother!" Then she
-remained mo<pb n="157     TERRORS OF THE GULCH"/>tionless, listening
+remained mo<pb n="157 TERRORS OF THE GULCH"/>tionless, listening
 and looking after the others into the shadows of the wood.</p>
 <p>Presently appeared figures coming down the gulch--Peter with her
 belt passed through Raa's collar, talking to him obviously, and
@@ -3013,7 +3165,7 @@ face," she said. "Poor old Raa! What a shame!"</p>
 <p>"Shame! And please remember this is only the beginning of trouble."
 Peter positively threw this bitter prophecy at her sister. She thought
 Peggy could not realize, or she would not be so quiet, not knowing
-that haunting dread in her sister's mind.</p><pb n="158     GIRLS ON
+that haunting dread in her sister's mind.</p><pb n="158 GIRLS ON
 THE GOLD TRAIL"/>
 <p>"I wish we had Pierre here," said Peggy.</p>
 <p>Then the others came up, talking.</p>
@@ -3036,7 +3188,7 @@ rescue, which she did with her peculiar power of self-possession.</p>
 <p>"I don't see how we can take the trail in company when Raa's turned
 nasty. What's he got such a hunch against Mr. Neumann for? He's not
 savage."</p>
-<p>Peter whispered under her breath, "Good<pb n="159     TERRORS OF
+<p>Peter whispered under her breath, "Good<pb n="159 TERRORS OF
 THE GULCH"/> for you, Pegtop," and gently clapped her hands
 together.</p>
 <p>Peggy took no notice. She was washing Raa's eye, and there was an
@@ -3055,7 +3207,7 @@ Lockhart four hundred. I was straight enough. When that Indian came
 around with the offer I didn't start back on the trail to give you the
 dog, because I was in a hurry with that load of pelts. I went on and
 did good business. Afterwards the dog got free and it seems he trailed
-you. Well, let me tell you he was a<pb n="160     GIRLS ON THE GOLD
+you. Well, let me tell you he was a<pb n="160 GIRLS ON THE GOLD
 TRAIL"/> sight of trouble. Dangerous he was; you couldn't touch him,
 neither me nor Louis--could we?" he appealed to La Perle, who made an
 expressive gesture of despair, while his sharp, squirrel-like eyes
@@ -3076,7 +3228,7 @@ was. Neumann allows he was pressed or he wouldn't have done it, but
 still it is a rum notion how you see a thing sometimes. I know I do."
 There was a modest pride in the boy's assertion. He looked
 pleased.</p>
-<p>"Cree?" said Peggy in her cool way.</p><pb n="161     TERRORS OF
+<p>"Cree?" said Peggy in her cool way.</p><pb n="161 TERRORS OF
 THE GULCH"/>
 <p>"Ah, I suppose you mean the poor man without an ear. Didn't you pay
 him all he asked, Mr. Neumann? Because he seems to stick to your
@@ -3099,7 +3251,7 @@ Coppermine River? Eh, Louis? Why, I'll take my oath--"</p>
 <p>"I thought you said he sold Raa to you last April on the way
 between Missinnippi River and Cumberland House Settlement?" broke in
 Peter, sharp as a frost and as hard. "Now you say you never saw the
-man."</p><pb n="162     GIRLS ON THE GOLD TRAIL"/>
+man."</p><pb n="162 GIRLS ON THE GOLD TRAIL"/>
 <p>"Miss Peter, he was not the same Cree," answered Neumann in a
 dogged manner. "There was a chap with no ear--or wounded after that
 fashion. He was up on the Slave a while back--never came south. There
@@ -3144,7 +3296,7 @@ who had rushed forward. "It will mend; it is no'sing, he is shock,
 that is all," and catching up his own pack he disappeared after his
 partner.</p>
 <p>"Of all the <hi rend="italic">cowards!</hi>" cried Peter
-stormily.<pb n="164     GIRLS ON THE GOLD TRAIL"/> "Look here, Peg,
+stormily.<pb n="164 GIRLS ON THE GOLD TRAIL"/> "Look here, Peg,
 let's see if his arm's broken first. No, look what a horrible hole in
 his coat; but it might be worse--the bullet's gone through something,
 Peg, because it's bleeding. Let's pray it is nothing to matter very
@@ -3166,7 +3318,7 @@ were killed, likely as not." She laughed bitterly. "He was pretty
 scarey, because he guessed the shot was meant for <hi
 rend="italic">him</hi>. So it was. Our friend the Cree, Peg. Don't you
 see they were all standing up together in front of the firelight,
-and<pb n="165     TERRORS OF THE GULCH"/> the man aimed at Neumann and
+and<pb n="165 TERRORS OF THE GULCH"/> the man aimed at Neumann and
 hit Jim, who was close to him. I wonder what that brute has done to
 make the Indian hate him so? You bet he treated the poor creature as
 he did Raa. One good thing, Pegtop, we're rid of that crowd."</p>
@@ -3207,7 +3359,7 @@ tarpaulin shelter they kept for themselves, because they knew Jim
 would be restless and unhappy if they did without.</p>
 <p>As the light grew they climbed up the steep above them and
 collected moss--the long, grey "caribou" moss that is so dry and
-elastic. This they brought down and made a grand<pb n="167     TERRORS
+elastic. This they brought down and made a grand<pb n="167 TERRORS
 OF THE GULCH"/> bed for Jim, and another for themselves under their
 shelter.</p>
 <p>"Let's have a <hi rend="italic">real</hi> house for once," said Peter. "I'm so sleepy, I
@@ -3228,7 +3380,7 @@ it was necessary to shoot one of the small spotted deer that came down
 to drink at night. It had got to be done, because Jim must have strong
 broth and meat, but neither of them liked the job. Peggy was the
 coolest and most determined.</p>
-<p>Then a curious thing happened, that saved<pb n="168     GIRLS ON
+<p>Then a curious thing happened, that saved<pb n="168 GIRLS ON
 THE GOLD TRAIL"/> them some pain, though it was horrible to
 witness.</p>
 <p>Jim was asleep, and the sisters decided to watch for some member of
@@ -3250,7 +3402,7 @@ helped, anyway," and froze in immobility.</p>
 <p>In about half an hour a small spotted doe came stepping delicately
 down the mossy track to the water. Every minute or two she checked and
 sniffed the air. Peggy felt her sister quiver. There was something in
-the<pb n="169     TERRORS OF THE GULCH"/> dainty beauty of this
+the<pb n="169 TERRORS OF THE GULCH"/> dainty beauty of this
 woodland creature that went to Peter's heart. From their almost
 cave-like shelter they could see the great soft eyes and wide,
 sensitive nostrils.</p>
@@ -3271,7 +3423,7 @@ the doe's body with terrible talons, then it gave a raucous scream,
 harsh and triumphant, as though it were boasting to the whole night
 what a fine thing it had done.</p>
 <p>As a rule, all wild things of the woods keep clear of the lynx,
-unless they must fight for<pb n="170     GIRLS ON THE GOLD TRAIL"/>
+unless they must fight for<pb n="170 GIRLS ON THE GOLD TRAIL"/>
 their lives; but on this particular night it seemed that there was a
 rival, for the screech was answered by one just as loud and hideously
 vicious, and out of the shadows on the other side of the track stepped
@@ -3323,7 +3475,7 @@ laughed.</p>
 weeks through this accident--certainly no fault of theirs.</p>
 <p>But fortune smiled on them once they got afloat. Everything went
 well with a kind of even success that was cheering. They had three
-days of porterage through woods when<pb n="173     THE BEAR ROCK"/>
+days of porterage through woods when<pb n="173 THE BEAR ROCK"/>
 rapids drove them ashore, and then they came out on the shores of the
 Lake of the Great Slave. There is a story about how that lovely lake
 came by its name, and the story is doubtless true, but too long to
@@ -3343,7 +3495,7 @@ Pierre Corraine had told them to do. Not to navigate the shores, or go
 round, which would take them many weeks, seeing that Great Slave is
 longer than Athabasca and very irregular, but to go straight across,
 steering by compass and the sun, and they should arrive hard by the
-entrance to<pb n="174     GIRLS ON THE GOLD TRAIL"/> Crooked
+entrance to<pb n="174 GIRLS ON THE GOLD TRAIL"/> Crooked
 River. The width here was perhaps thirty miles. Rather a big venture
 in such a frail craft--well-laden, too. Nor was it like going down a
 river; but not one of the three gave a thought to risk. The whole
@@ -3363,7 +3515,7 @@ pounds, Jim, do you think? What's our pack now?"</p>
 light pack for three now it was less, of course. He couldn't give a
 guess about the gold dust.</p>
 <p>They spoke of it in whispers, because it seemed rather
-awe-inspiring! Gold dust and<pb n="175     THE BEAR ROCK"/> nuggets
+awe-inspiring! Gold dust and<pb n="175 THE BEAR ROCK"/> nuggets
 that were to mean so much to their mother for the rest of her
 life. Suddenly Peter said,--</p>
 <p>"I remember hearing Dad say that seven thousand dollars weighs
@@ -3384,7 +3536,7 @@ tributary water, so cornpletely stopping it that they had caused a
 swampy lake behind, which was spreading far and wide. The Lockharts
 stopped the canoe to watch these strange creatures working, for they
 were not the least shy. No doubt they had begun by felling timber
-across the stream,<pb n="176     GIRLS ON THE GOLD TRAIL"/> gnawing
+across the stream,<pb n="176 GIRLS ON THE GOLD TRAIL"/> gnawing
 through poplar, willow, alder, and birch till the trunks began to
 obstruct the flow and make a sort of bridge; then they started on
 making a cement of mud and little twigs, which they carried in cakes
@@ -3404,7 +3556,7 @@ all the rivers stopped, and the woods turned into marshes just to
 amuse a silly idiot like a beaver! If the trappers didn't keep them
 under, where would any one be?"</p>
 <p>As Peggy and Peter had no idea of the answer to this question they
-said nothing, while Raa<pb n="177     THE BEAR ROCK"/> agreed
+said nothing, while Raa<pb n="177 THE BEAR ROCK"/> agreed
 whole-heartedly with Jim. He knew by bitter experience that if you
 jump into a river and grip a beaver that person simply goes to the
 bottom and bites at you with his terrible cutting teeth--the teeth
@@ -3425,7 +3577,7 @@ more.</p>
 sober voice,--</p>
 <p>"I vote we walk up the creek a little way, just to be sure; you
 remember--the pine tree above a rock shaped like a bear."</p>
-<p>"We don't know whether the bear is sitting<pb n="178     GIRLS ON
+<p>"We don't know whether the bear is sitting<pb n="178 GIRLS ON
 THE GOLD TRAIL"/> down or standing, do we?" asked Peggy, with a little
 furrow of anxiety between her eyebrows.</p>
 <p>Then Peter began to laugh, and she laughed so much that she sat
@@ -3446,7 +3598,7 @@ quiet creek.</p>
 off some of his feeling, perhaps, and when he got level with the rock
 on the hillside he allowed that it was like a bear. Many times bigger,
 but there was a space through the lower part that suggested the curve
-of ribs, with rock for back<pb n="179     THE BEAR ROCK"/> and
+of ribs, with rock for back<pb n="179 THE BEAR ROCK"/> and
 forelegs, and the smallish head of the great Polar bear, so snake-like
 and wicked.</p>
 <p>"That's it," he said aloud, and he stared.</p>
@@ -3468,7 +3620,7 @@ together. The roof was a thick thatch of coarse grass, kept down by
 big flat stones--a protection against snow, perhaps, and the fearful
 winter gales. The small pipe of a stove came through a hole in the
 wall, and there was one narrow window, covered with parchment. The
-heavy<pb n="180     GIRLS ON THE GOLD TRAIL"/> cross-barred door was
+heavy<pb n="180 GIRLS ON THE GOLD TRAIL"/> cross-barred door was
 hung on big leather hinges--three hinges, made of strong caribou hide,
 nailed with great nails.</p>
 <p>The whole place gave the impression of primitive strength, intended
@@ -3489,7 +3641,7 @@ course." She spoke briskly, but like an echo.</p>
 <p>"Not? Oh yes, I am--of course we had better," said Peter, and she
 opened the door.</p>
 <p>The thrill of entering this place changed Peggy's thoughts. She
-stood still, looking<pb n="181     THE BEAR ROCK"/> round. Not a large
+stood still, looking<pb n="181 THE BEAR ROCK"/> round. Not a large
 space, but big enough to hold three bunkers built against the wall,
 two on one side, one below the window, an iron stove, rather large, a
 rough table, a bench, and several stools. Behind the stove on the wall
@@ -3509,7 +3661,7 @@ a new complexion was put on things. Peter woke up from her queer
 trance and laughed. The bag of flour--the last--was opened, and Peggy,
 with a flushed face, started to make "unleavened cakes," for the yeast
 was finished. Peter rushed down to fish, but also demanded
-bacon. Peggy had been so<pb n="182     GIRLS ON THE GOLD TRAIL"/> mean
+bacon. Peggy had been so<pb n="182 GIRLS ON THE GOLD TRAIL"/> mean
 with it lately that this must be allowed also--on such a red-letter
 day.</p>
 <p>When Jim came back preparations were well forward, and he struck
@@ -3530,7 +3682,7 @@ make her comfortable for life.</p>
 discussing it all, because the shack was too hot inside, and they were
 all so used to open-air sleeping beneath the great white stars.</p>
 <p>Jim and Peggy talked and talked, settling the swift discovery of
-the gold and an immediate<pb n="183     THE BEAR ROCK"/> start
+the gold and an immediate<pb n="183 THE BEAR ROCK"/> start
 back. Peter sat with her long brown fingers locked round her bent
 knees, staring--up the creek to the bend where the pines shut it off,
 down to where the opening curved out into the river, across at the
@@ -3551,7 +3703,7 @@ the canoe up to the shack?"</p>
 coming out. The moon would not show till after midnight.</p>
 <p>"Why not?" retorted Peter. "Something happened to it once just
 because we were sure it wouldn't. I think it's nice to have it
-close."</p><pb n="184     GIRLS ON THE GOLD TRAIL"/> 
+close."</p><pb n="184 GIRLS ON THE GOLD TRAIL"/> 
 <p>"Oh yes, why not?" agreed Peggy. "There is no one here, but still
 one may as well be extra careful. You don't lose by it."</p>
 <p>So Jim went down, fetched the canoe up on his shoulder, and laid
@@ -3572,7 +3724,7 @@ the canoe with satisfaction. Then she noticed Raa--not asleep, but
 still, with his ears cocked, moving his wrinkled eyebrows over red
 speckled eyes. She could just see the light behind them, inside them,
 as you do in wolves' eyes. He was listening, like herself.</p>
-<p>Then a strange thing happened. Peter heard<pb n="185     THE BEAR
+<p>Then a strange thing happened. Peter heard<pb n="185 THE BEAR
 ROCK"/> a soft hiss in the air, and, from over the shack it seemed,
 something swished and fell close to her. It knocked against the canoe
 with a little tap as it grounded. Raa lifted his head and stared, his
@@ -3594,7 +3746,7 @@ whom?</p>
 whispers. She would not take it on herself to wait till
 daylight. Peggy came awake like a bird--it was her way.</p>
 <p>"What is it? What's the matter, Pete?" Her voice was
-anxious.</p><pb n="186     GIRLS ON THE GOLD TRAIL"/>
+anxious.</p><pb n="186 GIRLS ON THE GOLD TRAIL"/>
 <p>Jim took more rousing, but he came awake obediently in answer to
 Peggy's urgency.</p>
 <p>Then Peter showed the arrow. She told them she was awakened by a
@@ -3615,7 +3767,7 @@ hut, furtively, as though expecting to find something mysterious.</p>
 <p>"You bet it's that Cree again," said Jim.</p>
 <p>"Jim, you've got that poor Indian on the brain," Peggy told
 him.</p>
-<p>"Well, he shot me."</p><pb n="187     THE BEAR ROCK"/>
+<p>"Well, he shot me."</p><pb n="187 THE BEAR ROCK"/>
 <p>"He never meant to," Peter said in her positive way. "He was
 shooting at Neumann."</p>
 <p>"We can't tell for sure."</p>
@@ -3649,7 +3801,7 @@ bar.</p>
 rather like a toadstool with a long stalk and top that was not smooth,
 but rather like the coat of a porcupine.</p>
 <p>Three heads bent over the mystery, and three people remained
-speechless. Then Peter broke silence.</p><pb n="189     THE BLASTED
+speechless. Then Peter broke silence.</p><pb n="189 THE BLASTED
 PINE"/>
 <p>"If only we knew one of the things, we should hit on the
 others. Just one!"</p>
@@ -3670,7 +3822,7 @@ out, stepping softly. Raa got up too and went with her, leaving the
 others like two chrysalis in their blankets. With her hand on the
 dog's head Peggy went along the broken ground above the shore, picking
 her way between rocks, brushwood, and stony slopes. White mist filled
-the course<pb n="190     GIRLS ON THE GOLD TRAIL"/> of the creek,
+the course<pb n="190 GIRLS ON THE GOLD TRAIL"/> of the creek,
 through which towering pines shot up in dark smudges. There was
 something in this creek that made for a sort of awesome loneliness,
 thought the girl, more so than the green gulch in Slave River; she
@@ -3690,7 +3842,7 @@ black fir stem--it had no top, because it had been seared by
 lightning, but from one side stuck out two or three jagged boughs,
 leafless like spikes.</p>
 <p>In a rush the first picture on the bit of bark came before the
-girl's mind.</p><pb n="191     THE BLASTED PINE"/>
+girl's mind.</p><pb n="191 THE BLASTED PINE"/>
 <p>It was the blasted pine over the Bear Rock. Well, then, might not
 the next picture, the oblong blot, be the rock itself? Of course.</p>
 <p>She turned round and hurried back, Raa trotting at her heels, and
@@ -3712,7 +3864,7 @@ in the middle.</p>
 <p>"Pegtop and I have found out three--that's more than half,"
 retorted Peter briskly. "Now it's up to you to find out what the rest
 means. It is rather important, because it explains the message when
-you come to think of it. I mean<pb n="192     GIRLS ON THE GOLD
+you come to think of it. I mean<pb n="192 GIRLS ON THE GOLD
 TRAIL"/> we know the pine and the bear rock, we know Gijik. Well, we
 <hi rend="italic">don't</hi> know the other things."</p>
 <p>"No, dashed if we do," allowed Jim. "Let's have breakfast. Then
@@ -3732,7 +3884,7 @@ one thing, the place isn't broken up as it would have been if men had
 been hunting there--" She paused, and a new expression came into her
 eyes; they narrowed as though seeing something far off. "And,
 besides," she went on, "if they'd found the gold, Neumann and La Perle
-wouldn't be hanging about our trail. They<pb n="193     THE BLASTED
+wouldn't be hanging about our trail. They<pb n="193 THE BLASTED
 PINE"/> were after <hi rend="italic">us</hi> from first to last--I'll vow they were. And
 they're somewhere now, and it's because of that gold."</p>
 <p>"Oh, Pete!" gasped Peggy uneasily.</p>
@@ -3752,7 +3904,7 @@ of bark from under the blankets. "Peggy, look, they are two men with
 guns, or sticks, in one hand; probably meant for guns, to show they
 are dangerous. There, you have the whole story. The place where the
 treasure is hidden, and the enemy against us, and Gijik's name. It's
-clear as the stars."</p><pb n="194     GIRLS ON THE GOLD TRAIL"/>
+clear as the stars."</p><pb n="194 GIRLS ON THE GOLD TRAIL"/>
 <p>"To you," said Jim. "Doesn't strike me in the same way. How do you
 feel, Peg?"</p>
 <p>Peggy gazed at the figure on the bark. "Well, I rather think
@@ -3775,7 +3927,7 @@ long leash.</p>
 <p>But no gold was found, and at twilight they went back very
 silent.</p>
 <p>Raa jumped up to greet them. He looked pleased and comfortable. On
-the ground near<pb n="195     THE BLASTED PINE"/> him was a gnawed
+the ground near<pb n="195 THE BLASTED PINE"/> him was a gnawed
 bone with red meat still hanging to it.</p>
 <p>"Hullo, deer meat!" exclaimed Jim. "Now, who on earth--"</p>
 <p>Peggy had jumped over the canoe and entered the shack, and a cry
@@ -3796,7 +3948,7 @@ the pine. The pine first and largest. Jim, we've got to go up the
 rock; the gold is by the pine tree."</p>
 <p>"Looks so," said Jim. He was rather startled.</p>
 <p>"Let's go back to-night," urged Peter. They all looked at one
-another with questioning eyes.</p><pb n="196     GIRLS ON THE GOLD
+another with questioning eyes.</p><pb n="196 GIRLS ON THE GOLD
 TRAIL"/>
 <p>"I'm rather used up," said Peggy. "why not morning? Let's have
 supper and go to bed."</p>
@@ -3818,7 +3970,7 @@ slippery as the sides.</p>
 <p>"Remember it's the tree we've come for," Peter reminded them,
 clambering ahead on her hands and knees, as the safest means of
 progression.</p>
-<p>When they came to the tree the size of its<pb n="197     THE
+<p>When they came to the tree the size of its<pb n="197 THE
 BLASTED PINE"/> spreading roots was an astonishment; they struck down
 outside into root cracks, and they were deaa most of them, for the
 tree had been killed in some storm, and had rotted by degrees inside
@@ -3839,7 +3991,7 @@ rend="italic">want</hi> the
 things gold would buy--on the contrary, they were rather afraid of
 it. But the awe was inspired by the thought of their father's labours,
 and the duty they owed to him that their mother should profit by
-it. It was a straight outlook; they all<pb n="198     GIRLS ON THE
+it. It was a straight outlook; they all<pb n="198 GIRLS ON THE
 GOLD TRAIL"/> thought the same, and they all felt a certain dread of
 the fact that they--and they only--had got to convey this weighty mass
 of dirty brown bags all those hundreds of miles back to Log House! It
@@ -3881,7 +4033,7 @@ in the depths of that rock-bound creek, the sooner this job was done
 the better, they all thought.</p>
 <p>This endeavour had proceeded for about fifty yards or more, when
 the undergrowth ahead of Peggy was divided silently, and a
-startling<pb n="200     GIRLS ON THE GOLD TRAIL"/> figure stood
+startling<pb n="200 GIRLS ON THE GOLD TRAIL"/> figure stood
 directly in the path. If an angel had appeared with a flaming sword
 the girl could not have been more surprised.</p>
 <p>It was a woman, an Indian, and, according to white people's
@@ -3901,7 +4053,7 @@ Rock, and finally, with a quick hand on Jim's arm, pointed down hill
 to the creek and the water.</p>
 <p>"She means we've made a trail like a coach and six horses," said
 Peter, looking at her, brother. "My word, so we have! I say"--this to
-the girl--"are you Mitawawa? You<pb n="201     THE BLASTED PINE"/> <hi
+the girl--"are you Mitawawa? You<pb n="201 THE BLASTED PINE"/> <hi
 rend="italic">bet</hi>
 she is, Jim. Pegtop, <hi rend="italic">she</hi> sent us the bark pictures. Sure, isn't she a
 sweet thing!"</p>
@@ -3924,7 +4076,7 @@ water. Jim, you make a new trail between our track and the
 creek. Pegtop can go back along the way we've made."</p>
 <p>"Good," Jim agreed. "I say, Peg, it's pretty plain she expects some
 trouble."</p>
-<p>"Of course," said Peter, rather pleased at<pb n="202     GIRLS ON
+<p>"Of course," said Peter, rather pleased at<pb n="202 GIRLS ON
 THE GOLD TRAIL"/> the way things were turning out to prove the
 rightness of her instincts. "Don't you see, Jim, we've got to get the
 stuff to the shack and leave those beasts uncertain where it is. I
@@ -3946,7 +4098,7 @@ along the shore.</p>
 <p>Peter kept behind in her tracks, but did not approach. She thought
 she would be useful at the end of the journey in the climb to the
 shack--the quieting of Raa, and the bestowal of the bags in
-safety. Oh, where, where could<pb n="203     THE BLASTED PINE"/> they
+safety. Oh, where, where could<pb n="203 THE BLASTED PINE"/> they
 be put? thought the girl as she sped along. Well, it would not be for
 long; the canoe should be packed and that haunted creek left far
 behind within twenty-four hours. Her heart bounded at the joy of
@@ -3966,7 +4118,7 @@ Neumann should keep hidden and allow the three to get the gold into
 their possession. Altogether the intention was not clear to Peter.</p>
 <p>She was still thinking of this when she caught up Mitawawa near the
 door of the shack. Raa was there, guarding the canoe. He stood
-alertly, with a long smile and shin<pb n="204     GIRLS ON THE GOLD
+alertly, with a long smile and shin<pb n="204 GIRLS ON THE GOLD
 TRAIL"/>ing eyes, as the pair arrived. Obviously he had accepted the
 Indian girl as a friend; she spoke to him in her soft, guttural tones
 as she came up. Peter opened the door, saw all well, and stood a
@@ -4010,7 +4162,7 @@ speed.</p>
 <p>But a few minutes had passed since that cry, though it seemed quite
 a long time to Peter. She went straight by the track they had used
 each time, and in a dip buried in brushwood came suddenly on Jim. He
-was<pb n="207     CAUGHT!"/> kneeling on the ground, and close to him,
+was<pb n="207 CAUGHT!"/> kneeling on the ground, and close to him,
 prone on her face, motionless, lay Peggy.</p>
 <p>"Is she dead?" demanded Peter with husky abruptness.</p>
 <p>"She's caught in a bear trap--her leg," answered Jim, then added,
@@ -4031,7 +4183,7 @@ here, Pete--top luck! A stone caught in the hinge at this end. You
 see, when they raked the dirt and leaves over the trap, they forgot to
 make sure the hinges were quite clear."</p>
 <p>"'They'?" repeated Peter. "Why should any one--Jim, I see the whole
-devil's trick. I--"</p><pb n="208     GIRLS ON THE GOLD TRAIL"/>
+devil's trick. I--"</p><pb n="208 GIRLS ON THE GOLD TRAIL"/>
 <p>"All right--see away when we've got Pegtop out of this. Here, lift
 up her shoulders. I'll shift her legs. Pete, whatever you do, don't
 touch that spring again."</p>
@@ -4052,7 +4204,7 @@ grey-blue eyes were hard as flint. "I'll teach them."</p>
 <p>"Oh don't," she urged. "Besides, what if some one got caught who
 didn't deserve it? Fancy if you smashed up Mitawawa, or Gijik? Come
 on, pitch the horrible thing into the creek; bury it down a rock
-crag<pb n="209     CAUGHT!"/>--anything. It isn't decent war, that
+crag<pb n="209 CAUGHT!"/>--anything. It isn't decent war, that
 kind of thing; it's simply brutal."</p>
 <p>"We've got to get Pegtop back. Here, take her feet on a bough;
 we'll make a kind of stretcher." Jim ignored Peter's protest, and she
@@ -4073,7 +4225,7 @@ did this?"</p>
 <p>Jim was hard to convince as ever. "I don't see why they didn't
 follow us up to the pine and jolly well pinch the gold then. If they
 were hereabouts they must have seen us."</p>
-<p>"<hi rend="italic">I</hi> see now; I see plain as the shack. Why,<pb n="210     GIRLS ON
+<p>"<hi rend="italic">I</hi> see now; I see plain as the shack. Why,<pb n="210 GIRLS ON
 THE GOLD TRAIL"/> look here, Jim, they let <hi rend="italic">us</hi> get the stuff down
 because they didn't know where it was. Then when they believed we'd
 got the whole lot they set that trap in the trail so that some one
@@ -4134,7 +4286,7 @@ probably brained old Jim and me. <hi rend="italic">They</hi> didn't care; they m
 should come back along our track with the dust." She paused; then
 added, "So we should if we hadn't met Mitawawa. How odd it all
 is."</p>
-<p>"Not odd," whispered Peggy, lying still<pb n="213     CAUGHT!"/>
+<p>"Not odd," whispered Peggy, lying still<pb n="213 CAUGHT!"/>
 with closed eyes, "not a bit odd. Don't you see it is our Guardian
 Angels, Pete--<hi rend="italic">truly</hi> it is. We shall get through all right; they are
 stronger than wicked men."</p>
@@ -4176,7 +4328,7 @@ Jim."</p>
 yours, Pegtop. A regular inspiration, isn't it, Jim?" She made a sign
 to her brother to agree at once.</p>
 <p>"Don't you fret, Pegtop, we'll go for your notion," agreed the boy
-warmly. "It's one<pb n="215     CAUGHT!"/> of the best. Now you go to
+warmly. "It's one<pb n="215 CAUGHT!"/> of the best. Now you go to
 sleep and mend up sharp."</p>
 <p>When the girl was dozing again Peter whispered, "How does it really
 strike you for an idea?"</p>
@@ -4196,7 +4348,7 @@ they are afraid of him?"</p>
 <p>Peter snorted. "Don't you remember how they ran when you were hit?
 Why, they were silly with fright."</p>
 <p>The boy sat still, his arms on the table and his gun loaded, close
-to his fingers. Peter sat<pb n="216     GIRLS ON THE GOLD TRAIL"/> on
+to his fingers. Peter sat<pb n="216 GIRLS ON THE GOLD TRAIL"/> on
 the bench with her head against Peggy, waiting and planning out
 wonders of strategy. The nights were still short, but getting longer,
 and before dawn there was always a faint chill and a clinging white
@@ -4237,7 +4389,7 @@ back smart."</p>
 <p>"Tom Lockhart he hide some dust up them rocks--we heard so." La
 Perle's face became greedy and still meaner as he stared at the
 girl. "That was talk on the Mackenzie, <hi rend="italic">hein!</hi> He hide it mos'
-careful. Come; shall you look for this stuff?"</p><pb n="218     GIRLS
+careful. Come; shall you look for this stuff?"</p><pb n="218 GIRLS
 ON THE GOLD TRAIL"/>
 <p>Peter found Jim at her elbow; his gun was in the bend of his
 arm.</p>
@@ -4258,7 +4410,7 @@ or what to think of their journey, unless it was a treasure
 trail. Affection played a very small part in the outlook of Louis La
 Perle. He stood awhile, looking about in a downward kind of way,
 kicking up the little pebbles with his toe, then he went, saying, "We
-shall<pb n="219     CAUGHT!"/> be mos' pleased to help, as you are in
+shall<pb n="219 CAUGHT!"/> be mos' pleased to help, as you are in
 trouble, so long we stop 'ere."</p>
 <p>"It was a lie about the bear," said Peter hotly. "I don't believe
 that man ever tells the truth."</p>
@@ -4278,7 +4430,7 @@ change of scene, and the deep sleep at nights. Instead, there was the
 life of the shack, with the everlasting strain of the hidden gold dust
 in Peggy's bunk, and the danger that the enemy might come on something
 that would give them a clue.</p>
-<p>Neumann turned up soon after La Perle,<pb n="220     GIRLS ON THE
+<p>Neumann turned up soon after La Perle,<pb n="220 GIRLS ON THE
 GOLD TRAIL"/> pretended sympathy, regretted the trap "accident," as he
 called it, and was inclined to pick up intimacy with Jim. Peter saw
 with thankfulness that Jim was at last awake to danger. The appearance
@@ -4298,7 +4450,7 @@ of sick-nursing and confinement, so he began to go farther afield with
 the canoe--not for longer than hours, of course, but when you consider
 the circumstances, even a few hours was rather a strain!</p>
 <p>Mitawawa came and went like a shadow. Always at dusk or
-nightfall. Always she was<pb n="221     CAUGHT!"/> cautious as a deer
+nightfall. Always she was<pb n="221 CAUGHT!"/> cautious as a deer
 coming down to drink. Peter got very fond of her, but the trouble was
 that you cannot express your feelings or fears when the other person
 does not understand! At the same time that constant dread of danger
@@ -4319,7 +4471,7 @@ now--at once," said Peggy, with the fretfulness of convalescence.</p>
 making a pantomime of cold and ice, of fur and wrappings. "Sled," she
 spoke the one word. "Ninnymoosh" (dog) "yes."</p>
 <p>"She thinks we shan't take the trail till the ice is firm," said
-Peter to Peggy, as she lifted<pb n="222     GIRLS ON THE GOLD
+Peter to Peggy, as she lifted<pb n="222 GIRLS ON THE GOLD
 TRAIL"/> her back into the bunk on to the fresh moss. "Hullo! Just in
 time! Here's that lynx."</p>
 <p>Peter always called Neumann the lynx and La Perle the mink--the two
@@ -4340,7 +4492,7 @@ can't mend a smashed leg under six or seven weeks--at any rate in the
 Wild."</p>
 <p>The man stared at her without answering, and Peter realized that he
 was not interested in what she said, or even thinking about it. He
-shifted uneasily on his feet, and tried to<pb n="224     GIRLS ON THE
+shifted uneasily on his feet, and tried to<pb n="224 GIRLS ON THE
 GOLD TRAIL"/> pierce the gloom of the hut with bloodshot eyes that had
 a hunted look.</p>
 <p>"Mr. Neumann," called Peggy, which made him start in fright, "look
@@ -4381,7 +4533,7 @@ man who had believed him only a boy. "Now then, walk, please. If you
 come here you may expect to find the dog. I won't have you bullying my
 sisters, see!"</p>
 <p>Neumann retreated, blood running from his torn arm down the rags of
-sleeve. What he<pb n="226     GIRLS ON THE GOLD TRAIL"/> said under
+sleeve. What he<pb n="226 GIRLS ON THE GOLD TRAIL"/> said under
 his breath was no matter. When he was outside he checked at a sudden
 call from Jim, who, it seemed, had remembered something forgotten at
 first in the tempest of scuffle.</p>
@@ -4443,7 +4595,7 @@ Indians. Why, we tramp like elephants compared to them--that is, if
 elephants do tramp; bison do, anyway! Well, there he is, and I'll be
 surprised if he doesn't get those two before long. They can't find his
 trail--no one can. Best they can do is to vamoose and put a few
-hundred<pb n="229     THE 'WHITEFISH' MOON"/> miles between. Not that
+hundred<pb n="229 THE 'WHITEFISH' MOON"/> miles between. Not that
 it matters. He'll have them in the <hi rend="italic">end</hi>."</p>
 <p>Peter's mind thrilled to this strange story. She was not sorry for
 those trappers, but the duel between these men of the Wild filled her
@@ -4484,7 +4636,7 @@ fashion, as the trappers and their pursuer had gone.</p>
 we came we thought we should start back within the week at latest. We
 shall find it cold before we are far on, Jim, shan't we?"</p>
 <p>When her brother nodded she went on,--</p>
-<p>"Mitawawa seems pretty glum about it.<pb n="231     THE 'WHITEFISH'
+<p>"Mitawawa seems pretty glum about it.<pb n="231 THE 'WHITEFISH'
 MOON"/> She just says 'No, no--<hi rend="italic">freeze</hi>,' but
 what she wants us to <hi rend="italic">do</hi> I
 can't imagine. We don't see our way to camping here till next April!
@@ -4506,7 +4658,7 @@ enough for old Raa, and we can always catch more."</p>
 trickle of little streamlets. All the world was going to be locked up
 soon, and he was uneasy.</p>
 <p>Out in Crooked River there was freedom, and more force in the
-current, but thin sheets<pb n="232     GIRLS ON THE GOLD TRAIL"/> of
+current, but thin sheets<pb n="232 GIRLS ON THE GOLD TRAIL"/> of
 ice were carried by it, and presently, when they came to the beaver
 colony, they found the wide, shallow swamp almost coated over, and
 most of the beavers out of sight. Everywhere the stillness oppressed
@@ -4526,7 +4678,7 @@ strain, that delay. They began to see Mitawawa's point of view now!
 But they determined that nothing should stop them from putting the
 Great Slave Lake between themselves and the trappers. The gold in the
 canoe haunted them. How could they defend it?</p>
-<p>In the night came frosts that made cracks<pb n="233     THE
+<p>In the night came frosts that made cracks<pb n="233 THE
 'WHITEFISH' MOON"/> sound like shots, and all the while the dead
 leaves fell and the rest was utter stillness. On the third day they
 launched the canoe at dawn with frozen fingers. The nights were longer
@@ -4546,7 +4698,7 @@ stuck to the lake ice, making it more and more of a barrier.</p>
 <p>Then Jim got out the axe. He chopped and pushed, pushed and
 chopped. They ate "jerky," and the cold grew and grew, till presently
 Jim gave up chopping and they sat still in the gathering foggy
-chill--silent, overwhelmed with despair.</p><pb n="234     GIRLS ON
+chill--silent, overwhelmed with despair.</p><pb n="234 GIRLS ON
 THE GOLD TRAIL"/>
 <p>"I might get out and pull--over the ice," said Jim.</p>
 <p>Then Peggy got desperate. "You'd fall through. Pete and I should
@@ -4567,7 +4719,7 @@ come about a mile that day, she thought, hardly more; and there they
 were, stuck out in the ice, helpless for the enemy to see and
 capture--with the dust in the canoe. Never in her life had Peter felt
 so depressed, but she did not show it; she cheered the sleepy Peggy,
-trying to keep her awake.</p><pb n="235     THE 'WHITEFISH' MOON"/>
+trying to keep her awake.</p><pb n="235 THE 'WHITEFISH' MOON"/>
 <p>Then the moon came up, round and coppery in tint, the Indians'
 "Whitefish Moon," and all over the desolate ice-sealed lake the
 mysterious light swept in a flow. It was very wonderful.</p>
@@ -4589,7 +4741,7 @@ blows of an axe, or tomahawk, and then driving ahead.</p>
 <p>"<hi rend="italic">Gijik!</hi>" said Peter suddenly. And so immense
 was the relief, after suppressed suffering, that she wanted to
 cry.</p>
-<p>Peggy did cry.</p><pb n="236     GIRLS ON THE GOLD TRAIL"/> 
+<p>Peggy did cry.</p><pb n="236 GIRLS ON THE GOLD TRAIL"/> 
 <p>"Hullo, Chief!" Jim spoke, but his voice was quiet.</p>
 <p>Gijik looked at them and said, "Huh!" a sort of grunt. In another
 minute he burst through to the bow of their canoe, making a sweep to
@@ -4609,7 +4761,7 @@ Peter.</p>
 moon, the scenery, and the Cedar's splendid shoulders.</p>
 <p>They got back quite quickly, and were surprised to find that the
 Ojibway did not mean them to stay on the shore. He divided the pack,
-giving the empty canoe to Jim and<pb n="237     THE 'WHITEFISH'
+giving the empty canoe to Jim and<pb n="237 THE 'WHITEFISH'
 MOON"/> taking the treasure as his own share, with a few other
 trifles! Then he led the way back into the woods, but parallel with
 the river, and presently Peter realized that they were making for the
@@ -4628,7 +4780,7 @@ then accepted tea, food, and tobacco--but all the time they could see
 he was listening like a caribou.</p>
 <p>It seemed presently that he was reassured, for he told Jim that he
 had been away on a mission up Mackenzie River. He had made haste, but
-got back in time only to hear of<pb n="238     GIRLS ON THE GOLD
+got back in time only to hear of<pb n="238 GIRLS ON THE GOLD
 TRAIL"/> their foolish effort from Mitawawa. He knew about the
 bear-trap, and was apparently quite unmoved, as that was what you must
 expect from "bad hearts."</p>
@@ -4645,7 +4797,7 @@ understand Gijik, because he had talked much with "white brothers,"
 and found them friends--as a rule! He was not shy like his squaw, who
 hid herself when trappers appeared.</p>
 <p>Earnestly he warned them not to leave the swamp, or let the dog
-stray; not to fire a shot,<pb n="239     THE 'WHITEFISH MOON'"/>
+stray; not to fire a shot,<pb n="239 THE 'WHITEFISH MOON'"/>
 unless to save their lives and to <hi rend="italic">bury</hi> the gold dust till he
 came. Then Jim pressed on him gold enough to pay for five dogs, at
 perhaps eighty dollars apiece, and a sled. Gold was of no use to Gijik
@@ -4678,7 +4830,7 @@ good to be in this beaver country.</p>
 became herself again and lost the last traces of weakness. Jim, always
 a philosopher, spent his time trapping, and in this connection it
 occurred to the girls to line their blankets with rabbit pelts--not
-very heavy, and immensely warmer. True, they<pb n="241     THE FROZEN
+very heavy, and immensely warmer. True, they<pb n="241 THE FROZEN
 SWAMP"/> were not the best skins, nor cured in the most perfect
 fashion, but they would last for the journey home. This kept all
 busy.</p>
@@ -4699,7 +4851,7 @@ head like a huge hammer. A very ugly head it is, but the eyes are soft
 and beautiful. With her great feet she had broken some rim ice. She
 drank a little, nibbled leaves, and then sent out her curious hooting
 call to ice and woods. It was not long before she was answered by the
-roar of a bull-moose,<pb n="242     GIRLS ON THE GOLD TRAIL"/> which
+roar of a bull-moose,<pb n="242 GIRLS ON THE GOLD TRAIL"/> which
 is a terrific booming, in blasts like a great bellows.</p>
 <p>Jim was much excited. He simply longed to shoot the bull and have
 its antlers, but knew he must not--besides, how convey the prize? He
@@ -4719,7 +4871,7 @@ mid-winter.</p>
 and trampled close to the two girls, cracking the surface ice on the
 marsh. Then came the excitement.</p>
 <p>There was a thrashing sound in the bushes, and a moment after
-appeared another bull,<pb n="243     THE FROZEN SWAMP"/> bigger, and
+appeared another bull,<pb n="243 THE FROZEN SWAMP"/> bigger, and
 so, of course, older, with great antlers like huge spreading fans,
 most splendid to see; but he was rather too old, which the girls did
 not know, his height making them think he was quite all-powerful. In a
@@ -4739,7 +4891,7 @@ perhaps be broken, or he would fall over.</p>
 <p>Peter cried excitedly in Peggy's ear, "How will he get free? He
 can't--any way!"</p>
 <p>Peggy gasped in return, "Oh, poor things, why <hi rend="italic">do</hi> they do it?"</p>
-<p>Then there was a sound like the crack of a<pb n="244     GIRLS ON
+<p>Then there was a sound like the crack of a<pb n="244 GIRLS ON
 THE GOLD TRAIL"/> gun, and one of the big bull's antlers fell off. The
 young one was free, and he made use of his freedom by rushing at the
 other, who was dazed, hitting him in the flank and knocking him over;
@@ -4759,7 +4911,7 @@ blood ran down his shoulders.</p>
 <p>There was an interval long enough for reloading and then another
 explosion. He was hit in the chest, fell to his knees, struggled up,
 stumbled a few steps, and fell again. Both of them lay still.</p>
-<p>From a dense, low-growing spruce copse<pb n="245     THE FROZEN
+<p>From a dense, low-growing spruce copse<pb n="245 THE FROZEN
 SWAMP"/> close to the sisters stepped an Indian. He went over to the
 two huge animals and killed the one he had shot. The other had had its
 life stamped out of it. Then he proceeded to skin one and cut it
@@ -4780,7 +4932,7 @@ was kneeling by the moose, very busy. It was no use trying to hide
 after showing himself, so Jim bluffed it out after turning very
 red. In truth, he was actually angry at having done such an incautious
 thing. He knew that an experienced hunter would have laughed at
-him.</p><pb n="246     GIRLS ON THE GOLD TRAIL"/> 
+him.</p><pb n="246 GIRLS ON THE GOLD TRAIL"/> 
 <p>"Bo' jou'," he said amiably. "I see my brother is a very great
 hunter. He has killed two bull-moose. He is a fine shot. All the Crees
 on the Missinnippi River will hear of this, and tell the story in the
@@ -4802,7 +4954,7 @@ an Indian knows everything in the woods, and he wasn't sure whether
 Jim knew also, or whether it was in some way a plot to deceive him
 into some acknowledgment of his aim. However, he said nothing either
 way, but presently went off with a load of moose meat, which he
-carried on his back with ease.</p><pb n="247     THE FROZEN SWAMP"/>
+carried on his back with ease.</p><pb n="247 THE FROZEN SWAMP"/>
 <p>Then the girls came out, and the three looked at one another in
 rather a subdued manner.</p>
 <p>"<hi rend="italic">Last</hi> thing one expected," said Peter.</p>
@@ -4844,7 +4996,7 @@ the bull moose!</p>
 <p>For the rest, the three stayed very near camp after that. They had
 had a warning as to possibilities, and did not want Gijik to come
 suddenly and find them acting in "tenderfoot" fashion after their
-amazing experi<pb n="249     THE FROZEN SWAMP"/>ences. In those
+amazing experi<pb n="249 THE FROZEN SWAMP"/>ences. In those
 waiting days they did all they could think of to help on the journey
 that was coming, but in the main it was an exercise of patience. Every
 now and then Peter would say in a burst of anxiety, "Sure I hope the
@@ -4885,7 +5037,7 @@ in the circle of firelight.</p>
 <p>"He'd be horribly offended," Peggy told her. "Jim might,
 perhaps--I'm not sure. But a woman! Just fancy a squaw smacking a
 Brave on the back! It's not done, my dear, that's sure."</p>
-<p>Anyhow, there he was, and the rest was<pb n="251     THE FROZEN
+<p>Anyhow, there he was, and the rest was<pb n="251 THE FROZEN
 SWAMP"/> very exciting, very exciting indeed, for he wanted them to
 cross the lake that night and camp on the other side.</p>
 <p>He had brought a sled--a toboggan sled of the sort run on Mackenzie
@@ -4905,7 +5057,7 @@ inaction. Gijik's way of breaking camp was amazingly swift and
 complete he carried so much at a time. When he returned from his first
 journey he brought three pair of snowshoes. He said he and Mitawawa
 made them in the summer, and dried them in the sun, so that the wood
-didn't warp.<pb n="252     GIRLS ON THE GOLD TRAIL"/> They were the
+didn't warp.<pb n="252 GIRLS ON THE GOLD TRAIL"/> They were the
 same shape that the Lockharts were used to, pointed at both
 ends. There was snow enough on the ice to make fair travelling. It had
 seemed very little to the watchers in the frozen swamp, falling in a
@@ -4924,7 +5076,7 @@ use of Gijik's whip, and left no marks, as they had muzzles on.</p>
 <p>In ten minutes there were four little black dots moving swiftly
 with bent heads--the black smudge of the load and the string of six
 trotting dogs, their breath smoking on the air. That was all the sign
-of human life in the white, frozen world.</p><pb n="253     THE FROZEN
+of human life in the white, frozen world.</p><pb n="253 THE FROZEN
 SWAMP"/> 
 <p>Gijik led and packed the trail--that is, he trod strongly down the
 soft snow ahead of the dogs, and made it easier for them. Jim drove,
@@ -4946,7 +5098,7 @@ ridges. The last straw of effort for wearied bodies! Only Gijik took
 no account of these things, and Jim copied him in everything, refusing
 to betray his exhaustion. An end comes to every strain, fortunately,
 and presently the three found themselves making camp in a thick copse
-of spruce fir.</p><pb n="254     GIRLS ON THE GOLD TRAIL"/>
+of spruce fir.</p><pb n="254 GIRLS ON THE GOLD TRAIL"/>
 <p>That was the plan. To rest all day and the following night, and
 leave early for the river run on the morning after. Jim and Peter
 settled this, because Peggy was suffering from cramp in the leg
@@ -4966,7 +5118,7 @@ embittered person being a shield of value. However that may be, the
 parting of the ways was come, and the three said farewell with grief,
 begging the tall chief to come to the Log House when business should
 bring him so far south.</p>
-<p>Then Jim gave him gold dust enough to<pb n="255     THE FROZEN
+<p>Then Jim gave him gold dust enough to<pb n="255 THE FROZEN
 SWAMP"/> buy a Winchester rifle. At first he refused, but the
 temptation was too great. Upon the Mackenzie River in the ensuing
 winter many a rifle would change hands among men who had gambled away
@@ -5024,7 +5176,7 @@ fingers and still weary limbs, to have to break camp and pack up,
 starting off on another day of driving dogs and overcoming obstacles,
 and to go on till the freezing dusk forced them into some
 likely-looking shelter on the river bank, and there--tired to
-death--search their strength<pb n="258     GIRLS ON THE GOLD TRAIL"/>
+death--search their strength<pb n="258 GIRLS ON THE GOLD TRAIL"/>
 for a last effort to make yet another camp, a fire, a supper--always
 the same supper now--and at last sleep. That was winter trail. There
 was nearly always wind, too, though fortunately it came from the
@@ -5044,7 +5196,7 @@ never ceased. They thought, by the way, that it could not possibly be
 worse. So they had a great deal to learn yet.</p>
 <p>Now they had kept all the way on the east side of the river, and
 because of this came to the creek of the old gulch where Jim had been
-laid up. There it was, just as it had been,<pb n="259     WHY MOOSE
+laid up. There it was, just as it had been,<pb n="259 WHY MOOSE
 WAS NOT SHOT"/> only in winter dress, and they got there about the
 time of the midday rest, having had a hard spell of work since
 dawn.</p>
@@ -5064,7 +5216,7 @@ saw the rifle he stared, frowned, and looked questioningly at
 Peggy. She divined on the instant.</p>
 <p>"Oh, mad!" gasped Peggy. "Don't you see--"</p>
 <p>Then Peter was with them, explaining herself.</p>
-<p>"I got to our hut and it was empty, but<pb n="260     GIRLS ON THE
+<p>"I got to our hut and it was empty, but<pb n="260 GIRLS ON THE
 GOLD TRAIL"/> some one was using it for camping. Jolly nice, much too
 nice for them. I just looked in, and I saw <hi rend="italic">this</hi>
 on one bed. Beasts! How dare they! So I took it and came away. If
@@ -5085,7 +5237,7 @@ impulse, and now saw there were two sides to the matter.</p>
 Cree would. Why, they'll think it was the Cree, and be scared
 stiff. Anyway, we've got Dad's little rifle Come on, I'll stick it
 into the pack straps."</p>
-<p>She did, and the party started off, a little<pb n="261     WHY
+<p>She did, and the party started off, a little<pb n="261 WHY
 MOOSE WAS NOT SHOT"/> reassured, perhaps, by this point of view, but
 horribly uneasy, for even Peter now had qualms, though she would not
 have allowed that.</p>
@@ -5127,7 +5279,7 @@ stillness.</p>
 days a feeling of keen anxiety about pursuit. Each one looked back
 when the others were busy, watched for far-away black spots on the
 great field of snow in fear and trembling; then, as nothing happened
-to increase this dread, they all began<pb n="263     WHY MOOSE WAS NOT
+to increase this dread, they all began<pb n="263 WHY MOOSE WAS NOT
 SHOT"/> to breathe more easily, and to lose the scared feeling.</p>
 <p>One thing is sure. Perhaps for the first time in her life Peter
 wished her impulsive act undone. That was something gained when you
@@ -5146,7 +5298,7 @@ hunting for the canoe. It was strange to see it in such different
 conditions--there across the hummocky ice of rocks and rapids, banks
 and streams, that made up this bit of river.</p>
 <p>Every way came the awful tearing wind, whirling snow round in
-spirals and screeching in the bare tree tops.</p><pb n="264     GIRLS
+spirals and screeching in the bare tree tops.</p><pb n="264 GIRLS
 ON THE GOLD TRAIL"/>
 <p>"This'll do here. <hi rend="italic">Hu</hi>, Raa," and the big dog
 swerved to the right, leading the team, and struggled up the snow-bank
@@ -5167,7 +5319,7 @@ still gasping from the force of its buffets, they made a tiny fire
 under the lee of big boulders, and Peggy pulled off her sister's
 moccasin, legging, and stocking. They were all frozen hard right
 through, and in another minute or two nothing could have saved the
-foot that looked so oddly white and<pb n="265     WHY MOOSE WAS NOT
+foot that looked so oddly white and<pb n="265 WHY MOOSE WAS NOT
 SHOT"/> dead already. Peter bore the rubbing like a Trojan, for it was
 no small pain. Peggy chafed and talked in the glow of the red-hot
 fire, while Jim set about scraping away snow and making a camp.</p>
@@ -5188,7 +5340,7 @@ it occurred to you that this snow will cover up all our trail? If
 anybody happens to be tracking us they'll lose us now, anyway."</p>
 <p>"Sure, they'll lose us now," agreed Peter, drawing a long
 breath. "If only we could go on leaving no trail; but sledge and dogs
-can't be hidden."</p><pb n="266     GIRLS ON THE GOLD TRAIL"/>
+can't be hidden."</p><pb n="266 GIRLS ON THE GOLD TRAIL"/>
 <p>They built themselves in among the boulders with snow and
 waited.</p>
 <p>Three days the blizzard screeched across the forests, and blinding
@@ -5208,7 +5360,7 @@ were waiting and in the shack. And there was still tea. The monotony
 was wearisome, but, as Peggy said, it would be worse without.</p>
 <p>So, as soon as they saw it was a question of waiting for the
 blizzard to go, Jim went off, crawling through the brushwood to the
-fir copse, and set wires for rabbits again, while<pb n="267     WHY
+fir copse, and set wires for rabbits again, while<pb n="267 WHY
 MOOSE WAS NOT SHOT"/> Peter--with much caution about rotten ice--cut a
 water-hole; there was always hope of fish.</p>
 <p>Jim, very eager and absorbed in his snares, made no sound; though
@@ -5229,7 +5381,7 @@ head.</p>
 <p>Jim's heart leaped. If he could shoot this it would be a crowning
 piece of luck. He shifted swiftly from tree to tree, trusting to the
 protection of the wind that blew from the wandering moose to
-himself. The beast had<pb n="268     GIRLS ON THE GOLD TRAIL"/> not
+himself. The beast had<pb n="268 GIRLS ON THE GOLD TRAIL"/> not
 heard; it was still tearing at anything edible, and pushing the snow
 about. Jim advanced forward and sideways, intent on his prey. Just as
 he was beginning to think it safe to fire he became aware that the fir
@@ -5249,7 +5401,7 @@ the snow-laden bushes, he made a space to see through.</p>
 <p>Coming along from Athabasca Lake, and making for Wollaston, no
 doubt, were two men, one short and thick-set, the other lean and
 stooping. They were dressed in woolly coats and <hi rend="italic">parkas</hi> (hoods), the
-full winter<pb n="269     WHY MOOSE WAS NOT SHOT"/> kit of hunters,
+full winter<pb n="269 WHY MOOSE WAS NOT SHOT"/> kit of hunters,
 and the heat of their bodies had come through the wool like steam and
 frozen on the surface outside, so that they looked rather like two
 fluffy white bears travelling on snowshoes. They carried moderate
@@ -5268,7 +5420,7 @@ but feeling more despondent than any time since they had started.</p>
 <p>Presently he crawled out softly, got to his feet, and looked for
 the moose. It was still feeding. And he dared not fire! The north wind
 would carry the sound of a shot for a long way. Poor Jim groaned, then
-caught himself up as he remembered that there was<pb n="270     GIRLS
+caught himself up as he remembered that there was<pb n="270 GIRLS
 ON THE GOLD TRAIL"/> no saying whether these men might not know the
 mouth of the cove, and decide to camp there for to-night. That would
 be the climax.</p>
@@ -5290,7 +5442,7 @@ Peter. "<hi rend="italic">Was</hi> there any one?"</p>
 strong and clear in its outline.</p>
 <p>Then Jim told them exactly what he'd seen and heard. "It's the
 worst bit of luck we've had," he sighed.</p>
-<p>"Oh no," cried Peggy, a flush suddenly<pb n="271     WHY MOOSE WAS
+<p>"Oh no," cried Peggy, a flush suddenly<pb n="271 WHY MOOSE WAS
 NOT SHOT"/> making her pink and young--"Oh no, Jim dear. It was a pity
 to lose the moose, but fancy if you'd fired, and they'd heard! The
 snow came and walled up the cove mouth, too! Wait, we shall win, I'm
@@ -5311,7 +5463,7 @@ while this precious moose meat was dried in strips over the fire.</p>
 <p>On the third day they hacked through the snowdrifts at the mouth of
 the little inlet and drew out on to the white river; then suddenly
 realized that they would have the trappers' snowshoe trail ahead of
-them as a guide and a warning.</p><pb n="273     THE FIGHT IN THE
+them as a guide and a warning.</p><pb n="273 THE FIGHT IN THE
 DARK"/>
 <p>Oddly enough, not one of the three had realized that the snowfall
 stopped at the time the men were passing, and the wind dropped in the
@@ -5332,7 +5484,7 @@ the shore just where the river poured itself into Wollaston Lake,
 almost the spot at which Pierre Corraine had captured the lost
 canoe. Peggy was rather sentimental about the canoe, cached away up
 there in the beaver swamp under a dead-fall. It was such a beauty! She
-said they'd want it in the summer.</p><pb n="274     GIRLS ON THE GOLD
+said they'd want it in the summer.</p><pb n="274 GIRLS ON THE GOLD
 TRAIL"/>
 <p>"Make another," suggested Jim. "Once we get home I'd make
 anything. I say, Pegtop, won't life seem like all play after
@@ -5355,7 +5507,7 @@ the shining floor of Wollaston. After consultation they settled to hug
 the east shore for shelter and direction, and because they knew they
 would gain very little indeed by a direct line across, seeing the
 angle at which the river left the lake. The snowshoe trail went over
-in a bee-line; the<pb n="275     THE FIGHT IN THE DARK"/> sledge bent
+in a bee-line; the<pb n="275 THE FIGHT IN THE DARK"/> sledge bent
 away to the left, and in the shade of the forest trees sped away over
 the snow, dogs and humans working in happy concert.</p>
 <p>"One sleep," as the Indians called a night, another day of the
@@ -5376,7 +5528,7 @@ tired, but happy, for was not Deer Lake close by, and after that their
 own land, as it were? The very name of Missinnippi was home and
 success. They were not afraid of Deer Lake either; it was so
 indescribably beautiful, and conveyed to them a feeling of safety,
-because there were so<pb n="276     GIRLS ON THE GOLD TRAIL"/> many
+because there were so<pb n="276 GIRLS ON THE GOLD TRAIL"/> many
 Indian villages about its shores. It was not so lonely as the far
 north. The weather held for several glittering days, and then, as they
 began the long journey down Deer Lake, all the beauty went out and the
@@ -5395,7 +5547,7 @@ they were full of fearless light and splendid intention.</p>
 <p>Bad it was--very bad. But they had got the treasure they came for;
 they had passed through amazing dangers safely. They had got as far as
 Deer Lake on the way home. Were they going to give in now to
-lamentation and repining?</p><pb n="277     THE FIGHT IN THE DARK"/>
+lamentation and repining?</p><pb n="277 THE FIGHT IN THE DARK"/>
 <p>As Peggy said, chafing her thin cheeks with snow because she had
 got a touch of "bite," "After all, what else could you expect?"</p>
 <p>There it was! The cold seemed to get worse, not better, which,
@@ -5416,7 +5568,7 @@ water over the fire, for the feeling prevailed that they were getting
 on so fast that they need not be extra careful. A bigger fire than
 usual; a bigger supper too, and the dogs sitting round in a smiling
 semi-circle, waiting for the thawing fish that swung on a stick above
-the blaze.</p><pb n="278     GIRLS ON THE GOLD TRAIL"/>
+the blaze.</p><pb n="278 GIRLS ON THE GOLD TRAIL"/>
 <p>"How long shall we be now?" cried Peggy, as she shook the pan over
 the fire and turned over the meat.</p>
 <p>Jim said a month at the rate they were going now. "It's not
@@ -5478,7 +5630,7 @@ went down, bitten or maimed, the others rushed on them and tore them
 to pieces. It was a most horrible sight; but of course there was no
 time to be sick over details, or even to distinguish them, for the
 fire was kicked and trampled out of existence amid the yelps and yells
-of burned dogs, and<pb n="281     THE FIGHT IN THE DARK"/> after that
+of burned dogs, and<pb n="281 THE FIGHT IN THE DARK"/> after that
 it was only the bloodstained snow that showed up the battle.</p>
 <p>Of course the sledge was knocked over and torn, bitten, ripped to
 get at the food, the dried meat eaten instantly, frozen as it was, and
@@ -5519,7 +5671,7 @@ themselves.</p>
 than any yet. So much to face, and under more and more cruel
 conditions. One thing was settled for them: it was not possible to go
 on that day. Billy was very lame, and Raa nearly blind of one
-eye. Jim's hand was torn by savage fangs<pb n="283     THE FIGHT IN
+eye. Jim's hand was torn by savage fangs<pb n="283 THE FIGHT IN
 THE DARK"/> and all sorts of things; besides, eyes, paws, and hands
 wanted mending. Even the harness.</p>
 <p>"Two dogs better than no dogs," said Peter, raising her head to
@@ -5541,7 +5693,7 @@ showed blank.</p>
 <p>But they were on the Missinnippi! Miles lay between, and hardships
 indescribable, but it was their own river, and nothing could quench
 the eternal uprising of the "home" feeling. Unluckily the ground, or
-rather ice,<pb n="284     GIRLS ON THE GOLD TRAIL"/> covered in one
+rather ice,<pb n="284 GIRLS ON THE GOLD TRAIL"/> covered in one
 day was of necessity shorter. Two dogs partially fed cannot do the
 work of six, but they kept on steadily, day after day, eating up the
 frozen miles between the unbroken ranks of snow-laden forest trees;
@@ -5561,7 +5713,7 @@ sound of breathing, and the creaks of the laden sledge.</p>
 <p>"Better make camp here to-night," said Jim. "Come on. One big pull
 up the bank."</p>
 <p>It was a good bank for landing, flattish and mossy, then up a slope
-and into the shelter<pb n="285     THE FIGHT IN THE DARK"/> of a sort
+and into the shelter<pb n="285 THE FIGHT IN THE DARK"/> of a sort
 of rocky cliff caved out underneath and sheltered on two sides with
 more rocks. The track into the forest was rock-bound too, for
 everywhere within a mile or two the land was rocky, as the big falls
@@ -5583,7 +5735,7 @@ hawk-face had the old listening look that came when she "suspicioned"
 trouble. As always, she did not know why or wherefrom this new anxiety
 came--she was simply oppressed by it. She said nothing, had not
 suggested a thought of it to the others since it took possession of
-her,<pb n="286     GIRLS ON THE GOLD TRAIL"/> because the way was so
+her,<pb n="286 GIRLS ON THE GOLD TRAIL"/> because the way was so
 hard, and the real trials of the day so cruel that it seemed selfish
 to add to that which Peggy and Jim were bearing.</p>
 <p>In all this you will see how Peter had developed. When she left the
@@ -5603,7 +5755,7 @@ round.</p>
 quite clear--the fire burned red, and close to it were two bundles,
 Jim and Peggy, sleeping the sleep of exhaustion. Round them all the
 overhanging rocks piled into a sheltering barrier, and the
-upturned<pb n="287     THE FIGHT IN THE DARK"/> sledge lay across the
+upturned<pb n="287 THE FIGHT IN THE DARK"/> sledge lay across the
 opening, with the dogs loosely leashed to it in case they should
 wander after food.</p>
 <p>Peter got up and stepped into the open with noiseless feet. Raa
@@ -5644,7 +5796,7 @@ whispering, rapidly suggested her plan.</p>
 scrub, and broken rocks. As it did not fit into the ground there were
 hollows beneath it, covered and disguised by the bushes and piled-up
 snow. This was Peter's notion as a hiding-place, because it was a
-landmark neither of them would ever forget,<pb n="290     GIRLS ON THE
+landmark neither of them would ever forget,<pb n="290 GIRLS ON THE
 GOLD TRAIL"/> and one they could describe to a friend if the necessity
 arose to fetch the treasure by other hands. Jim agreed at once. He saw
 the advantage of concealment in a place so near and simple that the
@@ -5664,7 +5816,7 @@ hand, then she said very low,--</p>
 north--fine, powdery snow, on a bitter wind that stirred the woods and
 blew the snow round in eddies. Whether it came from the darkening sky
 or the hundreds of miles of snow-laden forest mattered not at all, for
-it answered the pur<pb n="291     DESPERATION"/>pose either
+it answered the pur<pb n="291 DESPERATION"/>pose either
 way. Spinning in eddies up the river bed, sweeping round corners into
 drifts, showering from the bending boughs, it laid a cover over all
 prints, and a glistening robe on the big boulder rock and the mass of
@@ -5709,7 +5861,7 @@ at them over their snow barrier. Peter thought of the wind-swept
 track, and looked back at him without dismay.</p>
 <p>"Hullo!" said Jim.</p>
 <p>They all three went on stowing packs in an indifferent
-manner.</p><pb n="293     DESPERATION"/>
+manner.</p><pb n="293 DESPERATION"/>
 <p>"Can't say you've a strong team," sneered the trapper, looking at
 Raa under his narrowed eyelids.</p>
 <p>"Wild pack came down on us and fought ours. Starved, I
@@ -5730,7 +5882,7 @@ teeth. He was amused, but plainly not surprised.</p>
 <p>Neumann went on talking.</p>
 <p>"One way and another we've spent some time lookin' after you
 three," he said--"not for nothing. My time's valuable. You got away
-from the creek up Crooked River--"<pb n="294     GIRLS ON THE GOLD
+from the creek up Crooked River--"<pb n="294 GIRLS ON THE GOLD
 TRAIL"/>here his face darkened into sullen rage; he was thinking of
 the Cree, perhaps--"but we picked you up again, and you thought you'd
 done us. I'm not that kind. No <hi rend="italic">chechaquo</hi> ever
@@ -5750,7 +5902,7 @@ Raa, her gaze fixed on the trees and the little whirls of snow.</p>
 part. You can go off west soon as you like to break camp if you hand
 over the gold, the sledge, and the dogs; We want them for the
 load. Guess it's heavy." He grinned.</p>
-<p>"There is no gold here," said Jim. He<pb n="295     DESPERATION"/>
+<p>"There is no gold here," said Jim. He<pb n="295 DESPERATION"/>
 just glanced up to say it, and went on with his careful rolling of a
 blanket.</p>
 <p>"What do you mean, <hi rend="italic">no gold?</hi>" Neumann flamed with a sudden red
@@ -5772,7 +5924,7 @@ the camp. There they smoked and talked.</p>
 her to the top of the wave of woe. Her dark eyes twinkled
 affectionately at Peggy.</p>
 <p>"Cheer up, old Pegtop. We shall be out of it soon. How sick they
-are!" She patted<pb n="296     GIRLS ON THE GOLD TRAIL"/> Raa's nose
+are!" She patted<pb n="296 GIRLS ON THE GOLD TRAIL"/> Raa's nose
 gently with the palm of her hand. "Buck up, Raa. I wish I could give
 you old Neumann to eat, but you wouldn't like it," so she whispered,
 making Peggy smile, but not Jim. He looked at her, and his thin brown
@@ -5792,7 +5944,7 @@ your dogs got chawed up. We're going back to fetch it, and Jim's going
 along with us to show up the place, see? We won't have no more
 hokey-pokey over this dust. The girls can stay here and live on
 pemmican," he laughed roughly. "When Jim's shown us the stuff he can
-come back. That's our last word."</p><pb n="297    DESPERATION"/>
+come back. That's our last word."</p><pb n="297 DESPERATION"/>
 <p>"But it's not there!" Peter flung at him with hot emphasis. "It's
 no more there than it's here. Now, then!"</p>
 <p>There was a moment of tense silence. Jim looked on the ground. The
@@ -5811,7 +5963,7 @@ case was much the same with her. She was so hungry, and felt so weak
 and cold from the long under-feeding, that she could face dying with
 actual comfort, she believed, but Peggy would be different! Neumann
 had been quite clever enough to see this, though he was incapable of
-feeling for other people himself.</p><pb n="298     GIRLS ON THE GOLD
+feeling for other people himself.</p><pb n="298 GIRLS ON THE GOLD
 TRAIL"/>
 <p>On the second day of this imprisonment he came into their camp and
 took away all that remained of the pemmican and Jim's
@@ -5858,7 +6010,7 @@ us."</p>
 little water from the drip of the ice facets; that was all they
 had. Jim and Peter talked in low voices, going over every detail of
 chance for and against escape, but never once did they refer even to
-the gold which was in their charge.</p><pb n="300     GIRLS ON THE
+the gold which was in their charge.</p><pb n="300 GIRLS ON THE
 GOLD TRAIL"/>
 <p>Peter wanted Jim to climb up over the rocks and see if he could get
 out and kill a rabbit or some small creature with her little gun, but
@@ -5903,7 +6055,7 @@ fro in one ceaseless movement--never still an instant, and always the
 green eyes and white fangs turned towards the trappers' fire.</p>
 <p>Suddenly they bounded in, and a brief but fierce battle began
 between them and La Perle, who was yelling abuse at Neumann for
-his<pb n="302     GIRLS ON THE GOLD TRAIL"/> slackness between
+his<pb n="302 GIRLS ON THE GOLD TRAIL"/> slackness between
 shots. The latter scrambled on to his feet, clubbed his rifle, and
 laid about him with great, slogging blows.</p>
 <p>"<hi rend="italic">Sweet loves!</hi>" said Peter, close to Jim's ear, repeating her own
@@ -5945,7 +6097,7 @@ alive. When she woke she drank a little tea, so weak that it was but
 bewitched water; that would not last two days more.</p>
 <p>"It won't matter," said Peter to Jim; "let's keep it for
 Pegtop. <hi rend="italic">I</hi>
-don't care now." Her voice was a whisper.</p><pb n="304     GIRLS ON
+don't care now." Her voice was a whisper.</p><pb n="304 GIRLS ON
 THE GOLD TRAIL"/>
 <p>That night, when the dusk wrapped the camp, Neumann was more angry
 than he had ever been before. He told La Perle that he should take
@@ -5967,7 +6119,7 @@ man's tepee, and stolen them when he was out on his rounds. They were
 almost priceless, and at the time La Perle had told him it was never
 good policy to steal from an Indian; but Neumann would not hear
 reason, and when the Cree tracked them he made matters worse by
-shooting the<pb n="305     DESPERATION"/> man's ear off instead of
+shooting the<pb n="305 DESPERATION"/> man's ear off instead of
 killing him, as he meant to do.</p>
 <p>La Perle reminded him of this folly again that night as they
 quarrelled.</p>
@@ -5995,7 +6147,7 @@ morrow.</p>
 bright hollow eyes. "I'm only sorry we couldn't carry out Dad's
 job. Never mind; we can tell him we did the best we knew."</p>
 <p>Then she rolled herself in her blanket furs and lay down against
-Peggy, who was still and waxen, but breathing.</p><pb n="307     SONG
+Peggy, who was still and waxen, but breathing.</p><pb n="307 SONG
 OF SCARLET HUNTER"/>
 <p>Peter dozed fitfully, and her mind was full of strange
 imaginings. She kept on waking and finding these thoughts--or
@@ -6016,7 +6168,7 @@ weakness, thought "that's all right," and she closed her eyes only to
 open them again with a sudden memory of that head.</p>
 <p>Jim was still motionless, his crossed arms on his humped-up knees,
 his head resting on them. Peter's gaze left him and examined the rock
-frame of the little camp again. Al<pb n="308     GIRLS ON THE GOLD
+frame of the little camp again. Al<pb n="308 GIRLS ON THE GOLD
 TRAIL"/>most opposite her, and at Jim's back, a dim shape was coming
 down the broken cliff face. It came like a lizard--slow, silent, and
 sure.</p>
@@ -6036,7 +6188,7 @@ progress, turning her eyes but not her head--she was too tired to move
 that. It occurred to her that it was a pity there was so much snow,
 "things show up against snow." She could see the man quite clearly
 now. He was going out past the upturned sledge into Neumann's
-camp.</p><pb n="309     SONG OF SCARLET HUNTER"/>
+camp.</p><pb n="309 SONG OF SCARLET HUNTER"/>
 <p>Then she heard Raa growl, and a sudden awakening knowledge in her
 dazed mind made her drag herself up on to her knees, and stay so,
 rigid with excitement. She heard another long snarl from the wolf-dog,
@@ -6075,7 +6227,7 @@ sticks on the fire, an amazing sense of security creeping through her
 veins and waking her starved body into life again.</p>
 <p>Presently Jim came back, carrying some brown chips in his
 hand. "I'll take the axe and cut some more," he said, putting a
-little<pb n="311     SONG OF SCARLET HUNTER"/> hard bit into her
+little<pb n="311 SONG OF SCARLET HUNTER"/> hard bit into her
 mouth. "Here, suck it, Pete, while you melt the others into
 soup. Whatever you do, don't take too much at first; but it's grand
 feeding."</p>
@@ -6096,7 +6248,7 @@ are dying."</p>
 the snow, and looked at Peter in a corner-wise fashion, because he
 felt guilty about Neumann. He would have done it again, of course, but
 he was quite civilized enough to know that dogs ought not to kill
-humans. He thought he had killed Neumann,<pb n="312     GIRLS ON THE
+humans. He thought he had killed Neumann,<pb n="312 GIRLS ON THE
 GOLD TRAIL"/> you see, which was not the case, but he had made it
 possible for the one-eared man to kill his enemy at last. There was no
 doubt in the world that the trapper was destroyed by his own sins,
@@ -6118,7 +6270,7 @@ emphasis.</p>
 quit worrying about us, but he hadn't."</p>
 <p>"Oh no, they never do <hi rend="italic">that</hi>," said Peggy, in her own sober voice;
 "but of course sometimes it isn't the plan for us to get all we
-<hi rend="italic">think</hi><pb n="313     SONG OF SCARLET HUNTER"/> we want. Mum says
+<hi rend="italic">think</hi><pb n="313 SONG OF SCARLET HUNTER"/> we want. Mum says
 so. Oh, Pete, we shall he able to get her gold home now. I am so
 glad."</p>
 <p>With that Peggy went to sleep again, looking less waxen and less
@@ -6137,7 +6289,7 @@ the tobacco would do for presents. The tea was a special treat, and
 there were beans and some rusty bacon, but not much. All they wanted
 they moved to the little rock camp for fear of wolves. That was the
 present danger; but the bursting of the cloud that had hung over the
-trail all these months had<pb n="314     GIRLS ON THE GOLD TRAIL"/>
+trail all these months had<pb n="314 GIRLS ON THE GOLD TRAIL"/>
 cleared the outlook for them so completely that wolves seemed a slight
 inconvenience--nothing worse.</p>
 <p>Within four days Jim and Peter had performed the funeral rites of
@@ -6158,7 +6310,7 @@ hundred pounds' weight--so Jim calculated; between sixty and seventy
 thousand dollars in gold dust.</p>
 <p>"I'm glad we held on and saved it," said Peter, sitting on the
 stuff in a possessive way. So said they all, laughing over supper at
-the<pb n="315     SONG OF SCARLET HUNTER"/> end of the hard day. And
+the<pb n="315 SONG OF SCARLET HUNTER"/> end of the hard day. And
 now the next thing was to get it home. If very much had been done,
 very much remained to do. About sixty miles of trail through the
 forest before they could take up the river travel again--and one dog!
@@ -6178,7 +6330,7 @@ fresh kind of supper. The next day he left them and ranged round some
 distance while the girls went slowly on with the sledge and Raa. He
 brought back a small deer, and Peter shot a partridge running along
 the ground like a little ball of feathers; there were plenty of them
-somewhere, but hidden in the snow<pb n="316     GIRLS ON THE GOLD
+somewhere, but hidden in the snow<pb n="316 GIRLS ON THE GOLD
 TRAIL"/> like the rabbits, the mink, ermine, and other furred
 creatures, for the temperature had fallen again and the cold was
 bitter.</p>
@@ -6199,7 +6351,7 @@ happening.</p>
 of frozen woods and the monotony of silence and snow, they had come
 round and back to the starting-place, or near it.</p>
 <p>For a while no one spoke. Then Peter, drawing back her slim,
-straight shoulders, said,--</p><pb n="317     SONG OF SCARLET HUNTER"/>
+straight shoulders, said,--</p><pb n="317 SONG OF SCARLET HUNTER"/>
 <p>"Why not stay at the old rock camp to-night? It always seemed
 warmer under that shelter. The forest is draughty."</p>
 <p>"All right," agreed Jim. He could not trust himself to say more,
@@ -6221,7 +6373,7 @@ of."</p>
 own trail to the little camp under the overhanging rocks near the
 river bank. They declared it <hi rend="italic">was</hi> warmer, and Jim put up the tarpaulin
 on poles of spruce, built a good fire, and set about an early
-camp,<pb n="318     GIRLS ON THE GOLD TRAIL"/> that they might have a
+camp,<pb n="318 GIRLS ON THE GOLD TRAIL"/> that they might have a
 good rest for the new start.</p>
 <p>The night was bright in that clearness of atmosphere; the stars
 seemed to hang low in the amazing vault, large, shining, and
@@ -6243,7 +6395,7 @@ Lachine,</l>
 <l>As we ride away in the morning,</l>
 <l>On the froth of the Long Lachine?"</l></lg></q>
 <p>"Dad used to whistle that," murmured Peter. "It's one of the songs
-of the timber<pb n="319     SONG OF SCARLET HUNTER"/> men when the
+of the timber<pb n="319 SONG OF SCARLET HUNTER"/> men when the
 logs come down the big rivers. Oh, how sweet!"</p>
 <p>"Corraine," said Jim shortly. "Our luck holds, Pegtop, eh?"</p>
 <p>Peggy said nothing. She was listening with all her heart as well as
@@ -6264,7 +6416,7 @@ know what trail he usually takes. That's what mother says--when things
 look black it's oftenest for a good purpose."</p>
 <p>"That's so," agreed Peter. Then she added, with her deep-set eyes
 dancing a little, "Besides, as you can't help yourself, best thing
-is<pb n="320     GIRLS ON THE GOLD TRAIL"/> to face the knocks
+is<pb n="320 GIRLS ON THE GOLD TRAIL"/> to face the knocks
 upright. But sure, Pegtop, this is rather wonderful. I've hardly
 started on being thankful yet, I'm so surprised; but the thankfulness
 is going to last, it's come to stay--taken root."</p>
@@ -6304,7 +6456,7 @@ and it was there the Lockharts could fill in the story. He'd poisoned
 the dogs as chance offered, but with no weapon but his trade gun he
 was handicapped against two men with rifles. Afraid to attack at the
 settlement, he'd bided his time and followed the trail again
-north--slow, but sure as<pb n="322     GIRLS ON THE GOLD TRAIL"/>
+north--slow, but sure as<pb n="322 GIRLS ON THE GOLD TRAIL"/>
 fate, paying his debt in the end at the rock camp.</p>
 <p>"If he don' pay back ze tribe tink him poor fool," explained
 Pierre. "Injun he can't afford be treat contempt--it burn his heart
@@ -6325,7 +6477,7 @@ Lockhart?"</p>
 return for services.</p>
 <p>"Well, he got one at the Fort. Mortal struck on it he was, too! We
 knew he'd got it honest or he wouldn't have had it. He went up north
-as proud as a peacock<pb n="323     SONG OF SCARLET HUNTER"/> with two
+as proud as a peacock<pb n="323 SONG OF SCARLET HUNTER"/> with two
 tails." Tybalt chuckled good-naturedly.</p>
 <p>The next day the combined parties started on the trail for home,
 Raa making a seventh in the dog team, and the small toboggan lashed
@@ -6412,7 +6564,7 @@ again--some of the times were just black horror."</p>
 <p>"But that was the enemy," reasoned Peter, "not the North. Winter
 and summer, river and forest, the North is a glorious life, and the
 more you see the more you want to see."</p><milestone unit="section"
-rend="stars"/><pb n="327     SONG OF SCARLET HUNTER"/>
+rend="stars"/><pb n="327 SONG OF SCARLET HUNTER"/>
 <p>In the spring, when the ice went out, Mrs. Lockhart moved to
 Edmonton with Donald and Dolly, the only grief to the young ones being
 that Boxer had to stay at the Log House. Peggy, too, went to Edmonton,
