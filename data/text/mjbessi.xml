@@ -105,25 +105,25 @@ added by the encoder and do not appear in the original text.</p>
   </teiHeader>
 <text id="mjbessi1203">
   <front id="mjbessi1204">
-    <div id="mjbessifm1" type="covers">
+    <div id="mjbessifc" type="covers">
       <figure entity="mjbessifc" rend="inline">
 	<figDesc>Front cover of Mary J. Holmes's "Bessie's
 	Fortune"</figDesc>
       </figure>
-      <figure entity="mjbessisp" rend="inline">
+      <figure entity="mjbessispine" rend="inline">
 	<figDesc>Spine of Mary J. Holmes's "Bessie's
 	Fortune"</figDesc>
       </figure>
     </div>
 <pb/>
-    <div id="mjbessifm2" type="advert">
+    <div id="mjbessifm1" type="advert">
       <figure entity="mjbessifc" rend="inline">
 	<figDesc>Advertisement at the front of Mary J. Holmes's "Bessie's
 	Fortune"</figDesc>
       </figure>
     </div>
     <pb/>
-    <div id="mjbessifm3" type="frontispiece">
+    <div id="mjbessifm5" type="frontispiece">
       <figure entity="mjbessifront" rend="inline">
 	<p>SHE STOOD GAZING AT THE LAND SHE WAS
 	LEAVING. <lb/>&#x2014;<hi rend="italic">Bessie's Fortune,
@@ -142,13 +142,13 @@ added by the encoder and do not appear in the original text.</p>
       </docImprint>
     </titlePage>
 <pb n="[4]"/>
-    <div id="mjbessifm4" type="copyright">
+    <div id="mjbessitpv" type="copyright">
       <figure entity="mjbessicopy" rend="inline">
 	<figDesc>Copyright page for Mary J. Holmes's "Bessie's
 	Fortune"</figDesc>
       </figure>
     </div>
-    <pb n="[5]" entity="mjbessided" pages="Dedication"/>
+    <pb n="[5]" entity="mjbessifm2" pages="Dedication"/>
     <div type="dedication" id="mjbessifm5">
       <p>TO MY NEPHEW<lb/>
       WALTER H. TWICHELL<lb/>
@@ -156,12 +156,12 @@ added by the encoder and do not appear in the original text.</p>
 I DEDICATE THIS STORY OF BESSIE,<lb/>
 WHICH WILL REMIND HIM OF A HAPPY YEAR IN EUROPE.</p>
     </div>
-    <div type="table of contents" id="mjbessifm6">
+    <div type="table of contents" id="mjbessifm3">
       <figure entity="mjbessitoc" rend="inline">
 	<figDesc>First contents page for Mary J. Holmes's "Bessie's
 	Fortune"</figDesc>
       </figure>
-      <figure entity="mjbessitoc2" rend="inline">
+      <figure entity="mjbessifm4" rend="inline">
 	<figDesc>Second contents page for Mary J. Holmes's "Bessie's
 	Fortune"</figDesc>
       </figure>
@@ -3957,7 +3957,7 @@ MEREDITH."</signed>
 </div>
 </div>
 </body>
-<back id="mjbessi1204">
+<back id="mjbessi1206">
 <div type="adverts" id="mjbessibm01">
 <figure entity="mjbessibm1" rend="inline">
 <figDesc>Page of advertisements at the back of Mary J. Holmes'
