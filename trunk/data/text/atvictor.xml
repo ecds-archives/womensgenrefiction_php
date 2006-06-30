@@ -105,7 +105,7 @@ added by the encoder and do not appear in the original text.</p>
   </teiHeader>
   <text id="atvictor1202">
     <front id="atvictor1203">
-      <pb n="[i]" entity="atvictorfm1" pages="Title Page"/>
+      <pb n="[i]" entity="atvictorTP" pages="Title Page"/>
       <titlePage type="full">
 	<docTitle>
 	  <titlePart type="main">SIR VICTOR'S CHOICE</titlePart>
@@ -121,18 +121,18 @@ added by the encoder and do not appear in the original text.</p>
 	</docImprint>
       </titlePage>
       <pb n="[iii]"/>
-      <div id="atvictorfm2" type="table of contents">
-	<figure entity="atvictortoc1" rend="inline">
+      <div id="atvictortoc" type="table of contents">
+	<figure entity="atvictorfm1" rend="inline">
 	  <figDesc>First table of contents page for Annie Thomas's
 	  "Sir Victor's Choice"</figDesc>
 	</figure>
 	<pb n="iv"/>
-	<figure entity="atvictortoc2" rend="inline">
+	<figure entity="atvictorfm2" rend="inline">
 	  <figDesc>Second table of contents page for Annie Thomas's
 	  "Sir Victor's Choice"</figDesc>
 	</figure>
 	<pb n="v"/>
-	<figure entity="atvictortoc3" rend="inline">
+	<figure entity="atvictorfm3" rend="inline">
 	  <figDesc>Third table of contents page for Annie Thomas's
 	  "Sir Victor's Choice"</figDesc>
 	</figure>
