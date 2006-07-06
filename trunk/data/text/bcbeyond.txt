@@ -1,5 +1,153 @@
-<pb n="[5]"/><div id="bcbeyond" type="chapter" n="1"><head>BEYOND
-ATONEMENT.<lb/><milestone unit="section" rend="line"/>CHAPTER
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="bcbeyond1207">
+  <teiHeader id="bcbeyond1201">
+    <fileDesc>
+      <titleStmt>
+        <title>Beyond Atonement, an electronic edition</title>
+        <author><name type="person" reg="Clay, Bertha M., 1865-1922.">Bertha M. Clay</name></author>
+      </titleStmt>
+      <extent>400kb</extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2006</date>
+        <availability>
+          <p>&#x00A9; 2006, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Women's Genre Fiction, 1860-1920</title>
+        <respStmt>
+          <name>Sheila T. Cavanagh</name>
+          <name>Charles D. Spornick</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><author>Clay, Bertha M</author>. <title>Beyond
+	Atonement</title>. <pubPlace>New York</pubPlace>:
+<publisher>Street &#x0026; Smith</publisher>, <date>[n.d.]</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded.  Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Genre Fiction</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Unedited</rs>
+        <rs type="genre">Novel</rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item>American literature--19th Century--Fiction.</item>
+            <item>Women authors, American--19th Century.</item>
+            <item>Romance.</item>
+            <item>Mystery.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2006-July-06</date>
+        <respStmt>
+          <name>Alice Hickcox, </name>
+          <resp>Electronic Text Specialist.</resp>
+        </respStmt>
+        <item>XML tags inserted in compliance with TEI guidelines.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text id="bcbeyond1202">
+  <front id="bcbeyond1203">
+    <div id="bcbeyondfm01" type="covers">
+      <figure entity="bcbeyondfc" rend="inline">
+	<figDesc>Front cover of advertisements in Bertha M. Clay's
+	"Beyond Atonement."</figDesc>
+      </figure>
+    </div>
+    <div id="bcbeyondfm02" type="adverts">
+      <figure entity="bcbeyondfmi" rend="inline">
+	<figDesc>First page of advertisements in Bertha M. Clay's
+	"Beyond Atonement."</figDesc>
+      </figure>
+      <figure entity="bcbeyondfmii" rend="inline">
+	<figDesc>Second page of advertisements in Bertha M. Clay's
+	"Beyond Atonement."</figDesc>
+      </figure>
+      <figure entity="bcbeyondfmiii" rend="inline">
+	<figDesc>Third page of advertisements in Bertha M. Clay's
+	"Beyond Atonement."</figDesc>
+      </figure>
+      <figure entity="bcbeyondfmiv" rend="inline">
+	<figDesc>Fourth page of advertisements in Bertha M. Clay's
+	"Beyond Atonement."</figDesc>
+      </figure>
+    </div>
+<pb entity="bcbeyondtp" pages="Title Page"/>
+    <titlePage type="full">
+      <docTitle>
+	<titlePart type="main">BEYOND ATONEMENT</titlePart>
+	<titlePart type="sub">OR<lb/>IN BLIND LOVE'S GRIP</titlePart>
+      </docTitle>
+      <byline>BY<lb/>
+      <docAuthor>BERTHA M. CLAY</docAuthor><lb/>Whose complete works
+      will be published in this, the NEW<lb/>BERTHA CLAY
+      LIBRARY</byline>
+      <docImprint>
+	<publisher>STREET &#x0026; SMITH CORPORATION<lb/>PUBLISHERS</publisher>
+	<pubPlace>79-89 Seventh Avenue, New York</pubPlace>
+      </docImprint>
+    </titlePage>
+    <div entity="bcbeyondfm5" type="copyright">
+      <figure entity="bcbeyondfmv" rend="inline">
+	<figDesc>Title page verso of Bertha M. Clay's
+	"Beyond Atonement."</figDesc>
+      </figure>
+    </div>
+  </front>
+<body id="bcbeyond1204">
+<pb n="[5]"/>
+<div id="bcbeyond0001" type="chapter" n="1"><head>BEYOND
+ATONEMENT.<lb/>CHAPTER
 I.<lb/>ROSALIND COTTAGE.</head>
 <p>It was golden weather in late September. The summer had been wet
 and cheerless, and the harvest was late. The yellow corn stood in
@@ -19,7 +167,7 @@ lawn. </p>
 <p>The girl sat in a room on the upper floor; and since Rosalind
 Cottage was built on a slight elevation, she could look over the tops
 of the poplar-trees across the fertile plain, and toward the blue
-hills. The room in<pb n="6     Rosalind Cottage."/> which she sat was
+hills. The room in<pb n="6 Rosalind Cottage."/> which she sat was
 very simply furnished. The little bedstead had white dimity curtains;
 the window was draped with the same; the chairs were cane-seated and
 framed in plain wood; the small chest of drawers was of painted deal,
@@ -47,7 +195,7 @@ face rather difficult to read aright.</p>
 girl had passed through dangers and trials that had little to do with
 commonplace, nineteenth-century life. It seemed almost as if ordinary
 sounds had the power to alarm this young and interesting crea<pb
-n="7     Rosalind Cottage."/>ture, for when a blackbird in a tall
+n="7 Rosalind Cottage."/>ture, for when a blackbird in a tall
 pear-tree set up a shrill, sweet piping, she started, and looked over
 her shoulder, toward the small painted door of her humble chamber, as
 if she had expected to see somebody or something unfriendly or uncanny
@@ -99,7 +247,7 @@ felt carpet, and the clean white boards between, just as if she were
 reading thereon the sad history of her past years. She continued:</p>
 <p>"I was twelve, and my thin dress was too short for me and too
 scanty, too small. I looked an awkward, graceless creature, as I
-caught the reflection of myself in<pb n="9     Rosalind Cottage."/>
+caught the reflection of myself in<pb n="9 Rosalind Cottage."/>
 the strip of looking-glass set in a panel in the wall in that foreign
 chamber. I was white, and I looked old and haggard for my age; my very
 long black hair fell in wild confusion on my shoulders. The ribbon
@@ -127,7 +275,7 @@ selfish sorrow.</p>
 <p>"I leaped to my feet in terror, and without quite knowing what was
 the matter, I screamed with all my might, so loud, indeed, that our
 landlady, Madam Steerman, came running into the room.</p><pb
-n="10     Rosalind Cottage."/>
+n="10 Rosalind Cottage."/>
 <p>"What a detestable old fright was that same old German
 landlady. How fat her face was, and how ruddy, and yet, I don't think
 I ever saw her smile in all my life. She was as cross as two sticks,
@@ -155,7 +303,7 @@ lodgings and hotels without paying; borrowing money which we never
 paid, ah! and never meant to pay.</p>
 <p>"I must be clever; how else could I have picked up all the
 knowledge I possess? True, I have passed all my life on the Continent,
-until a month ago, and so I speak<pb n="11     Rosalind Cottage."/>
+until a month ago, and so I speak<pb n="11 Rosalind Cottage."/>
 French and German fluently, and I write them, also. I can sing, they
 tell me, like a nightingale, and dance like a fairy.</p>
 <p>"Music Herr Luffman taught me, poor old man, when we sojourned one
@@ -182,7 +330,7 @@ I am only twenty-one!"</p>
 <p>At that precise moment there came a tapping on the chamber door of
 Miss Carruthers.</p></div>
 
-<pb n="[12]"/><div id="bcbeyond" type="chapter" n="2"><head>CHAPTER
+<pb n="[12]"/><div id="bcbeyond1002" type="chapter" n="2"><head>CHAPTER
 II.<lb/>THE VISIT OF THE RECTOR'S WIFE.</head>
 <p>Vivette started to her feet.</p>
 <p>"Walk in," said the young girl courteously. "But, oh! I beg pardon,
@@ -234,7 +382,7 @@ we have had."</p>
 at Rosalind Cottage with the idea of setting her to rights, inquiring
 into her antecedents, and lecturing her as to her future; but there
 was something in the superb composure of this graceful girl with
-the<pb n="14     The Visit of the Rector's Wife."/> daring black eyes
+the<pb n="14 The Visit of the Rector's Wife."/> daring black eyes
 that quite disconcerted the good lady. However, she knew that her
 dinner-hour was seven, and it was a couple of miles from Rosalind
 Cottage to the rectory; consequently time was precious, and she
@@ -262,7 +410,7 @@ palpable, as was this rather vicious thrust of the vivacious Miss
 Carruthers. If ever Mrs. Hamilton did consult her mirror, it must have
 shown her a broad, crimson-colored, fat, elderly countenance; but then
 the glamour as of royalty surrounded it, and she was quite convinced
-that all the<pb n="15     The Visit of the Rector's Wife."/> world
+that all the<pb n="15 The Visit of the Rector's Wife."/> world
 bowed down to the great lady at Moorcup Rectory.</p>
 <p>"You are far too young, Miss Carruthers, to be living alone in
 lodgings," said Mrs. Hamilton.</p>
@@ -289,7 +437,7 @@ brought up in our own dear country!"</p>
 <p>Vivette smiled another cold smile.</p>
 <p>"An advantage! I beg your pardon. Not to have seen the Italian sun
 shine on the Adriatic! Not to have seen the land where C&#x00E6;sar
-ruled and died, and Brutus<pb n="16     The Visit of the Rector's
+ruled and died, and Brutus<pb n="16 The Visit of the Rector's
 Wife."/> fought for liberty! I don't think I care for those
 advantages, I mean the advantages of dulness and stupidity. I should
 think all the young people about here must become insane if they have
@@ -318,7 +466,7 @@ grandmother, for three months, and she requires a daily governess. If
 you could give any references you might be engaged, but as it
 is--"</p>
 <p>"You see I can't help it," said Vivette, with a little<pb
-n="17     The Visit of the Rector's Wife."/> fascinating smile, no
+n="17 The Visit of the Rector's Wife."/> fascinating smile, no
 longer cold, and her heart was beating fast. In reality, she was
 agitated and excited at the chance which it seemed she was destined to
 lose.</p>
@@ -348,7 +496,7 @@ august lady whom she called "her dear friend the Countess of
 Riverswood."</p>
 <p>The said countess was in a terrible hurry for a competent daily
 foreign teacher for her grandchildren. If only this odd girl, with no
-references, could be induced<pb n="18     The Visit of the Rector's
+references, could be induced<pb n="18 The Visit of the Rector's
 Wife."/> to produce some satisfactory ones, how delighted the dear
 countess would he to engage her, for her ladyship was a woman of
 energy. One of her pet hobbies was education, and she believed in
@@ -376,7 +524,7 @@ to you in any way, I shall be most happy."</p>
 wishes to gain the favor of this rich, high and mighty English
 countess!"</p>
 <p>We must apologize for the rude names which this strange Vivette
-called the rector's wife in her rebellious<pb n="19     The Visit of
+called the rector's wife in her rebellious<pb n="19 The Visit of
 the Rector's Wife."/> thoughts. It will he seen at a glance that
 whatever other good qualities Miss Carruthers may have possessed, she
 was utterly wanting in refinement of feeling.</p>
@@ -403,7 +551,7 @@ and, I might almost say, an unprincipled man. But we must not speak
 ill of the dead. I always hated, or, let me rather say, I never loved,
 James Carruthers, my father. My mother was an angel! She was the
 orphan daughter of a poor vicar of good family in the north of
-England; but a<pb n="20     The Visit of the Rector's Wife."/> good
+England; but a<pb n="20 The Visit of the Rector's Wife."/> good
 family does not invariably help a poor clergyman to a rich
 living. Favor does that, and noble patrons."</p>
 <p>Every word the daring girl uttered was a home-thrust to the woman,
@@ -430,7 +578,7 @@ inn alive; but, alas! his head had come into contact with the bottom
 of the boat. His skull was fearfully fractured, and he died that
 night. I must beg you to excuse the haste with which I pass over these
 terrible details. I am young, and I have suffered so much."</p>
-<p>Vivette paused, and put her hand to her heart. She<pb n="21     The
+<p>Vivette paused, and put her hand to her heart. She<pb n="21 The
 Visit of the Rector's Wife."/> was very pale and there was a strange
 look of pain in her beautiful but tearless eyes.</p>
 <p>There could be no doubt, thought the rector's wife to herself, that
@@ -481,7 +629,7 @@ who brought in her tea, and the spirited young lady made a very hearty
 meal.</p><milestone unit="section" rend="stars"/>
 <p>It was a golden noontide, and the foliage of the great oaks in the
 park of Cotswold glowed in the sunshine. The sky was like one pure
-arch of sapphire stone.</p><pb n="23     The Visit of the Rector's
+arch of sapphire stone.</p><pb n="23 The Visit of the Rector's
 Wife."/> 
 <p>Before Vivette ran and prattled a noisy, bright brooklet. There was
 a graceful bridge which spanned it a little higher up, but this girl
@@ -506,7 +654,7 @@ well!" said the girl, with her defiant glance.</p>
 <p>"On the contrary, I love it. I smoke cigarettes myself."</p>
 <p>"Oh!" said the young man again. Then looking straight at the girl,
 he said: "Are you the Miss Carruthers, with the sad story, whom my
-mother expects up at the house?"</p><pb n="24     The Visit of the
+mother expects up at the house?"</p><pb n="24 The Visit of the
 Rector's Wife."/>
 <p>"You are a little too insolent!" cried Vivette, with ar angry light
 in her black eyes. "Whoever you are, you are no gentleman!"</p>
@@ -519,7 +667,7 @@ Raven, or his valet?"</p>
 <p>"Which do you suppose?" asked the young man languidly. "Not that it
 can matter very much to you, I should think!"</p></div>
 
-<pb n="[25]"/><div id="bcbeyond" type="chapter" n="3"><head>CHAPTER
+<pb n="[25]"/><div id="bcbeyond1003" type="chapter" n="3"><head>CHAPTER
 III.<lb/>VIVETTE MEETS LORD RAVEN.</head>
 <p>"It matters to me enormously," Vivette answered, with her bright,
 defiant smile. "If you were the valet, I never need speak to you
@@ -543,7 +691,7 @@ my idea of a gentlemanly valet is, that he would be quiet and
 reticent."</p>
 <p>"But you may not be a gentlemanly valet, sir?"</p>
 <p>"True. No, I suppose I am as rude and ill-behaved a wretch as a
-young lady could well meet with on a<pb n="26     Vivette Meets Lord
+young lady could well meet with on a<pb n="26 Vivette Meets Lord
 Raven."/> summer's day. Must I apologize for what I have said? I
 forget what it was, almost. Oh, now I recollect. I asked you if you
 were the young lady with the sorrowful story, and that offended
@@ -599,7 +747,7 @@ sculptor of the Rue Richelieu, Paris, that if he even dwelt in a
 garret, dined off thin soup, wore shoes with holes in them, and never
 had his hair cut, she would still rejoice to become his wife? Was she
 such an idiot, she, Vivette, as to fall in love at first
-sight?</p><pb n="28     Vivette Meets Lord Raven."/>
+sight?</p><pb n="28 Vivette Meets Lord Raven."/>
 <p>Lord Raven had been standing for some time, holding his velvet cap
 in his hand and looking with a half-smile	, at Miss
 Carruthers.</p>
@@ -708,7 +856,7 @@ aristocratic belles of England--a man whom the circumstances of life
 compelled to mix with the world at large, not only the fashionable
 world, but that lower and perhaps more fascinating world which is
 peopled by actresses and artists of all kinds. It never struck her
-that a man of poetic and<pb n="32     Vivette Meets Lord Raven."/>
+that a man of poetic and<pb n="32 Vivette Meets Lord Raven."/>
 fastidious taste like Lord Charles Raven, might be more difficult to
 captivate than the long-haired artists and German students among whose
 hearts she had made such havoc.</p>
@@ -733,7 +881,7 @@ courage, clever, and, above all, forbidden fruit.</p>
 way, consequently you become, in my opinion, one of the most desirable
 companions I can possibly have. When you know me better, you will
 understand what a fiery, impatient, rebellious nature I possess! Now
-let us dismiss the subject of me and my<pb n="33     Vivette Meets
+let us dismiss the subject of me and my<pb n="33 Vivette Meets
 Lord Raven."/> past follies. I am a kind of chum of yours? You agree
 to it, do you not?"</p>
 <p>"Certainly I do!" Vivette answered. "Only tell me how are we to
@@ -787,14 +935,14 @@ be. Will that mode of proceeding please you any better?"</p>
 <p>"Yes," replied Vivette. "I should be glad of an open, and brave,
 and devoted friend."</p>
 <p>"And only a friend, never anything more, remember that," said the
-odd young lord, as he squeezed the girl's<pb n="35     Vivette Meets
+odd young lord, as he squeezed the girl's<pb n="35 Vivette Meets
 Lord Raven."/> fingers in a parting clasp. "Go up to the house, now,
 and make your own bargain, but you won't see me here again to-day. I
 am going shooting in the Hatton Woods."</p>
 <p>Then he raised his cap, leaped lightly over the stream, and Vivette
 lost sight of him among the trees.</p></div>
 
-<pb n="[36]"/><div id="bcbeyond" type="chapter" n="4"><head>CHAPTER
+<pb n="[36]"/><div id="bcbeyond1004" type="chapter" n="4"><head>CHAPTER
 IV.<lb/>THE COUNTESS OF RIVERSWOOD.</head>
 <p>"I should think he must be mad!" said Vivette to herself
 passionately, when she was alone, and she stamped her foot on the
@@ -818,7 +966,7 @@ as its emblem. Now, as she approached the flowered lawns which
 surrounded the front and west wings of the grand old house of
 Cotswold, she assumed a meekness of demeanor which did not by any
 means belong to her impetuous and fiery nature. She even lowered her
-head a little. She walked<pb n="37     The Countess of Riverswood."/>
+head a little. She walked<pb n="37 The Countess of Riverswood."/>
 slowly and held her hands crossed one over the other, but nothing
 could destroy the superb grace of carriage which was hers of
 right.</p>
@@ -845,7 +993,7 @@ is her sole ornament, but she might pass for a queen."</p>
 <p>Vivette approached the countess, for that lady had signed to her,
 half-imperiously, half-courteously, to ascend the marble steps which
 led up to the terrace. Vivette mounted them. How her knees
-trembled.</p><pb n="38     The Countess of Riverswood."/>
+trembled.</p><pb n="38 The Countess of Riverswood."/>
 <p>"I thought I could have entered into a discussion with an empress,"
 said the girl to herself. "I thought I could have humbugged her
 delightfully, and have made fun of her afterward, but this woman seems
@@ -873,7 +1021,7 @@ hand, and said with a smile: "Yes, I quite understand all that from
 Mrs. Hamilton, and I know your story as you related it to her."</p>
 <p>Vivette looked close and hard at the marble pavement of the
 terrace. She could not face the keen gray eyes of the
-countess.</p><pb n="39     The Countess of Riverswood."/> 
+countess.</p><pb n="39 The Countess of Riverswood."/> 
 <p>"It is not because you have not taught that you cannot teach,"
 continued Lady Riverswood. "The art of teaching is a gift and I
 imagine that you possess it. I am convinced of it from the shape of
@@ -903,7 +1051,7 @@ my rules? You may have heard that education is one of my hobbies."</p>
 <p>"I shall be delighted!" faltered the girl.</p>
 <p>In reality she felt inclined to throw the whole thing up, and run
 shrieking from the place. But she checked this mad impulse, and sat
-meekly, while the countess<pb n="40     The Countess of
+meekly, while the countess<pb n="40 The Countess of
 Riverswood."/> propounded her views and talked her pet modes of
 imparting instruction.</p>
 <p>Vivette listened with dull ears and a raging heart. She might have
@@ -932,7 +1080,7 @@ herself.</p><milestone unit="section" rend="stars"/>
 stretch in that long room which opens with its three French windows on
 that grassy lawn bounded by a belt of whispering trees. Behind them
 she knows is a mimic lake, a boat-house, and a boat. She has<pb
-n="41     The Countess of Riverswood."/> walked around that pond once
+n="41 The Countess of Riverswood."/> walked around that pond once
 or twice with her pupils in the stiffest and most uncomfortable
 fashion.</p>
 <p>"It is impossible to feel otherwise than an abject coward in the
@@ -960,7 +1108,7 @@ me, I know that I any as capable of crime as any Spanish or Italian
 woman cheated of her lover by a rival. One reads of such things in
 romances or sees them at the Italian Opera!"</p>
 <p>While Miss Carruthers was thinking these very violent and
-unconventional thoughts, an ugly frown gath<pb n="42     The Countess
+unconventional thoughts, an ugly frown gath<pb n="42 The Countess
 of Riverswood."/>ered on her brow, a frown of which she was herself
 quite unconscious. It disfigured her countenance, and robbed it of its
 chief charm, that bright vivacity which gave piquancy, and something
@@ -987,7 +1135,7 @@ her simple yet elegant morning costume, sat on a couch, correcting and
 questioning in the most matter-of-fact way. How happy the handsome
 face of the elderly woman looked when she was riding her hobby most
 contentedly! How distressed and puzzled was the rosy face of the
-child! The dark face of the governess,<pb n="43     The Countess of
+child! The dark face of the governess,<pb n="43 The Countess of
 Riverswood."/> who looked over the same book as her pupil, was somber
 and savage. Not a handsome face with that expression on it. The brow,
 naturally low, appeared vengeful, and the very dark eyes, too close
@@ -1016,7 +1164,7 @@ countess.</p>
 <p>"Charles, if you must use slang, pray don't do so before Emily's
 children!" said the countess. "Holidays! what are you thinking of?
 Youth is the time for improvement, and a very short time it is before
-the frivol<pb n="44     The Countess of Riverswood."/>ities of the
+the frivol<pb n="44 The Countess of Riverswood."/>ities of the
 world begin to claim the time and monopolize the attention of the
 young. I disapprove of holidays."</p>
 <p>"I am perfectly aware of that."</p>
@@ -1045,7 +1193,7 @@ myself--"</p>
 <p>"No, not if you object," the young lord answered lazily. "Come if
 you like, but if you won't, Miss--the governess, can come with the
 ki--the children, I mean."</p>
-<p>"Certainly not!" said Lady Riverswood, primly, and<pb n="45     The
+<p>"Certainly not!" said Lady Riverswood, primly, and<pb n="45 The
 Countess of Riverswood."/> a faint blush dyed her well-preserved
 skin. Her voice was very calm and sweet."</p>
 <p>"Then," said Lord Raven, "bring them yourself. There are six
@@ -1072,7 +1220,7 @@ as you like, and to-morrow at ten we shall expect you as usual."</p>
 heart uttered something like an anathema. Lord Raven whistled a few
 bars from "H. M. S. Pinafore."</p></div>
 
-<pb n="[46]"/><div id="bcbeyond" type="chapter" n="5"><head>CHAPTER
+<pb n="[46]"/><div id="bcbeyond1005" type="chapter" n="5"><head>CHAPTER
 V.<lb/>LORD RAVEN'S ANCESTRAL HOME.</head>
 <p>Vivette Carruthers arose with a graceful dignity, and an apparent
 composure, when Lady Riverswood gave her her orders, or permission, to
@@ -1096,7 +1244,7 @@ himself.</p>
 <p>"She is worth a great wagonette full of the dull kind of people I
 shall meet at this picnic," said the young nobleman to himself. "I
 think she has a vile temper, and if she is very conscientious I am
-wrong in my esti<pb n="47     Lord Raven's Ancestral Home."/>mate of
+wrong in my esti<pb n="47 Lord Raven's Ancestral Home."/>mate of
 this beautiful creature. But she has a warm heart and she is capable
 of self-sacrifice. Toward those she loves she would be as true as
 steel. But, never mind. Patience, my dear countess! I think we two
@@ -1152,7 +1300,7 @@ dames. Notwithstanding her educational hobby, she was not one to admit
 the possibility that a universal system of good education would place
 the world on an equality, and in time level the distinctions of
 rank.</p>
-<p>The incongruous elements that went to make up the<pb n="49     Lord
+<p>The incongruous elements that went to make up the<pb n="49 Lord
 Raven's Ancestral Home."/> character of the Countess of Riverswood
 were paradoxical.</p>
 <p>One fact remained certain; if ever there lurked antagonism and
@@ -1180,7 +1328,7 @@ Cotswold.</p>
 languor of the day," said the girl to herself. "There is something
 that reminds me of the smiles of a false, flattering friend. I have no
 such friend that I know of." she went on, looking now on the ground as
-she<pb n="50     Lord Raven's Ancestral Home."/> spoke to herself. "I
+she<pb n="50 Lord Raven's Ancestral Home."/> spoke to herself. "I
 have never made many friends. I have thought my heart cold and only
 tuned into one key, which was the desire to be rich, great, and well
 placed, possessing gold, reveling in luxuries, and surrounded with
@@ -1234,7 +1382,7 @@ continued Vivette, with her charming smile.</p>
 Mrs. Crofton, the housekeeper. Her ladyship has left word that you are
 to see over the house, the staterooms, and the picture-galleries:
 Mrs. Crofton is rather stout and the staircases fatigue her, so that
-I<pb n="52     Lord Raven's Ancestral Home."/> shall have much
+I<pb n="52 Lord Raven's Ancestral Home."/> shall have much
 pleasure in showing you over the house, that is, if you have no
 objection."</p>
 <p>"I shall be charmed, and I do not know how to thank you
@@ -1263,7 +1411,7 @@ suite of rooms once for a week."</p>
 Sparks opened one door, and Vivette was looking into a long, grand,
 ghostly room. At the farther end was a large window of stained glass,
 the floor of which was composed of inlaid polished woods of various
-colors. In the center was spread a rich carpet of<pb n="53     Lord
+colors. In the center was spread a rich carpet of<pb n="53 Lord
 Raven's Ancestral Home."/> Persian manufacture. All the walls of this
 state-chamber were paneled. Each panel was oval-shaped and framed in
 gold and ebony. Each contained a life-sized, full-length portrait,
@@ -1291,7 +1439,7 @@ ancestor."</p>
 eyes, spellbound before that dead and gone Lord Raven.</p>
 <p>"What a beautiful face!" the girl murmured, "but sad, and stern,
 and thoughtful, and yet mocking. I have seen the present Lord Raven,
-and the likeness is so remark<pb n="54     Lord Raven's Ancestral
+and the likeness is so remark<pb n="54 Lord Raven's Ancestral
 Home."/>able that I should have been inclined to think that he had
 costumed in that picturesque dress of the time of the old r&#x00E9;gime. That
 long, white satin waistcoat, flowered with gold; that coat of blue
@@ -1321,7 +1469,7 @@ end. There is a weird old prophecy to the effect that he is to marry
 beneath him, as his ancestor did, and die by the hand of a woman."</p>
 <p>A cold shuddering seized Vivette when Miss Sparks repeated this
 absurd old prediction in such solemn tones.</p>
-<p>"A woman's hand," she said to herself. "Not mine!<pb n="55     Lord
+<p>"A woman's hand," she said to herself. "Not mine!<pb n="55 Lord
 Raven's Ancestral Home."/> not mine! not mine! Heaven pity me if I am
 doomed to love this man, and be mocked by him, and then if I should go
 mad and take his life!"</p>
@@ -1339,7 +1487,7 @@ nowadays."</p>
 have begun, do tell me the history of the Lord Raven who married so
 much beneath him and was killed in a duel!"</p></div>
 
-<pb n="[56]"/><div id="bcbeyond" type="chapter" n="6"><head>CHAPTER
+<pb n="[56]"/><div id="bcbeyond1006" type="chapter" n="6"><head>CHAPTER
 VI.<lb/>THE STORY OF THE DUEL.</head>
 <p>"He fell in love with a worthless singing-woman and married her
 secretly," said Miss Sparks. "Then he found that she had all the time
@@ -1387,7 +1535,7 @@ souls of men and to enchant their senses," said Miss Sparks, who was a
 shrewd woman. She loved gossip, and the discussion of other folks'
 affairs, dispositions, and prospects.</p>
 <p>"Now, our present young lord, as all the world knows, has had a
-love-affair, a most desperate passion for an ac<pb n="58     The Story
+love-affair, a most desperate passion for an ac<pb n="58 The Story
 of the Duel."/>tress, Lola Lomond, she called herself. She jabbered
 French as badly as she did English, but in both languages she had a
 fluent tongue. She was quite heartless and came out on some provincial
@@ -1415,7 +1563,7 @@ flat nose and projecting teeth. He is also bald and wears no wig, for
 he suffers in his head and could not bear the heat. He is over fifty
 years of age, and Lola is twenty-five."</p>
 <p>"Lord Raven told his father that he would never marry anybody save
-this actress.</p><pb n="59     The Story of the Duel."/>
+this actress.</p><pb n="59 The Story of the Duel."/>
 <p>"'No secret marriage,' he said. The countess would, I am sure, far
 rather have seen him dead than to be married to the daughter of the
 milk-merchant. 'I will marry Lola in the face of, and defiance of, the
@@ -1443,7 +1591,7 @@ milkman.</p>
 answered, 'My son, you have chosen your own path, and you must be
 content to tread it to the end without any help from your father, or
 from me. Pause and reflect before you decide.'</p>
-<p>"And he answered; with all the pride of the Ravens<pb n="60     The
+<p>"And he answered; with all the pride of the Ravens<pb n="60 The
 Story of the Duel."/> flashing in his eyes, 'Mother, I have decided
 long ago; my life henceforth belongs to Lola, my wife.'</p>
 <p>"'The daughter of a milkman!' said the countess, with a cold
@@ -1472,7 +1620,7 @@ had given his heart?"</p>
 and understood that marriage with Lord Raven meant absolute poverty,
 for until the earl's death Charles Raven would have been penniless;
 when she heard him talk of studying for the bar, and earning a<pb
-n="61     The Story of the Duel."/> living by writing novels or
+n="61 The Story of the Duel."/> living by writing novels or
 political pamphlets, she told him plainly that she hated poverty, and
 would not wait for dead men's shoes.</p>
 <p>"For my own part," continued Miss Sparks, "I think that the woman
@@ -1501,7 +1649,7 @@ Cotswold.</p>
 memory of his disappointed love has given a bitter flavor to his life,
 but not to his temper. He is the kindest of friends to the poor. In
 politics he is an ardent Liberal, whereas his family have hitherto<pb
-n="62     The Story of the Duel."/> always represented the
+n="62 The Story of the Duel."/> always represented the
 Conservative interest. The countess fears he may fall in love a second
 time with some one beneath him. I think there is not the remotest
 danger of that."</p>
@@ -1527,7 +1675,7 @@ for she had no beauty and no brains."</p>
 <p>"Yes, that is all arranged between her father and the earl. She
 will have the largest fortune in England. Her name is the same as
 yours, Carruthers, the daughter of the great banker. They say she is
-gentle as an angel,<pb n="63     The Story of the Duel."/> and is
+gentle as an angel,<pb n="63 The Story of the Duel."/> and is
 gifted with much intellectual power. She is handsome, too, they
 say."</p>
 <p>Vivette turned away. Her face was flushed and her heart beat
@@ -1554,14 +1702,14 @@ you want?"</p>
 see him--he may think to hide from me, but I have found him out! I am
 his lawful wife!"</p>
 <p>"You are a madwoman!" cried Miss Sparks; and the next instant she
-added, "Good gracious! here is Lord<pb n="64     The Story of the
+added, "Good gracious! here is Lord<pb n="64 The Story of the
 Duel."/> Raven crossing the lawn. Why, he is waving his handkerchief
 to you, Miss Carruthers."</p>
 <p>"And in another moment he will be face to face with that woman!"
 cried Vivette, in excitement. "See, she is going toward
 him!"</p></div>
 
-<pb n="[65]"/><div id="bcbeyond" type="chapter" n="7"><head>CHAPTER
+<pb n="[65]"/><div id="bcbeyond1007" type="chapter" n="7"><head>CHAPTER
 VII.<lb/>MARGARET FISHER.</head>
 <p>Vivette watched the approaching figure with the most intense
 interest. The deepest possible excitement of brain and thought were
@@ -1584,7 +1732,7 @@ presently," said Miss Sparks. "What a great pity he did not send the
 baggage off about her business at once. No doubt she is some shameless
 creature who loves dress and extravagance, and he has been foolish
 enough to number her among his acquaintances in town. So she comes
-here trying to make a sensation,<pb n="66     Margaret Fisher."/> and
+here trying to make a sensation,<pb n="66 Margaret Fisher."/> and
 to frighten him out of money. She has probably heard what strict,
 strait-laced people the earl and the countess are, and she imagines
 that my lord will give her anything to leave the place. I wish,
@@ -1611,7 +1759,7 @@ it! And the deep, thrilling tones of his voice, how I long to hear
 them! Oh! why does he not come?"</p>
 <p>But Lord Raven did not enter the Queen Elizabeth drawing-room, as
 that long, grand apartment was called. "Now, you would like to see the
-armor and sculpture-<pb n="67     Margaret Fisher."/>gallery," said
+armor and sculpture-<pb n="67 Margaret Fisher."/>gallery," said
 Miss Sparks, moving toward a door which stood partly ajar.</p>
 <p>Vivette followed rather listlessly. She had at once lost interest
 in the grand ancestral hall which ten minutes ago she had been so
@@ -1637,7 +1785,7 @@ boots. It was a complete suit of mail, and only wanted the living form
 of some handsome, stalwart knight to fill it out.</p>
 <p>"Sir Rupert, third son of the then Baron Raven, fought in that suit
 at the battle of Poitiers," said Miss Sparks. "He was killed there and
-his squire sought out<pb n="68     Margaret Fisher."/> his body and
+his squire sought out<pb n="68 Margaret Fisher."/> his body and
 gave it a Christian burial in a chapel near the spot. The suit of
 armor he brought home. Long afterward, in the reign of Queen Mary, the
 then Baron Raven had the bones of his relative carried home and laid a
@@ -1691,7 +1839,7 @@ exquisite colored marble, and opened a door.</p>
 Raven was not there! The same footman who had come to call her was
 engaged in putting some hot covered dishes on a table which was
 daintily laid for one. The saveyy odor of the roast partridges, hot
-game pies,<pb n="70     Margaret Fisher."/> and oyster patties might
+game pies,<pb n="70 Margaret Fisher."/> and oyster patties might
 have provoked the appetite of an epicure.</p>
 <p>It was only the usual hot lunch provided daily at Cotswold for the
 countess and her guests, but why was this solitary repast spread for
@@ -1717,7 +1865,7 @@ at first, but presently with much zest and appetite. When she had
 finished her partridge, she helped herself to some entr&#x00E9;e that stood
 near her, and found it excellent.</p>
 <p>After that she pushed her plate away and took another,<pb
-n="71     Margaret Fisher."/> on which was exquisitely painted a
+n="71 Margaret Fisher."/> on which was exquisitely painted a
 likeness of Madam De Pompadour, and helped herself to a bunch of
 grapes. Then Miss Carruthers ventured to lift the richly cut crystal
 decanter which contained the Sauterne, yellow like amber and of
@@ -1744,7 +1892,7 @@ make a charming and adorable countess?</p>
 to marry marquises, and even dukes, before now. Other women, with
 lower, darker antecedents than mine, and, up to this time, there is
 not one spot, one blemish on my life. Yes, I could hold up my<pb
-n="72     Margaret Fisher."/> head with the best of them, if only
+n="72 Margaret Fisher."/> head with the best of them, if only
 Charles Raven would make me, first, his wife, and then his
 countess. Only they tell me that he is to marry my cousin, Elaine
 Carruthers. I wonder if that tale is true." She paused, and stopped
@@ -1800,7 +1948,7 @@ to see him before I leave the house!"</p>
 him."</p>
 <p>"I mean to shame him to his face. Here am I, miss, his lawful
 wife. This poor thing is his lawful child. Only last night I had half
-a mind to pitch the poor thing<pb n="74     Margaret Fisher."/> into
+a mind to pitch the poor thing<pb n="74 Margaret Fisher."/> into
 the river when I stood on the bridge at Worcester, I felt so mad with
 grief."</p>
 <p>The young woman began to cry.</p>
@@ -1820,7 +1968,7 @@ very abundant, was gathered into an untidy knot at the back of her
 head. This young woman was tall, but squarely built, and rather
 awkward.</p></div>
 
-<pb n="[75]"/><div id="bcbeyond" type="chapter" n="8"><head>CHAPTER
+<pb n="[75]"/><div id="bcbeyond1008" type="chapter" n="8"><head>CHAPTER
 VIII.<lb/>A STRANGE STORY.</head>
 <p>"She could never be manufactured into a lady," said Vivette to
 herself, "not if they tried for ten years."</p>
@@ -1846,7 +1994,7 @@ refreshing."</p>
 <p>The woman drank thirstily, and then ate voraciously. Vivette helped
 her again and yet again. The baby she had placed on the floor. There
 the little one lay, with its round eyes fixed on the ceiling. Every
-now and<pb n="76     A Strange Story."/> then it whimpered, but the
+now and<pb n="76 A Strange Story."/> then it whimpered, but the
 mother shouted at it, and it ceased to cry.</p>
 <p>"Poor little wretch!" said Vivette to herself. "I have no aversion
 to babies, and if it were not so dreadfully dirty I would nurse it. If
@@ -1873,7 +2021,7 @@ ugly, and somehow I did so hate him. Then Lord Raven came and lodged
 at the jolly Sailors, and he asked me to be his wife."</p>
 <p>"Your powers of fascination must, indeed, have been great," said
 Vivette, with a touch of sarcasm in her tone.</p>
-<p>"I don't understand your words, miss," the young<pb n="77     A
+<p>"I don't understand your words, miss," the young<pb n="77 A
 Strange Story."/> woman answered, with a sigh. "I never was very
 clever, but I gave my whole heart to that man. Ah! miss, what a gift
 that is! and how ready we weak women are to give it!"</p>
@@ -1903,7 +2051,7 @@ that elegant, distinguished-looking young nobleman's, and called him
 Charlie!</p>
 <p>"Oh! if only the countess could hear you!" said Vivette to
 herself. "If only something would happen to bring her back from the
-picnic, and if she would but<pb n="78     A Strange Story."/> come in
+picnic, and if she would but<pb n="78 A Strange Story."/> come in
 at that door, I might have the supreme bliss of introducing this
 person to her as her daughter-in-law!"</p>
 <p>"I think," the claimant continued, "that Charlie mistook my
@@ -1932,7 +2080,7 @@ Fisher."</p>
 Carruthers to herself.</p>
 <p>"Well, I acted deceitfully toward my uncle. He is a man as hard as
 a stone, and he has never forgiven me! I got Charlie to write a letter
-in a feigned hand, as if it<pb n="79     A Strange Story."/> had come
+in a feigned hand, as if it<pb n="79 A Strange Story."/> had come
 from a schoolfellow of mine, Mary Roberts, who was at the village
 school with me, and had always been my friend. Mary's married, and her
 husband is a baker at Southampton, in a good way of business. Charlie
@@ -1957,7 +2105,7 @@ must leave our pretty lodgings in the New Forest and return to London,
 where he said he was studying art in the art-galleries. I had never
 heard of them before. He told me to return to the Jolly Sailors Inn,
 and resume my duties as my uncle's servant and barmaid. Then he showed
-his meanness and unkindness, for he would only<pb n="80     A Strange
+his meanness and unkindness, for he would only<pb n="80 A Strange
 Story."/> give me one sovereign, and that he seemed to grudge me. He
 said that I should not want for anything there!"</p>
 <p>"Excuse me!" Vivette cried out impatiently, "but I am afraid that
@@ -1984,7 +2132,7 @@ Sailors, just as he had told me. I ought to have suspected him, for I
 had to send all my letters to him addressed in initials to be left at
 a London post-office till called for. I wrote and wrote, and he
 answered me lovingly at first. Soon his letters grew cold and far
-between, then they ceased, and I grew wild,<pb n="81     A Strange
+between, then they ceased, and I grew wild,<pb n="81 A Strange
 Story."/> for as time went on I discovered that my marriage could not
 any longer be hidden. I wrote and wrote. At last, driven quite mad, I
 went to my aunt first, and told her all my story, and showed her my
@@ -2038,7 +2186,7 @@ but put what few things I had of my own into a bag, and left my
 workhouse dress behind.</p>
 <p>"I told them I had heard of my husband, and was going after him,
 but I did not tell them he was a lord. Then I set off on foot, and
-walked to Farnham, in Sur<pb n="83     A Strange Story."/>rey, a
+walked to Farnham, in Sur<pb n="83 A Strange Story."/>rey, a
 distance of seven miles. I got on to Basinstoke by train, and walked
 three days, carrying my child, from there to Oxford. I got the train
 at Oxford and came on to Worcester, where I slept last night on a heap
@@ -2052,7 +2200,7 @@ him what I think of him!"</p>
 <p>Lord Raven advanced, looking grave, but not agitated. Vivette
 sprang up, and opened the window for him.</p></div>
 
-<pb n="[84]"/><div id="bcbeyond" type="chapter" n="9"><head>CHAPTER
+<pb n="[84]"/><div id="bcbeyond1009" type="chapter" n="9"><head>CHAPTER
 IX.<lb/>AN INVITATION.</head>
 <p>Lord Raven removed his hat when he entered the room, and smiled
 pleasantly, as he glanced from one young person to the other, with a
@@ -2103,7 +2251,7 @@ and brought up a large envelope, of a pinkish hue, which she handed to
 the irate young man.</p>
 <p>Lord Raven took the letter as if he were afraid of possible
 dirt. Indeed, it was a very soiled and uninviting-looking
-document. The address was scrawled over it<pb n="86     An
+document. The address was scrawled over it<pb n="86 An
 Invitation."/> in a heavy male hand. Lord Raven took out the letter
 and made a wry face when he discovered that it contained four pages,
 closely covered with close small-hand writing.</p>
@@ -2131,7 +2279,7 @@ expect it, she will meet you in the street. If ever this happens, you
 must be prepared to give her the lie through thick and thin. Unless
 she has other witnesses to swear to you, your denial would seem more
 like reason than her assertions. You have certainly acted<pb
-n="87     An Invitation."/> with the impetuosity of a young madman,
+n="87 An Invitation."/> with the impetuosity of a young madman,
 but then you are decidedly a genius, and we always associate the
 greatest eccentricities with genius. To me it seems that you have but
 to go in and win, and I hope you will improve the advantages the fates
@@ -2157,7 +2305,7 @@ a purse into Margaret's hands. "In that purse are several pounds, I
 don't know anything whatever about you or your motives, but you may
 have been cruelly imposed upon, or otherwise. All I beg is that you
 will go away as son as possible, and never come here as long as you
-live. I have my share of an<pb n="88     An Invitation."/>noyances in
+live. I have my share of an<pb n="88 An Invitation."/>noyances in
 this life, and I don't wish to complain unnecessarily, but, really,
 this is a little too much. Look at me once more before you go," he
 added, with a half-bitter smile which showed his white teeth. "Make
@@ -2185,7 +2333,7 @@ understand that, did I not?"</p>
 talk to me like that!"</p>
 <p>And Vivette stamped her foot in a rage.</p>
 <p>"That's right!" said Lord Raven, sitting down. "I admire your
-spirit. You are only a governess, and I am<pb n="89     An
+spirit. You are only a governess, and I am<pb n="89 An
 Invitation."/> a nobleman, but you are not meek and gentle. You tell
 me what a brute you think me to my face! I wish I could fall in love
 with you, but I can't!"</p>
@@ -2210,7 +2358,7 @@ hurting your feelings, but I am innocent all the while!"</p>
 <p>"Not at all!" cried Vivette. "You rejoice, Lord Raven, in making me
 feel uncomfortable! It is a joke for you, but I hate you for it."</p>
 <p>"I know you do," he said coolly; "and it is natural that you
-should. But, as I said just now, Miss Carruth<pb n="90     An
+should. But, as I said just now, Miss Carruth<pb n="90 An
 Invitation."/>ers, I am accustomed to being hated by women. I am
 getting used to it."</p>
 <p>"It is a pity he is so distractedly good-looking!" was Vivette's
@@ -2237,7 +2385,7 @@ the luncheon I ordered for you."</p>
 <p>"Yes, my lord, and I thank you for it, very much. I am likewise
 obliged to her ladyship the countess for giving orders that I was to
 see the house."</p>
-<p>"And what do you think of the house?"</p><pb n="91     An
+<p>"And what do you think of the house?"</p><pb n="91 An
 Invitation."/>
 <p>"It is superfluous to ask," Vivette answered. "Of course, Cotswold
 is one of the great English historical houses. It is full of treasures
@@ -2268,7 +2416,7 @@ present moment, Miss Carruthers, incapable of a deliberate lie. Still,
 it would not have mattered much if I had sent no answer to the
 colonel's telegram. It was only sent to tell me that a horse which he
 and I had backed had won a race, so I sent back thanks and<pb
-n="92     An Invitation."/> congratulations. Don't think me a
+n="92 An Invitation."/> congratulations. Don't think me a
 professed gambler. I have only won fifty pounds."</p>
 <p>"Which you will spend in the most foolish manner you can devise?"
 asked Vivette, with a saucy smile.</p>
@@ -2295,7 +2443,7 @@ provided amply for my wants. Also, here is a bottle of Burgundy,
 uncorked. I will draw the cork and wait on myself. Don't watch me
 while I eat. I feel so ravenous. Put on your hat and saunter slowly
 toward your home. I will follow you in less than ten minutes. Take the
-path across<pb n="93     An Invitation."/> the park by the beeches,
+path across<pb n="93 An Invitation."/> the park by the beeches,
 and I will then overtake you by the oak-tree near the Wishing
 Well."</p>
 <p>"Thanks, but I don't feel inclined for a quiet saunter. It is late
@@ -2318,7 +2466,7 @@ with a smile:</p>
 <p>"Immensely," laughed Lord Raven, and so these young persons
 parted.</p></div>
 
-<pb n="[94]"/><div id="bcbeyond" type="chapter" n="10"><head>CHAPTER
+<pb n="[94]"/><div id="bcbeyond1010" type="chapter" n="10"><head>CHAPTER
 X.<lb/>AN ACCIDENT.</head>
 <p>"If I had not had my love-dream and found it a hoax and a sham, I
 should love that girl. But now I am so very wide-awake that I feel
@@ -2340,7 +2488,7 @@ be simplified." said the heir to himself, with a cynical smile.</p>
 <p>Charles Raven fully meant to be a kind husband to the young lady,
 that is, as husbands go. He would give her her own way, and have some
 money settled on herself, with which she might carry out her own plans
-and pleasures.</p><pb n="95     An Accident."/> 
+and pleasures.</p><pb n="95 An Accident."/> 
 <p>He had not the least intention of being dissipated. He hated and
 loathed the coarser kinds of dissipation, but he had made up his mind
 to lead a life pleasant to himself, and harmless toward others, loving
@@ -2367,7 +2515,7 @@ neighborhood!"</p>
 making these worldly-wise reflections he was buttoning his coat across
 his chest, for the evening was chilly, pulling down his cap over his
 eyes, and hastening along in the direction of Rosalind Cottage. Soon
-he had left the park by a short cut, and was walk<pb n="96     An
+he had left the park by a short cut, and was walk<pb n="96 An
 Accident."/>ing in the narrow shady lane bordered by tall elms, which
 led to the humble abode of this girl. Then the moon came and looked at
 him through a rift in a white fleecy cloud that was spread over the
@@ -2395,7 +2543,7 @@ to Worcester, to have the hinge mended, but he had not been to
 Worcester since, and had gone about for weeks, carrying the precious
 heirloom in his pocket.</p>
 <p>Twenty-one pounds in gold, and a snuff-box in eighteen-carat gold,
-with an authenticated portrait on the lid<pb n="97     An
+with an authenticated portrait on the lid<pb n="97 An
 Accident."/> of Madam Du Barry, valued by old Spooner, the
 antiquarian, at fifty guineas!</p>
 <p>"My good man, if you have any idea of springing down from your
@@ -2421,7 +2569,7 @@ Carruthers entertaining Lord Raven at tea.</p>
 <p>"What a thing, my dear young lady," she had said. "He will be sure
 to marry you if only you play your cards well. I know I have heard my
 grandmother talk of the Earl of Cheselden, who married a young servant
-at a roadside inn in the North.</p><pb n="98     An Accident."/>
+at a roadside inn in the North.</p><pb n="98 An Accident."/>
 <p>"He was thrown from his horse, and broke his leg, and he was
 obliged to be nursed there. She was pretty, and had black eyes like
 yours, and he fell in love with her. He was twenty-six, and she was
@@ -2451,7 +2599,7 @@ Mrs. Bonner left the room.</p>
 the passage and through the hall door into the little garden, on which
 the moon was shining.</p></div>
 
-<pb n="[99]"/><div id="bcbeyond" type="chapter" n="11"><head>CHAPTER
+<pb n="[99]"/><div id="bcbeyond1011" type="chapter" n="11"><head>CHAPTER
 XI.<lb/>VIVETTE BECOMES NURSE.</head>
 <p>Vivette walked down the gravel path by the side of the grass-plot,
 and looked over the gate into the white moonlit road. The trees in the
@@ -2475,7 +2623,7 @@ unimportant item in the economy of the universe, but to Miss
 Carruthers it certainly was at that moment the most interesting spot
 in Christendom. At any time the hero of her dreams might walk along
 between the hedges iii the moonlight, swinging his cane.</p><pb
-n="100     Vivette Becomes Nurse."/>
+n="100 Vivette Becomes Nurse."/>
 <p>"I am afraid that lie has altered his mind, and that he will not
 come at all," the girl said to herself. Instead of tossing her head
 and feeling what she herself, in some of her moods, called vicious,
@@ -2501,7 +2649,7 @@ he saw Vivette Carruthers, he stood up, and called out:</p>
 <p>"Hello!" and the driver drew ran. "Hello!" said the doctor,
 speaking in some excitement. "Tell the woman at Rosalind Cottage to
 open her door, and put a sofa ready in her front room. Here is
-somebody nearly<pb n="101     Vivette Becomes Nurse."/> killed, and
+somebody nearly<pb n="101 Vivette Becomes Nurse."/> killed, and
 perhaps dying! A highway robbery! Do make haste! Run on and get the
 door open!"</p>
 <p>"So that when Lord Raven comes," said the girl to herself, "he will
@@ -2557,13 +2705,13 @@ head.</p>
 doctor. "We will try and trace the villain afterward. I will send my
 man on to my surgery for the bandages and the various things I shall
 require," continued Doctor Barker. "The patient must not be<pb
-n="103     Vivette Becomes Nurse."/> moved. We must make him up a bed
+n="103 Vivette Becomes Nurse."/> moved. We must make him up a bed
 in this room, ar I shall not alarm the countess until we have made him
 as comfortable as circumstances will admit. Somebody must sit up with
 him."</p>
 <p>"I will," interrupted Vivette.</p></div>
 
-<pb n="[104]"/><div id="bcbeyond" type="chapter" n="12"><head>CHAPTER
+<pb n="[104]"/><div id="bcbeyond1012" type="chapter" n="12"><head>CHAPTER
 XII.<lb/>THE STRANGE MAN.</head>
 <p>The doctor glanced round sharply at the dark girl, who had been so
 silent and swift. She had held the horse's head, and had given no
@@ -2586,7 +2734,7 @@ under him by Mrs. Bonner and Vivette. Vivette watched Lord Raven
 almost with the solicitude of a mother who watches by the bedside of a
 sick child.</p>
 <p>The young men slept--actually slept. Sleep was better for him than
-the stupor in which he had lain at first.</p><pb n="105     The
+the stupor in which he had lain at first.</p><pb n="105 The
 Strange Man."/> 
 <p>Vivette had been told what she was to do if the patient awoke. She
 was to give him the cooling draft prepared for him, and some brandy if
@@ -2616,7 +2764,7 @@ felt sleep stealing over her she roused herself with a start, and
 looked toward the sleeping face on the pillows. It was odd, but the
 fear that he might die did not torment Vivette. She seemed to have an
 inward conviction that he would recover, and live. Her desire was<pb
-n="106     The Strange Man."/> to win his love, and make herself dear
+n="106 The Strange Man."/> to win his love, and make herself dear
 and precious to him. Then she thought of her cousin, the heiress, and
 a storm of jealousy swept over her like a hurricane!</p>
 <p>"I suppose that she will come here to nurse him, since she is his
@@ -2642,7 +2790,7 @@ of amber, crimson, and purple on the boughs. All the time he was
 tormented by a great thirst. He stretched out his hands toward the
 refreshing fruits, but they all grew out of his reach. He was sensible
 of a feeling of pain and weariness, but the beauty of his surroundings
-soothed his senses and calmed his discontent.</p><pb n="107     The
+soothed his senses and calmed his discontent.</p><pb n="107 The
 Strange Man."/> 
 <p>All at once a man came out of some woods on the right of him, and
 he felt by instinct that the man was evil and cruel. He had somehow
@@ -2672,7 +2820,7 @@ brilliant career before you, and may fly at the highest game."</p>
 Don't talk of great careers to me. Yon think I am a coward, who fears
 death. Very well. Some morning they will come to call me to breakfast,
 and they will find me lying stark and cold. It is true!"</p><pb
-n="108     The Strange Man."/>
+n="108 The Strange Man."/>
 <p>All at once his dream of the brilliant verdure of the flowery
 lawns, the foliage of the trees, the heavenly blue of the summer sky
 took homelier shapes. The lawns were only Mrs. Bonner's round table,
@@ -2699,7 +2847,7 @@ am to be ignored, that I must hide out of your way. You will find that
 I will not. I shall live near you, see you constantly, and share your
 good fortune in every way. I see what it is. Since new arrangements
 have been made, since you have got up in the world, you have forgotten
-the old<pb n="109     The Strange Man."/> tie, but it is of forged
+the old<pb n="109 The Strange Man."/> tie, but it is of forged
 iron. Nothing can break it but death."</p>
 <p>"I know that," Vivette answered, "nor do I wish to ignore your
 claims to my obedience when you only exact what is right, but what you
@@ -2726,7 +2874,7 @@ this strange dialogue, which he thought sounded more like a
 conversation on the stage than one in the real every-day life of a
 country village. His eyes were fixed with an expression of something
 akin to admiration, mingled with a half-contemptuous pity, on Miss
-Carruthers.</p><pb n="110     The Strange Man."/>
+Carruthers.</p><pb n="110 The Strange Man."/>
 <p>"Good heavens! then she is secretly the wife of this man!" the
 young nobleman said to himself, and he added: "What a very terrible
 thing!"</p>
@@ -2773,7 +2921,7 @@ the creature of a dream!</p>
 ever meet that fellow in the world, I shall know him again, not that
 it matters much to me!"</p></div>
 
-<pb n="[112]"/><div id="bcbeyond" type="chapter" n="13"><head>CHAPTER
+<pb n="[112]"/><div id="bcbeyond1013" type="chapter" n="13"><head>CHAPTER
 XIII.<lb/>SEPARATION.</head>
 <p>Lord Raven's head was not vitally injured, though it was seriously
 hurt. He was very feverish and ill for some days, and Doctor Barker
@@ -2796,7 +2944,7 @@ then she came to Vivette. Miss Carruthers was pouring some wine, that
 had been sent from Cotswold, into a glass.</p>
 <p>"You are very kind," said the countess, "and I am sure we are all
 most grateful. I hear from Doctor Barker that you were good enough to
-sit up all night with<pb n="113     Separation."/> Lord Raven, but now
+sit up all night with<pb n="113 Separation."/> Lord Raven, but now
 the nurses will be coming, and it would not be allowable for you to
 remain in the house with him any longer, so I have arranged for you to
 remain at Cotswold until he is able to return home. Miss Sparks has
@@ -2850,7 +2998,7 @@ and laughed at her own folly. Soon her laughter gave way to tears.</p>
 <p>"It is so maddening," she said to herself, "to think that I am not
 so angry because I have such a prize at stake. A chance in life of
 becoming a countess, with carriages and servants at my command. It is
-not all<pb n="115     Separation."/> this which I am so eager to gain,
+not all<pb n="115 Separation."/> this which I am so eager to gain,
 so fearful to lose! It is the love for Lord Raven, who holds all these
 benefits in his gift. In a garret with him, starving on bread and tea,
 as I have starved in the Paris days, or in a wilderness with him,
@@ -2876,7 +3024,7 @@ up to the couch. Lord Raven's eyes were closed.</p>
 <p>"He is sleeping," said the countess, but at that very moment the
 young nobleman opened his gray eyes and fixed them on Vivette. There
 was a wandering look in them. A flush came upon his face as he
-said:</p><pb n="116     Separation."/>
+said:</p><pb n="116 Separation."/>
 <p>"Are you the wife of the man with the black hair and the shabby
 brown coat?"</p>
 <p>Vivette was equal to the occasion.</p>
@@ -2884,7 +3032,7 @@ brown coat?"</p>
 <p>"I am afraid you are telling a falsehood, Mias Carruthers!" said
 Lord Raven quietly.</p></div>
 
-<pb n="[117]"/><div id="bcbeyond" type="chapter" n="14"><head>CHAPTER
+<pb n="[117]"/><div id="bcbeyond1014" type="chapter" n="14"><head>CHAPTER
 XIV.<lb/>THE DRIVE TO COTSWOLD.</head>
 <p>Lord Raven was very white, and his gray eyes blazed. There was a
 half-conscious look in them, as they searched the face of Vivette
@@ -2906,7 +3054,7 @@ will become more."</p>
 entered the carriage, and were whirled off through the green lanes
 toward Cotswold.</p>
 <p>It was some time before Lady Riverswood spoke, then she
-said:</p><pb n="118     The Drive to Cotswold."/>
+said:</p><pb n="118 The Drive to Cotswold."/>
 <p>"They have already arrested one man on suspicion of being the
 robber and assailant of Lord Raven."</p>
 <p>Vivette looked up. The countess felt her give a great start, and
@@ -2935,7 +3083,7 @@ and bloodshed without fainting."</p>
 <p>"But I am not going to faint, your ladyship."</p>
 <p>"No, certainly not," the countess answered, with a cold smile, "but
 I thought your nerves were stronger. I have no doubt that the man who
-attacked Lord Raven<pb n="119     The Drive to Cotswold."/> is in
+attacked Lord Raven<pb n="119 The Drive to Cotswold."/> is in
 custody. Since neither money nor the gold box were found upon him, all
 they can do will be to offer him a pardon if he will betray his
 accomplice, the villain who has possession of the property."</p>
@@ -2963,7 +3111,7 @@ of excited feelings."</p>
 aristocrat, but she is a brute at heart! She knows I have been up all
 night, and sees that I am agitated, and even ill, yet she will pin me
 down to the hateful task of teaching those stupid little creatures,
-her grandchil<pb n="120     The Drive to Cotswold."/>dren. I cannot do
+her grandchil<pb n="120 The Drive to Cotswold."/>dren. I cannot do
 it. I will plead a violent headache, and go to bed."</p>
 <p>The carriage returned along the same road, and in due time reached
 one of the entrance-gates of Cotswold. The coachman gave his
@@ -2989,7 +3137,7 @@ comparatively, in a corner passage of the great house, but it is
 charmingly, even luxuriously, furnished. There is a couch and a
 wardrobe, a bathroom, and a writing-table, besides some tastefully
 arranged shelves, loaded with handsomely bound books. These Miss<pb
-n="121     The Drive to Cotswold."/> Sparks has collected from various
+n="121 The Drive to Cotswold."/> Sparks has collected from various
 parts of the house, and she has brought them to decorate the room of
 Miss Carruthers, and to enliven her solitary hours. Miss Sparks has
 taken an immense fancy to the dark-eyed governess.</p>
@@ -3016,7 +3164,7 @@ Cottage. Her magnificent dark hair was gathered into a rich smooth
 knot at the back of her shapely head; and it curled low on her square
 white brow. She was not handsome, even with her great black flashing
 eyes. Her features were not pretty, though her lips were red, and her
-teeth were white, and the<pb n="122     The Drive to Cotswold."/>
+teeth were white, and the<pb n="122 The Drive to Cotswold."/>
 whole face bespoke vivacity and an eager intelligence. But her figure
 was superb.</p>
 <p>"Why should I not be a countess?" the ambitious girl said. She
@@ -3046,7 +3194,7 @@ compliment you on your good feeling, still less on your good
 taste!"</p>
 <p>"I do not wish you, or anyone, to compliment me," the young lady
 answered. "I dislike flatteries of all sorts, but I will endeavor to
-defend myself from the charge<pb n="123     The Drive to Cotswold."/>
+defend myself from the charge<pb n="123 The Drive to Cotswold."/>
 of being an eavesdropper. I have been watching you, I admit. I came in
 here because I wished to make your acquaintance, and Miss Sparks has
 told me that this was your room. You were not here, so I went into the
@@ -3073,7 +3221,7 @@ took more than this to upset the self-possessed calmness of Elaine
 Carruthers. She took a seat on the little couch, unasked by Vivette,
 and said:</p>
 <p>"You are certainly very headstrong, but, fortunately, I have a
-large stock of patience. I will admit frankly that<pb n="124     The
+large stock of patience. I will admit frankly that<pb n="124 The
 Drive to Cotswold."/> I have confidence in you to a certain
 extent. Such a character as yours may be offensive, rude, and foolish,
 but it is quite sure to be honest."</p>
@@ -3085,7 +3233,7 @@ dashed them hastily away.</p>
 <p>"Am I honest, oh! merciful Heaven?" she asked herself
 bitterly.</p></div>
 
-<pb n="[125]"/><div id="bcbeyond" type="chapter" n="15"><head>CHAPTER
+<pb n="[125]"/><div id="bcbeyond1015" type="chapter" n="15"><head>CHAPTER
 XV.<lb/>ELAINE CARRUTHERS.</head>
 <p>"My father and myself both knew that you were here," said
 Elaine. "My parents have felt very much for you, and they do not
@@ -3108,7 +3256,7 @@ have to write my notes, read to me when I am tired, drive out with me,
 and give me lessons in painting. You have some skill as an artist, I
 hear?"</p>
 <p>"I shall be a humble companion," said Vivette, "but no power on
-earth shall make me a toady or a flatterer."</p><pb n="126     Elaine
+earth shall make me a toady or a flatterer."</p><pb n="126 Elaine
 Carruthers."/>
 <p>"I told you just now," said the heiress, "that I did not like
 flatteries, but I think you a little too rude and rough."</p>
@@ -3192,7 +3340,7 @@ county of York, she had model schools and farms, all under her own
 direction. She was not generous, but she strove to be just, according
 to her lights. In reality, Elaine had never won the genuine love of a
 single human being since first she saw the light, if we except her
-parents, who doted on her. She herself was<pb n="129     Elaine
+parents, who doted on her. She herself was<pb n="129 Elaine
 Carruthers."/> cold, precise, and methodical, and would have thought
 it beneath her dignity to give strong affection to any creature. In
 her heart she was reserving what power she had in her of loving for
@@ -3207,7 +3355,7 @@ I hear the lunch-gong. Will you follow, me down-stairs?"</p>
 <p>Then the heiress swept down the grand staircase, followed by
 Vivette.</p></div>
 
-<pb n="[130]"/><div id="bcbeyond" type="chapter" n="16"><head>CHAPTER
+<pb n="[130]"/><div id="bcbeyond1016" type="chapter" n="16"><head>CHAPTER
 XVI.<lb/>LORD RAVEN'S APPEARANCE.</head>
 <p>We pass over hastily the events of the fortnight which followed on
 the arrival of the Carruthers family at Cotswold.</p>
@@ -3232,7 +3380,7 @@ countess drove over to see him. A great doctor from Worcester called
 every other day upon him, and held consultations with Doctor
 Barker.</p>
 <p>Vivette tried hard to get an opportunity of seeing him<pb
-n="131     Lord Raven's Appearance."/> by calling at Rosalind Cottage,
+n="131 Lord Raven's Appearance."/> by calling at Rosalind Cottage,
 but the countess was on her guard, and foiled her at every turn. She
 set her tasks of needlework, and, in short, monopolized nearly her
 whole time.</p>
@@ -3260,7 +3408,7 @@ Raven was at Rosalind Cottage. It was a fine afternoon for the time of
 year, piercingly cold, but the sun shone, and the sky was
 blue. Vivette sat alone in the schoolroom, and for once it seemed to
 her that the vigilance of the countess slept. That august lady had
-gone out for a drive with the earl<pb n="132     Lord Raven's
+gone out for a drive with the earl<pb n="132 Lord Raven's
 Appearance."/> and the three Carruthers in a waggonette. The children
 had gone to Cheltenham by train with their mother, and would not
 return until the next day.</p>
@@ -3289,7 +3437,7 @@ know."</p>
 you were here. Mrs. Bonner told me. She is a capital old woman, and
 is, I think, as anxious that I should fall in love with you as my
 mother is that I should not. Don't blush so, Vivette, it is not worth
-while. You<pb n="133     Lord Raven's Appearance."/> know that I can
+while. You<pb n="133 Lord Raven's Appearance."/> know that I can
 never be anything but your friend. The doctor gave me leave yesterday
 to come home, but I waited until they were all out, and have now
 returned in a hired carriage, and have walked round from the
@@ -3316,13 +3464,13 @@ one, yet I must marry. And you say she isn't ugly?"</p>
 Vivette's secret?</p>
 <p>"What are you crying for?" he said, at length, looking up into the
 girl's dark face, but the expression he saw there was one of
-horror.</p><pb n="134     Lord Raven's Appearance."/>
+horror.</p><pb n="134 Lord Raven's Appearance."/>
 <p>Vivette was looking through the window into the garden, and Lord
 Raven saw a man slinking off among the trees.</p>
 <p>"That is the man I dreamed of," cried he. "Who is he,
 Vivette?"</p></div>
 
-<pb n="[135]"/><div id="bcbeyond" type="chapter" n="17"><head>CHAPTER
+<pb n="[135]"/><div id="bcbeyond1017" type="chapter" n="17"><head>CHAPTER
 XVII.<lb/>VIVETTE'S SECRET.</head>
 <p>Lord Raven was convinced, when he looked at the white,
 terror-stricken face of Vivette, her dilating eyes and parted lips,
@@ -3347,7 +3495,7 @@ skulking.</p>
 <p>"Vivette," said Lord Raven, at length, speaking now in a tender
 voice; "Vivette, who is that man, tell me?"</p>
 <p>She looked at Lord Raven, and made an effort to speak<pb
-n="136     Vivette's Secret."/> but she only laughed
+n="136 Vivette's Secret."/> but she only laughed
 hysterically. Then she arose, and leaned on the mantelpiece, hiding
 her face in her hands.</p>
 <p>"I am such a coward," she began. "I--I am afraid of that man, and I
@@ -3378,7 +3526,7 @@ wishes."</p>
 <p>Vivette laughed, but Lord Raven was not mistaken, for there was a
 sound of tears in her voice.</p>
 <p>"I thought that I was hungry. I hoped that Mrs. Bonner would have
-provided something nice for my tea, as<pb n="137     Vivette's
+provided something nice for my tea, as<pb n="137 Vivette's
 Secret."/> she so often did, good soul. Then I saw a man leaning on
 the gate of the garden, and I felt my heart contract, for I was very
 much afraid that I had seen him somewhere abroad during the lifetime
@@ -3433,7 +3581,7 @@ quite true that the man had watched at the gate for the return of this
 young girl. Most likely he had taken tea with her, and it was certain
 to be true that he was persecuting her for money. But, then, in what
 relation did he stand to her, or in what relation had he stood to her
-father? Why was she so much afraid of him?</p><pb n="139     Vivette's
+father? Why was she so much afraid of him?</p><pb n="139 Vivette's
 Secret."/>
 <p>"I hope, I entreat, Lord Raven, that you will not hurt him!" she
 said.</p>
@@ -3493,7 +3641,7 @@ know how much he cares for, and what he thinks of me. He likes me, I
 know he likes me, but, does he love me?" Vivette sighed as she thought
 how much she loved him.</p>
 <p>"I must give her this money," said Lord Raven, to himself; "and she
-must pay the fellow off."</p><pb n="141     Vivette's Secret."/> 
+must pay the fellow off."</p><pb n="141 Vivette's Secret."/> 
 <p>He went slowly from the room, and, left alone, Vivette sat down,
 and covered her face, and wept violently. She was afraid to look out
 through the window, for she fancied the terrible man Terrance was all
@@ -3523,7 +3671,7 @@ with a shawl thrown over her head, she rushed across the frosty lawn
 toward the belt of trees where the mysterious man was
 hiding.</p></div>
 
-<pb n="[142]"/><div id="bcbeyond" type="chapter" n="18"><head>CHAPTER
+<pb n="[142]"/><div id="bcbeyond1018" type="chapter" n="18"><head>CHAPTER
 XVIII.<lb/>AN EVENING IN THE DRAWING-ROOM.</head>
 <p>Lord Raven folded his arms and watched the belt of trees at the
 farther end. A gloomy frown brought his level brows together. He was
@@ -3547,7 +3695,7 @@ sure that he is a ruffian, and that you are not telling me all the
 truth about him. There she comes."</p>
 <p>Vivette was, indeed, hastening across the lawn with her shawl
 wrapped over her head "like a handsome factory-girl in a novel of
-Manchester life," said Lord Raven,<pb n="143     An Evening in the
+Manchester life," said Lord Raven,<pb n="143 An Evening in the
 Drawing-room."/> with a smile, to himself. "How like a saint her face
 and attitude were just then as she looked up, and the gray shawl
 framed the face like a nun's hood. It is not a beautiful face, but it
@@ -3602,7 +3750,7 @@ uncle, and he thinks I shall inherit a fortune. He threatens, if I do
 not marry him, that he will tell my Uncle Carruthers of some
 transaction in which my father cheated at cards. He says that he will
 not only tell him, but he will publish it all in the papers if I do
-not consent to become his wife!"</p><pb n="145     An Evening in the
+not consent to become his wife!"</p><pb n="145 An Evening in the
 Drawing-room."/>
 <p>'And what answer did you give him?" Lord Raven asked.</p>
 <p>"I, oh! I--I--said that I must have time to think it over,"
@@ -3631,7 +3779,7 @@ wildly.</p>
 Raven, a future Countess of Riverswood? If so, of course he had his
 answer ready. He had already, told Vivette that he must marry for
 wealth, that he must marry her cousin, Miss Elaine Carruthers. Still,
-his<pb n="146     An Evening in the Drawing-room."/> heart would
+his<pb n="146 An Evening in the Drawing-room."/> heart would
 thump, and his ears would tingle, and he felt most miserably confused
 and uncomfortable.</p>
 <p>"I can't give advice," said Lord Raven quickly. "I am shocked that
@@ -3658,7 +3806,7 @@ breakfasting and dining with her pupils, she should be condemned to a
 solitary tea in the schoolroom, and a lonely evening with her books,
 or her work. A wine-decanter and a box of biscuits were brought in on
 a tray at half-past ten o'clock to show that people knew she<pb
-n="147     An Evening in the Drawing-room."/> was alive, while the
+n="147 An Evening in the Drawing-room."/> was alive, while the
 great people and their visitors were enjoying music, and wine, and
 social intercourse in the grand drawing-rooms.</p>
 <p>Her cousin and uncle were among these visitors, but neither of them
@@ -3685,7 +3833,7 @@ hothouse. Somehow, this girl was vastly popular with the male and
 female servants of the household, and they all strove to please her,
 and serve her well.</p>
 <p>"Can't you fancy an egg, Miss Carruthers?" Vivette shook her
-head.</p><pb n="148     An Evening in the Drawing-room."/>
+head.</p><pb n="148 An Evening in the Drawing-room."/>
 <p>"No, I thank you, Perkins, but the tea and toast are
 delicious. What o'clock is it, Perkins?"</p>
 <p>"Half-past eight, miss. Dinner is over. They are all in the green
@@ -3712,7 +3860,7 @@ please tell me what they say."</p>
 abroad, and she used to play it, but she has quite forgotten it. Uncle
 Raven so wishes to hear it."</p>
 <p>"So that he sends for me! Indirectly, it is true, but he sends for
-me," said the girl to herself. Then she said<pb n="149     An Evening
+me," said the girl to herself. Then she said<pb n="149 An Evening
 in the Drawing-room."/> aloud, "I am not dressed for the drawing-room,
 and I will have my tea, change my dress, and come in less than a
 quarter of an hour."</p>
@@ -3741,7 +3889,7 @@ likes chess."</p>
 <p>"Mine, then, is ill-balanced," said the reckless Lord Raven.</p>
 <p>"Excuse me, but I object to jokes of that kind," said the
 bride-elect, speaking with the gentle severity of one who reprimands a
-child.</p><pb n="150     An Evening in the Drawing-room."/>
+child.</p><pb n="150 An Evening in the Drawing-room."/>
 <p>"I suppose you object to jokes of all kinds," said Lord Raven, with
 a curious smile.</p>
 <p>"Not to sensible ones," said the prim heiress.</p>
@@ -3761,7 +3909,7 @@ five thousand pounds! She rushed up to the window, and strove to
 wrench the box out of the man's hand.</p>
 <p>"I will throw you down!" she said.</p></div>
 
-<pb n="[151]"/><div id="bcbeyond" type="chapter" n="19"><head>CHAPTER
+<pb n="[151]"/><div id="bcbeyond1019" type="chapter" n="19"><head>CHAPTER
 XIX.<lb/>AN ATTEMPTED ROBBERY.</head>
 <p>It was a terrible moment for Vivette. Any one who had seen her at
 that time could hardly have forgotten her. The beautiful even teeth
@@ -3786,7 +3934,7 @@ don't give me that box!"</p>
 <p>"And you shall have that additional crime then on your conscience!"
 the brave girl answered. "I assure you I care very little for this
 life of mine. It holds nothing particularly attractive for me, and I
-would quite as soon<pb n="152     An Attempted Robbery."/> die! Yes,
+would quite as soon<pb n="152 An Attempted Robbery."/> die! Yes,
 you may break my arm if you like, but you will not get this box out of
 my hands! Can't you see that I too could kill you if I chose to throw
 down the ladder on which you stand?"</p>
@@ -3813,7 +3961,7 @@ strong blow at the box, which went spinning out of the hands of
 Vivette to the other and of the dressing-room. The lock burst, and a
 cross and chain of diamonds came streaming out.</p>
 <p>The ruffian saw them, and was desperate. If he beat his retreat now
-down the ladder without any portion of<pb n="153     An Attempted
+down the ladder without any portion of<pb n="153 An Attempted
 Robbery."/> the booty for which he had risked his liberty, and almost
 his life, he might easily fall to the ground. Ten to one his adversary
 would wait until he was near enough to the ground in descending to
@@ -3842,7 +3990,7 @@ light."</p>
 <p>He gave the command with a shortness that hurt her.</p>
 <p>He heard the man call her by her Christian name, and he knew that
 her associate was a thief. How he must despise her!</p>
-<p>Whatever this secret was which connected her past<pb n="154     An
+<p>Whatever this secret was which connected her past<pb n="154 An
 Attempted Robbery."/> with this man whom she called Terrance, it would
 all come speedily to light now, and be printed in the papers before
 many days were over. There were reasons, Vivette knew, that would make
@@ -3898,7 +4046,7 @@ the outside, and Lord Raven managed to thrust Terrance inside, turn
 the lock, and shoot the bolt into its place. The ruffian kicked the
 door and demanded to be released.</p></div>
 
-<pb n="[156]"/><div id="bcbeyond" type="chapter" n="20"><head>CHAPTER
+<pb n="[156]"/><div id="bcbeyond1020" type="chapter" n="20"><head>CHAPTER
 XX.<lb/>VIVETTE ATTEMPTS SUICIDE.</head>
 <p>Lord Raven passed his hand across his face and looked at
 Vivette. She was really badly hurt and suffering more than if she had
@@ -3922,7 +4070,7 @@ face.</p>
 <p>"He is safe. Your acquaintance will have to answer for his
 attempted crime before a judge, and he will most likely end his days
 in prison, so that he can no longer pursue you with his threats. Would
-you not be glad if<pb n="157     Vivette Attempts Suicide."/> he were
+you not be glad if<pb n="157 Vivette Attempts Suicide."/> he were
 shut up where he could never trouble you again?"</p>
 <p>"Oh, yes! how glad, but, Lord Raven, he, in revenge, will tell a
 great he about me."</p>
@@ -3950,7 +4098,7 @@ her head and shuddered.</p>
 <p>"You must go in there," said Lord Raven, opening the door of Lady
 Riverswood's chamber. He lifted Vivette almost in his arms, and made
 her sit in a luxurious chair. "Now, I will come again when this
-disagreeable work is<pb n="158     Vivette Attempts Suicide."/> over,"
+disagreeable work is<pb n="158 Vivette Attempts Suicide."/> over,"
 he said. "Don't be alarmed at any howling the fellow makes, only tell
 me, is he dear to you? Was he ever so?"</p>
 <p>"Once," said Vivette dreamily; "but it is so long ago that it is
@@ -3976,7 +4124,7 @@ understood how useless it would be to struggle against five men,
 therefore he did not exert his strength. He appreciated the value of
 it too well to waste an atom of it, and he submitted with a sullen
 doggedness, to be dragged down the wide staircase, from there to the
-back<pb n="159     Vivette Attempts Suicide."/> offices, and so
+back<pb n="159 Vivette Attempts Suicide."/> offices, and so
 outside to the stable-yard. He was then pushed into the coach-house,
 and the key was turned upon him.</p>
 <p>There was nothing very strong in the lock of the
@@ -4031,7 +4179,7 @@ pause, "for the only human being for whom I care will hold me in
 abhorrence when he hears the truth. Yet I am as good, twenty times
 better, than the perfect heiress, my cousin."</p>
 <p>"Place her, with her vain, selfish nature where I have<pb
-n="161     Vivette Attempts Suicide."/> been placed in my life, and
+n="161 Vivette Attempts Suicide."/> been placed in my life, and
 surround her with poverty and all the mean shifts which it
 entails. Would she have been able to look back along her past as I can
 look back along mine, and say as I can, 'I have lived a life which no
@@ -4058,7 +4206,7 @@ Vivette.</p>
 <p>"Brave, courageous girl, and she might have been murdered herself,"
 said Lady Emily Taylor, the mother of Vivette's pupils. "To think, my
 dear, heroic girl, of your saving all my mother's jewels! We should
-never have<pb n="162     Vivette Attempts Suicide."/> recovered
+never have<pb n="162 Vivette Attempts Suicide."/> recovered
 them. I, for one, am grateful to you forever!" said Lady Emily, who
 had a passion for diamonds.</p>
 <p>"She is, indeed, brave!" said the countess. "I only wish that
@@ -4088,7 +4236,7 @@ her that, before to-morrow night, all these kind people would be
 execrating her name.</p>
 <p>"And that cousin of mine is beginning to hate me already," she said
 to herself. "Is it because instinct whispers to her that he cares a
-little, just a little, for me?<pb n="163     Vivette Attempts
+little, just a little, for me?<pb n="163 Vivette Attempts
 Suicide."/> But it is all over. I cannot face my life after to-morrow!
 I will go down to the pond and drown myself, but first I have one
 request to make of Lord Raven."</p>
@@ -4116,7 +4264,7 @@ smoking and billiard-room looked into this yard, and she knew that the
 young noble, invalid though he was, had said that he should go in
 there to read that night. The idea had struck her that she would steal
 upon him in his solitude, and ask him to set that dreadful Terrance
-free for her sake, but now she hesitated.</p><pb n="164     Vivette
+free for her sake, but now she hesitated.</p><pb n="164 Vivette
 Attempts Suicide."/>
 <p>"It would be quite unwomanly," she said, "and I never did act in
 that fashion in my life, except, perhaps, when I said he might come to
@@ -4137,7 +4285,7 @@ would be more cruel than this icy water."</p>
 <p>"It looks so cold!" she said, then she heard a step among the
 bushes, and, turning, saw Lord Raven.</p></div>
 
-<pb n="[165]"/><div id="bcbeyond" type="chapter" n="21"><head>CHAPTER
+<pb n="[165]"/><div id="bcbeyond1021" type="chapter" n="21"><head>CHAPTER
 XXI.<lb/>LORD RAVEN'S SECRET.</head>
 <p>His greeting was not loverlike. He started back a step or two, and
 then said coldly:</p>
@@ -4161,7 +4309,7 @@ bitterly.</p>
 young lord said, with a quick sigh, "but I don't feel disposed to give
 up the game of life just yet, at twenty-three, with all the world
 before me."</p>
-<p>He paused, then said suddenly:</p><pb n="166     Lord Raven's
+<p>He paused, then said suddenly:</p><pb n="166 Lord Raven's
 Secret."/>
 <p>"What, in the name of folly, brought you here, Miss
 Carruthers?"</p>
@@ -4187,7 +4335,7 @@ as it is, to facing the world in the morning?"</p>
 <p>Lord Raven sprang forward, and held her in his strong arms.</p>
 <p>"Miss Carruthers, come to the house," he said sternly. She suffered
 him to draw her arm through his, and to lead her toward Cotswold
-Castle.</p><pb n="167     Lord Raven's Secret."/>
+Castle.</p><pb n="167 Lord Raven's Secret."/>
 <p>"Miss Carruthers," said Lord Raven, after a pause, for she was
 resolved not to speak first, or give any reason for her strange
 conduct, unless he seemed anxious to hear one--"Miss Carruthers, you
@@ -4216,7 +4364,7 @@ from the future, to commit suicide.</p>
 attribute any higher motives to me." She was bitterly annoyed that he
 should so coolly tell her that she had a violent temper. "I have not
 made the least impression on his heart," she said to herself. "It
-must<pb n="168     Lord Raven's Secret."/> have frozen up and become
+must<pb n="168 Lord Raven's Secret."/> have frozen up and become
 fossilized since Lola Lomond jilted him."</p>
 <p>"Yes, you shrank from the idea of the cold plunge on such a night
 as this," said Lord Raven kindly. "Any sensible person would, but
@@ -4244,7 +4392,7 @@ ashamed."</p>
 considering, too, what a life of makeshifts, and hardships, and
 humiliations mine has been. Your life, Lord Raven, nurtured in comfort
 and luxury, and surrounded from your childhood with all that is
-beautiful<pb n="169     Lord Raven's Secret."/> and refined, your
+beautiful<pb n="169 Lord Raven's Secret."/> and refined, your
 life, compared to mine, has been as a glorious summer day compared to
 a night like this!"</p>
 <p>"Yes, certainly, the outside of my life is brilliant, as compared
@@ -4272,7 +4420,7 @@ quite so free, perhaps, as people will imagine; in fact, I mean to
 contrive to ship him off in an emigrant-ship bound for Canada. I shall
 give him money and a chance of improving his fortunes abroad, but he
 has transgressed the law, and I am determined he shall not again
-persecute you or levy blackrnail on you."</p><pb n="170     Lord
+persecute you or levy blackrnail on you."</p><pb n="170 Lord
 Raven's Secret."/>
 <p>"He will tell you what he has to tell," said Vivette. "If he does,
 it will be a secret locked within my own breast," said Lord Raven.</p>
@@ -4302,7 +4450,7 @@ suspicions. Yet courage! He takes quite a deep interest in me. Fancy
 his seeing me cross the courtyard at that unseemly hour, and following
 me! How late he must sit up himself! What a strange, contradictory,
 but always noble, character he is! His faults are surface ones, his
-virtues, belong to his own ele<pb n="171     Lord Raven's
+virtues, belong to his own ele<pb n="171 Lord Raven's
 Secret."/>vated soul. Oh, Raven, Raven, would to Heaven I were worthy
 of you!"</p>
 <p>A tempest of sobs shook the youthful figure, and then at length she
@@ -4311,7 +4459,7 @@ she had prayed since they had laid her mother to rest in the
 grass-grown graveyard near that quaint town in far-off
 Germany.</p></div>
 
-<pb n="[172]"/><div id="bcbeyond" type="chapter" n="22"><head>CHAPTER
+<pb n="[172]"/><div id="bcbeyond1022" type="chapter" n="22"><head>CHAPTER
 XXII.<lb/>THE CONTEMPLATED MARRIAGE.</head>
 <p>Several weeks had elapsed since the attempted robbery of the jewels
 of the countess. The thief, though bound hand and foot, and locked up
@@ -4335,7 +4483,7 @@ as the equal of Elaine. Still, she was positively amiable toward the
 governess. She told her to discontinue the daily lessons, and to busy
 herself with preparations for her departure with her uncle and
 aunt.</p>
-<p>Meanwhile, had Lord Raven spoken the irrevocable<pb n="173     The
+<p>Meanwhile, had Lord Raven spoken the irrevocable<pb n="173 The
 Contemplated Marriage."/> words to Elaine Carruthers? Were they
 engaged? The dependents at the castle, with Miss Sparks at their head,
 all thought that the young lord had proposed and been accepted by the
@@ -4362,7 +4510,7 @@ that the evenings were to be spent in that charming study up to the
 time when the Carruthers family should leave.</p>
 <p>Vivette wore black, with silver ornaments, and her favorite
 flowers, crimson roses, were at her breast. She was engaged in some
-fanciful needlework that she said the<pb n="174     The Contemplated
+fanciful needlework that she said the<pb n="174 The Contemplated
 Marriage."/> nuns abroad had taught her. She was making a cover for a
 favorite cushion of the countess. She had spent all the money she had
 received in dresses. It was her aim, certainly, to appear as
@@ -4390,7 +4538,7 @@ she would almost have died rather than that it should have been
 revealed to the world. Now she sat engaged in that fancy lacework
 which the countess so much admired and coveted, as great ladies often
 do admire and covet like trifles, and she offered, with every show of
-a charming humility, to teach her ladyship<pb n="175     The
+a charming humility, to teach her ladyship<pb n="175 The
 Contemplated Marriage."/> the intricate pattern, if her ladyship
 should be so disposed.</p>
 <p>"I shall be charmed, Miss Vivette," said the now gracious
@@ -4419,7 +4567,7 @@ play at chess, and I will watch them. Will he propose? Is he falling
 ever so little in love? And what of her! Oh, I wish I knew what they
 were talking about."</p>
 <p>But not one word could she catch, though she strained her ears and
-listened eagerly.</p><pb n="176     The Contemplated Marriage."/>
+listened eagerly.</p><pb n="176 The Contemplated Marriage."/>
 <p>"I suppose my cousin Elaine is a pretty woman," Vivette said to
 herself after a while, when she had watched the faces of the
 chess-players. "They are a graceful couple, and there is more
@@ -4446,7 +4594,7 @@ diamond. Her fair hair was gathered into a large knot, worn low at the
 back of her head. Yes, she was like a Dresden china doll. How the
 sheen of the satin gown glistened in the lamplight, while the gems on
 her slight fingers, rubies and diamonds, flashed like fires every time
-she moved her, white hands.</p><pb n="177     The Contemplated
+she moved her, white hands.</p><pb n="177 The Contemplated
 Marriage."/>
 <p>Lord Raven looked s inscrutable as a statue, so Vivette thought to
 herself.</p>
@@ -4475,7 +4623,7 @@ lord."</p>
 you."</p>
 <p>"Keep me out of mischief?" asked Vivette.</p>
 <p>"Yes," he said, looking at her with a kind and merry gleam in his
-gray eyes.</p><pb n="178     The Contemplated Marriage."/>
+gray eyes.</p><pb n="178 The Contemplated Marriage."/>
 <p>"No, he knows nothing that he should not know," the girl said to
 herself.</p>
 <p>"Now, you had better take some wine and water," said Lord
@@ -4504,7 +4652,7 @@ child a countess, as would also the banker's wife.</p>
 the countess decided, when she had watched the heiress for a day or
 two with her lynx eyes.</p>
 <p>There only remained, then, Lord Raven himself. He held the keys of
-his fortune in his own hands. But then,<pb n="179     The Contemplated
+his fortune in his own hands. But then,<pb n="179 The Contemplated
 Marriage."/> Raven was as obstinate, eccentric, and romantic as he was
 honorable, generous, and brave. He was accomplished and full of
 whims.</p>
@@ -4534,7 +4682,7 @@ dressing-room appointed for the use of the banker's wife at Cotswold,
 Elaine extended her fair, jeweled hands toward the blaze.</p>
 <p>"Elaine, my love," said Mrs. Carruthers, who was a gentle old lady,
 "has Lord Raven proposed? Your father wants to know."</p><pb
-n="180     The Contemplated Marriage."/>
+n="180 The Contemplated Marriage."/>
 <p>"No," replied Elaine, with a calm and confident smile, "he has not
 yet taken courage. I have not thought proper just yet to encourage him
 sufficiently. His anxiety and devotion deserve a reward, but I have
@@ -4561,7 +4709,7 @@ my father had consented to entertain the idea of receiving him as a
 candidate for my hand? Believe me, that I never once for a single
 moment forget who I am."</p>
 <p>Elaine spoke as if she were the heiress to the English<pb
-n="181     The Contemplated Marriage."/> throne. She smiled calmly,
+n="181 The Contemplated Marriage."/> throne. She smiled calmly,
 most inexpressibly provoking to Vivette.</p>
 <p>"If that is all you have to say to me, dear mother," continued
 Elaine, relenting as she kissed her mother and bade her good night,
@@ -4588,7 +4736,7 @@ proposing.</p>
 lofty smile; "when I do, he will be on his knees, of course."</p>
 <p>There is to be a party to-night at the banker's. Such great
 families as remain in town have had cards of invitation, and the house
-is a blaze of flowers and lights.</p><pb n="182     The Contemplated
+is a blaze of flowers and lights.</p><pb n="182 The Contemplated
 Marriage."/>
 <p>Vivette, dressed in dark, clinging crimson, in which she looks like
 a queen, is not in the drawing-room with the rest. She is in a small,
@@ -4596,7 +4744,7 @@ warm room, in which there is no light save that of the fire, and she
 is looking eagerly into the snowy street. Presently she beckons to
 some one.</p></div>
 
-<pb n="[183]"/><div id="bcbeyond" type="chapter" n="23"><head>CHAPTER
+<pb n="[183]"/><div id="bcbeyond1023" type="chapter" n="23"><head>CHAPTER
 XXIII.<lb/>THE BEGGAR-GIRL.</head>
 <p>Vivette was acting entirely on impulse when she stood behind the
 thick silken curtains in that little elegant room called the study,
@@ -4620,7 +4768,7 @@ crimson velvet curtains, great precious vases, in which bloomed
 glorious hothouse flowers, and the vision of a brilliant fire gleaming
 in a low grate, polished like silver, and a Persian carpet in the
 center of the white expanse of paved hall floor. All these must have
-seemed like a dream to many of the cold,<pb n="184     The
+seemed like a dream to many of the cold,<pb n="184 The
 Beggar-girl."/> ragged, and hungry people who stood in the frost and
 bitter wind of that winter night to watch the arrival of the rich
 man's guests, and look with longing wonder into the great man's
@@ -4649,7 +4797,7 @@ that she herself was in darkness, and therefore could not be seen.</p>
 <p>"How am I to get to her?" Vivette asked herself. "There is
 something in that girl's attitude and wistful eyes which reminds me of
 myself, of what I was, of what I might have been now! I have never
-been dressed<pb n="185     The Beggar-girl."/> quite like that since I
+been dressed<pb n="185 The Beggar-girl."/> quite like that since I
 was thirteen, and that was one winter, when my father was--ah! never
 let me think of it!"</p>
 <p>She covered her face with her hands, and then said aloud:</p>
@@ -4675,7 +4823,7 @@ who were watching the house.</p>
 <p>Vivette threw open the window, and put her head out.</p>
 <p>"No, no! don't drive them away! It's that girl, the one who stood
 under the lamp! I want her. Call her, there she goes! I have something
-for her!"</p><pb n="186     The Beggar-girl."/>
+for her!"</p><pb n="186 The Beggar-girl."/>
 <p>Immediately the policeman hastened after the retreating figure, and
 Vivette lost sight of both in the shadows of the night.</p>
 <p>"I wonder if he will find her, and if she will come. She may be
@@ -4703,7 +4851,7 @@ to speak to you."</p>
 <p>She bowed to the advancing guests, who were thronging up the wide,
 grand staircase toward the drawingrooms. She knew none of them. Then,
 having put some silver into the hand of the policeman, who looked
-in<pb n="187     The Beggar-girl."/> astonishment on the whole
+in<pb n="187 The Beggar-girl."/> astonishment on the whole
 eccentric proceeding, and would fain have made inquiries of the
 solemn, powdered footmen, Vivette led her new proteg&#x00E9;e into the
 study, closed the door, lighted the gas, and drew down the blind, then
@@ -4731,7 +4879,7 @@ rather pronounced features, and a pale skin that health and happiness
 would render radiant with a creamy fairness. The aquiline nose and
 delicate chin reminded her of some one, but she could not tell
 whom. The girl's hair was brown and smoothly brushed, and her wretched
-hat had fallen back.</p><pb n="188     The Beggar-girl."/>
+hat had fallen back.</p><pb n="188 The Beggar-girl."/>
 <p>"Yes, if she were dressed with white lace about that slender
 throat, she might be introduced up-stairs, and men would look at her
 and call her pretty. I can imagine, too, that when she is animated she
@@ -4759,7 +4907,7 @@ musician. He is proud as Lucifer, and poor as Job. He now lies ill,
 dangerously ill, in a garret in the top story of a house in one of
 those dingy streets. Some time ago he met with an accident, was thrown
 on his head, and lay ill of fever for weeks. He recovered, and we came
-to England. This happened abroad, and he<pb n="189     The
+to England. This happened abroad, and he<pb n="189 The
 Beggar-girl."/> had an idea that he might obtain pupils in London, and
 so support himself and me, while he was writing an opera that was to
 take the world by storm. Instead of that, he became ill a second
@@ -4787,7 +4935,7 @@ pencil. "Are there two l's in your name?"</p>
 <p>"Yes," said Christine.</p>
 <p>"And the address?" continued Vivette, looking with keen yet
 compassionate eyes at the face of the starving girl. "The address in
-the dingy street."</p><pb n="190     The Beggar-girl."/>
+the dingy street."</p><pb n="190 The Beggar-girl."/>
 <p>"It is called Percival Street," replied Christine, "and our number
 is seventeen."</p>
 <p>Vivette wrote it all down, then she closed the book, put the pencil
@@ -4804,7 +4952,7 @@ tale. Don't give me a sovereign to-night, only some bread and wine for
 my father, and accept the grateful thanks of a suffering
 heart."</p></div>
 
-<pb n="[191]"/><div id="bcbeyond" type="chapter" n="24"><head>CHAPTER
+<pb n="[191]"/><div id="bcbeyond1024" type="chapter" n="24"><head>CHAPTER
 XXIV.<lb/>ELAINE'S PROPOSAL.</head>
 <p>"No, you shall have the sovereign," Vivette answered. "If you are
 an impostor, you will have taught me a lesson worth learning. I will
@@ -4827,7 +4975,7 @@ cold roast fowl, some dainty rolls, a glass, and a decanter filled
 with port.</p>
 <p>"Eat, drink, and be merry," said Vivette laughingly as she placed
 the tray before Christine Ellwyn. "There is a knife and a
-fork."</p><pb n="192     Elaine's Proposal."/>
+fork."</p><pb n="192 Elaine's Proposal."/>
 <p>Christine's bright brown eyes shone at the sight of the food. She
 began to carve the fowl.</p>
 <p>Vivette watched her eat. She had refined manners, and she was very
@@ -4854,7 +5002,7 @@ this peculiar girl," said Vivette to herself. "The world is always
 talking scandal," she said aloud, "and we won't waste our time in
 repeating its foolish sayings. I shall call on you, and find some way
 of getting you employment. You must tell me what you can do, and what
-you would like to do."</p><pb n="193     Elaine's Proposal."/>
+you would like to do."</p><pb n="193 Elaine's Proposal."/>
 <p>"I like only painting," Christine said; "but I would do anything to
 earn an honest livelihood."</p>
 <p>"You would not consent to be a kitchen-maid, I suppose?" Vivette
@@ -4883,7 +5031,7 @@ lamp-post."</p>
 stuffed the fowl and bread into the bag. Then she said, with a strange
 smile:</p>
 <p>"Even if I am as honest as you hope I am, you may some day regret
-that you condescended to notice me, but<pb n="194     Elaine's
+that you condescended to notice me, but<pb n="194 Elaine's
 Proposal."/> I shall always, always remember you with gratitude as the
 sweetest, frankest, noblest--"</p>
 <p>The girl's voice broke down, but she repressed a violent
@@ -4912,7 +5060,7 @@ acquaintances. "Introduce me, please." Then he added: "She is only
 talking now to an old lady."</p>
 <p>The person he asked to introduce him was an old, white-haired
 gentleman, who was a junior partner in the great banking-firm of
-Carruthers. The old gentleman<pb n="195     Elaine's Proposal."/>
+Carruthers. The old gentleman<pb n="195 Elaine's Proposal."/>
 crossed the room and introduced Miss Vivette Carruthers to
 Mr. Hatton. Mr. Hatton had very restless eyes, and Vivette decided
 that, although he was handsome, he had a coarse mouth.</p>
@@ -4940,7 +5088,7 @@ Vivette was not very fond of her cousin Elaine.</p>
 <p>"She is my fair cousin, as you remark," said Vivette, with a
 sarcastic smile, "and I am her dark cousin."</p>
 <p>"Her most divinely charming cousin," said Mr. Hatton, in a low,
-passionate voice.</p><pb n="196     Elaine's Proposal."/>
+passionate voice.</p><pb n="196 Elaine's Proposal."/>
 <p>Vivette raised her eyebrows and looked at the man scornfully.</p>
 <p>"You form an opinion too quickly, sir," she said, with a little
 laugh. "I am really afraid that you will find there is nothing at all
@@ -4965,7 +5113,7 @@ Vivette.</p>
 <p>Mr. Hatton looked down at his boots. His next remark did not bear
 reference to the love between the cousins.</p>
 <p>"We expect a very gay season in London this year," he said.</p><pb
-n="197     Elaine's Proposal."/>
+n="197 Elaine's Proposal."/>
 <p>Vivette smiled faintly.</p>
 <p>"I am a nobody in society," she answered. "I am a poor cousin, but
 as my uncle is so kind and generous, I shall contrive to enjoy
@@ -4993,7 +5141,7 @@ said to herself. "I will walk through the conservatories with this
 man."</p>
 <p>So she arose, with a smile, took Mr. Hatton's arm, and accompanied
 him toward the beautiful conservatories that were more like
-gardens. The flowers were glorious.<pb n="198     Elaine's
+gardens. The flowers were glorious.<pb n="198 Elaine's
 Proposal."/> There was a fountain in one recess, round which clustered
 a number of large-leaved shrubs of tropical growth, and there were
 crimson velvet seats near this place.</p>
@@ -5018,7 +5166,7 @@ world a beauty and a genius, I mean to say that you, in short, are
 afraid--"</p>
 <p>"Afraid of what?" asked Lord Raven.</p></div>
 
-<pb n="[199]"/><div id="bcbeyond" type="chapter" n="25"><head>CHAPTER
+<pb n="[199]"/><div id="bcbeyond1025" type="chapter" n="25"><head>CHAPTER
 XXV.<lb/>LORD RAVEN REFUSES ELAINE.</head>
 <p>Elaine coughed gently, and then she said calmly: "You are afraid of
 me, Lord Raven."</p>
@@ -5043,7 +5191,7 @@ might marry a foreign prince, or even a potentate. Of course, being,
 as I am, beautiful, I have many men at my feet. I dare say you think I
 am vain and spoiled, and that I despise you. Nothing of the kind. I
 see you are so timid that I am obliged to speak out. I tell you
-plainly,<pb n="200     Lord Raven Refuses Elaine."/> dear Lord
+plainly,<pb n="200 Lord Raven Refuses Elaine."/> dear Lord
 Raven"--the voice of the heiress shook now a little with
 emotion--"dear Lord Raven, that I love you with all my heart. Yes, I
 will indeed try to make you a good wife."</p>
@@ -5069,7 +5217,7 @@ very glad I spoke, because I see that you really had these delicate
 scruples. Much as you, of course, love me, you found it still
 impossible to surmount them. But now all will be right. We are engaged
 to become man and wife."</p>
-<p>"But by George! We are not!" cried Lord Raven<pb n="201     Lord
+<p>"But by George! We are not!" cried Lord Raven<pb n="201 Lord
 Raven Refuses Elaine."/> impetuously. "I won't be married or engaged
 against my will! I must speak plainly, Miss Carruthers."</p>
 <p>"Charles Raven," said Elaine calmly, "will you force me to say such
@@ -5097,7 +5245,7 @@ mixture of wonder, alarm, and shame, for she was mortified at her
 cousin's want of dignity. Her sense of overpowering relief amounted to
 delight. All these mingled feelings gave a peculiar look to her
 piquant young face, a look that fascinated Mr. James Hatton<pb
-n="202     Lord Raven Refuses Elaine."/> more than he had ever been
+n="202 Lord Raven Refuses Elaine."/> more than he had ever been
 fascinated in his whole life. She was flushed, and her dark eyes shone
 and swam in tears. She pitied Elaine, for when that hitherto calm,
 self-possessed, and perfectly self-satisfied young heiress spoke of
@@ -5125,7 +5273,7 @@ fairy-land of enchantment, where she reigned the queen of an ideal
 world. It was as if the palace of sugar candy, the structure within
 whose walls dwelt some lovely golden-haired fairy princess of our
 childhood's stories, had suddenly melted with the heat of the sun. It
-was like<pb n="203     Lord Raven Refuses Elaine."/> a child's house
+was like<pb n="203 Lord Raven Refuses Elaine."/> a child's house
 of cards, reared high and gay upon the nursery table, until some
 unlucky jerk upsets the edifice, which falls in harmless ruins on the
 cloth.</p>
@@ -5133,7 +5281,7 @@ cloth.</p>
 twenty-one years was like the quickly hushed grief of the urchin who
 weeps for the fall of his house of cards.</p></div>
 
-<pb n="[204]"/><div id="bcbeyond" type="chapter" n="26"><head>CHAPTER
+<pb n="[204]"/><div id="bcbeyond1026" type="chapter" n="26"><head>CHAPTER
 XXVI.<lb/>A REVENGEFUL PLOT.</head>
 <p>Poor Elaine's sufferings were likely, it is true, to last longer
 than the grief of the nursery child. But then, there was so much spite
@@ -5159,7 +5307,7 @@ roughly, had inflicted, though without desiring it, upon her sensitive
 and excessive vanity.</p>
 <p>She went through the conservatories, and into the gay salon,
 seeking her father. She was so worked up with rage and mortification
-that she did not care who noticed<pb n="205     A Revengeful Plot."/>
+that she did not care who noticed<pb n="205 A Revengeful Plot."/>
 her pale, angry face, with eyes already swollen with weeping.</p>
 <p>Gentlemen bowed and made room for her, and ladies asked her if she
 were ill. She only said very hastily:</p>
@@ -5188,7 +5336,7 @@ money.</p>
 <p>"Punish whom, my dear child?"</p>
 <p>"That infamous scoundrel Lord Raven!"</p>
 <p>"Good heavens! What has he done?"</p>
-<p>"He has told me in the most insulting manner that<pb n="206     A
+<p>"He has told me in the most insulting manner that<pb n="206 A
 Revengeful Plot."/> he does not love me one atom, that--that he would
 not marry me for the whole world!"</p>
 <p>The banker looked terribly vexed.</p>
@@ -5217,7 +5365,7 @@ thought never entered your mind?"</p>
 I, Elaine Carruthers, humiliated! Oh, it is too much! I told him,
 papa, that I thought he was afraid to ask me. That he need not be,
 for, that I--I loved him, yes, loved him, and would marry him.<pb
-n="207     A Revengeful Plot."/> He said no, never, that he had not an
+n="207 A Revengeful Plot."/> He said no, never, that he had not an
 atom of love for me, and that he would not marry me. I wish--I wish
 that I could take his life! Such a wretch is really not fit to
 live!"</p>
@@ -5243,7 +5391,7 @@ dear, with your usual good sense. You will soon come to the conclusion
 that there is really nothing whatever to be done expect to go back to
 the rooms among your guests, and behave as if nothing had
 happened. You see, Lord Raven was not even supposed to know that a
-marriage with you was contemplated by his<pb n="208     A Revengeful
+marriage with you was contemplated by his<pb n="208 A Revengeful
 Plot."/> parents and yours. He has never by word or sign allowed it to
 appear that he knew a single thing about the matter."</p>
 <p>"You are my father," said Elaine, who was white with wrath, "and
@@ -5262,7 +5410,7 @@ for you?"</p>
 <p>"Punish Lord Raven!" said Elaine, speaking between her fierce,
 short sobs. "Punish him, and I will be your friend forever!"</p></div>
 
-<pb n="[209]"/><div id="bcbeyond" type="chapter" n="27"><head>CHAPTER
+<pb n="[209]"/><div id="bcbeyond1027" type="chapter" n="27"><head>CHAPTER
 XXVII.<lb/>CHRISTINE, THE ARTIST.</head>
 <p>Vivette was sitting alone in the conservatory, when suddenly Lord
 Raven came and stood before her.</p>
@@ -5286,7 +5434,7 @@ you are a riddle hard to understand."</p>
 Raven!"</p>
 <p>"If I had fallen in love with you, Vivette, I should have been
 miserable to-night."</p>
-<p>"Why?" she asked very quickly.</p><pb n="210     Christine, the
+<p>"Why?" she asked very quickly.</p><pb n="210 Christine, the
 Artist."/>
 <p>"Oh, because you have been flirting with Mr. Carruthers' chief
 clerk, a man I detest."</p>
@@ -5315,7 +5463,7 @@ Raven.</p>
 <p>So it seemed to Vivette.</p><milestone unit="section" rend="stars"/>
 <p>Elaine Carruthers did not appear again that night, among her
 father's guests, A sudden indispositionn was pleaded as an excuse for
-her non-appearance. But<pb n="211     Christine, the Artist."/>
+her non-appearance. But<pb n="211 Christine, the Artist."/>
 Vivette knew in her heart that her fair cousin was suffering the
 tortures of humiliated pride and slighted love, and she pitied
 her. There is an ancient song, set to music by one of the old masters,
@@ -5343,7 +5491,7 @@ could desire. Her own chamber was filled with every luxury. The
 library and the music-room were open to her. Her supply of
 pocket-money was liberal, and she had so completely won her way into
 the hearts of her aunt and uncle that it is quite probable a
-feeling<pb n="212     Christine, the Artist."/> of jealousy would have
+feeling<pb n="212 Christine, the Artist."/> of jealousy would have
 awakened in the soul of her cousin had not events marched on quickly
 toward a somewhat tragic ending.</p>
 <p>It was early in the year, and the greatest of the great families
@@ -5370,7 +5518,7 @@ loved, and I shall never love again."</p>
 searching look in his eyes, which Vivette did not like.</p>
 <p>"He is dead, uncle," she answered quietly. But she added to
 herself: "Dead to me, for I know that he will never, never love
-me!"</p><pb n="213     Christine, the Artist."/>
+me!"</p><pb n="213 Christine, the Artist."/>
 <p>A month had glided away since that eventful night when Elaine had
 told Lord Raven that she wished to marry him; that night when Vivette
 had called in the poor girl from the street.</p>
@@ -5398,7 +5546,7 @@ copying?"</p>
 <p>"An old fifteenth century head of the Virgin," she answered. "Oh,
 it is divine! That is the work that shows one how great the soul of
 man can be!"</p>
-<p>"And of woman, also."</p><pb n="214     Christine, the Artist."/>
+<p>"And of woman, also."</p><pb n="214 Christine, the Artist."/>
 <p>"Yes, Lord Raven, but we have not the power, as a rule, that Heaven
 gives to men. How happy I am, now that I can keep on learning the
 great lessons which the old masters teach, and all the time I am able,
@@ -5454,7 +5602,7 @@ us! Elaine--" he paused.</p>
 <p>"What of Elaine?" asked Vivette. Her heart was filled with a sudden
 shapeless fear.</p></div>
 
-<pb n="[216]"/><div id="bcbeyond" type="chapter" n="28"><head>CHAPTER
+<pb n="[216]"/><div id="bcbeyond2028" type="chapter" n="28"><head>CHAPTER
 XXVIII.<lb/>THE DISAPPEARANCE OF ELAINE.</head>
 <p>Vivette followed Mr. Carruthers into the first room on the lauding,
 a small, snug, richly furnished back drawing-room. The crimson velvet
@@ -5479,7 +5627,7 @@ course she has always been used to having her own way almost entirely,
 and she ought to have consulted us, not to have run off like that. We
 would have given our consent in time."</p>
 <p>"Never!" exclaimed the banker. "Not if she knelt at my feet
-forever. I would never forgive her! And now<pb n="217     The
+forever. I would never forgive her! And now<pb n="217 The
 Disappearance of Elaine."/> she is, I must suppose, married to him, I
 will never forgive her as long as I live, never! If she starves it
 won't matter to me. I hope she will starve, and the rascal who has led
@@ -5508,7 +5656,7 @@ for we were in her dressing-room, she was getting ready to go to the
 opera after dinner, and I advised her to wear a sprig of holly in her
 hair for a change from the blue-and-white flowers she always put in
 it, and she said, 'No, that upstart Hatton was praising holly to me
-yesterday, and if I wear it I am afraid he<pb n="218     The
+yesterday, and if I wear it I am afraid he<pb n="218 The
 Disappearance of Elaine."/> will think it is in deference to his
 taste, the beast!' Yes, uncle, she actually called him a beast. Now,
 is that the way in which a girl, a proud girl like Elaine, would speak
@@ -5519,7 +5667,7 @@ handwriting that they have gone off together to be married. Read
 that," and he put a note, written on thick glossy paper, into the
 hands of Vivette.</p>
 <p>She went close to the lamp, and read as follows:</p>
-<q><text><body><div type="letter" id="bcbeyond"><opener><salute>"My
+<q><text><body><div type="letter" id="bcbeyond10281"><opener><salute>"My
 DEAR MR. CARRUTHERS:</salute></opener><p>For the last five years I
 have been your clerk, and within the two last years you have made me
 your confidential clerk. You have trusted me withh everything, and
@@ -5540,7 +5688,7 @@ surplus cash under my care. This you will not grudge to the daughter
 for whom you had meant to provide so magnificently. Of course, I
 should never have dreamed of touching a shilling, unless it had been
 for the sake of my lovely bride, but she has lived so luxuriously that
-I am forced to<pb n="219     The Disappearance of Elaine."/> put up at
+I am forced to<pb n="219 The Disappearance of Elaine."/> put up at
 the most expensive hotels. A cessation from the extreme of luxury
 would be the cruelest hardship for beautiful Elaine. Will you address
 your answer to the post at Brighton in my initials? At the same time,
@@ -5557,7 +5705,7 @@ gone, has packed up several of her things, taken some money and a few
 jewels, and left a note for her mother."</p>
 <p>"Here it is," said Mrs. Carruthers, taking a note from her pocket
 and handing it to Vivette, who opened it, and read as follows:</p>
-<q><text><body><div type="letter" id="bcbeyond"><opener><salute>"DEAR
+<q><text><body><div type="letter" id="bcbeyond10282"><opener><salute>"DEAR
 MOTHER:</salute></opener><p>Don't be alarmed at my absence. I am on
 the eve of a great discovery, and it is important that the whole
 proceeding should be kept quiet. I leave by an early train, and may be
@@ -5570,7 +5718,7 @@ loving<name>ELAINE."</name></signed></closer></div></body></text></q>
 Vivette. She drew her black brows into a frown. "Tell me," she said,
 "when did that arrive?"</p>
 <p>"That was left on her dressing-table at lunch-time when her maid
-went to call Elaine," replied Mrs. Carruthers.</p><pb n="220     The
+went to call Elaine," replied Mrs. Carruthers.</p><pb n="220 The
 Disappearance of Elaine."/>
 <p>"You were out, Vivette. It threw us into terrible consternation,
 and then by the five-o'clock post came that impudent scoundrel's
@@ -5600,7 +5748,7 @@ astute banker three times her age.</p>
 <p>He looked at his tall, black-eyed niece in mingled admiration,
 perplexity, and affection.</p>
 <p>"She is a dear girl," he said to himself, "but a very strange
-one."</p><pb n="221     The Disappearance of Elaine."/>
+one."</p><pb n="221 The Disappearance of Elaine."/>
 <p>Indeed, had the banker and his wife known the dark and terrible
 suspicions that were at work in Vivette's vigorous mind, they would
 almost have gone mad with fear and horror.</p>
@@ -5626,7 +5774,7 @@ that, if her cousin Elaine were the wife of Mr. Hatton, and would
 write and tell her so, she would do all that she could to make her
 uncle relent toward her.</p>
 <p>This letter she posted, but several days passed and she received no
-answer. And all this time her mind was pre<pb n="222     The
+answer. And all this time her mind was pre<pb n="222 The
 Disappearance of Elaine."/> occupied, for she was racked by the
 tortures of an unrequited love. Vivette believed that Christine Ellwyn
 had, without an effort, won the heart which she would have given
@@ -5656,7 +5804,7 @@ Elaine's!"</p>
 <p>And she rushed out of the room, to walk up and down her own room,
 with the door locked.</p>
 <p>"A chance in life," she said. "That was my idea when I brought
-myself under the notice of the rich banker,<pb n="223     The
+myself under the notice of the rich banker,<pb n="223 The
 Disappearance of Elaine."/> and it has fallen out beyond my
 expectations, so that he puts me in the place of his child, and calls
 me his heiress, and yet my heart is broken, for I am unworthy. I feel
@@ -5685,14 +5833,14 @@ consent to allow this girl to usurp your place any longer! You are the
 niece of Gervase Carruthers, I am his brother. She is the daughter of
 that adventurous scamp Hillary, the son of old Sir Richard Hillary,
 who cannot keep his title from descending to his ruffian son,<pb
-n="224     The Disappearance of Elaine."/> but who has cut off every
+n="224 The Disappearance of Elaine."/> but who has cut off every
 shilling from him in his will. This girl is an imposter, and--"</p>
 <p>"I know it! Lord Raven has known it a long time," said the sweet
 voice of Christine.</p>
 <p>Those were the words which were as a death-blow to faulty,
 passionate, yet noble Vivette!</p></div>
 
-<pb n="[225]"/><div id="bcbeyond" type="chapter" n="29"><head>CHAPTER
+<pb n="[225]"/><div id="bcbeyond1029" type="chapter" n="29"><head>CHAPTER
 XIX.<lb/>RETRIBUTION.</head>
 <p>"Known it a long time! Lord Raven? What is there left for me, save
 to die?"</p>
@@ -5745,7 +5893,7 @@ Carruthers, and announce yourself, and--denounce me."</p>
 <p>"Never!" said Christine. "Not if I live to be a hundred years
 old. I want nothing of my uncle, now that I can earn my bread."</p>
 <p>"Nothing now that she has won the love of the noblest<pb
-n="227     Retribution."/> man in England," said Vivette to herself;
+n="227 Retribution."/> man in England," said Vivette to herself;
 "but I will not hold her place another hour now that I know the
 truth."</p>
 <p>Vivette turned round, and faced the pale invalid in the
@@ -5831,7 +5979,7 @@ child whose place I was usurping. I succeeded in deceiving the good
 banker, and I am now his favorite. How he will hate me when he learns
 the truth!"</p>
 <p>Vivette paused, and dashed away the bright tears that<pb
-n="230     Retribution."/> rose to her eyes when she thought of the
+n="230 Retribution."/> rose to her eyes when she thought of the
 kindness and love of the banker and his wife.</p>
 <p>"It will be hard to lose all that and earn their hatred," she said
 to herself. "But I deserve it, and it must be done."</p>
@@ -5859,7 +6007,7 @@ took away his daughter instead of mine.</p>
 not write to my brother, somehow fearing treachery. I went to seek my
 child, who had not heard a word about my accident, and was in great
 distress at say silence. I found she knew nothing of Hillary. It<pb
-n="231     Retribution."/> was a long time before we could get funds
+n="231 Retribution."/> was a long time before we could get funds
 to travel to England. When we reached London I fell ill, and we pawned
 or sold all that we had. We both shrank from applying to my brother,
 but one night poor Christine, driven desperate by want, went and stood
@@ -5893,7 +6041,7 @@ ice, holding out her hands toward the sinking girl.</p>
 <p>"She is mad!" said the crowd. "They will both be
 drowned!"</p></div>
 
-<pb n="[233]"/><div id="bcbeyond" type="chapter" n="30"><head>CHAPTER
+<pb n="[233]"/><div id="bcbeyond1030" type="chapter" n="30"><head>CHAPTER
 XXX.<lb/>DARK SHADOWS.</head>
 <p>Vivette went forward, without fear, along the smooth, treacherous
 ice. She had even the shadow of a smile on her face.</p>
@@ -5917,7 +6065,7 @@ not have told how herself at that moment.</p>
 <p>"Take it and raise yourself!"</p>
 <p>"I can't; my hands are so numb with cold, I have no power!"
 shrieked Christine. "Oh! Vivette, it is hard to die and
-none--"</p><pb n="234     Dark Shadows."/>
+none--"</p><pb n="234 Dark Shadows."/>
 <p>"Hard! Yes, when life is so sweet for her with his love," Vivette
 spoke aloud to herself, though through shut teeth.</p>
 <p>"It is a risk," she said, with a half-smile, "if the ice will bear
@@ -5945,7 +6093,7 @@ admiration and excitement.</p>
 costume, is dragging another girl toward shore. It's a piece of
 madness! Both will drown!"</p>
 <p>It was a little fussy, pale man in spectacles who made<pb
-n="235     Dark Shadows."/> these remarks to a tall young man, with a
+n="235 Dark Shadows."/> these remarks to a tall young man, with a
 dark, pale face and keen bright eyes, who had arrived upon the
 scene. "Oh, Heaven ! and not a soul stirs to help them!" The little
 pale, fussy man in spectacles heard him. "Sir, I never was a swimmer,"
@@ -5999,7 +6147,7 @@ remember what had happened made her brain whirl as it had whirled in
 the water. The room spun round and round, so that she closed her eyes,
 and a species of dread crept over her.</p>
 <p>"If that woman would wake and tell me something! How soundly she
-sleeps, and how selfish her face is! I<pb n="237     Dark Shadows."/>
+sleeps, and how selfish her face is! I<pb n="237 Dark Shadows."/>
 may live or die, it matters not to her, so that she gets another one,
 and is well paid.</p>
 <p>"What am I musing about? Where am I? What has happened?" and
@@ -6055,7 +6203,7 @@ utter weakness, and there was such danger of stimulants bringing on
 again the fever that the girl lay in the very jaws of death.</p>
 <p>Christine sank on her knees by her side and cried softly. Then
 suddenly springing up, she said "I am a useless wretch. We must give
-her milk, with<pb n="239     Dark Shadows."/> brandy in it. You will
+her milk, with<pb n="239 Dark Shadows."/> brandy in it. You will
 swallow some now, darling, will you not?"</p>
 <p>The pale lips of Vivette's moved, but she could not
 speak. Christine hurried the sleepy nurse, and then a cup, filled with
@@ -6082,7 +6230,7 @@ with gifts--but what of Vivette?</p>
 deceitful. How do I know that she not, for some reason, a schemer in
 this plot of my wily daughter's most disgraceful marriage?"</p>
 <p>Had Vivette been in health and strength at this time,<pb
-n="240     Dark Shadows."/> it is certain that the banker, who was
+n="240 Dark Shadows."/> it is certain that the banker, who was
 bitterly angry at having been deceived, would have given her a couple
 of hundred pounds and have sent her away, telling her never to let him
 see her face more.</p>
@@ -6096,7 +6244,7 @@ it should be. She has won <hi rend="italic">his</hi> heart. How lovingly they wa
 Oxford Street, arm in arm, that evening in the winter. Let me die, but
 before I go I should like to see his face.</p></div>
 
-<pb n="[241]"/><div id="bcbeyond" type="chapter" n="31"><head>CHAPTER
+<pb n="[241]"/><div id="bcbeyond1031" type="chapter" n="31"><head>CHAPTER
 XXXI.<lb/>HAPPINESS AT LAST.</head>
 <p>Neither Mr. Carruthers nor his wife ever visited the room of
 Vivette. They paid most liberally for her comfort and attendance. They
@@ -6121,7 +6269,7 @@ interest in the things and circumstances surrounding her."</p>
 <p>"She is Miss Hillary, I have understood. Her grandfather is Sir
 Richard Hillary."</p>
 <p>The doctor was as much puzzled as the rest of the world respecting
-this clever girl, supposed, until quite<pb n="242     Happiness at
+this clever girl, supposed, until quite<pb n="242 Happiness at
 Last."/> lately, to have been the niece of Gervase Carruthers. Her
 noble attempt to save the life of another young lady at the risk of
 her own, her rescue in her turn by Lord Raven, and her subsequent
@@ -6147,7 +6295,7 @@ life, I fear."</p>
 <p>"It must be my mission to give her one," said Christine softly.</p>
 <p>The doctor seized her hand.</p>
 <p>"You may do something, he said, "but it is very, doubtful."</p><pb
-n="243     Happiness at Last."/>
+n="243 Happiness at Last."/>
 <p>"How am I to give her hope or interest in life?" Christine asked
 herself. "My uncle tells me that if she recovers I am never to reckon
 her among even my distant acquaintances, and however much I may love
@@ -6174,7 +6322,7 @@ which the long hair had been cut.</p>
 and the clouded brow, the color came in a flood back to her cheeks,
 she stretched out her hand, and in a strange, weak voice, said:</p>
 <p>"Then you had not quite forgotten me, Lord Raven, and though you
-know all, you do not hate me quite? I am<pb n="244     Happiness at
+know all, you do not hate me quite? I am<pb n="244 Happiness at
 Last."/> going," she added, with a sweet smile, "where all things are
 forgotten and forgiven."</p>
 <p>"No," he said, in a low voice. "Vivette! you must not die, you must
@@ -6202,7 +6350,7 @@ Lord Raven's arm. "You know she must not be excited."</p>
 strength grew as the spring days lengthened out and became brighter
 and warmer.</p>
 <p>Lord Raven had promised to be her friend. Christine might be
-separated from her for a time, for by some<pb n="245     Happiness at
+separated from her for a time, for by some<pb n="245 Happiness at
 Last."/> subtle instinct Vivette understood that Mr. Carruthers would
 not suffer their friendship, or at least their intimacy, to continue
 after Vivette was once restored to health. But when Christine became
@@ -6231,7 +6379,7 @@ upon me," she said to herself. Then Christine told her that the banker
 had really settled upon her a life annuity of one hundred pounds a
 year."</p>
 <p>"Because you saved my life," said Christine; "and now<pb
-n="246     Happiness at Last."/> they have lost Elaine they have taken
+n="246 Happiness at Last."/> they have lost Elaine they have taken
 me in her place!"</p>
 <p>"Lost Elaine!" cried Vivette. "There is a mystery there, and if I
 live I will try to fathom it."</p>
@@ -6288,7 +6436,7 @@ stretching out her arms and pointing at James Hatton.</p>
 <p>"That's him!" she said. "My husband, mine! that married me at
 Southampton under another name. There he is, my husband! Then somebody
 wrote to him as if he were Lord Raven, a real live lord! Oh! sir,"
-turning<pb n="248     Happiness at Last."/> with clasped hands and
+turning<pb n="248 Happiness at Last."/> with clasped hands and
 imploring gesture, toward the rector, "you know me, and that I have
 lived this ten weeks at Mrs. Sedley's, at the 'Bull Inn,' and done the
 cooking, and they let me have my little one with me! Everybody knows
@@ -6314,7 +6462,7 @@ next village, when he took me to an old country-house, where dwelt two
 wicked women, who were his sisters. They then told me I had lost my
 good name and compromised myself, and must marry him.</p>
 <p>"I must tell you, that before all this that man had pre<pb
-n="249     Happiness at Last."/>sumed to make love to me, and I had
+n="249 Happiness at Last."/>sumed to make love to me, and I had
 repulsed him with such disdain that he saw he could only gain my
 fortune by marrying me against my will. For weeks I have been detained
 a prisoner, not allowed to breathe the fresh air. Every week he has
@@ -6370,9 +6518,10 @@ by her side.</p>
 <p>Both were silent for the space of a moment, and Vivette spoke
 first.</p>
 <p>"How is Christine, Lord Raven?"</p>
-*pages incomplete*
-<p>"Well and strong, </p>
-<p>"Vivette, I bring you some sad news.  Your father is dead, Eustace
+<pb n="[251]" entity="bcbeyond251" pages="251"/>
+<gap reason="torn page" extent="2 lines"/>
+<p>"Well and strong, </p><gap reason="torn page" extent="1 line"/>
+<p>"Vivette, I bring you some sad [news.  Your ]father is dead, Eustace
 Hillary!"</p>
 <p>"You? How did you know that he--"</p>
 <p>She paused. She could only feel relief when she heard that the
@@ -6397,5 +6546,20 @@ Riverswood?"</p>
 <p>As he spoke he drew her close to his heart, and their lips met in a
 clinging kiss.</p>
 <p>"My poor father died a fortnight ago. I am Earl of Riverswood. My
-heart is sad and heavy. Will you be my comforter?"<pb n="252
-Happiness at Last."/>
+heart is sad and heavy. Will you be my comforter?"</p><pb n="[252
+Happiness at Last.]" entity="bcbeyond252" pages="252"/>
+<gap reason="torn page" extent="5 lines"/><p>true and tender and strong<gap
+reason="torn page" extent="10 letters"/>souls were filled with a solemn
+joy too mighty for words.</p>
+<trailer>THE END</trailer>
+</div>
+</body>
+<back id="bcbeyond1205">
+<div id="bcbeyondbm1" type="adverts">
+<p>Romantic love among the aristocracy of old England, "Love Finds a
+Way," one of the masterpieces of the well-known Bertha M. Clay, is
+next to be published by the NEW BERTHA CLAY LIBRARY, No. 271.</p>
+</div>
+</back>
+</text>
+</TEI.2>
