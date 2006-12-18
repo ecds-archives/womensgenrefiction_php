@@ -30,8 +30,8 @@
   <!-- settings to secure copy image files to server -->
    <load>
       <server>bohr.library.emory.edu</server>
-      <imgdir>images_tgfw/</imgdir>
-      <thumbdir>images_tgfw/thumbs/</thumbdir>
+      <imgdir>/home/httpd/html/ewwrp/images/tgfw</imgdir>
+      <thumbdir>/home/httpd/html/ewwrp/images/tgfw/thumbs/</thumbdir>
       <user>elfarr</user>	<!-- userid on remote server -->
       <key>/home/elfarr/.ssh/id_rsa</key>  <!-- path to ssh key for server -->
    </load>
