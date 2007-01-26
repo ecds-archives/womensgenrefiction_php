@@ -1,15 +1,138 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="sdpanol12013">
+  <teiHeader id="sdpanol1201">
+    <fileDesc>
+      <titleStmt>
+        <title>Panola, an electronic edition</title>
+<author><name type="person" reg="Dorsey, Sarah A. (Sarah Anne), 1829-1879.">Sarah A. Dorsey</name></author>
+      </titleStmt>
+      <extent>490kb</extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2007</date>
+        <availability>
+          <p>&#x00A9; 2007, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Women's Genre Fiction, 1860-1920</title>
+        <respStmt>
+          <name>Sheila T. Cavanagh</name>
+          <name>Charles D. Spornick</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><author>Barr, Amelia E</author>. <title>The Bow of Orange
+Ribbon, A Romance of New York</title>. <pubPlace>New York</pubPlace>:
+<publisher>The A. D. Porter, Co.</publisher>, <date>1886</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project.  Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes.  This project is funded by a grant from the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded.  Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Genre Fiction</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Unedited</rs>
+        <rs type="genre">Novel</rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item>American literature--19th Century--Fiction.</item>
+            <item>Women authors, American--19th Century.</item>
+            <item>Local color.</item>
+            <item>New York.</item>
+            <item>Romance.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2005-April-18</date>
+        <respStmt>
+          <name>Erika Farr, </name>
+          <resp>project manager.</resp>
+        </respStmt>
+        <item>XML tags inserted in compliance with TEI guidelines.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text id="sdpanol1203">
+<body id="sdpanol1204">
 <pb n="25"/>
-PANOLA.
-CHAPTER I.
-IN THE ATTAKAPAS.
+<div id="sdpanol001" type="chapter" n="1">
+<head>PANOLA.<lb/>
+CHAPTER I.<lb/>
+IN THE ATTAKAPAS.</head>
 <p>THE day was beautiful. The sunshine of May poured all over and, it seemed, all through the very earth, in the country of "The Attakapas." The yellow jasmine flung its garlands of golden, perfumed chalices around the very tops of the tallest forest trees, mingling its flowers with the streamers of venerable gray Spanish moss (Tillandsia), which draped the huge branches, and which waved with silvery, undulating gleams in the breezy sunshine. The Cherokee rose flaunted its long pennons of great white flowers and small, dark, glistering leaves over miles and miles of hedge rows. The red-bud (Judas tree) was set thickly in spikes of blooms, the white locust hung its cornucopi&#x00E6; of honey-smelling papilionaceous blossoms high above the huge rose hedges, and its blossoms were filled with
 <pb n="26     PANOLA."/>
 myriads of busy humming bees. As for butterflies, who could number them?</p>
-<p>There were every sort of the day butterflies, who have knobs at the end of their antenn&#x00E6;; the asterias, and the yellow pliilodice, and the beautiful deiopei&3xx00E6;; the ph&#x0153;ton and the vanessas; the admiral, the thistle, and the golden C. vanessas; the troilus, the philenor, the Danaus, and the idalias--all the aristocratic idlers, who, clothed with silver and gold and purple, ornamented with ever-varying splendor, have naught to do but to seek their own pleasure and spend their life of a summer day in fluttering from bough to bough, satiating themselves with sweetest nectar.</p>
+<p>There were every sort of the day butterflies, who have knobs at the end of their antenn&#x00E6;; the asterias, and the yellow philodice, and the beautiful deiopei&#x00E6;; the ph&#x0153;ton and the vanessas; the admiral, the thistle, and the golden C. vanessas; the troilus, the philenor, the Danaus, and the idalias--all the aristocratic idlers, who, clothed with silver and gold and purple, ornamented with ever-varying splendor, have naught to do but to seek their own pleasure and spend their life of a summer day in fluttering from bough to bough, satiating themselves with sweetest nectar.</p>
 <p>The butterflies had a pretty good time of it if they escaped the beaks of the mocking-birds, during the caterpillar period; it was rare that the birds attacked the full-grown insect, though sometimes one might see the very poetry of the chase in a mocking-bird's pursuit after a fluttering yellow colias, which it always caught and flew away with, bearing it off with the golden wings quivering at the end of its curved bill. It was pretty to see, though sad for the insect, of course.</p>
 <p>The ground was carpeted on the wide prairies with acres and acres of precious little Houstonias, the "<hi rend="italic">Child's Delight</hi>," as the Southern people call them, more poetically than the wise botanists. The mockingbirds were singing their very maddest bursts of
 <pb n="27     IN THE ATTAKAPAS."/>
-delirious music. Spring-life is strong in this semitropical land! Cardinal birds, in brilliant groups of carmine, pecking the bright green grass, occasionally stopped to sin; their little song of "Sweetie, sweetie, sweetie." Blue-birds flitted about, like bits shed out of the azure sky. Whole flocks of lovely little swamp warblers, green and gold, red and yellow, blue and brown, of every tint and changeful sheen of color, would suddenly drop upon the emerald herbage (like a cloud of flakes from a broken rainbow), hop, twitter, then fly up and disappear in the sun-lighted air as quickly as they had come. Humming-birds beat their wings, vibrating from umbel to umbel of the scarlet Yecoma trumpets, and the lilac bunches of the China tree (Melia Azadarach) were the chosen haunts of the tiny mango colibri. Turtle-doves sang softly and mournfully their invitation to their mates, "Come into the woods! Come into the woods!" The fig trees were pushing young, green leaflets. Grape vines, in flower, pulsated puffs of incense on the warm air. Orange trees, in stately rows, were showering cream-white petals down upon the wide sheets of cotton cloth, that Lizbette had spread so carefully under their boughs in order to catch cast-off corollas; for Lizbette was a skilful compounder of all sorts of orange syrups and citron confections. Was she not a "cordon bleu," "nata" as well as "fit" among Creole cooks? Whose orange-flower
+delirious music. Spring-life is strong in this semitropical land!
+Cardinal birds, in brilliant groups of carmine, pecking the bright
+green grass, occasionally stopped to sin; their little song of
+"Sweetie, sweetie, sweetie." Blue-birds flitted about, like bits shed
+out of the azure sky. Whole flocks of lovely little swamp warblers,
+green and gold, red and yellow, blue and brown, of every tint and
+changeful sheen of color, would suddenly drop upon the emerald herbage
+(like a cloud of flakes from a broken rainbow), hop, twitter, then fly
+up and disappear in the sun-lighted air as quickly as they had
+come. Humming-birds beat their wings, vibrating from umbel to umbel of
+the scarlet Yecoma trumpets, and the lilac bunches of the China tree
+(Melia Azadarach) were the chosen haunts of the tiny mango
+colibri. Turtle-doves sang softly and mournfully their invitation to
+their mates, "Come into the woods! Come into the woods!" The fig trees
+were pushing young, green leaflets. Grape vines, in flower, pulsated
+puffs of incense on the warm air. Orange trees, in stately rows, were
+showering cream-white petals down upon the wide sheets of cotton
+cloth, that Lizbette had spread so carefully under their boughs in
+order to catch cast-off corollas; for Lizbette was a skilful
+compounder of all sorts of orange syrups and citron confections. Was
+she not a "cordon bleu," "nata" as well as "fit" among Creole cooks?
+Whose orange-flower
 
 <pb n="28     PANOLA."/>
 water was better and more soothing to weak nerves, or better known than hers? Who understood as she did the manufacture of the delicate Pralines of the stewed orange-petals, after the syrup had been perfected? Whose liqueur of the passion flowers was clearer and stronger than hers? Surely for these things Lizbette was widely famed throughout the whole of the Attakapas.</p>
@@ -45,18 +168,19 @@ make ineffectual efforts to utter the right cadence; but at last, seeming to gro
 <pb n="35     IN THE ATTAKAPAS."/>
 <p>"Uncle Jacob is dead in New York. This letter concerns you both, as well as myself."</p>
 <p>It was a large letter, and it contained an enclosure written on foolscap, very closely covering all four sides of the sheet. Mark now set himself to read the enclosed foolscap.</p>
-<p>Victor held the letter, and Natika, leaning over his shoulder, read it at the same time that he did. Victor gave utterance to a low whistle of surprise and seeming vexation as he laid the letter down, which ran as follows:</p>
-"NEW ORLEANS, 18--.
-<p>"MR. MARK BOLLING: SIR:--We have been requested by the trustees appointed in the last will and testament of your late uncle, Mr. Jacob Canonge, to write to you, and to enclose a certified copy of said will and testament of said Jacob Canonge. Said will is a holograph instrument, and is perfect according to law of Louisiana, being written, signed and sealed by said testator. It has been duly recorded by said trustees, and the succession is now duly opened according to law. The said will is somewhat peculiar in its terns and conditions of bequest, which, of course, we regret; but, although the said late Jacob Canonge was regarded as rather eccentric in character, his sound health and sanity were never questioned, and he was considered to be singularly shrewd in all practical business matters. His physicians--the Doc-
+<p>Victor held the letter, and Natika, leaning over his shoulder, read it at the same time that he did. Victor gave utterance to a low whistle of surprise and seeming vexation as he laid the letter down, which ran as follows:
+<q><text><body><div type="letter" id="sdpanol101"><dateline>"NEW ORLEANS, 18--.</dateline>
+<salute>"MR. MARK BOLLING: SIR:--</salute><p>We have been requested by the trustees appointed in the last will and testament of your late uncle, Mr. Jacob Canonge, to write to you, and to enclose a certified copy of said will and testament of said Jacob Canonge. Said will is a holograph instrument, and is perfect according to law of Louisiana, being written, signed and sealed by said testator. It has been duly recorded by said trustees, and the succession is now duly opened according to law. The said will is somewhat peculiar in its terns and conditions of bequest, which, of course, we regret; but, although the said late Jacob Canonge was regarded as rather eccentric in character, his sound health and sanity were never questioned, and he was considered to be singularly shrewd in all practical business matters. His physicians--the Doc-
 <pb n="36     PANOLA."/>
 tons Stone and Roussel--testify to his admirable soundness of mind up to the very last moments of existence. The injunctions of the will, therefore, must be fully obeyed. The trustees--Messrs. Adams, James and Slocumb--unite with us in hoping that you may soon be restored to the health and happy condition of life, which said will demands of you before they can resign to you the control of the vast wealth, designed for your inheritance by your late uncle, said late Jacob Canonge. Together with this, please find notices to the other heirs--Mr. Victor Burthe and Miss Natika Jacquimin--of their unconditioned bequests from their late uncle, said late Jacob Canonge, which bequests are in the sum of one hundred thousand dollars each, said money being now on deposit in the Canal Bank of New Orleans, subject to their order at sight. Please also find list and vouchers of said divers moneys, bequeathed conditionally to you by said late Jacob Canonge--said moneys amounting, as shown and exhibited by said vouchers, to the sum of three millions five hundred thousand and forty-five dollars and fifty-five cents, which is already well and sufficiently invested by said late Jacob Canonge, as shown by said vouchers. All to be subject to your order under certain conditions, as set forth in said last will and testament of said late Jacob Canonge.</p>
 <p>"You will be so good as to notify us where and when you desire to be deposited the annual pay-
 <pb n="37     IN THE ATTAKAPAS."/>
 ments of the sum of three hundred dollars, always payable in gold, the amount specified as a temporary provision for you until the aforesaid conditions be filled as demanded by said last will and testament of said late Jacob Canonge. It is now subject to your order.</p>
 <p>"With profound respect, we have the honor to subscribe ourselves your most obedient servants,</p>
-"BRADFORD AND BRADFORD,
-"Att'ys-at-Law, 20 Custom Mouse street,
-"New Orleans, Louisiana."
+<signed>"BRADFORD AND BRADFORD,<lb/>
+"Att'ys-at-Law, 20 Custom Mouse street,<lb/>
+"New Orleans, Louisiana."</signed></div>
+</body></text></q></p>
 <p>"Here's the will," said Mark, handing the long bit of foolscap he had been reading to Victor.</p>
 <p>"It is a shame! The very meanest will that ever any old man made! That's my opinion of it," exclaimed Natika, indignantly, tossing back, with her fair, white, jewelled hand, the heavy ringlets that had fallen forward over her face as she leaned over Victor's shoulder reading the portentous papers.</p>
 <p>"He was a mean, crabbed old hunks, any how! I always did think so," said Victor. "He has been too good to us, who did not need his dirty money. But, to treat poor Mark in that tantalizing fashion! It is downright wicked! I hope the old fellow will be put through three millions of ages in purgatory for his malice! As if it was Mark's fault that he can't walk! Oh, le vieil liable!"</p>
@@ -140,9 +264,9 @@ Natika's sofa. "I don't even doubt <hi rend="italic">you</hi>, Natika, when you 
 <pb n="48     PANOLA."/>
 <p>"Who? Major Flanoy's daughter?" asked Mark, starting up to a more erect position in his chair and dropping his hand from his eyes.</p>
 <p>"Oh, you mean Panola. Yes, she was very fair. She is grown up now."</p>
-Her hair it was lint-white,
-Her skin it was snow-white,
-Bright was the bash of her blue, rolling e'e,"
+<p><q><lg type="stanza"><l>"Her hair it was lint-white,</l>
+<l>Her skin it was snow-white,</l>
+<l>Bright was the bash of her blue, rolling e'e,"</l></lg></q>
 sang Victor, remodelling Burns to suit his own ideas; then he went on:
 <p>"She was uncanny, Mark, that child. She was so white altogether."</p>
 <p>"Therefore she was justly named PANOLA," said Mark.</p>
