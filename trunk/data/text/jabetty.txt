@@ -100,13 +100,19 @@ added by the encoder and do not appear in the original text.</p>
   <text id="jabetty1203">
   <front id="jabetty1204">
 <pb/>
-<div id="jabettyfm01" type="paratext">
-<figure entity=jabettyfm1*" rend="inline">
+<div id="jabettyfm00" type="covers">
+<figure entity="jabettycv1" rend="inline">
+<figDesc>Front cover of Jane Austin's <hi
+rend="italic">Betty Alden</hi></figDesc>
+</figure>
+</div>
+<div id="jabettyfm01" type="advert">
+<figure entity="jabettyfm1" rend="inline">
 <figDesc>Publisher's advertisement in Jane Austin's <hi
 rend="italic">Betty Alden</hi></figDesc>
 </figure>
 </div>
-<pb n="[i]" entity="jabettytp*" pages="Title Page"/>
+<pb n="[i]" entity="jabettyfm2" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">BETTY ALDEN</titlePart>
@@ -125,13 +131,13 @@ LE BARON AND HIS DAUGHTERS," "THE DESMOND HUNDRED,"<lb/>
 </titlePage>
 <pb n="[ii]"/>
 <div id="jabettyfm02" type="copyright">
-<figure entity=jabettyfm2*" rend="inline">
+<figure entity="jabettyfm3" rend="inline">
 <figDesc>Copyright page in Jane Austin's <hi
 rend="italic">Betty Alden</hi></figDesc>
 </figure>
 </div>
 <div id="jabettyfm03" type="dedication" >
-<pb n="[iii]" entity="jabettyfm3*" pages="dedication">
+<pb n="[iii]" entity="jabettyfm4" pages="dedication"/>
 <p>TO<lb/>MY DEAR COUSINS<lb/>
 MARSTON AND MARY WATSON<lb/>
 AND THEIR<lb/>HILLSIDE<lb/>
@@ -139,8 +145,8 @@ WHERE BETTY ALDEN HAS BEEN SO PLEASANTLY CRADLED<lb/>
 DURING THE PAST YEAR<lb/>
 This Story of her Life and Times<lb/>
 IS AFFECTIONATELY<lb/>DEDICATED</p>
-<dateline>PLYMOUTH<lb/><hi rend="italic">Michaelmas,
-1891</hi></dateline>
+<dateline>PLYMOUTH<lb/><date><hi rend="italic">Michaelmas,
+1891</hi></date></dateline>
 </div>
 <pb n="[v]"/>
 <div id="jabettyfm5" type="preface">
@@ -162,21 +168,21 @@ this testamentary petition mentioned where the graves were, beside which they fa
 <p>But to me it seems a small matter, this question of the grave of Standish. He lived to be old and very infirm, and neither his old age, his infirmities, nor his final surrender to death are any part of his memory. For me, he stands forever as he stood in his glorious prime among the people he so unselfishly championed, a tower of strength, courage, and endurance, the shining survival of chivalry, the gallant paladin whose coat-armor gleams amid the throng of russet jerkins and mantles of hodden gray, like the dash of color with which Turner accents his wastes of sombre water and sky. So let him stand, so let us look upon him, and honor him and glory in him, nor seek to draw the veil with which Time mercifully hides the only defeat our hero ever knew, that last fatal battle when age, and "dolorous pain," and fell disease, conquered the invincible, and restored to earth all that was mortal of a magnificent immortality. We cannot erect a monu-
 <pb n="ix PREFACE."/>
 ment over that forgotten grave, but in some coming day let us hope that the descendants of the soldier Pilgrim will possess themselves of the little peninsula where the site of his home may still be traced, and there place some memorial stone to tell that on this fairest spot of fair Duxbury's shore lived and died the man who gave Duxbury her name, and bequeathed to us an inheritance far richer than that which was "surreptitiously detained" from him.</p>
-<dateline>BOSTON, <hi rend="italic">October</hi>, 1891.</dateline>
+<dateline>BOSTON, <date><hi rend="italic">October</hi>, 1891.</date></dateline>
 </div>
-<pb n="[xi]">
+<pb n="[xi]"/>
 <div id="jabettytoc" type="table of contents">
-<figure entity="jabettytoc1*" rend="inline">
+<figure entity="jabettyfm5" rend="inline">
 <figDesc>Table of contents page for Jane Austin's <hi
 rend="italic">Betty Alden</hi></figDesc>
 </figure>
-<figure entity="jabettytoc2*" rend="inline">
+<figure entity="jabettyfm6" rend="inline">
 <figDesc>Second table of contents page for Jane Austin's <hi
 rend="italic">Betty Alden</hi></figDesc>
 </figure>
 </div>
 </front>
-<body id="1205">
+<body id="jabetty1205">
 <pb n="1"/>
 <div id="jabetty001" type="chapter" n="1">
 <head>BETTY ALDEN.<lb/>
@@ -327,7 +333,7 @@ TREASON.</head>
 <p>"You refuse to obey the law of the colony?"</p>
 <p>"I refuse to be said by you, you beggarly little rascal."</p>
 <p>"Then I shall arrest you as a traitor, and if I had my will, I'd have you out and shoot you at sunrise."</p>
-<p>"Oh, you would, would you, you wretched baseborn"--</p>
+<p>"Oh, you would, would you, you wretched base-born"--</p>
 <p>"Have a care, man, have a care. Stop while you may!" And the captain's voice deepened to a growl, and his eyes, wide open, yet contracted in the pupil to a point of fire, fixed themselves like weapons upon those of the mutineer, who, maddened by their menace, sprung to his feet knife in hand, and aimed a blow at the captain's face that might have forever quenched the light of those magnetic eyes, had it not been caught on the hilt of Gideon, the good sword that in these days hung ever at his master's side, although he seldom needed to quit his scabbard.</p>
 <p>"Villain, you've broken my wrist!" yelled Oldhame, dropping his knife, upon which Standish planted his foot.</p>
 <p>"To me! To me, men! Help! Murder! To me, Oldhames!" again shouted the traitor, but although a
@@ -365,7 +371,7 @@ When at ten o'clock Bartholomew Allerton, now promoted to the post of band-maste
 <p>"Nay, my son; it is the Lord's Day and we will not farther disturb its peace. This rebel has ceased his summons and you may do so also, lest worse come of it."</p>
 <p>"Does your honor see Master Lyford in gown and bands coming out of Master Oldhame's house?"</p>
 <p>"Nay, Bart, I see him not, for I look not at him. Now no more, good youth, but fall into rank with your fellows."</p>
-<p>And fifty men or more, each armed and ready for battie either with men or the Ghostly Enemy who inspirits men, moved in solemn procession of threes up Burying Hill to the Fort, the rear closed by the governor in his robe of office, with the Elder in his gown at his right hand, and the captain in full uniform at his left.</p>
+<p>And fifty men or more, each armed and ready for battle either with men or the Ghostly Enemy who inspirits men, moved in solemn procession of threes up Burying Hill to the Fort, the rear closed by the governor in his robe of office, with the Elder in his gown at his right hand, and the captain in full uniform at his left.</p>
 <p>Not a word was exchanged between the leaders upon the events of the morning, but it was no news to any of them, when the long service was over and in the seclusion of home the women's tongues were let loose, to hear that Lyford, in spite of his abject repudiation of his Episcopal ordination, and membership with the Separatist Church, had gathered a congregation, read the English Service, preached a vituperative sermon against the leaders of the colony, and administered the Communion.</p>
 <p>Such open bravado and schism as this could not be
 <pb n="23 TREASON."/>
@@ -570,7 +576,7 @@ improvised from boards and barrels, but all covered with the fine
 napery brought from Holland by Alice Bradford, who had the true
 housewife's love of elegant damask, and during Edward Southworth's
 life was able to indulge it, laying up such store of table damask, of
-fine Holland "pillowbers" <ref target="jabetty005n1">1<note
+fine Holland "pillowbers" <ref target="jabetty005n1">1</ref><note
 id="jabetty005n1" resp="auth" place="foot">Pillow-biers, now called pillow-cases.</note> and "cubboard cloths," towels of Holland, of dowlas, and of lockorum, and sheets of various qualities from "fine Hol-
 <pb n="49 PRISCILLA IN PLYMOUTH SOCIETY."/>
 land" to tow (the latter probably spun and woven at home), that the inventory of her personal estate is as good reading to her descendants as a cookery book to a hungry man.</p>
@@ -714,8 +720,7 @@ glancing over his hostess's shoulder as she stood in the doorway, he swore a gre
 <pb n="68"/>
 <div id="jabetty007" type="chapter" n="7">
 <head>CHAPTER VII.<lb/>
-MORTON OF MERRY MOUNT.</head>
-<p>"WELL, Master Trumpeter, and what do you make of yon craft? Are the Don Spaniards coming to invade New Plymouth, or has the king sent to impress you as major-domo of the royal band?"</p>
+MORTON OF MERRY MOUNT.</head><p>"WELL, Master Trumpeter, and what do you make of yon craft? Are the Don Spaniards coming to invade New Plymouth, or has the king sent to impress you as major-domo of the royal band?"</p>
 <p>"Good-morrow, Captain Standish. The governor lent me his perspective glass, and sent me up on the hill to spy out who was coming."</p>
 <p>"And that's all right, Bart. No need to make excuse for doing the governor's bidding, my lad."</p>
 <p>"I was thinking, Captain, you found it strange to see me on the Fort without notice to you"--</p>
@@ -725,7 +730,7 @@ MORTON OF MERRY MOUNT.</head>
 <p>Bowling merrily along before an easterly breeze, the ketch soon rounded Beach Point, and dropped her an-
 <pb n="69 MORTON OF MERRY MOUNT."/>
 chor opposite the village, but in midstream, and so soon as the sails were snugged, and all made ready for some possible change of weather, the four visitors stepped into a skiff and were sculled ashore by a tall, fine-looking young fellow, whose bronzed face and lithe figure were well set off by the buckskin hunting-shirt and red cap worn with a jaunty air not inharmonious with the young man's roving black eyes and flashing smile.</p>
-<p>"Master Maverick and his son, Master Blackstone from Shawmut, and Master Bursley and Master Jeffries from Wessagussett," reported Bart AUerton, hat in hand, at the governor's door, and Bradford, laying down his book, replied with a grave smile,--</p>
+<p>"Master Maverick and his son, Master Blackstone from Shawmut, and Master Bursley and Master Jeffries from Wessagussett," reported Bart Allerton, hat in hand, at the governor's door, and Bradford, laying down his book, replied with a grave smile,--</p>
 <p>"I will go to meet them."</p>
 <p>Half an hour later the three elder visitors with the governor, the captain, Allerton, Doctor Fuller, and one or two more, were closeted in the new room recently added to the governor's house, and used by him as a council chamber and court room.</p>
 <p>Moses Maverick, the handsome young boatman, had meanwhile somewhat pointedly sought out Bart Allerton, and almost invited himself to accompany him home.</p>
@@ -743,7 +748,18 @@ chor opposite the village, but in midstream, and so soon as the sails were snugg
 <p>"True," broke in Bursley impetuously. "But as Master Blackstone has told you, Morton sells pieces and ammunition and rum to the savages without let or stint, and they, having naught else to do, practice at a mark all day long, and soon will prove better shots than any white man. Then, when some new Wituwamat or Pecksuot shall arise to stir them to revolt, where shall we be? You had not won so easy a triumph there where I live, Captain Standish, had your foes been armed with snaphances."</p>
 <pb n="71 MORTON OF MERRY MOUNT."/>
 <p>"Not so easy, perhaps, but to my mind more honorable," replied Standish coldly. "Howbeit, I do not approve of arming the Indians."</p>
-<p>"Of course, Governor," resumed Blackstone, who had been the principal speaker, "the peril is not great for you who can count a hundred fighting men with Captain Standish to lead them; but none other of the settlements is of any force, although friend Maverick here has fortified his island, and may depend upon a dozen men or so of his household, and the Hilton brothers at Piscataqua and Cocheco are stout and well-armed fellows, and my neighbor Thomas Walford at Mishawum (*Footnote: 1 Charlestown) has a palisado round his house, and his blacksmith's sledge with some other weapons inside. Then at Naumkeag (*footnote: 2 Salem) are Roger Conant, Peter Palfrey, and the rest, with your old friend Lyford as their parson, and Conant is a fighting man as well as a godly one. But I, as all men know, am a man of peace as befits a parson; and there is David Thompson's young widow and child abiding on the island bearing his name, with only a couple of men-servants to defend them. If all of us drew together in one hold we should not count half the force of Plymouth, but we do not wish so to abandon our plantations."</p>
+<p>"Of course, Governor," resumed Blackstone, who had been the
+principal speaker, "the peril is not great for you who can count a
+hundred fighting men with Captain Standish to lead them; but none
+other of the settlements is of any force, although friend Maverick
+here has fortified his island, and may depend upon a dozen men or so
+of his household, and the Hilton brothers at Piscataqua and Cocheco
+are stout and well-armed fellows, and my neighbor Thomas Walford at
+Mishawum<ref target="jabetty007n1">1</ref><note id="jabetty007n1"
+resp="auth" place="foot">Charlestown.</note> has a palisado round his
+house, and his blacksmith's sledge with some other weapons
+inside. Then at Naumkeag<ref target="jabetty007n2">2</ref><note
+id="jabetty007n2" resp="auth" place="foot">Salem.</note> are Roger Conant, Peter Palfrey, and the rest, with your old friend Lyford as their parson, and Conant is a fighting man as well as a godly one. But I, as all men know, am a man of peace as befits a parson; and there is David Thompson's young widow and child abiding on the island bearing his name, with only a couple of men-servants to defend them. If all of us drew together in one hold we should not count half the force of Plymouth, but we do not wish so to abandon our plantations."</p>
 <p>"Have you labored with Thomas Morton, showing him the wrong he does?" asked Elder Brewster coldly, and eying the Churchman with strong disfavor, for Blackstone, with questionable taste, had chosen to wear upon this expedition the long coat and shovel hat carefully brought by him from England as the uniform of his profession. Dressed in these canonicals, with the incongruous addition of "Geneva bands," Blackstone regularly read the Church of England service on Sundays
 <pb n="72 BETTY ALDEN."/>
 at his house upon the Common, sometimes alone, and sometimes to a congregation composed of the Walfords from Charlestown, the Mavericks from Noddle's Island or East Boston, the settlers from Chelsea, and perhaps in fine weather the Grays from Hull, and some of the folk from Old Spain in Weymouth. For all these were adherents to the Church of England after a fashion, although by no means ardent religionists of any sort; and as such, held in considerable esteem the eccentric parson living in the solitude he loved among his apple-trees, and beside his clear spring, now merged in the Frog Pond of our Common. A lukewarm Churchman, he was friendly enough to the Separatists, and now replied to Brewster with a smile,--</p>
@@ -756,9 +772,11 @@ at his house upon the Common, sometimes alone, and sometimes to a congregation c
 <pb n="73 MORTON OF MERRY MOUNT."/>
 order," returned the assistant smoothly, and the council soon after broke up with the understanding that Bradford, as the only recognized authority in New England, should write Morton a formal protest in the name of all the English settlers, reminding him that King James of happy memory had, as one of his latest acts, issued a royal proclamation forbidding the sale of fire-arms or spirits to the savages, and calling upon him as an English subject to obey this edict.</p>
 <p>If this protest proved of none effect, the Governor of Plymouth pledged himself to suppress the rebel and his mischief with the high hand.</p>
+</div>
 <pb n="74"/>
-CHAPTER VIII.
-STANDISH AT MERRY MOUNT.
+<div id="jabetty008" type="chapter" n="8">
+<head>CHAPTER VIII.<lb/>
+STANDISH AT MERRY MOUNT.</head>
 <p>SOME two weeks had passed by since the visit of the committee of safety to Plymouth; long enough for Bradford, ever moderate, ever considerate, to write a letter of kindly expostulation to Morton, and to receive an insolent and defiant reply; and now in a pleasant June afternoon the Plymouth boat, commanded by Standish, and manned by eight picked followers, drew into Weymouth fore-river, where upon the water-course now known as Phillips Creek, Weston and his men, some six or seven years before, had founded their unlucky settlement.</p>
 <p>The fate of this settlement we have seen, and also learned that the houses protected by Standish's warning to the savages had since become the dwelling-place of some of the followers of Ferdinando Gorges, that showy personage who, coming to the New World with the romantic idea of proclaiming himself its governor, found it so savage and forbidding of aspect that, after a few months spent mostly as a guest of Plymouth, he quietly returned to England, civilization, and a sovereignty on paper. The houses repaired or built by him still remained, however, and among the Gorges men who continued to live in them were the Mr. Jeffries and Mr. Bursley who accompanied Blackstone and Maverick to Plymouth.</p>
 <pb n="75 STANDISH AT MERRY MOUNT."/>
@@ -790,7 +808,7 @@ and Lieutenant Rasdall was final, and except that the neighborhood of Passonages
 <p>"Say you so! Then, let us hasten and bury him with all due honors!" exclaimed the captain, in whose nostrils the breath of battle was ever a pleasant savor. "Howland, Alden, Browne, all of you, my merry men! Leave the boat snug, and follow to the house, to chat with Master Morton who awaits us there."</p>
 <p>And the captain sped joyously up the path, looking to the priming of his long pistols, and loosening Gideon in his scabbard as he went. A rod from the house, however, a bullet nearly found its billet in his brain, while on the threshold stood Morton, his face flushed, his gait unsteady, and a smoking pistol in his hand.</p>
 <p>"Hola! Captain Shrimp, I warn you stand out of range of my pistol practice. You might get a hurt by chance!" cried he, raising another pistol, but before it could be aimed, or the captain take action, somebody within the house struck up the madman's arm, and as he turned savagely upon this new foe, Standish, whose muscles were strong and elastic as a panther's, sprang across the intervening space, and seizing his prisoner by the collar shouted,--</p>
-<pb n="80 BETTY ALDEN.
+<pb n="80 BETTY ALDEN."/>
 <p>"Yield, Morton, or you're but a dead man!"</p>
 <p>"One man may well yield to a mob," muttered Morton sullenly; and seeing that he was disarmed, Standish released his hold saying quietly,--</p>
 <p>"Fair and softly, Master Morton! Governor Bradford sends me and these men, praying for your company at Plymouth, so soon as may be. If you will go quietly, well; but if you resist, you will go all the same; so choose you."</p>
@@ -884,9 +902,11 @@ signal for the advance of his little troop, four of whom carried blazing torches
 <p>"As for your Maypole, and your Indian blowzabellas, and your dancing and mummery," concluded the captain, "I for one have naught to say, except that there must be some warlock-work in the matter to tempt even a squaw to frisk round a Maypole with such as you."</p>
 <p>Morton, sullen, silent, and disarmed, was meantime led to the boat between Alden and Howland, the other men after, and last of all Standish muttering,--</p>
 <p>"Better if there had been a garrison strong enough to hold the position. Then we might have burned the house and haply slain the traitor in hot blood."</p>
+</div>
 <pb n="93"/>
-CHAPTER IX.
-THE KYLOE COW.
+<div id="jabetty009" type="chapter" n="9">
+<head>CHAPTER IX.<lb/>
+THE KYLOE COW.</head>
 <p>"BARBARA! Wife!"</p>
 <p>"I am here, Myles, straining the milk. I shall make some furmety for supper. Even Lora begins to beg for it, and the boys dote upon it, little knaves!"</p>
 <p>"Let the furmety wait for a bit, and come out here to see old Manomet in the evening light. 'T is a sight I never tire of."</p>
@@ -901,7 +921,7 @@ not love the face of Nature do you say! Nay, man, this is not Nature, these dark
 <p>"The worst of quiet creatures like you, Bab, is that a man never knows the fire's alight till the house is in a blaze. Now as you, or was it Priscilla Alden, said once of me, 'A little pot's soon hot,' and all the world is forced to know it, but you,--art homesick for the old country, lass?"</p>
 <p>"Nay, Myles, there is no home to be sick for; all is changed there; but I would like it better if we had a little holding of our own, and our own cow, and some ducks, and a goose fattening for Michaelmas."</p>
 <p>"But you share the great red cow with Winslow's folk, and have milk enough for your furmety, sweetheart!" And the grim warrior smiled as tenderly as
-<pb n="95 THE KYOLE COW."/>
+<pb n="95 THE KYLOE COW."/>
 a mother upon the flushed wet face so near his own. Barbara smiled too, and wiping away the tears sat upright, but was not allowed to leave her somewhat undignified position upon her husband's knee.</p>
 <p>"There, Myles, 'tis past now, and I will be more sensible"--</p>
 <p>"Prythee don't, child! I like thee better thus."</p>
@@ -969,10 +989,15 @@ flinging out of the house and up the hill to his den in the Fort.</p>
 <p>A few weeks later, as Barbara set the stirabout that sometimes served instead of furmety upon the table, her husband entered, and throwing his hat into Lora's lap said in a tone of well deserving,--</p>
 <p>"There, Bab, I've bought out Winslow's share in the red cow for five pounds and ten shillings, to be paid in corn, and I've satisfied Pierce and Clark for their shares with a ewe lamb apiece, so now it is mine, and I give it to you. She's not the kyloe cow you were longing for, but she's your own."</p>
 <p>"Thank you, Myles," replied Barbara, flushing with pleasure. "And is it quite settled that we are to go over to the Captain's Hill as they begin to call it?"</p>
-<p>"Duxbury, I mean to call it in due time. Yes, dame, the men and I are going over to-morrow morning to fell timber, and you shall have some sort of shelter of your own over there before you're a month older."</p>
+<p>"Duxbury, I mean to call it in due time. Yes, dame, the men and I
+are going over to-morrow morning to fell timber, and you shall have
+some sort of shelter of your own over there before you're a month
+older."</p>
+</div>
 <pb n="102"/>
-CHAPTER X.
-THE UNEXPECTED.
+<div id="jabetty010" type="chapter" n="10">
+<head>CHAPTER X.<lb/>
+THE UNEXPECTED.</head>
 <p>IT was just as true in 1625 as it will be in 1895 that nothing is certain to occur except the unexpected; but the idea had not yet been phrased, and even if it had been, William Bradford's turn of mind was absolutely opposed to the epigrammatic, so it was in sober commonplace that he remarked,--</p>
 <p>"I never thought to have spoken with you again in Plymouth, Master Oldhame, but sith you urge pressing business as your excuse for coming hither, I am ready to hear it."</p>
 <p>The governor sat in his chair of office, and the Assistants were ranged each man in his place. At the end of the platform stood John Oldhame, and behind him Bartholomew Allerton and Gyles Hopkins, each carrying a pike, and looking very important.</p>
@@ -1018,10 +1043,13 @@ whither the Dolphin is bound, and I will so present this Morton's offenses that 
 <p>Standish cast a look of impatient dislike at the speaker, but Doctor Fuller interposed,--</p>
 <p>"Fair and softly is a good rule whereby to walk, and I know not if the right of life and death except in combat is fairly ours. I fear me one hundred men though led by Standish would hardly cope with Old England's forces if she sent them hither."</p>
 <p>"My brethren," said Bradford, lightly tapping the table with his finger-tips, "why waste time thus? There is no question of life or death in the present matter; we are to send this dangerous rebel home to England for trial, and John Oldhame is to be surety for his safe arrival, and to receive this money to defray Plymouth's proportion of the expense. Am I right, sirs?"</p>
-<p>"You are right, Governor Bradford," said the Elder solemnly, and the conclave broke up.</p>
-<pb n="111"/>
-CHAPTER XI.
-GOVERNOR BRADFORD PAYS A VISIT.
+<p>"You are right, Governor Bradford," said the Elder solemnly, and
+the conclave broke up.</p>
+</div>
+<pb n="[111]"/>
+<div id="jabetty011" type="chapter" n="11">
+<head>CHAPTER XI.<lb/>
+GOVERNOR BRADFORD PAYS A VISIT.</head>
 <p>"Now mind you, goodman, you are to put on your ruff, and the goodly wrist-ruffles, and see that your doublet is fresh brushed, and your hosen tight and smooth, and your hair well set up, and your beard newly combed,--I wish I might but put a thought of ambergris and civet upon it"--</p>
 <p>"Nay, dame, not while I live, and I think when once you have killed me with kindness you'll have no heart to send me to the grave smelling like a civet cat"--</p>
 <p>"Oh, Will, Will! How can you!"--</p>
@@ -1075,9 +1103,11 @@ Bradford frankly declared to his fellow magistrates, he shrank both before God a
 <p>"With God is no respect of persons," spoke Elder Brewster in tones of stern reproof; but Parson Wilson, with almost a sneer, retorted,--</p>
 <p>"Then let him die as one of the princes, even as Zeb and Salmana."</p>
 <p>A little more discussion followed, but the result was obvious, and the next day Bradford turned his face toward home with a heavy heart, and yet a mind resolved upon the terrible duty soon after fulfilled.</p>
+</div>
 <pb n="121"/>
-CHAPTER XII.
-SIR CHRISTOPHER GARDINER.
+<div id="jabetty012" type="chapter" n="12">
+<head>CHAPTER XII.<lb/>
+SIR CHRISTOPHER GARDINER.</head>
 <p>IT was several days after the governor's return to Plymouth, and Alice had wondered more than once if aught beside the gloom and sorrow of Billington's execution lay upon her husband's mind, when, after noon of one of those heavenly days in late September, in which one's whole life goes out to the joy of living, Bradford after hesitating a moment at the door, turned back and said,--</p>
 <p>"Come, Elsie, do on your hood and walk with me a little."</p>
 <p>"Gay and gladly, Will," replied she, and in a few moments they had passed down by Elder Brewster's house toward the brook, and then turning to the right crossed on the stepping-stones, and striking into the Namasket Path strolled along until, reaching a lovely intervale, afterward called Prence's Bottom, and now Hillside, they sat down upon a fallen tree trunk, and Bradford abruptly asked,--</p>
@@ -1108,7 +1138,7 @@ lightsome as those young birches, and her little hands were white and soft, and 
 <p>"Nay, then, Will, tell me naught, but let me creep close to thy knee like a chidden child and hide my face thus, for indeed I'm shamed to show it."</p>
 <p>"Nay, let me look once upon thee in sweet penitence, since 't is so seldom one may find the chance! Well there, then, hide it an thou wilt, sweetheart, for if I look too closely on 't I forget all else. Well, then, this lady, we will call her, ran to see who knocked, and meeting Myles's grim face, which he had forgot to deck for lady's gaze, she uttered a sharp little cry, and fell back to give place to the gay figure of such a cavalier as we used to see strutting up and down Paul's Walk in London, hand on hips, and mustachios curled up to either eye, and beaver cocked a' one side, and laces and fine needlework, with velvets and silks, and all scented like a posy bed, or the civet cat you love so well."</p>
 <p>"I mind me of the gallants of Paul's Walk, Will; but
-<pb n="125 SIT CHRISTOPHER GARDINER."/>
+<pb n="125 SIR CHRISTOPHER GARDINER."/>
 did this man really have laces and needlework and scent and all those matters?"</p>
 <p>"Well, he had the air of having them, sweetheart, and that is still the main point, you know. So out he came, hand on sword hilt, and eyes so terrific that I, poor wight, shrunk back affrighted"--</p>
 <p>"You affrighted, indeed!"</p>
@@ -1136,13 +1166,14 @@ like, I trust him not,--nay, not so far as just out of reach of a tipstaff's clu
 <p>"No. And I will caution the captain not to mention the matter."</p>
 <p>"Oh, he will have mentioned it to Barbara, and she to Priscilla Alden, before this!" exclaimed Alice. "They are like one household, the Standishes and Aldens, and Priscilla loves to talk."</p>
 <p>"But Barbara is very prudent, and if she has heard so ill a story will think twice before she spreads it. I never knew a woman less given to gossip, except mine own wife. I'll tell thee, Alice, I'll ask Myles if he has
-<pb n="128     <hi rend="italic">BETTY ALDEN."/>
+<pb n="128 BETTY ALDEN."/>
 told the tale; and if he has, I'll ask him to speak to Barbara and find how far it has gone."</p>
 <p>"But do not tell even the captain of our poor maid's folly," interposed Alice.</p>
-<p>"Nay, child, I'm as jealous for Prissie's good name as if she were mine own sister. Come, you are shivering, and the night dews begin to fall. Let us go home."</p>
+<p>"Nay, child, I'm as jealous for Prissie's good name as if she were mine own sister. Come, you are shivering, and the night dews begin to fall. Let us go home."</p></div>
 <pb n="129"/>
-CHAPTER XIII.
-ONE! TWO! THREE! FIRE!
+<div id="jabetty013" type="chapter" n="13">
+<head>CHAPTER XIII.<lb/>
+ONE! TWO! THREE! FIRE!</head>
 <p>ALICE BRADFORD'S instinct had correctly foreseen that Myles would narrate his adventures to his wife just as Bradford had to his; but the governor's reason was also correct in arguing that Barbara would be likely to keep such a story to herself, and the rather that Pris Carpenter had once spoken the name of Sir Christopher Gardiner in her presence with so much of maidenly flutter that Barbara felt there was a story underneath.</p>
 <p>So when Bradford took occasion, over a pipe in the captain's den, to suggest that it was as well for the present to keep the story of the knight of the Golden Melice from the public, Myles replied with a laugh,--</p>
 <p>"So says Mistress Standish. I told her, as indeed I tell her most matters; but when she had listened, her first word was, 'I hope neither you nor the governor will noise this story abroad, for it might do much harm, and could do no good.' A prudent woman is"--</p>
@@ -1194,9 +1225,11 @@ too much like the savages themselves to crop a man's ears, and set him in the st
 <p>"Clay is well enough for me," replied the governor with a smile, as he brought a new clay pipe from the cupboard and presented it to Myles.</p>
 <pb n="136 BETTY ALDEN."/>
 <p>Nor shall we be surprised to hear that when, a year later, Captain William Pierce came over in the Lyon to Boston Bay, he brought a fine meerschaum pipe as a present from Governor Bradford to his friend Captain Standish.</p>
+</div>
 <pb n="137"/>
-CHAPTER XIV.
-SIR CHRISTOPHER ENJOYS THE CHASE.
+<div id="jabetty014" type="chapter" n="14">
+<head>CHAPTER XIV.<lb/>
+SIR CHRISTOPHER ENJOYS THE CHASE.</head>
 <p>FIVE days later, Priscilla Alden sat in the gloaming of the wild March day before a fire so cheerful as to be truly perilous to the chimney of sticks laid up with mud attached like an elongated hornet's nest to the outside of the house. Upon her knees lay little Sally, future wife of Alexander Standish, but just now a child of two years old, with a bad cold upon her lungs and a tendency to croup, or, as her mother called it, quinsy; and it was by way of an ounce of prevention that Priscilla was roasting the little thing before this huge fire, and at the same time diligently rubbing her chest and throat with goose grease. The child, hardly knowing whether to be amused or annoyed at the process, kicked and struggled, uttering little cries varying from crowing laughter to indignant squeals, while the mother made all the play she could of the affair, now tickling the small creature in her fat neck, now answering her cries with counter-cries and merry Boo! Boo! Boo! And anon,--</p>
 <p>"See, Sally! See the pretty fire! Shall mother throw Sally in and burn her all up?" rubbing away meantime, until the child's white skin glowed like a rose and glistened like a mirror.</p>
 <p>"She looks like the suckling pig you roasted last Thanksgiving, mother," remarked John junior, who
@@ -1264,9 +1297,11 @@ poor home in the Massachusetts. Well enough I know that my hospitality then was 
 <p>"'T is well spoken," replied the governor in his usual placable voice. "John Alden, will it suit you to keep this man over-night, if no longer, and will you, Priscilla, give him the care he needs and you so well understand?"</p>
 <p>"If the goodwife says yes, I'll not say no," declared Alden; and Priscilla added a little sharply,--</p>
 <p>"'T is the best word said yet."</p>
+</div>
 <pb n="145"/>
-CHAPTER XV.
-AND DESCRIBES IT.
+<div id="jabetty015" type="chapter" n="15">
+<head>CHAPTER XV.<lb/>
+AND DESCRIBES IT.</head>
 <p>NOT until the next afternoon did Priscilla Alden allow her husband to report the patient ready to receive the visitors who awaited her summons, but when the governor, the captain, the Elder, and the doctor were finally admitted they found him a very different looking person from the captive driven into town by the Indians, who had already been paid their reward and dismissed.</p>
 <p>Like most of the colonists, John Alden had enlarged his house from the rude shelter of the earliest years to a dwelling suited to a growing and thrifty family, so that at the other side of the door opening into the great cheerful kitchen with its southern and eastern windows lay a new room, more carefully finished than the first, its floor nearly covered with rugs of Priscilla's own manufacture, its fireplace decorated with Dutch tiles, its woodwork painted, and its casement window set with real glass in leaden bands, instead of the oiled paper or linen which sufficed for the kitchen windows.</p>
 <p>Here were collected the few pieces of furniture which William Molines and his wife had managed to bring over from France, Holland, and England, the three homes of their years before the Pilgrimage. The deep and wide carved chest of black oak, with cunningly wrought hinges and a key nearly as large as that of the Bastile, stood on one side of the fireplace, its depths
@@ -1345,9 +1380,11 @@ of the same master, and two of them, retiring to the bushes, cut half a dozen or
 <pb n="158 BETTY ALDEN."/>
 <p>"Good-evening, Sir Governor, and each of you gentlemen. Captain Standish, it would please me much if by and by you would waste an hour in talk with me of the stirring adventures we both have known in those realms of heathenesse beyond the seas."</p>
 <p>"It will give me singular pleasure so to do, Sir Christopher," replied Standish; and so in amity and sympathy parted two men who with equal pleasure would have fought hand to hand until one lay dead upon the field, or, as they that evening did, over a tankard of strong ale, rehearsed for each other's benefit their battles of old time.</p>
+</div>
 <pb n="159"/>
-CHAPTER XVI.
-A MILLSTONE FOR SIR CHRISTOPHER.
+<div id="jabetty016" type="chapter" n="16">
+<head>CHAPTER XVI.<lb/>
+A MILLSTONE FOR SIR CHRISTOPHER.</head>
 <p>"HERE, Betty woman! You shall help mother and carry the strange gentleman's breakfast to him. I'm too put about with my baking to redd myself fit to see him. Put a clean towel over the sarver, set the salt and pepper pot upon it, and take father's beer-mug to fill him out a measure of my oldest home-brewed. He said but yesterday he loved a cool tankard better than strong waters of a morning."</p>
 <p>"Shall I take one of the real damask napkins for him, mother? There are two in the drawer of the dresser newly laundered."</p>
 <p>"Yes. Give him of the best, poor fellow, while he 's with us, for he goes from us to prison, and mayhap to worse."</p>
@@ -1450,7 +1487,7 @@ called Alick's father, and mother would not make jelly for him though he asked i
 <p>"My child, I'm not vexed, and--well, there--wait a bit--now, here it is, just these half dozen lines thou seest, Betty; surely there's no harm in such a rap of paper, is there, child?"</p>
 <p>"You say not, sir," replied Betty submissively, yet sadly, for she liked not her errand, although resting in the confidence of a nature itself upright, upon the assurance of her elder that she was doing right in obeying him.</p>
 <p>At dinner time, with the tray came Betty, again with an apology from her mother; and when she had set it down she took a scrap of paper from her bosom and handed it to the knight, who, impatiently unfolding it, read in a very rude and Gothic scrawl the two words,--</p>
-<p>"<hi rend="italic">Ask Betty.</hi>     PRISCILLA CARPENTER."</p>
+<p>"<hi rend="italic">Ask Betty.</hi> PRISCILLA CARPENTER."</p>
 <p>"'Ask Betty,' repeated the knight aloud. "That is all there is in it, Betty. But what is the message that I am to ask?"</p>
 <p>"Prissie cannot write much, but she made shift to read your billet, and she sends her love and kind remembrance," repeated the child glibly. "And she said if you got leave to walk out, and I went with you, we should go to look for the mayflowers just below the
 <pb n="169 A MILLSTONE FOR SIR CHRISTOPHER."/>
@@ -1467,14 +1504,16 @@ of any but those who are enemies of God and the king; still so far as my will go
 <p>"Surely, although the mistress bade me say that she is presently coming to look once more at your wounded hands and arms."</p>
 <p>"Oh, they are all but well. Sound flesh and good blood like mine heal apace." And Sir Christopher, with a self-approving smile, held up his well-shaped hands and straightened his comely figure.</p>
 <p>John Alden looked and listened, but made no response, unless a slow smile that began almost imperceptibly, and widened and widened until it showed nearly all his broad white teeth, could be called so. But before it gained its full development he had left the room.</p>
+</div>
 <pb n="171"/>
-CHAPTER XVII.
-"TWO IS COMPANY, THREE IS TRUMPERY!"
+<div id="jabetty017" type="chapter" n="17">
+<head>CHAPTER XVII.<lb/>
+"TWO IS COMPANY, THREE IS TRUMPERY!"</head>
 <p>AND so it fell that about three o'clock that afternoon, as Sir Christopher Gardiner and Betty Alden wandered along the southern foot of Burying Hill, then called Fort Hill, searching under the lee of every rock and clump of bushes for the epig&#x00E6;a, as often to be found by its pure spicy fragrance as by sight of its coy clusters of pink and white blossoms, Prissie Carpenter, a little basket in her hand, came strolling along the brookside, rather ostentatiously bound upon the same errand.</p>
 <p>"Now would I like the skill of a painter fellow I knew in Holland, one Martin Ryckaert, a man I could take by the heel and eat him body and bones as I would a prawn; but give him his charcoal and his paints and his canvas, and he'd picture out this scene for you as if you saw it."</p>
 <p>So spake Sir Christopher, who, old swashbuckler though he was, possessed a real love of nature and a real appreciation of beauty in whatever form it revealed itself, as he stood upright with folded arms and looked about him, while Betty, her little fingers grimed with soil and scratched with briers, delved amid the thickset ground pine to find the flowers hiding there.</p>
 <p>It was one of those early April days which redeem the character of the froward month, and make one almost love its capricious yet prophetic gleams better
-<pb n="172     <hi rend="italic">BETTY ALDEN."/>
+<pb n="172 BETTY ALDEN."/>
 than the assured joys of June. A high wind from the west drove before it great white cumuli, glittering like silver in the strong sunlight, and careering across the sky and dropping down behind Manomet as if in an illimitable game of hide-and-seek and catch-who-catch-can. The waves, uneasy at beholding liberty they might not have, and games they might not join, leaped as high as they could toward that azure playground, laughed back to the sun who laughed with them, or, breaking hoarsely upon the shore, sent up their voices of sturdy discontent. The trees, moved by such gigantic melody to bear their part in the grand antiphony, clashed their bare branches in a rhythm too vast for the human ear to comprehend, while the evergreens murmured and sobbed and whispered together, lamenting that they had not even dried leaves to send whirling down that wondrous dance. The brook, its icy winter shroud still clinging to the banks, rose up to assert that life defies the shroud, and that there is a power of spring which shall vanquish death again and again forever; and as the brown waters went tumbling and leaping down toward the ocean which the icy shroud can never compass, their sweet voices joined in the universal song like children in the choir. On sheltered slopes and sunny hillsides the grass was springing green, and though no flowers disputed the epig&#x00E6;a's precedence, the violets and anemones, the snowdrops and the Solomon's seal, stood with finger on lip and foot on the threshold, waiting for courage to cross it.</p>
 <p>Coming up the brookside in her blue skirt and mantle, a white handkerchief tied over her hair, which in spite of it escaped in a hundred little dancing tendrils, Prissie seemed a part of the great sweeping harmony of sky
 <pb n="173 TWO IS COMPANY, THREE IS TRUMPERY."/>
@@ -1563,9 +1602,11 @@ land, John; she told me so, and showed me a token he gave her. Mayhap he 's come
 <p>"Oh, a body must have charity, and many a mare's nest is naught but a tangle in the hedge. We'll see."</p>
 <p>"Ay, but we'll not have our Betty mixed in with any such matter, Priscilla, and I pray thee keep her away from this man while he is in our house. Do not send her to the fore-room again; one of the boys can carry in the sarver, or I will do't myself, but Betty is not to go in thither again."</p>
 <p>"As thou sayest, John," replied Priscilla with a meekness reserved for the rare occasions when her husband chose to assert his authority; so thus it came about that not again during the week he remained at Plymouth did Sir Christopher Gardiner find speech with the child, who never to her dying day revealed the secret she had promised to keep, and never quite comforted herself for the duplicity into which she had been led.</p>
+</div>
 <pb n="182"/>
-CHAPTER XVIII.
-THE LITTLE BOOK.
+<div id="jabetty018" type="chapter" n="18">
+<head>CHAPTER XVIII.<lb/>
+THE LITTLE BOOK.</head>
 <p>AN uneasy and difficult week passed over Plymouth, its shadow resting especially upon John Alden's house, when one fine sunshining morning Jo, the second boy, rushed into the house, with the news,--</p>
 <p>"Mother, there's a big boat down from the Bay, and a captain in it, bigger than our captain, and the governor's son, and a mort more of men come to get the man in our fore-room."</p>
 <p>"And where's thy father, Jo?"</p>
@@ -1608,11 +1649,11 @@ home by John Alden that the Boston boat would return directly after noon-meat, a
 <p>"'Have no fear,' says he, 'it shall do him no harm;' and t'other returns, 'We did but our duty, and yet would be right loath to hurt the man.' Now what make you of that, man?"</p>
 <p>"Read the governor's letter and you'll know more than I do," replied Sir Christopher gloomily.</p>
 <p>"Read it! Nay, that's not my business. But 't is a hugeous letter."
-And from the pocket of his doublet Underhill drew forth a little packet carefully sealed and superscribed,--</p>
-*layout
-<hi rend="italic">To</hi>
-MASTER JOHN WINTHROP,
-<hi rend="italic">Honourable Governor of the Massachusetts Bay Colony these:</hi>
+And from the pocket of his doublet Underhill drew forth a little packet carefully sealed and superscribed,--
+<q><text><body>
+<salute><hi rend="italic">To</hi><lb/>
+MASTER JOHN WINTHROP,<lb/>
+<hi rend="italic">Honourable Governor of the Massachusetts Bay Colony these:</hi></salute><p/></body></text></q></p>
 <p>As he turned the package over and over in his hands,
 <pb n="187 THE LITTLE BOOK."/>
 the knight, who at first had glanced at it in moody indifference, roused to intense attention, and finally, while a streak of dusky red animated his sallow cheek, extended his hand, saying as carelessly as he could,--</p>
@@ -1622,16 +1663,20 @@ the knight, who at first had glanced at it in moody indifference, roused to inte
 <p>"Nay, but I'm sick--make way, man, make way"--and throwing himself across Underhill, as if to reach the side of the boat, Sir Christopher, what with his long arms flying all abroad, and what with the great cloak that swept across Underhill's face and breast, came very near knocking the packet out of his hand and sweeping it overboard.</p>
 <p>"Have a care, man! Have a care!" cried the captain angrily. "Though you're squalmish all of a sudden, you need n't fling yourself nor me overboard." And thrusting the inclosure containing Sir Christopher's notebook and the kind and gentle letter accompanying it deep into his pocket, the future slayer of "Pequods" recovered his equilibrium and made room for Sir Christopher, who, leaning his head upon the gunwale of the boat, effectually hid his face from view, and made no reply to further efforts at conversation.</p>
 <p>A week or so later another Boston boat came down
-<pb n="188 BETTY ALDEN."/>
-to Plymouth, and brought John Alden's cloak and a letter to Bradford from Governor Winthrop. It tells its own story in its own quaint phraseology:--</p>
-*layout and unusual letters (R superscript with a dot below it, T and E superscript)
-<p>SR: It hath pleased God to bring Sr. Christopher Gardener safe to us with thos that came with him. And howsoever I never intended any hard measure to him, but to respecte and use him according to his qualitie, yet I let him know your care of him, and yt he shall speed ye better for your mediation. It was a spetiall providence of God to bring those notes of his to our hands; I desire yt you will please to speake to all yt are privie to them not to discover them to any one for yt may frustrate ye means of any farder use to be made of them. The good Lord our God who hath allways ordered things for ye good of his poore churches here directe us in this arighte, and dispose it to a good issue. I am sorie we put you to so much trouble about this gentleman, espetialy at this time of greate imploymente, but I know not how to avoyed it. I must again intreate you to let me know what charge & troble any of your people have been at aboute him, yt it may be recompenced. So with the trew affection of a frind desiring all happines to your selfe & yours, and to all my worthy friends with you (whome I love in ye Lord) I comende you to his grace & good providence & rest</p>
-your most assured friend
-JOHN WINTHROP (*footnote: 1 True copy.)
-BOSTON <hi rend="italic">May</hi> 5, 1631
+<pb entity="jabetty188" pages="188" n="188 BETTY ALDEN."/>
+to Plymouth, and brought John Alden's cloak and a letter to Bradford from Governor Winthrop. It tells its own story in its own quaint phraseology:--
+<q><text><body>
+<salute>SR: </salute><p>It hath pleased God to bring Sr. Christopher Gardener safe to us with thos that came with him. And howsoever I never intended any hard measure to him, but to respecte and use him according to his qualitie, yet I let him know your care of him, and yt he shall speed ye better for your mediation. It was a spetiall providence of God to bring those notes of his to our hands; I desire yt you will please to speake to all yt are privie to them not to discover them to any one for yt may frustrate ye means of any farder use to be made of them. The good Lord our God who hath allways ordered things for ye good of his poore churches here directe us in this arighte, and dispose it to a good issue. I am sorie we put you to so much trouble about this gentleman, espetialy at this time of greate imploymente, but I know not how to avoyed it. I must again intreate you to let me know what charge &#x0026; troble any of your people have been at aboute him, yt it may be recompenced. So with the trew affection of a frind desiring all happines to your selfe &#x0026; yours, and to all my worthy friends with you (whome I love in ye Lord) I comende you to his grace &#x0026; good providence &#x0026; rest</p>
+<salute>your most assured friend</salute>
+<signed>JOHN WINTHROP<seg><ref target="jabetty018n1">1</ref><note id="jabetty018n1"
+resp="auth" place="foot">True copy.</note></seg></signed>
+<dateline>BOSTON <date><hi rend="italic">May</hi> 5, 1631</date></dateline>
+</body>
+</text></q></p></div>
 <pb n="189"/>
-CHAPTER XIX.
-A MUCH-MARRIED MAN.
+<div id="jabetty019" type="chapter" n="19">
+<head>CHAPTER XIX.<lb/>
+A MUCH-MARRIED MAN.</head>
 <p>THE spring had ripened into midsummer, and under the sad and foreboding eyes of Governor Bradford a most ominous hegira of some of his dearest friends and Plymouth's most valued townsmen had taken place, nominally for the summer only, but as Bradford too plainly foresaw not to end with the summer.</p>
 <p>Standish's house upon the foot of his own hill was complete, and not far away Jonathan Brewster, the Elder's oldest son, had put up a summer cottage and established his wife and children. This might have passed, but when the Elder himself, with his two sons Love and Wrestling, also built a cottage close beside Jonathan's upon a pretty inlet called Eagle's Creek, the governor's heart sank within him, and, calling a Court of the People, he proposed a legal enactment to the effect that those colonists who should build houses outside the town limits for the convenience of grazing or farming should return to the town at the beginning of winter, and abide there until spring; also, that they should week by week come into town to attend divine service on the Lord's Day.</p>
 <p>To this all consented, even Winslow, who, in spite of his frequent and protracted absences in England, had found time to view the land beyond Duxbury, and to appropriate a lovely and fertile tract at Green Harbor
@@ -1641,7 +1686,7 @@ in what is now Marshfield. Building a temporary cottage here, he named the estat
 <p>All these things and more had William Bradford been rehearsing to his friend Captain William Pierce of the Lyon, who had looked into Plymouth to leave some passengers and merchandise before proceeding upon his voyage to England, until the sailor, sorry for the depression and foreboding Bradford did not disguise from him, cast about for some pleasanter topic, and finally cried,--</p>
 <p>"Oh, let me tell you, Governor, of the hornets' nest I found myself caught in, awhile ago in Lun'on; and by the way, Master Isaac Allerton was in it as well. Did n't he tell you here of the two wives of Sir Christopher Gardiner?"</p>
 <p>"Nay, we have had but little pleasant converse with
-<pb n="191     <hi rend="italic">A MUCH-MARRIED MAN."/>
+<pb n="191 A MUCH-MARRIED MAN."/>
 Master Allerton for a long time past," replied Bradford heavily, and Pierce hastened to proceed:--</p>
 <p>"I know, I know, it would seem as if Allerton with all his pious texts had never learned that the man who faileth to care for his own is worse than a beast; for he cozened his own old father as much as he did you. But this is another matter. It was in February that I was stopping at the Three Anchors down by Wapping Old Stairs, and Allerton came in and said he had a message from a woman calling herself Lady Gardiner, who fain would have speech with him because he came out of New England; but he, prudent man, would go to see no fair ladies unknown to himself without a reputable witness to his honest intent, and so he was come for me. Be sure, Bradford, I did not let the chance slip to pass some merry jests upon our sour-visaged friend, and brought the blood to his tallow cheeks as it has not been seen for many a day; but in the end I gave my word to go and protect him as best I might from any designing Lindabrides who might assail him. So at once we went to the address written on the billet that was sent him, smelling of musk and ambergris and civet, worse than the hold of the Lyon after a ten weeks' voyage. Coming to the house in the Strand, we found in a very fair lodging not one but two fair dames; and the merry jest of it is that both the one and the other are honest women, and married by ring, book, and bell to this same gay knight whom Winthrop found living so meekly in the woods of Neponset River with his cousin Mary Grove."</p>
 <p>"Nay, Pierce, but this passes a jest!" exclaimed Bradford, much disturbed as he recalled his little sister's pale face, and his wife's anxieties on her account. But
@@ -1668,9 +1713,11 @@ been waiting there until the magistrates should settle within their own minds wh
 <p>"I think Master Thomas Purchase a singularly charitable man," replied Bradford with a dry smile. "But let us hope that Mary Grove convinced him that she was more sinned against than sinning, and had not done the wrong this villain's second wife imputed to her."</p>
 <p>"Ay, ay, doubtless you as a church-member are bound to find some such way out of the thing; but to the mind of a plain old sea-dog like Bill Pierce 't is a marvelous merry tale, with no moral tacked to the end on't."</p>
 <p>And possibly this conversation had something to do with the fact that when Thanksgiving Day came round, Priscilla Carpenter became the wife of William Wright.</p>
+</div>
 <pb n="196"/>
-CHAPTER XX.
-BETTY'S JOURNEY AND THE GARRETT WRECK.
+<div id="jabetty020" type="chapter" n="20">
+<head>CHAPTER XX.<lb/>
+BETTY'S JOURNEY AND THE GARRETT WRECK.</head>
 <p>"BETTY, child, thou 'rt not well. Thy little face is so peaked and pined I hardly know my winsome lassie. What is 't, maiden?"</p>
 <p>"Oh, father, I don't know"--</p>
 <p>"Nay, don't cry, my poppet! Come here and tell daddy all the trouble."</p>
@@ -1742,9 +1789,11 @@ saplings, pointed them, and built a hut over the prostrate bodies of the suffere
 <pb n="207 THE GARRETT SHIPWRECK."/>
 innocent young creatures, the one so active and helpful, the other so languid and so sorrowful, and yet both of them the happier and the better for their companionship.</p>
 <p>When the spring had come, Harwood, with a good crew of Plymouth men to help him, attempted to sail Garrett's boat up to Boston, but caught in a wild spring storm was nearly wrecked again; and with some strange gloomy idea of having suffered from his association with Garrett he sued his estate for damages, and actually recovered twenty nobles, or about thirty-three dollars, which was duly paid to him out of the pittance left to Christian, who, although she went back to Boston and the care of an aunt, never ceased to be one of Betty's dearest and most intimate friends.</p>
+</div>
 <pb n="208"/>
-CHAPTER XXI. 
-"AH, BROTHER OLDHAME, IS IT THOU!"
+<div id="jabetty021" type="chapter" n="21">
+<head>CHAPTER XXI.<lb/>
+"AH, BROTHER OLDHAME, IS IT THOU!"</head>
 <p>IT was a day in June, one of those lovely, nay, perfect days when heaven appears at once nearer and farther off than ever before: nearer, for we seem already to taste its delights; farther off, because earth has suddenly become so satisfying that we ask for nothing better.</p>
 <p>A little southwest breeze loitered over Burying Hill, stirring the long grasses, wooing sweet kisses and incense from the balm o' Gilead trees. and finally floated down The Hill, past the closed and deserted homes of Standish and Alden to the governor's house, grown wide and stately in these days, boasting two parlors besides the great common room, and furthermore a recent extension toward The Hill consisting of one wide low room with an outside door and a loft overhead. This was the governor's study or office, where he kept his books and papers and transacted the colony's business. More than this, in the large closet and in the loft overhead were stored the colony's goods, both the peltrie for export, and the shoes, textile fabrics, and other matters which were brought back from England in exchange; and as every man or woman who had obtained a beaver, or mink, or otter skin brought it to the governor and asked him to send to England for a pair of shoes, a new doublet or kirtle, pewter platter, or horn comb, the
 <pb n="209 AH, BROTHER OLDHAME, IS IT THOU!"/>
@@ -1827,9 +1876,11 @@ and follies, and that last speech of yours savors of woman's jealousy and spite.
 mer sun and winter snow, and sheltering year by year the wrens who had an hereditary nest in its hollow.</p>
 <p>"And you'll come home with me, Will?" said the captain wistfully, as, a little later, they descended the hill.</p>
 <p>"No, Myles, no; I 'm not an Abraham. I can give my Isaac with submission and faith, but I cannot offer him up, nor feast upon the sacrifice."</p>
+</div>
 <pb n="223"/>
-CHAPTER XXII.
-THE MOONLIGHT AND THE DAWN.
+<div id="jabetty022" type="chapter" n="22">
+<head>CHAPTER XXII.<lb/>
+THE MOONLIGHT AND THE DAWN.</head>
 <p>A CLUMSY boat, very different from the trim racing craft that to-day skim the waters of Plymouth Bay weltered slowly toward the rude pier just below the new home of Myles Standish.</p>
 <p>The passengers were also very different from those of to-day, and perhaps a parallel might be drawn in both cases between passengers and boat, but as it would not be in our own favor I will not pursue it, merely mentioning that the solidly built, honest, safe, capacious, and unpretending boat first mentioned contained Elder Brewster, Captain Standish, Edward Winslow, John Alden, Thomas Prence, William Collier, and two or three more of the "Immortals" from whom we are so glad to claim descent, and so sorry to confess that it has been such a tremendous descent.</p>
 <p>Upon the bluff where stood the captain's house, and scattered down the path to the shore, a path graded with military skill and precision, a merry crowd of men, women, and children stood waving hats and handkerchiefs and shouting words of welcome, whereat Standish smiled and Winslow remarked,--</p>
@@ -1893,9 +1944,11 @@ as children going out from their father's house to begin a home of their very ow
 <pb n="232 BETTY ALDEN."/>
 matronly women whose eyes ran over with the memories the elder had invoked; up rose the young men, rejoicing in their strength, yet reverent of their sires, and of the story they had learned in childhood and would not forget in age; the lads, the maidens, the little children, all rose, and stood with bowed heads and hushed breath to listen to the tremulous voice of that aged servant of God as, forgetting all save Him to whom he spoke, he poured forth one of those fervent and trustful appeals whose eloquent power are matter of history. And as he raised his hands in benediction, calling down a special blessing upon the new town and each and every one of its homes, a plume of smoke rose from Burying Hill far to the south, and the sunset gun boomed out its solemn detonation.</p>
 <p>"Plymouth says Amen!" whispered Priscilla Alden in Betty's ear; and the girl silently pointed to Lora Standish, upon whose head the last sunbeam had laid a finger, lighting the pale gold of her hair to the nimbus of a saint. Priscilla looked, and suddenly clasped her own child close to her side; but neither spoke.</p>
+</div>
 <pb n="233"/>
-CHAPTER XXIII.
-"LOREA STANDISH IS MY NAME."
+<div id="jabetty023" type="chapter" n="23">
+<head>CHAPTER XXIII.<lb/>
+"LOREA STANDISH IS MY NAME."</head>
 <p>"LORA! Aunt Bab! What do you think? Bessie Partridge has a sweetheart, and he's going to be a minister, and his father is one of the old sort that we're bound to hate; but the parson don't care and has given his consent, and they're to be married out of hand. There, now!"</p>
 <p>"But, Betty, dear child, do catch your breath and sit down and put back your hair all blown over your face"--</p>
 <p>"I know, Aunt Bab, I know; but I just put Jo's saddle on the colt and cantered him over here at his best speed, and of course my hair is blown about. Lora, I could shake you, you provoking girl, with your hair like new carded flax, and your fresh kirtle and wimple, and your stitchery in your hand"--</p>
@@ -1905,12 +1958,12 @@ CHAPTER XXIII.
 <p>"Wait but till I cut off my silk at the end of 'name,'" said Lora, busily fastening her thread at the back of the canvas. "There, now I've the needle safe! You know you lost one for me last time you were here, and mother and I hunted an hour for it."</p>
 <p>"I know," replied Betty penitently, "and if you had not found it mother was going to send John and Jo over to the governor to see if he had some in store."</p>
 <p>"He had some direct from Whitechapel by the Lyon," remarked Barbara, "but the price is advanced to fivepence each, and we must be careful."</p>
-<p>"You see I have still the fourishing at the end to do," said Lora, handing Betty the frame in which a long and narrow piece of linen was tightly stretched and nearly covered with parallel lines of embroidery done in various colored silks. Near the lower end came a verse, or at least some rhymes running thus:--</p>
-"Lorea Standish is my name.
-Lord, guide my heart that I may do Thy will;
-Also fill my hands with such convenient skill
-As will conduce to virtue void of shame,
-And I will give the glory to Thy name."
+<p>"You see I have still the fourishing at the end to do," said Lora, handing Betty the frame in which a long and narrow piece of linen was tightly stretched and nearly covered with parallel lines of embroidery done in various colored silks. Near the lower end came a verse, or at least some rhymes running thus:--
+<q><lg><l>"Lorea Standish is my name.</l>
+<l>Lord, guide my heart that I may do Thy will;</l>
+<l>Also fill my hands with such convenient skill</l>
+<l>As will conduce to virtue void of shame,</l>
+<l>And I will give the glory to Thy name."</l></lg></q></p>
 <p>The letters forming these words were characterized by a noble independence and freedom from any slavish adherence to custom, some of them being capitals and some small, some little and some big, and the <hi rend="italic">D's</hi> turning their backs or their faces to their comrades as a vagrant fancy dictated. Such as it was, however, this sampler was in Betty Alden's eyes a work of art commanding her respectful admiration, mingled with a warmer feeling rising from her very sincere love for the artist.</p>
 <p>"Oh, Lora!" cried she, throwing an arm around the
 <pb n="235 LOREA STANDISH IS MY NAME."/>
@@ -1948,9 +2001,11 @@ much the same expression of strong endurance and unforgotten experiences,--a man
 <p>"Doubtless 't was for love of that poor old soldier that you have come hither, Master Thomas," said the captain merrily, and under cover of the little jest the awkwardness of the meeting was overpast, and a blithe half hour ensued. At last, while the shadows lengthened, and the clouds took on their evening glory, and the sweet breath of evening primroses and lowing kine filled the sunset hour, Myles and Lora strolled home along the footpath, hand in hand, while Betty Alden, light as a deer, ran along in front of them, impatient to reach home before her mother needed her.</p>
 <p>Arrived at the house, father and daughter paused to look across the bay at Plymouth peacefully sleeping in the westering light, with Manomet purple against the golden sky, and the wide stretch of water smooth as a mirror, save where it fawned against the point of the beach and the foot of the bluff where they stood.</p>
 <p>"A fair scene, a goodly scene, daughter." said the captain; "but not your home for very long."</p>
+</div>
 <pb n="240"/>
-CHAPTER XXIV.
-AVERY'S FALL AND THACHER'S WOE.
+<div id="jabetty024" type="chapter" n="24">
+<head>CHAPTER XXIV.<lb/>
+AVERY'S FALL AND THACHER'S WOE.</head>
 <p>Two hundred and fifty years ago, even as to-day, the betrothal of a young couple was cause of rejoicing and festivity among their friends, and three days after Lora and Betty had made what we may call their engagement call upon Bessie Partridge, the minister's family with its guests, and Elder Brewster and the Aldens, were invited to supper at the captain's. Not to afternoon tea, mind you; nay, not even to that old-fashioned tea-time still popular in the rural districts, where the guests sit down to a table loaded with hot bread and toast and all manner of sweets, with the choice of tea or coffee to wash down the heavy meal.</p>
 <p>But Barbara Standish had never even heard the names of tea or coffee, and honestly called the last meal of the day "supper," setting it at about seven o'clock, when the labors of the day were over and all men at leisure for social enjoyment. At that hour, therefore, the guests sat down to a feast which I dare not describe because I have already described so many. but content myself with saying that it in no wise discredited Mistress Standish's housewifery, and that when Dame Partridge asked for the "resait" of the frosted cake, the hostess proudly replied that Lora had so improved upon the old formula that it was left in her hands altogether, and Lora modestly added that she should be more than glad
 <pb n="241 AVERY'S FALL AND THACHER'S WOE."/>
@@ -2012,38 +2067,40 @@ yielded up my spirit to Him who gave it; but it was not yet purified enough to g
 <pb n="249 AVERY'S FALL AND THACHER'S WOE."/>
 well, and something more than well, in the time I was in England after the peace of 1609, and in certain of his plays there's many a quip and quirk shot at me and my poor achievements. Didst ever see a play called 'Henry the Fourth'?"</p>
 <p>"Nay, Captain, I was never in a playhouse in my life."</p>
-<p>"More 's your loss, friend. Well, in that play there's a bit runs like this, or something so:--</p>
---'I remember, when the fight was done,
-When I was dry with rage, and desprit toil,
-Breathless and faint, leaning upon my sword,
-Came there a certain lord, neat, trimly dressed,
-Fresh as a bridegroom'--
+<p>"More 's your loss, friend. Well, in that play there's a bit runs like this, or something so:--
+<q><lg><l>--'I remember, when the fight was done,</l>
+<l>When I was dry with rage, and desprit toil,</l>
+<l>Breathless and faint, leaning upon my sword,</l>
+<l>Came there a certain lord, neat, trimly dressed,</l>
+<l>Fresh as a bridegroom'--</l></lg></q>
 Well, I 'll not give you the whole, if I remember it, and 't is years since I thought on 't, but a little later it goes forward:--
-'I then, all smarting, with my wounds being cold,
-To be so pestered with a popinjay,
-Out of my grief and my impatience,
-Answered full carelessly, I know not what;
-He should or he should not; for 't made me mad
-To see him shine so brisk, and smell so sweet,
-And talk so like a waiting gentlewoman
-Of guns, and drums, and wounds, (God save the mark!)
-And telling me the sovereign'st thing on earth
-Was parmaceti for an inward bruise;
-And that it was great pity, so it was,
-That villainous saltpetre should be digged
-Out of the bowels of the harmless earth,
-Which many a good tall fellow had destroyed
-So cowardly; and but for these vile guns,
-He would himself have been a soldier.'
+<q><lg><l>'I then, all smarting, with my wounds being cold,</l>
+<l>To be so pestered with a popinjay,</l>
+<l>Out of my grief and my impatience,</l>
+<l>Answered full carelessly, I know not what;</l>
+<l>He should or he should not; for 't made me mad</l>
+<l>To see him shine so brisk, and smell so sweet,</l>
+<l>And talk so like a waiting gentlewoman</l>
+<l>Of guns, and drums, and wounds, (God save the mark!)</l>
+<l>And telling me the sovereign'st thing on earth</l>
+<l>Was parmaceti for an inward bruise;</l>
+<l>And that it was great pity, so it was,</l>
+<l>That villainous saltpetre should be digged</l>
+<l>Out of the bowels of the harmless earth,</l>
+<l>Which many a good tall fellow had destroyed</l>
+<l>So cowardly; and but for these vile guns,</l>
+<l>He would himself have been a soldier.'</l></lg></q>
 Oh, well, well, but I must laugh, and laugh again as I mind me of the day when Will Shakespeare first
 <pb n="250 BETTY ALDEN."/>
 mouthed those lines at me, and I stood staring like a stuck pig to hear mine own words so bedded in his poesy, like flies in amber in very sooth, for 't was a story I had told him of a matter that happened to myself in the Low Countries"--</p>
 <p>"Alas, my son," interposed the Elder, raising his hand, "such memories suit but ill with the lives of 'pilgrims and strangers' like ourselves."</p>
 <p>"And for that very reason, Elder," replied Standish a little hotly, "when you and Master Partridge and the rest besiege me to become a church-member, I will listen to naught of it. The old leaven is still a-working by fits and starts, and I 'll do no such despite to the saints as to count myself into their company. 'Nay, nay, mine ancient,' says Will to me one time when we stood side by side in Paul's Walk, and saw a grand procession pass us by, ''t is better to watch the lightning than to handle it.'"</p>
 <p>With a mischievous glance at the Rev. Ralph Partridge, Standish resumed his pipe, and the parson wisely remained silent.</p>
+</div>
 <pb n="251"/>
-CHAPTER XXV.
-JEPHTHAH'S DAUGHTER.
+<div id="jabetty025" type="chapter" n="25">
+<head>CHAPTER XXV.<lb/>
+JEPHTHAH'S DAUGHTER.</head>
 <p>ST. MARTIN'S summer was in the land; that lovely parting smile of the year, so full of love, so full of reminiscence and of promise, so full of pathos and of that vague yearning that lies at the core of every heart, and which I fancy Bossuet means when he speaks of "the inexorable weariness which lurks at the foundations of all our lives."</p>
 <p>The door of Standish's cottage stood wide, and between it and the lattice opening upon the sea, letting in the sweet breath of marigolds and thyme basking in the southern sun, Barbara stepped lightly back and forth, spinning from her great wheel the fine yarn that would be woven or knit into the winter garments of the household.</p>
 <p>A shadow across the floor made her turn, quick yet fearless as a bird building in a tree above a house whose inmates never have threatened it.</p>
@@ -2161,9 +2218,11 @@ the unfathomable eyes. But as he gazed she turned, and throwing an arm around hi
 <p>"One word, Lora. You mean that your love is given to God alone?"</p>
 <p>"To Him who loved me and gave Himself for me--to Him who is chief among ten thousand and altogether lovely--to the King in his beauty in the land that is very far off."</p>
 <p>"My child, my child!" groaned the father, drawing the girl's form close to his thickly beating heart and pressing his lips upon her brow, while Jephthah's agony turned him sick and white, and his eyes rose with an almost angry protest to the skies.</p>
+</div>
 <pb n="265"/>
-CHAPTER XXVI.
-GILLIAN.
+<div id="jabetty026" type="chapter" n="26">
+<head>CHAPTER XXVI.<lb/>
+GILLIAN.</head>
 <p>THE apple-bee at Jonathan Brewster's house by the Eagle's Tree, where The Nook merges into Harden Hill, was in full tide, and one could hear the merry voices of men and maidens, and the cheerful shrilling of matrons talking above the din, before one reached the house. Beneath a clump of trees surrounding the great cedar known as the Eagle's Tree a number of horses were tied with comfortable measures of corn and trusses of hay before them, and in the little cove lay half a dozen or so boats uneasily tumbling upon the incoming tide. These conveyances had brought the remoter dwellers in the new town of Duxbury and its neighborhood: the Aldens from Eagle Tree Pond, the De la Noyes from Stony Brook, the Soules from Powder Point, the Constant Southworths from North River, the Howlands from Island Creek, the Bassetts from Beaver Pond, and the Abraham Samsons from Bluefish River where they lived neighbors to the Aldens and intermarried with them.</p>
 <p>Of The Nook people who came on foot, the Standishes, and Brewsters, and Pabodies, and Prences, and Colliers, and Doctor Comfort Starr, the new physician, with his family, and the Partridges, and Wadsworths, and others, had mustered strong and in every variety of condition, age, and sex; for our ancestors, having far
 <pb n="266 BETTY ALDEN."/>
@@ -2230,9 +2289,11 @@ don't want to go away and leave Jonathan and the boys with nobody to do for them
 <pb n="274 BETTY ALDEN."/>
 <p>"Will you? Now that's comfortable of you, Sally, right comfortable and friendly," replied Lucretia, rising to attend her summons, but with a face so relieved from care and worry that Jonathan, meeting her, whispered softly,--</p>
 <p>"I 'd liever look at thee than any of the young lasses, sweetheart."</p>
+</div>
 <pb n="275"/>
-CHAPTER XXVII.
-DONNA MARIA DE LOS DOLORlS
+<div id="jabetty027" type="chapter" n="27">
+<head>CHAPTER XXVII.<lb/>
+DONNA MARIA DE LOS DOLORES</head>
 <p>THE weeks and the months gliding along with their exasperating illustration of the <hi rend="italic">festina lente</hi> principle brought a morning of early spring, chill but bright, with a merry sun contending in the sky against some unseen adversary who continually pelted him with great white snowballs of cloud, which be either evaded or melted with the fervor of his breath. In the farmhouse built by the Elder for himself and Love, but not passing into the possession of Love and Love's wife, a great fire of cedar logs burned fragrantly upon the hearth of the sitting-room, and flashed its light upon the silver tankard and cup burnished to their utmost brightness, and modestly boasting themselves upon the little mahogany elbow-table in the nook beside the fire, conveniently at hand to the leathern easy-chair, so inharmonious with our ideas of ease, which with a footstool in front was the Elder's seat of an evening, or in the brief repose he in these latter days allowed himself after dinner, or when in the short and stormy winter days he could do nothing but sit beside the fire and delight his soul with study.</p>
 <p>In this blithe March morning, however, the old man was out with his son and the oxen breaking up fallow ground, and chanting half aloud brave verses of Holy Writ as he guided the team while Love's mighty arms held down the ploughshare.</p>
 <pb n="276 BETTY ALDEN."/>
@@ -2255,7 +2316,7 @@ thunder-shower to roll down the leathern back and under the comfortless cushion?
 <p>"Oh, well,--oh, well!" muttered Gillian after a moment. "'T is well you're angel-like, since so soon you'll see them."</p>
 <p>"What say you, Gillian? 'T is well I'm what, said you?"</p>
 <p>"Nay, sit you down, maiden,--sit you here in the
-<pb n="278 BETTY ALDEN."/>
+<pb n="278 BETTY ALDEN."  entity="jabetty278" pages="278"/>
 Elder's chair and put your feet to the fire, upon his footstool. There, now, be biddable and meek, as fits your face."</p>
 <p>"Why, Jill, 'twas but yesterday that you almost smote Betty Alden to the ground because she would have sat in that chair; and after all, 't is not half so comfortable as mother's splint chair."</p>
 <p>"Oh, ay," replied Gillian, as she turned toward the bookcase and began brushing the books with a wild turkey's wing, "that's different,--that's different. I wouldn't have let you sit there but for what I saw a minute gone by."</p>
@@ -2269,7 +2330,7 @@ Elder's chair and put your feet to the fire, upon his footstool. There, now, be 
 <p>Memorable Conceits.</p>
 <p>Jacob's Ladder.</p>
 <p>The Review of Rome.</p>
-<p>Troubles of ye Church of Amsterdam.</p> *"ye" needs the e raised to superscript
+<p>Troubles of ye Church of Amsterdam.</p>
 <pb n="279 DONNA MARIA DE LOS DOLORES."/>
 <p>A Garland of Vertuous Dames.</p>
 <p>Romances of Brittannia.</p>
@@ -2318,9 +2379,11 @@ fading into the white, and their pure profiles downcast as they listened; and th
 <p>"Your life, maiden! Nay, you have faith in God?"</p>
 <p>"Why surely, Gillian! Who has not?" And Lora's clear gray eyes rested in a sort of alarm upon the sombre face of the girl at her feet, who only shook her head, murmuring,--</p>
 <p>"And God will care for his own."</p>
+</div>
 <pb n="286"/>
-CHAPTER XXVIII.
-A SALT-FISH DINNER.
+<div id="jabetty028" type="chapter" n="28">
+<head>CHAPTER XXVIII.<lb/>
+A SALT-FISH DINNER.</head>
 <p>"NAY, Betty, flout me not! 'T is an honest word I 've said to you, and I look to have it answered honestly."</p>
 <p>"I know not what you call honest, Master Alexander Standish"--</p>
 <p>"There, now! You can't even speak without a gibe at my high-sounding name. I count it right down unkind, Betty"--</p>
@@ -2376,10 +2439,10 @@ new interest at the great ball of butter in the middle of the pewter platter, wh
 <p>"There, there, go say your pretty things to the girls, Sally or Betty, it matters not which. but don't whet your wit on an old woman like me. Be off with you!"</p>
 <p>Laughing and well pleased that fortune so favored his half-formed wishes, Alick followed Sally through the sitting-room to the front door, standing wide open to the summer; and then, sitting on the threshold, their feet upon the great natural doorstone which their children's and their children's children's feet should press, the man and the maid entered into that fairyland we all pass through once in our lives.</p>
 <pb n="291 A SALT-FISH DINNER."/>
-"And some give thanks, and some blaspheme.
-And most forget, but either way,
-That and the child's forgotten dream
-Are all the light of all our day."
+<q><lg><l>"And some give thanks, and some blaspheme.</l>
+<l>And most forget, but either way,</l>
+<l>That and the child's forgotten dream</l>
+<l>Are all the light of all our day."</l></lg></q>
 <p>"Alick! Sally! Come to dinner!" cried Betty's blithe voice; but as the young man arose and turned his glowing face toward her, she stared at it for a moment in astonishment, and then turned sharply away to hide the smile that would in her own despite curl her lips.</p>
 <p>"They're stronger than we women in some ways, but they're wondrously weak in others," was the thought beneath that smile.</p>
 <p>In the great airy kitchen, where no fire was made in the warm weather, a table was spread large enough to accommodate, besides the heads of the family, their eight children, and the two men and a woman who lived in the house really as "help," and not servants.</p>
@@ -2410,9 +2473,11 @@ that George Soule had set up as dry-salter for the town, Alick?"</p>
 <p>"And Wrastle has gone with him?" asked Alick in a low voice of Joseph, who nodded assent, adding presently, as his father lapsed into silence,--</p>
 <p>"He 'll be writer and keep the papers,--a secretary, Master Winslow called it; and Ras said there was no knowing when he might come back."</p>
 <p>"Now here 's the pie, and the cheese, and the cream, and some fresh nutcakes, and some metheglin; so cease your lament, John, and be merry while you may!" cried Priscilla, cutting the pie, which was baked in a great iron basin, and was more of a pudding than a pie, as it needed to be, since fourteen hungry mouths were to feed upon it.</p>
+</div>
 <pb n="295"/>
-CHAPTER XXIX.
-TOO LATE! TOO LATE!
+<div id="jabetty029" type="chapter" n="29">
+<head>CHAPTER XXIX.<lb/>
+TOO LATE! TOO LATE!</head>
 <p>THE Thursday evening lecture was over, and Barbara Standish, with her son Josias and some of the neighbors, strayed homeward along the footpath leading from Harden Hill to the Brewster and Standish farms; but Lora lingered with her father, who spoke of English politics with Kenelm Winslow, who had just received a letter from his brother Edward now at the English court.</p>
 <p>"One moment, Captain," said the Elder's grave and friendly voice, as Winslow bade good-night, and Standish turned to look after Lora who had strayed down toward the water. "One moment before you summon the little maid. I have letters from England"--</p>
 <p>"And I too, God save the mark!" growled Standish, who all the evening had worn the face of a thunder-cloud.</p>
@@ -2438,41 +2503,43 @@ TOO LATE! TOO LATE!
 <pb n="297 TOO LATE! TOO LATE!"/>
 prehend, yet following meekly the intuitions that guide faithful souls in such matters, he drew from his breast a folded sheet of the coarse rough paper Spielmann had in England taught the men of Dartford to manufacture at a cost which would terrify Marcus Ward to-day, and slowly unfolding it said,--</p>
 <p>"I will read you my lad's own words. The first page doth but tell of his voyage and his situation in fair lodgings with Edward Winslow, who is as a father to him, and then he goes on:--</p>
-<p>"'There are many fair ladies at the court who kindly notice me as Master Winslow's associate; but, father, you know how it is with my heart, for I fully laid it open to you before I went away, sore hurt by what Captain Standish said to me the day you wot of; nor have I seen the lady of my love since that day, nor shall I, as I think, while we two abide below. And yet, sir, her image is more present to mine eyes than are the faces of these dames, or even your own, though there is naught so dear to me in this world as yourself,--that is to say, if you will bear with my fantasy, there's naught outside of me so dear as my father; but Lora is within, the life of my life and essence of my being, and how should a man say his own being is dear to him, for to what should his own being belong save to itself and the God who gave it? Honored father, I feel that I should crave pardon of your dignity for thus claiming its indulgence of a lover's fond imaginings; but, sir, you know how since my mother's death left me a little lonely child, your tenderness and care have filled both a father's and mother's room in my life, and to-day I speak to you as I might to her had she been alive; and as I dream of laying my head in her lap and feeling her hand upon my
+<q><text><body><div id="jabetty129" type="letter"><p>"'There are many fair ladies at the court who kindly notice me as Master Winslow's associate; but, father, you know how it is with my heart, for I fully laid it open to you before I went away, sore hurt by what Captain Standish said to me the day you wot of; nor have I seen the lady of my love since that day, nor shall I, as I think, while we two abide below. And yet, sir, her image is more present to mine eyes than are the faces of these dames, or even your own, though there is naught so dear to me in this world as yourself,--that is to say, if you will bear with my fantasy, there's naught outside of me so dear as my father; but Lora is within, the life of my life and essence of my being, and how should a man say his own being is dear to him, for to what should his own being belong save to itself and the God who gave it? Honored father, I feel that I should crave pardon of your dignity for thus claiming its indulgence of a lover's fond imaginings; but, sir, you know how since my mother's death left me a little lonely child, your tenderness and care have filled both a father's and mother's room in my life, and to-day I speak to you as I might to her had she been alive; and as I dream of laying my head in her lap and feeling her hand upon my
 <pb n="298 BETTY ALDEN."/>
 hair and her half-remembered voice in mine ears, so now I come to you and say, I love this maid. I love her with all the power of loving God hath given me. I love her as Jacob did Rachel, as Isaac did Rebecca, ay, my father, as you did my mother, and life will never reach its fullness for me except I may mingle it with her pure life. Father, is there no hope? Is there no seven years' or fourteen years' probation that may for me pass as a few days for love of her? Will not you speak once again to the captain for me? I know not how she feels concerning me. When I spoke to her on that fair eve it was like arousing a child from its dreams of heaven; she knew not what I meant, nor how far her own heart could respond to a love whose face and voice as yet were strange to her; but with all her tender innocence she hath a singular aptness of mind, and a delicate discrimination that will ere now have spoken to her heart many a homily drawn from the text I gave her in that sweet hour. I cannot tell, I dare not think, but something within me dares to hope that Lora loves me. Oh, how fair those words look set down on paper, LORA LOVES ME! Nay, father, I have spent a good half hour in staring at those three words as if they were some new gospel of hope. Father! I dare not ask your indulgence, and yet I know I have it, and well do you know when I thus unveil what some men would call my weakness to your eyes, that my reverence never was greater or more profound; but as I writ before, 't is to my mother in you that I dare tell all these the deepest secrets of my heart. And now I will say no more, lest repetition weaken what hath already been said. But you will speak to the captain, will you not? Tell him--nay, you shall, if you see fit and find him in the mood, you shall
 <pb n="299 TOO LATE! TOO LATE!"/>
 show him this letter; for though 't was written for no eyes but my father's and mother's, 't is the truth as I would speak it before God, and if all went as I would have it, Lora's father should be my father too,--not like you, mine own father, but in some sort; and well do I know how dear he loves mine own sweet maid. Mayhap that love in him will answer to this cry of love from me, since both are fixed upon the same dear object. But there! I will stop at this word, for should I go on all night and all to-morrow, my pen could only trace again and again the words it hath so often writ. I love her, I love her, I love her!</p>
-<p>"'On this other slip of paper I have copied out some verses lent me by a lady of the court, Countess of Pembroke she is called, and a right sweet and fair dame she is; but still I must speak of her as Sir Henry Wotton, who wrote the verses, saith to all other ladies as compared with his sovereign lady, the English princess whom he served after she became queen of Bohemia,--</p>
-"What's your praise,
-When Philomel her voice doth raise!"
-<p>"'And so with my humble duty and constant affection, I am, dear sir,</p>
-Your humble and obedient son,
-WRESTLING BREWSTER.
-<p>"'P. S. The copy of verses is meant for Mistress Lora's own hand, if her father makes no objection.</p>
-W. B.'
+<p>"'On this other slip of paper I have copied out some verses lent me by a lady of the court, Countess of Pembroke she is called, and a right sweet and fair dame she is; but still I must speak of her as Sir Henry Wotton, who wrote the verses, saith to all other ladies as compared with his sovereign lady, the English princess whom he served after she became queen of Bohemia,--
+<q><lg><l>"What's your praise,</l>
+<l>When Philomel her voice doth raise!"</l></lg></q></p>
+<salute>"'And so with my humble duty and constant affection, I am, dear sir,<lb/>
+Your humble and obedient son,</salute>
+<signed>WRESTLING BREWSTER.</signed>
+</div>
+<div id="jabetty229" type="postcript"><p>"'P. S. The copy of verses is meant for Mistress Lora's own hand, if her father makes no objection.</p>
+<signed>W. B.'</signed></div>
+</body></text></q>
 <p>"And here are the verses," said the Elder, as the captain took the letter and immediately gave it back, while conflicting emotions strove eloquently upon his face. Then accepting the second paper, and turning his shoulder to the failing light, he read half aloud:--</p>
 <pb n="300 BETTY ALDEN."/>
-"'Ye meaner beauties of the night,
-That poorly satisfy our eyes
-More by your number than your light,
-You common people of the skies,
-What are you when the sun shall rise!
-"'You curious chanters of the wood
-That warble forth Dame Nature's lays,
-Thinking your meaning understood
-By your weak accents, what's your praise
-When Philomel her voice doth raise!
-"'Ye violets that first appear,
-By your pure purple mantles known,
-Like the proud virgins of the year
-As if the spring were all your own,
-What are you when the rose is blown!
-"'So when my mistress shall be seen
-In form and beauty of her mind,
-By virtue first, then choice a queen,
-Tell me, is she not one designed
-The Eclipse and Glory of her kind?'"
+<q><lg><l>"'Ye meaner beauties of the night,</l>
+<l>That poorly satisfy our eyes</l>
+<l>More by your number than your light,</l>
+<l>You common people of the skies,</l>
+<l>What are you when the sun shall rise!</l></lg>
+<lg><l>"'You curious chanters of the wood</l>
+<l>That warble forth Dame Nature's lays,</l>
+<l>Thinking your meaning understood</l>
+<l>By your weak accents, what's your praise</l>
+<l>When Philomel her voice doth raise!</l></lg>
+<lg><l>"'Ye violets that first appear,</l>
+<l>By your pure purple mantles known,</l>
+<l>Like the proud virgins of the year</l>
+<l>As if the spring were all your own,</l>
+<l>What are you when the rose is blown!</l></lg>
+<lg><l>"'So when my mistress shall be seen</l>
+<l>In form and beauty of her mind,</l>
+<l>By virtue first, then choice a queen,</l>
+<l>Tell me, is she not one designed</l>
+<l>The Eclipse and Glory of her kind?'"</l></lg></q>
 <p>Folding the verses, Standish held out his hand for the letter, and placed the one carefully within the other, his deliberate movements betraying the preoccupation of his mind; then raising his gloomy eyes to the Elder's face, he said,--</p>
 <p>"Your son speaks of Rebecca. When Isaac's ambassador asked her from her kinsfolk they made answer, 'We will call the damsel, and inquire at her mouth.' So say I to you, Elder."</p>
 <p>"What! if Lora consent, you will not refuse her to my son?"</p>
@@ -2502,9 +2569,11 @@ the letter, and some pretty poesy, and such honey-sweet words,--take it, darling
 <p>"Nay, dear, you have not opened it." And Myles, pale and trembling, tried to take the letter from between Lora's folded hands. But she, drawing away, held it firmly, and gazing fixedly out to sea murmured,--</p>
 <p>"He loves me so! Dear lad! He loves me so, and thinks of all it may cost him, and yet--brave Ras! brave and noble heart! She clings to him, and he will not push her aside! Oh, poor woman, how she writhes in her agony, and clings and clings; and now he has carried her into the hovel and laid her down, and one says, ''T is the plague, and yon poor gentleman must die for his charity,' and he turns away and whispers, 'Lora!' Yes, darling, yes! I know now that I love you, dear,--wait--nay, he cannot wait, but goes before, and I--will come--yes, dear heart, I will"--</p>
 <p>And before her father could grasp her she slid from his hands, and lay there beneath the birch-tree, the moon shining upon her white robe, and her face as white, and the hands clasping the letter to her breast.</p>
+</div>
 <pb n="304"/>
-CHAPTER XXX.
-PEEPING TOM AND HIS BROTHER.
+<div id="jabetty030" type="chapter" n="30">
+<head>CHAPTER XXX.<lb/>
+PEEPING TOM AND HIS BROTHER.</head>
 <p>DAME ALICE BRADFORD sat alone in her fair bedroom, its latticed windows swinging wide to admit the flower-laden breeze that, young and fresh as when we saw it peeping in at the council of the fathers and the stitching of the little maids, peeped now at the still figure of the matron, sitting for once quite idle, her hands folded listlessly upon her lap. She was thinking, as it chanced, of that very morning, long ago, when the green footstool cover was finished, and her little Mercy and Desire Howland had admired it so much, and each begun one like it; and now Mercy, her one daughter, her little ewe lamb as she called her in thought, was Mistress Vermayes, with a home in Boston and a grand future before her, and Desire Howland was married to John Gorham; and although her two boys William and Joseph were as good sons as a mother need ask, they were sons, and not daughters, nor was Dame Alice in haste to see them bring daughters home to her.</p>
 <p>A few slow, meek tears gathered in her eyes and overflowed just as the door opened and the governor came in with a letter in his hand. A glance at his wife showed him her case, and he said tenderly,--</p>
 <p>"Is it the empty nest, sweetheart, that grieves you?"</p>
@@ -2589,23 +2658,25 @@ companion, but I doubt if Gillian Brewster can be spared," said William a little
 <p>"The custom of thinking?"</p>
 <p>"Ay. How is Mercy, and when did your mother hear from her last?"</p>
 <p>Half an hour soon ran away, and so did the great stone pitcher of cider which the miller's wife insisted upon producing, and the young men took leave, promising to be ready at an early hour for the evening's frolic.</p>
+</div>
 <pb n="315"/>
-CHAPTER XXXI.
-JENNEY'S MILL BY MOONLIGHT.
-"FOR 't is the twenty-first of June,
-The merriest day in all the year,"
-sang Jack Jenney, the younger brother of the mill and the miller, as to amuse his sister's visitors he threw the great wheel into gear and set the machinery in motion.
+<div id="jabetty031" type="chapter" n="31">
+<head>CHAPTER XXXI.<lb/>
+JENNEY'S MILL BY MOONLIGHT.</head>
+<p><q><lg><l>"FOR 't is the twenty-first of June,</l>
+<l>The merriest day in all the year,"</l></lg></q>
+sang Jack Jenney, the younger brother of the mill and the miller, as to amuse his sister's visitors he threw the great wheel into gear and set the machinery in motion.</p>
 <p>"Put in a grist, you young idiot, and don't grind off the face of the stones," growled Samuel, standing by, and not so hospitable as to forget business.</p>
 <p>"Well, here 's Squire Pabodie's Indian waiting--English, too, but that wants daylight. Here, bear a hand, Sam, with the Indian." And the two young men poured the two bushels of gold-colored maize into the hopper, while little Hope Howland, bending over to see it drawn down the vortex of the cruel stones, cried,--</p>
 <p>"Poor Indian! Do you know, Jack, one of those Englishmen that came from Boston to see the Rock where our fathers first landed was at the governor's to dinner, and father was there, and Master Bradford said he must have some more Indian ground, and the man made great eyes and said,--</p>
 <p>"'But does your excellency chastise the savages in such fashion as that?' He thought, poor gentleman, that we ground up the Indians!"</p>
-<p>"And doubtless he feared our governor next would roar,--</p>
+<p>"And doubtless he feared our governor next would roar,--
 <pb n="316 BETTY ALDEN."/>
-'Fee, fie, faw, fum!
-I smell the blood of an Englishman!
-And be he alive, or be he dead,
-I'll grind his bones to make my bread!"
-And John Howland junior put his great hands upon his sister's shoulders to draw her back, saying, "But we won't have you ground this grist, Hope; so don't tumble in. Mother would n't like it."
+<q><lg><l>'Fee, fie, faw, fum!</l>
+<l>I smell the blood of an Englishman!</l>
+<l>And be he alive, or be he dead,</l>
+<l>I'll grind his bones to make my bread!"</l></lg></q>
+And John Howland junior put his great hands upon his sister's shoulders to draw her back, saying, "But we won't have you ground this grist, Hope; so don't tumble in. Mother would n't like it."</p>
 <p>"Oh, John, how you tease!" cried Hope, pouting, yet clinging to the arm of her stalwart brother, a fine young fellow, who at a later date calmly incurred judicial censure and a heavy fine for the sake of warning some Quakers, in whose belief he had no share, that they were about to be arrested and imprisoned. And from that day to our own the stout Howland blood has held its own, foremost in that Army of Occupation which the departing Pilgrims left to hold the land their prowess had won.</p>
 <p>But while this little scene was enacted around the hopper, William Pabodie, who, bringing his father's corn to mill late in the afternoon, had accepted an invitation to spend the evening and join the merrymaking, wandered out of the house, and standing beside the pool, idly broke the branch of lilac that some one had given him into little bits and cast them upon the waters.</p>
 <p>"Nay, don't spoil the pretty posy so," cooed a dulcet voice at his elbow. "If you don't want it, give it to me."</p>
@@ -2684,10 +2755,17 @@ as well content it should be so. And then Gillian went away, and you, just like 
 <pb n="325 JENNEY'S MILL BY MOONLIGHT."/>
 man owes to every woman, and that I 'll not forego, even to defend myself to you"--</p>
 <p>"Oh, I know well enough what <hi rend="italic">she</hi> is," murmured Betty; the young man paused, but would not, could not speak the thoughts that arose in his mind. Perhaps Betty was, after all, not ill pleased, for let men say what they will of the jealousies of women, there is among them an <hi rend="italic">esprit de corps</hi> that rises indignantly in every true woman's breast when she hears her own sex or any member of it scorned by man.</p>
-<p>So an abrupt silence fell between the two,--an eloquent silence, for as his hands firmly grasped hers, and the strong throbbing of his pulses vibrated along her nerves, there was no need of words, until after a few wonderful moments, moments that life could never repeat, the young man drew his true love close, close to his heart, and their lips met in a betrothal kiss.</p>
+<p>So an abrupt silence fell between the two,--an eloquent silence,
+for as his hands firmly grasped hers, and the strong throbbing of his
+pulses vibrated along her nerves, there was no need of words, until
+after a few wonderful moments, moments that life could never repeat,
+the young man drew his true love close, close to his heart, and their
+lips met in a betrothal kiss.</p>
+</div>
 <pb n="326"/>
-CHAPTER XXXII.
-ROBED IN WHITE SAMITE.
+<div id="jabetty032" type="chapter" n="32">
+<head>CHAPTER XXXII.<lb/>
+ROBED IN WHITE SAMITE.</head>
 <p>THERE was company at the captain's house, the same dear friends whom we have seen with him on so many joyous occasions, the Aldens, the Howlands, the Brewsters, the Pabodies and Hatherleys, and Cudworths; and from Plymouth, the governor and his wife, the Hopkinses, and other of the captain's friends and associates of the old time now so long gone by, and yet so powerful in the ties then formed. Parson Rayner was there, too, and Ralph Partridge, but it was as friends and neighbors that they came, and the only official word the minister of Duxbury uttered was when he wrung the captain's hand and said, "'Be strong and of a good courage,' my friend," and Standish, lifting sombre eyes to the speaker's face, answered him never a word.</p>
 <p>And in the midst lay Lora, very pale and still, with the golden lashes folded close upon the cheek hardly whiter now than it had always been, and the faint rose tint lingering in the lips just touched with that mysterious smile that seems the trace of a joy so divine, so all powerful, that it bursts even the icy fetters of death, and insists upon revealing itself, if ever so dimly, for the assurance of those who must see before they can believe. The pale golden hair that was the mother's pride and boast was released from all bands, and lay a shining and rippling mantle at either side of the slender figure which at
 <pb n="327 ROBED IN WHITE SAMITE."/>
@@ -2775,9 +2853,11 @@ under his knee, where he had held it, and quietly tore it into fragments, which 
 <pb n="340 BETTY ALDEN."/>
 pry into what is not meant for him to know, and I should be ashamed to let him know that I had surprised what he fain would have held a secret.</p>
 <p>"No, I 'll lay the letter in first, and then the totem to keep it down, and my little maid will understand all that is meant by the one and the other. There! And now, friend, I thank you. We're growing old men, Will; 'it is toward evening, and the day is far spent,' but this night's work will stand both for you and for me when all else fails. Come, let us be going."</p>
+</div>
 <pb n="341"/>
-CHAPTER XXXIII.
-A BOLD BUCCANEER.
+<div id="jabetty033" type="chapter" n="33">
+<head>CHAPTER XXXIII.<lb/>
+A BOLD BUCCANEER.</head>
 <p>"IT 's an ill wind, they say, that blows nobody good, and I believe this is that same wind."</p>
 <p>"Tut, tut, man! 'T is ill luck speaking against the wind. Wot you not who is the Prince of the Power of the Air?"</p>
 <p>"Sathanas; and I verily believe he's in this smoky chimney."</p>
@@ -2886,9 +2966,11 @@ ble, and at the last, a little impatient of masculine density, the wife exclaime
 <p>"I shall not love her the better, if you are to chide me on her account, Will."</p>
 <p>"Nay, chide thee, sweetheart! 'Twould ill befit me to chide the better half of mine own life."</p>
 <p>So the suitor received permission to woo his bride openly, and Gillian presently so shone with jewels, and so rustled about in gorgeous raiment, that matrons and maids suspended their work to run to the doors and watch her as she passed by.</p>
+</div>
 <pb n="356"/>
-CHAPTER XXXIV.
-THE HILT OF A RAPIER.
+<div id="jabetty034" type="chapter" n="34">
+<head>CHAPTER XXXIV.<lb/>
+THE HILT OF A RAPIER.</head>
 <p>"VOYSYE! Hold on, man! Here, come along back!"</p>
 <p>"Belay your jaw, you landlubber! I 'm bound overhaul that clipper before she gets away! Cast of your grapnel, or"--</p>
 <p>And twisting his arm away from Francis Billington, with whom he had been drinking until both men had had more than enough, Richard Voysye, seaman of the Golden Fleece, set out to overtake the female figure which had just flitted past them in the twilight. Billington, not so tipsy as the sailor, lunged forward in pursuit, and once more grasping his arm exclaimed,--</p>
@@ -2932,9 +3014,11 @@ court; but here both Bradford and Brewster interposed, and insisted that a writt
 found him. "See you not that 't was the hilt of the poor gentleman's own rapier did it? When I came upon him, the brass was bedded in the wound, and you may see the blood and hairs upon it now. See!"</p>
 <p>"Ay, I see," replied Higgins heavily. "And well do I know, without seeing, whose hand it was that urged the hilt to just that spot upon my poor captain's head. Wow! But I wish I might have seen the tussle that befell when the old man got free of his carcase and fell upon Voysye man to man; nay, spook to spook. Would they still be at it, think you?"</p>
 <p>In a month or so more, Gillian, a very wealthy young widow, sailed for England, where she married a pious and passing rich old Covenanter, whom she also survived, and became one of the gayest and least prejudiced ladies of the Court of Charles the Second, where we will leave her.</p>
+</div>
 <pb n="363"/>
-CHAPTER XXXV.
-CANARY WINE AND SEED-CAKE
+<div id="jabetty035" type="chapter" n="35">
+<head>CHAPTER XXXV.<lb/>
+CANARY WINE AND SEED-CAKE.</head>
 <p>IT was in what Captain William Pierce called the ebb of the afternoon; that dreamy, quiet leisure hour that falls in country places when the heavy work and heavy feeding of the day are over, and the evening milking and bedding the cattle and providing the pleasant meal called supper still lie in the middle distance.</p>
 <p>Priscilla, our own Priscilla, not forgotten or unloved, although unmentioned and a little hidden behind the throng of new-comers,--Priscilla Alden stood in the thrifty orchard of pear and apple trees, planted twenty years before by her goodman, trees whose lineal descendants may to-day be found in the place of the old ones, just as Aldens still till the Aldens' farm.</p>
 <p>At the edge of the orchard a row of lime-trees shaded the well and the southern door of the comfortable house, and beneath these trees were set the beehives, whose dainty denizens loved the golden blossoms so well that from morning until night they swarmed up and down their fragrant pasture, making a sound like the surf upon a pebbly shore. Priscilla is gone, those trees, those bees are gone, and you and I are going, but the bees of to-day swarm just as vigorously through this lime-tree at my window as those did then, and as the bees of two or three centuries hence will through the trees whose seeds are not yet planted. Only man is
@@ -2993,9 +3077,11 @@ ticut and make a home whereto he might carry his wife. John Haward could manage 
 <p>"It's not only that she's far comelier than ever her mother was, but she's fresh and new in her matronhood; as a maid she held her tongue before her elders as a maid should do, and I 'll lay you a pretty penny that the captain don't guess she has a tongue, and a headpiece to keep it in, that 'll match any man in the colony, if once she starts out. Now what I say is, that she shall go in boldly, as Esther did to Ahasuerus, and speak her mind, and as Esther said, If she die, she dies. Thank goodness, the captain can't kill her outright, and she can stand a strange word or two in Dutch better than poor Parson Partridge did."</p>
 <p>"Well, 't is an idea to think on," replied Barbara slowly, and Priscilla, knowing that the matter was settled, smiled the smile of a contented diplomat, and brushing the cake crumbs into the napkin, shook them out of the door before she quietly clenched the matter by saying,--</p>
 <p>"I 'm going over to Betty's in the morning, and I 'll speak to her."</p>
+</div>
 <pb n="372"/>
-CHAPTER XXXVI.
-BETTY BEARDS THE LION.
+<div id="jabetty036" type="chapter" n="36">
+<head>CHAPTER XXXVI.<lb/>
+BETTY BEARDS THE LION.</head>
 <p>IT was perhaps a week later, but as fair and peaceful a summer evening as that when Priscilla Alden showed herself more worldly-wise than vain, that Myles Standish, according to his constant custom, climbed the Captain's Hill to sit upon the sunset seat, and with sad eyes fixed upon the horizon line to muse in lonely bitterness upon the sorrow he endured but did not accept. Half an hour of solitude no more than sufficed to deaden the physical pain, aggravated by the steep climb, against which the soldier in his latter years fought in the grim silence of hopelessness, and with a long breath of relief he leaned back against one of the trees supporting the seat and wiped his forehead. The sound of a light footstep, the rustle of a woman's dress, disturbed him, and with a sudden flush of emotion he turned, half fancying that Lora herself had come to meet him at her favorite tryst.</p>
 <p>But instead of the fair pale face, the golden hair, and spiritual blue eyes of his daughter, it was the joyous and brilliant face of Betty Alden, or as we now must learn to call her, Bettie Pabodie, subdued indeed by tenderest sympathy, but rich in color, in light, in abounding health, that met his gaze, and with a peevish exclamation he turned away, fixing his eyes again upon the water.</p>
 <p>"May n't I come and sit with you a little minute,
@@ -3053,11 +3139,13 @@ looks unmoved upon those tears; nor did Myles Standish, as hastily rising he hov
 <p>"And I 'll give you one as it is, sir," cried Betty, and turning like a flash, she threw her arms around the old man's neck and pressed upon his cheek two lips so soft, so warm, so sweet, that a streak of dark red mounted to his temples, and taking the girl's head between his hands he kissed her forehead with a strange stir of reverent tenderness at his heart.</p>
 <p>"Betty, my lass, thou 'st done a good work. to-day," said he simply, and she, with a smile and a sob struggling for pre&#x00EB;minence, murmured,--</p>
 <p>"Thank God!"</p>
+</div>
 <pb n="379"/>
-CHAPTER XXXVII.
-"MARY STANDISH, MY DEAR DAUGHTER-IN-LAW."
+<div id="jabetty037" type="chapter" n="37">
+<head>CHAPTER XXXVII.<lb/>
+"MARY STANDISH, MY DEAR DAUGHTER-IN-LAW."</head>
 <p>THE lime-trees have shed not only flowers but fruit, and the bees are adding to their clover and clethra honey a last deposit from latest hollyhocks and golden-rod. The apples lie in fragrant piles beneath the orchard trees, or in a less worthy heap beside the cider mill; the maize and the pumpkins gleam in merry gold, exulting over the withered foliage that in their non-age flaunted above their heads; the barns are bursting, and the cattle sleek with plenteous corn; it is the jocund time of year when Mother Earth spreads an abundant board, and calls her children to eat and give thanks to their Creator and hers.</p>
-<p>The waters of Duxbury Bay, placid and gleaming with the hazy sunlight of the Indian summer, reflect the sails of a dozen or more boats lazily gliding in from Plymouth, from Marshfield, from Scituate, and even from Barnstable and Sandwich, for the children of the Pilgrims have not yet outgrown the family love and interest that bound their fathers in so close a tie, and the Robinsons, children of the good pastor who so loved and so cruelly misjudged our captain, have come from the Cape to the wedding of his son, bringing with them little Marcy, to whom Standish left "&#x00A3;3 *(should be three British pounds) to her whom I tenderly love for her grandfather's sake."</p>
+<p>The waters of Duxbury Bay, placid and gleaming with the hazy sunlight of the Indian summer, reflect the sails of a dozen or more boats lazily gliding in from Plymouth, from Marshfield, from Scituate, and even from Barnstable and Sandwich, for the children of the Pilgrims have not yet outgrown the family love and interest that bound their fathers in so close a tie, and the Robinsons, children of the good pastor who so loved and so cruelly misjudged our captain, have come from the Cape to the wedding of his son, bringing with them little Marcy, to whom Standish left "&#x00A3;3 to her whom I tenderly love for her grandfather's sake."</p>
 <p>Yes, this is the wedding day of Josiah Standish and
 <pb n="380 BETTY ALDEN."/>
 Mary Dingley, whose parents have generously consented to bring their daughter to Duxbury and let the marriage take place in her future home, as the captain has requested; and now that he has given his consent, the old man gives his heart to the plan, and sends his own boat with John Haward or Hobomok laden with invitations to the old friends whom  in these latter days he has almost churlishly avoided.</p>
@@ -3081,7 +3169,7 @@ third side by a high stockade. Into this the livestock could be driven, and the 
 <p>"Nay, you 've lent them some sunshine at the east end of their wing, and well do I hope they 'll lend you some of the summer of their joy, Myles." So spoke the governor, looking shrewdly into the face of his old friend; but he, avoiding the glance, slightly shrugged his shoulders, muttering,--</p>
 <p>"He who lives will see," and led the way into the house.</p>
 <p>The brief and bald civil service soon was said, the hearty salutes bestowed, and the sturdy handshaking over; then Governor Bradford, with an air at once paternal and courtly, led the bride to the head of the principal table, and the feast, upon which the skill of a select committee of our old friends had expended itself, began. But too many feasts have been described, and I dare not tell of the glories of this, save only of the great wedding-cake, with its choice frostwork of flowers and foli-
-<pb n="383     <hi rend="italic">MY DEAR DAUGHTER-IN-LAW"/>
+<pb n="383 MY DEAR DAUGHTER-IN-LAW."/>
 age, shaped by Betty Pabodie's nimble fingers,--a cake to be carved with much ceremony, and amid much mirth and jubilation, by the bride's own hand, with the gold ring hidden somewhere amid its sweets for the next bride, and the toy half of a scissors for the man doomed to be an old bachelor.</p>
 <p>But at last all was over; the hunter's moon, whose culmination had fixed the date of the wedding, hung glorious in heaven, shedding almost the light of day; the neighbors' horses were saddled and pillioned, and the boats of those who came from farther afield were manned and ready; Alice Bradford, muffling herself in cloak and hood for the voyage, was changing a last word with Priscilla and Barbara, while sweet Alice Richards, her daughter-in-law, was deep in baby lore with Betty Pabodie, and the governor and the captain outside the door were by chance left for a moment quite alone. Turning by a common impulse--one of those impulses we all have felt compelling us to undreamed-of action,--they faced each other and grasped hands.</p>
 <p>"I 'm glad you came, Will," said the captain.</p>
@@ -3098,4 +3186,13 @@ age, shaped by Betty Pabodie's nimble fingers,--a cake to be carved with much ce
 <p>"H--m! Now, that's a fight where I'm willing to cry craven. See you here, Will, the Lord that made me fashioned me out of mere mortal clay, and his work stands fast in spite of my good will or yours to change it. While I was a young fellow, I fought the Spaniards and the Turks; in my lustyhood, I fought the Indians and the wilderness; and now, in mine age, I fight Myles Standish and the devil; and though I've as good a stomach for hard knocks as most men, I feel betimes 't will not be a sorry thing to undo harness, hang up Gideon, and lay me down to rest and sleep."</p>
 <p>"Not yet, old friend, not yet! We came on pilgrimage together, and we 'll march shoulder to shoulder into the holy city,--that is, if God will."</p>
 <p>"If God will," echoed Standish, and as the merry throng poured out, they found the elders standing hand in hand and face to face, with the moonlight gleaming softly over them and glistening in their eyes.</p>
-
+</div>
+</body>
+<back id="jabetty1206">
+<pb n="[386]" entity="jabettybm1" pages="Colophon"/>
+<div id="jabettybm" type="colophon"><p>The Riverside Press<lb/><hi
+rend="italic">Electrotyped and printed by H. O. Houghton &#x0026;
+Co.<lb/>Cambridge, Mass., U.S.A.</hi></p></div>
+</back>
+</text>
+</TEI.2>
