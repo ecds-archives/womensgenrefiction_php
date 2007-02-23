@@ -79,6 +79,7 @@ added by the encoder and do not appear in the original text.</p>
           <list>
             <item>American literature--19th Century--Fiction.</item>
             <item>Women authors, American--19th Century.</item>
+	    <item>Interracial marriage.</item>
             <item>Local color.</item>
             <item>Louisiana.</item>
             <item>Cherokee.</item>
@@ -101,9 +102,103 @@ added by the encoder and do not appear in the original text.</p>
   </teiHeader>
 <text id="sdpanol1202">
 <front id="sdpanol1205">
+<div type="covers" id="sdpanol00">
+<figure entity="sdpanolfc" rend="inline">
+<figDesc>Front cover of Sarah A. Dorsey's <hi
+rend="italic">Panola</hi>.</figDesc>
+</figure>
+<figure entity="sdpanolsp" rend="inline">
+<figDesc>Spine of Sarah A. Dorsey's <hi
+rend="italic">Panola</hi>.</figDesc>
+</figure>
+</div>
+<pb n="[17]" entity="sdpanoltp" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main">
+<titlePart type="main">PANOLA.</titlePart>
+<titlePart type="sub">A TALE OF LOUISIANA.</titlePart>
+</docTitle>
+<byline>BY <docAuthor>MRS. SARAH A. DORSEY</docAuthor>.<lb/>
+AUTHOR OF<lb/>
+"AGNES GRAHAM," "ATHALIE," "LUCIA DARE."</byline>
+<epigraph>
+<cit>
+<q rend="italic"><lg type="stanza"><l>A seaside house to the farther
+South,</l>
+<l>Where the baked cicalas die of drouth,</l>
+<l>And one sharp tree&#x2014;'tis a cypress&#x2014;stands</l>
+<l>By the many hundred years red-rusted,</l>
+<l>Rough, iron-spiked, ripe fruit o'er-crusted&#x2014;</l>
+<l>My sentinel to guard the sands</l>
+<l>To the water's edge.</l></lg>
+<milestone unit="section" rend="stars"/>
+<lg><l>While in the house forever crumbles</l>
+<l>Some fragment of the frescoed walls</l>
+<l>From blisters where a scorpion sprawls&#x2014;</l>
+<l>A girl bare-footed brings, and tumbles</l>
+<l>Down on the pavement, green flesh
+melons."</l></lg></q></cit></epigraph>
+<docImprint>
+<pubPlace>PHILADELPHIA:</pubPlace>
+<publisher>T. B. PETERSON &#x0026; BROTHERS;</publisher>
+<pubPlace>306 CHESTNUT STREET.</pubPlace>
+</docImprint>
+</titlePage>
+<pb n="[18]"/>
+<div type="copyright" id="sdpanol01">
+<figure entity="sdpanolfm01" rend="inline">
+<figDesc>Copyright page of Sarah A. Dorsey's <hi
+rend="italic">Panola</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="sdpanolded" pages="dedication" n="[19]"/>
+<div type="dedication" id="sdpanol02">
+<p>TO A MAN WHOSE RARE FIDELITY IN FRIENDSHIP IS A THEME<lb/>OF
+ADMIRATION FOR ALL WHO KNOW HIM.</p>
+<p>TO<lb/>COLONEL JOHN M. SANDIDGE,<lb/>OF LOUISIANA,<lb/>
+THIS BOOK IS INSCRIBED BY ONE WHO IS GLAD TO WRITE<lb/>HERSELF AMONG
+THE NUMBER OF HIS FRIENDS.</p>
+<dateline>Elkridge, Tensas Parish,<lb/>
+August 20th, 1877.</dateline>
+</div> 
+<pb n="21"/>
+<div type="table of contents" id="sdpanol03">
+<figure entity="sdpanolcon1" rend="inline">
+<figDesc>Page one of table of contents for  Sarah A. Dorsey's <hi
+rend="italic">Panola</hi>.</figDesc>
+</figure>
+<pb n="22"/>
+<figure entity="sdpanolcon2" rend="inline">
+<figDesc>Page two of table of contents for  Sarah A. Dorsey's <hi
+rend="italic">Panola</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="sdpanolfm02" pages="epigraph" n="[23]"/>
+<div type="epigraph" id="sdpanol04">
+<epigraph><cit><q>
+<lg type="stanza"><l>A seaside house to the farther
+South,</l>
+<l>Where the baked cicalas die of drouth,</l>
+<l>And one sharp tree&#x2014;'tis a cypress&#x2014;stands</l>
+<l>By the many hundred years red-rusted,</l>
+<l>Rough, iron-spiked, ripe fruit o'er-crusted&#x2014;</l>
+<l>My sentinel to guard the sands</l>
+<l>To the water's edge.</l></lg>
+<milestone unit="section" rend="stars"/>
+<lg><l>While in the house forever crumbles</l>
+<l>Some fragment of the frescoed walls</l>
+<l>From blisters where a scorpion sprawls&#x2014;</l>
+<l>A girl bare-footed brings, and tumbles</l>
+<l>Down on the pavement, green flesh
+melons."</l></lg>
+</q><bibl>BROWNING.</bibl></cit>
+<cit><q>"We are the sum of our
+ancestors&#x2014;plus&#x2014;ourselves."</q>
+<bibl>ANNE SEEMULLER.</bibl>
+</cit>
+</epigraph>
+<p/>
+</div>
 </front>
 <body id="sdpanol1204">
 <pb n="25" entity="spanol025" pages="25"/>
@@ -163,7 +258,7 @@ every afternoon. Therefore vines and weeds did grow rather as they chose in this
 <p>"Chee-chee," said Lizbette, "always a cheeing and a screeching, and a dancing like mad; and good for nuthin'; not even fit for a pie, which doves is, and even yellow-hammers ain't bad for a broil!"</p>
 <p>Natika had been laughing heartily, and she called aloud to her two cousins, who were sitting quietly
 <pb n="33     IN THE ATTAKAPAS."/>
-inside of the study, to look out at the birds. There was a young bird who seemed to be taking his first singing lessons. He had been attracted by the soft, sweet cry of a partridge, and he was trying to imitate it. He did not succeed well. An older bird, who was sitting on top of the head of a broken-nosed plaster Apollo, attempted to put the little bird right in the singing: the wilful little bird either couldn't or wouldn't follow the notes accurately. Another bird, balancing himself on an orange bough, quivering his wings and vibrating his tail fan-fashion, sending down at every trill a rain of spent blossoms upon Lizbette's sheets, was singing very heroically, loudly mocking the clear bell-like call of the troopiall; it had come across some stray wanderer from the tropics, blown over from some of the islands in the Gulf of Mexico, by an unexpected "onragan," and, as is the fashion of its tribe, it had picked up the singular foreign notes.</p>
+inside of the study, to look out at the birds. There was a young bird who seemed to be taking his first singing lessons. He had been attracted by the soft, sweet cry of a partridge, and he was trying to imitate it. He did not succeed well. An older bird, who was sitting on top of the head of a broken-nosed plaster Apollo, attempted to put the little bird right in the singing: the wilful little bird either couldn't or wouldn't follow the notes accurately. Another bird, balancing himself on an orange bough, quivering his wings and vibrating his tail fan-fashion, sending down at every trill a rain of spent blossoms upon Lizbette's sheets, was singing very heroically, loudly mocking the clear bell-like call of the troopiall; it had come across some stray wanderer from the tropics, blown over from some of the islands in the Gulf of Mexico, by an unexpected "ouragan," and, as is the fashion of its tribe, it had picked up the singular foreign notes.</p>
 <p>The partridge sang "Bob white" in a long modulation ; the little bird would snatch up the cry, "Bob, bob, bob; white, white, bob."</p>
 <p>"No , no," the older bird sung from the Apollo's head; "this way: bob white, bob white."</p>
 <p>"Why-et, why-et, bob, bob," would answer the small bird on the garden walk. Again and again. the older bird would sing the strain.</p>
@@ -185,12 +280,12 @@ tons Stone and Roussel--testify to his admirable soundness of mind up to the ver
 ments of the sum of three hundred dollars, always payable in gold, the amount specified as a temporary provision for you until the aforesaid conditions be filled as demanded by said last will and testament of said late Jacob Canonge. It is now subject to your order.</p>
 <p>"With profound respect, we have the honor to subscribe ourselves your most obedient servants,</p>
 <signed>"BRADFORD AND BRADFORD,<lb/>
-"Att'ys-at-Law, 20 Custom Mouse street,<lb/>
+"Att'ys-at-Law, 20 Custom House street,<lb/>
 "New Orleans, Louisiana."</signed></div>
 </body></text></q></p>
 <p>"Here's the will," said Mark, handing the long bit of foolscap he had been reading to Victor.</p>
 <p>"It is a shame! The very meanest will that ever any old man made! That's my opinion of it," exclaimed Natika, indignantly, tossing back, with her fair, white, jewelled hand, the heavy ringlets that had fallen forward over her face as she leaned over Victor's shoulder reading the portentous papers.</p>
-<p>"He was a mean, crabbed old hunks, any how! I always did think so," said Victor. "He has been too good to us, who did not need his dirty money. But, to treat poor Mark in that tantalizing fashion! It is downright wicked! I hope the old fellow will be put through three millions of ages in purgatory for his malice! As if it was Mark's fault that he can't walk! Oh, le vieil liable!"</p>
+<p>"He was a mean, crabbed old hunks, any how! I always did think so," said Victor. "He has been too good to us, who did not need his dirty money. But, to treat poor Mark in that tantalizing fashion! It is downright wicked! I hope the old fellow will be put through three millions of ages in purgatory for his malice! As if it was Mark's fault that he can't walk! Oh, le vieil diable!"</p>
 <pb n="38     PANOLA."/>
 <p>"Le vieil Adam!" added Natika, laughing at Victor's violence.</p>
 <p>"Oh, no!" said Mark, "un pauvre <hi rend="italic">vieux</hi> homme. Not the plan of sin or the old devil either."</p>
@@ -346,7 +441,7 @@ was a pure Netherlander," said Panola. "What a mixture of races there is in Amer
 <p>"<hi rend="italic">My</hi> race is not mixed," said Natika, haughtily; "nor Victor's either. You can't call Greek and French a mixture of races. They are both Aryan in origin."</p>
 <p>"Not so certain," said Mark, seeing the flash in Panola's eye, and hastening to forestall any strife between his guests. "M. Quatrefages declares that the French are not Aryan in origin."</p>
 <p>"I don't believe in M. Quatrefages," said Natika, pettishly. "Victor, it is lovely in the garden. Let us go out for a walk, if Miss Flanoy and Mark will be so good as to excuse us for a little while."</p>
-<p>Panola and Mark eagerly assured Natika of their entire willingness to excuse them; so Natika called to Fanfin to follow her, threw a white scarf around her shoulders, and, nodding "au revoir" to Panola and Mark, she stepped out of the open French window on to the verandah, and thence into the well-kept flower-garden. Victor followed her, not altogether pleased, but true to his old allegiance. Natika had ruled him since he was twelve years of age: indeed, Natika had moulded Victor's character. She was two years older than he, and much more intelligent, and had a stronger will. When Victor was with her she controlled him most despotically; when separated from her he was sometimes rather rebellious; but a line or a word would bring the truant
+<p>Panola and Mark eagerly assured Natika of their entire willingness to excuse them; so Natika called to Fanfan to follow her, threw a white scarf around her shoulders, and, nodding "au revoir" to Panola and Mark, she stepped out of the open French window on to the verandah, and thence into the well-kept flower-garden. Victor followed her, not altogether pleased, but true to his old allegiance. Natika had ruled him since he was twelve years of age: indeed, Natika had moulded Victor's character. She was two years older than he, and much more intelligent, and had a stronger will. When Victor was with her she controlled him most despotically; when separated from her he was sometimes rather rebellious; but a line or a word would bring the truant
 <pb n="58     PANOLA."/>
 back to her feet at any moment. Natika's power was a fascination that Victor could never resist, any more than a trained falcon can resist the call of the whistle and the waving of the jessies. He belonged to the <hi rend="italic">animum revertend</hi>; the domesticated game which must return to its owner. He had asked Natika to marry him about twice in every week since he was grown up to years of majority, and had been as often rejected by her. But her rejections were so softened by her natural coquetry, that Victor had never been able to reduce his hopes to absolute despair. Sometimes he would get angry and go away from Natika for months; once he stayed away for nearly a year; then one day he reappeared unexpectedly before her when she was "having a very good time" in Paris under the chaperonage of some French friends--family connections of the Canonges. Natika was not at all afraid of ever losing her power over Victor: she whistled him back whenever she wanted him. She loved power; she did not love Victor; but she did not wish to lose his devotion and homage; it was convenient for her, and the close relationship gave her an unlimited opportunity to treat him exactly as she chose--sometimes with tender affection, sometimes with cold indifference. Natika was that sort of a woman who is always attractive to ordinary men, and she had usually a small crowd of adorers, chiefly very young men, who were dazzled by her vivacity, her wit, her
 <pb n="59     THE HEROINE."/>
@@ -391,19 +486,19 @@ as ever, and all the processes of the system seem to be perfect and unchanged. S
 <p>"No," said Mark, "she is rather phlegmatic, and self-controlled as a stoic; she is not at all emotional."</p>
 <p>"She is so reticent, too," continued Panola. "I have to guess at her feelings. She rarely expresses What she thinks or feels in words."</p>
 <p>"But she has a firm will," said Mark, "quiet and undemonstrative as she is. has she ever got over her prejudice against my stepmother?"</p>
-<p>"No, indeed, she has not. You know, long before papa died, mamma wouldn't suffer aunt Boiling to enter her room. It excited her so much that papa had to ask aunt not to go there. It troubled papa greatly ; he was very fond of aunt Bolling. When he died, you know he requested in his will that she should be allowed to live in the Pavilion as long as it should be convenient for her to do so; and he left her half of his personal property. It was not much. The property was all mamma's, bought with her paraphernal money, and
+<p>"No, indeed, she has not. You know, long before papa died, mamma wouldn't suffer aunt Bolling to enter her room. It excited her so much that papa had to ask aunt not to go there. It troubled papa greatly ; he was very fond of aunt Bolling. When he died, you know he requested in his will that she should be allowed to live in the Pavilion as long as it should be convenient for her to do so; and he left her half of his personal property. It was not much. The property was all mamma's, bought with her paraphernal money, and
 <pb n="64     PANOLA."/>
 of course, by the laws of this State, papa could not dispose of it. The chief, Satana, had a contract of marriage drawn by the first lawyers of the State before he would consent to mamma's marriage with a white man."</p>
-<p>"What reasons does your mother give for disliking nay stepmother so intensely?"</p>
-<p>"None, but that she does not like her; an Indian reason, you will think, Mark," laughed Panola. "Tut you know what an Indian's prejudices are--instinctive, I suspect; when they hate, they hate."</p>
+<p>"What reasons does your mother give for disliking my stepmother so intensely?"</p>
+<p>"None, but that she does not like her; an Indian reason, you will think, Mark," laughed Panola. "But you know what an Indian's prejudices are--instinctive, I suspect; when they hate, they hate."</p>
 <p>"And when they love, they are faithful unto death," said Mark, softly.</p>
 <p>"Yes, we never forget a good; we never forgive an injury," said Panola, and a dark look came over her fair face, changing all its brightness like the passing of a cloud across the moon's disc. "You will think me very wicked, Mark. I am rather a pagan by organization, I believe sometimes. At any rate I feel much more sympathy with the old Stoics, whose books we read together, than I do with the Christian Scriptures. I believe, on occasion, I could see my enemy scalped or burnt at the stake, with as much satisfaction as my progenitors on the maternal side. Then, main, I am ashamed of such ferocity; that is, when the temperament of the Netherlanders is in the ascendant; then I think I could forgive my enemy and give him aid, and I love Christ and Christian teachings."</p>
 <pb n="65     A FAMILY GROUP."/>
 <p>"It is the dual nature in you which makes this strife, Panola. At the end of your life you will see which has gained the victory; not before."</p>
 <p>"I hope it may be the good Christian. I don't know, though."</p>
 <p>"Does my stepmother reciprocate your mother's ill-will?" asked Mark, pursuing his train of thought.</p>
-<p>"No; that's the worst of it! Aunt Bolling is so kind and so amiable, it makes me really uncomfortable. She is always ready to do any little thing for mamma, and often does, Without mamma's knowing anything about it. She will go even into the kitchen and make the nicest jellies and daintiest cakes with her own hands, things that mamma is very fond of; and Isobel and I have to take them in and not let mamma know who it is that prepares them so deliciously. No one could be kinder than, aunt Bolling."</p>
-<p>"I have always found her very kind," said Mark, thoughtfully. "She was very good to me when she came to college and found me ill there. I have not been much with her. my father seemed to be fond of her. I have heard that she was very unhappy in her first marriage with Antony Coolidge's father. but they lived in Kentucky during their marriage; he was a citizen of that State. My father met her here, you know, whilst she was on a visit to her brother, Major Flanoy. They lived then in another
+<p>"No; that's the worst of it! Aunt Bolling is so kind and so amiable, it makes me really uncomfortable. She is always ready to do any little thing for mamma, and often does, Without mamma's knowing anything about it. She will go even into the kitchen and make the nicest jellies and daintiest cakes with her own hands, things that mamma is very fond of; and Isobel and I have to take them in and not let mamma know who it is that prepares them so deliciously. No one could be kinder than aunt Bolling."</p>
+<p>"I have always found her very kind," said Mark, thoughtfully. "She was very good to me when she came to college and found me ill there. I have not been much with her. My father seemed to be fond of her. I have heard that she was very unhappy in her first marriage with Antony Coolidge's father. but they lived in Kentucky during their marriage; he was a citizen of that State. My father met her here, you know, whilst she was on a visit to her brother, Major Flanoy. They lived then in another
 <pb n="66     PANOLA."/>
 parish, and I was off at school and college under the care of grandfather Canonge; so I never saw her again until I was ill at college, and then here afterwards, when I found her domiciliated with Major Flanoy, after my father's sudden death."</p>
 <p>"She always speaks very affectionately of you," said Panola. "She often wishes her own son was as good as you are, and I am sure I wish he was anything at all like you; for, as he is now, he is excessively disagreeable to me. I have to treat him politely, of course, on account of aunt Bolling; but I almost hate Antony Coolidge. I should like to stick arrows into him and burn hint up, as my Cherokee great-great-grandmother Would have done to anybody she did not like."</p>
@@ -426,11 +521,11 @@ parish, and I was off at school and college under the care of grandfather Canong
 <p>The old docteur kissed Panola's hand, patted Mark on the shoulder, then drew a very snuffy, red silk
 <pb n="68     PANOLA."/>
 pocket-handkerchief out and blew his nose violently. Panola saw the twinkling of a tear-drop in the old man's eye, as he turned hastily away. he was making an effort to hide his emotion, so as not to let Mark see how troubled he was about the will.</p>
-<p>He turned back to Panola. "You haf come now in ver' good Hour, in ver' best of time! for I haf now, you see, my granddaughter, Natika, and my grandson, Victor Burthe. You haf see Natika? Ah, that is good, ver' good. An' you haf see Victor? That is also good. He haf fine voice, haf Victor Burthe! ver' fine! You shall hear him sing. He sing be-cu-tifool! be-eu-tecfool!" The old docteur prolonged the adjective with a circumflex accent upon it, opening his eyes widely, and spreading out his hands as he spoke it emphatically.</p>
+<p>He turned back to Panola. "You haf come now in ver' good Hour, in ver' best of time! for I haf now, you see, my granddaughter, Natika, and my grandson, Victor Burthe. You haf see Natika? Ah, that is good, ver' good. An' you haf see Victor? That is also good. He haf fine voice, haf Victor Burthe! ver' fine! You shall hear him sing. He sing be-eu-tifool! be-eu-teefool!" The old docteur prolonged the adjective with a circumflex accent upon it, opening his eyes widely, and spreading out his hands as he spoke it emphatically.</p>
 <p>Panola assured him she fully credited all he said. She had "heard Mr. Burthe sing a few notes already."</p>
-<p>"Ah! you haf him already hear? Ah, that is well. But you haf not yet Natika hear declaim. She haf fine talent, almost like mine, for do drame. She ack well; presque comme Rachel. Her Hermione is ver' like Rachel. Ah! ma foi, you shall see her. We shall haf soir&#x00E9;e of charades and lettle drame. Quelques declamations from Natika, and some song from Victor, and some belle musique from you; you will bring die Stradivarius chat you procure from Mexique, and you will play for us;
+<p>"Ah! you haf him already hear? Ah, that is well. But you haf not yet Natika hear declaim. She haf fine talent, almost like mine, for do drame. She ack well; presque comme Rachel. Her Hermione is ver' like Rachel. Ah! ma foi, you shall see her. We shall haf soir&#x00E9;e of charades and leetle drame. Quelques declamations from Natika, and some song from Victor, and some belle musique from you; you will bring die Stradinarius chat you procure from Mexique, and you will play for us;
 <pb n="69     A FAMILY GROUP."/>
-and Mark shall listen, an' shall play at cartes wid some friends of de voisin; and I shall ack in charades, and we shall have cotillon, and I shall dance wid Madame Duplessis, la m&#x00E8;re Nicolline, and also wid you, Mademoiselle Panola, and wid de veuve charmante, Madame votre tante. You can collie demain; to-morrow, perhaps. I will consulte wid Natika, and wid Lizbette. Lizbette <hi rend="italic">muss</hi> be consulte, you know, Mademoiselle Panola"--the gay old man nodded his head and laughed--"Lizbette rule Mark and I. We ver' much fear Lizbette! N'este ce pas, Mark?"</p>
+and Mark shall listen, an' shall play at cartes wid some friends of de voisin; and I shall ack in charades, and we shall have cotillon, and I shall dance wid Madame Duplessis, la m&#x00E8;re Nicolline, and also wid you, Mademoiselle Panola, and wid de veuve charmante, Madame votre tante. You can come demain; to-morrow, perhaps. I will consulte wid Natika, and wid Lizbette. Lizbette <hi rend="italic">muss</hi> be consulte, you know, Mademoiselle Panola"--the gay old man nodded his head and laughed--"Lizbette rule Mark and I. We ver' much fear Lizbette! N'este ce pas, Mark?"</p>
 <p>Mark smiled. "Yes, indeed, grandpapa! Lizbette would revenge herself by giving us cold coffee and burnt toast if we didn't consult her in all domestic arrangements. You had better ask her first, before you invite any of your guests."</p>
 <p>"I tink so, indeed. I shall go immediatement to consulte Lizbette. You stay, Mademoiselle Panola, jusqu'&#x00E0; mon retour from de Tartarean region; Orphe&#x00E9; will soon return," and the merry old man darted out of the room like a superannuated swallow, swiftly, if rather tremulously-singing, in a cracked falsetto and in very quavering style, as he went:</p>
 <p><q><l>"Que faro senza, Eurydice."</l></q></p>
@@ -461,15 +556,15 @@ and she shook Bands with him as he assisted her into her phaeton. Victor stood i
 <p>"As a pure race, no! I zink zey are as essentially savage as <hi rend="italic">zie</hi> wolf! But as zie wolf may be metamorphose graduellement, into zie faithful dog, so zie Indian may be changed by zie mingling of blood wiz zie white races."</p>
 <p>"But you do not approve of any mixture of races, grandpapa?"</p>
 <pb n="74     PANOLA."/>
-<p>"No! Zie white races have attained zeir excellence through much effort, and in course of long ages of time. Not only zie volume, but zie <hi rend="italic">quality</hi> of zeir brain matter is zie result of activities, experience, sufferings, perhaps, to winch no oder race of luau has been subjected. I do not very willingly see zat jeopardized; but of all zie colored races, zie Indian of America is least objectionable. He possesses some very fine traits of nature, which in zie best specimens of hybrids among zem, are quite admirable! But dere are Indians and Indians! Among zie savage races of man, as in zie savage races of beasts, zere are lions and tigers and panthers, and also <hi rend="italic">jackals</hi>. I admire zie lions; I do not particularly like zie jackal."</p>
+<p>"No! Zie white races have attained zeir excellence through much effort, and in course of long ages of time. Not only zie volume, but zie <hi rend="italic">quality</hi> of zeir brain matter is zie result of activities, experience, sufferings, perhaps, to which no oder race of man has been subjected. I do not very willingly see zat jeopardized; but of all zie colored races, zie Indian of America is least objectionable. He possesses some very fine traits of nature, which in zie best specimens of hybrids among zem, are quite admirable! But dere are Indians and Indians! Among zie savage races of man, as in zie savage races of beasts, zere are lions and tigers and panthers, and also <hi rend="italic">jackals</hi>. I admire zie lions; I do not particularly like zie jackal."</p>
 <p>"Do you think. they can ever be made into good citizens, grandpapa?"</p>
-<p>"I doubt it! We must put away all zie romantic notions about zose Indians. Zey are a strong race. A people different from all oders. Can you tame wholly zie tiger or zic zebra? zie onagra? Can you make zie rattlesnake gentle? If you can, den you may hope to tame zie unmixed Indian. Zey are brave, proud, continent, stoical, strong, but zey are deceitful as zie adder, cunning as zie wildcat, persevering, obstinate, suspicious, revengeful, and quick-sighted as zie lynx. What can you do wiz such a people? Change his blood or kill him. Zat is all we can do. I do not myself expect to see
+<p>"I doubt it! We must put away all zie romantic notions about zose Indians. Zey are a strong race. A people different from all oders. Can you tame wholly zie tiger or zie zebra? zie onagra? Can you make zie rattlesnake gentle? If you can, den you may hope to tame zie unmixed Indian. Zey are brave, proud, continent, stoical, strong, but zey are deceitful as zie adder, cunning as zie wildcat, persevering, obstinate, suspicious, revengeful, and quick-sighted as zie lynx. What can you do wiz such a people? Change his blood or kill him. Zat is all we can do. I do not myself expect to see
 <pb n="75     A FAMILY GROUP."/>
 zie catamount and zie jaguar ploughing zie fields, instead of zie ox or zie mule."</p>
 <note id="sdpanol003" n="1" resp="auth" place="end">
 NOTE.--Their religion is a sort of Theism. They believe in a Great
 Spirit who governs all things, and they believe, like the Persians, in
-an evil spirit, which they call "Ali-skeen-er." he is an invisible
+an evil spirit, which they call "Ah-skeen-er." he is an invisible
 spirit, who is not susceptible of a good thought, and whose tendency
 is essentially <hi rend="italic">always</hi> in favor of <hi
 rend="italic">evil</hi>, and that he has innumerable other subordinate
@@ -538,16 +633,16 @@ answered very well for a classic mantle under the exigencies of the occasion. Th
 <pb n="82     PANOLA."/>
 curtains in front of the portion of the parlor improvised into a stage.</p>
 <p>Natika, in the classic drapery of Camille, with young Duplessis as Horace, came forward. They began to act scenes from Les Horaces of Corneille. They were both good actors, and they warmed up as they proceeded in their parts. At last they got to the grand scene, where Horace brings in the swords of the three Curiaces. Horace begins:
-<q><l>"Ma soeur void le bras qui senge nos deux freres."</l></q></p>
-<p>It was admirably rendered by Duplessis, but at the close, where Camille makes the apostrophe to "Rome," and ends with her fearful malediction, Natika seemed literally inspired. Her small audience were electrified; her voice rang and thrilled through every heart (she had studied from Rachel). At the conclusion there was the greatest excitement; the Duplessis clapped and stamped and cried "encore," and "bravo," until they were all hoarse. Even the Smiths and Clarks caught the enthusiasm. It was a moment of triumph for Natika; but at last the curtain closed positively before her, and people were beginning to subside into a little more dint, when Panola bounded out front behind the curtain, dressed "<hi rend="italic">as a young Bacchante</hi>," Doeteur Canonge said.</p>
+<q><l>"Ma soeur voici le bras qui senge nos deux freres."</l></q></p>
+<p>It was admirably rendered by Duplessis, but at the close, where Camille makes the apostrophe to "Rome," and ends with her fearful malediction, Natika seemed literally inspired. Her small audience were electrified; her voice rang and thrilled through every heart (she had studied from Rachel). At the conclusion there was the greatest excitement; the Duplessis clapped and stamped and cried "encore," and "bravo," until they were all hoarse. Even the Smiths and Clarks caught the enthusiasm. It was a moment of triumph for Natika; but at last the curtain closed positively before her, and people were beginning to subside into a little more dint, when Panola bounded out front behind the curtain, dressed "<hi rend="italic">as a young Bacchante</hi>," Docteur Canonge said.</p>
 <p>She had simply tied a tanned wolf's skin around her shoulders, over her white frock, and put on a
 <pb n="83     ACTED CHARADES."/>
-pair of beaded Indian moccasins on her little feet, and tucked up her skirts rather short, and lot her long, bold hair stream over her like a veil from under her crown of leaves. She looked "<hi rend="italic">wild</hi>" enough, if rather an anachronism, as she sprang forth with her violin and bow in her hands and began to play the wildest, merriest tunes, flinging out the funniest and most grotesque combinations of notes. Everybody was suddenly seized with a fury of dancing; like the effect of the flute-player of the T&#x00E4;nnenhauser, Panola's wild music seemed to set everybody crazy with fun.</p>
+pair of beaded Indian moccasins on her little feet, and tucked up her skirts rather short, and let her long, bold hair stream over her like a veil from under her crown of leaves. She looked "<hi rend="italic">wild</hi>" enough, if rather an anachronism, as she sprang forth with her violin and bow in her hands and began to play the wildest, merriest tunes, flinging out the funniest and most grotesque combinations of notes. Everybody was suddenly seized with a fury of dancing; like the effect of the flute-player of the T&#x00E4;nnenhauser, Panola's wild music seemed to set everybody crazy with fun.</p>
 <p>Panola played jigs, reels, Highland flings, Italian tarantelles. Her bow seemed to fly like a gleam of light across the strings; at last she fell into the tune of the "Arkansas Traveller;" she played it in every key and with every modulation; she made it laugh, and cry, and whine, and jerk, and trill, and quiver; she played it single, and double, and triple, and quadruple. Everybody was dancing, and laughing like mad people, until Panola saw that they were absolutely exhausted, when gradually she toned her music down till it quietly died away. She disappeared suddenly behind the curtains again, and the weary dancers sunk upon their chairs breathless and gasping.</p>
 <p>Mark had laughed till he cried, and sat now in his chair wiping off the traces of tears from his cheeks. his grandfather was very happy to see Mark laugh.</p>
 <pb n="84     PANOLA."/>
-<p>Lizbette announced the serving of the supper, and Panola reappeared, grave and demure, dressed again as she was in the early part of the evening. Lizbette's gumbo and oysters were perfect. "The mayonaise of red-fish and the salad" Docteur Canonge had prepared himself, he said; so they were beyond praise. Some cold roast turkey and a hair, with p&#x00E2;t&#x00E9;s, little calves, and confitures, and some delicious aspic jelly of white grapes, and oranges, bananas and pineapples, with plenty of excellent claret, a good cup of black coffee, and a pousse caf&#x00E9; of a thimbleful of cura&#x00E7;oa or strong Mariscliino, concluded the m&#x00E9;nu. It was done full justice to, and after supper everybody made their obeisance to Natika, and thanked Docteur Canonge for their "delightful evening," and they all went home.</p>
-<p>As Judge Morgan rode home with young Smith in his cabriolet he asked him about the different people they had met, especially Madame Bolling, about whom he seemed to have some curiosity. He had been introduced to her, and had danced with her, but by some accident had not been introduced to her son. He spoke of her now carelessly, but with evident interest. Smith knew very little about her, as it was the first time he had met any of the neighbors; his family had only recently moved here. He told Judge Morgan that "she was a half-sister of Major Flauoy, and the aunt of Panola."</p>
+<p>Lizbette announced the serving of the supper, and Panola reappeared, grave and demure, dressed again as she was in the early part of the evening. Lizbette's gumbo and oysters were perfect. "The mayonaise of red-fish and the salad" Docteur Canonge had prepared himself, he said; so they were beyond praise. Some cold roast turkey and a ham, with p&#x00E2;t&#x00E9;s, little calves, and confitures, and some delicious aspic jelly of white grapes, and oranges, bananas and pineapples, with plenty of excellent claret, a good cup of black coffee, and a pousse caf&#x00E9; of a thimbleful of cura&#x00E7;oa or strong Marischino, concluded the m&#x00E9;nu. It was done full justice to, and after supper everybody made their obeisance to Natika, and thanked Docteur Canonge for their "delightful evening," and they all went home.</p>
+<p>As Judge Morgan rode home with young Smith in his cabriolet he asked him about the different people they had met, especially Madame Bolling, about whom he seemed to have some curiosity. He had been introduced to her, and had danced with her, but by some accident had not been introduced to her son. He spoke of her now carelessly, but with evident interest. Smith knew very little about her, as it was the first time he had met any of the neighbors; his family had only recently moved here. He told Judge Morgan that "she was a half-sister of Major Flanoy, and the aunt of Panola."</p>
 <pb n="85     ACTED CHARADES."/>
 <p>The judge sat meditating. "She <hi rend="italic">can't</hi> be the same person, I suppose," he said, at length, "else she would certainly have recognized <hi rend="italic">me</hi> as I did her. She did not seem to know me at all; but the woman I speak of <hi rend="italic">could</hi> not have forgotten me. Oh, no! that would be an impossibility. I never saw such a likeness in my life, though!"</p>
 <p>"Where did you know anybody like Madame Bolling?" inquired Smith, roused at last into a faint curiosity.</p>
@@ -587,14 +682,14 @@ like him so much, Victor. I made him myself!"</p></div>
 NATIKA JACQUIMIN.</head>
 <p>THE father of Natika Jacquimin was a Greek, who came over on a trading expedition to America, with his brothers, in a small merchant ship, laden with dried fruits and wines from the Levant. After they had made an advantageous sale of their articles of traffic, it was decided among the family of brothers, that the eldest of the four,
 <pb n="88     PANOLA."/>
-"John Neoptolemns," should remain in New Orleans, set up a small shop, which the family were to keep supplied with fruits and wines, etc., while the other three brothers were to return home for a fresh cargo. John Neoptolemus was a shrewd trader. he spoke several tongues fluently, was clever and insinuating. he prospered, made some money for his brothers, and a great deal for himself. In course of time he extended his business, built a fine warehouse, and became famous as a dealer in wines. he speculated in cotton, in sugar, in stocks, in everything; was fortunate, and grew to be a millionnaire. At more than middle age he married the pretty Miss Canonge, who died at the birth of Natika.</p>
-<p>Natika was brought up chiefly by her aunt, Mrs. Burthe, who loved the little girl almost as much as she did her only son, Victor, who was two years younger than Natika. All three daughters of Docteur Canonge, Mrs. Jacquimin, Mrs. Burthe and Mrs. Bolling, seemed to be of delicate constitution, for they died off one after another, leaving the already widowed old docteur very lonely in the world. He was very glad to get control of his grandson, Mark Boiling, at the time of his son-in-law Boiling's second marriage with Mrs. Coolidge. Mark was a very precious treasure to the old man. He had not seen very much of his other two grandchildren, though they were sent occasionally to visit him by their respective parents and guardians.
+"John Neoptolemus," should remain in New Orleans, set up a small shop, which the family were to keep supplied with fruits and wines, etc., while the other three brothers were to return home for a fresh cargo. John Neoptolemus was a shrewd trader. he spoke several tongues fluently, was clever and insinuating. he prospered, made some money for his brothers, and a great deal for himself. In course of time he extended his business, built a fine warehouse, and became famous as a dealer in wines. he speculated in cotton, in sugar, in stocks, in everything; was fortunate, and grew to be a millionnaire. At more than middle age he married the pretty Miss Canonge, who died at the birth of Natika.</p>
+<p>Natika was brought up chiefly by her aunt, Mrs. Burthe, who loved the little girl almost as much as she did her only son, Victor, who was two years younger than Natika. All three daughters of Docteur Canonge, Mrs. Jacquimin, Mrs. Burthe and Mrs. Bolling, seemed to be of delicate constitution, for they died off one after another, leaving the already widowed old docteur very lonely in the world. He was very glad to get control of his grandson, Mark Boiling, at the time of his son-in-law Bolling's second marriage with Mrs. Coolidge. Mark was a very precious treasure to the old man. He had not seen very much of his other two grandchildren, though they were sent occasionally to visit him by their respective parents and guardians.
 <pb n="89     NATIKA JACQUIMIN."/>
 Natika was a delicate child, partly perhaps from being deprived of her mother's care at such an early age and also from over-indulgence in all her capricious tastes and wilful imprudences from the time that she was conscious of possessing a will of her own. Her aunt Burthe never said her nay, and her father was too much absorbed in his business to give much time to the bringing up of his only child. he saw Natika occasionally, either in his own home, where she was intrusted to the care of well-paid but careless servants, or at her aunt Burthe's, where she spent most of her time. He saw that she was exceedingly pretty and graceful, intelligent and bright, and he was satisfied.</p>
 <p>Natika was treated like a little queen in her aunt's house; and Victor was taught, from his earliest years, to submit to her imperiousness, and to look upon her as a creature quite superior to ordinary human beings. Natika was very much quicker in intellect than Victor. She had all the readiness and suppleness which the long, back-stretching generations of culture give to the pure Greek mind. She was as versatile in her talents as Alcibiades himself, and might have held her own with an Aspasia, or a Deidamia, the gifted friend of Socrates; and with this Greek subtlety of nature was combined the light, mercurial "chauvimisme" of her mother's French blood.</p>
 <p>Natika was true for the moment; but possession
 <pb n="90     PAN0LA."/>
-of any coveted pleasure brought with it immediate satiety and weariness. Nothing satisfied her; she found excitement in the pursuit, but never in the attainment of her wishes. She was the trice daughter of those Athenians who, as St. Paul says, "were never weary to hear or to tell of some new thing," and yet this very versatility and changefulness gave a piquancy and attraction to Natika which also made of her a Cleopatra, whom age could not wither nor custom stale in her infinite variety. The truth of her momentary impulses made them strangely fascinating, While her caprices tortured, and her total lack of power of devotion and self-abnegation, qualities which seem to be essentially womanly, made Natika a perpetual disappointment and cause of anguish to all who really loved her. She was so unstable, and so fond of power, that sometimes she seemed to be utterly merciless and cold, when slip was only weary. Intellectual pleasures would have given her some sort of real satisfaction; but Natika, while she would read all day sometimes, and listen with clear understanding to any intellectual conversation, had never the steadiness of purpose to <hi rend="italic">study</hi> anything. What she knew, she picked up without trouble. She <hi rend="italic">would not</hi> be troubled about anything! "<hi rend="italic">It did not pay</hi>," she said.
+of any coveted pleasure brought with it immediate satiety and weariness. Nothing satisfied her; she found excitement in the pursuit, but never in the attainment of her wishes. She was the true daughter of those Athenians who, as St. Paul says, "were never weary to hear or to tell of some new thing," and yet this very versatility and changefulness gave a piquancy and attraction to Natika which also made of her a Cleopatra, whom age could not wither nor custom stale in her infinite variety. The truth of her momentary impulses made them strangely fascinating, while her caprices tortured, and her total lack of power of devotion and self-abnegation, qualities which seem to be essentially womanly, made Natika a perpetual disappointment and cause of anguish to all who really loved her. She was so unstable, and so fond of power, that sometimes she seemed to be utterly merciless and cold, when she was only weary. Intellectual pleasures would have given her some sort of real satisfaction; but Natika, while she would read all day sometimes, and listen with clear understanding to any intellectual conversation, had never the steadiness of purpose to <hi rend="italic">study</hi> anything. What she knew, she picked up without trouble. She <hi rend="italic">would not</hi> be troubled about anything! "<hi rend="italic">It did not pay</hi>," she said.
 Any nouveaut&#x00E9; amused her for a day; then it wearied her; then she hated it. She had no con-
 <pb n="91     NATIKA JACQUIMIN."/>
 ception of duty, or of self-sacrifice. There were no possibilities of any heroism in her. She was born a Sybarite; but an intellectual one, for there was no coarseness in Natika. Such as she was, she was passionately followed and adored by higher and better natures than hers ever could become. But high and heroic deeds, even, would have wearied Natika. She did not like the demands such natures made upon her--demands that it was utterly impossible for her nature to meet satisfactorily. It was not in her to be constant and to love nobly. Why should more be demanded of any organization than it is capable of?</p>
@@ -663,7 +758,7 @@ the fair Panola as an escort in modern toggery. An Indian should never give up h
 <p>"Yes. That's Mrs. Flanoy's Indian name," put in Mark, taking his cigar out of his lips to give vent to a puff of smoke.</p>
 <p>"What does it mean? These are delicious Havanas, I declare! See how long the ash holds on to the end of the cigar. We never get such in Europe."</p>
 <p>"I really believe (puff) that I prefer (puff) a Powhatan pipe with
-good perrique," replied Mark, with intervals of smoke between his words. "it means (puff) '<hi rend="italic">Mocking Bird</hi>,' or, as it is in full Cherokee, 'Chicora Chee-squah-con-nau-gee-tal'--'The bird that sing the best.'--Chicora was famous for her beaty and singularly sweet voice--a quality of voice often found in Indian women."</p>
+good perrique," replied Mark, with intervals of smoke between his words. "it means (puff) '<hi rend="italic">Mocking Bird</hi>,' or, as it is in full Cherokee, 'Chicora Chee-squah-con-nau-gee-tal'--'The bird that sing the best.'--Chicora was famous for her beauty and singularly sweet voice--a quality of voice often found in Indian women."</p>
 <p>"Well, this 'mocking-bird' that I saw to-day was quite different from her sisters in the tree branches about her house. Her singing and dancing is all done for. She is rather a dusky old bird now."</p>
 <p>"Chicora! Why, I think her still beautiful. What a fellow you are, Victor," said Mark, half-smiling, in spite of himself. "You ought to feel sympathy for that poor afflicted woman, Anybody else would."</p>
 <pb n="101     CHEROKEE JOE SUSPECTS."/>
@@ -828,10 +923,10 @@ One is to make bisque. Then Lizbette knew all about terrapin, all about corn-bre
 <pb n="121     MUCH-MARRIED LIZBETTE."/>
 they all thought themselves <hi rend="italic">very</hi> ill when they were condemned "to tea and toast." The contortions of visage with which the beverage would be swallowed would be inconceivable to any Englishman. But the fact was, Lizbette did not make good tea. Either she steeped it in middling cool water, or she boiled it, or stewed it, or did something to it which drew out all its bitterness and evaporated all its aroma. Then, too, these ignorant people had never drunk a cup of really <hi rend="italic">good</hi> tea, made as it is in England. So they only knew it through Lizbette's preparations. (I should advise am, Englishman Who travels in Louisiana, to bring with him leis own portable little tea equipage, or learn to drink coffee or claret for his breakfast. The tea is generally abominable stuff.)</p>
 <p><hi rend="italic">Tisans</hi> can be got to perfection. Tisane of balm, or orange leaves, or violets, or of the thousand plants that are used by experienced French nurses for the simple cure or prevention of native diseases. On the opposite side of the fireplace to the coffee furnace Lizbette usually had a caraffe of "Tisan" stewing for some body or other.</p>
-<p>Lizbette was part of the family. She ruled over the other servants despotically, and whenever she got a little too much "old Bourbon" or "Jamaiky," she used to sit down and weep bitterly, and tear her hair, in memory of her "dear dead old mistus," Mrs. Cauonge, who had been buried for forty years.
+<p>Lizbette was part of the family. She ruled over the other servants despotically, and whenever she got a little too much "old Bourbon" or "Jamaiky," she used to sit down and weep bitterly, and tear her hair, in memory of her "dear dead old mistus," Mrs. Canonge, who had been buried for forty years.
 <pb n="122     PANOLA."/>
 Then the old docteur would shrug his shoulders, give Lizbette a few drops of ammonia, and have her put in her bed, whence, after a few hours' sleep, she would emerge meek and subdued, and altogether amiable and obliging for some time.</p>
-<p>While Natika and Victor were with their grandpapa, Mark made an effort to have a little more regularity about the household, and did succeed with lunch and dinner; but breakfast remained woefully protracted and long drawn out. Victor would come sometimes to join Mark at nine o'clock. Natika tried it once, and then ordered her chocolate at eleven. Victor fell off too in attendance. Docteur Canouge came <hi rend="italic">sometimes</hi>, but not often. So Mark returned to his old habits of his simple, solitary breakfast at eight o'clock, leaving the others to arrange their own hours with Lizbette.</p>
+<p>While Natika and Victor were with their grandpapa, Mark made an effort to have a little more regularity about the household, and did succeed with lunch and dinner; but breakfast remained woefully protracted and long drawn out. Victor would come sometimes to join Mark at nine o'clock. Natika tried it once, and then ordered her chocolate at eleven. Victor fell off too in attendance. Docteur Canonge came <hi rend="italic">sometimes</hi>, but not often. So Mark returned to his old habits of his simple, solitary breakfast at eight o'clock, leaving the others to arrange their own hours with Lizbette.</p>
 <p>Docteur Canonge's house was really a very delightful restaurant, where each and all did exactly as they pleased. Nobody was in a hurry about anything in particular, and the servants rather liked the disjointed style of living.</p>
 <p>Negroes have naturally no instinct of order. They sleep anywhere and at all hours, and rise often to cook and eat at the most untimely hours of the night. Victor called his grandfather's house "Liberty Hall." He said it was a good name for an American house. He liked it better than "Independence Hall." It was more characteristic. Yet,
 <pb n="123    MUCH-MARRIED LIZBETTE."/>
@@ -844,7 +939,7 @@ and her people, and they never lost caste among themselves, or in their church, 
 <pb n="125 A GERMAN NATURALIST." entity="sdpanol125" pages="125"/>
 They are a kind, impulsive people, governed by <hi rend="italic">&#x00E0; priori</hi> superstitions. They may be developed out of this, but they will then be developed into another race of beings.
 Lizbette, with all her deficiencies, was a very important and greatly beloved member of Docteur Canonge's family, but she was African au fond.</p>
-<note id="sdpanol0007" n="1" resp="auth" place="end">NOTE.--Among the Hindoos we find the most delicate and beautiful pictures of purest conjugal love. For instance, in the loves of Rama and Sita, in Sakuntala, and other earliest books, which portray the Hindoo ideal. Even the <hi rend="italic">Suttee</hi> sprang front this elevated ideal of the oneness of conjugal lives. Perhaps it is from the Aryan that the European sentiment of constancy may be inherited; and its pure conception of conjugal unity comes from the people who imagined Sita and Sukuutala.</note></div>
+<note id="sdpanol0007" n="1" resp="auth" place="end">NOTE.--Among the Hindoos we find the most delicate and beautiful pictures of purest conjugal love. For instance, in the loves of Rama and Sita, in Sakuntala, and other earliest books, which portray the Hindoo ideal. Even the <hi rend="italic">Suttee</hi> sprang front this elevated ideal of the oneness of conjugal lives. Perhaps it is from the Aryan that the European sentiment of constancy may be inherited; and its pure conception of conjugal unity comes from the people who imagined Sita and Sakuntala.</note></div>
 <div id="sdpanol008" type="cahpter" n="8">
 <head>CHAPTER VIII.<lb/>
 A GERMAN NATURALIST.</head>
@@ -870,7 +965,7 @@ den Linden,' in Berlin. I was in a little danger lest the rocks might cut my gra
 <pb n="130     PANOLA."/>
 <p>"This is a splendid country for a botanist. I do not know when I can persuade myself to leave it. I find so much that is delightful here. I have learned to live like the people here, and it does very well indeed. Sometimes I find I can go very well for several days, as the Arabs do, with the sustenance of small balls of ground coffee, which I can generally obtain in this latitude. It is very convenient, and easily portable."</p></div></body></text></q>
 <p>"Good Lord!" ejaculated Victor, "what a diet!"</p>
-<p>Mark smiled as he glanced up from his letter. Doeteur C.'anonge was rubbing his hands in glee. Homer was a man after his own heart.</p>
+<p>Mark smiled as he glanced up from his letter. Docteur Canonge was rubbing his hands in glee. Homer was a man after his own heart.</p>
 <p>"Oh, but I <hi rend="italic">should</hi> like to eat coffee wiz such a compagnon!" said the docteur; "it would be nectare of zie gods!"</p>
 <p>"Besides," continued Mark, reading, <q><text><body><div
 type="letter" id="sdpanol1003"><p>I have frequently much fruits and many plants which are edible and known to me, so that I fare well. Some day you will find me knocking at your gate, dear Mark, when, if ever, I can persuade myself to quit this land of interest and wonders. Make my compliments to your venerable and most admired grandfather, Monsieur le Marquis and Docteur Canonge, whom I hope some day to see, and to lay at his feet my most respectful homage. With unchanging friendship, believe me, my dear Mark,</p>
@@ -889,7 +984,7 @@ type="letter" id="sdpanol1003"><p>I have frequently much fruits and many plants 
 <p>"Zey make attack in a phalanx! How sall we meet zis enemy?"</p>
 <p>Natika laughed. "I don't know, grandpapa. Let's bring them all in here, where Mark and Victor can help us; and tell Lizbette to send up a tray of wine and little cakes as soon as possible, and some of her home-made orange syrup and water."</p>
 <p>"Yes; zat will be a diversion to occupy zie army for a while," said Docteur Canonge, laughing. "And we will tell zem about R&#x00F6;mer, and I will show zem my workshop. So, now we have arrange our plan of battle, I will go wash my hands and take off zis workman's costume!"</p>
-<p>When Docteur Canonge returned to the salon after making a hurried toilette, he carne in all the splendor of his black suit, in the buttonholes of which dangled the ribands of several scientific associations, among them the red riband of the French academy. He found "the army," as he had called it, already in line of battle. The angular Mr. Clark, the exuberant Mrs. Clark, the shy Miss Clark, occupied one sofa in a straight line; immediately at right angles sat the three Misses Smith, with their mamma flanking them, and their brother truing to look graceful, nonchalant and accustomed to the easy performance of all social duties. Natika sat facing this formidable array, talking volubly and despairingly--making enormous courts to get some replies more than monosyllabic from her over-
+<p>When Docteur Canonge returned to the salon after making a hurried toilette, he came in all the splendor of his black suit, in the buttonholes of which dangled the ribands of several scientific associations, among them the red riband of the French academy. He found "the army," as he had called it, already in line of battle. The angular Mr. Clark, the exuberant Mrs. Clark, the shy Miss Clark, occupied one sofa in a straight line; immediately at right angles sat the three Misses Smith, with their mamma flanking them, and their brother truing to look graceful, nonchalant and accustomed to the easy performance of all social duties. Natika sat facing this formidable array, talking volubly and despairingly--making enormous courts to get some replies more than monosyllabic from her over-
 <pb n="133     A GERMAN NATURALIST."/>
 whelming and portentous guests. But they, the guests, had come to <hi rend="italic">be</hi> entertained, not to entertain. So they sat up for their rights, and Natika found that even her Parisian skill failed when she had to do the "frais" of all the conversation for a party comprising six women, who had very few ideas, and who jealously kept those few sacredly within the miserly recesses of their own minds.</p>
 <p>This s&#x00E9;ance was held in the chief salon, and Natika could have embraced her grandfather, when after making his graceful and gracious salutations, he invited the whole party to adjourn to the library. So that his poor Mark "also might have zie pleasure of zie ladies' conversation."</p>
@@ -946,7 +1041,7 @@ A VERY WOMAN.</head>
 <p>"Oh, Natika," cried Mark, shocked at her levity, "what a shame to speak so lightly of a human soul which is lavishing its all of life and love at your feet! If a woman cannot respond, she should at least be grateful, and respect such love as that."</p>
 <p>"Should she?" said Natika, carelessly. "Have you to learn, my cousin Mark, that 'should' and
 <pb n="143     A VERY WOMAN."/>
-'ought' are verbs that are not included in my vocabulary? I do not acknowledge any duties in life to anybody. I do exactly what I choose aud what is according to my own will and pleasure. Do you remember Madame de Sta&#x00EB;l's excuse for herself? 'C'est ma nature ainsi.' Well, that's my creed. What I am, I am by birth, proclivities, accidents of life; and though I am deprived, from hatred of cant and hypocrisy, of many popular virtues, I retain one, of absolute truth to myself and also to those who are associated with me. What I am, I am; and I don't choose to be anything else. There's Mr. Coolidge's ring at the door. Now comes the announcement to me. Au revoir, messieurs! You are both rather wearisome with your sermonizing."</p>
+'ought' are verbs that are not included in my vocabulary? I do not acknowledge any duties in life to anybody. I do exactly what I choose and what is according to my own will and pleasure. Do you remember Madame de Sta&#x00EB;l's excuse for herself? 'C'est ma nature ainsi.' Well, that's my creed. What I am, I am by birth, proclivities, accidents of life; and though I am deprived, from hatred of cant and hypocrisy, of many popular virtues, I retain one, of absolute truth to myself and also to those who are associated with me. What I am, I am; and I don't choose to be anything else. There's Mr. Coolidge's ring at the door. Now comes the announcement to me. Au revoir, messieurs! You are both rather wearisome with your sermonizing."</p>
 <p>Natika kissed her hands most gracefully to her cousins; gathering all her little finger-tips to her rosy lips, then throwing out her hands towards then, scattering kisses as slit ran gayly out of the room, the high heels of her satin slippers clattering lightly as she went.</p>
 <p>"Take the heels off your slippers, Natika," called out Victor, "and walk noiselessly, like a lady."</p>
 <p>"Like Panola, par exemple!" retorted Natika. "<hi rend="italic">My</hi> ancestors did not steal upon their prey like wild beasts!"</p>
@@ -994,7 +1089,7 @@ to her; it is a great <hi rend="italic">waste</hi>, beauty on such a woman as th
 <p>"No one, and nothing will ever satisfy you," exclaimed Victor.</p>
 <pb n="149     COUSINS' GOSSIP."/>
 <p>"Perhaps not. I think. I might have loved Alcibiades--perhaps Pericles, or Columbus," said she, laughing. "There's not a man among the Romans who would have attracted me. They are too one-sided, and too stern."</p>
-<p>"Wouldn't you have liked Antony? I mean Mark Antonv, not Antony Coolidge."</p>
+<p>"Wouldn't you have liked Antony? I mean Mark Antony, not Antony Coolidge."</p>
 <p>"No. Antony drank too much, and was not intellectual enough for me. I think if Socrates had been handsomer I might have fancied <hi rend="italic">him</hi>. However, Mark, you should have witnessed how Miss Clark was bourgeoning and blossoming under the melting influence of Antony's charms. She <hi rend="italic">talked</hi>, absolutely <hi rend="italic">talked</hi>, in a ceaseless, perpetual flow of exceedingly uninteresting platitudes; an inexhaustible dribble that was nearly prostrating to ordinary human intelligences. I did wish myself transformed into a rock, or a deaf mute, or anything to escape from it; once the floodgate lifted off her silence, the infinitely small source appears to be exhaustless. But Victor amiably sacrificed himself; and Antony was flattered, as men always are."</p>
 <p>Victor laughed.</p>
 <p>"Merci for my sex," said Mark, smiling.</p>
@@ -1035,7 +1130,7 @@ you appreciate a touch of true, wild nature," said Mark, smiling.</p>
 A SAGE'S PHILOSOPHY.</head>
 <p>"GRANDPAPA," exclaimed Natika, one day when they were all gathered, as usual, about Mark in the study; "grandpapa, do you call yourself a Comtist?" she glanced at the book which her grandfather was reading--it was "Comte's Philosophy."</p>
 <pb n="155     A SAGE'S PHILOSOPHY."/>
-<p>"No," replied the docteur, looking up from his page, meditatively. "I do not call myself anyzing as yet., Natika. I zink I should razer be classed in a ver' general and wide classification among zie order of zie Christians; of course, perhaps of a peculiar species."</p>
+<p>"No," replied the docteur, looking up from his page, meditatively. "I do not call myself anyzing as yet, Natika. I zink I should razer be classed in a ver' general and wide classification among zie order of zie Christians; of course, perhaps of a peculiar species."</p>
 <p>Victor laughed aloud. "A <hi rend="italic">very</hi> peculiar species, I think, grandpapa," he said.</p>
 <p>The old man looked at him gravely, then after a moment's silence he said:</p>
 <p>"My chief object in life is to search after the truth, wherever it
@@ -1105,7 +1200,7 @@ to give to Odin, his youngest son, besides the strong bow and arrow, and the bat
 <p>"Silk and beaver hats!" said Victor.</p>
 <p>"Bonnets and plumes!" said Natika.</p>
 <p>"Casques of mail and war feathers!" said Mark.</p>
-<p>"No," said Docteuir Canonge. "Ye Indians of America were not Aryans--not 'war feathers,' but 'casques of mail.' Yes, perhaps!</p>
+<p>"No," said Docteur Canonge. "Ye Indians of America were not Aryans--not 'war feathers,' but 'casques of mail.' Yes, perhaps!</p>
 <p>"And they walked on the sea with white-winged
 <pb n="165     THE STORY OF ODIN."/>
 ships, and carried thunder and lightning in their pockets, (pistols, you know), and ran express trains with smoking, chained, and fettered dragons," said Victor, laughing.</p>
@@ -1165,7 +1260,7 @@ an egg in, and there are places where beautiful crystals of rock quartz are foun
 them, rather an old girl, who wears spectacles and does up the principal literary characters, is perversely jealous, even of <hi rend="italic">me!</hi> I think, according to your transmigration theory, she was evolved through the frogs; she has that sort of a face. Mark is getting tired of it. He does not like the painful rank of a beau in society. I think he will soon persuade grandpapa to go home.</p>
 <p>I have just had a letter from the Reads, in New York. They sail soon for Europe. I think I shall join them. There is a family going from this place to New York next week. So I shall probably not return to Louisiana with grand papa and Mark. If you should be in Paris next winter, you will probably find me, as usual, at my cousin, Madame Ronher's. I expect I shall meet you some day unexpectedly on the drive of the Bois de Boulogne, jusqu'a cetteheure de ravissement. I am, dear Victor, your cousin and friend,     NATIKA.</p></div>
 <div type="postscript">
-<p>"P. S.--Antonv Coolidge has been here a week. he begins to be tiresome. Mark has just rolled himself out to my side on this verandah, where I am writing; and here appear the train also. It is astonishing, the necessity of ordinary women for something to gush over upon. They must expend the overflow of sentiment in their tender bosoms, whether it be on parrots, or poodles, or men. For my part I prefer poodles, though you never had any patience with Fanfan. She likes the warns baths
+<p>"P. S.--Antony Coolidge has been here a week. he begins to be tiresome. Mark has just rolled himself out to my side on this verandah, where I am writing; and here appear the train also. It is astonishing, the necessity of ordinary women for something to gush over upon. They must expend the overflow of sentiment in their tender bosoms, whether it be on parrots, or poodles, or men. For my part I prefer poodles, though you never had any patience with Fanfan. She likes the warns baths
 <pb n="175  IN THE DARK HOURS." entity="sdpanol175" pages="175"/>
 here very much. I take her in every day. It is good for her health."</p></div></body></text></q>
 <p>"I wonder why women like Natika are so satirical towards their own sex," thought Victor. "The two women I know best, she and Panola, are certainly not given 'to gush,' as she calls it. God knows she is as changeable as a chameleon and very difficult to keep pleased with anything; that is just her charm. And Panola is cold as an iceberg. It would be interesting to thaw her snow. She is far the nobler woman. But then Natika is so cursedly fascinating. Other women are so commonplace beside her!"</p>
@@ -1426,7 +1521,7 @@ of it in time, she was sure, if she had applied to Satana, he would have helped 
 <div type="letter" id="sdpanol1005"><salute>"DEAR MARK:--</salute><p>I have at last succeeded in arranging my little affairs. Through the kindness of Von La Hache and Olivera, who aided me, the one on the piano, and the other with his exquisite violin, I gave a very successful concert here last night. You will see the notice of it in the papers of the day, which I send you. The laudations are rather extravagant, but it was quite a little triumph for me. I was rather not frightened, more <hi rend="italic">excited</hi>, when Olivera led me on to the stage, violin in hand. (My Straduarius is finer than his instrument.)
 <pb n="219          A SUCCESSFUL DEBUTANTE."/>
 You know mine was found in Mexico in an old Spanish family, where it had been an heirloom, and papa paid an immense sum for it. Poor papa! He little thought he was purchasing a means for his daughter to make her bread. At first, my eyes took in a sea of faces and heads that made my own head swim. But Von La Hache struck a bold chord to cover my confusion, and Olivera kindly whispering 'courage, allons,' drew his bow across the violin in the first notes of our duo, which it had been considered best for me to make my essay in public with. At the sound of the violin a wonderful sense of power stole over me, and settling my Straduarius, I drew my bow with as much firmness of touch and clearness of tone as I ever did in my life. I forgot the faces, and only listened to the witching notes from Olivera's instrument as it mounted, like a bird, higher and higher, I following in a vain emulation, until at last we both burst out into a gush of music that carried us both away. I believe we both forgot the audience. I am sure I did, until I was recalled to consciousness by the storm of applause. It was very exciting, the waving of handkerchiefs, and the air seemed to rain flowers, as bouquets fell all over the stage around us.</p>
-<p>"After we had retired, during the interval, Von La Hackie seized my hands in ecstasy. 'Dear Madame, your fortune is made. You play like an angel.'</p>
+<p>"After we had retired, during the interval, Von La Hache seized my hands in ecstasy. 'Dear Madame, your fortune is made. You play like an angel.'</p>
 <pb n="220     PANOLA."/>
 <p>"Well! You know <hi rend="italic">Francia's angels are</hi> playing on violins in those famous pictures of his. And I have seen a St. Cecelia also playing on the violin. So Von La Hache's compliment was not so far out of the way. The issue of it all, dear Mark, is that your little Panola is become suddenly famous. The impresario of the opera house has called upon me this morning, with proposals for a series of concerts, and others have been here, editors and all sorts of people, urging different kinds of engagements and plans upon me until my head aches. But I think I shall accept an offer from an agent who wishes me to give concerts in all the principal cities, and perhaps I shall go to Europe. I have secured a good respectable maid, over middle age, to accompany me. Love to grand papa Canonge and to Lizbette.</p>    <salute> Your affectionate</salute>
 <signed>"PANOLA.</signed></div>
@@ -1490,7 +1585,7 @@ on die pigeons. Dey never got any better."</p></div>
 TRAGIC RETRIBUTION.</head>
 <p>MARK was greatly troubled at the revelation made so unconsciously to him by Professor R&#x00F6;mer. It was impossible to doubt this evidence of the wickedness of the woman who had been his father's wife, and now that the thread of disentanglement had been given into his hands he saw many circumstances in a new aspect to confirm its truth. he remembered the remarks made at the time of his father's death; of Major Flanoy's sudden death; of Chicora's long illness, with its strange, remittent character; his own illness under his stepmother's care; and Mark groaned and shuddered at the fearful atmosphere of crime which surrounded that woman, and in which he, with so many others, had been unconsciously living. Gazing at the spray of pea-blossoms, he wondered at the blindness of himself and of every one else. They might have read
 <pb n="229     TRAGIC RETRIBUTION."/>
-about these plants in a hundred books in his grandfather's library--materia medicas, that they had in their hands every day. He got down several; yes, there it was, the description of this <hi rend="italic">lathyrus sutivus</hi>. Why, any child would have known it.</p>
+about these plants in a hundred books in his grandfather's library--materia medicas, that they had in their hands every day. He got down several; yes, there it was, the description of this <hi rend="italic">lathyrus sativus</hi>. Why, any child would have known it.</p>
 <p>He rang the bell and told Lizbette to send Cherokee Joe to him. Lizbette said "Joe had left at daybreak, and had said he was going to the Nation and would not be back soon again."</p>
 <p>Mark was driven back to communings with his own unquiet soul. What was he to do? Expose this woman? or what? She was his father's widow; his father whom she had very probably murdered! She was a female Thug; she was a malignant and poison-breathing creature, who struck in the dark at the very highest and noblest. Yet she was Panola's aunt by the half-blood. Panola! how glad he was that Panola was away from under that pernicious influence which would have not hesitated to attack even her sweet, pure life. <hi rend="italic">What was he to do?</hi></p>
 <p>Mark asked himself the question every minute. Would it be best to tell his grandfather or not? Should he see the wretched woman privately and tell her how he had discovered her crimes? If he did, and she were to go away, would it not be to carry death and evil wherever she did go? Mark was of a pitiful nature, but he recognized the absolute necessity of human beings destroying all
@@ -1513,9 +1608,9 @@ said that it was "Joe's purse," and she gave it to Indian Molly, who received it
 <p>"Joe gone to Nation," replied Molly, laconically.</p>
 <p>"What you think about Madame Bolling's death?" asked Lizbette, curiously.</p>
 <p>"Ah-skeen-er," laconically replied Molly.</p>
-<p>"Where are goin', Molly?" asked Lizbette. "I see you've got your pusseoos strapped on your back, and all those baskets. Those are very pretty baskets. What will you take for that fanner?"</p>
-<p>Lizbette was always ready to make a bargain. The "fanner," a large, flat basket, made of very finely split-cane, woven double, was indeed a beautiful work of Indian art, being extremely fine in the plaiting, and very tastefully ornamented with colored borders of red and black dyed splits of the reed. Molly unstrapped the baskets and sat herself down on the ground, ready for a trade. Her "pusseoos" blinked its bright-black eyes when Lizbette chucked it under the chin.</p>
-<p>"That pusseoos is the very image of Joe," said Lizbette "Wait, I'll give you a flannel gown for it: bran new red flannel, and a piece of sugar, too. What will you take for the fanner, Molly?"</p>
+<p>"Where are goin', Molly?" asked Lizbette. "I see you've got your pusscoos strapped on your back, and all those baskets. Those are very pretty baskets. What will you take for that fanner?"</p>
+<p>Lizbette was always ready to make a bargain. The "fanner," a large, flat basket, made of very finely split-cane, woven double, was indeed a beautiful work of Indian art, being extremely fine in the plaiting, and very tastefully ornamented with colored borders of red and black dyed splits of the reed. Molly unstrapped the baskets and sat herself down on the ground, ready for a trade. Her "pusscoos" blinked its bright-black eyes when Lizbette chucked it under the chin.</p>
+<p>"That pusscoos is the very image of Joe," said Lizbette "Wait, I'll give you a flannel gown for it: bran new red flannel, and a piece of sugar, too. What will you take for the fanner, Molly?"</p>
 <p>Molly held up her hand with the thumb bent into the palm.</p>
 <p>"Four bits," she said.</p>
 <p>"Four bits! That's too much."</p>
@@ -1610,7 +1705,7 @@ to grandpapa. Answer him kindly, clear Mark--dearest grandpapa: the poor fellow 
 <pb n="245     PANOLA IN PARIS."/>
 breath. It seemed poisonous and noxious to her. There was an innate repulsion towards illness and sick people. I feel sorry for her. All the horrid paraphernalia of confirmed chronic invalidism, the fevers and the coughing, and the weakness--all are hateful to her. She could not hide her repugnance from me. I tried to incommode her as little as possible; but, finding her so intensely bored, I persuaded her to go to Egypt for the winter. She is not very strong, and the air of the desert is said to be good for delicate lungs. She was very glad to go. It is an immense relief to her. I promised to go to the south of France, or to Madeira. But I have not gone. I have such a longing for <hi rend="italic">home</hi>. I wish I might come. Panola thinks you would let me.
 "Of course you know what a world-famous diva Panola is. The people go mad over her. She deserves it. She is, if anything, more beautiful than ever, and she improves every day in her playing; she studies so hard.</p>
-<p>"Oh, Mark! what a fool I was! But I dare not speak of the past, 'when, like the base Judean, I threw away a pearl richer than all my tribe.' By the way, does that mean Judas Iscariot, or Herod the king, when he killed Mariamne?</p>
+<p>"Oh, Mark! what a fool I was! But I dare not speak of the past, 'when, like the base Jud&#x00E6;an, I threw away a pearl richer than all my tribe.' By the way, does that mean Judas Iscariot, or Herod the king, when he killed Mariamne?</p>
 <p>"Talking of killing reminds me of Madame Bolling. I have no doubt there was retributive justice in her end, though Panola don't seem to
 <pb n="246     PANOLA."/>
 understand about it exactly. I must tell you that 'zose Injuns'--as grandpapa calls them--the Cherokees, Panola's respectable relatives, have not forgotten me. Every year I have received through the post a peculiar letter, which, when opened, contains nothing but a very correctly drawn rattlesnake coiled to spring Whoever drew it has caught the reptilish characteristics admirably.</p>
@@ -1750,34 +1845,34 @@ are glitteringly white in the splendor of its light. On the topmost bough of the
 </body>
 <back id="sdpanol1206">
 <div id="sdpanolbm" type="advertisments">
-<figure entity="sdpanolbm1" rend="inline">
+<figure entity="sdpanolbkm01" rend="inline">
 <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi
 rend="italic">Panola</hi>.</figDesc></figure>
-<figure entity="sdpanolbm2" rend="inline">
+<figure entity="sdpanolbkm02" rend="inline">
 <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi
 rend="italic">Panola</hi>.</figDesc></figure>
-<figure entity="sdpanolbm3" rend="inline">
+<figure entity="sdpanolbkm03" rend="inline">
 <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi
 rend="italic">Panola</hi>.</figDesc></figure>
-<figure entity="sdpanolbm4" rend="inline">
+<figure entity="sdpanolbkm04" rend="inline">
 <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi
 rend="italic">Panola</hi>.</figDesc></figure>
-<figure entity="sdpanolbm5" rend="inline">
+<figure entity="sdpanolbkm05" rend="inline">
 <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi
 rend="italic">Panola</hi>.</figDesc></figure>
-<figure entity="sdpanolbm6" rend="inline">
+<figure entity="sdpanolbkm06" rend="inline">
 <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi
 rend="italic">Panola</hi>.</figDesc></figure>
-<figure entity="sdpanolbm7" rend="inline">
+<figure entity="sdpanolbkm07" rend="inline">
 <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi
 rend="italic">Panola</hi>.</figDesc></figure>
-<figure entity="sdpanolbm8" rend="inline">
+<figure entity="sdpanolbkm08" rend="inline">
 <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi
 rend="italic">Panola</hi>.</figDesc></figure>
-<figure entity="sdpanolbm9" rend="inline">
+<figure entity="sdpanolbkm09" rend="inline">
 <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi
 rend="italic">Panola</hi>.</figDesc></figure>
-<figure entity="sdpanolbm10" rend="inline">
+<figure entity="sdpanolbkm10" rend="inline">
 <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc></figure>
 </div>
 </back>
