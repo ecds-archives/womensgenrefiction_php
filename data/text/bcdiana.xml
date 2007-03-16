@@ -112,17 +112,17 @@ Digital page images are linked to the text file.</p>
 <front id="bcdiana1203">
 <div type="adverts" id="bcdiana01">
 <pb n="[i]"/>
-<figure entity="" rend="inline">
+<figure entity="bcdianaads" rend="inline">
 <figDesc>Advertisements at the front of B.M. Croker's <hi
 rend="italic">Diana Barrington</hi>.</figDesc>
 </figure>
 <pb n="[ii]"/>
-<figure entity="" rend="inline">
+<figure entity="bcdianafm2" rend="inline">
 <figDesc>Advertisements at the front of B.M. Croker's <hi
 rend="italic">Diana Barrington</hi>.</figDesc>
 </figure>
 </div>
-<pb n="[iii]"/>
+<pb n="[iii]" entity="bcdianatp" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">DIANA BARRINGTON</titlePart>
@@ -141,22 +141,22 @@ PASSAGE," ETC.</byline>
 </titlePage>
 <pb n="[v]"/>
 <div type="table of contents">
-<figure>
+<figure entity="bcdianacont" rend="inline">
 <figDesc>First Table of Contents page for B.M. Croker's <hi
 rend="italic">Diana Barrington</hi>.</figDesc>
 </figure>
 <pb n="vi"/>
-<figure>
+<figure entity="bcdianacont2" rend="inline">
 <figDesc>Second Table of Contents page for B.M. Croker's <hi
 rend="italic">Diana Barrington</hi>.</figDesc>
 </figure>
 <pb n="vii"/>
-<figure>
+<figure entity="bcdianacont3" rend="inline">
 <figDesc>Third Table of Contents page for B.M. Croker's <hi
 rend="italic">Diana Barrington</hi>.</figDesc>
 </figure>
 <pb n="viii"/>
-<figure>
+<figure entity="bcdianacont4" rend="inline">
 <figDesc>Fourth Table of Contents page for B.M. Croker's <hi
 rend="italic">Diana Barrington</hi>.</figDesc>
 </figure>
@@ -2128,7 +2128,7 @@ came running up, hot and breathless, "whoever saw dew on a night like this?"</p>
 <epigraph><cit><q><lg>
 <l>"Come quickly, gentle lady,</l>
 <l>The fit's upon me now!"</l>
-</lg></q>q
+</lg></q>
 <bibl>BEAUMONT AND FLETCHER.</bibl></cit></epigraph>
 <p>After a storm a calm, after excitement reaction. After the departure of our three guests, a dead, dull flatness, settled down like a pall upon Paldi, and something else as well; the clouds which had been banking up for weeks in the west, now began to utter low growls of thunder, and vivid lightning flashed along the horizon, like a glittering blade. The heat was insupportable; all Nature seemed to be crying aloud for rain, for life! The stony yellow earth, the shrunken, languid river, the leafless trees, the starving, panting cattle. And then it came at last, heralded by a few large drops, then by a thunderstorm, finally the deluge! A deluge, that seemed as if it would beat the Bungalow into the ground, or sweep it away into the now brown and brimming Karrhan. Floods from far distant hills renewed its life, and it now swept away past Paldi, a wide, very rapid, and majestic river. It was going into the world to towns, and possibly to sea-ports, and to ships. I watched it enviously, as hour after hour, it hurried by, in one increasing torrent, with great eddies and streaks of white foam, whirling on its bosom. The rains descended for a fortnight, and afforded Peggy ample leisure for praying and cooking; father passed the time in correcting manuscripts, and curing skins; I, unlucky wretch, had, as usual, nothing to do. I had <hi rend="italic">no</hi> hobby. Besides this, the rains never agreed with me, nor revived me, like the earth and trees; on the contrary, I always felt languid and depressed, and my naturally sharp, white face, looked sharper and whiter than ever.</p>
 <pb n="105     PEGGY FEELS BETTER."/>
@@ -3850,14 +3850,13 @@ you think? Mrs. Vavasour honoured me with a few polite remarks, and I have promi
 <p>"I only wish I could. Hurrah! Thank goodness! The upper ten are moving, and we shall be able to take our departure at last."</p>
 <pb n="223     DIAMONDS."/>
 </div>
-<div id-"bcdiana031" type="chapter" n="31">
+<div id="bcdiana031" type="chapter" n="31">
 <head>CHAPTER XXXI.<lb/>DIAMONDS.</head>
 <epigraph><cit><q><lg>
 <l>"Pluck the heart out of my mystery."</l>
 </lg></q>
-<hi rend="italic">
-<bibl>Hamlet.</bibl>
-</hi></cit></epigraph>
+<bibl rend="italic">Hamlet.</bibl>
+</cit></epigraph>
 <p>AFTERWARDS, when Hugh declared, that I was "far too intimate with
 Mrs. Vavasour," I could (and did) triumphantly twit him with the fact,
 that it was he, himself, who had first thrust me into her society. We
@@ -4264,11 +4263,11 @@ expression, when <pb n="246     DIANA BARRINGTON."/>he asked me what I thought o
 <p>"I am sure you must have had enough of her last evening, to do for a lifetime," continued Hugh. "Come, dry your eyes, and put on your hat, and I'll take you for a drive, well out of the station. You had better wear a veil, for if any one met us, they would swear we had been having our first quarrel."</p>
 <p>We <hi rend="italic">had</hi> our first quarrel that evening, all the same&#x2014;the <hi rend="italic">first</hi>, and alas! by no means our <hi rend="italic">last</hi>.</p>
 <p>I went away to my room, to bathe my eyes, and scribble a note to Mrs. Vavasour. I could not call her mother, and commenced it as usual, and said:</p>
-<q><text><body>*****
+<q><text><body>
 <div type="letter" id="bcdiana0341">
-<opener><dateline><hi rend="italic">Tuesday Evening</hi>.<lb/>
-</dateline></opener><p>"My husband says that I am not to receive you again.&#x2014;He knows <hi rend="italic">nothing</hi>. I send you a line to prepare you; perhaps it would be better that we should not see each other, for some time.</p>
-<closer><signed><p>"Yours,</p><lb/>
+<opener><dateline rend="italic">Tuesday Evening.</dateline><lb/>
+</opener><p>"My husband says that I am not to receive you again.&#x2014;He knows <hi rend="italic">nothing</hi>. I send you a line to prepare you; perhaps it would be better that we should not see each other, for some time.</p>
+<closer><signed>"Yours,<lb/>
 <name>"DIANA FITZROY."</name></signed></closer>
 </div></body></text></q>
 <p>This note I hastily scrawled, and thrust into my blotter, not having time to address it, for Hugh was whistling and sounding the gong, and giving every sign of impatience.</p>
@@ -4378,7 +4377,7 @@ say no more. Even if you don't mind <hi rend="italic">me</hi>, think
 <l>"And let me wring your heart, for so I shall,</l>
 <l>If it be made of penetrable stuff."</l>
 </lg></q>
-<bibl><hi rend="italic>Hamlet</hi>.</bibl></cit></epigraph>
+<bibl><hi rend="italic">Hamlet</hi>.</bibl></cit></epigraph>
 <p>THE good resolutions that I made, merely lasted till the first time I met Mrs. Vavasour, and this happened to be at a large "musical" afternoon tea, for which the General's wife had issued cards to all the <hi rend="italic">&#x00E9;lite</hi> of Sindi.</p>
 <p>"My dear," she whispered, hedging me into a corner with her fan, "I have a thousand things that I must say to you. Is it true that your husband is from home?"</p>
 <p>"Yes," I faltered most reluctantly.</p>
@@ -4653,7 +4652,6 @@ off bills, and reassuring impatient creditors, I wrote to <pb n="272
 <l>'Tis death to us."</l>
 </lg></q>
 <bibl>ROGER L'ESTRANGE.</bibl></cit></epigraph>
-</p>
 <p>At five o'clock the next day, Colonel Hassard came up behind his glossy bays, looking exceptionally spruce&#x2014;even for him. He never seemed to wear quite the same garments as other men, or to put them on in the same way. Hugh always declared, that he gave him the idea of being very carefully dressed by his mamma, and then told to run about, and not spoil his clothes! All the same, Hugh himself was excessively fastidious about the cut of his boots and coats; and as to his shirts, and collars! the harried and heart-broken Dhoby could a tale unfold. I think Colonel Hassard, had an inkling that Hugh did not admire him, and once or twice he gently, and half playfully, hinted that Hugh was rather fond of bachelor amusements, such as polo, shooting, and racing, and did not half appreciate the domestic treasure he possessed. These hints were as vague, and unsubstantial, as gossamer&#x2014;so delicately were they insinuated;&#x2014;had there been anything tangible to take hold of, I would have seized upon it indignantly. Still, when Colonel Hassard, and his smiles, had departed, he left some uncomfortable thorn-pricks, rankling in my mind.</p>
 <p>"You are looking very pale and fagged, my little cousin," observed my visitor, still holding my hand in his, and gazing tenderly into my face.</p>
 <p>"I have a headache, that is all," I replied, snatching away my fingers, and sitting down abruptly.</p>
@@ -4877,7 +4875,7 @@ THE REGIMENT."/>gems, and I know of purchasers in America and Australia."</p>
 <l>" But optics sharp it needs, I ween,</l>
 <l>To see what is not to be seen."</l>
 </lg></q>
-<bibl>J. TRUMBULL</bibl>.</cit></epigraph>
+<bibl>J. TRUMBULL.</bibl></cit></epigraph>
 <p>Early on the following morning, Coxon, Mrs. Vavasour's maid, came down, and asked if she could see me. Of course she was admitted. She had come to give me her mistress's kind love, and had I been able to do the little commission for her? And if so, would I be at the library at four o'clock?</p>
 <p>"Please say yes to both questions," I replied, with unusual brevity.</p>
 <p>Coxon was well accustomed to such mysterious errands, no doubt; she cast a sharp glance round the room, and then retired, with a curtsey and a smile.</p>
@@ -5155,7 +5153,7 @@ tell Hugh&#x2014;the diamonds may go, I do not grudge them, nor the
 <p>"What a quaint idea! I am sure you picked it up from your father; it is so like what he would say! Well, my little moraliser, I cannot stay with you any longer. I believe in a certain kind of happiness; I believe in supper; I believe I am hungry; and I believe that I see Sir Foster White searching for me everywhere. Good-bye, my pretty dreamer."</p>
 <p>I stood, and watched her tall, graceful figure, and satin train pass gradually from the room, and then I sat down alone. My appetite, like Mrs. Moonathoon's, had been most effectually dispelled.</p>
 </div>
-<div id="bcdiana043 type="chapter" n="43">
+<div id="bcdiana043" type="chapter" n="43">
 <pb n="305     'SO MUCH FOR A KISS.'"/>
 <head>CHAPTER XLIII.<lb/>"SO MUCH FOR A KISS."</head>
 <epigraph><cit><q><lg>
@@ -5167,7 +5165,7 @@ tell Hugh&#x2014;the diamonds may go, I do not grudge them, nor the
 <p>"And what are you going to do with Mrs. Lawless?" I asked, with an effort at sprightliness.</p>
 <p>"Oh, I could not find her. She was out promenading. I hope she won't catch cold. Come; you know you are a dreadfully greedy girl for sweets, and the strawberry ices and Peliti's bonbons will all be gone, if you don't look sharp."</p>
 <p>So I suffered myself to be led away, and, under the influence of Hugh's really anxious attentions, and the mirth of a very merry party, I soon recovered my wonted spirits, pulled crackers, and bandied jests, the more especially as that, to me, detestable word "diamonds," was not uttered in my hearing for the remainder of the evening.</p>
-<p>I danced number seventeen&#x2014;a vaise&#x2014;with Colonel Hassard, and afterwards&#x2014;when the music had ceased&#x2014;he led me out to one of the tents outside&#x2014;a most popular resort. It was one immense marquee, pitched all round the trunk of a huge tree, and divided into a dozen little bowers, merely separated by a piece of canvas. Each retreat was lighted by fairy lamps, and furnished with a couple of luxurious seats, or a sofa.</p>
+<p>I danced number seventeen&#x2014;a valse&#x2014;with Colonel Hassard, and afterwards&#x2014;when the music had ceased&#x2014;he led me out to one of the tents outside&#x2014;a most popular resort. It was one immense marquee, pitched all round the trunk of a huge tree, and divided into a dozen little bowers, merely separated by a piece of canvas. Each retreat was lighted by fairy lamps, and furnished with a couple of luxurious seats, or a sofa.</p>
 <p>The one we entered contained two inviting arm-chairs, drawn up in a
 friendly way, side by side; and it was delicately illumined by a
 rose-shaded lamp&#x2014;my own lamp, <pb n="306     DIANA BARRINGTON."/>as I noticed&#x2014;for to a large regimental affair like this ball, we all contributed furniture, lights, flowers, etc.</p>
@@ -5338,7 +5336,7 @@ not speak for several seconds. I was <pb n="316     DIANA BARRINGTON."/>totally 
 </lg></q>
 <bibl><hi rend="italic">Hamlet</hi>.</bibl></cit></epigraph>
 <p>I COULD scarcely hold the pen, my hand trembled so excessively; and this is what I said, without any preface whatever:</p>
-<q><text><body>***
+<q><text><body>
 <div type="letter" id="bcdiana0451">
 <p>"All is known about the diamonds. My husband saw them at Hookum's, in Bombay, and is very angry; he thinks terrible things of me, which <hi rend="italic">must</hi> be cleared up within the next two hours. I beseech you, most earnestly, to release me from my promise; my very life itself, depends upon a favourable answer to this letter.</p>
 <p>"For God's sake say <hi rend="italic">yes.</hi>
@@ -5405,7 +5403,7 @@ woman. Your own money will <pb n="322     DIANA BARRINGTON."/>not be available f
 <l>And to be wroth with one we love,</l>
 <l>Doth work like madness in the brain."</l>
 </lg></q>
-<bibl>COLERIDGE</bibl>.</cit></epigraph>
+<bibl>COLERIDGE.</bibl></cit></epigraph>
 <p>After this, I felt very strange&#x2014;oh, very strange, indeed! I dressed, I scrambled together my few little treasures&#x2014;Father's watch, a pipe, and Bible; Hugh's photograph, and an old smoking-cap. Just something out of the wreck. Dinner was served, and I sat down in my hat and jacket; but I ate nothing, and Hugh scarcely touched a morsel. He only spoke once: "You had better eat some soup, or something; you will get nothing till eleven to-morrow," was his sole observation in a chilly voice.</p>
 <p>I imagine that I astonished him a good deal by suddenly bursting
 into wild peals of laughter. Never <pb n="323     'TO BE TRANSPORTED
@@ -5462,7 +5460,7 @@ dreariness.&#x2014;But fortunately <pb n="326     DIANA BARRINGTON."/>I turned a
 <p>It would not <hi rend="italic">do</hi> at all! For it was plain to be seen, that I was either going raving mad, or was in for a most terrible attack of brain-fever!</p>
 <pb n="327     AT DEATH'S DOOR."/>
 </div>
-<div type="bcdiana047" type="chapter" n="46">
+<div id="bcdiana047" type="chapter" n="46">
 <head>CHAPTER XLVII.<lb/>AT DEATH'S DOOR.</head>
 <epigraph><cit><q><lg>
 <l>"Triumphant Death his dart</l>
@@ -5531,11 +5529,11 @@ Miss Ranee, I knew me place, and took me meals alone; and <pb n="332
   DIANA BARRINGTON."/>now I'm here, I am never going to let you out of my sight as long as ever I live."</p>
 <p>"Or as long as <hi rend="italic">I</hi> live, and that may not be long."</p>
 <p>"Nonsense," she returned angrily. "Don't be talking nonsense."</p>
-<p>"Oh, Peggy, I would give anything if I could only see the Bungalow once before I die! How little I knew, how little I guessed, what was in store for me, when I used to sit by the river, and gaze at the stars, and long to see the great world, and take my part in life. I have had my wish, and played my part, you see; and it has been a dead failure. Peggy, as you love me, take me home. I feel as if the only chance I have of being happy again&#x2014;no, <hi rend="italic">happy</hi> is too strong a word&#x2014;less miserable&#x2014;is to see once more the brown river, and the big eddies, and the great quiet Jungle stretching round me. And if I die, you will bury me beside father, under the palm-tree; and&#x2014;if you put a stone over my head&#x2014;you may write on it:**
-<epigraph><cit><q><lg>
+<p>"Oh, Peggy, I would give anything if I could only see the Bungalow once before I die! How little I knew, how little I guessed, what was in store for me, when I used to sit by the river, and gaze at the stars, and long to see the great world, and take my part in life. I have had my wish, and played my part, you see; and it has been a dead failure. Peggy, as you love me, take me home. I feel as if the only chance I have of being happy again&#x2014;no, <hi rend="italic">happy</hi> is too strong a word&#x2014;less miserable&#x2014;is to see once more the brown river, and the big eddies, and the great quiet Jungle stretching round me. And if I die, you will bury me beside father, under the palm-tree; and&#x2014;if you put a stone over my head&#x2014;you may write on it:
+<q><lg>
 <l>"'DIANA ALSO SLEEPS HERE.</l>
 <l>"'ALL IS VANITY.'"</l>
-</lg></q></cit></epigraph>
+</lg></q></p>
 <p>"Vanity!" screamed Peggy, "I should just think so! I never in this mortal world, heard such mad, outrageous talk! Some of these days, you will be thankful, that it was only old Peggy Magee, was listening to you!"</p>
 <p>After a while I was moved to a sofa near the window, and Mrs. Raitt would keep me company for hours. She told me, that every one had been so anxious, and so sorry for Hugh&#x2014;and that in her opinion, I owed my illness to Sindi&#x2014;it lay so low&#x2014;especially our side, and she hoped that I would be a warning to people living in those lines. I begged her to let me see myself in a glass, but she always said:</p>
 <p>"Well, lovey, not yet; you see we don't mind, we are <hi rend="italic">used</hi> to you&#x2014;just wait till you get a little flesh on your bones. But you will pick up; the only thing is your hair." Yes, my poor hair! it had been all cut off. "Peggy," she asked one day, "what have you done with Miss Barrington's hair?" (I was always Miss Barrington with her.)</p>
@@ -5626,7 +5624,12 @@ the Padre; we were undoubtedly a good deal stared at; I, with my
 weird-looking face propped up among pillows, Father Paul, with his
 tanned skin and long white beard, and Peggy in her obsolete attire. We
 enjoyed these airings extremely, as we drove along by Malabar Hill, in
-search of the evening breezes, talking over what we called "old times"&#x2014;present times, alas! were not a comfortable topic. I was soon sufficiently strong to be moved up to the hills&#x2014;those wonderful Indian hills, with their unrivalled dawns and sunsets, their valleys of mist, Majestic heights, and vague views of low-lying plains. <pb n="338"/>When I had been some months at "Callian," my baby was born. The most audacious flatterer could not have called him a "fine child," much less a beautiful infant; but he was perfect in his mother's eyes, and I named him John Barrington. Peggy, instead of being delighted, was not merely disappointed, but actually angry, and contemptuous, because he was so inferior to a certain wonderful child in the same hotel.</p>
+search of the evening breezes, talking over what we called "old
+times"&#x2014;present times, alas! were not a comfortable topic. I was
+soon sufficiently strong to be moved up to the hills&#x2014;those
+wonderful Indian hills, with their unrivalled dawns and sunsets, their
+valleys of mist, Majestic heights, and vague views of low-lying
+plains. <pb n="338 DIANA BARRINGTON."/>When I had been some months at "Callian," my baby was born. The most audacious flatterer could not have called him a "fine child," much less a beautiful infant; but he was perfect in his mother's eyes, and I named him John Barrington. Peggy, instead of being delighted, was not merely disappointed, but actually angry, and contemptuous, because he was so inferior to a certain wonderful child in the same hotel.</p>
 <p>"<hi rend="italic">You</hi> were a lovely infant yourself, Miss Ranee," she would say reproachfully, and it was proud I was to carry you, and show you off; but when people says to me now, 'Oh, is that Mrs. Fitzroy's baby? Do let me see it,' I give ye me word, the knees shake under me, and I feel inclined to turn, and run! Sure, he is no bigger than my hand, and doesn't he look as if he had all the cares of the world on his poor little shoulders?&#x2014;I hope the Captain won't see him before he fills out!"</p>
 <p>The Captain never saw him, and he never filled out. He only lived six weeks, and then he was taken from me; and if I could be more broken-hearted than I had been for the last six months, I was heart-broken now. Those mothers, who had suffered similar losses, came and tried to comfort me; but I repulsed them almost fiercely, and turned a deaf ear to all consolations. This child was to have been everything to me, and I would have been everything to it. Now it was gone, and I had nothing left.</p>
 <p>"It is not right to grieve in this way, dear Mrs. Fitzroy," said one kind visitor. "You will ruin your eyesight with crying, you will injure your health. You are not like poor Mrs. Rothwell, you have much to be thankful for&#x2014;you have your husband."</p>
@@ -5742,7 +5745,7 @@ courageously, "you will not repeat that remark to any one else, or you will cert
 that we were going to have a battle <hi rend="italic"> &#x00E0; outrance</hi>, and my heart, strange to say, did not quail; but then I could always fight so much better for other people, than for myself, and meant to stand up for the Raitt family through thick and thin. However, as it turned out, she was going to carry the war into my own camp&#x2014;for she said, with a malicious giggle:</p>
 <p>"Get into trouble! According to what I hear, <hi rend="italic">you</hi> have been getting into terrible trouble."</p>
 <p>"According to Sindi gossip, that is to say. I wonder you believe gossip, Mrs. Little, when <hi rend="italic">you</hi> know so well, how cheaply it is manufactured."</p>
-<p>This was, what Hugh wouid have called, "die for her."</p>
+<p>This was, what Hugh would have called, "die for her."</p>
 <p>"And then it's not true that you and Captain Fitzroy don't get on&#x2014;and are 'separated'?"</p>
 <p>"I do not know by what right, you ask such a strange question. However, it is very good at you to be so interested in our private affairs, and I am sure you will be delighted to hear, that I believe I have the best, the bravest, most honourable, and the most loyal man in India, for my husband."</p>
 <p>"Loyal!" she echoed, in her shrillest key. "Oh then, my poor, dear Mrs. Fitzroy, you evidently have not heard of <hi rend="italic">Mrs. Horne</hi>."</p>
@@ -5778,13 +5781,12 @@ perhaps she was an old love"&#x2014;and I now remembered that a
 Mrs. Horne had sent him a remarkably handsome wedding
 present&#x2014;before the end of a week, I despatched the following
 telegram:</p>
-<q><text><body>***
+<q><text><body>
 <div type="letter" id="bcdiana0491">
-<salute><p>"<hi rend="italic">To</hi>
-CAPTAIN FITZROY, Sindi.</p></salute>
-***<closer><p>"<hi rend="italic">From</hi>
-MRS. FITZROY, Callian.</p></closer>
+<opener>"<hi rend="italic">To</hi> CAPTAIN FITZROY, Sindi.<lb/>
+"<hi rend="italic">From</hi> MRS. FITZROY, Callian.</opener>
 <p>"This place no longer suits me&#x2014;come and fetch me."</p>
+</div></body></text></q>
 <pb n="349     'NEVER COMING BACK.'"/>
 </div>
 <div id="bcdiana050" type="chapter" n="50">
@@ -5792,7 +5794,7 @@ MRS. FITZROY, Callian.</p></closer>
 <epigraph><cit><q><lg>
 <l>"And there's a lust in man no charm can tame</l>
 <l>Of loudly publishing our neighbour's shame;</l>
-<l>On eagle's wings immoital scandals fly,</l>
+<l>On eagle's wings immortal scandals fly,</l>
 <l>While virtuous actions are but born and die."</l>
 </lg></q>
 <bibl>HARVEY.</bibl></cit></epigraph>
@@ -5957,7 +5959,8 @@ DIANA BARRINGTON."/>bolted across the parade ground. I ran and tried to head the
 <p>"You and your wife are to see her alone," he continued, opening the door. "Don't stay long. Don't stay more than five minutes," he whispered eagerly.</p>
 <p>I advanced into the room, with a beating heart, but no tragic sight awaited me. She lay on a sofa, wrapped in a white dressing-gown, with a shawl thrown over her. Her face looked pale and worn, but her eyes were brighter than ever.</p>
 <p>"So you have come at last!" she said in a weak voice. "Don't cry, Diana&#x2014;you have shed enough tears for me. Until to-day I little guessed how sorely the secret pressed on you. If I had known&#x2014;I would have told him. Have you heard that, a few hours ago, he risked his life to save mine? If he had been killed&#x2014;if it had been him instead of ME, Diana?" and she gazed at me curiously.</p>
-<p>"God is just!" I answered passionately. "He could not take my husband until I had heen cleared."</p>
+<p>"God is just!" I answered passionately. "He could not take my
+husband until I had <sic corr="been">heen</sic> cleared."</p>
 <p>"She turned her head slowly, and looked at Hugh, and said,</p>
 <p>"Captain Fitzroy, can you not guess our secret?" taking my hand in hers, as she spoke.</p>
 <pb n="362     DIANA BARRINGTON."/>
@@ -6022,9 +6025,8 @@ dead."</p>
 <l>"So we'll live,</l>
 <l>And pray, and sing, and tell old tales"</l>
 </lg></q>
-<hi rend="italic">
-<bibl>King Lear</bibl>
-</hi>.</cit></epigraph>
+<bibl rend="italic">King Lear.</bibl>
+</cit></epigraph>
 <p>ABOUT four months after Mrs. Vavasour's death, Hugh, and I, went up
 to Gurrumpore, to be present at Carrie's wedding. We were not the only
 guests from Sindi&#x2014;Peter Hare, Colonel and Mrs. Gimlette, were
@@ -6108,7 +6110,7 @@ DIANA BARRINGTON."/>pagne. She descended to her cabin, and I never saw her again
 <p>"But as you are <hi rend="italic">not</hi> in his place," I
 retorted, "you may as well be starting us all for church; and you had better look after Mr. Kirke, and take care that he is <hi rend="italic">there!</hi>"</p>
 <p>Fortunately, my fears proved to be entirely groundless. Mr. Kirke&#x2014;with the air of a martyr at the stake&#x2014;was patiently awaiting his bride. The church was crowded with a large and fashionable congregation&#x2014;<hi rend="italic">vide The Gurrumpore Gazette</hi>&#x2014;and after the ceremony we adjourned to a <hi rend="italic">d&#x00E9;jeuner</hi>, where cake, champagne (not Mrs. Gimlette's), and speeches, were the order of the day.</p>
-<p>Mr. Kirke returned thanks for his wife, in a few manly and well-chosen words. I again quote from <hi rend="italic">The Gurrumpore Gazette</hi>. These "few manly, and well-chosen words" were dictated by Hugh, and traced upon his shirt-cuff, by the trembling bridegroom. Colonel Raitt made a long, maundering oration, in which there was a great deal about elephant, bison, and tiger, and a mere passing allusion to the bride, his daughter. Hugh, in lieu of Peter&#x2014;who declared, with unexpected modesty, that he could neither speak in public, or in private&#x2014;got up, precisely as if he were a bachelor, and proposed the health of the bridesmaids, in a capital speech, which was received with uproarious enthusiasm, and shouts of laughter; and soon after this, the happy couple&#x2014;and they really did look very happy&#x2014;took their departure amid the usual shower of rice, roseleaves, and slippers.</p>
+<p>Mr. Kirke returned thanks for his wife, in a few manly and well-chosen words. I again quote from <hi rend="italic">The Gurrumpore Gazette</hi>. These "few manly, and well-chosen words" were dictated by Hugh, and traced upon his shirt-cuff, by the trembling bridegroom. Colonel Raitt made a long, maundering oration, in which there was a great deal about elephant, bison, and tiger, and a mere passing allusion to the bride, his daughter. Hugh, in lieu of Peter&#x2014;who declared, with unexpected modesty, that he could neither speak in public, or in private&#x2014;got up, precisely as if he were a bachelor, and proposed the health of the bridesmaids, in a capital speech, which was received with uproarious enthusiasm, and shouts of laughter; and soon after this, the happy couple&#x2014;and they really did look very happy&#x2014;took their departure amid the usual shower of rice, rose-leaves, and slippers.</p>
 <p>The remainder of the afternoon fell flat, the inevitable
 consequence of a wedding. However, we had a grand <pb n="372     DIANA
 BARRINGTON."/>ball at the Club, where I nearly danced the soles off my shoes, and "held the floor," as Peggy would have called it, until the "crow's dawn."</p>
@@ -6122,10 +6124,117 @@ towards Sindi, military duty, and station society. We left Paldi with
 regret&#x2014;indeed, I quitted it with bitter tears and returned to
 our little <pb n="373     SUNSHINE."/>circle, loaded with the skins, and horns, of wild animals, and the good wishes of numbers of old friends.</p>
 <p>The diamonds were never redeemed! Hugh arranged the affair <hi rend="italic">this</hi> time, and I accepted seven thousand pounds, and let them go. Coopoodoo was highly pleased with the transaction&#x2014;so was I. He broke up the necklace, as he had predicted, and the stones are scattered far and wide. It is said, that that ill-omened gem&#x2014;the "Evil Eye"&#x2014;is now the chief ornament in a Royal crown. May it bring the wearer nothing but good fortune!</p>
-<p>THE END.</p>
+<trailer>THE END.</trailer>
 </div>
 </body>
 <back id="bcdiana1205">
+<div type="colophon" id="bcdianabm1">
+<p>PRINTED BY WILLIAM CLOWES AND SONS, LIMITED, LONDON AND
+BECCLES.</p>
+</div>
+<div type="adverts" id="bcdianabm2">
+<figure entity="bcdianabm1" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure>
+<figure entity="bcdianaads1" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads2" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads3" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads4" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads5" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads6" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads7" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads8" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads9" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads10" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads11" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads12" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads13" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads14" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads15" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads16" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads17" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads18" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads19" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads20" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads21" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads22" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads23" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads24" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads25" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads26" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads27" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads28" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads29" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads30" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads31" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure><figure entity="bcdianaads32" rend="inline">
+<figDesc>Page of advertisements at the back of B. M. Croker's <hi
+rend="italic">Diana Barrington</hi>.</figDesc>
+</figure>
+</div>
 </back>
 </text>
 </TEI.2>
