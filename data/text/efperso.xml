@@ -1,6 +1,184 @@
-<text><body>
-<pb n="[1]"/>
-<div id="efperso" type="chapter"n="1">
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="efperso1205">
+  <teiHeader id="efperso1201">
+    <fileDesc>
+      <titleStmt>
+        <title>Personality Plus, an electronic edition</title>
+        <author><name type="person" reg="Ferber, Edna, 1887-1968">Edna Ferber</name></author>
+      </titleStmt>
+      <extent></extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2007</date>
+        <availability>
+          <p>&#x00A9; 2007, Lewis H. Beck Center, Emory
+University.  Emory University makes a claim of copyright only to
+original contributions made by the Women's Genre Fiction Project
+participants.  Emory University makes no claim of copyright to the
+original text.  Permission is granted to download, transmit, or
+otherwise reproduce, distribute, or display the contributions to this
+work claimed by Emory University for non-profit educational purposes,
+provided that this header is included in its entirety.  For further
+inquiries about this text's availability, please contact:<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Women's Genre Fiction, 1860-1920</title>
+        <respStmt>
+          <name>Sheila T. Cavanagh</name>
+          <name>Charles D. Spornick</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><author>Ferber, Edna</author>. <title>Personality Plus</title>.  <pubPlace>New York</pubPlace>:
+<publisher>Frederick A. Stokes Company</publisher>, <date>1914</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a
+part of the Women's Genre Fiction Project.  Project participants
+intend for this encoded text, as well as all texts produced by this
+project, to be made available on the web for educational, scholarly
+and pedagogical purposes.  This project is funded by a grant from the
+National Endowment for the Humanities.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The title page, selected front matter, and body text
+of novels and stories have been transcribed and encoded. Paratextual
+elements such as covers, illustrations, and advertisements are
+provided as digital images only. </p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by
+creating TIFF images of each page using either a flatbed scanner or a
+PowerPhase FX digital camera.  Text pages were captured in grayscale
+at 400dpi while illustrations and covers were captured in color at
+300dpi.  These digital images were converted to an electronic text
+file by Optical Character Recognition (OCR) software.  The text files
+produced by the OCR software have been proofread against the original
+novel or TIFF images of the original novel. This proofread text file
+has then been encoded using the recommendations for Level 3 of the TEI
+in Libraries Guidelines.  For the details of Level 3 encoding, please
+see the webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.   Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.  Digital
+page images are linked to the text file.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Genre Fiction</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Unedited</rs>
+        <rs type="genre">Novel</rs>
+        <rs type="geography">United States</rs>
+        <date>1900-1999</date>
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item>American literature--20th Century--Fiction.</item>
+            <item>Women authors, American--20th Century.</item>
+            <item>Women in the professions.</item>
+            <item>Motherhood.</item>
+            <item>Middle-aged women.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2007-February-16</date>
+        <respStmt>
+          <name>David Kim,</name>
+          <resp> student assistant.</resp>
+                  </respStmt>
+        <item>XML tags inserted in compliance with  TEI guidelines using TEILITE.</item>
+      </change>
+      <change>
+        <date>2007-March-19</date>
+        <respStmt>
+          <name>Alice Hickcox ,</name>
+          <resp>Electronic Text Specialist.</resp>
+        </respStmt>
+        <item>Added header and figure elements. Parsed, spell checked.</item>
+      </change>
+     </revisionDesc>
+  </teiHeader>
+<text id="efperso1202">
+<front id="efperso1203">
+<pb/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">PERSONALITY PLUS</titlePart>
+</docTitle>
+</titlePage>
+<pb/>
+<div type="frontispiece" id="efpersofm1">
+<figure entity=""** rend="inline">
+<p>"'What is this anyway? A George Cohan comedy?'"&#x2014;Page 153</p>
+<figDesc>Frontispiece of Edna Ferber's <hi rend="italic">Personality
+Plus</hi>.</figDesc>
+</figure>
+</div>
+<pb entity=""** pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">PERSONALITY PLUS</titlePart>
+<titlePart type="sub">SOME EXPERIENCES OF EMMA McCHESNEY<lb/>AND HER
+SON, JOCK</titlePart></docTitle>
+<byline>BY<lb/><docAuthor>EDNA FERBER</docAuthor><lb/>
+AUTHOR OF "DAWN O'HARA," "BUTTERED SIDE DOWN,"<lb/>
+"ROAST BEEF, MEDIUM," ETC.</byline>
+<titlePart type="desc" rend="italic">WITH FIFTEEN ILLUSTRATIONS
+BY<lb/>
+JAMES MONTGOMERY FLAGG</titlePart>
+<docImprint>
+<pubPlace>NEW YORK</pubPlace>
+<publisher>FREDERICK A. STOKES COMPANY<lb/>PUBLISHERS</publisher>
+</docImprint>
+</titlePage>
+<pb/>
+<div id="efperso1001" type="copyright">
+<figure entity=""** rend="inline">
+<figDesc>Copyright page of Edna Ferber's <hi rend="italic">Personality
+Plus</hi></figDesc>
+</figure>
+</div>
+<div id="efperso1002" type="table of contents">
+<figure entity=""** rend="inline">
+<figDesc>Table of Contents for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
+</div>
+<div id="efperso1003" type="list of illustrations">
+<figure entity=""** rend="inline">
+<figDesc>List of illustrations for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
+</div>
+<pb/>
+<titlePage type="half">
+<docTitle><titlePart type="main">PERSONALITY PLUS</titlePart></docTitle>
+</titlePage>
+</front>
+<body>
+<pb n="1"/>
+<div id="efperso001" type="chapter" n="1">
 <head>PERSONALITY PLUS<lb/>
 I<lb/>
 MAKING GOOD WITH MOTHER</head>
@@ -157,7 +335,13 @@ away from you."</p>
 <p>Mrs. McChesney folded her napkin and rose. She looked unbelievably
 young, and
 
-*** a picture goes here ***
+<figure entity=""** rend="inline">
+<p>"'You're a jealous blond,' he said"&#x2014;Page 8</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
+
 
 <pb n="9     MAKING GOOD WITH MOTHER"/> 
 trim, and radiant, to be the mother of this boasting boy.</p>
@@ -276,8 +460,14 @@ eye on the semi-bald spot and spoke.</p>
 <p>"My name's McChesney," he began. "I wrote you three days ago; you
 probably will remember. You replied, asking me to call, and I--"</p>
 <p>"Minute," exploded the man at the desk, still absorbed.</p>
+<pb n="[15]"/>
+<figure entity=""** rend="inline">
+<p>"He was the concentrated essence of do-it-now"&#x2014;Page 14</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
 
-*** a picture goes here ***
 
 <pb n="17     MAKING GOOD WITH MOTHER"/>
 <p>Jock faltered, stopped. The man at the desk did not look up. A
@@ -513,14 +703,19 @@ advertising I'll probably want to plunge off the Palisades."</p>
 <p>"Even if I lose--I win now," said Jock, suddenly audacious.</p>
 <p>"Hi! Hold that pose!" called Von Herman, happily.</p></div>
 
-*** a picture goes here ***
+<figure entity=""** rend="inline">
+<p>"'Hi! Hold that pose!' called von Herman"&#x2014;Page 28</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
 
 <pb n="[29]"/>
-<div id="efperso" type="chapter" n="2">
+<div id="efperso002" type="chapter" n="2">
 <head>II<lb/>
 PERSONALITY PLUS</head>
 <p>THERE are seven stages in the evolution of that individual whose
-appearance is the signal for a listless "Who-do-you-want-tosee?" from
+appearance is the signal for a listless "Who-do-you-want-to-see?" from
 the white-bloused, drab-haired, an&#x00E6;mic little girl who sits in
 the outer office forever reading last month's magazines. The badge of
 fear brands the novice. Standing hat in hand, nervous, apprehensive,
@@ -550,46 +745,32 @@ nature. Big Sam Hupp, who was the pet caged copy-writing genius of the
 place, used even to bring an occasional example of Jock's business
 badinage into the Old Man's office, and the two would grin in
 secret. As when they ran thus:
-<q><text><body>
-<div type="letter" id="efperso101">
-<salute><hi rend="italic">Pepsinale Manufacturing Company</hi>:</salute>
+<q><p><hi rend="italic">Pepsinale Manufacturing Company</hi>:</p>
 <p>Mr. Bowser is the kind of gentleman who curses his subordinates in
 front of the whole office force. Very touchy. Crumpled his advertising
 manager.
 
 <pb n="31     PERSONALITY PLUS"/> 
-Our chance to get at him is when he is in one of his rare good humors.</p></div></body></text></q>
+Our chance to get at him is when he is in one of his rare good humors.</p></q></p>
 
-<milestone unit="section" rend="blank-line"/>
-<p>Or:</p>
-<milestone unit="section" rend="blank-line"/>
+<p>Or:
 
-<q><text><body>
-<div type="letter" id="efperso102">
-<salute><hi rend="italic">E. V. Kreiss Company</hi>:</salute>
+<q><p><hi rend="italic">E. V. Kreiss Company</hi>:</p>
 <p>Kreiss very difficult to reach. Permanent address seems to be
 Italy, Egypt, and other foreign ports. Occasionally his instructions
-come from Palm Beach.</p></div></body></text></q></p>
-
-<milestone unit="section" rend="blank-line"/>
+come from Palm Beach.</p></q></p>
 
 <p>At which there rose up before the reader a vision of Kreiss
 himself--baggy-eyed, cultivated English accent, interested in polo,
 fast growing contemptuous of things American.</p>
-<p>Or still another:</p>
-
-<milestone unit="section" rend="blank-line"/>
-
-<q><text><body>
-<div type="letter" id="efperso103">
-<salute><hi rend="italic">Hodge Manufacturing Company</hi>:</salute>
+<p>Or still another:
+<q>
+<p><hi rend="italic">Hodge Manufacturing Company</hi>:</p>
 <p>Mr. Hodge is a very conservative gentleman. Sits still and lets
 others do the talking. Has gained quite a reputation for business
 acumen with this one attribute. Spent $500 last year. Holding his
 breath preparatory to taking another plunge.</p>
-</div></body></text></q>
-
-<milestone unit="section" rend="blank-line"/>
+</q></p>
 
 <p>It was about the time that Jock McChesney had got over the novelty
 of paying for his own clothes, and had begun to talk business in a
@@ -776,8 +957,13 @@ wire you. You bet. Thanks. My what? Oh, toothbrush. No. Good-by."</p>
 his dread, and his smart walrus bag aboard a train that halted and
 snuffed and backed, and bumped and halted with maddening
 frequency. But it landed
+<figure entity=""** rend="inline">
+<p>"With a jolt Jock realized she had forgotten all about him"&#x2014;Page 39</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
 
-*** a picture goes here ***
 
 <pb n="41     PERSONALITY PLUS"/> 
 him at last in a little town bearing the characteristics of all American little
@@ -817,8 +1003,13 @@ inner office. But he did not use it. Instead he turned suddenly and
 walked down the hall to the double door which led into the reception
 room. He threw out his legs stiffly and came down rather flat-footed,
 the way George Cohan does when
-
-*** a picture goes here ***
+<pb n="[43]"/>
+<figure entity=""** rend="inline">
+<p>"'Well, raw-thah!,' he drawled "&#x2014;Page 45</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
 
 <pb n="45     PERSONALITY PLUS"/> 
 he's pleased with himself in the second act.</p>
@@ -1024,8 +1215,12 @@ straight, buoyant figure.</p>
 <p>"Must have fallen asleep, I guess," muttered Jock. Somehow he
 dreaded to turn on the lights.</p>
 <p>And then, very quietly, Emma McChesney
-
-*** a picture goes here ***
+<figure entity=""** rend="inline">
+<p>"...became in some miraculous way a little boy again"&#x2014;Page 57</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
 
 <pb n="57     PERSONALITY PLUS"/> 
 came in. She found him, there in the dark, as surely as a
@@ -1055,8 +1250,13 @@ the Berg, Shriner Advertising Company, hinted gently that her methods
 and training were archaic, ineffectual, and lacking in those twin
 condiments known to the twentieth century as pep and ginger, she would
 listen, eyebrows raised, lower lip caught
-
-*** a picture goes here ***
+<pb n="[59]"/>
+<figure entity=""** rend="inline">
+<p>"Jock McChesney began to carry a yellow walking-stick" down to work"&#x2014;Page 58</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
 
 <pb n="61     DICTATED BUT NOT READ"/> 
 between her teeth--a trick which gives a distorted expression to the features, calculated to hide any lurking tendency to
@@ -1098,8 +1298,13 @@ younger than you. Don't laugh. Perhaps you think I couldn't do
 it."</p>
 <p>"Good Lord, Mother! Of course you don't mean it, but--"</p>
 <p>"Mean it! Cleverer women than I have
-
-*** a picture goes here ***
+<pb n="[63]"/>
+<figure entity=""** rend="inline">
+<p>"'Good Lord, Mother! Of course you don't mean it but&#x2014;'"&#x2014;Page 62</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
 
 <pb n="65     DICTATED BUT NOT READ"/> 
 been driven by their children to marrying bell-boys in
@@ -1181,8 +1386,14 @@ leaning negligently against Mrs. McChesney's desk, "and what can I do
 for thee, fair lady?"</p>
 <p>"For me?" said Emma McChesney, looking up at him through narrowed
 eyelids. "I'll tell
+<pb n="[69]"/>
 
-*** a picture goes here ***
+<figure entity=""** rend="inline">
+<p>"'Greetings!'"&#x2014;Page 68</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
 
 <pb n="71     DICTATED BUT NOT READ"/> 
 you what. You can explain to me, in what they call a few well-chosen
@@ -1561,7 +1772,7 @@ our old age, you and I?" went on Buck.</p>
 <p>"Old!" she mocked, "Old! You ! I ! Ha!"</p></div>
 
 <pb n="[89]"/>
-<div id="efperso" type="chapter" n="4">
+<div id="efperso004" type="chapter" n="4">
 <head>IV<lb/>
 THE MAN WITHIN HIM</head>
 <p>THEY used to do it much more picturesquely. They rode in coats of
@@ -1797,8 +2008,15 @@ own."</p>
 has an appointment at the office to-morrow. He'll be closeted with the
 Old Man. They'll call in Hupp. But never a plan will they reveal. It's
 against their code of ethics. Ethics! I'm sick of the word.
+<pb n="[101]"/>
 
-*** a picture goes here ***
+<figure entity=""** rend="inline">
+<p>"She laid one hand very lighty on his arm and looked up into the
+sullen, angry young face"&#x2014;Page 103</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
 
 <pb n="103     THE MAN WITHIN HIM"/> 
 I suppose you'd say I'm lucky to be associated with a firm like that,
@@ -2080,8 +2298,13 @@ him! The Waldorf, of course."</p>
 <p>At five Jock left the office. Under his arm he carried the flat
 pasteboard package secured by elastic bands. At five-fifteen he
 walked
-
-*** a picture goes here ***
+<pb n="[116]"/>
+<figure entity=""** rend="inline">
+<p>"He made straight for the main desk with its battalion of clerks"&#x2014;Page 119</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
 
 <pb n="119     THE MAN WITHIN HIM"/> 
 swiftly down the famous corridor of the great red stone hotel. The
@@ -2163,8 +2386,13 @@ came over, and took the chair very close to Jock.</p>
 manner was that of a man who is sure of himself. "It's a shirt-sleeve
 product, and it ought to be handled from a shirt-sleeve
 standpoint. Every gum concern in the
-
-*** a picture goes here ***
+<pb n="[123]"/>
+<figure entity=""** rend="inline">
+<p>"'Let's not waste time,' he said""&#x2014;Page 122</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
 
 <pb n="125     THE MAN WITHIN HIM"/> 
 country has spent thousands on a 'better-than-candy' campaign before it realized that gum is a candy and drug store article, and that no man is going to push a five-cent package of gum at the sacrifice of the sale of an eighty-cent box of candy. But the health note is there, if only you strike it right. Now, here's my idea--"</p>
@@ -2382,7 +2610,14 @@ Featherloom Petticoat Company, held the stage.</p>
 <p>Having said that she would be home at five-thirty, Mrs. McChesney
 was home at five-
 
-*** a picture goes here ***
+<pb n="[137]"/>
+<figure entity=""** rend="inline">
+<p>"He found his mother on the floor...surrounded by piles of pajamas,
+sock, shirts and collars"&#x2014;Page 139</p>
+<figDesc>Illustration for Edna Ferber's <hi
+rend="italic">Personality Plus</hi>.
+</figDesc>
+</figure>
 
 <pb n="139     THE SELF-STARTER"/>
 thirty, being that kind of a person. Jock came in at six, breathless,
