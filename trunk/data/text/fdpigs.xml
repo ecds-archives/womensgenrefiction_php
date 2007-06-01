@@ -1,43 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
 <TEI.2>
-<teiHeader id="fdpigs1100">
+<teiHeader id="fdpigs1100?">
 <fileDesc>
 <titleStmt>
 <title> Pigs in Clover, an electronic edition</title>
 <author><name type="person" reg="Frankau, Julia Mrs. 1863-1916">Frank Danby</name></author>
 </titleStmt>
 <extent></extent>
-<publicationStmt></publicationStmt>
+<publicationStmt>
 <pubPlace>Atlanta, Georgia</pubPlace>
 <publisher>Emory University, Lewis H. Beck Center</publisher>
 <date>2007</date>
-<sourceDesc> <bibl><author>Danby, Frank</author>. <title> Pigs in Clover</title>. <pubPlace> London</pubPlace>: <publisher> William Heinemann</publisher>, <date>1903</date></bibl>
+<availability>
+<p>&#x00A9; 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to orginal contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit,or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>Unites States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmtm><name>Sheila T.Cavanagh</name><name>Charles D.Spornick</name>
+<resp> Principal Investigators</resp></respStmtm></seriesStmt>
+<sourceDesc> 
+<bibl><author>Danby, Frank</author>. <title> Pigs in Clover</title>. <pubPlace> London</pubPlace>: <publisher> William Heinemann</publisher>, <date>1903</date></bibl>
 </sourceDesc>
 </fileDesc>
-<profileDesc/>
+<encodingDesc>
+<projectDesc>
+<p> This text was created by the Lewis H.Beck center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p>
+</projectDesc>
+<samplingDecl>
+<p> The title page, selected front matter, and the body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p>
+</samplingDecl>
+<editorialDecl>
+<p> Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital illustrations and covers were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for level 3 of the TEI in librarian Guidelines. For the details of level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been addded by the encoder and do not appear in the original text.</p>
+</editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="collection">Genre Fiction</rs>
+<rs type="language">English</rs>
+<rs type="ethinicity">Caucasian</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
+<rs type="Geography">Great Britain</rs>
+<date> ????</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>British Literature--??th Century--Fiction.</item>
+<item>Women Authors, British--20th Century.</item>
+<item>Marriage.</item>
+<item>Adultery, marital.</item>
+<item>Sentimental fiction.</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>????</date>
+<respStmt>
+<name>Erika Farr, </name>
+<resp> project manager.</resp>
+</respStmt>
+<item> XML tags inserted are in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
 </teiHeader>
-<text>
-<front>
-<titlePage>
+<text id="fdpigs????">
+<front id="fdpigs????">
+<pb entity="fdpigs????" pages="Title Page"/>
+<titlePage type="full">
 <docTitle>
-<titlePart/>
+<titlePart type="main">Pigs in Clover</titlePart>
 </docTitle>
-<byline/>
-<byline/>
+<byline> By <docAuthor> Frank Danby</docAuthor> <lb/>
+Author of "Dr.Phillips:a Maida Vale Idyll", "A Babe in Bohemia," etc.</byline>
+<epigraph>
+<q><lg><l>"And each man kills the thing he loves.</l>
+<l>By each let this be heard,</l>
+<l>Some do it with a bitter look,</l>
+<l>Some do it with a flattering word,</l>
+<l>The coward does it with a kiss...</l>
+<l>......."</l></lg></q></epigraph>
 <docImprint>
-<name/>
-<name/>
-<name/>
-<date/>
+<pubPlace>LONDON</pubPlace>
+<publisher> William Heinemann</publisher>
 </docImprint>
+<imprimatur> [<hi rend="italics">All rights reserved</hi>]</imprimatur>
 </titlePage>
+<pb/>
 </front>
-<body>
+<body id="fdpigs????">
 <pb n="1"/>
-<div>
 <p/>
-</div>
 <div id="fdpigs001" type="chapter" n="1">
 <head>PIGS IN CLOVER<lb/>CHAPTER I</head>
 <p>CONSTANTIA met him herself at the station with the ill news. Stephen Hayward was a father, but no longer a husband. Angela's travail had ended; and the dull grey life, for Angela's life had in truth been both dull and grey, had gone out in the agony of her motherhood. She was not formed for joy. Stephen, poor fellow, shocked into silence with the news, news that he read in his sister's face, in the grasp of her hand, in her filled eyes, followed her into the brougham without a question. But she told him, nevertheless, in a few sentences all that had happened. She spared him the medical details. Everything that it was possible to do had been done, the doctor said. Stephen's quick mind took in the situation.</p>
