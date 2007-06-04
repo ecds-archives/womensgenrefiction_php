@@ -10,82 +10,116 @@
 
 			<titleStmt>
 
-				<title/>
+<title> The Mystery</title>
 
-				<author/>
+<author>"Wood, Henry Mrs., 1814-1887"></author>
 
-			</titleStmt>
+</titleStmt>
+<extent></extent>
 
-			<publicationStmt>
+<publicationStmt>
 
-				<pubPlace/>
+<publisher>Emory University, Lewis H.Beck Center</publisher>
 
-				<publisher/>
+<pubPlace> Atlanta, Georgia</pubPlace>
 
-				<publisher/>
+<date>2007</date>
+<availability>
+<p>&#x00A9; 2007, Lewis H. Beck Center, Emory University. Emory University  makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit,or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further iunquiries about this text's availability, please contact
+<address>
+<addrLine> Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine> Atlanta, GA 30322-0053</addrLine>
+<addrline> United States of America</addrline>
+<addrLine> Email: beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmt><name>Sheila T.Cavanagh</name><name>Charles D.Spornick</name>
+<resp> Principal Investigators</resp></respStmt>
+</seriesStmt>
+<sourceDesc>
+<bibl><author> Wood, Henry Mrs.</author>
+<title> The Mystery</title><pubPlace> Philadelphia</pubPlace>:<publisher>T.B. Peterson &#x0026; Co.</publisher><date> 1862</date>. </bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p> This text was created by the Lewis H. Beck Center as part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as the texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc>
+<samplingDesc>
+<p> The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only,with some exceptions.</p></samplingDesc>
+<editorialDecl>
+<p> Processing this electronic text file began by creating TIFF images of each page using either a flat bed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) Software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for the Level 3 of the TEI in the Libraries Guidelines. For the details of level 3 encoding, please see the webpage for TEI guidelines for Best Encoding Practises at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title> Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc> 
+<profileDesc>
+<creation>
+<rs type="collection">Genre Fiction</rs>
+<rs type="language">English</rs>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
+<rs type="geogrphy">United States</rs>
+<date> 1900-1999</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item> American Literature--19th century Fiction.</item>
+<item>Women Authors, American--19th century.</item>
+<item> Domestic Fiction.</item>
+<item> Courtship.</item>
+<item> Mystery.</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2007-June-4</date>
+<respStmt><name>Alice Hickcox, </name>
+<resp>project manager.</resp></respStmt>
+<items>XML tags inserted in compliance with TEI guidelines.</items>
+</change>
+</revisionDesc>
+</teiHeader>
 
-				<date/>
-
-			</publicationStmt>
-
-			<sourceDesc>
-
-				<p/>
-
-			</sourceDesc>
-
-		</fileDesc>
-
-		<profileDesc/>
-
-	</teiHeader>
-
-	<text>
-
-		<front>
-
-			<titlePage>
-
-				<docTitle>
-
-					<titlePart/>
-
-				</docTitle>
-
-				<byline/>
-
-				<byline/>
-
-				<docImprint>
-
-					<name/>
-
-					<name/>
-
-					<name/>
-
-					<date/>
-
-				</docImprint>
-
-			</titlePage>
-
-		</front>
-
-		<body>
+<text>
+<front>
+<pb entity="hwmystetp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">THE MYSTERY<lb/>
+A<lb/> STORY OF DOMESTIC LIFE.</titlePart></docTitle>
+<byLine> BY <lb/><docAuthor>Mrs. Henry Wood</docAuthor><lb/>Author of Earl's Heirs," "East Lynne," "The Channings," "The Castle's Heir," "Life's Secret," "Verner's Pride," "Runaway Match," Etc., Etc.</byLine>
+<div id="hwmyste0000" type="copyright">
+<p>Printed from the author's Manuscript, purchased from Mrr.Henry Woods,in <lb/>advance of the publication of the work in Europe.</p></div>
+<docImprint>
+<pubPlace>Philadelphia:</pubPlace>
+<publisher>T.E.Peterson &#x0026; Brothers;</publisher>
+<Streetadd> 306 Chestnut Street</Streetadd>
+</docImprint>
+</titlePage><pb/>
+<div id="hwmyste0001" type="table of contents">
+<figure entity="hwmystetc" rend="inline">
+<figDesc> Contents</figDesc></figure>
+</div><pb/>
+</front>
+<body>
 
 			<pb n="21"/>
 
-			<div>
-
-				<head>THE MYSTERY</head>
-
-				<p/>
-
-			</div>
+	
 
 			<div id="hwmyste" type="chapter" n="1">
-				<head>CHAPTER I<lb/>THE LITTLE GIRL. MRS. EDWIN BARLEY</head>
+				<head>THE MYSTERY <lb/>CHAPTER I<lb/>THE LITTLE GIRL. MRS. EDWIN BARLEY</head>
 
 				<p>AN express train was whirling along a line of rails in the heart of England. On one of the first class carnages there had been a board bearing an intimation "For ladies only," but the guard had taken it off when the train first started. It had come many miles since. Seated inside, the only passenger in that compartment, was a little girl in deep mourning. All was black about her, save the white frills of her drawers, which peeped below her short, black, flounced frock. A thoughtful, gentle child, with a smooth pale forehead, earnest eyes, and long dark eyelashes that swept her cheek. It was a gloomy September day, foggy and threatening rain, a <hi rend="italic">sad</hi> looking day, and the child's face seemed to have borrowed the aspect of the weather, for it was pervaded by a tinge of sadness. That little girl was myself, Anne Hereford.</p>
 
