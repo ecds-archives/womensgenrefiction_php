@@ -4,46 +4,112 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title/>
-<author/>
+<title>Peace With Honour</title>
+<author><name type="person" reg= "Hilda Caroline Gregg Grierson, 1868-1933">Sydeny C. Grier</name></author>
 </titleStmt>
 <publicationStmt>
-<pubPlace/>
-<publisher/>
-<publisher/>
-<date/>
-</publicationStmt>
+<publisher>Emory University, Lewis H. Beck Cente</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2007</date>
+<availability> <p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address>
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address> 
+</p></availability></publicationStmt> 
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp></respStmt> 
+</seriesStmt>
 <sourceDesc>
-<p/>
+<bibl><author>Grier, Sydney C.</author>. <title> Peace With Honour</title>. <pubPlace>Edinburgh and London</pubPlace>: <publisher> William Blackwood and Sons.</publisher>, <date>1897</date>.</bibl>
 </sourceDesc>
 </fileDesc>
-<profileDesc/>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc>
+<profileDesc>
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British literature--19th Century--Fiction.</item> 
+<item>Women authors, British--19th Century.</item> 
+<item>Women doctors.</item> 
+<item>assertiveness in women.</item>
+<item>Ethiopia</item>
+<item>Colonialism</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-6</date> 
+<respStmt><name>Erika Farr, </name> <resp>project manager.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc>
 </teiHeader>
 <text>
 <front>
-<titlePage>
+<pb entity="sgpeacetp" pages="Title Page" n="[ii]"/>
+<titlePage type="half">
 <docTitle>
-<titlePart/>
+<titlePart type="main">Peace With Honour</titlePart>
 </docTitle>
-<byline/>
-<byline/>
+</titlePage>
+<pb n="[iii]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">PEACE WITH HONOUR</titlePart>
+</docTitle>
+<byline> BY <lb/> SYDNEY C. GRIER <lb/> AUTHOR OF <lb/> 'HIS EXCELLENCY'S ENGLISH,' 'AN UNCROWNED KING,'<lb/> 'IN FURTHEST IND,' ETC.
+</byline>
 <docImprint>
-<name/>
-<name/>
-<name/>
-<date/>
+<pubPlace>EDINBURGH AND LONDON:</pubPlace><publisher>WILLIAM BLACKWOOD AND SONS</publisher><docDate>MDCCCXCVII [1897]</docDate>
 </docImprint>
 </titlePage>
+<pb n="[v]"/>
 <div type="dedication">
 <head>Dedication</head>
-<p>To E. FG. L. IN GRATEFUL ACKNOWLEDGMENT OF MUCH KIND ADVICE AND HELP.</p></div>
+<p>To E. FG. L. IN GRATEFUL ACKNOWLEDGMENT <lb/> OF MUCH KIND ADVICE<lb/> AND HELP.</p></div>
+<pb n="[vii]"/>
+<div id="sgpeace000" type="table of contents">
+<figure entity="sgpeacetcl" rend="inline">
+<figDesc>Table of Contents for Grier's Peace With Honour</figDesc></figure>
+<pb n="[viii]"/>
+<figure entity="sgpeacetc2" rend="inline">
+<figDesc> Table of Contents for Grier's Peace With Honour</figDesc></figure>
+</div>
 </front>
 <body>
-<head>PEACE WITH HONOUR.</head>
-<p/>
-<pb n="1"/>
+<pb n="[1]"/>
 <div id="sgpeace001" type="chapter" n="1">
-<head>CHAPTER I.<lb/>"SHOULD AULD ACQUAINTANCE BE FORGOT?"</head>
+<head>PEACE WITH HONOUR<lb/>CHAPTER I.<lb/>"SHOULD AULD ACQUAINTANCE BE FORGOT?"</head>
 <p>"Now, Dick, I want to trot you out this afternoon, so please put on your smartest clothes, and your best company manners, and your most winning smile."</p>
 <p>"Has your majesty any more commands? I was under the impression that I was excused further duty to-day, on condition of dining out with you to-night and to-morrow night."</p>
 <p>"This is not duty, it is pleasure&#x2014;or ought to be."</p>
