@@ -1,4 +1,105 @@
-<text><front><div type="dedicaton"><p rend="center">TO<lb/>MRS. HERBERT TOWNSHEND BOWEN.</p>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2> 
+<teiHeader> 
+<fileDesc> 
+<titleStmt> 
+<title>Home Influence: A Tale for Mothers and Daughters, an electronic edition</title> 
+<author n="Aguilar, Grace, 1816-1847"> Grace, Aguilar </author> 
+</titleStmt> 
+<extent>350kb</extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2005</date> 
+<availability>
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address> 
+</p>
+</availability>
+</publicationStmt> 
+<seriesStmt>
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp>
+</respStmt> 
+</seriesStmt> 
+<sourceDesc>
+<bibl>
+<author>Aguilar, Grace</author>. 
+<title>Home Influence: A Tale for Mothers and Daughters</title>. <pubPlace>Boston</pubPlace>: <publisher>Hickling, Swan and Brewer.</publisher>, 
+<date>1857</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p>
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p>
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc>
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> <keywords scheme="lcsh"> 
+<list> 
+<item>British literature--19th Century--Fiction.</item> 
+<item>Women authors, British--19th Century.</item> 
+<item>Domestic Fiction.</item> 
+<item>Sentimental Fiction.</item> 
+<item> Childhood.</item>
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-8th</date> 
+<respStmt>
+<name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp>
+</respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
+<text>
+<front>
+<pb entity="gahometp" pages="Title Page">
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">Home Influence:<lb/> A Tale for Mothers and Daughters.</titlePart>
+</docTitle>
+<byline> By <lb/> <docAuthor> Grace Aguilar</docAuthor></byline>
+<docEdition> New Edition</docEdition>
+<docImprint>
+<pubPlace>BOSTON</pubPlace> 
+<publisher>HICKLING, SWAN &#x0026; BREWER.</publisher> 
+<date>1857</date>
+ </docImprint> 
+</titlePage>
+<div type="dedicaton"><p rend="center">TO<lb/>MRS. HERBERT TOWNSHEND BOWEN.</p>
 <q><text><body><div type="letter" id="gahome"><opener><salute>MY DEAR
 FRIEND,</salute></opener><p>INDEPENDENT of the personal feelings which
 urged the dedication of this unpretending volume to you, I know few to
@@ -16,10 +117,10 @@ earnest Protestant, <hi rend="italic">may</hi> discern, and accept this little w
 slight tribute of the warm affection and sincere esteem with which you
 have been so long regarded by</p><closer><signed>Your truly attached
 Friend,<name>GRACE
-AGUILAR.</name></signed></closer></div></body></text></q></div></front></text>
+AGUILAR.</name></signed></closer></div></body></text></q></div>
 
 <pb n="[iv]"/>
-<pb n="[v]"/><div id="section">><head>PREFACE.<lb/><milestone unit="section" rend="line"/></head>
+<pb n="[v]"/><div id="section"><head>PREFACE.<lb/><milestone unit="section" rend="line"/></head>
 <p>THE following story will, the author trusts, sufficiently
 illustrate its title to require but few words in the way of
 preface. She is only anxious to impress two facts on the minds of her
@@ -283,8 +384,19 @@ mankind to practical virtue and happiness; and strive to carry out the
 pure philanthropic principles by which she was actuated, and which she
 so earnestly endeavored to diffuse.</p>
 <p><hi rend="italic">October</hi>, 1849.</p></div>
-
-<pb n="[1]"/><div id="gahome" *type="book" n="1"><div id="gahome"
+<pb n="xviii"/> blank page
+<pb n="xix"/>
+<div id="gahome000" type="table of contents">
+<figure entity="gahometcl" rend="inline">
+<figDesc> Table of Contents for Home Influence: A Tale for Mothers and Daughters</figDesc>
+</figure>
+<figure entity="gahometc2" rend="inline">
+<figDesc> Table of Contents for Home Influence: A Tale for Mothers and Daughters.</figDesc>
+</figure>
+</div>
+</front>
+<pb n="[1]"/>
+<div id="gahome" type="book" n="1"><div id="gahome"
 type="chapter" n="1"><head>HOME INFLUENCE<lb/><milestone
 unit="section" rend="line"/>PART I.<lb/>THE SISTERS.<lb/><milestone
 unit="section" rend="line"/><lb/>CHAPTER I.<lb/>A LAUNCH.&#x2014;A
@@ -292,7 +404,7 @@ PROMISE.&#x2014;A NEW RELATION.</head>
 <p>Is a very beautiful part of Wales, between the northern boundaries
 of Glamorgan and the south-eastern of Carmarthenshire, there stood,
 some twenty or thirty years ago, a small straggling village. Its
-locality was so completely concealed that the appearance of aa
+locality was so completely concealed that the appearance of a
 gentleman's carriage, or, in fact, any vehicle superior to a light
 spring-cart, was of such extremely rare occurrence as to be dated, in
 the annals of Llangwillan, as a remarkable event, providing the simple
@@ -15736,4 +15848,3 @@ unit="section" rend="dots"/>
 hand."</l></lg></q></p></div></div></div></div>
 
 <trailer>THE END.</trailer>
-
