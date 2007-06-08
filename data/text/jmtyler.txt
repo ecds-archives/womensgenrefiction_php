@@ -1,5 +1,105 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2> 
+<teiHeader> 
+<fileDesc> 
+<titleStmt> 
+<title>The Adventures of Tyler Tatlock, an electronic edition</title> 
+<author n="Donovan, Dick 1843-1934">Muddock, J.E.</author> 
+</titleStmt> 
+<extent></extent> 
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2005</date> 
+<availability> 
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address>
+</p></availability></publicationStmt> 
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl>
+<author>Donovan, Dick</author>. 
+<title>The Adventures of Tyler Tatlock</title>. <pubPlace>London</pubPlace>: <publisher>Chatto and Windus</publisher>, <date>1900</date>.</bibl> </sourceDesc> </fileDesc> 
+<encodingDesc> 
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> <samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p>
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc>
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British literature--20th Century--Fiction.</item> 
+<item>Women authors, British--20th Century.</item> 
+<item>Women in journalism.</item> 
+<item>Short stories.</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-7th</date> 
+<respStmt><name>Shruthi Vissa </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
 <text>
-<front></front>
+<front>
+<div id="jmtyler100" type="Advert">
+<figure entity="jmtyleradl" rend="inline">
+<figDesc>Advert included in the front of Donovan's The Adventures of Tyler Tatlock</figDesc>
+</figure>
+</div>
+<pb/>
+<pb entity="jmtylertp" type="titlePage"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">Tyler Tatlock</titlePart></docTitle>
+</titlePage>
+<pb/>
+<div id="jmtyler200" type="colophon">
+<l> PRINTED BY </l>
+<l> SPOTTISWOODE AND CO., NEW-STREET SQUARE</l>
+<l>LONDON</l>
+</div>
+<pb/>
+<div id="jmtyler300" type="table of contents">
+<figure entity="jmtylertcl" rend="inline">
+<figDesc> Table of Contents for Donovan's The Adventures of Tyler Tatlock</figDesc>
+</figure>
+</div>
+<pb/>
+</front>
 <body>
 <pb n="[1]"/> 
 <div id="jmtyler001" type="story" n="1">
@@ -37,7 +137,9 @@ possible and impossible places did not bring the missing trinket to light. It ha
 <p>'Who is Tyler Tatlock?' asked somebody.</p>
 <p>'Well, he is a very remarkable man who carries on a private detective agency in London, and I was informed that he was considered to be without a rival.'</p>
 <p>'Never heard of him,' remarked two or three persons together.
+
 <p>'Possibly not, but he has earned a reputation. At any
+
 <pb n="4 THE OUEENSFERRY MYSTERY"/>
 rate, in the will case I instance he rendered invaluable service, and
 he made a very deep impressionupon me.</p>
@@ -118,6 +220,7 @@ bills offering the reward and describing the article.</p>
 <p>'I didn't say I had seen it.'</p>
 <p>'But you evidently know something about it.'</p>
 <p>'No, I've only heard some folk talking.'
+
 <p>Mrs. Wylie laughed heartily as she said:</p>
 <p>'Well, you are a comical sort of person, upon my word. What's the use of you coining here unless you can help me to recover my property?'</p>
 <p>'You see, m'm, I'm a poor body, and twenty pounds would be a fortune to me; so I thought I would come and tell you what I've heard.'</p>
@@ -292,6 +395,7 @@ pencil the following paragraph:</p>
 horror saw the body of a man lying on its back at the bottom of a basin-like depression. Having satisfied himself that the man was dead, the gamekeeper hurried back to Flaxton, a distance of four miles, and informed his master, Sir Tohn Sterling, of what he had seen. Sir John lost no time in giving information to the police, and in company with a small body of the rural constabulary he drove over to the place where the gamekeeper had seen the body lying. They took a country cart with them, with a layer of straw at the bottom. On this the body was laid, and conveyed to Flaxton, where the identity of the deceased was at once established by means of letters and cards in his pocket. The body proved to be that of Mr. George Graveling, the well-known bookmaker, of Glasgow and London. A considerable amount of valuable property was found in the pockets, including a gold watch and chain, a massive gold pencil case, nearly fifteen pounds in gold, and about twenty pounds in Scotch bank-notes. It appears that Mr. Graveling had travelled from Glasgow to York to attend the York races two days previously to his body being discovered on the moor. He was apparently in the best of health and spirits, and he was known to have won a very large sum of money at the York meeting. He was supposed to have returned to Glasgow the same night, and how he came to his death in the lonely spot where his body was found is at present a mystery, which no doubt the coroner's inquest will be able to clear up.'</p>
 <p>'Yes,' I remarked, as I finished reading the item of news, 'yes, it's rather a curious business.'</p>
 <p>'I am going down to the inquest,' said Tatlock, in the
+
 apparently unconcerned way in which he usually spoke.  'Sir John
 Sterling has wired to me asking me to attend.'</p>
 <p>'Why?'</p>
@@ -435,18 +539,30 @@ French to one of the waiters, ordered coffee <hi rend="itlalic">a la verre</hi> 
 catch any of their conversation, which, as a matter of fact, was
 carried on <hi rend="italic">sotto voce</hi>, but from his little, half-closed eyes he watched them, and the gesticulations and shoulder-shrugs were signs to him of a dumb language not altogether lost upon him. At last a little incident occurred which was destined to afford him the clue for which he had been searching so diligently. Terence Trapmore, clearly in reply to something said by the foreign gentleman, pulled an envelope from his pocket, took a letter from the envelope, placed the envelope on the marble-top table, and handed the letter to the foreigner, who read it with every manifestation of deep interest, and an elevating of the eye-brows. Tatlock would have given a great deal to have been able to have glanced over that letter, but that was out of the question. He never did anything rash; he knew how to wait and watch, and he had a saying to the effect that 'the patient watcher was bound to sec many things.' Well, he saw the foreigner fold the letter up and hand it back to Trapmore, who mechanically placed it in his pocket, unmindful of the envelope on the table, and by-and-by all unknowingly he swept the envelope off the table with his elbow, and it fell to the sanded floor.</p>
 <p>Tatlock watched and waited. And he continued to
+
 watch and wait for fully an hour, when he was comforted
+
 by seeing the three men rise and depart. When they had
+
 gone he moved quietly to where they had been sitting, rapidly
+
 picked up the envelope, which had been trampled upon and
+
 was much dirtied, and slipped it into his pocket. He went
+
 back to his own table, gave a repeat order for coffee, and in
+
 an unconcerned way, and as if prompted by the merest
+
 curiosity, he inquired of the waiter who the foreign gentleman with the black beard might be who had just gone out.</p>
 <p>The waiter, suspecting nothing, answered that the
+
 gentleman was known as Mr. Peter Petrovitch. He was
+
 staying in the house, and had been there about five weeks.
+
 He was supposed to have some business at the Russian
+
 Consulate, but what his business was the waiter did not know.</p>
 <p>In due time Tatlock sauntered out, and later on
 <pb n="39 TRACING A TRAITOR"/>
@@ -569,8 +685,8 @@ box that stood on the table. And that the meeting was not a Temperance one was v
 <p>'This will have to be altered. It's not clear enough.'</p>
 <p>'That's my opinion,' remarked Blagdon. 'Its terms are too vague, and the passages I have underlined in pencil are capable of various legal interpretations.'</p>
 <p>'Ay, precisely,' put in Sandeman, speaking slowly and decisively. 'Oor friend Jock's a fine lad, but he's no equal to drawing up an agreement of this kind, except in so far as he would keep the oyster to himself, and gie us the shells.'</p>
-<pb n=52 THE BIG LOAN FRAUD"/>
-<p>There was a little laugh at this sally, though Jack didn't join in it. The expression on his face rather indicated that he resented the soft impeachment. But he betrayed no anger in his voice, as, turning to Blagdon, he said:"/>
+<pb n="52 THE BIG LOAN FRAUD"/>
+<p>There was a little laugh at this sally, though Jack didn't join in it. The expression on his face rather indicated that he resented the soft impeachment. But he betrayed no anger in his voice, as, turning to Blagdon, he said:</p>
 <p>Set your great legal brain to work, then, and produce something better.'</p>
 <p>This suggestion met with the hearty approval of Sande-man and Nick, so Blagdon recharged his glass as a necessary preparation for the important work. He also threw away the remainder of the cigar he had been smoking, and lit a fresh one. Then, taking a sheet of foolscap paper, he doubled it up at the edge so as to form a margin, and, after this preliminary, he began to write, taking Jack's document as a basis for his own. He was quite an hour before he had completed his task, during which the conversation was general and desultory, though Blagdon worked quietly and in a perfectly absorbed way, so that he seemed quite oblivious of his surroundings. At last he finished. He read over what he had written, made one or two corrections, then with a self-satisfied air he handed it to Jack, with the remark&#x2014;</p>
 <p>'There; I think that meets the case.'</p>
@@ -846,8 +962,8 @@ inconsiderable sum on Mrs. Scott, but it was refused.</p>
 <pb n="82 THE FORGED CHEQUE"/>
 steeplechase. His widow, who was suffering from cancer, survived him only six months. Mary was then about sixteen, Ernest fourteen, and, as their father had left nothing but an evil reputation behind him, their uncle, Leslie Muirhead, took them. The education of both had been neglected, so Mr. Muirhead engaged a first-class resident governess for the girl and sent Ernest to a good school near Edinburgh for a couple of years, and then to France, that he might learn French. It was his uncle's intention to take him into his business, and, as he had a considerable trade connection with France, he thought it would be a good thing for the young man to have a knowledge of the French language. Ernest completed his studies abroad, returned home, and took up a position at once in the Glasgow business, the management of which to a large extent was left in the hands of David Guthrie, who had been in Muirhead's employ for a great many years; indeed, ever since he was a boy.</p>
 <p>Long after Muirhead had settled in his new home, and given himself up almost entirely to his favourite pursuits, an incident occurred which caused him the greatest amount of concern and unhappiness. One day, quite early in a new year, when looking over his bank pass-book, he was surprised to find on the debit side the following entry:</p>
-<p>September 25th, cheque, 500<hi rend="italic"l.</hi>,' and this cheque had been payable to bearer.</hi>
-<p>He taxed his memory, but could not recall any transaction in which he had paid away five hundred pounds. Besides, it wasn't in the least likely he would have drawn a cheque for so considerable an amount payable to bearer. He referred to the counterfoil of his cheque-book. There it was, sure enough: 'Sept. 25th, bearer, 500<hi rend="italic"l.</hi>' The cancelled cheque&#x2014;which, being payable to bearer, required no endorsement&#x2014;was the same. It was his handwriting, his signature.</p>
+<p>September 25th, cheque, 500<hi rend="italic">l.</hi>,' and this cheque had been payable to bearer.</p>
+<p>He taxed his memory, but could not recall any transaction in which he had paid away five hundred pounds. Besides, it wasn't in the least likely he would have drawn a cheque for so considerable an amount payable to bearer. He referred to the counterfoil of his cheque-book. There it was, sure enough: 'Sept. 25th, bearer, 500<hi rend="italic">l.</hi>' The cancelled cheque&#x2014;which, being payable to bearer, required no endorsement&#x2014;was the same. It was his handwriting, his signature.</p>
 <p>He was puzzled as well as concerned. Surely, he thought, he could never have been so absent-minded as to have done such a thing as that. If so, then it was pretty clear that his hobbies were exercising such an influence over
 <pb n="83 THE FORGED CHEQUE"/>
 his mental powers that his will and his reasoning were subordinated, and that meant mania. To a hitherto clear-headed, straight-dealing man such a thought as this was not pleasant, and let it be stated at once that he was honourable and fair-dealing, sensitive to a fault, singularly punctilious, and entirely free from suspicion, which is generally the result of a grasping, ill-balanced mind.</p>
@@ -896,7 +1012,7 @@ added, with significance: 'Uncle, don't you think it would be advisable to take 
 <p>At their first interview Mr. Muirhead, in substance, detailed the foregoing particulars to Tatlock. 'As it is certain, Mr. Tatlock,' he went on, 'that a guilty hand and brain have been at work, the necessity for discovering the hand and brain is imperative. For my nephew to rest under suspicion, if that suspicion is not well founded, would be intolerable. But if the lad is innocent, then we are confronted, I venture to think, with a more serious aspect of the case.'</p>
 <p>Tatlock saw clearly the lights and shades of the peculiar matter he was called upon to investigate. While family scruples had to be respected, he was asked to unravel a coinplicated case of crime—crime of a magnitude that seemed to indicate the brain of a practised criminal. And yet there was one point that struck him as peculiar, inasmuch as it was clumsily amateurish in one sense, while in another it was suggestive of deep cunning. The point was the drawing
 <pb n="88 THE FORGED CHEQUE"/>
-of the cheque for five hundred pounds payable to bearer. It was clumsily amateurish, because it might so very, very easily have led to detection. If the manager at the bank, for instance, whose suspicions seemed to have been slightly aroused, had only allowed them to so far take shape as to put a question or two to the presentee, the whole fraud would probably have been at once exposed. It was artfully cunning, because whoever drew the cheque relied upon the probability, if sufficient time elapsed, of Mr. Muirhead not being able to determine whether he did or did not sign the cheque. This argued, of course, a thorough knowledge of Mr. Muirhead's peculiar temperament, and of his absorption in his hobbies. It was necessarily a rotten reed to bear upon, but the forger's cunning told him that the reed might prove equal to the occasion. He chanced, and temporarily triumphed. On the face of it, every circumstance seemed to fix the guilt on Ernest Crossley. He had access to his uncle's cheque-book. He knew his uncle's affairs, and knew that his uncle's standing at the bank, and his reputation for enthusiasm for his botany and astronomy, would reduce the probability of his eccentric act in drawing a cheque in such a way arousing suspicion. And yet in spite of this very strong circumstantial evidence&#x2014;many a man has been hanged on evidence no stronger&#x2014;Tatlock thought that Ernest Crossley did not draw that cheque.</p?
+of the cheque for five hundred pounds payable to bearer. It was clumsily amateurish, because it might so very, very easily have led to detection. If the manager at the bank, for instance, whose suspicions seemed to have been slightly aroused, had only allowed them to so far take shape as to put a question or two to the presentee, the whole fraud would probably have been at once exposed. It was artfully cunning, because whoever drew the cheque relied upon the probability, if sufficient time elapsed, of Mr. Muirhead not being able to determine whether he did or did not sign the cheque. This argued, of course, a thorough knowledge of Mr. Muirhead's peculiar temperament, and of his absorption in his hobbies. It was necessarily a rotten reed to bear upon, but the forger's cunning told him that the reed might prove equal to the occasion. He chanced, and temporarily triumphed. On the face of it, every circumstance seemed to fix the guilt on Ernest Crossley. He had access to his uncle's cheque-book. He knew his uncle's affairs, and knew that his uncle's standing at the bank, and his reputation for enthusiasm for his botany and astronomy, would reduce the probability of his eccentric act in drawing a cheque in such a way arousing suspicion. And yet in spite of this very strong circumstantial evidence&#x2014;many a man has been hanged on evidence no stronger&#x2014;Tatlock thought that Ernest Crossley did not draw that cheque.</p>
 <p>Tatlock's first effort in the task of unravelling was not so much to determine if any one else was implicated as to prove conclusively Ernest Crossley's guilt or innocence. That was necessary to his uncle's peace of mind. If guilty, the sooner the truth was known and the wearying suspense ended the better. If innocent, not a moment should be lost in establishing his innocence. In broad principle, that was the line upon which Mr. Muirhead was anxious Tatlock should proceed.</p>
 <p>In the initial stage of this inquiry in the Muirhead affair, Tatlock subjected the forged cheque to a crucial examination, and he compared the writing on it with various specimens of Crossley's handwriting. He maintained, and no
 <pb n="89 THE FORGED CHEQUE"/>
@@ -1047,7 +1163,7 @@ of subscribing, and with that end in view I have arranged that everyone present 
 <p>'A vote of thanks terminated the proceedings, which throughout were most harmonious, and the general feeling was that the company had acquired a very substantial property. We understand that the shares are already at a premium. A large proportion of the capital for the purchase of the adjoining property referred to by the chairman in his speech was promised before the shareholders left the room.'</p>
 <p>The above is an extract from a report in a financial paper of the statutory meeting of the shareholders in the 'Great Golden Reefs Mines and Land Exploration Company, Limited,' whose registered capital was half a million of money, the whole of which had been subscribed. The property was situated somewhere in California, and the chairman and managing director was a gentleman bearing the picturesque name of Josiah Woodfield Bell Flowers. This gentleman, whose appearance was as picturesque as his name, had burst upon London like a meteor. What his origin was, where the came from, what his connections were, nobody seemed to know, and nobody seemed disposed to ask. Tall, handsome, well-proportioned, and of an age when a man&#x2014;not a born fool&#x2014;is supposed to have acquired wisdom, and in addition possessed of a beautiful voice, an insinuating and apparently frank, artless man, Mr. Flowers speedily won the favour of all with whom he came in contact. Ladies vowed he was 'charming,' and 'such a nice man,' with strong emphasis on the adjective, while men declared him to be 'a jolly good fellow.'</p>
 <p>Mr. Bell Flowers had come over to begrimed, fog-sodden, and benighted London from the rich, glowing, sun-
-<pb n=112 WITH A PASSING GLORY"/>
+<pb n="112 WITH A PASSING GLORY"/>
 baked lands of California, and the tales he had to tell of the potential wealth of certain regions he had explored, and in which he had acquired proprietarial and mining rights, set the silly Cockneys agape; and when, with true American philanthropy, he offered his properties for the public benefit subject to the condition that the trifle of half a million pounds sterling was subscribed in shares, of which he as vendor would accept the nominal sum of two hundred and fifty thousand pounds, and with the American aptitude for tall talk he spoke of wealth beyond the dreams of avarice, the grateful public flocked to him like sheep, and baaed in chorus&#x2014;'Give us of your shares. Here are our purses and cheque-books.' Widows and parsons struggling to live respectably on a bare pittance felt that their chance had come at last, and figuratively they threw their money at the head of Mr. Josiah Woodfield Bell Flowers, who was 'such a nice man.'</p>
 <p>Mr. Bell Flowers, as such a noble-minded benefactor had a right to do, set himself up a superb mansion in the neighbourhood of Hyde Park, and his palatial residence was ordered in a way that befitted a financial king. Here he gave superb entertainments, and here Mammon worshippers, My Lord This and My Lady That, with an army of their followers, assembled and did honour to their god.</p>
 <p>The additional company to which Mr. Bell Flowers referred at the above-mentioned meeting was duly floated, with a capital of three hundred thousand pounds. It was known as 'The Golden Reefs Mines Extension.' Mr. Flowers received a handsome proportion of this, and was elected chairman by an obedient board of guinea-pigs.</p>
@@ -1424,7 +1540,7 @@ consisted of coffee and bread. After that they went out, and generally returned 
 <p>'Murder; my God, murder!' seemed to thrill through the air and fall on the ears of all, and there was an instinctive shrinking back and a general shuddering.</p>
 <p>It is an ugly word, no matter when and where uttered. But when, as in this case, it is the exclamatory outburst of horror begotten by the sight of the victim and the victim's blood, its ugliness is intensified. Mr. Ravel recovered his presence of mind.</p>
 <pb n="157 TRACKED BY TEETH"/>
-'Run quickly and get hold of a policeman,' was his order; and the servants, as if only too glad to hurry away from that now accursed room, went pell-mell down the stairs. Then the man picked up Alice Worthington, bore her to a sofa in another room, and bade his wife attend to her, and he himself went down to the street door, where he awaited the arrival of a constable, to whom he quickly imparted the startling news. The two went upstairs, and in a few minutes a doctor, who lived close by, and had been summoned by one of the alarmed servants, followed them. He did not disturb the body, but satisfied himself that life was absolutely extinct. The three retired. Nothing in the room was disturbed. The door was locked, and an intimation of the occurrence conveyed without loss of time to the proper authorities, and in a very short time the telegraph wires were flashing the news of the crime to every seaport, every railway station in London, and every town of importance in the kingdom. From the first it was seen that the murder was one of a somewhat unusual character, and it was deemed probable that the suspected parties, being foreigners, would get out of the country with the least possible delay. Tyler Tatlock was communicated with, and he was urgently requested to try and get on the track of the fugitives.</p>
+<p>'Run quickly and get hold of a policeman,' was his order; and the servants, as if only too glad to hurry away from that now accursed room, went pell-mell down the stairs. Then the man picked up Alice Worthington, bore her to a sofa in another room, and bade his wife attend to her, and he himself went down to the street door, where he awaited the arrival of a constable, to whom he quickly imparted the startling news. The two went upstairs, and in a few minutes a doctor, who lived close by, and had been summoned by one of the alarmed servants, followed them. He did not disturb the body, but satisfied himself that life was absolutely extinct. The three retired. Nothing in the room was disturbed. The door was locked, and an intimation of the occurrence conveyed without loss of time to the proper authorities, and in a very short time the telegraph wires were flashing the news of the crime to every seaport, every railway station in London, and every town of importance in the kingdom. From the first it was seen that the murder was one of a somewhat unusual character, and it was deemed probable that the suspected parties, being foreigners, would get out of the country with the least possible delay. Tyler Tatlock was communicated with, and he was urgently requested to try and get on the track of the fugitives.</p>
 <p>The man referred to at the opening of this narrative as sitting in a thoughtful attitude in the room where the crime had been committed was Tyler Tatlock himself. He was endeavouring to work out a rational theory for the crime. To him it seemed clear that the murder was a deliberate and deeply-planned one. Three foreigners arrived with very little luggage&#x2014;nothing but what they could conveniently carry about with them. That in itself was a suspicious circumstance when considered in connection with other things. The woman who passed as Bella Luchessi was, as seemed pretty evident, in league with the man, and if she did not actually kill the other woman she was an accessory to the crime. The object in placing the dead body in the wardrobe was not quite clear, except on one hypothesis. When the body was discovered life had been
 <pb n="158 TRACKED BY TEETH"/>
 extinct, according to the medical report, about eight or nine hours. It was two o'clock when the discovery was made.</p>
@@ -1449,7 +1565,7 @@ detail they could lay hold of. And where nothing authentic could be
 obtained the wildest rumours were published. The public were morbidly
 eager for information, while the proprietors of the papers were eager
 for the public's pennies, and so the 'Tragedy in Blank Street' was
-served up every day <hi rend="italic">ad nauseam</hi>.
+served up every day <hi rend="italic">ad nauseam</hi>.</p>
 <p>The five-pound note which had been paid to the Bond Street shoemaker was the first thing to which Tatlock directed his attention. Inquiry at the Bank of England revealed the fact that the note was one of a number paid to the London branch of a French bank, having its head-quarters in Paris. Inquiry at this branch resulted in very important information. The day before the murder a lady entered the bank and presented three letters of credit, aggregating two thousand seven hundred and eighty-four pounds. The letters had been issued by a Milan bank in favour of one Signora Valetta Luchessi. The lady was alone, and, of course, she was asked if she was the Valetta Luchessi alluded to. She stated she was, and furnished satisfactory proofs of her identity. With the exception of ten five-pound notes, the whole of the money was, by her own request, paid to her in gold. She had brought with her a large wash-leather bag to receive it. As the bag was heavy, she requested the bank porter to carry it for her to a cab, which was waiting. The man did this, and he noted that seated in the cab were a lady and gentleman. As he opened the door and placed the bag on the seat, the gentleman said something to Mrs. Luchessi in a foreign language which the porter did not understand.</p>
 <p>Tatlock had not much difficulty in finding the driver of
 <pb n="162 TRACKED BY TEETH"/>
@@ -1555,7 +1671,8 @@ head. Then when I recover I find my dear Madame dead. <hi rend="italic">Mon Dieu
 <p>'It was soon after we had left Avignon.'</p>
 <p>'Before you came to Orange?'</p>
 <p>'Yes, without doubt.'</p>
-<p>Why are you so confident on that point?'
+<p>Why are you so confident on that point?'</p>
+
 <p>'I have often travelled there. We had not left Avignon more than ten minutes, and because of a hill the train goes slowly.'</p>
 <p>I suppose Madame's death is a great loss to you?'</p>
 <pb n="176 THE BAND OF THREE"/>
@@ -1610,7 +1727,7 @@ without meeting with serious injury is so small that we may dismiss it as an unt
 Mrs. Pennell's property amongst his things would secure us a warrant for his arrest on a charge of murder.</p>
 <p>This plan was carried out, and in the courier's possession there
 were found the gold repeater watch, the medallion portrait, many other
-items of jewellery, and upwards of 4,000<hi rend-"italic">l</hi>. in French notes, which were known to have been in the possession of the unfortunate lady at the time of her death. Stradvari had been too artful to attempt to part with any of the property while the hue and cry was hot. But he had made all preparations for going out to Buenos Ayres. There he would have little difficulty in realising on his ill-gotten gains. His arrest was promptly effected, as also that of the woman with him, and after the usual formalities they were extradited and conveyed to France. In order to save her own head the woman, under the pressure and torture of French methods of judicial interrogation, turned traitor to her partner and revealed the whole plot. She had long been acquainted with Stradvari, and she had once lived in Avignon as maid to a French lady. She had a brother, a ne'er-do-weel, who had been in the French navy, but was discharged in disgrace, after long imprisonment for severely injuring a superior officer. She and her brother, who were sorely pressed for money, urged Stradvari to kill his mistress. The crime was to be committed after leaving Avignon, and the woman and the brother were to be waiting at a certain spot agreed upon as the train passed, and they would carry a small lamp as a signal that they were there. Having secured the property, Stradvari was to toss it out of the window to his waiting confederates, and then slightly injure himself, and stick to the story of the two men having joined the train at Marseilles.</p>
+items of jewellery, and upwards of 4,000<hi rend="italic">l</hi>. in French notes, which were known to have been in the possession of the unfortunate lady at the time of her death. Stradvari had been too artful to attempt to part with any of the property while the hue and cry was hot. But he had made all preparations for going out to Buenos Ayres. There he would have little difficulty in realising on his ill-gotten gains. His arrest was promptly effected, as also that of the woman with him, and after the usual formalities they were extradited and conveyed to France. In order to save her own head the woman, under the pressure and torture of French methods of judicial interrogation, turned traitor to her partner and revealed the whole plot. She had long been acquainted with Stradvari, and she had once lived in Avignon as maid to a French lady. She had a brother, a ne'er-do-weel, who had been in the French navy, but was discharged in disgrace, after long imprisonment for severely injuring a superior officer. She and her brother, who were sorely pressed for money, urged Stradvari to kill his mistress. The crime was to be committed after leaving Avignon, and the woman and the brother were to be waiting at a certain spot agreed upon as the train passed, and they would carry a small lamp as a signal that they were there. Having secured the property, Stradvari was to toss it out of the window to his waiting confederates, and then slightly injure himself, and stick to the story of the two men having joined the train at Marseilles.</p>
 <p>It was a clever and artfully conceived plot, and carried out without a hitch. The woman and her brother walked back to Avignon, whence they got train in a few hours to Marseilles. From there they journeyed to Paris, where the man remained while the woman proceeded to London with the stolen property to wait for Stradvari. The brother's share of the plunder was a thousand pounds, which he very
 <pb n="180 THE BAND OF THREE"/>
 soon commenced to get rid of in riotous living in the French capital, where, after his sister's confession, he was arrested. He had been drinking so heavily, and was so saturated with absinthe, that he was a physical and mental wreck.</p>
@@ -1815,7 +1932,7 @@ Ambassador seemed to think he was. And Tatlock himself was at first
 inclined to believe a mistake had been made. It did not take the
 detective long to discover that Mr. Jackson was paying court to one of
 Lady Tarrant's daughters, Miss Beryl Tarrant, a very charming young
-woman of three-and-twenty, and it was obvious that he was a <hi rend="italic">persona grata</p> with the family and their friends.</p>
+woman of three-and-twenty, and it was obvious that he was a <hi rend="italic">persona grata </hi>with the family and their friends.</p>
 <p>For four days Tatlock closely watched the movements of Mr. Jackson, but saw not a sign to warrant a suspicion of the man's honesty. At length the party took their departure and journeyed through the Trossachs. Tatlock went with them, though he was not of their party, and no one suspected that this quiet, demure, unostentatious little gentleman, who was so primly dressed, and moved about as though even with his spectacles he had a difficulty in seeing, was shadowing them.</p>
 <p>Mr. Jackson was either very well acquainted with the country, or had been at special pains to post himself up, for he constituted himself the guide of the party, and his knowledge seemed of the cyclopedic order. He had the story of Rob Roy at his tongue's end. Ellen's Isle aroused his poetic fervour. He recited with correct intonation and an obvious appreciation of its beauties the stirring description of the fight between Fitzjames and Roderick Dhu. He expatiated on the merits of Scott, and rattled off long quotations with a grace and facility that greatly impressed his listeners, and drew around him a number of curious and admiring strangers, who regarded the well-informed and well-spoken gentleman as a man worth knowing.</p>
 <p>From Glasgow the party visited Ayrshire, and trod the scenes that are endeared for ever to Scotsmen by the genius of Burns. And here again Mr. Jackson was equally at home,
@@ -1860,7 +1977,9 @@ and as fast as trains and coach would take him he made his way to Loch Maree, wh
 <p>'And Mr. Jackson is engaged to one of your daughters?'</p>
 <p>'Yes, to Beryl. They are very fond of each other.'</p>
 <p>'I presume I am right in supposing that if you were
+
 assured that Mr. Jackson was an adventurer you would not
+
 allow your daughter to see him again?'</p>
 <p>Lady Tarrant uttered a little suppressed scream. The bare suggestion of such a possibility shocked her. Then she was indignant, and said some harsh things.</p>
 <p>'Madam,' said Tatlock, 'please have a little patience. I have a duty to perform, and before long I think I may be able to prove to you that Mr. Jackson has deceived you, and that he is not the person he represents himself to be. Failing that, nothing remains for me to do but offer my abject apology. You will, however, confess that it is better to suspect than to be deceived. If Mr. Jackson became the husband of your daughter, and turned out to be an impostor and a scamp, you would be sorry, but sorrow would be of no avail. Better, therefore, to err on the side of caution.'</p>
@@ -1884,12 +2003,12 @@ sentenced to long terms of imprisonment.</p>
 </div>
 <pb n="212"/>
 <div id="017" type="story" n="17">
-<head>CLINTON & HILLS' DEED-BOX</head>
+<head>CLINTON &#x0026; HILLS' DEED-BOX</head>
 <p>ONE blistering August day, when London was sweltering under a tropical sun and the one aim and object of every-one seemed to be to get cooling drinks, two young men, carrying between them a solicitor's deed-box, slowly and wearily toiled up Chancery Lane. Horses, pedestrians, drivers, everyone suffered from languidness begotten of the heat. The wood pavement sweated out its tar until the atmosphere reeked with a sickening odour. The stones were hot, the walls of the houses were hot, the iron railings would have blistered the hands that touched them. The sky was cloudless ; there was no wind ; the sun's rays were like a thrice-heated fiery furnace. The policemen on point-duty mopped their steaming faces, and puffed and groaned. Italian ice-cream vendors did a roaring trade at the street-corners, and everywhere where they could be obtained cooled drinks, drinks, drinks were in brisk demand.</p>
 <p>The two young men carrying the deed-box, on which was painted in
 white letters '<hi rend="italic">Re</hi> Edward Burley, Esq., Deceased,' moved with an evident sense of oppression. They swung the box between them with the air of men who were longing to creep into some cool and shady corner and go to sleep. They were lawyers' touts and clerks; they were ill paid, they fed coarsely, and they were cunning after their kind; but still they were human, and never having seen much of the sun, for they had never been out of England, they were overcome.</p>
 <p>Coming from the opposite direction, a stranger stopped
-<pb n="213 CLINTON & HILLS' DEED-BOX"/>
+<pb n="213 CLINTON &#x0026; HILLS' DEED-BOX"/>
 and addressed them. He wore a top-hat and frockcoat, its hideous blackness relieved by a splash of red at the buttonhole&#x2014;a crimson rose. He didn't seem much affected by the heat, though, as he stopped, he removed his headgear and mopped his forehead.</p>
 <p>'Can you tell me where Crim, Crisp & Co.'s place is?' he asked of the clerks.</p>
 <p>'Why, you're coming away from it,' answered one. 'It's up in Gray's Inn, out of Holborn.'</p>
@@ -1897,17 +2016,17 @@ and addressed them. He wore a top-hat and frockcoat, its hideous blackness relie
 <p>The clerks laughed in chorus. 'We are going towards Gray's Inn, and will direct you, if you like.'</p>
 <p>'It's very kind of you.' He turned in his steps and went with them. Presently he stopped. There was a tempting-looking public at the corner of a street. 'By Jove, I'm parched,' he said. 'I must go and have a drink.' He moved towards the door. The clerks looked longingly. He halted. 'Will you fellows join me?' Of course the fellows would.</p>
 <p>The three went in through a side doorway. On the door was painted the legend 'Private Bar.' The stranger was affable, courtly, and liberal. 'Three large whiskies and soda, with a huge block of ice in each,' was his order. The ice fluid was grateful to the cracked lips and parched throats of the clerks. They had put the deed-box on a fixed seat against the panelling of the compartment. The bar was pretty full, and people came and went. The whiskies and soda were consumed, and with princely liberality the courteous stranger commanded the glasses to be replenished. But joy and pleasure were ever evanescent. Twenty minutes or so had passed. The clerks felt hotter than ever, but their throats were not so parched. They turned to go, and to their amazement found that the deed-box had gone before them. Possibly it was a teetotal deed-box, and objected to a public-house bar. Anyway, it had disappeared. The young men rushed out. They looked north and they looked south, but the box was not visible.</p>
-<pb n="2I4 CLINTON & HILLS' DEED-BOX"/>
+<pb n="2I4 CLINTON &#x0026; HILLS' DEED-BOX"/>
 <p>The stranger commiserated with them, and wondered what sort of • bally rascal' it was who was mean enough to steal a lawyer's deed-box. Agitated with a great distress, the young men discussed the situation. It was a very serious one for them. It meant ruin, for they would be dismissed without character, and even a lawyer's clerk must have a character of some sort for appearance sake. There was but one thing to do under the circumstances, and they did it. That was, they hurried off to the nearest police station to make known their loss, and of course they parted from the stranger, and saw him no more. As may be surmised, the case passed into the hands of Tyler Tatlock, for it was far more serious a matter than appears on the surface, and the police failed to trace the thief.</p>
-<p>Clinton & Hills were lawyers. They had been established for some time in dingy chambers in Fleet Street, but had taken more commodious offices in Holborn, for big fees and silly clients had enriched them. To these offices they were removing on the day that the box disappeared. They had had the management for some years of the estate of a Mr. Edward Burley. He had been a wealthy man and a client of theirs for a very long time. He was regarded as an eccentric man ; secretive as to his affairs, though the solicitors knew a good deal about them. He left the bulk of his property, the net value of which was about ten thousand a year, to a nephew, who was a minor at the time of his uncle's death, and the solicitors were appointed his guardians. The stolen deed-box contained documents of the utmost importance, and failing their recovery no end of complications might arise. The two youths who had been entrusted with the important duty of carrying the box to the new offices told a plain, unvarnished talc, for they were cute enough to see that any other might place them in an exceedingly awkward predicament, so for once in their lives they were truthful.</p>
+<p>Clinton &#x0026; Hills were lawyers. They had been established for some time in dingy chambers in Fleet Street, but had taken more commodious offices in Holborn, for big fees and silly clients had enriched them. To these offices they were removing on the day that the box disappeared. They had had the management for some years of the estate of a Mr. Edward Burley. He had been a wealthy man and a client of theirs for a very long time. He was regarded as an eccentric man ; secretive as to his affairs, though the solicitors knew a good deal about them. He left the bulk of his property, the net value of which was about ten thousand a year, to a nephew, who was a minor at the time of his uncle's death, and the solicitors were appointed his guardians. The stolen deed-box contained documents of the utmost importance, and failing their recovery no end of complications might arise. The two youths who had been entrusted with the important duty of carrying the box to the new offices told a plain, unvarnished talc, for they were cute enough to see that any other might place them in an exceedingly awkward predicament, so for once in their lives they were truthful.</p>
 <p>From the first Tatlock was firmly of opinion that the stranger who had accosted them and treated them to drinks was in collusion with somebody else; that the whole business
-<pb n="215 CLINTON & HILLS' DEED-BOX"/>
-was a plant, and he set to work to discover if possible who was likely to be so far interested in the estate of the late Mr. Burley as to think it worth while to steal the deeds. A mere stranger would surely never have walked off with a box of deeds relating to property of which he knew nothing. The theory, therefore, was that whoever stole the deeds knew a good deal of Mr. Edward Burley's affairs. Tatlock worked from this hypothesis. It was obvious to him that the theft was the result of a deep-laid scheme, and was carried out by some person who was well posted up in the doings of Clinton & Hills. Necessarily the detective took every means to find out if the two clerks were in any way in collusion, and he satisfied himself that the story they told was a perfectly correct one.</p>
-<p>Clinton & Hills were not able to furnish Tatlock with any serviceable information with reference to Mr. Burley's domestic and purely private affairs. Clinton was a man well advanced in years, and had known Burley for a very long time. Hills was a young man of about thirty, and had been Clinton's partner for six years. They agreed in the opinion that Burley had been somewhat of a mystery, and, as far as they were concerned, he never talked of his past. Tatlock was convinced that in the man's past would be found a clue to the robbery, so he worked accordingly.</p>
+<pb n="215 CLINTON &#x0026; HILLS' DEED-BOX"/>
+was a plant, and he set to work to discover if possible who was likely to be so far interested in the estate of the late Mr. Burley as to think it worth while to steal the deeds. A mere stranger would surely never have walked off with a box of deeds relating to property of which he knew nothing. The theory, therefore, was that whoever stole the deeds knew a good deal of Mr. Edward Burley's affairs. Tatlock worked from this hypothesis. It was obvious to him that the theft was the result of a deep-laid scheme, and was carried out by some person who was well posted up in the doings of Clinton &#x0026; Hills. Necessarily the detective took every means to find out if the two clerks were in any way in collusion, and he satisfied himself that the story they told was a perfectly correct one.</p>
+<p>Clinton &#x0026; Hills were not able to furnish Tatlock with any serviceable information with reference to Mr. Burley's domestic and purely private affairs. Clinton was a man well advanced in years, and had known Burley for a very long time. Hills was a young man of about thirty, and had been Clinton's partner for six years. They agreed in the opinion that Burley had been somewhat of a mystery, and, as far as they were concerned, he never talked of his past. Tatlock was convinced that in the man's past would be found a clue to the robbery, so he worked accordingly.</p>
 <p>Burley was practically a self-made man, and a money-grabber. He was unfortunate in being violent-tempered, and of a selfish and unfeeling disposition. "Matlock gathered up these facts with comparative ease, for the prominent characteristics of a man are generally known to a pretty wide circle of people ; but his further information which enabled him to solve the problem was only acquired by the exercise of great tact, discretion, and ingenuity, and at the cost of much patient toil.</p>
 <p>He discovered that Burley had married when he was a little over twenty and very poor. He was married at Christchurch, Whitechapel, and the register set forth, amongst others, the following particulars:</p>
 <p>Marriage between Edward Burley, bachelor, importer
-`<pb n="216 CLINTON & HILLS' DEED-BOX"/>
+<pb n="216 CLINTON &#0026; HILLS' DEED-BOX"/>
 and agent; father's occupation, carpenter; and Emma Amelia Scranns, spinster, shop assistant; father's occupation, market gardener.'</p>
 <p>For some years after the marriage the young couple lived in the neighbourhood of Whitechapel, and Burley's financial progress could be traced. At first they occupied a small house at a rental value of twenty-four pounds. Soon after they removed into one worth forty. Later still into one worth seventy, and ten years after marriage they were tenants of a comparatively palatial abode in a square situated between Bow Road and Commercial Road East.</p>
 <p>No children came to bless the union of Mr. and Mrs. Burley, and there was a crystallised belief that their conjugal life was far from happy. Indeed, it was a tradition of the neighbourhood that Mr. Burley used to 'bash his missus,' and at last she 'took up' with a young Jew, and her liege lord and master kicked her out.</p>
@@ -1917,11 +2036,11 @@ Russell Square and had a small riverside residence on the banks of the
 Thames, near Henley. He had set up his carriage, had numerous horses
 and traps, kept a butler and several other servants, was believed to
 be a widower, was looked upon as eminently respectable, but 'close-fisted.' He had a housekeeper, a Mrs. Doyle, who had a son, a youth at this time between twelve and fourteen, in whom Mr. Burley took great interest. This son, Thomas Doyle, was a pupil at the City of London Schools, and was said to have brains. Before he was twenty he went up to Oxford, but the chief thing in which he seemed to have distinguished himself was extravagance. He plunged into debt. Mr. Burley paid his debts and forgave him. Encouraged
-<pb n="217 CLINTON & HILLS' DEED-BOX"/>
+<pb n="217 CLINTON &#x0026; HILLS' DEED-BOX"/>
 by that, he took a still deeper plunge, but this time Burley declined to pay any more. There was a scandal, and young Doyle was rusticated. He disappeared after that, and there was reason to believe that he went abroad ; but his mother continued to live for years under Mr. Burley's roof, until the measure of her years being full she passed away. Mr. Burley only survived her by two years. For years before he died he had a manservant, who acted as his valet. He was a Scotsman, by name James Gillespie. This man was with him up to his death. Tatlock discovered Gillespie in this way : In the house adjoining Burley's house in Russell Square was a servant whose sister had been a housemaid in Burley's service. This sister married Gillespie, and they took a small hotel in the neighbourhood of Henley. From Gillespie the following information was gleaned by Tatlock:</p>
 <p>For two or three years before Mr. Burley's death a man was in the habit of visiting him occasionally. It was made evident that he was not a welcome guest. There were many signs to indicate this. He was known to the house-hold as Mr. Moore, and it was generally believed that there was some relationship between Mr. Moore and Mr. Burley. A very short time before Burley's death, and being then in delicate health, he was visited by Moore, who sat with him in his bedroom. Gillespie remembered that particular visit very well indeed, and he knew that between his master and the visitor there was a violent altercation. At last the bell of the room was rung violently, and, on Gillespie hurrying up, he found his master unconscious in his chair, while Moore was pale and agitated. He said he believed Mr. Burley was in a fit, and urged that the doctor should be summoned immediately. This was done, and as the doctor lived in the neighbourhood he was soon at Mr. Burley's house. He diagnosed the ' fit' as apoplexy, and pronounced it a serious case, and he got in a colleague, who confirmed this. The usual course in such cases was adopted, and at length the patient showed signs of being relieved.</p>
 <p>the medical men did not consider it advisable to leave
-<pb n="218 CLINTON & HILLS' DEED-BOX"/>
+<pb n="218 CLINTON &#x0026; HILLS' DEED-BOX"/>
 the sick man, they dined in the house together with Mr. Moore, who seemed much concerned about Burley, and was particularly anxious to know if he was likely to re-cover his faculties or not. To this the medical men gave a cautious reply. The attack was a bad one, they said, but still they were hopeful that their patient would rally. It was useless, however, to attempt to disguise the fact that he was in a dangerous condition. Moore was asked if he knew any of Burley's relations. He replied that he did not think there were any Mr. Burley would care to have about him. Nevertheless, the doctors urged that it was a duty on Moore's part to inform these relatives that Burley's life was hanging by a thread. He promised to do this on the following day, and expressed his intention of staying in the house all night. Of course no one had the power or authority to object to this.</p>
 <p>The doctors took it in turns to watch by the bedside of the
 stricken man. One stayed the first half of the night, and was relieved
@@ -1941,26 +2060,26 @@ man's desk, and to sundry drawers and boxes. He then left the house,
 saying he would call upon Mr. Burley's solicitors, whom he knew. He
 did that about midday, but previous to doing so he called at Burley's
 bank, as Tatlock discovered, and cashed an open cheque for 4,<hi rend="italic">000l</hi>. It was dated two days previously, and was made payable to George Moore.</p>
-<pb n="219 CLINTON & HILLS' DEED-BOX"/>
+<pb n="219 CLINTON &#x0026; ml HILLS' DEED-BOX"/>
 <p>As it was very unusual for Burley to give an open cheque for so large an amount, the cashier took it to the manager, who, while surprised, believed it to be all right. Nevertheless, Mr. Moore was asked if he had business connections with Mr. Burley. He seemed indignant at being questioned, and handed the cashier his card, on which was printed 'George Moore, 37 Ebury Street, Pimlico.' In the end the cheque was cashed, the amount being paid chiefly in Bank of England notes. An hour later those notes were converted into gold at the Bank of England by, there is little doubt, Moore himself.</p>
 <p>In all these various incidents Tyler Tatlock saw good reason for
 thinking that the mysterious George Moore might be able to throw some
 light on the disappearance of the deed-box, more especially as there
 was reason to think the signature on the 4,000<hi rend="italic">l</hi>. cheque was a forgery. This could not be proved, of course, as Mr. Burley was dead, but critical examination and comparison with scores of other cheques signed by Burley revealed differences sufficiently marked to arouse suspicions. Experts, in fact, declared that the cheque was a forgery, but in the absence of Burley himself no charge of forgery could have been legally sustained.</p>
-<p>As Tatlock worked the problem out he came to the conclusion that George Moore and Thomas Doyle were one and the same, and that Doyle was Burley's son. The description given by the doctors and Gillespie of Moore, and the description of the stranger who met Clinton & Hills' clerks as they were carrying the deed-box, were identical.</p>
-<p>Now, it was obvious that while he lured the young men into the public-house he must have had a confederate at hand to carry off the box, and scarcely less obvious that there was a traitor in Clinton & Hills' office who gave Doyle the tip about the box. Tatlock kept this thought to himself, but he watched and probed. Besides the two youths who carried the box, there were four other clerks in the offices. But against no one of these could he get a tittle of anything
-<pb n="220 CLINTON & HILLS' DEED-BOX"/>
+<p>As Tatlock worked the problem out he came to the conclusion that George Moore and Thomas Doyle were one and the same, and that Doyle was Burley's son. The description given by the doctors and Gillespie of Moore, and the description of the stranger who met Clinton &#x0026; Hills' clerks as they were carrying the deed-box, were identical.</p>
+<p>Now, it was obvious that while he lured the young men into the public-house he must have had a confederate at hand to carry off the box, and scarcely less obvious that there was a traitor in Clinton &#x0026; Hills' office who gave Doyle the tip about the box. Tatlock kept this thought to himself, but he watched and probed. Besides the two youths who carried the box, there were four other clerks in the offices. But against no one of these could he get a tittle of anything
+<pb n="220 CLINTON &#x0026; HILLS' DEED-BOX"/>
 that would warrant him in suspecting him. Then Tatlock said to himself:</p>
-<p>'Thomas Doyle was Burley's son, and between them was ill blood. A quarrel between them brought on the attack of apoplexy from which Burley died. Instead of the son inheriting a share at least of his father's property, it was all left to a nephew. Doyle, enraged and desperate, thought that if he could get hold of the documents in possession of Clinton & Hills' they might be of value to him. Some-body in Clinton & Hills' office gave him information. 'Who was it? Not the clerks, because I've tested them. One of the partners, then? This is startling, but quite feasible. Which of the partners? Not Clinton. He is an old man, and very well off. Hills, then? Yes, probably. He is young, fast, extravagant. At any rate, he must be watched.'</p>
+<p>'Thomas Doyle was Burley's son, and between them was ill blood. A quarrel between them brought on the attack of apoplexy from which Burley died. Instead of the son inheriting a share at least of his father's property, it was all left to a nephew. Doyle, enraged and desperate, thought that if he could get hold of the documents in possession of Clinton & Hills' they might be of value to him. Some-body in Clinton &#x0026; Hills' office gave him information. 'Who was it? Not the clerks, because I've tested them. One of the partners, then? This is startling, but quite feasible. Which of the partners? Not Clinton. He is an old man, and very well off. Hills, then? Yes, probably. He is young, fast, extravagant. At any rate, he must be watched.'</p>
 <p>Falling in practically with this line of argument, Tatlock did
-watch. Hills was not well off. He had a fourth share only in Cinton &
+watch. Hills was not well off. He had a fourth share only in Cinton &#x0026;
 Hills. That fourth share had been bought for him by a brother. Hills
 was single, but engaged to be married. One day he left England for a
 short holiday. He went to Paris. Tatlock went with him, but all
 unknown to him. The night of his arrival in Paris Hills dined at the
 Cafes de la Paix with Thomas Doyle <hi rend="italic">alias</hi> George Moore. The detective hastened back to London, and reported to Mr. Clinton, who was shocked, but decided to take no steps till his partner came back. When he did he was questioned. He realised that his guilty secret was discovered, and did the best thing he could perhaps for himself under the circumstances—he went home and put an end to his existence.</p>
 <p>Doyle was arrested in Paris, and in his possession was found all the deeds and papers. He declared himself the son of the late Mr. Burley, said that he and Hills had discussed the matter, and resolved that the deed-box should be stolen, and later on, when all chance of recovering it had passed, arrangements should be made to return it to the guardians subject to the payment of a large sum of money, which the partners in guilt were to share.</p>
-<pb n="221 CLINTON & HILLS' DEED-BOX"/>
+<pb n="221 CLINTON &#x0026; HILLS' DEED-BOX"/>
 <p>It was a pretty and ingenious plot, frustrated by the cleverness of
 Tatlock ; but Doyle slipped through the meshes. He employed an
 exceedingly able French advocate to oppose the extradition, and owing
@@ -2330,7 +2449,7 @@ and he knew only too yell tliat he must die.</p>
 <pb n="258 BETWEEN DEAD LIPS"/>
 great relief to Gyde when he heard the bell ring, and the old housekeeper came in to announce the arrival of 'Mrs. Turner and Miss Dorothy.' In a few minutes the door of the apartment was flung open, and a young, bright, and laughing girl burst into the room with a joyous cry of delight, and flying to Lindmark, and throwing her arms round his neck, she exclaimed, 'Oh, my dear, dear papa, I am so glad to see you!' Then suddenly, as she heard the hacking cough and saw the bloodless face, she drew back in alarm and said, 'Oh, papa, what is the matter ? You are ill, and you have never told me anything about it.'</p>
 <p>He pressed the fair head to his shrunken chest, and with a ghastly smile he answered:</p>
-<p>'No, darling, I have not told you. I did not think it necessary to do so. But come, come, we mustn't talk of illness now. I want this to be a very pleasant Christmas to you, so that in after years it may live in your memory. Possibly, dear'&#x2014;here his voice faltered&#x2014;'possibly, dear, you and I will not be able to spend next Christmas together; but if I could only get a little stronger I would go away to some warm climate, and I might then get perfectly well again.'
+<p>'No, darling, I have not told you. I did not think it necessary to do so. But come, come, we mustn't talk of illness now. I want this to be a very pleasant Christmas to you, so that in after years it may live in your memory. Possibly, dear'&#x2014;here his voice faltered&#x2014;'possibly, dear, you and I will not be able to spend next Christmas together; but if I could only get a little stronger I would go away to some warm climate, and I might then get perfectly well again.'</p>
 <p>Lindmark spoke thus to calm the fears of his child, but he knew perfectly well that his days were numbered, and that if his life stretched out for another three months it was as much as it would. Knowing the hopelessness of his case, he had become, as it were, despairingly reckless, and was rather disposed to hasten the coming end, and so cut short the torturing suspense, than make an attempt to delay it.</p>
 <p>His daughter was deeply affected, and cried very much, but she was too young to fully realise the dreadful truth, and under the influence of her father's forced laughter, and Gyde's jokes, she grew merry as a cricket. She sat on Gyde's knee and pulled his beard; then she played havoc amongst her father's books, and next, with sweet wilfulness, rattled off a stirring piece on the piano. She was, indeed, a young wild beauty, and her presence was like a burst of glad sunshine.</p>
 <pb n="259 BETWEEN DEAD LIPS"/>
@@ -2340,7 +2459,7 @@ great relief to Gyde when he heard the bell ring, and the old housekeeper came i
 <p>The dinner passed off very merrily, and Herbert Lindmark seemed in unusually high spirits, and, much to good Mrs. Turner's amazement, he allowed his daughter to partake of a little glass of sherry, and to follow this with a glass of champagne; and the lady's indignation reached a point when it burst into a wordy protest as she witnessed her charge attack a third helping of the rich Christmas pudding, very freely moistened with brandy sauce. But Lindmark, who had never brooked authority, would tolerate no interference now, and said politely:</p>
 <p>'Excuse me, Mrs. Turner, if I say that I wish Dorothy to do as she likes to-day.'</p>
 <p>The lady felt the rebuke and held her peace, though, as the saying is, her blood boiled ; but she was a worldly-
-<pb n="26o BETWEEN DEAD LIPS"/>
+<pb n="260 BETWEEN DEAD LIPS"/>
 minded and selfish woman, and knew that she could not afford to quarrel with Mr. Lindmark.</p>
 <p>Mrs. Turner was the widow of an officer in the army who had been dead nearly a dozen years. He left her with one son and a hundred a year, and on this scant income she had lived in genteel poverty in Paris. The sixty guineas a year, therefore, which Mr. Lindmark allowed her for Dorothy's keep and education was not to be lightly thrown away. Now, notwithstanding that Mrs. Turner had highly respectable connections, and had been well brought up and well educated herself, she was a designing if not an unscrupulous woman, and she was rather fond of boasting that anything that she set her mind upon she almost invariably accomplished. One of the things upon which her mind had long been set was the marriage of her son to Dorothy when the children were old enough, as she believed Dorothy to be an heiress, and, therefore, a prize worth hooking, seeing that her son's inheritance was only a reversionary interest in the two thousand pounds from which she derived her modest income. Alfred Turner was more French than English, having been in France the greater part of his life; and as a natural consequence he had become impregnated with the insincerity and easy morality which is so conspicuous of French youth ; his mother had been to great pains to thoroughly imbue him with the very French social doctrines that marriage should be a marriage of convenience and money; if love comes afterwards well and good, but if it does not it's of no consequence as long as the money is there ; but under no circumstances must love be considered before the financial question. It is a pernicious doctrine, but it accorded well with Mrs. Turner's own views, and she preached it.</p>
 <p>Alfred Turner was strikingly handsome, but exceedingly forward, and quite as fast as the most lively of his French companions; and in spite of his youth scandal had already coupled his name in a very compromising manner with that of a young lady whose husband occupied a diplomatic position abroad. To Dorothy he had always strenuously endeavoured,
@@ -2376,7 +2495,7 @@ come into that face, and caused her to appear older than her years.</p>
 <p>Mrs. Turner, who wisely witnessed the scene without making any remark, was glad enough when she and her charge were descending the stairs, piloted by John Gyde, who was to escort them to their hotel at Charing Cross, and then return to pass the night at his friend's chambers.</p>
 <p>As soon as he was alone, and the sounds of the descending footsteps had died away, Lindmark uttered a great sob, and sank like a lump of lead upon the couch. In a few minutes he struggled to his feet, and seizing a bottle half full of champagne that stood on the table, he poured out a tumblerful of the wine and drained it at a draught. For a few brief moments it gave him a deceptive strength; but suddenly there spread over his face a ghastly pallor, and a little frothy blood oozed from between his lips. Clasping his hands to his face in a paroxysm of anguish, he uttered a deep moan of pain, then staggering back he fell, with his
 <pb n="264 BETWEEN DEAD LIPS"/>
-body on the floor and his head resting against the couch. It was long past midnight when Gyde strolled leisurely back through the silent and deserted streets. It was bitterly cold; the air was keen with frost, and the stars glittered superbly. Gyde was very thoughtful, and a shade melancholy. He thought of the severe and rigid Mrs. Turner; of the sweet child-face of Dorothy as he had last seen it framed in its woollen hood; and of the pallid wasted face of his dying friend, and he dreamed and speculated upon the future; wondered what his own future would be; what Dorothy's future would be; and whether his friend had any future. The latter part of his speculation was soon answered, for when, a few minutes later, he entered Herbert Lindmark's chamber, he found the silence which could never be unsealed. The current of Lindmark's life, like gliding water, had merged itself into the ocean of mystery which is called Death.</p>
+body on the floor and his head resting against the couch. It was long past midnight when Gyde strolled leisurely back through the silent and deserted streets. It was bitterly cold; the air was keen with frost, and the stars glittered superbly. Gyde was very thoughtful, and a shade melancholy. He thought of the severe and rigid Mrs. Turner; of the sweet child-face of Dorothy as he had last seen it framed in its woollen hood; and of the pallid wasted face of his dying friend, and he dreamed and speculated upon the future; wondered what his own future would be; what Dorothy's future would be; and whether his friend had any future. The latter part of his speculation was soon answered, for when, a few minutes later, he entered Herbert Lindmark's chamber, he found the silence which could never be unsealed. The current of Lindmark's life, like gliding water, had merged itself into the ocean of mystery which is called Death.</p></div>
 <div id="jmtyler002" type="chapter" n="2">
 <p>IVY-COVERED and honeysuckled, with quaint gable ends, and oriel windows, a smoothly shaven lawn sloping down to the brink of the river that flowed ever onward with a murmuring song, a few old elm trees overshadowing the house that stood in a scene of romantic beauty. Such was the 'Raven's Nest,' the peaceful country home of John Gyde, Esq., who was able to put Barrister-at-Law after his name, but who had never held a brief, and was never likely to do.</p>
 <p>During the seven years that had passed since his friend Lindmark's death on that memorable Christmas night, many changes had taken place in John Gyde's circumstances. He had been called to the Bar, and had come into his fortune through his mother's death. The law had never been particularly attractive for him ; he preferred the retirement and pleasures associated with the life of a country gentleman. Although not wealthy, John had ample means
@@ -2497,7 +2616,7 @@ Englishman's house is his castle, and that he has a right to defend
 it. Thus armed, he quietly opened the door of his study and stepped
 into the hall, and as he did so he started again, and back came that
 feeling of&#x2014;shall I say superstition ?&#x2014;for there on the landing, thrown into strong relief by the green plants and the stained window, was a white shrouded figure.. It seemed to wave an arm to him, and then suddenly disappeared.</p>
-<p>What is this mystery ?' he thought. ' <hi rend="italic">Can it</hi> be possible for the dead to come back ?' He stood irresolute. What man would not under such circumstances ? But the <hi rend="italic">feeling</hi> went as quickly as it came, and he was the strong, bold man again, for he fancied he heard somebody moving at the bottom of the passage.<p>
+<p>What is this mystery ?' he thought. ' <hi rend="italic">Can it</hi> be possible for the dead to come back ?' He stood irresolute. What man would not under such circumstances ? But the <hi rend="italic">feeling</hi> went as quickly as it came, and he was the strong, bold man again, for he fancied he heard somebody moving at the bottom of the passage.</p>
 <p>Grasping his revolver firmly and making but little noise with his slippered feet, he hurried in the direction, and when he reached the angle, already spoken of, the cold blast of air that came up told him plainly that the door below was open.</p>
 <p>So ; burglars ! ' he thought.</p>
 <p>He hurried down the flight of steps. The door was open, and the
@@ -2637,7 +2756,7 @@ they themselves knew that Christmas must ever be a memorable time to
 them ; for it was on a solemn Christmas night that the wish that they
 should become man and wife had been expressed ' Between Dead
 Lips.'</p></div>
-</body><back><div type="colophon" id="jmtyler1">
+<text><body><back><div type="colophon" id="jmtyler1">
 <p>PRINTED BY<lb/>
 SPOTTISWOODE AND CO., NEW-STREET SQUARE<lb/>
-LONDON</p></div></back>
+LONDON</p></div></back></body></text>
