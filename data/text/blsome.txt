@@ -1,13 +1,134 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 Still needs header and main title page, although the stories are pre-div'ed.  The first page of each story is formatted in a complicated way, as some stories have individual epigraphs.
 
-<TEI.2><text>
+<TEI.2>
+<teiHeader> 
+<fileDesc> 
+<titleStmt> 
+<title>Some Men &#x0026; Women, an electronic edition</title> 
+<author n="lowndes, Belloc Mrs., 1868-1947">Marie Belloc Lowndes</author> 
+</titleStmt> 
+<extent></extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2005</date> 
+<availability>
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address> 
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp>
+</respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl><author>Lowndes, Belloc Mrs.</author>. <title>Some Men &#x0026; Women</title>. 
+<pubPlace>London:</pubPlace>: <publisher>Hutchinson &#x0026; CO.</publisher>, <date>[1925]</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p>
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc>
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs>
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British literature--20th Century--Fiction.</item> 
+<item>Women authors, British--20th Century.</item> 
+<item>Short stories.</item> 
+<item>Infidelity-Marital.</item>
+<item>Divorce</item>
+<item>Suicide</item>
+<item>Murder</item>
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-12</date> 
+<respStmt><name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
+<text>
 <front>
+<div id="blsomecover" type="covers">
+<figure entity="blsomefc" rend="inline">
+<figDesc> Front cover of Lowndes's "Some Men and Women"</figDesc>
+</figure>
+</div>
+<pb/>
+<pb n="[i]"/>
+<pb entity="blsometp" pages="titlePage"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> SOME MEN AND WOMEN</titlePart>
+</docTitle>
+</titlePage>
 
+<pb n="[ii]"/>
+<div id="blsome100" type="advert">
+<figure entity="blsomead1" rend="inline">
+<figDesc> Advert in front of Lowndes's "Some Men and Women"</figDesc>
+</figure>
+</div>
+
+<pb n="[iii]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">SOME MEN AND WOMEN</titlePart>
+</docTitle>
+<byline> BY <docAuthor> MRS. BELLOC LOWNDES</docAuthor> Author of "The Lodger," "Studies in Wives," Studies in Love and in Terror," etc., etc.</byline>
+
+<epigram><cit><q>"Male and Female created He them."</q>
+<bibl> <hi rend="italics">Gen</hi>. <hi rend="italics">i</hi>. 27</bibl></cit></epigram>
+
+<docImprint>
+<pubPlace>LONDON:</pubPlace> <publisher>HUTCHINSON &#x0026; CO.<lb/>PUBLISHERS</publisher> <pubPlace> PATERNOSTER ROW</pubPlace></docImprint> 
+</titlePage>
+<pb/>
+<div id="blsome200" type="table of contents">
+<figure entity="blsometc" rend="inline">
+<figDesc> Table of contents in front of Lowndes's "Some Men and Women"</figDesc>
+</figure>
+</div>
 </front>
 <group>
 <pb n="[7]"/>
-<text><front>
+<text>
+<front>
 <titlePage type="half">
 <docTitle type="main">THE CALL</docTitle></titlePage>
 </front><body>
