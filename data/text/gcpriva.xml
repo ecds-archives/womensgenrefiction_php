@@ -4,75 +4,136 @@
 
 <TEI.2>
 
-	<teiHeader>
+<teiHeader>
 
-		<fileDesc>
+<fileDesc>
 
-			<titleStmt>
+<titleStmt>
 
-				<title>SECRETS OF A PRIVATE ENQUIRY OFFICE</title>
+<title>SECRETS OF A PRIVATE ENQUIRY OFFICE, an electronic edition</title>
 
-				<author/>
+<author n="Corbett, George Mrs."> Mrs. George Corbett </author>
 
-			</titleStmt>
+</titleStmt>
 
-			<publicationStmt>
+<publicationStmt>
 
-				<pubPlace/>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2005</date> 
+<availability> 
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+   <addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address> 
+</p></availability></publicationStmt> 
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp></respStmt> 
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Corbett, George Mrs.</author>. <title>Secrets of a Private Inquiry Office</title>. 
+<pubPlace>London</pubPlace>: <publisher>George Routledge and Sons, Limited.</publisher>, 
+<date>1891</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p>
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p>
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p>
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc>
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British literature--19th Century--Fiction.</item> 
+<item>Women authors, British--19th Century.</item> 
+<item>Detective fiction.</item> 
+<item>Supernatural murder.</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-11</date> 
+<respStmt>
+<name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc>
 
-				<publisher/>
+</teiHeader>
 
-				<publisher/>
+<text>
 
-				<date/>
+<front>
+<pb n="[i]"/>
+<pb entity="gcprivatp" pages="titlePage"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">SECRETS OF A PRIVATE ENQUIRY OFFICE</titlePart>
+</docTitle>
+</titlePage>
 
-			</publicationStmt>
+<pb n="[ii]"/>
+<div id="gcpriva100" type="advert">
+<figure entity="gcprivaad1" rend="inline">
+<figDesc> Advert in front of Corbett's "Secrets of a Private Enquiry Office"</figDesc>
+</figure>
+</div>
 
-			<sourceDesc>
+<pb n="[iii]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">SECRETS OF A PRIVATE ENQUIRY OFFICE</titlePart>
+</docTitle>
+<titlePart type="sub"> Being <lb/> TALES WEIRD AND TALES GHOSTLY<lb/> TALES HUMOROUS AND TALES PATHETIC <lb/> TALES EXCITING AND TALES CURIOUS</titlePart>
+<byline> By <docAuthor> MRS. GEORGE CORBETT</docAuthor> AUTHOR OF "PHARISEES UNVEILED," "NEW AMAZONIA," "THE MISSING NOTE," "CASSANDRA," ETC. </byline>
+<docImprint>
+<pubPlace>LONDON:</pubPlace><publisher>GEORGE ROUTLEDGE AND SONS, LIMITED</publisher> <pubPlace>BROADWAY, LUDGATE HILL <lb/> GLASGOW, MANCHESTER AND NEW YORK</pubPlace> <docDate>1891</docDate> </docImprint> 
+				
+</titlePage>
 
-				<p/>
+<div id="gcpriva200" type="copyright">
+<l> lONDON <lb/> BRADBURY, AGNEW. &#x0026; CO. LIMD., PRINTERS, WHITEFRIARS.</l></div>
 
-			</sourceDesc>
+<div id="gcpriva300" type="table of contents">
+<figure entity="gcprivatc1" rend="inline">
+<figDesc>Table of contents in Corbett's "Secrets of a private enquiry office"</figDesc>
+</figure>
+</div>
+<pb/> 
 
-		</fileDesc>
-
-		<profileDesc/>
-
-	</teiHeader>
-
-	<text>
-
-		<front>
-
-			<titlePage>
-
-				<docTitle>
-
-					<titlePart>SECRETS OF A PRIVATE ENQUIRY OFFICE</titlePart>
-
-				</docTitle>
-
-				<byline/>
-
-				<byline/>
-
-				<docImprint>
-
-					<name/>
-
-					<name/>
-
-					<name/>
-
-					<date/>
-
-				</docImprint>
-
-			</titlePage>
-
-		</front>
-
-		<body>
+</front>
+<body>
 
 		***	<!--pages missing 1-6-->
 
@@ -2294,11 +2355,21 @@ What&#x2014;&#x2014;. But there, I am turning just as enthusiastically rhapsodic
 
 				<p>Sir Wallace Louthian is much better in health&#x2014;so much so, that lie can take gentle outdoor exercise now. His son is a source of comfort and pride to him, and every three months I receive a letter containing a small enclosure, and expressing the writer's gratitude for the perspicacity which had prevented him from being imposed upon by an unscrupulous woman and a possibly unscrupulous impostor, even though the latter was a genuine descendant of the family of the Withered Hand.</p>
 
-			</div>
+<trailer> THE END. </trailer>		
 
-		</body>
+</div>
 
-	</text>
+</body>
+
+<back>
+
+<div id="gcpriva017" type="colophon">
+<l>BRADBURY, AGNEW &#x0026; CO. LIMD., PRINTERS, WHITEFRIARS.</l>
+</div>
+</back>	
+
+
+</text>
 
 </TEI.2>
 
