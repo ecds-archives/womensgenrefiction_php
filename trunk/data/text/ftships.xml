@@ -3,76 +3,126 @@
 <!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
 
 <TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+  <title>Like Ships Upon the Sea, an electronic edition</title>
+<author n="Trollope, Francis E.,d.1913"> Frances Eleanor Trollope</author>
+</titleStmt>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2007</date>
+<availability> <p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address> 
+</p></availability></publicationStmt>
+<sourceDesc>
+<bibl><author>Trollope,Frances E.</author>. <title>Like Ships Upon the Sea</title>. <pubPlace>London</pubPlace>: <publisher>Hodder and Stoughton.</publisher>, 
+<date>1903</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> <samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy>
+</classDecl> 
+</encodingDesc> 
+<profileDesc>
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British literature--19th Century--Fiction.</item> 
+<item>Women authors, British--19th Century.</item> 
+<item>Italy</item> 
+<item>Marriage.</item> 
+<item>Travel.</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-13</date> 
+<respStmt><name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc>
+</teiHeader>
 
-	<teiHeader>
+<text>
+<front>
 
-		<fileDesc>
+<div id="ftshipscover" type="front cover">
+<figure entity="ftshipsfc" rend="inline">
+<figDesc> Front Cover of Trollope's "Like Ships Upon the Sea"
+</figDesc>
+</figure>
+</div>
+<pb/>
 
-			<titleStmt>
+<pb n="[i]"/>
+<div id="ftships100" type="advert">
+<figure entity="ftshipsad1" rend="inline">
+<figDesc> Advert included in front of Trollope's "Like Ships Upon the Sea">
+</figDesc>
+</figure>
 
-				<title/>
+<pb n="[ii]"/>
+<figure entity="ftshipsad2" rend="inline">
+<figDesc> Advert included in front of Trollope's "Like Ships Upon the Sea">
+</figDesc>
+</figure>
+</div>
 
-				<author/>
+<pb n="[iii]"/>
+<pb entity="ftshipstp" pages="titlePage"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">LIKE SHIPS UPON THE SEA</titlePart>
+</docTitle>
+<titlePart type="sub">A Novel</titlePart>
 
-			</titleStmt>
+<byline>BY<docAuthor>FRANCES ELEANOR TROLLOPE</docAuthor> AUTHOR OF<lb/> "AUNT MARGARET'S TROUBLE," "ANNE FURNESS," <lb/> "MABEL'S PROGRESS," ETC.</byline>
 
-			<publicationStmt>
+<titlePart type="desc">A NEW EDITION</titlePart>
+<docImprint>
+<pubPlace>LONDON:</pubPlace><publisher>CHATTO AND WINDUS, PICCADILLY</publisher> <docDate>1883</docDate>
+</docImprint>
+<Imprimatur> [<hi rend="italics">All rights reserved</hi>]</Imprimatur>
+</titlePage>
 
-				<pubPlace/>
+<pb n="[iv]"/>
+<div type="epigram">
+<q><p>"We twain have met like ships upon the sea."</p></q>
+</div>
 
-				<publisher/>
+</front>
 
-				<publisher/>
-
-				<date/>
-
-			</publicationStmt>
-
-			<sourceDesc>
-
-				<p/>
-
-			</sourceDesc>
-
-		</fileDesc>
-
-		<profileDesc/>
-
-	</teiHeader>
-
-	<text>
-
-		<front>
-
-			<titlePage>
-
-				<docTitle>
-
-					<titlePart/>
-
-				</docTitle>
-
-				<byline/>
-
-				<byline/>
-
-				<docImprint>
-
-					<name/>
-
-					<name/>
-
-					<name/>
-
-					<date/>
-
-				</docImprint>
-
-			</titlePage>
-
-		</front>
-
-		<body>
+<body>
 
 			<pb n="1"/>
 
@@ -4592,7 +4642,180 @@ and were not found to be seductive. Readers looked for a lurking moral in its li
 
 		</body>
 
-	</text>
+<back>
+<pb/>
+<div type="colophon">
+<p>Bungan:</p>
+<p>CLAY AND TAYLOR, PRINTERS</p>
+</div>
+
+<pb n="[1]"/>
+<div id="ftships040" type="advert">
+<figure entity="ftshipsad1" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>
+
+<pb n="2"/>
+<figure entity="ftshipsad2" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="3"/>
+<figure entity="ftshipsad3" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="4"/>
+<figure entity="ftshipsad4" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="5"/>
+<figure entity="ftshipsad5" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="6"/>
+<figure entity="ftshipsad6" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="7"/>
+<figure entity="ftshipsad7" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="8"/>
+<figure entity="ftshipsad8" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="9"/>
+<figure entity="ftshipsad9" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="10"/>
+<figure entity="ftshipsad10" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+
+<pb n="11"/>
+<figure entity="ftshipsad11" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="12"/>
+<figure entity="ftshipsad12" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="13"/>
+<figure entity="ftshipsad13" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="14"/>
+<figure entity="ftshipsad14" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="15"/>
+<figure entity="ftshipsad15" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="16"/>
+<figure entity="ftshipsad16" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="17"/>
+<figure entity="ftshipsad17" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="18"/>
+<figure entity="ftshipsad18" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="19"/>
+<figure entity="ftshipsad19" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="20"/>
+<figure entity="ftshipsad20" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="21"/>
+<figure entity="ftshipsad21" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="22"/>
+<figure entity="ftshipsad22" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="23"/>
+<figure entity="ftshipsad23" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="24"/>
+<figure entity="ftshipsad24" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="25"/>
+<figure entity="ftshipsad25" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="26"/>
+<figure entity="ftshipsad26" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="27"/>
+<figure entity="ftshipsad27" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="28"/>
+<figure entity="ftshipsad28" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="29"/>
+<figure entity="ftshipsad29" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="30"/>
+<figure entity="ftshipsad30" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="31"/>
+<figure entity="ftshipsad31" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>	
+
+<pb n="32"/>
+<figure entity="ftshipsad32" rend="inline">
+<figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
+</figure>
+
+</div>
+
+</back>
+
+</text>
 
 </TEI.2>
 
