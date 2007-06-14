@@ -68,7 +68,7 @@
 <revisionDesc>
 <change> 
 <date>2007-June-13</date> 
-<respStmt><name>Erika Farr, </name> 
+<respStmt><name>Shruthi Vissa, </name> 
 <resp>Encoder.</resp></respStmt> 
 <item>XML tags inserted in compliance with TEI guidelines.</item> 
 </change> 
@@ -78,28 +78,44 @@
 <text>
 
 <front>
+<div id="ldmormoncover" type="front cover">
+<figure entity="ldmormonfc" rend="inline">
+<figDesc>Front cover for Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+</div>
+<pb/>
 
-<titlePage>
-
+<pb n="[i]"/>
+<pb entity="ldmormontp" pages="titlePage"/>
+<titlePage type="half">
 <docTitle>
-
-<titlePart/>
-
+<titlePart type="main"> THE MORMON PROPHET</titlePart>
 </docTitle>
+</titlePage>
 
-<byline/>
+<pb n="[ii]"/>
+<div id="ldmormon100" type="advert">
+<figure entity="ldmormonad" rend="inline">
+<figDesc> Advert included in front of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+</div>
 
-<byline/>
+<pb n="[iii]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> THE <lb/> MORMON PROHPHET</titlePart>
+</docTitle>
+<byline> BY <docAuthor> LILY DOUGALL</docAuthor> AUTHOR OF <lb/>
+BEGGARS ALL, 'THE ZEITGEIST,' 'THE MADONNA OF A DAY, 'A DOZEN WAYS OF LOVE,' ETC.</byline>
 
 <docImprint>
-
+<pubPlace> London</pubPlace><publisher> ADAM AND CHARLES BLACK</publisher><docDate>1899</docDate>
 </docImprint>
-
 </titlePage>
 
 		<pb n="[v]"/> 
 
-<div id="ldmormon000" type="preface">
+<div type="preface">
 <head> PREFACE</head>
 <p>Some otherwise well-informed people hold Mormonism to be synonymous with polygamy, and beleive that Brigham Young was its chief prophet. To such the narratives of this book might, in the absence of explanation, seem purely fanciful. Let me, then, briefly trfer to the historical facts on which it is based. The Mormons revere but one prophet, Joseph Smith, who never saw Utah, and whose public teachings were for the most part unexceptionable. Taking necessary liberties with incidents, I have endeavoured to present Smith's character as I found it in his own writings, in the writings of his contemporaries and the in the memories of older inhabitants of Kirtland.</p>
 
@@ -129,7 +145,7 @@ Young as a leader, never murdered their neighbours, or defied the law in any way
 
 <pb n="1"/>
 
-			<div id="ldmormon100" type="book" n="1">
+			<div id="ldmormon200" type="book" n="1">
 
 				<head>BOOK I</head>
 
@@ -1379,7 +1395,7 @@ Young as a leader, never murdered their neighbours, or defied the law in any way
 
 			<pb n="[139]"/>
 
-<div id="ldmormon200" type="book" n="2">
+<div id="ldmormon300" type="book" n="2">
 
 				<head>BOOK II</head>
 
@@ -3123,7 +3139,7 @@ Young as a leader, never murdered their neighbours, or defied the law in any way
 
 			<pb n="[345]"/>
 
-<div id="ldmormon300" type="book" n="3">
+<div id="ldmormon400" type="book" n="3">
 
 				<head>BOOK III</head>
 
@@ -4030,10 +4046,82 @@ She was curiously unable to go back to her former <pb n="408"/>agonised anxietie
 				<p>'To-day I seemed to see' (she laid her hand across her knit brows) 'all the passion of it again, <pb n="444"/>the wrong, the right, the misery&#x2014;from the day that Angel and I went out with such young passionate desire to divide the right from the wrong. I could see Angel and my baby shot before my eyes as Joseph Smith was shot. It is terrible to see death come that way. But they are all three lying now in the perfect peace of death.' She put her hand in his. 'Then, dear, my mind came back from the rage and terror of war. I thought of their peace and of you&#x2014;how God has healed my life by your love, and given me such joy. Is he not able to provide for the healing of the nations?'</p>
 
 			</div> </div>
+<trailer> THE END</trailer>
 
 		</body>
 
-	</text>
+<back>
+
+<div type="colophon">
+<p> Printed by R &#x0026; R. Clark, LIMITED, <hi rend="italics">Edinburgh</hi>
+</p></div>
+
+<pb n="[1]"/>
+<div id="ldmormon400" type="Advert">
+<figure entity="ldmormonad1" rend="inline">
+<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+
+<pb n="[2]"/>
+<figure entity="ldmormonad2" rend="inline">
+<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+
+<pb n="[3]"/>
+<figure entity="ldmormonad3" rend="inline">
+<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+
+<pb n="[4]"/>
+<figure entity="ldmormonad4" rend="inline">
+<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+
+<pb n="[5]"/>
+<figure entity="ldmormonad5" rend="inline">
+<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+
+<pb n="[6]"/>
+<figure entity="ldmormonad6" rend="inline">
+<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+
+<pb n="[7]"/>
+<figure entity="ldmormonad7" rend="inline">
+<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+
+<pb n="[8]"/>
+<figure entity="ldmormonad8" rend="inline">
+<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+
+<pb n="[9]"/>
+<figure entity="ldmormonad9" rend="inline">
+<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+
+<pb n="[10]"/>
+<figure entity="ldmormonad10" rend="inline">
+<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+
+<pb n="[11]"/>
+<figure entity="ldmormonad11" rend="inline">
+<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+
+<pb n="[12]"/>
+<figure entity="ldmormonad12" rend="inline">
+<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+</figure>
+</div>
+
+</back>
+ 
+	
+</text>
 
 </TEI.2>
 
