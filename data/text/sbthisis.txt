@@ -1,9 +1,120 @@
-<pb>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2> 
+<teiHeader> 
+<fileDesc> 
+<titleStmt> 
+<title>This is the End, an electronic edition</title> 
+<author n="Beson,Stella, 1892-1933">Stella Benson</author> 
+</titleStmt> 
+<extent></extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date>
+<availability> 
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address> 
+</p></availability></publicationStmt> 
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title> <respStmt>
+<name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp></respStmt> 
+</seriesStmt> 
+<sourceDesc>
+<bibl><author>Benson, Stella</author>. <title>This is the End</title>. <pubPlace>London</pubPlace>: <publisher>Macmillan and Co., Ltd.</publisher>, <date>1917</date>.</bibl> 
+</sourceDesc> 
+</fileDesc>
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the e encoder and did not appear in the original text.</p></editorialDecl>
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British literature--20th Century--Fiction.</item> 
+<item>Women authors, British--20th Century.</item> 
+<item>Women in journalism.</item> 
+<item>Short stories.</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-14</date> 
+<respStmt>
+<name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
+
 <!-- could not determine page number -->
 These images produced somewhat poorer quality results, primarily due to curvature of the text at the edge of the page. 
 
 There is some very minor garbling throughout, and some pages have suffered the loss of text along one edge, particularly within the first 20 pages.***
 <text>
+<front>
+<pb n="[i]"/>
+<pb entity="sbthisistp" pages="titlePage"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">THIS IS THE END</titlePart>
+</docTitle>
+</titlePage>
+
+<pb n="[ii]"/>
+<div id="sbthisis100 " type="advert">
+<figure entity="sbthisisad1" rend="inline">
+<figDesc> Advert included in front of Benson's "This is the End"</figDesc>
+</figure>
+</div>
+
+<pb n="[iii]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">THIS IS THE END</titlePart>
+</docTitle>
+<byline> BY<docAuthor>STELLA BENSON</docAuthor>
+AUTHOR OF "I POSE"</byline>
+<docImprint>
+<publisher>MACMILLAN AND CO., LIMITED</publisher><pubplace> ST.MARTIN'S STREET, LONDON</pubplace><docDate>1917</docDate>
+</docImprint>
+</titlePage>
+
+<pb n="[iv]"/>
+<div type="copyright">
+<l> COPYRIGHT</l>
+</div>
+</front>
+
 <body>
 <pb n="1"/>
 
@@ -2344,13 +2455,34 @@ haps be inspired to give her the Clue . . . Yet to young Bill Morgan it was give
 
 <lg><l>He grounded on the common beach,</l>
 <l>He trod she little towns of men,</l>
-<l>And God remov&#x00E8d from his reach</l>
+<l>And God remov&#x00E8;d from his reach</l>
 <l>The cup of Heaven's passion then,</l>
 <l>And gave him vulgar love and speech,</l>
 <l>And gave him threescore years and ten.**</l></lg></div>
 
-**THE END**
-**<hi rend="italic">Printed by</hi> R. '&amp; R CLARK, LIMITED, <hi rend="italic">Edinburgh.</hi></body></text></pb>
+<trailer>THE END</trailer>
+<back>
+<div id= "sbthisis200" type="colophon">
+<l><hi rend="italic">Printed by</hi> R. '&amp; R CLARK, LIMITED, <hi rend="italic">Edinburgh.</hi></l>
+</div>
+<pb/>
+<pb n="1"/>
+<div id="sbthisis300" type="advert">
+<figure entity="sbthisisad1" rend="inline">
+<figDesc> Advert included in back of Benson's "This is the End"</figDesc>
+</figure>
+<pb n="2"/>
+<figure entity="sbthisisad2" rend="inline">
+<figDesc> Advert included in back of Benson's "This is the End"</figDesc>
+</figure>
+</div>
+
+<div id="sbthisthis400" type="colophon">
+<l>LONDON: MACMILLAN AND CO., LTD.</l>
+</div>
+</back>
+</body></text> </TEI.2>
+
 
 
 
