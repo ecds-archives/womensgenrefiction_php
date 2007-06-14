@@ -4,39 +4,108 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title/>
-<author/>
+<title>This Way Out, an electronic edition</title>
+<author n="Dudeney,Henry,Mrs., b.1866">Mrs. Henry Dudeney</author>
 </titleStmt>
 <publicationStmt>
-<pubPlace/>
-<publisher/>
-<publisher/>
-<date/>
-</publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2007</date>
+<availability> <p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address> 
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp></respStmt> 
+</seriesStmt> 
 <sourceDesc>
-<p/>
+ <bibl><author>Dudeney, Henry, Mrs.</author>. <title>This Way Out</title>. <pubPlace>London</pubPlace>: <publisher>Methuen &#x0026; Co. Ltd.</publisher>.</bibl>
 </sourceDesc>
 </fileDesc>
-<profileDesc/>
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc>
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British literature--20th Century--Fiction.</item> 
+<item>Women authors, British--20th Century.</item> 
+<item>Murder</item> 
+<item>Marriage</item>
+<item>Women writers</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change>
+<date>2007-June-14</date> 
+<respStmt><name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc>
 </teiHeader>
 <text>
 <front>
-<titlePage>
+<pb n="[i]"/>
+<pb entity="hdsthistp" pages="titlePage"/>
+<titlePage type="half">
 <docTitle>
-<titlePart/>
+<titlePart type="main">THIS WAY OUT</titlePart>
 </docTitle>
-<byline/>
-<byline/>
+</titlePage>
+
+<pb n="[ii]"/>
+<div id="hdthis100" type="advert">
+<figure entity="hdthisad" rend="inline">
+<figDesc> Advert included in front of Dudeney's "This Way Out"</figDesc>
+</figure>
+</div>
+
+<pb n="[iii]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">THIS WAY OUT</titlePart>
+</docTitle>
+<byline>BY<docAuthor> MRS.HENRY DUDENEY</docAuthor></byline>
 <docImprint>
-<name/>
-<name/>
-<name/>
-<date/>
+<publisher> METHUEN AND CO., LTD.</publisher><pubPlace>36 ESSEX STREET W.C.<lb/>LONDON</pubPlace> 
 </docImprint>
 </titlePage>
+<pb n="[iv]"/>
 </front>
 <body>
-<div><pb n="1"/>
+<div type="prologue">
+<pb n="1"/>
 <head>THIS WAY OUT<lb/>PROLOGUE</head>
 <p>A MAN came out from a stone Rectory which stood back from the high road that leads from St. Ives to Zennor. Behind the house was blazing sea and jagged rocks. When the Revd. John Trewhella opened his door he heard the waves dashing below Clodgy Point. It was a summer morning, colour-patched and tender; happy little insects buzzed in a maze before his eyes: but the sea, down there by Clodgy, was always grim.</p>
 <p>Trewhella walked out into the high road. He was smiling in a quietly succulent way and every movement of his lithe, small body expressed extreme content. He was amiable this morning. Rebecca had accepted him last night&#x2014;and then there was that other circumstance; the something that mattered more than Rebecca. Oh yes, it was certainly beyond Rebecca in value: he was a frigid young man.</p>
@@ -2938,8 +3007,17 @@ you glad they're not big enough to hold a&#x2014;&#x2014;"</p>
 <p>Becca watched him. He went trotting after Buttifant. Only Buttifant mattered: for he expressed the essence of soldier. Whatever jump the war took, she had lost John-Andrew.</p>
 </div>
 <pb n="[315]"/>
-<pb n="[316]"/></div></body></text><colophon>PRINTED BY<lb/>WILLIAM BRENDON
-AND SON, LTD., PLYMOUTH<lb/>ENGLAND</colophon>
+<pb n="[316]"/></div></body>
+
+<back>
+<div id="colophon">
+<l>PRINTED BY<lb/>WILLIAM BRENDON
+AND SON, LTD., PLYMOUTH<lb/>ENGLAND</l>
+
+</div>
+</back>
+
+</text>
 </TEI.2>
 
 
