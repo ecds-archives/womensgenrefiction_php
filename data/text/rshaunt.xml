@@ -4,89 +4,178 @@
 
 <TEI.2>
 
-	<teiHeader>
+<teiHeader>
 
-		<fileDesc>
+<fileDesc>
 
-			<titleStmt>
+<titleStmt>
 
-				<title/>
+<title> The Haunted Photoraph, an electronic edition</title>
 
-				<author/>
+<author n="Stuart,Ruth McEnery, 1856-1917">Ruth McEnery Stuart</author>
 
-			</titleStmt>
+</titleStmt>
 
-			<publicationStmt>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability> 
+<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p> </availability> </publicationStmt>
+<seriesStmt> 
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt> <name>Sheila T. Cavanagh</name> 
+<name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp> 
+</respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl><author>Stuart, McEnerey Ruth</author>. <title>The Haunted Photograph</title>. <pubPlace>New York</pubPlace>: <publisher>The Century Co.</publisher>, <date>1911</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> 
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p> 
+</editorialDecl>
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">United States</rs> 
+<date>1900-1999</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>American literature--20th Century--Fiction.</item> 
+<item>Women authors, American--20th Century.</item> 
+<item>Ghosts.</item> 
+<item>Regional realism-southeast.</item>
+<item>Short Stories</item>
+<item>Slavery</item>
+<item>Reconstruction</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc>
+<revisionDesc> 
+<change> 
+<date>2007-June-15</date> 
+<respStmt> <name>Shruthi Vissa,</name> 
+<resp>Encoder.</resp> </respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> </change> 
 
-				<pubPlace/>
+</revisionDesc>
 
-				<publisher/>
+</teiHeader>
 
-				<publisher/>
+<text>
 
-				<date/>
+<front>
 
-			</publicationStmt>
+<div id="rshauntcover" type="covers">
+<figure entity="rshauntfc" rend="inline">
+<figDesc> Front cover of Stuart's "The Haunted Photograph"</figDesc>
+</figure>
+</div>
+<pb/>
 
-			<sourceDesc>
+<pb n="[i]"/>
+<pb entity="rshaunttp" pages="Title Page"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">THE HAUNTED PHOTOGRAPH</titlePart>
+</docTitle>
+</titlePage>
 
-				<p/>
+<pb/>
+<pb/>
 
-			</sourceDesc>
+<pb n="[iv]"/>
+<div id="rshauntfm1" type="frontispiece">
+<figure entity="rshauntill" rend="inline">
+<figDesc>Illustration at the front of Stuart's "The Haunted Photograph"</figDesc>
+</figure>
+</div>
 
-		</fileDesc>
+<pb n="[v]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> THE HAUNTED PHOTOGRAPH <lb/> WHENCE AND WHITTIER <lb/> A CASE IN DIPLOMACY <lb/> THE AFTERGLOW</titlePart>
+</docTitle>
+<byline> BY <docAuthor> RUTH MCENERY STUART</docAuthor></byline>
+<TitlePart type="desc"> ILLUSTRATED BY WM. L. JACBOS. PETER NEWELL, <lb/> ETHELL PENNEWILL BROWN AND WILSON C. DEXTER</TitlePart>
+<docImprint> <pubPlace> NEW YORK</pubPlace> <publisher> THE CENTURY CO.</publisher> <docDate> 1911</docDate>
+</docImprint>
+</titlePage>
 
-		<profileDesc/>
+<pb n="[vi]"/>
+<div id="rshauntfm2" type="copyright">
+<figure entity="rshaunttpv" rend="inline">
+<figDesc> Copyright for Stuart's "The Haunted Photograph"</figDesc>
+</figure>
+</div>
 
-	</teiHeader>
+<pb n="[vii]"/>
+<div id="rshaunt100" type="table of contents">
+<figure entity="rshaunttc" rend="inline">
+<figDesc> Table of contents for Stuart's "The Haunted Photograph"</figDesc>
+</figure>
+</div>
 
-	<text>
+<pb/>
 
-		<front>
+<pb n="[viii]"/>
+<div id="rshaunt200" type="list of illusrations">
+<figure entity="rshauntlil" rend="inline">
+<figDesc>List of illustrations in front of Stuart's "The Haunted Photograph"</figDesc>
+</figure>
+</div>
 
-			<titlePage>
-
-				<docTitle>
-
-					<titlePart/>
-
-				</docTitle>
-
-				<byline/>
-
-				<byline/>
-
-				<docImprint>
-
-					<name/>
-
-					<name/>
-
-					<name/>
-
-					<date/>
-
-				</docImprint>
-
-			</titlePage>
-
-		</front>
+<pb/>
+<pb/>
+</front>
 <group> 
 
 
           <text>
-		 
+		 <front>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> THE HAUNTED PHOTOGRAPH</titlePart>
+</docTitle>
+</titlePage>
+		 </front>
 	       <body>
 
-			<div type="story" n="1">
-
-				<pb n="1"/>
+			<div id ="rshaunt300" type="story" n="1">
 
 				<head>THE HAUNTED PHOTOGRAPH</head>
-
-				<pb n="2"/>
-
-				<!--page missing-->
 
 				<pb n="3"/>
 
@@ -265,16 +354,22 @@
 			</div> </body></text>
 
 
-<text> <body>
-			<pb n="[33]"/>
+<text> 
+<front>
+<pb n="[33]"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> WHENCE AND WHITHER</titlePart>
+</docTitle>
+</titlePage>
+</front>
 
-			<div type="story" n="2">
+<body>
+		
+<pb/>
+			<div id="rshaunt400" type="story" n="2">
 
 				<head>WHENCE AND WHITHER</head>
-
-				<pb n="[34]"/>
-
-				<!--page missing-->
 
 				<pb n="35"/>
 
@@ -703,22 +798,24 @@
 			<pb n="[91]"/>
 
 <text>
-
+<front>
+<pb n="[91]"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> A CASE IN DIPLOMACY</titlePart>
+</docTitle>
+</titlePage>
+</front>
 
  <body>
 
+<pb/>
 
-
-		<div type="story" n="3">
+		<div id="rshaunt500" type="story" n="3">
 
 				<head>A CASE IN DIPLOMACY</head>
 
-				<p/>
-
-				<pb n="[92]"/>
-
-				<!--page missing-->
-
+			
 				<pb n="93"/>
 
 				<p>I HAD been writing Joshua's love letters for him all winter, and, after the first two or three, in the construction of which I had dutifully consulted him, it seemed better simply to take the temper of the fellow's mood and to let it color effusions which were entirely my own in form.</p>
@@ -1096,18 +1193,22 @@
 			<pb n="[131]"/>
 <text>
 
+<front>
+<pb n="[131]"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">THE AFTERGLOW"</titlePart>
+</docTitle>
+</titlePage>
+</front>
 
 <body>
 			
 
 
-<div type="chapter" n="4">
+                    <div id="rshaunt600" type="chapter" n="4">
 
 				<head>THE AFTERGLOW</head>
-
-				<pb n="[132]"/>
-
-				<!--page missing-->
 
 				<pb n="133"/>
 
@@ -1418,6 +1519,8 @@
 				<p>"What is a sunset and a red sky?</p>
 
 				<p>"The great picture will tell&#x2014;and the people will kneel, and believe! <hi rend="italic">The great picture!</hi>&#x2014;THE AFTERGLOW!"</p>
+
+<trailer> THE END</trailer>
 
 			</div>
 
