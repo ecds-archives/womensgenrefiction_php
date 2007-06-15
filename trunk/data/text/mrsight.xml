@@ -10,92 +10,147 @@
 
 <titleStmt>
 
-<title/>
+<title>Sight Unseen and The Confession, an electronic edition</title>
 
-<author/>
+<author n="Rinehart, Mary Roberts, 1876-1958"> Mary Roberts Rinehart</author>
 
 </titleStmt>
+<extent></extent>
 
 <publicationStmt>
 
-<pubPlace/>
-
-<publisher/>
-
-<publisher/>
-
-<date/>
-
-</publicationStmt>
-
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2004</date> 
+<availability> 
+<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p> </availability> </publicationStmt> 
+<seriesStmt> 
+<title>Women's Genre Fiction, 1860-1920</title> <respStmt> 
+<name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp> </respStmt> 
+</seriesStmt> 
 <sourceDesc>
-
-<p/>
-
-</sourceDesc>
-
-</fileDesc>
-
-<profileDesc/>
-
+<bibl><author>Rinehart, Mary Roberts</author>. <title>Sight Unseen and The Confession</title>. <pubPlace>New York</pubPlace>: <publisher>George E. Doran Company.</publisher>, <date>1921</date>.</bibl> </sourceDesc> </fileDesc> <encodingDesc> 
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> </samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p>
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">United States</rs> 
+<date>1900-1999</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>American literature--20th Century--Fiction.</item> 
+<item>Women authors, American--20th Century.</item> 
+<item>Detective fiction.</item> 
+<item>Psychology.</item> 
+<item>Telephones</item>
+<item>Murder</item>
+</list> 
+</keywords>
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-15</date> 
+<respStmt> 
+<name>Shruthi Vissa,</name> 
+<resp>Encoder.</resp> 
+</respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> 
+</change> 
+</revisionDesc> 
 </teiHeader>
-
 <text>
 
 <front>
-
-<titlePage>
-
+<pb n="[1]"/>
+<pb entity="rbgoodbyetp" pages="Title Page"/>
+<titlePage type="half">
 <docTitle>
-
-<titlePart/>
-
+<titlePart type="main">SIGHT UNSEEN AND <lb/> THE CONFESSION</titlePart>
 </docTitle>
-
-<byline/>
-
-<byline/>
-
-<docImprint>
-
-<name/>
-
-<name/>
-
-<name/>
-
-<date/>
-
-</docImprint>
-
 </titlePage>
+<pb/>
+<pb n="[3]"/>
+<titlePage type="full">
+<byline> THE WORKS OF <lb/> MARY ROBERTS RINEHART</byline>
+<titlePart type="main"> SIGHT UNSEEN <lb/> &#x0026;<lb/> THE CONFESSION</titlePart>
+<docImprint> <publisher> THE REVIEW OF REVIEWS COMPANY <lb/> <hi rend="italics">PUBLISHERS</hi></publisher>
+<pubPlace> NEW YORK</pubPlace>
+<publisher> PUBLISHED BY ARRANGEMENT WITH GEORGE E.DORAN COMPANY.</publisher>
+</docImprint>
+</titlePage>
+<pb n="[4]"/>
+<div id="mrsightfm2" type="copyright">
+<figure entity="mrsighttpv" rend="inline">
+<figDesc> Copyright page for Rhinehart's "Sight Unseen" and "The Confession"</figDesc>
+</figure>
+</div>
+
+<pb n="[5]"/>
+<div id="mrsight100" type="table of contents">
+<figure entity="mrsighttc" rend="inline">
+<figDesc> Table of contents for Rhinehart's "Sight Unseen" and "The Confession"</figDesc>
+</figure>
+</div>
+<pb/>
+
 
 </front>
 
 <group>
 
-<text> 
+<text>
+<front>
+<pb n="[7]"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> SIGHT UNSEEN</titlePart>
+</docTitle>
+</titlePage>
+</front>
 
 <body>
 
 <!--pages missing from 1-6-->
 
-<pb n="7"/>
-
-<div>
-
-<head>SIGHT UNSEEN</head>
-
-<p/>
-
-<pb n="8"/>
+<pb/>
 
 <!--blank page-->
 
-</div>
+
 
 <pb n="9"/>
-<div type="book" n="1">
+<div id="mrsight200" type="story" n="1">
 <div id="mrsight001" type="chapter" n="1">
 
 <head>SIGHT UNSEEN<lb/>
@@ -2267,24 +2322,30 @@ But the fact remains&#x2014;&#x2014;" He was hurt in his pride of her.</p>
 
 </div></div></body></text>
 
-<pb n="[172]"/>
+<pb/>
 
 <!--blank page-->
 
 <pb n="[173]"/>
 
 <text> <body>
+<front>
 
-<div type="book" n="2">
 
-<head>THE CONFESSION</head>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">THE CONFESSION</titlePart>
+</docTitle>
+</titlePage>
+</front>
 
-<pb n="[174]"/>
+<pb/>
 
 <!--blank page-->
 
 <pb n="175"/>
 
+<div id="mrsight300" type="story" n="2">
 <div id="mrsight001" type="chapter" n="1">
 
 <head>THE CONFESSION <lb/>I</head>
@@ -3810,6 +3871,8 @@ daylight, too. I&#x2014;&#x2014;"</p>
 <p>And then&#x2014;and again, as with fear, it is hard to put into words&#x2014;I felt come over me such a wave of contentment and happiness as made me close my eyes with the sheer relief and joy of it. All was well. The past was past, and out of its mistakes had come a beautiful thing. And, like the fear, this joy was not mine. It came to me. I picked it up&#x2014;a thought without words.</p>
 
 <p>Sometimes I think about it, and I wonder&#x2014;did little Miss Emily know?</p>
+
+<trailer> THE END</trailer>
 
 </div></div>
 
