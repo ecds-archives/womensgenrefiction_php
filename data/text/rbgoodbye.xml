@@ -4,40 +4,112 @@
 <teiHeader>
 <fileDesc>
 <titleStmt>
-<title/>
-<author/>
+<title>Good-Bye Sweetheart, an electronic edition</title>
+<author n="Broughton, Rhoda, 1840-1920"> Rhoda Broughton</author>
 </titleStmt>
+<extent></extent>
 <publicationStmt>
-<pubPlace/>
-<publisher/>
-<publisher/>
-<date/>
-</publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability> 
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address> 
+</p></availability></publicationStmt>
 <sourceDesc>
-<p/>
-</sourceDesc>
-</fileDesc>
-<profileDesc/>
+<bibl><author>Broughton,Rhoda</author>. <title>Good-bye Sweetheart</title>. 
+<pubPlace>London</pubPlace>: <publisher>Richard Bentley and Son.</publisher>, <date>1878</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title>
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British literature--20th Century--Fiction.</item> 
+<item>Women authors, British--20th Century.</item> 
+<item>Courtship.</item> 
+<item>Assertiveness in women.</item> 
+<item>Sisterhood</item>
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-15</date> 
+<respStmt><name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc> 
 </teiHeader>
 <text>
 <front>
-<titlePage>
+<pb n="[i]"/>
+<div id="rbgoodbyefm1" type="frontispiece">
+<figure entity="rbgoodbyeill" rend="inline">
+<figDesc> Illustration at the front of Broughton's "Good-bye Sweetheart"</figDesc>
+</figure>
+</div>
+
+<pb n="[ii]"/>
+<pb entity="rbgoodbyetp" pages="titlePage"/>
+<titlePage type="full">
 <docTitle>
-<titlePart/>
+<titlePart type="main">"GOOD-BYE SWEETHEART!"</titlePart>
+<titlePart type="sub">A TALE.</titlePart>
 </docTitle>
-<byline/>
-<byline/>
+<byline> BY <docAuthor> RHODA BROUGHTON,</docAuthor>AUTHOR OF <lb/>
+"COMETH UP AS A FLOWER," "RED AS A ROSE IS SHE," ETC.,ETC.</byline>
 <docImprint>
-<name/>
-<name/>
-<name/>
-<date/>
+<pubPlace> LONDON:</pubPlace> <publisher> RICHARD BENTLEY AND SON,</publisher>
+<docDate>1878</docDate>
 </docImprint>
 </titlePage>
+<pb/>
+<div id="rbgoodbye100" type="advert">
+<figure entity="rbgoodbyead1" rend="inline">
+<figDesc>Table of contents for Broughton's "Good-bye Sweetheart"</figDesc>
+</figure>
+<pb n="[iv]"/>
+<figure entity="rbgoodbyead2" rend="inline">
+<figDesc> Table of contents for Broughton's "Good-bye Sweetheart"</figDesc>
+</figure>
+</div>
 </front>
 <body>
 <pb n="1"/>
-<div id="rbgoodbye100" type="part" n="1">
+<div id="rbgoodbye200" type="part" n="1">
 <head>PART I.</head>
 <milestone unit="break" rend="line"/>
 <epigraph><q>
@@ -1652,7 +1724,7 @@ them.</p>
 <!--Blank page-->
 <pb n="169 WHAT THE AUTHOR SAYS."/>
 </div></div>
-<div id="rbgoodbye200" type="part" n="200">
+<div id="rbgoodbye300" type="part" n="200">
 <head>PART II<lb/>NOON.</head>
 <epigraph><q><lg>
 <l>"And in the eye of noon, my love</l>
@@ -3345,7 +3417,7 @@ as one resolved <hi rend="italic">not</hi> to weep.</p>
 <!--Blank page-->
 </div></div>
 <pb n="359"/>
-<div id="rbgoodbye300" type="part" n="3">
+<div id="rbgoodbye400" type="part" n="3">
 <head>PART III.<lb/>NIGHT.</head>
 <epigraph><q><lg><l>"GOOD night, good sleep, good rest from sorrow,</l>
 <l>To these that shall not have good morrow;</l>
@@ -4168,8 +4240,28 @@ WHAT JEMIMA SAYS.</head>
 <p>"My darling, I have broken my promise&#x2014;but I could not help it;&#x2014;it was not my fault. He&#x2014;he&#x2014;has not come, because&#x2014;because it was his wedding-day when I got there. Oh, beloved, speak to me! Say you forgive me&#x2014;you are not going without <hi rend="italic">one</hi> word&#x2014;speak&#x2014;speak!"</p>
 <pb n="450 GOOD-BYE, SWEETHEART!"/>
 <p>But Lenore will never speak to him any more: her head has sunk back, with all its pretty careful plaits, on his shoulder&#x2014;Lenore has</p>
-<q>"Gone thro' the strait and dreadful pass of death."</q></div>
-</div><trailer>THE END.</trailer>
+
+<p>"Gone thro' the strait and dreadful pass of death."</p>
+<trailer> THE END.</trailer>
+</div>
+</div>
 </body>
+<back>
+<div id="rbgoodbye500" type="colophon">
+<l> BILLING AND SONS, PRINTERS, GUILFORD, SURREY</l>
+<l> J.D. &#x0026;Co.</l>
+</div>
+<pb n="[1]"/>
+<div id="rbgoodbye600" type="advert">
+<figure entity="rbgoodbyead1" rend="inline">
+<figDesc> Advert included in back of Broughton's "Good-bye Sweetheart"</figDesc>
+</figure>
+ 
+<pb n="2"/>
+<figure entity="rbgoodbyead2" rend="inline">
+<figDesc> Advert included in back of Broughton's "Good-bye Sweetheart</figDesc>
+</figure>
+</div>
+</back>
 </text>
 </TEI.2>
