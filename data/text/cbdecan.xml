@@ -4,75 +4,121 @@
 
 <TEI.2>
 
-	<teiHeader>
+<teiHeader>
 
-		<fileDesc>
+<fileDesc>
 
-			<titleStmt>
+<titleStmt>
 
-				<title>THE CONFESSIONS OF A DECANTER</title>
+<title>THE CONFESSIONS OF A DECANTER, an electronic edition</title>
 
-				<author/>
+<author n="Balfour, Clara Lucas, 1808-1878">Clara Lucas Balfour</author>
 
-			</titleStmt>
+</titleStmt>
 
-			<publicationStmt>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability> 
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address> 
+</p></availability></publicationStmt> 
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp></respStmt> 
+</seriesStmt>
+<sourceDesc>
+<bibl><author>Balfour, Clara Lucas</author>. <title>Confessions of a Decanter</title>. <pubPlace>London</pubPlace>: <publisher>S.W.Partridge.</publisher>, <date>[1862]</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British literature--20th Century--Fiction.</item> 
+<item>Women authors, British--20th Century.</item> 
+<item>Marriage.</item> 
+<item>Alcoholism.</item>
+<item>Temperance</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-15</date> 
+<respStmt><name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
+<text>
 
-				<pubPlace/>
+<front>
+<div id="cbdecancover" type="front cover">
+<figure entity="cbdecanfc" rend="inline">
+<figDesc> Front cover of Balfour's "Confessions of a Decanter"</figDesc>
+</figure>
+</div>
 
-				<publisher/>
+<pb/>
 
-				<publisher/>
+<pb n="[i]"/>
+<div id="cbdecanfm1" type="frontispiece">
+<figure entity="cbdecanill" rend="inline">
+<p> THE BRIDE'S PURCHASE</p>
+<p> [Page 5.</p>
+<figDesc> Illustration at the front of Balfour's "Confessions of a Decanter"</figDesc>
+</figure>
+</div> 
 
-				<date/>
+<pb n="[ii]"/>
+<pb entity="cbdecantp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> CONFESSIONS OF A DECANTER</titlePart>
+</docTitle>
+<byline> BY <docAuthor> MRS. CLARA LUCAS BALFOUR.</docAuthor></byline>
+<docImprint> 
+<pubPlace> LONDON:</pubPlace> <publisher> S.W.PARTRIDGE</publisher> <pubPlace> 9,PATERNOSTER ROW.</pubPlace> <docDate>[1862]</docDate>
+</docImprint>
+</titlePage>
 
-			</publicationStmt>
+</front>
 
-			<sourceDesc>
-
-				<p/>
-
-			</sourceDesc>
-
-		</fileDesc>
-
-		<profileDesc/>
-
-	</teiHeader>
-
-	<text>
-
-		<front>
-
-			<titlePage>
-
-				<docTitle>
-
-					<titlePart>THE CONFESSIONS OF A DECANTER</titlePart>
-
-				</docTitle>
-
-				<byline/>
-
-				<byline/>
-
-				<docImprint>
-
-					<name/>
-
-					<name/>
-
-					<name/>
-
-					<date/>
-
-				</docImprint>
-
-			</titlePage>
-
-		</front>
-
-		<body>
+<body>
 
 			<pb n="1"/>
 
@@ -84,21 +130,21 @@
 
 					<lg>
 
-						<l>"Let meaner clay contain the limpid wave,</l>
+			<l>"Let meaner clay contain the limpid wave,</l>
 
-						<l>The clay for such an office nature gave.</l>
+			<l>The clay for such an office nature gave.</l>
 
-						<l>Let China's earth, enriched with coloured stains,</l>
+		<l>Let China's earth, enriched with coloured stains,</l>
 
-						<l>Pencil'd with gold, and streaked with azure veins,</l>
+		<l>Pencil'd with gold, and streaked with azure veins,</l>
 
-						<l>The grateful flavour of the Indian leaf&#x2014;</l>
+		<l>The grateful flavour of the Indian leaf&#x2014;</l>
 
-						<l>Or Mocha's sunburnt berry, glad receive;</l>
+		<l>Or Mocha's sunburnt berry, glad receive;</l>
 
-						<l>The sparkling Crystal<ref target="f-01-01">*</ref>claims more gen'rous use,</l>
+<l>The sparkling Crystal<ref target="f-01-01">*</ref>claims more gen'rous use,</l>
 
-						<l>And mine should flow with more exalted juice."</l>
+			<l>And mine should flow with more exalted juice."</l>
 
 					</lg></q>
 
@@ -290,15 +336,15 @@
 
 					<lg>
 
-						<l>"O long may Heaven their simple lives prevent</l>
+			<l>"O long may Heaven their simple lives prevent</l>
 
-						<l>From luxury's contagion weak find vile,</l>
+			<l>From luxury's contagion weak find vile,</l>
 
-						<l>Then, howe'er crowns find coronets be rent,</l>
+			<l>Then, howe'er crowns find coronets be rent,</l>
 
-						<l>A virtuous populace may rise the while,</l>
+			<l>A virtuous populace may rise the while,</l>
 
-						<l>And stand a wall of fire around our much loved isle,"</l>
+		<l>And stand a wall of fire around our much loved isle,"</l>
 
 					</lg> </q>
 
@@ -360,13 +406,13 @@
 
 					<lg>
 
-						<l>"Here lies now a prey to insulting neglect,</l>
+			<l>"Here lies now a prey to insulting neglect,</l>
 
-						<l>What once was a butterfly gay in life's beam;</l>
+			<l>What once was a butterfly gay in life's beam;</l>
 
-						<l>Want only of goodness denied her respect,</l>
+			<l>Want only of goodness denied her respect,</l>
 
-						<l>Want only of virtue denied her esteem."</l>
+			<l>Want only of virtue denied her esteem."</l>
 
 					</lg> </q>
 
@@ -601,8 +647,104 @@
 			</div>
 
 		</body>
+<back>
 
-	</text>
+<pb/>
+
+<div id="cbdecan008" type="colophon">
+<l> LONDON:</l>
+<l> PRINTED BY G. WATSON,</l>
+<l> Kirby St, Hatton Garden.</l>
+</div>
+
+<pb n="[1]"/>
+<div id="cbdecan009" type="advert">
+<figure entity="cbdecanad1" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+
+<pb n="2"/>
+<figure entity="cbdecanad2" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+
+<pb n="3"/>
+<figure entity="cbdecanad3" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="4"/>
+<figure entity="cbdecanad4" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[5]"/>
+<figure entity="cbdecanad5" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[6]"/>
+<figure entity="cbdecanad6" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[7]"/>
+<figure entity="cbdecanad7" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[8]"/>
+<figure entity="cbdecanad8" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[9]"/>
+<figure entity="cbdecanad9" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[10]"/>
+<figure entity="cbdecanad10" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[10]"/>
+<figure entity="cbdecanad10" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[11]"/>
+<figure entity="cbdecanad11" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[13]"/>
+<figure entity="cbdecanad13" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[14]"/>
+<figure entity="cbdecanad14" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[15]"/>
+<figure entity="cbdecanad15" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[16]"/>
+<figure entity="cbdecanad16" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[17]"/>
+<figure entity="cbdecanad17" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[18]"/>
+<figure entity="cbdecanad18" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+<pb n="[19]"/>
+<figure entity="cbdecanad19" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+
+<pb n="[20]"/>
+<figure entity="cbdecanad20" rend="inline">
+<figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
+</figure>
+
+</div>
+</back>
+</text>
 
 </TEI.2>
 
