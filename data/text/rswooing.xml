@@ -4,85 +4,176 @@
 
 <TEI.2>
 
-	<teiHeader>
+<teiHeader>
 
-		<fileDesc>
+<fileDesc>
 
-			<titleStmt>
+<titleStmt>
 
-				<title/>
+<title>The Second Wooing of Selina Sue and Other Stories, an electronic edition</title>
 
-				<author/>
+<author n="Stuart, Ruth McEnery, 1856-1917">Ruth McEnery Stuart</author>
 
-			</titleStmt>
+</titleStmt>
 
-			<publicationStmt>
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability> 
+<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p> </availability> </publicationStmt> 
+<seriesStmt> 
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt> 
+<name>Sheila T. Cavanagh</name> 
+<name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp> 
+</respStmt> 
+</seriesStmt> 
+<sourceDesc>
+<bibl><author>Stuart, Ruth McEnery</author>. <title>The Wooing of Selina Sue and Other Stories</title>. <pubPlace>New York and London</pubPlace>: <publisher>Harper &#x0026; Brother Publishers</publisher>, <date>1905</date>.
+</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> 
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p> </editorialDecl>
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">United States</rs> 
+<date>1900-1999</date> 
+</creation> 
+<textClass>
+<keywords scheme="lcsh"> 
+<list> 
+<item>American literature--20th Century--Fiction.</item> 
+<item>Women authors, American--20th Century.</item> 
+<item>Local color in literature.</item> 
+<item>Short Stories.</item> 
+<item>Slavery</item>
+<item>Reconstruction</item>
+<item>Race relations</item>
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-18</date> 
+<respStmt> 
+<name>Shruthi Vissa,</name> 
+<resp>Encoder.</resp> 
+</respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> </change> 
+</revisionDesc> 
+</teiHeader>
+<text>
 
-				<pubPlace/>
+<front>
+<div id="rswooingcover" type="front cover">
+<figure entity="rswooingfc" rend="inline">
+<figDesc>Front cover of McEnery's "The Wooing of Selina Sue and Other Stories"</figDesc>
+</figure>
+</div>
+<pb/>
 
-				<publisher/>
+<pb n="[i]"/>
+<div id="rswooingfm1" type="frontispiece">
+<figure entity="rswooingill" rend="inline">
+<p> " 'PLEASE COUNT STRAIGHT MARSTER' "</p>
+<figDesc> Illustration at front of McEnery's "The Wooing of Salina Sue and Other Stories"</figDesc>
+</figure>
+</div>
 
-				<publisher/>
+<pb n="[ii]"/>
+<pb entity="rswooingtp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> THE SECOND WOOING OF <lb/> SALINA SUE</titlePart>
+<titlePart type="sub"> AND OTHER STORIES</titlePart>
+</docTitle>
+<byline> BY <docAuthor> RUTH McENERY STUART</docAuthor> AUTHOR OF "A GOLDEN WEDDING" <lb/> "IN SIMPKINSVILLE" ETC.</byline>
+<titlePart type="desc">
+ILLUSTRATIONS BY <lb/> KEMBLE AND FROST</titlePart>
+<docImprint>
+<pubPlace> NEW YORK AND LONDON</pubPlace>
+<publisher> HARPER AND*** BROTHERS PUBLISHERS</publisher>
+<docDate>1905</docDate> 
+</docImprint>
+</titlePage>
 
-				<date/>
+<pb n="[iii]"/>
+<div id="rswooingfm2" type="copyright">
+<figure entity="rswooingpv" rend="inline">
+<figDesc> Copyright page for McEnery's "The Second Wooing of Salina Sue and Other Stories"</figDesc>
+</figure>
+</div>
 
-			</publicationStmt>
+<pb n="[iv]"/> 
+<div id="rswooing100" type="table of contents">
+<figure entity="rswooingtc" rend="inline">
+<figDesc> Table of Contents for McEnery's "The Second Wooing of Salina Sue and Other Stories "</figDesc>
+</figure>
+</div>
 
-			<sourceDesc>
+<pb n="[v]"/>
+<div id="rswooing200" type="list of illustrations">
+<figure id="rswooingli" rend="inline">
+<figDesc> List of Illustrations included in front of McEnery's "The Second Wooiung of Salina Sue and Other Stories"</figDesc>
+</figure>
+</div>
+</front>
 
-				<p/>
+<pb n="[vi]"/>
 
-			</sourceDesc>
+<group>
+<text> 
+<front> 
+<pb n="[vii]"/>
+<pb entity="rswooingtp" pages="Title Page"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> THE SECOND WOOING OF<lb/> SALINA SUE</titlePart>
+</docTitle>
+</titlePage> 
+</front>		    
+<body>
 
-		</fileDesc>
+			
+<pb n="3"/>
 
-		<profileDesc/>
+			
+<div id="rswooing001" type="story" n="[1]">
 
-	</teiHeader>
-
-	<text>
-
-		<front>
-
-			<titlePage>
-
-				<docTitle>
-
-					<titlePart/>
-
-				</docTitle>
-
-				<byline/>
-
-				<byline/>
-
-				<docImprint>
-
-					<name/>
-
-					<name/>
-
-					<name/>
-
-					<date/>
-
-				</docImprint>
-
-			</titlePage>
-
-		</front>
-
-		<group>
-		  
-		  <text> 
-		    
-		    <body>
-
-			<pb n="3"/>
-
-			<div type="book" n="[1]">
-
-				<head>THE SECOND WOOING OF SALINA SUE</head>
+				
+<head>THE SECOND WOOING OF SALINA SUE</head>
 
 				<p>IT all came about through the investigations of the Reverend Saul Sanders, of the Buckeye Conference. Other evangelists had come to the plantation and conducted revivals, adding to the Church militant a goodly number of souls. Then things had gradually settled down in the old ruts. But with the advent of the good brother from the Buckeye Conference there began a new order of procedure.</p>
 
@@ -265,11 +356,20 @@
 <text> <body>
 
 <pb n="[41]"/> blank
- <front>title page</front>
+ <front>
+
+<pb entity="rswooingtp" pages="Title Page"/>
+<titlePage type="half">
+<docTitle>
+<TitlePart type="main"> MINERVY'S VALENTINES</TitlePart>
+</docTitle>
+</titlePage>
+
+</front>
 
 <pb n="[42]"/>blank
 
-  <div type="book" n="[2]">
+  <div id="rswooing002" type="story" n="[2]">
 			
 	<head>MINERVY'S VALENTINES</head>
 
@@ -510,11 +610,19 @@
 			
 <text><body>
 
-	<pb n="[67]"/>	<front>title page</front>
+	<pb n="[67]"/>	<front>
+<pb entity="rswooingtp" pages="Title Page"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> TOBE TAYLOR'S APRIL <lb/> FOOLISHNESS</titlePart>
+</docTitle>
+</titlePage>
+
+</front>
 
 <pb n="[68]"/> blank
 
-	<div type="book" n="[3]">
+	<div id="rswooing003" type="book" n="[3]">
 
 				<head>TOBE TAYLOR'S APRIL FOOLISHNESS</head>
 
@@ -746,12 +854,22 @@ Tobe&#x2014;<hi rend="italic">perhaps</hi>.</p>
 
 			</div> </body> </text>
 
-			<pb n="[101]"/> blank page
+			<pb n="[101]"/> 
+<text>
+<body> 
+<front>
 
-<text> <body> <front>title page</front>
+<pb entity="rswooingtp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">EGYPT</titlePart>
+</docTitle>
+</titlePage>
+
+</front>
         <pb n="[102]"/> blank page
 
-			<div type="book" n="[4]">
+			<div id="rswooing004" type="book" n="[4]">
 
 				<head>EGYPT</head>
 
@@ -1080,16 +1198,28 @@ and was watching him with eyes that shone like yellow fires.</p>
 				<p>"Well, I'll put it on, Marse Artie. I reckon hit 'll do fer a weddin'-frock fer a ole 'oman lak me&#x2014;wid a little white wreath an' veil."</p>
 
 			</div> </body></text>
+
+<text> <body>
+<front>
 <pb n="[148]"/> blank page
-<text> <body>	
+<pb n="[149]"/>
+<pb entity="rswooingtp" pages="Title Page"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">MILADY</titlePart>
+</docTitle>
+</titlePage>	
+</front>
 
-<pb n="[149]"/> <front> title page </front>
 <pb n="[150]"/> blank page
-			<pb n="151"/> 
+			
+<pb n="151"/> 
 
-			<div type="book" n="[5]">
+			
+<div id="rswooing005" type="book" n="5">
 
-				<head>MILADY</head>
+				
+<head>MILADY</head>
 
 				<p>IT began the day she was born. In fact, the old yellow woman, "Granny Fetchem," when dressing her for the first time, was heard to exclaim from her mouthful of pins:</p>
 
@@ -1366,9 +1496,18 @@ and was watching him with eyes that shone like yellow fires.</p>
 <pb n="[186]"/> blank page		
 
 <text> <body>                   
-<pb n="187"/> <front> title page</front>
+<pb n="187"/> 
+<front> 
+<pb entity="rswooingtp" pages="Title Page"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> THE ROMANCE<lb/> OF CHINAPKIN CASTLE</titlePart>
+</docTitle> 
+</titlePage>
 
-			<div type="book" n="[6]">
+</front>
+
+			<div id="rswooing006" type="book" n="[6]">
 
 				<head>THE ROMANCE OF CHINKAPIN CASTLE</head>
 
@@ -1608,8 +1747,7 @@ and was watching him with eyes that shone like yellow fires.</p>
 
 	</text>
       
-
-   </group>
+</group>
 
 
 </text>
