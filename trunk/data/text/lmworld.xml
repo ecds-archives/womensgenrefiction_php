@@ -4,219 +4,148 @@
 
 <TEI.2>
 
-	<teiHeader>
+<teiHeader>
+
+<fileDesc>
+
+<titleStmt>
+
+<title>A WOMAN AGAINST THE WORLD, an electronic edition</title>
+
+<author n="Moberly, Lucy Gertrude">L.G. MOBERLY</author>
+
+</titleStmt>
+
+<publicationStmt>
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability> 
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address> 
+</p></availability></publicationStmt> 
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title> <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp></respStmt> 
+</seriesStmt> 
+<sourceDesc>
+<bibl><author>Moberly, Lucy Gertrude </author>. <title>A Woman Against the World</title>. <pubPlace>London, Melbourne and Toronto</pubPlace>: <publisher>Ward,Lock &#x0026; Co., Limited.</publisher>, <date>1909</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl>
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British literature--20th Century--Fiction.</item> 
+<item>Women authors, British--20th Century.</item> 
+<item>Widowhood.</item> 
+<item>Mystery.</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-20</date> 
+<respStmt><name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
+<text>
+
+<front>
+<pb n="[3]"/>
+<pb entity="lmworldtp" pages="Title Page"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">A WOMAN AGAINST THE WORLD</titlePart>
+</docTitle>
+</titlePage>
+
+<pb/>
+<pb/>
+<pb n="[6]"/>
+<div id="lmworldfm1" type="frontispiece">
+<figure entity="lmworldill" rend="inline">
+<p> MARGARET MERRIVALE.</p>
+<p> A WOMAN AGAINST THE WORLD</p>
+<figDesc> Illustration at the front of Moberly's "A Woman Against the World"</figDesc>
+</figure>
+</div>
+
+<pb n="[7]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> A WOMAN AGAINST <lb/> THE WORLD.</titlePart>
+</docTitle>
+<byline> BY <docAuthor> L.G. MOBERLY.</docAuthor> AUTHOR OF <lb/> "HOPE, MY WIFE," "DIANA," ETC.</byline>
+<docImprint>
+<pubPlace> WARD, LOCK &#x0026; CO., LIMITED,</pubPlace> <publisher> LONDON, MELBOURNE AND TORONTO.</publisher> <docAuthor> 1909</docAuthor>
+</docImprint>
+</titlePage>
 
-		<fileDesc>
+<pb n="[8]"/>
 
-			<titleStmt>
+<div id="lmworld100" type="dedication">
+<head>DEDICATION</head>
 
-				<title>A WOMAN AGAINST THE WORLD</title>
+<p>TO DR. E. KINGSCOTE. A VERY SMALL "THANK-YOU" FOR A VERY GREAT BENEFIT.</p>
 
-				<author>L.G. MOBERLY</author>
+</div>
 
-			</titleStmt>
+<pb n="[9]"/>
 
-			<publicationStmt>
+<div id="lmworld200" type="Table of Contents">
+<figure entity="lmworldtc1" rend="inline">
+<figDesc>Table of contents included in front of Moberly's "A Woman Against the World"</figDesc>
+</figure>
 
-				<pubPlace>LONDON, MELBOURNE AND TORONTO</pubPlace>
+<pb n="[10]"/>
+<figure entity="lmworldtc2" rend="inline">
+<figDesc> Table of contents included in front of Moberly's "A Woman Against the World"</figDesc>
+</figure>
+</div>
 
-				<publisher>WARD, LOCK &#38; CO., LIMITED</publisher>
+</front>
 
-				<date>1909</date>
+<body>
 
-			</publicationStmt>
+<pb n="11"/>
 
-			<sourceDesc>
+<div id="lmworld001" type="chapter" n="1">
 
-				<p/>
-
-			</sourceDesc>
-
-		</fileDesc>
-
-		<profileDesc/>
-
-	</teiHeader>
-
-	<text>
-
-		<front>
-
-			<titlePage>
-
-				<docTitle>
-
-					<titlePart>A WOMAN AGAINST THE WORLD</titlePart>
-
-				</docTitle>
-
-				<byline>BY <docAuthor>L. G. MOBERLY</docAuthor>. AUTHOR OF "HOPE, MY WIFE," "DIANA," ETC.</byline>
-
-				<docImprint>
-
-					<name>LONDON, MELBOURNE AND TORONTO</name>
-
-					<name>WARD, LOCK &#38; CO., LIMITED</name>
-
-					<date>1909</date>
-
-				</docImprint>
-
-			</titlePage>
-
-			<div>
-
-				<head>DEDICATION</head>
-
-				<p>TO DR. E. KINGSCOTE. A VERY SMALL "THANK-YOU" FOR A VERY GREAT BENEFIT.</p>
-
-			</div>
-
-			<pb n="9"/>
-
-			<div>
-
-				<head>CONTENTS</head>
-
-				<list>
-
-					<item>I.&#x2014;"FOND OF LITTLE CHILDREN" <label>II</label>
-
-					</item>
-
-					<item>II.&#x2014;"I INTEND TO CHOOSE MAISIE'S NURSE MYSELF" <label>22</label>
-
-					</item>
-
-					<item>III.&#x2014;"YOU WOULD STILL LIKE ME TO COME" <label>30</label>
-
-					</item>
-
-					<item>IV.&#x2014;"AND THIS IS&#x2014;JULIET?" <label>45</label>
-
-					</item>
-
-					<item>V.&#x2014;"MAISIE CALLS HER ' DEAREST '" <label>62</label>
-
-					</item>
-
-					<item>VI.&#x2014;"MY MARRIAGE WAS VERY UNHAPPY " <label>73</label>
-
-					</item>
-
-					<item>VII.&#x2014;"I DON'T RELIEVE I SHALL LIKE THE DOCTOR " <label>85</label>
-
-					</item>
-
-					<item>VIII.&#x2014; "WELL MET, INDEED!" <label>92</label>
-
-					</item>
-
-					<item>IX.&#x2014;"IT IS NOT JUST A CHANCE RESEMBLANCE" <label>101</label>
-
-					</item>
-
-					<item>X.&#x2014; "IF I HAD THE RIGHT!" <label>117</label>
-
-					</item>
-
-					<item>XI.&#x2014;"NOW I CAN SOON KILL YOU&#x2014; THAT'S&#x2014;GOOD!" <label>126</label>
-
-					</item>
-
-					<item>XII.&#x2014;"IF I CAN PUT HIM ON HER TRACK" <label>137</label>
-
-					</item>
-
-					<item>XIII.&#x2014;"SURELY YOU KNOW THAT&#x2014;&#x2014;" <label>148</label>
-
-					</item>
-
-					<item>XIV.&#x2014;"TIED AND BOUND" <label>159</label>
-
-					</item>
-
-					<item>XV.&#x2014;"WHAT A PICTURE THE TWO MAKE " <label>173</label>
-
-					</item>
-
-					<pb n="10"/>
-
-					<item>XVI.&#x2014;" YOU HAVE NO RIGHT TO INSULT ME" <label>181</label>
-
-					</item>
-
-					<item>XVII.&#x2014;"I'LL KILL YOU FIRST, AND THEN BRIAN" <label>191</label>
-
-					</item>
-
-					<item>XVIII.&#x2014;"I WILL STAKE MY HONOUR ON HERS" <label>202</label>
-
-					</item>
-
-					<item>XIX.&#x2014;"SO THE HUSSY HAS ESCAPED ME AGAIN!" <label>214</label>
-
-					</item>
-
-					<item>XX.&#x2014;"IS HE SIMPLY A TIGER, GREEDY FOR PREY?" <label>224</label>
-
-					</item>
-
-					<item>XXI.&#x2014;"MR. DACRE BELONGS TO ME!" <label>233</label>
-
-					</item>
-
-					<item>XXII.&#x2014;" MARGARET MERIVALE IS A GOOD WOMAN" <label>244</label>
-
-					</item>
-
-					<item>XXIII.&#x2014;"YOU ARE ALL HELENS OF TROY" <label>252</label>
-
-					</item>
-
-					<item>XXIV.&#x2014;"I DAREN'T MEET HIM, I MUST GO" <label>265</label>
-
-					</item>
-
-					<item>XXV.&#x2014;"WHAT KNOWLEDGE HAVE YOU OF MY WIFE?" <label>272</label>
-
-					</item>
-
-					<item>XXVI.&#x2014;"ONE WOMAN'S PAIN&#x2014;&#x2014;" <label>279</label>
-
-					</item>
-
-					<item>XXVII.&#x2014;"THIS IS MY LITTLE JULIET'S MOTHER" <label>286</label>
-
-					</item>
-
-					<item>XXVIII.&#x2014;"I SHALL GO MAD TOO&#x2014;LIKE HER" <label>298</label>
-
-					</item>
-
-					<item>XXIX.&#x2014;"I THINK THIS TIME I HOLD THE TRUMP CARD" <label>306</label>
-
-					</item>
-
-					<item>XXX.&#x2014;"MY QUEEN WITH THE BEAUTIFUL SOUL" <label>315</label>
-
-					</item>
-
-				</list>
-
-			</div>
-
-		</front>
-
-		<body>
-
-			<head/>
-
-			<pb n="11"/>
-
-			<div id="lmworld001" type="chapter" n="1">
-
-				<head>CHAPTER I<lb/>"FOND OF LITTLE CHILDREN."</head>
+		<head>CHAPTER I<lb/>"FOND OF LITTLE CHILDREN."</head>
 
 				<p>'NOT wishin' to make meself unpleasant, Mrs. Merivale, you'll please to remember there's four weeks' rent owin'&#x2014;and me a pore woman with me own rent to pay."</p>
 
@@ -3694,7 +3623,15 @@ when she recovered sufficiently to eat some of the food he forced on her. He fel
 
 		</body>
 
-	</text>
+<back> 
+
+<div type="colophon" id="lmworldbm1">
+<p> LONDON: WARD, LOCK &#x0026; CO., LTD. </p>
+</div>
+
+</back>
+
+</text>
 
 </TEI.2>
 
