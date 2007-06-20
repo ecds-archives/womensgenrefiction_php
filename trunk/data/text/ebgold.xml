@@ -10,66 +10,106 @@
 
 <titleStmt>
 
-<title/>
+<title> Mr. and Mrs. Gold, an electronic edition</title>
 
-<author/>
+<author n="Barnett, Edith A.">Edith A. Barnett</author>
 
 </titleStmt>
 
 <publicationStmt>
-
-<pubPlace/>
-
-<publisher/>
-
-<publisher/>
-
-<date/>
-
-</publicationStmt>
-
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability> 
+<p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address> 
+</p></availability></publicationStmt> 
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt> 
+</seriesStmt> 
 <sourceDesc>
-
-<p/>
-
-</sourceDesc>
-
-</fileDesc>
-
-<profileDesc/>
-
-</teiHeader>
-
+<bibl><author>Barnett, Edith A.</author>. <title>Mr. and Mrs.Gold</title>. <pubPlace>London</pubPlace>: <publisher>Swan, Sonnenschein &#x0026; CO.</publisher>, <date>1891</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl> 
+<classDecl>
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British literature--20th Century--Fiction.</item> 
+<item>Women authors, British--20th Century.</item> 
+<item>Anarchists.</item> 
+<item>Infidelity-Marital.</item> 
+<item> Social reformers</item>
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-20</date> 
+<respStmt><name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> <item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader> 
 <text>
-
 <front>
+<div id="lmworldcover" type="front cover">
+<figure entity="lmworldfc" type="inline">
+<figDesc> Front cover of Barnett's "Dr. and Mrs. Gold"</figDesc>
+</figure>
+</div>
+<pb/>
 
-<titlePage>
+<pb n="[i]"/>
+<div type="colophon" id="lmworldfm1">
+<p> THE ABERDEEN UNIVERSITY PRESS</p>
+</div>
 
+<pb n="[ii]"/>
+<pb entity="lmworldtp" pages="Title Page"/>
+<titlePage type="full">
 <docTitle>
-
-<titlePart/>
-
+<titlePart type="main"> DR. AND MRS. GOLD </titlePart>
+<titlePart type="sub"> AN EPISODE IN THE LIFE OF<lb/> A CAUSE</titlePart>
 </docTitle>
-
-<byline/>
-
-<byline/>
-
+<byline> BY <docAuthor> EDITH A. BARNETT</docAuthor> </byline>
+<epigraph> <cit> <q> "I do not know if all matter will be found to be made of one element, as oxygen or hydrogen,at last; but the world of manner and actions is wrought of one stuff,and beginning where we will, we are pretty sure in a short space to be mumbling our ten commandments."--</q>
+<bibl>EMERSON</bibl></cit></epigraph>
 <docImprint>
-
-<name/>
-
-<name/>
-
-<name/>
-
-<date/>
-
+<pubPlace> LONDON</pubPlace> <publisher> SWAN SONNENSCHEIN &#x0026; CO.</publisher><pubPlace> PATERNOSTER SQUARE</pubPlace><docDate>1891 </docDate>
 </docImprint>
-
 </titlePage>
-
 </front>
 
 <body>
@@ -1648,9 +1688,18 @@
 
 <p>Folks are beginning to forget this story, or to take for granted that young Mrs. Gold is dead. But she lives on in the cottage at West Moston with Pansie and James's Polly, always alone, always Mrs. Gold. No one watches the papers more carefully than she for stray notices of the doctor's doings. But they are rare, for the papers that she reads do not concern them-<pb n="287"/>selves with the doings of men of his sort. And we may be sure that the old Squire and his son Jack always carefully conceal from her any print where her name is given wrongfully to another woman.</p>
 
+<trailer> THE END</trailer>
+
 </div>
 
 </body>
+
+<back>
+
+<div type="colophon" id="lmworldbm1">
+<p> ABERDEEN UNIVERSITY PRESS</p>
+</div>
+</back>
 
 </text>
 
