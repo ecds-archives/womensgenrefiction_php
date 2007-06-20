@@ -1,5 +1,137 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<text><body>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2 id=""> 
+<teiHeader id=""> 
+<fileDesc> 
+<titleStmt>
+<title>An April Princess, an electronic edition</title>
+<author n="Smedley, Contance, 1881-1941"> Constance Smedley</author>
+</titleStmt>
+<extent></extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability>
+<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p> </availability> </publicationStmt> 
+<seriesStmt> 
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt> <name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp> 
+</respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl><author>Smedley, Constance</author>. <title>An April Princess</title>. <pubPlace>New York</pubPlace>: <publisher>Dodd, Mead and Company</publisher>, <date>1903</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> 
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p>
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">United States</rs> 
+<date>1900-1999</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>American literature--20th Century--Fiction.</item> 
+<item>Women authors, American--20th Century.</item> 
+<item>Assertiveness in Women.</item> 
+<item>New Woman.</item> 
+<item> Satire</item>
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-20</date> 
+<respStmt> 
+<name>Shruthi Vissa,</name> 
+<resp>Encoder.</resp> 
+</respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> </change> 
+</revisionDesc> 
+</teiHeader>
+<text>
+<front>
+<div id="csaprilcover" type="front cover">
+<figure entity="csparilfc" rend="inline">
+<figDesc> Front cover of Smedley's "An April Princess"</figDesc>
+</figure>
+</div>
+
+<pb/>
+<pb n="[i]"/>
+<pb entity="csapriltp" pages="Title Page"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">AN APRIL PRINCESS</titlePart>
+</docTitle>
+</titlePage>
+<pb/>
+<pb n="[iii]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> AN APRIL PRINCESS</titlePart>
+</docTitle>
+<byline> BY <docAuthor> CONSTANCE SMEDLEY</docAuthor></byline>
+<docImprint>
+<pubPlace> NEW YORK</pubPlace>
+<publisher> DODD, MEAD AND COMPANY</publisher>
+<docDate>1903</docDate>
+</docImprint>
+</titlePage>
+<pb n="[iv]"/>
+<div id="csaprilfm1" type="copyright">
+<figure entity="csapriltpv" rend="inline">
+<figDesc> Copyright page for Smedley's "April Princess"</figDesc>
+</figure>
+</div>
+
+<pb n="[v]"/>
+<div id="csapril100" type="dedication">
+<p> TO <lb/> MY FATHER AND MOTHER </p>
+</div>
+<pb/>
+<pb n="[vii]"/>
+<div id="csapril200" type="Table of Contents">
+<figure entity="csapriltc" rend="inline">
+<figDesc> Table of contents included in the front of Smedley's "April Princess"</figDesc>
+</figure>
+</div>
+<pb/>
+</front>
+<body>
 <!-- could not determine page number -->
 The background for these images was somewhat dark and uneven, which produced a scattered handful of pages with significant garbling. However, most were clear and legible, with only slight garbling along one edge or a few misrecognized characters.
 <pb n="[1]"/>
@@ -2148,7 +2280,7 @@ poor little Princess, you're all alone in your kingdom. You're not really import
 <p>"No, no, no " said the Princess, with enormous firmness.  "I never am going to have a Black Monkey again I He won't go when I'm tired of him, and he makes me hateful to everyone!"</p>
 <p>"He's a great protection when people are trampling on you," said Love-of-Excitement.</p>
 <pb n="195 THE BLACK MONKEY. "/>
-<p>"Dear little Black Monkey," said Love-of-Emotion; "he's such a companion!"
+<p>"Dear little Black Monkey," said Love-of-Emotion; "he's such a companion!"</p>
 <p>"You are so interesting when you have the little Black Monkey on your shoulder," said Love-of-Excitement. "You do such reckless, dashing things. He always leads you into adventures."</p>
 <p>"And you can make people so miserable when your Monkey's up," whispered Love-of-Emotion. "It would be rather nice to punish the Knight for having misjudged you so impudently. And the Artist and the Housewife want a bit of a lesson for thinking cheeky patronising things about you. Oh, do have that dear little pet of a Monkey!"</p>
 <p>"No, no!" said the Princess, and began to collect her frocks in a heap.</p>
@@ -2303,7 +2435,7 @@ almost suffocated her, and sang out loud his evil noisy song: I think you have s
 <p>"Don't, don't!" said the Artist under his breath, as the Princess laughed, for the Artist had the tenderest heart in the world.</p>
 <p>"Oh, it's no use speaking to her when she has the Monkey with her," said the Housewife, with a flash of scorn in her glorious eyes.</p>
 <p>"Oh, let's get out of this!" said the Monkey, for the Princess never enjoyed his company in the presence of people to whom he had betrayed himself.</p>
-<p>So the Princess went upstairs, and Love-of-Excitement woke up, and off they all went to catch the mail train at Udy, Love-of-Emotion and Love-of-Excitement and the Princess, all in charge of the little Black Monkey. And the Artist and the Housewife and the Knight stood at the gate and watched the sulky little party drive away, and, alas for the conceit of Princesses heaved a unanimous and truly thankful sigh.</p></div>
+<p>So the Princess went upstairs, and Love-of-Excitement woke up, and off they all went to catch the mail train at Udy, Love-of-Emotion and Love-of-Excitement and the Princess, all in charge of the little Black Monkey. And the Artist and the Housewife and the Knight stood at the gate and watched the sulky little party drive away, and, alas for the conceit of Princesses heaved a unanimous and truly thankful sigh.</p> </div>
 <pb n="207 THE FALSE PRINCE."/><div id="csapril012" type="chapter"
 n="12"><head>XII.<lb/>THE FALSE PRINCE.</head>
 <p>All through the night the Monkey sat on the Princess's shoulder in the jolting, lumbering, headachy train.  Love-of-Excitement and Love-of-Emotion had danced and shouted so up-roariously. to feel that they were really off, that in a little while the Princess was quite tired out, and lay back against her cushions and felt she would give any- thing to go to sleep. But the Monkey's hot little paws were pressing down upon her brain, and Love-of-Excitement and Love-of-Emotion sent pricking shivers through her heart whenever she tried to close her eyes and forget their presence. So it was a very weary Princess who alighted at the station in London.</p>
@@ -3506,6 +3638,6 @@ happy now with his Tailor-made Girl.  They are going to be married next year."</
 <p>"Give up the kingdom," said the King. "Come and rule mine!"</p>
 <p>So the Princess gave up her kingdom.</p></div>
 
+<trailer>THE END!</trailer> </body>
 
-
-<trailer>THE END!</trailer></body></text>
+</text> </TEI.2>
