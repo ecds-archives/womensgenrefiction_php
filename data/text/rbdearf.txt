@@ -1,6 +1,6 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2> 
-<teiHeader> 
+<TEI.2 id="rbdearf1201"> 
+<teiHeader id="rbdearf1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>Dear Faustina, an electronic edition</title> 
@@ -25,7 +25,7 @@
 <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp>
 </respStmt> 
 </seriesStmt> 
-<sourceDesc> <bibl><author>Broughton, Rhoda</author>. <title>Dear Faustina</title>. <pubPlace>London</pubPlace>: <publisher>Richard Bentley and Son.</publisher>, <date>1897</date>.</bibl> 
+<sourceDesc> <bibl><author>Broughton, Rhoda</author>. <title>Dear Faustina</title>. <pubPlace>London</pubPlace>: <publisher>Richard Bentley and Son</publisher>, <date>1897</date>.</bibl> 
 </sourceDesc> 
 </fileDesc> 
 <encodingDesc> 
@@ -70,36 +70,41 @@
 <respStmt><name>Shruthi Vissa, </name> 
 <resp>Encoder.</resp></respStmt> 
 <item>XML tags inserted in compliance with TEI guidelines.</item> 
-</change> 
+</change>
+<change> <date>2007-June 20</date> 
+<respStmt><name>Alice Hickcox, </name> 
+<resp>Electronic Text Specialist.</resp></respStmt> 
+<item>Added ids and images.</item> 
+</change>
 </revisionDesc> 
 </teiHeader> 
-<text> 
-<front>
-<pb n="[1]"/>
-<pb entity="rbdearftp" pages="titlePage"/>
+<text id="rbdearf1203"> 
+<front id="rbdearf1204">
+<pb/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main">DEAR FAUSTINA</titlePart>
 </docTitle>
 </titlePage>
-<pb n="[ii]"/>
-<pb n="[iii]"/>
+
+<pb entity="rbdearftp**" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main"> DEAR FAUSTINA</titlePart>
 </docTitle>
-<byline> BY <docAuthor> RHODA BROUGHTON</docAuthor> <lb/>
+<byline>BY <docAuthor> RHODA BROUGHTON</docAuthor> <lb/>
 AUTHOR OF 'GOOD-BYE, SWEETHEART!' 'NANCY,' ETC.</byline>
 <docImprint>
-<pubPlace>LONDON:</pubPlace><publisher>RICHARD BENTLEY AND SON <lb/>Publishers in Ordinary in Her Majesty the Queen</publisher>
+<pubPlace>LONDON:</pubPlace><publisher>RICHARD BENTLEY AND SON <lb/>Publishers in Ordinary to Her Majesty the Queen</publisher>
 <docDate>1897</docDate> 
-</docImprint> 
+</docImprint>
+<imprimatur>[All rights reserved]</imprimatur>
 </titlePage>
 <pb/>
 </front>
-<body>
+<body id="rbdearf1205">
 <pb n="[1]"/>
-<div id="rbdearf" type="chapter" n="1">
+<div id="rbdearf100" type="chapter" n="1">
 <head>DEAR FAUSTINA<lb/><milestone unit="section" rend=
 "line"/>CHAPTER I.</head>
 <p>'<hi rend="italic">TEARS!</hi>'</p>
@@ -111,7 +116,7 @@ apology that she proffers her excuse.</p>
 <p>'I do not think I am much of a cryer; you have never seen me cry
 before.'</p>
 <p>'Why do I see you cry now?'</p>
-<p>The reproacher and reproached are both<pb n="2     DEAR
+<p>The reproacher and reproached are both<pb n="2 DEAR
 FAUSTINA"/> feminine, the superiority in years lying with the former,
 in comeliness with the latter.</p>
 <p>'Is not it allowable, or at least excusable, at such a crisis in my
@@ -258,7 +263,7 @@ would not be worth while, as we shall so soon know the worst.'</p>
 <p>'Though you say that I have outgrown her&#x2014;and perhaps in some ways I have,
 thanks to you'&#x2014;gratefully&#x2014;'yet I shall miss Clare dreadfully when we
 are virtually <hi
-rend="italic">t&#x00EA;t&#x00E9;-&#x00E0;-t&#x00EA;t&#x00E9;</hi>&#x2014;mother
+rend="italic">t&#x00EA;te-&#x00E0;-t&#x00EA;te</hi>&#x2014;mother
 and I; for the boys will be, of course, away, and Fanny is too young
 and unformed to count much. I fear that the radical discrepancies
 between all our tastes and feelings will come out terribly strong. I
@@ -457,7 +462,7 @@ longer.'</p>
 <p>She bows her head slightly, and turns again to her loaded
 writing-table as they file out.</p></div>
 
-<pb n="[24]"/><div id="rbdearf" type="chapter"
+<pb n="24"/><div id="rbdearf200" type="chapter"
 n="2"><head>CHAPTER II.</head>
 <p>THE young people troop up to the drawing-room silently
 together. Faustina enters it with them, perhaps concluding
@@ -830,7 +835,7 @@ unshared.'</p>
 quivers.</p>
 <p>'I am sure I do not know what you see in me.'</p></div>
 
-<pb n="[48]"/><div id="rbdearf" type="chapter"
+<pb n="48"/><div id="rbdearf300" type="chapter"
 n="3"><head>CHAPTER III.</head>
 <p>THE house is to be sold&#x2014;the good solid family house&#x2014;which, though
 since its eighteenth-century birth it has seen the senseless tide of
@@ -1131,7 +1136,7 @@ to bring him into the question.'</p>
 <p>This is true, and silences her.</p>
 <p>'Well,' says Clare, with a deep sigh,<pb n="67     DEAR
 FAUSTINA"/> rising as if to depart, 'I am afraid I may say with
-Mortimer:</p><q>"No more of this unprofitable chat!"</q>
+Mortimer:<q>"No more of this unprofitable chat!"</q></p>
 <p>At this indication of an intention to leave her on the part of the
 last member of her family who had cleaved to her, Althea's
 loftily-beating heart sinks. Involuntarily she stretches out her hand
@@ -1144,7 +1149,7 @@ that would be putting it offensively&#x2014;if ever you see reason to change
 your mind&#x2014;'</p>
 <p>'I will die before I own it.'</p></div>
 
-<pb n="[68]"/><div id="rbdearf" type="chapter"
+<pb n="68"/><div id="rbdearf400" type="chapter"
 n="4"><head>CHAPTER IV.</head>
 <p>THE break-up has come. Clare has been united to her William, and as
 Mrs. William Boteler has set off on a singularly piercing afternoon to
@@ -1490,7 +1495,7 @@ Miss Bateson's surroundings; but the latter is so much relieved by
 the, at least, partially restored docility of her catechumen that she
 does not quarrel with it.</p></div>
 
-<pb n="[91]"/><div id="rbdearf" type="chapter"
+<pb n="91"/><div id="rbdearf500" type="chapter"
 n="5"><head>CHAPTER V.</head>
 <p>THE joint establishment in More Mansions is now five days
 old. Althea has discovered that many things, which she has hitherto
@@ -1775,7 +1780,7 @@ forerunner whose light had evidently gone out in darkness, and about
 whom Faustina maintains for the most part a reticence divined to be
 hostile&#x2014;was like. She decides that it would not.</p>
 <p>'I not only knew Miss Lewis, but <hi rend="italic">her</hi> predecessor.'</p>
-<p>'<hi rned="italic">Had</hi> she a predecessor?'</p>
+<p>'<hi rend="italic">Had</hi> she a predecessor?'</p>
 <p>'Oh yes, more than one.'</p>
 <p>Althea starts slightly. She feels as if a<pb n="109     DEAR
 FAUSTINA"/> sharp pebble had hit her-small, but unexpected. It takes
@@ -1856,7 +1861,7 @@ proclaiming him to belong to that <hi rend="italic">r&#x00E9;gime</hi> which she
 <p>The ting of the electric bell breaks into his answer. Faustina has
 returned.</p></div>
 
-<pb n="[114]"/><div id="rbdearf" type="chapter"
+<pb n="114"/><div id="rbdearf600" type="chapter"
 n="6"><head>CHAPTER VI.</head>
 <p>'So that is the new enthusiasm, is it?'</p>
 <p>The collapse of her cook has been explained to Miss Bateson, and
@@ -2224,7 +2229,7 @@ succeed in keeping in the gibing answer:</p>
 <p>His retort is not less gibing:</p>
 <p>'Philanthropy! Yes; I was not alluding to philanthropy.'</p></div>
 
-<pb n="[137]"/><div id="rbdearf" type="chapter"
+<pb n="137"/><div id="rbdearf700" type="chapter"
 n="7"><head>CHAPTER VII.</head>
 <p>THE rest of the party have dispersed, and Althea sits on a sofa
 beside Clare, her eyes brimming with angry tears. Miss Delafield,
@@ -2309,7 +2314,7 @@ kinsfolk coming to meet her.</p>
 <p>Drake and she have been several times in each other's company since
 their first informal introduction over the drunken cook's body, though
 not often <hi
-rend="italic">t&#x00EA;t&#x00E9;-&#x00E0;-t&#x00EA;t&#x00E9;</hi>. Whenever
+rend="italic">t&#x00EA;te-&#x00E0;-t&#x00EA;te</hi>. Whenever
 this has happened, there has always been on Althea's mind, and perhaps
 also a little in her manner, the print of that impression which the
 knowledge of his great renunciation had graved there on her first hearing it.</p>
@@ -2571,7 +2576,7 @@ of novels, so rare in real life, but on this occasion really on
 view.</p>
 <p>'It is very good of him to allow me even that trifling merit!'</p></div>
 
-<pb n="[159]"/><div id="rbdearf" type="chapter"
+<pb n="159"/><div id="rbdearf800" type="chapter"
 n="8"><head>CHAPTER VIII.</head>
 <p>THE hatchet is buried, though to a very nice observer a bit of its
 handle may still be seen protruding from the ground. But to the
@@ -2645,7 +2650,7 @@ course, in common with the whole of the cultured world, enjoyed her
 Theocritus.'</p>
 <p>'I am afraid'&#x2014;now sore ashamed&#x2014;'that I am very ignorant of the
 new poets.'</p>
-<p>'<hhi rend="italic">New!</hhi> "Hellas" has been writing for ten
+<p>'<hi rend="italic">New!</hi> "Hellas" has been writing for ten
 years. She and I began simultaneously.'</p>
 <p>The mischief is out! The lady is a <hi
 rend="italic">poet</hi>. This is only one of miany blunders and<pb
@@ -2914,7 +2919,7 @@ you, who are so far, far ahead of me in every respect; but when
 anything painful to myself is required of me, I cry off. Thank you for
 showing me what I really am. I will go.'</p></div>
 
-<pb n="[181]"/><div id="rbdearf" type="chapter"
+<pb n="181"/><div id="rbdearf900" type="chapter"
 n="9"><head>CHAPTER IX.</head>
 <p>THERE is not the least difficulty as to the card for Aunt Lavinia's
 party; and the delight with which Clare writes to propose Althea's
@@ -3283,7 +3288,7 @@ tell you, you will think I am no longer worthy of a place in your
 brougham. We were talking of <hi rend="italic">chromate of
 potash!</hi>'</p></div>
 
-<pb n="[205]"/><div id="rbdearf" type="chapter" n="10"><head>CHAPTER
+<pb n="205"/><div id="rbdearf1000" type="chapter" n="10"><head>CHAPTER
 X.</head>
 <p>No one can say that Faustina does not take her disappointment
 well. No reproach passes her lips. Not only does her robust
@@ -3646,7 +3651,7 @@ cramped&#x2014;'</p>
 <p>'<hi rend="italic">I?</hi> Oh, I shall swing a hammock in the
 passage; I have often done it before.'</p></div>
 
-<pb n="[228]"/><div id="rbdearf" type="chapter"
+<pb n="228"/><div id="rbdearf110" type="chapter"
 n="11"><head>CHAPTER XI.</head>
 <p>FOR the next two days there can be no manner of doubt that the
 inhabitants of 4, More Mansions are inconveniently thick upon the
@@ -3994,7 +3999,7 @@ done by one near akin to her.</p>
 fattening upon the hearts' blood of his fellow-creatures, and for such
 a crime society has naturally kicked him out.'</p></div>
 
-<pb n="[251]"/><div id="rbdearf" type="chapter"
+<pb n="251"/><div id="rbdearf120" type="chapter"
 n="12"><head>CHAPTER XII.</head>
 <p>The project of introducing Miss Vane to the scene of his labours in
 Canning Town is too dear to Drake's heart to be let go; and he does
@@ -4002,7 +4007,7 @@ not rest till he has found a means of combining its execution with
 what he would not for worlds, even to his own heart, call Althea's
 prudery. Since not all the generous precepts of Faustina can reconcile
 Miss Vane to making such an excursion <hi
-rend="italic">t&#x00EA;t&#x00E9;-&#x00E0;-t&#x00EA;t&#x00E9;</hi>&#x2014;and,
+rend="italic">t&#x00EA;te-&#x00E0;-t&#x00EA;te</hi>&#x2014;and,
 indeed, he has never gone near to repeating the overture&#x2014;he has
 called to his aid a female friend and fellow-worker of his own, who,
 with a newly-married and like-minded husband, has pitched her tent in
@@ -4140,12 +4145,12 @@ Drake sing, and for a few minutes she forgets the discomfort of her
 own position in the pleasure of listening to him. For these few
 minutes the pressure around her is less, the audience paying to him
 the tribute, which they have denied to every previous performance, of
-an almost entire cessation of punching and giggling.</p>
+an almost entire cessation of punching and giggling.
 <q><lg type="stanza"><l>'Jack's the boy for work,</l>
 <l>Jack's the boy for play,</l>
 <l>Jack's the lad</l>
 <l>When girls are sad</l>
-<l>To kiss their tears away.'</l></lg></q><pb n="261     DEAR
+<l>To kiss their tears away.'</l></lg></q></p><pb n="261     DEAR
 FAUSTINA"/>
 <p>Down the long room, through the hot and loaded atmosphere, the
 pleasant tenor comes ringing. They applaud uproariously both singer
@@ -4276,7 +4281,7 @@ you know that sometimes&#x2014;often of late&#x2014;it has struck me that, if it
 were not for Faustina and all I owe her, I should like to come among
 you for good!'</p></div>
 
-<pb n="[270]"/><div id="rbdearf" type="chapter"
+<pb n="270"/><div id="rbdearf130" type="chapter"
 n="13"><head>CHAPTER XIII.</head>
 <p>IT is in a very much brighter mood than she has for some time
 enjoyed that Althea, on the following morning, is walking through the
@@ -4552,7 +4557,7 @@ its lapidation.</p>
 <p>'But <hi rend="italic">if</hi>&#x2014;<hi rend="smallcaps">if</hi>&#x2014;'</p>
 <p>'I will not face such an <hi rend="italic">if</hi>.'</p></div>
 
-<pb n="[288]"/><div id="rbdearf" type="chapter"
+<pb n="288"/><div id="rbdearf140" type="chapter"
 n="14"><head>CHAPTER XIV.</head>
 <p>To her coachman's disgust, Lady Lanington insists upon driving
 Althea to the portal of her flat, in the feverish hope that the
@@ -4872,7 +4877,7 @@ FAUSTINA"/> has reached the end of the endless length of Grosvenor
 Road before the sun, beating hotly on her head&#x2014;she has left parasol
 and gloves behind&#x2014;and the urgent weariness of the knees that knock
 together beneath her, bid her find some place of shelter.</p>
-<p>The thought of the Aerated Bread Company passes foggily across her
+<p>The thought of the A&#x00EB;rated Bread Company passes foggily across her
 mind&#x2014;that beneficent institution which, during the last months, has
 often provided her with a frugal luncheon or inexpensive tea. She has
 to drag her tired limbs yet a little further before, in a street in
@@ -4925,7 +4930,7 @@ itself out from the coming and going feet in the restaurant that she
 snatches herself upright, and sees that the object of her anguished
 query is present to answer it if she will in person.</p></div>
 
-<pb n="[312]"/><div id="rbdearf" type="chapter"
+<pb n="312"/><div id="rbdearf150" type="chapter"
 n="15"><head>CHAPTER XV.</head>
 <p>ALTHEA starts to her feet.</p>
 <p>'What are you doing here?'</p>
@@ -5351,7 +5356,7 @@ do not'&#x2014;with a burst of disgust and anger&#x2014;'she will probably pawn
 them.'</p>
 <p>And again Althea shivers.</p></div>
 
-<pb n="[339]"/><div id="rbdearf" type="chapter"
+<pb n="339"/><div id="rbdearf160" type="chapter"
 n="16"><head>CHAPTER XVI.</head>
 <p>THE servant sent to recover Miss Vane's wardrobe from the
 apprehended pawnshop returns in time for her to appear in her own
@@ -5561,7 +5566,7 @@ the implement is always a most secondary consideration, and is
 esteemed solely as it may lend its polish or its blade to the service
 of the Cause?'</p>
 <p>He puts out his hand impatiently.</p>
-<p>'<hi rend="italic">Connu!</hi> I have heard it before. Save it for
+<p>'<hi rend="italic">&#x00C7;onnu!</hi> I have heard it before. Save it for
 someone to whom it is fresher.'</p>
 <p>Her good-humour, or at least her self-command, seems proof even
 against this shaft.</p>
@@ -5673,7 +5678,7 @@ tool of a girl as contemptible in character as puny in intellect; you
 have used a lever which no generous mind would have employed; and now,
 will you please tell me what I am to say?'</p></div>
 
-<pb n="[360]"/><div id="rbdearf" type="chapter"
+<pb n="360"/><div id="rbdearf170" type="chapter"
 n="17"><head>CHAPTER XVII.</head>
 <p>'ALL right!'</p>
 <p>When Althea's eyes allow her to read it, she finds that these two
@@ -5697,7 +5702,7 @@ been able to remove the mountain of Faustina's purpose?</p>
 <p>Over these problems she tosses most of the night&#x2014;a regrettable
 waste of time and tissue, since morning brings the solution of, at all
 events, one of them in a letter from Drake himself:</p>
-<q><text><body><div type="letter" id="rbdearf"><opener><salute>'DEAR
+<q><text><body><div type="letter" id="rbdearf171"><opener><salute>'DEAR
 MISS VANE,</salute></opener>
 <p>'I hope that the telegram I have just sent you will relieve your
 anxiety. I am very pleased to say that I have been able to persuade
@@ -6296,103 +6301,101 @@ n="400     DEAR FAUSTINA"/>&#x2014;your godfathers and godmothers? Is not it
 rather late in the day to do that?'</p>
 <p>She turns upon him with a radiant smile.</p>
 <p>'Not my godfathers and godmothers&#x2014;but my
-brother-in-law!'</p></div>
-</body>
-</text>
-
+brother-in-law!'</p>
 <trailer>THE END.</trailer>
-
-<p><back>
-<div type="colophon" id="rbdearf1">BILLING AND SONS, PRINTERS, GUILDFORD.
-F. D.  Co.</div>
+</div>
+</body>
+<back id="rbdearf1206">
+<div type="colophon" id="rbdearfb1"><p>BILLING AND SONS, PRINTERS, GUILDFORD.
+F. D.  Co.</p></div>
 <pb n="1"/>
 <div id="rbdear100" type="advert">
-<figure entity="rbdearad1" rend="inline">
+<figure entity="rbdearfbm1" rend="inline">
 <figDesc> Advert included in back of Brougton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="2"/>
-<figure entity="rbdearfad2" rend="inline">
+<figure entity="rbdearfbm2" rend="inline">
 <figDesc> Advert included in back of Broughton's Dear "Faustina"</figDesc>
 </figure>
 <pb n="3"/>
-<figure enity="rbdearfad3" rend="inline">
+<figure entity="rbdearfbm3" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="4"/>
-<figure entity="rbdearfad4" rend="inline">
+<figure entity="rbdearfbm4" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina" </figDesc>
 </figure>
 <pb n="5"/>
-<figure enity="rbdearfad5" rend="inline">
+<figure entity="rbdearfbm5" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="6"/>
-<figure entity="rbdearfad6" rend="inline">
+<figure entity="rbdearfbm6" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="7"/>
-<figure enity="rbdearfad7" rend="inline">
+<figure entity="rbdearfbm7" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="8"/>
-<figure entity="rbdearfad8" rend="inline">
+<figure entity="rbdearfbm8" rend="inline">
 <figDesc> Advert included in back of Brougton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="9"/>
-<figure entity="rbdearfad9" rend="inline">
+<figure entity="rbdearfbm9" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="10"/>
-<figure entity="rbdearfad10" rend="inline">
+<figure entity="rbdearfbm10" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="11"/>
-<figure entity="rbdearfad11" rend="inline">
+<figure entity="rbdearfbm11" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="12"/>
-<figure entity="rbdearfad12" rend="inline">
+<figure entity="rbdearfbm12" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"
 </figDesc>
 </figure>
 <pb n="13"/>
-<figure entity="rbdearfad13" rend="inline">
+<figure entity="rbdearfbm13" rend="inline">
 <figDesc> Advert included in back of Brougton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="14"/>
-<figure entity="rbdearfad14" rend="inline">
+<figure entity="rbdearfbm14" rend="inline">
 <figDesc> Advert included in back of Brougton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="15"/>
-<figure entity="rbdearfad15" rend="inline">
+<figure entity="rbdearfbm15" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="16"/>
-<figure entity="rbdearfad16" rend="inline">
+<figure entity="rbdearfbm16" rend="inline">
 <figDesc> Advert included in back of Brougton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="17"/>
-<figure entity="rbdearfad17" rend="inline">
+<figure entity="rbdearfbm17" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="18"/>
-<figure entity="rbdearfad18" rend="inline">
+<figure entity="rbdearfbm18" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="19"/>
-<figure entity="rbdearf19" rend="inline">
+<figure entity="rbdearfbm19" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="20"/>
-<figure entity="rbdearf20" rend="inline">
+<figure entity="rbdearfbm20" rend="inline">
 <figDesc> Advert included in back of Brougton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="21"/>
-<figure entity="rbdearf21" rend="inline">
+<figure entity="rbdearfbm21" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="22"/>
-<figure entity="rbdearfad22" rend="inline">
+<figure entity="rbdearfbm22" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="23"/>
@@ -6432,11 +6435,11 @@ F. D.  Co.</div>
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 <pb n="32"/>
-<figure enity="rbdearf32" rend="inline">
+<figure entity="rbdearf32" rend="inline">
 <figDesc> Advert included in back of Broughton's "Dear Faustina"</figDesc>
 </figure>
 </div>
 </back>
-</p> 
+</text>
 </TEI.2>
 
