@@ -1,5 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2 id=""> 
+<teiHeader id=""> 
+<fileDesc> 
+<titleStmt> 
+<title>The Circular Staircase, an electronic edition</title> 
+<author><name type="person" reg="Rinehart, Mary Roberts, 1876-1958">Mary Roberts Rinehart</name></author> 
+</titleStmt> 
+<extent></extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability>
+<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p> </availability> </publicationStmt> 
+<seriesStmt> 
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt> <name>Sheila T. Cavanagh</name> 
+<name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp> 
+</respStmt> 
+</seriesStmt> 
+<sourceDesc>
+<bibl><author>Rinehart, Mary Roberts</author>. <title>The Circular Staircase</title>. <pubPlace>New York</pubPlace>: <publisher>The Bobbs-Merrill Company</publisher>, <date>1908</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> 
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p>
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p> 
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">United States</rs> 
+<date>1900-1999</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>American literature--20th Century--Fiction.</item> 
+<item>Women authors, American--20th Century.</item> 
+<item>Mystery.</item> 
+<item>Middle-aged women.</item> 
+<item> Murder</item>
+<item>Female detective</item>
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-21</date> 
+<respStmt> 
+<name>Shruthi Vissa,</name> 
+<resp>Encoder.</resp> 
+</respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
 
- <pb>
+ <pb/>
 <!-- could not determine page number -->
 poor OCR sections:
 pages 10, 16, 17, are somewhat garbled due to text curvature toward the spine.
@@ -10,7 +98,48 @@ page 350 has water damage in the center of the text, which interfered with the O
 
 Also, beginning at page 182, many of the pages have the edges cut off. Despite our best efforts, we could not recover these bits of text. The damaged continues to page 350.
 
-<text><front></front><body>
+<text>
+<front>
+<pb entity="mrcircutp" pages="Title Page"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">The Circular Staircase</titlePart>
+</docTitle>
+</titlePage>
+<pb/>
+<pb/>
+<pb n="[2]"/>
+<div id="mrcircufm1" type="frontispiece">
+<figure entity="mrcircuill" rend="inline">
+<figDesc> Illustration included in the front of Rinehart's "The Circular Staircase"</figDesc>
+</figure>
+</div>
+<pb n="[3]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> THE CIRCULAR STAIRCASE</titlePart>
+</docTitle>
+<byline> <hi rend="italics">BY</hi>MARY ROBERTS RINEHART</byline>
+<titlePart type="desc"> WITH ILLUSTRATIONS BY<lb/> LESTER RALPH</titlePart>
+<docImprint>
+<pubPlace>INDIANAPOLIS</pubPlace> <publisher> THE BOBBS-MERRILL COMPANY <lb/>PUBLISHERS</publisher>
+</docImprint>
+</titlePage>
+<pb n="[4]"/>
+<div id="mrcircufm" type="copyright">
+<figure entiity="mrcircutpv" rend="inline">
+<figDesc> Copyright page for Rinehart's "The Circular Staircase"</figDesc>
+</figure>
+</div>
+<pb n="5"/>
+<div id="mrcircu100" type="table of contents">
+<figure entity="mrcircutc" rend="inline">
+<figDesc> Table of Contents included in front of Rinehart's "The Circular Staircase"</figDesc>
+</figure>
+</div>
+<pb/>
+</front>
+<body>
 <pb n="1"/>
 <div id="mrcircu001" type="chapter" n="1">
 <head>THE CIRCULAR STAIRCASE<lb/>
@@ -227,7 +356,7 @@ from me&#x2014;I remember that&#x2014;and then, feeling myself getting dizzy and
 <p>"Especially since Jack Bailey and Arnold Armstrong were notoriously bad friends. It was Bailey who got Arnold into trouble last spring&#x2014;something about the bank. And then, too&#x2014;"</p>
 <p>"Go on," I said. "If there is anything more, I ought to know."</p>
 <p>"There's nothing more," he said evasively. "There's
-<pb n="37     "WHERE IS HALSEY?"/>
+<pb n="37     WHERE IS HALSEY?"/>
 just one thing we may bank on, Miss Innes. Any court in the country will acquit a man who kills an intruder in his house, at night. If Halsey&#x2014;"</p>
 <p>"Why, you don't think Halsey did it!" I exclaimed. There was a queer feeling of physical nausea coming over me.</p>
 <p>"No, no, not at all," he said with forced cheerfulness. "Come, Miss Innes, you're a ghost of yourself, and I am going to help you up-stairs and call your maid. This has been too much for you."</p>
@@ -404,7 +533,7 @@ friendly stare; we were only measuring weapons. Then he smiled a little and got 
 <p>I jumped up at once.</p>
 <p>"You mean&#x2014;the murderer?" I gasped.</p>
 <p>"Possibly," he said quietly, as we hurried together
-<pb n="60     THE CIRCULAR STAIRCASE/>
+<pb n="60     THE CIRCULAR STAIRCASE"/>
 up the stairs. "Some one was lurking on the staircase when I went back. I spoke; instead of an answer, whoever it was turned and ran up. I followed&#x2014;it was dark&#x2014;but as I turned the corner at the top a figure darted through this door and closed it. The bolt was on my side, and I pushed it forward. It is a closet, I think." We were in the upper hall now. "If you will show me the electric switch, Miss Innes, you would better wait in your own room."</p>
 <p>Trembling as I was, I was determined to see that door opened. I hardly knew what I feared, but so many terrible and inexplicable things had happened that suspense was worse than certainty.</p>
 <p>"I am perfectly cool," I said, "and I am  going to remain here."</p>
@@ -431,7 +560,7 @@ A SPRAINED ANKLE</head>
 <p>But the key was not in it. Mr. Jamieson shook it, but it was a heavy door, well locked. And then he stooped and began punching around the keyhole with the end of a lead-pencil. When he stood up his face was exultant.</p>
 <p>"It's locked on the inside," he said in a low tone. "There is somebody in there."</p>
 <p>"Lord have mercy!" gasped Liddy, and turned to run.</p>
-<pb n="64     THE   CIRCULAR      STAIRCASE 
+<pb n="64     THE   CIRCULAR      STAIRCASE"/> 
 <p>"Liddy," I called, "go through the house at once and see who is missing, or if any one is. We'll have to clear this thing at once. Mr. Jamieson, if you will watch here I will go to the lodge and find Warner. Thomas would be of no use. Together you may be able to force the door."</p>
 <p>"A good idea," he assented. "But&#x2014;there are windows, of course, and there is nothing to prevent whoever is in there from getting out that way."</p>
 <p>"Then lock the door at the top of the basement stairs," I suggested, "and patrol the house from the outside."</p>
@@ -495,7 +624,7 @@ and when I asked her about Rosie she confirmed her absence.</p>
 THE OTHER HALF OF THE LINK</head>
 <p>MISS Innes," the detective began, "what is your opinion of the figure you saw on the east veranda the night you and your maid were in the house alone?"</p>
 <p>"It was a woman," I said positively.</p>
-</p>"And yet your maid affirms with equal positiveness that it was a man."</p>
+<p>"And yet your maid affirms with equal positiveness that it was a man."</p>
 <p>"Nonsense," I broke in. "Liddy had her eyes shut&#x2014;she always shuts them when she's frightened."</p>
 <p>"And you never thought then that the intruder who came later that night might be a woman-the woman, in fact, whom you saw on the veranda?"</p>
 <p>"I had reasons for thinking it was a man," I said, remembering the pearl cuff-link.</p>
@@ -507,7 +636,7 @@ THE OTHER HALF OF THE LINK</head>
 <p>"Will you give me the link," he said, when I finished, "or, at least, let me see it? I consider it a most important clue."</p>
 <p>"Won't the description do?"</p>
 <p>"Not as well as the original."</p>
-</p>"Well, I'm very sorry," I said, as calmly as I could,"I&#x2014;the thing is lost. It&#x2014;it must have fallen out of a box on my dressing-table."</p>
+<p>"Well, I'm very sorry," I said, as calmly as I could,"I&#x2014;the thing is lost. It&#x2014;it must have fallen out of a box on my dressing-table."</p>
 <p>Whatever he thought of my explanation,and I knew he doubted it, he made no sign. He asked me
 <pb n="75     THE OTHER HALF OF THE LINK"/>
 to describe the link accurately, and I did so, while he glanced at a list he took from his pocket.</p>
@@ -579,7 +708,7 @@ other maids, I shall deduct from your wages for every broken dish I find in the 
 <p>I could fancy Liddy's face when she missed the extra pieces of china&#x2014;she had opposed Rosie from the start. If Liddy once finds a prophecy fulfilled, especially an unpleasant one, she never allows me to forget it. It seemed to me that it was absurd to leave that china dotted along the road for her to spy the next morning; so with a sudden resolution, I opened the door again and stepped out into the darkness. As the door closed behind me I half regretted my impulse; then I shut my teeth and went on.</p>
 <p>I have never been a nervous woman, as I said before. Moreover, a minute or two in the darkness en-
 <pb n="86     THE CIRCULAR STAIRCASE"/>
-abled me to see things fairly well. Beulah gave me rather a start by rubbing unexpectedly against my feet; then we two, side by side, went down the drive.
+abled me to see things fairly well. Beulah gave me rather a start by rubbing unexpectedly against my feet; then we two, side by side, went down the drive.</p>
 <p>There were no fragments of china, but where the grove began I picked up a silver spoon. So far Rosie's story was borne out: I began to wonder if it were not indiscreet, to say the least, this midnight prowling in a neighborhood with such a deservedly bad reputation. Then I saw something gleaming,which proved to be the handle of a cup, and a step or two farther on I found a V-shaped bit of a plate. But the most surprising thing of all was to find the basket sitting comfortably beside the road, with the rest of the broken crockery piled neatly within, and a handful of small silver, spoons, forks, and the like on top! I could only stand and stare. Then Rosie's story was true. But where had Rosie carried her basket? And why had the thief, if he were a thief, picked up the broken china out of the road and left it, with his booty?</p>
 <p>It was with my nearest approach to a nervous collapse that I heard the familiar throbbing of an automobile engine. As it came closer I recognized the
 <pb n="87    THE THER HALF OF THE LINK"/>
@@ -625,7 +754,7 @@ cied I caught a sudden glance at Gertrude, a flash of something that died as it 
 <p>For an appreciable moment Halsey stared at me. Then he turned to Gertrude.</p>
 <p>"My revolver, Trude!" he exclaimed. "Why, Jack took my revolver with him, didn't he?"</p>
 <p>"Oh, for Heaven's sake don't say that," I implored. "The detective thinks possibly Jack Bailey came back, and&#x2014;and the thing happened then."</p>
-<p>"He didn't come back," Halsey said sternly. "Gertrude, when you brought down a revolver that night for Jack to take with him, what one did you bring? Mine?"
+<p>"He didn't come back," Halsey said sternly. "Gertrude, when you brought down a revolver that night for Jack to take with him, what one did you bring? Mine?"</p>
 <p>Gertrude was defiant now.</p>
 <p>"No. Yours was loaded, and I was afraid of what
 <pb n="93     JUST LIKE A GIRL"/>
@@ -968,7 +1097,7 @@ But she shook her head. "I must do it myself," she said dully. "My mother must h
 <p>"Never mind," I said; "when you and Halsey are
 <pb n="144     THE CIRCULAR STAIRCASE"/> 
 married you can be as honest as you like, and you will certainly be poor."</p> 
-Halsey came to the door at that moment and I could hear him coaxing Liddy for admission to the sick room.</p>
+<p>Halsey came to the door at that moment and I could hear him coaxing Liddy for admission to the sick room.</p>
 <p>"Shall I bring him in?" I asked Louise, uncertain what to do. The girl seemed to shrink back among her pillows at the sound of his voice. I was vaguely irritated with her; there are few young fellows like Halsey&#x2014;straightforward, honest, and willing to sacrifice everything for the one woman. I knew one once, more than thirty years ago, who was like that: he died a long time ago. And sometimes I take out his picture, with its cane and its queer silk hat, and look at it. But of late years it has grown too painful: he is always a boy&#x2014;and I am an old woman. I would not bring him back if I could.<p> 
 <p>Perhaps it was some such memory that made me call out sharply.</p>
 <p>"Come in, Halsey." And then I took my sewing and went into the boudoir beyond, to play propriety. I did not try to hear what they said, but every word came through the open door with curious distinctness. Halsey had evidently gone over to the bed and I sup-
@@ -1269,12 +1398,12 @@ A HOLE IN THE WALL</head>
 <pb n="187     A HOLE IN THE WALL"/>
 her mother would mean, of course, that she would have to leave us, and I had become greatly attached to her.</p>
 <p>From the day Mr. Jamieson came to Sunnyside, there was a subtle change in Gertrude's manner to me. It was elusive, difficult to analyze, but it was there. She was longer no longer frank with me, although I think her affection never wavered. At the time I laid the change to the fact that I had forbidden all communication with John Bailey, and had refused to acknowledge any engagement between the two. Gertrude spent much of her time wandering through the grounds, or taking long cross-country walks. Halsey played golf at the Country Club day after day, and after Louise left, as she did the following week, Mr, Jamieson and I were much together. He played a fair game of cribbage, bit he cheated at solitaire.</p>
-The night the detective arrived, Saturday, I had a talk with him. I told him of the experience Louise Armstrong had had the night before, on the circular staircase, and about the man who had so frightened Rosie on the drive. I saw that he thought the information was important, and to my suggestion that we put an additional lock on the east wing door he opposed a strong negative.</p>
+<p>The night the detective arrived, Saturday, I had a talk with him. I told him of the experience Louise Armstrong had had the night before, on the circular staircase, and about the man who had so frightened Rosie on the drive. I saw that he thought the information was important, and to my suggestion that we put an additional lock on the east wing door he opposed a strong negative.</p>
 <pb n="188     THE CIRCULAR STAIRCASE"/>
 <p>"I think it probable," he said, "that our visitor will be back again, and the thing to do is to leave things exactly as they are, to avoid rousing suspicion. Then I can watch for at least a part of each night and probably Mr. Innes will help us out. I would say as little to Thomas as possible. The old man knows more than he is willing to admit."</p>
 <p>I suggested that Alex, the gardener, would probably be willing to help, and Mr. Jamieson undertook to make the arrangement. For one night, however,Mr. Jamieson preferred to watch alone. Apparently nothing occurred. The detective sat in absolute darkness on the lower steps of the stairs, dozing, he said afterwards, now and then. Nothing could pass him in either direction, and the door in the morning remained as securely fastened as it had been the night before. And yet one of the most inexplicable occurrences of the whole affair took place that very night.</p>
 <p>Liddy came to my room on Sunday morning with a face as long as the moral law. She laid out my things as usual, but I missed her customary garrulousness. I was not regaled with the new cook's extravagance as to eggs, and she even forbore to mention
-<pb n="189     A HOLE IN THE WALL/>
+<pb n="189     A HOLE IN THE WALL"/>
 "that Jamieson," on whose arrival she had looked with silent disfavor.</p>
 <p>What's the matter, Liddy?" I asked at last. Didn't you sleep last night?"</p>
 <p>No, ma'm," she said stiffly.</p>
@@ -1421,7 +1550,7 @@ way: I have always believed that Thomas knew something, or suspected something, 
 <p>With the death of Thomas, I felt that a climax had come in affairs at Sunnyside. The night that followed was quiet enough. Halsey watched at the foot of the staircase, and a complicated system of bolts on the other doors seemed to be effectual.</p>
 <p>Once in the night I wakened and thought I heard the tapping again. But all was quiet, and I had reached the stage where I refused to be disturbed for minor occurrences.</p>
 <p>The Armstrongs were notified of Thomas' death, I had my first interview with Doctor Walker as
-<pb n="208     THE CIRCULAR STAIRCASE/>
+<pb n="208     THE CIRCULAR STAIRCASE"/>
 a result. He came up early the next morning, just as we finished breakfast, in a professional looking car with a black hood. I found him striding up and down the living-room, and, in spite of my preconceived dislike, I had to admit that the man was presentable. A big fellow he was, tall and dark, as Gertrude had said, smooth-shaven and erect, with prominent features and a square jaw. He was painfully spruce in his appearance, and his manner was almost obtrusively polite.</p>
 <p>"I must make a double excuse for this early visit, Miss Innes," he said as he sat down. The chair was lower than he expected, and his dignity required collecting before he went on. "My professional duties are urgent and long neglected, and"&#x2014;a fall to the every-day manner&#x2014;"something must be done about that body."</p>
 <p>"Yes," I said, sitting on the edge of my chair. "I merely wished the address of Thomas' people. You might have telephoned, if you were busy."</p>
@@ -1470,13 +1599,13 @@ from Sunnyside.</p>
 FOURTEEN ELM STREET</head> 
 <p>IT was Monday evening when we found the body of poor old Thomas. Monday night had been uneventful; things were quiet at the house and the peculiar circumstances of the old man's death had been carefully kept from the servants. Rosie took charge of the dining-room and pantry, in the absence of a butler. And, except for the warning of the Casa-nova doctors, everything breathed of peace.</p>
 <p>Affairs at the Traders' Bank were progressing slowly. The failure had hit small stock-holders very hard, the minister of the little Methodist chapel in Casanova among them. He had received as a legacy from an uncle a few shares of stock in the Traders' Bank, and now his joy was turned to bitterness: he had to sacrifice everything he had in the world, and his feeling against Paul Armstrong, dead, as he was, must have been bitter in the extreme. He was asked
-<pb n="214     THE CIRCULAR STAIRCASE/>
+<pb n="214     THE CIRCULAR STAIRCASE"/>
 to officiate at the simple services when the dead banker's body was interred in Casanova churchyard, but the good man providentially took cold, and a substitute was called in.</p>
 <p>A few days after the services he called to see me, a kind-faced little man, in a very bad frock-coat and laundered tie. I think he was uncertain as to my connection with the Armstrong family, and dubious whether I considered Mr. Armstrong's taking away a matter for condolence or congratulation. He was not long in doubt.</p>
 <p>I liked the little man. He had known Thomas well, and had promised to officiate at the services in the rickety African Zion Church. He told me more of himself than he knew, and before he left, I astonished him&#x2014;and myself, I admit&#x2014;by promising a new carpet for his church. He was much affected, and I gathered that he had yearned over his ragged chapel as a mother over a half-clothed child.</p> 
 <p>"You are laying up treasure, Miss Innes," he said brokenly, "where neither moth nor rust corrupt, nor thieves break through and steal."</p> 
 <p>"It is certainly a safer place than Sunnyside,"I admitted. And the thought of the carpet permitted
-pb n="215     FOURTEEN ELM STREET"/> 
+<pb n="215     FOURTEEN ELM STREET"/> 
 him to smile. He stood just inside the doorway, looking from the luxury of the house to the beauty of the view.</p> 
 <p>"The rich ought to be good," he said wistfully. "They have so much that is beautiful, and beauty is ennobling. And yet&#x2014;while I ought to say nothing but good of the dead&#x2014;Mr. Armstrong saw nothing of this fair prospect. To him these trees and lawns were not the work of God. They were property, at so much an acre. He loved money, Miss Innes. He offered up everything to his golden calf. Not power,not ambition, was his fetish: it was money." Then he dropped his pulpit manner, and, turning to me with his engaging smile: "In spite of all this luxury," he said, "the country people here have a saying that Mr. Paul Armstrong could sit on a dollar and see all around it. Unlike the summer people, he gave neither to the poor nor to the church. He loved money for its own sake."</p>
 <p>"And there are no pockets in shrouds!" I said cynically.</p>
@@ -1588,7 +1717,7 @@ And he pointed to me! I am going to stop wearing black: it doubles a woman's age
 <p>He was silent after that, but he went to the telephone as soon as we got home, and called up King and Company, in the city.</p>
 <p>After a time he got the general manager, and they talked for some time. When Mr. Jamieson hung up the receiver he turned to me.</p>
 <p>"The plot thickens," he said with his ready smile.<p>
-"There are four women named Wallace at King's, none of them married, and none over twenty. I think. 
+"There are four women named Wallace at King's, none of them married, and none over twenty. I think. </p>
 <pb n="227     FOURTEEN ELM STREET"/>
 I shall go up to the city to-night. I want to go to the Children's s Hospital. But before I go, Miss Innes, I wish you would be more frank with me than you have been yet. I want you to show me the revolver you picked up in the tulip bed."</p>
 <p>So he had known all along!</p>
@@ -1686,14 +1815,14 @@ in the bulb, and then even that died away and we were embarked on the darkness o
 <pb n="240     THE CIRCULAR STAIRCASE"/>
 population from every direction. Rumor had it that Sunnyside was burning, and it was amazing how many people threw something over their night-clothes and flew to the conflagration. I take it Casanova has few fires, and Sunnyside was furnishing the people, in one way and another, the greatest excitement they had had for years.</p>
 <p>The stable was off the west wing. I hardly know how I came to think of the circular staircase and the unguarded door at its foot. Liddy was putting my clothes into sheets, preparatory to tossing them out the window, when I found her, and I could hardly persuade her to stop.</p>
-"I want you to come with me, Liddy," I said. "Bring a candle and a couple of blankets."</p>
+<p>"I want you to come with me, Liddy," I said. "Bring a candle and a couple of blankets."</p>
 <p>She lagged behind considerably when she saw me making for the east wing, and at the top of the staircase she balked.</p>
 <p>"I am not going down there," she said firmly.</p>
 <p>"There is no one guarding the door down there," I explained. "Who knows?&#x2014;this may be a scheme to draw everybody away from this end of the house, and let some one in here."</p>
 <p>The instant I had said it I was convinced I had hit
 <pb n="241     WHILE THE STABLES BURNED"/>
 on the explanation, and that perhaps it was already too late. It seemed to me as I listened that I heard stealthy footsteps on the east porch, but there was so much shouting outside that it was impossible to tell. Liddy was on the point of retreat.</p>
-"Very well," I said, "then I shall go down alone. Run back to Mr. Halsey's room and get his revolver. Don't shoot down the stairs if you hear a noise: remember&#x2014;I shall be down there. And hurry."</p>
+<p>"Very well," I said, "then I shall go down alone. Run back to Mr. Halsey's room and get his revolver. Don't shoot down the stairs if you hear a noise: remember&#x2014;I shall be down there. And hurry."</p>
 <p>I put the candle on the floor at the top of the staircase and took off my bedroom slippers. Then I crept down the stairs, going very slowly, and listening with all my ears. I was keyed to such a pitch that I felt no fear: like the condemned who sleep and eat the night before execution, I was no longer able to suffer apprehension. I was past that. Just at the foot of the stairs I stubbed my toe against Halsey's big chair, and had to stand on one foot in a soundless agony until the pain subsided to a dull ache. And then&#x2014;I knew I was right. Some one had put a key into the lock, and was turning it. For some reason it refused to work, and the key was withdrawn. There was a muttering of voices outside: I had only a second. Another trial, and the door would open. The candle
 <pb n="242 THE CIRCULAR STAIRCASE"/>
 above made a faint gleam down the well-like staircase, and at that moment, with a second, no more, to spare, I thought of a plan.</p> 
@@ -1866,7 +1995,7 @@ said accusingly. "I believe you know this whole horrible thing, this mystery tha
 <p>"He is as dear to me as he is to you," she said sadly. "I tried to warn him."</p>
 <p>"Nonsense!" I said, as briskly as I could "We are making a lot of trouble out of something perhaps very small. Halsey was probably late&#x2014;he is always late. Any moment we may hear the car coming up the road."</p>
 <p>But it did not come. After a half-hour of supspence, Louise went out quietly, and did not come back. I hardly knew she was gone until I heard the statation hack moving off. At eleven o'clock the telephone rang. It was Mr. Jamieson.</p>
-"I have found the Dragon Fly, Miss Innes," he said. "It has collided with a freight car on the siding above the station. No, Mr. Innes was not there, but we shall probably find him. Send Warner for the car."</p>
+<p>"I have found the Dragon Fly, Miss Innes," he said. "It has collided with a freight car on the siding above the station. No, Mr. Innes was not there, but we shall probably find him. Send Warner for the car."</p>
 <p>But they did not find him. At four o'clock the next
 <pb n="267     A VISIT FROM LOUISE"/>
 morning we were still waiting for news, while Alex watched the house
@@ -1965,7 +2094,7 @@ said, had arranged for more to assist in the search for the missing man, and at 
 WHO IS NINA CARRINGTON?</head> 
 <p>THE four days, from Saturday to the following Tuesday, we lived, or existed, in a state of the most dreadful suspense. We ate only when Liddy brought in a tray, and then very little. The papers, of course, had got hold of the story, and we were besieged by newspaper men. From all over the country false clues came pouring in and raised hopes that crumbled again to nothing. Every morgue within hundred miles, every hospital, had been visited without result.</p>
 <p>Mr. Jamieson, personally, took charge of the organized search, and every evening, no matter where he happened to be, he called us by long distance telephone. It was the same formula. "Nothing to-day. A clue to work on. Better luck to-morrow." And heartsick we would put up the receiver and sit down again to our vigil.</p>
-<pb n="282"/>     THE CIRCULAR STAIRCASE"/>
+<pb n="282     THE CIRCULAR STAIRCASE"/>
 <p>The inaction was deadly. Liddy cried all day,and, because she knew I objected to tears, sniffled audibly around the corner.</p>
 <p>"For Heaven's sake, smile!" I snapped at her. And her ghastly attempt at a grin, with her swollen nose and red eyes, made me hysterical. I laughed and cried together, and pretty soon, like the two old fools we were, we were sitting together weeping into the same handkerchief.</p>
 <p>Things were happening, of course, all the time, but they made little or no impression. The Charity Hospital called up Doctor Stewart and reported that  Mrs. Watson was in a critical condition. I understood also that legal steps were being taken to terminate my lease at Sunnyside. Louise was out of danger, but very ill, and a trained nurse guarded her like a gorgon. There was a rumor in the village, brought up by Liddy from the butcher's, that a wedding had already taken place between Louise and Doctor Walker, and this roused me for the first time to action.</p>
@@ -1982,7 +2111,7 @@ tective was watching him, sitting on the carriage block. When he saw me, he got 
 <p>"That's very strange," I said, thinking hard. "Why, he came to me from the Brays, who are in Europe."</p>
 <p>"Exactly." The detective smiled. "Every man who cuts grass isn't a gardener, Miss Innes, and just now it is our policy to believe every person around here a rasca1 until he proves to be the other thing."</p>
 <p>Warner came up with the car then, and the con-
-pb n="284     THE CIRCULAR STAIRCASE"/>
+<pb n="284     THE CIRCULAR STAIRCASE"/>
 versation stopped. As he helped me in, however, the detective said something further.</p>
 <p>"Not a word or sign to Alex, if he comes back," he said cautiously.</p>
 <p>I went first to Doctor Walker's. I was tired of beating about the bush, and I felt that the key to Halsey's disappearance was here at Casanova, in spite of Mr. Jamieson's theories.</p>
@@ -1998,7 +2127,7 @@ versation stopped. As he helped me in, however, the detective said something fur
 <p>"Certainly. He said his nerves were bad, and I gave him a prescription for them. I am violating professional ethics when I tell you even as much as that."</p>
 <p>I could not tell him he lied. I think I looked it. But I hazarded a random shot.</p>
 <p>"I thought perhaps," I said, watching him narrowly, "that it might be about&#x2014;Nina Carrington."</p>
-For a moment I thought he was going to strike me. He grew livid, and a small crooked blood-vessel in his temple swelled and throbbed curiously. Then he forced a short laugh.</p>
+<p>For a moment I thought he was going to strike me. He grew livid, and a small crooked blood-vessel in his temple swelled and throbbed curiously. Then he forced a short laugh.</p>
 <p>"Who is Nina Carrington?" he asked.</p>
 <p>"I am about to discover that," I replied, and he was quiet at once. It was not difficult to divine that he feared Nina Carrington a good deal more than he did the devil. Our leave-taking was brief; in fact, we merely stared at each other over the waiting-room
 <pb n="286     THE CIRCULAR STAIRCASE"/>
@@ -2007,7 +2136,7 @@ table, with its litter of year-old magazines.Then I turned and went out.</p>
 <p>"Nina Carrington, Nina Carrington," the roar and rush of the wheels seemed to sing the words. " Nina Carrington, N. C." And I then knew, knew as surely as if I had seen the whole thing. There had been an N. C. on the suit-case belonging to the woman with the pitted face. How simple it all seemed.  Matie Bliss had been Nina Carrington. It was she Warner had heard in the library. It was something she had told Halsey that had taken him frantically to Doctor Walker's office, and from there perhaps to his death. If we could find the woman, we might find what had become of Halsey.</p>
 <p>We were almost at Richfield now, so I kept on.  My mind was not on my errand there now. It was back with Halsey on that memorable night. What was it he had said to Louise, that had sent her up to Sunnyside, half wild with fear for him? I made up my mind,as the car drew up before the Tate cottage, that I would see Louise if I had to break into the house at night.</p>
 <p>Almost exactly the same scene as before greeted my 
-<pb n="287     WHO IS NINA CARRINGTON?/>
+<pb n="287     WHO IS NINA CARRINGTON?"/>
 eyes at the cottage. Mrs. Tate, the baby-carriage in the path, the children at the swing&#x2014;all were the same.</p>
 <p>She came forward to meet me, and I noticed that some of the anxious lines had gone out of her face. She looked young, almost pretty.</p>
 <p>"I am glad you have come back," she said. "I think I will have to be honest and give you back your money."</p>
@@ -2023,7 +2152,7 @@ eyes at the cottage. Mrs. Tate, the baby-carriage in the path, the children at t
 <p>"No," I said with truth enough, "she is not a friend of mine."  F. B. A. was Fanny Armstrong, without a chance of doubt!</p>
 <p>With another warning to Mrs. Tate as to silence, we started back to Sunnyside. So Fanny Armstrong knew of Lucien Wallace, and was sufficiently interested to visit him and pay for his support. Who was the child's mother and where was she? Who was Nina Carrington? Did either of them know where Halsey was, or what had happened to him?</p>
 <p>On the way home we passed the little cemetery where Thomas had been
-laid to rest. I wondered if Thomas could ha</p>ve helped us to find
+laid to rest. I wondered if Thomas could have helped us to find
 Halsey, had he lived. Farther along was the more imposing burial
 ground, where Arnold Armstrong and his father lay in the shadow of a
 tall granite shaft. Of the three, I think Thomas was the only one
@@ -2108,7 +2237,7 @@ sick. Find out what he wants, and from this time on, instruct the servants that 
 <p>"He came to ask us to get out," she said, picking up her book with a jerk. "He says Louise Armstrong wants to come here, now that she is recovering."</p>
 <p>"And what did you say?"</p>
 <p>"I said we were very sorry we could not leave, but we would be delighted to have Louise come up here with us. He looked daggers at me. And he wanted to know if we would recommend Eliza as a cook. He has brought a patient, a man, out from town, and is increasing his establishment&#x2014;that's the way he put it."</p>
-<p>"I wish him joy of Eliza," I said tartly. " Did he ask for Halsey?"
+<p>"I wish him joy of Eliza," I said tartly. " Did he ask for Halsey?"</p>
 <p>"Yes. I told him that we were on the track last night, and that it was only a question of time. He said he was glad, although he didn't appear to be, but he said not to be too sanguine."</p>
 <p>"Do you know what I believe?" I asked. "I believe , as firmly as I believe anything, that Doctor
 <pb n="303     A SCRAP OF PAPER"/>
@@ -2148,18 +2277,18 @@ he replied. And then Gertrude came in, announcing a man below to see Mr. Jamieso
 <p>"Now, Riggs," began Mr. Jamieson kindly. "You are to say what you have to say before this lady."</p>
 <p>"You promised you'd keep it quiet, Mr. Jamieson." Riggs plainly did not trust me. There was nothing friendly in the glance he turned on me.</p>
 <p>"Yes, yes. You will be protected. But, first of all, did you bring what you promised?"</p>
-<p>Riggs produced a roll of papers from under his coat, and handed them over. Mr. Jamieson examined them with lively satisfaction, and passed them to me. "The blue-prints of Sunnyside," he said. "What did I tell you? Now, Riggs, we are ready."</p> 
+<p>Riggs produced a roll of papers from under his coat, and handed them over. Mr. Jamieson examined them with lively satisfaction, and passed them to me. "The blue-prints of Sunnyside," he said. "What did I tell you? Now, Riggs, we are ready."</p>
 <p>"I'd never have come to you, Mr. Jamieson," he began, "if it hadn't been for Miss Armstrong.  When Mr. Innes was spirited away, like, and Miss Louise got
 <pb n="307     A SCRAP OF PAPER"/>
-sick beacuse of it, I thought things had gone far enough. I'd done some things for the doctor before that wouldn't just bear looking into, but I turned a bit squeamish."
+sick beacuse of it, I thought things had gone far enough. I'd done some things for the doctor before that wouldn't just bear looking into, but I turned a bit squeamish."</p>
 <p>"Did you help with that?" I asked, leaning forward.</p>
 <p>No, ma'm. I didn't even know of it until the next day, when it came out in the Casanova <hi rend="italic">Weekly Ledger</hi>. But I know who did it, all right. I'd better start at the beginning.</p>
 <p>"When Doctor Walker went away to California with the Armstrong family, there was talk in the town that when he came back he would be married to Miss Armstrong, and we all expected it. First thing I knew I got a letter from him, in the west. He seemed to be excited, and he said Miss Armstrong had taken a sudden notion to go home and he sent me some money. I was to watch for her, to see if she went to Sunnyside, and wherever she was, not to lose sight of her until he got home. I traced her to the lodge, and I scared you on the drive one night, Miss Innes."</p>
 <p>"And Rosie!" I ejaculated.</p>
 <p>Riggs grinned sheepishly.</p>
-<p>I only wanted to make sure Miss Louise was there.
+<p>I only wanted to make sure Miss Louise was there.</p>
 <pb n="308     THE CIRCULAR STAIRCASE"/>
-Rosie started to run, and I tried to stop her and tell her some sort of a story to account for my being there. But she wouldn't wait."</p>
+<p>Rosie started to run, and I tried to stop her and tell her some sort of a story to account for my being there. But she wouldn't wait."</p>
 <p>"And the broken china&#x2014;in the basket?"</p>
 <p>"Well, broken china's death to rubber tires," he said. "I hadn't any complaint against you people here, and the Dragon Fly was a good car."</p>
 <p>So Rosie's highwayman was explained.</p>
@@ -2171,10 +2300,10 @@ Rosie started to run, and I tried to stop her and tell her some sort of a story 
 She came to the office late, and the doctor was out. She waited around, walking the floor and working herself into a passion. When the doctor didn't come back, she was in an awful way. She wanted me to hunt him, and when he didn't appear, she called him names; said he couldn't fool her. There was murder being done, and she would see him swing for it.</p>
 <p>She struck me as being an ugly customer, and when she left, about eleven o'clock, and went across to the armstrong place, I was not far behind her. She walked all around the house first, looking up at the windows. Then she rang the bell, and the minute the door opened she was through it, and into the hall."</p>
 <p>" How long did she stay?"</p>
-"That's the queer part of it," Riggs said eagerly." She didn't come out that night at all. I went to bed at daylight, and that was the last I heard of her until the next day, when I saw her on a truck at the station, covered with a sheet. She'd been struck by the express and you would hardly have known her&#x2014;dead, of course. I think she stayed all night in the Armstrong house, and the agent said she was crossing the track to take the up-train to town when the express struck her."</p>
+<p>"That's the queer part of it," Riggs said eagerly." She didn't come out that night at all. I went to bed at daylight, and that was the last I heard of her until the next day, when I saw her on a truck at the station, covered with a sheet. She'd been struck by the express and you would hardly have known her&#x2014;dead, of course. I think she stayed all night in the Armstrong house, and the agent said she was crossing the track to take the up-train to town when the express struck her."</p>
 <pb n="310     THE CIRCULAR STAIRCASE"/>
 <p>"Another circle!" I exclaimed. "Then we are just where we started."</p>
-<p>"Not so bad as that, Miss Innes," Riggs said eagerly. "Nina Carrington came from the  the town in California where Mr. Armstrong died. Why was the doctor so afraid of her? The Carrington woman knew something. I lived with Doctor Walker seven years, and I know him well. There are few things he is afraid of. I think he killed Mr. Armstrong out in the west somewhere, that's what I think. What else he did I don't know&#x2014;but he dismissed me and pretty nearly throttled me&#x2014;for telling Mr. Jamieson here about Mr. Innes' having been at his office the night he disppeared, and about my hearing them quarrelling."/>
+<p>"Not so bad as that, Miss Innes," Riggs said eagerly. "Nina Carrington came from the  the town in California where Mr. Armstrong died. Why was the doctor so afraid of her? The Carrington woman knew something. I lived with Doctor Walker seven years, and I know him well. There are few things he is afraid of. I think he killed Mr. Armstrong out in the west somewhere, that's what I think. What else he did I don't know&#x2014;but he dismissed me and pretty nearly throttled me&#x2014;for telling Mr. Jamieson here about Mr. Innes' having been at his office the night he disppeared, and about my hearing them quarrelling."</p>
 <p>"What was it Warner overheard the woman say to Mr. Innes, in the library?" the detective asked me.</p>
 <p>"She said 'I knew there was something wrong from the start. A man isn't well one day and dead the next without some reason.'"</p>
 <p>How perfectly it all seemed to fit!</p>
@@ -2241,8 +2370,8 @@ BETWEEN TWO FIREPLACES</head>
 <pb n="321     BETWEEN TWO FIREPLACES"/>
 ally. Accompanied perhaps by Riggs, who had shown himself not overscrupulous until he quarreled with his employer, he had gone across to the railroad embankment,and, by jumping in front of the car, had caused Halsey to swerve. The rest of the story we knew.</p>
 <p>That was my reconstructed theory of that afternoon and evening: it was almost correct&#x2014;not quite.</p>
-<p>There was a telegram that morning from Gertrude. Halsey conscious and improving. Probably home in day
-GERTRUDE."
+<p>There was a telegram that morning from Gertrude. "Halsey conscious and improving. Probably home in day
+GERTRUDE."</p>
 <p>With Halsey found and improving in health, and with at last something to work on, I began that day, Thursday, with fresh courage. As Mr. Jamieson had said, the lines were closing up. That I was to be caught and almost finished in the closing was happily unknown to us all.</p>
 <p>It was late when I got up. I lay in my bed, looking around the four walls of the room, and trying to imagine behind what one of them a secret chamber might lie. Certainly, in daylight, Sunnyside deserved its its name: never was a house more cheery and open, less sinister in general appearance. There was not a corner apparently that was not open and above-board,
 <pb n="322 THE CIRCULAR STAIRCASE"/> 
@@ -2280,7 +2409,7 @@ ANNE WATSON'S STORY</head>
 <p>Mr. Jamieson almost choked to death. "I wouldn't
 <pb n="327     ANNE WATSON'S STORY"/>
 be at all surprised if they were doing that very thing, Liddy," he said, when he got his breath. "They certainly look like it."</p>
-I think the detective had a plan, on which he was working, and which was meant to be a <hi rend="italic">coup</hi>. But things went so fast there was no time to carry it into effect. The first thing that occurred was a message from the Charity Hospital that Mrs. Watson was dying, and had asked for me. I did not care much about going. There is a sort of melancholy pleasure to be had out of a funeral, with its pomp and ceremony, but  I shrank from a death-bed. However, Liddy got out the black things and the crape veil I keep for such occasions, and I went. I left Mr. Jamieson and the day detective going over every inch of the circular staircase, pounding, probing and measuring. I was inwardly elated to think of the surprise I was going to give them that night; as it turned out, I <hi rend="italic">did</hi> surprise them&#x2014;almost into spasms.</p>
+<p>I think the detective had a plan, on which he was working, and which was meant to be a <hi rend="italic">coup</hi>. But things went so fast there was no time to carry it into effect. The first thing that occurred was a message from the Charity Hospital that Mrs. Watson was dying, and had asked for me. I did not care much about going. There is a sort of melancholy pleasure to be had out of a funeral, with its pomp and ceremony, but  I shrank from a death-bed. However, Liddy got out the black things and the crape veil I keep for such occasions, and I went. I left Mr. Jamieson and the day detective going over every inch of the circular staircase, pounding, probing and measuring. I was inwardly elated to think of the surprise I was going to give them that night; as it turned out, I <hi rend="italic">did</hi> surprise them&#x2014;almost into spasms.</p>
 <p>I drove from the train to the Charity Hospital, and was at once taken to a ward. There, in a gray-walled room in a high iron bed, lay Mrs. Watson. She was very weak, and she only opened her eyes and looked at me when I sat down beside her. I was con-
 <pb n="328    THE CIRCULAR STAIRCASE"/>
 science-stricken. We had been so engrossed that I had left this poor creature to die without  even a word of sympathy.</p>
@@ -2293,7 +2422,7 @@ of this, and the young man's ardor rather carried them away. In a word, seven ye
 <p>Anne had had no children of her own, and on Lucien she had lavished all her aborted maternal instinct. On one thing she was determined, however: that was that Aubrey Wallace should educate his boy. It was a part of her devotion to the child that she should be ambitious for him: he must have every opportunity. And so she came east. She drifted around, doing plain sewing and keeping a home somewhere always for the boy. Finally, however, she realized
 <pb n="330     THE CIRCULAR STAIRCASE"/>
 that her only training had been domestic, and she put the boy in an Episcopalian home, and secured the position of housekeeper to the Armstrongs. There she found Lucien's father, this time under his own name. It was Arnold Armstrong.</p>
-<p>I gathered that there was no particular enmity at that time in Anne's mind. She told him of the boy, and threatened exposure if he did not provide for him. Indeed, for a time, he did so. Then he realized that Lucien was the ruling passion in this lonely woman's life. He found out where the child was hidden, and threatened to take him away. Anne was frantic. The positions became reversed. Where Arnold had given money for Lucien's support, as the years went on he forced money from Anne Watson instead until she was always penniless. The lower Arnold sank in the scale, the heavier his demands became. With the rupture between him and his family, things were worse. Anne took the child from the home and hid him in a farm-house near Casanova, on the Claysburg road. There she went sometimes to see the boy, and there he had taken fever. The people were Germans, and he called the farmer's wife <hi rend="italic">Grossmutter</hi>. He had grown into a beautiful boy, and he was all Anne had to live for.
+<p>I gathered that there was no particular enmity at that time in Anne's mind. She told him of the boy, and threatened exposure if he did not provide for him. Indeed, for a time, he did so. Then he realized that Lucien was the ruling passion in this lonely woman's life. He found out where the child was hidden, and threatened to take him away. Anne was frantic. The positions became reversed. Where Arnold had given money for Lucien's support, as the years went on he forced money from Anne Watson instead until she was always penniless. The lower Arnold sank in the scale, the heavier his demands became. With the rupture between him and his family, things were worse. Anne took the child from the home and hid him in a farm-house near Casanova, on the Claysburg road. There she went sometimes to see the boy, and there he had taken fever. The people were Germans, and he called the farmer's wife <hi rend="italic">Grossmutter</hi>. He had grown into a beautiful boy, and he was all Anne had to live for.</p>
 <pb n="331     ANNE WATSON'S STORY"/>
 <p>The Armstrongs left for California, and Arnold's persecutions began anew. He was furious over the child's disappearance and she was afraid he would do her some hurt. She left the big house and went down to the lodge. When I had rented Sunnyside, however, she had thought the persecutions would stop. She had appplied for the position of housekeeper, and secured it.</p>
 <p>That had been on Saturday. That night Louise arrived unexpectedly. Thomas sent for Mrs. Watson and then went for Arnold Armstrong at the Greenwood Club. Anne had been fond of Louise&#x2014;she reminded her of Lucy. She did not know what the trouble was, but Louise had been in a state of terrible excitement. Mrs. Watson tried to hide from Arnold, but he was ugly. He left the lodge and went up to the house about two-thirty, was admitted at the east entrance and came out again very soon. Something had occurred, she didn't know what; but very soon Mr.Innes and another gentleman left, using the car.</p>
@@ -2390,7 +2519,7 @@ Innes," he said, "and I shall send one of the detectives to guard it."</p>
 body with impenetrable eyes. In his hand he held a shaggy wig, and before me on the floor lay the man whose headstone stood in Casanova churchyard&#x2014;Paul Armstrong.</p>
 <p>Winters told the story in a dozen words. In his headlong flight down the circular staircase, with Winters just behind, Paul Armstrong had pitched forward violently, struck his head against the door to the east veranda, and probably broken his neck. He had died as Winters reached him.</p>
 <p>As the detective finished, I saw Hasley, pale and shaken, in the card-room doorway, and for the first time that night I lost my self control. I put my arms around my boy, and for a moment he had to support me. A second later, over Halsey's shoulder, I saw something that turned my emotion into other channels, for, behind him, in the shadowy card-room, were Gertrude and Alex, the gardener, and&#x2014;there is no use mincing matters&#x2014;he was kissing her!</p>
-I was unable to speak. Twice I opened my mouth: then I turned Halsey
+<p>I was unable to speak. Twice I opened my mouth: then I turned Halsey
 around and pointed. They were quite unconscious of us; her head was on
 his shoulder, his face aginst her hair. As it happened, it was
 Mr. Jamieson who broke up the tableau.</p>
@@ -2441,7 +2570,7 @@ idea that John Bailey come to the house as a gardener, and pursue his investigat
 <pb n="360     THE CIRCULAR STAIRCASE"/>
 sounding the walls. He ran against the hamper at the head of the stairs, caught his cuff-link in it, and dropped the golf-stick with a crash. He was glad enough to get away without an alarm being raised, and he took the "owl" train to town.</p>
 <p>The oddest thing to me was that Mr. Jamieson had known for some time that Alex was Jack Bailey. But the face of the pseudo-gardener was very queer indeed, when that night, in the card-room, the detective turned to him and said:</p>
-<p>"How long are you and I going to play our little comedy, <hi rend="italic">Mr. Bailey?"</hi>
+<p>"How long are you and I going to play our little comedy, <hi rend="italic">Mr. Bailey?"</hi></p>
 <p>Well, it is all over now. Paul Armstrong rests in Casanova churchyard, and this time there is no mistake. I went to the funeral, because I wanted to be sure he was really buried, and I looked at the step of the shaft where I had sat that night, and wondered if it was all real. Sunnyside is for sale&#x2014;no, I shall not buy it. Little Lucien Armstrong is living with his step-grandmother, and she is recovering gradually from troubles that had extended over the entire period of her second marriage. Anne Watson lies not far from the man she killed, and who as surely caused her death. Thomas, the fourth victim of the conspiracy,
 <pb n="361     THE ODDS AND ENDS"/>
 is buried on the hill. With Nina Carrington, five lives were sacrificed in the course of this grim conspiracy.</p>
@@ -2451,4 +2580,4 @@ is buried on the hill. With Nina Carrington, five lives were sacrificed in the c
 filled. Liddy or no Liddy, I shall advertise to-morrow for a house in
 the country, and I don't care if it has a Circular Staircase.</p>
 </div>
-<trailer>THE END</trailer></body></text><back></back>
+<trailer>THE END</trailer></body></text></TEI.2>
