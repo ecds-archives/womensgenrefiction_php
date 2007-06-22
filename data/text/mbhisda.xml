@@ -1,39 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
-<TEI.2>
-<teiHeader>
+<TEI.2 id="mbhisda1201">
+<teiHeader id="mbhisda1202">
 <fileDesc>
 <titleStmt>
-<title/>
-<author/>
+<title>His Darling Sin, an electronic edition</title>
+<author><name type="person" reg="Braddon, M.E. (Mary Elizabeth),
+1837-1915">M.E. Braddon</name></author>
 </titleStmt>
+<extent>325kb</extent>
 <publicationStmt>
-<pubPlace/>
-<publisher/>
-<publisher/>
-<date/>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<date>2005</date>
+<availability>
+<p>&#x00A9; 2007, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+</availability>
 </publicationStmt>
+<seriesStmt>
+<title>Women's Genre Fiction, 1860-1920</title>
+<respStmt>
+<name>Sheila T. Cavanagh</name>
+<name>Charles D. Spornick</name>
+<resp>Principal Investigators</resp>
+</respStmt>
+</seriesStmt>
 <sourceDesc>
-<p/>
+<bibl><author>Braddon, M.E</author>. <title>His Darling
+Sin</title>. <pubPlace>London</pubPlace>: <publisher>Simpkin,
+Marshall, Hamilton, Kent, &#x0026; Co.</publisher>, <date>1899</date>.</bibl>
 </sourceDesc>
 </fileDesc>
-<profileDesc/>
+<encodingDesc>
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the
+Women's Genre Fiction Project.  Project participants intend for this
+encoded text, as well as all texts produced by this project, to be
+made available on the web for educational, scholarly and pedagogical
+purposes. This project is funded by a grant from the National
+Endowment for the Humanities.</p>
+</projectDesc>
+<samplingDecl>
+<p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded. Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p>
+</samplingDecl>
+<editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera. Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi. These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software. The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel. This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines. For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em
+dashes with two dashes.  Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p>
+</editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="collection">Genre Fiction</rs>
+<rs type="language">English</rs>
+<rs type="ethnicity">Caucasian</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
+<rs type="geography">Great Britain</rs>
+<date>1800-1899</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>British literature--19th Century--Fiction.</item>
+<item>Women authors, British--19th Century.</item>
+<item>Sensation fiction.</item>
+<item>Detective fiction.</item>
+<item>Murder.</item>
+<item>Romance.</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2007-June-22</date>
+<respStmt>
+<name>Alice Hickcox, </name>
+<resp>Electronic Text Specialist.</resp>
+</respStmt>
+<item>XML tags inserted in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
 </teiHeader>
-<text>
-<front>
-<titlePage>
+<text id="mbhisda1203">
+<front id="mbhisda1204">
+<pb/>
+<titlePage type="half">
 <docTitle>
-<titlePart/>
+<titlePart>HIS DARLING SIN</titlePart> 
 </docTitle>
-<byline/>
-<byline/>
+</titlePage>
+<pb/>
+<div id="mbhisdafm001" type="advert">
+<figure entity="mbhisdafm1" rend="inline">
+<figDesc>Advertisement page in the front of M. E. Braddon's <hi
+rend="italic">His Darling Sin</hi>.</figDesc>
+</figure>
+</div>
+<pb entity="mbhisdatp**" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">HIS DARLING SIN</titlePart>
+</docTitle>
+<byline>By<lb/>M. E. BRADDON<lb/>Author of "LADY AUDLEY'S SECRET," Etc.</byline>
+<imprimatur>ALL RIGHTS RESERVED<lb/>
+Copyright in the United States<lb/>of America, 1899</imprimatur>
 <docImprint>
-<name/>
-<name/>
-<name/>
-<date/>
+<pubPlace>LONDON</pubPlace>
+<publisher>SIMPKIN, MARSHALL, HAMILTON,<lb/>KENT &#x0026;
+CO. Ltd.<lb/>
+Stationer's Hall Court</publisher>
 </docImprint>
 </titlePage>
+<pb entity="mbhisdatpv" pages="colophon"/>
+<div id="mbhisdafm002" type="colophon">
+<p>Printed for the Author by<lb/>
+Wm. Clowes &#x0026; Sons, Ltd.<lb/>
+London and Beccles.</p>
+</div>
 </front>
 <body>
 <pb n="1"/>
@@ -458,7 +565,6 @@ to awaken her interest in him. It is only at my age that one comes to understand
 <p>He was a prodigious reader, but a reader who dwelt in the past, and who read the books he loved again and again, till all that was finest in the master-minds of old was woven into the fabric of his brain. He seldom looked at a new book, except when he was asked to review one for a certain Quarterly to which he had contributed since the beginning of his career. He was the most conscientious of reviewers; if he loved the book, the most sympathetic; if he hated it, the most unmerciful.</p>
 <p>One only work of fiction, published before he
 <pb n="90"/>
-<!--90 page missing-->
 was thirty, had marked him as a writer of original power. It was a
 love story, supposed to be told by the man who had lived it, the story
 of a man who had found a creature of perfect loveliness and absolute
@@ -564,9 +670,26 @@ trade."</p>
 <p>"What&#x2014;what action that I could bring? I should like to go to law with every friend I ever had. I think I shall spend the rest of my days in the law courts, pleading my own cause, like that pretty lady whose name I forget."</p>
 <p>"You might bring an action for libel, if you had a case."</p>
 <pb n="108"/>
-<!--108 Page Missing-->
+<p>"But I have not been libelled&#x2014;a libel must be written and
+published, must it not?"</p>
+<p>"That is the meaning of the word, madam,&#x2014;'a little
+book.'"</p>
+<p>Oh tha tmy enemy would wirte a book about me!"</p>
+<p>"Are you sure there has been no offensive allusion to this rumour
+in any of the newspapers?"</p>
+<p>"How can I tell? I have not been watching the papers."</p>
+<p>"I should advise you to send a guinea to Messrs. Rosset and Son,
+the Press agents, who will search the papers for your name, and save
+you the trouble.</p>
+<p>Lady Perivale made a hurried note of Messrs. Rosset's address.</p>
+<p>"An action for lebel, if any one libelled me&#x2014;what would that
+mean?"</p>
+<p>"It wuld mean a thorough sifting of your case before a jury, by two
+of the cleverest counsel we could get. It would mean bringing your
+double into the witness-box, if possible, and making her declare
+herself Colonel Rannock's companion in
 <pb n="109"/>
-<p>those places where you are said to have been seen with him."</p>
+those places where you are said to have been seen with him."</p>
 <p>"Yes, yes; that would be conclusive. And all those cold-hearted creatures, whom I once called friends, would be sorry&#x2014;sorry and ashamed of themselves. But if there is no libel&#x2014;if people go on talking and talking, and nobody ever publishes the slander&#x2014;&#x2014;"</p>
 <p>"Make your mind easy, Lady Perivale. When we are ready for it <hi rend="italic">there will be a libel</hi>."</p>
 <p>"I don't understand."</p>
@@ -577,7 +700,7 @@ trade."</p>
 <p>"That is as you please, madam. You may leave my account to be settled by Mr. Harding, if you like."</p>
 <pb n="110"/>
 <!--110 page missing-->
-<p>"No, no," she said, giing to her davenport. "In spine of what you
+<p>"No, no," she said, giing to her davenport. "In spite of what you
 say about money, I want you to have plenty of cash in hand, to feel
 that you have no occasion to stint outlay."</p>
 <p>"That is what I never do, when character is at stake."</p>
@@ -1015,7 +1138,6 @@ doubt the criminal investigator's professional skill, in spite of his tin boxes 
 <p>He had to find out who the women was, and her present whereabouts. He thought it highly the burlesque stage at some period of her career, as actress or chorus-girl. The theatre is the only arena where low-born beauty can win the recognition which every handsome girl believes her due; and the desire to tread the stage is almost <pb n="193"/>an instinct in the town-bred girl's mind. She has heard of actresses and their triumphs ever since she can remember. She looks in her glass and sees that she is pretty. She picks up the music-hall tunes, and shrills them as she goes about the house-work, and is sure that she can sing. She skips and prances to the organ in the court, and thinks that she can dance. She discovers some acquaintance of her father's whose second cousin knows the stage-manager at the Thalia Theatre; and, armed with this introduction, her pretty face forces its way to the front row of the ballet, and her shrill voice pipes in unison with her sister cockneys in the chorus.</p>
 <p>Such an apprenticeship to the Drama Faunce thought probable in the case of the lady known as Mrs. Randall; so he called upon two of the dramatic agents, most of whom had become known to him in his efforts to disentangle patrician youth from the snares of the theatrical syrens.</p>
 <p>He went first to the agent of highest standing in his profession; but this gentleman was either too much a gentleman or too busy to help him.
-<!--194 page missing-->
 He glanced at Lady Perivale's photograph with a careless eye. Yes, a
 remarkably handsome woman! But he did not remember anybody in the
 theatrical world who resembled her. He remembered Sir Hubert
@@ -1801,9 +1923,24 @@ Rannock was murdered, if Bolisco had never been brought to book&#x2014;&#x2014;â
 <p>"Why not?" asked Faunce, startled.</p>
 <p>"Because he's my husband; and a wife can't give away her husband. That's law, ain't it, Faunce?"</p>
 <p>"Your husband? Is that true?"</p>
-<p>"Gospel truth. We were married at Battersea Church when I was just turned seventeen. I didn't care for him, and he's been a log round my neck ever since. But he was in luck just then, and he used to give me presents&#x2014;bits of jewellery, and smart hats, and such-like&#x2014;and <pb n="331"/>he was the first as ever took notice of me and told me I was handsome. And he said he should take a cottage at Wandsworth, with a bit of garden, and I was to be missus, and have a girl to wait upon me. But his luck turned soon after our wedding&#x2014;which was on the strict q.t.&#x2014;and he never took that cottage, and we never told father or anybody else. Jim said our marriage was just a bit of a lark, and we'd best forget it; but when I had a fine house and was flush of money, and might have been Lady Withernsea for good and all, but for him, he didn't forget it. I know what blackmail means, Mr. Faunce. I have been paying it ever since I was eighteen. I had to find money for Bolisco when he wanted it, for he swore he'd claim me as his wife if I didn't. I've had what's-his-name's sword hanging over my head all these years, and I got to hate the man worse every year; and now I hate him&#x2014;I hate him,&#x2014;I hate him with every drop of blood in my veins! I turn cold when I hear his step on the stair. I never look at him without remembering that</p>
+<p>"Gospel truth. We were married at Battersea Church when I was just turned seventeen. I didn't care for him, and he's been a log round my neck ever since. But he was in luck just then, and he used to give me presents&#x2014;bits of jewellery, and smart hats, and such-like&#x2014;and <pb n="331"/>he was the first as ever took notice of me and told me I was handsome. And he said he should take a cottage at Wandsworth, with a bit of garden, and I was to be missus, and have a girl to wait upon me. But his luck turned soon after our wedding&#x2014;which was on the strict q.t.&#x2014;and he never took that cottage, and we never told father or anybody else. Jim said our marriage was just a bit of a lark, and we'd best forget it; but when I had a fine house and was flush of money, and might have been Lady Withernsea for good and all, but for him, he didn't forget it. I know what blackmail means, Mr. Faunce. I have been paying it ever since I was eighteen. I had to find money for Bolisco when he wanted it, for he swore he'd claim me as his wife if I didn't. I've had what's-his-name's sword hanging over my head all these years, and I got to hate the man worse every year; and now I hate him&#x2014;I hate him,&#x2014;I hate him with every drop of blood in my veins! I turn cold when I hear his step on the stair. I never look at him without remembering that
 <pb n="332"/>
-<!--332 page missing-->
+night, and my poor Dick lying on the ground, and Bolisco's wicked
+hands tearing open his coat and searching his pockets, like a wild
+beast mauling its prey."</p>
+<p>"And you want to see him suffer for that brutal murder, don't
+you?"</p>
+<p>No; I want nothing but to have done with it all. Just to be out of
+it, that's what I want. Do you think if they were to hang Bolisco, it
+would set my mind at rest, or make me forget what a shrew I was to
+poor old Dick, and how he forgave me, and came back to me after I'd
+treated him so bad, and how I wrote the letter that lured him to his
+death? What do I care what becomes of Bolisco? Let him murder somebody
+else, and get nabbed for that. I don't care. Nothing will stop my bad
+dreams, till I fall asleep for the last time; and then, who knows?
+there may be bad dreams underground as well as above; or one long
+dream of hell-fire and worms that gnaw."</p>
+<p>"Come, come, Mrs. Randall, you mustn't despair," Faunce said kindly.</p>
 <pb n="333"/>
 <p>He was sorry for her, and yet what comfort could he offer? He looked at her in her ruined beauty, and thought of her life, and the two men whose lives she had spoilt. She had sown the wind, and she was reaping the whirlwind, and he saw no hope for her in the black future.</p>
 <p>What was he to do? He had come to her prepared to make his <hi rend="italic">coup d'&#x00E9;tat</hi>, having calculated that he could startle her into a revelation of the murder, in which he believed her to have been an unwilling accessory. He had succeeded, but his success was worth nothing if this one all-important witness could not be heard.</p>
@@ -1875,5 +2012,13 @@ dreams.</p>
 <p>"P.S.&#x2014;Pray never again address me as 'Lady Perivale.' I hate that semi-detached style. I am Mrs. Arthur Haldane, and am proud to bear my husband's name."</p> </div></body></text></q>
 </div>
 </body>
+<back id="mbhisda1206">
+<div id="mbhisdabm001" type="advert">
+<figure entity="mbhisdabm1" rend="inline">
+<figDesc>Advertisement at the back of Braddon's <hi rend="italic">His
+Darling Sin</hi>.</figDesc>
+</figure>
+</div>
+</back>
 </text>
 </TEI.2>
