@@ -13,7 +13,7 @@
 <pubPlace>Atlanta, Georgia</pubPlace> 
 <date>2007</date> 
 <availability> 
-<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<p>&#x00A9; 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
 <addrLine>Lewis H. Beck Center</addrLine>
 <addrLine>Emory University</addrLine>
 <addrLine>Robert W. Woodruff Library</addrLine>
@@ -85,19 +85,23 @@
 </teiHeader>
 <text>
 <front>
-<div id="drebelcover" type="Front Cover">
-<figure entity="drebelfc" rend="inline">
-<figDesc> Front Cover of the Duchess's "A Little Rebel"</figDesc>
-</figure>
-</div>
+<pb entity="drebeltp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> A LITTLE REBEL</titlePart>
+</docTitle>
+<byline> by <docAuthor> "THE DUCHESS"</docAuthor></byline>
+<docImprint>
+<publisher> F.M. LUPTON <lb/> PUBLISHER</publisher>
+<pubPlace> 23 25 AND 27 CITY HALL PLACE<lb/> NEW YORK</pubPlace>
+</docImprint>
+</titlePage>
 <pb/>
 </front>
 <group>
 <text>
 <body>
-Published Weekly, By Subscription, $5.20 Per Annum. Entered at the New York Post Office as Second Class Matter. September 23, 189*
-THE ARM CHAIR LIBRARY
-EACH NUMBER CONTAINS A COMPLETE NOVEL BY A POPULAR AUTHOR.
+<pb n="[1]"/>
 <div id="drebel01" type="chapter" n="1">
 <head>"A LITTLE Rebel."<lb/>
 By THE DUCHESS.<lb/>
