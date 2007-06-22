@@ -1,18 +1,17 @@
-
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2> 
-<teiHeader> 
+<TEI.2 id="dr1chain1201"> 
+<teiHeader id="dr1chain1202"> 
 <fileDesc> 
 <titleStmt> 
-<title>A Hidden Chain, an electronic edition</title> 
-<author n="Russell, Dora, 1894-1986">David Lyall</author> 
+<title>A Hidden Chain, volume I, an electronic edition</title> 
+<author n="Russell, Dora">Dora Russell</author> 
 </titleStmt>
-<extent></extent> 
+<extent>300kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
-<date>2005</date> 
-<availability> <p>&#x00A9; 2005, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<date>2007</date> 
+<availability> <p>&#x00A9; 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
 <addrLine>Lewis H. Beck Center</addrLine> 
 <addrLine>Emory University</addrLine>
 <addrLine>Robert W. Woodruff Library</addrLine> 
@@ -32,9 +31,9 @@
 </seriesStmt> 
 <sourceDesc> 
 <bibl><author>Russell, Dora</author>. 
-<title>A Hidden Chain</title>. 
+<title>A Hidden Chain, volume I</title>. 
 <pubPlace>London</pubPlace>: <publisher>Digby, Long and Co. Publishers.</publisher>, 
-<date>????</date>.</bibl> 
+<date>[189?]</date>.</bibl> 
 </sourceDesc> 
 </fileDesc> 
 <encodingDesc> 
@@ -58,7 +57,7 @@
 <rs type="language">English</rs> 
 <rs type="ethnicity">Caucasian</rs> 
 <rs type="form">Unedited</rs> 
-<rs type="genre">Short Stories</rs> 
+<rs type="genre">Novel</rs> 
 <rs type="geography">Great Britain</rs> 
 <date>1800-1899</date> </creation> 
 <textClass> <keywords scheme="lcsh">
@@ -82,14 +81,15 @@
 </change> 
 </revisionDesc> 
 </teiHeader> 
-<text>
-<front>
-<pb entity="dr1chaintp" pages="titlePage"/>
+<text id="dr1chain1203">
+<front id="dr1chain1204">
+<pb n=[ii]/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main"> The Hidden Chain</titlePart>
 </docTitle>
 </titlePage>
+<pb  entity="dr1chaintp" pages="Title Page" n="[iv]"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main"> The Hidden Chain</titlePart>
@@ -101,10 +101,9 @@ In Three Volumes <lb/> <hi rend="italics">Vol. I</hi> <lb/> Second Edition</byli
 <pubPlace>LONDON:</pubPlace>
 <publisher>DIGBY, LONG AND CO., PUBLISHERS</publisher> 
 <pubPlace>18  BOUVERIE STREET, FLEET STREET. E.C.</pubPlace> 
-<docDate>????</docDate> 
 </docImprint>
 </titlePage>
-<pb n="vi"/>
+<pb n="[vi]"/>
 <div id="dr1chain000" type="table of contents">
 <figure entity="dr1chaintc1" rend="inline">
 <figDesc> Table of Contents for Russel's <hi rend="italics">A Hidden Chain</hi>
@@ -117,8 +116,7 @@ In Three Volumes <lb/> <hi rend="italics">Vol. I</hi> <lb/> Second Edition</byli
 </figure>
 </div>
 </front>
-<text>
-<body>
+<body id="dr1chain1205">
 <pb n="[1]"/>
 <div id="dr1chain001" type="chapter" n="1">
 <head>A HIDDEN CHAIN<lb/>
@@ -277,7 +275,7 @@ you'll take my arm, I'll take you to the trap."</p>
 thank you so much for coming. Good night;" And then he shook hands
 with them all, and last with Eva Moore.</p>
 </div>
-<pb n="22 CHAPTER II FIRE."/>
+<pb n="[22]"/>
 <div id="dr1chain002" type="chapter" n="2">
 <head>CHAPTER II.<lb/>
 FIRE.</head>
@@ -366,7 +364,7 @@ forward with bare outstretched arms to catch it, but missed it by a hair's bread
 <p>"It is only a chance," She faltered, "but you have risked your life
 for mine, Lord Clair."</p>
 </div>
-<pb n="33 CHAPTER III. SUNNY BROW."/>
+<pb n="[33]"/>
 <div id="dr1chain003" type="chapter" n="3">
 <head>CHAPTER III.<lb/>
 SUNNY BROW.</head>
@@ -529,14 +527,14 @@ Sunny Brow, for it must be very inconvenient to Mrs Richards and her daughters t
 <p>"And it was I who hurt you&#x2014;I---"</p>
 <p>"Please do not worry about it; the pain is nearly gone," Interrupted Eva. "See, it is nothing dreadful," And as she spoke she pushed back the sleeve of her white gown and bared an arm, lovely alike in form and colouring, except where the cruel rope had marred its beauty.</p>
 <pb n="54 A Hidden Chain."/>
-Clair gave an exclamation of horror when he saw the marks.</p>
+<p>Clair gave an exclamation of horror when he saw the marks.</p>
 <p>"How dreadful! I did this, and you never cried out or uttered a word," he said, taking hold of her slender wrist.</p>
 <p>Again Eva laughed her low, rather peculiar laugh.</p>
 <p>"I have borne worse pain than that without a cry," She said. "But,"
 She added, and she pulled down her sleeve as she spoke, "here comes
 Annie with the hat, so let us drop the arm.</p>
 </div>
-<pb n="55 ACROSS THE RIVER."/>
+<pb n="[55]"/>
 <div id="dr1chain004" type="chapter" n="4">
 <head>CHAPTER IV.<lb/>ACROSS THE RIVER.</head>
 <p>ANNIE DIGHTON returned not only with a large, coquettish-looking hat, but a long black lace scarf, which Eva rolled round her white throat, and which admirably became her. Then she put on the hat.</p>
@@ -634,7 +632,7 @@ his pocket. "Is it yours? There's a name engraved inside&#x2014;Eva Temple I thi
 <p>"Yes," She said, and Lord Clair wondered why she blushed so deeply
 at her mother's name.</p>
 </div>
-<pb n="65 A POSIE."/>
+<pb n="[65]"/>
 <div id="dr1chain005" type="chapter" n="5">
 <head>CHAPTER V.<lb/>A POSIE.</head>
 <p>"TEMPLE! Oh! that's a pretty name," exclaimed Annie Dighton, who had also noticed with surprise the deep and sudden blush which had spread over Eva's face.</p>
@@ -792,7 +790,7 @@ understand that she had never roused any of the deeper feelings of her cousin's 
 languid weary steps to the Hall; "he never gives me even a
 thought."</p>
 </div>
-<pb n="84 THE FALLEN FLOWER."/>
+<pb n="[84]"/>
 <div id="dr1chain006" type="chapter" n="6">
 <head>CHAPTER VI.<lb/>THE FALLEN FLOWER.</head>
 <p>When Clair, carrying his flowers, came in sight of the stone bridge over the river Ayre, he instantly perceived that two girls were sitting on the parapet. He perceived also as he approached nearer that one of these girls&#x2014;Eva Moore&#x2014;wore no hat, but merely had a black lace scarf wrapped round her head. He saw this before she turned round and smilingly recognised him. Then he advanced on to the bridge, but Eva did not rise to meet him though Annie Dighton did.</p>
@@ -883,9 +881,9 @@ her face. But there was no shadow on Clair's, nor in his heart.</p>
 took from his coat the rose Eva had worn in her hair. He pressed his lips passionately to it, and as he did so the crimson petals fell apart and fluttered to the wet and marshy ground at his feet. Clair stooped down and raised them one by one, but he felt exceedingly discomforted. He had meant always to keep this rose, and now it lay broken and soiled with the stains of the damp earth, that nothing could ever remove.</p>
 <p>Was it an omen? If so, the young lord heeded it not, but went
 blindly to his fate!</p></div>
-<pb n="94 A CHANGE OF OPINION."/>
+<pb n="[94]"/>
 <div id="dr1chain007" type="chapter" n="7">
-<head>CHAPTER VII.<lb/>A CHANGE OF OPINION</head>
+<head>CHAPTER VII.<lb/>A CHANGE OF OPINION.</head>
 <p>THE family at Sunny Brow had seen with much disapproval Eva Moore leave the house with only the lace scarf wrapped round her head.</p>
 <p>"She's actually going out of the garden gate with it on," cried Jane Richards, looking from the dining-room window, and forgetting that she had made no further offer of her hat to Eva. "I declare it doesn't look respectable, mother, going about the country like that; I wonder who she is?"</p>
 <p>"Mrs Dighton says she was at school with Annie Dighton," said Mrs Richards.</p>
@@ -1000,7 +998,7 @@ return here from Eastcliff, I wish to bid you good-bye. Will three o'clock suit 
 <p>"I don't think it is; she spoke as if she
 <pb n="109 A Change of Opinion."/> 
 really had money. However, we'll see tomorrow, and Mr Dighton seems to think a great deal of her anyhow, and it will be nice to go down and see them at Eastcliff; they were both very kind and pleasant about that."</p></div>
-<pb n="110 EASTCLIFF."/> 
+<pb n="[110]"/> 
 <div id="dr1chain008" type="chapter" n="8">
 <head>CHAPTER VIII.<lb/>EASTCLIFF.</head>
 <p>RIGHT on the sea marge, built actually on the beetling crags, at the foot of which the waves beat and toss, or lap softly in the summer-time, stands the ancient village of Eastcliff. But these wind-swept, time-worn dwellings only now form a very small part of the place. Of late years there have sprung up streets and houses erected further inland, and East-cliff has grown into a little town, famous for its health-giving breezes, and for the romantic beauty of its coast.</p>
@@ -1132,9 +1130,13 @@ wished them good-morning, and once more touching his hat he rode on, and proceed
 <p>"My dear, Clair is young, and by Jepson's account the girl is beautiful, and the very fact that he saved her life may attract him to her. I think you had better say something to him, as you have great influence with him."</p>
 <pb n="127 Eastcliff."/>
 <p>"I hope it will never be needed in such a case. Kilmore, fancy my boy&#x2014;I do not believe he has ever spoken more than five words to her."</p>
-<p>The earl shrugged his shoulders; he had not quite as much faith in Clair as his adoring mother.</p>
-CHAPTER IX.
-<pb n="128 YOU MAY COME."/>
+<p>The earl shrugged his shoulders; he had not quite as much faith in
+Clair as his adoring mother.</p>
+</div>
+<pb n="[128]"/>
+<div id="dr1chain009" type="chapter" n="9">
+<head>CHAPTER IX.<lb/>
+"YOU MAY COME."</head>
 <p>NEVERTHELESS, though she affected to have, and indeed had, such firm belief in her son, her husband's words made Lady Kilmore somewhat uneasy. What she would have felt had she beheld Clair at the moment his father was talking of him could not easily be told. She was a woman with too fine an intuitive knowledge of his nature, if she had seen him lingering on the river bridge by the side of Eva Moore, not to have understood something of the feelings of his heart.</p>
 <p>As it was, she contented herself by wishing that her son's adventure during the fire at Holly Hill had never occurred.</p>
 <p>"Of course, the girl is naturally grateful to him," she told herself, "who would not be,
@@ -1217,7 +1219,7 @@ day"&#x2014;the day on which Annette Gower was building her foolish
 hopes; the day she was looking forward to was the same that Clair was
 wishing would quickly speed away!</p>
 </div>
-<pb n="139 A FALL."/>
+<pb n="[139]"/>
 <div id="dr1chain010" type="chapter" n="10">
 <head>CHAPTER X.<lb/>A FALL.</head>
 <p>AND the day came and went, and Annette felt very happy driving through the still green country lanes with Clair opposite to her. He had gone to pay these visits to please his mother, and he was too kind-hearted not to do his best to make the hours pass pleasantly. He laughed and chatted, but it must be admitted felt decidedly pleased when on their return they neared the Hall.</p>
@@ -1397,7 +1399,7 @@ breathlessly. "He has had an accident on the rocks, and has sprained
 his foot, and he is not coming home tonight&#x2014;and <hi
 rend="italic">that girl is there</hi>. I must go to him at once."</p>
 </div>
-<pb n="161 A MOTHER'S ADVICE."/>
+<pb n="[161]"/>
 <div id="dr1chain011" type="chapter" n="11">
 <head>CHAPTER XI.<lb/> A MOTHER'S ADVICE.</head>
 <p>LORD KILMORE looked up with an annoyed expression on his face as his wife made this somewhat startling announcement, and held out his hand for the telegram.</p>
@@ -1489,8 +1491,8 @@ whether I should tell you, but she got a great shock when she heard of your acci
 turned away his head and left the room, leaving Lady Kilmore perplexed
 whether she had spoken wisely or no.</p>
 </div>
-<pb n="173 JEALOUSY."/>
-<div id="dr1chain012" type="chapter" n=2">
+<pb n="[173]"/>
+<div id="dr1chain012" type="chapter" n="12">
 <head>CHAPTER XII.<lb/>JEALOUSY.</head>
 <p>IN writing to her mother at Kilmore Hall, Annie Dighton had not mentioned Lord Clair's visit to them at Eastcliff. She did not do so by the advice of Eva Moore.</p>
 <p>"What is the good of telling such a trifle?" Eva had said carelessly; but after Clair's accident, Lady Kilmore herself mentioned to Mrs Dighton that her son had sprained his foot on the rocks at Eastcliff.</p>
@@ -1677,7 +1679,7 @@ certain look of anxiety passed over his father's good-natured face.</p>
 also fixed on Clair and Eva. "But I'll bring him to book for all
 this. Lord or no lord, I'll let him know what I think!"</p>
 </div>
-<pb n="192 VERY DISAGREEABLE."/>
+<pb n="[192]"/>
 <div id="dr1chain013" type="chapter" n="13">
 <head>CHAPTER XIII.<lb/>VERY DISAGREEABLE.</head>
 <p>IN the meanwhile, Eva and Clair, quite unconscious of the storm within, were smilingly approaching Sea View House, and stood talking together in the porch what seemed a very unnecessary time to several eyes that were watching them.</p>
@@ -1771,7 +1773,7 @@ a few moments later Clair was announced, they all felt&#x2014;including Eva&#x20
 <closer><signed>Yours,
 <name>"Eva."</name></signed></closer>
 </div></body></text></q></div>
-<pb n="204 AN ANONYMOUS LETTER."/>
+<pb n="[204]"/>
 <div id="dr1chain014" type="chapter" n="14">
 <head>CHAPTER XIV.<lb/>AN ANONYMOUS LETTER.</head>
 <p>CLAIR read Eva's brief note many times, and was absolutely reading it again the next morning after breakfast, when a waiter entered the room, and asked him if he would see a gentleman who had called.</p>
@@ -1938,7 +1940,7 @@ her thoughts had at once flown to her son, and there was something in her husban
 <p>Lord Kilmore answered by placing the letter in his wife's trembling hand, and when she had read it tears rushed into her eyes.</p>
 <p>"Oh! this is terrible," She said. "You must go to him, Kilmore; you must try to save him!"</p>
 <p>"I am very much disgusted with him," replied Lord Kilmore; "I did not think our son would have acted a lie."</p></div>
-<pb n="223 A FATHER'S WARNING."/>
+<pb n="[223]"/>
 <div id="dr1chain015" type="chapter" n="15">
 <head>CHAPTER XV.<lb/>A FATHER'S WARNING.</head>
 <p>LADY KILMORE caught her husband's hand imploringly, as he uttered these harsh words.</p>
@@ -2070,7 +2072,7 @@ mind, and he was certainly not acting with his usual good sense to speak to Clai
 <p>"And you are such a very old man, Clair," replied Lord Kilmore, a little scoffingly.</p>
 <p>"I am old enough at least to choose my own friends," retorted Clair, and in the end a very serious disagreement arose between the two, and they finally parted on anything but good terms.</p>
 <p>"If you have anything to do with this woman, you will bitterly repent it," was the Earl's parting admonition to his son. But Clair merely bowed, and muttering that he was an obstinate fool, Lord Kilmore turned away, and as he was feeling anything but well, and saw that his words and advice were quite wasted, he decided to leave town, and went back to Kilmore, carrying his ill news with him to the anxious mother.</p></div>
-<pb n="240 QUEST."/>
+<pb n="[240]"/>
 <div id="dr1chain016" type="chapter" n="16">
 <head>CHAPTER XVI.<lb/>A QUEST.</head>
 <p>Eva Moore had scarcely gone from Eastcliff when an overpowering restlessness took possession of Richard Dighton's heart to see her again. A letter to Annie arrived from her two days after she had left, dated from Brighton, and telling Annie vaguely she hoped she would soon see her again. But she gave no especial invitation, and never mentioned the name of Lord Clair. Annie showed this letter to her brother, and he read it eagerly, noting the address, and mentally determining that he would find some excuse to go to Brighton to see her. Eva said nothing in her letter about leaving shortly; in fact, inferred that she meant to make some stay. The Misses Richards from Sunny Brow were coming
@@ -2153,48 +2155,45 @@ Then Clair clapped his hands in applause, and cried "Bravo" and Eva's soft laugh
 if his presence were known. He would watch and wait, and so gloomily he paced up and down the street for hours, until the city clocks chimed midnight; until the first faint tinge of dawn spread on the summer sky. But he saw and heard nothing. The lights had been all put out in the little house with the balcony soon after Clair left, and he did not return.</p>
 <p>"But tomorrow," Thought Richard Dighton darkly, "tomorrow I shall know."</p>
 <trailer>END OF VOL. I.</trailer></div></body>
-<back>
+<back id="dr1chain1206">
 <div type="colophon" id="dr1chain253">
-<p>London; DIGBY, LONG &#x0026; COMPANY, Publishers,</p>
+<p>London: DIGBY, LONG &#x0026; COMPANY, Publishers,</p>
 <p>18 Bouverie Street, Fleet Street, E.C.</p></div>
 <pb n="[1]"/>
 <div id="dr1chain300" type="advert">
 <figure entity="dr1chainad1" rend="inline">
-<figDesc> Advert included in back of Russell's "The Hidden Chain"</figDesc>
+<figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
 </figure>
 <pb n="2"/>
 <figure entity="dr1chainad2" rend="inline">
-<figDesc> Advert included in back of Russell's "The Hidden Chain"</figDesc>
+<figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
 </figure>
 <pb n="3"/>
 <figure entity="dr1chainad3" rend="inline">
-<figDesc> Advert included in back of Russell's "The Hidden Chain"</figDesc>
+<figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
 </figure>
 <pb n="4"/>
 <figure entity="dr1chianad4" rend="inline">
-<figDesc> Advert included in back of Russell's "The Hidden Chain"</figDesc>
+<figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
 </figure>
 <pb n="5"/>
 <figure entity="dr1chainad5" rend="inline">
-<figDesc> Advert included in back of Russell's "The Hidden Chain"</figDesc>
+<figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
 </figure>
 <pb n="6"/>
-<figure enitity="dr1chainad6" rend="inline">
-<figDesc> Advert included in back of Russell's "The Hidden Chain"</figDesc>
+<figure entity="dr1chainad6" rend="inline">
+<figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
 </figure>
 <pb n="7"/>
 <figure entity="dr1chainad7" rend="inline">
-<figDesc> Advert included in back of Russell's "The Hidden Chain"</figDesc>
+<figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
 </figure>
 <pb n="7"/>
 <figure entity="dr1chainad8" rend="inline">
-<figDesc> Advert included in back of Russell's "The Hidden Chain"</figDesc>
+<figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
 </figure>
 </div>
+</back>
+</text>
+</TEI.2>
 
-
-
-
-
-
-</back></text>
