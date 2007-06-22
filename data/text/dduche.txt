@@ -1,12 +1,113 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2> 
+<teiHeader> 
+<fileDesc> 
+<titleStmt> 
+<title>The Duchess, an electronic edition</title> 
+<author n="Duchess, The">The Duchess</author> 
+</titleStmt> 
+<extent></extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability> 
+<p>&#x00A9; 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address> 
+</p></availability></publicationStmt> 
+<seriesStmt>
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt><name>Sheila T. Cavanagh</name>
+<name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp></respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl>
+<author>Duchess, The</author>. <title>The Duchess</title>. <pubPlace>New York</pubPlace>: <publisher>F.M.Lupton</publisher>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p>
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British literature--20th Century--Fiction.</item> 
+<item>Women authors, British--20th Century.</item> 
+<item>Women in journalism.</item> 
+<item>Short stories.</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-22</date> 
+<respStmt>
+<name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
 <text>
-<front></front>
+<front>
+<div id="dduchecover" type="Front Cover">
+<figure entity="dduchefc" rend="inline">
+<figDesc> Front Cover of Duchess's "The Duchess"</figDesc>
+</figure>
+</div>
+<pb/>
 
+<pb entity="dduchetp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> THE DUCHESS</titlePart>
+</docTitle>
+<byline> BY<docAuthor> THE DUCHESS</docAuthor></byline>
+<docImprint> 
+<pubPlace> NEW YORK</pubPlace>
+<publisher> THE F.M. LUPTON PUBLISHING COMPANY.</publisher>
+<pubPlace> Nos. 72-76 WALKER STREET.</pubPlace>
+</docImprint>
+</titlePage>
+</front>
+<pb/>
 
-<pb n="3 THE DUCHESS"/>
+<pb n="[3 THE DUCHESS]"/>
 <body>
+<div id="dduche001" type="chapter" n="1">
 <head rend="center">THE DUCHESS</head>
 <milestone unit="section" rend="line"/>
-<div id="dduche001" type="chapter" n="1">
 <head rend="center">CHAPTER I.</head>
 <epigraph rend="center"><q>
 <l>"Except wind stands as never it stood,</l>
@@ -2184,5 +2285,57 @@ forget. Oh! the cruel agony of remembrance. Those moments when I thought you dea
 <p>"Is that all? Tut!" cries he, with a happy laugh, drawing her head down upon his breast. "Let them send our <hi rend="italic">trousseaus</hi> after us--it will give them something to do."</p></div>
 <trailer>THE END.</trailer>
 </body>
+<back>
+
+<pb n="[1]"/>
+<div id="dduche100" type="advert">
+<figure entity="dduchead1" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
+</figure>
+
+<pb n="[2]"/>
+<figure entity="dduchead2" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
+</figure>
+
+<pb n="[3]"/>
+<figure entity="dduchead3" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
+</figure>
+
+<pb n="[4]"/>
+<figure entity="dduchead4" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
+</figure>
+
+<pb n="[5]"/>
+<figure entity="dduchead5" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
+</figure>
+
+<pb n="[6]"/>
+<figure entity="dduchead6" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
+</figure>
+
+<pb n="[7]"/>
+<figure entity="dduchead7" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
+</figure>
+
+<pb n="[8]"/>
+<figure entity="dduchead8" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
+</figure>
+
+<pb n="[9]"/>
+<figure entity="dduchead9" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
+</figure>
+</div>
+</back>
+
+
 </text>
+</TEI.2>
 
