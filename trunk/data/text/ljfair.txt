@@ -1,4 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2 id=""> 
+<teiHeader id=""> 
+<fileDesc> 
+<titleStmt> 
+<title>All For Love of a Fair Face or A Broken Betrayal, an electronic edition</title> 
+<author><name type="person" reg="Libbey, Laura Jean, 1862-1924">Laura Jean Libbey</name></author> 
+</titleStmt> 
+<extent></extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date>
+<availability> 
+<p>&#x00A9; 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p> </availability> </publicationStmt> 
+<seriesStmt> 
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt> 
+<name>Sheila T. Cavanagh</name> 
+<name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp> 
+</respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl>
+<author>Libbey, Laura Jean</author>. <title>All for love of a Fair Face or A Broken Betrothal</title>. <pubPlace>New York</pubPlace>: <publisher>George Munro's Sons</publisher>, <date>1885</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> 
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p> 
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">United States</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>American literature--19th Century--Fiction.</item> 
+<item>Women authors, American--19th Century.</item> 
+<item>Romance.</item> 
+<item>Courtship.</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-22</date> 
+<respStmt> 
+<name>Shruthi Vissa,</name> 
+<resp>Encoder.</resp> 
+</respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
 <text>
+<div id="ljfair100" type="advert">
+<figure entity="ljfairad1" rend="inline">
+<figDesc> Advert at the front of Libbey's "All For Love of Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+<pb/>
+<figure entity="ljfairad2" rend="inline">
+<figDesc> Advert included in front of Libbey's "All For Love of a Fair Face"</figDesc>
+</figure>
+</div>
+<pb/>
+<pb entity="ljfairtp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> ALL FOR LOVE OF A FAIR FACE</titlePart>
+<titlePart type="sub"> OR, <lb/> A BROKEN BETROTHAL</titlePart>
+</docTitle>
+<byline> BY <docAuthor> LAURA JEAN LIBBEY.</docAuthor></byline>
+<titlePart type="desc"> COPYRIGHT, 1885, BY GEORGE MUNRO</titlePart>
+<docImprint> 
+<pubPlace> NEW YORK:</pubPlace>
+<publisher> GEORGE MUNRO'S SONS, PUBLISHERS.</publisher>
+<pubPlace>17 TO 27 VANDEWATER STREET.</pubPlace>
+</docImprint>
+</titlePage>
+<pb/>
+<div id="ljfair200" type="advert">
+<figure entity="ljfairad1" rend="inline">
+<figDesc> Advert at front of Libbey's "All For Love of a Fair Face or A Broken Betrothal</figDesc>
+</figure>
+</div>
+<pb/>
 <body>
 <pb n="5"/>
 <div id="ljfair001" type="chapter" n="1">
@@ -2329,5 +2447,138 @@ shine in the garden below, and that Theo should call her if she needed her--she 
 <p>"Thus do I tear your image from my heart, sweet Theo," he said, sadly. " I pray God that the choice you have made will prove a happy one."</p>
 <p>Never from that day was Walter Melville known to look kindly upon a woman's face.</p>
 <p>The other one who read the notice of their marriage was Violet Kensington. She remembered how she had tried to part them and failed so ignominiously, and a sigh broke from her lips for the lover whom she had lost.</p>
-<p>Harry Strathmore and his bride are happy now, and the betrothal, which was broken for the sake of a fair, false face has been cemented by the marriage-bond.</p></div></body></text>
+<p>Harry Strathmore and his bride are happy now, and the betrothal, which was broken for the sake of a fair, false face has been cemented by the marriage-bond.</p>
+<trailer> THE END</trailer>
+</div></body>
+<back>
 
+<pb/>
+<div id="ljfair200" type="advert">
+<figure entity="ljfairad1" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb/>
+<figure entity="ljfairad2" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb/>
+<figure entity="ljfairad3" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+<pb/>
+
+<figure entity="ljfairad4" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+<pb/>
+
+<figure entity="ljfairad5" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb/>
+<figure entity="ljfairad6" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="4"/>
+<figure entity="ljfairad7" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="5"/>
+<figure entity="ljfairad8" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="6"/>
+<figure entity="ljfairad9" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="7"/>
+<figure entity="ljfairad10" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="8"/>
+<figure entity="ljfairad11" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="9"/>
+<figure entity="ljfairad12" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="10"/>
+<figure entity="ljfairad13" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="11"/>
+<figure entity="ljfairad14" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="12"/>
+<figure entity="ljfairad15" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="13"/>
+<figure entity="ljfairad16" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="14"/>
+<figure entity="ljfairad17" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="15"/>
+<figure entity="ljfairad18" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="16"/>
+<figure entity="ljfairad19" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="17"/>
+<figure entity="ljfairad20" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="[18]"/>
+<figure entity="ljfairad21" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="[19]"/>
+<figure entity="ljfairad22" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="[20]"/>
+<figure entity="ljfairad23" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="[21]"/>
+<figure entity="ljfairad24" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+
+<pb n="[22]"/>
+<figure entity="ljfairad25" rend="inline">
+<figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
+</figure>
+</div>
+</back>
+
+</text>
+</TEI.2>
