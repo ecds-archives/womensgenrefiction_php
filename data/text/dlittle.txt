@@ -81,15 +81,18 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<body>
 <text>
+<body>
+<!-- not sure how to encode this- it looks like titlepage info but is on the same page as the opening page of the narrative -->
 No. 32.-Old No. 373.
 PRICE, FIVE CENTS.
 The Leisure Hour Library.
-F. M. LUPTON, Publisher, 23-27 City Hall Placd, New York.
-A LITTLE IRISH GIRL.
-By THE DUCHESS,"
-Author of " Phyllis," '° Molly Bawon," " Airy Fairy Lillian," " Mrs. Geoffrey," " Rossmoyne," "Faith and Unfaith," Etc., Etc.
+F. M. LUPTON, Publisher, 23-27 City Hall Place, New York.
+
+<div id="dlittle100" type="Story">
+<head>A LITTLE IRISH GIRL.</head>
+<byline><docAuthor>By "THE DUCHESS,"</docAuthor>
+Author of " Phyllis," '° Molly Bawon," " Airy Fairy Lillian," " Mrs. Geoffrey," " Rossmoyne," "Faith and Unfaith," Etc., Etc.</byline>
 -	-
 <div id="dlittle001" type="chapter" n="1">
 <head>CHAPTER I.</head>
@@ -1165,5 +1168,31 @@ much fresh shame, she might have read between the lines of his short answer.</p>
 <p>"Why, how else should I think of him? Was he not trying to help you?"</p>
 <p>"And you will say something lovely to him the very first thing in the morning!"</p>
 <p>"No; I shall say something lovely to you then."</p>
-<p>"Oh, Ralph--well, good-night; goodnight again. Good-night, really, this time."</p></div>
-[THE END.]</text></body>
+<p>"Oh, Ralph--well, good-night; goodnight again. Good-night, really, this time."</p>
+[THE END.]</div></div></body>
+<back>
+<pb n="[30]"/>
+<div id="dlittle200" type="advert">
+<figure entity="dlittlead1" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Little Irish Girl"</figDesc>
+</figure>
+
+<pb n="[31]"/>
+<figure entity="dlittlead2" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Little Irish Girl"</figDesc>
+</figure>
+
+<pb n="[32]"/>
+<figure entity="dlittlead3" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Little Irish Girl"</figDesc>
+</figure>
+
+<pb n="[33]"/>
+<figure entity="dlittlead4" rend="inline">
+<figDesc> Advert included in back of Duchess's "The Little Irish Girl"</figDesc>
+</figure>
+
+</div>
+</back>
+</text>
+</TEI.2>
