@@ -1,4 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2 id=""> 
+<teiHeader id=""> 
+<fileDesc> 
+<titleStmt> 
+<title>Patience Starhawk and Her Times, an electronic edition</title> 
+<author><name type="person" reg="Atherton, Gertrude Franklin Horn, 1857-1948">Gertrude Franklin Horn Atherton</name></author> 
+</titleStmt> 
+<extent></extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability> 
+<p>&#x00A9; 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p> </availability> </publicationStmt> 
+<seriesStmt> 
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt> 
+<name>Sheila T. Cavanagh</name> 
+<name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp> 
+</respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl>
+<author>Atherton, Gertude Franklin Horn</author>. <title>Patience Starhawk and Her Times</title>. <pubPlace>New York and London</pubPlace>: <publisher>John Lane: Bodley Head</publisher>, <date>1897</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> 
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p> 
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">United States</rs> 
+<date>1900-1999</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>American literature--19th Century--Fiction.</item> 
+<item>Women authors, American--19th Century.</item> 
+<item>Eugenics Fiction.</item> 
+<item>Regionalism America.</item> 
+<item> Assertiveness in Women</item>
+<item> Social Reform Movement</item>
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-28</date> 
+<respStmt> 
+<name>Shruthi Vissa,</name> 
+<resp>Encoder.</resp> 
+</respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
 <text>
+<front>
+<div id="patiencecover" type="Front Cover">
+<figure entity="patiencefc" rend="inline">
+<figDesc> Front Cover of Atherton's "Patience Starhawk and Her Times"</figDesc>
+</figure>
+</div>
+<pb/>
+<pb entity="patiencetp" pages="Title Page"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">PATIENCE STARHAWK</titlePart>
+</docTitle>
+</titlePage>
+<pb/>
+<div id="patience100" type="advert">
+<figure entity="patiencead" rend="inline">
+<figDesc> Advert included in front of Atherton's "Patience Starhawk and Her Times"</figDesc>
+</figure>
+</div>
+<pb/>
+<pb entity="patiencetp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">PATIENCE STARHAWK <lb/> AND HER TIMES. A Novel</titlePart>
+</docTitle>
+<byline> BY <docAuthor> GERTRUDE ATHERTON</docAuthor></byline>
+<docImprint>
+<publisher> JOHN LANE: THE BODLEY HEAD</publisher>
+<pubPlace> NEW YORK AND LONDON</pubPlace>
+<docDate> 1897</docDate>
+</docImprint>
+</titlePage>
+<pb/>
+<div id="patiencefm1" type="copyright">
+<figure entity="patiencetvp" rend="inline">
+<figDesc> Copyright page of Atherton's "Patience Starhawk and Her Times"</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="patiencefm2" type="dedication">
+<head> TO <lb/> M. PAUL BOURGET,</head>
+<p>Who alone, of all foreigners, has detected in its full significance, that the motive power, the cohering force, the ultimate religion of that strange composite known as "The American," is Individual Will. Leaving the utlra-religious element out of the question, the high, the low, the rich, the poor, the man, the woman, of this section of the Western world, each consciously or unconsciously, believes in, relies on himself primarily. In the higher civilization this amounts to intellectual anarchy, and its tendency is to make Americans, or, more exactly, United Statesians, a New Race in a sense far more portentous than in any which has yet been recognised. As M. Bourget prophesies, destruction, chaos, may eventuate. On the other hand, the final result may be a race of harder fiber and larger faculties than any in the history of civilisation. That this extraordinary self-dependence and independence of certain traditions that govern older nations make the quintessential part of the woman as of the man of this race I have endeavoured to illsutrate in the following pages.</p>
+<closer><signed>G.A.</signed></closer>
+</div>
+<pb/>
+</front>
+<group>
+<text>
+<front>
+<pb entity="patiencetp" pages="Title Page"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">BOOK I</titlePart>
+</docTitle>
+</titlePage>
+</front>
 <body>
 <pb n="3"/>
 <div id="gahawk100" type="book" n="1">
@@ -693,9 +838,18 @@ days giving her much good advice. He said little of his own sorrow to part from 
 <pb n="78     Patience Sparhawk and Her Times "/>
 
 return he walked with great dignity to his accustomed place against the wall, nor even lifted up his voice in protest.</p>
-<p>The next morning Rosita accompanied her to the station and wept loudly as the train approached. But Patience did not cry until she stood in her stateroom with Mr. Foord.</p></div>
+<p>The next morning Rosita accompanied her to the station and wept loudly as the train approached. But Patience did not cry until she stood in her stateroom with Mr. Foord.</p></div></div></body></text>
 
 <pb n="[81]"/>
+<text>
+<front>
+<pb  entity="patiencetp" pages="Title Page"/>
+<titlePage type="half">
+<titlePart type="main"> BOOK II</titlePart>
+</titlePage>
+</front>
+<body>
+<pb/>
 <div id="gahawk200" type="book" n="2">
 <head>BOOK II
 </head>
@@ -1648,8 +1802,17 @@ brother is supposed to be a gentleman with a long array of ancestors, and he act
 
 before. Perhaps I was in danger of becoming an egoist, and imagining myself made of finer fibre than other women. Great writers show that the same brute is in all of us, and I can believe it. Some work it off in religion, but the majority don't. There seems to be some tremendous magnetic force in the Universe that makes the human race nine-tenths Love--for want of a better name. Circumstances and ancestors determine the direction of it. It seems too bad that Civilisation has not done more for us than to give us the analytical mind which understands and rebels, and no more, at the inheritance of the savage. But now that I know myself, perhaps I can go forward more surely on the path to the higher altitudes of life. I should like to be as good as auntie, and worldly-wise beside.</p>
 <p>"I suppose my horrid experience with this man will make me more exacting with all men. I think I could not blunder into matrimony, as some women do. I feel as if I never wanted to see another man, but that impression will pass--all impressions appear to pass. I may even want to meet Him after a time, and perhaps he will forgive. Shouldn't be surprised if he'd want a good deal of forgiveness himself. Meanwhile I can work, and learn all I can of what life means, anyway. I'll go to Mr. Field--"</p>
-<p>The soft ground echoed no footfalls, but Patience suddenly became aware that some one was approaching her. She turned, and saw Beverly Peele.</p></div>
+<p>The soft ground echoed no footfalls, but Patience suddenly became aware that some one was approaching her. She turned, and saw Beverly Peele.</p></div></div></body></text>
 <pb n="[187]"/>
+<text>
+<front>
+<pb entity="patiencetp" pages="Title Page"/>
+<titlePage type="half">
+<titlePart type="main">BOOK III</titlePart>
+</titlePage>
+</front>
+<body>
+<pb/>
 <div id="gahawk300" type="book" n="3">
 <head>BOOK III
 </head>
@@ -2826,9 +2989,17 @@ there is only one course to take. I have asked you to let me live abroad. If you
 <p>"Oh, you will not lock me up. You are way behind your times, Beverly. There is no law in the United States to compel me to obey you."</p>
 <p>"I'll stop your allowance. You'll never get another cent from me."</p>
 <p>"That has nothing whatever to do with it. Now, I ask you for the last time, Will you let me travel?"</p>
-<p>"No " he shouted, and he rushed from the room.</p></div>
+<p>"No " he shouted, and he rushed from the room.</p></div></div></body></text>
 <pb n="[307]"/>
-
+<text>
+<front>
+<pb entity="patiencetp" pages="Title Page"/>
+<titlePage type="half">
+<titlePart type="main"> BOOK IV</titlePart>
+</titlePage>
+</front>
+<pb/>
+<body>
 <div id="gahawk400" type="book" n="4">
 <head>BOOK IV
 </head>
@@ -2947,8 +3118,8 @@ fess, I should hate to marry one. It seems to be a point of honour among them to
 <p>Patience laughed. "Well, I will admit that I have no respect whatever for a man that is unappreciative of the charms of woman. I'd like to give Mr. Steele a lesson, but I won't. I would n't condescend. I'll be as business-like as he is. He knew why I was angry to-
 <pb n="319     Patience Sparhawk and Her Times "/>
 
-day, I am afraid, but he won't see me angry again. Why is Mr. Field so much nicer?"</p></div>
-<p>"Oh, he owns the paper."</p>
+day, I am afraid, but he won't see me angry again. Why is Mr. Field so much nicer?"</p>
+<p>"Oh, he owns the paper."</p></div>
 
 <div id="gahawk003" type="chapter" n="3">
 <head>III
@@ -3084,7 +3255,7 @@ the "Eye," the hated rival of the "Day." She was put on the trail of a fashionab
 <p>"Now tell me," he said peremptorily. "What have you heard? You have news in your eye. I see it."</p>
 <p>"I have nothing to tell."</p>
 <p>"Suppose you tell the truth. You have the story, and you won't give it up. Why not?"</p>
-<p>"Well--you see--she confided in me--she said I was the only woman who had given her a decent word in twenty years; and if I told the story she would be in jail to-morrow night. Do you think I'd be so low as to tell it?"</p></div>
+<p>"Well--you see--she confided in me--she said I was the only woman who had given her a decent word in twenty years; and if I told the story she would be in jail to-morrow night. Do you think I'd be so low as to tell it?"</p>
 <p>"Sentimentality, my dear young woman, is fatal to a
 <pb n="332     Patience Sparhawk and Her Times "/>
 
@@ -3507,8 +3678,17 @@ long arm reach past her and pluck the soul from the unconscious man on the bed. 
 <p>Four hours later she was awakened by a vigorous shaking of her shoulder.</p>
 <p>She sat upright and glanced about wildly. "What is it? What is the matter?" she cried. "I had such a horrible dream. I thought Beverly was drowning me--holding me down under the water--"</p>
 <p>"Your husband is dead," said the doctor. "Do you wish to go to him?"</p>
-<p>Patience shrank under the bedclothes, pulling them about her head. After the doctor had gone she ran over to a spare room, opened all the windows to admit light, then went to bed and slept until late in the day.</p></div>
+<p>Patience shrank under the bedclothes, pulling them about her head. After the doctor had gone she ran over to a spare room, opened all the windows to admit light, then went to bed and slept until late in the day.</p></div></div></body></text>
 <pb n="[373]"/>
+<text>
+<front>
+<pb entity="patiencetp" page="Title Page"/>
+<titlePage type="half">
+<titlePart type="main"> BOOK V</titlePart>
+</titlePage>
+</front>
+<body>
+<pb/>
 <div id="gahawk500" type="book" n="5">
 <head>BOOK V
 </head>
@@ -4687,9 +4867,9 @@ mighty desire; to compel her imagination to give her the phantasm, the voice, th
 <p>The cap had been removed, the men were unbuckling the straps. The head-keeper had flung his cap on the floor and run his hands through his hair until it stood up straight. Round her chair the newspaper men were pressing, shouting and cheering, trying to get at her hand to shake it.</p>
 <p>She smiled and held out her hand, but dared not speak to them. Pride still lived, and she was afraid that she should cry.</p>
 <p>Then she forgot them. A sudden parting in the ranks showed her the open door. At the same moment the men stopped shouting. Bourke had entered. He had followed the guard mechanically, neither hoping nor fearing until the far-reaching cheers sent the blood springing through his veins once more.</p>
-<p>He was neither clean nor picturesque, but Patience saw only his eyes. He walked forward rapidly, and lifting her in his arms carried her from the room.</p></div></div></div></div>
+<p>He was neither clean nor picturesque, but Patience saw only his eyes. He walked forward rapidly, and lifting her in his arms carried her from the room.</p></div></div>
 
-<p>THE END.</p></div></body> </text>
+<p>THE END.</p></body> </text></group></text></TEI.2>
 
 
 
