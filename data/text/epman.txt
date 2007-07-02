@@ -1,6 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2 id=""> 
+<teiHeader id=""> 
+<fileDesc> 
+<titleStmt> 
+<title>The Man in the Case, an electronic edition</title> 
+<author><name type="person" reg="Phelps, Elizabeth Stuart, 1844-1911">Elizabeth Stuart Phelps</name></author> 
+</titleStmt> 
+<extent></extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability> 
+<p>&#x00A9; 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p> </availability> </publicationStmt> 
+<seriesStmt> 
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt> 
+<name>Sheila T. Cavanagh</name> 
+<name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp> 
+</respStmt> 
+</seriesStmt>
+<sourceDesc> 
+<bibl>
+<author>Phelps, Elizabeth Stuart</author>. <title>The Man in the Case</title>. <pubPlace>Boston and New York</pubPlace>: <publisher>Houghton, Mifflin and Company</publisher>, <date>1906</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> 
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p> 
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">United States</rs> 
+<date>1900-1999</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>American literature--20th Century--Fiction.</item> 
+<item>Women authors, American--20th Century.</item> 
+<item>Mystery.</item> 
+<item>Christianity.</item> 
+<item> Marriage- moral and ethical aspects</item>
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-July 2</date> 
+<respStmt> 
+<name>Shruthi Vissa,</name> 
+<resp>Encoder.</resp> 
+</respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
 <text>
-<front></front>
-<body>
+<front>
+<div id="epmancover" type="front cover">
+<figure entity="epmanfc" rend="inline">
+<figDesc> Front cover of Phelps's "The Man in the Case"</figDesc>
+</figure>
+</div>
+<pb/>
+<pb n="[i]"/>
+<div id="epmanfm1" type="advert">
+<figure entity="epmanad" rend="inline">
+<figDesc> Advert included in front of Phelps's "The Man in the Case"</figDesc>
+</figure>
+</div>
+<pb n="[ii]"/>
+<pb entity="epmantp" pages="title page"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> THE MAN IN THE CASE</titlePart>
+</docTitle>
+</titlePage>
+<pb/>
+<pb/>
+<pb n="[v]"/>
+<div id="epmanfm2" type="frontispiece">
+<figure entity="epmanill" rend="inline">
+<p>HE WENT AWAY WITH A VISION OF HER BLINDING ALL HIS HEART AND BRAIN</p>
+<figDesc> Illustration at the front of Phelps's "The Man in the Case"</figDesc>
+</figure>
+</div> 
+<pb n="[vi]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> <hi rend="italic"> The</hi> <lb/> MAN IN THE CASE</titlePart>
+</docTitle>
+<byline> <hi rend="italic">by</hi> <docAuthor> Elizabeth Stuart Phelps</docAuthor></byline>
+<titlePart type="desc"> <hi rend="italic"> Illustrated by Henry J. Peck</hi></titlePart>
+<docImprint>
+<pubPlace> BOSTON AND NEW YORK</pubPlace>
+<publisher> HOUGHTON, MIFFLIN AND COMPANY</publisher>
+<colophon> The Riverside Press, Cambridge</colophon>
+<docDate> 1906</docDate>
+</docImprint>
+</titlePage>
+<pb n="[vii]"/>
+<div id="epmanfm3" type="copyright">
+<figure entity="epmantpv" rend="inline">
+<figDesc> Copyright page for Phelps's "The Man in the Case"</figDesc>
+</figure>
+</div>
+<pb n="[viii]"/>
+<div id="epmanfm4" type="list of illustrations">
+<figure entity="epmanlil" rend="inline">
+<figDesc> List of illustrations included in front of Phelps's "The Man in the Case"</figDesc>
+</figure>
+</div>
+</front>
+<pb/>
+ <body>
 <pb n="1 THE MAN IN THE CASE"/>
 <div id="epman001" type="chapter" n="1">
 <head>The<lb/>
@@ -38,18 +182,18 @@ sp'iled boys &#x2014; men-folks; they had n't orter be let loose in the same wor
 <p>She held the hem of the white gown a moment, letting it go reluctantly; she seemed to fondle it; her plain,
 <pb n="5 THE MAN IN THE CASE"/>
 middle-aged face flushed with the motion of stooping, and she limped away as if the effort of the action had hurt her somewhere. But Mary Caroline never "complained" to her mistress.</p>
-<p>Miss Dare had started to close the open window, and to reach the shade which had sprung to the top; thus she had one of the beautiful poses of the eternal feminine&#x2014;that of the uplifted arms; an attitude significant at once of grace and strength, of appeal and support.</P>
+<p>Miss Dare had started to close the open window, and to reach the shade which had sprung to the top; thus she had one of the beautiful poses of the eternal feminine&#x2014;that of the uplifted arms; an attitude significant at once of grace and strength, of appeal and support.</p>
 <p>Joan had one of the faces of which we say, It is strong," and afterwards,
 "It is sweet." She had passed her first youth, and reached the age when women can be most miserable or most happy; some cynics have said, when women can love most. Her form and
 <pb n="6 THE MAN IN THE CASE"/>
 coloring had the ripeness and richness of her thirty-fifth year; her brown eye was warm, and her motions were pliant, and rather dependent than assertive, but her head was well poised, and about her mouth, despite its swift smile and the charming way of it, were the lines of emotion outlived, and suffering uncommunicated.</p>
 <p>As she stood in this position, the electric car came crying up the suburban street, and whirred through the maple arch that covered it; the prosaic outlines of the car were unnaturally picturesque, seeming a shallop of green upon a sea of fire.</p>
 <p>The passengers were coming from the business train. Many of them were walking, and one who at that moment passed the house turned and looked at it, and her. His feet lagged; he stood
-<pb n="7 THE MAN IN THE CASE">
+<pb n="7 THE MAN IN THE CASE"/>
 for a moment with raised hat, and then came up the avenue. This was something of a distance, for Miss Dare's house stood well back from the street in a little estate of several acres, conspicuous in the suburb of Mapleleaf for its relative size, and its obstinate refusal to be butchered into corner lots.</p>
 <p>Joan's arms dropped. Her visitor raised his with the impulse of a man who would have embraced the atmosphere which surrounded her, but he recalled himself.</p>
 <p>"Are you coming in?" she asked, with a pretty, upward motion of the head that she had when she was happy.</p>
-<p>This evening&#x2014;yes. That is, if I may? Would you like to have me?"<p>
+<p>This evening&#x2014;yes. That is, if I may? Would you like to have me?"</p>
 <p>"Try it and see!" said Joan.</p>
 <pb n="8 THE MAN IN THE CASE"/>
 <p>Her voice laughed, her eyes laughed, her fluttering color
@@ -78,15 +222,15 @@ as she spoke, and mistress and maid regarded each other. The eye of each was fir
 <p>"It's very becoming to you," she said kindly.</p>
 <p>All her life Joan remembered the look of Mary Caroline's face, softened by the lace, upturned and patient, lifted for that moment from its daily descent into drudgery sublimated by its worship of herself.</p>
 <pb n="12 THE MAN IN THE CASE"/>
-<p>"Go," she said. Have a good time&#x2014;and sing alto."<p>
+<p>"Go," she said. Have a good time&#x2014;and sing alto."</p>
 <p>She put out her hand, why, she could hardly have said; Mary
 Caroline laid hers rin it timidly, and the two women parted for the
 evening.</p>
 <Milestone unit="section" rend="blank-line"/>
-<p>Joan had not been long alone when Martin Luther, vociferating language which would not have been admitted at the Friday evening meeting, pushed, limping, to the front door. Joan opened it, with a pretty, expectant color. But it was a woman who stood in the vestibule&#x2014;a lady&#x2014;one of the neighbors, Miss Dare's oldest friend in Mapleleaf. Joan held out both hands:&#x2014;
+<p>Joan had not been long alone when Martin Luther, vociferating language which would not have been admitted at the Friday evening meeting, pushed, limping, to the front door. Joan opened it, with a pretty, expectant color. But it was a woman who stood in the vestibule&#x2014;a lady&#x2014;one of the neighbors, Miss Dare's oldest friend in Mapleleaf. Joan held out both hands:&#x2014;</p>
 <p>"Annie Hammerton! Come right in!"</p>
-<p>"Going to meeting?" asked the</p>
-<pb n="13 THE MAN IN THE CASE">
+<p>"Going to meeting?" asked the
+<pb n="13 THE MAN IN THE CASE"/>
 neighbor. I did n't know but you'd like company. It 's rather dark."</p>
 <p>"You never forget me. You always remember," said Joan slowly. "No, I 'm not going to-night, Annie. Mary Caroline has gone. Martin Luther and I are playing heretic."</p>
 <p>She laughed, and thanked her friend, and the two kissed, as women do, for no particular reason, and Mrs. Hammerton went away. Joan watched her slight outlines&#x2014;she was a little woman&#x2014;sliding into shadow among the firs and oaks of the avenue.</p>
@@ -130,7 +274,7 @@ fair play to go packing everything off on God&#x2014;the foolish things we
 do, and the wrong ones&#x2014;especially the wrong ones, the deeds that <hi rend="italic">have</hi> to have consequences&#x2014;the moral hooks that draw other people down. If a man forges a check, one would suppose that Providence should be arrested for it. It's not God's affair how you treat me, or I treat you, or what comes of it, now or&#x2014;or any time."</p>
 <pb n="21 THE MAN IN THE CASE"/>
 <p>"Joan," said the Scotchman, I did not come for us to talk&#x2014;not tonight&#x2014;like this."</p>
-<p>Joan was sitting in the Morris chair before the grate; the fire was fluttering as a fire will, when it does not know whether to live or die; what light it gave expressed her, listening; her position had a certain curve like that of an ear. Martin Luther had got up laboriously, and put his head in the collie attitude upon her knee. Her fingers went to his forehead instinctively, but her eyes sought the fire, which plainly she did not see. It was impossible for Ray to interpret her expression or her manner. Stung by a sudden sense of helplessness before the mystery of womanhood which over-takes every sensitive man in the crisis of pursuit, he said, between his teeth:<p>
+<p>Joan was sitting in the Morris chair before the grate; the fire was fluttering as a fire will, when it does not know whether to live or die; what light it gave expressed her, listening; her position had a certain curve like that of an ear. Martin Luther had got up laboriously, and put his head in the collie attitude upon her knee. Her fingers went to his forehead instinctively, but her eyes sought the fire, which plainly she did not see. It was impossible for Ray to interpret her expression or her manner. Stung by a sudden sense of helplessness before the mystery of womanhood which over-takes every sensitive man in the crisis of pursuit, he said, between his teeth:</p>
 <pb n="22 THE MAN IN THE CASE"/>
 <p>Put that dog out of the room. I came here to ask you to be my wife, and I don't want him listening!"</p>
 <p>Joan gasped. He thought for a moment that he had said the fatal thing, and thrown his last chance. He went whiter than she, when, suddenly, she lifted her hands above her head, and so sat without a word. It was a whimsical gesture as if she surrendered, for her life, to one who threatened it. He took two steps towards her.</p>
@@ -207,7 +351,7 @@ picture he had seen of a woman searching for the piece of silver that she had lo
 <Milestone unit="section" rend="blank-line"/>
 <p>Then she called down into the dark, but very softly, as she had called to the woman neighbor:&#x2014;</p>
 <pb n="36 THE MAN IN THE CASE"/>
-"All right? Good-night&#x2014;good-by."</p>
+<p>"All right? Good-night&#x2014;good-by."</p>
 <p>And he called back&#x2014;</p>
 <p>"Good-night&#x2014;good-by&#x2014;good&#x2014;by."</p>
 <p>So she shut the door and locked it, and came back and sat down alone in the tall chair. She could not go to sleep for very joy, but stayed in the empty room, with Martin Luther. At her foot she felt the crumple of a leaf which she picked up, andwas going to toss it in the grate, but she saw that it was the yellow leaf with the carmine cheeks, that his lips had touched upon her bosom.</p>
@@ -227,7 +371,7 @@ shaking fingers; the bolt slid; the key turned; the chain, which was added to th
 <p>"Joan?" repeated the voice from
 the storm, "<hi rend="italic">Joan!</hi>" The collie had
 now ceased to growl; every hair of him was alert, significant, but not belligerent; he pushed his nose, and then his paws, through the space above the chain.</p>
-<p>With a grip at the heart such as kills the weak, and weakens the strong, Joan saw that the dog's tail began to swish&#x2014;first slowly, then rapidly against the wall.<p>
+<p>With a grip at the heart such as kills the weak, and weakens the strong, Joan saw that the dog's tail began to swish&#x2014;first slowly, then rapidly against the wall.</p>
 </div>
 <pb n="39 THE MAN IN THE CASE"/>
 <div id="epman002" type="chapter" n="2">
@@ -245,8 +389,9 @@ Caroline. "Whatever in the name of thanks be to Mercy should <hi rend="italic">y
 <p>She took the poker hotly from Miss Dare; who now raised her head, shrinking slightly as one does who meets his friend for the first time after the experience of some disfiguring disorder&#x2014;then boldly hurrying on the dreaded moment, she turned her face quickly and fully towards her old servant.</p>
 <p>Mary Caroline dropped the poker, which fell red-hot upon Joan's gray dress and bit a hole in it. The sickly smell of the burnt woolen filled the kitchen. Neither of the women
 <pb n="41 THE MAN IN THE CASE"/>
-spoke until Mary Caroline said, "<hi rend="italic">God A' mighty!</hi>"
-<p>"I haven't slept very well," observed Miss Dare slowly. You may bring me some coffee and&#x2014;something. After breakfast I"&#x2014;<p>She put her hand to her head confusedly. Ashen and carven, a blasted face looked upon Mary Caroline. Joan stood like a tree smitten by lightning from heaven in a storm that had hit nothing else. She was scorched to the roots; every leaf of her blackened, each twig of her dead. She had the aspect of the primeval things which accept their fate without a weak and weakening protest. She did not writhe. But the old servant who loved her did. Mary Caroline uttered herself as if a surgeon, without anesthesia, were moving a saw through her flesh.</p>
+spoke until Mary Caroline said, "<hi rend="italic">God A' mighty!</hi>"</p>
+<p>"I haven't slept very well," observed Miss Dare slowly. You may bring me some coffee and&#x2014;something. After breakfast I"&#x2014;</p>
+<p>She put her hand to her head confusedly. Ashen and carven, a blasted face looked upon Mary Caroline. Joan stood like a tree smitten by lightning from heaven in a storm that had hit nothing else. She was scorched to the roots; every leaf of her blackened, each twig of her dead. She had the aspect of the primeval things which accept their fate without a weak and weakening protest. She did not writhe. But the old servant who loved her did. Mary Caroline uttered herself as if a surgeon, without anesthesia, were moving a saw through her flesh.</p>
 <pb n="42 THE MAN IN THE CASE"/>
 <p>"Please don't," protested Joan faintly.</p>
 <p>"Don't mind it so, Mary Caroline. After breakfast I will&#x2014;yes, after breakfast I will speak with you."</p>
@@ -274,7 +419,7 @@ the nater of 'em. But there! If you're sot on it, dearie, <hi rend="italic">I</h
 soul! Have the feller hold the cat's-cradle of you find it more
 inter<hi rend="italic">es</hi>tin' than you do livin' alone along of
 me. Don't you bother your poor head, Miss Joan. I'11 put up with the
-critter someways or nuther. Seein' you ask it of me, I swear I will!"&#x2014;
+critter someways or nuther. Seein' you ask it of me, I swear I will!"&#x2014;</p>
 <p>"But," interrupted Miss Dare feebly,
 I am not asking anything of the kind
 of you. I am asking something a great
@@ -282,13 +427,13 @@ of you. I am asking something a great
 deal harder than that." Joan paused and panted.</p>
 <p>"I am asking you, Mary Caroline, to leave my service."</p>
 <p>Mary Caroline clapped her hand to her ear; like one dashed deaf by the detonation of a cannon.</p>
-<p>"<hi rend="italic"Marm?</hi>"</p>
+<p>"<hi rend="italic">Marm?</hi>"</p>
 <p>"Alas&#x2014;yes. Dear Mary Caroline! Yes."</p>
 <p>"<hi rend="italic">Me?</hi>"
 Joan nodded silently.</p>
 <p>"<hi rend="italic">Me</hi> leave <hi rend="italic">you</hi>? Us that has been together&#x2014;through everything&#x2014;for eighteen year"&#x2014;</p>
 <p>Miss Dare leaned her head back upon the Morris chair. She made no reply, and her silence affected Mary Caroline more powerfully than any speech or language within the etymology of the situation could have done.
-<pb n="47 THE MAN IN THE CASE">
+<pb n="47 THE MAN IN THE CASE"/>
 She wrung her gnarled hands and thrust them out before her, as if they had been facts.</p>
 <p>"Look!" she said. "How long they've done for you!"</p>
 <p>Then the old servant sank upon her knees, and uttered these pathetic words:&#x2014;</p>
@@ -317,7 +462,7 @@ Dare faintly, "that Mr. Ray has no-thing whatever to do with the matter. My reas
 <p>"When?" cried Mary Caroline wildly. She began to tremble.</p>
 <p>"To-day," replied Miss Dare.</p>
 <p>Mary Caroline tottered to the door.</p>
-<p>"You can go to your sister's, can't you?" pleaded the mistress. I shall continue to pay your wages. I shall pay you just the same as usual, and your board for a year&#x2014;two years&#x2014;three&#x2014;five&#x2014;until I ask you to come back to me: if I ever do."<p>
+<p>"You can go to your sister's, can't you?" pleaded the mistress. I shall continue to pay your wages. I shall pay you just the same as usual, and your board for a year&#x2014;two years&#x2014;three&#x2014;five&#x2014;until I ask you to come back to me: if I ever do."</p>
 <p>"What do you take me for?" groaned Mary Caroline.  "I'd starve first. No,
 I thank you, Miss Dare&#x2014;not so much
 <pb n="51 THE MAN IN THE CASE"/>
@@ -438,7 +583,7 @@ serious, or at least the first evident apprehension that she was in
 mortal earnest. He put out both hands as if he groped for his
 words:&#x2014;</p>
 <p>"We are man and woman&#x2014;you my woman, I your man. You gave me your word. I hold you to it."</p>
-<p>"I ask you to free me from it."<p>
+<p>"I ask you to free me from it."</p>
 <p>"Why?"</p>
 <p>"I cannot tell you why."</p>
 <p>"I thought she loved me," muttered Ray; he looked at her, but it was as
@@ -566,15 +711,16 @@ proach; Joan was conscious, in fact, that every eye was upon her, and that half 
 <p>Whatever her purpose in coming to the Club at all had been, Joan seemed abruptly to change it. The color did not rise upon her pale face, but her eyes hardened. The presiding officer of the day made way for her, but Joan by a gesture declined. She stood for a moment with her firm hand upon the table, closed and strong, as if it had been a gavel with which she commanded attention: this, her manner and attitude enforced peremptorily.</p>
 <p>"Ladies," she said, speaking quite distinctly and with great composure,
 <pb n="88 THE MAN IN THE CASE"/>
-<p>I have come to resign my office as the president of this organization. I am sorry to do so. I have not now the leisure necessary to fill the position with which you have so long honored me. I thank you for that honor, and for your kindness and your confidence."</p>
+I have come to resign my office as the president of this organization. I am sorry to do so. I have not now the leisure necessary to fill the position with which you have so long honored me. I thank you for that honor, and for your kindness and your confidence."</p>
 <p>Her voice faltered a little upon that last word, but she added no other to it. She looked for a moment upon the faces of her old neighbors and friends; her expression was inscrutable; it seemed to remove her from them even before she turned and left them with a proud and quiet step.</p>
 <p>As she passed through the hall, the door of the study opened, and
 the minister, wearing that resigned and hopeless, but still slightly
 injured expression with which a man receives the presence of a Woman's
 Club in his own
-
-PICTURE HERE
-
+<figure entity="epman89" rend="inline">
+<p>"LADIES," SHE SAID, "I HAVE COME TO RESIGN MY OFFICE AS PRESIDENT OF THIS ORGANIZATION"</p>
+<figDesc> Picture included in body of Phelps's "The Man in the Case"</figDesc>
+</figure>
 <pb n="89 THE MAN IN THE CASE"/>
 house, came out and spoke to her. He was an elderly man and had known Joan since she was a little girl.</p>
 <p>"My dear," he said, "what does this mean ?"</p>
@@ -831,11 +977,14 @@ urged itself upon the lightest of them; and none of them were careless men.</p>
 <p>The pastor bit off an unsanctified exclamation between his
 teeth. There dashed before him a flashlight of the scene&#x2014;that
 desolate, delicate woman&#x2014;those three well-meaning, stupid
-Christians&#x2014;the insolent nature of their errand&#x2014;they men, <hi rend="italic">all men</hi>!
+Christians&#x2014;the insolent nature of their errand&#x2014;they men, <hi rend="italic">all men</hi>!</p>
 <p>"There should have been a woman among you if you had to go!" blazed the minister.</p>
 <p>"The polity of our church does not place females upon the governing
 
-PICTURE HERE
+<figure entity="epman125" rend="inline">
+<p>"SHE RECEIVED US AS IF SHE HAD BEEN THE QUEEN OF HEAVEN, SIR"</p>
+<figDesc> Picture included in body of Phelps's "The Man in the Case"</figDesc>
+</figure>
 
 <pb n="125 THE MAN IN THE CASE"/>
 board," the theological member reminded him.</p>
@@ -863,7 +1012,7 @@ arms upraised; she was putting her gray hair in crimping-pins for the night.</p>
 <p>"I've got a headache," urged the minister's wife.</p>
 <p>The minister whirled on the heel of his well-worn boot.</p>
 <p>"Very well," he said. "Then I must go without you."</p>
-<p>"Oh, but you can't do <hi rend="italic">that</hi>. It would n't do, Mr. Cotton. You would be talked about."</hi>
+<p>"Oh, but you can't do <hi rend="italic">that</hi>. It would n't do, Mr. Cotton. You would be talked about."</p>
 <p>"When I'm afraid of being talked
 about," returned Mr. Cotton slowly,
 "I will give up preaching. I suppose
@@ -917,7 +1066,7 @@ if any such were there. Indeed, if there were any, they were invisible, and Joan
 <pb n="136 THE MAN IN THE CASE"/>
 aware that a rhythmical sound which she was sure she had heard when she stepped from the stairs to the kitchen, had abruptly ceased. The kitchen was perfectly still. The room was filled with the unreal light of dawn.</p>
 <p>As Joan stood in it, confused and hesitating, she saw a yellow crack at the bottom of a closed door flare and go out like extinguished gas. Hurrying to this door, which led to the laundry, she stumbled over a chair; her hands touched and clutched at something soft; this she drew to the window and examined.</p>
-<p>It was a woman's garment; a Scotch plaid golf cape, whose pattern and colors sent the blood driving fast through Joan's veins.</P>
+<p>It was a woman's garment; a Scotch plaid golf cape, whose pattern and colors sent the blood driving fast through Joan's veins.</p>
 <p>She struck a match, lit a lamp and holding it, she could not have told why,
 <pb n="137 THE MAN IN THE CASE"/>
 high above her head, as if she had far to search, opened the door into the laundry and went in.</p>
@@ -1009,7 +1158,7 @@ to herself to be falling down depths unmeasured, freighted with lead to keep her
 any great thing. We ain't famous, nor educated, nor rich&#x2014;we're just
 plain folks. But there's one thing we've <hi rend="italic">always</hi>
 had, and that's <hi rend="italic">char</hi>acter. I tell you, sir,
-<hi rend="italic">it 's more precious than rubies</hi>."
+<hi rend="italic">it 's more precious than rubies</hi>."</p>
 <p>Joan recognized the voice; it was that of a neighbor, a working-man, a poor, uninteresting man; nobody thought much about him, or indeed much of him; he used to take care of her furnace; she could scarcely recall his name.</p>
 <p>Her leaping heart scorched her face.</p>
 <p>"They are talking about me," she thought. She could well have changed lots with this stupid, irreproachable person, and blessed Heaven for the chance.</p>
@@ -1136,7 +1285,7 @@ urge you to do me the honor to  accept the shelter ,of my name, what people call
 <pb n="172 THE MAN IN THE CASE"/>
 where they lay upon her gray dress. Martin Luther put his head in the collie fashion upon her knee. Joan's tense fingers relaxed, and caressed the old dog unconsciously.</p>
 <p>Ray looked at the collie with a savage envy.</p>
-<p>"A man might better <hi rend="italic">be</hi> a dog," he said bitterly.<p>
+<p>"A man might better <hi rend="italic">be</hi> a dog," he said bitterly.</p>
 <p>"And yet," she breathed, "other men offer women what they call
 love!. . . I wish I could! Oh, l wish I could!. . . I <hi rend="italic">cannot</hi>," she added.</p>
 <p>"You can, because you must," he answered quickly.</p>
@@ -1204,7 +1353,10 @@ ablaze from the garden to the hollow. It seemed to her that she but turned, and 
 that his hair was gray seemed to heighten the color of his face. He was bringing water from somewhere in pails. His wife was taking books out from the library, and Annie Hammer-ton was helping her.</p>
 <p>The furnace man who said that character was more precious than rubies was trying to open the rusty piazza stop-cock which he had handled so many times. The junior deacon (who lived a few doors down the street came running around the house with a hand grenade. Through the asphyxiating smoke Joan perceived Mary Caroline helping the furnace man to drag seventy feet of hose out of the cellar. The quiet voice of Douglas Ray, raised, but perfectly controlled, dominated the unorganized good-will of the thickening crowd.</p>
 
-PICTURE HERE
+<figure entity="epman185" rend="inline">
+<p> JOAN PERCEIVED MARY CAROLINE HELPING THE FURNACE MAN DRAG ONE HUNDRED FEET OF HOSE OUT OF THE CELLAR</p>
+<figDesc> Picture included in body of Phelps's "The Man in the Case"</figDesc>
+</figure>
 
 <pb n="185 THE MAN IN THE CASE"/>
 <p>"It can't be helped," he said, "we must have the Department."</p>
@@ -1307,7 +1459,10 @@ deterring hands, he passed her and ran up into the attic. He was gone
 but a few minutes, and, glancing neither to the right nor to the left,
 he ran quickly
 
-PICTURE HERE
+<figure entity="epman197" rend="inline">
+<p>SHE DEXTEROUSLY BOUND THE WOUND</p>
+<figDesc> Picture included in body of Phelps's "The Man in the Case"</figDesc>
+</figure>
 
 <pb n="197 THE MAN IN THE CASE"/>
 down again; he passed the closed doors of Joan's house as if the sword of Paradise and exile had whirled before them.</p>
@@ -1360,7 +1515,7 @@ and Mrs. Hammerton in the dining-room. Mary Caroline can't keep them back any lo
 <pb n="204 THE MAN IN THE CASE"/>
 <div id="epman008" type="chapter" n="8"> 
 <head>CHAPTER VIII</head>
-<P>THE winter set in bitterly.
+<p>THE winter set in bitterly.
 It was colder than the
 last, and Joan, in her soitary home, found the
 practical perplexities of
@@ -1461,7 +1616,7 @@ line's awed face leaned over the banister.</p>
 <p>"Douglas, is that you? This is Joan Dare."</p>
 <milestone unit="section" rend="dots"/>
 <p>"Douglas, will you come over? At once, if you please. I need
-help&#x2014;Yes, I need <hi rend="italic">you.</hi>"
+help&#x2014;Yes, I need <hi rend="italic">you.</hi>"</p>
 <milestone unit="section" rend="dots"/>
 <p>When Ray got there, she was quite composed. Their eyes met&#x2014;his with a cruel anxiety, hers with a solemn light.</p>
 <p>"Come," she said.</p>
@@ -1510,7 +1665,7 @@ out of her throat and mouth, Joan uttered four half-strangled words.</p>
 <p>"You trusted me! You trusted me!" she sobbed.</p>
 <p>"Oh, come!" cried Douglas Ray,
 <pb n="225 THE MAN IN THE CASE"/>
-<p>"I can't have that. Change places with me, Joan."</p>
+"I can't have that. Change places with me, Joan."</p>
 <p>He stooped and lifted her to her feet, and would have knelt before her, but she could not stand upon them. So he took her in his arms instead.</p>
 <p>"We will get out of this room," he urged, "and then you shall tell me all about it."</p>
 <p>He lifted her as if she had been a woman figure escaping him or clinging to him in a beautiful, stormy dream, and carried her into the hall. There they found Mary Caroline, herself white to her Indian cheek bones.</p>
@@ -1525,7 +1680,7 @@ vant directed. Suddenly Mary Caroline seemed to have taken command of the whole 
 <p>"Have you never heard," began Joan, without looking at him,&#x2014;"about it?"</p>
 <p>"People don't gossip to me," replied Ray scornfully. "I knew there was a tragedy of some sort. I never heard its details; I never wanted to. Everybody
 <pb n="228 THE MAN IN THE CASE"/>
-believed that the boy was dead, and so did I. And so"&#x2014;
+believed that the boy was dead, and so did I. And so"&#x2014;</p>
 <p>"And so did I," repeated Joan. "I believed as everybody believed till&#x2014;that night"&#x2014;</p>
 <p>"Go on," said Ray.</p>
 <p>For she had paused in pitiable agitation.</p>
@@ -1663,7 +1818,9 @@ understand; tain't in 'em. There ain't <hi rend="italic">no</hi> woman wants to 
 <p>Softened and enhanced, Joan's haggard face looked pathetically through the illusion with which the custom of generations has blurred the eyes of a bride. Her mother's veil gave glamour to her; she had a spiritual beauty which youth, and a light heart, and freedom from care, and ignorance of suffering may never know. She seemed to float upon a silver cloud, and to sway as if uncertain whether to vanish or alight. The Scotchman gripped her hand ; he felt as if she might melt away from him.</p>
 <p>So her old minister married her and blessed her. But Mary Caroline kissed her through her mother's veil. Mary Caroline did not cry; she looked a little stupid, as if she had lost her way in a foreign land where she could not speak the language. She held out her big hand to Douglas Ray.</p>
 
-PICTURE HERE
+<figure entity="epman247" rend="inline">
+<figDesc> picture included in body of Phelps's "The Man in the Case"</figDesc>
+</figure>
 
 <pb n="247 THE MAN IN THE CASE"/>
 <p>"Who giveth this woman to be married to this man?" asked Mary Caroline in an oratorical tone, as if she were repeating an omitted part of the church service." That's me. There ain't no other mortal man I'd want to have her. But I guess you've earned her, Mr.Ray."</p>
@@ -1676,7 +1833,7 @@ his mother's Bible, and this was tucked between the leaves. You, see
 she's so wore out, I thought you'd better read it first. I don't feel
 as if I had n't orter, and I warn't er goin' ter bother <hi rend="italic">her</hi>. Thanks be to mercy, she has bore enough."</p>
 <p>Mary Caroline laid a folded note, unsealed, within Ray's outstretched hand. He read it in silence and with-out hesitation. Thus it ran:&#x2014;</p>
-<q><text><body><div type="letter" id="epman248"><p>DEAR JOAN,&#x2014;I want to be buried in the evening&#x2014;if pretty dark, so much the better, and I don't want it put off. Don't draw out the misery&#x2014;I 've made you trouble enough. Besides I don't think I shall begin to rest until
+<q><text><body><div type="letter" id="epman248"><opener><salute>DEAR JOAN,</salute></opener>&#x2014;I want to be buried in the evening&#x2014;if pretty dark, so much the better, and I don't want it put off. Don't draw out the misery&#x2014;I 've made you trouble enough. Besides I don't think I shall begin to rest until
 <pb n="249 THE MAN IN THE CASE"/>
 <p>I am under ground. I am tired of the whole thing&#x2014;of sinning, of
 suffering, of being. If I had my choice, I would never <hi
@@ -1694,7 +1851,7 @@ in the world, not another sister, anyhow, who would have crucified herself as yo
 <pb n="251 THE MAN IN THE CASE"/>
 you've stood still and let them; they have hunted you almost down&#x2014; these Christian men and women, God forgive them!&#x2014;it's more than I can do.&#x2014;I wonder if you'11 miss me any in spite of all. There's nobody else to.&#x2014;People who have n't suffered or lived say, God bless you! I say, God make more women like you&#x2014;if He can!</p>
 <p>Love me a little when you are happy, and forgive your brother,</p>
-<closer><signed><name>HARUM S. DARE.</name>.</signed></closer><lb/> 
+<closer><signed><name>HARUM S. DARE.</name>.</signed></closer></div></body></text></q>
 <p>Now it was the old minister's turn. Everything that tact and a pastor's heart could do was done for these two children of his parish&#x2014;the dead lad and the slandered woman. He caused the word of what had happened to be carried everywhere, and half of Mapleleaf came to share in the last service
 <pb n="252 THE MAN IN THE CASE"/>
 offered to the blotted memory of Harum Dare.</p>
@@ -1754,4 +1911,14 @@ known had evaded her memory, as it had retreated from her life. She
 tried to say so, but no words came.</p>
 <milestone unit="section" rend="blank-line"/> 
 <p>Martin Luther jumped from the cretonne couch with the roses, sauntered downstairs, and looked in at the library door. When he saw what he saw, his ears went flat to his head, and he hurried out into the kitchen to report the circumstance to Mary Caroline. He found her serving supper with the professional aid of the furnace man who said that character was more precious than rubies.</p>
-</div></body></text><back></back>
+</div></body>
+
+<back>
+<div id="epmanbm" type="colophon">
+<p> The Riverside Press</p>
+<p> Electrotyped and printed by H.O. Houghton &#x0026; Co.</p>
+<p> Cambridge, Mass., U.S.A.
+</p>
+</div>
+</back>
+</text>
