@@ -91,7 +91,7 @@ page images are linked to the text file.</p>
           <list>
             <item>American literature--20th Century--Fiction.</item>
             <item>Women authors, American--20th Century.</item>
-            <item>Marital Conflict.</item>
+            <item>Marital conflict.</item>
             <item>Widowhood.</item>
             <item>Motherhood.</item>
           </list>
@@ -111,13 +111,13 @@ page images are linked to the text file.</p>
   </teiHeader>
 <text id="dcsquir1202">
   <front id="dcsquir1203">
-<pb entity="dcsquirtp" pages="Title Page"/>
+<pb/>
     <titlePage type="half">
       <docTitle>
 	<titlePart type="main">THE SQUIRREL-CAGE</titlePart>
       </docTitle>
     </titlePage>
-    <div type="frontispiece" id="dcsquirfm01">
+<pb/>    <div type="frontispiece" id="dcsquirfm01">
       <figure entity="dcsquirill1" rend="inline">
 	<p>Paul stood by her, looking down into her eyes, bending
 	over her, smiling, pressing, confident, masterful (page
@@ -126,6 +126,7 @@ page images are linked to the text file.</p>
 	Squirrel-Cage"</figDesc>
       </figure>
     </div>
+<pb entity="dcsquirtp" pages="Title Page"/>
     <titlePage type="full">
       <docTitle>
 	<titlePart type="main">THE SQUIRREL-CAGE</titlePart>
@@ -140,22 +141,22 @@ page images are linked to the text file.</p>
 	PUBLISHERS</publisher>
       </docImprint>
     </titlePage>
-    <div id="dcsquirfm02" type="copyright">
+<pb/>    <div id="dcsquirfm02" type="copyright">
 	 <figure entity="dcsquirfm1" rend="inline">
 	   <figDesc>Copyright page of Dorothy Canfield's "The
 	   Squirrel-Cage"</figDesc>
 	 </figure>
     </div>
-    <div id="dcsquirtoc" type="table of contents">
+<pb/>    <div id="dcsquirtoc" type="table of contents">
       <figure entity="dcsquirfm2" rend="inline">
 	<figDesc>First Table of Contents page of Dorothy Canfield's
 	"The Squirrel-Cage"</figDesc>
       </figure>
-      <figure entity="dcsquirfm3" rend="inline">
+<pb/>      <figure entity="dcsquirfm3" rend="inline">
 	<figDesc>Second Table of Contents page of Dorothy Canfield's
 	"The Squirrel-Cage"</figDesc>
       </figure>
-      <figure entity="dcsquirfm4" rend="inline">
+<pb/>      <figure entity="dcsquirfm4" rend="inline">
 	<figDesc>List of Illustrations for Dorothy Canfield's
 	"The Squirrel-Cage"</figDesc>
       </figure>
@@ -434,7 +435,7 @@ the fortune of the day for you? Now, what kind of a day are you going to give me
 <p>Lydia continued to look at him blankly. The obscurity of his remarks was in no way lessened by this last addition,
 <pb n="41 The Dawn"/>
 but he vouchsafed no further explanation. "You've given me my breakfast," he said, holding up the grapes; "I mustn't keep you any longer from yours."</p>
-<p>He waited for a moment for Lydia to respond to this speech, struck by a sudden realization that it might sound like an unceremonious hint to her to retire, rather than the dismissal of himself he intended. When she made no answer, he turned away with a somewhat awkward gesture ,of leave-taking. Lydia looked after him in silence.</p>
+<p>He waited for a moment for Lydia to respond to this speech, struck by a sudden realization that it might sound like an unceremonious hint to her to retire, rather than the dismissal of himself he intended. When she made no answer, he turned away with a somewhat awkward gesture of leave-taking. Lydia looked after him in silence.</p>
 </div>
 <div id="dcsquir1005" type="chapter" n="5">
 <head>CHAPTER V<lb/>
@@ -3253,7 +3254,7 @@ chair."</p>
 <p>"And your beard is as wet as--" She broke off to explain to herself: "Oh, it's rain, of tourse. I forgot it's raining. <hi rend="italic">Now</hi> I remember how to <hi rend="italic">really</hi> go all to sleep. I did before. I listen to it going patter, patter, patter, patter--" The little voice died away.</p>
 <p>There was no sound at all in the room but the swift, light voice of the watch calling out that Time, Time, Time can cure all, can cure all, can cure all--and outside the brooding murmur of the rain.</p>
 <p>A faint, clear gray began to show at the windows.</p>
-<trailer>THE END</trailer>
+<trailer rend="center">THE END</trailer>
 </div>
 </div>
 </body>
