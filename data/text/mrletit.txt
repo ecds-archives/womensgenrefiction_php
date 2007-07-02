@@ -1,8 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" 
+"./tgfw-tei.dtd"> 
+<TEI.2 id=""> 
+<teiHeader id=""> 
+<fileDesc> 
+<titleStmt> 
+<title>The Amazing Adventures of Letitia Carberry, an electronic edition</title> 
+<author><name type="person" reg="Rinehart, Mary Roberts, 1876-1958">Charles Egbert Craddock</name></author> 
+</titleStmt> 
+<extent></extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability> 
+<p>&#x00A9; 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p> </availability> </publicationStmt> 
+<seriesStmt> 
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt> <name>Sheila T. Cavanagh</name> 
+<name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp> 
+</respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl><author>Rinehart, Mary Roberts</author>. <title>The Amazing Adverntures of Letitia Carberry</title>. <pubPlace>Indianapolis</pubPlace>: <publisher>The Bobbs-Merrill Company</publisher>, <date>1911</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> 
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p> 
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">United States</rs> 
+<date>1900-1999</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>American literature--20th Century--Fiction.</item> 
+<item>Women authors, American--20th Century.</item> 
+<item>Female detective.</item> 
+<item>Murder fiction.</item> 
+<item>Spinsters fiction</item>
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-July-2</date> 
+<respStmt> 
+<name>Shruthi Vissa</name> 
+<resp>Encoder.</resp> 
+</respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
 <text>
 <front>
+<pb n="[i]"/>
+<div id="mrletitfm1" type="frontispiece">
+<figure entity="mrletitill" rend="inline">
+<figDesc> Illustration included in front of Rinehart's "The Amazing Adventures of Letitia Carberry"</figDesc>
+</figure>
+</div>
+<pb n="[ii]"/>
+<pb entity="mrletittp" pages="title page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> <hi rend="italic"> The </hi> AMAZING <lb/>ADVENTURES OF <lb/> LETITIA CARBERRY</titlePart>
+</docTitle>
+<byline> <hi rend="italic">By</hi> <docAuthor> MARY ROBERTS RINHART </docAuthor> <hi rend="italic"> Author of</hi> <lb/> WHEN A MAN MARRIES<lb/> THE CIRCULAR STAIRCASE <lb/> THE MAN IN LOWER TEN <lb/> THE WINDOW AT THE WHITE CAT, ETC. </byline>
+<titlePart type="desc"> ILLUSTRATIONS BY <lb/> HOWARD CHANDLER CHRISTY </titlePart>
+<docImpint>
+<pubPlace> INDIANAPOLIS</pubPlace>
+<publisher> THE BOBBS-MERRILL COMPANY<lb/> PUBLISHER</publisher>
+</docImpint>
+</titlePage>
+
+<pb n="[iii]"/>
+<div id="mrletitfm2" type="copyright">
+<figure entity="mrletittpv" rend="inline">
+<figDesc> Copryright page for Rineheart's "The Amazing Adventures of Letitia Carberry"</figDesc>
+</figure>
+</div>
+
+<pb n="[iv]"/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> THE <lb/> AMAZING ADVENTURES OF <lb/> LETITIA CARBERRY</titlePart>
+</docTitle>
+</titlePage>
+</front>
+<pb/>
+<group>
+<text>
 <body>
-<div id="mrletit001" type="part" n="1">
 <pb n="1"/>
+<div id="mrletit100" type="part" n="1">
 <div id="mrletit001" type="chapter" n="1">
 <head>
 THE AMAZING ADVENTURES OF LETITIA CARBERRY<lb/>
@@ -25,7 +149,7 @@ though she grew sarcastic when Aggie casually remarked that except for the meeti
 <p>"No," she snapped. "Go out in the hall and see what has happened."</p>
 <p>Miss Lewis yawned again and groped around in the half light for her slippers. It was more than Tish could stand. She hopped out of bed in her bare feet and limped to the door.</p>
 <p>The hall was almost dark and across it the woman with the appendix--or with<hi rend="italic">out</hi>--was groaning. But half way along, where the night nurse has her desk and keeps her papers and where the annunciator for the patients' bells is fastened to the wall, Tish saw a group
-<pb n="4     OF LETITIA CARBERRY"/>
+<pb n="5     OF LETITIA CARBERRY"/>
 of five or six nurses, gathered about somebody in a chair. One of them came running past with a glass of something, and the crowd opened to admit the girl and the glass and closed again. Miss Lewis came and looked over Tish's shoulder.</p>
 <p>"Gee!" she said, and ran down the hall with her slippers flapping and her braid switching from side to side. Just then the woman across gave another groan, and it being dark and the scream still echoing in her ears, Tish reached inside the door for her cane and hobbled out in her nightgown.</p>
 <p>The girl in the chair, she said, was as white as milk, and her lips were blue. She was half-lying, with her head against the back of the chair, and a violent shudder now and then was the only sign of life about her. One of the other nurses was stroking her hands and talking to her in a soothing tone.</p>
@@ -40,7 +164,9 @@ here. It's the nervous strain and loss of sleep. I'll never forget the first tim
 herself. "Then, if it's true, <hi rend="italic">it</hi> is
 still--?"</p>
 
-PICTURE GOES HERE
+<figure entity="mrletit7" rend="inline">
+<figDesc> Picture included in body of Rinehart' s "The Amazing Adventures of Letitia Carberry"</figDesc>
+</figure>
 
 <pb n="7     OF LETITIA CARBERRY"/>
 <p>"Yes."</p>
@@ -324,7 +450,7 @@ half the ceiling about your head in a minute. And yet, look at that, hardly bent
 <p>"Pretty extravagant of material, aren't they?" she said. "No Ladies' Aid that I ever saw would put more than two yards of twelve-cent stuff in a roller towel. Look at the weight of that, and the length!"</p>
 <p>"There's something on it," I said, and we looked together. What we found were only, three letters, stamped in blue ink.</p>
 <p>"S. P. T.?" said Tish. "What in creation is S. P. T.?"</p>
-<p>She sat down with the towel in her hand, and we puzzled over it together.
+<p>She sat down with the towel in her hand, and we puzzled over it together.</p>
 <pb n="45     OF LETITIA CARBERRY"/>
 <p>"It's the initials of the sewing circle that sent it in," I asserted. "That S. stands for Society."</p>
 <p>"I've got it," said Tish. "Society for the Prevention of Tetanus."</p>
@@ -450,7 +576,7 @@ CANDLE AND SKYLIGHT</head>
 <p>"Personally," Tommy remarked, balancing his teaspoon across the bridge of his nose, and holding his head far back to do it, "personally, I'm glad she only saw--or felt--a foot. It proves her really remarkable quality of mind. The ordinary woman, in a stew like that, would have seen an entire corpse, not to mention smelling sulphur."</p>
 <p>Tish took the spoon off his nose and gave him a smart slap on the ear.</p>
 <p>"Thomas!" she said, "you will either be serious or go home. Do you remember what we
-<pb n="52     THE AMAZING ADVENTURES"/>
+<pb n="62     THE AMAZING ADVENTURES"/>
 told you about the room upstairs, a <hi rend="italic">foot</hi>-mark on the wall not three feet from the ceiling?"</p>
 <p>Tommy nodded, with both hands covering his ears.</p>
 <p>"Do you realize," Tish went on, "that <hi rend="italic">that</hi> room is directly over the one Aggie is occupying?"</p>
@@ -502,7 +628,9 @@ went out immediately, and we heard footsteps running away from us.</p>
 broken skylight all around him.</p>
 </div>
 
-PICTURE GOES HERE
+<figure entity="mrletit69" rend="inline">
+<figDesc> Picture included in body of Rinehart's "The Amazing Adventures of Letitia Carberry"</figDesc>
+</figure>
 
 <pb n="69"/>
 <div id="mrletit007" type="chapter" n="7">
@@ -577,6 +705,7 @@ notice one thing. The most of the excitement has been around where you are. Mayb
 <p>Nevertheless, Miss Lewis had set me to thinking.</p>
 </div>
 <pb n="79"/>
+<div id="mrletit008" type="chapter" n="8">
 <head>CHAPTER VIII<lb/>
 OVERHEARD IN THE DORMITORY</head>
 <p>AGGIE'S hay fever was bad that morning, and she stayed in bed. Tish and I went in and sat with her after breakfast, and she was very disagreeable.</p>
@@ -896,7 +1025,9 @@ other! Aggie was, as usual, oblivious and quite calm.</p>
 <hi rend="italic">that</hi> and morning, I was here four times. Where
 were you?"</p>
 
-PICTURE GOES HERE
+<figure entity="mrletit123" rend="inline">
+<figDesc> Picture included in body of Rinehart's "The Amazing Adventure of Letitia Carberry"</figDesc>
+</figure>
 
 <pb n="123     OF LETITIA CARBERRY"/>
 <p>"I was safe," she said. "Why do you question me so?"</p>
@@ -975,7 +1106,9 @@ declaring that something awful was going to happen, that being the tune they had
 <p>"I don't for the life of me see what you are bleating about," she snapped. "If you argue from hearing that tune that he's coming back to-night, there will be more ghosts walking that this hospital can hold. It's been sung at a good many funerals. And another thing, if he was as good as you think he was, he's sitting around with a harp, learning celestial melodies, not coming back to string up innocent corpses with roller towels, and break skylights. It's only the bad ones that aren't satisfied where they are and come back."</p>
 <p>It is hard to say just. why that line of reasoning made Aggie dry her tears, but it did, and she sat up and finished her buttermilk.
 
-PICTURE GOES HERE
+<figure entity="mrletit135" rend="inline">
+<figDesc> Picture included in body of Rinehart's "The Amazing Adventures of Letitia Carberry"</figDesc>
+</figure>
 
 <pb n="135     OF LETITIA CARBERRY"/>
 It was when I was reaching her the crackers that I heard a creak, and knew that somebody had stealthily opened the door into the nurses' dormitory. Tish heard it, too, and put down her crocheting.</p>
@@ -1094,13 +1227,13 @@ voice trailed off to nothing. She looked frightened.</p>
 <p>"So I may," said Tish cheerfully. "And if you are around he'll say you were away a scant ten minutes and if he's alone, he'll swear to an hour or more."</p>
 <p>"It was less than an hour, I'd swear to that
 <pb n="152     THE AMAZING ADVENTURES"/>
-anywhere," said Miss Durand. "It couldn't have taken so long!"
-"What couldn't have taken so long?" Tish demanded.
+anywhere," said Miss Durand. "It couldn't have taken so long!"</p>
+<p>"What couldn't have taken so long?" Tish demanded.</p>
 Miss Durand looked around at the three of us and seemed to be thinking.
-"What do you mean by saying I'd better tell you than tell the police?" she asked.
-"Just this," Tish said briskly getting out her sheet of note-paper. "I flatter myself I can see as far through a stone wall as most people, especially if there's a crack to look through. I've been looking at this particular stone wall off and on since four o'clock this morning, and--well, I think I begin to see daylight."
-"Humph!" said Aggie. "Then the least I can say, Tish--"
-"Now, Miss Durand," Tish began, biting a point on her pencil. "We'll get at this systeniatically. Did Briggs have any enemies in K Ward?" i
+<p>"What do you mean by saying I'd better tell you than tell the police?" she asked.
+"Just this," Tish said briskly getting out her sheet of note-paper. "I flatter myself I can see as far through a stone wall as most people, especially if there's a crack to look through. I've been looking at this particular stone wall off and on since four o'clock this morning, and--well, I think I begin to see daylight."</p>
+<p>"Humph!" said Aggie. "Then the least I can say, Tish--"</p>
+<p>"Now, Miss Durand," Tish began, biting a point on her pencil. "We'll get at this systeniatically. Did Briggs have any enemies in K Ward?" </p>
 <pb n="153     OF LETITIA CARBERRY"/>
 <p>"He wasn't popular. I guess old Johnson hated him about the most."</p>
 <p>"Ah!" said Tish, and put that down. "Did you know Johnson was dying when you left the ward?"</p>
@@ -1166,7 +1299,7 @@ thought better of it, and went to Aggie's rooni. Tish drew a long sigh.</p>
 <p>Well, Miss Lewis and Aggie off our hands, Tish emptied the lower drawer and spread its contents on the floor in front of her. First of all, she laid out the two roller towels, with the S. P. T. showing. Then followed the brown tweed coat, secured by a dollar to Jacobs, the small surgeon's knife, the dented brass candlestick, the bandage Linda Smith had picked up in the upper hall, the linen
 <pb n="161     OF LETITIA CARBERRY"/>
 room key, and Charlie Sands' letter about Hero at the Zoo. Then with the sheet of notepaper in her hand, she began to play a sort of checkers with the different things. The two S. P. T. towels she put together and using this combination as a king, she proceeded to jump the other articles, one by one, moving them around aimlessly in the intervals and consulting her notes.</p>
-At the end of the game, as well as I could make out, the king had it. At least, the two towels seemed to have Charlie Sands' letter checkmated in a corner, and the other articles lay in a humiliated heap on Tish's lap.</p>
+<p>At the end of the game, as well as I could make out, the king had it. At least, the two towels seemed to have Charlie Sands' letter checkmated in a corner, and the other articles lay in a humiliated heap on Tish's lap.</p>
 <p>"Well," I said, "I see the towels win, although I think you cheated once."</p>
 <p>Tish stuffed the notes into the bosom of her dress and tumbled the other things back in the drawer. Then she got up, making horrible faces as she straightened her knee.</p>
 <p>"I'm sorry it's raining, Lizzie," she said. "We'll have to go out."</p>
@@ -1282,7 +1415,7 @@ her about it, and I won't have her questioned by anybody else. If I'm satisfied,
 <p>"Why, so you have!" said Tish. "Shut the door behind you." And as Aggie, who was the last, slammed out, we heard Tish opening the lower bureau drawer.</p>
 </div>
 <pb n="176"/>
-<div id="mrletit017" t ype="chapter" n="17">
+<div id="mrletit017" type="chapter" n="17">
 <head>CHAPTER XVII<lb/>
 ON THE ROOF AND ELSEWHERE</head>
 <p>WE came back in an hour to find Tish waiting with her bonnet still on, and in a more agreeable frame of mind. She asked Tommy and me to go around the hospital with her, but refused to take Aggie, who retired sulking to her room. Tish rolled the S. P. T. towels and led the way herself, a strange gleam in her eye. Considering what she had in mind, it was a courageous thing she was doing, but I don't mind admitting now that there were moments that day when I thought she had lost her reason.</p>
@@ -1332,7 +1465,7 @@ It isn't being done in our set this winter, Aunt Tish."</p>
 <p>The next moment there began, from above, a shower of sticks, pieces of plaster, and finally, a small creature that looked like, and proved to be, a dead rabbit. Aggie began to scream and to tear at the elevator doors, but luckily they held.</p>
 <p>Well, as the newspapers have told, the idiot of an elevator man kept on to the first floor in his excitement, and it's a great wonder Tish
 <pb n="184     THE AMAZING ADVENTURES"/>
-was not brained. But nothing hit her, and she got to the lower floor in safety. If she had waited until the cage was lowered sufficiently, she would not have been hurt, but just as the top was still four feet from the floor, the rabbit landed, and Tish jumped and broke her arm.
+was not brained. But nothing hit her, and she got to the lower floor in safety. If she had waited until the cage was lowered sufficiently, she would not have been hurt, but just as the top was still four feet from the floor, the rabbit landed, and Tish jumped and broke her arm.</p>
 </div>
 <pb n="185"/>
 <div id="mrletit018" type="chapter" n="18">
@@ -1372,14 +1505,14 @@ giving me the four, and asking me whether you reached that conclusion by adding 
 <p>"By exactly <hi rend="italic">what</hi> mental process did you connect the two?" he asked, wriggling his nose.</p>
 <p>"I didn't," said Tish calmly. "While you
 <pb n="191     OF LETITIA CARBERRY"/>
-and your men were measuring finger-prints and reassembling Mr. Johnson from where he'd been scattered to, I did what any person with common sense would have done, <hi rend="italic">I went to Miss Blake and asked her!</hi>"
+and your men were measuring finger-prints and reassembling Mr. Johnson from where he'd been scattered to, I did what any person with common sense would have done, <hi rend="italic">I went to Miss Blake and asked her!</hi>"</p>
 </div>
 <pb n="192"/>
 <div id="mrletit019" type="chapter" n="19">
 <head>CHAPTER XIX<lb/>
-NOTE BY DOCTOR THOMAS ANDREWS, LATE VIS&#x2014<lb/>
-ITING PHYSICIAN AT THE DUNKIRK HOSP&#x2014<lb/>
-ITAL, AND NOW ON THE ORTHOP&AEligDIC<lb/> 
+NOTE BY DOCTOR THOMAS ANDREWS, LATE VIS&#x2014;<lb/>
+ITING PHYSICIAN AT THE DUNKIRK HOSP&#x2014;<lb/>
+ITAL, AND NOW ON THE ORTHOP&AElig;DIC<lb/> 
 STAFF OF THE SAME INSTITUTION,<lb/> 
 DATED THREE WEEKS LATER,<lb/> 
 FROM BERMUDA</head>
@@ -1448,15 +1581,23 @@ closet again, where he smoked Briggs' pipe, perhaps in itself the object of the 
 <p>"The rest of the story we know. Barker was found, exhausted and half starving, and was promptly put in a padded cell, where, a week later, he died, probably from an infection, having cut his left foot badly, possibly with the very knife that killed the laboratory guinea-pigs. The injured foot, which he had crudely bandaged, probably explains why only prints of a right foot were discovered. With the removal of suspense Miss Blake recovered, and is now with me, enjoying the lilies and onion fields of Bermuda. My Aunt Letitia is at Mount Clemens, taking a series of baths and--I am informed by Miss Lizzie--carrying
 <pb n="208     THE AMAZING ADVENTURES"/>
 on what she believes is a clandestine correspondence with the Wright
-brothers. Miss Aggie's hay fever left with the first frost. I am sorry to say that Miss Linda Smith has never been heard from."</p>
-</div>
-</div>
-<div id="mrletit002" type="part" n="2">
-<head>THE AMAZING ADVENTURES OF<lb/> 
-LETITIA CARBERRY<lb/>
-PART TWO</head>
+brothers. Miss Aggie's hay fever left with the first frost. I am sorry to say that Miss Linda Smith has never been heard from."</p></div></div> </body> </text>
+<!-- can't find missing page break that underlined div is alluding to -->
+<pb/>
+<pb/>
+<text>
+<front>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> THE <lb/>AMAZING ADVENTURES OF<lb/> LETITIA CARBERRY</titlePart>
+<titlePart type="sub"> PART TWO</titlePart>
+</docTitle>
+</titlePage>
+</front>
+<body>
+<div id="mrletit200" type="part" n="2">
 <pb n="209"/>
-<div id="mrletit201" type="chapter" n="201">
+<div id="mrletit020" type="chapter" n="1">
 <head>CHAPTER I<lb/>
 A CIGARETTE CASE, A SHOE, AND A MENU CARD</head>
 <p>IT was three o'clock in the morning when we got back to the lake, and it was twenty minutes before Carpenter heard us and started the ferry across. Tish had lost her glasses in the excitement at the Sherman House, and she did not see that Carpenter had forgotten to put the bar across the end of the boat. Aggie and I screamed, but it was too late: she drove the car down the bank in the moonlight and she did not stop in time. The first we knew we were sitting waist-deep in Lake Penzance, with Tish still holding the steering wheel and the stars making little twinkles in our laps.</p>
@@ -1519,7 +1660,7 @@ world loves a lover,' and Cousin Maggie has been reading Ella Wheeler Wilcox dil
 <p>I have always thanked Heaven that at that moment her Willie fell off the dock, and al-
 <pb n="219     OF LETITIA CARBERRY"/>
 though the child was not drowned, still, as Tish wrote to Maria Lee, her niece, "he had swallowed enough water to wash the initials off the tablets of his mother's memory." And so far as we know, although the papers came out with great headlines about the marriage, and another article about the post-office having been robbed--we had nothing whatever to do with that--and about three men disguised as women making their escape toward Canada in a red automobile and having run over a pig at Dorchester Junction--I told Tish at the time it was a pig, but she insisted it was a cow--although the papers came out with all this, nobody ever suspected the truth except Carpenter. He happened to find a menu from the Sherman House at Noblestown floating in. the body of the car, and the good-for-nothing took a trip to the city and traced us.</p>
-<p>He did not say anything, but about a week later he came to the cottage and put a package on the table in the kitchen.
+<p>He did not say anything, but about a week later he came to the cottage and put a package on the table in the kitchen.</p>
 <pb n="220     THE AMAZING ADVENTURES"/>
 <p>"It's been puzzlin' me for four days, Miss Lizzie," he said, fumbling with the string of the bundle. "I sez to Mrs. C., sez I, 'It ain't possible,' I sez. 'She sez she lost her shoe when the automobile went into the water, and she's a truthful woman; and yet, two days after, the chambermaid at the Sherman House finds it high and dry under a bureau, forty miles away. It's spooky, I sez."
 Aggie was pouring hot water into the teapot, and she kept on pouring till it went all over the place.</p>
@@ -1532,7 +1673,7 @@ Aggie was pouring hot water into the teapot, and she kept on pouring till it wen
 swallow my tongue backward. And the shoe ain't the tongue kind."</p>
 </div>
 <pb n="222"/>
-<div id="mrletit202" type="chapter" n="202">
+<div id="mrletit021" type="chapter" n="2">
 <head>CHAPTER II<lb/>
 A BLUE RUNABOUT AND A BAD BRIDGE</head>
 <p>BOTH Aggie and I had objected when Tish talked of buying an automobile. But the more you talk against a thing to Tish the more she wants it. It was just the same the time her niece, Maria Lee, went to Europe for the whole summer and offered Tish her motor-boat. Aggie and I protested, but the boat came, and Tish had a lesson or two and sent to town for a yachting cap. Then, one day when we were making elderberry jelly and ran out of sugar, Tish offered to take me to the mainland in the boat. That was the time, you remember, when the stopping lever got jammed, and Tish and I circled around Lake Penzance for seven hours, with people on different docks trying to lasso us with ropes as we
@@ -1670,7 +1811,7 @@ root. You're very much mistaken if you think I'm going to walk to that telephone
 <p>"Cash in advance," said the creature; and, pumping enough into a tin basin to have cooled me inside and out, she put it down for the dog to drink!</p>
 </div>
 <pb n="243"/>
-<div id="mrletit203" type="chapter" n="203">
+<div id="mrletit023" type="chapter" n="3">
 <head>CHAPTER III<lb/>
 A DIFFERENCE OF OPINION AND A BARGAIN</head>
 <p>I HAVE always felt that we did the right thing that night. It was all very well for Charlie Sands, Tish's nephew, when he heard the story, to say: "And they talk about giving women the vote! Why, for sense they would substitute sentiment; they would buy their opinions at the department stores along with their bargains, and a little two-penny love affair could upset the Government!"</p>
@@ -1699,7 +1840,9 @@ Tish's machine around a curve. No one would have guessed from the front end of t
 eyed our machine critically. "I might go to the nearest telephone and
 have help sent out from town, but as it's almost sunset it's pretty late
 
-PICTURE GOES HERE
+<figure entity="mrletit247" rend="inline">
+<figDesc> Picture included in body of Rinehart's "The Amazing Adventures of Letitia Carberry"</figDesc>
+</figure>
 
 <pb n="247     OF LETITIA CARBERRY"/>
 for that; or, with a jack and a little help, we might fix it ourselves."</p>
@@ -1712,7 +1855,7 @@ for that; or, with a jack and a little help, we might fix it ourselves."</p>
 off his coat and fell to work immediately. Once, when he had raised the car on the jack and Tish was holding the ends of the boards that he shoved under, while Aggie and I pushed, something gave way and the whole thing settled back with a jerk. Mr. Lewis--that was his name--lifted the broken fence-rails off Tish and helped her to her feet.</p>
 <p>"There's something almost alive about automobiles occasionally," he said. "They are so blamed vicious."</p>
 <p>"If it was alive," Tish gasped, hunting for her glasses, "I'd kill it." But it never occurred to her that she was going to drown it that very night!</p>
-<p>By seven o'clock we had lifted the thing on five fence-rails and the breadboard sign, and Mr. Lewis announced it was now or never. The girl had not come near us. She had taken off her veil and smoothed up her hair, and was busy with a bit of a silver mirror. She was very pretty
+<p>By seven o'clock we had lifted the thing on five fence-rails and the breadboard sign, and Mr. Lewis announced it was now or never. The girl had not come near us. She had taken off her veil and smoothed up her hair, and was busy with a bit of a silver mirror. She was very pretty.</p>
 <pb n="249     OF LETITIA CARBERRY"/>
 <p>Mr. Lewis got into the car and put on the power. There was a terrible grinding, but nothing moved. From behind, the three of us shoved, and Aggie said between gasps that if anything gave way her niece was to have her amethyst pin.</p>
 <p>"Anne!" cried the young gentleman. But Miss Anne was powdering her nose and we all saw her turn it up.</p>
@@ -1728,7 +1871,7 @@ off his coat and fell to work immediately. Once, when he had raised the car on t
 it--not to her, of course, but casually to us--she whistled to her dog and started to limp down the road. You can't do anything with a girl in that state of mind. I took her in the tunneau with me, and Aggie, who prefers a love affair to a scandal and always reads the marriage licenses with the obituaries--Aggie went in the blue car to keep Mr. Lewis from being lonely.</p>
 </div>
 <pb n="252"/>
-<div id="mrletit204" type="chapter" n="203">
+<div id="mrletit024" type="chapter" n="4">
 <head>CHAPTER IV<lb/>
 THE APPETIZERS AND THE HOTEL BUREAU</head>
 <p>WE didn't talk very much. Tish was anxious to show she could drive, for all she had sat us down in a ditch, and after she took a wrong turning and stampeded a herd that was being milked in a barnyard, I could not keep my mind off the road. Once I looked at the girl, and there were tears running down her nose and dropping into her lap. I gave her my smelling salts, which I always carry in Tish's machine, and after a while she reached over and slid her hand into mine.</p>
@@ -1790,10 +1933,12 @@ each other and smiled in a sickly way. We felt foolish. But Tish wasn't satisfie
 <p>"Don't, for God's sake, ladies!" it said.</p>
 </div>
 
-PICTURE GOES HERE
+<figure entity="mrletit263" rend="inline">
+<figDesc> Picture included in body of Rinehart's "The Amazing Adventures of Letitia Carberry"</figDesc>
+</figure>
 
 <pb n="263"/>
-<div id="mrletit205" type="chapter" n="205">
+<div id="mrletit025" type="chapter" n="5">
 <head>CHAPTER V<lb/>
 THE REPORTER AND THE RED-HAIRED MAN</head>
 <p>I SCREAMED, and, as was perfectly natural, I backed away from the thing. My foot tripped over Tish's water-pitcher, and my sitting down was what wakened Aggie. She says she never will forget how she felt when she saw me prostrate and Tish holding a chair aloft and begging the bureau to come out so she could brain it. Of course she thought Tish had gone crazy, what with the sun and excitement of the day.</p>
@@ -1816,7 +1961,7 @@ a human figure crawl out of that place on its hands and knees, and opened her mo
 this room, after the banquet, a bribe is going to be offered. That bureau has been ready for a month. Ladies, I implore you, go back to the other room!"</p>
 <p>It was too late. At that moment there were voices in the hall and somebody put a key into the lock of the door. There was no time to put the light out. The young man dropped behind the foot of the bed, the door swung open and a red-haired man stepped into the room.</p>
 <p>"Suffering cats!" he exclaimed.</p>
-<p>"Go out immediately!" I said, pointing to the door. Tish was unwinding herself from the counterpane. She took it off airily and flung it over the foot of the bed, so that it covered the young man. It looked abandoned, but the necessity was terrible. As Tish said afterward, fifty years of respectable living would not have prevented the tongue of scandal licking up such a spicy morsel as that compromising situation.
+<p>"Go out immediately!" I said, pointing to the door. Tish was unwinding herself from the counterpane. She took it off airily and flung it over the foot of the bed, so that it covered the young man. It looked abandoned, but the necessity was terrible. As Tish said afterward, fifty years of respectable living would not have prevented the tongue of scandal licking up such a spicy morsel as that compromising situation.</p>
 <pb n="267     OF LETITIA CARBERRY"/>
 <p>The red-haired man retreated a step or two, opened the door part way, and went out and looked at the number. Then he came in again.</p>
 <p>"Madam--ladies," he said, "this room belongs to me. There must be some mistake."</p>
@@ -1843,7 +1988,7 @@ repeated to her afterward, when we had stolen--but that is coming soon.</p>
 <p>We did. Aggie unlocked the connecting door and brought back the key to our old room and the things she had left on the gas-jet. In the excitement she threw the key on the dresser and was just about to reach the other articles through the crack in the door when Tish caught her arm.</p>
 </div>
 <pb n="270"/>
-<div id="mrletit206" type="chapter" n="206">
+<div id="mrletit026" type="chapter" n="6">
 <head>CHAPTER VI<lb/>
 A BRIBE AND A BRIDE AND IT'S ALL OVER</head>
 <p>NOW I am not defending what followed. But the Lewis man had been nice to us, and, as Tish said tartly to Charlie Sands, women who had lived in single blessedness as long as we had, learned to think quick and act quicker. As to the law, we sent a check to the farmer whose pig we killed-and with pork at its present price it was ruinous, although we were glad it had not been a cow; and as to using our missionary money to make up for the packet Aggie lost--as we said, we considered that it had been used in missionary work. It was hardest, of course, on the <hi rend="italic">Morning Star</hi> reporter. Only a week or so ago we had to go to Noblestown to get a new handle for the meat-chopper. We were in the machine outside the store, and when we saw him
@@ -1937,15 +2082,25 @@ its arms. The smaller one went into them with a little cry, and they stood there
 <p>"Bless their dear, romantic hearts!" said the girl. I was glad Tish was asleep.</p>
 <p>"They should have been pirates!" said the man. "They are true old sports. I suppose they've had their catnip tea by now and are sound asleep. Beloved!" he said, and held out his arms again.</p>
 <p>Pirates! I went back to bed in a rage, but I couldn't sleep. Somehow I kept seeing that young idiot holding out his arms, and I felt lonely. Finally I filled the hot-water bottle and put it at my back.</p>
-<p>"It's all over, Aggie!" I called--but the only response was a snore that turned into a sneeze.</p>
+<p>"It's all over, Aggie!" I called--but the only response was a snore that turned into a sneeze.</p></div>
 </div>
-</div>
-<div id="mrletit003" type="part" n="3">
-<head>THE AMAZING ADVENTURES OF<lb/> 
-LETITIA CARBERRY<lb/>
-PART THREE</head>
+</body>
+</text>
+<pb/>
+<text>
+<front>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> THE <lb/> AMAZING ADVENTURES OF <lb/> LETITIA CARBERRY</titlePart>
+<titlePart type="sub"> PART THREE</titlePart>
+</docTitle>
+</titlePage>
+</front>
+<pb/>
+<body>
+<div id="mrletit300" type="part" n="3">
 <pb n="285"/>
-<div id="mrletit301" type="chapter" n="301">
+<div id="mrletit027" type="chapter" n="1">
 <head>CHAPTER I<lb/>
 THE GREEN KIMONO</head>
 <p>NOTHING would have induced me to tell the scandalous story had it not been for Letitia's green kimono. But when it was found at the Watermelon Camp, two miles from our cottage, hanging to the branch of a tree, instead of the corduroy trousers and blue flannel shirt that one of the campers said he had hung there overnight, it seemed to require explanation. For <hi rend="italic">one of the men at the Watermelon Camp knew the kimono.</hi></p>
@@ -2005,7 +2160,7 @@ down again, "but--but the wretches didn't believe me!"</p>
 <p>At least Aggie said it was mange: her parrot had the same moth-eaten look before it died. But Tish has always maintained that it was fleas. She says they breed in the grass, and attack dogs in swarms in hot weather.</p>
 </div>
 <pb n="295"/>
-<div id="mrletit302" type="chapter" n="302">
+<div id="mrletit028" type="chapter" n="2">
 <head>CHAPTER II<lb/>
 IT WAS THE DOG</head>
 <p>THE dog was put ashore under our very noses, by the crew of a passing launch. We were knitting on our veranda that afternoon, looking across at Sunset Island, which is four miles away. Carpenter was not in sight, and from down the beach came the yells and splashes that told that the college boys at the Watermelon Camp were bathing. We were sitting with our backs to them, when Tish said suddenly:</p>
@@ -2027,7 +2182,7 @@ camp had disappeared; Carpenter's cabin was closed and locked. At tea time the d
 <p>About eight o'clock that evening, while the creature was gnawing at a leg of the diningroom table, we held a whispered conference, and Tish came forward with a plan. It was very daring, and Aggie immediately objected. "It's all very well," she said, "to sit here in a rocking-chair and talk about rowing four miles to Sunset Island, with not one of us knowing anything about a boat, and Lizzie told by that fortune teller last spring that she would die by drowning. Not only that. <hi rend="italic">How are you going to get the dog into the boat?"</hi></p>
 <p>Tish leaned forward cautiously. The Dog was still gnawing in the next room.</p>
 <pb n="299     LETITIA CARBERRY"/>
-<p>"Chloroform him!" she whispered. "Wait until he gets sleepy. Then take Lizzie's bath sponge, soak it with your chloroform liniment, Aggie, and when he's stupefied, carry him down and dump him in the boat."
+<p>"Chloroform him!" she whispered. "Wait until he gets sleepy. Then take Lizzie's bath sponge, soak it with your chloroform liniment, Aggie, and when he's stupefied, carry him down and dump him in the boat."</p>
 <p>"Why not let Carpenter do it, in the morning?" Aggie objected. She was green with nervousness.</p>
 <p>"Carpenter!" Tish snorted. "If he ever sees that flea-bitten creature he will keep him."</p>
 <p>(Carpenter, being an original settler, had never subscribed to the liquor, phonograph and dog clause.)</p>
@@ -2039,7 +2194,9 @@ the dog was awake and had eaten part of the sponge. It was a terrible disappoint
 <p>At the last minute Tish had a spell of conscience and hunted up a bottle of cleaning fluid to put in the boat.</p>
 <p>"It's mostly gasoline," she said. "If it's
 
-PICTURE GOES HERE
+<figure entity="mrletit301" rend="inline">
+<figDesc> Picture included in body of Rinehart's "The Amazing Adventures of Letitia Carberry"</figDesc>
+</figure>
 
 <pb n="301     OF LETITIA CARBERRY"/>
 mange it won't do any harm, and if it's fleas it will kill them. We can put it on just before we leave him on Sunset Island. You start pouring it at his nose and work along his back. The fleas will drop off his tail. Every creature deserves a chance."</p>
@@ -2059,7 +2216,7 @@ water and stood waving its arms. Then it gave a gurgle or two, choked, coughed a
 <p>Then she thtalked--stalked, I mean, up to the house. Tish was furious, but luckily, I have a sense of humor. With Aggie's soul hanging fire, so to speak, I sat down on the clock in the rain and laughed. That was the beginning of my deterioration; from that instant, when I braved rheumatism and Tish's displeasure, to that later moment just at dawn, when we came back to the dock again, draggled, dirty and guilty, I was forty-nine years young, reckless, disdainful of consequences, unmindful of wet feet and the proprieties, forgetful even of law and order. That awful, glorious night, when young Love--but that's the story.</p>
 </div>
 <pb n="304"/>
-<div id="mrletit304" type="chapter" n="304">
+<div id="mrletit029" type="chapter" n="3">
 <head>CHAPTER III<lb/>
 A WET YOUNG MAN</head>
 <p>WELL, Tish and I got the boat loose, and Tish dropped the scissors into the water. Then when we got in, Tish insisted on rowing with her face to the bow of the boat. She said she couldn't see where she was going if she didn't, which, of course, was true enough. We dragged the dog in by his tail and then sat and waited for Aggie. When she did come she was sulky, and almost the only words she said that entire night were "Kill him!" And that was under stress of great excitement, at three o'clock in the morning.</p>
@@ -2144,7 +2301,7 @@ hauled into the motor-launch, the <hi rend="italic">Witch Hazel</hi> slid greasi
 <p>(The loss of the <hi rend="italic">Witch Hazel</hi> was deplorable, and later on we sent Carpenter, anonymously, money to buy a new boat. He has one, which he calls the <hi rend="italic">Urticaria</hi>, but the ghost of the <hi rend="italic">Witch Hazel</hi> still walks, a sort of Pond's Extract in his memory.)</p>
 </div>
 <pb n="317"/>
-<div id="mrletit304" type="chapter" n="304">
+<div id="mrletit034" type="chapter" n="4">
 <head>CHAPTER IV<lb/>
 CLEANING FLUID TO THE RESCUE</head>
 <p>IT was some time before we could realize that eternity had ceased staring us in the face and had taken a back seat, so to speak. The first thing Tish said was that, man or no man, her shoes were going to come off, and while Aggie was wringing alternately her hands and her petticoats, I happened to notice the Shawl Man. He was standing holding his garment around him and staring over the dark water ahead.</p>
@@ -2203,7 +2360,7 @@ from a heap on the floor, we were well out from shore.</p>
 <p>It was lucky that Aggie took one of her awful sneezing spells just then, as she always does when she is excited, for by the time she was breathing easily again the shore was well behind and Mr. Mansfield had put on the shawl again.</p>
 </div>
 <pb n="328"/>
-<div id="mrletit305" type="chapter" n="305">
+<div id="mrletit035" type="chapter" n="5">
 <head>CHAPTER V<lb/>
 THE CAVE-MAN AND HIS WOMAN</head>
 <p>IT is a little difficult, looking back, to explain our state of mind that night. It was only our second taste of romance--Aggie's roofer being too far back to count. Now, with six months of perspective, I think we were intoxicated with adventure to the point of abandon. For when Mr. Mansfield offered to take us home, before starting on his pursuit of the motor canoe, we refused to go. As Tish said:</p>
@@ -2247,7 +2404,9 @@ Long Point, and our lantern showed two people, as we expected. It was Mr. Carlet
 <p>"Lillian," Mr. Mansfield said cheerfully, "I am not going to do that puppy with you the honor of asking you to choose between us. I give you your choice--either get into the launch comfortably, or stay where you are--in which case I shall run you down and pick you out of the water."</p>
 <p>"You coward!" said Mr. Carleton from the stern of the canoe. "You can't try your high
 
-PICTURE GOES HERE
+<figure entity="mrletit335" rend="inline">
+<figDesc> Picture included in body of Rinehart's "The Amazing Adventures of Letitia Carberry"</figDesc>
+</figure>
 
 <pb n="335     OF LETITIA CARBERRY"/>
 handed methods with me. Run us down if you like. It's a penitentiary offense to kidnap a girl and marry her."</p>
@@ -2273,7 +2432,7 @@ were alone in the launch, and just below me the water was boiling into white spr
 <p>Then, of course, the canoe turned over, and the rest of what she was saying ended in a gurgle.</p>
 </div>
 <pb n="338"/>
-<div id="mrletit306" type="chapter" n="306">
+<div id="mrletit036" type="chapter" n="6">
 <head>CHAPTER VI<lb/>
 "I WILL GO WITH YOU"</head>
 <p>WE got them all into a launch finally, for there was only five feet of water, which explained much that we had not understood about the fight, and they were as disconsolate looking a lot of lovers as I ever wish to see. Mr. Carleton sat in the stern and held his head, which Aggie's oar had almost broken, and the girl dripped and shivered in a corner by herself and stared at the Mansfield man, who was coaxing Tish for one of her petticoats so he could give the girl his shawl.</p>
@@ -2288,7 +2447,9 @@ footed maiden ladies in the launch without comment): "Oh, do you think he might 
 <p>But he did not drown. He came magnificently over the edge of the boat in a few minutes, with a string of green water-weeds clinging to his head. Aggie, who, as you have seen, is romantic, muttered something about "grape leaves in his hair," which she said afterward was Ibsen, although the only use I have ever known for grape leaves was to wrap pats of butter in, in the country.</p>
 <p>He turned the launch around and we started for home. I do not recall that any one spoke on the way back, except Tish, who asked me if I had any castor oil at the house: she wanted it to soften her shoes if they dried stiff. The Girl sat by herself and watched the big fellow in the shawl-toga. And once or twice, when he glanced up and saw her, he smiled over at her, but he did not go near her or speak to her.</p>
 
-PICTURE GOES HERE
+<figure entity="mrletit341" rend="inline">
+<figDesc> Picture included in body of Rinehart's "The Amazing Adventures of Letitia Carberry"</figDesc>
+</figure>
 
 <pb n="341     OF LETITIA CARBERRY"/>
 <p>It was pale dawn when we stopped at the dock of the Watermelon Camp. We, who had been sodden shadows in the night, were now damp and shivering outlines. Mr. Mansfield, having given the girl the shawl, drew around him still closer the awning curtain with which he had draped himself, and Aggie, still clutching the oar, held up one hand in the gray light to hide the deficiences of her mouth. No one stirred in the camp.</p>
@@ -2301,11 +2462,11 @@ PICTURE GOES HERE
 <p>Aggie wakened me at nine o'clock the next morning by hunting in my bureau for her second best teeth, and it was then that we found our lovers had gone. In the girl's room there was a letter of thanks. She said she did not wish to disturb us after that awful night, but that she could not sleep, and that she and Mr. Mansfield were going down to Telusah to be married.</p>
 <p>Tish read the letter aloud and stared at us, while Paulina whined for her breakfast.</p>
 <pb n="343     OF LETITIA CARBERRY"/>
-"Upon my soul," Tish gasped, when she could speak. "Instead of clapping him into jail, she's going to marry him!"
-"Do you thuppoth he went to Telutha in that kimono?" Aggie said in a husky whisper. She had taken a terrible cold.
-But Mr. Mansfield did not go to Telusah in Tish's kimono.
-After all, the beginning of this story is also the end. For now you can understand why Tish dropped the bowl when the young man brought her kimono back from the Watermelon Camp and asked for Mr. Carleton's trousers!
-I have told the story in defense of Tish and the rest of us. I wish to brand as false the story told by the man from the hotel who happened to be fishing for muskalunge early that morning. He said, you remember, that he saw Miss Carberry <hi rend="italic">in her green kimono</hi> leave our cottage just after dawn and go stealthily along
+<p>"Upon my soul," Tish gasped, when she could speak. "Instead of clapping him into jail, she's going to marry him!"</p>
+<p>"Do you thuppoth he went to Telutha in that kimono?" Aggie said in a husky whisper. She had taken a terrible cold.</p>
+<p>But Mr. Mansfield did not go to Telusah in Tish's kimono.</p>
+<p>After all, the beginning of this story is also the end. For now you can understand why Tish dropped the bowl when the young man brought her kimono back from the Watermelon Camp and asked for Mr. Carleton's trousers!</p>
+<p>I have told the story in defense of Tish and the rest of us. I wish to brand as false the story told by the man from the hotel who happened to be fishing for muskalunge early that morning. He said, you remember, that he saw Miss Carberry <hi rend="italic">in her green kimono</hi> leave our cottage just after dawn and go stealthily along
 <pb n="344     THE AMAZING ADVENTURES"/>
 the beach through the mist to the Watermelon Camp. When she got there, he said, to his horror he saw her strip off the green kimono and hang it to a tree. Just then the mist shut down and he saw nothing more.</p>
 <p>In his anxiety for Miss Carberry's sanity he was on the point of landing to investigate, when he hooked the largest 'lunge of the season (registered weight at the hatcheries, thirty-seven pounds four ounces), and when he looked again at the shore all he saw was a redhaired man hurrying along the beach in a pair of corduroy trousers and a bathing-shirt!</p>
@@ -2313,7 +2474,8 @@ the beach through the mist to the Watermelon Camp. When she got there, he said, 
 <p>"Young millionaire!" she snapped when she saw the newspapers. "Young scamp, I say, stealing poor Mr. Carleton's sweetheart and then his trousers. As for my green kimono, after all we did for him, he might at least have had the grace to roll it up and stick it under a barrel. I shall burn it."</p>
 <p>But she did not. Aggie saw it only the
 <pb n="345     OF LETITIA CARBERRY"/>
-other day, put away in a lavender silk sachet, with a bundle of newspaper clippings, a half-eaten bath sponge, and a particular kind of bass hook, which we had found on the sitting-room floor.</p>
+other day, put away in a lavender silk sachet, with a bundle of newspaper clippings, a half-eaten bath sponge, and a particular kind of bass hook, which we had found on the sitting-room floor.</p><trailer>THE END</trailer>
 </div>
-</div>
-<trailer>THE END</trailer>
+</div></body></text></group></text><tei.2></tei.2>
+
+
