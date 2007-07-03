@@ -67,7 +67,7 @@
 <item>American literature--19th Century--Fiction.</item> 
 <item>Women authors, American--19th Century.</item> 
 <item>Broken engagements.</item> 
-<item>Birthright- Rediscovery.</item> 
+<item>Birthright- Rediscovery of.</item> 
 </list> 
 </keywords> 
 </textClass> 
@@ -85,12 +85,70 @@
 </teiHeader>
 <text>
 <front> 
+<div id="ejrecklcover" type="front cover">
+<figure entity="ejrecklfc" rend="inline">
+<figDesc> Front cover of Jones's "A Reckless Promise"</figDesc>
+</figure>
+</div>
+<pb/>
+<pb n="[i]"/>
+<div id="ejrecklfm1" type="advert">
+<figure entity="ejrecklad1" rend="inline">
+<figDesc> Advert included in front of Jones's "A Reckless Promise"</figDesc>
+</figure>
+
+<pb n="[ii]"/>
+<figure entity="ejrecklad2" rend="inline">
+<figDesc> Advert included in front of Jones's "A Reckless Promise"</figDesc>
+</figure>
+
+<pb n="[iii]"/>
+<figure entity="ejrecklad3" rend="inline">
+<figDesc> Advert included in front of Jones's "A Reckless Promise"</figDesc>
+</figure>
+
+<pb n="[iv]"/>
+<figure entity="ejrecklad4" rend="inline">
+<figDesc> Advert included in front of Jones's "A Reckless Promise"</figDesc>
+</figure>
+
+<pb n="[v]"/>
+<figure entity="ejrecklad5" rend="inline">
+<figDesc> Advert included in front of Jones's "A Reckless Promise"</figDesc>
+</figure>
+
+<pb n="[vi]"/>
+<figure entity="ejrecklad6" rend="inline">
+<figDesc> Advert included in front of Jones's "A Reckless Promise"</figDesc>
+</figure>
+</div>
+
+<pb n="[vii]"/>
+<pb entity="ejreckltp" pages="title page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> A RECKLESS PROMISE</titlePart>
+<titlePart type="sub"> OR, <lb/> WHEN LOVE DIES</titlePart>
+</docTitle>
+<byline> BY<docAuthor> EMMA GARRISON JONES</docAuthor> Author of "Her Twentieth Guest," "A Useless Sacrifice," <lb/> "Stronger than Fate," et cetera.</byline>
+<docImprint>
+<publisher> STREET &#x0026; SMITH CORPORATION<lb/> PUBLISHERS</publisher>
+<pubPlace> 79-89 Seventh Avenue, New York</pubPlace>
+</docImprint>
+</titlePage>
+ <pb n="[viii]"/>
+<div id="ejrecklfm2" type="copyright">
+<figure entity="ejreckltpv" rend="inline">
+<figDesc> Copyright page for Jones's "A Reckless Stranger"</figDesc>
+</figure>
+</div>
+</front>
 <body>
 <div id="ejreckl001" type="chapter" n="1">
 <head>A RECKLESS PROMISE.<lb/>
 CHAPTER I.<lb/>
 PRETTY MISS CAPTAIN.</head>
-<pb n="5."/> 
+<pb n="[5]"/> 
 <p>"You haven't answered my question yet, Uncle Jack. Can I go to the Throckmorton ball? Say yes, or no, now, once for all, and have done with it."</p>
 <p>Major Crawford looked up from the morning paper with an anxious face.</p>
 <p>"Come in and get your breakfast, like a good child, Cap'n Frank," he said coaxingly.</p>
@@ -2950,7 +3008,22 @@ ished. "And you a titled lady, as you've just told me? What will your people say
 <p>"That looks like old times, madcap, I can almost fancy that the past is all a dream, and you've never been from your old home."</p>
 <p>The girl sighed as she looked out into the gathering darkness, and turned to her lover: "Ah, how good it seems to be back again at the old home. Oh, to think of the years I've wasted in learning to know my own mind. Ah, me, I've been a silly, silly girl.</p>
 <p>"You shall be a happy one henceforth, my darling," said Tom softly, "if my love can make you so."</p>
-*THE END.*
-<p>In the NEW EAGLE SERIES will next appear No. 1213, "Without Name or Wealth," by Ida Reade Allen.</p></div></body></text>
+<trailer>THE END.</trailer></div></body>
+
+<back>
+<div id="ejrecklbm1" type="advert">
+<p>In the NEW EAGLE SERIES will next appear No. 1213, "Without Name or Wealth," by Ida Reade Allen.</p>
+</div>
+<pb/>
+
+<div id="ejrecklcover" type="back cover">
+<figure entity="ejrecklbc" rend="inline">
+<figDesc> Back cover of jones's "A Reckless Promise"</figDesc>
+</figure>
+</div>
+
+</back>
+
+</text></TEI.2>
 
 
