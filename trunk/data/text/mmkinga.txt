@@ -1,5 +1,109 @@
-<body>
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2 id=""> 
+<teiHeader id=""> 
+<fileDesc> 
+<titleStmt> 
+<title>King Arthur, an electronic edition</title> 
+<author><name type="person" reg="Mulock, Miss (Dinah Maria), 1826-1987">Miss Mulock</name></author> 
+</titleStmt> 
+<extent></extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability> 
+<p>&#x00A9; 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p> </availability> </publicationStmt> 
+<seriesStmt> 
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt> <name>Sheila T. Cavanagh</name> 
+<name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp> 
+</respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl><author>Mulock, Miss</author>. <title>King Arthur</title>. <pubPlace>New York</pubPlace>: <publisher>F.M. Lupton</publisher>.<date> 1894</date></bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> 
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p> 
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">United States</rs> 
+<date>1900-1999</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>British Literature--19th Century--Fiction.</item> 
+<item>Women authors, British--19th Century.</item> 
+<item>Travel.</item> 
+<item>Adoption.</item> 
+<item> Motherhood</item>
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-July-3</date> 
+<respStmt> 
+<name>Shruthi Vissa,</name> 
+<resp>Encoder.</resp> 
+</respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
 <text>
+<!-- this booklet only has a full title page and no front cover- so i've rendered most of the information on the page the way you would on a title page, except for the small print on the top of the page containing info about the cost of the booklet and the date of publication -->
+<front>
+<pb entity="mmkingatp" pages="title page"/>
+<titlePage type="full">
+<titlePart type="desc"> THE ARM CHAIR LIBRARY<lb/> EACH NUMBER CONTAINS A COMPLETE NOVEL <lb/> BY A POPULAR AUTHOR</titlePart>
+<docTitle>
+<titlePart type="main"> KING ARTHUR</titlePart>
+</docTitle>
+<byline> By <docAuthor> Miss MULOCK.</docAuthor>
+</byline>
+<docImprint>
+<publisher> F.M. LUPTON.</publisher>
+<publisher> PUBLISHER</publisher>
+<pubPlace> 106 AND 108 READE, ST., </pubPlace>
+<pubPlace> NEW YORK</pubPlace>
+</docImprint>
+</titlePage>
+</front>
+<body>
 <div id="mmkinga001" type="chapter" n="1">
 KING ARTHUR.
 BY MISS MULOCK.
@@ -1385,6 +1489,21 @@ Manette alone, for there was nobody to aid them, and no time to call anybody.</p
 <l>Or forget me, smiling on.</l></lg></q>
 <p>But she was not forgotten, she never could be. She had lived long enough to make her boy all that he was; to form his mind and character, heart and soul; to fit him for the aims and duties of life; high aims and serious duties; for Sir Arthur Damerel is not the sort of man to hide himself, or submit to be hidden, under a bushel. His position must inevitably bring him many a responsibility, many a trouble and care; but he will fight through all, with his wife beside him; little Nanny who has given the neighborhood an entirely new and revised edition of the Lady Damerels of Tawton Abbas. Active, energetic, kindly, benevolent, she is so well loved both by rich and poor that no one stops to consider whether or not she is beautiful. Nor does her husband. To him she is simply " little Nanny."</p>
 <p>One of their duties, not always a pleasant one, is their yearly visit of a day or two to the Dowager Lady Damerel, who has turned very religious, and is made much of in a select circle who have taken the title of "Believers," one of their points of belief being that nobody can be saved, except themselves. Such a creed is the natural outcome of that pleasure-loving egoism which had characterized her earlier days. The greater the sinner, the greater the saint, if such sainthood is worth anything. She takes very little interest in her son or his belongings; except perhaps in one very handsome baby granddaughter, who she declares is just like herself; but they are on terms of the utmost politeness. Only he never calls her anything but "Lady Damerel." He feels that his real mother, " my mother," as he always speaks of her, and scarcely a day passes that he does not speak of her, was she who sleeps in that quiet grave within sight of the dining-room window of the dear old rectory.</p>
-<p>And Susannah, had she known this, and seen how her influence will descend through Arthur to his children's children, would have died content, feeling that those one-and-twenty years had not been thrown away, that she had not only made her own life and her husband's happy, but, as good Dr. Franklin once said, she "saved a soul alive."</p></div>
-[THE END.] </text></body>
+<p>And Susannah, had she known this, and seen how her influence will descend through Arthur to his children's children, would have died content, feeling that those one-and-twenty years had not been thrown away, that she had not only made her own life and her husband's happy, but, as good Dr. Franklin once said, she "saved a soul alive."</p>
+<trailer>[THE END.] </trailer> </div> </body>
+
+
+<back>
+
+<div id="mmkingabm" type="advert">
+<figure entity="mmkingaad" rend="inline">
+<figDesc> Advert included in back of Mulock's "King Arthur"</figDesc>
+</figure>
+</div>
+
+</back>
+
+</text>
+
+</TEI.2>
 
