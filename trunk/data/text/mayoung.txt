@@ -1,6 +1,6 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2> 
-<teiHeader> 
+<TEI.2 id="mayoung1201"> 
+<teiHeader id="mayoung1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>A Young Man from the Country, an electronic edition</title> 
@@ -57,9 +57,9 @@
 <rs type="language">English</rs> 
 <rs type="ethnicity">Caucasian</rs> 
 <rs type="form">Unedited</rs> 
-<rs type="genre">Short Stories</rs> 
+<rs type="genre">Novel</rs> 
 <rs type="geography">Great Britain</rs> 
-<date>1800-1899</date> 
+<date>1900-1999</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
@@ -68,7 +68,7 @@
 <item>Women authors, British--20th Century.</item> 
 <item>Marital Conflict.</item> 
 <item>Sisterhood.</item> 
-<item>Marriage Age</item>
+<item>Marriage Age.</item>
 </list> 
 </keywords> 
 </textClass> 
@@ -83,14 +83,15 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
+<text id="mayoung1205">
+<front id="mayoung1203">
 <div id="mayoungcover" type="front cover">
 <figure entity="mayoungfc"  rend="inline">
 <figDesc> Front cover of Albanesi's "A Young Man from the Country"</figDesc>
 </figure>
+</div>
 <pb/>
-<pb entity="mayoungtp" pages="Title Page"/>
+<pb entity="mayoungtp001" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">A Young Man from <lb/> the Country</titlePart>
@@ -98,10 +99,11 @@
 <byline> BY <docAuthor> MADAME ALBANESI</docAuthor> AUTHOR OF <lb/>
 "The Brown Eyes of Mary," <lb/> "Capricious Caroline," <lb/> "Susannah and One Elder," <lb/> &#x0026;c.</byline>
 <docImprint>
-<pubPlace> London</pubPlace><publisher> Hurst and Blackett, Limited</publisher> <docDate> 1906</docDate> <copyright> All rights reserved</copyright>
-</docImprint>
+<pubPlace> London</pubPlace><publisher> Hurst and Blackett,
+Limited</publisher> <docDate> 1906</docDate></docImprint> 
+<imprimatur> All rights reserved</imprimatur>
 </titlePage>
-<pb/>
+<pb entity="mayoungfm002" pages="Colophon"/>
 <div id="mayoungfm" type="colophon">
 <p> THE <lb/>CHAPEL RIVER PRESS </p>
 <p> KINGSTON<lb/> SURREY</p>
@@ -112,12 +114,13 @@
 <p>BICE,</p>
 <p> MRS. W. LUCAS</p>
 </div>
+</front>
 <pb/>
-<body>
+<body id="mayoung1204">
 <pb n="1"/>
 <div id="mayoung001" type="chapter" n="1">
-A YOUNG MAN FROM THE COUNTRY.
-<head>CHAPTER I.</head>
+<head>A YOUNG MAN FROM THE COUNTRY.
+CHAPTER I.</head>
 
 <p>IT had been a wet week. The splendour of the autumn had broken suddenly, and a strong west wind bearing on its wings the salt of the sea from whence it came had swept the country in blustering and vehement fashion. It was rain laden too, and in a very little while the little world round and about Winchbourne, the world which had been so golden and so glorious only a short time before, wore a depressed and a beaten look.</p>
 <p>The village itself was fairly sheltered, for the road here dipped a little, and the few houses which formed the pretence of a street seemed to have grown together as though realising their isolation and the need of neighbourliness.</p>
@@ -236,7 +239,7 @@ with money choose to come and bury himself in a dead-and-alive hole like this?"<
 <p>"You don't quite understand what I mean. You are so young in some things, Patsy. One can't go
 <pb n="17 FROM THE COUNTRY."/>
 about making friends in this indiscriminate way, the world is full of such funny people, and one reads of such awful things."</p>
-Patricia laughed. She had drawn back her hand again very quickly.
+<p>Patricia laughed. She had drawn back her hand again very quickly.</p>
 <p>"I don't know how you feel, but I know I should be rather glad if something sensational would happen, it would wake us up perhaps. Do you think if we gave him a hint Mr. Sharpus would confess to a crime? I am just in the mood for an explosion."</p>
 <p>Sheila ignored this remark, and they drove on for some distance in silence.</p>
 <p>Patricia felt very closely akin to tears, why she could hardly have told, only that she was tired and Sheila's irritability troubled her.</p>
@@ -418,7 +421,7 @@ hood, if by that one means having no more dreams and fancies," he said. Then he 
 contact with Sir Francis Heatherington. They were both members of a house-party, she having gone at her mother's desire to christen a new ship built by the wealthy people with whom she was staying. Sir Francis joined the party for the shooting, and circumstances combined to bring about a friendship between these two most unlikely people.</p>
 <p>A slight accident had seemed to break the ice of conventional acquaintance. Sir Francis was able to render some attention to Lady Amelia. He over-took her as she was limping back to the house after a false step in which she had rather sharply twisted her ancle--his concern about her was extraordinarily pleasant to the woman. Just when the first wonderful touch of passion for this young man came into Lady Amelia's heart it would be difficult to say, but that the whole meaning of life was changed to her in the course of the next few days was absolutely certain. She drifted far away from her customary cold and bitter environment when she felt herself within the circle of that radiant good-fellowship--that simple, frank, and most pleasant influence which Francis Heatherington exercised so naturally. She had never met anyone like him before.</p>
 <p>Unconsciously she found herself striving to win favour from him. The people with whom she was staying had been sharply disappointed when it had been made known that the Duchess of Middlesex had a most severe cold, and that her daughter Lady Amelia would christen the ship in her enforced absence.</p>
-<p>"Such a dull, stuck-up woman!" his hostess had confided to Sir Francis. "But perhaps you know her?"
+<p>"Such a dull, stuck-up woman!" his hostess had confided to Sir Francis. "But perhaps you know her?"</p>
 <pb n="40 A YOUNG MAN"/>
 <p>He confessed to ignorance.</p>
 <p>"I know the duchess---she is what one might call a real good sort--and the duke I know, too. I dare say I may have seen Lady Amelia, but I don't remember having met her."</p>
@@ -463,7 +466,7 @@ That her mother should permit herself to mix so freely with people of Iscariot's
 <pb n="45 FROM THE COUNTRY."/>
 anent which he had put about himself so innocently. But when Heatherington recalled all that had passed, when he remembered the amazing revelation of feeling which Amelia had shown, when he realised what this marriage signified to her, he simply could not move an inch to free himself.</p>
 <p>Not even when Lady Amelia's mother openly spoke of the engagement as an act of extraordinary folly on his part, and really gave him the chance of gracefully backing out of the situation, did he change in his attitude. The certain knowledge that it was in his power to bring such sunshine into another person's life provoked a kind of enthusiastic self-satisfaction and carried him for the time being out of the realm of practical reasoning or discrimination.</p>
-In those early days of betrothal Lady Amelia had worn a new guise, she had taken on a new spell of youth; there had been colour in her faded cheeks and expression in her eyes.</p>
+<p>In those early days of betrothal Lady Amelia had worn a new guise, she had taken on a new spell of youth; there had been colour in her faded cheeks and expression in her eyes.</p>
 <p>"Poor fool!" the duchess had said to herself as she had remarked these significant signs, and for the first time in her life she had pitied her eldest daughter. Not that she doubted Sir Francis. She called him a fool in another way; but she knew he meant very sincerely to do everything in his power to give happiness to the woman he was about to marry, it was the certainty that such a marriage could not be anything but a miserable failure which possessed Lady Amelia's mother.</p>
 <p>However, she had shrugged her shoulders and had stood on one side, and she had even taken a great deal of trouble to choose some pretty gowns--which were quite unsuitable for Lady Amelia to
 <pb n="46 A YOUNG MAN"/>
@@ -834,7 +837,7 @@ But Patricia only smiled.</p>
 make arrangements to put himself up at the farm-house for a few days.</p>
 <p>"Only, see here, Lawrence," the prospective host said. "Just keep this to yourself. I don't want anybody else coming down on me. To be quite candid, my dear fellow, I really don't want you."</p>
 <p>Goodborough laughed--such a hearty, healthy laugh.</p>
-<p>"Oh, that's all right! I think I know you a bit better than you know yourself, old chap!"</p.
+<p>"Oh, that's all right! I think I know you a bit better than you know yourself, old chap!"</p>
 <p>But he lapsed into silence after that, and he seemed suddenly oppressed with a sense of awkwardness.</p>
 <p>"Of course, Tony, if you've really any reason for wishing me not to come. If--I mean--"</p>	
 <p>But he found it very difficult to say what he did mean. Sharpus understood him, however.</p>
@@ -856,7 +859,7 @@ Possibly, if anyone had taken the trouble to follow Mr. Sharpus's movements very
 <p>"You've mistaken your vocation, Lawrie," the host remarked at the end of the first day, and the children had been wooed to the bedroom, and even to sleep itself by the most resourceful of entertainers. "You ought to start an infants' school."</p>
 <pb n="96 A YOUNG MAN"/>
 <p>Lawrence Goodborough laughed his delightful breezy laugh.</p>
-<P>"'Pon my soul, a good idea!"</P>
+<p>"'Pon my soul, a good idea!"</p>
 <p>He threw himself back on the couch, and lay with his head cushioned on his two hands, and his feet at a much higher level.</p>
 <p>"Will you give me those three to start with, Tony?" he asked.</p>
 <p>Though he spoke brightly, there was a curious inflection in his voice, a note which the other man understood.</p>
@@ -1375,7 +1378,7 @@ wards all women who were younger and more attractive than herself.</p>
 <p>Where she sat the light of the fireglow mingled with the shaded lights from the lamps in the hands of the two bronzed figures standing on each side of the fireplace, and fell softly, almost tenderly, upon Sheila. She had on a white gown, a serge skirt, and a delicate white cambric blouse fashioned by her own clever fingers. Sheila had inherited a small sum of money from her godmother, a cousin of her mother's, and she was always prettily gowned--never shabby as Patsy was. Sometimes she evinced a little generous spirit, and would make her sister a present of a gown or a hat. The pink gowns they had worn at the dinner-party had been bought, and, to a great extent, made by Sheila. Generally speaking, how-ever, she kept her pin money exclusively for her own use, and dull and uneventful as was the life they lived, Sheila continued to cultivate her taste in gowns.
 This day, though her garb was simplicity itself, it struck the right note, and Lady Amelia was quickly conscious of this as she looked across at her guest. Sheila put down her sewing, and was sitting a little forward in her chair staring into the fire in a fixed, earnest way. She looked very sweet and lovely and pensive in the half light.</p>
 <p>"She is extraordinarily pretty, your sister," said Amelia Heatherington.</p>
-<p>Patsy smiled with pleasure, and yet her heart beat a little painfully.
+<p>Patsy smiled with pleasure, and yet her heart beat a little painfully.</p>
 <pb n="156 A YOUNG MAN"/>
 <p>"I don't think Sheila is really looking her best just now. I am so anxious she should go away. We have an aunt who lives in London who is simply devoted to Sheila. I wish I could persuade Sheila to go to Aunt Judith for a little while."</p>
 <p>"Probably she does not wish to leave you," said Lady Amelia.</p>
@@ -1498,7 +1501,8 @@ tively must see those children. James has lost his head about them, and his hear
 <p>"Do not answer yet, and on no account admit the lady outside. Miss Meggy is ill. I will answer the bell myself."</p>
 <p>He rose, and walked a little unsteadily from the room, bearing his burden pressed to his heart.</p>
 <p>The doctor's wife followed, to render some service, but Patsy stayed alone.</p>
-Her heart was bleeding.	If she had doubted before, she knew now she loved him absolutely, irrevocably.	Nothing was clear but that, and nothing else mattered.</p></div>
+<p>Her heart was bleeding. If she had doubted before, she knew now she
+loved him absolutely, irrevocably. Nothing was clear but that, and nothing else mattered.</p></div>
 <pb n="166 A YOUNG MAN"/>
 <div id="mayoung016" type="chapter" n="16">
 <head>CHAPTER XVI.</head>
@@ -1894,7 +1898,7 @@ Sheila caught her breath sharply. Sometimes she felt half afraid of this man who
 <p>She had stood waiting for his homecoming shivering with dread and the horrible certainty that trouble and of the worst description hemmed her about; and when he had come she had seen in him the one person out of all the world who could have stood between her and this black trouble; she had forgotten everything except that this man's love and life itself had been at her feet had she chosen to stoop and pick it up. In that moment, too, he had appealed to her physically. She had never considered him handsome in the old days, but that day, as he had stood bare-headed beside his wife, he had seemed more than handsome to Sheila. And
 <pb n="215 FROM THE COUNTRY."/>
 when looking across those who had divided them, she had caught his expression looking so eagerly at her, and knew that he loved her as much as he had ever done, her heart had leaped, and there had passed from her eyes to his that message of misery, that yearning for material comfort, for the strength and protection which his love signified. Just in that moment, Sheila had been touched with genuine passion; just for a brief while she had been as near to a great and even an unselfish love as it was possible for one of her temperament to be; but later had come the inevitable reaction, the inevitable revulsion of feeling, till now, as she sat staring into the fire telling over to herself the story of these things of which she was so weary, she felt almost that she hated Heatherington as she assuredly hated herself.</p>
-*	*
+<milestone unit="section" rend="stars"/>
 <p>Lady Sophie Bryne-Jones did not encourage her husband to converse after she had gone to her room, as a rule, but this night she felt in the mood for confidences.</p>
 <p>Mr. Bryne-Jones simply laughed, however, when his wife expressed herself very forcibly on the subject of her brother and Miss Prentice.</p>
 <p>"In the first place, why worry yourself about Sparbrooke--he's all right; and in the second, you're all wrong, my dear," he said. "That girl is not dangerous--at least, not dangerous where Sparbrooke is concerned. It might be another matter if your brother had a little bit he could call his own, but as it is he's safe enough."</p>
@@ -2222,7 +2226,7 @@ so eloquently on his. As a matter of fact, they were brother and sister.</p>
 <pb n="253 FROM THE COUNTRY."/>
 <div id="mayoung025" type="chapter" n="25">
 <head>CHAPTER XXV.</head>
-<p>WHEN the dinner was served, Sharpus did his best to enjoy it; but though he had been hours without touching food he realised that he had no appetite. His companion, on the contrary, enjoyed her dinner thoroughly; she ate with the pleasure of a child, chattering away gaily the while.<</p>
+<p>WHEN the dinner was served, Sharpus did his best to enjoy it; but though he had been hours without touching food he realised that he had no appetite. His companion, on the contrary, enjoyed her dinner thoroughly; she ate with the pleasure of a child, chattering away gaily the while.</p>
 <p>When the table had been cleared and they were alone again, she made her brother pull the couch right in front of the fire, and she bunched herself on it once more, and, lighting a cigarette, threw back her head with a sigh of contentment.</p>
 <p>"This is nice!" she said.</p>
 <p>The man stood by the fire and looked down on her with very conscious pleasure, for she was good to look at--but also with a marked degree of sadness in his expression.</p>
@@ -2351,7 +2355,7 @@ of it, amazingly jealous. There were times when she fiercely resented Meggy's de
 <p>He winced sharply when he put the tender remembrance of Patricia Prentice in conjunction with these thoughts of his sister. Carina could be so very hard; she had her fair share of that cruelty which goes so frequently with unrestrained emotional natures, and her present life was not one which encouraged soft or gentle influences.</p>
 <p>When he reached Clifford's Inn and toiled upstairs to his own room, Sharpus gave a little laugh, a weary and sad laugh.</p>
 <p>"Fortunately," he said to himself, "I shan't put Carina's temper to the test on this point just yet awhile."</p>
-**
+<milestone unit="section" rend="stars"/>
 <p>He was back at the hotel about ten o'clock the next morning, and was met by Baxter with the in-formation that Mrs. Dalesmere was not yet up. The maid also further informed him that she had just despatched a telegram to Paris cancelling the engagement.</p>
 <p>"Madam talks of going down to Torquay to-day." Sharpus smiled.</p>
 <p>"That means that she will stay here," he said to himself.</p>
@@ -2800,7 +2804,7 @@ pushed it open, but Heatherington sprang to his feet.</p>
 <p>"I am not telling you any lies," she said. "This girl was still with her mother when Tynland let out the truth, telling me as Harry, my husband, had gone clean mad about her, was ready to do anything for her, and it was Tynland as told me that it was fixed that they was to meet in London, be married somewheres and leave England right away. He gave me everything to go upon, so when she come she found me instead of Harry, and I tell you fair I was as sorry for her that day as I have ever been sorry for anyone! I didn't go to meet her very pleasant, I can tell you; I was 'most ready to kill her, for after all he belonged to me, and he'd ought to have been good to me, but that's my story and you don't want to know nothink about that; but when I'd told her just where she stood I couldn't hate her. You see she never so much as dreamed he wasn't what he said he was. Of course it wasn't in her to know how bold he could be. She'd met him, it seems, in some town close to where she lived. He called himself a Austrian prince and she
 <pb n="324 A YOUNG MAN"/>
 took him to be a prince. He lived like one, I bet." The woman laughed bitterly. "Harry never was one for doing things by halves, he'd got his horses and his motor and all the rest; he played the game right up to the end. I did all I could for her. When he was taken a little while after and when his trial come on I kept her name out of it all, she wasn't never mentioned even. It struck me then as being funny that Tynland hadn't dragged her in, for it was he as gave the whole show away; but I see now what he was driving at: it was worth more to him to hold his tongue about her and then squeeze her when he got the chance."</p>
-<p>She waited for Heatherington to speak, looking at him curiously.</>
+<p>She waited for Heatherington to speak, looking at him curiously.</p>
 <p>He stood staring down at the table, drumming his fingers almost absently on it for a while, then he put his hand into his waistcoat pocket, took out a sovereign purse and counted out its contents on the table.</p>
 <p>"This is all I have with me now," he said, "but I must see you to-morrow ;" then he gave her his address, adding: "If you come early I shall be obliged. I will go thoroughly into the case and I hope I shall be able to deal with you in a manner which shall satisfy you. But to this there is a condition, as I told you just now, and that condition is that if I help you, if I do what I think is right for you, you will have to bind yourself not to approach Miss Prentice, not to come here again, and as far as you can to protect her from others who may have some knowledge of this story."</p>
 <p>"There is no one as does know," she answered a
@@ -2975,16 +2979,17 @@ good. Patsy, why have I never known the country could be so delightful before? I
 <trailer>THE END.</trailer>
 </div> </body> 
 
-<back>
+<back id="mayoung1206">
 <div id="mayoungbm" type="colophon">
 <p>Printed by The Chapel River Press, Kingston, Surrey.</p>
 </div>
 
 <pb n="[343]"/>
 <div id="mayoung200" type="advert">
-<figure entity="mayoungad" rend="inline">
+<figure entity="mayoungad001" rend="inline">
 <figDesc> Advert included in back of Albanesi's "A Young Man from the Country"</figDesc>
 </figure>
 </div>
 </back>
-<text>
+</text>
+</TEI.2>
