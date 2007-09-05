@@ -4,7 +4,7 @@
 <fileDesc> 
 <titleStmt> 
 <title>A Young Man from the Country, an electronic edition</title> 
-<author n="Albanesi, Effie Adelaide Maria 1866-1936">Madame Albanesi</author> 
+<author><name type="person" reg="Albanesi, Effie Adelaide Maria 1866-1936">Madame Albanesi</name></author> 
 </titleStmt> 
 <extent></extent> 
 <publicationStmt> 
@@ -31,7 +31,7 @@
 </seriesStmt> 
 <sourceDesc> 
 <bibl>
-<author>Albanesi, Madame</author>. <title>A Young Man from the Country</title>. <pubPlace>London</pubPlace>: <publisher>Hurst and Blackett, Limited.</publisher>, <date>1906</date>.</bibl> 
+<author>Albanesi, Madame</author>. <title>A Young Man from the Country</title>. <pubPlace>London</pubPlace>: <publisher>Hurst and Blackett, Limited</publisher>, <date>1906</date>.</bibl> 
 </sourceDesc> 
 </fileDesc> 
 <encodingDesc> 
@@ -91,12 +91,17 @@
 </figure>
 </div>
 <pb/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">A YOUNG MAN FROM <lb/>THE COUNTRY</titlePart>
+</docTitle>
+</titlePage>
 <pb entity="mayoungtp001" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">A Young Man from <lb/> the Country</titlePart>
 </docTitle>
-<byline> BY <docAuthor> MADAME ALBANESI</docAuthor> AUTHOR OF <lb/>
+<byline> BY <docAuthor>MADAME ALBANESI</docAuthor><lb/>AUTHOR OF<lb/>
 "The Brown Eyes of Mary," <lb/> "Capricious Caroline," <lb/> "Susannah and One Elder," <lb/> &#x0026;c.</byline>
 <docImprint>
 <pubPlace> London</pubPlace><publisher> Hurst and Blackett,
@@ -110,16 +115,16 @@ Limited</publisher> <docDate> 1906</docDate></docImprint>
 </div>
 <pb/>
 <div id="mayoung100" type="dedication">
-<p> TO</p>
-<p>BICE,</p>
-<p> MRS. W. LUCAS</p>
+<p rend="center"> TO</p>
+<p rend="center">BICE,</p>
+<p rend="center"> MRS. W. LUCAS</p>
 </div>
 </front>
 <pb/>
 <body id="mayoung1204">
 <pb n="1"/>
 <div id="mayoung001" type="chapter" n="1">
-<head>A YOUNG MAN FROM THE COUNTRY.
+<head>A YOUNG MAN FROM THE COUNTRY.<lb/>
 CHAPTER I.</head>
 
 <p>IT had been a wet week. The splendour of the autumn had broken suddenly, and a strong west wind bearing on its wings the salt of the sea from whence it came had swept the country in blustering and vehement fashion. It was rain laden too, and in a very little while the little world round and about Winchbourne, the world which had been so golden and so glorious only a short time before, wore a depressed and a beaten look.</p>
@@ -2976,7 +2981,7 @@ good. Patsy, why have I never known the country could be so delightful before? I
 <p>"What's the matter, darling?" she asked tenderly; "has anybody been doing anything nasty to you? Oh! lovey, I don't want you to cry!"</p>
 <p>Patsy stooped to kiss her and then knelt on the grass, and the child cuddled her in a tight embrace.</p>
 <p>"You shan't be made mislerble," she said. "Tony 'dores you and I love you, and all the rest of the things in the world don't mean nothing, do they, when you've got us?"</p>
-<trailer>THE END.</trailer>
+<trailer rend="center">THE END.</trailer>
 </div> </body> 
 
 <back id="mayoung1206">
