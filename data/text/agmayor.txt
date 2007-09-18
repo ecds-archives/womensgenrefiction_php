@@ -163,7 +163,7 @@
 
 <div id="agmayorcover" type="Front Cover">
 
-<figure entity="agmayorfc" rend="inline">
+<figure entity="agmayor_front_cover" rend="inline">
 
 <figDesc> Front Cover of Green's "The Mayor's Wife"</figDesc>
 
@@ -185,7 +185,7 @@
 
 <pb/>
 
-<pb entity="agmayortp" pages="Title Page"/>
+<pb entity="agmayor_title_page1" pages="Title Page"/>
 
 <titlePage type="full">
 
@@ -221,7 +221,7 @@
 
 <div id="agmayor100" type="Table of Contents">
 
-<figure entity="agmayortc1" rend="inline">
+<figure entity="agmayor_contents1" rend="inline">
 
 <figDesc>First table of contents page for Green's "The Mayor's Wife"</figDesc>
 
@@ -231,7 +231,7 @@
 
 <pb/>
 
-<figure entity="agmayortc2" rend="inline">
+<figure entity="agmayor_contents2" rend="inline">
 
 <figDesc>Second table of contents page for Green's "The Mayor's Wife"</figDesc>
 
@@ -841,17 +841,15 @@ she immediately controlled herself and assumed the imposing aspect of
 
 a highly trained woman, ready, if not eager, to welcome an intrud-
 
-<figure entity="agmayorill" rend="inline">
+<figure entity="agmayor_illus1" rend="inline">
 
-<p>"I have brought you a companion Olympia." <hi rend="italic">Page</hi> 19.</p>
+<p>"I have brought you a companion, Olympia." <hi rend="italic">Page</hi> 19.</p>
 
-<figDesc> Illustration included in the body of Green's "The Mayor's Wife"</figDesc>
+<figDesc> Illustration between pages 18 and 19 of Green's "The Mayor's Wife"</figDesc>
 
 </figure>
 
-<pb
-
-n="19     QUESTIONS"/>ing guest, I could not easily forget the drawn
+<pb n="19     QUESTIONS"/>ing guest, I could not easily forget the drawn
 
 look about mouth and eyes which, in the first instant of our meeting,
 
@@ -4493,11 +4491,15 @@ fire and flared up, the characters started vividly into view.</p>
 
 <p>This second glimpse of them, added to the one<pb n="131
 
-SCRAPS"/> already given me, fixed the whole indelibly in my mind. This
+SCRAPS"/><pb entity="agmayor131" pages="131"/> already given me, fixed the whole indelibly in my mind. This
 
 is the way they looked.</p>
 
-<pb entity="agmayor131" pages="131"/>
+<figure entity="agmayor131a" rend="inline">
+
+<figDesc> Cypher on page 131 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>
 
 <p>While I watched these cabalistic marks pass from red to black and
 
@@ -10011,7 +10013,8 @@ so--if I could; and if I should succeed, what shadows might it not
 
 clear from the path of the good man whose interests it was my chief
 
-duty to consult?</p><pb n="296     THE MAYOR'S WIFE"/><!-- ciphers on this page -->
+duty to consult?</p><pb n="296     THE MAYOR'S WIFE"/>
+<pb entity="agmayor296" pages="296"/>
 
 <p>Ciphers have always possessed a fascination for me. This one, from
 
@@ -10023,7 +10026,11 @@ down in my cozy little room and laid them all out before me, with the
 
 following result:</p>
 
-<pb entity="agmayor296" pages="296"/>
+<figure entity="agmayor296a" rend="inline">
+
+<figDesc> Cypher on page 296 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>
 
 <p>No. 1: My copy of the characters, as I remember seeing them on the
 
@@ -10175,7 +10182,7 @@ one with which she had started.</p>
 
 <p>Fourth: No. 1, short as it was, was, therefore, a communication in
 
-itself.</p><pb n="301     THE CIPHER"/>
+itself.</p><pb n="301     THE CIPHER"/><pb entity="agmayor301" pages="301"/>
 
 <p>Fifth: The shading of a character was in some way essential to its
 
@@ -10197,11 +10204,19 @@ the English language of one letter--<hi rend="italic">a</hi> and <hi
 
 rend="italic">i</hi>--and in the specimens before me but one
 
-character, that of <pb entity="agmayor301" pages="301"/>, which shows shading, next to another shaded
+character, that of <figure entity="agmayor301a" rend="inline">
+
+<figDesc> Cypher on page 301 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>, which shows shading, next to another shaded
 
 character.</p>
 
-<p>Ninth: was therefore <hi rend="italic">a</hi> or <hi
+<p>Ninth: <figure entity="agmayor301b" rend="inline">
+
+<figDesc> Cypher on page 301 of Green's "The Mayor's Wife"</figDesc>
+
+</figure> was therefore <hi rend="italic">a</hi> or <hi
 
 rend="italic">i</hi>.</p>
 
@@ -10215,14 +10230,22 @@ those first seven characters, which, if my theory were correct, was a
 
 communication in
 
-<pb n="302     THE MAYOR'S WIFE"/> 
-itself, and one of
+<pb n="302     THE MAYOR'S WIFE"/><pb entity="agmayor302" pages="302"/> 
+itself, and one of such importance that, once mastered, it would give the key to the
 
-such importance that, once mastered, it would give the key to the
+whole situation.<lb/>
 
-whole situation.
+<hi rend="center"><figure entity="agmayor302a" rend="inline">
 
-<pb entity="agmayor302" pages="302"/>or with the shading:</p>
+<figDesc>Cypher on page 302 of Green's "The Mayor's Wife"</figDesc>
+
+</figure></hi><lb/>
+or with the shading:<lb/>
+<hi rend="center"><figure entity="agmayor302b" rend="inline">
+
+<figDesc> Cypher on page 302 of Green's "The Mayor's Wife"</figDesc>
+
+</figure></hi></p>
 
 <p>You have all read The Gold Bug, and know something of the method by
 
@@ -10288,7 +10311,7 @@ before us, the sign of division into words. Let us take these seven
 
 characters as a phrase then and not as a word. What follows?</p><pb
 
-n="304     THE MAYOR'S WIFE"/>
+n="304     THE MAYOR'S WIFE"/><pb entity="agmayor304" pages="304"/>
 <p>The dashes following the two <hi rend="italic">a's</hi> stand for
 
 letters, each of which should make a word when joined to <hi
@@ -10305,7 +10328,11 @@ four words, am, an, as, at. Is it possible to start any intelligible
 
 phrase with any two of these arranged in any conceivable way? No. Then
 
-<pb entity="agmayor304" pages="304"/>
+<figure entity="agmayor304a" rend="inline">
+
+<figDesc> Cypher on page 304 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>
 can not stand for <hi rend="italic">a</hi>. Let us see if it does
 
 for <hi rend="italic">i</hi>. The words of two letters headed by <hi
@@ -10318,11 +10345,19 @@ first. One could easily start a phrase with any of these, even with
 
 any two of them such as <hi rend="italic">If it, Is in, Is it, It
 
-is</hi>.  is then the symbol of <hi rend="italic">i</hi>, and some
+is</hi>. <figure entity="agmayor304b" rend="inline">
+
+<figDesc> Cypher on page 304 of Green's "The Mayor's Wife"</figDesc>
+
+</figure> is then the symbol of <hi rend="italic">i</hi>, and some
 
 one of the above named combinations forms the beginning of the short
 
-phrase ending with a word of three letters symbolized by  .</p>
+phrase ending with a word of three letters symbolized by <figure entity="agmayor304c" rend="inline">
+
+<figDesc> Cypher on page 304 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>.</p>
 
 <p>What word?</p>
 
@@ -10330,18 +10365,33 @@ phrase ending with a word of three letters symbolized by  .</p>
 
 to determine.</p>
 
-<p>First, one of these three symbols, the  , is a
+<p>First, one of these three symbols, the <figure entity="agmayor304d" rend="inline">
 
-<pb n="305     THE CIPHER"/>repetition of one of those we have already shown to be <hi
+<figDesc> Cypher on page 304 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>, is a
+
+<pb n="305     THE CIPHER"/><pb entity="agmayor305" pages="305"/>repetition of one of those we have already shown to be <hi
 
 rend="italic">s, t, f,</hi> or <hi rend="italic">n</hi>. Of the
 
-remaining two, <pb entity="agmayor305" pages="305"/>
- , one must be a vowel, that is, it must be either <hi
+remaining two, <figure entity="agmayor305a" rend="inline">
+
+<figDesc> Cypher on page 305 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>, one must be a vowel, that is, it must be either <hi
 
 rend="italic">a, e, o, u,</hi> or <hi rend="italic">y; i</hi> being
 
-already determined upon. Now how many  's and  's do we find in the
+already determined upon. Now how many <figure entity="agmayor305b" rend="inline">
+
+<figDesc> Cypher on page 305 of Green's "The Mayor's Wife"</figDesc>
+
+</figure> and <figure entity="agmayor305c" rend="inline">
+
+<figDesc>Cypher on page 305 of Green's "The Mayor's Wife"</figDesc>
+
+</figure> do we find in the
 
 collection before us? Ten or more of the first, and six, or about six,
 
@@ -10353,9 +10403,19 @@ ran over it thus: <hi rend="italic">e</hi> is the one letter most in
 
 use in English. Afterward the succession runs thus <hi
 
-rend="italic">a, o, i d, h, n, r,</hi> etc. There being then ten 's
+rend="italic">a, o, i d, h, n, r,</hi> etc. There being then ten <figure entity="agmayor305b" rend="inline">
 
-to six 's  must be a vowel, and in all probability the vowel <hi
+<figDesc> Cypher on page 305 of Green's "The Mayor's Wife"</figDesc>
+
+</figure> to six <figure entity="agmayor305c" rend="inline">
+
+<figDesc> Cypher on page 305 of Green's "The Mayor's Wife"</figDesc>
+
+</figure> <figure entity="agmayor305d" rend="inline">
+
+<figDesc> Cypher on page 305 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>  must be a vowel, and in all probability the vowel <hi
 
 rend="italic">e</hi>, as no other character in the whole collection,
 
@@ -10371,7 +10431,7 @@ three letters which would make sense when added on to <hi rend="italic">It is, I
 
 If it, is in.</hi></p>
 
-<pb n="306     THE MAYOR'S WIFE"/>
+<pb n="306     THE MAYOR'S WIFE"/><pb entity="agmayor306" pages="306"/>
 
 <p>Conscious of no mistake, yet always alive to the possibility of
 
@@ -10381,7 +10441,11 @@ longer and fuller ones, and with them a fresh line of reasoning. If my
 
 argument so far had been trustworthy, I should find, in these other
 
-specimens, a double <pb entity="agmayor306" pages="306"/> standing for the double <hi rend="italic">e</hi>
+specimens, a double <figure entity="agmayor306a" rend="inline">
+
+<figDesc> Cypher on page 306 of Green's "The Mayor's Wife"</figDesc>
+
+</figure> standing for the double <hi rend="italic">e</hi>
 
 so frequently found in English. Did I find such? No. Another shock to
 
@@ -10391,7 +10455,11 @@ my theory.</p>
 
 remained. The word <hi rend="italic">the</hi> should occur more than
 
-once in a collection of words as long as the one before me. If  is
+once in a collection of words as long as the one before me. If <figure entity="agmayor306b" rend="inline">
+
+<figDesc> Cypher on page 306 of Green's "The Mayor's Wife"</figDesc>
+
+</figure> is
 
 really <hi rend="italic">e</hi>, I should find it at the end of the
 
@@ -10399,7 +10467,11 @@ supposed <hi rend="italic">thes</hi>. Do I so find it? There are
 
 several words scattered through the whole, of only three letters. Are
 
-any of them terminated by  ? Not one. My theory is false, then, and I
+any of them terminated by <figure entity="agmayor306b" rend="inline">
+
+<figDesc> Cypher on page 306 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>? Not one. My theory is false, then, and I
 
 must begin all over.</p>
 
@@ -10407,13 +10479,17 @@ must begin all over.</p>
 
 a line designated the termination of a word, I hunted first for the
 
-<hi rend="italic">thes</hi>. Mak<pb n="307     THE CIPHER"/>ing a list
+<hi rend="italic">thes</hi>. Mak<pb n="307     THE CIPHER"/><pb entity="agmayor307" pages="307"/>ing a list
 
 of the words containing only three letters, I was confronted by the
 
-following:</p>
+following:<lb/>
 
-<pb entity="agmayor307" page="307"/>
+<hi rend="center"><figure entity="agmayor307a" rend="inline">
+
+<figDesc>Cypher on page 307 of Green's "The Mayor's Wife"</figDesc>
+
+</figure></hi></p>
 
 <p>No two alike. Astonishing! Thirty-two words of English and only one
 
@@ -10435,41 +10511,69 @@ says occurs so often in our language that they can easily be picked
 
 out in a cipher of this length.
 
-<pb n="308     THE MAYOR'S WIFE"/>
+<pb n="308     THE MAYOR'S WIFE"/><pb entity="agmayor308" pages="308"/>
 
 How many times can a conjunction of two similar characters be found in the
 
-lines before us. <pb entity="agmayor308" pages="308"/>  occurs three times, which is often enough, perhaps,
+lines before us. <figure entity="agmayor308a" rend="inline">
+
+<figDesc> Cypher on page 308 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>occurs three times, which is often enough, perhaps,
 
 to establish the fact that they stand for <hi
 
 rend="italic">th</hi>. Do I find them joined with a third character in
 
-the list of possible <hi rend="italic">thes</hi>? Yes. 
+the list of possible <hi rend="italic">thes</hi>? Yes. <figure entity="agmayor308b" rend="inline">
 
-, which would seem to fix both the <hi rend="italic">th</hi> and the <hi
+<figDesc> Cypher on page 308 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>, which would seem to fix both the <hi rend="italic">th</hi> and the <hi
 
 rend="italic">e</hi>.</p>
 
 <p>But I have grown wary and must make myself sure. Do I find a word
 
-in which this combination of   occurs twice, as sometimes happens with
+in which this combination of <figure entity="agmayor308a" rend="inline">
+
+<figDesc> Cypher on page 308 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>occurs twice, as sometimes happens with
 
 the <hi rend="italic">th</hi> we are considering? No, but I find two
 
 other instances in which like contiguous symbols do appear twice in
 
-one word; the  in No. 3 and the   in No. 4--a discovery the most
+one word; the <figure entity="agmayor308c" rend="inline">
 
-embarrassing of all, since in both cases the symbols which begin the
+<figDesc>Cypher on page 308 of Green's "The Mayor's Wife"</figDesc>
 
-word are reversed at its end, as witness:   For, if   stands for <hi
+</figure>in No. 3 and the <figure entity="agmayor308d" rend="inline">
+
+<figDesc> Cypher on page 308 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>in No. 4--a discovery the most embarrassing of all, since in both cases the symbols which begin the
+
+word are reversed at its end, as witness: <figure entity="agmayor308e" rend="inline">
+
+<figDesc> Cypher on page 308 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>.  For, if <figure entity="agmayor308d" rend="inline">
+
+<figDesc> Cypher on page 308 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>stands for <hi
 
 rend="italic">th</hi>, and the whole word showed in letters th---ht,
 
 which to any eye suggests the word <hi rend="italic">thought</hi>,
 
-what does   stand for, concerning which the same conditions are
+what does <figure entity="agmayor308c" rend="inline">
+
+<figDesc> Cypher on page 308 of Green's "The Mayor's Wife"</figDesc>
+
+</figure>stand for, concerning which the same conditions are
 
 observable?</p>
 
@@ -10957,7 +11061,7 @@ call for public arraignment. Unfortunately, there was a man who knew
 
 of this act and he published it right and left and--"</p>
 
-<p>"Olympia!" Mayor Packard was on his feet,<pb n="323     MERCY"/>
+<p>"Olympia!" Mayor Packard was on his feet,<pb n="323     MERCY"/><pb entity="agmayor323" pages="323"/>
 
 pointing in sudden fury and suspicion at the table where the matches
 
@@ -10987,7 +11091,9 @@ lay in the following device, the paper-weight answering for the
 
 dot:</p>
 
-<pb entity="agmayor323" pages="323"/>
+<p><hi rend="center"><figure entity="agmayor323a" rend="inline"><figDesc> Cypher on page 323 of Green's "The Mayor's Wife"</figDesc>
+
+</figure></hi></p>
 
 <p>"M," suddenly left the mayor's writhing lips; then slowly, letter
 
@@ -11023,17 +11129,17 @@ hidden; then--</p>
 
 <p>"A telegram, your Honor."</p>
 
-<p>The old man spoke briskly, even a little crisply--<pb n="325
+<p>The old man spoke briskly, even a little crisply-- 
 
-MERCY"/> 
+<figure entity="agmayor_illus2" rend="inline">
 
-<figure entity="agmayorill" rend="inline">
+<p>"Why does my wife appeal for mercy to you?" <hi rend="italic">Page</hi> 324</p>
 
-<p> "Why does my wife appeal for mercy to you?" <hi rend="italic">Page</hi> 324</p>
+<figDesc>illustration between pages 324 and 325 of Green's "The Mayor's Wife"</figDesc>
 
-<figDesc> illustration included in body of Green's "The Mayor's Wife"</figDesc>
+</figure><pb n="325
 
-</figure>
+MERCY"/>
 
 perhaps he always did when he addressed the mayor. But his
 
@@ -12343,11 +12449,11 @@ door. "A woman over the possession of whom it is an honor to quar
 
 <pb/>
 
-<figure entity="agmayorill" rend="inline">
+<figure entity="agmayor_illus3" rend="inline">
 
 <p>He fell prone and apparently lifeless on the lounge. <hi rend="italic">Page</hi>365.</p>
 
-<figDesc> illustration included in body of Green's "The Mayor's Wife"</figDesc>
+<figDesc> illustration between pages 364 and 365 of Green's "The Mayor's Wife"</figDesc>
 
 </figure>
 
@@ -13081,7 +13187,7 @@ her, she was gradually becoming an unusually fine woman.</p>
 
 <p>I remained with Mrs. Packard till they left town for the capital;
 
-remained to enjoy to the full the<pb n="388     THE MAYOR'S WIFE"/>
+remained to enjoy to the full the<pb n="388     THE MAYOR'S WIFE"/><pb entity="agmayor388" pages="388"/>
 
 joy of these reunited hearts, and to receive the substantial reward
 
@@ -13099,9 +13205,9 @@ single hint as to its management, you will at once comprehend its
 
 apparent intricacies:</p>
 
-<figure entity="agmayorill" rend="inline">
+<figure entity="agmayor388a" rend="inline">
 
-<figDesc> Illustration included in body of Green's "The Mayor's Wife"</figDesc>
+<figDesc>Cypher on page 388 of Green's "The Mayor's Wife"</figDesc>
 
 </figure>
 
@@ -13141,7 +13247,7 @@ the cryptogram in <hi rend="italic">The Gold Bug</hi>.</p>
 
 <div id="agmayor200" type="advert">
 
-<figure entity="agmayorad1" rend="inline">
+<figure entity="agmayor_ad1" rend="inline">
 
 <figDesc> Advert included in back of Green's "The Mayor's Wife"</figDesc>
 
@@ -13151,7 +13257,7 @@ the cryptogram in <hi rend="italic">The Gold Bug</hi>.</p>
 
 <pb n="[392]"/>
 
-<figure entity="agmayorad2" rend="inline">
+<figure entity="agmayor_ad2" rend="inline">
 
 <figDesc> Advert included in back of Green's "The Mayor's Wife"</figDesc>
 
