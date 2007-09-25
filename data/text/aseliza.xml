@@ -1,12 +1,12 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2> 
-<teiHeader> 
+<TEI.2 id="aseliza1201"> 
+<teiHeader id="aseliza1202"> 
 <fileDesc> 
 <titleStmt> 
-<title>Elizabeth Glenn M.B., an electronic edition</title> 
+<title>Elizabeth Glen M.B., an electronic edition</title> 
 <author n="Swan, Annie S., 1859-1943">Annie S. Swan</author> 
 </titleStmt> 
-<extent></extent> 
+<extent>400Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -56,10 +56,10 @@
 <textClass> 
 <keywords scheme="lcsh"> 
 <list> 
-<item>British literature--20th Century--Fiction.</item> 
-<item>Women authors, British--20th Century.</item> 
-<item>Women in journalism.</item> 
-<item>Short stories.</item> 
+<item>British literature--19th Century--Fiction.</item> 
+<item>Women doctors.</item> 
+<item>Women in the professions.</item> 
+<item>Doctor-patient relationships.</item> 
 </list> 
 </keywords> 
 </textClass> 
@@ -73,8 +73,8 @@
 </change> 
 </revisionDesc> 
 </teiHeader> 
-<text> 
-<front>
+<text id="aseliza1203"> 
+<front id="aseliza1204">
 <pb entity="[i]"/>
 <div id="aselizafm1" type="frontispiece">
 <figure entity="aselizaill" rend="inline">
@@ -115,7 +115,7 @@
 </figure>
 </div>
 </front>
-<body>
+<body id="aseliza1205">
 <pb n="1"/>
 
 <div id="aseliza001" type="chapter" n="1">
@@ -254,7 +254,7 @@ the tablets on which I had written</p>
 
 <p>I got up then, feeling a trifle aggrieved.</p>
 
-<p>"I see you are not amenable to any kind of reason, Elizabeth Glen,'' I remarked, "so I am going. No; <pb n="8 ELIZABETH GLEN, M.B."/>not even Margaret's scones will lure me to stop to-day!"</p>
+<p>"I see you are not amenable to any kind of reason, Elizabeth Glen," I remarked, "so I am going. No; <pb n="8 ELIZABETH GLEN, M.B."/>not even Margaret's scones will lure me to stop to-day!"</p>
 
 <p>"Sit down, you spitfire, and let us talk over this utterly unfeasible scheme rationally. Don't you foresee a thousand complications that might arise&#x2014;complications from which, clever women though we account ourselves, we might find it difficult to escape?"</p>
 
@@ -266,7 +266,7 @@ the tablets on which I had written</p>
 
 <p>"Here comes Margaret, timely interruption," said my friend with assumed relief; and the gaunt, keen-eyed, faithful servant-woman, who had gone into exile for love of her mistress' "dear bairn," came marching into the room, bearing the tray.</p>
 
-<p>Those who did not know Margaret Inglis abhorred her; those who did, adored her. There was no middle course. I belonged to the ranks of the latter class, and she had so far overcome her prejudice against a woman who wrote novells, as she pronounced it, with an indescribable, inimitable accent of scorn, as to <pb n="9 A BOARDING-HOUSE ROMANCE."/>bake scones especially for my coming; and that meant a great deal more than any mere words. She paused, privileged by her place in the household, to inquire kindly for me and mine, and when she departed her mistress did not speak.</p>
+<p>Those who did not know Margaret Inglis abhorred her; those who did, adored her. There was no middle course. I belonged to the ranks of the latter class, and she had so far overcome her prejudice against a woman who wrote nov<hi rend="italic">ells</hi>, as she pronounced it, with an indescribable, inimitable accent of scorn, as to <pb n="9 A BOARDING-HOUSE ROMANCE."/>bake scones especially for my coming; and that meant a great deal more than any mere words. She paused, privileged by her place in the household, to inquire kindly for me and mine, and when she departed her mistress did not speak.</p>
 
 <p>"Margaret will stand out beautifully&#x2014;a kind of Caleb Balderston in petticoats," I said cheerfully, "and her devotion to you is one of the sweetest things I have ever seen. My dear Elizabeth, you can't escape your destiny. Your personality is too striking and too lovely to be passed over."</p>
 
@@ -282,7 +282,7 @@ the tablets on which I had written</p>
 
 <p>ELIZABETH GLEN, M.B.,</p>
 
-<p>sat down to wait for patients. 1 had, happily, an income of my own sufficient for the simple needs of <pb n="12 ELIZABETH GLEN, M.B."/>my small household, and my good Margaret is, as you know, a shining example of our national forethought and thrift.</p>
+<p>sat down to wait for patients. I had, happily, an income of my own sufficient for the simple needs of <pb n="12 ELIZABETH GLEN, M.B."/>my small household, and my good Margaret is, as you know, a shining example of our national forethought and thrift.</p>
 
 <p>"I was sitting here one evening about eight o'clock, my after-dinner coffee growing cold beside me, while I reflected on the harshness of destiny and the disappointments of life. Two months had passed without bringing in a single summons from without. This I had anticipated, and prepared for, and had stoutly resolved to make trial of the neighbourhood for twelve or eighteen months. My relatives, when they condescended to discuss the matter, had disapproved of the taking of the house, advising me rather to take rooms in a better locality. But I had, on that day, completed my tenth week of residence in Rayburn Place, and I had not once crossed the doorstep professionally. I had actually begun to seriously contemplate the complete downfall of my ambition, and to admit to myself that nobody in Bloomsbury seemed to be in need of a doctor, certainly of a woman doctor least of all. Being a very proud person in my own way, this thought brought with it its due meed of humiliation, and there were some very unprofessional tears standing warm and bright in my eyes, when I was startled by a very loud and peremptory ring at <pb n="13 A BOARDING-HOUSE ROMANCE."/>the hall bell. I heard the hasty tread of my good Margaret on the kitchen stairs, and my strained ear did not fail to catch the sound of voices in brief, but evidently excited, colloquy at the door. Then Margaret appeared, large, comely, and excited, at my study door, and gave her message with a distinct note of triumph in her faithful voice: 'You're wanted, Miss Glen, at once, to 198, Bloomsbury Square.'</p>
 
@@ -318,13 +318,13 @@ the tablets on which I had written</p>
 
 <p>"Feeling that my successful treatment of this curious case might be a matter of the utmost importance to me, I put my best foot forward, as the Scotch say and I had the satisfaction of feeling that I had made a very favourable impression on Mrs. Mallow. It was about two hours before I could say I observed any improvement in the condition of my poor young <pb n="17 A BOARDING-HOUSE ROMANCE."/>patient. By that time her skin had lost its clamminess, sickness had ceased, and the burning pains were considerably eased. But her appearance still left much to be desired. The languor was excessive, and though she looked at me with perfectly conscious eyes, her expression was one of settled melancholy. I signed to Mrs. Mallow to come to the window with me.</p>
 
-<p>"You can, I suppose, tell me something about this poor girl?' I said. ' She looks little more than a child, though she wears a wedding-ring.'</p>
+<p>"You can, I suppose, tell me something about this poor girl?' I said. 'She looks little more than a child, though she wears a wedding-ring.'</p>
 
-<p>"' Yes, but that doesn't make her a wife,' said Mrs. Mallow grimly. ' She came here with her husband about three weeks ago, as handsome-looking a young couple, I will say, as ever I set eyes on. He said he was an artist, and that they might be here for some time, as he was going to make some copies in the National Gallery. All right, of course, I took 'em in; for she's as sweet a young creature as ever walked, and sings like a nightingale. Sometimes they came to the drawing-room of an evening, and made themselves agreeable, as only real quality can. He's that, anybody can see; an' they adored each other. It has made mouths water in this house, my dear, to see their happiness.'</p>
+<p>"'Yes, but that doesn't make her a wife,' said Mrs. Mallow grimly. 'She came here with her husband about three weeks ago, as handsome-looking a young couple, I will say, as ever I set eyes on. He said he was an artist, and that they might be here for some time, as he was going to make some copies in the National Gallery. All right, of course, I took 'em in; for she's as sweet a young creature as ever walked, and sings like a nightingale. Sometimes they came to the drawing-room of an evening, and made themselves agreeable, as only real quality can. He's that, anybody can see; an' they adored each other. It has made mouths water in this house, my dear, to see their happiness.'</p>
 
 <pb n="18 ELIZABETH GLEN, M.B."/>
 
-<p>"'Then why,' I ventured to inquire, more and more surprised, ' why has it come to this; and where is the husband?'</p>
+<p>"'Then why,' I ventured to inquire, more and more surprised, 'why has it come to this; and where is the husband?'</p>
 
 <p>"'In the country. He went the day before yesterday, in consequence, I do believe, of a letter that came to 'im that morning. They got it at breakfast, and I saw 'im look kind of queer, an' then he went away.'</p>
 
@@ -346,7 +346,7 @@ the tablets on which I had written</p>
 
 <p>"I smiled a little at this frank expression of opinion, but felt secretly glad that I had made so favourable an impression on the good soul, who might be able to do me a good turn. I then walked over to the bed, and laid my hand on the square white brow of my young patient.</p>
 
-<p>"'My dear,' I said, as gently as I could, ' you are greatly better, I think. Could you answer me a question?'</p>
+<p>"'My dear,' I said, as gently as I could, 'you are greatly better, I think. Could you answer me a question?'</p>
 
 <p>She signified by her eyes that she could and would. The vague terror had left them, and a more peaceful <pb n="20 ELIZABETH GLEN, M.B."/>and natural expression had returned to her face. Mrs. Mallow, with a delicacy which caused me to think yet more highly of her, immediately left the room.</p>
 
@@ -460,7 +460,7 @@ turned away.</p>
 
 <p>She gave a little start. The expression of her mouth changed, its outline becoming long and thin, and even cruel.</p>
 
-<p>"'Yes,' she said languidly. 'Then yon will be able to give me her address. My son came to see me because I was ill, and was taken ill himself directly he arrived. I suppose the fever&#x2014;typhoid&#x2014;was on him when he left London. He is quite delirious, and I cannot find the address in his pocket. Please to give me it. I shall send for her, in case of any serious issue. I would wish to do my duty, though she is not, of course, a person of whom I can approve.'</p>
+<p>"'Yes,' she said languidly. 'Then you will be able to give me her address. My son came to see me because I was ill, and was taken ill himself directly he arrived. I suppose the fever&#x2014;typhoid&#x2014;was on him when he left London. He is quite delirious, and I cannot find the address in his pocket. Please to give me it. I shall send for her, in case of any serious issue. I would wish to do my duty, though she is not, of course, a person of whom I can approve.'</p>
 
 <p>"She delivered herself calmly and precisely, and kept her cold blue eyes fixed full on my face. I only hope I looked as angry as I felt, and I have been told that I can assume a very forbidding expression.</p>
 
@@ -518,9 +518,7 @@ turned away.</p>
 
 <p>"'I have no desire to keep you from him,' she said quietly then. 'I had no address, or I should have sent for you before. Step this way.'</p>
 
-<p>"'You do not look so unkindly at me as I expected. If I have wronged you&#x2014;as I have bitterly disappointed you, I know&#x2014;I ask to be forgiven. It is too late to
-
-remedy it now, but I love him&#x2014;&#x2014;'</p>
+<p>"'You do not look so unkindly at me as I expected. If I have wronged you&#x2014;as I have bitterly disappointed you, I know&#x2014;I ask to be forgiven. It is too late to remedy it now, but I love him&#x2014;&#x2014;'</p>
 
 <p>"Her sweet voice broke. I saw the elder woman shiver again, and a curious trembling light broke upon her face. The sweet humility, the childish grace of that desolate young creature had won the heart of the earl's granddaughter, I could see.</p>
 
@@ -933,8 +931,8 @@ sanitary appliances, and those provided are quite inadequate to the
 number who 
 
 <figure entity="aseliza075" rend="inline">
-<p> "A MORE CHEERLESS AND MISERABLE PLACE I HAVE RARELY LOOKED UPON."</p>
-<figDesc> Illustration included in body of Swan's "Elizabeth Glen M.D. "</figDesc>
+<p> "A MORE CHEERLESS AND MISERABLE PLACE I HAVE RARELY LOOKED UPON."<lb/><hi rend="right">[<hi rend="italic">p</hi>. 75.</hi></p>
+<figDesc>Illustration included between pages 74 and 75 of Swan's "Elizabeth Glen M.B."</figDesc>
 </figure>
 
 <pb n="75 A CHRISTMAS BABY."/>require them. I am always sorry when I hear of a young couple beginning in a room in such a house, because if they have not sufficient pride and pluck to desire a house of their own at the beginning of their married life their prospects are not likely to improve. Our Scotch system of flats in those big 'lands' you and I remember may have its drawbacks, but it is far preferable to this sub-letting. But I must go on. Mr. Rutherford opened the main door of one of these self-contained houses, and led me upstairs to the very top, which is at least always preferable to the basement floor under the street. The house smelt musty and close, and there was a vile mingling of cooking odours which very nearly upset me. But I became oblivious of all that presently, when Mr. Rutherford opened the door of his own small domain and we entered it together.</p>
@@ -1288,7 +1286,7 @@ way through a thick fog to Portland Street shortly after nine. The depressed-loo
 
 <p>"'Am I agoin' to die?'</p>
 
-<p>"'You are very ill,' I replied at once, for I never hide the truth, especially when it is so earnestly sought. I laid my hand on hers as I said it, and I suppose I looked the sympathy I felt. My heart indeed overflowed with the pity of it, and I felt nothing but honour for the poor woman who had made such a mistake, and paid for it more dearly perhaps than I knew. She was uneducated and <pb n="112 ELIZABETH GLEN, M.B"/>plebeian of course, as the Surrey family would have had no hesitation in telling you, but she had feelings as acute, sensibilities as easily wounded, as the gentlyborn, and the knowledge, never hid from her by (the gentleman and the scholard,' that she had dragged him down, had been as bitter as gall to her, and brought out all the unlovely traits in her character. 'You look so kind, miss, an' there ain't nobody I can speak to; will you sit down, and hear what I have to say?'</p>
+<p>"'You are very ill,' I replied at once, for I never hide the truth, especially when it is so earnestly sought. I laid my hand on hers as I said it, and I suppose I looked the sympathy I felt. My heart indeed overflowed with the pity of it, and I felt nothing but honour for the poor woman who had made such a mistake, and paid for it more dearly perhaps than I knew. She was uneducated and <pb n="112 ELIZABETH GLEN, M.B"/>plebeian of course, as the Surrey family would have had no hesitation in telling you, but she had feelings as acute, sensibilities as easily wounded, as the gentlyborn, and the knowledge, never hid from her by 'the gentleman and the scholard,' that she had dragged him down, had been as bitter as gall to her, and brought out all the unlovely traits in her character. 'You look so kind, miss, an' there ain't nobody I can speak to; will you sit down, and hear what I have to say?'</p>
 
 <p>"I did so, still keeping my hand on hers, and she turned her dim eyes on my face with a whole world of pathos and entreaty in their depths. 'Only for our children I wouldn't mind much. I've been a drag on Richard, that's Platt, from the first. I might 'a' known it never does for a gentleman to marry a servant, but I didn't think, and as Heaven is my judge, I loved 'im, clear. Not that Platt's ever been bad to me&#x2014;he wouldn't be bad to nobody, poor fellow, he ain't got as much venom in 'im, or he might 'a' got on better. But 'e's fretted after 'is own kind, as is nat'ral, I suppose. Oh, them children! what'll become of them? Heaven knows, I don't.'</p>
 
@@ -1314,7 +1312,10 @@ distress. He threw himself down on his knees by the bed, and implored
 
 her to forgive him for all the past.</p>
 
-***PICTURE
+<figure entity="aselizaill2" rend="inline">
+<p>"YOU HEAR WHAT SHE SAYS." [<hi rend="italic">p</hi>.114.</p>
+<figDesc>Illustration included between pages 114 and 115 of Swan's "Elizabeth Glen M.B."</figDesc>
+</figure>
 
 <pb n="115 MRS. PLATT'S HUSBAND."/>
 
@@ -1583,8 +1584,8 @@ servant whether the minister was in the house. He was not, having gone
 to open a sale 
 
 <figure entity="aseliza142" rend="inline">
-<p> "HE FELL UPON HIS KNEES BY HER SIDE."</p>
-<figDesc>Illustration included in body of Swan's "Elizabeth M.B."</figDesc>
+<p> "HE FELL UPON HIS KNEES BY HER SIDE."  [<hi rend="italic">p</hi>. 143.</p>
+<figDesc>Illustration between pages 142 and 143 of Swan's "Elizabeth M.B."</figDesc>
 </figure>
 
 <pb n="142 ELIZABETH GLEN, M.B."/>of work at the church. He came in shortly, however. I saw him pass by the window, and went out to the hall to meet him.</p>
@@ -1786,8 +1787,8 @@ the woman he so faithfully, though hopelessly, loved. It was just on
 the tip of my tongue to tell him Miss 
 
 <figure entity="aseliza167" rend="inline">
-<p> "HE ONLY BOWED STIFFLY, AND WALKED OUT OF THE HOUSE."</p>
-<figDesc> Illustration included in body of Swan's "Elizabeth Glen, M.B."</figDesc>
+<p>"HE ONLY BOWED STIFFLY, AND WALKED OUT OF THE HOUSE."  [<hi rend="italic">p</hi>. 167.</p>
+<figDesc>Illustration included between pages 166 and 167 of Swan's "Elizabeth Glen, M.B."</figDesc>
 </figure>
 <pb n="167 JOHN RANSOME'S LOVE STORY."/>Barratt had been to my house, and for what purpose, when there came a tremendous ring at the door-bell. Immediately John Ransome got up to leave. I walked with him to the consulting-room door, and when we looked out into the hall what did we behold? Evelyn Barratt in an evening gown of white satin and an exquisite crimson cloak trimmed with white feathers, just far enough open at the neck to reveal its lovely contour.</p>
 
@@ -2150,8 +2151,8 @@ at the door and then to enter; and there they were, granny in my chair
 with the baby asleep in her 
 
 <figure entity="aseliza201" rend="inline">
-<p> "THERE THEY WERE!"</p>
-<figDesc> Illustration included in body of Swan's "Elizabeth Glen, M.B."</figDesc>
+<p>"THERE THEY WERE!"  [<hi rend="italic">p</hi>. 200.</p>
+<figDesc>Illustration between pages 200 and 201 of Swan's "Elizabeth Glen, M.B."</figDesc>
 </figure>
 
 <pb n="201 LUCY GERMAINE'S MARRIAGE."/>arms, and Lucy sitting close by on a stool, and traces of tears were on both their faces.</p>
@@ -2601,8 +2602,8 @@ fallen.</p>
 <p>'"I could not help smiling.</p>
 
 <figure entity="aseliza243" rend="inline">
-<p> " 'IF YOU ASK FOR MY ADVICE, I WILL SAY, DON'T DO IT.' ' </p>
-<figDesc> Illustration included in body of Swan's "Elizabeth Glen M.B."</figDesc>
+<p>"'IF YOU ASK FOR MY ADVICE, I WILL SAY, DON'T DO IT.''  [<hi rend="italic">p</hi>. 242.</p>
+<figDesc>Illustration between pages 242 and 243 of Swan's "Elizabeth Glen M.B."</figDesc>
 </figure>
 
 <pb n="243 BARBARA."/>
@@ -2848,8 +2849,8 @@ you in time. Well, are you surprised to see me here as Mrs. Claydon? I mean&#x20
 <p>"She stopped talking quite suddenly, and though I felt something was expected of me, I did not know what to say.</p>
 
 <figure entity="aseliza267" rend="inline">
-<p> "HE SEEMED TO FEEL MEETING ME."</p>
-<figDesc> Illustration included in body of Swan's "Elizabeth Glen M.B."</figDesc>
+<p> "HE SEEMED TO FEEL MEETING ME."  [<hi rend="italic">p</hi>. 267.</p>
+<figDesc> Illustration included between pages 266 and 267 of Swan's "Elizabeth Glen M.B."</figDesc>
 </figure>
 
 <pb n="267 A COMMONPLACE TRAGEDY."/>
@@ -3090,8 +3091,8 @@ downstairs. A few sleepy-eyed servants were about, and the porter
 undid half the door to 
 
 <figure entity="aseliza285" rend="inline">
-<p>" 'YOU HERE!...WHAT DOES IT ALL MEAN?' "</p>
-<figDesc> Illustration included in the body of Swan's "Elizabeth Glen M.B."</figDesc>
+<p>"'YOU HERE!...WHAT DOES IT ALL MEAN?'"  [<hi rend="italic">p</hi>. 285.</p>
+<figDesc>Illustration included between pages 284 and 285 of Swan's "Elizabeth Glen M.B."</figDesc>
 </figure>
 
 <pb n="285 A GENTLE LIFE."/>let me out, asking civilly what boat I wanted to catch, and if I had had any breakfast. I thanked him and passed out to the porch. All the flowers and plants before the door were wet with dew, and the air had a cool, clean touch which most refreshed me.</p>
@@ -3377,8 +3378,8 @@ appetite for two <pb n="293 HER OWN ROMANCE."/>whole days, and made me water poo
 <p>"'Why, of Parliament, to be sure, and my father wants me to stand for the county.'</p>
 
 <figure entity="aseliza309" rend="inline">
-<p> "HE WAS SHOWN IN BY MARGARET."</p>
-<figDesc>Illustration included in the body of Swan's "Elizabeth Glen, M.B."</figDesc>
+<p>"HE WAS SHOWN IN BY MARGARET."  [<hi rend="italic">p</hi>. 308.</p>
+<figDesc>Illustration between pages 308 and 309 of Swan's "Elizabeth Glen, M.B."</figDesc>
 </figure>
 
 <pb n="309 HER OWN ROMANCE."/>
@@ -3418,7 +3419,7 @@ appetite for two <pb n="293 HER OWN ROMANCE."/>whole days, and made me water poo
 
 </body>
 
-<back>
+<back id="aseliza1206">
 
 <div type="colophon" id="aselizabm1">
 
