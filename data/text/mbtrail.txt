@@ -1,10 +1,10 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2> 
-<teiHeader> 
+<TEI.2 id="mbtrail1201"> 
+<teiHeader id="mbtrail1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>The Trail of the Serpent, an electronic edition</title> 
-<author n="Braddon, M.E., 1835-1915">David Lyall</author> </titleStmt> 
+<author n="Braddon, M.E., 1835-1915">David Lyall</author></titleStmt> 
 <extent>350kb</extent> 
 <publicationStmt>
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
@@ -24,7 +24,7 @@
 <sourceDesc> 
 <bibl><author>Braddon, M.E.</author>. <title>The Trail of the Serpent</title>. 
 <pubPlace>London</pubPlace>: <publisher>Hodder and Stoughton.</publisher>, 
-<date>????</date>.
+<date>[1867]</date>.
 </bibl> 
 </sourceDesc> 
 </fileDesc> 
@@ -56,11 +56,11 @@
 <textClass> 
 <keywords scheme="lcsh"> 
 <list> 
-<item>British literature--20th Century--Fiction.</item> 
-<item>Women authors, British--20th Century.</item> 
-<item>Murder Fiction.</item> 
-<item>Social classes fiction.</item> 
-<item> Mistaken identity fiction.</item>
+<item>British literature--19th Century--Fiction.</item> 
+<item>Women authors, British--19th Century.</item> 
+<item>Murder.</item> 
+<item>Social class.</item> 
+<item> Mistaken identity.</item>
 </list> 
 </keywords> 
 </textClass> 
@@ -74,36 +74,46 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
+<text id="mbtrail1203">
+<front id="mbtrail1204">
+<div id="mbtrail_frontcover" type="Front Cover">
+<figure entity="mbtrail_front_cover" rend="inline">
+<figDesc> Front Cover of Braddon's "Trail of the Serpent."</figDesc>
+</figure>
+</div>
+<div type="covers" id="mbtrailsp">
+  <figure entity="mbtrail_spine" rend="inline">
+    <figDesc>The spine of Braddon's "Trail of the Serpent."</figDesc>
+  </figure>
+  </div>
 <pb n="[i]"/>
-<pb entity="mbtrailtp" type="Title Page"/>
+<pb entity="mbtrail_title_page" type="Title Page"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main"> The Trail of the Serpent</titlePart>
+<titlePart type="main">The Trail of the Serpent</titlePart>
 </docTitle>
-<byline> BY THE AUTHOR OF <lb/> "LADY AUDLEY'S SECRET," "AURORA FLOYD" <lb/>ETC. ETC. ETC.</byline>
+<byline>BY THE AUTHOR OF<lb/>"LADY AUDLEY'S SECRET," "AURORA FLOYD"<lb/>ETC. ETC. ETC.</byline>
 <div type="epigraph">
-<q> <cit><lg> <l> Poor race of men, said the pitying Spirit,</l>
-<l> Dearly ye pay for your prime fall;</l>
-<l> Some flowers of Eden ye yet inherit,</l>
+<q><cit><lg><l>Poor race of men, said the pitying Spirit,</l>
+<l>Dearly ye pay for your prime fall;</l>
+<l>Some flowers of Eden ye yet inherit,</l>
 <l>But the trail of the Serpent is over them all."</l></lg>
-<bibl>Moore</bibl></cit></q></div>
-<docEdition>Stereotyped Print</docEdition>
-<docImprint> <pubPlace>LONDON</pubPlace><publisher>WARD, LOCK, AND TYLER</publisher> <pubPlace>WARWICK HOUSE, PATERNOSTER ROW</pubPlace> <docDate>1903</docDate> </docImprint> 
+<bibl><hi rend="italic">Moore</hi></bibl></cit></q></div>
+<docEdition>Stereotyped Edition.</docEdition>
+<docImprint><pubPlace>LONDON</pubPlace><publisher>WARD, LOCK, AND TYLER</publisher> <pubPlace>WARWICK HOUSE, PATERNOSTER ROW</pubPlace></docImprint><imprimatur>[All rights reserved.]</imprimatur> 
 </titlePage>
 <pb n="iii"/>
 <div id="mbtrail100" type="table of contents">
-<figure entity="mbtrailtcl" rend="inline">
-<figDesc> Table of Contents for Braddon's The Trail of the Serpent</figDesc>
+<figure entity="mbtrailtc1" rend="inline">
+<figDesc>First Table of Contents page for Braddon's "The Trail of the Serpent."</figDesc>
 </figure>
 <pb n="iv"/>
 <figure entity="mbtrailtc2" rend="inline">
-<figDesc> Table of Contents for Braddon's The Trail of the Serpent</figDesc> 
+<figDesc>Second Table of Contents page for Braddon's "The Trail of the Serpent."</figDesc> 
 </figure>
 </div>
 </front>
-<body>
+<body id="mbtrail1205">
 <pb n="[5]"/>
 <div id= "mbtrail100" type="book" n="1">
 THE TRAIL OF THE SERPENT.
@@ -1080,7 +1090,7 @@ sleepers, though it might not have awakened them. The man on the hillock never s
 <p>Mr. Peters jumped quickly from the trap, tied the elderly pony to a furze-bush, mounted the hillock, and proceeded to inspect the sleeping figure. The pale set face, and the fixed blue eyes, looked up at the crimson light melting into the purple shadows of the evening sky, but never more would earthly sunlight or shadow, or night or morning, or storm or calm, be of any account to that quiet figure lying on the heath. Why the man was there, or how he had come there, was a part of the great mystery under the darkness of which he lay; and that mystery was Death! He had died apparently by poison administered by his own hand; for on the grass by his side there was a little empty bottle labelled "Opium," on which his fingers lay, not clasping it, but lying as if they had fallen over it. His clothes were soaked through with wet, so that he must in all probability have lain in that place through the storm of the previous night. A silver watch was in the pocket of his waistcoat, which Mr. Peters found, on looking at it, to have stopped at ten o'clock--ten o'clock of the night before, most likely. His hat had fallen off, and lay at a little distance, and his curling light hair hung in wet ringlets over his high forehead. His face was handsome, the features well chiselled, but the cheeks were sunken and hollow, making the large blue eyes seem larger.</p>
 <pb n="90     The Trail of the Serpent."/>
 <p>Mr. Peters, in examining the pockets of the suicide, found no clue to his identity; a handkerchief, a little silver, a few halfpence, a penknife wrapped in a leaf torn out of a Latin Grammar, were the sole contents.</p>
-<p>The detective reflected for a few moments, with his mouth on one side, and then, mounting the highest hillock near, looked over the surrounding country. He presently descried a group of haymakers at a little distance, whom he signalled with a loud whistle. To them, through Kuppins as interpreter, he gave his directions; and two of the tallest and strongest of the men took the body by the head and feet and carried it between them, with Kuppins's shawl spread over the still white face. They were two miles from Slopperton, and those two miles were by no means pleasant to Kuppins, seated in Mr. Vorkins's trap, which Mr. Peters drove slowly, so as to keep pace with the two men and their ghastly burden. Kuppins's shawl, which of course would never be any use as a shawl again, was no good to conceal the sharp outline of the face it covered; for Kuppins had seen those blue eyes, and once to see was always to see them as she thought. The dreary journey came at last to a dreary end at the police-office, where the men deposited their dreadful load, and police-office, paid for their trouble, departed rejoicing. Mr. Peters was busy enough for the next half-hour giving an account of the finding of the body, and issuing handbills of "Found dead, &c."</p>
+<p>The detective reflected for a few moments, with his mouth on one side, and then, mounting the highest hillock near, looked over the surrounding country. He presently descried a group of haymakers at a little distance, whom he signalled with a loud whistle. To them, through Kuppins as interpreter, he gave his directions; and two of the tallest and strongest of the men took the body by the head and feet and carried it between them, with Kuppins's shawl spread over the still white face. They were two miles from Slopperton, and those two miles were by no means pleasant to Kuppins, seated in Mr. Vorkins's trap, which Mr. Peters drove slowly, so as to keep pace with the two men and their ghastly burden. Kuppins's shawl, which of course would never be any use as a shawl again, was no good to conceal the sharp outline of the face it covered; for Kuppins had seen those blue eyes, and once to see was always to see them as she thought. The dreary journey came at last to a dreary end at the police-office, where the men deposited their dreadful load, and police-office, paid for their trouble, departed rejoicing. Mr. Peters was busy enough for the next half-hour giving an account of the finding of the body, and issuing handbills of "Found dead, &amp;c."</p>
 <p>Kuppins and the "fondling" returned to Little Gulliver Street, and if ever there had been a heroine in that street, that heroine was Kuppins. People came from three streets off to see her, and to hear the story, which she told so often that she came at last to tell it mechanically, and to render it slightly obscure by the vagueness of her punctuation. Anything in the way of supper that Kuppins would accept, and two or three dozen suppers if Kuppins would condescend to partake of them, were at Kuppins's service; and her reign as heroine-in-chief of this dark romance in real life was only put an end to by the appearance of Mr. Peters, the hero, who came home by-and-by, hot and dusty, to announce to the world of Little Gulliver Street, by means of the alphabet, very grimy after his exertions, that the dead man had been recognized as the principal usher of a great school up at the other end of the town, and that his name was, or had been, Jabez North. His motive for committing suicide he had carried a secret with him into the dark and mysterious region to which he was a voluntary traveller; and Mr. Peters, whose business it was to pry about the confines of this shadowy land, though powerless to penetrate the interior, could only discover some faint rumour of an ambitious love for his master's daughter as being the cause of the young usher's
 <pb n="91     The Usher resigns his Situation."/>
 untimely end. What secrets this dead man had carried with him into the shadow-land, who shall say? There might be one, perhaps, which even Mr. Peters, with his utmost acuteness, could not discover.</p></div>
@@ -3467,8 +3477,11 @@ house; and indeed, it is doubtful if five minutes after he had thrown aside the 
 <p>"Was the madness of a love which thought itself wronged, Valerie: we can forgive every wrong which springs from the depth of such a love."</p>
 <p>Spread thy white wings, oh, ship! The shadows melt away into that purple distance. I see in that far South two happy homes; glistening white-walled villas, half buried in the luxuriant verdure of that lovely climate. I hear the voices of the children in the dark orange-groves, where the scented blossoms fall into the marble basin of the fountain. I see Richard reclining in an easy-chair, under the veranda, half hidden by the trailing jasmines that shroud it from the evening sunshine, smoking the long cherry-stemmed pipe which his wife has filled for him. Gaston paces, with his sharp military step, up and down the terrace at their feet, stopping as he passes by to lay a caressing hand on the dark curls of the son he loves. And Valerie--she leans against the slender pillar of the porch, round which the scented yellow roses are twined, and watches, with earnest eyes, the husband of her earliest choice. Oh, happy shadows! Few in this work-a-day world so fortunate as you who win in your prime of life the fulfilment of the dear dream of your youth!</p>
 </div></div></div></div></div></div>
-</body></text>
+</body>
+<back id="mbtrail1206">
+<div id="mbtrail_backcover" type="Back Cover">
+<figure entity="mbtrail_back_cover" rend="inline">
+<figDesc>Back Cover of Braddon's "Trail of the Serpent."</figDesc>
+</figure></div></back>
+</text>
 </TEI.2>
-
-<!-- LocalWords:  deje ner
--->
