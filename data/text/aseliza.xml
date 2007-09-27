@@ -3,7 +3,7 @@
 <teiHeader id="aseliza1202"> 
 <fileDesc> 
 <titleStmt> 
-<title>Elizabeth Glen M.B., an electronic edition</title> 
+<title>Elizabeth Glen, M.B., an electronic edition</title> 
 <author n="Swan, Annie S., 1859-1943">Annie S. Swan</author> 
 </titleStmt> 
 <extent>400Kb</extent> 
@@ -25,7 +25,7 @@
 <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt> 
 </seriesStmt> 
 <sourceDesc>
- <bibl><author>Swan, Annie S.</author>. <title>Elizabeth Glenn M.B.</title>. <pubPlace>London</pubPlace>: <publisher>Hutchinson &#x0026; Co.</publisher>, <date>1896</date>.</bibl> 
+ <bibl><author>Swan, Annie S.</author>. <title>Elizabeth Glen, M.B.</title>. <pubPlace>London</pubPlace>: <publisher>Hutchinson &#x0026; Co.</publisher>, <date>1896</date>.</bibl> 
 </sourceDesc> 
 </fileDesc> 
 <encodingDesc> 
@@ -77,17 +77,17 @@
 <front id="aseliza1204">
 <pb entity="[i]"/>
 <div id="aselizafm1" type="frontispiece">
-<figure entity="aselizaill" rend="inline">
+<figure entity="aseliza_frontispiece" rend="inline">
 <figDesc> Illustration included at the front of Swan's "Elizabeth Glen M.B."</figDesc>
 </figure>
 </div>
 
 <pb n="[ii]"/>
-<pb entity="aselizatp" pages="title page"/>
+<pb entity="aseliza_tp" pages="title page"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main"> ELIZABETH GLEN, M.B.</titlePart>
-<titlePart type="sub"> The Experiences of a Lady Doctor</titlePart>
+<titlePart type="main">ELIZABETH GLEN, M.B.</titlePart>
+<titlePart type="sub">The Experiences of a Lady Doctor</titlePart>
 </docTitle>
 <byline> by <docAuthor> ANNIE S. SWAN<lb/> ( <hi rend="italic"> Mrs. Burnett-Smith</hi>) </docAuthor> AUTHOR OF <lb/> "HOMESPUN," "MEMORIES OF MARGARET GRANGER," "A VICTORY WON, <lb/> "A BITTER DEBT," "A FOOLISH MARRIAGE," ETC.</byline>
 <titlePart type="desc"> <hi rend="italic"> With full-page illustrations by </hi><lb/> D. MURRAY SMITH AND RICHARD TOD</titlePart>
@@ -99,18 +99,22 @@
 </docImprint>
 </titlePage>
 <pb n="[iii]"/>
+<div id="aselizacopy" type="copyright">
+        <figure entity="aseliza_copyright" rend="inline">
+          <figDesc>Copyright information for Swan's "Elizabeth Glen, M.B."</figDesc>
+        </figure></div>
 <div id="aselizafm2" type="colophon">
 <p> Printed by Hazell, Watson, &#x0026; Viney, Ld., London and Aylesbury</p>
 </div>
 
 <pb n="[iv]"/>
 <div id="aselizafm3" type="table of contents">
-<figure entity="aselizatc1" rend="inline">
-<figDesc> Table of contents included in front of Swan's "Elizabeth Glen, M.B."</figDesc>
+<figure entity="aseliza_tc1" rend="inline">
+<figDesc>Table of contents included in front of Swan's "Elizabeth Glen, M.B."</figDesc>
 </figure>
 
 <pb n="[v]"/>
-<figure entity="aselizatc2" rend="inline">
+<figure entity="aseliza_tc2" rend="inline">
 <figDesc> Table of contents included in front of Swan's "Elizabeth Glen, M.B."</figDesc>
 </figure>
 </div>
@@ -930,7 +934,7 @@ sanitary appliances, and those provided are quite inadequate to the
 
 number who 
 
-<figure entity="aseliza075" rend="inline">
+<figure entity="aseliza_ill1" rend="inline">
 <p> "A MORE CHEERLESS AND MISERABLE PLACE I HAVE RARELY LOOKED UPON."<lb/><hi rend="right">[<hi rend="italic">p</hi>. 75.</hi></p>
 <figDesc>Illustration included between pages 74 and 75 of Swan's "Elizabeth Glen M.B."</figDesc>
 </figure>
@@ -1312,7 +1316,7 @@ distress. He threw himself down on his knees by the bed, and implored
 
 her to forgive him for all the past.</p>
 
-<figure entity="aselizaill2" rend="inline">
+<figure entity="aseliza_ill2" rend="inline">
 <p>"YOU HEAR WHAT SHE SAYS." [<hi rend="italic">p</hi>.114.</p>
 <figDesc>Illustration included between pages 114 and 115 of Swan's "Elizabeth Glen M.B."</figDesc>
 </figure>
@@ -1786,7 +1790,7 @@ the woman he so faithfully, though hopelessly, loved. It was just on
 
 the tip of my tongue to tell him Miss 
 
-<figure entity="aseliza167" rend="inline">
+<figure entity="aseliza_ill4" rend="inline">
 <p>"HE ONLY BOWED STIFFLY, AND WALKED OUT OF THE HOUSE."  [<hi rend="italic">p</hi>. 167.</p>
 <figDesc>Illustration included between pages 166 and 167 of Swan's "Elizabeth Glen, M.B."</figDesc>
 </figure>
@@ -2150,7 +2154,7 @@ at the door and then to enter; and there they were, granny in my chair
 
 with the baby asleep in her 
 
-<figure entity="aseliza201" rend="inline">
+<figure entity="aseliza_ill5" rend="inline">
 <p>"THERE THEY WERE!"  [<hi rend="italic">p</hi>. 200.</p>
 <figDesc>Illustration between pages 200 and 201 of Swan's "Elizabeth Glen, M.B."</figDesc>
 </figure>
@@ -2601,7 +2605,7 @@ fallen.</p>
 
 <p>'"I could not help smiling.</p>
 
-<figure entity="aseliza243" rend="inline">
+<figure entity="aseliza_ill6" rend="inline">
 <p>"'IF YOU ASK FOR MY ADVICE, I WILL SAY, DON'T DO IT.''  [<hi rend="italic">p</hi>. 242.</p>
 <figDesc>Illustration between pages 242 and 243 of Swan's "Elizabeth Glen M.B."</figDesc>
 </figure>
@@ -2848,7 +2852,7 @@ you in time. Well, are you surprised to see me here as Mrs. Claydon? I mean&#x20
 
 <p>"She stopped talking quite suddenly, and though I felt something was expected of me, I did not know what to say.</p>
 
-<figure entity="aseliza267" rend="inline">
+<figure entity="aseliza_ill7" rend="inline">
 <p> "HE SEEMED TO FEEL MEETING ME."  [<hi rend="italic">p</hi>. 267.</p>
 <figDesc> Illustration included between pages 266 and 267 of Swan's "Elizabeth Glen M.B."</figDesc>
 </figure>
@@ -3090,7 +3094,7 @@ downstairs. A few sleepy-eyed servants were about, and the porter
 
 undid half the door to 
 
-<figure entity="aseliza285" rend="inline">
+<figure entity="aseliza_ill8" rend="inline">
 <p>"'YOU HERE!...WHAT DOES IT ALL MEAN?'"  [<hi rend="italic">p</hi>. 285.</p>
 <figDesc>Illustration included between pages 284 and 285 of Swan's "Elizabeth Glen M.B."</figDesc>
 </figure>
@@ -3377,7 +3381,7 @@ appetite for two <pb n="293 HER OWN ROMANCE."/>whole days, and made me water poo
 
 <p>"'Why, of Parliament, to be sure, and my father wants me to stand for the county.'</p>
 
-<figure entity="aseliza309" rend="inline">
+<figure entity="aseliza_ill9" rend="inline">
 <p>"HE WAS SHOWN IN BY MARGARET."  [<hi rend="italic">p</hi>. 308.</p>
 <figDesc>Illustration between pages 308 and 309 of Swan's "Elizabeth Glen, M.B."</figDesc>
 </figure>
