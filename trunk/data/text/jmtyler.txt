@@ -1,12 +1,12 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2> 
-<teiHeader> 
+<TEI.2 id="jmtyler1201"> 
+<teiHeader id="jmtyler1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>The Adventures of Tyler Tatlock, an electronic edition</title> 
-<author n="Donovan, Dick 1843-1934">Muddock, J.E.</author> 
+<author><name type="person" reg="Donovan, Dick, 1843-1934">Muddock, J.E.</name></author> 
 </titleStmt> 
-<extent></extent> 
+<extent>600Kb</extent> 
 <publicationStmt>
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -51,7 +51,7 @@
 <rs type="form">Unedited</rs> 
 <rs type="genre">Short Stories</rs> 
 <rs type="geography">Great Britain</rs> 
-<date>1800-1899</date> 
+<date>1900-1999</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
@@ -73,8 +73,8 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
+<text id="jmtyler1203">
+<front id="jmtyler1204">
 <div id="jmtylercover" type="covers">
 <figure entity="jmtylerfc" rend="inline">
 <figDesc> Front cover for Donovan's "The Adventures of Tyler Tatlock"</figDesc>
@@ -93,19 +93,26 @@
 </titlePage>
 <pb/>
 <div id="jmtyler200" type="colophon">
-<l> PRINTED BY </l>
-<l> SPOTTISWOODE AND CO., NEW-STREET SQUARE</l>
+<l>PRINTED BY</l>
+<l>SPOTTISWOODE AND CO., NEW-STREET SQUARE</l>
 <l>LONDON</l>
 </div>
 <pb/>
+<pb entity="jmtylertp" type="titlePage"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">THE ADVENTURES<lb/>OF<lb/>TYLER TATLOCK<lb/>PRIVATE DETECTIVE</titlePart>
+</docTitle>
+<byline>RELATED BY<lb/><docAuthor>DICK DONOVAN</docAuthor><lb/>AUTHOR OF 'A DETECTIVE'S TRIUMPHS' 'THE RECORDS OF VINCENT TRILL'<lb/>'THE MYSTERY OF JAMAICA TERRACE' 'TRACKED TO DOOM'<lb/>'EUGENE VIDOCQ' 'THE MAN FROM MANCHESTER'<lb/>'IN THE GRIP OF THE LAW' ETC.</byline>
+<docImprint><pubPlace>LONDON</pubPlace><lb/><publisher>CHATTO &amp; WINDUS</publisher><lb/><docDate>1900</docDate></docImprint></titlePage>
 <div id="jmtyler300" type="table of contents">
-<figure entity="jmtylertcl" rend="inline">
-<figDesc> Table of Contents for Donovan's The Adventures of Tyler Tatlock</figDesc>
+<figure entity="jmtylertc1" rend="inline">
+<figDesc>Table of Contents for Donovan's "The Adventures of Tyler Tatlock."</figDesc>
 </figure>
 </div>
 <pb/>
 </front>
-<body>
+<body id="jmtyler1205">
 <pb n="[1]"/> 
 <div id="jmtyler001" type="story" n="1">
 <head>THE ADVENTURES<lb/>
@@ -2031,7 +2038,7 @@ and addressed them. He wore a top-hat and frockcoat, its hideous blackness relie
 <p>'It's very kind of you.' He turned in his steps and went with them. Presently he stopped. There was a tempting-looking public at the corner of a street. 'By Jove, I'm parched,' he said. 'I must go and have a drink.' He moved towards the door. The clerks looked longingly. He halted. 'Will you fellows join me?' Of course the fellows would.</p>
 <p>The three went in through a side doorway. On the door was painted the legend 'Private Bar.' The stranger was affable, courtly, and liberal. 'Three large whiskies and soda, with a huge block of ice in each,' was his order. The ice fluid was grateful to the cracked lips and parched throats of the clerks. They had put the deed-box on a fixed seat against the panelling of the compartment. The bar was pretty full, and people came and went. The whiskies and soda were consumed, and with princely liberality the courteous stranger commanded the glasses to be replenished. But joy and pleasure were ever evanescent. Twenty minutes or so had passed. The clerks felt hotter than ever, but their throats were not so parched. They turned to go, and to their amazement found that the deed-box had gone before them. Possibly it was a teetotal deed-box, and objected to a public-house bar. Anyway, it had disappeared. The young men rushed out. They looked north and they looked south, but the box was not visible.</p>
 <pb n="2I4 CLINTON &#x0026; HILLS' DEED-BOX"/>
-<p>The stranger commiserated with them, and wondered what sort of • bally rascal' it was who was mean enough to steal a lawyer's deed-box. Agitated with a great distress, the young men discussed the situation. It was a very serious one for them. It meant ruin, for they would be dismissed without character, and even a lawyer's clerk must have a character of some sort for appearance sake. There was but one thing to do under the circumstances, and they did it. That was, they hurried off to the nearest police station to make known their loss, and of course they parted from the stranger, and saw him no more. As may be surmised, the case passed into the hands of Tyler Tatlock, for it was far more serious a matter than appears on the surface, and the police failed to trace the thief.</p>
+<p>The stranger commiserated with them, and wondered what sort of Â• bally rascal' it was who was mean enough to steal a lawyer's deed-box. Agitated with a great distress, the young men discussed the situation. It was a very serious one for them. It meant ruin, for they would be dismissed without character, and even a lawyer's clerk must have a character of some sort for appearance sake. There was but one thing to do under the circumstances, and they did it. That was, they hurried off to the nearest police station to make known their loss, and of course they parted from the stranger, and saw him no more. As may be surmised, the case passed into the hands of Tyler Tatlock, for it was far more serious a matter than appears on the surface, and the police failed to trace the thief.</p>
 <p>Clinton &#x0026; Hills were lawyers. They had been established for some time in dingy chambers in Fleet Street, but had taken more commodious offices in Holborn, for big fees and silly clients had enriched them. To these offices they were removing on the day that the box disappeared. They had had the management for some years of the estate of a Mr. Edward Burley. He had been a wealthy man and a client of theirs for a very long time. He was regarded as an eccentric man ; secretive as to his affairs, though the solicitors knew a good deal about them. He left the bulk of his property, the net value of which was about ten thousand a year, to a nephew, who was a minor at the time of his uncle's death, and the solicitors were appointed his guardians. The stolen deed-box contained documents of the utmost importance, and failing their recovery no end of complications might arise. The two youths who had been entrusted with the important duty of carrying the box to the new offices told a plain, unvarnished talc, for they were cute enough to see that any other might place them in an exceedingly awkward predicament, so for once in their lives they were truthful.</p>
 <p>From the first Tatlock was firmly of opinion that the stranger who had accosted them and treated them to drinks was in collusion with somebody else; that the whole business
 <pb n="215 CLINTON &#x0026; HILLS' DEED-BOX"/>
@@ -2779,7 +2786,7 @@ LONDON</p>
 </div>
 
 </body>
-<back>
+<back id="jmtyler1206">
 
 <pb n="[1]"/>
 <div id="jmtyler500" type="advert">
