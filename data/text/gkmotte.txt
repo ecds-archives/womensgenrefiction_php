@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2 id=""> 
-<teiHeader id=""> 
+<TEI.2 id="gkmotte1201"> 
+<teiHeader id="gkmotte1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>Monsieur Motte, an electronic edition</title> 
 <author><name type="person" reg="King, Grace Elizabeth, 1852-1932">Grace Elizabeth King</name></author> 
 </titleStmt> 
-<extent></extent> 
+<extent>400Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -58,18 +58,18 @@
 <rs type="language">English</rs> 
 <rs type="ethnicity">Caucasian</rs> 
 <rs type="form">Unedited</rs> 
-<rs type="genre">Novel</rs> 
+<rs type="genre">Short Stories</rs> 
 <rs type="geography">United States</rs> 
-<date>1900-1999</date> 
+<date>1800-1899</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
 <list> 
-<item>American literature--20th Century--Fiction.</item> 
-<item>Women authors, American--20th Century.</item> 
-<item>Local color in literature</item> 
+<item>American literature--19th Century--Fiction.</item> 
+<item>Women authors, American--19th Century.</item> 
+<item>Local color.</item> 
 <item>Louisiana fiction.</item>
-<item> Short stories</item> 
+<item>Short stories.</item> 
 </list> 
 </keywords> 
 </textClass> 
@@ -85,15 +85,15 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
+<text id="gkmotte1203">
+<front id="gkmotte1204">
 <pb n="[i]"/>
-<pb entity="gkmottetp" pages="title page"/>
+<pb entity="gkmottefm1" pages="title page"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main"> MONSIEUR MOTTE</titlePart>
+<titlePart type="main">MONSIEUR MOTTE</titlePart>
 </docTitle>
-<byline> BY <docAuthor> GRACE KING</docAuthor></byline>
+<byline>BY <docAuthor>GRACE KING</docAuthor></byline>
 <docImprint>
 <pubPlace> NEW YORK</pubPlace>
 <publisher> A.C. AMRSTRONG AND SON </publisher>
@@ -102,49 +102,52 @@
 </docImprint> 
 </titlePage>
 <pb n="[ii]"/>
-<div id="gkmottefm1" type="copyright">
-<figure entity="gkmottetpv" rend="inline">
-<figDesc> Copyright page for King's "Monsieur Motte"</figDesc>
+<div id="gkmottefm2" type="copyright">
+<figure entity="gkmottefm2" rend="inline">
+<figDesc>Copyright page for King's "Monsieur Motte"</figDesc>
 </figure>
 </div>
 
 <pb n="[iii]"/>
-<div id="gkmottefm2" type="dedication">
-<p> TO </p>
-<p> Mr. Charles Dudley Warner, </p>
-<p> WHOSE KINDLY RECOGNITION OF THE POSSIBILITIES </p>
-<p> OF SOUTHERN LITERATURE HAS BEEN AN </p>
-<p> ENCOURAGEMENT TO SOUTHERN</p>
-<p> WRITERS.</p>
+<div id="gkmottefm3" type="dedication">
+<figure entity="gkmottefm3" rend="inline">
+<figDesc>Dedication page for King's "Monsieur Motte"</figDesc>
+</figure>
+<p><q>TO<lb/>
+<l>Mr. Charles Dudley Warner,</l>
+<l>WHOSE KINDLY RECOGNITION OF THE POSSIBILITIES</l>
+<l>OF SOUTHERN LITERATURE HAS BEEN AN</l>
+<l>ENCOURAGEMENT TO SOUTHERN</l>
+<l>WRITERS.</l></q></p>
 </div>
 
 <pb/>
 <pb n="[v]"/>
-<div id="gkmottefm3" type="table of contents">
-<figure entity="gkmottetc" rend="inline">
-<figDesc> Table of contents for King's "Monsieur Motte"</figDesc>
+<div id="gkmottefm4" type="table of contents">
+<figure entity="gkmottefm4" rend="inline">
+<figDesc>Table of contents for King's "Monsieur Motte"</figDesc>
 </figure>
 </div>
 </front>
 <pb/>
-<group>
-<text>
-<front>
+<group id="gkmotte1205">
+<text id="gkmotte1206">
+<front id="gkmotte1207">
 <pb n="[vii]"/>
 <titlePage type="half">
 <docTitle>
-<titlePart type="main"> MONSIEUR MOTTE.</titlePart>
+<titlePart type="main">MONSIEUR MOTTE.</titlePart>
 </docTitle>
 </titlePage>
 </front>
-<body>
+<body id="gkmotte1208">
 <pb n="11"/>
 <div id="gkmotte001" type="part" n="1">
 <div id="gkmotte011" type="section" n="1">
 <head>MONSIEUR MOTTE.</head>
 <p>IT was near mid-day in June. A dazzling stream of vertical sun-rays fell into the quadrangular courtyard of the Institute St. Denis, and filled it to suffocation with light and heat. The flowers which grew in little beds, dotting the gray-flagged surface, bowed their heads under their leaves for shelter.</p>
 <p>A thin strip of shadow, stretching from the side of the schoolhouse, began to creep over the garden, slowly following the sun in its progress past the obtruding walls of neighboring buildings, until he should disappear behind a certain square steeple far off in the distance; then the shade would entirely cover the yard; then the stars would be coming out, languid and pale; and then the fragrance of oleander
-<pb n="12 Monsieur Motte."/>
+<pb n="12     Monsieur Motte."/>
 and jasmine, travelling from yard to yard, would burden the air, soothing the senses in order to seduce the imagination.</p>
 <p>Along the narrow shaded strip, quite filling it up, moved a class of girls in Indian file, their elbows scraping against the rugged bricks of the wall as they held their books up to the openings of their sun-bonnets. A murmur of rapidly articulated words, like the murmur of boiling water in a closed kettle, came from the leaves of their books, while from their hidden lips dropped disjointed fragments of "l'Histoire de France."</p>
 <p>The foundation, as well as key-stone, of St. Denisian education, it was but natural that the examination in "l'Histoire de France, par D. L&#x00E9;vi Alvares, p&#x00E8;re," should fill the last days of the scholastic term; and as a prize in that exercise set the brightest crown upon the head of the victor, it was not strange that it should be conducted with such rigidity and impartiality as to demoralize panic-stricken contestants whose sex usually warranted justice in leaving one eye at least unbound.</p>
@@ -352,10 +355,10 @@ isolate them one from the other. Time was in revolt against her; her own powers 
 <p>What was the matter with her head, anyhow? She must be <hi rend="italic">voudoued</hi>. If she could only feel as she did this morning! The slatternly Jeanne shuffled underneath on her way to the bell, an augur of ill-omen. She would go and see Madame Lareveill&#x00E8;re.</p>
 <p>Madame (as she was commonly called) sat at her secr&#x00E9;taire writing. Her pen, fine pointed as a cambric needle, scratched under her fingers as if it worked on steel instead of paper. She was very busy, transferring the names from a list before her into the gilt-edged prize-books piled up in glowing heaps all around her. A strict observer would have noticed many inaccuracies which would have invalidated any claim to correctness on the part of her copy. There were not only liberties taken with the prize itself, but entire names were involved in transactions which the original list by no means warranted. These inaccuracies always occurred after consultation of another list kept in Madame's little drawer,
 <pb n="45     Monsieur Motte."/>
-&#x2014;a list whose columns carried decimals instead of good and bad marks for lessons. A single ray of light, filtered through various intermedial shades and curtains, had been man&#x0153;uvred so as to fall on the small desk at a safe distance from Madame's sensitive complexion. At difficult calculations, she would screw up her eyes and peer at both lists brought into the focus of illumination, then would sink back into obscurity for advisory reflection.
-There are so many calculations to be made, so many fine distinctions drawn, in a distribution of prizes! No one but a schoolmistress knows the mental effort requisite for the working out of an equation which sets good and bad scholars against good and bad pay. Why could not the rich girls study more, or the poor less? Oh, the simple beauty of strict, injudicious impartiality! Cursed be the inventor or originator of these annual rehearsals, where every one was rewarded except the rewarder!
-On occasions like these any interruption is a deliverance; Madame heard with glad alacrity a knock at the door.
-"<hi rend="italic">Ah! c'est toi</hi>, Marc&#x00E9;lite!"</p>
+&#x2014;a list whose columns carried decimals instead of good and bad marks for lessons. A single ray of light, filtered through various intermedial shades and curtains, had been man&#x0153;uvred so as to fall on the small desk at a safe distance from Madame's sensitive complexion. At difficult calculations, she would screw up her eyes and peer at both lists brought into the focus of illumination, then would sink back into obscurity for advisory reflection.</p>
+<p>There are so many calculations to be made, so many fine distinctions drawn, in a distribution of prizes! No one but a schoolmistress knows the mental effort requisite for the working out of an equation which sets good and bad scholars against good and bad pay. Why could not the rich girls study more, or the poor less? Oh, the simple beauty of strict, injudicious impartiality! Cursed be the inventor or originator of these annual rehearsals, where every one was rewarded except the rewarder!</p>
+<p>On occasions like these any interruption is a deliverance; Madame heard with glad alacrity a knock at the door.</p>
+<p>"<hi rend="italic">Ah! c'est toi</hi>, Marc&#x00E9;lite!"</p>
 <pb n="46     Monsieur Motte."/>
 <p>Marc&#x00E9;lite represented another matter of yearly consideration, another question of paramount importance, a suspensive judgment, involving, however, Madame alone. With the assistance of the hairdresser, many years ago (the date is not essential, and women are sensitive about such things), the principal of the Institut St. Denis had engaged in one of those struggles against Time to which pretty unmarried women seem pledged during a certain period, the fighting age, of their lives. It was purely a defensive struggle on her part, and consisted in a protest against that uglifying process by which women are coaxed into resignation to old age and death. So far, she had maintained her own perfectly; and Time, for all the progress he had made in the sweet, delicate face of Eug&#x00E9;nie Lareveill&#x00E8;re, might just as well have been tied for ten years past to one of the four posts of the bedstead. The musical concert and distribution of prizes and its consequent indispensable new toilette furnished an excellent date for an annual review and consultation, when old measures were discussed, new ones adopted, and the next campaign planned. Madame, however, did not feel
 <pb n="47     Monsieur Motte."/>
@@ -1123,15 +1126,15 @@ Poor child, that is one of our war-claims! As for Marc&#x00E9;lite, I can't tell
 <pb n="177     Monsieur Motte."/>
 <p>It was worth so much difference, so many differences,&#x2014;the reconciliation; the crossing over from such a separation in their natures to meet again as they had started in life, heart open to heart, tongue garrulous to tongue, all revealed, understood, nothing concealed,&#x2014;absolutely nothing. For there was a generous rivalry in loyal self-surrender and confession until Stasie again blew the horn for supper; and the feeble echoes returning quickly to the gallery, like aged birds after a short flight; put an end to the interview.</p></div></div></body></text>
 <pb n="179"/>
-<text>
-<front>
+<text id="gkmotte1209">
+<front id="gkmotte1210">
 <titlePage type="half">
 <docTitle>
 <titlePart type="main"> THE DRAMA OF AN EVENING</titlePart>
 </docTitle>
 </titlePage>
 </front>
-<body>
+<body id="gkmotte1211">
 <div id="gkmotte002" type="part" n="2">
 <pb n="181"/>
 <head>THE DRAMA OF AN EVENING.</head>
@@ -1675,15 +1678,15 @@ The notary read first one side of the paper, then the other, scratched over with
 <pb n="260     The Drama of an Evening."/>
 grammatically. Shrugging his shoulders, his eyes beamed with the intelligence that only legal experience can give, and with the satirical intelligence which only such experience with women inspires: <hi rend="italic">"Ah, grattez la femme, et votes trouverez la m&#x00E8;re!"</hi></p></div></body></text>
 <pb n="261"/>
-<text>
-<front>
+<text id="gkmotte1212">
+<front id="gkmotte1213">
 <titlePage type="half">
 <docTitle>
 <titlePart type="main"> MARRIAGE OF MARIE MODESTE</titlePart>
 </docTitle>
 </titlePage>
 </front>
-<body>
+<body id="gkmotte1214">
 <div id="gkmotte003" type="story" n="3">
 MARRIAGE OF MARIE MODESTE.
 <pb n="263"/>
