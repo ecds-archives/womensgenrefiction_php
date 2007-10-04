@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2 id=""> 
-<teiHeader id=""> 
+<TEI.2 id="epman1201"> 
+<teiHeader id="epman1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>The Man in the Case, an electronic edition</title> 
 <author><name type="person" reg="Phelps, Elizabeth Stuart, 1844-1911">Elizabeth Stuart Phelps</name></author> 
 </titleStmt> 
-<extent></extent> 
+<extent>200Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -70,7 +70,8 @@
 <item>Women authors, American--20th Century.</item> 
 <item>Mystery.</item> 
 <item>Christianity.</item> 
-<item> Marriage- moral and ethical aspects</item>
+<item> Marriage, moral and ethical aspects.</item>
+<item>Gossip.</item>
 </list> 
 </keywords> 
 </textClass> 
@@ -86,37 +87,41 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
-<div id="epmancover" type="front cover">
-<figure entity="epmanfc" rend="inline">
+<text id="epman1203">
+<front id="epman1204">
+<div id="epmancover" type="covers">
+<figure entity="epmancv1" rend="inline">
 <figDesc> Front cover of Phelps's "The Man in the Case"</figDesc>
+</figure>
+
+<figure entity="epmancv2" rend="inline">
+<figDesc>Spine of Phelps's "The Man in the Case"</figDesc>
 </figure>
 </div>
 <pb/>
 <pb n="[i]"/>
-<div id="epmanfm1" type="advert">
-<figure entity="epmanad" rend="inline">
+<div id="epmanad1" type="advert">
+<figure entity="epmanfm3" rend="inline">
 <figDesc> Advert included in front of Phelps's "The Man in the Case"</figDesc>
 </figure>
 </div>
 <pb n="[ii]"/>
-<pb entity="epmantp" pages="title page"/>
 <titlePage type="half">
 <docTitle>
-<titlePart type="main"> THE MAN IN THE CASE</titlePart>
+<titlePart type="main">THE MAN IN THE CASE</titlePart>
 </docTitle>
 </titlePage>
 <pb/>
 <pb/>
 <pb n="[v]"/>
 <div id="epmanfm2" type="frontispiece">
-<figure entity="epmanill" rend="inline">
-<p>HE WENT AWAY WITH A VISION OF HER BLINDING ALL HIS HEART AND BRAIN</p>
-<figDesc> Illustration at the front of Phelps's "The Man in the Case"</figDesc>
+<figure entity="epman_frontispiece" rend="inline">
+<p>HE WENT AWAY WITH A VISION OF HER BLINDING ALL HIS<lb/>HEART AND BRAIN</p>
+<figDesc>Frontispiece of Phelps's "The Man in the Case"</figDesc>
 </figure>
 </div> 
 <pb n="[vi]"/>
+<pb entity="epmanfm5" pages="title page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main"> <hi rend="italic"> The</hi> <lb/> MAN IN THE CASE</titlePart>
@@ -131,21 +136,21 @@
 </docImprint>
 </titlePage>
 <pb n="[vii]"/>
-<div id="epmanfm3" type="copyright">
-<figure entity="epmantpv" rend="inline">
+<div id="epmanfm6" type="copyright">
+<figure entity="epmanfm6" rend="inline">
 <figDesc> Copyright page for Phelps's "The Man in the Case"</figDesc>
 </figure>
 </div>
 <pb n="[viii]"/>
-<div id="epmanfm4" type="list of illustrations">
-<figure entity="epmanlil" rend="inline">
-<figDesc> List of illustrations included in front of Phelps's "The Man in the Case"</figDesc>
+<div id="epmanfm7" type="list of illustrations">
+<figure entity="epmanfm7" rend="inline">
+<figDesc>List of illustrations included in front of Phelps's "The Man in the Case"</figDesc>
 </figure>
 </div>
 </front>
 <pb/>
- <body>
-<pb n="1 THE MAN IN THE CASE"/>
+ <body id="epman1205">
+<pb n="1"/>
 <div id="epman001" type="chapter" n="1">
 <head>The<lb/>
 MAN IN THE CASE<lb/>
@@ -716,9 +721,9 @@ I have come to resign my office as the president of this organization. I am sorr
 the minister, wearing that resigned and hopeless, but still slightly
 injured expression with which a man receives the presence of a Woman's
 Club in his own
-<figure entity="epman89" rend="inline">
-<p>"LADIES," SHE SAID, "I HAVE COME TO RESIGN MY OFFICE AS PRESIDENT OF THIS ORGANIZATION"</p>
-<figDesc> Picture included in body of Phelps's "The Man in the Case"</figDesc>
+<figure entity="epman_pic2" rend="inline">
+<p>"LADIES," SHE SAID, "I HAVE COME TO RESIGN MY OFFICE AS PRESIDENT<lb/>OF THIS ORGANIZATION"</p>
+<figDesc>Illustration between pages 88 and 89 of Phelps's "The Man in the Case"</figDesc>
 </figure>
 <pb n="89 THE MAN IN THE CASE"/>
 house, came out and spoke to her. He was an elderly man and had known Joan since she was a little girl.</p>
@@ -976,9 +981,9 @@ Christians&#x2014;the insolent nature of their errand&#x2014;they men, <hi rend=
 <p>"There should have been a woman among you if you had to go!" blazed the minister.</p>
 <p>"The polity of our church does not place females upon the governing
 
-<figure entity="epman125" rend="inline">
+<figure entity="epman_pic3" rend="inline">
 <p>"SHE RECEIVED US AS IF SHE HAD BEEN THE QUEEN OF HEAVEN, SIR"</p>
-<figDesc> Picture included in body of Phelps's "The Man in the Case"</figDesc>
+<figDesc>Illustration between pages 124 and 125 of Phelps's "The Man in the Case"</figDesc>
 </figure>
 
 <pb n="125 THE MAN IN THE CASE"/>
@@ -1348,9 +1353,9 @@ ablaze from the garden to the hollow. It seemed to her that she but turned, and 
 that his hair was gray seemed to heighten the color of his face. He was bringing water from somewhere in pails. His wife was taking books out from the library, and Annie Hammer-ton was helping her.</p>
 <p>The furnace man who said that character was more precious than rubies was trying to open the rusty piazza stop-cock which he had handled so many times. The junior deacon (who lived a few doors down the street came running around the house with a hand grenade. Through the asphyxiating smoke Joan perceived Mary Caroline helping the furnace man to drag seventy feet of hose out of the cellar. The quiet voice of Douglas Ray, raised, but perfectly controlled, dominated the unorganized good-will of the thickening crowd.</p>
 
-<figure entity="epman185" rend="inline">
-<p> JOAN PERCEIVED MARY CAROLINE HELPING THE FURNACE MAN DRAG ONE HUNDRED FEET OF HOSE OUT OF THE CELLAR</p>
-<figDesc> Picture included in body of Phelps's "The Man in the Case"</figDesc>
+<figure entity="epman_pic4" rend="inline">
+<p>JOAN PERCEIVED MARY CAROLINE HELPING THE FURNACE MAN DRAG ONE<lb/>HUNDRED FEET OF HOSE OUT OF THE CELLAR</p>
+<figDesc>Illustration between pages 184 and 185 of Phelps's "The Man in the Case"</figDesc>
 </figure>
 
 <pb n="185 THE MAN IN THE CASE"/>
@@ -1454,9 +1459,9 @@ deterring hands, he passed her and ran up into the attic. He was gone
 but a few minutes, and, glancing neither to the right nor to the left,
 he ran quickly
 
-<figure entity="epman197" rend="inline">
+<figure entity="epman_pic5" rend="inline">
 <p>SHE DEXTEROUSLY BOUND THE WOUND</p>
-<figDesc> Picture included in body of Phelps's "The Man in the Case"</figDesc>
+<figDesc>Illustration between pages 196 and 197 of Phelps's "The Man in the Case"</figDesc>
 </figure>
 
 <pb n="197 THE MAN IN THE CASE"/>
@@ -1716,7 +1721,7 @@ had his way; he did as he pleased; nobody stopped it, and so Mother
 used to worry about it; she understood better how it was;  she and I
 used to talk about it. One night when I was just a girl at school, she
 came into my room after I had gone to bed, and said: 'Joan, I want
-you to promise me, no matter what should happen, <hi rend="italic">promise</p> me you will always look after your little brother; 'for Harum is four years younger than I am, and he used to look up to me, you know, and tag after me at play, and I always took care of him, and it never used to seem to me as if he had grown up. He was a
+you to promise me, no matter what should happen, <hi rend="italic">promise</hi> me you will always look after your little brother; 'for Harum is four years younger than I am, and he used to look up to me, you know, and tag after me at play, and I always took care of him, and it never used to seem to me as if he had grown up. He was a
 <pb n="234 THE MAN IN THE CASE"/>
 mischievous little fellow, Douglas, full of fun, always up to something&#x2014;and I was always getting him out of scrapes he 'd got into. Don't you see?"</p>
 <p>"I see," said Douglas. "Oh, I know! You don't need to tell me what
@@ -1758,7 +1763,7 @@ through; I never told him <hi rend="italic">that</hi>; I made light of things, I
 <p>She closed her eyes, and her head fell back upon the cretonne pillow, weakly. Impulses of speech and second thoughts of silence alternated on her quivering lips. For a while he did not intrude upon her by a word, but absolutely gave her will its way.</p>
 <p>"Sometimes I had such frights," she whispered, "lest he should be found, lest people should come in. That fire was the worst of all&#x2014;I
 <pb n="238 THE MAN IN THE CASE"/>
-<hi rend="italic">would</hi> have gone down with the house," she cried, "before I would have given him up!"</hi>
+<hi rend="italic">would</hi> have gone down with the house," she cried, "before I would have given him up!"</p>
 <p>Ray started to say, "You could n't have, because I was there," but he forebore.</p>
 <p>"Then it was so hard to see him suffer, to let him die that way,
 without proper care&#x2014;no nurse, no doctor, nobody but me." She pressed
@@ -1813,8 +1818,8 @@ understand; tain't in 'em. There ain't <hi rend="italic">no</hi> woman wants to 
 <p>Softened and enhanced, Joan's haggard face looked pathetically through the illusion with which the custom of generations has blurred the eyes of a bride. Her mother's veil gave glamour to her; she had a spiritual beauty which youth, and a light heart, and freedom from care, and ignorance of suffering may never know. She seemed to float upon a silver cloud, and to sway as if uncertain whether to vanish or alight. The Scotchman gripped her hand ; he felt as if she might melt away from him.</p>
 <p>So her old minister married her and blessed her. But Mary Caroline kissed her through her mother's veil. Mary Caroline did not cry; she looked a little stupid, as if she had lost her way in a foreign land where she could not speak the language. She held out her big hand to Douglas Ray.</p>
 
-<figure entity="epman247" rend="inline">
-<figDesc> picture included in body of Phelps's "The Man in the Case"</figDesc>
+<figure entity="epman_pic6" rend="inline">
+<figDesc>Illustration between pages 246 and 247 of Phelps's "The Man in the Case"</figDesc>
 </figure>
 
 <pb n="247 THE MAN IN THE CASE"/>
@@ -1917,4 +1922,4 @@ tried to say so, but no words came.</p>
 </p>
 </div>
 </back>
-</text>
+</text></TEI.2>
