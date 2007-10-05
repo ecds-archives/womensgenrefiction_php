@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2 id=""> 
-<teiHeader id=""> 
+<TEI.2 id="effanny1201"> 
+<teiHeader id="effanny1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>Fanny Herself, an electronic edition</title> 
 <author><name type="person" reg="Ferber,Edna, 1887-1968">Edna Ferber</name></author> 
 </titleStmt> 
-<extent></extent> 
+<extent>600Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -86,22 +86,23 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
+<text id="effanny1203">
+<front id="effanny1204">
 <div id="effanycover" type="front cover">
-<figure entity="effanfc" rend="inline">
+<figure entity="effannycover" rend="inline">
 <figDesc> Front cover of Ferber's "Fanny Herself"</figDesc>
 </figure>
 </div>
 <pb/>
 <pb n="[i]"/>
-<div id="effanyfm1" type="frontispiece">
-<figure entity="effanyill" rend="inline">
-<figDesc> Illustration at the front of Ferber's "Fanny Herself"</figDesc>
+<div id="effannyfm1" type="frontispiece">
+<figure entity="effannypic1" rend="inline">
+<figDesc>Frontispiece of Ferber's "Fanny Herself"</figDesc>
+<p>"She loved luxury. She smiled and flashed at the hand-<lb/>some old priest opposite her."<lb/><q>&#x2014;<hi rend="italic">Page 198</hi></q></p>
 </figure>
 </div>
 <pb n="[ii]"/>
-<pb entity="effanytp" pages="title page"/>
+<pb entity="effannyfm2" pages="title page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main"> FANNY<lb/> HERSELF</titlePart>
@@ -110,45 +111,45 @@
 <titlePart type="desc"> <hi rend="italic">ILLUSTRATED BY<lb/> J. HENRY</hi></titlePart>
 <docImprint>
 <pubPlace> NEW YORK</pubPlace>
-<publisher> FREDERICK A. STOKES  COMPANY<lb/> PUBLISHER</publisher>
+<publisher> FREDERICK A. STOKES COMPANY<lb/> PUBLISHER</publisher>
 </docImprint>
 </titlePage>
 <pb n="[iii]"/>
-<div id="effanyfm2" type="copyright">
-<figure entity="effanytpv" rend="inline">
-<figDesc> Copyright page for Ferber's "Fanny Herself"</figDesc>
+<div id="effannyfm3" type="copyright">
+<figure entity="effanyfm3" rend="inline">
+<figDesc>Copyright page for Ferber's "Fanny Herself"</figDesc>
 </figure></div>
 <pb n="[iv]"/>
-<div id="effanyfm3" type="dedication">
-<figure entity="effanyded" rend="inline">
-<figDesc> Dedication page for Ferber's "Fanny Herself"</figDesc>
+<div id="effannyfm4" type="dedication">
+<figure entity="effannyfm4" rend="inline">
+<figDesc>Dedication page for Ferber's "Fanny Herself"</figDesc>
 </figure>
 </div>
 <pb/>
 <pb n="[vi]"/>
-<div id="effanyfm4" type="list of illustrations">
-<figure entity="effanylil" rend="inline">
-<figDesc> List of Illustrations included in front of Ferber's "Fanny Herself"</figDesc>
+<div id="effannyfm5" type="list of illustrations">
+<figure entity="effannyfm5" rend="inline">
+<figDesc>List of Illustrations included in front of Ferber's "Fanny Herself"</figDesc>
 </figure>
 </div>
 <pb/>
 <pb n="[viii]"/>
-<div id="effanyfm5" type="preface">
-<p> It has become the fashion among novelists to introduce their hero in knee pants, their heroine in pinafore and pigtails. Time was when we were rushed up to a stalwart young man of twenty-four, who was presented as the pivot about whom the plot would resolve. Now we are led, protesting, up to a grubby urchin of five and are invited to watch him through twenty years of intimate minut&#x00E6;. In extreme cases we have been obliged to witness his evolution from swaddling clothes to dresses to shorts ( he is so often English), from short dresses to Etons.</p>
-<p> The thrill we get for our pains is when, at twenty-five, he jumps over the traces and marries the young lady we met in her cradle on page two. The process is known as a psyhcological study. A publisher's note on page five hundred and seventy-three assures us that the author is now at work on Volume Two, dealing with the hero's adult life. A third volume will present his pleasing senility. The whole is known as a trilogy. If the chief character is of the other sex we are dragged through her dreamy girlhood, or hoydenish. We see her in graduation white, in her bridal finery. By the time she is twenty we know her better than her mother ever will, and are infinitely more bored  by her.</p>
-<p> Yet who would exchange one page in the life of the boy, David Copperfield, for whole chapters dealing with Trotwood Copperfield, the man? Who would relinquish the button-bursting Peggotty for the saintly Agnes? And that other David- he of the sling-shot; one could not love him so well in his psalm-singing days had not one known him first as the gallant, dauntless vanquisher of giants. As for Becky Sharp, with her treachery, her cruelty, her vindicativeness, perhaps we could better have understood and forgiven her had we known her lonely and neglected childhood, with the drunken artist father and her mother, the french opera girl.</p>
-<p> With which modest preamble, you are asked to be patient with Miss Fanny Brandeis,a ged thirteen. Not only must you suffer Fanny, but Fanny's mother as well, without whom there could be no understanding Fanny. For that matter, we shouldn't wonder if Mrs. Brandeis were to turn out the heroine in the end. She is that kind of person. </p>
+<div id="effannyfm5" type="preface"><head>PREFACE</head>
+<p>It has become the fashion among novelists to introduce their hero in knee pants, their heroine in pinafore and pigtails. Time was when we were rushed up to a stalwart young man of twenty-four, who was presented as the pivot about whom the plot would resolve. Now we are led, protesting, up to a grubby urchin of five and are invited to watch him through twenty years of intimate minut&#x00E6;. In extreme cases we have been obliged to witness his evolution from swaddling clothes to dresses to shorts (he is so often English), from short dresses to Etons.</p>
+<p>The thrill we get for our pains is when, at twenty-five, he jumps over the traces and marries the young lady we met in her cradle on page two. The process is known as a psyhcological study. A publisher's note on page five hundred and seventy-three assures us that the author is now at work on Volume Two, dealing with the hero's adult life. A third volume will present his pleasing senility. The whole is known as a trilogy. If the chief character is of the other sex we are dragged through her dreamy girlhood, or hoydenish. We see her in graduation white, in her bridal finery. By the time she is twenty we know her better than her mother ever will, and are infinitely more bored  by her.</p>
+<p>Yet who would exchange one page in the life of the boy, David Copperfield, for whole chapters dealing with Trotwood Copperfield, the man? Who would relinquish the button-bursting Peggotty for the saintly Agnes? And that other David- he of the sling-shot; one could not love him so well in his psalm-singing days<pb n="[ix]     PREFACE"/> had not one known him first as the gallant, dauntless vanquisher of giants. As for Becky Sharp, with her treachery, her cruelty, her vindicativeness, perhaps we could better have understood and forgiven her had we known her lonely and neglected childhood, with the drunken artist father and her mother, the french opera girl.</p>
+<p>With which modest preamble, you are asked to be patient with Miss Fanny Brandeis,a ged thirteen. Not only must you suffer Fanny, but Fanny's mother as well, without whom there could be no understanding Fanny. For that matter, we shouldn't wonder if Mrs. Brandeis were to turn out the heroine in the end. She is that kind of person. </p>
 </div>
 </front>
-<pb n="[ix]"/>
+<pb n="[x]"/>
 <titlePage type="half">
 <docTitle>
-<titlePart type="main"> FANNY HERSELF</titlePart>
+<titlePart type="main">FANNY HERSELF</titlePart>
 </docTitle>
 </titlePage>
 <pb/>
 <pb n="1"/>
-<body>
+<body id="effanny1205">
 <div id="effanny001" type="chapter" n="1">
 <head>FANNY HERSELF<lb/>
 CHAPTER ONE</head>
@@ -225,7 +226,7 @@ finished with them. Sometimes she did not accompany her mother, but lay in bed, 
 <p>But that was not always the case. There was that unforgettable night when they went to see Bernhardt the divine. Fanny spent the entire morning following standing before the bedroom mirror, with her hair
 <pb n="16     FANNY HERSELF"/>
 pulled out in a wild fluff in front, her mother's old marten-fur scarf high and choky around her neck, trying to smile that slow, sad, poignant, tear-compelling smile; but she had to give it up, clever mimic though she was. She only succeeded in looking as though a pin were sticking her somewhere. Besides, Fanny's own smile was a quick, broad, flashing grin, with a generous glint of white teeth in it, and she always forgot about being exquisitely wistful over it until it was too late.</p>
-<p>I wonder if the story of the china religious figures will give a wrong impression of Mrs. Brandeis. Perhaps not, if you will only remember this woman's white-lipped determination to wrest a livelihood from the world, for her children and herself. They had been in Chicago a week, and she was buying at Bauder & Peck's. Now, Bauder & Peck, importers, are known the world over. It is doubtful if there is one of you who has not been supplied, indirectly, with some imported bit of china or glassware, with French opera glasses or cunning toys and dolls, from the great New York and Chicago showrooms of that company.</p>
+<p>I wonder if the story of the china religious figures will give a wrong impression of Mrs. Brandeis. Perhaps not, if you will only remember this woman's white-lipped determination to wrest a livelihood from the world, for her children and herself. They had been in Chicago a week, and she was buying at Bauder &amp; Peck's. Now, Bauder &amp; Peck, importers, are known the world over. It is doubtful if there is one of you who has not been supplied, indirectly, with some imported bit of china or glassware, with French opera glasses or cunning toys and dolls, from the great New York and Chicago showrooms of that company.</p>
 <p>Young Bauder himself was waiting on Mrs. Brandeis, and he was frowning because he hated to sell women. Young Bauder was being broken into the Chicago end of the business, and he was not taking gracefully to the process. </p>
 <p>At the end of a long aisle, on an obscure shelf in a dim corner, Molly Braideis sharp eyes espied a motley collection of dusty, grimy china figures of the kind one sees on the mantel in the parlor of the small-town Catholic home. Winnibago's population was two-thirds Catholic, German and Irish, and very devout.</p>
 <p>Mrs. Brandeis stopped short. "How much for that lot?" She pointed to the shelf. Young Bauder's gaze fl1lowed hers, puzzled. The figures were from five inches to a foot high, in crude, effective blues, and gold,
@@ -237,7 +238,7 @@ and crimson, and white. All the saints were there in assorted sizes, the Pieta, 
 <p>"How much for the lot?" said Mrs. Brandeis, pleasantly, for the third time.
 "I really don't know. Three hundred, I should say. But--"</p>
 <p>"I'll give you two hundred," ventured Mrs. Brandeis, her heart in her mouth and her mouth very firm.</p>
-<p>"Oh, come now, Mrs. Brandeis! Bauder & Peck don't do business that way, you know. We'd really rather not sell them at all. The things aren't worth much to us, or to you, for that matter. But three hundred--"</p>
+<p>"Oh, come now, Mrs. Brandeis! Bauder &#x0026; Peck don't do business that way, you know. We'd really rather not sell them at all. The things aren't worth much to us, or to you, for that matter. But three hundred--"</p>
 <p>"Two hundred," repeated Mrs. Brandeis, "or I cancel my order, including the Limoges. I want those figures."</p>
 <p>And she got them. Which isn't the point of the story. The holy figures were fine examples of foreign workmanship, their colors, beneath the coating of dust, as brilliant and fadeless as those found in the churches of Europe. They reached Winnebago duly, packed in straw and paper, still dusty and shelf-worn. Mrs. Brandeis and Sadie and Pearl sat on up-ended boxes at the rear of the store, in the big barn-like room in which newly arrived goods were unpacked. As Aloysius dived deep into the crate and brought up figure after figure, the three women plunged them into warm
 <pb n="18     FANNY HERSELF"/>
@@ -267,7 +268,7 @@ worn by the Winnebago young men--their straw sailors were likely to be saw-edged
 <pb n="22     FANNY HERSELF"/>
 Battenberg braid, in all the numbers. It bought buttons of every size; it stitched away at Battenberg covers, doilies, bedspreads, blouses, curtains. Battenberg tumbled, foamed, cascaded over Winnebago's front porches all that summer. Listening to Sam Kiser had done it. </p>
 <p>She listened to the farmer women too, and to the mill girls, and to the scant and precious pearls that dropped from the lips of the East End society section. There was something about her brown eyes and her straight, sensible nose that reassured them so that few suspected the mischievous in her. For she was mischievous. If she had not been I think she could not have stood the drudgery, and the heartbreaks, and the struggle, and the terrific manual labor.</p>
-<p>She used to guy people, gently, and they never guessed it.  Mrs. G. Manville Smith, for example, never dreamed of the joy that her patronage brought Molly Brandeis, who waited on her so demurely.  Mrs. G. Manville Smith (n&#x008;e Finnegan) scorned the Winnebago shops, and was said to send to Chicago for her hairpins. It was known that her household was run on the most niggardly basis, however, and she short-rationed her two maids outrageously. It was said that she could serve less real food on more real lace doilies than any other housekeeper in Winnebago. Now, Mrs. Brandeis sold Scourine two cents cheaper than the grocery stores, using it as an advertisement to attract housewives, and making no profit on the article itself. Mrs. G. Manville Smith always patronized Brandeis' Bazaar for Scourine alone, and thus represented pure loss.  Also she my-good-womaned Mrs. Brandeis. That lady, seeing her enter one day with her comic, undulating gait, double-actioned like a giraffe's, and her plumes that would have shamed a Knight of Pythias, decided to put a stop to these unprofitable visits.</p>
+<p>She used to guy people, gently, and they never guessed it.  Mrs. G. Manville Smith, for example, never dreamed of the joy that her patronage brought Molly Brandeis, who waited on her so demurely.  Mrs. G. Manville Smith (n&#x00E9;e Finnegan) scorned the Winnebago shops, and was said to send to Chicago for her hairpins. It was known that her household was run on the most niggardly basis, however, and she short-rationed her two maids outrageously. It was said that she could serve less real food on more real lace doilies than any other housekeeper in Winnebago. Now, Mrs. Brandeis sold Scourine two cents cheaper than the grocery stores, using it as an advertisement to attract housewives, and making no profit on the article itself. Mrs. G. Manville Smith always patronized Brandeis' Bazaar for Scourine alone, and thus represented pure loss.  Also she my-good-womaned Mrs. Brandeis. That lady, seeing her enter one day with her comic, undulating gait, double-actioned like a giraffe's, and her plumes that would have shamed a Knight of Pythias, decided to put a stop to these unprofitable visits.</p>
 <pb n="23     FANNY HERSELF"/>
 <p>She waited on Mrs. G. Manville Smith, a dangerous gleam in her eye.</p>
 <p>"Scourine," spake Mrs. G. Manville Smith.</p>
@@ -377,7 +378,7 @@ ized that as he crouched over his violin to get his cello tones. As he played to
 <p>Over the little, spent congregation hung a glorious atmosphere of detachment. These Jews, listening to the words that had come from the lips of the prophets in Israel, had been, on this day, thrown back thousands of years, to the time when the destruction of the temple was as real as the shattered spires and dome of the cathedral at Rheims. Old Ben Reitman, faint with fasting, was far removed from his everyday thoughts of his horses, his lumber mills, his farms, his mortgages. Even Mrs. Nathan Pereles, in her black satin and bugles and jets, her cold, hard face usually unlighted by sympathy or love, seemed to feel something of this emotional wave. Fanny Brandeis was shaken by it. Her head ached (that was hunger) and her hands were icy. The little Russian girl in the seat just behind them had ceased to wriggle and squirm, and slept against her mother's side. Rabbi Thalmann, there on the platform, seemed somehow very far away and vague. The scent of clove apples and ammonia salts filled the air. The atmosphere seemed strangely wavering and lu-
 <pb n="39     FANNY HERSELF"/>
 minous. The white satin of the Ark curtain gleamed and shifted.</p>
-<p>The long service swept on to its close. Suddenly organ and choir burst into a p&&#x0024;X00E6;on. Little Doctor Thalmann raised his arms. The congregation swept to its feet with a mighty surge. Fanny rose with them, her face very white in its frame of black curls, her eyes luminous. She raised her face for the words of the ancient benediction that rolled, in its simplicity and grandeur, from the lips of the rabbi:</p>
+<p>The long service swept on to its close. Suddenly organ and choir burst into a p&#x00E6;on. Little Doctor Thalmann raised his arms. The congregation swept to its feet with a mighty surge. Fanny rose with them, her face very white in its frame of black curls, her eyes luminous. She raised her face for the words of the ancient benediction that rolled, in its simplicity and grandeur, from the lips of the rabbi:</p>
 <p>"May the blessing of the Lord our God rest upon you all. God bless thee and keep thee. May God cause His countenance to shine upon thee and be gracious unto thee. May God lift up His countenance unto thee, and grant thee peace."</p>
 <p>The Day of Atonement had come to an end. It was a very quiet, subdued and spent little flock that dispersed to their homes. Fanny walked out with scarcely a thought of Bella. She felt, vaguely, that she and this school friend were formed of different stuff. She knew that the bond between them had been the grubby, physical one of childhood, and that they never would come together in the finer relation of the spirit, though she could not have put this new knowledge into words. </p>
 <p>Molly Brandeis put a hand on her daughter's shoulder.</p>
@@ -542,7 +543,7 @@ Besides, she was pretty. Mrs. Brandeis knew the value of a pretty clerk.</p>
 <p>"Come, come, Schabelitz!" said Bauer again. "I must get along."</p>
 <p>"Then go, my friend. Go along and make your preparations for that studio supper. The only interesting woman in Winnebago--" he bowed to Mrs. Brandeis--"will not be there. I know them, these small-town society women, with their imitation city ways. And bony! Always! I am enjoying myself. I shall stay here."</p>
 <p>And he did stay. Sadie, talking it over afterward with Pearl and Aloysius, put it thus:</p>
-<p>"They say he's the grandest violin player in the world. Not that I care much for the violin, myself. Kind of squeaky, I always think. But it just goes to show they're all alike. Ain't it the truth? I jollied him just like I did Sam Bloom, of Ganz & Pick, Novelties, an hour before. He laughed just where Sam did. And they both handed me a line of talk about my hair and eyes, only Sam said I was a doll, and this Schabelitz, or whatever his name is, said I was as alluring as a Lorelei. I guess he thought he had me there, but I didn't go through the seventh reader for nothing. 'If you think I'm flattered,' I said to him, 'you're mistaken. She was the mess who used to sit out on a rock with her back hair down, combing away and singing like mad, and keeping an eye out for sailors up and down the river. If I had to work that hard to get some attention,' I said, 'I'd give up the struggle, and
+<p>"They say he's the grandest violin player in the world. Not that I care much for the violin, myself. Kind of squeaky, I always think. But it just goes to show they're all alike. Ain't it the truth? I jollied him just like I did Sam Bloom, of Ganz &amp; Pick, Novelties, an hour before. He laughed just where Sam did. And they both handed me a line of talk about my hair and eyes, only Sam said I was a doll, and this Schabelitz, or whatever his name is, said I was as alluring as a Lorelei. I guess he thought he had me there, but I didn't go through the seventh reader for nothing. 'If you think I'm flattered,' I said to him, 'you're mistaken. She was the mess who used to sit out on a rock with her back hair down, combing away and singing like mad, and keeping an eye out for sailors up and down the river. If I had to work that hard to get some attention,' I said, 'I'd give up the struggle, and
 <pb n="60     FANNY HERSELF"/>
 settle down with a cat and a teakettle.' At that he just threw back his head and roared. And when Mrs. Brandeis came up he said something about the wit of these American women. 'Work is a great sharpener of wit--and wits,' Mrs. Brandeis said to him. 'Pearl, did Aloysius send Eddie out with that boiler, special?' And she didn't pay any more attention to him, or make any more fuss over him, than she would to a traveler with a line of samples she wasn't interested in. I guess that's why he had such a good time."</p>
 <p>Sadie was right. That was the reason. Fanny, coming into the store half an hour later, saw this man who had swayed thousands with his music, down on his hands and knees in the toy section at the rear of Brandeis' Bazaar. He and Sadie and Aloysius were winding up toy bears, and clowns, and engines, and carriages, and sending them madly racing across the floor. Sometimes their careening career was threatened with disaster in the form of a clump of brooms or a stack of galvanized pails. But Schabelitz would scramble forward with a shout and rescue them just before the crash came, and set them deftly off again in the opposite direction.</p>
@@ -1034,7 +1035,7 @@ on the pillows of the dim old-fashioned bedroom with its walnut furniture, and i
 <p>But the rabbi's wife shook her head. "Good-by."</p>
 <p>From the hall below Doctor Thalmann called to her. "Come, child, come!" Then, "Ach, the light in my study! I forgot to turn it out, Fanny, be so good, yes?"</p>
 <p>Fanny entered the bright little room, reached up to turn off the light, and paused a moment to glance about her. It was an ugly, comfortable, old-fashioned  room that had never progressed beyond the what-not period. Fanny's eye was caught by certain framed pictures on the walls. They were photographs of Rabbi Thalmann's confirmation classes. Spindling-legged little boys in the splendor of patent-leather buttoned shoes, stiff white shirts, black broadcloth suits with satin lapels; self-conscious and awkward little girls--these in the minority--in white dresses and stiff white hair bows. In the center of each group sat the little rabbi, very proud and alert. Fanny was not among these. She had never formally taken the vows of her creed. As she turned down the light now, and found her way down the stairs, she told herself that she was glad this was so.</p>
-<p>It was a matter of only four blocks to the temple. But they were late, and so they hurried, and there was little conversation. Fanny's arm was tucked comfortably in his. It felt, somehow, startlingly thin, that arm. And as they hurried along there was a jerky feebleness about his gait. It was with difficulty that Fanny restrained herself from supporting him when</p>
+<p>It was a matter of only four blocks to the temple. But they were late, and so they hurried, and there was little conversation. Fanny's arm was tucked comfortably in his. It felt, somehow, startlingly thin, that arm. And as they hurried along there was a jerky feebleness about his gait. It was with difficulty that Fanny restrained herself from supporting him when
 <pb n="127     FANNY HERSELF"/>
 they came to a rough bit of walk or a sudden step. Something fine in her prompted her not to. But the alert mind in that old frame sensed what was going on in her thoughts.</p>
 <p>"He's getting feeble, the old rabbi, h'm?"</p>
@@ -1136,7 +1137,7 @@ this monster? A plumpish, kindly-faced man; a bewildered, gentle, unimaginative 
 <p>He began giving away huge sums, incredible sums. It piled up faster than he could give it away. And so he sat there in the office hung with the dim old masterpieces, and tried to keep simple, tried to keep sane, with that austerity that only mad wealth can afford--or bitter poverty. He caused the land about the plant to be laid out in sunken gardens and baseball fields and tennis courts, so that one approached this monster of commerce through enchanted grounds, glowing with
 <pb n="142     FANNY HERSELF"/>
 tulips and .heady hyacinths in spring, with roses in June, blazing with salvia and golden-glow and asters in autumn. There was something apologetic about these grounds.</p>
-<p>This, then, was the environment that Fanny Brandeis had chosen. On the face of things you would have said she had chosen well. The inspiration of the roller skates had not been merely a lucky flash. That idea had been part of the consistent whole. Her mind was her mother's mind raised to the <hi rend="italic>n</hi>th power, and enhanced by the genius she was trying to crush. Refusing to die, it found expression in a hundred brilliant plans, of which the roller skate idea was only one.</p>
+<p>This, then, was the environment that Fanny Brandeis had chosen. On the face of things you would have said she had chosen well. The inspiration of the roller skates had not been merely a lucky flash. That idea had been part of the consistent whole. Her mind was her mother's mind raised to the <hi rend="italic">n</hi>th power, and enhanced by the genius she was trying to crush. Refusing to die, it found expression in a hundred brilliant plans, of which the roller skate idea was only one.</p>
 <p>Fanny had reached Chicago on Sunday. She had entered the city as a queen enters her domain, authoritatively, with no fear upon her, no trepidation, no doubts. She had gone at once to the Mendota Hotel, on Michigan Avenue, up-town, away from the roar of the loop. It was a residential hotel, very quiet, decidedly luxurious. She had no idea of making it her home. But she would stay there until she could find an apartment that was small, bright, near the lake, and yet within fairly reasonable transportation facilities for her work. Her room was on the ninth floor, not on the Michigan Avenue side, but east, overlooking the lake. She spent hours at the windows, fascinated by the stone and steel city that lay just below with the incredible blue of the sail-dotted lake beyond, and at night, with the lights spangling the velvety blackness, the flaring blaze of Thirty-first Street's chop-suey restaurants and moving picture houses at the right; and far, far away, the red and white eye of the lighthouse winking, blinking, winking, blinking, the rumble and clank of a flat-wheeled Indiana avenue car, the sound of high laughter and a snatch of song that came faintly up to her from the speeding car of some midnight joy-riders!</p>
 <pb n="143     FANNY HERSELF"/>
 <p>But all this had to do with her other side. It had no bearing on Haynes-Cooper, and business. Business! That was it. She had trained herself for it, like an athlete. Eight hours of sleep. A cold plunge on arising. Sane food. Long walks. There was something terrible about her earnestness.</p>
@@ -1171,11 +1172,11 @@ Slosson was to be there. At ten o'clock she entered Fenger's inner office. He wa
 <p>Fenger's eyes narrowed upon her. "Pretty sure of yourself, aren't you?"</p>
 <p>"Yes," said Fanny. She came over to his desk.
 
-<figure entity="effany147" rend="inline">
-<p> " 'Now, Miss Brandeis, what's the trouble with the Haynes-Cooper
+<figure entity="effannypic2" rend="inline">
+<p> " 'Now, Miss Brandeis, what's the trouble with the Haynes-<lb/>Cooper
 infants' wear department?' "</p>
-<p> <hi rend="italic"> Page 147</hi></p>
-<figDesc> picture included in body of Ferber's "Fanny Herself"</figDesc>
+<p><hi rend="italic">&#x2014;Page 147</hi></p>
+<figDesc>Illustration between pages 146 and 147 of Ferber's "Fanny Herself"</figDesc>
 </figure>
 
 <pb n="147     FANNY HERSELF"/>
@@ -1467,7 +1468,7 @@ blue lake, and the woods beyond is--well, you'll see what it is. It's only a lit
 <p>And Fanny gathered papers, figures, catalogue proofs into a glorious heap, thrust them into a drawer, locked the drawer, pushed back her chair, and came.</p>
 </div>
 <pb n="177"/>
-<div type="effanny011" type="chapter" n="11">
+<div id="effanny011" type="chapter" n="11">
 <head>CHAPTER ELEVEN</head>
 <p>FANNY told herself, before she went to bed Saturday night, that she hoped it would rain Sunday morning from seven to twelve. But when Princess woke her at seven-thirty, as per instructions left in penciled scrawl on the kitchen table, she turned to the window at once, and was glad, somehow, to find it sun-flooded. Princess, if you're mystified, was royal in name only--a biscuit-tinted lady, with a very black and no-account husband whose habits made it necessary for Princess to let herself into Fanny's four-room flat at seven every morning, and let herself out at eight every evening. She had an incredibly soft and musical voice, had Princess, and a cooking hand. She kept Fanny mended, fed and comfortable, and her only cross was that Fanny's taste in blouses (ultimately her property) ran to the severe and tailored.</p>
 <p>"Mawnin', Miss Fanny. There's a gep'mun waitin' to see yo'."</p>
@@ -1571,11 +1572,11 @@ in the country that couldn't use that kind of stuff. And there aren't three peop
 <p>"The-- Here, I'll show you. I won't do another sketch for a year. I'll prove to you that my ancestors' religion doesn't influence my work, or my play."</p>
 <p>"Dear, you can't prove that, because the contrary has been proven long ago. You yourself proved it when you did that sketch of the old fish vender in the Ghetto. The one with the beard. It took a thousand years of suffering and persecution and faith to stamp
 
-<figure entity="effany147" rend="inline">
-<p> "Fanny's hands became fists, gripping the power she craved. 'Then
+<figure entity="effannypic3" rend="inline">
+<p> "Fanny's hands became fists, gripping the power she<lb/> craved. 'Then
 I shall have arrived.'"</p>
-<p> <hi rend="italic"> Page 188</hi></p>
-<figDesc> picture included in body of Ferber's "Fanny Herself"</figDesc>
+<p><hi rend="italic">&#x2014;Page 188</hi></p>
+<figDesc>Illustration between pages 188 and 189 of Ferber's "Fanny Herself"</figDesc>
 </figure>
 
 <pb n="189     FANNY HERSELF"/>
@@ -1589,8 +1590,8 @@ has suffered, for suffering breeds genius. It expands the soul just as over-pros
 <p>"Stop!" cried Fanny. "My head's whirling. It sounds like something out of 'Alice in Wonderland.'"</p>
 <p>"And you," retorted Heyl, "sound like some one who's afraid to talk or think about herself. You're suppressing the thing that is you. You're cutting yourself off from your own people--a dramatic, impulsive, emotional people. By doing those things you're killing the goose that lays the golden egg. What's that old copy-book line? 'To thine own self be true,' and the rest of it."</p>
 <p>"Yes; like Theodore, for example," sneered Fanny.</p>
-<p>At which unpleasant point Nature kindly supplied a diversion.  Across the black sky there shot two luminous shafts of lights. Northern lights, pale sisters of the chromatic glory one sees in the far north, but still weirdly beautiful. Fanny and Heyl stopped short, faces upturned. The ghostly radiance wavered, expanded, glowed palely, like celestial searchlights. Suddenly, from the tip of each shaft, there burst a cluster of slender, pin-point lines, like aigrettes set in a band of silver. Then these slowly wavered, faded, combined to form a third and fourth slender shaft of light. It was like the radiance one sees in the old pictures of the Holy Family. Together Fanny and Heyl watched it in silence until the last pale glimmer faded and was gone, and only the brazen lights of Gary, far, far down the beach, cast a fiery glow against the sky. </p>
-<p>They sighed, simultaneously. Then they laughed, each at the other.
+<p>At which unpleasant point Nature kindly supplied a diversion.  Across the black sky there shot two luminous shafts of lights. Northern lights, pale sisters of the chromatic glory one sees in the far north, but still weirdly beautiful. Fanny and Heyl stopped short, faces upturned. The ghostly radiance wavered, expanded, glowed palely, like celestial searchlights. Suddenly, from the tip of each shaft, there burst a cluster of slender, pin-point lines, like aigrettes set in a band of silver. Then these slowly wavered, faded, combined to form a third and fourth slender shaft of light. It was like the radiance one sees in the old pictures of the Holy Family. Together Fanny and Heyl watched it in silence until the last pale glimmer faded and was gone, and only the brazen lights of Gary, far, far down the beach, cast a fiery glow against the sky.</p>
+<p>They sighed, simultaneously. Then they laughed, each at the other.</p>
 <pb n="191     FANNY HERSELF"/>
 <p>"Curtain," said Fanny. They raced for the station, despite the sand. Their car was filled with pudgy babies lying limp in parental arms; with lunch baskets exuding the sickly scent of bananas; with disheveled vandals whose moist palms grasped bunches of wilted wild flowers. Past the belching chimneys of Gary, through South Chicago, the back yard of a metropolis, past Jackson Park that breathed coolly upon them, and so to the city again. They looked at it with the shock that comes to eyes that have rested for hours on long stretches of sand and sky and water. Monday, that had seemed so far away, became an actuality of to-morrow.</p>
 <p>Tired as they were, they stopped at one of those frank little restaurants that brighten Chicago's drab side streets. Its windows were full of pans that held baked beans, all crusty and brown, and falsely tempting, and of baked apples swimming in a pool of syrup. These flanked by ketchup bottles and geometrical pyramids of golden grape-fruit.</p>
@@ -1599,10 +1600,10 @@ has suffered, for suffering breeds genius. It expands the soul just as over-pros
 <p>"It was," said Fanny, and smiled up at the girl with her generous, flashing smile. "Here's a bit of it I brought back for you." And she stuck the scarlet sumac sprig into the belt of the white apron.</p>
 <p>They finished the day incongruously by taking a
 <pb n="192     FANNY HERSELF"/>
-taxi home, Fanny yawning luxuriously all the way.
-"Do you know," she said, as they parted, "we've talked about everything from souls to infants' wear. We're talked out. It's a mercy you're going to New York. There won't be a next time."
-"Young woman," said Heyl, forcefully, "there will. That young devil in the red tam isn't dead. She's alive. And kicking. There's a kick in every one of those Chicago sketches in your portfolio upstairs. You said she wouldn't fight anybody's battles to-day. You little idiot, she's fighting one in each of those pictures, from the one showing that girl's face in the crowd, to the old chap with the fish-stall. She'll never die--that one. Because she's the spirit. It's the other one who's dead--and she doesn't know it. But some day she'll find herself buried. And I want to be there to shovel on the dirt."
-</div>
+taxi home, Fanny yawning luxuriously all the way.</p>
+<p>"Do you know," she said, as they parted, "we've talked about everything from souls to infants' wear. We're talked out. It's a mercy you're going to New York. There won't be a next time."</p>
+<p>"Young woman," said Heyl, forcefully, "there will. That young devil in the red tam isn't dead. She's alive. And kicking. There's a kick in every one of those Chicago sketches in your portfolio upstairs. You said she wouldn't fight anybody's battles to-day. You little idiot, she's fighting one in each of those pictures, from the one showing that girl's face in the crowd, to the old chap with the fish-stall. She'll never die--that one. Because she's the spirit. It's the other one who's dead--and she doesn't know it. But some day she'll find herself buried. And I want to be there to shovel on the dirt."</p></div>
+
 <pb n="193"/>
 <div id="effanny012" type="chapter" n="12">
 <head>CHAPTER TWELVE</head>
@@ -1674,7 +1675,7 @@ nated and resentful by turns. His brilliant satire probed, cut, jabbed like a su
 <pb n="203     FANNY HERSELF"/>
 <p>They went to the same hotel, and took connecting rooms. Each went her own way, not seeing the other from morning until night, but they often found kimonoed comfort in each other's presence.</p>
 <p>Fanny had spent weeks outlining her plan of attack. She had determined to retain the cheap grades, but to add a finer line as well. She recalled those lace-bedecked bundles that the farmer women and mill hands had born so tenderly in their arms. Here was one direction in which they allowed extravagance free rein. As a canny business woman, she would trade on her knowledge of their weakness.</p>
-<p>At Haynes-Cooper order is never a thing to be despised by a wholesaler. Fanny, knowing this, had made up her mind to go straight to Horn & Udell. Now, Horn & Udell are responsible for the bloomers your small daughter wears under her play frock, in place of the troublesome and extravagant petticoat of the old days. It was they who introduced smocked pinafores to you; and those modish patent-leather belts for children at which your grandmothers would have raised horrified hands. They taught you that an inch of hand embroidery is worth a yard of cheap lace. And as for style, cut, line--you can tell a Horn & Udell child from among a flock of thirty.</p>
+<p>At Haynes-Cooper order is never a thing to be despised by a wholesaler. Fanny, knowing this, had made up her mind to go straight to Horn &amp; Udell. Now, Horn &amp; Udell are responsible for the bloomers your small daughter wears under her play frock, in place of the troublesome and extravagant petticoat of the old days. It was they who introduced smocked pinafores to you; and those modish patent-leather belts for children at which your grandmothers would have raised horrified hands. They taught you that an inch of hand embroidery is worth a yard of cheap lace. And as for style, cut, line--you can tell a Horn &amp; Udell child from among a flock of thirty.</p>
 <p>Fanny, entering their office, felt much as Molly Brandeis had felt that January many, many years before, when she had made that first terrifying trip to the Chicago market. The engagement had been made days before. Fanny never knew the shock that her youthfully expectant face gave old Sid Udell. He turned from his desk to greet her, his polite smile of greeting giving way to a look of bewilderment.</p>
 <p>"But you are not the buyer, are you, Miss Brandeis?"</p>
 <p>"No, Mr. Slosson buys."</p>
@@ -1684,28 +1685,28 @@ nated and resentful by turns. His brilliant satire probed, cut, jabbed like a su
 <p>"Something new-fangled?" inquired Sid Udell. "Of course, we've never sold much to you people. Our stuff is--"</p>
 <p>"Yes, I know. But you'd like to, wouldn't you?"</p>
 <p>"Our class of goods isn't exactly suited to your wants."</p>
-<p>"Yes, it is. Exactly. That's why I'm here. We'll be doing a business of a million and a quarter in my department in another two years. No firm, not even Horn & Udell, can afford to ignore an account like that."</p>
+<p>"Yes, it is. Exactly. That's why I'm here. We'll be doing a business of a million and a quarter in my department in another two years. No firm, not even Horn &amp; Udell, can afford to ignore an account like that."</p>
 <p>Sid Udell smiled a little. "You've made up your mind to that million and a quarter, young lady?"</p>
 <p>"Yes."</p>
 <p>"Well, I've dealt with buyers for a quarter of a century or more. And I'd say that you're going to get it."</p>
-<p>Whereupon Fanny began to talk. Ten minutes later Udell interrupted her to summon Horn, whose domain was the factory. Horn came, was introduced, looked doubtful. Fanny had statistics. Fanny had arguments. She had determination. "And what we want," she went on, in her quiet, assured way, "is style. The Horn & Udell clothes have chic. Now, material can't be imitated successfully, but style can. Our goods lack just that. I could copy any model you have, turn the idea over to a cheap manufacturer, and get a million just like it, at one-fifth the price. That isn't a threat. It's just a business statement that you know to be true. I can sketch from memory anything I've seen once. What I want to know is this: Will you make it necessary for me to do that, or will you undertake to furnish us with cheaper copies of your high-priced designs? We could use your entire output. I know
+<p>Whereupon Fanny began to talk. Ten minutes later Udell interrupted her to summon Horn, whose domain was the factory. Horn came, was introduced, looked doubtful. Fanny had statistics. Fanny had arguments. She had determination. "And what we want," she went on, in her quiet, assured way, "is style. The Horn &amp; Udell clothes have chic. Now, material can't be imitated successfully, but style can. Our goods lack just that. I could copy any model you have, turn the idea over to a cheap manufacturer, and get a million just like it, at one-fifth the price. That isn't a threat. It's just a business statement that you know to be true. I can sketch from memory anything I've seen once. What I want to know is this: Will you make it necessary for me to do that, or will you undertake to furnish us with cheaper copies of your high-priced designs? We could use your entire output. I know
 <pb n="205     FANNY HERSELF"/>
 the small-town woman of the poorer class, and I know she'll wear a shawl in order to give her child a cloth coat with fancy buttons and a velvet collar."</p>
-<p>And Horn & Udell, whose attitude at first had been that of two seasoned business men dealing with a precocious child, found themselves quoting prices to her, shipments, materials, quality, quantities. Then came the question of time.</p>
+<p>And Horn &amp; Udell, whose attitude at first had been that of two seasoned business men dealing with a precocious child, found themselves quoting prices to her, shipments, materials, quality, quantities. Then came the question of time.</p>
 <p>"We'll get out a special catalogue for the summer," Fanny said. "A small one, to start them our way. Then the big Fall catalogue will contain the entire line."</p>
 <p>"That doesn't give us time!" exclaimed both men, in a breath.</p>
 <p>"But you must manage, somehow. Can't you speed up the workroom? Put on extra hands? It's worth it."</p>
 <p>They might, under normal conditions. But there was this strike-talk, its ugly head bobbing up in a hundred places. And their goods were the kind that required high-class workers. Their girls earned all the way from twelve to twenty-five dollars.</p>
-<p>But Fanny knew she had driven home the entering wedge. She left them after making an engagement for the following day. The Horn & Udell factory was in New York's newer loft-building section, around Madison, Fifth avenue, and the Thirties. Her hotel was very near. She walked up Fifth avenue a little way, and as she walked she wondered why she did not feel more elated. Her day's work had exceeded her expectations. It was a brilliant January afternoon, with a snap in the air that was almost western. Fifth avenue flowed up, flowed down, and Fanny fought the impulse to stare after every second or third woman she passed. They were so invariably well-dressed. There was none of the occasional shabbiness or dowdiness of Michigan Avenue. Every woman seemed to have emerged fresh from the hands of masseuse and maid.
+<p>But Fanny knew she had driven home the entering wedge. She left them after making an engagement for the following day. The Horn &amp; Udell factory was in New York's newer loft-building section, around Madison, Fifth avenue, and the Thirties. Her hotel was very near. She walked up Fifth avenue a little way, and as she walked she wondered why she did not feel more elated. Her day's work had exceeded her expectations. It was a brilliant January afternoon, with a snap in the air that was almost western. Fifth avenue flowed up, flowed down, and Fanny fought the impulse to stare after every second or third woman she passed. They were so invariably well-dressed. There was none of the occasional shabbiness or dowdiness of Michigan Avenue. Every woman seemed to have emerged fresh from the hands of masseuse and maid.
 <pb n="206     FANNY HERSELF"/>
 Their hair was coiffed to suit the angle of the hat, and the hat had been chosen to enhance the contour of the head, and the head was carried with regard for the dark furs that encircled the throat. They were amazingly well shod. Their white gloves were white. (A fact remarkable to any soot-haunted Chicagoan.) Their coloring rivaled the rose leaf. And nobody's nose was red.</p>
 <p>"Goodness knows I've never pretended to be a beauty," Fanny said that evening, in conversation with Ella Monahan. "But I've always thought I had my good points. By the time I'd reached Forty-second street I wouldn't have given two cents for my chances of winning a cave man on a desert island."</p>
 <p>She made up her mind that she would go back to the hotel, get a thick coat, and ride outside one of those fascinating Fifth avenue 'buses. It struck her as an ideal way to see this amazing street. She was back at her hotel in ten minutes. Ella had not yet come in. Their rooms were on the tenth floor. Fanny got her coat, peered at her own reflection in the mirror, sighed, shook her head, and was off down the hall toward the elevators. The great hall window looked toward Fifth
-avenue, but between it and the avenue rose a yellow-brick building that housed tier on tier of manufacturing lofts.  Cloaks, suits, blouses, petticoats, hats, dresses--it was just such a building as Fanny had come from when she left the offices of Horn & Udell. It might be their very building, for all she knew. She looked straight into its windows as she stood waiting for the lift. And window after window showed women, sewing. They were sewing at machines, and at hand-work, but not as women are accustomed to sew, with leisurely stitches, stopping to pat a seam here, to run a calculating eye along hem or ruffle. It was a dreadful, mechanical motion, that sewing, a machine-like, relentless motion, with no waste in it, no pause. Fanny's
+avenue, but between it and the avenue rose a yellow-brick building that housed tier on tier of manufacturing lofts.  Cloaks, suits, blouses, petticoats, hats, dresses--it was just such a building as Fanny had come from when she left the offices of Horn &amp; Udell. It might be their very building, for all she knew. She looked straight into its windows as she stood waiting for the lift. And window after window showed women, sewing. They were sewing at machines, and at hand-work, but not as women are accustomed to sew, with leisurely stitches, stopping to pat a seam here, to run a calculating eye along hem or ruffle. It was a dreadful, mechanical motion, that sewing, a machine-like, relentless motion, with no waste in it, no pause. Fanny's
 <pb n="207     FANNY HERSELF"/>
 mind leaped back to Winnebago, with its pleasant porches on which leisurely women sat stitching peacefully at a fine seam.</p>
 <p>What was it she had said to Udell? "Can't you speed up the workroom? It's worth it."</p>
-<p>Fanny turned abruptly from the window as the door of the bronze and mirrored lift opened for her. She walked over to Fifth avenue again and up to Forty-fifth street. Then she scrambled up the spiral stairs of a Washington Square 'bus. The air was crisp, clear, intoxicating. To her Chicago eyes the buildings, the streets, the very sky looked startlingly fresh and new-washed. As the 'bus lurched down Fifth avenue she leaned over the railing to stare, fascinated, at the colorful, shifting, brilliant panorama of the most amazing street in the world. Block after block, as far as the eye could see, the gorgeous procession moved up, moved down, and the great, gleaming motor cars crept, and crawled, and writhed in and out, like nothing so much as swollen angle worms in a fishing can, Fanny thought. Her eye was caught by one limousine that stood out, even in that crush of magnificence. It was all black, as though scorning to attract the eye with vulgar color, and it was lined with white. Fanny thought it looked very much like Siegel & Cowan's hearse, back in Winnebago. In it sat a woman, all furs, and orchids, and complexion. She was holding up to the window a little dog with a wrinkled and weary face, like that of an old, old man. He was sticking his little evil, eager red tongue out at the world. And he wore a very smart and woolly white sweater, of the imported kind--with a monogram done in black.</p>
+<p>Fanny turned abruptly from the window as the door of the bronze and mirrored lift opened for her. She walked over to Fifth avenue again and up to Forty-fifth street. Then she scrambled up the spiral stairs of a Washington Square 'bus. The air was crisp, clear, intoxicating. To her Chicago eyes the buildings, the streets, the very sky looked startlingly fresh and new-washed. As the 'bus lurched down Fifth avenue she leaned over the railing to stare, fascinated, at the colorful, shifting, brilliant panorama of the most amazing street in the world. Block after block, as far as the eye could see, the gorgeous procession moved up, moved down, and the great, gleaming motor cars crept, and crawled, and writhed in and out, like nothing so much as swollen angle worms in a fishing can, Fanny thought. Her eye was caught by one limousine that stood out, even in that crush of magnificence. It was all black, as though scorning to attract the eye with vulgar color, and it was lined with white. Fanny thought it looked very much like Siegel &amp; Cowan's hearse, back in Winnebago. In it sat a woman, all furs, and orchids, and complexion. She was holding up to the window a little dog with a wrinkled and weary face, like that of an old, old man. He was sticking his little evil, eager red tongue out at the world. And he wore a very smart and woolly white sweater, of the imported kind--with a monogram done in black.</p>
 <p>The traffic policeman put up his hand. The 'bus rumbled on down the street. Names that had always been remotely mythical to her now met her eye and became realities. Maillard's. And that great red stone castle was the Waldorf. Almost historic, and it looked
 <pb n="208     FANNY HERSELF"/>
 newer than   the  smoke-grimed  Blackstone.  And straight ahead--why, that must be the Flatiron building! It loomed up like the giant prow of an unimaginable ship.  Brentano's.  The Holland House. Madison Square. Why there never was anything so terrifying, and beautiful, and palpitating, and exquisite as this Fifth avenue in the late winter afternoon, with the sky ahead a rosy mist, and the golden lights just beginning to spangle the gray. At Madison Square she decided to walk. She negotiated the 'bus steps with surprising skill for a novice, and scurried along the perilous crossing to the opposite side. She entered Madison Square. But why hadn't O. Henry emphasized its beauty, instead of its squalor? It lay, a purple pool of shadow, surrounded by the great, gleaming, many-windowed office buildings, like an amethyst sunk in a circle of diamonds. "It's a fairyland!" Fanny told herself. "Who'd have thought a city could be so beautiful!"</p>
@@ -1725,7 +1726,7 @@ swallowed hard, and said, "I don't want all you got. I ain't holdin' you up. Jus
 <p>"I took a 'bus ride," Fanny explained.</p>
 <p>"See anything of New York?"</p>
 <p>"I saw all of it," replied Fanny. Ella laughed at that, but Fanny's face was serious.</p>
-<p>"How did you make out at Horn & Udell's? Never mind, I'm coming in for a minute; can I?"</p>
+<p>"How did you make out at Horn &amp; Udell's? Never mind, I'm coming in for a minute; can I?"</p>
 <p>"Please do. I need you."</p>
 <p>A moment later Ella bounced in, fresh as to blouse, pink as to cheeks, her whole appearance a testimony to the revivifying effects of a warm bath, a brief nap, clean clothes.</p>
 <pb n="210     FANNY HERSELF"/>
@@ -1744,7 +1745,7 @@ swallowed hard, and said, "I don't want all you got. I ain't holdin' you up. Jus
 <p>"Yes."</p>
 <p>"Do you mean you know him? Honestly? What's he like?"</p>
 <p>But Fanny had vanished. "I'm a tired business woman," she called, above the splashing that followed, "and I won't converse until I'm fed."</p>
-<p>"But how about Horn & Udell?" demanded Ella, her mouth against the crack.</p>
+<p>"But how about Horn &amp; Udell?" demanded Ella, her mouth against the crack.</p>
 <p>"Practically mine," boasted Fanny.</p>
 <p>"You mean--landed!"</p>
 <p>"Well, hooked, at any rate, and putting up a very poor struggle."</p>
@@ -1768,9 +1769,9 @@ evitable questions of the dweller to the transient, "Where are you? How long hav
 <p>"It's a wonderful job. I'm a lucky boy. I'm doing the thing I'd rather do than anything else in the world. There are mighty few who can say that." There was another silence, awkward, heavy. Then, "Fanny, you're not really leaving to-day?"</p>
 <p>"I'll be in Chicago to-morrow, barring wrecks."</p>
 <p>"You might have let me show you our more or less fair city."</p>
-<p>"I've shown it to myself. I've seen Riverside Drive at sunset, and at night. That alone would have been enough. But I've seen Fulton market, too, and the Grand street stalls, and Washington Square, and Central Park, and Lady Duff-Gordon's inner showroom, and the Night Court, and the Grand Central subway horror at six p. m., and the gambling on the Curb, and the bench sleepers in Madison Square-- Oh, Clancy, the misery--"</p></p>
+<p>"I've shown it to myself. I've seen Riverside Drive at sunset, and at night. That alone would have been enough. But I've seen Fulton market, too, and the Grand street stalls, and Washington Square, and Central Park, and Lady Duff-Gordon's inner showroom, and the Night Court, and the Grand Central subway horror at six p. m., and the gambling on the Curb, and the bench sleepers in Madison Square-- Oh, Clancy, the misery--"</p>
 <p>"Heh, wait a minute! All this, alone?"</p>
-<p>"Yes. And one more thing. I've landed Horn & Udell, which means nothing to you, but to me it means that by Spring my department will be a credit to its stepmother; a real success."</p>
+<p>"Yes. And one more thing. I've landed Horn &amp; Udell, which means nothing to you, but to me it means that by Spring my department will be a credit to its stepmother; a real success."</p>
 <p>"I knew it would be a success. So did you. Anything you might attempt would be successful. You'd have made a successful lawyer, or cook, or actress, or hydraulic engineer, because you couldn't do a thing
 <pb n="215     FANNY HERSELF"/>
 badly. It isn't in you. You're a superlative sort of person. But that's no reason for being any of those things. If you won't admit a debt to humanity, surely you'll acknowledge you've an obligation to yourself."</p>
@@ -1805,7 +1806,7 @@ communicates with the brain. That blow makes you see stars, bright lights, and f
 <p>"You <hi rend="italic">are</hi> crazy," said Fanny, as though at last assured of a long-suspected truth. The train began to move, almost imperceptibly. "Run!" she cried.</p>
 <p>Heyl sped up the aisle. At the door he turned. "It's called an uppercut," he shouted to the amazement of the other passengers. And leaped from the train.</p>
 <p>Fanny sank into her seat, weakly. Then she began to laugh, and there was a dash of hysteria in it. He had left a paper on the car seat. It was the <hi rend="italic">Star</hi>. Fanny crumpled it, childishly, and kicked it under the seat. She took off her hat, arranged her belongings, and sat back with eyes closed. After a few moments she opened them, fished about under the seat for the crumpled copy of the <hi rend="italic">Star</hi>, and read it, turning at once to his column. She thought it was a very unpretentious thing, that column, and yet so full of insight, and sagacity, and whimsical humor. Not a guffaw in it, but a smile in every fifth line. She wondered if those years of illness, and loneliness, with weeks of reading, and tramping, and climbing in the Colorado mountains had kept him strangely young, or made him strangely old.</p>
-<p>She welcomed the hours that lay between New York and Chicago. They would give her an opportunity to digest the events of the past ten days. In her systematic mind she began to range them in the order of their importance. Horn & Udell came first, of course, and then the line of maternity dresses she had selected to take the place of the hideous models carried under Slosson's regime. And then the slip-over pinafores. But somehow her thoughts became jumbled here, so that faces instead of garments filled her mind's eye. Again and again there swam into her ken the face of that woman of fifty, in decent widow's weeds, who had
+<p>She welcomed the hours that lay between New York and Chicago. They would give her an opportunity to digest the events of the past ten days. In her systematic mind she began to range them in the order of their importance. Horn &amp; Udell came first, of course, and then the line of maternity dresses she had selected to take the place of the hideous models carried under Slosson's regime. And then the slip-over pinafores. But somehow her thoughts became jumbled here, so that faces instead of garments filled her mind's eye. Again and again there swam into her ken the face of that woman of fifty, in decent widow's weeds, who had
 <pb n="219     FANNY HERSELF"/>
 stood there in the Night Court, charged with drunkenness on the streets. And the man with the frost-bitten fingers in Madison Square. And the dog in the sweater. And the feverish concentration of the piece-work sewers in the window of the loft building.</p>
 <p>She gave it up, selected a magazine, and decided to go in to lunch.</p>
@@ -1867,7 +1868,7 @@ your first New York trip was a whirlwind. Congratulations!"</p>
 from among the thousands; the thud-thud of Sarah's bundle-chute beat a dull accompaniment to the hum of the big hive; above the rustle of those myriad yellow order-slips, through the buzz of the busy mail room; beneath the roar of the presses in the printing building, the crash of the dishes in the cafeteria, ran the leid-motif of Sarah-at-seven-a-week. Back in her office once more Fanny dictated a brief observation-report for Fenger's perusal.</p>
 <p>"It seems to me there's room for improvement in our card index file system. It's thorough, but unwieldy. It isn't a system any more. It's a ceremony. Can't you get a corps of system sharks to simplify things there?"</p>
 <p>She went into detail and passed on to the next suggestion.</p>
-<p>"If the North American Cloak & Suit Company can sell mail order dresses that are actually smart and in good taste, I don't see why we have to go on carrying only the most hideous crudities in our women's dress department. I know that the majority of our women customers wouldn't wear a plain, good looking little blue serge dress with a white collar, and some tailored buttons. They want cerise satin revers on a plum-colored foulard, and that's what we've been giving them. But there are plenty of other women living miles from anywhere who know what's being worn on Fifth avenue. I don't know how they know it, but they do. And they want it. Why can't we reach those women, as well as their shoddier sisters? The North American people do it. I'd wear one of their dresses myself. I wouldn't be found dead in one of ours. Here's a suggestion:</p>
+<p>"If the North American Cloak &amp; Suit Company can sell mail order dresses that are actually smart and in good taste, I don't see why we have to go on carrying only the most hideous crudities in our women's dress department. I know that the majority of our women customers wouldn't wear a plain, good looking little blue serge dress with a white collar, and some tailored buttons. They want cerise satin revers on a plum-colored foulard, and that's what we've been giving them. But there are plenty of other women living miles from anywhere who know what's being worn on Fifth avenue. I don't know how they know it, but they do. And they want it. Why can't we reach those women, as well as their shoddier sisters? The North American people do it. I'd wear one of their dresses myself. I wouldn't be found dead in one of ours. Here's a suggestion:</p>
 <p>"Why can't we get Camille to design half a dozen models a season for us? Now don't roar at that. And don't think that the women on western ranches haven't heard of Camille. They have. They may know nothing
 <pb n="227     FANNY HERSELF"/>
 of Mrs. Pankhurst, and Lillian Russell may be a myth to them, but I'll swear that every one of them knows that Camille is a dressmaker who makes super-dresses. She is as much a household word among them as Roosevelt used to be to their men folks. And if we can promise them a Camille-designed dress for &#x0024;7.85 (which we could) then why don't we?"</p>
@@ -1957,7 +1958,7 @@ and, somehow, gloriously carefree and lighthearted. There was about him a natura
 <p>Seated beside her he turned and regarded her with disconcerting scrutiny.</p>
 <p>"Like it?" demanded Fanny, pertly. And smoothed her veil, consciously.</p>
 <p>"No."</p>
-<p>"Well, for a man who looks neglig&#x008;e even in evening clothes aren't you overcritical?"</p>
+<p>"Well, for a man who looks neglig&#x00E9;e even in evening clothes aren't you overcritical?"</p>
 <p>"I'm not criticizing your clothes. Even I can see that that hat and suit have the repressed note that means money. And you're the kind of woman who looks her best in those plain dark things."</p>
 <p>"Well, then?"</p>
 <p>"You look like a buyer. In two more years your face will have that hard finish that never comes off."</p>
@@ -2501,10 +2502,10 @@ Fenger stood looking at her, his head lowered. A scarlet stripe, that she had ne
 <p>'Katherine left here yesterday.  She's in town." Then, at the look in her face, "She was here when I telephoned you yesterday. Late yesterday afternoon she had one of her fantastic notions. She insisted that she must go into town. It was too cold for her here. Too damp. Too--well, she went. And I let her go. And I didn't telephone you again. I wanted you to come."</p>
 <p>Fanny Brandeis, knowing him, must have felt a great qualm of terror and helplessness. But she was angry,
 
-<figure entity="effany301" rend="inline">
-<p> " 'You nervy little devil, you!' "</p>
-<p> <hi rend="italic"> Page 301</hi></p>
-<figDesc> picture included in body of Ferber's "Fanny Herself"</figDesc>
+<figure entity="effannypic4" rend="inline">
+<p>" 'You nervy little devil, you!' "</p>
+<p><hi rend="italic">&#x2014;Page 301</hi></p>
+<figDesc>Illustration between pages 300 and 301 of Ferber's "Fanny Herself"</figDesc>
 </figure>
 
 <pb n="301     FANNY HERSELF"/>
@@ -2665,7 +2666,7 @@ You know he said, 'When you want a job, come back.' Do you think he meant it?"</
 <p>"Lasker always means it."</p>
 <p>"But," fearfully, and shyly, too, "you don't think I may have lost my drawing hand and my seeing eye, do you? As punishment?"</p>
 <p>"I do not. I think you've just found them, for keeps. There wasn't a woman cartoonist in the country--or man, either, for that matter--could touch you two years ago. In two more I'll be just Fanny Brandeis' husband, that's all."</p>
-<p>They laughed together at that, so that Albert Edward Cobbins awoke with a start and tried to look as if he had not been asleep, and failing, smiled benignly and drowsily upon them.</p></div></body></text><tei.2></tei.2>
+<p>They laughed together at that, so that Albert Edward Cobbins awoke with a start and tried to look as if he had not been asleep, and failing, smiled benignly and drowsily upon them.</p></div></body></text></TEI.2>
 
 
 
