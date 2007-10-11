@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2 id=""> 
-<teiHeader id=""> 
+<TEI.2 id="ccordeal1201"> 
+<teiHeader id="ccordeal1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>The Ordeal, an electronic edition</title> 
 <author><name type="person" reg="Murfree, Mary Noailles, 1850-1922">Charles Egbert Craddock</name></author> 
 </titleStmt> 
-<extent></extent> 
+<extent>300Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -27,7 +27,7 @@
 <respStmt> 
 <name>Sheila T. Cavanagh</name> 
 <name>Charles D. Spornick</name> 
-<<resp>Principal Investigators</resp> 
+<resp>Principal Investigators</resp> 
 </respStmt> 
 </seriesStmt> 
 <sourceDesc> 
@@ -39,7 +39,7 @@
 <p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
 </projectDesc> 
 <samplingDecl> 
-<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only.</p> 
 </samplingDecl> 
 <editorialDecl> 
 <p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p> 
@@ -67,7 +67,8 @@
 <list> 
 <item>American literature--20th Century--Fiction.</item> 
 <item>Women authors, American--20th Century.</item> 
-<item>Appalachian Mountains-Southern.</item> 
+<item>Appalachian mountains, southern.</item>
+<item>Local color.</item> 
 </list> 
 </keywords> 
 </textClass> 
@@ -83,11 +84,11 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
+<text id="ccordeal1203">
+<front id="ccordeal1204">
 <div id="ccordealcover" type="front cover">
 <figure entity="ccordealfc" rend="inline">
-<figDesc> Front cover of Craddock's "The Ordeal"</figDesc>
+<figDesc>Front cover of Craddock's "The Ordeal"</figDesc>
 </figure>
 </div>
 <pb/>
@@ -96,15 +97,15 @@
 <pb entity="ccordealtp" pages="title page"/>
 <titlePage type="half">
 <docTitle>
-<titlePart type="main"> THE ORDEAL</titlePart>
-<titlePart type="sub"> A MOUNTAIN ROMANCE OF TENNESSEE</titlePart>
+<titlePart type="main">THE ORDEAL</titlePart>
+<titlePart type="sub">A MOUNTAIN ROMANCE OF TENNESSEE</titlePart>
 </docTitle>
 </titlePage>
 <pb n="[2]"/>
 
 <div id="ccordealfm1" type="advert">
-<figure entity="ccordealad" rend="inline">
-<figDesc> Advert included in front of Craddock's "The Ordeal"</figDesc>
+<figure entity="ccordealad001" rend="inline">
+<figDesc>Advert included in front of Craddock's "The Ordeal"</figDesc>
 </figure>
 </div>
 
@@ -113,40 +114,40 @@
 <pb n="[4]"/>
 <div id="ccordealfm2" type="frontispiece">
 <p> A SWIFT, ERECT FIGURE STEPPED INTO THE MIDDLE OF THE ROAD</p>
-<p> <hi rend="italic"> Page 101</hi></p>
+<p><hi rend="italic">Page 101</hi></p>
 <figure entity="ccordealill" rend="inline">
-<figDesc> Illustration included in front of Craddock's "The Ordeal"</figDesc>
+<figDesc>Illustration included in front of Craddock's "The Ordeal"</figDesc>
 </figure>
 </div>
 
-<pb n="[5]"/>
+<pb entity="ccordealtp001" n="[5]" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main"> THE ORDEAL</titlePart>
-<titlePart type="sub"> A MOUNTAIN ROMANCE OF <lb/> TENNESSEE</titlePart>
+<titlePart type="main">THE ORDEAL</titlePart>
+<titlePart type="sub">A MOUNTAIN ROMANCE OF<lb/>TENNESSEE</titlePart>
 </docTitle>
 <byline> BY <docAuthor> CHARLES EGBERT CRADDOCK</docAuthor> AUTHOR OF <lb/> "THE RAID OF THE GUERILLA," " THE PROPHET OF THE GREAT <lb/> SMOKY MOUNTAINS," "THE FAIR MISSISSIPPIAN," ETC.</byline>
 <titlePart type="desc"> WITH A FRONTISPIECE IN COLOR BY <lb/> DOUGALS DUER</titlePart>
 <docImprint>
 <pubPlace> PHILADELPHIA &#x0026; LONDON</pubPlace>
 <publisher> J.B. LIPPINCOTT COMPANY</publisher>
-<docDate> 1918</docDate>
+<docDate> 1912</docDate>
 </docImprint>
 </titlePage>
 
 <pb n="[6]"/>
 <div id="ccordealfm3" type="copyright">
-<figure entity="ccordealtpv" rend="inline">
-<figDesc> Copyright page for Craddock's "The Ordeal"</figDesc>
+<figure entity="ccordealfm001" rend="inline">
+<figDesc>Copyright page for Craddock's "The Ordeal"</figDesc>
 </figure>
 </div>
 </front>
-<body>
+<body id="ccordeal1205">
 <pb n="7 THE ORDEAL"/>
 <div type="chapter" id="001"><head>THE ORDEAL
 <lb/>I.</head>
 <p>NOWHERE could the idea of peace be more serenely, more majestically, expressed. The lofty purple mountains limited the horizon, and in their multitude and imposing symmetry bespoke the vast intentions of beneficent creation. The valley, glooming low, harbored all the shadows. The air was still, the sky as pellucid as crystal, and where a crag projected boldly from the forests, the growths of balsam fir extending almost to the brink, it seemed as if the myriad fibres of the summit-line of foliage might be counted, so finely drawn, so individual, was each against the azure. Below the boughs the road swept along the crest of the crag and thence curved inward, and
-<pb n="8 THE ORDEAL."/>
+<pb n="8 THE ORDEAL"/>
 one surveying the scene from the windows of a bungalow at no great distance could look straight beyond the point of the precipice and into the heart of the sunset, still aflare about the west.</p>
 <p>But the realization of solitude was poignant and might well foster fear. It was too wild a country, many people said, for quasi-strangers, and the Briscoes were not justified in lingering so long at their summer cottage here in the Great Smoky Mountains after the hotel of the neighboring springs was closed for the season, and its guests and employees all vanished townward. Hitherto, however, the Briscoes had flouted the suggestion, protesting that this and not the spring was the "sweet o' the year." The autumn always found the fires flaring on the cosy hearths of their pretty bungalow, and they were wont to gaze entranced on the chromatic pageantry of the
 <pb n="9 THE ORDEAL"/>
@@ -253,7 +254,7 @@ you and Gladys used to practise together."</p>
 <pb n="37 THE ORDEAL"/>
 new-comer urged a very lame horse to the steps of the veranda. The two friends waiting within looked at each other in uncertainty as to their policy in admitting the stranger. Then as his rapid footfalls sounded on the veranda, and a stalwart figure appeared in the doorway, Briscoe tilted the shade of the lamp on the table to throw its glare full on the new-comer's face, and broke forth with an acclaim of recognition and welcome.</p>
 <p>To be sure, he was but a casual acquaintance, and Briscoe's cordiality owed something of its fervor to his relief to find that the visitor was of no untoward antecedents and intentions. An old school-fellow he had been long ago in their distant city home, who chanced to be in the mountains on a flying trip&#x2014;no belated summer sojourner, no pleasure-seeker, but concerned with business, and business of the grimmest moni-
-<pb n="THE ORDEAL"/>
+<pb n="38 THE ORDEAL"/>
 tions. A brisk, breezy presence he had, his cheeks tingling red from the burning of the wind and sun and the speed of his ride. He was tall and active, thirty-five years of age perhaps, with a singularly keen eye and an air intimating much decision of character, of which he stood in need for he was a deputy collector of the revenue service, and in the midst of a dangerous moonshining raid his horse had gone dead lame.</p>
 <p>"I hardly expected to find you still here at this season," he said to Briscoe, congratulating himself, " but I took the chances. You must lend me a horse."</p>
 <p>Briscoe's instincts of hospitality were paramount, and he declared that he would not allow the new-comer to depart so summarily. He must stay and dine; he must stay the night; he must join the hunt that was planned for to-morrow&#x2014;a first-rate gun was at his disposal.</p>
@@ -337,7 +338,7 @@ smiling: "Currish, indeed it may be, but that is exactly the kind of old dog Tra
 <pb n="61 THE ORDEAL"/>
 you and she got up at the last moment, I felt for her, because to people generally her choice was subject to the imputation of being wholly one of interest. They were so dissimilar in taste, so uncongenial; and I really think <hi rend="italic">he</hi> did not love her!"</p>
 <p>"<hi rend="italic">He</hi> had no other motive, at all events."</p>
-<p>"Oh, of course he had a certain preference for her; and it was the sort of triumph that such a man would relish&#x2014;to carry her off from you at the last moment. I always recognized <hi rend="italic>his</hi> influence in the sensational elements of that d&#x00E9;nouement.  He liked her after a fashion&#x2014;to preside in a princess-like style in his big house, to illustrate to advantage his florid expenditure of money, to sparkle with wit and diamonds at the head of his table&#x2014;a fine surface for decoration she has! But Royston couldn't love&#x2014;couldn't really care for anything but himself&#x2014;a man of that temperament."</p>
+<p>"Oh, of course he had a certain preference for her; and it was the sort of triumph that such a man would relish&#x2014;to carry her off from you at the last moment. I always recognized <hi rend="italic">his</hi> influence in the sensational elements of that d&#x00E9;nouement.  He liked her after a fashion&#x2014;to preside in a princess-like style in his big house, to illustrate to advantage his florid expenditure of money, to sparkle with wit and diamonds at the head of his table&#x2014;a fine surface for decoration she has! But Royston couldn't love&#x2014;couldn't really care for anything but himself&#x2014;a man of that temperament."</p>
 <pb n="61 THE ORDEAL"/>
 <p>Bayne rose; he had reached the limit of his endurance; he could maintain his tutored indifference, but he would not seek to analyze the event anew or to adjust himself to the differentiations of sentiment that Briscoe seemed disposed to expect him to canvass.</p>
 <p>The encroachments of the surging seas of mist had reduced the limits of the world to the interior of the bungalow, and the myriad interests and peoples of civilization to the little household circle. The day in the pervasive constraint that hampered their relations wore slowly away. Under the circumstances, even the resources of bridge were scarcely to be essayed. Bayne lounged for hours with a book in a swing on the veranda. Briscoe, his hands in his pockets, his hat on the back of his head, his cigar cocked between his teeth&#x2014;house-bound, he smoked a prodigious number of them for sheer occu-
@@ -785,7 +786,7 @@ of the stone in the pocket of the little red coat, and the theory that Mrs. Roys
 <p>Lillian was on her feet again in an instant, her eyes shining, her cheeks flushed, her voice trembling. "Oh, Julian, you think it is possible that Archie is alive! Oh, I
 <pb n="188 THE ORDEAL"/>
 believe it! I believe it! And the thought is like the elixir of life, like the ecstasy of heaven!"</p>
-<p>He made no direct reply, but turned hastily to go to the telephone. "You cannot afford to lose any chance, even the most remote. The county officers must be notified, advertisements sent out, and offers of reward. There is not a moment to be wasted."</p
+<p>He made no direct reply, but turned hastily to go to the telephone. "You cannot afford to lose any chance, even the most remote. The county officers must be notified, advertisements sent out, and offers of reward. There is not a moment to be wasted."</p>
 <p>"But Gladys thinks it is a folly," cried Lillian, following him into the hall, eager to test the negative view, fearful of her trembling hope; "and my aunt is troubled for my sanity."</p>
 <p>As he waited for the line, which was "busy," he turned and sternly surveyed her. "Why should you defer to their views, Lillian? Haven't you yet had enough of ordering your life by the standards of others? Be yourself&#x2014;if you have any identity left at this late day. Rely on your own judg-
 <pb n="189 THE ORDEAL"/>
@@ -1119,39 +1120,39 @@ you should never get another shot at me; but circumstances have been
 too much for me&#x2014;and I have ceased to struggle against
 them."</p></div></body>
 
-<back>
+<back id="ccordeal1206">
 
 <pb/>
 
 <pb n="[283]"/>
 <div id="ccordealbm1" type="advert">
-<figure entity="ccordealad1" rend="inline">
+<figure entity="ccordealbad001" rend="inline">
 <figDesc> Advert included in back of Craddock's "The Ordeal"</figDesc>
 </figure>
 
 <pb n="[284]"/>
-<figure entity="ccordealad2" rend="inline">
+<figure entity="ccordealbad002" rend="inline">
 <figDesc> Advert included in back of Craddock's "The Ordeal"</figDesc>
 </figure>
 
 
 <pb n="[285]"/>
-<figure entity="ccordealad3" rend="inline">
+<figure entity="ccordealbad003" rend="inline">
 <figDesc> Advert included in back of Craddock's "The Ordeal"</figDesc>
 </figure>
 
 <pb n="[286]"/>
-<figure entity="ccordealad4" rend="inline">
+<figure entity="ccordealbad004" rend="inline">
 <figDesc> Advert included in back of Craddock's "The Ordeal"</figDesc>
 </figure>
 
 <pb n="[287]"/>
-<figure entity="ccordealad5" rend="inline">
+<figure entity="ccordealbad005" rend="inline">
 <figDesc> Advert included in back of Craddock's "The Ordeal"</figDesc>
 </figure>
 
 <pb n="[288]"/>
-<figure entity="ccordealad6" rend="inline">
+<figure entity="ccordealbad006" rend="inline">
 <figDesc> Advert included in back of Craddock's "The Ordeal"</figDesc>
 </figure>
 
