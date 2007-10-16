@@ -1,12 +1,12 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2> 
-<teiHeader> 
+<TEI.2 id="mabarbara1201"> 
+<teiHeader id="mabarbara1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>Barbara: Lady's Maid and Peeress, an electronic edition</title> 
-<author n="Alexander, Mrs,, 1825-1902">Mrs.Alexander</author> 
+<author><name type="person" reg="Alexander, Mrs., 1825-1902">Mrs. Alexander</name></author> 
 </titleStmt> 
-<extent></extent> 
+<extent>600Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -50,15 +50,15 @@
 <rs type="language">English</rs> 
 <rs type="ethnicity">Caucasian</rs> 
 <rs type="form">Unedited</rs> 
-<rs type="genre">Short Stories</rs> 
+<rs type="genre">Novel</rs> 
 <rs type="geography">Great Britain</rs> 
 <date>1800-1899</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
 <list> 
-<item>British literature--20th Century--Fiction.</item> 
-<item>Women authors, British--20th Century.</item> 
+<item>British literature--19th Century--Fiction.</item> 
+<item>Women authors, British--19th Century.</item> 
 <item>Inheritance.</item> 
 <item>Servants in literature.</item> 
 </list> 
@@ -67,7 +67,7 @@
 </profileDesc> 
 <revisionDesc> 
 <change> 
-<date>2007-June-29/date</date> 
+<date>2007-June-29</date> 
 <respStmt>
 <name>Shruthi Vissa, </name> 
 <resp>Encoder.</resp></respStmt> 
@@ -75,10 +75,10 @@
 </change> 
 </revisionDesc> 
 </teiHeader>		
-<text>
-<front>
+<text id="mabarbara1203">
+<front id="mabarbara1204">
 <pb n="[i]"/>
-<pb entity="mabarbaratp" pages="Title Page"/>
+<pb entity="mabarbaratp1" pages="Title Page"/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main">BARBARA </titlePart>
@@ -87,48 +87,49 @@
 </titlePage>
 <pb/>
 <pb n="[iii]"/>
+<pb entity="mabarbaratp2" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main"> BARBARA</titlePart>
+<titlePart type="main">BARBARA</titlePart>
 <titlePart type="sub"> LADY'S MAID AND PEERESS</titlePart>
 </docTitle>
 <byline> By <docAuthor> Mrs. ALEXANDER</docAuthor> Author of 'Mrs. Crichton'd Creditor' <lb/> 'A Golden Autumn,' 'A Flight With Fate' <lb/> 'For His Sake,' ETC., ETC.</byline>
-<docimprint>
+<docImprint>
 <pubPlace> LONDON</pubPlace>
 <publisher> F.V. WHITE &#x0026; CO. </publisher>
 <pubPlace> 14 BEDFORD STREET, STRAND, W.C.</pubPlace>
 <docDate> 1897</docDate>
-</docimprint>
+</docImprint>
 </titlePage>
 <pb/>
 <pb n="[v]"/>
 <div id="mabarabara100" type="table of contents">
-<figure entity="mabarbaratc1" rend="inline">
-<figDesc> Table of contents included in front of Alexander's "Barbara"</figDesc>
+<figure entity="mabarbarafm2" rend="inline">
+<figDesc>Table of contents included in front of Alexander's "Barbara"</figDesc>
 </figure>
 
 <pb n="[vi]"/>
-<figure entity="mabarabaratc2" rend="inline">
-<figDesc> Table of contents included in front of Alexander's "Barbara"</figDesc>
+<figure entity="mabarabarafm3" rend="inline">
+<figDesc>Table of contents included in front of Alexander's "Barbara"</figDesc>
 </figure>
 </div>
 
 <pb n="[vii]"/>
 <titlePage type="half">
 <docTitle>
-<titlePart type="main"> BARBARA</titlePart>
+<titlePart type="main">BARBARA</titlePart>
 <titlePart type="sub"> LADY'S MAID AND PEERESS</titlePart>
 </docTitle>
 </titlePage>
 
 <pb n="[viii]"/>
 <div id="mabarbara200" type="advert">
-<figure entity="mabarbaraad" rend="inline">
-<figDesc> Advert included in front of Alexander's "Barbara"</figDesc>
+<figure entity="mabarbarafm4" rend="inline">
+<figDesc>Advert included in front of Alexander's "Barbara"</figDesc>
 </figure>
 </div>
 </front>
-<body>
+<body id="mabarbara1205">
 <pb n="[1]"/>
 <div id="mabarba001" type="chapter" n="1">
 <head>BARBARA, LADY'S MAID AND PEERESS<lb/>
@@ -569,7 +570,7 @@ me; your lessons will rest in my heart for ever. I unconsciously did you a wrong
 <p>They sat silently side by side for a minute or two.</p>
 <p>'I must not stay,' exclaimed Constance, suddenly. 'I should not have tried to meet you if I had not hoped to persuade you&#x2014;'</p>
 <p>'To leave the army?' he interrupted. 'No! I have taken my line and I shall stick to it. We are a curious couple, eh, dear? meeting, not to vow eternal fidelity, but as quick forgetfulness as we can manage! Look at me, Constance! I want to draw the last gleam of those sweet eyes, the last I&#x2014;I shall see for many a day, into my heart, to keep it warm and clean. I must not keep
-<pb n="41     <hi rend="italic">LADY'S MAID AND PEERESS</hi>"/>
+<pb n="41     LADY'S MAID AND PEERESS"/>
 &#x2014;I must not keep you. Do you know, my darling, how fondly, how passionately I love you, even more dearly than life, for I can resign you rather than attempt to drag you out of your own sphere.'</p>
 <p>He took and fondly pressed her hand, then rose and whistled to his dog.</p>
 <p>'I am glad you have a nice, sensible-looking girl to wait on you,' he said in an altered tone. 'It looks like the beginning of better times. God be with you, Constance. Good-bye!' and he strode quickly away over the heather till he reached a short distance, when he turned, waved his hand, stood still an instant, then, facing round again, went steadily on towards the further side of the moor.</p>
@@ -703,7 +704,7 @@ his trustees will keep a very tight hand on Rex, as they ought. Property is a sa
 <p>'It is not "well" by any means with that poor boy!' he returned. 'He seems to have had a great shock! I am going to take him out for a drive. It seems he never feels safe out driving except with me. The air and rapid motion will do him good. I suppose you have something on four legs in your stable?'</p>
 <p>'You had better take the ponies. The old horse I have for the brougham would not go fast enough for you.'</p>
 <p>'You really ought not to deny yourself the necessaries, nay decencies, of life, my dear cousin! It is absurd. Let me choose.'</p>
-<pb n="53     <hi rend="italic">LADY'S MAID AND PEERESS</hi>"/>
+<pb n="53     LADY'S MAID AND PEERESS"/>
 <p>'No, thank you,' she interrupted. 'What I need I know best myself, and how to choose myself!'</p>
 <p>'Why don't you start a horse-breeding establishment?, There are great *facilities here. Appoint <hi rend="italic">me</hi> your manager. I should be glad of the salary! At present I am starving in the midst of plenty, as you know!'</p>
 <p>'What I should like to know, Rex, is what your idea of starvation is!'</p>
@@ -995,7 +996,7 @@ ceived a sudden and most sincere attachment to Constance, whose character and ci
 <p>'I may tell you some day if you care enough about me to ask.'</p>
 <p>'Very well; but I never indulge idle curiosity.'</p>
 <p>'I do not suppose you ever feel it. By-the-bye, Constance, I am sorry there's something gone wrong about that horse I wanted you to try; they can't send him up to-day. Then I shall be a good deal engaged.'</p>
-<pb n="77     <hi rend="italic">LADY'S MAID AND PEERESS</hi>"/>
+<pb n="77     LADY'S MAID AND PEERESS"/>
 <p>'It does not matter, Mr Vivian. I cannot ride with you until I have a proper habit.'</p>
 <p>'Well, later you shall have that and many things; but you must call me Rex.'</p>
 <p>'Oh! if you really wish it, I will, Rex.'</p>
@@ -1022,7 +1023,7 @@ BARBARA'S ACCOUNT</head>
 <p>About this time he came into the house a good bit, for he and Lady Glengarvon were planning to send the grapes and peaches to the London market, and he was fighting the railway people about the rates of carriage.</p>
 <p>I was often in her ladyship's study then battling about Miss Morton's clothes. I never could get the dear young lady to speak up for herself. 'No, Barbara,' she used to say, 'I am merely a pensioner on my aunt's bounty; but for her I might have been brought up in the workhouse. I have no right to put her to unnecessary expense.'</p>
 <p>'Law, miss!' I used to say, 'what do I ask for but bare necessaries?'</p>
-<pb n="80     <hi rend="italic">BARBARA</hi>"/>
+<pb n="80     BARBARA"/>
 <p>Anyhow, I worked and worked till I got them. Anyhow, I ran against Macpherson pretty often, and one day, as he was coming out, and I was going into the study, he said, 'You never come into the gardens. I can tell you they are worth looking at just now. You come one evening; I am often there till after seven, and I'll give you a posy for yourself, and maybe a plum.'</p>
 <p>I thanked him, and in a day or two I did go, and brought back some sweet flowers to Miss Constance. Then, if I didn't go often, he would send me flowers by the under housemaid, and it was all very nice and pleasant. However, it is not my own story I am writing, so I shall say no more about myself at present.</p>
 <p>All this time Miss Morton never mentioned young Musgrave's name, or alluded to him in any way. She was very quiet, and rather silent, but she kept very busy about all sorts of things. She got a botany book out of the library, and gathered plants and ferns and what flowers she could find, and pasted them in a book. She played on the piano&#x2014;sometimes hours at a time&#x2014;and she often wanted to go out with the Baroness, but my lady would not have her except now and then. She did not seem to care much about anything. Sewing was what seemed to amuse her most, and she grew to sew most beautifully. She did not like to go out without me, and I noticed that a week never passed that she did not go up on the moor to the cairn, where we had met young Mr Musgrave. There she used to sit and strain her eyes towards the glimpse of sea in the west, and, after a bit, stand up and start talking about clothes and lace, and things I knew she didn't care a straw for.</p>
@@ -1039,7 +1040,7 @@ bassy doctor was to look after the poor young gentleman. Next came a few lines s
 <p>Constance laughed. 'He is exceedingly fond of himself, Barbara.'</p>
 <p>'How do you know that, miss?'</p>
 <p>'A long course of observation. Oh, how delighted Rex Vivian must be to have all that poor boy's wealth all his own, free from the trustees and such restraints!
-<pb n="82     <hi rend="italic">BARBARA</hi>"/>
+<pb n="82     BARBARA"/>
 My aunt says they have managed so well that the property is now nearly worth thirty thousand a year!'</p>
 <p>I could not help exclaiming, 'Good Lord!'</p>
 <p>'Yes,' said my young lady, looking at me with a pleasant half smile, 'I suppose it is a great lot of money, but I know so little about the meaning of big sums that three or thirty thousand pounds do not seem so different to me. As to what they would buy, of course, I know that thirty is ten times three.'</p>
@@ -1333,7 +1334,7 @@ thought the climate of London had been cruelly belied.</p>
 <p>'Run away, dears ; get off your damp things and come back quickly to dinner,' cried Mrs Quentin. 'A pleasant
 <pb n="112     BARBARA"/>
 surprise, is it not, Constance? Why, I do not think you have seen Rex since you came to town.'</p>
-<p>'No,' put in Vivian, his eyes dwelling on his young <hi rend="italic">prot&#x00E9;g&#x00E9;e. 'The only time I was a few hours in town I called here and, with my usual ill luck, found Constance away at her dressmaker's, and as that meant hours, I gave it up and caught my train. Why, Constance, most young ladies lose their roses when they come to London. You have collected more than you could ever boast at Glengarvon.'</p>
+<p>'No,' put in Vivian, his eyes dwelling on his young <hi rend="italic">prot&#x00E9;g&#x00E9;e</hi>. 'The only time I was a few hours in town I called here and, with my usual ill luck, found Constance away at her dressmaker's, and as that meant hours, I gave it up and caught my train. Why, Constance, most young ladies lose their roses when they come to London. You have collected more than you could ever boast at Glengarvon.'</p>
 <p>'We have run all the way home from the Park gates, and I feel in a fever,' and she pressed her hands against her burning face.</p>
 <p>'And you are exceedingly rude, Rex, to call attention to any young lady's roses or lilies,' said his sister. 'Now tell us whence you came, and whither you are going.'</p>
 <p>'I came last from Glengarvon.'</p>
@@ -1418,7 +1419,7 @@ certain pertinacity which is not particularly good for myself or&#x2014;others.'
 <p>'Then, I am tormenting myself, and with devilish ingenuity, if you knew but all.'</p>
 <p>'Rex, dear, it is very late, had you not better go away?'</p>
 <p>'Yes, I suppose I had. Now, we have cemented a
-<pb n="119     <hi rend="italic">LADY'S MAID AND PEERESS</hi>"/>
+<pb n="119     LADY'S MAID AND PEERESS"/>
 close friendship to-night! You have called me dear Rex three or four times, and I am fairly content. I don't think I can see you to-morrow&#x2014;I shall be very busy. Do you wear my rings? Yes, never leave that opal off. <hi rend="italic">I</hi> wore it for a while, my influence has passed into it, and it shall make you think of <hi rend="italic">me!</hi>'</p>
 <p>'It has not hitherto, Rex. But I will think of you to-night, and thank you in my heart, as long as I keep awake!'</p>
 <p>Vivian made no reply. He caught and kissed her hand with a lingering kiss, and then quickly left the room.</p>
@@ -1578,7 +1579,7 @@ The Baroness lay facing the door, and as she caught sight of her niece, an unmis
 <p>'A nurse bodie,' said the Baroness&#x2014;who was at times very homely in her speech&#x2014;'that the doctor sent in without consulting <hi rend="italic">me</hi>. Now <hi rend="italic">you</hi> have come, and Barbara (I suppose Barbara is with you?) we'll send her away. There is no need to feed and pay a supernumerary.'</p>
 <p>'But, my dear aunt, we are not skilled nurses!'</p>
 <p>'Never mind. You and Wylie and the girl Barbara can sit up in turn for the few nights I am up here. Now you will want something to eat. Wylie has some cold grouse in the larder and a few fresh eggs; don't take any of them unless you particularly fancy one, for it costs a fortune to feed up the fowls at this season; indeed it
-<pb n="135     <hi rend="italic">LADY'S MAID AND PEERESS</hi>"/>
+<pb n="135     LADY'S MAID AND PEERESS"/>
 seems to me that everything costs more than it used, and what they'll all spend and waste and lavish, while I am shut up here and not able to move, puts me in a fever to think of!'</p>
 <p>'You will never get well if you worry yourself like this!' said Constance, alarmed at the eager fire of her aunt's eyes, her flushed cheeks, her rapid speech. 'I will go away and eat something and then come back to you. The nurse is in the next room; I will call her.'</p>
 <p>'It is time for her ladyship's composing draught,' said that functionary, bustling in at that moment. 'And excuse me, miss, Dr Barnes said her ladyship must be kept very quiet indeed, for she is inclined to be very feverish. Fever must be avoided!'</p>
@@ -1588,7 +1589,7 @@ seems to me that everything costs more than it used, and what they'll all spend 
 <p>This was but the beginning of troubles. Lady Glengarvon's fever could not be checked; the very strength and energy of her nature added to the fire which consumed her. For many days she was delirious, and curious were the revelations made in the wild wanderings of her fitful mood. Constance was moved by the pathos of her deep-rooted love for the land that had been her forefathers, by the absorbing passion which gave her the strength, the endurance to reconquer, and deliver what was sacred soil to her, from 'the power of the dog'&#x2014;the dogs of debt, of complicated encumbrance, of neglect, of mismanagement.</p>
 <p>It was a long struggle, and a weary watch. Constance learned a new and precious lesson in the care of a fever patient. For she was unwearied in the faithful help she gave both doctor and nurse.</p>
 <p>They were rewarded however, for the grim enemy was beaten back; and once the fever left her, Lady Glen-
-<pb n="136     <hi rend="italic">BARBARA</hi>"/>
+<pb n="136     BARBARA"/>
 garvon began slowly to gather strength, very slowly, nor was she ever quite the same woman again.</p>
 <p>To Constance she seemed improved. She was a little more companionable, a little less reluctant to accept help.</p>
 <p>During this long strain Vivian had often written brief letters of inquiry, but had not visited Glengarvon. He had the absorbing occupation of a contested election to divert his mind from private matters, and had even taken his seat and the oaths, proposed the address and said a few words in a small diplomatic difficulty. Easter was near at hand now, and he hoped to run down for a day or two. Would not Constance return with him to Mrs Quentin's, he asked, and be presented when the world returned from keeping holiday out of town?</p>
@@ -1856,7 +1857,7 @@ But, besides this uncertainty, Vivian's glances and tones could set her pulses t
 <p>'Sacrifice?' repeated Vivian, laughing. 'My dear fellow, I am ready to move heaven and earth to compass the union to-morrow.'</p>
 <p>'This is a change. How do you account for it?'</p>
 <p>'There are one or two reasons. Chiefly, because I
-<pb n="167     <hi rend="italic">LADY'S MAID AND PEERESS</hi>"/>
+<pb n="167      LADY'S MAID AND PEERESS"/>
 see the struggle between her desire to keep up the old dislike to me, and the inclination of her riper nature to love even as she is loved. No,' interrupting himself, 'not exactly; there can be few women capable of the intense passion I feel for this obstinate girl. She refused me rather decidedly about ten days ago, but that is only the opening chapter. I hope she is not going to give me too much trouble. A dash of revenge would be a bad ingredient in the crucible where the molten metal of my love for her is seething.'</p>
 <p>Chaldecott looked rather grave. 'If you are so fortunate as to win the young lady, Mr Vivian, I trust you will make her a good, kind, steady husband.'</p>
 <p>'So do I,' thoughtfully. 'At anyrate, she will be better off with me than with most men. At present she is a penniless pensioner on her aunt's bounty. As my wife, even when the force and fervour of my present state is over, and you and I know it cannot last, she is sure of a life of ease, distinction, refinement. Her son will be a peer of the realm, and the doors of the best, really best, society will open wide for her. These are consolations, Chaldecott.'</p>
@@ -2472,7 +2473,7 @@ was no affair of mine, so I bid Mrs More good-bye, and returned through the cour
 <pb n="229     LADY'S MAID AND PEERESS"/>
 she loves you she will forgive this lapse from the right road. Moreover, she is not the woman to betray you. If she marries you, knowing the story, she can never turn on you; if she finds it out after, you'll have a bad time of it.'</p>
 <p>'Suppose I laugh at your romance and defy you?'</p>
-<p>'You can do as you like, but I shall then repeat my tale to Messrs Sandford & Winter, the law advisers of the late Mr George Vivian, who were, I think, executors to his will. It would be their business to inquire whether the son of the testator was dead or alive.'</p>
+<p>'You can do as you like, but I shall then repeat my tale to Messrs Sandford &amp; Winter, the law advisers of the late Mr George Vivian, who were, I think, executors to his will. It would be their business to inquire whether the son of the testator was dead or alive.'</p>
 <p>Vivian was silent, and deep in thought, but his facial muscles were under strict control, and told his interlocutor nothing. Meantime, his brain worked rapidly. Which horn of his dilemma should he choose? The cut-and-dried lawyers, who had always shown a thinly-veiled dislike and distrust of him, or this frank and probably impressionable young soldier with his old-world respect for the family he had been trained to look up to? He came quickly to a decision.</p>
 <p>'I think, as a soldier and a gentleman, which I believe you are, Musgrave, I will trust you. The boy you saw <hi rend="italic">is</hi> my nephew. I am not going into the question of my motives; they are nothing to you. But I strongly object to making a clean breast of it to my future wife, as I think I may consider Miss Morton. I do not see that it can do her any good, and she has quixotic ideas in some directions.'</p>
 <p>'That is a matter I am not going to argue about. But the avowal of that boy's existence to Miss Morton is my sole condition for inviolable secrecy. I think it will be a safeguard for your wife.'</p>
@@ -2512,7 +2513,7 @@ call Miss Morton my wife, it is not a very agreeable reminiscence.'</p>
 perience. Deep and deadly were the curses he heaped upon the insolent underling who had dared to beard him. If&#x2014;if only he were knocked down, run over, and his life crushed out that very night as he walked back to his abode! Then Vivian would once more believe in his own luck. As it was, he must get through that interview with Constance as soon as possible. He sat down and wrote a hasty note:&#x2014;</p>
 <q><text><body>
 <div type="letter" id="mabarba020">
-<salute>'DEAR CONSTANCE,&#x2014;!</salute><p>hope you will receive me <hi rend="italic">without fail</hi> to-morrow between two and three o'clock.</p>-<closer><signed>Yours ever, <name>R. V.'</name>.</signed></closer>
+<salute>'DEAR CONSTANCE,&#x2014;!</salute><p>hope you will receive me <hi rend="italic">without fail</hi> to-morrow between two and three o'clock.&#x2014;</p><closer><signed>Yours ever, <name>R. V.'</name>.</signed></closer>
 </div></body></text></q>
 <p>Then he rang and ordered it to be taken early next morning.</p>
 <pb n="234"/>
@@ -2821,8 +2822,8 @@ the lawyers. I can do without Glengarvon. What shall you do?' to his sister. 'Do
 <p>'What?' asked his sister.</p>
 <p>'That she should be left such a wretched pittance. You know she will not take anything from me.'</p>
 <p>'There is no knowing how things may turn out.'</p>
-<p>'What an infernal old rascal Morris is.'</p>
-*line of dots
+<p>'What an infernal old rascal Morris is.'</p><milestone
+unit="section" rend="dots"/>
 <p>Vivian gone, Mrs Quentin grew impatient to return to town, especially as her husband's brief leave of absence obliged him to return without her. As soon, therefore, as she had carried out some directions given her by her brother, and regulated various matters to keep the household going, she fixed an early day for their journey.</p>
 <p>The previous afternoon was very breezy, with dashes of rain, and bright sunshine between the showers. Feel-
 <pb n="271     LADY'S MAID AND PEERESS"/>
@@ -2891,7 +2892,7 @@ must he aware Alan Musgrave knew he and I could never be united. Oh! I do not kn
 <div id="mabarba025" type="chapter" n="25">
 <head>CHAPTER XXV</head>
 <p>A FEW days later and 'Mrs Quentin, family and suite' were settled in a pretty little villa, the garden of which ran down to the sands&#x2014;near Ryde&#x2014;where all enjoyed the freshness and quiet after hot, dusty, noisy London; added to which, Constance felt the great relief of Vivian's absence. He had run over to Norway for a brief visit, chiefly to get out of the way of being obliged to take his seat in the House of Lords. 'The session is nearly over,' he said to his brother-in-law, 'and before the next begins I shall know whether I am Lord Glengarvon or not. Meantime, I escape the cross-questions and crooked answers Society will force upon one.'</p>
-<p>Meantime, Morris was very diligent in looking after his <hi rend="italic">prot&#x00E9;g&#x00E9;e</hi>'s interests. Not offensively. Indeed, his bearing and conduct was so dispassionate, so distinctly actuated by a wish to do what was right and just, that those well-known and highly-respected solicitors, 'Sidford & Winter,' changed their minds about him, and no longer set him down as a low, scheming country lawyer, who was advancing a bogus claim to fill his own pockets, but rather a well-intentioned old fellow, who was trying to atone for past weakness.</p>
+<p>Meantime, Morris was very diligent in looking after his <hi rend="italic">prot&#x00E9;g&#x00E9;e</hi>'s interests. Not offensively. Indeed, his bearing and conduct was so dispassionate, so distinctly actuated by a wish to do what was right and just, that those well-known and highly-respected solicitors, 'Sidford &amp; Winter,' changed their minds about him, and no longer set him down as a low, scheming country lawyer, who was advancing a bogus claim to fill his own pockets, but rather a well-intentioned old fellow, who was trying to atone for past weakness.</p>
 <p>Things had been so far cleared up that it was considered right to inform Barbara of her prospects, and remove her from her present position.</p>
 <p>This task was undertaken by Morris, who made his appearance at Woodbine Cottage, Mrs Quentin's
 <pb n="278     BARBARA"/>
@@ -3059,7 +3060,7 @@ more chance of a fatal mistake,' said Barbara, who had entered unperceived. 'I f
 <trailer>THE END</trailer>
 </div>
 </body>
-<back>
+<back id="mabarbara1206">
 <div type="colophon" id="mabarbarabm">
 <pb n="296"/>
 <p>Colston &#x0026; Coy. Limited, Printers, Edinburgh.</p>
