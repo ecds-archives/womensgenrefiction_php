@@ -1,10 +1,10 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2>
-<teiHeader>
+<TEI.2 id="edwarwo1201">
+<teiHeader id="edwarwo1202">
 <fileDesc> 
 <titleStmt> 
 <title>The War Workers, an electronic edition</title> 
-<author n="Delafield,E.M.,1890-1943">E.M. Delafield</author> 
+<author><name type="person" reg="Delafield, E.M.,1890-1943">E.M. Delafield</name></author> 
 </titleStmt> 
 <extent>350kb</extent> 
 <publicationStmt> 
@@ -57,16 +57,16 @@
 <rs type="form">Unedited</rs> 
 <rs type="genre">Novel</rs> 
 <rs type="geography">Great Britain</rs> 
-<date>1800-1899</date> 
+<date>1900-1999</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
 <list> 
-<item>British literature--19th Century--Fiction.</item> 
-<item>Women authors, British--19th Century.</item> 
+<item>British literature--20th Century--Fiction.</item> 
+<item>Women authors, British--20th Century.</item> 
 <item>Satire.</item> 
 <item>War.</item>
-<item> Women in the professions.</item> 
+<item>Women in the professions.</item> 
 </list> 
 </keywords> 
 </textClass> 
@@ -81,23 +81,23 @@
 </change> 
 </revisionDesc> 
 </teiHeader> 
-<text> 
-<front>
+<text id="edwarwo1203"> 
+<front id="edwarwo1204">
 <pb n="[1]"/>
-<pb entity="edwarwotp" pages="titlePage"/>
+<pb entity="edwarwofm1" pages="titlePage"/>
 <titlePage type="half">
 <docTitle>
-<titlePart type="main"> The War-Workers</titlePart>
+<titlePart type="main">The War-Workers</titlePart>
 </docTitle>
 </titlePage>
 <pb n="[ii]"/>
 <div id="edwarwo100" type="advert">
-<figure entity="edwarwoadl" rend="inline">
-<figDesc> Advert included in the front of Delafield's The War Workers</figDesc>
+<figure entity="edwarwofm2" rend="inline">
+<figDesc>Advert included in the front of Delafield's "The War Workers"</figDesc>
 </figure>
 </div>
 <pb n="[iii]"/>
-<pb entity="edwarwotp" pages="titlePage"/>
+<pb entity="edwarwofm3" pages="titlePage"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main"> THE <lb/> WAR-WORKERS</titlePart>
@@ -107,26 +107,30 @@
 <pubPlace>New York</pubPlace><publisher>Alfred A. Knopf</publisher> <docDate>MCMXVIII</docDate> </docImprint> </titlePage>
 <pb n="iv"/>
 <div id="edwarwo200" type="Copyright">
-<figure entity="edwarwocl" rend="inline">
-<figDesc> Copyright for Delafield's The War-Workers</figDesc>
+<figure entity="edwarwofm4" rend="inline">
+<figDesc>Copyright for Delafield's "The War-Workers"</figDesc>
 </figure>
 </div>
 <pb n="v"/>
 <div id="edwarwo300" type="dedication">
-<head> To <lb/> J.A.S </head>
-<p>  A VERY SMALL TOKEN  OF INNUMERABLE BONDS OF UNION</p>
+<head>To<lb/>J.A.S</head>
+<p>A VERY SMALL TOKEN  OF INNUMERABLE BONDS OF UNION</p>
+<figure entity="edwarwofm5" rend="inline">
+<figDesc>Dedication page of Delafield's "The War-Workers"</figDesc></figure>
 </div>
 <pb n="vi"/>
 <div id="edwarwo400" type="foreward">
 <head>AUTHOR'S FOREWORD</head>
 <p>THE "Midland Supply Depot" of <hi rend="italic">The War-Workers</hi> has no counterpart in real life, and the scenes and characters described are also purely imaginary.</p>
 <p>E. M. DELAFIELD. </p>
+<figure entity="edwarwofm6" rend="inline">
+<figDesc>Foreword to Delafield's "The War-Workers"</figDesc></figure>
 </div>
 </front>
-<body>
-<pb entity=" THE WAR-WORKERS"/>
+<body id="edwarwo1205">
+<pb entity="THE WAR-WORKERS"/>
 <pb/>
-<pb n="9"/><div id="001" type="chapter" n="1"><head>I</head>
+<pb n="9"/><div id="edwarwo001" type="chapter" n="1"><head>I</head>
 <p>AT the Hostel for Voluntary Workers, in Questerham, Miss Vivian, Director of the Midland Supply Dep&#x00F4;t, was under discussion that evening.</p> 
 <p>Half a dozen people, all of whom had been working for Miss Vivian ever since ten o'clock that morning, as they had worked the day before and would work again the next day, sat in the Hostel sitting-room and talked about their work and about Miss Vivian.</p>
 <p>No one ever talked anything but "shop," either in the office or at the Hostel.</p>
@@ -272,7 +276,7 @@ because there is so much work for one secretary. She's coming from Wales, and he
 <p>Miss Delmege leant over the banisters and said in a subdued but very complacent undertone :</p>
 <p>"I thought Miss Vivian would be all right. I thought I could safely answer for her."</p></div>
 <pb n="22"/>
-<div id="002" type="chapter" n="2"><head>II</head>
+<div id="edwarwo002" type="chapter" n="2"><head>II</head>
 <p>PLESSING was also speaking of Miss Vivian that evening.</p>
 <p>"Where is this to end, Miss Bruce? I ask you, where is it to end?" demanded Miss Vivian's mother.</p>
 <p>Miss Bruce knew quite well that Lady Vivian was not asking her at all, in the sense of expecting to receive from her any suggestion of a term to that which in fact appeared to be interminable, so she only made a clicking sound of sympathy with her tongue and went on rapidly stamping postcards.</p>
@@ -401,7 +405,7 @@ to have an hour's massage before I could <hi rend="italic">drag</hi> myself out 
 ing, even at the eleventh hour, Lady Vivian's injunctions as to the trend of the conversation, and at the same time making the utmost of her favourite topic, Char Vivian's work at the Midland Supply Dep&#x00F4;t.</p>
 <p>For the rest of dinner, in spite of several strenuous efforts from Lesbia Willoughby, nothing else was discussed.</p></div>
 <pb n="36"/>
-<div id="003" type="chapter" n="3"><head>III</head>
+<div id="edwarwo003" type="chapter" n="3"><head>III</head>
 <p>TEN o'clock in the morning, and little Miss Anthony flew up Questerham High Street on her bicycle, conscious that her hurried choice of a winter hat had not only been highly unsatisfactory, owing to the extreme haste with which she had conducted it, but was also about to make her late in arriving at the office. She threw an anxious glance at the Post-Office clock, and redoubled her speed at the sight of it, though no amount of haste would get her to the Midland Supply Dep&#x00F4;t Headquarters under another seven minutes.</p>
 <p>But she sped gallantly across the tram-lines and in and out of the slow-moving stream of market-carts, and arrived breathless at the offices in Pollard Street just as Miss Vivian's small open car drew up at the door.</p>
 <p>"Damn!" automatically muttered Tony under her breath, and seeing nothing for it but to put her bicycle into a corner and efface herself respectfully to let Miss Vivian pass.</p>
@@ -552,7 +556,7 @@ actly what it'll be, you know. She'll sit there writing, writing, writing, and f
 <p>"Is that <hi rend="italic">all</hi> she's having for lunch?" she paused in her pursuit of ever-elusive averages to inquire in awestruck tones.</p>
 <p>"Yes, and she's been simply worked to death this morning. And it's nearly three now, and she won't get back to dinner till long after ten o'clock, probably; but she never will have more for lunch, when she's very busy, than just buns and a penny piece of chocolate. That," said Miss Delmege, with a sort of desperate admiration&#x2014;"that is just Miss Vivian all over!"</p></div>
 <pb n="50"/>
-<div id="004" type="chapter" n="4"><head>IV</head>
+<div id="edwarwo004" type="chapter" n="4"><head>IV</head>
 <p>CHAR looked wearily at the clock.</p>
 <p>The buns and chocolate hastily disposed of in the intervals of work during the afternoon had only served to spoil the successive cups of strong tea, which formed her only indulgence, brought to her at five o'clock. They were guiltless of sustaining qualities. It was not yet seven, and she never ordered the car until nine o'clock or later.</p>
 <p>Her eyes dropped to the diminished, but still formidable, pile of papers on the table. She was excessively tired, and she knew that the papers before her could be dealt with in the morning.</p>
@@ -706,7 +710,7 @@ up the cup and saucer and the little teapot. Miss Marsh suffered from a chronic 
 <p>"My dear child, you can't possibly know who I am, but my name is Willoughby, and when I was Lesbia Carroll your mother and I were girls together. I had to come in and take a peep at you!"</p>
 <p>There was a sort of rustling pounce, and Grace became aware that the outraged Miss Vivian had been audibly and overpoweringly kissed in the presence of a giggling Scout and of her own junior secretary.</p></div>
 <pb n="64 THE WAR-WORKERS"/>
-<div id="005" type="chapter" n="5"><head>V</head>
+<div id="edwarwo005" type="chapter" n="5"><head>V</head>
 <p>MRS. WILLOUGHBY, in Miss Vivian's private office, reversed all rules of official precedent.</p>
 <p>"Sit down again, my dear child-sit down!" she cried cordially, at the same time establishing herself close to the table. "I hear you're doing wonderful work for all these dear people-Belgians and the dear Tommies and every one-and I felt I simply <hi rend="italic">had</hi> to come in and hear all about it. Also, I want to propound a tiny little scheme of my own which I think will appeal to you. Or have you heard about it already from that precious boy John, with whom, I may tell you, I'm simply <hi rend="italic">madly</hi> in love? I'm always threatening to elope with him!"</p>
 <p>"I'm afraid," said Char, disregarding her visitor's pleasantry, "that I can really hardly undertake anything more. We are very much understaffed as it is, and the War Office is always-"</p>
@@ -849,7 +853,7 @@ up a good fire in Miss Vivian's room. She does feel the cold so."</p>
 <p>"I do believe," said Tony in a stage whisper, "that Delmege goes to evening church on purpose to look up at the light in Miss Vivian's window as she comes back."</p>
 <p>But the joke was received silently, as being in but indifferent taste, and verging on irreverence almost equally as regarded church and the Director of the Midland Supply Dep&#x00F4;t.</p></div>
 <pb n="79"/>
-<div id="006" type="chapter" n="6"><head>VI</head>
+<div id="edwarwo006" type="chapter" n="6"><head>VI</head>
 <p>THE new Canteen in Pollard Street was opened before Christmas.</p>
 <p>Lesbia Willoughby, in an immense overall of light blue-and-white check, stood behind a long buffet and demanded stridently whether she wasn't too exactly like a barmaid for words, and Char's consignment of helpers worked for the most part briskly and efficiently, only the unfortunate Miss Plumtree upsetting a mug of scalding tea over herself at the precise moment when Miss Vivian, trim and workmanlike in her dark uniform, entered the big hall and stood watching the scene with her arrogant, observant gaze. She did not ask Miss Plumtree whether her hand was scalded, but neither did she rebuke her very evident clumsiness. She moved slowly and imperially through the thick tobacco-laden atmosphere, speaking to several of the men, and silently observing the demeanour of her staff.</p>
 <p>The following week she issued an office circular in which the precise direction which the activity of each worker was to take was inexorably laid down.</p>
@@ -1023,7 +1027,7 @@ see with you&#x2014;but at the same time&#x2014;there wasn't anything in what Mi
 <p>The final amende was made next morning, when Miss Delmege, in a buff-coloured drapery known as "my fawn <hi rend="italic">peignwaw,</hi>" came to the door and asked for admittance.</p>
 <p>Grace opened the door, and Miss Delmege said, in a voice even more distinct than usual: "I know Miss Marsh was tired last night, dear, so I've brought her a cup of our early tea."</p></div>
 <pb n="95"/>
-<div id="007" type="chapter" n="7"><head>VII</head>
+<div id="edwarwo007" type="chapter" n="7"><head>VII</head>
 <p>"MOTHER, are you coming to the Canteen again tomorrow? You remember what a rush it was last Monday, and it'll be just as bad again."</p>
 <p>"No, Char, I am <hi rend="italic">not,</hi>" was the unvarnished reply of Lady Vivian.</p>
 <p>Char compressed her lips and sighed. She would have been almost as much disappointed as surprised if her mother had suddenly expressed an intention of appearing regularly at the Canteen, but she knew that Miss Bruce was looking at her with an admiring and compassionate gaze.</p>
@@ -1064,7 +1068,7 @@ though he wasn't the sweetest little brown boy in the whole world. It! You've hu
 <p>Major Willoughby gave various instances of Puff's discrimination, and Lesbia kissed the top of Puff's somnolent head and exclaimed shrilly at intervals that "it was too, too bad to pay the little treasure so many compliments; it would turn his little fluffy head, it would."</p>
 <p>Lady Vivian reflected that she might certainly absolve herself from the charge of contributing to this catastrophe. The language of compliment had seldom been further from her lips; but in any case her visitors left her little of the trouble of sustaining conversation.</p>
 <pb n="99 THE WAR-WORKERS"/>
-<p>It was evident that Puff was a recent acquisition in the Willoughby <hi rend="italic">m&#x00E9;nage.</hi>
+<p>It was evident that Puff was a recent acquisition in the Willoughby <hi rend="italic">m&#x00E9;nage.</hi></p>
 <p>"Where's your dear girl?" Lesbia presently inquired fondly of her hostess.</p>
 <p>"In Questerham, at the Dep&#x00F4;t."</p>
 <p>"Now, Joanna, I'm going to be perfectly candid. You won't mind, I know&#x2014;after all, you and I were girls together. What Char needs, my dear, is <hi rend="italic">flogging.</hi>"</p>
@@ -1076,7 +1080,7 @@ though he wasn't the sweetest little brown boy in the whole world. It! You've hu
 <p>"Down, sir, down, I say!" was the reply of Major Willoughby, addressed to the investigating Puff.</p>
 <p>"Oh, naughty boy, leave the screen alone. Now, come
 <pb n="100 THE WAR-WORKERS"/>
-here to mother, then. What was I telling you, Joanna? Oh, about that girl of yours. War-work is all very well, my dear, but to <hi rend="italic:>my</hi> mind home-ties are absolutely sacred, and more than ever before in such a time as this, when we may all be swept away by some ghastly air-raid in a night. It's simply a time when homes should <hi rend="italic">cling</hi> together. I always tell my Lewis it's a time when we should <hi rend="italic">cling</hi> more than ever before&#x2014;don't I, Lewis?"</p>
+here to mother, then. What was I telling you, Joanna? Oh, about that girl of yours. War-work is all very well, my dear, but to <hi rend="italic">my</hi> mind home-ties are absolutely sacred, and more than ever before in such a time as this, when we may all be swept away by some ghastly air-raid in a night. It's simply a time when homes should <hi rend="italic">cling</hi> together. I always tell my Lewis it's a time when we should <hi rend="italic">cling</hi> more than ever before&#x2014;don't I, Lewis?"</p>
 <p>Lewis looked at Puff with a compelling eye, but Puff was again quiescent, and gave him no opening.</p>
 <p>Lady Vivian said, very briskly indeed: "Char is not at all a clinging person, Lesbia, and neither am I. We can each stand very comfortably on our own feet, and I'm proud of the work she's doing in Questerham. Now, do let me give you some tea."</p>
 <p>"Joanna, I know perfectly well you're snubbing me and telling me to mind my own business, but Lewis can tell you that I'm perfectly impervious. I <hi rend="italic">always</hi> say exactly what I want to say, and if you won't listen to me, I shall talk to your good man. I can hear him coming."</p>
@@ -1106,7 +1110,7 @@ ing letters and incessant interviews, and depriving herself daily of an extra ho
 <p>"That's five of them down with it now&#x2014;or is it six? I don't know <hi rend="italic">what</hi> to do."</p>
 <p>"It does seem strange," was the helpless rejoinder of Miss Vivian's secretary.</p>
 <pb n="103 THE WAR-WORKERS"/>
-Char thought the adjective inadequate to a degree. She abated not one jot of all that she had undertaken, and accomplished the work of six people.</p>
+<p>Char thought the adjective inadequate to a degree. She abated not one jot of all that she had undertaken, and accomplished the work of six people.</p>
 <p>Miss Delmege several times ventured to exclaim, with a sort of respectful despair, that Miss Vivian would kill herself, and Char knew that the rest of the staff was saying much the same thing behind her back. At Plessing Miss Bruce remonstrated admiringly, and exclaimed every day how tired Char was looking, throwing at the same time a rather resentful glance upon Lady Vivian.</p>
 <p>But Joanna remained quite unperceiving of the dark lines deepening daily beneath her daughter's heavy eyes.</p>
 <p>She was entirely absorbed in Sir Piers, becoming daily more dependent upon her.</p>
@@ -1198,7 +1202,7 @@ received her order for lunch in place of Miss Delmege, and had ventured to sugge
 <p>"Ah, well, you see, I've been at the job some time now," said Miss Vivian, pleased. She never pretended to look upon her staff as anything but a collection of pawns, to be placed or disposed of by a master hand.</p>
 <p>And it was part of that strength of personality that lay at the back of all her powers of organization, which had given the majority of her staff exactly the same impression as her own of their relative positions with regard to the Director of the Midland Supply Dep&#x00F4;t.</p></div>
 <pb n="110"/>
-<div id="008" type="chapter" n="8"><head>VIII</head>
+<div id="edwarwo008" type="chapter" n="8"><head>VIII</head>
 <p>CHAR moved up and down the length of the train.</p>
 <p>She never carried any of the laden trays herself, but she saw to it that no man missed his mug of steaming tea and supply of sandwiches and cake, and she exerted all the affability and charm of which she held the secret, in talking to the soldiers. The packets of cigarettes with which she was always laden added to her popularity, and when the train steamed slowly out of the station again the men raised a cheer.</p>
 <p>"Three cheers for Miss Vivian!"</p>
@@ -1373,7 +1377,7 @@ and said firmly: "Then, would you like me to write to Questerham and tell Miss V
 that when Char was younger I'd smacked some of the nonsense out&#x2014;"</p>
 <p>But before this well-worn aspiration of Miss Vivian's parent, Miss Bruce took her indignant departure.</p></div>
 <pb n="124"/>
-<div id="009" type="chapter" n="9"><head>IX</head>
+<div id="edwarwo009" type="chapter" n="9"><head>IX</head>
 <p>"RATHER strange, isn't it?" said Miss Delmege in tones of weak despondency. "If it hadn't been for this wretched flu, <hi rend="italic">I</hi> should have been going out to Plessing every day with the work, I suppose, as Gracie is doing now."</p>
 <p>"Yes, I suppose you would," agreed Miss Henderson blankly.</p>
 <p>She sat on the foot of the bed, which was surrounded by a perfect wilderness of screens.</p>
@@ -1503,7 +1507,7 @@ But I really couldn't help it. They sent me down on purpose to see that this pla
 <p>Trevellyan watched them all disperse, and escorted Mrs. Willoughby to her tram, wondering if he ought not to see her home.</p>
 <p>But Lesbia refused all escort, declaring gallantly that <hi rend="italic">she</hi> did not know the meaning of fear, and, anyway, Puffles would protect his missus from any more dreadful, wicked Zepps.</p>
 <p>He left her entertaining her tram conductress with a spir-
-<ob n="135 THE WAR-WORKERS"/>
+<pb n="135 THE WAR-WORKERS"/>
 ited account of all that she had seen, and much that she had not seen, of the raid.</p>
 <p>As he turned down Pollard Street again, a soldier with his hand bound up lurched out of the open door of the deserted Canteen.</p>
 <p>"Is there any one in there to shut the place up? " Trevellyan asked him.</p>
@@ -1580,7 +1584,7 @@ bowling you over like this. Are you one of those people who faint at the sight o
 <p>"Thank you so much. You <hi rend="italic">are</hi> nice to me," said Grace warmly. She did not look upon the affair herself as being more than a merely unfortunate incident, but she knew that Miss Marsh regarded it as an overwhelming scandal, and was proffering consolation accordingly.</p>
 <p>Miss Marsh bent over the bed and tucked her in. " I'll turn out the gas, and you must go straight to sleep. It's frightfully late. And look here, Gracie, when we're alone together up here, I'd like you to call me Dora, if you will. It's my name, you know."</p></div>
 <pb n="141"/>
-<div id="010" type="chapter" n="10"><head>X</head>
+<div id="edwarwo010" type="chapter" n="10"><head>X</head>
 <p>"THAT settles it," said Char. " If this sort of thing is going to happen, I must be there. With no definite organization, there might be a panic next time an air-raid takes place. According to Mrs. Willoughby, every one made a dash for the basement, as it was. Women are such fools when one leaves them to themselves!"</p>
 <p>It was part of Char's policy always to disparage her own sex. It threw into greater relief the contrast which she knew to exist between herself and the majority of women-workers.</p>
 <p>She was speaking to Miss Bruce, but, rather to her annoyance, Lady Vivian came into the room in time to overhear her.</p>
@@ -1732,7 +1736,7 @@ you'll stay in Questerham. I won't have you coming back and disturbing the house
 <p>Char made a gesture of acquiescence, and went without a word from the room.</p>
 <p>"Oh!" cried Joanna, her blue eyes dark and her voice shaking, but unconquerably colloquial in the midst of her pain and anger. "Oh, why in Heaven's name didn't I whip Char when she was younger?"</p></div>
 <pb n="155"/>
-<div id="011" type="chapter" n="11"><head>XI</head>
+<div id="edwarwo011" type="chapter" n="11"><head>XI</head>
 <p>"ENTER Edith Elizabeth Plumtree, restored to health and happiness. Loud cheers from the spectators."</p>
 <p>"Hurrah! How nice to see you back, dear! You look a different girl."</p>
 <p>"I feel it," declared Miss Plumtree, exchanging vigorous handshakes with everybody.</p>
@@ -1914,7 +1918,7 @@ suppose she can't come backwards and forwards like she used, and it's a choice b
 <p>Her sense of loyalty to her chief did not allow her to throw any doubt on the glory of her return to work under such circumstances.</p>
 <p>Moreover, the Hostel's point of view on the subject was as adamantine as it was universal.</p></div>
 <pb n="170"/>
-<div id="012" type="chapter" n="12"><head>XII</head>
+<div id="edwarwo012" type="chapter" n="12"><head>XII</head>
 <p>THE next morning Char came back to the office. She found her table loaded with violets and a blazing fire on the hearth. Miss Delmege greeted her with an air of admiring wonder, suffused by a tinge of respectful pity, and ventured to hope that Sir Piers Vivian was better.</p>
 <p>No one else was sufficiently daring to approach so personal a topic, but little Miss Anthony, blushing brightly, turned round at the door just as she was leaving the room with her work, and said stammeringly that it was so nice to see Miss Vivian back in the office again.</p>
 <p>Char smiled.</p>
@@ -2069,7 +2073,7 @@ perintendent might include the supervision of Mrs. Smith's arrival every morning
 <p>The stage of lighting the fire, however, was further off than she realized, and she was obliged to sit huddled in her fur coat, opening letters with mottled, shaking hands that were turning rapidly purple, while the charwoman made an excruciating raking sound at the grate, put up an elaborate and exceedingly deliberate erection of coal, sticks, and newspaper, and finally applied to it a match which resulted in a little pale, cold flame which did not seem to Char productive of any warmth whatever.</p>
 <p>She sat at her table and wrote:</p>
 <q><text><body>
-<div type="letter" id ="01">
+<div type="letter" id ="edwarwo101">
 <salute>"DEAREST BRUCEY,</salute>
 <p>"Will you send me every woollen garment I have in the world, please? Preston will find them. The cold here is quite appalling, and, of course, one feels the absence of proper heating arrangements at the Hostel terribly. It is, however, naturally much more convenient for me to be able to give more time to the work, which is fearfully heavy after my absence, and will probably increase every day now. I am writing from the office, having been able to get in very early. It might not be a bad plan, later on, to put in a couple of hours' work before breakfast, but please don't let
 <pb n="183 THE WAR-WORKERS"/>
@@ -2077,7 +2081,7 @@ the suggestion dismay you ! I shall move into rooms as soon as my secretary can 
 <p>"There is a mountain of papers on my table, all waiting to be dealt with, so I can't go on writing; but I know how much you wanted to hear if the Hostel had proved at all possible. Don't worry, dear old Brucey, as I really can manage perfectly well for the present, in spite of the bitter cold and poor Mrs. Bullivant's hopeless bad management. She had not even arranged for my box to be taken upstairs; and as for hot water, decently served meals, or proper waiting, they are simply unknown quantities. I dare say I shall have to make one or two drastic changes. You won't forget to ring me up if there is any change in father's condition, of course. I could come out at once. This anxiety underlying all one's work is heart-breaking, but I <hi rend="italic">know</hi> that I was right to decide as I did, and stick to my post.</p>
 <closer><signed>"Yours as
 ever,<name>"CH. VIVIAN.</name></signed></closer></div>
-<div type="postscript" id="02">
+<div type="postscript" id="edwarwo102">
 <p>"P.S.&#x2014;Do as you like about reading this letter to my mother."</p></div></body></text></q>
 
 <p>It was fairly certain in what direction Miss Bruce's "liking " would take her on the point, and it was not without satisfaction that Char felt the certainty of her voluntarily embraced hardships becoming known at Plessing.</p>
@@ -2087,7 +2091,7 @@ ever,<name>"CH. VIVIAN.</name></signed></closer></div>
 than usual, she noted, with a regret that was not altogether impersonal, the cold, bluish aspect of her employer's complexion, and wondered if she dared infringe on Miss Delmege's cherished privilege of producing a foot-warmer.</p>
 <p>But she was not aware that her own excellent circulation, quite unmistakably displayed in her face and in an unusually white pair of capable hands, formed a distinct addition to the sum of calamities that had befallen Miss Vivian.</p></div>
 <pb n="185"/>
-<div id="013" type="chapter" n="13"><head>XIII</head>
+<div id="edwarwo013" type="chapter" n="13"><head>XIII</head>
 <p>"CHAR, I've come to warn you," portentously said Captain Trevellyan a week later, entering the Canteen one evening.</p>
 <p>"That's very kind of you. Is it another air-raid?"</p>
 <p>"No; besides, you're all quite <hi rend="italic">blas&#x00E9;es</hi> about them now. Miss Jones, single-handed, could cope with&#x2014;"</p>
@@ -2250,7 +2254,7 @@ every night. It really is too bad, you know, when she simply needs every minute'
 <p>"That's hardly the point, is it?" said Miss Delmege reprovingly. "It looked rather funny, after all, for Miss Vivian coming in like that, to see her with her hair absolutely down her back."</p>
 <p>"Even if it was funny," said Grace literally, "I dare say Miss Vivian didn't notice it. I never think she has much sense of humour. Good-night."</p></div>
 <pb n="201"/>          
-<div id="014" type="chapter" n="14"><head>XIV</head>
+<div id="edwarwo014" type="chapter" n="14"><head>XIV</head>
 <p>"GOOD-MORNING, Miss Vivian."</p>
 <p>"Good-morning, Miss Collins. Please take a letter to&#x2014;"</p>
 <p>The stenographer giggled and tossed her red head: "Mrs. Baker-Bridges, if you please!"</p>
@@ -2263,8 +2267,9 @@ every night. It really is too bad, you know, when she simply needs every minute'
 <p>Char was in rooms now, with the devoted Preston in attendance and occasional visits from Miss Bruce. She was working very hard, and the Christmas festivities indulged in by the Questerham Hospitals frequently required her presence as guest of honour.</p>
 <p>Char still retained a vivid recollection of finding herself
 <pb n="202 THE WAR-WORKERS"/>
-next to Dr. Prince on one of these occasions, both of them required to join in a rousing chorus of which the refrain was</p>
-**"All jolly comrades we!"**
+next to Dr. Prince on one of these occasions, both of them required to
+join in a rousing chorus of which the refrain was<lb/>
+<q>"All jolly comrades we!"</q></p>
 <p>And the look which the doctor, singing lustily, had turned upon her, held a humorousness that Char felt no disposition to reflect in her own gaze. She was quite aware that neither of them had forgotten the doctor's peroration delivered on the night of her decision to leave Plessing, and the recollection of it still, almost unconsciously, coloured all her official dealings with him.</p>
 <p>It was therefore with surprise that she received an announcement from Miss Jones one evening: "Dr. Prince is downstairs and wants to see you for a moment."</p>
 <p>"At this hour? Quite impossible! It's nearly seven, and I have innumerable letters to sign."</p>
@@ -2415,7 +2420,7 @@ you. Good-night, Miss Vivian. At eight tomorrow I'll come for you both. Good-bye
 <p>"Good-night, doctor. I won't forget the message. I'm delighted that Gracie should have such a treat."</p>
 <p>The doctor, as he drove away, was delighted too, with himself and with the success of his man&#x0153;uvres. He thought that Lady Vivian would be very glad to see the girl for whom she evidently felt such a sense of comradeship, and he, like Mrs. Bullivant, was glad of the pleasure for Grace; but, most of all, the doctor felt a guilty satisfaction in the knowledge of having successfully outwitted the Director of the Midland Supply Dep&#x00F4;t.</p></div>
 <pb n="215"/>
-<p>XV</p><div id="015" type="chapter" n="15"><head>XV</head>
+<div id="edwawo015" type="chapter" n="15"><head>XV</head>
 <p>"TELL Miss Vivian that we can't wait; we must start at once. The sleet has been falling, and the roads will be impossible in less than an hour. I don't know how the car will do it as it is."</p>
 <p>Dr. Prince was harassed but determined.</p>
 <p>Miss Marsh reluctantly took this message upstairs. She had already had occasion to observe during the course of the evening that Miss Vivian was in no frame of mind to welcome interruptions.</p>
@@ -2610,7 +2615,7 @@ Now, Miss Jones, let me help you. Boy, you'd better get on to the back seat; you
 <pb n="229 THE WAR-WORKERS"/>
 particularly inopportune moment. But the question was solved a few instants later, when Joanna Vivian herself, coming downstairs in her black tea-gown, exclaimed softly: "You've brought her, Johnnie! Well done! No; there's no change yet. I want you to see Dr. Prince." Then she took Grace's hands in hers and said: "Thank you, my dear, for coming to me."</p></div>
 <pb n="230"/>
-<div id="016" type="chapter" n="16"><head>XVI</head>
+<div id="edwarwo016" type="chapter" n="16"><head>XVI</head>
 <p>"WELL, I couldn't have believed it&#x2014;Christmas morning and all!"</p>
 <p>"What, Mrs. Bullivant?"</p>
 <p>"This letter from the office, dear."</p>
@@ -2763,7 +2768,7 @@ Miss Vivian, and, as Mrs. Bullivant says, doing the work is the point, not the p
 <p>"All right, let's."</p>
 <p>The girls hurried upstairs to hunt for clean blouses and small pieces of jewellery, and Miss Delmege was left alone, still standing in her attitude of defiance before the sitting-room fire.</p></div>
 <pb n="244"/>
-<div id="017" type="chapter" n="17"><head>XVII</head>
+<div id="edwarwo017" type="chapter" n="17"><head>XVII</head>
 <p>"IS there any more apple-pudding?"</p>
 <p>"Yes, my lady."</p>
 <p>"Then I will have some," said Lady Vivian, not at all unaware of the pained expression which Miss Bruce had unconsciously assumed. The unquenchable laugh still danced in her deeply-circled blue eyes as she gazed across the luncheon-table at Grace.</p>
@@ -2859,7 +2864,7 @@ to blame if the very worst happens. Mark my words, that uninteresting little cre
 <p>"You've a knack of appearing just when I want you. I've just seen Lesbia Willoughby off, since she mercifully refused to stay to tea. Has the second post come?"</p>
 <p>"Yes. I've got a letter that I rather wanted to talk to you about, from Miss Marsh at the Hostel."</p>
 <p>Joanna sat down, her hands lying idly folded in her lap, while Grace read aloud:</p>
-<q><text><body><div type="letter" id="002"><salute>DEAR GRACIE.</salute>
+<q><text><body><div type="letter" id="edwarwo103"><salute>DEAR GRACIE.</salute>
 <p>"You'll think it extraordinary, me writing to you like this, but we really do miss you here, especially in our room, and the whole place has been upside down since you went away. This is because poor Mrs. Bullivant has actually got the sack,
 <pb n="254 THE WAR-WORKERS"/>
 if you can believe such a thing, for no reason on earth that any one
@@ -2889,14 +2894,14 @@ Miss V. and&#x2014;"</p></div></body></text></q>
 <p>Grace began to laugh.</p>
 <p>"It isn't marked private, and there really isn't much to read.</p>
 <pb n="255 THE WAR-WORKERS"/>
-<q><text><body><div type="letter" id="003"><p>"&#x2014; and there'll be a good deal less said in future about how wonderful she is. Did you know that her father and mother, after he first got ill, simply <hi rend="italic">begged</hi> her to stay at home, for his sake, and she absolutely wouldn't? Work is all very well, but I must say that seems jolly callous, and one can't help wondering whether it really was the work she was after, or just the excitement and the honour and glory of her position. I know you never&#x2014;"</p></div></body></text></q>
+<q><text><body><div type="letter" id="edwarwo104"><p>"&#x2014; and there'll be a good deal less said in future about how wonderful she is. Did you know that her father and mother, after he first got ill, simply <hi rend="italic">begged</hi> her to stay at home, for his sake, and she absolutely wouldn't? Work is all very well, but I must say that seems jolly callous, and one can't help wondering whether it really was the work she was after, or just the excitement and the honour and glory of her position. I know you never&#x2014;"</p></div></body></text></q>
 <p>Grace stopped again, and Lady Vivian said: "She knows you never liked her&#x2014;well, go on."</p>
-<p><q><text><body><div type="letter" id="004">"&#x2014; and most of the rest of us are feeling rather off the 'personal influence' stunt just at the moment. Delmege, of course, takes a high line and goes in for loyalty, etc., etc.&#x2014;in fact, won't speak to any of us at present. But, as I say, that's her loss and not ours.
+<q><text><body><div type="letter" id="edwarwo105"><p>"&#x2014; and most of the rest of us are feeling rather off the 'personal influence' stunt just at the moment. Delmege, of course, takes a high line and goes in for loyalty, etc., etc.&#x2014;in fact, won't speak to any of us at present. But, as I say, that's her loss and not ours.</p>
 <p>"Now, dear old thing, I'm going to leave off, as you're probably sick of my scrawl by this time, and it's high time I was off to my bed. Try and find out if there's any chance of Mrs. B.'s being allowed to carry on for the present, and send me a line if you've time.</p>
 <p>"Every one sends all sorts of love, and we shall all be most awfully glad to see you turn up again. This place is more putrid than ever without you, and with all this fuss going on about Miss Vivian; but I dare say it'll all turn out for the best if it makes us a bit keener about the work for its own sake, and not for hers. After all, there <hi rend="italic">is</hi> a war on!</p>
-<closer><signed>" Yours with best love,
-<lb/><name>" DORA MARSH."</name></signed></closer>
-</div></body></text></q></p>
+<closer><signed>"Yours with best love,
+<lb/><name>"DORA MARSH."</name></signed></closer>
+</div></body></text></q>
 <p>"Dora Marsh seems to me to be an uncommonly sensible girl," observed Lady Vivian thoughtfully.</p>
 <p>She gazed into the fire in silence for a few moments before
 <pb n="256 THE WAR-WORKERS"/>
@@ -2936,7 +2941,7 @@ After all, it's very serious for her, apart from everything else, because she's 
 <p>"Even so, my dear, it's made up of human beings. But as it's tea-time and I'm extremely hungry," said Lady Vivian, with a side-glance at Miss Bruce, "we'd bet-ter postpone discussion until this evening. I don't know whether you feel human enough to leave your papers and eat bread and jam with the rest of us, but I dare say that Grace and Miss Bruce won't give you away to the staff if you do."</p>
 <p>The outraged Miss Vivian left the last word to the ribald spirit apparently animating her parent.</p></div>
 <pb n="260"/>
-<div id="018" type="chapter" n="18"><head>XVIII</head>
+<div id="edwarwo018" type="chapter" n="18"><head>XVIII</head>
 <p>CAPTAIN TREVELLYAN'S Medical Board had passed him fit for active service again, and he made matter-of-fact announcement of his approaching re-turn to France in the course of that evening.</p>
 <p>"Do you know when, Johnnie?"</p>
 <p>"Next draft that goes, I suppose. I rejoin the battalion the day after tomorrow, and it might be any day after that."</p>
@@ -3086,7 +3091,7 @@ a disquieting sense of finality. Her way and her mother's had parted, and althou
 <p>"You don't think any one will guess, do you? She doesn't want anything said till her father knows, and unluckily I can't get down to Wales and see him now. There won't be time. But you didn't guess till I told you, did you?"</p>
 <p>"My dear Johnnie," said Joanna, with a singular absence of any emotion but her habitual kindly satire in her voice, "you really remind me very much sometimes of an ostrich!"</p></div>
 <pb n="273"/>
-<div id="019" type="chapter" n="19"><head>XIX</head>
+<div id="edwarwo019" type="chapter" n="19"><head>XIX</head>
 <p>GRACE JONES went back to the Hostel soon after the New Year in order to pack up and to make her farewells before going for a month's holiday to her home in Wales.</p>
 <p>"And then Plessing!" said Miss Marsh in an awed voice.</p>
 <p>"And then Plessing," Grace assented. "Lady Vivian hopes that it will be properly started by that time as a convalescent home."</p>
@@ -3272,7 +3277,7 @@ well of Miss Vivian's unalterably loyal remaining secretary.</p>
 comfortable, but it was always amusing; and when all was said and done, everybody was ready to do anything or everything for any one else. I can't believe I was only there such a little while, for more happened to me there, and I got into realer touch with more people, than ever before.</p>
 <p>"And now the New Year is only just beginning, and there have been so many changes and happenings already. I wonder so much what else it is going to bring to all of us who were together in Questerham."</p></div>
 <pb n="289"/>
-<div id="020" type="chapter" n="20"><head>XX</head>
+<div id="edwarwo020" type="chapter" n="20"><head>XX</head>
 <p>TO Grace Jones herself the New Year, speeding on its way until it was new no longer, brought much work in the convalescent home at Plessing, the glad realization of Joanna Vivian's need of her, and innumerable unstamped letters bearing the field postmark. The quality of Miss Jones's peculiar philosophy was much tested as the months went by, but it was characteristic of her to be much heartened and rejoiced by an announcement confided to her soon after her return by Miss Marsh.</p>
 <p>"The boy I was such pals with has been sent back on sick leave, and they're not sending him out again. And if you'll believe me, dear, I've been persuaded into saying <hi rend="italic">yes</hi>. He wants it to be quite soon, and really I don't mind if it is; the Hostel is quite changed nowadays, and not nearly as jolly as it was, now the new Superintendent makes us all so comfortable. Besides, I don't mind telling you between ourselves, Gracie, that I can't help fancying me going off like that and coming back with a wedding-ring and all will be rather a knock in the eye for our old friend Delmege."</p>
 <p>If this kindly prognostication was verified, Miss Delmege gave no sign of it, beyond introducing several additional shades of superiority into the manner of her congratulations.</p>
