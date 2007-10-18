@@ -1,12 +1,12 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2> 
-<teiHeader> 
+<TEI.2 id="dduche1201"> 
+<teiHeader id="dduche1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>The Duchess, an electronic edition</title> 
-<author n="Duchess, The">The Duchess</author> 
+<author><name type="person" reg="Hungerford, Mrs. (Margaret Wolfe Hamilton), 1855?-1897">The Duchess</name></author> 
 </titleStmt> 
-<extent></extent> 
+<extent>350Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -61,8 +61,8 @@
 <textClass> 
 <keywords scheme="lcsh"> 
 <list> 
-<item>British literature--20th Century--Fiction.</item> 
-<item>Women authors, British--20th Century.</item> 
+<item>British literature--19th Century--Fiction.</item> 
+<item>Women authors, British--19th Century.</item> 
 <item>Courtship.</item> 
 <item>Romance.</item> 
 </list> 
@@ -79,11 +79,11 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
+<text id="dduche1203">
+<front id="dduche1204">
 <div id="dduchecover" type="Front Cover">
 <figure entity="dduchefc" rend="inline">
-<figDesc> Front Cover of Duchess's "The Duchess"</figDesc>
+<figDesc>Front Cover of Duchess's "The Duchess"</figDesc>
 </figure>
 </div>
 <pb/>
@@ -96,37 +96,37 @@
 <byline> BY<docAuthor> THE DUCHESS</docAuthor></byline>
 <docImprint> 
 <pubPlace> NEW YORK</pubPlace>
-<publisher> THE F.M. LUPTON PUBLISHING COMPANY.</publisher>
-<pubPlace> Nos. 72-76 WALKER STREET.</pubPlace>
+<publisher>THE F.M. LUPTON PUBLISHING COMPANY.</publisher>
+<pubPlace>Nos. 72-76 WALKER STREET.</pubPlace>
 </docImprint>
 </titlePage>
 </front>
 <pb/>
 
 <pb n="[3 THE DUCHESS]"/>
-<body>
+<body id="dduche1205" >
 <div id="dduche001" type="chapter" n="1">
-<head rend="center">THE DUCHESS</head>
+<head>THE DUCHESS<lb/>
 <milestone unit="section" rend="line"/>
-<head rend="center">CHAPTER I.</head>
-<epigraph rend="center"><q>
+CHAPTER I.</head>
+<epigraph><q>
 <l>"Except wind stands as never it stood,</l>
 <l>It is an ill wind turns none to good."</l>
 </q></epigraph>
 <p>"BUT WHO is it, dad?" asks she, leaning her elbows on the breakfast-table and smiling at him over the tea-pot. "Who is the writer of that voluminous letter? As a rule they don't take so much ink to ask for their just dues."</p>
 <p>"Who should it be but your own first cousin, my dear, Denis Delaney, my only brother's only son, and the head of all the family?"</p>
-<p>"Bless me! What titles to honor," says the girl with a soft, low laugh. "And what may our distinguished relative have to say for himself in these four closely written pages? Judging by your face"--saucily--"nothing pleasant. I quite thought it was a bill."</p>
+<p>"Bless me! What titles to honor," says the girl with a soft, low laugh. "And what may our distinguished relative have to say for himself in these four closely written pages? Judging by your face"&#x2014;saucily&#x2014;"nothing pleasant. I quite thought it was a bill."</p>
 <p>"'Tis worse!" says the squire, solemnly. In his heat he leans toward her from his seat at the foot of the table, and as the latter is small their faces nearly meet. "He's coming here to stay some days!" he whispers with fine impressiveness.</p>
-<p>"What! To stay some--oh, nonsense! Give me the letter," says Miss Delaney, rising with much characteristic force from her seat; but her father waves her back, imploringly.</p>
+<p>"What! To stay some&#x2014;oh, nonsense! Give me the letter," says Miss Delaney, rising with much characteristic force from her seat; but her father waves her back, imploringly.</p>
 <p>"Now, can't you be patient, my dear? Can't you, now? You know if you flurry me, Duchess, I'll never be able to explain. Wait till I read it to you. Where is it now?" glancing again at the letter he holds, with
 
 
 <pb n="4 THE DUCHESS"/>
 its big crimson crest and its bold, handsome handwriting. "H'm! hah! 'To see you after all these years.' 'Make acquaintance with you and my cousin.' Hah! 'Am on my way here.' Norah," says the squire, laying down the letter and regarding his daughter with a tragic air, "that means that he'll be here in about two hours!"</p>
 <p>"Two hours? Oh, dad, no!" says the Duchess, lifting her lovely face and gazing at her father with undisguised dismay. All the admirable spirit that had distinguished her a moment since is gone, and abject fear has taken its place.</p>
-<p>"Well, my dear, that's just how I feel," says Mr. Delaney with open sympathy. "I keep on saying it, but here I'm convinced he's coming all the same," with a rather depressed glance round the large, poorly furnished, comfortless room. "He says he's on his way, and I've no doubt he'll finish his journey. And why shouldn't he, too?" with quite a startling change of front and a reproachful glance at his daughter. "Who should be welcome here, I'd like to know, if it wasn't our own kith and kin? Tut! I'm astonished at you now, Duchess, to be so inhospitable--and your own first cousin, too, my dear."</p>
+<p>"Well, my dear, that's just how I feel," says Mr. Delaney with open sympathy. "I keep on saying it, but here I'm convinced he's coming all the same," with a rather depressed glance round the large, poorly furnished, comfortless room. "He says he's on his way, and I've no doubt he'll finish his journey. And why shouldn't he, too?" with quite a startling change of front and a reproachful glance at his daughter. "Who should be welcome here, I'd like to know, if it wasn't our own kith and kin? Tut! I'm astonished at you now, Duchess, to be so inhospitable&#x2014;and your own first cousin, too, my dear."</p>
 <p>"Is he very rich, dad?" asks the Duchess, in a rather forlorn tone, though she has shown no surprise at all at the sharp alteration of his sentiments. Perhaps she is used to it.</p>
-<p>"As Cr&oelig;sus!" with all the noble air of one determined to face the worst whatever the consequences. "My poor brother, The Delaney (a proud title, Norah, as good as any juke's)--well, never mind; but my poor brother (as fine a man, my dear, as ever stepped in shoe leather, though I dare say it isn't modest of me to say so, considering, ahem!--we were considered much alike)--however, as I was saying--"</p>
+<p>"As Cr&oelig;sus!" with all the noble air of one determined to face the worst whatever the consequences. "My poor brother, The Delaney (a proud title, Norah, as good as any juke's)&#x2014;well, never mind; but my poor brother (as fine a man, my dear, as ever stepped in shoe leather, though I dare say it isn't modest of me to say so, considering, ahem!&#x2014;we were considered much alike)&#x2014;however, as I was saying&#x2014;&#x2014;"</p>
 <p>"I wonder you never told me all this before."</p>
 <p>"Well, my dear, he died a great many years ago,
 
@@ -137,7 +137,7 @@ more than you can remember, and 'tis hard to talk to the young of those who are 
 <p>"About twenty-seven, I should say, though I'm not much at a guess. He was very young indeed when my poor brother died; quite a little chap in breeches. Though, indeed, for the matter of that," says the squire, thoughtfully, bent as it were on wrestling with the truth and forcing it to the front at all hazards, "he was out of them when that unhappy event happened, as Terence died at midnight, so the child must have been in bed."</p>
 <p>"What is his mother like?" asks the Duchess, still melancholy.</p>
 <p>"Very handsome she was then and very charming. Bong tong, you know, and all that, and a good soul, too," says the squire, relapsing into a less fashionable manner. "For she nearly broke her heart when Terence died. She took the boy away then. Carried him off to England and had him educated there, and in fact has kept him there ever since, except on such occasions as he has gone abroad."</p>
-<p>"Has he gone much?" asks Norah, timidly--already she is desperately afraid of this half-English cousin.</p>
+<p>"Has he gone much?" asks Norah, timidly&#x2014;already she is desperately afraid of this half-English cousin.</p>
 <p>"I believe so. I hear he has seen a great deal of the world in his time. The last we heard of him he was in Pekin. You remember that now, don't you, Nora?"</p>
 
 
@@ -180,10 +180,9 @@ more than you can remember, and 'tis hard to talk to the young of those who are 
 <p>This last is too much for the Duchess. Crushed by it, she walks with a depressed air to the door and beats a hasty retreat.</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche002" type="chapter" n="2">
-<head rend="center">CHAPTER II.</head>
-<epigraph rend="center"><q>
-<l>"A proper man as one should see in a summer's day."</l>
-</q></epigraph>
+<head>CHAPTER II.</head>
+<epigraph><q>
+"A proper man as one should see in a summer's day."</q></epigraph>
 <p>HER INTERVIEW with the butcher must have been stormy and prolonged, because she is late for the important arrival of the head of all the Delaneys. That young man, entirely ignorant of the sensation his coming has provoked, drives up to the door about half past eleven to be welcomed by the squire <hi rend="italic">solus</hi>.</p>
 <p>The squire! who had been fussing and fuming all the morning and leading the hysterical Mary a horrible life; insisting on the threadbare carpets being brushed over and over again, marching in upon them with muddy boots to enforce this command, and deaf to Mary's whimper that much more brushing will leave nothing but the floor beneath. It is indeed a reprieve to the long-suffering maid when wheels are heard crunching upon the gravel onside, and the squire, forgetful now of all but the approaching guest, rushes forth to greet him.</p>
 <p>The guest seems very willing to be greeted. He springs off the outside car and comes quickly up to this unknown uncle, a pleasant smile upon his face. As for the squire, after the first glance all is forgotten--the meagerness of his household, the fear of discomfort for the stranger--there is only left the desire to make heartily at home this young man who is so like
@@ -201,16 +200,16 @@ the dead brother and who is so tall, so aristocratic in bearing, so well set up 
 
 
 <pb n="11 THE DUCHESS"/>
-too," says the squire, with his jolly laugh, than which there was nothing more musical in the next four parishes. "But you must be thoroughly done, my dear boy, and hungry, too, of course. If"--looking rather helplessly round him--"if one only knew where the Duchess--er--Noddlekins--that is--Norah, your cousin, I mean," floundering hopelessly over the many loving sobriquets belonging to his darling, "was, we might--"</p>
+too," says the squire, with his jolly laugh, than which there was nothing more musical in the next four parishes. "But you must be thoroughly done, my dear boy, and hungry, too, of course. If"&#x2014;looking rather helplessly round him--"if one only knew where the Duchess&#x2014;er&#x2014;Noddlekins&#x2014;that is&#x2014;Norah, your cousin, I mean," floundering hopelessly over the many loving sobriquets belonging to his darling, "was, we might&#x2014;"</p>
 <p>"Nothing for me," says Denis, quickly. "Nothing at all, thank you. I slept in Cork and breakfasted there about an hour ago, as it seems to me. It is really nothing of a journey here from there. I feel as fresh as a daisy and as fit as a fiddle. A walk to stretch my legs I should like after the train work--that is, if you are thinking of going out."</p>
-<p>"Well, I generally do take a look round me about this hour to see that the men are keeping up to their work," says the squire, hazily. "Desperately lazy fellows most of them, and if you would really like to join me--but positively you must have something first; a brandy and soda, now--"</p>
+<p>"Well, I generally do take a look round me about this hour to see that the men are keeping up to their work," says the squire, hazily. "Desperately lazy fellows most of them, and if you would really like to join me--but positively you must have something first; a brandy and soda, now&#x2014;"</p>
 <p>"No, thank you," says Denis, laughing and tucking his arm into his uncle's and leading him toward the open window through which it is but a simple thing to drop on to the grass below. At this moment it is borne in upon him that it is a possible thing to feel very intimate with the squire in the space of five minutes or so.</p>
-<p>Outside there is a blaze of yellow sunshine and the wild sweet singing of innumerable birds. A meadow with long grass still standing--because of the heavy rains that had deluged the earth in the early summer--although it is now mid-July--is making gentle obeisance to the soft wind that rushes over it.</p>
+<p>Outside there is a blaze of yellow sunshine and the wild sweet singing of innumerable birds. A meadow with long grass still standing&#x2014;because of the heavy rains that had deluged the earth in the early summer&#x2014;although it is now mid-July&#x2014;is making gentle obeisance to the soft wind that rushes over it.</p>
 <p>The short grass on which they are walking widens presently into a garden rather lower down, protected on one side by a high beech hedge. Not an every-
 
 
 <pb n="12 THE DUCHESS"/>
-day garden, trim and ribbon-bordered, but a gay delicious mass of all flowers old and new, jumbled up together in a delicate confusion--one harmonious whole--thus forming "a very wilderness of sweets."</p>
+day garden, trim and ribbon-bordered, but a gay delicious mass of all flowers old and new, jumbled up together in a delicate confusion&#x2014;one harmonious whole&#x2014;thus forming "a very wilderness of sweets."</p>
 <p>"What an exquisite bit!" says Denis, standing still and honestly admiring. "You have a gardener with a fine sense of taste."</p>
 <p>The squire laughs aloud.</p>
 <p>"Say that to the Duchess," cries he, "and you'll make her your friend for life. Gardener there is none; all you see there is her own work. No hand but hers sows or reaps in that little garden. I tell her the flowers must know and love her, or they would not bloom so; that she must breathe some cunning spell upon them to make them flourish as they do."</p>
@@ -233,10 +232,8 @@ when the wild barking of a whole kennel, as it seems to him, breaks in upon his 
 </div>
 <milestone unit="section" rend="line"/>
 <div id="dduche003" type="chapter" n="3">
-<head rend="center">CHAPTER III. </head>
-<epigraph rend="center"><q>
-<l>"Is she not passing fair?"</l>
-</q></epigraph>
+<head>CHAPTER III. </head>
+<epigraph><q>"Is she not passing fair?"</q></epigraph>
 <p>HE HAS scarcely time to wonder at that before a face follows it! Such a face! And then there is a swift pressure of the hands on the stone wall, and with a movement full of youth and strength and grace,
 
 
@@ -324,10 +321,8 @@ her mouth. "I think your instant recognition by me should suffice you."</p>
 </div>
 <milestone unit="section" rend="line"/>
 <div id="dduche004" type="chapter" n="4">
-<head rend="center">CHAPTER IV.</head>
-<epigraph rend="center"><q>
-<l>"As merry as the day is long."</l>
-</q></epigraph>
+<head>CHAPTER IV.</head>
+<epigraph><q>"As merry as the day is long."</q></epigraph>
 <p>IT IS several hours later. They have lunched, and are now sitting out on the bit of lawn that overlooks the garden, placidly smoking. That is, the two men are; Norah, or the Duchess, is absent, on hospitable thoughts intent, no doubt.</p>
 <p>The squire has taken up his parable again, and is inveighing against Ireland and the Irish in brisk and unmeasured language. "Were there ever such people? Were there ever such scoundrels? Were there ever such fools? Led like sheep to the slaughter, without knowing for why or for wherefore! Seduced
 
@@ -384,10 +379,8 @@ his mouth, and now points with it majestically to the bog in question. "That's m
 </div>
 <milestone unit="section" rend="line"/>
 <div id="dduche005" type="chapter" n="5">
-<head rend="center">CHAPTER V.</head>
-<epigraph rend="center"><q>
-<l>"And grace that won who saw to wish her stay."</l>
-</q></epigraph>
+<head>CHAPTER V.</head>
+<epigraph><q>"And grace that won who saw to wish her stay."</q></epigraph>
 <p>LAST night some rain had fallen, short and youthful showers, leaving small ruin in their track and lending a deeper brilliancy to branch and bough and waving grasses, that all look the fresher for their midnight bath.
 ***<q rend="center">"Green grow the rushes, O!"</q></p>
 <p>Merrily, blithely, skim the swallows through the velvet air! Coo! Coo! sigh the wood-doves from the dark entrances to the plantations beyond; and through all and above it comes the swish-swish of the waves as they break upon the beach far down below.</p>
@@ -461,8 +454,8 @@ superciliously. "That sort is generally a bore, don't you think? One can hardly 
 
 <pb n="31 THE DUCHESS"/>
 affairs--this lovely child, who, while he is working out the right and wrong of it all, is employing her little idle brown fingers upon the adornment of his head.</p>
-<p>Surely it is true that
-***<q rend="block"><l>"Satan finds some mischief still for idle hands to do."</l></q></p>
+<p>Surely it is true that<lb/>
+<q>"Satan finds some mischief still for idle hands to do."</q></p>
 <p>Through and through the few short hairs that his barber has left him she is threading pieces of grass, pulling them out again and rearranging them as fancy dictates, carelessly, dreamily.</p>
 <p>Denis, with this new strange fear at heart, lifts his own hand, and taking hers from his head, puts it away from him with a Spartan determination.</p>
 <p>"Do you know," he says, sharply, with a rather forced smile, "that the effect of your fingers going in and out like that--is--is maddening?"</p>
@@ -493,10 +486,8 @@ impulsively; and a second later is covered with confusion. What in heaven's name
 <p>And in the silent watches of the sleepless night, when most things are laid bare to us, he knows that at last fair love has caught him in its toils, and that for weal or woe--nay, woe, for a certainty--he is a slave forevermore. At the feet of her who but a few days ago was as nothing to him his heart lies wounded--stricken--hopeless!</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche006" type="chapter" n="6">
-<head rend="center">CHAPTER VI.</head>
-<epigraph rend="center"><q>
-<l>"My valor is certainly going! it is sneaking off."</l>
-</q></epigraph>
+<head>CHAPTER VI.</head>
+<epigraph><q>"My valor is certainly going! it is sneaking off."</q></epigraph>
 <p>"HIST! Norah!" says the squire in a subdued tone, putting his head cautiously outside the door of his own favorite den and beckoning her to come in, great mystery in all his bearing. Drawing her in he closes
 
 
@@ -569,10 +560,8 @@ as if to turn his attention from the squire, who is in quite a dangerous mood. "
 
 <pb n="39 THE DUCHESS"/>
 <div id="dduche007" type="chapter" n="7">
-<head rend="center">CHAPTER VII.</head>
-<epigraph rend="center"><q>
-<l>Oh, the little more, and how much it is!"</l>
-</q></epigraph>
+<head>CHAPTER VII.</head>
+<epigraph><q>Oh, the little more, and how much it is!"</q></epigraph>
 <p>OUTSIDE, the world is so fair, so fresh, so joyous, that it is scarcely to be wondered at if Denis trusted to it to help him with his pleading. Who could prove unkind with such a sun gilding such fleecy clouds; who be obdurate with all Nature's richest treasures spread on every side of one with such a lavish hand?</p>
 <p>It rather upsets his theory, however, when on glancing downward at his cousin he finds her as hard-hearted as ever.</p>
 <p>"Well," she says, with a little vexed laugh, catching his expression, "what did you expect? I have come out here with you, as you seemed to imagine great things would come of such a move; but I warn you it will not do a bit of good."</p>
@@ -625,11 +614,16 @@ the eager longing that now almost overpowers him to catch her in his arms and pr
 
 <pb n="44 THE DUCHESS"/>
 <p>"There! only for me you would have been in," he says vaingloriously.</p>
-<p>"Oh, Denis!" cries she, genuinely startled. Then she laughs, and with his arms still encircling her looks back at him over her shoulder with parted lips and brightened eyes. Her attitude brings her head almost to his shoulder. She was never yet so near to his heart. Was she ever yet so lovely? His pulses are beginning to beat madly, his eyes grow warm. The laugh is still fresh upon her lips.
-***<q rend="block"><l>"My love, whose lips are softer far</l>
+<p>"Oh, Denis!" cries she, genuinely startled. Then she laughs, and
+with his arms still encircling her looks back at him over her shoulder
+with parted lips and brightened eyes. Her attitude brings her head
+almost to his shoulder. She was never yet so near to his heart. Was
+she ever yet so lovely? His pulses are beginning to beat madly, his
+eyes grow warm. The laugh is still fresh upon her lips.</p>
+<p><q><lg type="stanza" n="3"><l>"My love, whose lips are softer far</l>
 <l>Than drowsy poppy petals are,</l>
-<l rend="indent">And sweeter than the violet."</l></q></p>
-<p>But the smile has died from his. There is a quick, irrepressible movement. He bends over her--nearer--nearer still; and then he loosens his hold of her and stands back, a frown upon his brow, his face a little pale.</p>
+<l>And sweeter than the violet."</l></lg></q></p>
+<p>But the smile has died from his. There is a quick, irrepressible movement. He bends over her&#x2014;nearer&#x2014;nearer still; and then he loosens his hold of her and stands back, a frown upon his brow, his face a little pale.</p>
 <p>"Are you frightened?" asks she, lightly. "Did you think I was really going to fall in? Ha! Did punishment then overtake you? But you should know that I am sure-footed as a goat; that I seldom catch myself tripping."</p>
 <p>She is evidently puzzled a good deal by the change in his manner, which has gone from "grave to gay, from lively to severe" without a second's warning, and would perhaps have subjected him to a rather embarrassing cross-examination, but that at this moment the appearance of a woman at the lower end of the path attracts their attention.</p>
 </div>
@@ -637,9 +631,8 @@ the eager longing that now almost overpowers him to catch her in his arms and pr
 
 <pb n="45 THE DUCHESS"/>
 <div id="dduche008" type="chapter" n="8">
-<head rend="center">CHAPTER VIII.</head>
-<epigraph rend="center"><q>
-<l>"To mortal men great loads allotted be,</l>
+<head>CHAPTER VIII.</head>
+<epigraph><q><l>"To mortal men great loads allotted be,</l>
 <l>But of all packs no pack like poverty."</l>
 </q></epigraph>
 <p>SHE IS a woman, withered, and slightly bent, and wretchedly dressed, as are all poor Irish peasants. Her petticoat, made of a thick blue flannel, is short, and patched liberally here and there. No stockings cover her legs, no boots her feet, which, though wonderfully small, are hard as the path itself and roughened by work and exposure. An old jacket, worn at the elbows and very much the worse for wear, covers her body, and over her shoulders a dingy little red and black shawl is thrown.</p>
@@ -757,9 +750,8 @@ remember down to his great-aunts and a whole tribe***?*** of cousins, from a fir
 <p>"Oh, I don't know! I must think about it," says she, petulantly, running away from him.</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche009" type="chapter" n="9">
-<head rend="center">CHAPTER IX.</head>
-<epigraph rend="center"><q>
-<l rend="right">***"The frank young smile,</l>
+<head>CHAPTER IX.</head>
+<epigraph><q><l>"The frank young smile,</l>
 <l>And the red young mouth, and the hair's young gold."</l>
 </q></epigraph>
 <p>WHETHER she does or not is another matter. One would say "not" for choice, taking note of the extremely insouciant expression that marks her face. But if she has disdained to give the matter thought, not so the squire. Long and deep have been his broodings, and as a result of them he pounces upon her toward the evening, and drawing her into the dining-room proceeds to unburden his mind.</p>
@@ -807,10 +799,8 @@ Despond. Then I can come back again for Norah. When, Norah? In a week?"</p>
 </div>
 <milestone unit="section" rend="line"/>
 <div id="dduche010" type="chapter" n="10">
-<head rend="center">CHAPTER X.</head>
-<epigraph rend="center"><q>
-<l>"And truth and hope are sunlight in your eyes. "</l>
-</q></epigraph>
+<head>CHAPTER X.</head>
+<epigraph><q>"And truth and hope are sunlight in your eyes."</q></epigraph>
 <p>TIME, that runs ever with a swift foot and light, such hours as we are happiest, seems to the Duchess to crawl with a slow and sullen step for the next three weeks. This she will not acknowledge, even to herself; yet never in all her young life did the days hang so heavily upon her hands; never did the daily accustomed tasks show themselves so devoid of interest. But all things end, and tantalizing Time is at last conquered, and here dawns the day that brings Denis back again to Ballyhinch.</p>
 <p>The Duchess, gowned in a charming cambric of palest pink, a quite new gown, selected from among those she had been making for her visit to Mme. Delaney is looking very sweet, very lovely, if a little paler than usual. There is a touch of restlessness about her all the morning, that she strives, but vainly, to conceal,
 
@@ -861,22 +851,23 @@ all the money this world holds! And besides, what would it all do for her, my bo
 <p>"Well, I take great pride in the thought that I am your nephew," says Denis, simply.</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche011" type="chapter" n="11">
-<head rend="center">CHAPTER XI.</head>
-<epigraph rend="center"><q>
+<head>CHAPTER XI.</head>
+<epigraph><q>
 <l>"Oh, how the spring of love resembleth</l>
 <l>The uncertain glory of an April day!"</l>
 </q></epigraph>
-<p>IT IS drawing toward evening, and though the sun still rides triumphant in the heavens long shadows are stretching themselves here and there, and the voices of the birds are growing faint and ever fainter. A little wind has arisen that the languid morning had not known, and now sighs through the trees and rustles the leaves as it rushes through them. There is a great calm everywhere, and a sense of tranquillity***sic***, vague but strong, that has evidently communicated itself to the breasts of the two now walking silently through the scented wood.</p>
+<p>IT IS drawing toward evening, and though the sun still rides triumphant in the heavens long shadows are stretching themselves here and there, and the voices of the birds are growing faint and ever fainter. A little wind has arisen that the languid morning had not known, and now sighs through the trees and rustles the leaves as it rushes through them. There is a great calm everywhere, and a sense of <sic>tranquillity</sic>, vague but strong, that has evidently communicated itself to the breasts of the two now walking silently through the scented wood.</p>
 <p>Side by side they move, but with closed lips, the first mild attempts at conversation having fallen away from them beneath the languorous influence of the dying noon. All the sweet wild life of nature seems
 
 
 <pb n="64 THE DUCHESS"/>
-indeed to be dropping asleep, and scarcely a sound disturbs the mystical quiet of the early evening.
-***<q rend="block">
+indeed to be dropping asleep, and scarcely a sound disturbs the
+mystical quiet of the early evening.</p>
+<p><q><lg type="stanza" n="4">
 <l>"Only the pattering aspen</l>
-<l rend="indent">Made a sound of growing rain,</l>
+<l>Made a sound of growing rain,</l>
 <l>That fell faster and faster,</l>
-<l rend="indent">Then faltered to silence again."</l></q></p>
+<l>Then faltered to silence again."</l></lg></q></p>
 <p>The entrance into a broad bit of green open, across which the tremulous sunbeams are still wandering, restores the Duchess to a desire for speech--a desire never far from her.</p>
 <p>"I wonder how I shall feel this time to-morrow?" she says, with a little nervous laugh that shows where her thoughts have been roaming. "We shall be at the Castle then, eh?"</p>
 <p>"Yes. About five or five-fifteen. Did you get my mother's last letter?"</p>
@@ -941,11 +932,11 @@ indeed to be dropping asleep, and scarcely a sound disturbs the mystical quiet o
 <p>"My darling! you are not hurt?" whispers he in an impassioned tone, holding her still closer to him. All his heart's yearning, all his unhappy love, speaks in those words.</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche012" type="chapter" n="12">
-<head rend="center">CHAPTER XII.</head>
-<epigraph rend="center"><q>
+<head>CHAPTER XII.</head>
+<epigraph><q><lg type="stanza" n="3">
 <l>"With white feet bruised from no delightful way,</l>
 <l>Through darkness and the disenchanted air,</l>
-<l>Lost Love went weeping half a winter's day."</l>
+<l>Lost Love went weeping half a winter's day."</l></lg>
 </q></epigraph>
 <p>A SECOND'S silence and then--</p>
 <p>"Hurt? No. Oh, no!"</p>
@@ -1005,9 +996,8 @@ is the <sic>sweteest</sic> woman in the world," says her son, not with enthusias
 <p>She stops, as if struck by some thought, and then goes on again. "That is a good thing to remember," she says, "that dad will always be wanting me."</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche013" type="chapter" n="13">
-<head rend="center">CHAPTER XIII.</head>
-<epigraph rend="center"><q>
-<l>"I am sure care's an enemy to life. "</l>
+<head>CHAPTER XIII.</head>
+<epigraph><q>"I am sure care's an enemy to life."
 </q></epigraph>
 <p>THE GREAT clock in the western tower is giving out five resounding strokes as the carriage draws up at the hall door of Castle Ventry. The shades of evening are already descending, and a soft mellow glow diffuses itself over the sloping lawns and the gay pleasance that lies on the right-hand side of the magnificent old house. Peacocks are strutting up and clown upon the stone terraces and a perfume, fragrant and drowsy steals up from gardens.</p>
 <p>The Duchess, stepping to the ground, looks around her with an appreciative eye. She is very pale, either from the long journey or an uncertainty about her next move, but she is perhaps a little upheld by the charming hat she is wearing, a new one, and one quite unprecedented hitherto in the annals of her wardrobe. A hat rejoicing in delicate plumes and of as dainty a nature altogether as any young woman ever born in the purple could desire. It is a present from dad, who had drawn upon his very lean resources to get it for her, and who had sent for it all the way to Dublin.</p>
@@ -1208,9 +1198,8 @@ smile. "Madame wrote me word there was a garden-party on for next week, so I kne
 <p>"My mother wants you," he says, curtly, and, drawing her hand within his arm, carries her away.</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche015" type="chapter" n="[15]">
-<head rend="center">CHAPTER X.</head>
-<epigraph><q rend="block">
-<l rend="indent">"The human heart, at whatever age, opens only to the heart that opens in return."</l></q></epigraph>
+<head>CHAPTER X.</head>
+<epigraph><q>"The human heart, at whatever age, opens only to the heart<lb/>that opens in return."</q></epigraph>
 <p>HOWEVER, the end of the week brings too the end of Norah's shyness; several things helped her to conquer this very natural <hi rend="italic">mauvaise honte</hi> that had overtaken her on finding herself brought so suddenly in contact with such a number of strangers; Miss Cazalet's subdued but perfectly unmistakable hostility for one thing--expressed by small impertinences and smiling sneers--and for another, Delaney's evident determination to protect her from it.</p>
 <p>This last touched her pride most nearly. His protection she would not have--she would accept no help from him of any kind; therefore it behooved her to arouse herself and win a way for herself out of her troubles. Very small, very silly troubles, no doubt,
 
@@ -1261,13 +1250,13 @@ slighted--kept at a distance, as it were--while the rest of Great Britain, Scotl
 <p>"Faith, there's a deal of sense, though, in what she says," declares Mrs. O'Shaughnessy, shaking her ringlets vigorously; "a rare good smattering of reason. Only the day is too hot to follow it up. Let us come out and see what our friends in the open air are doing."</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche016" type="chapter" n="16">
-<head rend="center">CHAPTER XVI.</head>
-<epigraph rend="center"><q>
+<head>CHAPTER XVI.</head>
+<epigraph><q><lg type="stanza" n="5">
 <l>"Just when I seemed about to learn,</l>
-<l rend="indent">Where is the thread now? Off again!</l>
+<l>Where is the thread now? Off again!</l>
 <l>The old trick! Only I discern</l>
-<l rend="indent">Infinite passion, and the pain</l>
-<l>Of finite hearts that yearn."</l>
+<l>Infinite passion, and the pain</l>
+<l>Of finite hearts that yearn."</l></lg>
 </q></epigraph>
 <p>NOT VERY much, when all is told. The day is too warm for that. A good deal of tennis, a little sauntering among the late roses, a tremendous amount of lounging, and flirtation at will. The afternoon flies by almost before one remembers it has begun, and now everybody is lying about, rather exhausted from doing nothing, and drinking tea, and champagne, and divers cups with an unfeigned appreciation of their merits.</p>
 <p>Colonel O'Shaughnessy, a large, florid, well-bred-looking man, with a dictatorial manner and the kindest heart in the world, is telling an old and thrilling Indian tale (born of his years in Hyderabad) to a select company. His wife, at a few yards' distance, is giving all the local gossip, collected since her return yester-
@@ -1422,8 +1411,8 @@ One hope, however, I still hold out. Let them deliver into my hand the man who a
 water and do nothing. The death of a dog, and the knocking down of his slayer. Yet, insignificant as all this sounds, it bears in the future bitter fruit!</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche018" type="chapter" n="18">
-<head rend="center">CHAPTER XVIII.</head>
-<epigraph rend="center"><q>
+<head>CHAPTER XVIII.</head>
+<epigraph><q>
 <l>"Let it be now love! All my soul breaks forth.</l>
 <l>How I do love you! Give my love its way!</l>
 <milestone unit="section" rend="dots"/>
@@ -1502,10 +1491,9 @@ water and do nothing. The death of a dog, and the knocking down of his slayer. Y
 <p>They are thus standing, facing each other--she trembling, unnerved; he silent, remorseful--when a light footstep sounds upon her right. Involuntarily--both raise their heads and move a little further apart as Miss Cazalet comes, with her usual slow, undulating step, from the shadows that lie thickly on the eastern walk.</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche019" type="chapter" n="19">
-<head rend="center">CHAPTER XIX.</head>
-<epigraph rend="center"><q>
-<l>"Hopes and fears--belief and disbelieving."</l>
-</q></epigraph>
+<head>CHAPTER XIX.</head>
+<epigraph><q>
+"Hopes and fears--belief and disbelieving."</q></epigraph>
 <p>"IS IT a rehearsal?" asks she, sweetly, smiling upon Denis. "If so, it hardly needs a repetition, I think. It will bring down any house. You are both, so far as I am a judge, perfect in your parts."</p>
 <p>The Duchess, pale as death, stands motionless. How much does she know? What has she seen?</p>
 <p>"Don't be frightened. I shall not betray you," says Miss Cazalet, staring straight at her with an abominable little laugh. "It is a secret as yet, I suppose, this very lively entertainment of yours, and I shall take care not to mention it unless--You have kept it quite to yourselves so far, have you not? How clever of you."</p>
@@ -1534,7 +1522,7 @@ to the affair." It is impossible to describe the smiling insolence of her whole 
 <p>"I shall put an end to nothing," steadily. "Do you think," with a glance supposed to be fond, and that makes his heart die within him, "that I could not forgive you so much, and that I have not formed my own opinion of this unpleasant matter? I believe the truth to be that you were led into it by a consummate coquette, a heartless, unprincipled flirt!" The words seem to come from between her clinched teeth. Her eyes grow vindictive.</p>
 <p>"One word, Katherine!" says Delaney, sternly. "You shall say no slanderous thing of my cousin. Remember that. It is impossible, having seen Norah, that you should think so of her."</p>
 <p>"I have my own views, as I told you before," with a curl of her thin lips, "and I leave it to time to prove me right. Meanwhile," coldly, "it would be better taste, l think, if you were to refrain from defending her in my presence. However, I have no intention of quarreling with you on such worthless grounds. Come. Let us return to the house."</p>
-***<milestone unit="section" rend=" line"/>
+<milestone unit="section" rend=" line"/>
 <p>"Well, I don't know that I ever enjoyed myself more," says Lady Glandore, in her languid way, alluding to the joy of the past night. It is now once more a new day, and some of them are wandering 
 
 
@@ -1616,7 +1604,7 @@ Your pretended anger afterward did not deceive me in the least. It was a mere pa
 breaks up her icy composure. "See! Once for all," she says, coming a step nearer, "don't imagine that you can ever impose upon me. Act your part to the others, blind them if you will, but don't hope to take me in. From the very first moment my eyes lit on you I have seen through you. Your pretended avoidance of Denis, your carefully assumed coldness toward him, your clever little r&ocirc;le of petulant dislike; all has been clear to me, and beneath it--what? Do you think," insolently, "I could not read your eyes? And what eyes you have!" with a gust of bitter hatred; "they tell for you what you dare not put into words; they woo silently the man you know to be in honor bound to another; they say such shameless things as you are afraid to utter. Do you think," vehemently, "that, watching you daily, hourly, as I have done, I have not read your secret in them? Yes, cower away from me as you will, you shall hear what I have learned--that you--love him." Norah puts out her hand as if to ward off a blow. "Hah! Does that make you shrink? does that hurt you? I," vindictively, "am glad of it. Now go! And--remember!"</p>
 <p>The insolence of this dismissal rouses in the Duchess a feeling of intolerable indignation.</p>
 <p>"I shawl remember you--forever," she says, breathlessly--childishly, perhaps, yet with a withering contempt that cuts deep into the haughty woman before her, "as the most ill-bred person I have ever met."</p>
-***<milestone unit="section" rend="line"/>
+<milestone unit="section" rend="line"/>
 <p>Heart-sick and wearied by this addition to the secret grief she always carries, and crushed by a sense of bitter humiliation, it is because of no feigned headache that the Duchess declares her inability to accompany the others to the military theatricals at Clonbree that take place this evening.</p>
 <p>"What has Katherine been doing to you?" asks shrewd Miss Blake, looking down upon a very pale
 
@@ -1642,8 +1630,8 @@ the house, almost it seems as though the very servants had left it. There is cer
 <p>One of the servants brings her presently a cup of tea, which she accepts gladly, yet after all forgets to drink, and after that no one comes to disturb her solitude, which is perhaps the worst thing that could have happened to her. Left thus, entirely alone with her thoughts, they turn to, and dwell with a most unhappy persistency upon, the events of to-day and the past night, painting them in their blackest colors, until finally, worn out with grief and misery, she sinks upon a low lounge and bursts into bitter weeping. And then, wearied by her emotion, her head droops heavily upon the soft cushion of the lounge, and rests there gratefully, with a vague but happy sense of relief; and after awhile that sense of relief changes to kindly sleep, which, growing on her, she draws up, half unconsciously, her feet to this welcome restful couch, and with a few faint, lingering sobs falls into a profound slumber.</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche020" type="chapter" n="20">
-<head rend="center">CHAPTER XX.</head>
-<epigraph rend="center"><q>
+<head>CHAPTER XX.</head>
+<epigraph><q>
 <l>"Now all is hush'd as Nature were retired,</l>
 <l>And the perpetual motion standing still."</l>
 </q></epigraph>
@@ -1700,9 +1688,9 @@ even now, as he stands here useless, some accident may be taking place. Oh, to b
 
 <pb n="134 THE DUCHESS"/>
 <div id="dduche021" type="chapter" n="21">
-<head rend="center">CHAPTER XXI.</head>
-<epigraph rend="center"><q>
-<l>He looked at her as a lover can;</l>
+<head>CHAPTER XXI.</head>
+<epigraph><q>
+<l>"He looked at her as a lover can;</l>
 <l>She looked at him as one who awakes,</l>
 <l>The past was sleep, and her life began."</l>
 </q></epigraph>
@@ -1764,9 +1752,9 @@ on him; for a cruelly short time she lies passive in his embrace, as though tire
 
 
 <pb n="139 THE DUCHESS"/>
-<div id="***" type="chapter" n="22">
-<head rend="center">CHAPTER XXII.</head>
-<epigraph rend="center"><q>
+<div id="dduche022" type="chapter" n="22">
+<head>CHAPTER XXII.</head>
+<epigraph><q>
 <l>"But now the hand of fate is on the curtain,</l>
 <l>And gives the scene to light."</l>
 </q></epigraph>
@@ -1818,13 +1806,11 @@ hands grow cold, her cheek pales. How if that murderous though silent threat has
 
 <pb n="144 THE DUCHESS"/>
 Denis is on the road, close to that broken gateway, and that he is fighting fiercely for dear life.</p>
-<p>All at once her faintness leaves her. A cold chill rushes through her, hardening every nerve. Springing to the top of the high bank she looks through the furze bushes down on the road beneath, and sees--</p></div>
+<p>All at once her faintness leaves her. A cold chill rushes through her, hardening every nerve. Springing to the top of the high bank she looks through the furze bushes down on the road beneath, and sees&#x2014;</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche023" type="chapter" n="23">
-<head rend="center">CHAPTER XXIII.</head>
-<epigraph rend="center"><q rend="block">
-<l rend="indent">"Courage is a sort of armor to the mind, and keeps an unwelcome impression from driving too deep into perception."</l>
-</q></epigraph>
+<head>CHAPTER XXIII.</head>
+<epigraph><q>"Courage is a sort of armor to the mind, and keeps an unwel<lb/>come impression from driving too deep into perception."</q></epigraph>
 <p>IT IS Denis she sees first. He is facing her; while his opponent--who has grasped him by the throat with a savage grip, and is straining every muscle to bring him to the ground--has his back to her. He is a powerful-looking man, and even as Norah looks on, frozen by horror, he makes an effort to bring down the handle of the revolver he carries upon Delaney's head, with the intent to hammer out his brains.</p>
 <p>It is evidently a struggle that cannot last long. Delaney's face is already death-like, rendered the more ghastly because of the heavy drops of blood that are running down it from a wound in the forehead, and his coat is torn away from one arm that hangs helplessly by his side. With the other arm he still holds his would-be murderer, and with the tenacity of his race is still holding his own, when another would be lying spent and insensible.</p>
 <p>To Norah--who is of his own blood, and who can see for herself that unless succor is prompt the end is very near--this sight gives fresh courage. Her spirit rises within her; she sets her teeth and looks swiftly, keenly around her. A short, heavy stake, part of the broken gateway, catches her eye; she loses no time; she moves quickly toward it; to seize it noiselessly, to spring once again to that high part of the bank that
@@ -1835,7 +1821,7 @@ brings her right over the assassin's head and within a foot of him, takes her bu
 <p>With all the strength of her strong young arms she lifts the heavy piece of wood well above her shoulder, and brings it down again with unerring precision right upon the scoundrel's pate!</p>
 <p>Like a stone he drops, half dragging Denis with him, but the girl, jumping into the road, catches him as he falls, and holds him upright still with loving arms. Even now, as at last insensibility overpowers him, as deadly stupor benumbs his every sense, he knows her.</p>
 <p>"My beloved! My own little girl!" he breathes faintly, with but a poor attempt indeed at the old fond smile, yet with love unspeakable in his fast-closing eyes. He makes a vain effort to hold out his hands to her, and then falls inertly against the bank.</p>
-<p>And now it comes to Norah to do what she never afterward can remember doing, or understand how she had the power to accomplish it. But<q rend="block"><l>"The God of love, ah! benedice,</l>
+<p>And now it comes to Norah to do what she never afterward can remember doing, or understand how she had the power to accomplish it. But<lb/><q><l>"The God of love, ah! benedice,</l>
 <l>How mighty and how great a Lord is He!"</l></q>
 Surely He helps her now. Looking at him, lying there in that awful swoon, it seems to her that she dare not leave him alone with the murderer beside him while she runs for help. What if the man were to recover while she was away? What if he be not dead? Poor, little, tender-hearted Duchess! Let her not be thought unwomanly if in this supreme moment she hopes passionately that she has killed the man who would have slain her lover, and only fears that she has not done so.</p>
 <p>What if he should rise and finish his ghastly work while she ran blindly along an unknown road to gain that assistance she might never meet! Moisture rises to her brow as she thinks it all out, and then all at once she abandons that idea of gaining help, and with 
@@ -1873,8 +1859,8 @@ cess. And at last, at last, he moves a little and sighs and finally opens his ey
 <p>"You, my love," he says very low, with a faint smile, and as though not at all surprised. So near to the gates of death has he been brought that all emotions, save the one absorbing passion of his life, are forgotten by him; and indeed so weak is he that almost as she believes she has gained him back again from the portals we all dread for those we love--even as she tries to answer him--he faints again, leaving her once more to watch out the long dark hours of night alone.</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche024" type="chapter" n="24">
-<head rend="center">CHAPTER XXIV.</head>
-<epigraph rend="center"><q>
+<head>CHAPTER XXIV.</head>
+<epigraph><q>
 <l>"I felt a tightness grasp my throat,</l>
 <l>As it would strangle me."</l>
 </q></epigraph>
@@ -1916,9 +1902,9 @@ been of some use, as the blood has ceased to flow. Feebly lifting the uninjured 
 <p>Then, now bitterly weeping, she runs out of the cabin, and gaining the road turns, without knowing why, to the right. All roads, indeed, are alike to her, so great is her <sic>ingorance</sic> of her locality, but fortunately instinct, if one may call it so, has in this instance led her aright. It has stood to her so well that half an hour's brisk walking brings her within view of the gilded vane of Ventry, glittering gayly in the morning sunlight.</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche025" type="chapter" n="25">
-<head rend="center">CHAPTER XXV.</head>
-<epigraph rend="center"><q>
-<l rend="indent">"Back-wounding calumny</l>
+<head>CHAPTER XXV.</head>
+<epigraph><q>
+<l>"Back-wounding calumny</l>
 <l>The whitest virtue strikes; what king so strong</l>
 <l>Can tie the gall up in the slanderer's tongue?"</l>
 </q></epigraph>
@@ -1989,8 +1975,8 @@ but that! Oh! to see him once again alive--alive! Oh! Denis. Oh! my son! my chil
 <p>She laughs again insolently, and moves toward the door. Nancy Blake, who happens to be standing near it, draws away as she approaches, with an unconscious but very eloquent display of condemnation. But of this Katherine takes little heed. Opening the door, she steps out into the hall and there comes face to face with--</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche026" type="chapter" n="26">
-<head rend="center">CHAPTER XXVI.</head>
-<epigraph rend="center"><q>
+<head>CHAPTER XXVI.</head>
+<epigraph><q>
 <l>"I find she loves him much, because she hides it.</l>
 <l>Love teaches cunning even to innocence."</l>
 </q></epigraph>
@@ -2040,10 +2026,9 @@ it one way or the other," says Mrs. O'Shaughnessy, giving her an encouraging pat
 
 
 <pb n="164 THE DUCHESS"/>
-<div id="dduche027*" type="chapter" n="27">
-<head rend="center">CHAPTER XXVII.</head>
-<epigraph rend="center"><q>
-***<l rend="indent">"But the soul</l>
+<div id="dduche027" type="chapter" n="27">
+<head>CHAPTER XXVII.</head>
+<epigraph><q><l>"But the soul</l>
 <l>Whence the love comes, all ravage leaves that whole,</l>
 <l>Vainly the flesh fades--soul makes all things new."</l>
 </q></epigraph>
@@ -2133,13 +2118,13 @@ him very close to Miss Blake, before she can manage a second escape--"the real q
 <p>That settles it!</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche028" type="chapter" n="28">
-<head rend="center">CHAPTER XXVIII.</head>
-<epigraph rend="center"><q>
+<head>CHAPTER XXVIII.</head>
+<epigraph><q><lg type="stanza" n="5">
 <l>"But certain points, left wholly to himself</l>
 <l>When once a man has arbitrated on,</l>
 <l>We say we must succeed there, or go hang:</l>
 <l>Thus, he should wed the woman he loves most,</l>
-<l>Or needs most--"</l>
+<l>Or needs most&#x2014;&#x2014;"</l></lg>
 </q></epigraph>
 <p>SO TENDER, so careful is Miss Cazalet's footstep, that almost one might believe she walks on tiptoe, as she enters Delaney's room.</p>
 <p>"Dear Denis, I am so grieved to see you still so enfeebled," she says, bending over him, with as much loverlike ardor as she can manage. "I have so longed to come to you, to minister to you. But--" She makes a dramatic pause.</p>
@@ -2186,8 +2171,7 @@ your own accord, smashed the extremely heavy chain that bound us, and I think it
 
 <pb n="175 THE DUCHESS"/>
 <p>The door slamming with rather undue haste terminates the sentence.</p>
-<p>"I thank my stars that's over!" says Delaney, with a heart-felt sigh.</p>
-***<milestone unit="section" rend="line"/>
+<p>"I thank my stars that's over!" says Delaney, with a heart-felt sigh.</p><milestone unit="section" rend="line"/>
 <p>He goes back to his reading, but somehow the flavor has gone out of it. A sense of discontent, of impatience, seizes hold of him, and troubles him to such an extent that finally he flings away his paper and gives way to the one thought that for days has been tormenting him. If Katherine--if the others--are permitted to see him, why may not Norah come, so that <hi rend="italic">he</hi> may see <hi rend="italic">her?</hi> Oh, the tender joy of that thought! To see her face to face, to look again into her eyes, with no hateful barrier to check the love-light in his own. She is so very much better, so nearly strong again, that it seems to him she might be trusted to visit him for a few short minutes--half an hour or so. It is altogether absurd the way in which these doctors are domineering over him, forbidding him to move except at stipulated moments, or else he would go and find her, were she ever so jealously guarded. But as it is, and as madame has told him only this morning that she is so far herself again that she is to go downstairs to-morrow, surely, surely, of her grace she will come to him if he petition her. Not to-day, perhaps--not even to-morrow--but--</p>
 <p>To ring a bell, to bring the devoted mother to his side, to explain to her his hopes and longings, to gain her over to his views, is but the work of a few minutes.</p>
 <p>"She is not very strong yet, darling; you must remember that. I am afraid you will be a little troubled by the change in her. And if she comes, Denis, you must be very, very careful not to unnerve her in any way, because she is still--well--rather unstrung, you know, since that awful night."</p>
@@ -2209,16 +2193,16 @@ better for her not to come. I can wait. In a few days, at all events, I shall be
 seems almost an angel visitor, as she stands just inside the door, uncertain, motionless, hardly knowing what to do.</p></div>
 <milestone unit="section" rend="line"/>
 <div id="dduche029" type="chapter" n="29">
-<head rend="center">CHAPTER XXIX.</head>
-<epigraph rend="center"><q>
-<l rend="indent">"Oh, what a dawn of day!</l>
+<head>CHAPTER XXIX.</head>
+<epigraph><q><lg type="stanza" n="4">
+<l>"Oh, what a dawn of day!</l>
 <l>How the March sun feels like May!</l>
-<l rend="indent">All is blue again</l>
-<l rend="indent">After last night's rain."</l>
-***<milestone unit="section" rend="dots"/>
-<l>"Flower o' the broom,</l>
-<l>Take away love and our earth is a tomb."</l></q>
-***<milestone unit="section" rend="dots"/>
+<l>All is blue again</l>
+<l>After last night's rain."</l></lg>
+<milestone unit="section" rend="dots"/>
+<lg type="stanza" n="2"><l>"Flower o' the broom,</l>
+<l>Take away love and our earth is a tomb."</l></lg>
+<milestone unit="section" rend="dots"/></q>
 </epigraph>
 <p>"AH, AT last! At such a <hi rend="italic">long</hi> last!" cries Denis, holding out to her his hand--the left one; the other is still bound up, but one can see that it has made great strides toward recovery. He makes an effort to rise, as if to go to her, but with a little exclamation Norah checks him. A soft flush springs into her cheeks, but as it dies away again, and as she draws nearer to the couch on which he is lying, he can see, by the fuller light that now shines on her, the sad ravages that illness and nervous depression have made on her charming face.</p>
 <p>She looks so fragile, so pale, such a <hi rend="italic">little</hi> thing, that almost it seems to him as if an idle breath of wind might blow her away forever. But her smile is brilliant as she turns it on him, and the eyes are the same as of old, so sweet, so tender, so loving.</p>
@@ -2288,7 +2272,7 @@ forget. Oh! the cruel agony of remembrance. Those moments when I thought you dea
 <p>"Is that all? Tut!" cries he, with a happy laugh, drawing her head down upon his breast. "Let them send our <hi rend="italic">trousseaus</hi> after us--it will give them something to do."</p></div>
 <trailer>THE END.</trailer>
 </body>
-<back>
+<back id="dduche1206">
 
 <pb n="[1]"/>
 <div id="dduche100" type="advert">
@@ -2339,7 +2323,7 @@ forget. Oh! the cruel agony of remembrance. Those moments when I thought you dea
 
 <div id="dduchecover" type="Back Cover">
 <figure entity="dduchebc" rend="inline">
-<figDesc> Back cover of Duchess's "The Duchess"</figDesc>
+<figDesc>Back cover of Duchess's "The Duchess"</figDesc>
 </figure>
 </div>
 </back>
