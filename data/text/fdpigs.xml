@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
-<TEI.2>
-<teiHeader id="fdpigs1100?">
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="fdpigs1201">
+<teiHeader id="fdpigs1202">
 <fileDesc>
 <titleStmt>
-<title> Pigs in Clover, an electronic edition</title>
-<author><name type="person" reg="Frankau, Julia,1864-1916">Frank Danby</name></author>
+<title>Pigs in Clover, an electronic edition</title>
+<author><name type="person" reg="Frankau, Julia, 1864-1916">Frank Danby</name></author>
 </titleStmt>
-<extent></extent>
+<extent>750Kb</extent>
 <publicationStmt>
 <pubPlace>Atlanta, Georgia</pubPlace>
 <publisher>Emory University, Lewis H. Beck Center</publisher>
@@ -56,7 +56,7 @@
 <rs type="form">Unedited</rs>
 <rs type="genre">Novel</rs>
 <rs type="Geography">Great Britain</rs>
-<date> ????</date>
+<date>1900-1999</date>
 </creation>
 <textClass>
 <keywords scheme="lcsh">
@@ -81,21 +81,41 @@
 </change>
 </revisionDesc>
 </teiHeader>
-<text id="fdpigs????">
-<front id="fdpigs????">
-<div id="fdpigscover" type="front cover">
-<figure entity="fdpigsfc" rend="inline">
+<text id="fdpigs1203">
+<front id="fdpigs1204">
+<div id="fdpigscover" type="front covers">
+<figure entity="fdpigsfrontcover" rend="inline">
 <figDesc>Front cover of Danby's "Pigs in Clover"</figDesc>
+</figure>
+
+<figure entity="fdpigsspine" rend="inline">
+<figDesc>Spine of Danby's "Pigs in Clover"</figDesc>
 </figure>
 </div>
 <pb/>
-<pb entity="fdpigs????" pages="Title Page"/>
+<div id="fdpigs100" type="Advert">
+<figure entity="fdpigsfm1" rend="inline">
+<figDesc>Advert included in the front of Danby's "Pigs in Clover"</figDesc>
+</figure><pb/>
+
+<figure entity="fdpigsfm2" rend="inline">
+<figDesc>Advert included in the front of Danby's "Pigs in Clover"</figDesc></figure></div><pb/>
+
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">Pigs in Clover</titlePart></docTitle></titlePage><pb/>
+
+<div id="fdpigs101" type="Advert">
+<figure entity="fdpigsfm5" rend="inline">
+<figDesc>Advert included in the front of Danby's "Pigs in Clover"</figDesc></figure></div><pb/>
+
+<pb entity="fdpigsfm4" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">Pigs in Clover</titlePart>
 </docTitle>
 <byline> By <docAuthor> Frank Danby</docAuthor> <lb/>
-Author of "Dr.Phillips:a Maida Vale Idyll", "A Babe in Bohemia," etc.</byline>
+Author of "Dr. Phillips: a Maida Vale Idyll", "A Babe in Bohemia," etc.</byline>
 <epigraph>
 <q><lg><l>"And each man kills the thing he loves.</l>
 <l>By each let this be heard,</l>
@@ -106,12 +126,17 @@ Author of "Dr.Phillips:a Maida Vale Idyll", "A Babe in Bohemia," etc.</byline>
 <docImprint>
 <pubPlace>LONDON</pubPlace>
 <publisher> William Heinemann</publisher>
+<docDate>1903</docDate>
 </docImprint>
-<imprimatur> [<hi rend="italics">All rights reserved</hi>]</imprimatur>
 </titlePage>
 <pb/>
+
+<div id="fdpigscopyright" type="copyright">
+<figure entity="fdpigscopyright" rend="inline">
+<figDesc>Copyright page of Danby's "Pigs in Clover"</figDesc></figure></div><pb/>
+
 </front>
-<body id="fdpigs????">
+<body id="fdpigs1205">
 <pb n="1"/>
 <p/>
 <div id="fdpigs001" type="chapter" n="1">
@@ -2709,7 +2734,7 @@ subordinated to remorse.</p>
 <p>Louis thought it was he who prompted every move, who stood behind, directing, guiding it, but it was not entirely so. Somehow these two, Joan, who had never had a woman friend, and Aline, who stood outside friendship, had a curious affinity; something they held in common, these two women who loved Louis Althaus. Aline, who lived in silences, the gentle girl who had lost her way so early, and Joan, who talked all her life, with pen and ink sometimes, but eloquent always, would have been drawn together however they had met. Joan told herself this constantly.</p>
 </div>
 <pb n="352"/>
-<div id="fdpigs022" type="chapter"n="22">
+<div id="fdpigs022" type="chapter" n="22">
 <head>CHAPTER XXII</head>
 <p>It was a very smart party Lady Herodsfoot had gathered together for Goodwood. Jack and she always knew how to do the right thing; the worst of it was they so seldom had the wherewithal to do it. But Jack was very easy-going, and he credited the story of this wonderful bargain of a house, and the bit of luck at bridge, and all the little miracles that made it possible for him to go through the week in style. The only members of the party that made him elevate his eyebrows were Louis Althaus and Karl Althaus's wife; he could not see exactly how they fitted in. It did not suit Lady Herodsfoot to explain to her Jack that one of these two <hi rend="italic">was</hi> the party. She said Lady Violet Alncaster was coming, and so was Legoux, and anything like a revival of the flirtation between Violet and Louis Althaus which had amused them all so much a season or two ago, might bring matters to a point.</p>
 <p>"Oh, well, if the Duchess suggested it," said easy-going Jack, "I suppose you could hardly say no. But I should think that Althaus would be rather bally awful in a houseful of people for a week on end."</p>
@@ -2902,7 +2927,11 @@ subordinated to remorse.</p>
 <pb n="374"/>
 <p>Its mate was coming to life! She struggled against the drug, she was bound; and gagged, and choked, and again convulsions seized her.</p>
 <p>Louis's knocking, Louis's soft knocking, penetrated. But it was the knocking on her coffin that she thought she heard. They were the nails in her coffin being driven in. They were fastening her down, suffocating her; she fought for breath, for strength to shriek, fought in her dying, with gasping breath, to still her lover's gentle tapping&#x2014;drifting through agony into deep unconsciousness, and thence to cold death, her last pang coming from his hand, as her first had come.</p>
-</div>
+</div><trailer>THE END</trailer>
 </body>
 </text>
+<back id="fdpigs1206">
+<div id="fdpigs400" type="colophon">
+<l>Printed by BALLANTYNE, HANSON, &amp; Co.</l>
+<l>Edinburgh &amp; London</l></div></back>
 </TEI.2>
