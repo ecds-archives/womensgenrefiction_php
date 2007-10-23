@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2 id=""> 
-<teiHeader id=""> 
+<TEI.2 id="patience1201"> 
+<teiHeader id="patience1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>Patience Sparhawk and Her Times, an electronic edition</title> 
 <author><name type="person" reg="Atherton, Gertrude Franklin Horn, 1857-1948">Gertrude Franklin Horn Atherton</name></author> 
 </titleStmt> 
-<extent></extent> 
+<extent>800Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -68,10 +68,10 @@
 <list> 
 <item>American literature--19th Century--Fiction.</item> 
 <item>Women authors, American--19th Century.</item> 
-<item>Eugenics Fiction.</item> 
+<item>Eugenics.</item> 
 <item>Regionalism America.</item> 
-<item> Assertiveness in Women</item>
-<item> Social Reform Movement</item>
+<item>Assertiveness in women</item>
+<item>Social reform movement.</item>
 </list> 
 </keywords> 
 </textClass> 
@@ -87,8 +87,8 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
+<text id="patience1203">
+<front id="patience1204">
 <div id="patiencecover" type="Front Cover">
 <figure entity="patiencefc" rend="inline">
 <figDesc> Front Cover of Atherton's "Patience Sparhawk and Her Times"</figDesc>
@@ -104,7 +104,7 @@
 <pb/>
 <div id="patience100" type="advert">
 <figure entity="patiencead" rend="inline">
-<figDesc> Advert included in front of Atherton's "Patience Sparhawk and Her Times"</figDesc>
+<figDesc>Advert included in front of Atherton's "Patience Sparhawk and Her Times"</figDesc>
 </figure>
 </div>
 <pb/>
@@ -123,20 +123,21 @@
 <pb/>
 <div id="patiencefm1" type="copyright">
 <figure entity="patiencetvp" rend="inline">
-<figDesc> Copyright page of Atherton's "Patience Sparhawk and Her Times"</figDesc>
+<figDesc>Copyright page of Atherton's "Patience Sparhawk and Her Times"</figDesc>
 </figure>
 </div>
 <pb/>
+<pb entity="patiencefm2" pages="Dedication"/>
 <div id="patiencefm2" type="dedication">
 <head> TO <lb/> M. PAUL BOURGET,</head>
 <p>Who alone, of all foreigners, has detected in its full significance, that the motive power, the cohering force, the ultimate religion of that strange composite known as "The American," is Individual Will. Leaving the ultra-religious element out of the question, the high, the low, the rich, the poor, the man, the woman, of this section of the Western world, each consciously or unconsciously, believes in, relies on himself primarily. In the higher civilization this amounts to intellectual anarchy, and its tendency is to make Americans, or, more exactly, United Statesians, a New Race in a sense far more portentous than in any which has yet been recognised. As M. Bourget prophesies, destruction, chaos, may eventuate. On the other hand, the final result may be a race of harder fiber and larger faculties than any in the history of civilisation. That this extraordinary self-dependence and independence of certain traditions that govern older nations make the quintessential part of the woman as of the man of this race I have endeavoured to illustrate in the following pages.</p>
-<closer><signed>G.A.</signed></closer>
+<closer><signed><name>G.A.</name></signed></closer>
 </div>
 <pb/>
 </front>
-<group>
-<text>
-<front>
+<group id="patience1205">
+<text id="patience1206">
+<front id="patience1207">
 <pb entity="patiencetp" pages="Title Page"/>
 <titlePage type="half">
 <docTitle>
@@ -144,10 +145,10 @@
 </docTitle>
 </titlePage>
 </front>
-<body>
+<body id="patience1208">
 <pb n="3"/>
 <div id="gahawk100" type="book" n="1">
-<head> Patience Sparhawk and Her Times<lb/>
+<head>Patience Sparhawk and Her Times<lb/>
 BOOK I </head>
 <div id="gahawk001" type="chapter" n="1">
 <head>I 
@@ -840,14 +841,14 @@ return he walked with great dignity to his accustomed place against the wall, no
 <p>The next morning Rosita accompanied her to the station and wept loudly as the train approached. But Patience did not cry until she stood in her stateroom with Mr. Foord.</p></div></div></body></text>
 
 <pb n="[81]"/>
-<text>
-<front>
+<text id="patience1209">
+<front id="patience1210">
 <pb  entity="patiencetp" pages="Title Page"/>
 <titlePage type="half">
 <titlePart type="main"> BOOK II</titlePart>
 </titlePage>
 </front>
-<body>
+<body id="patience1211">
 <pb/>
 <div id="gahawk200" type="book" n="2">
 <head>BOOK II
@@ -1498,7 +1499,7 @@ she had thought of him. She closed her eyes and stood with him in the tower. His
 <p>"MISS PATIENCE!" cried a strident voice.</p>
 <p>Patience turned with a violent start. Ellen was a large blotch on the white beauty of the wood.</p>
 <p>"There 's a young lady to see you. She did n't give her name as I remember."</p>
-<pb n="152     Patience Sparhawk and Her Times "/>
+<pb n="152     Patience Sparhawk and Her Times"/>
 
 <p>Patience followed the servant resentfully. The world was cold and dull again. But when she recognised the Peele coachman and footman on the handsome sleigh before the door she forgot her dreams, and went eagerly into the house.</p>
 <p>A girl was standing before the mantel, regarding through a lorgnette a row of photographs. She turned as she heard footsteps, and came forward with a cordial smile on her plain charming face. She wore a black cloth frock and turban which made Patience feel dowdy as Rosita's magnificence had not.</p>
@@ -1572,7 +1573,7 @@ wild break to do it--had a lot of company; but I was bound to come. Patience, th
 <p>Mr. Peele removed his cigar. "Perhaps that was what she had been <hi rend="italic">im</hi>patiently waiting for," he remarked.</p>
 <p>Patience stared at him. Her eyes expanded. Something seemed crumbling within her.</p>
 <p>"Oh, Bev, you do make me so tired," said his sister. "I tell him eighteen times a day that punning is the lowest form of wit, but he's incorrigible. I suppose it's in the blood, and I'm glad it broke out in him instead of in me. It is well to be philosophical in this life--"</p>
-<pb n="161 Patience Sparhawk and Her Times "/>
+<pb n="161 Patience Sparhawk and Her Times"/>
 
 <p>"When you can't help yourself--" interrupted Mr. Peele, easily.</p>
 <p>Patience felt it incumbent upon her to make conversation, although her thoughts were dancing a jig.</p>
@@ -1772,7 +1773,7 @@ granted. He acted as if he thought me a fool, and I appear to be remarkably gree
 <pb n="180     Patience Sparhawk and Her Times "/>
 
 <p>Hal listened with an amused smile. "So Bev made a bad break," she remarked when Patience had concluded. "I'm not surprised, for he's pretty hot-headed, and head over ears in love. You mustn't take life so tragically. I've had several weird experiences myself, although I'm not the kind that men lose their head about as a rule; only given the hour and the occasion, some men will lose their head about any woman. Perhaps I should have said New York men. They are a rare and lovely species. They admire God because he made himself of their gender and knew what he was about when he invented woman. I was out on a sleighing party one moonlight night last winter, and on the back seat with a man I'd never seen out of a ball-room before. The way that man's legs and arms flew round that sleigh made my hair curl. You see, a lot of us are fast, but then plenty of us are not. The trouble is that the men can't discriminate, as we look pretty much alike on the outside. They're not a very clever lot--our society men--and they don't learn much until they've been taught. Then when they are forced to believe in your virtue they feel rather sorry for you, and later on are apt to propose--if you have any money. Bev would propose to you if you were living in a tent and clad in a gunny sack. He would have preferred things the other way--it's so much less trouble--but as he can't, he won't stop at any such trifling nuisance as matrimony. Oh, men are a lovely lot! Still, the world would be a pretty stupid place without them. You'll learn to manage them in time, and then they'll only amuse you. They are not really so bad at heart--they've been badly educated. I know four married women of the type we call 'friskies,' 
-<pb n="181     Patience Sparhawk and Her Times "/>
+<pb n="181     Patience Sparhawk and Her Times"/>
 
 whom my mother would shudder at the thought of excluding from her visiting list, and whom I'd bet my new Paquin trunk, several men I know have had affairs with. So what can you expect of a man?"</p>
 <p>"Is the world rotten?" asked Patience, in disgust.</p>
@@ -1791,9 +1792,7 @@ whom my mother would shudder at the thought of excluding from her visiting list,
 <p>"Well, if I'm to have wild and weird experiences I prefer to have them with men of brains, not with a lot of empty-headed society men."</p>
 <p>"Don't generalise too freely, my dear. There are newspaper men and newspaper men,--according to this girl I've just told you of. Some are brainy, some are merely bright; some are gentlemen, most are common beyond words. And, as she said--after you've worked with man in his shirt sleeves you don't have many illusions about the animal left."</p>
 <p>I have not one, and I lost them in an hour. Your 
-<pb n="183"/>
-Patience Sparhawk and Her Times        183
-
+<pb n="183     Patience Sparhawk and Her Times"/>
 brother is supposed to be a gentleman with a long array of ancestors, and he acted like a wild Indian."</p>
 <p>"My dear, he merely lost his head. That was a compliment to you, and you should not be too hard on a man in those circumstances. He won't do it again, I'm sure of that. He has some control. I warned him before he came not to pun, and he says he did n't, not once. Now, tell me one thing--Don't you like him just a little?"</p>
 <p>"No," said Patience; but she flushed to her hair, and Hal, with he uncanny wisdom, said no more.</p></div>
