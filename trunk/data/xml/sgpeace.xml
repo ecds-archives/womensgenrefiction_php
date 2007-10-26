@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI.2 SYSTEM "./tgfw-tei.dtd">
-<TEI.2>
-<teiHeader>
+<TEI.2 id="sgpeace1201">
+<teiHeader id="sgpeace1202">
 <fileDesc>
 <titleStmt>
-<title>Peace With Honour</title>
-<author><name type="person" reg= "Hilda Caroline Gregg Grierson, 1868-1933">Sydney C. Grier</name></author>
+<title>Peace With Honour, an electronic edition</title>
+<author><name type="person" reg= "Grierson, Hilda Caroline Gregg, 1868-1933">Sydney C. Grier</name></author>
 </titleStmt>
+<extent>800Kb</extent>
 <publicationStmt>
 <publisher>Emory University, Lewis H. Beck Center</publisher>
 <pubPlace>Atlanta, Georgia</pubPlace>
@@ -25,7 +26,7 @@
 <resp>Principal Investigators</resp></respStmt> 
 </seriesStmt>
 <sourceDesc>
-<bibl><author>Grier, Sydney C.</author>. <title> Peace With Honour</title>. <pubPlace>Edinburgh and London</pubPlace>: <publisher> William Black wood and Sons.</publisher>, <date>1897</date>.</bibl>
+<bibl><author>Grier, Sydney C.</author>. <title> Peace With Honour</title>. <pubPlace>Edinburgh and London</pubPlace>: <publisher> William Blackwood and Sons</publisher>, <date>1897</date>.</bibl>
 </sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -60,8 +61,8 @@
 <item>Women authors, British--19th Century.</item> 
 <item>Women doctors.</item> 
 <item>Assertiveness in women.</item>
-<item>Ethiopia</item>
-<item>Colonialism</item> 
+<item>Ethiopia.</item>
+<item>Colonialism.</item> 
 </list> 
 </keywords> 
 </textClass> 
@@ -74,8 +75,8 @@
 </change> 
 </revisionDesc>
 </teiHeader>
-<text>
-<front>
+<text id="sgpeace1203">
+<front id="sgpeace1204">
 <pb n="[ii]"/>
 <titlePage type="half">
 <docTitle>
@@ -90,7 +91,7 @@
 <byline> BY <lb/> SYDNEY C. GRIER <lb/> AUTHOR OF <lb/> 'HIS EXCELLENCY'S ENGLISH,' 'AN UNCROWNED KING,'<lb/> 'IN FURTHEST IND,' ETC.
 </byline>
 <docImprint>
-<pubPlace>EDINBURGH AND LONDON:</pubPlace><publisher>WILLIAM BLACK WOOD AND SONS</publisher><docDate>MDCCCXCVII [1897]</docDate>
+<pubPlace>EDINBURGH AND LONDON:</pubPlace><publisher>WILLIAM BLACKWOOD AND SONS</publisher><docDate>MDCCCXCVII [1897]</docDate>
 </docImprint>
 </titlePage>
 <pb n="[v]" entity="sgpeaceded" pages="dedication"/>
@@ -106,7 +107,7 @@
 <figDesc> Table of Contents for Grier's Peace With Honour</figDesc></figure>
 </div>
 </front>
-<body>
+<body id="sgpeace1205">
 <pb n="[1]"/>
 <div id="sgpeace001" type="chapter" n="1">
 <head>PEACE WITH HONOUR<lb/>CHAPTER I.<lb/>"SHOULD AULD ACQUAINTANCE BE FORGOT?"</head>
@@ -471,7 +472,7 @@ merely in order that you may shirk <pb n="2 PEACE WITH HONOUR."/>coming out with
 <p>"I wish General Keeling were alive," said Lady Haigh, irritably. "He would very soon put a stop to these absurd schemes. Or I wish you were married. That would do as well."</p>
 <p>"But if that is one reason for my not marrying?" asked Georgia.</p>
 </div>
-<div id="sgpeace005" type="chapter" n="005">
+<div id="sgpeace005" type="chapter" n="5">
 <head>CHAPTER V.<lb/>ACROSS THE FRONTIER.</head>
 <p>"When we come to the crest of this rise we shall be able to see Fort Rahmat-Ullah in the distance," said Stratford to Georgia. He had quitted his place in the long cavalcade formed by the members of the Mission and their baggage-animals, as it made its way across the broken ground, alternately sandy and rocky, which characterises the districts lying near the frontier of Khemistan, and had joined the two doctors, who were riding somewhat in advance of the caravan in order to escape the dust. Dr Headlam turned back to the side of Lady Haigh, with whom Stratford had been riding, and Georgia looked round at her new cavalier with eyes of eager interest.</p>
 <p>"It was Fort Rahmat-Ullah that Major North relieved, wasn't it?" she asked, although she knew perfectly well what the answer would be.</p>
@@ -1108,7 +1109,7 @@ ruthless hands of Rahah, looked at him in surprise, for his face was grave and s
 <p>"Allow me to say, Miss Keeling, that there are very few juries that would not prefer the opinion of four men to that of one lady."</p>
 <p>"I can quite believe it," returned Georgia, scornfully, "after what I have heard to-day. It would make no difference that the woman was an M.D. of London, and that none of the men knew enough of medicine to describe the symptoms of arsenical poisoning. They must know best. Oh, I might have known that when Lady Haigh refused to listen to me there was no hope of getting four men to look at things in a less biassed way. She turned against me because anxiety for her husband has blinded her judgment for the time, but your opposition springs from mere prejudice. Thank you for the things you have been saying, Major North. One conversation of this kind teaches one more than months of ordinary conventional intercourse. If I were not so angry, I could laugh to think that we are wrangling here while poor Sir Dugald is lying in this helpless state&#x2014;and that you should all combine to prevent my doing what I can for him, simply because I happen to be a woman!"</p>
 <p>"I think you are a little unjust, Miss Keeling" said Stratford. "My objection is not that you are a woman, but that you confess you cannot be certain of the facts of the case."</p>
-<p>"How could any one be certain under the present cir-<pb n="182  PEACE WITH HONOUR."/>cumstances, unless Fath-ud-Din had confessed openly what he had done, and contributed a specimen of the poison for analysis I You know that if Dr Headlam had been alive you would not have thought of questioning what he saw fit to do. I only ask for fair play. Chivalry I don't expect&#x2014;perhaps it is as well that I don't under the circumstances&#x2014;but I have a right to ask for the justice that would be shown to a man in my position."</p>
+<p>"How could any one be certain under the present cir-<pb n="182  PEACE WITH HONOUR."/>cumstances, unless Fath-ud-Din had confessed openly what he had done, and contributed a specimen of the poison for analysis? You know that if Dr Headlam had been alive you would not have thought of questioning what he saw fit to do. I only ask for fair play. Chivalry I don't expect&#x2014;perhaps it is as well that I don't under the circumstances&#x2014;but I have a right to ask for the justice that would be shown to a man in my position."</p>
 <p>And Georgia gathered up her work and the kitten, and retired very deliberately, with the honours of war, leaving the men disinclined for further conversation. Kustendjian betook himself to his own quarters, where he was in the habit of donning a semi-oriental costume in which to take his ease after work was done; and Stratford, accompanied by Fitz, who had listened with a certain mournful pride to Georgia's indictment of North, adjourned to the office, there to compile the regular account of the proceedings of the day. When the record was complete, and Fitz had returned to the terrace, Stratford, who had lingered to arrange the papers in the safe, was surprised by the entrance of Dick, who lounged in moodily without saying anything, and propped himself against the wall.</p>
 <p>"Why don't you tell me that I am a dismal fool and a howling cad?" he inquired at last.</p>
 <p>"If you know it already, though it's rather late in the day now, it can't be much good my repeating the information," said Stratford, drily.</p>
@@ -2231,7 +2232,7 @@ which the country-people brought in, <pb n="219 ONE CROWDED HOUR."/>and even ind
 <p>"I will make her tell the truth, O my lady. Lay thy hand on the head of the child Zeynab, O Khadija, and swear as I shall bid thee."</p>
 <p>"O doctor lady! O my nurse! let it not be on my head!" expostulated Zeynab in a terrified voice, as Khadija rose <pb n="372  PEACE WITH HONOUR."/>reluctantly from her seat to comply with the imperious demand.</p>
 <p>"Dear child, it can't hurt you," said Georgia. "It is merely a form."</p>
-<p>"Nay," said Rahah, " rather is it that if any evil befalls thee, it is through Khadija's lies, and by her fault. Go to the other side of the room, O my lady. Stoop down, 0 Khadija; lay thy hand here, and say after me, ' If I have told lies to the doctor lady, and have not given her all that I promised, and if the Envoy cannot be cured by the medicine she holds in her hand, then let a curse light upon this child. May she wither away in her youth, and not live to see her marriage night. May the disgrace of her father ever continue and increase, and his name be blotted out without a son to bear it after him. May the house that should have mated with princes fall and perish in dishonour, and may all that remain of it live only to shame it.'"</p>
+<p>"Nay," said Rahah, " rather is it that if any evil befalls thee, it is through Khadija's lies, and by her fault. Go to the other side of the room, O my lady. Stoop down, O Khadija; lay thy hand here, and say after me, ' If I have told lies to the doctor lady, and have not given her all that I promised, and if the Envoy cannot be cured by the medicine she holds in her hand, then let a curse light upon this child. May she wither away in her youth, and not live to see her marriage night. May the disgrace of her father ever continue and increase, and his name be blotted out without a son to bear it after him. May the house that should have mated with princes fall and perish in dishonour, and may all that remain of it live only to shame it.'"</p>
 <p>"O my nurse, let not the curse light upon me!" sobbed Zeynab.</p>
 <p>"Be quiet, O daughter of iniquity!" said Khadija angrily, and laying her hand on the child's head with a menacing pressure, she repeated the words after Rahah. Zeynab made no further protest, but lay silent, looking white and frightened, much to the alarm of Georgia. She regretted deeply that she had allowed Rahah to make so solemn an attempt to work upon the superstitious fears of the old woman, and urged her to withdraw the curse, lest the thought of it should do Zeynab harm, but Rahah refused stoutly.</p>
 <p>"I cannot withdraw it, O my lady. Khadija has invoked it, and if she was trying to deceive thee, she knew the danger that she was bringing upon the child. If she has dealt with us honestly, all will yet be well; but if evil <pb n="373 HARDLY WON."/>befalls her master's house, we shall know that it was her own doing."</p>
@@ -2536,7 +2537,7 @@ that his tenants are a serious-minded people unaccustomed to laughter,
 and he is afraid the sight of him so arrayed might do them severe
 physical injury. He is a great power in the neighbourhood, and the
 people bring their disputes to him to settle instead of going to
-law,so that he is quite busy and happy, though he has not got his
+law, so that he is quite busy and happy, though he has not got his
 peerage. Lady Haigh, who directs the affairs (particularly the love
 affairs) of the locality generally, told me something about Stratford
 that will amuse you and North. He is destined, so they say, to get a
