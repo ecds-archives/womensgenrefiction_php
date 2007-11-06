@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
-<TEI.2>
-<teiHeader> 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="dlbond1201">
+<teiHeader id="dlbond1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>Bond or Free, an electronic edition</title> 
-<author n="Mathers, Helen, 1853-1920">David Lyall</author> 
-</titleStmt> <extent></extent> 
+<author><name type="person" reg="Mathers, Helen, 1853-1920">David Lyall</name></author> 
+</titleStmt> <extent>600Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -48,9 +48,9 @@
 <rs type="language">English</rs> 
 <rs type="ethnicity">Caucasian</rs> 
 <rs type="form">Unedited</rs> 
-<rs type="genre">Short Stories</rs> 
+<rs type="genre">Novel</rs> 
 <rs type="geography">Great Britain</rs> 
-<date>1800-1899</date> 
+<date>1900-1999</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
@@ -59,7 +59,7 @@
 <item>Women authors, British--20th Century.</item> 
 <item>Alcoholism.</item> 
 <item>Motherhood.</item> 
-<item>Courtship</item>
+<item>Courtship.</item>
 </list> 
 </keywords> 
 </textClass> 
@@ -73,28 +73,28 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
+<text id="dlbond1203">
+<front id="dlbond1204">
 <pb n="[i]"/>
-<pb entity="dlbondtp" pages="title page"/>
 <titlePage type="half">
 <docTitle>
-<titlePart type="main"> BOND OR FREE</titlePart>
+<titlePart type="main">BOND OR FREE</titlePart>
 </docTitle>
 </titlePage>
 <pb n="[ii]"/>
 <div id="dlbondfm1" type="advert">
-<figure entity="dlbondad" rend="inline">
-<figDesc> Advert included in front of Lyall's "Bond or Free"</figDesc>
+<figure entity="dlbondfm1" rend="inline">
+<figDesc>Advert included in front of Lyall's "Bond or Free"</figDesc>
 </figure>
 </div>
 <pb n="[iii]"/>
+<pb entity="dlbondtp" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main"> BOND OR FREE</titlePart>
 </docTitle>
-<byline> BY <docAuthor> DAVID LYALL</docAuthor> <lb/> AUTHOR OF "ROSS DURHAM," "THE ONE WHO CAME AFTER," <lb/> "THE HOUSE NOT MADE WITH HANDS"</byline>
-<epigraph> <q> "Stand fast therefore in the liberty where- <lb/> with Christ hat h made us free, and be not entangled again with the yoke of bondage."</q></epigraph>
+<byline> BY <docAuthor> DAVID LYALL</docAuthor> <lb/> AUTHOR OF "ROSS DURHAM," "THE ONE WHO CAME AFTER,"<lb/> "THE HOUSE NOT MADE WITH HANDS"</byline>
+<epigraph><q>"Stand fast therefore in the liberty where-<lb/>with Christ hath made us free, and be not<lb/>entangled again with the yoke of bondage."</q></epigraph>
 <docImprint>
 <publisher> HODDER AND STOUGHTON</publisher>
 <pubPlace> LONDON NEW YORK TORONTO</pubPlace>
@@ -102,39 +102,37 @@
 </titlePage>
 
 <pb n="[iv]"/>
-<div id="dlbondfm2" type="copyright">
-<figure entity="dlbondtpv" rend="inline">
-<figDesc> Copyright page for Lyall's "Bond or Free"</figDesc>
-</figure>
+<div id="dlbondcopy" type="copyright">
+<p>Printed in 1913</p>
 </div>
 
-<pb n="[v]"/>
-<div id="dlbondfm3" type="table of contents">
-<figure entity="dlbondtc1" rend="inline">
-<figDesc> Table of contents included in front of Lyall's "Bond or Free"
+<pb n="v"/>
+<div id="dlbondfm2" type="table of contents">
+<figure entity="dlbondfm2" rend="inline">
+<figDesc>Table of contents included in front of Lyall's "Bond or Free"
 </figDesc>
 </figure>
 
-<pb n="[vi]"/>
-<figure entity="dlbondtc2" rend="inline">
-<figDesc> Table of contents included in front of Lyall's "Bond or Free"
+<pb n="vi"/>
+<figure entity="dlbondfm3" rend="inline">
+<figDesc>Table of contents included in front of Lyall's "Bond or Free"
 </figDesc>
 </figure>
 
-<pb n="[vii]"/>
-<figure entity="dlbondtc3" rend="inline">
-<figDesc> Table of contents included in front of Lyall's "Bond or Free"
+<pb n="vii"/>
+<figure entity="dlbondfm4" rend="inline">
+<figDesc>Table of contents included in front of Lyall's "Bond or Free"
 </figDesc>
 </figure>
 
-<pb n="[viii]"/>
-<figure entity="dlbondtc4" rend="inline">
-<figDesc> Table of contents included in front of Lyall's "Bond or Free"
+<pb n="viii"/>
+<figure entity="dlbondfm5" rend="inline">
+<figDesc>Table of contents included in front of Lyall's "Bond or Free"
 </figDesc>
 </figure>
 </div>
 </front>
-<body>
+<body id="dlbond1205">
 
 <pb n="1"/>
 
@@ -198,9 +196,7 @@ SHADOW ON THE HEARTH"/>anxious, the contrast between them was quite marked. Mary
 
 <p>She was not very enthusiastic, considering that the feast was for her birthday, and that she had invited for the first time a great friend, possibly a lover&#x2014;Dudley Frew, the artist, of whom her sisters had heard much, but whom, as yet, they had not met.</p>
 
-<p>Mary left them at the first landing, where her room was situated, for convenience in the mornings, when she had so much to do. The Calladines kept no servant, though, early in the morning, one of those mysterious dingy persons who "oblige a lidy" came to the area gate with the milkman, and was admitted <pb n="5 THE
-
-SHADOW ON THE HEARTH"/>by Mary. Mrs. Polgarth had "obliged" at 19, Whitcombe Square for the last seven years, and the Calladines were what she called her "reglers."</p>
+<p>Mary left them at the first landing, where her room was situated, for convenience in the mornings, when she had so much to do. The Calladines kept no servant, though, early in the morning, one of those mysterious dingy persons who "oblige a lidy" came to the area gate with the milkman, and was admitted <pb n="5 THE SHADOW ON THE HEARTH"/>by Mary. Mrs. Polgarth had "obliged" at 19, Whitcombe Square for the last seven years, and the Calladines were what she called her "reglers."</p>
 
 <p>Mary's only attempt at an evening frock&#x2014;a black silk grenadine, with a little scrap of real old lace at the throat&#x2014;lay across her bed. She proceeded to get into it rather hastily, afraid lest any of the company should arrive before she was ready to receive them.</p>
 
@@ -4796,13 +4792,7 @@ quenched. During all <pb n="245 A RAY OF COMFORT"/>these dismal years Edgar had 
 
 <div>
 
-<head>CHAPTER XX</head>
-
-<epigraph>
-
-<p>"MY WAYS ARE NOT YOUR WAYS," SAITH THE LORD</p>
-
-</epigraph>
+<head>CHAPTER XX<lb/>"MY WAYS ARE NOT YOUR WAYS," SAITH THE LORD</head>
 
 <p>MRS. CALLADINE came to herself.</p>
 
@@ -4820,7 +4810,7 @@ quenched. During all <pb n="245 A RAY OF COMFORT"/>these dismal years Edgar had 
 
 any one accused Paul Calladine of harshness towards his erring wife,
 
-he might, and with <pb n="257 "MY WAYS ARE NOT YOUR WAYS""/>perfect reason, have pointed to the record of the years throughout which he had patiently and, in the main, silently borne the cross she had made. But the fact remained indisputable, significant, in its way, appalling. She was afraid of him, and the prospect of meeting him again, of coming once more within the sweep of his clear, critical survey, from the ordeal of which even Edgar's tenderness could not spare her, had been too much for her.</p>
+he might, and with <pb n="257 'MY WAYS ARE NOT YOUR WAYS'"/>perfect reason, have pointed to the record of the years throughout which he had patiently and, in the main, silently borne the cross she had made. But the fact remained indisputable, significant, in its way, appalling. She was afraid of him, and the prospect of meeting him again, of coming once more within the sweep of his clear, critical survey, from the ordeal of which even Edgar's tenderness could not spare her, had been too much for her.</p>
 
 <p>In imagination she had beheld the whole fabric of her new existence crumbling to ashes at her feet.</p>
 
@@ -4852,7 +4842,7 @@ he might, and with <pb n="257 "MY WAYS ARE NOT YOUR WAYS""/>perfect reason, have
 
 <p>He looked at her strangely, saw that she had come to herself, and, with his arm around her drooping shoulders, prayed again.</p>
 
-<pb n="259 "MY WAYS ARE NOT YOUR WAYS""/>
+<pb n="259 'MY WAYS ARE NOT YOUR WAYS'"/>
 
 <p>It was a strange, a moving sight, destined never afterwards to fade from Calladine's remembrance. Often, when he was jaded and inclined to give up, the recollection of that poignant hour returned to reprove him for the littleness of his faith.</p>
 
@@ -4882,7 +4872,7 @@ he might, and with <pb n="257 "MY WAYS ARE NOT YOUR WAYS""/>perfect reason, have
 
 <p>"Oh, but he didn't believe it&#x2014;in his inside. I mean&#x2014;that I was really straight, don't you know? I felt it right through me as the day went on, and as I realised that I couldn't escape seeing him. I seemed to see his eyes looking through and through me, and that little, queer smile of his that says a lot more than words! And I couldn't face them. It was about twelve when I went down to do the shoppin'. I felt desperate. It was in the grocer's I bought it, Ed. I didn't go into no pub to disgrace you, and I told the man it was for sickness that it was wanted&#x2014;same old lie, son! It does every time, but it deceives nobody. So that's all. And now I suppose it'll be the Retreat again. Oh, Ed, I can't go back! I can't! Couldn't you buy me just a nice little gentle dose that would put me to sleep for ever and ever? Then you could lay me beside your little brother in Abney Park, and all your troubles&#x2014;father's, and yours, and Mary's&#x2014;would be over. Nobody else minds much."</p>
 
-<p>He knelt down in front of her, and took her hands <pb n="261 "MY WAYS ARE NOT YOUR WAYS""/>in his firm, close grasp, bringing his eyes on a level with hers, so that he could look into them unflinchingly.</p>
+<p>He knelt down in front of her, and took her hands <pb n="261 'MY WAYS ARE NOT YOUR WAYS'"/>in his firm, close grasp, bringing his eyes on a level with hers, so that he could look into them unflinchingly.</p>
 
 <p>"Listen, mother! It has happened, and we are all grieved about it. But it's not going to happen again, ever&#x2014;do you hear? What did we say on our knees a few moments ago? Didn't we leave the whole matter with God? Well, He's going to help us more than He has ever done. It has been a single-handed fight up to now. You see, you have not believed that God would help you. Now you have asked Him, you are going to prove that He can and will."</p>
 
@@ -4928,7 +4918,7 @@ he might, and with <pb n="257 "MY WAYS ARE NOT YOUR WAYS""/>perfect reason, have
 
 <p>She was up betimes, but not before Rosie, who, perhaps feeling a greater sense of responsibility than usual, realised that the Sunday comfort of the household might depend chiefly on her.</p>
 
-<p>Her mistress and she met in the kitchen, and Mrs. Calladine, without a moment's hesitation, and with <pb n="263 "MY WAYS ARE NOT YOUR WAYS""/>something of the na&#x00EF;vet&#x00E9; of a child, looked straight in the girl's face.</p>
+<p>Her mistress and she met in the kitchen, and Mrs. Calladine, without a moment's hesitation, and with <pb n="263 'MY WAYS ARE NOT YOUR WAYS'"/>something of the na&#x00EF;vet&#x00E9; of a child, looked straight in the girl's face.</p>
 
 <p>"I was a wicked woman yesterday, Rose, but I've been forgiven. You, too, must forgive me. I'm sorry you saw my condition, my dear. Perhaps you'll remember it some day, when you've got somebody else to help fight it."</p>
 
@@ -4968,7 +4958,7 @@ he might, and with <pb n="257 "MY WAYS ARE NOT YOUR WAYS""/>perfect reason, have
 
 <p>But this was her day of atonement, and if her presence in church would convince Edgar of her sincerity, it was a thing that must be braved. But the moment she sat down in the pew, conscious perhaps of how many eyes were upon her, she bent her head low on the desk in front of her.</p>
 
-<pb n="265 "MY WAYS ARE NOT YOUR WAYS""/>
+<pb n="265 'MY WAYS ARE NOT YOUR WAYS'"/>
 
 <p>Calladine had never explained to anyone the reason for his mother's abstention from church attendance&#x2014;not even to certain busybodies who had commented on it. There is a silence which conveys a rebuke, and those who had enquired had always felt rebuke, and had said no more.</p>
 
@@ -5002,7 +4992,7 @@ he might, and with <pb n="257 "MY WAYS ARE NOT YOUR WAYS""/>perfect reason, have
 
 <p>When she opened the door, however, Mary's trim figure and kind face did not meet her eyes, but Winnie ran across the room and threw herself on her mother's breast.</p>
 
-<p>"Why&#x2014;why, my baby, my little Win! Whatever <pb n="267 "MY WAYS ARE NOT YOUR WAYS""/>is it? There&#x2014;there, then&#x2014;don't cry! I'm all right, dearie. Look at me and you'll see."</p>
+<p>"Why&#x2014;why, my baby, my little Win! Whatever <pb n="267 'MY WAYS ARE NOT YOUR WAYS'"/>is it? There&#x2014;there, then&#x2014;don't cry! I'm all right, dearie. Look at me and you'll see."</p>
 
 <p>Still acutely sensitive regarding her fresh fall, she had no doubt that it was that alone which had brought Winnie to Winterstowe.</p>
 
@@ -5560,7 +5550,7 @@ MORNING"/>for Polly's onslaught on stove and floor, while that worthy proceeded 
 
 <p>About half-past ten a message came through that Mr. Waterhouse wished to see Mr. Calladine in his private room. Calladine rose heavily, almost certain in his inmost heart that he should hear disquieting, probably disastrous, news. Not that such a summons was in itself so uncommon, but he had got the idea fixed in his mind that further care and anxiety were about to overtake him.</p>
 
-<pb n="291 "MANY HAPPY RETURNS""/>
+<pb n="291 'MANY HAPPY RETURNS'"/>
 
 <p>Waterhouse was now an old man in his seventieth year, but he was quite hale and hearty and was as keen on business as ever he had been. He had no sons of his own, and he had found it difficult to work in conjunction with his nephews, especially with the younger one, whose ideas and ambitions their uncle considered preposterous.</p>
 
@@ -5594,7 +5584,7 @@ MORNING"/>for Polly's onslaught on stove and floor, while that worthy proceeded 
 
 <p>"Don't be in a hurry. Go home and talk it over with your wife," he said kindly.</p>
 
-<p>These words showed in what a condition of com-<pb n="293 "MANY HAPPY RETURNS""/>plete ignorance Calladine's employer was regarding his domestic affairs. He was not even sure whether Calladine had a wife, but he vaguely supposed that he must have one somewhere in the background.</p>
+<p>These words showed in what a condition of com-<pb n="293 'MANY HAPPY RETURNS'"/>plete ignorance Calladine's employer was regarding his domestic affairs. He was not even sure whether Calladine had a wife, but he vaguely supposed that he must have one somewhere in the background.</p>
 
 <p>"You have a family, I suppose? But most of them must be grown up by now?" he said, when he had given Calladine sufficient time to recover himself.</p>
 
@@ -5620,7 +5610,7 @@ MORNING"/>for Polly's onslaught on stove and floor, while that worthy proceeded 
 
 <p>But his deep heart was uplifted by the thought that, after all, his working-life had not been a failure! That his faithful discharge of monotonous and often unimportant duty had been kept on record, and that when the need arose for some one competent and reliable, he had been chosen!</p>
 
-<p>There are few things in life more satisfying to a <pb n="295 "MANY HAPPY RETURNS""/>man than that, and small wonder that Paul Calladine dropped the half of his fifty-eight years that momentous morning and became, for the time being, a boy at heart.</p>
+<p>There are few things in life more satisfying to a <pb n="295 'MANY HAPPY RETURNS'"/>man than that, and small wonder that Paul Calladine dropped the half of his fifty-eight years that momentous morning and became, for the time being, a boy at heart.</p>
 
 <p>The hours simply flew. About ten minutes before his usual time of leaving the office for lunch the lift-boy came to him.</p>
 
@@ -5650,7 +5640,7 @@ MORNING"/>for Polly's onslaught on stove and floor, while that worthy proceeded 
 
 <p>"Say, Paul?" she leaned across the table and, pushing up her veil, met his eyes fully and unflinchingly. "I was very sorry about what happened on Saturday. Something came over me&#x2014;I don't know what. I was just a wee bit afraid of you, and I thought that you wouldn't believe I had really turned the corner. If Ed had stopped at home I wouldn't have given way. But, as it happened, it didn't matter much. It had to be, but it's the very last time that such a thing will occur. Put your hand out and hold mine, Paul&#x2014;there isn't anybody looking at us&#x2014;I just want to make a kind of vow and to explain that God has got hold of me&#x2014;the God Edgar believes in and works for. And so now you know I can't fall down any more."</p>
 
-<p>Calladine covered the appealing hand with his <pb n="297 "MANY HAPPY RETURNS""/>strong, virile fingers, and held it close. He was fascinated by what she was saying and by something which seemed to emanate from her&#x2014;a new force, strong, fine, unassailable.</p>
+<p>Calladine covered the appealing hand with his <pb n="297 'MANY HAPPY RETURNS'"/>strong, virile fingers, and held it close. He was fascinated by what she was saying and by something which seemed to emanate from her&#x2014;a new force, strong, fine, unassailable.</p>
 
 <p>"I don't want to go back on things, dear. It's too awful. I can't think why you didn't kill me ever so long ago! But that's all over. I'm come back clothed and in my right mind to be a good wife and mother. I never have been one up to now. I'm not making any excuses for myself, but I'm just telling you what I mean to be and do. You <hi rend="italic">are</hi> giving me another chance, aren't you?"</p>
 
@@ -5690,7 +5680,7 @@ MORNING"/>for Polly's onslaught on stove and floor, while that worthy proceeded 
 
 <p>"There was nothing to be afraid of, God knows, Annie. Often I was only a miserable man when you saw an angry one."</p>
 
-<p>"I was a mere baby, Paul&#x2014;now I've grown up. Don't you think God might have spoken to me long <pb n="299 "MANY HAPPY RETURNS""/>ago? What a lot of trouble it would have saved if He had just pulled me up sharp, like He did yesterday, and showed me the duty I was neglecting."</p>
+<p>"I was a mere baby, Paul&#x2014;now I've grown up. Don't you think God might have spoken to me long <pb n="299 'MANY HAPPY RETURNS'"/>ago? What a lot of trouble it would have saved if He had just pulled me up sharp, like He did yesterday, and showed me the duty I was neglecting."</p>
 
 <p>Calladine shook his head. He could not follow her into that region. The thing she was talking about was a mystery beyond his power to comprehend. But he no longer denied or even belittled it. He had seen its operation in his son's life, and what had now happened justified Edgar's entire belief. It was in expectation of some such miracle being wrought that he had taken his mother to Winterstowe and had then simply waited till it should be wrought.</p>
 
@@ -5728,7 +5718,7 @@ MORNING"/>for Polly's onslaught on stove and floor, while that worthy proceeded 
 
 <p>"Dear old man," she said, and the elderly waiter from the other side of the room saw Calladine stoop to touch his wife's hand with his lips, and would have given a good deal to know their story.</p>
 
-<pb n="301 "MANY HAPPY RETURNS""/>
+<pb n="301 'MANY HAPPY RETURNS'"/>
 
 <p>They passed out together by-and-by, and Calladine, with an odd little smile lurking at the corners of his mouth, gave him half-a-crown.</p>
 
@@ -6546,10 +6536,10 @@ proclaiming that the Lord God Omnipotent reigneth.</p><trailer>THE END</trailer>
 
 </body>
 
-<back>
+<back id="dlbond1206">
 
 <div id="dlbondbm" type="colophon">
-<p> Printed by Hasell, Watson &#x0026; Viney,Ltd., London and Aylesbury</p>
+<p>Printed by Hasell, Watson &#x0026; Viney, Ld., London and Aylesbury.</p>
 </div>
 </back>
 
