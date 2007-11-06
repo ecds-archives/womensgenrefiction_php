@@ -1,12 +1,12 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2> 
-<teiHeader> 
+<TEI.2 id="egthree1201"> 
+<teiHeader id="egthree1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>Three Weeks, an electronic edition</title> 
-<author n="Glyn, Elinor, 1864-1943">Elinor Glyn</author> 
+<author><name type="person" reg="Glyn, Elinor, 1864-1943">Elinor Glyn</name></author> 
 </titleStmt> 
-<extent></extent> 
+<extent>300Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -51,9 +51,9 @@
 <rs type="language">English</rs> 
 <rs type="ethnicity">Caucasian</rs> 
 <rs type="form">Unedited</rs> 
-<rs type="genre">Short Stories</rs> 
+<rs type="genre">Novel</rs> 
 <rs type="geography">Great Britain</rs> 
-<date>1800-1899</date> 
+<date>1900-1999</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
@@ -61,17 +61,17 @@
 <item>British literature--20th Century--Fiction.</item> 
 <item>Women authors, British--20th Century.</item> 
 <item>Adultery.</item> 
-<item>Marital Conflict.</item> 
-<item> Fatherhood</item>
-<item> Murder</item>
-<item> Age difference-relationships</item>
+<item>Marital conflict.</item> 
+<item>Fatherhood.</item>
+<item>Murder.</item>
+<item>Age difference in relationships.</item>
 </list> 
 </keywords> 
 </textClass> 
 </profileDesc> 
 <revisionDesc> 
 <change> 
-<date>2007-june- 28</date> 
+<date>2007-June-28</date> 
 <respStmt>
 <name>Shruthi Vissa</name> 
 <resp>Encoder.</resp>
@@ -80,61 +80,63 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
+<text id="egthree1203">
+<front id="egthree1204">
 <div id="egthreecover" type="Front Cover">
-<figure entity="egthreefc" rend="inline">
-<figDesc> Front Cover of Glyn's "Three Weeks"</figDesc>
-</figure>
+<figure entity="egthreecover" rend="inline">
+<figDesc>Front Cover of Glyn's "Three Weeks"</figDesc>
+</figure></div>
+
+<div id="egthreespine" type="Spine">
+<figure entity="egthreespine" rend="inline">
+<figDesc>Spine of Glyn's "Three Weeks"</figDesc></figure>
 </div>
 
 <pb/>
-<pb n="[1]"/>
-<pb entity="egthreetp" pages="Title Page"/>
-<titlePage type="full">
+<pb/>
+<titlePage type="half">
 <docTitle>
-<titlePart type="main"> THREE WEEKS</titlePart>
+<titlePart type="main">THREE WEEKS</titlePart>
 </docTitle>
 </titlePage>
 
-<pb n="[2]"/>
+<pb/>
 <div id="egthree100" type="advert">
-<figure entity="egthreead" rens="inline">
-<figDesc> Advert included in front of Glyn's "Three Paths"</figDesc>
+<figure entity="egthreead" rend="inline">
+<figDesc>Advert included in front of Glyn's "Three Weeks"</figDesc>
 </figure>
 </div>
 
 <pb/>
-<pb n="[3"/>
 <div id="egthreefm1" type="frontispiece">
-<figure entity="egthreeill" rend="inline">
-<p>"Paul- what do you know of lovers- or love?" she said. "My baby Paul"</p>
-<figDesc> Ilustration included in front of Glyn's "Three Weeks"</figDesc>
+<figure entity="egthreeill1" rend="inline">
+<p>"Paul&#x2014;what do you know of lovers&#x2014;or love?" she said.<lb/>"My baby Paul!"</p>
+<figDesc>Frontispiece of Glyn's "Three Weeks"</figDesc>
 </figure>
 </div>
-<pb n="[4]"/>
+<pb/>
 
+<pb entity="egthreetp2" n="Title Page"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main"> Three Weeks </titlePart>
+<titlePart type="main">Three Weeks</titlePart>
 </docTitle>
 <byline> BY<docAuthor> Elinor Glyn </docAuthor> Author of <lb/> "Beyond the Rocks," etc. </byline>
-<titlePart type="desc"> With illustrations<lb/> From The Goldwyn Photo-Play <lb/> Starring <lb/> Aileen Pringle  and Conrad Nagel</titlePart>
+<titlePart type="desc">With illustrations<lb/> From The Goldwyn Photo-Play <lb/> Starring <lb/> Aileen Pringle  and Conrad Nagel</titlePart>
 <docImprint>
 <pubPlace> New York</pubPlace>
 <publiser> The Macauley Company</publiser>
 </docImprint>
 </titlePage>
 
-<pb n="[5]"/>
+<pb/>
 <div id="egthreefm2" type="copyright">
-<figure entity="egthreetpv" rend="inline">
-<figDesc> Copyright page for Glyn's "Three Weeks"</figDesc>
+<figure entity="egthreecopy" rend="inline">
+<figDesc>Copyright page for Glyn's "Three Weeks"</figDesc>
 </figure>
 </div>
 
 <pb n="[i]"/>
-
 <div id="egthree101" type="preface">
 <head>INTRODUCTION TO<lb/>
 MY AMERICAN READERS</head>
@@ -147,9 +149,16 @@ who comes as an echo of something straight and true in manhood which, in outward
 as "the Lady's," passion would never have run riot until it was sated--she would have daily grown nobler in her desire to make her Loved One's son a splendid man.</p>
 <p>And to all who read, I say--at least be just! and do not skip. No line is written without its having a bearing upon the next, and in its small scope helping to make the presentment of these two human beings vivid and clear.</p>
 <p>The verdict I must leave to the Public, but now, at all events, you know, kind Reader, that <hi rend="italic">to me</hi>, the "Imperatorskoye" appears a noble woman, because she was absolutely faithful to the man she had selected as her mate, through the one motive which makes a union moral in ethics--Love.</p>
-<closer><signed>--Elinor Glyn.</signed></closer></div>
+<closer><signed>&#x2014;<name>Elinor Glyn</name>.</signed></closer></div>
+<pb n="[iv]"/>
+<pb n="[v]"/>
+<div id="egthreeilltc" type="List of Illustrations">
+<figure entity="egthreeill" rend="inline">
+<figDesc>List of Illustrations for Glyn's "Three Weeks"</figDesc>
+</figure>
+</div>
 </front>
-<body>
+<body id="egthree1205">
 <pb n="1"/>
 <div id="egthree001" type="chapter" n="1">
 <head>THREE WEEKS<lb/>
@@ -253,7 +262,7 @@ thought comforted him a little. As far as he could see beyond the roses and the 
 <p>Then the speculation as to her nationality began. French? assuredly not. English? ridiculous! Equally so German. Italian? perhaps. Russian? possibly. Hungarian? probably.</p>
 <p>Paul had drunk his third glass of port and was beginning his fourth. This was far more than his usual limit. Paul was, as a rule, an abstemious young man. Why he should have deliberately sat and drank that night he never knew. His dinner had been moderate--distinctly moderate--and he had watched a refined feast of Lucullus partaken of by a woman who only <hi rend="italic">tasted</hi> each <hi rend="italic">plat</hi>!</p>
 <p>"I wonder what she will have to say for it all?" he thought to himself. "She will probably sign the bill, though, and I shan't see."</p>
-But when the lady had finished her nectarine and
+<p>But when the lady had finished her nectarine and
 <pb n="15     THREE WEEKS"/>
 dipped her slender fingers in the rose-water she got up--she had not smoked, she could not be Russian then--got up and walked towards the door, signing no bill, and paying no gold.</p>
 <p>Paul stared as she passed him--rudely stared--he knew it afterwards and felt ashamed. However, the lady never so much as noticed him, nor did she raise her eyes, so that when she had finally disappeared he was still unaware of their colour or expression.</p>
@@ -302,18 +311,18 @@ wonder came back to him, where was she to-day--the lady with the eyes? Or had he
 <p>He knew he was gazing into her eyes, and he thought he knew they were green. They looked larger than
 <pb n="21     THREE WEEKS"/>
 he had imagined them to be. They were set so beautifully, too, just a suspicion of rise at the corners. And their expression was mocking and compelling--and--But she let go the branches and disappeared from view.</p>
-<p>Paul stood still. He was thrilling all over. Should he bound in among the trees and follow her? Should he call out and ask her to come back? Should he--? But when he had decided and gained the spot where she must have stood, he saw it was a junction of three paths, and he was in perfect ignorance which one she had taken. He rushed down the first of them, but it twisted and turned, and when he had gone far enough to see ahead--there was no one in sight. So he retraced his steps and tried the second. This, too, ended in disappointment. And the third led to an opening where he could see the descending <hi rend=italic">funiculaire</hi>, and just as it sank out of view he caught sight of a black dress, almost hidden by a standing man's figure, whom he recognized as the elderly silver-haired servant.</p>
+<p>Paul stood still. He was thrilling all over. Should he bound in among the trees and follow her? Should he call out and ask her to come back? Should he--? But when he had decided and gained the spot where she must have stood, he saw it was a junction of three paths, and he was in perfect ignorance which one she had taken. He rushed down the first of them, but it twisted and turned, and when he had gone far enough to see ahead--there was no one in sight. So he retraced his steps and tried the second. This, too, ended in disappointment. And the third led to an opening where he could see the descending <hi rend="italic">funiculaire</hi>, and just as it sank out of view he caught sight of a black dress, almost hidden by a standing man's figure, whom he recognized as the elderly silver-haired servant.</p>
 <p>Paul had learnt a number of swear-words at Eton and Oxford. And he let the trees hear most of them then.</p>
 <p>He could not get down himself until the train returned, and by that time where would she be? To go by the paths would take an eternity. This time circumstance had fairly done him.</p>
 <pb n="22     THREE WEEKS"/>
 <p>Presently he sauntered back to the little hotel whose terrace commands the lake far below, and eagerly watched the craft upon it, he thought he caught sight of a black figure reclining in an electric launch which sped over the blue water.</p>
 <p>Then he began to reason with himself. Why should the sight of this woman have caused him such violent emotion? Why? Women were jolly things that did not matter much--except Isabella. She mattered, of course, but somehow her mental picture came less readily to his mind than usual. The things he seemed to see most distinctly were her hands--her big red hands. And then he unconsciously drifted from all thought of her.</p>
 <p>"She certainly looks younger in daylight," he said to himself. "Not more than thirty perhaps. And what strange hats with that shadow over her eyes. What is she doing here all alone?  She must be somebody from the people in the hotel making such a fuss--and that servant--Then why alone?" He mused and mused.</p>
-<p>She was not a <hi rend=italic">demi-mondaine</hi>. The English ones he knew were very ordinary people, but be had heard of some of the French ladies as being quite <hi rend=italic">grande dame</hi>, and travelling <hi rend=italic">en prince.</hi> Yet he was convinced this was not one of them. Who <hi rend=italic">could</hi> she be? He must know.</p>
+<p>She was not a <hi rend="italic">demi-mondaine</hi>. The English ones he knew were very ordinary people, but be had heard of some of the French ladies as being quite <hi rend="italic">grande dame</hi>, and travelling <hi rend="italic">en prince.</hi> Yet he was convinced this was not one of them. Who <hi rend="italic">could</hi> she be? He must know.</p>
 <pb n="23     THREE WEEKS"/>
 <p>To go back to the hotel would be the shortest way to find out, and so by the next descending train he left the B&#x00FC;rgenstock.</p>
-<p>He walked up and down under the lime-trees outside the terrace of her rooms for half an hour, but was not rewarded in any way for his pains. And at last he went in. He, too, would have a dinner worth eating, he thought. So he consulted the <hi rend=italic">ma&#x00EF;tre d'h&#x00F4;tel</hi> on his way up to dress, and together they evolved a banquet. Paul longed to question the man about the unknown, but as yet he was no actor, and he found he felt too much about it to do it naturally.</p>
-<p>He dressed with the greatest care, and descended at exactly half-past eight. Yes, the table was laid for her evidently--but there were giant carnations, not roses, in the silver vase to-night. How quickly the waiters seemed to bring things! And what a frightful lot there was to eat! And dawdle as he would, by nine o'clock he had almost finished. Perhaps it would be as well to send for a newspaper again. Anything to delay his having to rise and go out. An anxious, uncomfortable gnawing sense of expectancy dominated him. How ridiculous for a woman to be so late! What cook could do justice to his dishes if they were thus to be kept waiting? She couldn't possibly have <hi rend=italic">ordered</hi> it for half past nine, surely! Gradually, as that hour passed and his second cup of coffee
+<p>He walked up and down under the lime-trees outside the terrace of her rooms for half an hour, but was not rewarded in any way for his pains. And at last he went in. He, too, would have a dinner worth eating, he thought. So he consulted the <hi rend="italic">ma&#x00EF;tre d'h&#x00F4;tel</hi> on his way up to dress, and together they evolved a banquet. Paul longed to question the man about the unknown, but as yet he was no actor, and he found he felt too much about it to do it naturally.</p>
+<p>He dressed with the greatest care, and descended at exactly half-past eight. Yes, the table was laid for her evidently--but there were giant carnations, not roses, in the silver vase to-night. How quickly the waiters seemed to bring things! And what a frightful lot there was to eat! And dawdle as he would, by nine o'clock he had almost finished. Perhaps it would be as well to send for a newspaper again. Anything to delay his having to rise and go out. An anxious, uncomfortable gnawing sense of expectancy dominated him. How ridiculous for a woman to be so late! What cook could do justice to his dishes if they were thus to be kept waiting? She couldn't possibly have <hi rend="italic">ordered</hi> it for half past nine, surely! Gradually, as that hour passed and his second cup of coffee
 <pb n="24     THREE WEEKS"/>
 had been sipped to its finish, Paul felt a sickening sense anger and disappointment. He got up abruptly and went out  In the hall, coming from the corridor of her rooms, he met the lady face to face.</p>
 <p>Then rage with himself seized him. Why had he not waited? For no possible reason could he go back now. And what a chance to look at her missed--and all thrown away.</p>
@@ -341,7 +350,7 @@ clocks chimed in the town. No, there was no hope; he would see her no more that 
 <p>And round to the little gate Paul flew.</p>
 </div>
 <pb n="28"/>
-</div><div id="egthree003" type="chapter" n="3">
+<div id="egthree003" type="chapter" n="3">
 <head>CHAPTER III</head>
 <p>Paul was never quite sure of what happened that evening--everything was so wonderful, so unusual, so unlike his ordinary life. The gate was unlocked he found when he got there, but no one appeared to be inside, and he bounded up the steps and on to the terrace. Silence and darkness--was she fooling him then? No, there she was by the windows; he could dimly see her outline as she passed into the room beyond, through some heavy curtains. That was why no light came through to the terrace. He followed, dropping them after him also, and then he found himself in a room as unlike a hotel as he could imagine. It may have had the usual brocade walls and gilt chairs of the "best suite," but its aspect was so transformed by her subtle taste and presence, it seemed to him unique, and there were masses of flowers--roses, big white ones--tuberoses--lilies of the valley, gardenias, late violets. The lights were low and shaded, and a great couch filled one side of the room beyond the fireplace. Such a couch! covered with a tiger-skin and piled with pillows, all shades of rich purple velvet and silk, embroidered with silver and gold--unlike any
 <pb n="29     THREE WEEKS"/>
@@ -349,13 +358,13 @@ pillows he had ever seen before, even to their shape. The whole thing was differ
 <p>The lady had reached the couch, and sank into it. She was in black still, but gauzy, clinging black, which seemed to give some gleam of purple underneath. And if he had not been sure that in daylight he had thought they were green, he would have sworn the eyes which now looked into his were deepest violet, too.</p>
 <p>"Come," she said. "You may sit here beside me and tell me what you think."</p>
 <p>And her voice was like rich music--but she had hardly any accent. She might have been an Englishwoman almost, for that matter, and yet he somehow knew that she was not. Perhaps it was she pronounced each word; nothing was slurred over. Without her hat she looked even more attractive, and certainly younger. But what was age or youth? And what was beauty itself, when a woman whose face was neither young nor beautiful could make him feel he was looking at a divine goddess, and thrilling as he had never dreamt of doing in his short life?</p>
-<p>If any one had told Paul this was going to happen to him, this experience, he would have laughed them to scorn. To begin with, he was rather shy with ladies as a rule, and had not learnt a trick of <hi rend=italic">entre-
+<p>If any one had told Paul this was going to happen to him, this experience, he would have laughed them to scorn. To begin with, he was rather shy with ladies as a rule, and had not learnt a trick of <hi rend="italic">entre-
 <pb n="30     THREE WEEKS"/>
 prenance</hi>. It took him quite a while to know one well enough to even talk at ease. And yet here he was, embarked upon an adventure which savoured of the Arabian Nights.</p>
 <p>He came forward and sat down, and he could feel the pulse beating in his throat. It all seemed perfectly natural at the time, but afterwards he wondered how she had known his name was Paul--and how it had all come to pass.</p>
 <p>"For three days you have thought of me, Paul--is it not so?" she said, half closing her lids.</p>
 <p>But he could only blurt out "Yes!" while he devoured her with his eyes.</p>
-<p>"We are both--how shall I say--drifting--holiday-making--trying to forget. And we must talk a little together, <hi rend=italic">n'est-ce pas</hi>? Tell me?"</p>
+<p>"We are both--how shall I say--drifting--holiday-making--trying to forget. And we must talk a little together, <hi rend="italic">n'est-ce pas</hi>? Tell me?"</p>
 <p>"Oh, yes!" said Paul.</p>
 <p>"You are beautiful, you know, Paul," she went on.</p>
 <p>"So tall and straight like you English, with curly hair of gold. Your mother must have loved you as a baby."</p>
@@ -371,7 +380,7 @@ prenance</hi>. It took him quite a while to know one well enough to even talk at
 <p>Paul felt jealous. Lord Hubert Aldringham's reputation--for some things--was European. "I hope so," he said with emphasis. "And you knew him well then, too?"</p>
 <p>"I never said so," replied the lady. "I saw him once--twice perhaps--years ago--at the marriage of a princess. There, it has made you frown, we will speak no more of the Uncle Hubert!" and she leant back and laughed.</p>
 <p>Paul felt very young. He wanted to show her he was grown up, and he wanted a number of things which had never even formed themselves in his imagination before. But she went on talking.</p>
-<p>"And your <hi rend="italic">cotelettes</hi> were tough, Paul, and you were so cross that first evening, and hated me! And oh! Paul, you had far too much wine for a boy like you!"</p>
+<p>"And your <hi rend="Âitalic">cotelettes</hi> were tough, Paul, and you were so cross that first evening, and hated me! And oh! Paul, you had far too much wine for a boy like you!"</p>
 <p>He reddened to the roots of his fair wavy hair, and then he hung his head.</p>
 <pb n="32     THREE WEEKS"/>
 <p>"I know I did--it was beastly of me--but I was so--upset--I--"</p>
@@ -395,8 +404,8 @@ prenance</hi>. It took him quite a while to know one well enough to even talk at
 <p>"I was upset--over you. I was angry because I was so interested--" and he reddened again.</p>
 <p>She leant back among the purple cushions, her figure so supple in its lines, it made him think of a snake.</p>
 <p>She half closed her eyes again--and she spoke low in a dreamy voice:</p>
-<p>"It was fate, Paul. I knew it when I entered the room. I felt it again among the green trees, and so I ran from you--but to-night it is <hi rend=italic">plus fort que moi</hi>--so I called you to come in."</p>
-<p>"I am so glad--so <hi rend=italic">glad</hi>," said Paul.</p>
+<p>"It was fate, Paul. I knew it when I entered the room. I felt it again among the green trees, and so I ran from you--but to-night it is <hi rend="italic">plus fort que moi</hi>--so I called you to come in."</p>
+<p>"I am so glad--so <hi rend="italic">glad</hi>," said Paul.</p>
 <p>She remained silent. Her eyes in their narrowed lids gleamed at him, seeming to penetrate into his very
 <pb n="34     THREE WEEKS"/>
 soul. And now he noticed her mouth again. It neither drooped nor smiled, it was straight, and chiselled and strong, and small rather, and the lower lip was rounded and slightly cleft in the centre. A most appetising red flower of a mouth.</p>
@@ -420,28 +429,28 @@ hurt, because I know that only you can teach me--just how--"</p>
 tuberoses, scattered on the pillow beside him. Presently, when his blue eyes began to take in the meaning of things, he remembered and bounded up. For was not this the commencement of his first real day?</p>
 </div>
 <pb n="37"/>
-</div><div id="egthree004" type="chapter" n="4">
+<div id="egthree004" type="chapter" n="4">
 <head>CHAPTER IV</head>
 <p>The problem which faced Paul, when he had finished a very late breakfast, was how he should see her soon--the lady in black.</p>
 <p>He could not go and call like an ordinary visitor, because he did not know her name! That was wonderful--did not even know her name, or anything about her, only that his whole being was thrilling with anxiety to see her again.</p>
 <p>The simplest thing to do seemed to descend into the hall and look at the Visitors' List, which he promptly did.</p>
 <p>There were only a few people in the hotel; it was not hard, therefore, guessing at the numbers of the rooms, to arrive at the conviction that "Mme. Zalenska and suite" might be what he was searching for. Zalenska--she was possibly Russian after all. And what was her Christian name? That he longed to know.</p>
 <p>As he stood staring, his fair forehead puckered into a frown of thought, the silver-haired servant came up behind him and said, with his respectful, dignified bearing:</p>
-<p>"<hi rend=italic">De la part de Madame</hi>," handing Paul a letter the while.</p>
+<p>"<hi rend="italic">De la part de Madame</hi>," handing Paul a letter the while.</p>
 <pb n="38     THREE WEEKS"/>
 <p>What could it contain?</p>
 <p>But this was not the moment for speculation--he would read and see.</p>
 <p>He turned his back on the servant, and walked towards the light, while he tore open the envelope. It had the most minute sphinx in the corner, and the paper was un-English, and rather thin.</p>
 <p>This was what he read:</p>
-<l><hi rend="italic">Morning.</hi></l>
+<l><hi rend="italic">Morning.</hi></l>
 <p>"Paul, I am young to-day, and we must see the blue lake and the green trees. Come to the landing towards the station, and I will call for you in my launch. And you shall be young, too, Paul--and teach me! Give Dmitry the answer."</p>
 <p>"The answer is, 'Yes, immediately'--tell Madame," Paul said.</p>
 <p>And then he trod on air until he arrived at the landing she had indicated. Soon the launch glided up, he saw her there reclining under an awning of striped green.</p>
 <p>It was a well-arranged launch, the comfortable deck-chairs were in the bows, and the steering took place from a raised perch behind the cabin, so the two were practically alone. The lady was in grey to-day, and it suited her strangely. Her eyes gleamed at him, full of mischief, under her large grey hat.</p>
 
-<figure entity="egthree038" type="figure">
-<p>Those eyes looking into his out of the shadow, what did they say? Surely they smiles at him</p>
-<figDesc> picture included in body of Glyn's "Three Weeks"</figDesc>
+<figure entity="egthreeill2" type="figure">
+<p>Those eyes looking into his out of the shadow, what did they say?<lb/>Surely they smiles at him.</p>
+<figDesc>Illustration between pages 38 and 39 of Glyn's "Three Weeks"</figDesc>
 </figure>
 
 <pb n="39     THREE WEEKS"/>
@@ -468,7 +477,7 @@ ing his being, some sensation he had not dreamed about even, of happiness and fu
 <pb n="41     THREE WEEKS"/>
 <p>"I thought you would--you did not control the expression when you gazed up at me! And so I was the true hare--and ran away!"</p>
 <p>She looked down suddenly and was silent for some moments, then she turned the conversation from these personal things. She led his thoughts into new channels--made him observe the trees and sky, and the wonderful beauty of it all, and with lightning flashes took him into unknown speculations on emotions and the meaning of things.</p>
-<p>A new existence seemed to open to Paul's view. And all the while she lay back in her chair almost motionless, only her wonderful eyes lit up the strange whiteness of her face. There was not a touch of <hi rend=italic">mauvaise honte</hi>, or explanation of the unusualness of this situation in her manner. It had a perfect, quiet dignity, as if to look into the eyes of an unknown young man at night over an ivy terrace, and then spend a day with him alone, were the most natural things in the world to do.</p>
+<p>A new existence seemed to open to Paul's view. And all the while she lay back in her chair almost motionless, only her wonderful eyes lit up the strange whiteness of her face. There was not a touch of <hi rend="italic">mauvaise honte</hi>, or explanation of the unusualness of this situation in her manner. It had a perfect, quiet dignity, as if to look into the eyes of an unknown young man at night over an ivy terrace, and then spend a day with him alone, were the most natural things in the world to do.</p>
 <p>Paul felt she was a queen whose actions must be left unquestioned.</p>
 <p>Presently they came to a small village, and here she would land and lunch. And from somewhere behind the cabin Dmitry appeared, and was sent on ahead, so that when they walked into the little hotel a simple repast was waiting for them.</p>
 <pb n="42     THREE WEEKS"/>
@@ -485,7 +494,7 @@ ing his being, some sensation he had not dreamed about even, of happiness and fu
 ties, or you pay these miserable francs and go back to Lucerne alone!"</p>
 <p>Paul shrugged his shoulders. He was angry, but could not insist further.</p>
 <p>When they got outside, her voice grew caressing again as she led the way to a path up among the young beeches.</p>
-<p>"Paul--foolish one" she said. "Do you not think I understand and know you--and your quaint English ways? But imagine how silly it is. I am quite aware that you have ample money to provide me with a feast of Midas--all of gold--if necessary, and you shall some day, if you really wish. But to stop over paltry sums of francs, to destroy the thread of our conversation and thoughts--to make it all banal and everyday! That is what I won't have. Dmitry is there for nothing else but to <hi rend="italic">&#x00E8;viter</hi> for me these details. It is my holiday, my pleasure-day, my time of joy. I felt young, Paul. You would not make one little shadow for me--would you, <hi rend="italic">ami</hi>?"</p>
+<p>"Paul--foolish one" she said. "Do you not think I understand and know you--and your quaint English ways? But imagine how silly it is. I am quite aware that you have ample money to provide me with a feast of Midas--all of gold--if necessary, and you shall some day, if you really wish. But to stop over paltry sums of francs, to destroy the thread of our conversation and thoughts--to make it all banal and everyday! That is what I won't have. Dmitry is there for nothing else but to <hi rend="Âitalic">&#x00E8;viter</hi> for me these details. It is my holiday, my pleasure-day, my time of joy. I felt young, Paul. You would not make one little shadow for me--would you, <hi rend="Âitalic">ami</hi>?"</p>
 <p>No voice that he had ever dreamt of possessed so many tones in it as hers--even one of pathos, as she lingered over the word "shadow." All his annoyance melted. He only felt he would change the very mainspring of his life if necessary to give her pleasure and joy.</p>
 <pb n="44     THREE WEEKS"/>
 <p>"Of course I would not make a shadow,--surely you know that," he said, moved. "Only you see a man generally pays for a woman's food."</p>
@@ -542,7 +551,7 @@ at last of the Court, and the meeting again with Hildegarde, and of all the sorr
 <p>Why wouldn't she speak? Had she forgotten him? He felt chilled and saddened.</p>
 <p>At last, as they neared a small bay where another tempting little ch&#x00E2;let-hotel mirrored itself in the clear water, he spoke. A note in his voice--his charming young voice--as of a child in distress.</p>
 <p>"Are--are you cross with me?"</p>
-<p>Then she came back from her other world. "Cross with you? Foolish one! No, I am dreaming. And I forgot that you could not know yet, or understand. English Paul! who would have me make conversation and chatter commonplaces or he feels a <hi rend="italic">g&#x00EA;ne!</hi> See, I will take you where I have been--into this infinite sky
+<p>Then she came back from her other world. "Cross with you? Foolish one! No, I am dreaming. And I forgot that you could not know yet, or understand. English Paul! who would have me make conversation and chatter commonplaces or he feels a <hi rend="Âitalic">g&#x00EA;ne!</hi> See, I will take you where I have been--into this infinite sky
 <pb n="51     THREE WEEKS"/>
 and air"--she let her hand fall on his arm and thrilled him--"look up at Pilatus. Do you see his head so snowy, and all the delicate shadows upon him, and his look of mystery? And those dark pines--and the great chasms, and the wild anger the giants were in when they hurled these huge rocks about? I have been with them, and you and I seem such little people, Paul. We cannot throw great rocks about--we are only two small ants in this grand world."</p>
 <p>Paul's face was puzzled, he did not believe in giants. His mind was not accustomed yet to these flights of speech, he felt stupid and irritated with himself, and in some way humiliated. The lady leant over him, her face playfully tender.</p>
@@ -551,8 +560,8 @@ and air"--she let her hand fall on his arm and thrilled him--"look up at Pilatus
 <p>"You know" he gasped. "You make me mad--I--But won't you teach me to see? No one wants to be blind  Teach me to see with your eyes, lady--my lady."</p>
 <p>"Yes, I will teach you!" she said. "Teach you a number of things. Together we will put on the hat of darkness and go down into Hades. We shall taste the apples of the Hesperides--we will rob Mercure of his sandals--and Gyges of his ring. And one day,
 <pb n="52     THREE WEEKS"/>
-Paul--when together we have fathomed the meaning of it all--what will happen then, <hi rend="italic">enfant?</hi>"</p>
-<p>Her last word, "<hi rend="italic">enfant</hi>," was a caress, and Paul was too bewildered with joy to answer her for a moment.</p>
+Paul--when together we have fathomed the meaning of it all--what will happen then, <hi rend="Âitalic">enfant?</hi>"</p>
+<p>Her last word, "<hi rend="Âitalic">enfant</hi>," was a caress, and Paul was too bewildered with joy to answer her for a moment.</p>
 <p>"What will happen?" he said at last. "I shall just love you--that's all!"</p>
 <p>Then he remembered Isabella Waring, and suddenly covered his face with his hands.</p>
 <p>They stopped for tea at the quaint ch&#x00E2;let-hotel, and after it they wandered to pick gentians. The lady was sweet and sympathetic and gay; she ceased startling him with wild fancies; indeed, she spoke of simple everyday things, and got him to tell her of his home and Oxford, and his horses and his dogs. And when they arrived at the subject of Pike, her sympathy drew Paul nearer to her than ever. Of course she would love Pike if she only knew him! Who could help loving a dog like Pike? And his master waxed eloquent. Then, when he looked away, the lady's weird chameleon eyes melted upon him in that strange tenderness which might have been a mother's watching the gambols of her babe.</p>
@@ -585,7 +594,7 @@ came a laugh of silver. A soft laugh that was almost a caress. And suddenly she 
 <p>And again he found himself alone, intoxicated with emotion under the night sky studded with stars.</p>
 </div>
 <pb n="56"/>
-</div><div id="egthree006" type="chapter" n="6">
+<div id="egthree006" type="chapter" n="6">
 <head>CHAPTER VI</head>
 <p>Rain, rain, rain! That was not an agreeable sound to wake to when one had not had more than a few hours' sleep, and one's only hope of the day was to see one's lady again.</p>
 <p>So Paul thought despairingly. What would happen? No lake, or mountain climb, was possible--but see her he must. After that kiss--that divine, enthralling, undreamed-of kiss. What did it mean? Did she love him? He loved her, that was certain. The poor feeble emotion he had experienced for Isabella was completely washed out and gone now.</p>
@@ -595,11 +604,11 @@ came a laugh of silver. A soft laugh that was almost a caress. And suddenly she 
 honest thing to do. A terrible duty, and he must brace himself up to accomplish it.</p>
 <p>He breakfasted in his sitting-room, his thoughts scourging him the while, and afterwards, with a bulldog determination, he faced the writing-table and began.</p>
 <p>He tore up at least three sheets to start with--no Greek lines of punishment in his boyhood had ever appeared such a task as this. He found himself scribbling profiles on the paper, chiselled profiles with inky hair--but no words would come.</p>
-<milestone rend="blank-line" type="section"/>
+<milestone unit="section" rend="blank-line"/>
 <p>"Dear Isabella," he wrote at last. No--"My dear Isabella," then he paused and bit the pen. "I feel I ought to tell you something has happened to me. I see my parents were right when--"   "Oh! dash it all," he said to himself, "it's a beastly sneaking thing to do to put it like that," and he scratched the paragraph out and began again. "I have made a mistake in my feelings for you; I know now that they were those of a brother--"  "Oh Lord, what am I to say next, it does sound bald, this!" The poor boy groaned and ran his hands through his curly hair, then seized the pen again, and continued--"as such I shall love you always, dear Isabella. Please forgive me if I have caused you any pain. It was all my fault, and I feel a beastly cad.--Your very unhappy PAUL."</p>
 <pb n="58     THREE WEEKS"/>
 <p>This was not a masterpiece; but it would have to do. So he copied it out on a fresh piece of paper. Then, when it was all finished and addressed he ran down and posted it himself in the hall, with some of the emotions Alexander may have experienced when he burnt his ships.</p>
-<p>The clock struck eleven. At what time would he see the lady--<hi rend=italic">his</hi> lady he called her now. Some instinct told him she did not wish the hotel people to be aware of their acquaintance. He felt it wiser not to send a note. He must wait and hope.</p>
+<p>The clock struck eleven. At what time would he see the lady--<hi rend="italic">his</hi> lady he called her now. Some instinct told him she did not wish the hotel people to be aware of their acquaintance. He felt it wiser not to send a note. He must wait and hope.</p>
 <p>Rain or not, he was too English to stay indoors all day. So out he went and into the town. The quaint bridge pleased him; he tried to think how she would have told him to use his eyes. He must not be stupid, he said to himself, and already he began to perceive new meanings in things. Coming back, he chanced to stop and look in at the fur shop under the hotel. There were some nice skins there, and what caught his attention most was a really splendid tiger. A magnificent creature the beast must have been. The deepest, most perfectly marked, largest one he had ever seen. He stood for some time admiring it. An infinitely better specimen than his lady had over her couch. Should he buy it for her? Would she take it? Would it please her to think he had remembered it might be what she would like?</p>
 <pb n="59     THREE WEEKS"/>
 <p>He went into the shop. It was not even dear as tigers go, and his parents had given him ample money for any follies.</p>
@@ -614,23 +623,23 @@ blue eyes gazed through and beyond her, and saw her not. So all this prettiness 
 <p>Then he went into his bedroom and fetched a pair of scissors, and proceeded to kneel on the floor and pare away the pinked-out black cloth which came beyond the skin. It looked banal, and he knew she would not like that.</p>
 <p>Oh! he was awaking! this beautiful young Paul.</p>
 <p>He had scarcely finished when there was a tap at the door, and Dmitry appeared with a note. The thin, remembered paper thrilled him, and he took it from the servant's hand.</p>
-<milestone rend="blank-line" type="section"/><p>"Paul--I am in the devil's mood to-day. About 5 o'clock come to me by the terrace steps."</p>
-<milestone rend="blank-line" type="section"/>
+<milestone unit="section" rend="blank-line"/><p>"Paul--I am in the devil's mood to-day. About 5 o'clock come to me by the terrace steps."</p>
+<milestone unit="section" rend="blank-line"/>
 <p>That was all--there was no date or signature. But Paul's heart beat in his throat with joy.</p>
 <p>"I want the skin to go to Madame," he said. "Have you any means of conveying it to her without the whole world seeing it go?"</p>
 <pb n="61     THREE WEEKS"/>
-<p>The stately servant bowed. "If the Excellency would help him to fold it up," he said, "he would take it now to his own room, and from thence to the <hi rend=italic">appartement numero 3</hi>."</p>
+<p>The stately servant bowed. "If the Excellency would help him to fold it up," he said, "he would take it now to his own room, and from thence to the <hi rend="italic">appartement numero 3</hi>."</p>
 <p>It is not a very easy thing to fold up a huge tiger-skin into a brown paper parcel tied with string. But it was accomplished somehow and Dmitry disappeared noiselessly with it and an answer to the note:</p>
-<milestone rend="blank-line" type="section"/>
+<milestone unit="section" rend="blank-line"/>
 <p>"I will be there, sweet lady.</p>
 <l>"Your own PAUL."</l>
-<milestone rend="blank-line" type="section"/>
+<milestone unit="section" rend="blank-line"/>
 <p>And he was.</p>
 <p>A bright fire burnt in the grate, and some palest orchid-mauve silk curtains were drawn in the lady's room when Paul entered from the terrace. And loveliest sight of all, in front of the fire, stretched at full length, was his tiger--and on him--also at full length--reclined the lady, garbed in some strange clinging garment if heavy purple cr&#x00EA;epe, its hem embroidered with gold, one white arm resting on the beast's head, her back supported by a pile of the velvet cushions, and a heap of rarely bound books at her side, while between her lips was a rose not redder than they--an almost scarlet rose. Paul had never seen one as red before.</p>
 <p>The whole picture was barbaric. It might have been some painter's dream of the Favourite in a harem.
 <pb n="62     THREE WEEKS"/>
 It was not what one would expect to find in a sedate Swiss hotel.</p>
-<p>She did not stir as he stepped in, dropping the heavy curtains after him. She merely raised her eyes, and looked Paul through and through. Her whole expression was changed; it was wicked and dangerous and <hi rend="italic">provocante</hi>. It seemed quite true, as she had said--she was evidently in the devil's mood.</p>
+<p>She did not stir as he stepped in, dropping the heavy curtains after him. She merely raised her eyes, and looked Paul through and through. Her whole expression was changed; it was wicked and dangerous and <hi rend="Âitalic">provocante</hi>. It seemed quite true, as she had said--she was evidently in the devil's mood.</p>
 <p>Paul bounded forward, but she raised one hand to stop him.</p>
 <p>"No! you must not come near me, Paul. I am not safe to-day. Not yet. See, you must sit there and we will talk."</p>
 <p>And she pointed to a great chair of Venetian workmanship and wonderful old velvet which was new to his view.</p>
@@ -646,7 +655,7 @@ have got your skin--for the joy of my skin!" And she quivered again with the mov
 <p>Then he gasped at his own boldness.</p>
 <p>With a lightning movement she lay on her face, raised her elbows on the tiger's head, and supported her chin in her hands. Perfectly straight out her body was, the twisted purple drapery outlining her perfect shape, and flowing in graceful lines beyond--like a serpent's tail. The velvet pillows fell scattered at one side.</p>
 <pb n="64     THREE WEEKS"/>
-"Paul--what do you know of lovers--or love?" she said. "My baby Paul!"</p>
+<p>"Paul--what do you know of lovers--or love?" she said. "My baby Paul!"</p>
 <p>"I know enough to know I know nothing yet which is worth knowing," he said confusedly. "But--but--don't you understand, I want you to teach me--"</p>
 <p>"You are so sweet, Paul! when you plead like that. I am taking in every bit of you. In your way as perfect as this tiger. But we must talk--oh! such a great, great deal--first."</p>
 <p>A rage of passion was racing through Paul, his incoherent thoughts were that he did not want to talk--only to kiss her--to devour her--to strangle her with love if necessary.</p>
@@ -671,13 +680,13 @@ eyes--half closed and gleaming--burnt into his brain. It seemed as if strange fl
 <p>Paul was young and unlearned in many things. He was completely enthralled and under her dominion--
 <pb n="67     THREE WEEKS"/>
 but he was naturally no weakling of body or mind. And this was more than he could stand.</p>
-<p>"<hi rend="italic">You</hi> mustn't be teased. My God! it is you who are maddening me!" he cried, his voice hoarse with emotion. "Do you think I am a statue, or a table, or chair--or inanimate like that tiger there? I am <hi rend="italic">not</hi>, I tell you!" and he seized her in his arms, raining kisses upon her which, whatever they lacked in subtlety, made up for in their passion and strength. "Some day some man will kill you, I suppose, but I shall be your lover--first!"</p>
+<p>"<hi rend="Âitalic">You</hi> mustn't be teased. My God! it is you who are maddening me!" he cried, his voice hoarse with emotion. "Do you think I am a statue, or a table, or chair--or inanimate like that tiger there? I am <hi rend="Âitalic">not</hi>, I tell you!" and he seized her in his arms, raining kisses upon her which, whatever they lacked in subtlety, made up for in their passion and strength. "Some day some man will kill you, I suppose, but I shall be your lover--first!"</p>
 <p>The lady gasped. She looked up at him in bewildered surprise, as a child might do who sets a light to a whole box of matches in play. What a naughty, naughty toy to burn so quickly for such a little strike!</p>
 <p>But Paul's young, strong arms held her close, she could not struggle or move. Then she laughed a laugh of pure glad joy.</p>
 <p>"Beautiful, savage Paul," she whispered. "Do you love me? Tell me that?"</p>
 <p>"Love you!" he said. "Good God! Love you! Madly, and you know it, darling Queen."</p>
 <p>"Then," said the lady in a voice in which all the caresses of the world seemed melted, "then, sweet Paul, I shall teach you many things, and among them I shall teach you how--to--LIVE."</p>
-<milestone rend="dots" type="section"/>
+<milestone unit="section" rend="dots"/>
 <pb n="68     THREE WEEKS"/>
 <p>And outside the black storm made the darkness fall early. And inside the half-burnt logs tumbled together, causing a cloud of golden sparks, and then the flames leapt up again and crackled in the grate.</p>
 </div>
@@ -690,7 +699,7 @@ but he was naturally no weakling of body or mind. And this was more than he coul
 sharpened, so that he noticed the texture of the cloth and the quality of the glass, and the shape of the room and its decoration.</p>
 <p>And how insupportably commonplace the good English family seemed! That bread-and-butter miss with her pink cheeks and fluffy hair, without a hat! Women's hair should be black and grow in heavy waves. He was certain of that now. How like them to come into a foreign restaurant hatless, just because they were English and must impose their customs! He sat and mused on it all, as he looked at his velvet-clad Queen. A sense of complete joy and satisfaction stealing over him, his wild excitement and emotion calmed for the time.</p>
 <p>The delightful sensation of sharing a secret with her--a love-secret known only to themselves. Think, if these Philistines guessed at it even! their faces. And at this thought Paul almost laughed aloud.</p>
-<p>With passionate interest he absorbed every little detail about his lady. How exactly she knew what suited her. How refined and <hi rend=italic">grande dame</hi> and quiet it all was, and what an air of breeding and command she had in the poise of her little Greek head.</p>
+<p>With passionate interest he absorbed every little detail about his lady. How exactly she knew what suited her. How refined and <hi rend="italic">grande dame</hi> and quiet it all was, and what an air of breeding and command she had in the poise of her little Greek head.</p>
 <p>What did it matter what age she was, or of what nation? What did anything matter since she was his? And at that thought his heart began to beat again and cause him to speculate as to his evening.</p>
 <pb n="71     THREE WEEKS"/>
 <p>Would she let him come back to the terrace room after dinner, or must he get through the time as best he could? When he had left her, half dazed with joy and languor, no arrangements had been made--no definite plans settled. But of course she could not mean him not to wish her good-night--not now. For one second before she left the room their eyes met, she raised a red rose, which she had taken from the silver vase, casually to her lips, and then passed out, but Paul knew she had meant the kiss for him, and his whole being was uplifted.</p>
@@ -713,7 +722,7 @@ woman for her lover? And if so, why was he alone now instead of holding her in h
 <head>CHAPTER VIII</head>
 <p>Next day they went to the B&#x00FC;rgenstock to stay. It was all arranged with consummate simplicity. Paul was to start for a climb, he told his valet, and for a week they would leave Lucerne. Mme. Zalenska was not very well, it appeared, and consented to try, at the suggestion of the amiable manager--inspired by Dmitry--a few days in higher air. There would not be a soul in their hotel on top of the B&#x00FC;rgenstock probably, and she could have complete rest.</p>
 <p>They did not arrive together, Paul was the first. He had not seen her. Dmitry had given him his final instructions, and he awaited her coming with passionate impatience.</p>
-<p>He had written to her, on awaking, a coherent torrent of love, marvellously unlike the letter which had gone to poor Isabella only a few days before. In this to his lady he had said he could not bear it <hi rend="italic">now</hi>, the uncertainty of seeing her, and had suggested the B&#x00FC;rgenstock crudely, without any of the clever details which afterwards made it possible.</p>
+<p>He had written to her, on awaking, a coherent torrent of love, marvellously unlike the letter which had gone to poor Isabella only a few days before. In this to his lady he had said he could not bear it <hi rend="Âitalic">now</hi>, the uncertainty of seeing her, and had suggested the B&#x00FC;rgenstock crudely, without any of the clever details which afterwards made it possible.</p>
 <p>He--Paul Verdayne, not quite twenty-three years old, and English--to suggest without a backward
 <pb n="75     THREE WEEKS"/>
 thought or qualm that a lady whom he had known five days should come and live with him and be his love! None of his friends accustomed to his bashful habits would have believed it. Only his father perhaps might have smiled.</p>
@@ -728,7 +737,7 @@ thought or qualm that a lady whom he had known five days should come and live wi
 <p>The tiger--his tiger--had arrived in the sitting room, and some simple cushions of silk; sweet-peas and spring flowers decorated the vases--there were, no tuberoses, or anything hot-house, or forced.</p>
 <p>The sun blazed in at the windows, the green trees all washed and fresh from the rain gladdened his eye, and down below, a sapphire lake reflected the snow-capped mountains. What a setting for a love-dream. No wonder Paul trod on air!</p>
 <p>The only possible crumpled rose-leaves were some sentences in the lady's reply to his impassioned letter of the morning:</p>
-<milestone rend="blank-line" type="section"/>
+<milestone unit="section" rend="blank-line"/>
 <p>"Yes, I will come, Paul--but only on one condition, that you never ask me questions as to who I am, or where I am going. You must promise me to take life as a summer holiday--an episode--and if fate gives
 <pb n="77     THREE WEEKS"/>
 us this great joy, you must not try to fetter me, now or at any future time, or control my movements. You must give me your word of honour for this--you will never seek to discover who or what was your loved one--you must never try to follow me. Yes, I will come for now--when I have your assurance--but I will go when I will go--in silence."</p>
@@ -741,7 +750,7 @@ us this great joy, you must not try to fetter me, now or at any future time, or 
 <pb n="78"/>
 <p>And when she could speak the lady cooed back to him:</p>
 <p>"So sweet a word is that, my Paul. Sweeter than in any other language. And you are glad I have come, and we shall live a little and be happy here in our pretty nest, all fresh and not a bit too grand--is it not so? Oh! what joys there are in life; and oh! how foolish just to miss them."</p>
-<p>"Indeed, <hi rend="italic">yes</hi>," said Paul.</p>
+<p>"Indeed, <hi rend="Âitalic">yes</hi>," said Paul.</p>
 <p>Then they played with the tea, and she showed him how he was to drink it with lemon. She was sweet as a girl, and said no vague, startling things; it was as if she were a young bride, and Paul were complete master and lord! Wild happiness rushed through him. How had he ever endured the time before he had her?</p>
 <p>When they had finished they went out. She must walk, she said, and Paul, being English, must want exercise! Oh! she knew the English and their exercise! And of course she must think of everything that would be for the pleasure of her lover Paul.</p>
 <p>And he? You old worn people of the world, who perhaps are reading, think what this was to Paul--his young strong life vibrating to passionate joys, his imagination kindled, his very being uplifted and thrilled with happiness! His charming soul expanded, he found himself saying gracious tender phrases to 
@@ -783,7 +792,7 @@ admired. Yes, indeed, it was "sweetheart"--and she was his!</p>
 <p>Oh, no, no, she was real! He raised himself, and bent down to touch her tenderly with his forefinger. Yes, all this fascination was indeed his, living and breathing and warm, and he was her lover and lord. Ah!</p>
 <p>The same coloured orchid-mauve silk curtains as at
 <pb n="84     THREE WEEKS"/>
-Lucerne were drawn over the open windows, so the sun in high heaven seemed only as dawn in the room, filtering through the <hi rend="italic">jalousies</hi> outside. But what was time? Time counts as one lives, and Paul was living now.</p>
+Lucerne were drawn over the open windows, so the sun in high heaven seemed only as dawn in the room, filtering through the <hi rend="Âitalic">jalousies</hi> outside. But what was time? Time counts as one lives, and Paul was living now.</p>
 <p>It was twelve o'clock before they were ready for their dainty breakfast, laid out under the balcony awning.</p>
 <p>And the lady talked tenderly and occupied herself with the fancies of her lord, as a new bride should.</p>
 <p>But all the time the mystery stayed in her eyes. And the thought came to Paul that were he to live with her for a hundred years, he would never be sure of their real meaning.</p>
@@ -793,7 +802,7 @@ Lucerne were drawn over the open windows, so the sun in high heaven seemed only 
 <pb n="85     THREE WEEKS"/>
 <p>"Of course, what I shall wish! But I have told you to choose, feeble Paul! There is nothing so irritates me as these English answers. Should I have asked you to select our day had I decided myself? I would have commanded Dmitry to make the arrangements, that is all. But no! to-day I am thy obedient one. I ask my Love to choose for me. To-morrow I may want my own will; to-day I desire only thine, beloved," and she leant forward and looked into his eyes.</p>
 <p>"The mountain top, then!" said Paul, "because there we can sit, and I can gaze at you, and learn more of life, close to your lips. I might not touch you in the launch, and you might look at others at the farm--and it seems as if I could not bear one glance or word turned from myself to-day!"</p>
-<p>"You have chosen well. <hi rend="italic">Mylyi moi</hi>."</p>
+<p>"You have chosen well. <hi rend="Âitalic">Mylyi moi</hi>."</p>
 <p>The strange words pleased him; he must know their meaning, and learn to pronounce them himself. And all this between their dainty dishes took time, so it was an hour later before they started for their walk.</p>
 <p>Up, up those winding paths among the firs and larches--up and up to the top. They dawdled slowly until they reached their goal. There, aloof from the beaten track, safe from the prying eyes of some chance stranger, they sat down, their backs against a giant
 <pb n="86     THREE WEEKS"/>
@@ -816,11 +825,11 @@ wed because they were "mated" as well--not for political reasons or ambition of 
 <pb n="89     THREE WEEKS"/>
 <p>"That will depend upon me, my Paul," she said. "The duration of love in a being always depends upon the loved one. I create an emotion in you, as you create one in me. You do not create it in yourself. It is because something in my personality causes an answering glow in yours that you love me. Were you to cease to do so, it would be because I was no longer able to call forth that answer in you. It would not be your fault any more than when you cease to please me it will be mine. That is where people are unjust."</p>
 <p>"But surely," said Paul, "it is only the fickle who can change?"</p>
-<p>"It is according to one's nature; if one is born a steadfast gentleman, one is more likely to continue than if one is a <hi rend="italic">farceur</hi>--prince or no--but it depends upon the object of one's love--whether he or she can hold one or not. One would not blame a needle if it fell from a magnet, the attraction of the magnet being in some way removed, either by a stronger at the needle's side, or by some deadening of the drawing quality in the magnet itself--and so it is in love. Do you follow me, Paul?"</p>
+<p>"It is according to one's nature; if one is born a steadfast gentleman, one is more likely to continue than if one is a <hi rend="Âitalic">farceur</hi>--prince or no--but it depends upon the object of one's love--whether he or she can hold one or not. One would not blame a needle if it fell from a magnet, the attraction of the magnet being in some way removed, either by a stronger at the needle's side, or by some deadening of the drawing quality in the magnet itself--and so it is in love. Do you follow me, Paul?"</p>
 <p>"Yes," said Paul gloomily. "I must try to please you, or you will throw me away."</p>
 <p>"You see," she continued, "the ignorant make vows, and being weaklings--for the most part--vanity and fate easily remove their inclination from the loved one;
 <pb n="90     THREE WEEKS"/>
-it may not be his fault any more than a broken leg keeping him from walking would be his fault, beyond the fact that it was <hi rend="italic">his</hi> leg; but we have to suffer for our own things--so there it is. We will say the weakling's inclination wants to make him break his vows; so he does, either in the letter or spirit--or both! And then he feels degraded and cheap and low, as all must do who break their sacred word given of their own free will when inclination prompted them to. So how much better to make no vow; then at least when the cord of attraction snaps, we can go free, still defying the lightning in our untarnished pride."</p>
+it may not be his fault any more than a broken leg keeping him from walking would be his fault, beyond the fact that it was <hi rend="Âitalic">his</hi> leg; but we have to suffer for our own things--so there it is. We will say the weakling's inclination wants to make him break his vows; so he does, either in the letter or spirit--or both! And then he feels degraded and cheap and low, as all must do who break their sacred word given of their own free will when inclination prompted them to. So how much better to make no vow; then at least when the cord of attraction snaps, we can go free, still defying the lightning in our untarnished pride."</p>
 <p>"Oh! darling, do not speak of it," cried Paul, "the cord of attraction between us can never snap. I worship, I adore you--you are just my life, my darling one, my Queen!"</p>
 <p>"Sweet Paul!" she whispered, "oh! so good, so good is love, keep me loving you, my beautiful one--keep my desire long to be your Queen."</p>
 <p>And after this they melted into one another's arms, and cooed and kissed, and were foolish and incoherent, as lovers always are and have been from the beginning of old time. More concentrated--more absorbed--than the sternest Eastern sage--absorbed in each other.</p>
@@ -837,17 +846,17 @@ way part of his nature. Paul was a masterful youth, had ruled things to his will
 <p>The lady talked of him--of his tastes--of his pleasures. There was not an incident in his life, or of family, that she had not fathomed by now. All about Isabella even--poor Isabella! And she told him how she sympathised with the girl, and how badly he had behaved.</p>
 <p>"Another proof, my Paul, of what I said to-day--no one must make vows about love."</p>
 <p>But Paul, in his heart, believed her not. He would worship her for ever, he knew.</p>
-<p>"Yes," she said, answering his thoughts. "You think so, beloved, and it may be so because you do not know from moment to moment how I shall be--if I shall stay here in your arms, or fly far away beyond your reach. You love me because I give you the stimulus of uncertainty, and so keep bright your passion, but once you were sure, I should become a duty, as all women become, and then my Paul would yawn and grow to see I was no longer young, and that the expected is always an <hi rend=italic">ennui</hi> when it comes!"</p>
+<p>"Yes," she said, answering his thoughts. "You think so, beloved, and it may be so because you do not know from moment to moment how I shall be--if I shall stay here in your arms, or fly far away beyond your reach. You love me because I give you the stimulus of uncertainty, and so keep bright your passion, but once you were sure, I should become a duty, as all women become, and then my Paul would yawn and grow to see I was no longer young, and that the expected is always an <hi rend="italic">ennui</hi> when it comes!"</p>
 <p>"Never, never!" said Paul, with fervour.</p>
 <p>Presently their conversation drifted to other things, and Paul told her how he longed to see the world and its people and its way. She had been almost everywhere, it seemed, and with her talent of word-painting,
 <pb n="93     THREE WEEKS"/>
 she took him with her on the magic carpet of her vivid description to east and west and north and south.</p>
-<p>Oh! their <hi rend=italic">entr'actes</hi> between the incoherence of just lovers' love were not banal or dull. And never she forgot her tender ways of insinuated caresses--small exquisite touches of sentiment and grace. The note ever of One--that they were fused and melted together into one body and soul.</p>
+<p>Oh! their <hi rend="italic">entr'actes</hi> between the incoherence of just lovers' love were not banal or dull. And never she forgot her tender ways of insinuated caresses--small exquisite touches of sentiment and grace. The note ever of One--that they were fused and melted together into one body and soul.</p>
 <p>Through all her talk that night Paul caught glimpses of the life of a great lady, surrounded with state and cares, and now and then there was a savage echo which made him think of things barbaric, and wonder more than ever from whence she had come.</p>
 <p>It was quite late before the chill of night airs drove them into their salon, and here she made him some Russian tea, and then lay in his arms, and purred love-words to him, and nestled close like a child who wants petting to cure it of some imaginary hurt. Only, in her tenderest caresses he seemed at last to feel something of danger. A slumbering look of passion far under the calm exterior, but ready to break forth at any moment from its studied control.</p>
 <p>It thrilled and maddened him.</p>
 <p>"Beloved, beloved!" he cried, "let us waste no more precious moments. I want you--I want you--my sweet!"</p>
-<milestone rend="dots" type="section"/>
+<milestone unit="section" rend="dots"/>
 <pb n="94     THREE WEEKS"/>
 <p>At the first glow of dawn, he awoke, a strange sensation, almost of strangling and suffocation, upon him. There, bending over, framed in a mist of blue-black waves, he saw his lady's face. Its milky whiteness lit by her strange eyes--green as cats' they seemed, and blazing with the fiercest passion of love--while twisted round his throat he felt a great strand of her splendid hair. The wildest thrill as yet his life had known then came to Paul; he clasped her in his arms with a frenzy of mad, passionate joy.</p>
 </div>
@@ -866,14 +875,15 @@ to Paul, who was huddled on the sofa, feeling rather morose from her decree that
 <p>And Paul, like a sulky, hungry baby, who had been debarred, and now received its expected sweetmeat, clasped her and kissed her for a few minutes before he would let her speak.</p>
 <p>"See, we are getting near Cairo," she said, her
 <pb n="97     THREE WEEKS"/>
-eyes half closed, while she settled herself among the cushions, and drew Paul down to her until his head rested on her breast, and her arms held him like a <p>Her voice was a dream-voice as she whispered on. "Do you not love those minarets and towers against the opal sky, and the rose-pink granite hills beyond? And look, Paul, at this peep of the Nile--those are the water-buffaloes--those strange beasts--you see they are pulling that ridiculous water-drawer--just the same as in Pharaoh's time. Ah! I smell the scent of the East. Look at the straight blue figures, the lines so pleasing and long. The dignity, the peace, the forever in it all. . . . Now we are there. See the brilliant crowd all moving with little haste, and listen to the strange noise. Look at the faces of the camels, disdainful and calm, and that of an old devil-man with tangled hair. . . .</p>
+eyes half closed, while she settled herself among the cushions, and drew Paul down to her until his head rested on her breast, and her arms held him like a mother with a child.</p>
+<p>Her voice was a dream-voice as she whispered on. "Do you not love those minarets and towers against the opal sky, and the rose-pink granite hills beyond? And look, Paul, at this peep of the Nile--those are the water-buffaloes--those strange beasts--you see they are pulling that ridiculous water-drawer--just the same as in Pharaoh's time. Ah! I smell the scent of the East. Look at the straight blue figures, the lines so pleasing and long. The dignity, the peace, the forever in it all. . . . Now we are there. See the brilliant crowd all moving with little haste, and listen to the strange noise. Look at the faces of the camels, disdainful and calm, and that of an old devil-man with tangled hair. . . .</p>
 <p>"Come--come from this; I want the desert and the Sphinx!</p>
 <p>"Ah! it is bright day again, and we have all the green world between us and the great vast brown tract of sand. And those are the Pyramids clear-cut against the turquoise sky, and soon we shall be there, only you must observe this green around us first, my Paul--the green of no other country in all the world--pure emerald--nature's supreme concentrated effort of
 <pb n="98     THREE WEEKS"/>
 green for miles and miles. No, I do not want to live in that small village in a brown mud hut, shared with another wife to that gaunt blue linen-clad man; I would kill them all and be free. I want to go on, beloved--on to the desert for you and me alone, with its wonderful passion and wonderful peace. . . ."</p>
 <p>Her voice became still more dreamy; there was a cadence in it now as if some soul within were forcing her to chant it all, with almost the lilt of blank verse.</p>
 <p>"Oh! the strange drug of the glorious East, flooding your senses with beauty and life. 'Tis the spell of the Sphinx, and now we are there, close in her presence. Look, the sun has set. . . .</p>
-<p>"Hush! hush! beloved! we are alone, the camels and guides afar off--we are alone, sweetheart, and we go on together, you and I and the moon. See, she is rising all silver and pure, and blue is the sky, and scented the night. Look, there is the Sphinx! Do you see the strange mystery of her smile and the glamour of her eyes? She is a goddess, and she knows men's souls, and their foolish unavailing passion and pain--never content with the <hi rend=italic">Is</hi> which they have, always regretting the <hi rend=italic">Was</hi> which has passed, and building false hopes on the phantom <hi rend=italic">May be</hi>. But you and I, my lover, my sweet, have fathomed the riddle which is hid in the smile of our goddess, our Sphinx--we have guessed it, and now are as high gods
+<p>"Hush! hush! beloved! we are alone, the camels and guides afar off--we are alone, sweetheart, and we go on together, you and I and the moon. See, she is rising all silver and pure, and blue is the sky, and scented the night. Look, there is the Sphinx! Do you see the strange mystery of her smile and the glamour of her eyes? She is a goddess, and she knows men's souls, and their foolish unavailing passion and pain--never content with the <hi rend="italic">Is</hi> which they have, always regretting the <hi rend="italic">Was</hi> which has passed, and building false hopes on the phantom <hi rend="italic">May be</hi>. But you and I, my lover, my sweet, have fathomed the riddle which is hid in the smile of our goddess, our Sphinx--we have guessed it, and now are as high gods
 <pb n="99     THREE WEEKS"/>
 too. For we know it means to live in the present, and quaff life in its full. Sweetheart, beloved--joy and life in its full-- --" . . . . . . .</p>
 <p>Her voice grew faint and far away, like the echo of some exquisite song, and the lids closed over Paul's blue eyes, and he slept.</p>
@@ -887,24 +897,24 @@ gleam, he saw that her wonderful eyes were wet with glittering tears.</p>
 <p>"I am weary," she said, and fell to weeping softly, and refused to be comforted.</p>
 <p>Paul's distress was intense--what could have happened? What terrible thing had he done? What sorrow had fallen upon his beloved while he selfishly slept?  But all she would say was that she was weary, while she clung to him in a storm of passion, as if some one threatened to take her out of his arms. Then she left him abruptly and went off to dress.</p>
 <p>But later, at dinner, it seemed as if a new and more radiant light than ever glowed on her face. She was gay and caressing, telling him merry tales of Paris and its plays. It was as if she meant to efface all suggestion of sorrow or pain--and gradually the impression wore off in Paul's mind, and ere it came to their sipping the golden wine, all was brightness and peace.</p>
-<p>"See," she said, looking from the window just before they retired to rest, "the sky has stopped crying, and there are our stars, sweetheart, come out to wish
+<p>"See," she said, looking from the window just before they retired to rest, "the sky has stopped crying, and there are our stars, sweetheart, come out to wish<pb/>
 
-<figure entity="egthree100" type="figure">
+<figure entity="egthreeill3" type="figure">
 <p>"Out of the whole world there are only you and I who matter, sweetheart."</p>
-<figDesc> Picture included in body of Glyn's "Three Weeks"</figDesc>
-</figure>
+<figDesc>Illustration between pages 100 and 101 of Glyn's "Three Weeks"</figDesc>
+</figure><pb/>
 
 <pb n="101     THREE WEEKS"/>
 us goodnight. Ah! for us to-morrow once more will be a glorious day."</p>
 <p>"My Queen," said Paul; "rain or fine, all days are glorious to me, so long as I have you to clasp in my arms. You are my sun, moon and stars--always, for ever."</p>
 <p>She laughed a laugh, the silver echo of satisfaction and joy.</p>
 <p>"Sweet Paul," she lisped mischievously, "so good you have been, so gentle with my moods. You must have some reward. Listen, beloved! while I tell it to you."</p>
-<p>But what she said is written in his heart!
-</div>
+<p>But what she said is written in his heart!</p></div>
+
 <pb n="102"/>
 <div id="egthree012" type="chapter" n="12">
 <head>CHAPTER XII</head>
-<p>His lady was so intensely <hi rend="italic">soign&#x00E9;e</hi>--that is what pleased Paul. He had never thought about such things, or noticed them much in other women, but she was a revelation.</p>
+<p>His lady was so intensely <hi rend="Âitalic">soign&#x00E9;e</hi>--that is what pleased Paul. He had never thought about such things, or noticed them much in other women, but she was a revelation.</p>
 <p>No Roman Empress with her bath of asses' milk could have had a more wonderful toilet than she. And ever she was illusive, and he never quite got to the end of her mystery. Always there was a veil, when he least expected it, and so these hours for the most part were passed at the boiling-point of excitement and bliss. The experiences of another man's whole lifetime Paul was going through in the space of days.</p>
 <p>It was the Monday following the wet Sunday when an incident happened which soon came back to him, and gave him food for reflection.</p>
 <p>They would spend the day in the launch, she decided, going whither they wished, stopping here to pick gentians, going there under the shadow of trees--landing where and when they desired--even sleeping at Fl&#x00FC;elen if the fancy took them to. Anna was sent on with their things in case this contingency occurred.
@@ -949,19 +959,19 @@ is now highly strung and being touched by the bow of an artist who loves it. And
 <p>He had no desires except to do what she would do, so they landed for lunch at one of the many little inviting hotels which border the lake in sheltered bays. All through the meal she entertained him with subtle flattery, drawing him out, and making him shine until he made flint for her steel. And when they came to the end she said with sudden, tender sweetness:</p>
 <p>"Paul--it is my caprice--you may pay the bill to-day--just for to-day--because--Ah! you must guess, my Paul! the reason why!"</p>
 <p>And she ran out into the sunlight, her cheeks bright pink.</p>
-<p>But Paul knew it was because now she <hi rend="italic">belonged</hi> to him. His heart swelled with joy--and who so proud as he?</p>
+<p>But Paul knew it was because now she <hi rend="Âitalic">belonged</hi> to him. His heart swelled with joy--and who so proud as he?</p>
 <p>She had gone alone up a mountain path when he came out to join her, and stood there laughing at him
 <pb n="108     THREE WEEKS"/>
 provokingly from above. He bounded up and caught her, and would walk hand in hand, and made her feel that he was master and lord through the strength of his splendid, vigorous youth. He pretended to scold her if she stirred from him, and made her stand or walk and obey him, and gave himself the airs of a husband and prince.</p>
 <p>And the lady laughed in pure ecstatic joy. "Oh! I love you, my Paul--like this, like this! Beautiful one! Just a splendid primitive savage beneath the grace, as a man should be. When I feel how strong you are my heart melts with bliss!"</p>
 <p>And Paul, to show her it was true, seized her in his arms, and ran with her, placing her on a high rock, where he made her pay him with kisses and tell him she loved him before he would lift her down.</p>
 <p>And it was his lady's caprice, as she said, that this state of things should last all day. But by night time, when they got to Fl&#x00FC;elen, the infinite mastery of her mind, and the uncertainty of his hold over her, made her his Queen again, and Paul once more her worshipping slave.</p>
-<milestone rend="dots" type="section"/>
+<milestone unit="section" rend="dots"/>
 <p>Now, although his master was quite oblivious of posts, Tompson was not, and that Monday he took occasion to go into Lucerne, whence he returned with a pile of letters, which Paul found on again reaching
 <pb n="109     THREE WEEKS"/>
 the B&#x00FC;rgenstock, after staying the night at Fl&#x00FC;elen in a little hotel.</p>
 <p>That had been an experience! His lady quite childish in her glee at the smallness and simplicity of everything.</p>
-<p>"Our picnic," she called it to Paul--only it was a wonderfully <hi rend="italic">recherc&#x00E9; </hi>picnic, as Anna of course had brought everything which was required by heart of sybarite for the passing of a night.</p>
+<p>"Our picnic," she called it to Paul--only it was a wonderfully <hi rend="Âitalic">recherc&#x00E9; </hi>picnic, as Anna of course had brought everything which was required by heart of sybarite for the passing of a night.</p>
 <p>Ah! they had been happy. The Queen had been exquisitely gracious to her slave, and entranced him more deeply than ever. And here at the B&#x00FC;rgenstock, when he got into his room, his letters stared him in the face.</p>
 <p>"Damned officiousness!" he said to himself, thinking of Tompson.</p>
 <p>He did not want to be reminded of any existence other than the dream of heaven he was now enjoying.</p>
@@ -976,7 +986,7 @@ in July at Verdayne Place. There was no mention of Isabella except a paragraph a
 banished all but love from her eyes after they had rested on him for an instant, but his senses--so fine now--had remarked the first glance, just as his eye had seen the heavy royal crown on the paper as she hastily folded it and threw it carelessly aside.</p>
 <p>"Darling!" he said. "Oh! look! here is a picture of Pike!"</p>
 <p>And if it had been the most important document concerning the fate of nations the lady could not have examined it with more enthralled interest and attention than she did this snapshot photograph of a rough terrier dog.</p>
-<p>"What a sweet fellow!" she said. "Look at his eye! so intelligent; look at that <hi rend="italic">patte</hi>! See, even he is asking one to love him--and I do--I do--"</p>
+<p>"What a sweet fellow!" she said. "Look at his eye! so intelligent; look at that <hi rend="Âitalic">patte</hi>! See, even he is asking one to love him--and I do--I do--"</p>
 <p>"Darling!" said Paul in ecstasy, "oh, if we only had him here, wouldn't that be good!"</p>
 <p>And he never knew why his lady suddenly threw her arms round his neck, and kissed him with passionate tenderness and love, her eyes soft as a dove's.</p>
 <p>"Oh, my Paul," she said, a break in her wonderful voice, whose tones said many things, "my young, darling, English Paul!"</p>
@@ -987,8 +997,8 @@ started. And once or twice on the drive through the most peaceful and beautiful 
 <p>When they got to the farm in the soft late afternoon light, the most gracious mood came over his lady. It was just a Swiss farmhouse of many storeys, the lower one for the cows and other animals, and the rest for the family and industries. All was clean and in order, with that wonderful outside neatness which makes Swiss chalets look like painted toy houses
 <pb n="113     THREE WEEKS"/>
 popped down on the greensward without yard or byre. And these people were well-to-do, and it was the best of its kind.</p>
-<p>The <hi rend="italic">B&#x00E4;uerin</hi>, a buxom mother of many little ones, was nursing another not four weeks old, a fat, prosperous infant in its quaint Swiss clothes. Her broad face beamed with pride as she welcomed the gracious lady. Old acquaintances they appeared, and they exchanged greetings. Foreign languages were not Paul's strong point, and he caught not a word of meaning in the German <hi rend="italic">patois</hi> the good woman talked. But his lady was voluble, and seemed to know each flaxen-haired child by name, though it was the infant which longest arrested her attention. She held it in her arms. And Paul had never seen her look so young or so beautiful.</p>
-<p>The good woman left them alone while she prepared some coffee for them in the adjoining kitchen, followed by her troop of <hi rend="italic">kinder</hi>. Only the little one still lay in the lady's arms. She spoke not a word--she sang to it a cradle-song, and the thought came to Paul that she seemed as an angel, and this must be an echo of his own early heaven before his life had descended to earth.</p>
+<p>The <hi rend="Âitalic">B&#x00E4;uerin</hi>, a buxom mother of many little ones, was nursing another not four weeks old, a fat, prosperous infant in its quaint Swiss clothes. Her broad face beamed with pride as she welcomed the gracious lady. Old acquaintances they appeared, and they exchanged greetings. Foreign languages were not Paul's strong point, and he caught not a word of meaning in the German <hi rend="Âitalic">patois</hi> the good woman talked. But his lady was voluble, and seemed to know each flaxen-haired child by name, though it was the infant which longest arrested her attention. She held it in her arms. And Paul had never seen her look so young or so beautiful.</p>
+<p>The good woman left them alone while she prepared some coffee for them in the adjoining kitchen, followed by her troop of <hi rend="Âitalic">kinder</hi>. Only the little one still lay in the lady's arms. She spoke not a word--she sang to it a cradle-song, and the thought came to Paul that she seemed as an angel, and this must be an echo of his own early heaven before his life had descended to earth.</p>
 <p>A strange peace came over him as he sat there watching her, his thoughts vague and dreamy of some beautiful sweet tenderness--he knew not what.</p>
 <pb n="114     THREE WEEKS"/>
 <p>Ere the woman returned with the coffee the lady looked up from her crooning and met his eyes--all her soul was aglow in hers--while she whispered as he bent over to meet her lips:</p>
@@ -1034,9 +1044,9 @@ You of calm England do not know what it means--the true passion of hate."</p>
 <p>"My darling," said Paul, in his strong young pride,
 <pb n="119     THREE WEEKS"/>
 "fear nothing, I shall never leave you. I will protect you from any danger in the world, only depend upon me, sweetheart. Nothing can hurt you while I am here."</p>
-<p>"Do you think I care a <hi rend="italic">sou</hi> for my life?" she said, while she stood straight up again with the majesty of a queen. "Do you think I feared for me--for myself? Oh no, my own lover, never that! They can kill me when they choose, but they won't; it is you for whom I fear. Only your danger could make me cower, no other in the whole world."</p>
+<p>"Do you think I care a <hi rend="Âitalic">sou</hi> for my life?" she said, while she stood straight up again with the majesty of a queen. "Do you think I feared for me--for myself? Oh no, my own lover, never that! They can kill me when they choose, but they won't; it is you for whom I fear. Only your danger could make me cower, no other in the whole world."</p>
 <p>Paul laughed with joy at her speech. "There is nothing to fear at all then, darling," he said. "I can take care of myself, you know. I am an Englishman."</p>
-<p>And even in the tumult of her thoughts the lady found time to smile with tender amusement at the young insular arrogance of his last words. An Englishman, forsooth! Of course that meant a kind of god untouched by the failings of other nations. A great rush of pride in him came over her and gladdened her. He was indeed a splendid picture of youth and strength, as he stood there, the sunlight gilding his fair hair, and all the magnificent proportions of his figure thrown into relief against the background of grey stone and sky, an <hi rend="italic">insouciante</hi> smile on his lips, and all the light of love and self-confidence in his fine blue eyes.</p>
+<p>And even in the tumult of her thoughts the lady found time to smile with tender amusement at the young insular arrogance of his last words. An Englishman, forsooth! Of course that meant a kind of god untouched by the failings of other nations. A great rush of pride in him came over her and gladdened her. He was indeed a splendid picture of youth and strength, as he stood there, the sunlight gilding his fair hair, and all the magnificent proportions of his figure thrown into relief against the background of grey stone and sky, an <hi rend="Âitalic">insouciante</hi> smile on his lips, and all the light of love and self-confidence in his fine blue eyes.</p>
 <pb n="120     THREE WEEKS"/>
 <p>She responded to the fire in them, and appeared to grow comforted and at peace. But all the way back through the wood to the Kaitbad Hotel she glanced furtively into the shadows, while she talked gaily as she held Paul's arm.</p>
 <p>And he never asked her a question as to where she expected the danger to come from. No anxiety for his own safety troubled him one jot--indeed, an unwonted extra excitement flooded his veins, making him enjoy himself with an added zest.</p>
@@ -1065,7 +1075,7 @@ of, thought Paul, than the view from their balcony windows, the light on the sil
 <div id="egthree014" type="chapter" n="14">
 <head>CHAPTER XIV</head>
 <p>The desolation which came over Paul when next day before lunch time he found himself alone on the terrace, looking down vainly trying to distinguish his lady's launch as it glided over the blue waters, seemed unendurable. An intense depression filled his being. It was as if a limb had been torn from him; he felt helpless and incomplete, and his whole soul drawn to Lucerne.</p>
-<p>The green trees and the exquisite day seemed to mock him. Alone, alone--with no prospect of seeing his Queen until the morrow, when at eleven he was to meet her at the landing-steps at the foot of the <hi rend=italic">funiculaire</hi>.</p>
+<p>The green trees and the exquisite day seemed to mock him. Alone, alone--with no prospect of seeing his Queen until the morrow, when at eleven he was to meet her at the landing-steps at the foot of the <hi rend="italic">funiculaire</hi>.</p>
 <p>But that was to-morrow, and how could he get through to-day?</p>
 <p>After an early lunch he climbed to their rock at the summit, and sat there where they had sat together--alone with his thoughts.</p>
 <p>And what thoughts!</p>
@@ -1085,11 +1095,11 @@ room to the room his lady had left so lately. Alas! it was all dismantled of her
 <p>Yes, that was the launch making its way along, not a moment late. Oh what joy thrilled his being! He glowed all over--in ten minutes or less he could clasp her hands.</p>
 <p>But when the launch came in full view, he perceived no lady was there--only Dmitry's black form stood alone by the chairs.</p>
 <p>Paul's heart sank like lead. He could hardly contain his anxiety until the servant stepped ashore and handed him a letter, and this was its contents:</p>
-<milestone rend="blank-line" type="section"/>
+<milestone unit="section" rend="blank-line"/>
 <p>"MY BELOVED ONE--I am not well to-day--foolish chill. Nothing of consequence, only the cold wind of the
 <pb n="128     THREE WEEKS"/>
 lake I could not face. At one o'clock, when Lucerne is at lunch, come to me by the terrace gate. Come to me, I cannot live without you, Paul."</p>
-<milestone rend="blank-line" type="section"/>
+<milestone unit="section" rend="blank-line"/>
 <p>"What is it, Dmitry?" he said anxiously. "Madame is not ill, is she? Tell me--"</p>
 <p>"Not ill--oh no!" the servant said, only Paul must know Madame was of a delicacy at times in the cold weather, and had to be careful of herself. He added, too, that it would be wiser if Paul would lunch early before they started, because, as he explained, it was not for the people of the hotel to know he was there, and how else could he eat?</p>
 <p>All of which advice was followed, and at one o'clock they landed at Lucerne, and Paul walked quickly towards his goal, Dmitry in front to see that the way was clear. Yes--there was no one about for the moment, and like ghosts they glided through the little terrace door, and Paul went into the room by the window, while Dmitry held the heavy curtains, and then disappeared.</p>
@@ -1100,7 +1110,7 @@ lake I could not face. At one o'clock, when Lucerne is at lunch, come to me by t
 <p>And who can tell of the passionate joy of their long, tender embrace, or of their talk of each one's impossible night? His lady, too, had not slept, it appeared. She had cried, she said, and fought with her pillow, and been so wicked to Anna that the good creature had wept. She had torn her fine night raiment, and bitten a handkerchief through! But now he had come, and her soul was at rest. What wonder, when all this was said in his ear with soft, broken sighs and kisses divine, that Paul should feel like a god in his pride!</p>
 <p>Then he held her at arms'-length and looked at her face. Yes, it was very pale indeed, and the violet shadows lay under her black lashes. Had she suffered, his darling--was she ill? But no, the fire in her strange eyes gave no look of ill-health.</p>
 <pb n="130     THREE WEEKS"/>
-<p>"I was frightened, my own," he said, "in case you were really not well. I must pet and take care of you all the day. See, you must lie on the sofa among the cushions, and I will sit beside you and soothe you to rest." And he lifted her in his strong arms and carried her to the couch as if she had been a baby, and settled her there, every touch a caress.
+<p>"I was frightened, my own," he said, "in case you were really not well. I must pet and take care of you all the day. See, you must lie on the sofa among the cushions, and I will sit beside you and soothe you to rest." And he lifted her in his strong arms and carried her to the couch as if she had been a baby, and settled her there, every touch a caress.</p>
 <p>His lady delighted in these exhibitions of his strength. He had grown to understand that he could always affect her when he pretended to dominate her by sheer brute force. She had explained it to him thus one day:</p>
 <p>"You see, Paul, a man can always keep a woman loving him if he kiss her enough, and make her feel that there is no use struggling because he is too strong to resist. A woman will stand almost anything from a passionate lover. He may beat her and pain her soft flesh; he may shut her up and deprive her of all other friends--while the motive is raging love and interest in herself on his part, it only makes her love him the more. The reason why women become unfaithful is because the man grows casual, and having awakened a taste for passionate joys, he no longer gratifies them--so she yawns and turns elsewhere."</p>
 <p>Well, there was no fear of her doing so if he could help it! He was more than willing to follow this receipt. Indeed, there was something about her so
@@ -1121,12 +1131,12 @@ but fate alone knows when that must be. Do not let us force her hand by speculat
 <pb n="133"/>
 <div id="egthree015" type="chapter" n="15">
 <head>CHAPTER XV</head>
-<p>It was a beautiful apartment that Dmitry had found for them on the Grand Canal in Venice, in an old palace looking southwest. A convenient door in a side canal cloaked the exit and entry of its inhabitants from curious eyes--had there been any to indulge in curiosity; but in Venice there is a good deal of the feeling of live and let live, and the <hi rend=italic">dolce far niente</hi> of the life is not conducive to an over-anxious interest in the doings of one's neighbours.</p>
-<p>Money and intelligence can achieve a number of things in a short space of time, and Dmitry had had both at his command, so everything, including a <hi rend=italic">chef</hi> from Paris and a retinue of Italian servants, was ready when on the Tuesday evening Paul arrived at the station.</p>
+<p>It was a beautiful apartment that Dmitry had found for them on the Grand Canal in Venice, in an old palace looking southwest. A convenient door in a side canal cloaked the exit and entry of its inhabitants from curious eyes--had there been any to indulge in curiosity; but in Venice there is a good deal of the feeling of live and let live, and the <hi rend="italic">dolce far niente</hi> of the life is not conducive to an over-anxious interest in the doings of one's neighbours.</p>
+<p>Money and intelligence can achieve a number of things in a short space of time, and Dmitry had had both at his command, so everything, including a <hi rend="italic">chef</hi> from Paris and a retinue of Italian servants, was ready when on the Tuesday evening Paul arrived at the station.</p>
 <p>What a wonderland it seemed to him, Venice! A wonderland where was awaiting him his heart's delight--more passionately desired than ever after three days of total abstinence.</p>
 <p>As after the Friday afternoon he had spent more or less in hiding in the terrace-room, his lady had judged it wiser for him not to come at all to Lucerne, and on
 <pb n="134     THREE WEEKS"/>
-the Saturday had met him at a quiet part of the shore of the lake, beyond the landing-steps of the <hi rend=italic">funiculaire</hi>, and for a few short hours they had cruised about on the blue waters--but her sweetest tenderness and ready wit had not been able entirely to eliminate the feeling of unrest which troubled them. And then there were the nights, the miserable evenings and nights of separation. On the Sunday she had departed to Venice, and after she had gone, Paul had returned for one day to Lucerne, leaving again on the Monday, apparently as unacquainted with Madame Zalenska as he had been the first night of his arrival.</p>
+the Saturday had met him at a quiet part of the shore of the lake, beyond the landing-steps of the <hi rend="italic">funiculaire</hi>, and for a few short hours they had cruised about on the blue waters--but her sweetest tenderness and ready wit had not been able entirely to eliminate the feeling of unrest which troubled them. And then there were the nights, the miserable evenings and nights of separation. On the Sunday she had departed to Venice, and after she had gone, Paul had returned for one day to Lucerne, leaving again on the Monday, apparently as unacquainted with Madame Zalenska as he had been the first night of his arrival.</p>
 <p>He had not seen her since Saturday. Three whole days of anguishing longing. And now in half an hour at least she would be in his arms. The journey through the beautiful scenery from Lucerne had been got through at night--all day from Milan a feverish excitement had dominated him, and prevented his taking any interest in outward surroundings. A magnetic attraction seemed drawing him on--on--to the centre of light and joy--his lady's presence.</p>
 <p>Dmitry and an Italian servant awaited his arrival; not an instant's delay for luggage called a halt. Tompson and the Italian were left for that, and Paul departed with his trusty guide.</p>
 <p>It was about seven o'clock, the opalescent lights were
@@ -1141,18 +1151,18 @@ most old-world surroundings, mixed with her own wonderful personal notes of luxu
 <p>All the simplicity of the B&#x00FC;rgenstock surroundings was gone. The flowers were in the greatest profusion, rare and heavy-scented; the pillows of the couch were more splendid than ever; cloths of gold and silver and wonderful shades of orange and green velvet were among the purple ones he already knew. Priceless pieces of brocade interwoven with gold covered the screens and other couches; and, near enough to pick up when she wanted them, stood jewelled boxes of cigarettes and bonbons, and stands of perfume.</p>
 <p>Her expression, too, was altered. A new mood
 <pb n="137     THREE WEEKS"/>
-shone there; and later, when Paul learnt the history of the wonderful women of <hi rend=italic">cinquecento</hi> Venice, it seemed as if something of their exotic voluptuous spirit now lived in her.</p>
+shone there; and later, when Paul learnt the history of the wonderful women of <hi rend="italic">cinquecento</hi> Venice, it seemed as if something of their exotic voluptuous spirit now lived in her.</p>
 <p>This was a new queen to worship--and die for, if necessary. He dimly felt, even in these first moments, that here he would drink still deeper of the mysteries of life and passionate love.</p>
-<p>"<hi rend=italic">Beztzenny-moi</hi>," she said, "my priceless one. At last I have you again to make me <hi rend=italic">live</hi>. Ah! I must know it is really you, my Paul!"</p>
+<p>"<hi rend="italic">Beztzenny-moi</hi>," she said, "my priceless one. At last I have you again to make me <hi rend="italic">live</hi>. Ah! I must know it is really you, my Paul!"</p>
 <p>They were sitting on the tiger by now, and she undulated round and all over him, feeling his coat, and his face, and his hair, as a blind person might, till at last it seemed as if she were twined about him like a serpent. And every now and then a narrow shaft of the glorious dying sunlight would strike the great emerald on her forehead, and give forth sparks of vivid green which appeared reflected again in her eyes. Paul's head swam, he felt intoxicated with bliss.</p>
 <p>"This Venice is for you and me, my Paul," she said. "The air is full of love and dreams; we have left the slender moon behind us in Switzerland; here she is nearing her full, and the summer is upon us with all her richness and completeness--the spring of our love has passed."</p>
 <pb n="138     THREE WEEKS"/>
 <p>Her voice fell into its rhythmical cadence, as if she were whispering a prophecy inspired by some presence beyond.</p>
 <p>"We will drink deep of the cup of delight, my lover, and bathe in the wine of the gods. We shall feast on the tongues of nightingales, and rest on couches of flowers. And thou shalt cede me thy soul, beloved, and I wilt give thee mine--"</p>
 <p>But the rest was lost in the meeting of their lips.</p>
-<milestone rend="dots" type="section"/>
+<milestone unit="section" rend="dots"/>
 <p>They dined on the open loggia, its curtains drawn, hiding them from the view of the palaces opposite, but not preventing the soft sounds of the singers in the gondolas moored to the poles beneath from reaching their ears. And above the music now and then would come the faint splash of water, and the "Stahi"--"Prem&#x00E9;" of some moving gondolier.</p>
-<p>The food was of the richest, beginning with strange fishes and quantities of <hi rend=italic">hors d'&#x0153;uvres that Paul knew not, accompanied by <hi rend=italic">vodka</hi> in several forms. And some of the <hi rend=italic">plats</hi> she would just taste, and some send instantly away.</p>
+<p>The food was of the richest, beginning with strange fishes and quantities of <hi rend="italic">hors d'&#x0153;uvres</hi> that Paul knew not, accompanied by <hi rend="italic">vodka</hi> in several forms. And some of the <hi rend="italic">plats</hi> she would just taste, and some send instantly away.</p>
 <p>And all the while a little fountain of her own perfume played from a group of sportive cupids in silver, while the table in the centre was piled with red roses. Dmitry and two Italian footmen waited, and everything was done with the greatest state. A regal mag-
 <pb n="139     THREE WEEKS"/>
 nificence was in the lady's air and mien. She spoke of the splendours of Venice's past, and let Paul feel the atmosphere of that subtle time of passion and life. Of here a love-scene, and there a murder. Of wisdom and vice, and intoxicating emotion, all blended in a kaleidoscope of gorgeousness and colour.</p>
@@ -1231,8 +1241,8 @@ man Catholic church before, and had not guessed at the gorgeous beauty of this h
 <p>"Come!" she said, and they walked on down to the
 <pb n="151     THREE WEEKS"/>
 gondola again, and floated away out to the lagoon. But when they were there, far away from the world, she talked in a new strain of earnestness to Paul. He must promise to do something with his life--something useful and great in future years.</p>
-<p>"You must not just drift, my Paul, like so many of your countrymen do. You must help to stem the tide of your nation's decadence, and be a strong man. For me, when I read now of England, it seems as if all the hereditary legislators--it is what you call your nobles, eh?--these men have for their motto, like Louis XV., <hi rend=italic">Apr&#x00E8;s moi le d&#x00E9;luge</hi>--It will last my time. Paul, wherever I am, it will give me joy for you to be strong and great, sweetheart. I shall know then I have not loved just a beautiful shell, whose mind I was able to light for a time. That is a sadness, Paul, perhaps the greatest of all, to see a soul one has illuminated and awakened to the highest point gradually slipping back to a browsing sheep, to live for <hi rend=italic">la chasse</hi> alone, and horses, and dogs, with each day no higher aim than its own mean pleasure. Ah, Paul!" she continued with sudden passion, "I would rather you were dead--dead and cold with me, than I should have to feel you were growing a <hi rend=italic">rien du tout</hi>--a thing who will go down into nothingness, and be forgotten by men!"</p>
-<p>Her face was aflame with the <hi rend="italic">feu sacr&#x00E9;</hi>. The noble brow and line of her throat will ever remain in Paul's
+<p>"You must not just drift, my Paul, like so many of your countrymen do. You must help to stem the tide of your nation's decadence, and be a strong man. For me, when I read now of England, it seems as if all the hereditary legislators--it is what you call your nobles, eh?--these men have for their motto, like Louis XV., <hi rend="italic">Apr&#x00E8;s moi le d&#x00E9;luge</hi>--It will last my time. Paul, wherever I am, it will give me joy for you to be strong and great, sweetheart. I shall know then I have not loved just a beautiful shell, whose mind I was able to light for a time. That is a sadness, Paul, perhaps the greatest of all, to see a soul one has illuminated and awakened to the highest point gradually slipping back to a browsing sheep, to live for <hi rend="italic">la chasse</hi> alone, and horses, and dogs, with each day no higher aim than its own mean pleasure. Ah, Paul!" she continued with sudden passion, "I would rather you were dead--dead and cold with me, than I should have to feel you were growing a <hi rend="italic">rien du tout</hi>--a thing who will go down into nothingness, and be forgotten by men!"</p>
+<p>Her face was aflame with the <hi rend="italic">feu sacr&#x00E9;</hi>. The noble brow and line of her throat will ever remain in Paul's
 <pb n="152     THREE WEEKS"/>
 memory a thing apart in womankind. Who could have small or unworthy thoughts who had known her--this splendid lady?</p>
 <p>And his worship grew and grew.</p>
@@ -1298,7 +1308,7 @@ me quite cold when I read his view of them. Cleopatra was to me so subtle, so sp
 <p>"Oh, why can't we go on and travel together, darling?" Paul continued. "I want you to show me the world--at least the best of Europe. In every country you would make me feel the spirit of the place. Let us go to Greece, and see the temples and worship those old gods. They knew about love, did they not?"</p>
 <pb n="162     THREE WEEKS"/>
 <p>The lady leant back and smiled, as if she liked to hear him talk.</p>
-<p>"I often ask myself did they really know," she said. "They knew the whole material part of it at any rate. They were perhaps too practical to have indulged in the mental emotions we weave into it now--but they were wise, they did not educate the wives and daughters, they realised that to perform well domestic duties a woman's mind should not be over-trained in learning. Learning and charm and grace of mind were for the others, the <hi rend="italic">het&#x00E6;r&#x00E6; of whom they asked no tiresome ties. And in all ages it is unfortunately not the simple good women who have ruled the hearts of men. Think of Pericles and Aspasia--Antony and Cleopatra--Justinian and Theodora--Belisarius and Antonina--and later, all the mistresses of the French kings--even, too, your English Nelson and Lady Hamilton! Not one of these was a man's ideal of what a wife and mother ought to be. So no doubt the Greeks were right in that principle, as they were right in all basic principles of art and balance. And now we mix the whole thing up, my Paul--domesticity and learning--nerves and art, and feverish cravings for the impossible new--so we get a conglomeration of false proportions, and a ceaseless unrest."</p>
+<p>"I often ask myself did they really know," she said. "They knew the whole material part of it at any rate. They were perhaps too practical to have indulged in the mental emotions we weave into it now--but they were wise, they did not educate the wives and daughters, they realised that to perform well domestic duties a woman's mind should not be over-trained in learning. Learning and charm and grace of mind were for the others, the <hi rend="italic">het&#x00E6;r&#x00E6;</hi> of whom they asked no tiresome ties. And in all ages it is unfortunately not the simple good women who have ruled the hearts of men. Think of Pericles and Aspasia--Antony and Cleopatra--Justinian and Theodora--Belisarius and Antonina--and later, all the mistresses of the French kings--even, too, your English Nelson and Lady Hamilton! Not one of these was a man's ideal of what a wife and mother ought to be. So no doubt the Greeks were right in that principle, as they were right in all basic principles of art and balance. And now we mix the whole thing up, my Paul--domesticity and learning--nerves and art, and feverish cravings for the impossible new--so we get a conglomeration of false proportions, and a ceaseless unrest."</p>
 <p>"Yes," said Paul, and thought of his mother. She
 <pb n="163     THREE WEEKS"/>
 was a perfectly domestic and beautiful woman, but somehow he felt sure she had never made his father's heart beat. Then his mind went back to the argument in what the lady had said--he wanted to hear more.</p>
@@ -1336,10 +1346,10 @@ Venice, and guessed, and rightly, that, like the cook and the artist who had des
 <p>Throughout the repast his lady bewildered him with her wild fascination. Never before had she seemed to collect all her moods into one subtle whole, cemented together by passionate love. It truly was a night of the gods, and the exaltation of Paul's spirit had reached its zenith.</p>
 <p>"My Paul," she said, when at last only the rare fruits and the golden wine remained, and they were quite alone--even the musicians had retired, and their airs floated up from a gondola below. "My Paul, I want you never to forget this night--never to think of me but as gloriously happy, clasped in your arms amid the roses. And see, we must drink once more together of our wedding wine, and complete our souls' delight."</p>
 <p>An eloquence seemed to come to Paul and loosen his tongue, so that he whispered back p&#x00E6;ns of worship in language as fine as her own. And the moon flooded the loggia with her light, and the roses gave forth their scent. It was the supreme effort of art and nature to cover them with glorious joy.</p>
-<p>"My darling one," the lady whispered in his ear, as she lay in his arms on the couch of roes, crushed deep and half buried in their velvet leaves, "this is our souls'
+<p>"My darling one," the lady whispered in his ear, as she lay in his arms on the couch of roses, crushed deep and half buried in their velvet leaves, "this is our souls'
 <pb n="169     THREE WEEKS"/>
 wedding. In life and in death they can never part more."</p>
-<milestone rend="dots" type="section"/>
+<milestone unit="section" rend="dots"/>
 <p>Dawn was creeping through the orchid blinds of their sleeping chamber when this strange Queen disengaged herself from her lover's embrace, and bent over him, kissing his young curved lips. He stirred not--the languor of utter prostration was upon him, and held him in its grasp. In the uncertain light his sleep looked pale as death.</p>
 <p>The lady gazed at him, an anguish too deep for tears in her eyes. For was not this the end--the very end? Fierce, dry sobs shook her. There was something terrible and tigerish in her grief. And yet her will made her not linger--there was still one thing to do.</p>
 <p>She rose and turned to the writing-table by the window, then drawing the blind aside a little she began rapidly to write. When she had finished, without reading the missive over, she went and placed it with a flat leather jewel-case on her pillow beside Paul. And soon she commenced a madness of farewells--all restrained and gentle for fear he should wake.</p>
@@ -1358,8 +1368,8 @@ wedding. In life and in death they can never part more."</p>
 <pb n="172     THREE WEEKS"/>
 <p>As he read the last words the room became dark for Paul, and he fell back like a log on the bed, the paper fluttering to the floor from his nerveless fingers.</p>
 <p>She was gone--and life seemed over for him. Here, perhaps an hour later, Tompson found him still unconscious, and in terrified haste sent off for a doctor, and telegraphed to Sir Charles Verdayne:</p>
-<p>"Come at once,</p>
-F<l>TOMPSON."</l>
+<p>"Come at once,<lb/>
+TOMPSON."</p>
 <p>But ere his father could arrive on Sunday, Paul was lying 'twixt life and death, madly raving with brain fever.</p>
 <p>And thus ended the three weeks of his episode.</p>
 </div>
@@ -1367,7 +1377,7 @@ F<l>TOMPSON."</l>
 <div id="egthree021" type="chapter" n="21">
 <head>CHAPTER XXI</head>
 <p>Have any of you who read crept back to life from nearly beyond the grave? Crept back to find it shorn of all that made it fair? After hours of delirium to awaken in great weakness to a sense of hideous anguish and loss--to the prospect of days of aching void and hopeless longing, to the hourly, momentary sting of remembrance of things vaster than death, more dear than life itself?  If you have come though this valley of the shadow, then you can know what the first days of returning consciousness meant to Paul.</p>
-<p>He never really questioned the finality of her decree, he <hi rend=italic">sensed</hi> it meant parting for ever. And yet, with that spring of eternal hope which animates all living souls, unbidden arguings and possibilities rose in his enfeebled brain, and deepened his unrest. Thus his progress towards convalescence was long and slow.</p>
+<p>He never really questioned the finality of her decree, he <hi rend="italic">sensed</hi> it meant parting for ever. And yet, with that spring of eternal hope which animates all living souls, unbidden arguings and possibilities rose in his enfeebled brain, and deepened his unrest. Thus his progress towards convalescence was long and slow.</p>
 <p>And all this time his father and Tompson had nursed him in the old Venetian palazzo with tenderest devotion.</p>
 <p>The Italian servants had been left, paid up for a month, but the lady and her Russian retinue had vanished, leaving no trace.</p>
 <p>Both Tompson and Sir Charles knew almost the
@@ -1439,7 +1449,7 @@ opened, a great sob rose in his breast. He covered his face with his hands, and 
 <p>"The boy is a fine fellow," he said one morning as they looked at Paul hauling ropes. "He'll probably never get quite over this, but he is fighting like a man, Charles--tell me as much as you feel inclined to of the story."</p>
 <pb n="182     THREE WEEKS"/>
 <p>So Sir Charles began in his short, broken sentences:</p>
-<p>"Parson's girl to start with--sympathy over a broken collar-bone. The wife behaved unwisely about it, so the boy thought he was in love. We sent him to travel to get rid of that idea. It appears he met this lady in Lucerne--seems to have been an exceptional person--a Russian, Tompson says--a Queen or Princess <hi rend="italic">incog.</hi>, the fellow tells me--but I can't spot her as yet. Hubert will know who she was, though--but it does not matter--the woman herself was the thing. Gather she was quite a remarkable woman--ten years older than Paul."</p>
+<p>"Parson's girl to start with--sympathy over a broken collar-bone. The wife behaved unwisely about it, so the boy thought he was in love. We sent him to travel to get rid of that idea. It appears he met this lady in Lucerne--seems to have been an exceptional person--a Russian, Tompson says--a Queen or Princess <hi rend="italic">incog.</hi>, the fellow tells me--but I can't spot her as yet. Hubert will know who she was, though--but it does not matter--the woman herself was the thing. Gather she was quite a remarkable woman--ten years older than Paul."</p>
 <p>"Always the case," growled Captain Grigsby.</p>
 <p>Sir Charles puffed at his pipe--and then: "They were only together three weeks," he said. "And during that time she managed to cram more knowledge of everything into the boy's head than you and I have got in a lifetime. Give you my word, Grig, when he was off his chump in the fever, he raved like a poet, and an orator, and he was only an ordinary sportsman when he left home in the spring! Cleopatra, he called her one day, and I fancy that was the keynote--she must have been one of those exceptional women we read of in the sixth form."</p>
 <p>"And fortunately never met!" said Captain Grigsby.</p>
@@ -1478,7 +1488,7 @@ in spirit, as she had said, they could never be parted more.</p>
 <p>A suppressed moan of anguish escaped his lips, and his father, who had come silently behind him, put his hand on his arm.</p>
 <p>"My poor boy," he said, his gruff voice hoarse in his throat, "if only to God I could do something for you!"</p>
 <p>"Oh, father!" said Paul.</p>
-<p>And the two men looked in each other's eyes, and knew each other as never before.</p>
+<p>And the two men looked in each other's eyes, and knew each other as never before.</p><milestone unit="section" rend="dots"/>
 </div>
 <pb n="188"/>
 <div id="egthree023" type="chapter" n="23">
@@ -1533,12 +1543,12 @@ protection for himself. She had known if he knew her place of abode no fear of d
 <p>But the three weeks of his lady's influence had changed the inner man beyond all recognition. His spirit was stamped with her nameless distinction, and all the vistas she had opened for him to the tree of knowledge he now followed up. No smallest incident of his day seemed unconnected with some thought or
 <pb n="196     THREE WEEKS"/>
 wish of hers--so that in truth she still guided and moulded him by the power of her great soul.</p>
-<p>But in spite of all these things, the weeks and months held hours of aching longing and increasing anxiety to know how she fared. If she should be ill. If their hope was coming true, then now she must be suffering, and suffering all alone. Sometimes the agony of the thought was more than Paul could bear, and took him off with Pike alone into the leafless woods which crowned a hill at the top of the park  And then he would pause, and look out at the view, and the dull November sky, a madness of agonising unrest torturing his heart.
+<p>But in spite of all these things, the weeks and months held hours of aching longing and increasing anxiety to know how she fared. If she should be ill. If their hope was coming true, then now she must be suffering, and suffering all alone. Sometimes the agony of the thought was more than Paul could bear, and took him off with Pike alone into the leafless woods which crowned a hill at the top of the park  And then he would pause, and look out at the view, and the dull November sky, a madness of agonising unrest torturing his heart.</p>
 <p>The one thing he felt glad of was the absence of his Uncle Hubert, who had been made Minister in a South American Republic, and would not return to England for more than a year. So there would be no temptation to question him, or perchance to hear one of his clever, evil jests which might contain some allusion to his lady. Lord Hubert Aldringham was fond of boasting of his royal acquaintances, and was of a mind that found "not even Lancelot, brave, nor Galahad clean." Now all Paul could do was to wait and hope. At least his Queen had his address. She could write to him, even though he could not write to her--and surely, surely, some news of her must come.</p>
 <p>Thus the winter arrived, and the hunting--hunting
 <pb n="197     THREE WEEKS"/>
 that he had been sure was what he liked best in all the world.</p>
-<p>And now it just served to pass the time and distract some hours from the anguishing ache by its physical pleasure. But in that, as in everything he did at this time, Paul tried to outshine his fellows, and gain one more laurel to lay at the feet of his Queen. Socially he was having an immense success. He began to be known as some one worth listening to by men, and women hung on his words. It was peculiarly delightful to find so young and beautiful a creature with all the knowledge and fascinating <hi rend=italic">cachet</hi> of a man of the world. And then his complete indifference to them piqued and allured them still more. Always polite and chivalrous, but as aloof as a mountain top. Paul had no small vanity to be soothed by their worship into forgetting for one moment his Queen. So his shooting-visits passed, and his experience of life grew.</p>
+<p>And now it just served to pass the time and distract some hours from the anguishing ache by its physical pleasure. But in that, as in everything he did at this time, Paul tried to outshine his fellows, and gain one more laurel to lay at the feet of his Queen. Socially he was having an immense success. He began to be known as some one worth listening to by men, and women hung on his words. It was peculiarly delightful to find so young and beautiful a creature with all the knowledge and fascinating <hi rend="italic">cachet</hi> of a man of the world. And then his complete indifference to them piqued and allured them still more. Always polite and chivalrous, but as aloof as a mountain top. Paul had no small vanity to be soothed by their worship into forgetting for one moment his Queen. So his shooting-visits passed, and his experience of life grew.</p>
 <p>Isabella had returned at Christmas, engaged to a High Church curate, and beaming with satisfaction and health. And it gave Paul, and indeed them both, pleasure to meet and talk for an hour. She was a good sort always, and if he marvelled to himself how he had ever been even mildly attracted by her, he did not let it appear in his manner.</p>
 <p>But one thing jarred.</p>
 <p>"My goodness, Paul, how smart Pike's collar is!"
@@ -1593,7 +1603,7 @@ bling fingers Paul undid the smaller packet's folded ends. And there the morning
 the torrent of his wild happiness had crystallised itself into coherent thought and question. Surely she would send him some more words and make some plan to see him. But at least he was in touch with her again and knew she was his own--his own. The silence had broken, and human ingenuity would find some way of meeting.</p>
 <p>The postmark was Vienna--though that meant nothing at all; she could have sent Dmitry there to post the letter. But at best, even if it were Russia, a few days' journey only separated him from his darling and--his son! Then the realisation of that proud fact of parenthood came over him again. He said the words aloud, "My son!"</p>
 <p>And with a cry of wild exaltation he vaulted a gate like a schoolboy and ran along the path, Pike bounding in the air in frantic sympathy. Thus Paul returned to his home again, hope singing in his heart.</p>
-<milestone rend="dots" type="section"/>
+<milestone unit="section" rend="dots"/>
 <p>But even his father did not guess why that night at dinner he raised his champagne glass and drank a silent toast--his eyes gazing into distance as if he there saw heaven.</p>
 </div>
 <pb n="206"/>
@@ -1637,7 +1647,7 @@ Lady Henrietta's delicate shell-tinted cheeks flushed rose with joy at the recol
 <pb n="211     THREE WEEKS"/>
 weave together a chain of coincidences which had struck him, until this final certainty. They were a clear set of arguments, and Paul's father was convinced, too.</p>
 <p>"You see, Tompson told you in the beginning she was Russian," Captain Grigsby said after talking for some time, "and the rest was easy to find out. We're not here to judge the morals of the affair, Charles; you and I can only be thundering glad your grandson will sit on that throne all right."</p>
-<p>He had read in one paper--he proceeded to say--that a most difficult political situation had been avoided by the birth of this child, as there was no possible heir at all, and immense complications would ensue upon the death of the present ruler--the scurrilous rag even gave a <hi rend=italic">r&#x00E9;sum&#x00E9;</hi> of this ruler's dissolute life, and a broad hint that the child could in no case be his; but, as they pithily remarked, this added to the little prince's welcome in Ministerial circles, where the lady was greatly beloved and revered, and the King had only been put upon his tottering throne, and kept there, by the fact of being her husband. The paper added, the King had taken the chief part in the rejoicings over the heir, so there was nothing to be said. There were hints also of his mad fits of debauchery and drunkenness, and a suppressed tale of how in one of them he had strangled a keeper, and had often threatened the Queen's life.
+<p>He had read in one paper--he proceeded to say--that a most difficult political situation had been avoided by the birth of this child, as there was no possible heir at all, and immense complications would ensue upon the death of the present ruler--the scurrilous rag even gave a <hi rend="italic">r&#x00E9;sum&#x00E9;</hi> of this ruler's dissolute life, and a broad hint that the child could in no case be his; but, as they pithily remarked, this added to the little prince's welcome in Ministerial circles, where the lady was greatly beloved and revered, and the King had only been put upon his tottering throne, and kept there, by the fact of being her husband. The paper added, the King had taken the chief part in the rejoicings over the heir, so there was nothing to be said. There were hints also of his mad fits of debauchery and drunkenness, and a suppressed tale of how in one of them he had strangled a keeper, and had often threatened the Queen's life.
 <pb n="212     THREE WEEKS"/>
 Her brother, however, was with her now, and would see Russian supremacy was not upset.</p>
 <p>"Husband seems a likely character to hobnob with, don't he, Charles? No wonder she turned her eye on Paul, eh?" Mark Grigsby ended with.</p>
@@ -1649,7 +1659,7 @@ Her brother, however, was with her now, and would see Russian supremacy was not 
 <head>CHAPTER XXVII</head>
 <p>April's days were lengthening out in showers and sunshine and cold east wind. Easter and a huge party had come and gone at Verdayne Place, and the Lady Henrietta had had her hopes once more blighted by noticing Paul's indomitable indifference to all the pretty girls.</p>
 <p>He was going to stand for Parliament in the autumn, when their very old member should retire, and he made that an excuse for his isolation; he was working too hard for social functions, he said. But in reality life was growing more than he could bear.</p>
-<p>Captain Grigsby had sold the old <hi rend=italic">Blue Heather</hi> and bought a new steam yacht of seven hundred tons--large enough to take him round the world, he said--and he had had her put in commission for the Mediterranean, and she was waiting for him now at Marseilles. Would Paul join him for a trip? he asked, and Paul hesitated for a moment.</p>
+<p>Captain Grigsby had sold the old <hi rend="italic">Blue Heather</hi> and bought a new steam yacht of seven hundred tons--large enough to take him round the world, he said--and he had had her put in commission for the Mediterranean, and she was waiting for him now at Marseilles. Would Paul join him for a trip? he asked, and Paul hesitated for a moment.</p>
 <p>If no news came by Friday--this was a Monday--then he should go to London and deliberately find out his lady's name and kingdom. In that case to cruise in the waters might suit his book passing well.</p>
 <pb n="214     THREE WEEKS"/>
 <p>So he asked for a few days' grace, and Captain Grigsby gave a friendly growl in reply, and thus it was settled. By Saturday he was to give his answer.</p>
@@ -1681,7 +1691,7 @@ his passionate anxiety had not been without cause, Dmitry continued: Madame's li
 of the gentleness of an angel, taking continuous pleasure in her little son--indeed, Anna had said this was her only joy, to caress the illustrious infant and call him Paul--such name he had been christened--after a great-uncle. And again Dmitry lowered his eyes, and again Paul looked out of the window and, thrilled.</p>
 <p>Paul! She had called him Paul, their son. It touched him to the heart. Oh! the mad longing to see her! Must he wait a whole month? Yes--Dmitry said there was no use his coming before the 28th of May, for reasons which he could not explain connected with the to-be-hated Troublesome one.</p>
 <p>Every detail was then arranged, and Dmitry was to send Paul maps, and a chart, and the exact description and name of the place where the yacht was to lie. The whole thing would take some time, even if they were to depart to-morrow.</p>
-<p>"The yacht is at Marseilles now," Paul said, "and we shall start on the cruise next week. Let me have every last instruction <hi rend=italic">poste restante</hi>, at Constantinople--and for God's sake send me news to Naples on the way."</p>
+<p>"The yacht is at Marseilles now," Paul said, "and we shall start on the cruise next week. Let me have every last instruction <hi rend="italic">poste restante</hi>, at Constantinople--and for God's sake send me news to Naples on the way."</p>
 <p>Dmitry promised everything, and then as he made his obeisance to go, he slipped a letter into Paul's hand. Madame had bidden him give the Excellency this when they had talked and all was settled. He would leave
 <pb n="219     THREE WEEKS"/>
 again that night, and his present address would find him till six o'clock if the Excellency had aught to send in return.</p>
@@ -1691,8 +1701,8 @@ again that night, and his present address would find him till six o'clock if the
 <p>"Thy image, my Paul! English and beautiful, as I said he would be--not black and white like me. And oh! beloved, thou must always increase thy knowledge of statesmancraft to help me to train him well."</p>
 <p>Then she made a glorious picture of their child's future, and Paul lay back in his chair and closed his eyes--the brightness of it all dazzled him--while his
 <pb n="220     THREE WEEKS"/>
-heart flew to her in passionate adoration. She went on to speak of their possible meeting. Her villa was but two hundred yards from the sea, only he must follow exactly all Dmitry's instructions, or there might be danger for them both; but at all costs she <hi rend=italic">could not live</hi> much longer without seeing her lover.</p>
-<p>"Thou art more than a lover <hi rend="italic">now</hi>, my Paul--and I am more than ever THINE."</p>
+heart flew to her in passionate adoration. She went on to speak of their possible meeting. Her villa was but two hundred yards from the sea, only he must follow exactly all Dmitry's instructions, or there might be danger for them both; but at all costs she <hi rend="italic">could not live</hi> much longer without seeing her lover.</p>
+<p>"Thou art more than a lover <hi rend="italic">now</hi>, my Paul--and I am more than ever THINE."</p>
 <p>Thus it ended. And Paul spent most of the rest of his day reading and re-reading it, and writing his worshipping answer.</p>
 <p>By night both he and Dmitry had started on their homeward journeys.</p>
 </div>
@@ -1706,7 +1716,7 @@ heart flew to her in passionate adoration. She went on to speak of their possibl
 <p>So they sailed away from Marseilles, this party of three, like a gunboat under sealed orders. A cruise to the Greek Isles, and beyond, was what they said attracted them. "Especially the beyond!" Captain Grigsby had added, with a grunt to Sir Charles. And if the ardour of love and impatience boiled in Paul's
 <pb n="222     THREE WEEKS"/>
 veins, the spirit of interested adventure animated old friend and his parent.</p>
-<p>They had not spoken much on the subject to the young man. He had briefly asked Mark Grigsby to do him this service to take him to a far sea in the new <hi rend=italic">Blue Heather</hi>, and there to land him when he should give the word.</p>
+<p>They had not spoken much on the subject to the young man. He had briefly asked Mark Grigsby to do him this service to take him to a far sea in the new <hi rend="italic">Blue Heather</hi>, and there to land him when he should give the word.</p>
 <p>May was a fair month, and an adventure is an adventure all the world over, so Mark Grigsby had given joyful assent.</p>
 <p>Then Sir Charles had suggested accompanying them, and was welcomed by the other two as a third for their party with extra pleasure.</p>
 <p>"I shall grow a young man again before I have done, Grig!" he had said happily. But down in his heart lurked some undefined fear for Paul, and that was the real reason for his journey.</p>
@@ -1721,7 +1731,7 @@ der scene. Would she be changed? Should he see the traces of suffering? But he w
 <p>The hours from Constantinople seemed longer than the whole voyage. He could hardly keep his attention to talk coherently about ordinary things at meals, and his father and Mark Grigsby left him practically alone.</p>
 <p>At last, at last, the 29th of May dawned, boiling hot and cloudlessly fair.</p>
 <p>For obvious reasons they stayed beyond sight of the coast until darkness fell, and then came close inshore. It was a starlit night, with not a breath of air, and no moon would illuminate their whereabouts.</p>
-<p>Paul dressed with the greatest care; never had he been more particular over his toilet. Tompson found him <hi rend="italic">exigeant!</hi></p>
+<p>Paul dressed with the greatest care; never had he been more particular over his toilet. Tompson found him <hi rend="italic">exigeant!</hi></p>
 <p>He had broadened and filled out in the past year, and his fair face was tanned, and blooming with health and excitement.</p>
 <p>"The best-looking young devil a woman's eye could
 <pb n="225     THREE WEEKS"/>
@@ -1730,7 +1740,7 @@ light on!" Mark Grigsby said, as he and Sir Charles watched him descend the gang
 <p>The maddest excitement was racing through Paul, as he held the tiller-ropes and made straight for the fight. And once he felt in his pocket to assure himself he had not forgotten Dmitry's pistol, which he had cleaned and loaded himself that afternoon.</p>
 <p>He knew this adventure might be a dangerous one, simple as it looked superficially, and now he was an expert revolver shot, thanks to constant practice.</p>
 <p>The light proved to be in a little sheltered cove, with a small landing-stage. And--yes--the man who held it was the Kalmuck, Vasili.</p>
-<p>"Welcome, welcome to the <hi rend="italic">Siyatelstvo</hi>," he whispered, as he kissed Paul's hand. And then in perfect silence they began to ascend a path. Presently it stopped abruptly. They had come up perhaps not fifty feet, when their way was barred by a great nail-studded door.</p>
+<p>"Welcome, welcome to the <hi rend="italic">Siyatelstvo</hi>," he whispered, as he kissed Paul's hand. And then in perfect silence they began to ascend a path. Presently it stopped abruptly. They had come up perhaps not fifty feet, when their way was barred by a great nail-studded door.</p>
 <p>"Hist!" said Vasili softly, and instantly it was opened from within, and Dmitry peered anxiously at them.</p>
 <p>"Ah, the saints be blessed, the Excellency is safe," he said. But they must not delay a minute, he added.
 <pb n="226     THREE WEEKS"/>
@@ -1755,7 +1765,7 @@ seemed a wailing echo of the agonised disappointment in Paul's heart--more than 
 marble structure in the graceful Ionic style, seeming a suitable habitation for his Queen.</p>
 <p>It was approached by groves of ilex, from a wall at the edge of the sea. And now Paul could discern the landing-stage, and the great studded door.</p>
 <p>A sensation of foreboding--a wild, mad anxiety, filled his being. What had happened? Why might he not land? Then for the first time that fact of Vasili's vanishment came into his mind. Was there something sinister in it? Had he scented any danger to his Queen, and gone to see? A whirlwind of questions and frenzied speculation shook Paul's brain. But there was nothing to be done now but to cram on all steam and make for Constantinople.</p>
-<p>He looked again. The green <hi rend="italic">jalousies</hi> were lowered over the windows, all seemed peaceful, silent and deserted. No living being wandered in the gardens. It might have been a mausoleum for the dead. And as this thought came to him Paul almost cried aloud.</p>
+<p>He looked again. The green <hi rend="Âitalic">jalousies</hi> were lowered over the windows, all seemed peaceful, silent and deserted. No living being wandered in the gardens. It might have been a mausoleum for the dead. And as this thought came to him Paul almost cried aloud.</p>
 <p>Then he dominated himself. How weak and intolerably foolish to imagine evil where perhaps none was! Why should his thoughts fly to terrible reasons for the postponement of his joy, when in truth they could as well be of the simplest? A sudden call to the city--a descent of some undesirable spying eye--a hundred and one possible things, all much more likely than any ones of fear.</p>
 <pb n="230     THREE WEEKS"/>
 <p>He would not permit another moment of wonder. He would regain his calm and wait like a man for certainty. Thus his face wore an iron mask and his thoughts an iron band  And presently they came to Constantinople.</p>
@@ -1764,7 +1774,7 @@ marble structure in the graceful Ionic style, seeming a suitable habitation for 
 <p>But only Paul and his father, and Mark Grigsby, know the details, which were told in Dmitry's heartbroken letter. How that night, the 29th of May, at the hour the Excellency was expected, he--Dmitry--was waiting in the garden to meet him and conduct him through the gloom, when, while he stood there under the stars, the Imperial Highness had called him softly, telling him to take the message down to the Excellency,
 <pb n="231     THREE WEEKS"/>
 which he did. How he had never dreamed that immediate danger threatened her, or that the King was there, or he would not have left her for any peril to the Excellency, who was after all a man and could fight. And how Vasili, being younger and more quick of wit, had suspected, hearing his message as he gave it to the Excellency, that all was not well, and had hastened to the house--too late to save his Queen.</p>
-<p>And then the faithful servant took up Anna's tale. How this good girl had been watching on the side of the villa towards the town, and had heard the King come battering at the gate. How she had flown to warn her mistress, but that the <hi rend=italic">Imperatorskoye</hi> had sent her back to watch, saying she herself would call Dmitry to protect them. Of course--as they now guessed--on purpose that Anna should not hear her message to him--as the Queen knew full well if, he--Dmitry--heard from Anna the King was there, and she--the Queen--in danger, he would not leave her, even to do her bidding. Then of how the King had thrust the frightened servants aside, and strode with threats and oaths into the hall, accompanied by his two vile men. And how Anna had implored the Queen to hide while there was yet time. But how that shining one had stood only listening intently for the seabird's cry, and then when she heard it, had turned in triumph to the entering King, saying to
+<p>And then the faithful servant took up Anna's tale. How this good girl had been watching on the side of the villa towards the town, and had heard the King come battering at the gate. How she had flown to warn her mistress, but that the <hi rend="italic">Imperatorskoye</hi> had sent her back to watch, saying she herself would call Dmitry to protect them. Of course--as they now guessed--on purpose that Anna should not hear her message to him--as the Queen knew full well if, he--Dmitry--heard from Anna the King was there, and she--the Queen--in danger, he would not leave her, even to do her bidding. Then of how the King had thrust the frightened servants aside, and strode with threats and oaths into the hall, accompanied by his two vile men. And how Anna had implored the Queen to hide while there was yet time. But how that shining one had stood only listening intently for the seabird's cry, and then when she heard it, had turned in triumph to the entering King, saying to
 <pb n="232     THREE WEEKS"/>
 Anna that nothing mattered now the Excellency was safe!</p>
 <p>On her face, as she looked at this monster, was no dread of death, or aught but scorn and fearless pride. How Anna, seeing the dagger, had screamed, and tried to get between, but had been seized by one of the execrated men, and there been forced to watch the murder of her worshipped Queen. Ah! that had been a moment the saints could never efface! The splendid lady had stood quite still, her head thrown back, while this hound of hell had lurched towards her--hissing through his evil teeth this dreadful sentence: "Since thou hast at last obeyed me and found me an heir, making the people love me, I have no more use for thee. It will be a joy to kill thee!"</p>
@@ -1786,10 +1796,12 @@ Save him from what? A brush with three besotted drunkards, whom it would have be
 <p>There were moments when Paul went mad with passion, and lay and writhed in his berth. So long months passed, and at last he dominated himself enough to come back to his home.</p>
 <p>And if the Lady Henrietta had exclaimed that he appeared ill before on his return, she was dumb now with sorrow at the change. For Paul had looked upon Medusa's head of horror, and, as well as his heart, his face seemed turned to stone. He was gentle with his mother, and let her caress him as much as she would, but nothing any one could say could move him--even Pike's joyous greeting.</p>
 <p>The whole of God's world was his enemy--for was he not alone there, robbed of his mate? Presently the reaction from this violence came, and an intense apathy set in. A saltless, tasteless existence. What was Parliament to him? What was his country or his nation? or even his home? Only the hunting when it came gave him some relief, and then if the run were fast enough, or the jumps prodigiously high, or his horses sufficiently fresh to be difficult, his blood ran again for a brief space. But beyond this life was hell, and often he was tempted to use that little pistol of Dmitry's, and end it, and sleep. Only the inherent
-<figure entity="egthree234" type="figure">
-<p> Isabella returned at Christmas....if he marvelled to himself how he had been attracted to her, he did not let it appear in his manner."</p>
-<figDesc> Picture in body of Glyn's "Three Weeks "</figDesc>
+
+<figure entity="egthreeill4" type="figure">
+<p>Isabella returned at Christmas....if he marvelled to himself how he had been attracted to her, he<lb/> did not let it appear in his manner.</p>
+<figDesc>Illustration between pages 234 and 235 of Glyn's "Three Weeks "</figDesc>
 </figure>
+
 <pb n="235     THREE WEEKS"/>
 manly English spirit in him, deep down somewhere, prevented him.</p>             <p>All this time his father grieved and grieved, and the Lady Henrietta spent hours in tears and prayer. Sir Charles had told her their son had met with a great sorrow, and they must bow their heads and leave him in peace, so there were no more gay young parties at Verdayne Place, and gone for ever were the visions of the grandchildren. Only Mark Grigsby was a constant visitor, but then--he knew.</p>
 <p>Thus a year passed away, and Paul left on a voyage round the world. An Englishman's stern duty to be a man at all costs was calling him at last--bidding him in change of scene to try and overcome the paralysing dominion of his grief. But as far as that went the experiment proved futile. If moments came when circumstances did divert him, such as one or two great storms he happened to come across, and one or two exciting situations--still, when things were fair and peaceful, back would rush the ever-living ache. That passionate void and loss for which there seems no remedy.</p>
@@ -1835,7 +1847,7 @@ long ago, when in his exuberant happiness at the news of his little son's birth 
 <p>And Paul went on--but her face haunted him.</p>
 <p>Was there the same hard change in himself, he wondered? Was he, too, brutalised and branded with the five years of hell? Surely if so he had gone on a lower road than his darling would have had him travel.</p>
 <pb n="242     THREE WEEKS"/>
-<p>Then out of the mist of the dying day came the memory of her noble face as it had been in that happy hour when they had floated out to the lagoon, and she had told him--her eyes alight with the <hi rend="italic">feu sacr&#x00E9;</hi>--her wishes for his future.</p>
+<p>Then out of the mist of the dying day came the memory of her noble face as it had been in that happy hour when they had floated out to the lagoon, and she had told him--her eyes alight with the <hi rend="Âitalic">feu sacr&#x00E9;</hi>--her wishes for his future.</p>
 <p>But what had he done to carry them out--those lofty wishes? Surely nothing. For, obsessed with his own selfish anguish, he had lived on with no single worthy aim, with no aim at all except to forget and deaden his suffering.</p>
 <p>Forget! Ah God! that could never be. For had she not said there was an eternal marriage of their souls--in life or in death they could never be parted?</p>
 <p>And he had tried to break this sacred tender bond, when he should have cherished every memory to comfort his deep pain with its sweetness. What had he done? Let sorrow sink him to the level of the poor gipsy girl, instead of trying to do some fine thing as a tribute to his lady's noble teaching.</p>
@@ -1846,13 +1858,13 @@ long ago, when in his exuberant happiness at the news of his little son's birth 
 <p>But suddenly it seemed as if his lady's spirit stood beside him in the firelight's flickering gleam, whispering words of hope, pleading to come back from the cold grave to his heart, there to abide and comfort him.</p>
 <p>He heard hr golden voice once more, and it fell like soft, healing rain, so that he stretched out his arms, and cried aloud:</p>
 <p>"My darling, beloved, forgive me for these five wasted years--sweetheart, come back to me never to part again. Come back to my heart, and dwell there, Angel Queen!"</p>
-<milestone rend="dots" type="section"/>
+<milestone unit="section" rend="dots"/>
 <p>Then, as the days went on, all the world altered for him. Instead of the terrible bitterness against fate which had ruled his heart, a new tenderness grew there. It seemed now as though he were never alone, but lived in her ever-present memory. And with this golden change came thoughts of his child--that little life neglected for so long. What had he done? What cruel, terrible thing had he done in his selfish pain?</p>
 <p>Each year Dmitry had sent him a letter of news, and each year that day had held ghastly hours for him in
 <pb n="244     THREE WEEKS"/>
 the reopening of old anguish--the missive to be read and quickly thrust out of sight, the thought of it to be strangled and forgotten.</p>
 <p>And now the little one would soon be five years old, and his father's living eyes had never seen him! But this should no more be so, and he wrote at once to Dmitry.</p>
-<p>By return of post came the answer. The Excellency indeed would be welcome. The Regent--the Grand Duke Peter--had bidden him say that if the Excellency should be travelling for pleasure, as the nobility of his country often did, he would gladly be received by the Regent, who was himself a great <hi rend="italic">chasseur</hi> and <hi rend="italic">voyageur</hi>. The Excellency would then see the to-be-sufficiently-loved baby King. Of this glorious child he--Dmitry--found it difficult to write. It was as if the <hi rend="italic">Imperatorskoye</hi> breathed again in his spirit, while he was the portrait of his illustrious father, proving how deeply and well the <hi rend=italic">Imperatorskoye</hi> must have loved that father. If the Excellency could arrive in time for the Majesty's fifth birthday, on the 19th of February, there was to be a special ceremony in the great church which the Regent thought might be of interest to the Excellency.</p>
+<p>By return of post came the answer. The Excellency indeed would be welcome. The Regent--the Grand Duke Peter--had bidden him say that if the Excellency should be travelling for pleasure, as the nobility of his country often did, he would gladly be received by the Regent, who was himself a great <hi rend="italic">chasseur</hi> and <hi rend="italic">voyageur</hi>. The Excellency would then see the to-be-sufficiently-loved baby King. Of this glorious child he--Dmitry--found it difficult to write. It was as if the <hi rend="italic">Imperatorskoye</hi> breathed again in his spirit, while he was the portrait of his illustrious father, proving how deeply and well the <hi rend="italic">Imperatorskoye</hi> must have loved that father. If the Excellency could arrive in time for the Majesty's fifth birthday, on the 19th of February, there was to be a special ceremony in the great church which the Regent thought might be of interest to the Excellency.</p>
 <p>Paul wired back he would travel night and day to be in time, and he instructed Dmitry to have the necessary arrangements made that he might go straight to the
 <pb n="245     THREE WEEKS"/>
 church, in case unforeseen delay should not permit him to arrive until that morning.</p>
