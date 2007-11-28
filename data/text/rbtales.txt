@@ -1,16 +1,10 @@
-***This text will require page break entities***
-***The numerous letters will require formatting as far as indentation etc., with which I am not going to mess at this point.***
-***When the book used double m-dashes, I used four hyphens.***
-***At several random points in the text, there is a spacing between paragraphs which looks almost like a blank line.  Because it happened several times, because it did not make sense in the context of the text itself, and because otherwise this book uses asterisks or lines as breaks, I DID NOT mark these as milestones.  I believe they are printing decisions to make the bottoms of the pages align.  Just wanted to let you know in case that judgement call was inappropriate.***
-***Note that the title of the book is different on the spine!***
-
-<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+       +<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
 <TEI.2> 
 <teiHeader> 
 <fileDesc> 
 <titleStmt> 
 <title>Tales for Christmas Eve, an electronic edition</title> 
-<author n="Broughton, Rhoda 1840-1920">Rhoda Broughton</author> 
+<author><name reg="Broughton, Rhoda 1840-1920">Rhoda Broughton</name></author> 
 </titleStmt> 
 <extent></extent> 
 <publicationStmt> 
@@ -66,9 +60,9 @@
 <textClass> 
 <keywords scheme="lcsh"> 
 <list> 
-<item>British literature--20th Century--Fiction.</item> 
-<item>Women authors, British--20th Century.</item> 
-<item>Short Stories.</item> 
+<item>British literature--19th Century--Fiction.</item> 
+<item>Women authors, British--19th Century.</item> 
+<item>Short stories.</item> 
 <item>Ghosts.</item> 
 </list> 
 </keywords> 
@@ -124,7 +118,7 @@
 <pb n="[9]"/>
 <body>
 <div id="rbtales001" type="story" n="1">
-<head rend="center">THE TRUTH, THE WHOLE TRUTH,<lb/>
+<head>THE TRUTH, THE WHOLE TRUTH,<lb/>
 AND<lb/>
 NOTHING BUT THE TRUTH.</head>
 <q><text><body>
