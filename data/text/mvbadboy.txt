@@ -1,3 +1,104 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2 id="aseliza1201"> 
+<teiHeader id="aseliza1202"> 
+<fileDesc> 
+<titleStmt> 
+<title>A Bad Boy's Diary, an electronic edition</title> 
+<author n="Victor, Metta Victoria Fuller., 1831-1885">Metta Victoria Fuller Victor</author> 
+</titleStmt> 
+<extent>400Kb</extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2008</date> 
+<availability> 
+<p>&#x00A9; 2008, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> 
+</address>
+</p></availability></publicationStmt> 
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt> 
+</seriesStmt> 
+<sourceDesc>
+ <bibl><author>Victor, Metta Victoria Fuller.</author>. <title>A Bad Boy's Diary</title>. <pubPlace>London</pubPlace>: <publisher>Frederick Warne and Company</publisher>, <date>????</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Short Stories</rs> 
+<rs type="geography">United States</rs> 
+<date>1800-1899</date>
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>American Literature--19th Century--Fiction.</item> 
+<item>.</item> 
+<item>.</item> 
+<item>.</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2008-January-07</date> 
+<respStmt><name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader> 
+<front>
+<div id="mvbadboycover" type="front cover">
+<figure entity="mvbadboyfm1" rend="inline">
+<figDesc> Front Cover of Victor's "A Bad Boy's Diary"</figDesc>
+</figure>
+</div>
+<pb/>
+<div id="mvbadboyfm2" type="advert">
+<figure entity="mvbadboyad1" rend="inline">
+<figDesc> Advert included in front of Victor's "A Bad Boy's Diary"</figDesc>
+</figure>
+
+<pb/>
+<figure entity="mvbadboyad2" rend="inline">
+<figDesc> Advert included in front of Victor's "A Bad Boy's Diary"</figDesc>
+</figure>
+</div>
+<pb/>
+<pb entity="mvbadboytp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">A Bad Boy's Diary"</titlePart>
+</docTitle>
+
+
+
 <pb n="[5]"/><div id="mvbadboy" type="chapter" n="1"><head>A BAD BOY'S
 DIARY.<lb/><milestone unit="section" rend="line"/>CHAPTER I/<lb/>HOW
 HE BEGAN IT.</head>
@@ -15,8 +116,7 @@ good as I could.</p>
 drawer, 'xcept what is put in crimps. So tonite Mister Wilyem Smith he
 come to see Lil, like he does most every evening, a big, ugly ole
 bashlor that my sisters makes fun of behind his back, an' I was in the
-parlor with my diry in my hand an' he ast me wot I got, an' give me
-sum candy, an' I showed him my diry,an' he red this out loud to Lil
+parlor with my diry in my hand an' he ast me wot I got, an' give me sum candy, an' I showed him my diry,an' he red this out loud to Lil
 and Bess, which was in the room all fixed up to fits:</p>
 <p>"I wish that stupid ole Bill Smith would keep hisself to home. he
 came agen Sunday night. I never, never, never, never shall like him
