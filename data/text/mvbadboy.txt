@@ -25,7 +25,7 @@
 <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt> 
 </seriesStmt> 
 <sourceDesc>
- <bibl><author>Victor, Metta Victoria Fuller.</author>. <title>A Bad Boy's Diary</title>. <pubPlace>London</pubPlace>: <publisher>Frederick Warne and Company</publisher>, <date>????</date>.</bibl> 
+ <bibl><author>Victor, Metta Victoria Fuller.</author>. <title>A Bad Boy's Diary</title>. <pubPlace>London</pubPlace>: <publisher>Frederick Warne and Company</publisher>, <date>1883</date>.</bibl> 
 </sourceDesc> 
 </fileDesc> 
 <encodingDesc> 
@@ -70,9 +70,10 @@
 <respStmt><name>Shruthi Vissa, </name> 
 <resp>Encoder.</resp></respStmt> 
 <item>XML tags inserted in compliance with TEI guidelines.</item> 
-</change> 
+</change>
 </revisionDesc> 
 </teiHeader> 
+<text>
 <front>
 <div id="mvbadboycover" type="front cover">
 <figure entity="mvbadboyfm1" rend="inline">
@@ -84,7 +85,6 @@
 <figure entity="mvbadboyad1" rend="inline">
 <figDesc> Advert included in front of Victor's "A Bad Boy's Diary"</figDesc>
 </figure>
-
 <pb/>
 <figure entity="mvbadboyad2" rend="inline">
 <figDesc> Advert included in front of Victor's "A Bad Boy's Diary"</figDesc>
@@ -94,12 +94,28 @@
 <pb entity="mvbadboytp" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main">A Bad Boy's Diary"</titlePart>
+<titlePart type="main">A <lb/>Bad Boy's Diary" </titlePart>
 </docTitle>
-
-
-
-<pb n="[5]"/><div id="mvbadboy" type="chapter" n="1"><head>A BAD BOY'S
+<docEdition> Unabridged Edition</docEdition>
+<docImprint>
+<pubPlace> LONDON </pubPlace>
+<publisher> FREDERICK WARNE AND CO.</publisher>
+<pubPlace> BEDFORD STREET, STRAND</pubPlace>
+</docImprint>
+</titlePage>
+<pb/>
+<div id="mvbadboyfm3" type="table of contents">
+<figure entity="mvbadboytc1" rend="inline">
+<figDesc>Table of contents at front of Victor's "Diary of a bad boy"</figDesc>
+</figure>
+<pb/>
+<figure entity="mvbadboytc2" rend="inline">
+<figDesc> Table of contents at front of Victor's "Diary of a bad boy"</figDesc>
+</figure>
+</div>
+</front>
+<body>
+<pb n="[5]"/><div id="mvbadboy01" type="chapter" n="1"><head>A BAD BOY'S
 DIARY.<lb/><milestone unit="section" rend="line"/>CHAPTER I/<lb/>HOW
 HE BEGAN IT.</head>
 <p>I WAS ate years ole yesterday, an' mamma she says to me:</p>
@@ -230,7 +246,7 @@ puts pins in the schollars' seats. Crost eyes would be the
 convinyuntest things fur boys that have to go to school. Betty yawns
 like the top of her head would fall off. So I must close.</p></div>
 
-<pb n="8     A Bad Boy's Diary."/><div id="mvbadboy" type="chapter"
+<pb n="8     A Bad Boy's Diary."/><div id="mvbadboy02" type="chapter"
 n="2"><head>CHAPTER II.<lb/>THE PHOTOGRAPHS.</head>
 <p>I'VE been 2 sick too write in my diry for most a week. It was
 gettin' drownded made me ill, an' gettin' out o' bed when I was
@@ -373,7 +389,7 @@ they want me to be good to 'em.</p>
 <p>P.S.--I bet their left ears are burning wuss'n ever mine
 did!</p></div>
 
-<pb n="11     The Party."/><div id="mvbadboy" type="chapter"
+<pb n="11     The Party."/><div id="mvbadboy03" type="chapter"
 n="3"><head>CHAPTER III.<lb/>THE PARTY.</head>
 <p>O DERE! O dere! Wot a world this is! Little boys are born to
 trubble as the sparks are to fly upwards. It's over a week sence I've
@@ -515,7 +531,7 @@ n="14     A Bad Boy's Diary."/>
 up, cause if I don't my sisters'll all die old mades."</p><milestone
 unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="4"><head>CHAPTER IV.<lb/>THE
+<div id="mvbadboy04" type="chapter" n="4"><head>CHAPTER IV.<lb/>THE
 ELOPEMENT.</head>
 <p>I BROKE of ruther abruply las' night 'cause a mouse come out of a
 hole in my bedroom, so I tride to catch it. I broke my wash-bole
@@ -661,7 +677,7 @@ after brekfast she sez to me:</p>
 burst rite out a cryin'.</p>
 <p>I wish I hadn't.</p><milestone unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="5"><head>CHAPTER V.<lb/>"HE
+<div id="mvbadboy05" type="chapter" n="5"><head>CHAPTER V.<lb/>"HE
 DIDN'T KNOW 'TWAS LOADED."</head>
 <p>THERE has been a aksident to our house. It nede not take a profit
 to tell who was in fault. I am a dredful boy. To the, my diry, I must
@@ -802,7 +818,7 @@ like he was a criminal in the penny ten sherry, he'd tare the sheets
 up worse'n I did. Folks are so unjust to childrun.</p><milestone
 unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="6"><head>CHAPTER VI.<lb/>UNDER
+<div id="mvbadboy06" type="chapter" n="6"><head>CHAPTER VI.<lb/>UNDER
 THE TABLE.</head>
 <p>I DON'T kno wot makes Susan always in such a awful hurry bout the
 males; won would think she'd dye if she don't get her letters inside
@@ -944,7 +960,7 @@ tickets to my sisters an' their bows, an' show 'em how it's done. I'm
 glad I've made up my mind to be a prestydigatater. I think I'll like
 the business.</p><milestone unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="7"><head>CHAPTER VII.<lb/>THE
+<div id="mvbadboy07" type="chapter" n="7"><head>CHAPTER VII.<lb/>THE
 LITTLE PRESTIDIGITATEUR.</head>
 <p>You never saw such a muss in your life as tliare has bin in our
 house the last few days! P'raps I can ride a horse in a circus ring,
@@ -1149,7 +1165,7 @@ side an side like her heart would break, an said:</p>
 <p>So I answered her:</p>
 <p>"I'd be up to bed nex," which was the truth.</p></div>
 
-<pb n="28     A Bad Boy's Diary."/><div id="mvbadboy" type="chapter"
+<pb n="28     A Bad Boy's Diary."/><div id="mvbadboy08" type="chapter"
 n="8"><head>CHAPTER VIII.<lb/>MISTER WILKINS TAKES HIS SISTER OUT TO
 RIDE.</head>
 <p>AUNT BETSEY she come to the wedding for all she was so mad. She
@@ -1345,7 +1361,7 @@ depicted. I've got 2 big bunches of fire-crackers left--revenge is
 swete--if pa don't wake up sudden an' say to ma "Is that a erthquake
 or the gudgement day?" my name ain't Georgy Hackett.</p></div>
 
-<pb n="32     A Bad Boy's Diary."/><div id="mvbadboy" type="chapter"
+<pb n="32     A Bad Boy's Diary."/><div id="mvbadboy09" type="chapter"
 n="9"><head>CHAPTER IX.<lb/>HE HELPS HIS SISTERS AT THE FAIR.</head>
 <p>LITTLE girls is a reglar nusance; they ain't no good like
 boys. Mare's one come to stay to our house a week. Her mamma came two;
@@ -1540,7 +1556,7 @@ expected to draw. I had 10 chances. It plaid sevral tunes. It was a
 fereful shame to have it burned--those girls made theirselfs perfeckly
 redikelous.</p><milestone unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="10"><head>CHAPTER X.<lb/>THE
+<div id="mvbadboy10" type="chapter" n="10"><head>CHAPTER X.<lb/>THE
 SURPRISE PARTY.</head>
 <p>PAPA Wanted to send me off to school, but mamma sade, "No, he'll be
 sent back, wot's the use?" coz the citizens wanted me to leve the
@@ -1728,7 +1744,7 @@ the noose-paper, and if that fool cow would kepe walking past whose
 fault was it--hers or mine?</p><milestone unit="section"
 rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="11"><head>CHAPTER XI.<lb/>HE GOES
+<div id="mvbadboy11" type="chapter" n="11"><head>CHAPTER XI.<lb/>HE GOES
 TO CHURCH.</head>
 <p>SOMETIMES docktor Moore lets me come to his offis an' play a
 spell. His offis is on mane street; he keeps a fast horse and a sulky,
@@ -1917,7 +1933,7 @@ Johnny whissle in our yard! I called him softly. He sawed the rope in
 squirl and my bull-pup, an' go way somewhare whare fokes won't kno'
 how bad I am."</p><milestone unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="12"><head>CHAPTER XII.<lb/>HE
+<div id="mvbadboy12" type="chapter" n="12"><head>CHAPTER XII.<lb/>HE
 BECOMES A BURGLAR.</head>
 <p>"Hullo!" says he, as ezy as ennything, "whare is my little
 gentleman goin' in such a hurry?"</p>
@@ -2120,7 +2136,7 @@ blieve Mr. Jennings is as mutch of a felloe as Bess thinks he is, else
 the people of New York would a knone more about him.</p><milestone
 unit="section" rend="line"/></div>
 
-<pb n="49     The Last Straw."/><div id="mvbadboy" type="chapter"
+<pb n="49     The Last Straw."/><div id="mvbadboy13" type="chapter"
 n="13"><head>CHAPTER XIII.<lb/>THE LAST STRAW.</head>
 <p>I AM fond of most all sesons of the year, specially Chrismus, witch
 is jolly jenerally. Cook is that cross with fring donuts, making frute
@@ -2314,7 +2330,7 @@ first time I go to brekfast.</p>
 fast asleep. I wonder if he gumped when I stuck a pin in him wood his
 spectacles fly off?</p><milestone unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="14"><head>CHAPTER XIV.<lb/>A
+<div id="mvbadboy14" type="chapter" n="14"><head>CHAPTER XIV.<lb/>A
 GREAT IMPROVEMENT.</head>
 <p>How sad it is to be homesick! Last nite I lay awake a long, long
 time--morin half a hour--thinking about Betty and her crost-eyed beau
@@ -2513,7 +2529,7 @@ homesick she'd better send me a frute-cake soon. I'm that improved in
 spelling and good conduk she might add a gelly-cake.</p><milestone
 unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="15"><head>CHAPTER XV.<lb/>HE
+<div id="mvbadboy15" type="chapter" n="15"><head>CHAPTER XV.<lb/>HE
 BECOMES A KLEPTOMANIAC.</head>
 <p>IT's od how much a boy lurns when he goes to bording-stool. Arthur
 Brown has shown me how to throw a paper wad so's nobudy won't kno it
@@ -2698,7 +2714,7 @@ sell on them! I'll rite it to-night. Jack Bunce will get it put in the
 paper for me. "A healthy male child wants to be adopted; a good home
 more than wages."</p><milestone unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="16"><head>CHAPTER XVI.<lb/>HE IS
+<div id="mvbadboy16" type="chapter" n="16"><head>CHAPTER XVI.<lb/>HE IS
 SUSPENDED.</head>
 <p>THERE was quite a sceen last nite when I got home. I was put in the
 care of the conductor--the profesur's last words were, "Conductor,
@@ -2889,7 +2905,7 @@ Christmas, to bury my squirl in. I xpect Sue will not like it, but
 poor Bunny had to have a coughin. It made a lovly
 coughin.</p><milestone unit="section" rend="line"/></div>
 
-<pb n="66     A Bad Boy's Diary."/><div id="mvbadboy" type="chapter"
+<pb n="66     A Bad Boy's Diary."/><div id="mvbadboy17" type="chapter"
 n="17"><head>CHAPTER XVII.<lb/>"GOODNESS ME! IT WAS THE CAT."</head>
 <p>Dr. Moore and Sue have broke oph their engagement. It is a offul
 loss to Sue, coz she had her trooso all ready. I'm afrade it will go
@@ -3064,7 +3080,7 @@ the wedding-cake. "We can make another," Sue said, quite careless
 like. The ceremony is to come oph as soon as the plaster does from the
 doctor's nose.</p><milestone unit="section" rend="line"/></div>
 
-<pb n="70     A Bad Boy's Diary."/><div id="mvbadboy" type="chapter"
+<pb n="70     A Bad Boy's Diary."/><div id="mvbadboy18" type="chapter"
 n="18"><head>CHAPTER XVIII.<lb/>HE MAKES AND FLIES A KITE.</head>
 <p>ROSA PRINCE is going to give a party; she is quite a big girl; the
 party will be her tenth birthday. She says they are going to have a
@@ -3244,7 +3260,7 @@ thretened to shoot me if I go near him. I am warned to keep out of
 danger. I am glad my mother is not that sort of a woman like poor
 little Johnny's.</p></div>
 
-<pb n="75     A Bad Boy's Diary."/><div id="mvbadboy" type="chapter"
+<pb n="75     A Bad Boy's Diary."/><div id="mvbadboy19" type="chapter"
 n="19"><head>CHAPTER XIX.<lb/>HE ENJOYS THE FIRST OF APRIL.</head>
 <p>I DID not sleep at home last night or night before, cos I made a
 unxpected visit to dear Lil, so I could not write in thee, my
@@ -3448,7 +3464,7 @@ once.</p>
 home--why didn't that telegraf felloe pay the bill an kepe
 dark?</p><milestone unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="20"><head>CHAPTER XX.<lb/>THE WAY
+<div id="mvbadboy20" type="chapter" n="20"><head>CHAPTER XX.<lb/>THE WAY
 HE EARNED HIS PONY.</head>
 <p>THERE isn't a sole about the house but me an Bess xcepting the
 help, for papa and mamma have gone to spend a week with Lil, and the
@@ -3649,7 +3665,7 @@ brother will be the deth of her. I'm doubtful if I get my pony after
 oll my efforts to be good. There seems to be a pregudice agenst me in
 this community.</p><ilestone unit="section" rend="line"/></div>
 
-<pb n="83     He Contrives to go to the Wedding."/><div id="mvbadboy" type="chapter"
+<pb n="83     He Contrives to go to the Wedding."/><div id="mvbadboy21" type="chapter"
 n="21"><head>CHAPTER XXI.<lb/>HE CONTRIVES TO GO TO THE
 WEDDING.</head>
 <p>I AM not a bad boy any more. Oh, no, I am a wicked, wicked boy
@@ -3829,7 +3845,7 @@ say to Sue that he had changed his mind about their bording with her
 folks when they came back--they must board at the hotel--I wonder
 why.</p></div>
 
-<pb n="87     In the Lion's Den."/><div id="mvbadboy" type="chapter"
+<pb n="87     In the Lion's Den."/><div id="mvbadboy22" type="chapter"
 n="22"><head>CHAPTER XXII.<lb/>IN THE LION'S DEN.</head>
 <p>THE doctor says it is urly in the season for the circus crop to
 come up, but there is one coming next Friday. He has given me 50 cents
@@ -4031,7 +4047,7 @@ correct--
 <q>"Skim milk maskerades as cream,<lb/>An things are not what they
 seem."</q></p><milestone unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="23"><head>CHAPTER XXIII.<lb/>HE
+<div id="mvbadboy23" type="chapter" n="23"><head>CHAPTER XXIII.<lb/>HE
 IS DISINHERITED.</head>
 <p>UNKEL SAMSON is visiting to our house; he is quite old an febul,
 and offul funny, only mamma says I mus not say he is funny, becos he
@@ -4211,7 +4227,7 @@ head out of dores; so you see how hard it is for little boys to kno
 what to do under most sirkumstanses.</p><milestone unit="section"
 rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="24"><head>CHAPTER XXIV.<lb/>A
+<div id="mvbadboy24" type="chapter" n="24"><head>CHAPTER XXIV.<lb/>A
 FATAL EXPERIMENT.</head>
 <p>My brother Montagu has up an gone an dun the most rediclus
 thing--bot a baby! He pade 20 dollars for it, half enuff to buy me a
@@ -4387,7 +4403,7 @@ was carried up, up with frightful rapidity.</p>
 the youthful aeronaut, and hope has gradually expired in every
 breast.</p><milestone unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="25"><head>CHAPTER XXV.<lb/>HOW HE
+<div id="mvbadboy25" type="chapter" n="25"><head>CHAPTER XXV.<lb/>HOW HE
 RAN THE BALLOON.</head>
 <p>My dere, dere diry, is it possbul I behole the unce agane? It is
 more than I xpected. Such a time as I have had. I gess Robson Cruso an
@@ -4574,7 +4590,7 @@ a silk flag, an a nice watch to each one of my frends, the British
 stars; they are golly (my sisters).</p><milestone unit="section"
 rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="26"><head>CHAPTER XXVI.<lb/>HE
+<div id="mvbadboy26" type="chapter" n="26"><head>CHAPTER XXVI.<lb/>HE
 RUNS A LOCOMOTIVE.</head>
 <p>UNKEL SAMSON is that tired of staying to our house he has gone
 away. He went off huffy, without giving me a pony to remember him
@@ -4777,7 +4793,7 @@ hire somebuddyto tell her that we used up all the balls of both sets
 to make a Turkish bazar out of Charlie's picket fense the time we had
 the show.</p><milestone unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="27"><head>CHAPTER XXVII.<lb/>HE
+<div id="mvbadboy27" type="chapter" n="27"><head>CHAPTER XXVII.<lb/>HE
 VISITS THE FALLS.</head>
 <p>AT last I am a very good boy. I have tole johnny's mother how sory
 I am he was so careless as to break his leg. I have repented in dust
@@ -5015,7 +5031,7 @@ a lot of matches out behind the barn. Mebbe, if we can't have a
 barbecue we'll roast Mooly's calf, but don't you let on. We want to
 cirprise our famlys.</p><milestone unit="section" rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="28"><head>CHAPTER XXVIII.<lb/>HE
+<div id="mvbadboy28" type="chapter" n="28"><head>CHAPTER XXVIII.<lb/>HE
 TAKES PART IN THE ELECTION.</head>
 <p>I DON'T know as I shall sosheate with little Johnny after this; he
 is too yung for me, an' Lizzie says she wanders I will go with a
@@ -5184,7 +5200,7 @@ walked past the house 3 times this morning. If Towser was not killed
 on the railrode I would set him on him.</p><milestone unit="section"
 rend="line"/></div>
 
-<div id="mvbadboy" type="chapter" n="29"><head>CHAPTER XXIX.<lb/>HE
+<div id="mvbadboy29" type="chapter" n="29"><head>CHAPTER XXIX.<lb/>HE
 MIXES IN POLITICS.</head>
 <p>DEAR diry, did you know Lizzie fell into the cistern yesterday?
 Such a holring an screming all over the house an people running to get
@@ -5368,7 +5384,7 @@ the conducktor said: "Sony, wake up we are almost in
 Philadelphia. Where are you going?"</p><milestone unit="section"
 rend="line"/></div>
 
-<pb n="122     A BAD BOY'S DIARY."/><div id="mvbadboy" type="chapter"
+<pb n="122     A BAD BOY'S DIARY."/><div id="mvbadboy30" type="chapter"
 n="30"><head>CHAPTER XXX.<lb/>HE IS DISCOURAGED.</head>
 <p>NOT a friend in that grate city! Not a penny in my pockkit! Midnite
 on the deep! O, what a fraud are all our xpectashuns. I thought of all
@@ -5554,7 +5570,45 @@ how it hapened that a inocent child, who always tride to be an angle,
 should meet with so many axdents and have such a reputashun. Ive got
 that ashamed of writing in the, my diry, so many mistakes an sorrors,
 I will bid the a long, long farewel, until I am thurrowly an xcelent
-child, like the good little boys you read of.</p></div>
+child, like the good little boys you read of.</p>
 
-THE END.
-BALLANTYNE PRESS: LONDON AND EDINBURGH.
+<trailer>THE END.</trailer></div>
+<div type="colophon" id="mvbadboy31">
+<l>BALLANTYNE PRESS: LONDON AND EDINBURGH.</l>
+</div></body>
+
+<back>
+<pb n="[127]"/>
+<div id="mvbadboybm1" type="advert">
+<figure entity="mvbadboyad1" rend="inline">
+<figureDesc> Advertisement at back of Victor's "Bad Boy's Diary"</figureDesc>
+</figure>
+</div>
+<pb n="[128]"/>
+<div id="mvbadboybm2" type="advert">
+<figure entity="mvbadboyad2" rend="inline">
+<figureDesc> Advertisement at back of Victor's "Bad Boy's Diary"</figureDesc>
+</figure>
+</div>
+<pb n="[129]"/>
+<div id="mvbadboybm3" type="advert">
+<figure entity="mvbadboyad3" rend="inline">
+<figureDesc> Advertisement at back of Victor's "Bad Boy's Diary"</figureDesc>
+</figure>
+</div>
+<pb n="[130]"/>
+<div id="mvbadboybm4" type="advert">
+<figure entity="mvbadboyad4" rend="inline">
+<figureDesc> Advertisement at back of Victor's "Bad Boy's Diary"</figureDesc>
+</figure>
+</div>
+<pb n="[131]"/>
+<div id="mvbadboybm5" type="advert">
+<figure entity="mvbadboyad5" rend="inline">
+<figureDesc> Advertisement at back of Victor's "Bad Boy's Diary"</figureDesc>
+</figure>
+</div>
+</back>
+</text>
+</TEI.2>
+
