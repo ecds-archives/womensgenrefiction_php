@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" 
 "./tgfw-tei.dtd"> 
-<TEI.2 id=""> 
-<teiHeader id=""> 
+<TEI.2 id="mrletit1201"> 
+<teiHeader id="mrletit1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>The Amazing Adventures of Letitia Carberry, an electronic edition</title> 
@@ -86,7 +86,7 @@
 </revisionDesc> 
 </teiHeader>
 <text>
-<front>
+<front="mrletit1203">
 <pb n="[i]"/>
 <div id="mrletittppic" type="frontispiece">
 <figure entity="mrletitill" rend="inline">
@@ -124,7 +124,7 @@
 <pb/>
 <group>
 <text>
-<body>
+<body="mrletit1204">
 <pb n="1"/>
 <div id="mrletit100" type="part" n="1">
 <div id="mrletit001" type="chapter" n="1">
