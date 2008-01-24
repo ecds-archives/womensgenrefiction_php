@@ -2,9 +2,9 @@
 
 <!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
 
-<TEI.2>
+<TEI.2 id="stmanyd1201">
 
-<teiHeader>
+<teiHeader id="stmanyd1202">
 
 <fileDesc>
 
@@ -87,7 +87,7 @@
 </revisionDesc> 
 </teiHeader>
 <text>
-<front>
+<front id="stmanyd1203">
 <pb n="[i]"/>
 <pb entity="stmanydtp" pages="Title Page"/>
 <titlePage type="half">
@@ -105,7 +105,7 @@
 <byline> BY <docAuthor> SARAH TYLER</docAuthor> AUTHOR OF <lb/> "AUTHOR OF "CITOYENNE JACQUELINE," "THE AMERICAN COUSINS," "A CRAZY MOMENT," ETC., ETC.</byline>
 <epigraph> <cit> <q>
 "Who sweeps a room as for Thy laws, Makes that and the action fine."</q>
-<bibl>GEORGE HERBERT</bibl>.</cit>
+<bibl>GEORGE HERBERT</bibl></cit>
 </epigraph>
 <docImprint>
 <pubPlace>London</pubPlace>
@@ -135,7 +135,7 @@
 </div>
 </front>
 
-<body>
+<body id="stmanyd1204">
 
 			<pb n="1"/>
 
@@ -2392,7 +2392,20 @@ have them overturning all our arrangements and playing ducks and drakes with the
 
 				<p>"What are we coming to?" besought Dick.</p>
 
-				<p>"Our lines must be exquisitely true as well as free and flowing. Our combinations of colours must be ravishingly perfect and of an infinite variety like those of nature. The <pb n="275"/>designs of our patterns must satisfy the eye and fill and rest the imagination like those of the highest achievements in tapestry. They must be such as to defy the criticism of the most accomplished artist. Will you condescend to work for me, Dick? Will you help me, Mr Val, in the selection of delicious colours and the contriving of faultless designs?"</p>
+				<p>"Our lines must be exquisitely true
+				as well as free and flowing. Our
+				combinations of colours must be
+				ravishingly perfect and of an infinite
+				variety like those of nature. The <pb
+				n="275"/>designs of our patterns must
+				satisfy the eye and fill and rest the
+				imagination like those of the highest
+				achievements in tapestry. They must be
+				such as to defy the criticism of the
+				most accomplished artist. Will you
+				condescend to work for me, Dick? Will
+				you help me, Mr Val, in the selection
+				of delicious colours and the contriving of faultless designs?"</p>
 
 				<p>"Done!" cried both the young men in one breath.</p>
 
@@ -2448,7 +2461,7 @@ have them overturning all our arrangements and playing ducks and drakes with the
 
 				<p>Ella Mainwaring set to fresh music and sang gleefully her idiotically inappropriate doggerel:&#x2014;
 
-			<g>	<lg>
+					<lg>
 
 					<l>"Where is the maiden in practice weak</l>
 
@@ -2470,7 +2483,7 @@ have them overturning all our arrangements and playing ducks and drakes with the
 
 					<l>And dare her to shirk the common fate?</l>
 
-				</lg> </g></p>
+				</lg> </p>
 
 			</div>
 
@@ -2698,7 +2711,7 @@ have them overturning all our arrangements and playing ducks and drakes with the
 </div>
 
 </body>
-<back>
+<back id="stmanyd1205">
 <div type="colophon" id="stmanydm1">
 <l> Colston &#x0026; Coy. Limited, Printers, Edinburgh</l>
 </div>
