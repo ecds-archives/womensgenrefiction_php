@@ -1,6 +1,6 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2> 
-<teiHeader> 
+<TEI.2 id="gahome1201"> 
+<teiHeader id="gahome1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>Home Influence: A Tale for Mothers and Daughters, an electronic edition</title> 
@@ -42,7 +42,7 @@
 <p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p>
 </samplingDecl> 
 <editorialDecl> 
-<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p>
+  <p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p>
 </editorialDecl> 
 <classDecl> 
 <taxonomy id="lcsh"> 
@@ -68,7 +68,7 @@
 <item>Women authors, British--19th Century.</item> 
 <item>Domestic Fiction.</item> 
 <item>Sentimental Fiction.</item> 
-<item> Childhood.</item>
+<item>Childhood.</item>
 </list> 
 </keywords> 
 </textClass> 
@@ -85,7 +85,7 @@
 </revisionDesc> 
 </teiHeader>
 <text>
-<front>
+<front id="gahome1203">
 <pb entity="gahometp" pages="Title Page">
 <titlePage type="full">
 <docTitle>
@@ -117,7 +117,7 @@ earnest Protestant, <hi rend="italic">may</hi> discern, and accept this little w
 slight tribute of the warm affection and sincere esteem with which you
 have been so long regarded by</p><closer><signed>Your truly attached
 Friend,<name>GRACE
-AGUILAR.</name></signed></closer></div></body></text></q></div>
+AGUILAR.</name></signed></closer></div></body></text></q></div></pb>
 
 <pb n="[iv]"/>
 <pb n="[v]"/><div id="section"><head>PREFACE.<lb/><milestone unit="section" rend="line"/></head>
@@ -169,8 +169,8 @@ may never have, but for the cultivation and performance of the lesser, they are 
 <milestone unit="section" rend="blank-line"/>
 <p>CLAPTON, <hi rend="italic">January</hi>, 1847.</p></div>
 
-*<pb n="[viii]"/>
-*<pb n="[ix]"/><div><head>MEMOIR OF GRACE AGUILAR.<lb/><milestone
+<pb n="[viii]"/>
+<pb n="[ix]"/><div><head>MEMOIR OF GRACE AGUILAR.<lb/><milestone
 unit="section" rend="line"/></head>
 <p>GRACE AGUILAR was born at Hackney, June 2d,1816. She was the eldest
 child and only daughter of Emanuel Aguilar, one of those merchants
@@ -384,17 +384,18 @@ mankind to practical virtue and happiness; and strive to carry out the
 pure philanthropic principles by which she was actuated, and which she
 so earnestly endeavored to diffuse.</p>
 <p><hi rend="italic">October</hi>, 1849.</p></div>
-<pb n="xviii"/> blank page
+<pb n="xviii"/>
 <pb n="xix"/>
 <div id="gahome000" type="table of contents">
-<figure entity="gahometcl" rend="inline">
+<figure entity="gahomefml2" rend="inline">
 <figDesc> Table of Contents for Home Influence: A Tale for Mothers and Daughters</figDesc>
 </figure>
-<figure entity="gahometc2" rend="inline">
+<figure entity="gahomefm13" rend="inline">
 <figDesc> Table of Contents for Home Influence: A Tale for Mothers and Daughters.</figDesc>
 </figure>
 </div>
 </front>
+<body id="gahome1204">
 <pb n="[1]"/>
 <div id="gahome" type="book" n="1"><div id="gahome"
 type="chapter" n="1"><head>HOME INFLUENCE<lb/><milestone
@@ -2658,7 +2659,7 @@ at once seek the acquaintance of Mrs. Hamilton's own family, whose
 influences than those of indiscreet indulgence and culpable
 neglect.</p></div></div>
 
-<pb n="[58]"/><div id="gahome" *type="book" n="2"><div id="gahome"
+<pb n="[58]"/><div id="gahome" type="book" n="2"><div id="gahome"
 type="chapter" n="1"><head>PART II.<lb/>TRAITS OF
 CHARACTER.<lb/><milestone unit="section" rend="line"/>CHAPTER
 I.<lb/>YOUTHFUL COLLOQUY&#x2014;INTRODUCING CHARACTER</head>
@@ -13969,7 +13970,7 @@ one of the benches, drew his cloak closely round his face. Peril was
 indeed still around him, but compared with the&#x2014;even to that
 Heaven-directed heart&#x2014;terrible struggle of beholding death, rising
 slowly but surely round him in the water-filling ship, almost within
-sight and sound of his home, his beloved ones, the mere <hi rned="italic">hope</hi> of life
+sight and sound of his home, his beloved ones, the mere <hi rend="italic">hope</hi> of life
 seemed almost overpowering. The crew of the hapless Siren quickly
 deserted her. Captain Harvey was the last to descend, and, as he did
 so, a block of iron, loosened from its place, fell cornerwise, and
@@ -15846,6 +15847,6 @@ unit="section" rend="dots"/>
 <l>Its links on that fair neck were flung;</l>
 <l>Then gently drew the glittering band,</l>
 <l>And laid the clasp on Ellen's
-hand."</l></lg></q></p></div></div></div></div>
+hand."</l></lg></q></p></div></div></div></div></body>
 
-<trailer>THE END.</trailer>
+<trailer>THE END.</trailer></text></TEI.2>
