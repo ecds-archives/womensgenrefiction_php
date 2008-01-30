@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
-<TEI.2>
-<teiHeader>
+<TEI.2 id="mhfolks1201">
+<teiHeader id="mhfolks1202">
 <fileDesc>
 <titleStmt> 
 <title>Samantha Among the Colored Folks, an electronic edition</title> 
@@ -68,7 +68,7 @@
 <item>American literature--19th Century--Fiction.</item> 
 <item>Women authors, American--19th Century.</item> 
 <item>Dialect literature, American.</item> 
-<item>Race Relations.</item> 
+<item>Race relations.</item> 
 </list> 
 </keywords> 
 </textClass> 
@@ -84,7 +84,7 @@
 </revisionDesc> 
 </teiHeader>
 <text>
-<front>
+<front id="mhfolks1203">
 <div id="mfolkscover" type="Front Cover">
 <figure entity="mhfolksfc" rend="inline">
 <figDesc> Front cover of Holley's "Samantha Among the Colored Folks"</figDesc>
@@ -153,7 +153,7 @@
 <pb/>
 </front>
 
-<body>
+<body id="mhfolks1204">
 
 <pb n="[7]"/>
 
@@ -2159,7 +2159,7 @@ them and kept them in a strange land, and then brought them back in safety, fitt
 
 				<p>Your soul burns within you as you read of these deeds that took place in Jerusalem; your heart aches for them who wandered about tormented, hunted down on every side; you lavish your sympathy upon them; but then you think it wuz a sav-<pb n="133"/>
 
-					<figure>
+				<figure>
 
 						<figDesc>DEFENDING HIS HOME.</figDesc>
 
