@@ -85,21 +85,23 @@
 </teiHeader>
 <text>
 <front id="mhfolks1203">
-<div id="mfolkscover" type="Front Cover">
-<figure entity="mhfolksfc" rend="inline">
-<figDesc> Front cover of Holley's "Samantha Among the Colored Folks"</figDesc>
-</figure>
+<div type="covers" id="mhfolksp">
+  <figure entity="mhfolkscv1" rend="inline">
+    <figDesc> Front Cover of Samantha Among the Colored Folks."</figDesc>
+  </figure>
+  <figure entity="mhfolkscv2" rend="inline">
+    <figDesc>The spine of Sasmantha Among the Colored Folks."</figDesc>
+  </figure>
 </div>
-<pb/>
 <pb n="[ii]"/>
-<div id="mhfolksfm1" type="frontispiece">
+<div id="mhfolksfp" type="frontispiece">
 <figure entity="mhfolksill" rend="inline">
 <p> GENEVIEVE.</p>
 <figDesc> Illustration at the front of Holley's "Samantha Among the Colored Folks"</figDesc>
 </figure>
 </div>
 <pb n="[iii]"/>
-<pb entity="mhfolkstp" pages="Title Page"/>
+<pb entity="mhfolksfm1" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main"> SAMANTHA <lb/> AMONG <lb/> THE COLORED FOLKS</titlePart>
@@ -116,7 +118,7 @@
 </titlePage>
 <pb n="[iv]"/>
 <div id="mhfolksfm2" type="copyright">
-<figure entity="mhfolkstvp" rend="inline">
+<figure entity="mhfolksfm2" rend="inline">
 <figDesc> Copyright page of Holley's "Samantha Among the Colored Folks"</figDesc></figure>
 </div>
 <pb n="[v]"/>
@@ -128,25 +130,25 @@
 </div>
 <pb/>
 <pb n="[vii]"/>
-<div id="mhfolksfm3" type="publishers note">
-<figure entity="mhfolkspn" rend="inline">
+<div id="mhfolksfm4" type="publishers note">
+<figure entity="mhfolksfm4" rend="inline">
 <figDesc> Publishers note at front of Holley's "Samantha Among the Colored Folks"</figDesc>
 </figure>
 </div>
 <pb/>
 <pb n="[ix]"/>
 <div id="mhfolks100" type="list of illustrations">
-<figure entity="mhfolkslil1" rend="inline">
+<figure entity="mhfolksfm5" rend="inline">
 <figDesc> List of illustrations included in front of Holley's "Samantha Among the Colored Folks"</figDesc>
 </figure>
 
 <pb n="[x]"/>
-<figure entity="mhfolkslil2" rend="inline">
+<figure entity="mhfolksfm6" rend="inline">
 <figDesc> List of illustrations included in front of Holley's "Samantha Among the Colored Folks"</figDesc>
 </figure>
 
 <pb n="[xi]"/>
-<figure entity="mhfolkslil3" rend="inline">
+<figure entity="mhfolksfm7" rend="inline">
 <figDesc> List of illustrations included in front of Holley's "Samantha Among the Colored Folks"</figDesc>
 </figure>
 </div>
@@ -158,7 +160,7 @@
 <pb n="[7]"/>
 
 <div id="mhfolks001" type="chapter" n="1">
-<head>"They Wuz Tracts and Bibles."<lb/>
+  <head>"They Wuz Tracts and Bibles."<lb/>
 CHAPTER I</head>
 
 				<p>IT was entirely onexpected and onlooked for. But I took it as a Decree, and done as well' as I could, which is jest as well as anybody ought to be expected to do under any circumstances, either on my side or on hisen.</p>
