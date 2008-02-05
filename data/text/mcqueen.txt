@@ -1,11 +1,11 @@
 *** I just started counting pages with i at the page with the dedication and through the first section head on page vii. I added the "note" in the front matter, which wasn't originally scanned, but I did not add the table of contents, which is on page v (by my count).
 <text>
-<pb n="[i]"/>
+<pb/>
 <front>
-<div id="***" type="dedication">
+<div id="mcqueen01" type="dedication">
 TO THE MEMORY OF MY MOTHER
 </div>
-<pb n="[iii]"/>
+<pb/>
 <note>
 <head rend="center">NOTE</head>
 <p>SOME of these stories were written more than a dozen years ago. They have been gathered in from the Atlantic Monthly, Harper's Bazar***sic***, Outing, the Independent, the Delineator, the Chicago Tribune, the late Chicago Graphic, and Lippincott's Magazine, by courteous permission of the editors; and revised year after year. Many of them embody phases of American life which have entirely passed away, or are yet to be found in secluded spots like eddies along the margin of the nation's progress. Their honest preservation of middle western experience makes them, at least in the author's eyes, seem worthy themselves of preservation.</p>
@@ -15,12 +15,17 @@ TO THE MEMORY OF MY MOTHER
 <group>
 <text>
 <front>
-<pb n="[vii]"/>
-<head rend="center">OHIO</head>
+<pb/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">OHIO</titlePart>
+</docTitle>
+</titlePage>
 </front>
+
 <pb n="[1]"/>
 <body>
-<div id="***" type="story">
+<div id="mcqueen02" type="story">
 <head rend="center">THE QUEEN OF THE SWAMP</head>
 <milestone unit="section" rend="line"/>
 <opener><dateline>TIME, 1846</dateline></opener>
@@ -162,10 +167,14 @@ mer to Theophilus Gill, when the plates were being collected, and his plate reta
 there was no accounting for the tricks of fate.</p>
 <p>Philip laughed in a heartening and sympathetic fashion.</p>
 <p>"I reckon the' won't be no chance for you next Sunday night, nor any other Sunday night this year, now," he said.</p>
-<p>"Mebby not," said Theophilus. " But if Mart Macauley gits her, he gits the Queen of the Swamp, sure as you're born. She'll always be that, come what will."</p>
+<p>"Mebby not," said Theophilus. " But if Mart Macauley gits her, he
+gits the Queen of the Swamp, sure as you're born. She'll always be
+that, come what will."</p>
+</div>
+
 <pb n="[29]"/>
 <body>
-<div id="***" type="story">
+<div id="mcqueen03" type="story">
 <head rend="center">THE STIRRING-OFF</head>
 <milestone unit="section" rend="line"/>
 <opener><dateline>TIME, 1850</dateline></opener>
@@ -190,14 +199,18 @@ Some of the girls took off their wraps and hung them in the bark house. One coup
 <p>Jane Davis stood in the midst of her company, moving a long wooden stirrer in the kettle about to sugar-off. Though her beauty was neither brown nor white, nor, in fact, positive beauty of any kind, it cajoled everybody. Her hair was folded close to her cheeks. There was innocent audacity in the curving line of every motion she made. The young men were so taken by the spell of her grace that she was accused of being unrighteously engaged to three at once, and about to add her cousin Tom Randall to the list.</p>
 <p>Tom Randall was a Virginian, spending the winter in Ohio. He was handsome, merry as Mercutio, and so easy in his man-
 <pb n="34 THE STIRRING-OFF"/>
-ners that the Swamp youths watched him with varying emotions. He brought his songs over the mountains: one celebrated the swiftness of the electric telegraph in flashing news from Baltimore to Wheeling; another was about a Quaker courtship, and set all the Swamp girls to rattling the lady's brisk response,&#x2014;</p>
-***song formatting here***
-"What care I for your rings or
-money,&#x2014;
-Faddle-a-ding, a-ding, a-day;
-I want a man that will call me honey,&#x2014;
-Faddle-a-ding, a-ding, a-day!"
-***end song formatting***
+ners that the Swamp youths watched him with varying emotions. He brought his songs over the mountains: one celebrated the swiftness of the electric telegraph in flashing news from Baltimore to Wheeling; another was about a Quaker courtship, and set all the Swamp girls to rattling the lady's brisk response,&#x2014;
+
+<q>
+<lg type="stanza">
+<l>"What care I for your rings ormoney,&#x2014;</l>
+<l>Faddle-a-ding, a-ding, a-day;</l>
+<l>I want a man that will call me honey,&#x2014;</l>
+<l>Faddle-a-ding, a-ding, a-day!"</l>
+</lg>
+</q>
+</p>
+
 <p>Tom Randall sat close to the fire, hanging his delicate hands, which had never done a day's chopping, over his knees. He looked much of a gentleman, Nora Waddell remarked aside to Philip Welchammer. To all the girls he was a central figure, as Jane was a central figure to the young men.</p>
 <p>But Philip claimed that Virginians were no nearer perfection than out-and-out Swamp fellows.</p>
 <p>"I didn't say he was a perfect gentle
@@ -299,9 +312,11 @@ pany. Want to go along? We can talk over the weddin', and you 're only two mile 
 <p>Jimmy drove through the clearing and fence-gap, where John Davis was waiting to lay up the rails again.</p>
 <p>"What 's that? " said John, and they both paused to listen.</p>
 <p>It was a sound of crashing and scampering, of smothered exclamation and the rasping and tearing of garments. Dick Hanks was whipping his steed through the woods, against trees, logs, and branches, as if George's Chapel graveyard, containing the ghastly vault of his father, and George's Chapel preacher, waving Jane Davis in one victorious hand, were both in merciless pursuit of him.</p>
+</div>
+
 <pb n="[55]"/>
 <body>
-<div id="***" type="story">
+<div id="mcqueen04" type="story">
 <head rend="center">SWEETNESS</head>
 <milestone unit="section" rend="line"/>
 <opener><dateline>TIME, 1855</dateline></opener>
@@ -431,6 +446,8 @@ pered kneeling. "Do you see what Lanson's fixed for you? That's a Christmas-tree
 <p>The mother's eyes caught the Christmas-tree, and snapped with astonishment and delight. The tapers were dripping tallow, but firelight shone through the boughs, and all the wonderful hearts and yellow fruit hung like a fairy picture. Her grateful look finally sought Alanson, and he also knelt down, at the opposite side of the trundle-bed, and with reverence which brought a rush of tears to Wilda's eyes, kissed Sweetness on the forehead.</p>
 <p>Wilda furtively gathered her tears on her finger-tips, and hid them in her linsey dress, but she said impressively to Alanson,&#x2014;</p>
 <p>"Now, that kiss will make you a better man all your life."</p>
+</div>
+
 <pb n="[77]"/>
 <body>
 <div id="***" type="story">
@@ -568,6 +585,8 @@ leghorn bonnet and exchanging parting civilities with several old neighbors.</p>
 <p>The neighbors and Jesse went submissively downstairs, but Little Jimmy Hohnes's wife kept on laughing with some effort, as if she felt afraid of ending in a sob.</p>
 <pb n="105 SERENA"/>
 <p>"Oh, I'm so glad you'll be in the neighborhood again, Serene! " she said. "Things wouldn't never been right in this world if they'd turned out the other way. Don't look at me like you's thinkin' of the dead. But rouse up and feel better. There 's your Aunt Lindy and Hod standin' at the gate: I can see 'em through the winder. They're talkin' mighty serious, and she don't look so well satisfied as she did. But you must do well by her, Sereny. Give her the old spinnin'-wheel that stands in the smoke-house! "</p>
+</div>
+
 <pb n="[106]"/>
 <body>
 <div id="***" type="story">
@@ -675,11 +694,24 @@ yard with you," said Rilla. "He 's grown fat. It must have agreed with him to go
 <p>"And do you think, dear," Infant ventured, "we'll ever wish we hadn't? We ve lived so long with each other. Truman Condit and Brother Sanderson are really strangers to our ways."</p>
 <p>"I think," replied Rilla, with decision,
 that Brother Sanderson will never have a rose day while he lives on <hi rend="italic">my</hi> farm; and when I say it is soap-boiling day it will <hi rend="italic">be</hi> soap-boiling day, and Brother Sanderson will stir the soap."</p>
+</div>
+</body>
+</text>
+
+
+<text>
+<front>
 <pb n="[126]"/>
 <pb n="[127]"/>
-KENTUCKY***i'm not sure how to format this to fit in the center of the page.***
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">KENTUCKY</titlePart>
+</docTitle>
+</titlePage>
+</front>
 <pb n="[128]"/>
 <pb n="[129]"/>
+
 <body>
 <div id="***" type="story">
 <head rend="center">A KENTUCKY PRINCESS</head>
