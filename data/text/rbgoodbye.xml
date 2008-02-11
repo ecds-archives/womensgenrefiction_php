@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
-<TEI.2>
-<teiHeader>
+<TEI.2 id="rboogdbye1201">
+<teiHeader id="rbgoodbye1202">
 <fileDesc>
 <titleStmt>
 <title>Good-Bye Sweetheart, an electronic edition</title>
@@ -55,8 +55,8 @@
 <textClass> 
 <keywords scheme="lcsh"> 
 <list> 
-<item>British literature--20th Century--Fiction.</item> 
-<item>Women authors, British--20th Century.</item> 
+<item>British literature--19th Century--Fiction.</item> 
+<item>Women authors, British--19th Century.</item> 
 <item>Courtship.</item> 
 <item>Assertiveness in women.</item> 
 <item>Sisterhood</item>
@@ -74,16 +74,16 @@
 </revisionDesc> 
 </teiHeader>
 <text>
-<front>
+<front id="rbgoodbye1203">
 <pb n="[i]"/>
 <div id="rbgoodbyefm1" type="frontispiece">
-<figure entity="rbgoodbyeill" rend="inline">
+<figure entity="rbgoodbyeILL01" rend="inline">
 <figDesc> Illustration at the front of Broughton's "Good-bye Sweetheart"</figDesc>
 </figure>
 </div>
 
 <pb n="[ii]"/>
-<pb entity="rbgoodbyetp" pages="titlePage"/>
+<pb entity="rbgoodbyept01" pages="titlePage"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">"GOOD-BYE SWEETHEART!"</titlePart>
@@ -98,16 +98,16 @@
 </titlePage>
 <pb/>
 <div id="rbgoodbye100" type="advert">
-<figure entity="rbgoodbyead1" rend="inline">
+<figure entity="rbgoodbyept02" rend="inline">
 <figDesc>Table of contents for Broughton's "Good-bye Sweetheart"</figDesc>
 </figure>
 <pb n="[iv]"/>
-<figure entity="rbgoodbyead2" rend="inline">
+<figure entity="rbgoodbyept03" rend="inline">
 <figDesc> Table of contents for Broughton's "Good-bye Sweetheart"</figDesc>
 </figure>
 </div>
 </front>
-<body>
+<body id="rbgoodbye1204">
 <pb n="1"/>
 <div id="rbgoodbye200" type="part" n="1">
 <head>PART I.</head>
@@ -3438,7 +3438,7 @@ as one resolved <hi rend="italic">not</hi> to weep.</p>
 <div id="rbgoodbye001" type="chapter" n="1">
 <head>CHAPTER I<lb/>WHAT THE AUTHOR SAYS.</head>
 <p>AFTER Life's little hot day, comes Death's long cool night; whether of the two is the pleasanter? Well, we shall know anon. Oh! patient friends, you have come with me so far, come with me yet a little further. I will not keep you. long. Already the shadows stretch themselves; the faint-coloured even cometh. Summer is here again&#x2014;early summer, early June, as when first, oh reader, you and I met and panted together through the "endless days," when even night brought not darkness. Down in England, the meadows have a lilac tinge over them, from the ripe heavy-headed grasses, and the horse-chestnut flower's spikes have changed into little prickly green balls. But we are not in England, oh reader, you and I; we are in Switzerland, in the high cold valley of the Engadin.</p>
-<div id="rbgoodbye001" type="section"/>
+<div id="rbgoodbye001" type="section">
 <head>WHAT JEMIMA SAYS.</head>
 <p>We are at the end of our day's journey, have stiffly descended from the huge dusty carriage in which we have crampedly sat all the long and shining day. To-morrow we shall reach our final destination, Pontresina. Meanwhile here we are, up among the mountains, the torrents, the pines, at this loveliest village of Bergun. An hour has passed since <pb n="362 GOOD-BYE, SWEETHEART!"/>our arrival, and we have dined, if you can apply that sacred word to the empty form of tapping with our knives a black boned chicken's skeleton, and sipping a nauseous wine of the country, black as Tartarus, and with a flavour that is agreeably compounded of pills, slate-pencil, and ink. There is no denying&#x2014;degrading as it is to the supremacy of mind over body&#x2014;that a bad dinner has a depressing effect. Not one of us three but feels cross and empty. Sylvia tries to sit upon a hard-bottomed, straight-backed chair, as if it were one of her own padded easy ones, and fails. Lenore stalks to the window and looks over the balcony. I think that people grow after they are thought grown up, oftener than is usually supposed. Lenore has certainly grown within the last six months, or perhaps it is only her loss of flesh that gives her such a tall look. She used to have a good deal of the shapely solidity that constitutes a person's claim to be a fine woman &#x2014;rather a butcher's term of commendation, at best;&#x2014;shapely she must always be, but <hi rend="italic">fine</hi> she is no longer; only very slender and willowy. I pick up the visitors' book, read the dreary waggeries, the lame rhymes, the consequential commendations of bed and board. I come to the last entry:
 <q><p>Mr. Tomkins, London.</p>
@@ -4047,12 +4047,12 @@ poor man <pb n="427 WHAT JEMIMA SAYS."/>is much surprised. "What, must not he pl
 <pb n="428 GOOD-BYE, SWEETHEART!"/>
 <div id="rbgoodbye009" type="chapter" n="9">
 <head>CHAPTER IX.<lb/>
-<epigraph><q><lg>
+<epigraph><cit><q><lg>
 <l>"The light upon her yellow hair,</l>
 <l>But not within her eyes;</l>
 <l>The light still there upon her hair,</l>
 <l>The death upon her eyes."</l>
-</lg></q></epigraph><lb/>
+</lg></q></cit></epigraph><lb/>
 WHAT THE AUTHOR SAYS.</head>
 <p>"How much better you are looking!"</p>
 <p>In his own mind he has been practising this little speech&#x2014;practising it with the proper intonation of half surprised cheerfulness; when he comes to pronounce it, really it is a failure. There is a strained gaiety in his tone that would hardly deceive a baby.</p>
@@ -4254,21 +4254,21 @@ WHAT JEMIMA SAYS.</head>
 <p>"Gone thro' the strait and dreadful pass of death."</p>
 <trailer> THE END.</trailer>
 </div>
-</div>
+</div></div>
 </body>
-<back>
+<back id="rbgoodbye1205">
 <div id="rbgoodbye500" type="colophon">
 <l> BILLING AND SONS, PRINTERS, GUILDFORD, SURREY</l>
 <l> J.D. &#x0026;Co.</l>
 </div>
 <pb n="[1]"/>
 <div id="rbgoodbye600" type="advert">
-<figure entity="rbgoodbyead1" rend="inline">
+<figure entity="rbgoodbyept04" rend="inline">
 <figDesc> Advert included in back of Broughton's "Good-bye Sweetheart"</figDesc>
 </figure>
  
 <pb n="2"/>
-<figure entity="rbgoodbyead2" rend="inline">
+<figure entity="rbgoodbyept05" rend="inline">
 <figDesc> Advert included in back of Broughton's "Good-bye Sweetheart</figDesc>
 </figure>
 </div>
