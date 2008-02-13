@@ -1,12 +1,13 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2> 
-<teiHeader> 
+<TEI.2 id="edmajor1201"> 
+<teiHeader id="edmajor1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>Major Brown or Whether White or Black, a Man!, an electronic edition</title> 
-<author n="Davis, Edith Smith, 1859-1917"></author> 
+<author><name type="person" reg="Davis, Edith Smith, 1859-1917">Edith
+Smith Davis</name></author> 
 </titleStmt> 
-<extent></extent> 
+<extent>240Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -25,7 +26,7 @@
 </publicationStmt> 
 <seriesStmt>
 <title>Women's Genre Fiction, 1860-1920</title> 
-<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt> 
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name><resp>Principal Investigators</resp></respStmt> 
 </seriesStmt>
 <sourceDesc>
 <bibl><author>Davis, Edith Smith</author>. 
@@ -58,17 +59,18 @@
 <rs type="ethnicity">Caucasian</rs> 
 <rs type="form">Unedited</rs> 
 <rs type="genre">Novel</rs> 
-<rs type="geography">Great Britain</rs> 
+<rs type="geography">United States</rs> 
 <date>1800-1899</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
 <list> 
-<item>British literature--19th Century--Fiction.</item> 
-<item>Women authors, British--19th Century.</item> 
-<item>African Americans 1880-1900.</item> 
+<item>American literature--19th Century--Fiction.</item> 
+<item>Women authors, American--19th Century.</item> 
+<item>African Americans, 1880-1900.</item>
+<item>Race relations.</item> 
 <item>Murder.</item> 
-<item>Local color in literature</item>
+<item>Local color.</item>
 </list> 
 </keywords> 
 </textClass> 
@@ -83,12 +85,12 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text> 
-<front>
+<text id="edmajor1203"> 
+<front id="edmajor1204">
 
 <div id="edmajorcover" type="covers">
 <figure entity="edmajorfc" rend="inline">
-<figDesc> Front cover for Davis's "Major Brown"</figDesc>
+<figDesc>Front cover for Davis's "Major Brown"</figDesc>
 </figure>
 </div>
 <pb/>
@@ -96,71 +98,67 @@
 <pb n="[iv]"/>
 <div id="edmajorml" type="frontispiece">
 <figure entity="edmajorill" rend="inline">
-<p> HEAH, HONEY, IT AM FRESH AND COOL AS DE GOOD LAWD MADE IT FO HIS CHILLUN." [<hi rend="italic">p.</hi>19. </p>
-<figDesc> Illustration at the front of Davis's Major Brown or Whether White or Black, a Man!</figDesc>
+<p>"HEAH, HONEY, IT AM FRESH AND COOL AS DE GOOD LAWD MADE IT FO' HIS CHILLUN." [<hi rend="italic">p.</hi>19. </p>
+<figDesc>Frontispiece of Davis's "Major Brown or Whether White or Black, a Man!"</figDesc>
 </figure>
 </div>
 <pb n="[v]"/>
 <pb entity="edmajortp" pages="titlePage"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main">MAJOR BROWN <lb/> OR</titlePart>
-<titlePart type="sub"> WHETHER WHITE OR BLACK, a MAN!</titlePart>
+<titlePart type="main">MAJOR BROWN <lb/> OR<lb/></titlePart>
+<titlePart type="sub"> Whether White or Black, a Man!</titlePart>
 </docTitle>
 <byline> BY <docAuthor> EDITH SMITH DAVIS </docAuthor></byline>
-<div id="edmajor100" type="epigraph">
-<q> <lg> <l> And men shall learn to speak of thee</l>
+<epigraph><cit><q><p><lg type="stanza"><l>"And men shall learn to speak of thee</l>
 <l> As one of earth's great spirits born</l>
 <l> In servitude and nursed in scorn,</l>
 <l> Casting aside the heavy weight</l>
 <l>In that strong majesty of soul</l>
-<l>Which knows no colour, tongue, or clime."</l></lg></q>
-</div>
+<l>Which knows no colour, tongue, or clime."</l></lg></p></q></cit></epigraph>
 <docImprint>
-<pubPlace>LONDON:</pubPlace><publisher>S.W. PARTRIDGE &#x0026; CO.</publisher> <pubPlace>8&#x0026;9, PATERNOSTER ROW, E.C.</pubPlace> <docDate>1898</docDate> 
+<pubPlace>LONDON:</pubPlace><publisher>S.W. PARTRIDGE &#x0026; CO.</publisher><lb/> <pubPlace>8&#x0026;9, PATERNOSTER ROW, E.C.</pubPlace><lb/><docDate>1898</docDate> 
 </docImprint> 
 </titlePage>
 <pb n="[vi]"/>
-<div type="dedication">
-<l>TO MY BROTHER IN BLACK,</l>
-<l>W. H. CROGMAN,</l>
-<l>OF CLARK UNIVERSITY, ATLANTA, GEORGIA,</l>
-<l>THIS VOLUME IS INSCRIBED</l>
-<l>BY THE AUTHOR.</l>
+<div id="edmajorded" type="dedication">
+<p>TO MY BROTHER IN BLACK,<lb/>
+W. H. CROGMAN,<lb/>
+OF CLARK UNIVERSITY, ATLANTA, GEORGIA,<lb/>
+THIS VOLUME IS INSCRIBED<lb/>
+BY THE AUTHOR.<lb/></p>
 </div>
 <pb n="[vii]"/>
 <div id= "edmajor200" type="preface">
-<head> PREFACE.</head>
+<head>PREFACE.</head>
 <p>WHEN Mrs. Stowe wrote her Preface to "Uncle Tom's Cabin," she said: "The scenes of this story lie among a race hitherto ignored by the associations of polite and refined society."</p>
 <p>The world has greatly changed in these last forty years, and yet, in a large measure, the words of Mrs. Stowe would be true to-day; for any book dealing with the life of the coloured people must speak of a race still largely "ignored by the associations of polite and refined society."</p>
 <p>It has been my good fortune to know men and women among the coloured people of the South of such great worth and character, men and women of such sterling qualities, men and women of such culture and refinement, that it has seemed my duty no less than my privilege to make them known to others.</p>
 <p>In sending out this story, I wish to say that there is no character in it that I have not personally known; no incident that has not been paralleled by fact; and in many instances the words used are the exact words of coloured men uttered under circumstances of similar character.</p>
-<PB N="[viii]"/>
+<pb n="[viii]"/>
 <p>For these words I am indebted to such prominent coloured men as Dr. J. W. E. Bowen, Booker T. Washington, M. C. B. Mason, and Prof. W. H. Crogman.</p>
 <p>It has also given me great pleasure to remember the words of appreciation spoken by the late Bishop Haygood, and by a few other prominent white men.</p>
 <p>"Major Brown; or, Whether White or Black, a Man!" is sent out with the desire of making men and women better acquainted, not with the typical negro of minstrel shows, or with the negro as caricatured in comic newspapers, but with the refined and cultured negro gentleman.</p>
 </div>
 <pb n="[ix]"/>
 <div id="edmajor300" type="table of contents">
-<figure entity="edmajortcl" rend="inline">
-<figDesc> Table of Contents for Davis's Major Brown or Whether Black or White, a Man!</figDesc>
+<figure entity="edmajortc1" rend="inline">
+<figDesc>Table of Contents for Davis's "Major Brown or Whether Black or White, a Man!"</figDesc>
 </figure>
 </div>
-</front>
-<body>
-<head>"MAJOR BROWN;
+</front><pb n="[11]"/>
+<body id="edmajor1205">
+<head>MAJOR BROWN;
 <lb/>
 OR, <lb/>
-WHETHER WHITE OR BLACK, A MAN!"</head><milestone unit="section" rend="line"/>
-<div id="edmajor" type="chapter001" n="1"><head>"CHAPTER I.<lb/>AN
+WHETHER WHITE OR BLACK, A MAN!</head><milestone unit="section" rend="line"/>
+<div id="edmajor" type="chapter001" n="1"><head>CHAPTER I.<lb/>AN
 EVENTFUL MEETING.</head>
-<pb n="[11]"/>
-
 <p>THE quaint little figure that stood resting on a crutch was the one thing needful to complete a very picturesque scene.</p>
 <p>To the right stretched the gracefully wooded hills; just in front flowed the "branch," with its banks entirely covered with a great wealth of azalea bushes, all in bloom. To the left a quiet country road seemed to wind about, in and out of the trees, and disappear in the distance.</p>
 <p>The little figure was clothed in a suit of white linen, very much worn, but clean and neatly patched. An old straw hat rested on the back of the head, and the tangled curls crept out of the holes in every conceivable direction.</p>
 <p>As the soft summer wind lifted the old straw hat, one caught a glimpse of a small dark face lighted up with a bright, expectant look. Now a cheery whistle breaks the silence, but as there is no response it lapses into a soft, low tune, that sounds very much
-<pb n="12     MAJOR BROWN;OR,"/>
+<pb n="12     MAJOR BROWN; OR,"/>
 like the song of the bird on yonder tree. It is very still now&#x2014;the little fellow is listening intently.</p>
 <p>"'Pears like I hear him; no, 'tain't him; it's just old Speckle comin' through de branch. Ben's late to-night; wonder why?"</p>
 <p>Again the cheery whistle rings out, and this time there is an answering one, clear and loud and distinct.</p>
@@ -184,7 +182,7 @@ like the song of the bird on yonder tree. It is very still now&#x2014;the little
 <p>"Don't, Major, don't. It's too bad 'bout your legs, an' I'd no business to be such a blockhead, no business at all. There now, don't cry."</p>
 <p>It was thus that Miss Haven found them as she turned off from the dusty road to take a short cut to her boarding place.</p>
 <p>Miss Haven was a Northern girl, known in the
-<pb n="14     MAJOR BROWN;OR,"/>
+<pb n="14     MAJOR BROWN; OR,"/>
 South as a "nigger schoolma'am." She had dark brown eyes and hair of a peculiar shade of red, and a determined mouth and chin; but the striking feature in her face was her brow, broad and high and indicative of idealism in a very marked degree. For ten years she had been teaching in the training school for boys and girls in Eucada.</p>
 <p>Her enthusiasm in the work knew no bounds. The daughter of an Abolitionist father and mother, she had a very high ideal for the black race. To be able to fit them for the future which she believed awaited them, was a rare opportunity given to her by God himself.</p>
 <p>As she stood before her classes she became eloquent over the moral effect of well-painted houses, and gardens containing every needful vegetable. The little model home over which she herself presided was to be the kind of a home for every black girl brought under its influence. The stockings which she carefully darned, and the linen which she herself laundried, the dainty glasses of jelly, and the fruit put up in its rows and rows of jars, were simply a part of the education which went side by side with grammar and arithmetic.</p>
@@ -201,7 +199,7 @@ look of perfect indifference or contempt In the eyes of others. "I do not care,"
 <p>The teacher looked her interest.</p>
 <p>"Why, Major, of course I will," and taking the book, she sat down on the grassy bank, and soon the perplexing problem was as clear as daylight. Major's eyes danced for joy.</p>
 <p>"Oh, Miss Haven," he cried excitedly, "what couldn't a boy do with such a teacher as you are! Of co'se I don't mean as Ben isn't a good teacher, only sometimes he forgets to explain things, but it's awful good of him to come every night, and I 'preciate him, I tell you."</p>
-<pb n="16     MAJOR BROWN;OR,"/>
+<pb n="16     MAJOR BROWN; OR,"/>
 <p>But Miss Haven wanted to know more about Major, and her questions came rapidly. She found that he lived in the small cabin at the end of the lane with his grandmother; that he had always been a cripple, and that he could play on the fiddle and the banjo; and, as Ben expressed it, "could make up mighty sweet tunes, just as sweet as the birds, and make 'em up right out of his own head; an' he could tell all about the birds and the ants an' such things, but he couldn't walk to school, even with his crutch, though he had read everything he could lay his hands on. His mother had taught him to read before she moved away from Georgia to Florida, and now he lived with Aunt Chloe."</p>
 <p>Ben paused for lack of breath, and Major said hurriedly:</p>
 <p>"Ben has been so good to me, and always brought me the books you lent him, and he's taught me every day for more than a year."</p>
@@ -402,11 +400,15 @@ felt very sure that he would secure a verdict against the conductor, as he was a
 for her summer vacation, with her went crippled Major Brown.</p>
 <p>It seemed a trifling thing to him to have to leave Miss Haven and sit by himself in the black car until he should be out of the Southern States, for was he not going where he would be free, in a world of letters and books and great souls?</p>
 <p>But to Miss Haven there came a host of bitter thoughts as she was separated from this young man, with his rare mind and pure soul, forced from his side simply because she had entered the parlour car which was for white people, and he was black. "It cannot always be so, no, it cannot," she said to herself; "the South will grow great enough to despise such distinctions."</p>
-<p>A baby's cooing behind her distracted her for a moment. She felt the tiny hand laid on her hair. She turned and looked up into the laughing blue eyes, then she sighed again, for the little form in its dainty muslin and lace was being held by hands as black as ink, and Miss Haven realised that it was not because Major was black that he must ride in a separate car; it was because he was not a servant to a white person.</p></div>
-MAJOR BROWN; OR,
+<p>A baby's cooing behind her distracted her for a moment. She felt
+the tiny hand laid on her hair. She turned and looked up into the
+laughing blue eyes, then she sighed again, for the little form in its
+dainty muslin and lace was being held by hands as black as ink, and
+Miss Haven realised that it was not because Major was black that he
+must ride in a separate car; it was because he was not a servant to a
+white person.</p></div><pb n="40     MAJOR BROWN; OR,"/>
 <div id="edmajor" type="chapter004" n="4"><head>"CHAPTER
 IV."<lb/>NEW FRIENDS.</head>
-<pb n="40     MAJOR BROWN; OR,"/>
 <p>THE next October, when Miss Haven returned to her school, it was with a feeling of greater loneliness than she had ever experienced before. Major was gone. How much her teaching of him had been to her life she had not realised until now.</p>
 <p>There were many other teachers in the school, but each one had his or her busy life, and Miss Haven often felt a deep longing for companionship. She had a few choice friends among the coloured people, and chief among them was uncle Josiah.</p>
 <p>In her hours of greatest loneliness she almost always sought Uncle Josiah. He was such a comfort to her; she never felt, in the presence of black people, that there was any difference between herself and them on account of their colour. Indeed, the thought of their being black rarely entered her mind. She knew that she idealised their characteristics, and overlooked their short-comings.</p>
@@ -523,9 +525,7 @@ with the spray of bridal roses in her hand, she entered the hall.</p>
 <p>"Who spoke like that?" she wondered.</p>
 <p>The woman went on:</p>
 <p>"Yes, Roselands is mine to-day by right of purchase; forty years ago it ought to have been mine, for your grandfather was my father, and he promised my mother on her death-bed that this property should be mine; but after her death he married your father's mother, and when he himself died the whole property was left to your father, and I was sold as a slave."</p>
-<p>Rose shuddered, but the woman continued.</p>
-c
-<pb n="54     MAJOR BROWN;OR,"/>
+<p>Rose shuddered, but the woman continued.</p><pb n="54     MAJOR BROWN;OR,"/>
 <p>"I do not say this bitterly; it was but a part of the awful system of slavery, and, although my mother always supposed that she was a wife, and although I was brought up as a daughter in this house, yet in my veins was the blood of the negro race, and slavery was the portion of such blood. But when freedom came to the black race, I, too, was free, and I determined then that if it were ever possible, Roselands should be mine. I need not tell you how it became possible. Wealth has already begun to come to the black people, and when my husband died he left me the money which has been the means of buying back my childhood's home. But," and the woman's face worked curiously, "if you will accept of it, Roselands may also be your home, for even though it may seem worse than death for you to acknowledge such relationship, I cannot forget that you and my child have something of the same blood in your veins."</p>
 <p>She paused, and Rose, pale as death, looked into the face of the lawyer.</p>
 <p>He bowed his head.</p>
@@ -542,11 +542,16 @@ among strangers. God forbid that you should ever have to bear one tithe of the p
 <p>The girl looked into the dark, pleading eyes, and, turning to the lawyer, said:</p>
 <p>"I might remain a little while, but it is all so strange."</p>
 <p>The lawyer drew his coat together with a gesture of dissent.</p>
-<p>"No," he said, "I would not remain at all. My home is, as it has always been, open to you. You have a home waiting for you with your mother's sister, and she is expecting you. You will be cared for, and you cannot remain here and live with&#x2014;" He paused and caught his breath.</p>
-The older woman drew herself up haughtily.
-<p>"Niggers! you were about to say. Why do you not conclude your sentence? She cannot live with niggers, but what has she been doing the whole of her life? Every servant in this house for generations has been black. She has been attended and nursed
-D 2
-<pb n="56     MAJOR BROWN;OR,"/>
+<p>"No," he said, "I would not remain at all. My home is, as it has
+always been, open to you. You have a home waiting for you with your
+mother's sister, and she is expecting you. You will be cared for, and
+you cannot remain here and live with&#x2014;" He paused and caught his
+breath.</p>
+<p>The older woman drew herself up haughtily.</p>
+<p>"Niggers! you were about to say. Why do you not conclude your
+sentence? She cannot live with niggers, but what has she been doing
+the whole of her life? Every servant in this house for generations has
+been black. She has been attended and nursed <pb n="56     MAJOR BROWN;OR,"/>
 and cared for by black hands all her life. Will she suffer contamination now if she associates, even in a very distant way, with those in whose veins is some taint of this accursed blood? Be contaminated because she associates with them on a plane of equality?"</p>
 <p>The woman's dark eyes flashed, and the rich blood mounted to her cheeks.</p>
 <p>"Dare you say," she continued, addressing the lawyer, and ignoring Rose's presence, "dare you say that my child, delicately nurtured and educated in the very best of schools, never having met or been associated with anything of coarseness, or brutality, is not a fit companion for any white girl, no matter what may be her birth or breeding?"</p>
@@ -674,7 +679,7 @@ years ago my brother was in the South, and taken very sick in New Orleans. While
 VI."<lb/>ROSELANDS' NEW OWNERS.</head>
 <pb n="69     WHETHER WHITE OR BLACK, MAN!"/>
 <p>At the close of a hot, sultry day in June, as Major Brown alighted from the cars at the railway station in Eucada, he was surprised to see Sibyl Haven sitting in a carriage, evidently awaiting his arrival. As soon as she saw him she nodded her welcome, motioning him to come to the carriage.</p>
-<p>"Why, Major, how wonderfully well you look! I have been so anxious to see you, that it has seemed hours instead of moments while I have been waiting for the train. Think of it! it is four years since I have seen my boy; and see how rich I have grown since you left, actually driving a carriage!
+<p>"Why, Major, how wonderfully well you look! I have been so anxious to see you, that it has seemed hours instead of moments while I have been waiting for the train. Think of it! it is four years since I have seen my boy; and see how rich I have grown since you left, actually driving a carriage!</p>
 <p>"No, I do not own it; it is Rose's old carriage, and belongs to Mrs. Prescott of Roselands. You will recollect that I wrote to you of my going to board there. Mrs. Prescott quite insists upon my bringing you back with me to dinner."</p>
 <p>Major hesitated.</p>
 <p>"I would gladly go, Miss Haven, but the first dinner at home belongs to dear old grandmother."</p>
@@ -721,7 +726,7 @@ almost like incense to him, as he took her hand in grateful recognition of her c
 of greater refinement, or of more thoughtfulness. The questions of the day were discussed, Major bringing the conclusions of the schools to bear upon them.</p>
 <p>Miss Haven was delighted with Major. He had been greatly helped, physically, by having the attention of the very best physicians, and, although he still used a crutch, yet his movements were not at all painful. But the most marked change in him was an intellectual one. He astonished Miss Haven by his clear way of stating a truth, and Mrs. Prescott at once became deeply interested in this crippled man.</p>
 <p>"Sibyl is right," she thought; "he is a genius."</p>
-After dinner they repaired to the luxurious parlours. Mrs. Prescott had had them newly fitted up, and, as her taste was well-nigh perfect, they were a poem in silken draperies and rare woods and paintings.</p>
+<p>After dinner they repaired to the luxurious parlours. Mrs. Prescott had had them newly fitted up, and, as her taste was well-nigh perfect, they were a poem in silken draperies and rare woods and paintings.</p>
 <p>In the course of the evening one of the young lady teachers played an accompaniment, and Mildred Prescott sang.</p>
 <p>The Germans say that there is no American music but that of the negro race. Be that as it may, there is no voice so soulful as that of the coloured girl.</p>
 <p>Mildred's voice was perfectly trained, but its beauty was not in its training. She had studied under a master of music in France, and he had said that 112 could do nothing more for such a voice.</p>
@@ -855,9 +860,9 @@ VII."<lb/>BARRIERS BROKEN DOWN</head>
 <pb n="86     MAJOR BROWN;OR,"/>
 <p>Miss Haven could read no more: she seized the cheque and rushed out of the house down to Aunt Chloe's cabin.</p>
 <p>She heard the old woman softly singing;
-<q><p>"Steal away, steal away, steal away to
-Jesus. Steal away home.
-I ain't got long to stay here."</p></q>
+<q>"Steal away, steal away, steal away to<lb/>
+Jesus. Steal away home.<lb/>
+I ain't got long to stay here."</q></p>
 <p>"Aunt Chloe! Aunt Chloe!" Sibyl Haven exclaimed, "See, see what Major has sent!"</p>
 <p>The old woman looked at the little piece of blue paper in perfect amazement.</p>
 <p>"Why, Missy Sibyl, Aunt Chloe don't know what you mean."</p>
@@ -926,8 +931,10 @@ She had also a taste for art, and even Rose could see that her work showed no sm
 <pb n="94     MAJOR BROWN;OR,"/>
 sailed for England and remained there until after Mildred's birth.</p>
 <p>"The greater part of our married life was spent in France, but after Mr. Prescott's death, I so longed for the South that at last Mildred and I came to South Carolina, and there, in our beautiful but secluded home, we lived until word came to us that Roselands was for sale. I did not know much of Mr. Prescott's family. He had a brother living in Boston, but I never saw him. I never even asked Henry if his brother knew that I was coloured; I could not.</p>
-<p>"But probably he never knew it, for surely the son could not know that his uncle's wife belongs to a despised race, or he would not wish to see me."</p>
-The dark eyes filled with tears, and an expression of passionate grief came over the handsome face.</p>
+<p>"But probably he never knew it, for surely the son could not know
+that his uncle's wife belongs to a despised race, or he would not wish
+to see me."</p>
+<p>The dark eyes filled with tears, and an expression of passionate grief came over the handsome face.</p>
 <p>Rose longed to tell her all she knew, but she had promised that she would not speak of her acquaintance with the Prescotts until after Fred's arrival.</p>
 <p>"Auntie," she cried, her eyes flashing, "do not talk so. It is a shame, a burning shame, that such things can be true, and I despise myself for ever having had such feelings; but let him come, and, when he learns to know you, he will love you even as I do."</p>
 <p>Mrs. Prescott shook her head sadly.</p>
@@ -1235,14 +1242,14 @@ X."<lb/>HERO AND MARTYR.</head>
 <p>"But come, sweetheart, sing once more the ballad that you sang when first you made me love you."</p>
 <p>"No, no, Major, not that; I could not sing that song to-night, it is too sad; we want something that exults and is glad!"</p>
 <p>"You are right, dearest, but something even more than that do we want to-night. Let us sing one of these beautiful old hymns. You know that our black poet says:
-<q><lg><l>"A song is but a little thing,</l>
+<q><lg type="stanza"><l>"A song is but a little thing,</l>
 <l>And yet what joy it is to sing!</l> 
 <l>In hours of toil it gives me zest,</l>
 <l>And when at eve I long for rest; </l>
 <l>When cows come home along the bars,</l>
 <l>And in the fold I hear the bell,</l>
 <l>As Night, the shepherd, herds his stars,</l>
-<l>I sing my song, and all is well."</l> </lg></q></p>
+<l>I sing my song, and all is well."</l></lg></q></p>
 <p>"How sweet that is, Major, and so are many of the other lyrics. I have so enjoyed the thought of
 <pb n="129     WHETHER WHITE OR BLACK, A MAN!"/>
 our having a negro who could write something that one would read for its own merit, and not simply because it was written by a black man. But it makes me recall the time when mother and I were in Moscow. They had just erected there a statue to Alexander Poushkin, who was, I suppose, the greatest negro poet who has ever lived. It seems strange, however, to speak of him as a negro at all, and yet, of course, he would be so reckoned in the South, for his great grandfather on his mother's side was a negro. And one drop of negro blood outweighs in value ninety-nine drops of Anglo-Saxon. At least it seems as though that must be true, for we are negroes if we possess but the one drop.</p>
@@ -1253,7 +1260,7 @@ our having a negro who could write something that one would read for its own mer
 <pb n="130     MAJOR BROWN;OR,"/>
 lyrics. But we are getting away from our singing."</p>
 <p>Major opened the book and selected a hymn, and soon their voices filled the house with the strains of:
-<q><lg><l>"Guide me, oh, Thou great Jehovah,</l>
+<q><lg type="stanza"><l>"Guide me, oh, Thou great Jehovah,</l>
 <l>Pilgrim through this barren land:</l>
 <l>I am weak, but Thou art mighty;</l>
 <l>Hold me with Thy powerful hand."</l></lg></q></p>
@@ -1342,9 +1349,7 @@ XI."<lb/>A CRY FOR VENGEANCE.</head>
 <p>"I want to talk with you to-day as I feel that he would have talked, had not for him the limited life of earth ended and the unlimited life of heaven begun.</p>
 <p>"You loved him, but not one of you has ever loved him as I have done.</p>
 <p>"We were boys together, and he was my inspiration.</p>
-<p>"Under the old trees yonder by the branch, he laid his head upon my breast and told me of his dreams for his people, for my people, for your people.</p>
-I2
-<pb n="140     MAJOR BROWN;OR,"/>
+<p>"Under the old trees yonder by the branch, he laid his head upon my breast and told me of his dreams for his people, for my people, for your people.</p><pb n="140     MAJOR BROWN;OR,"/>
 <p>"It seemed impossible that those dreams could ever be realised, but they have been realised in his life, and if they have been in one life, may it not be possible that they may be realised in many lives?"</p>
 <p>Ben paused, and a subdued sobbing sound was his only answer.</p>
 <p>"He told me," Ben continued, "that he believed we as a race have some God-given qualities that will make us, not despised as we have been in the past, but admired and loved in the future.</p>
@@ -1360,8 +1365,9 @@ I2
 <p>("Hear! Hear!" came from at least a hundred voices.)</p>
 <p>"Brothers," said Ben Nichols, "listen for just one moment longer. Will you destroy in an instant the work of his whole life? I do not ask that his death shall be unavenged, but let it be according to law. Do not take the law into your own hands, for then you place yourselves on a level with these men who have done this dastardly deed. If you organise, as they did, to violate law, though you have every provocation under heaven, yet the innocent will suffer with the guilty, and you yourselves become criminals."</p>
 <pb n="142     MAJOR BROWN;OR,"/>
-<p>"Yes, the law, how did it treat you?" shouted back the stalwart leader.</p>
-Ben Nichols paused a moment before he replied.
+<p>"Yes, the law, how did it treat you?" shouted back the stalwart
+leader.</p>
+<p>Ben Nichols paused a moment before he replied.</p>
 <p>"You have reason," he said, "to ask that question of me, and to ask it in a thousand similar cases. It has been hard for a black man to obtain a just verdict from a white jury, but the words of the judge in my case were worth all the suffering that came to me. As those twelve men brought in their verdict of 'Not guilty,' he arose from his chair and said, 'Gentlemen of the jury, you have brought in a verdict absolutely against the facts of the case, as given in the evidence, and I hope that you have <hi rend="italic">conscientiously misunderstood</hi> something in the case.'</p>
 <p>"Brothers, let us remain true to the laws of our nation, for they will yet prove our strongest protection."</p>
 <p>Old General Harwood now stepped to Ben's side.</p>
@@ -1390,8 +1396,8 @@ XII."<lb/>OVERCOMERS.</head>
 <pb n="145 WHETHER WHITE OR BLACK, A MAN!"/>
 together again, with a halo of glory about both of their brows.</p>
 <p>The church choir sang softly:
-<q><p>"Lead, kindly Light, amid the encircling gloom; 
-<lb/>Lead Thou me on."</p></q>
+<q>"Lead, kindly Light, amid the encircling gloom; 
+<lb/>Lead Thou me on."</q></p>
 <p>The minister of the Southern white church led in prayer, and then old Uncle Josiah spoke.</p>
 <p>Uncle Josiah had a strange way of choosing his text for his sermons. He would take his Bible, that was almost falling to pieces with excessive use, and would kneel with his head upon it, and pray to God for a message.</p>
 <p>Then he would rise and open it, and he always found the message marked, as it were, for him.</p>
@@ -1410,7 +1416,7 @@ together again, with a halo of glory about both of their brows.</p>
 <p>"And then she gibs her 'tention to herself, and she axes de Lawd to gib her strength, to gib it to her po' ole body until her boy is free. She axes dat de back shall be made strong enuff fo' de burden until de burden is lifted. She axes dat de fingers be not made so stiff dat dey cannot work, but dat dey be nimble to do work fo' him, an' then she gibs him to de Lawd.</p>
 <p>"She axes God to take him an' make him ob use in de worl'.</p>
 <p>"Again," said the old man, almost in a whisper, "I see her, an' dis time she's a-kneelin' alone; but no, she's not alone; don't you see dat shinin' comp'ny wid dere harps in dere han's? Wot dey doin? Dey's a-comin' fo' her dat's obercome&#x2014;dey's a-comin' fo' Aunt Chloe, who's to be clothed in white raiment an' to hab a name in her fo'head! Dey' a-comin', an' dey's a-singin' to her; but hark! hark! dere's anodder great host a-singin', and dere's
-<pb n="147     WHETHER WHITE OR BLACK, A MAN!"/></p>
+<pb n="147     WHETHER WHITE OR BLACK, A MAN!"/>
 anodder ladder a-reachin' from de earth to de skies, an' just as dey bring Aunt Chloe to de top roun', de oders reach de top roun' too, an' dey mingle dere voices to-gedder; and she sees&#x2014;Aunt Chloe sees&#x2014;not her crippled boy&#x2014;no&#x2014;no&#x2014;not him, but one robed in shinin' 'parel an' he's just a-receivin' ob de mornin' star dat's to be gibben to him dat obercometh.</p>
 <p>"An' it's de mornin' star because dis man has been a light in de worl'&#x2014;a bright light, a shining light, de light dat comes after de darkness of night an' promises de comin' ob de new day.</p>
 <p>"Brothers and sisters," said the old man, solemnly, "de dear young man was dat to his people. We hab been in de darkness ob slavery, de night was ober, but it was right dusky yet when Major comes to us to gib us light. He shined so dat we began to see de faint streaks ob de mornin' when de black man shall be free.</p>
@@ -1474,7 +1480,6 @@ Kimball had disappeared utterly; not a trace of him could be found, although Gen
 <p>He and his wife would often be found at the college talking with the teachers there, asking and giving advice.</p>
 <p>The old General's example was contagious, and both white and coloured teachers soon found that the whole community of Eucada desired to be their friends.</p>
 <p>And so it happened that in the company gathered at Rose's wedding, white and black faces were almost equally divided.</p>
-K
 <pb n="154     MAJOR BROWN;OR,"/>
 <p>Very beautiful was Rose in her simple white dress, her only ornament a spray of bridal roses from "Mother's" bush.</p>
 <p>The pastor of the Southern white church, whom Rose had known the whole of her life, performed the ceremony, but old Uncle Josiah offered the prayer. Very impressive it was as the old man asked God to guide these two lives into the place of largest usefulness in the building up of His kingdom.</p>
@@ -1528,9 +1533,9 @@ the sick man, who, in his wild ravings, was constantly rolling his head from the
 <pb n="160     MAJOR BROWN;OR,"/>
 with an expression of fearful agony shrieked out once more. "Don't let her touch me; she's praying for him!" and then sank back upon his pillow&#x2014;dead.</p>
 <p>When Fred Prescott returned to Rose she asked him if it was any one that they had known.</p>
-<p>"It was Captain Kimball, dearest," he replied, shudderingly; "but do not ask me anything more about him. Major Brown has been avenged."</p>
-WHETHER WHITE OR BLACK, A MAN!"</div>
-
+<p>"It was Captain Kimball, dearest," he replied, shudderingly; "but
+do not ask me anything more about him. Major Brown has been
+avenged."</p></div><pb n="161  WHETHER WHITE OR BLACK, A MAN!"/>
 <div id="edmajor" type="chapter014" n="14"><head>"CHAPTER
 XIV."<lb/>CLOSING SCENES.</head>
 <pb n="161   WHETHER WHITE OR BLACK, A MAN!"/>
@@ -1548,8 +1553,10 @@ XIV."<lb/>CLOSING SCENES.</head>
 <p>That large building that stands near the forest of pines is the girls' home, built by Mrs. Prescott of Roselands, and presided over by Sibyl Haven. She is a middle-aged woman now. She has given her life to a problem that she believes to-day is reaching a solution.</p>
 <p>To her the cemetery which holds the graves of Dr. Brown and Aunt Chloe is one of the most sacred spots on earth, for she has always felt that in Dr. Brown's life and death her dreams for the black man were more than realised.</p>
 <p>Mrs. Prescott has had erected there a slender white monument bearing the two names, and beneath Major's name are carved these words, "Whether White or Black, A Man!"</p>
-<p>The large building near the girls' home contains the training school for kindergarten teachers, as also the flourishing kindergarten over which Miss Mildred presides.</p>
-Dotted over the grounds are other buildings, prominent among them being the 
+<p>The large building near the girls' home contains the training
+school for kindergarten teachers, as also the flourishing kindergarten
+over which Miss Mildred presides.</p>
+<p>Dotted over the grounds are other buildings, prominent among them being the 
 "Brown Library," built and endowed by one of the noblest of men, old General Harwood.</p>
 <p>It is named after Major Brown.</p>
 <p>Before the great crowd that gathered at the dedication of this library building, General Harwood said that he wished simply to read the words of a black man at the opening of the Atlanta Exposition:</p>
@@ -1588,120 +1595,108 @@ Brooks were those of the prophet ;</p>
 <pb n="166 MAJOR BROWN."/>
 <p>" Slavery must die, because out of it, and it alone, came forth the treason of the traitor and the murderer. Do not say that it is dead. It is not, while its essential spirit lives. While one man counts another man is born inferior for the colour of his skin ; while, both in North and South, prejudice and practices which the law cannot touch, but which God hates, keep alive in our people's hearts the spirit of the old iniquity ; it is not dead.</p>
 <p>" The new American nature must supplant the old."</p>
-
-</div>
-
-</body>
-
-<trailer>THE END.</trailer>
-<back><pb n="[167]"/><div type="colophon" id="edmajor1"><p>LONDON: S.W
-PARTRIDGE &amp; Co., 8 &amp; 9, PATERNOSTER ROW, E.C.</p></div></back>
-
+</div><trailer>THE END.</trailer></body><pb n="[167]"/>
+<back id="edmajor1206"><div type="colophon" id="edmajor1"><p>LONDON: S.W
+PARTRIDGE &amp; Co., 8 &amp; 9, PATERNOSTER ROW, E.C.</p></div>
+<pb/>
 <pb n="[1]"/>
 <div id="edmajor800" type="advert">
 <figure entity="edmajorad1" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
- <pb n="[2]"/>
+ <pb n="2"/>
 <figure entity="edmajorad2" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[3]"/>
+<pb n="3"/>
 <figure entity="edmajorad3" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[4]"/>
+<pb n="4"/>
 <figure entity="edmajorad4" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[5]"/>
+<pb n="5"/>
 <figure entity="edmajorad5" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[6]"/>
+<pb n="6"/>
 <figure entity="edmajorad6" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[7]"/>
+<pb n="7"/>
 <figure entity="edmajorad7" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[8]"/>
+<pb n="8"/>
 <figure entity="edmajorad8" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[9]"/>
+<pb n="9"/>
 <figure entity="edmajorad9" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[10]"/>
+<pb n="10"/>
 <figure entity="edmajorad10" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[11]"/>
+<pb n="11"/>
 <figure entity="edmajorad11" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[12]"/>
+<pb n="12"/>
 <figure entity="edmajorad12" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[13]"/>
+<pb n="13"/>
 <figure entity="edmajorad13" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[14]"/>
+<pb n="14"/>
 <figure entity="edmajorad14" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[15]"/>
+<pb n="15"/>
 <figure entity="edmajorad15" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[16]"/>
+<pb n="16"/>
 <figure entity="edmajorad16" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[17]"/>
+<pb n="17"/>
 <figure entity="edmajorad17" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[18]"/>
+<pb n="18"/>
 <figure entity="edmajorad18" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[19]"/>
+<pb n="19"/>
 <figure entity="edmajorad19" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
 
-<pb n="[20]"/>
+<pb n="20"/>
 <figure entity="edmajorad20" rend="inline">
 <figDesc> Advert in back of Davis's "Major Brown"</figDesc>
 </figure>
-
-<pb/>
-
-</div>
-
-</text>
-
-</TEI.2>
+</div></back></text></TEI.2>
