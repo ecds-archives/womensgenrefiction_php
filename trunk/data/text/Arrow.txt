@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2 id="arrow"> 
-<teiHeader id="arrow"> 
+<TEI.2 id="arrow1201"> 
+<teiHeader id="arrow1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>The mystery of the hasty arrow, an electronic edition</title> 
 <author><name type="person" reg="Green, Anna Katherine 1846-1935">Ann Katherine Green</name></author> 
 </titleStmt> 
-<extent></extent> 
+<extent>550Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -65,9 +65,11 @@
 <keywords scheme="lcsh"> 
 <list> 
 <item>American literature--20th Century--Fiction.</item> 
-<item>Women authors, American--20th Century.</item> 
-<item>Museums fiction.</item> 
-<item>Murder fiction.</item> 
+<item>Women authors, American--20th Century.</item>
+<item>Mystery.</item>
+<item>Detective fiction.</item> 
+<item>Museums.</item> 
+<item>Murder.</item> 
 </list> 
 </keywords> 
 </textClass> 
@@ -81,11 +83,11 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
+<text id="arrow1203">
+<front id="arrow1204">
 <div id="arrowcover" type="covers">
 <figure entity="arrowfc" rend="inline">
-<figDesc> Front cover of Green's "The Mystery of the hasty arrow"</figDesc>
+<figDesc>Front cover of Green's "The Mystery of the hasty arrow"</figDesc>
 </figure>
 </div>
 <pb/>
@@ -93,7 +95,7 @@
 <pb entity="arrowtp" pages="titlePage"/>
 <titlePage type="half">
 <docTitle>
-<titlePart type="main"> THE MYSTERY OF THE BROKEN ARROW</titlePart>
+<titlePart type="main">THE MYSTERY OF THE BROKEN ARROW</titlePart>
 </docTitle>
 </titlePage>
 <pb/>
@@ -101,14 +103,14 @@
 <pb n="[ii]"/>
 <div id="arrowfm1" type="frontispiece">
 <figure entity="arrowill" rend="inline">
-<p>Do not by any show of curiosity endanger her recovery. I would not have her body or mind sacrificed on any account"</p>
-<figDesc> Illustration at the front of Green's "The Mystery of the Broken Arrow"</figDesc>
+<p>"Do not by any show of curiosity endanger her recovery. I would not have her body or mind sacrificed on any account"</p>
+<figDesc>Frontispiece of Green's "The Mystery of the Broken Arrow"</figDesc>
 </figure>
 </div>
 <pb n="[iii]"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main"> THE MYSTERY OF THE HASTY ARROW</titlePart>
+<titlePart type="main">THE MYSTERY OF THE HASTY ARROW</titlePart>
 </docTitle>
 <byline> BY <docAuthor> ANNA KATHERINE GREEN</docAuthor> <lb/>
 AUTHOR OF "THE LEAVENWORTH CASE," "INITIALS ONLY," etc.</byline>
@@ -118,37 +120,34 @@ AUTHOR OF "THE LEAVENWORTH CASE," "INITIALS ONLY," etc.</byline>
 <pb n="[iv]"/>
 <div  id="arrowm2" type="copyright">
 <figure entity="arrowtpv" rend="inline">
-<l>Copyright, 1917 </l>
-<l> BY DODD, MEAD AND COMPANY,Inc.</l>
-<figDesc> Copyright page for Green's "The Mystery of the Hasty Arrow"</figDesc>
+<figDesc>Copyright page for Green's "The Mystery of the Hasty Arrow"</figDesc>
 </figure>
 </div>
-<pb n="[v]"/>
+<pb n="v"/>
 <div id="arrow100" type="table of contents">
 <figure entity="arrowtcl" rend="inline">
-<figDesc>" Table of Contents for Green's "The Mystery of the Hasty Arrow"</figDesc>
+<figDesc>Table of Contents for Green's "The Mystery of the Hasty Arrow"</figDesc>
 </figure>
-<pb n="[vi]"/>
+<pb n="vi"/>
 <figure entity="arrowtc2" rend="inline">
 <figDesc>Table of Contents for Green's "The Mystery of the Hasty Arrow"</figDesc>
 </figure>
-<pb n="[vii]"/>
+<pb n="vii"/>
 <figure entity="arrowtc3" rend="inline">
-<figDesc> Table of Contents for Green's "The Mystery of the Hasty Arrow"</figDesc>
+<figDesc>Table of Contents for Green's "The Mystery of the Hasty Arrow"</figDesc>
 </figure>
 </div>
 <pb/>
-<pb entity="arrow200" type="list of illustrations"/>
+<div id="arrow200" type="list of illustrations">
 <figure entity="arrowlil" rend="inline">
-<figDesc> List of Illustrations for Green's "The Mystery of the Hasty Arrow"</figDesc>
-</figure> 
+<figDesc>List of Illustrations for Green's "The Mystery of the Hasty Arrow"</figDesc>
+</figure></div> 
 </front>
-<body>
+<body id="arrow1205">
 <pb n="[1]"/>
 <div id="arrow300" type="book" n="1">
 <head>BOOK I<lb/>
 A PROBLEM OF THE FIRST ORDER</head>
-</div>
 <pb n="3"/>
 <div id="arrow001" type="chapter" n="1">
 <head>THE MYSTERY OF THE<lb/>
@@ -230,7 +229,7 @@ into drawing herself to her full height,&#x2014;"it is not for me to conclude in
  floor. You will find none. How can an arrow be shot without a bow?"</p>
 <p>"It cannot be," came from some one at her back. "But it can be driven home like a dagger if the hand wielding it is sufficiently powerful."</p>
 <p>A cry left her lips; she seemed to listen as for some echo; then in a wild abandonment which ignored person and place she flung herself again at the dead girl's side, and before the astonished people surrounding her could intervene, she had caught up the body in her arms, and bending over it, whispered word after word into the poor child's closed ear.</p>
-<pb n="12"/> </div>
+<pb n="12"/></div>
 <div id="arrow002" type="chapter" n="2">
 <head>  II <lb/>In Room B</head>
 <p>FIVE minutes later the Curator was at the 'phone calling up Police Headquarters. A death had occurred at the museum. Would they send over a capable detective?</p>
@@ -754,7 +753,7 @@ ends. If he was to be made to do what they wished, it would have to be through t
 <p>"What is he doing? " cried Mr. Travis.</p>
 <p>"Yes, what is he doing?" echoed Mr. Roberts.</p>
 <p>"Running a mark about his shoes to fix their exact location," was the grim response.</p>
-<pb n="91"/>
+<pb n="91"/></div>
 <div id="arrow007" type="chapter" n="7">
 <head>
 VII<lb/>
@@ -826,7 +825,7 @@ bad, bad, she cried, and she would not
 <p>"I strolled to the door and so out in time to hear Madame's orders
 to the chauffeur. The young lady was to be taken to a museum. To a
 museum, at this early hour! and alone, alone!"</p>
-<figDesc>"Illustration in body of Green's "The Mystery of the Hasty
+<figDesc>Illustration between pages 100 and 101 of Green's "The Mystery of the Hasty
 Arrow"</figDesc>
 </figure>
 <pb n="100     THE MYSTERY OF"/>
@@ -960,7 +959,7 @@ brought over these two women. As might be expected, he had no
 information of any significance to give me; nor could I obtain much
 from such members of the crew as I could get hold of. One steward
 remembered the Englishman, chiefly because he
-<figure enity="arrow118" rend="inline">
+<figure entity="arrow118" rend="inline">
 <p>"She is cruelly suffering from shock- no one is allowed to see her"</p>
 <figDesc>Illustration included in body of Green's "The Mystery of the
 Hasty Arrow"</figDesc>
@@ -1116,13 +1115,13 @@ Travis. Like ourselves, you gave little thought to what that upper pedestal migh
 XI<lb/>
 FOOTSTEPS</head>
 
-<q> <text> <body> 
+<q><text><body> 
 <div id="arrow800" type="notice">
 <p>WANTED&#x2014;A WOMAN CALLING HERSELF ANTOINETTE Duclos, just arrived from Europe on the steamer <hi rend="italic">Castania</hi>, who after taking rooms at the Universal for herself and her steamer companion, Angeline Willetts, left the hotel in great haste late in the afternoon of May twenty-third and has not been heard of since.</p>
 <p>In person she is of medium height, but stocky for a Frenchwoman. Dark hair, black eyes, with an affection of the lid which causes the left one to droop. Her dress consisted of skirt and jacket of a soft shade of brown. Hat indistinguishable. She carried, on leaving the hotel, a dark brown leather bag of medium size, long and narrow in shape. Her only peculiarity, saving the one drooping eyelid, is a hesitating walk   This is particularly obvious when she attempts to hasten.</p>
 <p>It is to be hoped that this person on hearing of Miss Willetts' death, will communicate at once with the clerk of the hotel.</p>
 <p>If in two days this does not occur, a reward of five hundred dollars will be given to the man or woman who can give definite news of this Frenchwoman's whereabouts.</p>
-<closer><signed>Police Headquarters, Mulberry St.</signed></closer></div>
+<closer><signed>Police Headquarters, Mulberry St.</signed></closer></div></body></text></q>
 <p>THIS NOTICE, appended to such particulars of the tragedy as appeared in all the morning papers, roused the city&#x2014;I may even say the country&#x2014;to even greater wonder and excitement than had followed the first details given in the journals of the evening before.</p>
 <p>Would anything come of it?</p>
 <p>Morning passed; no news of Antoinette Duclos.</p>
@@ -1447,18 +1446,14 @@ my trade, and he will see that I do and doubt his eyes rather than stretch proba
 <p>"Your name as carpenter?"</p>
 <p>"Jacob Shott. It's the name by which Holmes already knows me."</p>
 <p>"Well, well, the game may be worth the candle. You can soon tell. I will keep you posted."</p>
-<p>The rest was business with which we need not concern ourselves.</p>
-<pb n="182"/>
-*unnumbered blank page
-<pb n="183"/></div></div>
-
+<p>The rest was business with which we need not concern ourselves.</p></div></div>
+<pb n="[182]"/>
+<pb n="183"/>
 <div id="arrow500" type="book" n="3">
 <head>BOOK III<lb/>
 STORM IN THE MOUNTAINS</head>
-<pb n="184"/>
-*unnumbered blank page
+<pb n="[184]"/>
 <pb n="185"/>
-
 <div id="arrow016" type="chapter" n="16">
 <head>XVI<lb/>
 FRIENDS</head>
@@ -1658,7 +1653,7 @@ the rumble
 <p>"As I was waiting for the passing by of the next train, my last
 lodger came in and caught me standing there before Mrs. Clery's door"</p>
 <figDesc> Illustration included in body of Green's "The Mystery of the
-Hasty Arrow"</figDesc>
+Hasty Arrow"</figDesc></figure>
 <pb n="216     THE MYSTERY OF"/>
 and roar, that same sharp <hi rend="italic">ping</hi> which had wakened me. What was it? It seemed to come from somewhere. in the house. But how could that be! I was startled enough, however, to get up and slip on some of my clothes and stand with ears astretch for the next train.</p>
 <p>It came and passed, and right in the middle of the noise it made I heard again that quick, sharp sound. This time I was sure it came from somewhere near, and opening my door, I slid out into the hall. All my lodgers were in but one, a young gentleman who has a night-key. And most of the rooms were dark, as I. can very well tell from the fact that none of the doors fit as they ought to and there is sure to be a streak of light showing somewhere about them if the gas is burning inside. Everything looked so natural, and the house was so still, that I was going back again when another train swept by and that sound was repeated. This time I was sure it came from somewhere on the lower floor, and mindful of Mrs. Clery's queer ways, I stole downstairs to her door. She was up&#x2014;that was plainly enough to be seen. But what was she doing? I was just a little frightened, or I would have knocked on the door and asked.</p>
@@ -2265,13 +2260,12 @@ the police authorities of New York. Your daughter&#x2014;"</p>
 <p>"I've nothing to say&#x2014;nothing. Will you take that for your answer and let me go?"</p>
 <p>"Alas, madam, we cannot!" spoke up Mr. Gryce in his calm, benevolent way. "Miss Duclos' death was of a nature demanding an inquest. Your testimony, hard as it may be for you to give it, is necessary for a righteous verdict. That is all we want&#x2014;"</p>
 <p>"It is too much!" she cried. And with a quick glance upward she took another step or two along the bridge till she had reached the broken rail; and before Sweetwater in his dismay could more than give a horrified bound in her direction, she had made the fatal leap and was gone from their sight into the gorge below.</p></div></div>
-<pb n="305"/>
+<pb n="[305]"/>
 <div id="arrow600" type="book" n="4">
 <head>
 BOOK IV<lb/>
 NEMESIS</head>
-<pb n="306"/>
-*blank page
+<pb n="[306]"/>
 <pb n="307"/>
 <div id="arrow027" type="chapter" n="27">
 <head>
@@ -2598,8 +2592,8 @@ press too much indignation at what you are pleased to call your suspicions. I wi
 <p>Were the words coming&#x2014;the words which might at a stroke pull down the whole fabric of his life, past, present and to come?</p>
 <p>In his excited state of mind he seemed already to hear them. Doom was in their sound, and the world, once so bright, was growing dark about him&#x2014;dark!</p>
 <p>Yet how could these men know? And if they did why did they not speak? And they did not; they did not. There was silence in the air, not words; and life for him was taking on once more its ancient colors, when sharp and merry through the heavy quiet there rang out the five clear calls of a cuckoo clock from some near-by room. One, two, three, four, five! Jolly reminder of old days! But to the men who listened, the voice of doom spoke in its gladsome peal, whether the ears which caught it were those of accuser or accused. Old days were not the days to be rejoiced in at a moment so perilous to the one and so painful to the others.</p>
-<p>With the cessation of the last shrill cry, the Inspector repeated the phrase:<p>
-</p>"I believe you, Mr. Roberts. But how about the woman who was troubling you with demands you had no wish to grant? Miss Willetts, as you choose to call her, though you must know that her name is Duclos, was not the only person in the line of the arrow shot on that day from one gallery to the
+<p>With the cessation of the last shrill cry, the Inspector repeated the phrase:</p>
+<p>"I believe you, Mr. Roberts. But how about the woman who was troubling you with demands you had no wish to grant? Miss Willetts, as you choose to call her, though you must know that her name is Duclos, was not the only person in the line of the arrow shot on that day from one gallery to the
 <pb n="361     THE HASTY ARROW"/>
 other. Perhaps this weapon of destruction was meant for one it failed to reach. Perhaps&#x2014;but I have gone far enough. I should not have gone so far if it had not been my wish to avoid any misunderstanding with one of such undoubted claims to consideration as yourself. If you have explanations to offer&#x2014;if you can in any way relieve our minds from the responsibilities which are weighing upon us, pray believe in our honest desire to have you do so. There may be something back of appearances which has escaped our penetration; but it will have to be something startlingly clear, for we know facts in your life which are not open to the world at large, I may even say to your most intimate friends."</p>
 <p>"As, for instance?"</p>
@@ -2805,8 +2799,7 @@ his side went to his heart; and thus he stood swaying&#x2014;swaying, till he fi
 <p>"Carleton! Carleton!" she wailed, searching for consciousness in his fast glazing eye. "It was to show you your child that I made the appointment at the museum. Not for myself. Oh, not for myself, but for your sake, that you might have&#x2014;"</p>
 <p>Useless; all useless.</p>
 <p>He was dead.</p>
-<milestone unit="section" rend="dots"/>
-*      *      *      *     *      *
+<milestone unit="section" rend="stars"/>
 <p>Would she have had it otherwise? Would any of them? When they were quite sure of the fact, she placed the ring in his still warm hand; then she solemnly put it on her finger, and turning, faced them all.</p>
 <p>"Do not blame me too much for this final blow I gave him. He had already seen the truth in that mirror over there. His face&#x2014;look at it and then at this picture of her taken after death, and see the resemblance! It is showing plainer every minute. It was the something which had worried and eluded him. Nothing could have kept back the truth from him after that one glimpse he caught of himself and her in the mirror. I loved him. Mine is the grief; you will let me stay here with him to-night. Tomorrow I will answer all questions."</p></div>
 <pb n="392"/>
@@ -2854,13 +2847,16 @@ for you till he came upon you in one of the classrooms; and that you whom I had 
 <p>"I meant my music."</p>
 <p>"He did not know that, Ermentrude," and here she laid her hands upon the other's shoulders, drawing back as she did so to look earnestly up into her face. "Was that done for me?"</p>
 <p>They were too near for anything but the truth to pass from eye to eye. Ermentrude tried to laugh and utter a quick <hi rend="italic">No, no!</hi> but the little bride was not deceived. Again upon her face there appeared that wonderful look of hers, which made her face for the moment verily beautiful, and unclasping her hands, she threw them about the other's neck, whispering in awed tones:</p>
-<p>"Yet you loved him! loved him too! "<p>
-</p>Then after a moment of silence dear to both their hearts, she drew back to give her friend one other look, and quietly said:</p>
+<p>"Yet you loved him! loved him too!"</p>
+<p>Then after a moment of silence dear to both their hearts, she drew back to give her friend one other look, and quietly said:</p>
 <p>"His heart is mine now, Ermentrude, wholly and truly mine. And so you would have it be, I am sure. Life looks fair to me and very sweet; but however fair, however sweet, that life is yours if
 <pb n="398     THE MYSTERY OF"/>
 ever you want it and when you want it. The time may come&#x2014;one never knows&#x2014;when I can pay you back this debt. Till then, let there be perfect trust and perfect love between us. Give me your hand upon it&#x2014;not just your lips&#x2014;for I speak as men speak when they mean to keep their word."</p>
-<p>Their eyes met, their hands clasped; then the bridegroom drew away his bride, and Ermentrude turned with bowed head and glistening eyes, to enter upon the new life awaiting her in ways she had yet to tread.</p>
-*      *      *      *      *      *
+<p>Their eyes met, their hands clasped; then the bridegroom drew away
+his bride, and Ermentrude turned with bowed head and glistening eyes,
+to enter upon the new life awaiting her in ways she had yet to
+tread.</p>
+<milestone unit="section" rend="stars"/>
 <p>The second series of episodes opens with the meeting of a man and woman on a rustic bridge spanning a Swiss chasm. They are strangers to each other, yet both instinctively pause and a flush of intuitive feeling dyes the cheek of each.</p>
 <p>The eternal, ever-recurring miracle has happened. He sees Woman for the first time, though he had thought himself in love before and had wandered thus far in an effort to forget. So, likewise, with her. She had had her fancies, or rather her one fancy; but when in strolling along this road ahead of her party she saw rising between her and the glorious landscape which had hitherto filled her eye the fine masculine head and perfect figure of Carleton Roberts, this fancy floated from her mind like the veriest thistledown, leaving it free to expand in
 <pb n="399     THE HASTY ARROW"/>
@@ -3131,8 +3127,7 @@ without answering. Then with a steady look she calmly said:</p>
 <p>Of her previous act in disfiguring his photograph in her temporary lodging-place, we shall never know the full story. The picture had been hers for years,
 <pb n="432     THE HASTY ARROW"/>
 given her by Ermentrude on their parting, so that the child should not be without some semblance of her father even if she should not know him as such, and it was to secure this clue to their now doubly dangerous secret that Madame Duclos ransacked her baggage previous to her flight from the New York hotel. But whether its destruction in the peculiar manner we know was the result of simple precaution, or of a feeling of antagonism so strong against this destroyer of her beloved's peace, that it had to be expended in some way before she felt strong enough for that supreme sacrifice in his favor toward which events seemed hurrying her, may be known in <hi rend="italic">Eternity</hi> but will never be told in <hi rend="italic">Time</hi>.</p>
-<milestone unit="section" rend="stars"/>*      *      *      *      *      *
+<milestone unit="section" rend="stars"/>
 <p>And Ermentrude? What of her? Alone, robbed of husband and child and friend&#x2014;where shall we look for her in this world of extreme tribulation? Search the hospitals of France where they press closest to the trenches. There will you find the woman who losing all has found much. Blessing and blest! the angel of the battlefield whom the bullets spare since her work on earth is not yet accomplished!</p></div></div>
-
 <trailer>THE END</trailer> </body></text></TEI.2>
 
