@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2 id=""> 
-<teiHeader id=""> 
+<TEI.2 id="csapril1201"> 
+<teiHeader id="csapril1202"> 
 <fileDesc> 
 <titleStmt>
 <title>An April Princess, an electronic edition</title>
@@ -67,7 +67,7 @@
 <item>Women authors, American--20th Century.</item> 
 <item>Assertiveness in Women.</item> 
 <item>New Woman.</item> 
-<item> Satire</item>
+<item>Satire</item>
 </list> 
 </keywords> 
 </textClass> 
@@ -83,7 +83,7 @@
 </revisionDesc> 
 </teiHeader>
 <text>
-<front>
+<front id="csapril1203">
 <div id="csaprilcover" type="front cover">
 <figure entity="csparilfc" rend="inline">
 <figDesc> Front cover of Smedley's "An April Princess"</figDesc>
@@ -96,6 +96,7 @@
 <titlePage type="half">
 <docTitle>
 <titlePart type="main">AN APRIL PRINCESS</titlePart>
+
 </docTitle>
 </titlePage>
 <pb/>
@@ -131,7 +132,7 @@
 </div>
 <pb/>
 </front>
-<body>
+<body id="csapril1204">
 <!-- could not determine page number -->
 The background for these images was somewhat dark and uneven, which produced a scattered handful of pages with significant garbling. However, most were clear and legible, with only slight garbling along one edge or a few misrecognized characters.
 <pb n="[1]"/>
@@ -402,7 +403,7 @@ smile. The Quiet Man chuckled. The Princess's birthday dinner was a <hi rend="it
 <p>"You are really rather nice," said the Princess, smiling at him. "Well, I don't care what anyone thinks of me."</p>
 <pb n="30 AN APRIL PRINCESS."/>
 <p>"You cared when you thought I was laughing," said the Quiet Man.</p>
-<p>"I should have forgotten all about it before we reached the station," said the Princess serenely. "People never make me angry for more than a second. I am very fierce, like a sheet of lightning, then it is all over. Sometimes I wither people with my wrath, sometimes it passes off harmlessly; but you cannot put out lightning." The Princess paused, rather surprised at her <hi rend="italic">bon mot.</hi></p> <p> "That's very good indeed," said the Princess, with engaging astonishment. "You cannot put me out, see? Now, other women are mere candles!</p>"
+<p>"I should have forgotten all about it before we reached the station," said the Princess serenely. "People never make me angry for more than a second. I am very fierce, like a sheet of lightning, then it is all over. Sometimes I wither people with my wrath, sometimes it passes off harmlessly; but you cannot put out lightning." The Princess paused, rather surprised at her <hi rend="italic">bon mot.</hi></p> <p> "That's very good indeed," said the Princess, with engaging astonishment. "You cannot put me out, see? Now, other women are mere candles!"</p>
 <p>"All shining for someone else," said the Quiet Man, with a smile in his grey eyes which the Princess accepted graciously as a tribute to her wit; "all dependent on somebody-children, or a husband, or lovers, or friends; but you shine all by yourself."</p>
 <p>"Quite independent," said the Princess complacently. "Fancy being miserable because one silly little man did not like you! Fancy sacrificing yourself for him or anyone! I would give things to people I liked, but the people would have to thank me on their knees; and if people stood up they would just have to go. What if they did? There are millions of slaves in the world!" said the Princess, with a royal shrug.</p>
 <p>"I'm not a slave," said the Quiet Man.</p>
@@ -762,8 +763,14 @@ Poet, with a twinkle, as he lay back in his chair and watched the smoke-wreaths 
 <pb n="65 THE POET."/>
 Queen. "Just think, if my conceit were printed  Though there would be some reason for my conceit, because I should take care to write books that were healthy, humorous, true to life, original and interesting. I should put that sentence in a book if I wrote one," said the Princess kindly. "It would be something for the critics to pick out and hang their claws in. The clever, nice critics would say how true it was; the unkind critics, like the Saturday Review, could take it as. a text for the weekly sermon on the impudence of women. I should put it in as a test of the moral character of critics. It would just show up their lack of kindheartedness or otherwise."</p>
 <p>"I do hope you never talk like this, except to us, who understand you!" said the Queen, whose mission in life was to make the Princess wise.</p>
-<p>"I am sure no nice person would really dislike me when they'd read it," said the Princess, still pondering on the excitement afforded in the fields of literature. "It would be very mean of them if they did, for I should only have been trying to amuse them and brighten them up a bit. Of course, my Aunt would say I had made a fool of myself; but that is nothing new-it is almost worth while making a fool of yourself to watch the effect on my Aunt!"
-</p>"I like to try the effect of myself on people," said the Poet, who had nearly as honest an admiration for his own personality as the Princess had for hers. "I should rather like to try it on your Aunt."</p>
+<p>"I am sure no nice person would really dislike me when they'd read
+it," said the Princess, still pondering on the excitement afforded in
+the fields of literature. "It would be very mean of them if they did,
+for I should only have been trying to amuse them and brighten them up
+a bit. Of course, my Aunt would say I had made a fool of myself; but
+that is nothing new-it is almost worth while making a fool of yourself
+to watch the effect on my Aunt!"</p>
+<p>"I like to try the effect of myself on people," said the Poet, who had nearly as honest an admiration for his own personality as the Princess had for hers. "I should rather like to try it on your Aunt."</p>
 <p>"You would not try it on long," said the Princess. My Aunt is the most literal person I ever met."</p>
 <p>"I would take her in the forest by moonlight, and show her where the dryads hide," said the Poet dreamily.</p>
 <pb n="66 AN APRIL PRINCESS."/>
@@ -1566,7 +1573,7 @@ n="8"><head>VIII.<lb/>THE MOUNTEBANK.</head>
 Mountebanks are supposed to be a very wicked class, and you've never known a truly wicked person in your life. Here's a new experience."</p>
 <p>"The Jester likes heaps of Mountebanks, but he warned you against this one," said the sharp clear voice of Common-sense.</p>
 <p>"But you're so interested in his play, and so sorry for his failure," said a soft and silky little devil with an angel face, whose real name was Love-of-Emotion, but whom the Princess liked to refer to by its stage name of Sympathy.</p>
-<p>Then the two little devils called Love-of-Excitement and Love-of-Emotion grinned and pranked about and made themselves more and more alluring, till Common-sense and Prudence looked very plain and dull beside the charming devils</p>.  
+<p>Then the two little devils called Love-of-Excitement and Love-of-Emotion grinned and pranked about and made themselves more and more alluring, till Common-sense and Prudence looked very plain and dull beside the charming devils.</p>  
 <p>"Now go to the town and call at the hotel," said the naughty devils. "Show us how brave you are. You're not going to funk it, are you?"</p>
 <p>So a pink-cheeked and excited Princess told the ragged little driver to turn his pony round.</p>
 <p>"Just <hi rend="italic">think</hi> what the Queen would say if she saw you going to call on a Mountebank " said Common-sense and Prudence together, shouting so loudly they almost drowned the voices of the devils.</p>
@@ -2173,11 +2180,11 @@ be," said the Little Lieutenant, "and I write to you, I might send messages?"</p
 <p>"But I do," said the Lieutenant gallantly. "As you say your aunt's such a Tartar-"</p>
 <p>"This is my Aunt's son," said a crimson Princess, and the Little Lieutenant broke the lengthy silence that followed by saying he had a good deal of packing to do.</p>
 <p>So the Lieutenant and the Princess bade each other a sympathetic but hopeful good-bye, the Knight bowed stiffly, and the Little Lieutenant ran down the hill and disappeared in the streets of Polcombe.</p>
-<p>"Oh, I am glad to think I can help him!" said the Princess, forgetting everything except that the Little Lieutenant had gone for three years. "And the girl he loves lives with an aunt, poor dear! That's another bond of sympathy."
+<p>"Oh, I am glad to think I can help him!" said the Princess, forgetting everything except that the Little Lieutenant had gone for three years. "And the girl he loves lives with an aunt, poor dear! That's another bond of sympathy."</p>
 <p>The Knight resumed his stone-throwing operations.</p>
 <p>"You don't think it rather mean to get to know the girl through the mater, for the express purpose of helping her to deceive and disobey her aunt, who, after all, is the mater's friend?" asked the Knight.</p>
 <p>"You are your mother's son in more ways than one," said the Princess pleasantly.</p>
-<p>"There is no one whose son I would rather be!"</p>
+<p>"There is no one whose son I would rather be!"
 <pb n="185 THE KNIGHT."/>
 said the Knight, which, after all, was the only thing a loyal Knight could say.</p>
 <p>"Naturally!" said the Princess, who had several little scores saved up against the Knight. "You have all your family's self-satisfaction."</p>
@@ -2859,7 +2866,7 @@ morning I have been simply praying for the Fairy to come and rescue me. But if m
 <p>"Oh, you darling!" said the Princess. "But I couldn't let you be bored like that!"</p>
 <p>"Oh, my dear, I shan't be taking much notice," said the Fairy Godmother. "I shall go on with my knitting. And the river is so damp in September-I'd much rather sit here in a comfortable chair with my feet on a nice warm rug. You go along, and whisper to the Fairy why I'm not coming, and I'll see after your Aunt!"</p>
 <pb n="250 AN APRIL PRINCESS."/>
-<p>"You're a perfect brick!" said the Princess, and meant it.</p><
+<p>"You're a perfect brick!" said the Princess, and meant it.</p>
 <p>"Shall I tell you a secret?" said the Fairy God- mother, with wicked twinkling eyes. "I hate the Tailor-made Girl myself"</p>
 <p>So the Aunt was decoyed into the arbour by the benevolent Fairy Godmother, and the young people drove off to the river.  The Tailor-made Girl mounted to the box seat beside the Knight; and the Princess and the Fairy sat behind, and told each other silly rhymes till the crimson groom stared out in desperation at the flying scenery, and underwent intense internal agonies in his endeavour to suppress himself, until they reached their destination at the river.</p>
 <p>The Tailor-made Girl plunged briskly into the stern, and settled herself on the seat with the steering ropes over her shoulders. The Knight sat on the seat in front of her, and pulled stroke as an active Knight should do. The Princess and the Fairy collected all the cushions from the carriage and the boat-house, and arranged themselves elaborately in the bows; the process was invested with royal solemnity, and took time.</p>
