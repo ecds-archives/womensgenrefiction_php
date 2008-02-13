@@ -78,7 +78,7 @@
 <change>
 <date>2007-June 11</date>
 <respStmt> <name>Shruthi Vissa,</name> 
-<resp>Encoder.</resp> </respStmt> 
+<resp>Encoder.</resp></respStmt> 
 <item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> 
 </change> 
 </revisionDesc> 
@@ -86,13 +86,12 @@
 <text id="arrow1203">
 <front id="arrow1204">
 <div id="arrowcover" type="covers">
-<figure entity="arrowfc" rend="inline">
+<figure entity="arrowcover" rend="inline">
 <figDesc>Front cover of Green's "The Mystery of the hasty arrow"</figDesc>
 </figure>
 </div>
 <pb/>
 <pb n="[i]"/>
-<pb entity="arrowtp" pages="titlePage"/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main">THE MYSTERY OF THE BROKEN ARROW</titlePart>
@@ -101,13 +100,14 @@
 <pb/>
 <pb/>
 <pb n="[ii]"/>
-<div id="arrowfm1" type="frontispiece">
-<figure entity="arrowill" rend="inline">
+<div id="arrowfront" type="frontispiece">
+<figure entity="arrowfront" rend="inline">
 <p>"Do not by any show of curiosity endanger her recovery. I would not have her body or mind sacrificed on any account"</p>
 <figDesc>Frontispiece of Green's "The Mystery of the Broken Arrow"</figDesc>
 </figure>
 </div>
 <pb n="[iii]"/>
+<pb entity="arrowtp" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">THE MYSTERY OF THE HASTY ARROW</titlePart>
@@ -118,28 +118,28 @@ AUTHOR OF "THE LEAVENWORTH CASE," "INITIALS ONLY," etc.</byline>
 <docImprint>
 <pubPlace>NEW YORK</pubPlace> <publisher>DODD, MEAD AND COMPANY<lb/>PUBLISHERS</publisher> <docDate> 1917</docDate></docImprint> </titlePage>
 <pb n="[iv]"/>
-<div  id="arrowm2" type="copyright">
-<figure entity="arrowtpv" rend="inline">
+<div id="arrowcopy" type="copyright">
+<figure entity="arrowcopyright" rend="inline">
 <figDesc>Copyright page for Green's "The Mystery of the Hasty Arrow"</figDesc>
 </figure>
 </div>
 <pb n="v"/>
 <div id="arrow100" type="table of contents">
-<figure entity="arrowtcl" rend="inline">
+<figure entity="arrowtoc1" rend="inline">
 <figDesc>Table of Contents for Green's "The Mystery of the Hasty Arrow"</figDesc>
 </figure>
 <pb n="vi"/>
-<figure entity="arrowtc2" rend="inline">
+<figure entity="arrowtoc2" rend="inline">
 <figDesc>Table of Contents for Green's "The Mystery of the Hasty Arrow"</figDesc>
 </figure>
 <pb n="vii"/>
-<figure entity="arrowtc3" rend="inline">
+<figure entity="arrowtoc3" rend="inline">
 <figDesc>Table of Contents for Green's "The Mystery of the Hasty Arrow"</figDesc>
 </figure>
 </div>
 <pb/>
 <div id="arrow200" type="list of illustrations">
-<figure entity="arrowlil" rend="inline">
+<figure entity="arrowilltoc" rend="inline">
 <figDesc>List of Illustrations for Green's "The Mystery of the Hasty Arrow"</figDesc>
 </figure></div> 
 </front>
@@ -1410,7 +1410,7 @@ is in
 <p>"It cannot be, now. Circumstances have changed for me lately,
 and much as i regret it I must ask you to be so good as to forgive me
 for giving up your plans"</p>
-<figDesc> Illustration included in body of Green's "The Mystery of the
+<figDesc> Illustration included between pages 178 and 179 of Green's "The Mystery of the
 Hasty Arrow"</figDesc>
 </figure>
 <pb n="178     THE MYSTERY OF"/>
@@ -1652,7 +1652,7 @@ the rumble
 <figure entity="arrow216" rend="inline">
 <p>"As I was waiting for the passing by of the next train, my last
 lodger came in and caught me standing there before Mrs. Clery's door"</p>
-<figDesc> Illustration included in body of Green's "The Mystery of the
+<figDesc> Illustration included between pages 216 and 217 of Green's "The Mystery of the
 Hasty Arrow"</figDesc></figure>
 <pb n="216     THE MYSTERY OF"/>
 and roar, that same sharp <hi rend="italic">ping</hi> which had wakened me. What was it? It seemed to come from somewhere. in the house. But how could that be! I was startled enough, however, to get up and slip on some of my clothes and stand with ears astretch for the next train.</p>
@@ -1880,7 +1880,7 @@ speaking of as inclined to the plain and somber.</p> <p>"That? But
 that's bright enough. I've never seen her in that."</p>
 <figure entity="arrow244" rend="inline">
 <p>All my lodgers were in but one, a young gentleman who has a night-key"</p>
-<figDesc> Illustration included in the body of Green's "The Mystery of
+<figDesc>Illustration between pages 244 and 245 of Green's "The Mystery of
 the Hasty Arrow"</figDesc>
 </figure>
 <pb n="244     THE MYSTERY OF"/>
@@ -2606,7 +2606,7 @@ Attorney. "Mrs. Taylor has
 <figure entity="arrow362" rend="inline">
 <p>Rising, for her eyes seemed to draw him to his feet, he cried:
 "Shadows are falling upon me"</p>
-<figDesc> Illustration included in the body of Green's "The Mystery of
+<figDesc>Illustration between pages 362 and 363 of Green's "The Mystery of
 the Hasty Arrow"</figDesc>
 </figure>
 <pb n="362     THE MYSTERY OF"/>
@@ -2782,7 +2782,7 @@ quickest way. But
 <p>Breaking down now utterly, she fell on her knees sobbing out her
 soul at the feet of him from whose honor she had torn the last poor,
 pitiful shred</p>
-<figDesc> Illustration included in the body of Green's "The Mystery of
+<figDesc>Illustration between pages 390 and 391 of Green's "The Mystery of
 the Hasty Arrow"</figDesc>
 </figure>
 <pb n="390     THE MYSTERY OF"/>
