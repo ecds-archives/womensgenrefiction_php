@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
-<TEI.2>
-<teiHeader>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="smtruth1201">
+<teiHeader id="smtruth1202">
 <fileDesc>
 <titleStmt>
-<extent></extent>
 <title>Truth Dexter, an electronic edition</title>
-<author n="McCall,Sidney"> Sidney McCall</author>
+<author><name type="person" reg="McCall, Sidney">Sidney McCall</name></author>
 </titleStmt>
+<extent>700Kb</extent>
 <publicationStmt>
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -81,8 +81,8 @@
 <item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> </change> 
 </revisionDesc> 
 </teiHeader> 
-<text>
-<front>
+<text id="smtruth1203">
+<front id="smtruth1204">
 <pb n="[iii]"/>
 <pb entity="smtruthtp" pages="Title Page"/>
 <titlePage type="full">
@@ -98,7 +98,7 @@
 <pb n="[iv]"/>
 <div id="smtruthfm1" type="copyright">
 <figure entity="smtruthtvp" rend="inline">
-<figDesc> Copyright Page for McCall's "Truth Dexter"</figDesc>
+<figDesc>Copyright Page for McCall's "Truth Dexter"</figDesc>
 </figure>
 </div>
 
@@ -107,26 +107,26 @@
 </div>
 
 <pb n="[v]"/>
-<div id="smrtruth100" type="foreward">
-<head> FOREWARD</head>
-<p> The novel, "Truth Dexter," was composed substantially as at present published, during the year 1897. The time chosen for the action was the close of President Cleveland's second administration. The conversations of the middle chapters, with Lord Gayrock, embody opinions which were already strongly felt by the author before the war with Spain and more recent complications in the East, made some of them appear strikingly prophetic. Though the whole work has since undergone much revision in detail, it has been thought best to leave the political discussion in its original form; for any attempt to strengthen the arguments of Craighead by reference to the exciting events of the best of three years could only have obscured the action of the story. The author prefers the book to remain a picture of feelings and relations really subsisting between North and South just before that crisis in our history which brought the two sections, let us hope forever, into a common enthusiasm for a common national cause.</p>
-<p> SIDNEY McCALL.</p>
+<div id="smrtruth100" type="foreword">
+<head>FOREWORD</head><milestone unit="section" rend="line"/>
+<p>The novel, "Truth Dexter," was composed substantially as at present published, during the year 1897. The time chosen for the action was the close of President Cleveland's second administration. The conversations of the middle chapters, with Lord Gayrock, embody opinions which were already strongly felt by the author before the war with Spain and more recent complications in the East, made some of them appear strikingly prophetic. Though the whole work has since undergone much revision in detail, it has been thought best to leave the political discussion in its original form; for any attempt to strengthen the arguments of Craighead by reference to the exciting events of the best of three years could only have obscured the action of the story. The author prefers the book to remain a picture of feelings and relations really subsisting between North and South just before that crisis in our history which brought the two sections, let us hope forever, into a common enthusiasm for a common national cause.</p>
+<p>SIDNEY McCALL.</p>
 </div>
 
 <pb/>
 <pb n="[vii]"/>
 <div id="smtruth200" type="Table of Contents">
 <figure entity="smtruthtc1" rend="inline">
-<figDesc> Table of Contents included in front of McCall's "Truth Dexter"</figDesc>
+<figDesc>Table of Contents included in front of McCall's "Truth Dexter"</figDesc>
 </figure>
 
 <pb n="[viii]"/>
 <figure entity="smtruthtc2" rend="inline">
-<figDesc> Table of Contents included in front of McCall's "Truth Dexter"</figDesc>
+<figDesc>Table of Contents included in front of McCall's "Truth Dexter"</figDesc>
 </figure>
 </div>
 </front>
-<body>
+<body id="smtruth1205">
 <pb n="1"/>
 <div id="smtruth001" type="chapter" n="1">
 <head>CHAPTER I<lb/>THE BRASS BUDDHA GRINS</head>
@@ -273,12 +273,11 @@
 <p>He rang, on the impulse, for a table and paper, but before writing, took out once more the little blue note. With its perfume rose a vision of Tom's caress of Orchid. It stung him with a physical shock, as if the train had stopped. Detached fragments of his morning's reasoning stood up gaunt as charred ruins in a cold, gray light. Suspicion&#x2014;that curse of his profession&#x2014;came strong upon him, and he heard himself shout again:</p>
 <p>"This is but a revelry of sensation!"</p>
 <p>He must know! He must force her hand! With set <pb n="21"/>lips he spurred himself to do what he afterward recognized to be the most unlawyer-like of his acts. He wrote as follows:&#x2014;</p>
-<q> <text> <body>
-<div id="smtruth021" type="letter">
-<opener> <salute>
-Dear Mrs. Wiley,&#x2014;</salute></opener><p>For reasons to be afterward explained I find I must demand at once verbal proof of a statement made by you to me last evening. Your answer must be given now, without circumlocution, and I shall act upon it at once. The issue cannot wait until my return. Upon receipt of this, wire me only one of the two words "yes" or "no." I must earnestly request, in fact command, that there be no addition. I shall regard anything else as equivalent to " no." If it be the latter, I shall accept it as a finality. If the former, I will write you further details and plans. Do nothing until you receive these. Professional secrecy is absolute.</p>
+<q><text><body><div id="smtruth021" type="letter">
+<opener><salute>Dear Mrs. Wiley,&#x2014;</salute></opener><p>For reasons to be afterward explained I find I must demand at once verbal proof of a statement made by you to me last evening. Your answer must be given now, without circumlocution, and I shall act upon it at once. The issue cannot wait until my return. Upon receipt of this, wire me only one of the two words "yes" or "no." I must earnestly request, in fact command, that there be no addition. I shall regard anything else as equivalent to " no." If it be the latter, I shall accept it as a finality. If the former, I will write you further details and plans. Do nothing until you receive these. Professional secrecy is absolute.</p>
 <closer> <signed>Yours very truly,</signed>
-<name>E. Van der Weyde Craighead</name>. <address>Address telegram c/o Col. John Dexter, Big House, Dexterville, Ala.</address></closer></div></body></text></q>
+<name>E. Van der Weyde Craighead</name>.</closer></div>
+<div id="smtruth021a" type="postscript"><p>Address telegram c/o Col. John Dexter, Big House, Dexterville, Ala.</p></div></body></text></q>
 <p>As he read over this letter with a final precautionary minuteness, he was conscious of a sort of pity; but this, like wintry sunshine passing through glass, left no warmth behind. His chief thought was for himself. He assured himself again and again that the answer would certainly be "no." He thought that he wanted it to be so. He must at any cost rid himself of this burden of doubt and danger. He felt himself weak in considering Orchid's probable feelings at all</p>
 <p>"Poor little woman," he murmured once. "I feel like a botanist! Ought one to require that an orchid, with all its brilliant loveliness, should possess also a soul?" A faint smile was on his lips as he sealed, directed, and stamped the envelope.</p>
 <p>When the next large station was reached, he left the car in order to mail the letter with his own hands. A draft of warm, sweet air, with a dash of spices in it, filled him with a sense of delicious novelty. A crowd of little negroes ran up with local papers. He read upon the upper <pb n="22"/>margin, "Charlotte, North Carolina." Making his way toward two large red boxes at the end of the station platform, marked "U. S. Mail," he opened the narrow lid of the further one, labelled, "Letters&#x2014;North."</p>
@@ -642,12 +641,11 @@ but the Colonel looked at Craighead.</p>
 <p>The night was calm and gentle, as if conscious of the <pb n="64"/>grief which it might help to soothe. The moonlight flattened itself against the windows, cold and green. Craighead pushed back his heavy chair, and deliberately went in search of Truth.</p>
 <p>He found her in the garden, pacing the white driveway, white with the rich February stars above her, and the moon just spurning the tallest pines. His feet crunched the gravel as though it had been snow. She made no sign of recognition as he approached, but, as he reached her side, began to talk softly.</p>
 <p>"It's nearly March. The big blue violets are up, and the dogwood-trees are all in bloom. I used to call it fairies' pop-corn. It looks like pop-corn."</p>
-<p>Craighead fell into step beside her.</p>
-<lg>
+<p>Craighead fell into step beside her.
+<q>
 <l>"'When dogwood's white,</l>
-<l>Fishers' delight!'"</l>
-</lg>
-<p>she quoted. "Every first dogwood day we always went." Her voice trembled a little. "We had lots of fishin' nooks we called 'ours.' Nobody else knew about 'em. He loved to fish, an' he always took me. But now&#x2014;somehow&#x2014;it don't seem like it was really me that went."</p>
+<l>Fishers' delight!'"</l></q>
+she quoted. "Every first dogwood day we always went." Her voice trembled a little. "We had lots of fishin' nooks we called 'ours.' Nobody else knew about 'em. He loved to fish, an' he always took me. But now&#x2014;somehow&#x2014;it don't seem like it was really me that went."</p>
 <p>"Poor little girl!" said Craighead, gently, as he took one of her hands in his. He pitied, indeed, but was glad to find her in this chastened mood. She seemed grateful for the pressure of a friendly hand, and allowed hers to remain in his clasp, as they walked along. Much of her shyness had melted in this great crucible of sorrow.</p>
 <p>"Truth! You don't dislike me as much as you did at first, do you?"</p>
 <p>"No! no! Please don't remember it! I'm sorry now. It was only&#x2014;"</p>
@@ -1020,12 +1018,12 @@ girl has indeed become a fairy princess. There is nothing left for me but to bec
 <p>Orchid had broken into impetuous pleading. At first he scarcely heard her words, but then their meaning came, and grew, accumulating with each quiver of her voice, each passionate intonation of her complete surrender.</p>
 <p>"Van&#x2014;Van&#x2014;don't say that it is irrevocable! I cannot bear it just now, just when I have found in a suspected lover the noblest of friends. I have so many to flatter, to fawn, to deceive. You alone are true. I don't care how the old women gossip! What you said that last wonderful evening burned into my soul,&#x2014;almost maddened me! Every word of your denunciation was deserved, and I felt each word like a&#x2014;knout! No one has ever told me of my faults before. You know my people&#x2014;" She threw out her arms with a gesture of despair, and challenged his pity with burning eyes.</p>
 <p>"Yes, I know," he answered gently, "yet&#x2014;"</p>
-<p>"Yet you will take from me the one chance of neutralizing their influence, and strengthening what I have of strength. I am pleading with you for more than life, Van. The best part of me clamors,&#x2014;</p>
-<lg>
-<l>'All I might never be,</l>
-<l>All men ignored in me&#x2014;"</l>
-</lg>
-<p>She was growing a little hysterical. "Forget all that I said that evening, except," here her voice lowered to more <pb n="103"/>vibrating sweetness, "except where the memory might serve to make you gentler. Ah, Van! Do not leave me. Do not give me up! Let me be your client. Listen! I engage you now, from this moment, as my moral and intellectual adviser." She laughed wildly. "Name your own terms, my lord! I shall not blench!"</p>
+<p>"Yet you will take from me the one chance of neutralizing their
+influence, and strengthening what I have of strength. I am pleading
+with you for more than life, Van. The best part of me clamors,&#x2014;<lb/>
+<q><l>'All I might never be,</l>
+<l>All men ignored in me&#x2014;"</l></q><lb/>
+She was growing a little hysterical. "Forget all that I said that evening, except," here her voice lowered to more <pb n="103"/>vibrating sweetness, "except where the memory might serve to make you gentler. Ah, Van! Do not leave me. Do not give me up! Let me be your client. Listen! I engage you now, from this moment, as my moral and intellectual adviser." She laughed wildly. "Name your own terms, my lord! I shall not blench!"</p>
 <p>Van struck his clenched fist on the table. His face had grown whiter than hers. "Orchid! Mrs. Wiley! I cannot listen to you! I must not! Heavens! Why should you torture us both? You don't understand! I am&#x2014;"</p>
 <p>"I don't want to understand," she cried desperately. "Or, perhaps it is that I understand better than you. Van, I will give up all those silly flatterers that swarm about me. I really care nothing for social leadership. I will study under you. I will not even ask that you visit me as often as formerly. Only give me the right to feel that I have your strong will to guide me. I need such help. Don't you know that I need it? More than once, in dark hours, I have been to noted clergymen to beg for comfort and advice. They were polite enough, and meant to be sympathetic, as they doled me out their little sugarcoated commonplaces. But I&#x2014;I dashed the wretched semblances to the ground and pleaded for real things. Then they would become embarrassed, and their little stock of comfort fail. One nice little man I frightened half out of his senses. He dodges me yet." She gave the same pathetic, hysterical laugh. "Oh, Van, I am starving! Be generous enough to overlook what you think my failure, and help me rise to that first ideal you had of me."</p>
 <p>Fairly at bay now, Craighead lifted his haggard eyes full to her own. There was something in his face that gave her occult cognizance of some coming blow. "Orchid!" he cried. She shivered, and clutched her hands together.</p>
@@ -1161,16 +1159,16 @@ girl has indeed become a fairy princess. There is nothing left for me but to bec
 <p>"I'm not afraid of you, little girl," he said kindly. "I believe you have been better brought up. But there are many things that you will need to study, and I want you to do so, only be careful not to run into fads."</p>
 <p>Soon after this he went down to the office, and Truth <pb n="122"/>was left alone. As she ventured to explore the luxurious apartment by herself, and began to unpack and put away her few shabby personal belongings, she felt light-hearted to think that she already possessed some of those very qualities which differentiated her from these dreadful Northern women.</p>
 <p>When Van returned from a short sojourn at the "office," the hotel elevator was at the very top of the tall heap of brick and stone. Not caring to wait for it, he hurried up the three flights of stairs to his apartments, where, on reaching the corridor, he was surprised to see the negro bell-boy crouched before the door with his ear to the keyhole. At sight of Craighead, the negro sprang to his feet and slouched away. From within the room came the low, rich tones of an untrained contralto, singing,</p>
-<lg>
+<p><q><lg type="stanza" n="2">
 <l>"Aldo' I is so fah away,</l>
 <l>I hears de jay-bird plain;</l>
 <l>I feels de gentle breezes play</l>
-<l>Among de sugar-cane.</l>
-<l>"O Alabamy, fah away!</l>
+<l>Among de sugar-cane.</l></lg>
+<lg><l>"O Alabamy, fah away!</l>
 <l>Sweet home ub lub an' light,</l>
 <l>I'll sing an' play, de lib-long day,</l>
 <l>But dream ob you at night."</l>
-</lg>
+</lg></q></p>
 <p>He opened the door softly. She was rocking backward and forward in a little gilt chair, her eyes closed and her head thrown back as she sang away her first pang of home-sickness. An old-fashioned daguerreotype of Colonel and Mrs. Dexter taken together was on the mantle. Over the frame a bit of gray-beard moss was draped, and a little pine-cone stood on each side.</p>
 <p>Van had not the heart to tell the child that it was unusual for Boston apartment-hotel ladies to sing negro songs in so heartfelt a manner. She had come to herself, with a start, as he entered.</p>
 <p>He took the little ringless hands in his (he had not thought to buy her a wedding ring) and said, very <pb n="123"/>kindly, " Do you think that my little Alabama princess can be happy in this cold, hard Boston?"</p>
@@ -2709,10 +2707,8 @@ in with the threatening proprietorship of a pirate captain; nor did he jerk his 
 <p>DEW still glistened in the shadows as Truth went, searching for the memories of her childhood, into the wide, silent treasure-house of the forest. At first, as if resentful of minor impressions, she was deliberately unobservant. Her old green sunbonnet with its dear, indelible stains of blackberry, persimmon, and walnut, she drew downward until her lowered eyes could see only a semicircle of ground,&#x2014;now flecked with dry grass, now bare,&#x2014;and this kept moving with her, like the cardboard turf about the feet of a paper-doll. The vague, familiar odor of earth, mingled with that of the old bonnet and black shawl (the same she had worn on the beach at Biloxi), produced a partial an&#x00E6;sthesia, in which recent events dissolved and those of childhood began to take on luminous outlines.</p>
 <p>It was one of those Southern March mornings when the wind, shamed into gentleness, wanders irresolute from hill to hill, or drowses with violets in the valleys. The main road, pink from its amalgamation of sand and clay, stretched out like a fallen scarf of dawn, and upon it the trees dropped leaf-shadows in olive mosaics. All was motionless save where a dewy spray flouted the unceremonious leave-taking of a bird. Far off a woodpecker tapped his hollow drum.</p>
 <p>Bending her course now from the main road into the wood, she took a little pathless path down the slope, here embossed with countless tiny, scalloped terraces banked up with pine-straw and the roots of grass, and brimmed <pb n="315"/>with pink-white sand. Between could be traced, in shadowy ripples, the water-courses of many a summer shower. As a child how often had she planted her iris banners, and worked out flower-tales of medi&#x00E6;val chivalry upon these pigmy battlements! She was at the very scene of Ivanhoe's triumph,&#x2014;her Ivanhoe of a twig, in leaf armor and acorn helmet. The little drama seemed to spring into life before her eyes. A spasmodic contraction caught at her throat. She flung back her head and clutched the nearest tree for support. It was a slender dogwood in full, white pomp of blossom.</p>
-<q><lg>
-<l>"When dogwood's white,</l>
-<l>Fishers' delight!"</l>
-</lg></q>
+<p><q><l>"When dogwood's white,</l>
+<l>Fishers' delight!"</l></q></p>
 <p>That was what she and grandpa used to sing! The snowy discs fluttered down upon her in an indignant shower. She swayed a moment with the tree, and kept closed eyes until the cool, thin myrrh of the pines should have brought strength.</p>
 <p>She strolled on now more slowly. The forgotten sun-bonnet hung in an octagonal green bucket at the back of her neck. On every side great pines stood rigidly upright in the slanting soil, their brown, scarred trunks softening to purple in the broad belts of distance. From the roof overhead a pine-burr suddenly fell, as, in old Eastern temples, a bronze bolt, or knob, is loosed, at last, from mouldering timbers.</p>
 <p>Truth stooped for the gift, but paused before she reached it, arrested by a new odor, a new, delicious, tantalizing fragrance that seemed a challenge, a call, the laughter of a hidden sprite. In an instant she had flung herself on her knees and was tearing straw and dry leaves from a heap at the edge of the nearest embankment. Her cheeks were crimson, her lips already parted for the cry of triumph. Yes, she had found it already,&#x2014;a great cluster of the wild arbutus, waxen, with coral buds!</p>
@@ -3217,7 +3213,7 @@ shrieked Aunt Big Mary. "Miss Troof, you ain't got no mo' notion er takin' keer 
 <p>Mrs. Dexter did not look into Van's face as he came out, but before she knew it he had flung both arms about her, without a word, and was straining her against his breast.</p>
 <p>"My son!" she whispered, "my own, dear son!"</p>
 <p>Night came down over the Big House, and darkness was everywhere except in the wide, softly shaded room where slept Truth and the cocoon.</p>
-<trailer> THE END</trailer>
+<trailer>THE END</trailer>
 </div>
 </body>
 </text>
