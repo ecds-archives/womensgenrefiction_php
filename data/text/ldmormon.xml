@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
-<TEI.2>
-<teiHeader>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="ldmormon1201">
+<teiHeader id="ldmormon1202">
 <fileDesc>
 <titleStmt>
-<title>The Mormon Prophet</title>
-<author n="Dougall,L.(Lily),1858-1923" >Lily Dougall</author>
+<title>The Mormon Prophet, an electronic edition</title>
+<author><name type="person" reg="Dougall, L. (Lily), 1858-1923">Lily Dougall</name></author>
 </titleStmt>
-<extent></extent>
+<extent>570Kb</extent>
 <publicationStmt>
 <publisher>Emory University, Lewis H. Beck Center</publisher>
 <pubPlace>Atlanta, Georgia</pubPlace>
@@ -51,16 +51,17 @@
 <rs type="ethnicity">Caucasian</rs> 
 <rs type="form">Unedited</rs> 
 <rs type="genre">Novel</rs> 
-<rs type="geography">Great Britain</rs> 
+<rs type="geography">United States</rs> 
 <date>1900-1999</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
 <list> 
-<item>British literature--20th Century--Fiction.</item> 
+<item>British literature--20th Century--Fiction.</item>
+<item>Women authors, Canadian.</item> 
 <item>Women authors, British--20th Century.</item> 
 <item>Mormonism.</item>
-<item>Historical Fiction.</item> 
+<item>Historical fiction.</item> 
 </list> 
 </keywords> 
 </textClass> 
@@ -74,47 +75,38 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-
-<text>
-
-<front>
-<div id="ldmormoncover" type="front cover">
-<figure entity="ldmormonfc" rend="inline">
-<figDesc>Front cover for Dougall's "The Mormon Prophet"</figDesc>
-</figure>
-</div>
+<text id="ldmormon1203">
+<front id="ldmormon1204">
 <pb/>
-
 <pb n="[i]"/>
-<pb entity="ldmormontp" pages="titlePage"/>
 <titlePage type="half">
 <docTitle>
-<titlePart type="main"> THE MORMON PROPHET</titlePart>
+<titlePart type="main">THE MORMON PROPHET</titlePart>
 </docTitle>
 </titlePage>
 
 <pb n="[ii]"/>
 <div id="ldmormon100" type="advert">
-<figure entity="ldmormonad" rend="inline">
-<figDesc> Advert included in front of Dougall's "The Mormon Prophet"</figDesc>
+<figure entity="ldmormonfm" rend="inline">
+<figDesc>Advert included in front of Dougall's "The Mormon Prophet"</figDesc>
 </figure>
 </div>
 
 <pb n="[iii]"/>
+<pb entity="ldmormontp2" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main"> THE <lb/> MORMON PROHPHET</titlePart>
-</docTitle>
-<byline> BY <docAuthor> LILY DOUGALL</docAuthor> AUTHOR OF <lb/>
-BEGGARS ALL, 'THE ZEITGEIST,' 'THE MADONNA OF A DAY, 'A DOZEN WAYS OF LOVE,' ETC.</byline>
+<titlePart type="main">THE<lb/> MORMON PROHPHET</titlePart>
+</docTitle><lb/>
+<byline> BY<lb/><docAuthor> LILY DOUGALL</docAuthor><lb/> AUTHOR OF<lb/>
+BEGGARS ALL, 'THE ZEITGEIST,' 'THE MADONNA OF A DAY,'<lb/> 'A DOZEN WAYS OF LOVE,' ETC.</byline>
 
 <docImprint>
-<pubPlace> London</pubPlace><publisher> ADAM AND CHARLES BLACK</publisher><docDate>1899</docDate>
+<pubPlace>London</pubPlace><publisher> ADAM AND CHARLES BLACK</publisher><docDate>1899</docDate>
 </docImprint>
 </titlePage>
-
-		<pb n="[v]"/> 
-
+<pb n="[iv]"/>
+<pb n="[v]"/> 
 <div type="preface">
 <head> PREFACE</head>
 <p>Some otherwise well-informed people hold Mormonism to be synonymous with polygamy, and believe that Brigham Young was its chief prophet. To such the narratives of this book might, in the absence of explanation, seem purely fanciful. Let me, then, briefly refer to the historical facts on which it is based. The Mormons revere but one prophet, Joseph Smith, who never saw Utah, and whose public teachings were for the most part unexceptionable. Taking necessary liberties with incidents, I have endeavoured to present Smith's character as I found it in his own writings, in the writings of his contemporaries and the in the memories of older inhabitants of Kirtland.</p>
@@ -135,33 +127,20 @@ Young as a leader, never murdered their neighbours, or defied the law in any way
 <pb n="viii THE MORMON PROPHET"/>
 
  and leave young children, she would rather have left then to Joseph Smith than any one else in the world; he was always kind." Such testimony as to the Smith's kind-heartedness I found often repeated in the annals of Mormon families.</p>
-<p> In looking over the problems involved in such a career as Smith's we must be struck by the necessity for able and unprejudiced research into the laws which govern apparent marvels. Attempts are now being made to ascertain those laws, and thus to aid people of the so-called 'mediumistic' temperament to understand, rather than be swayed by, their delusions. Whether such a result is as yet possible or not, Mormonism affords a gigantic proof of the crying need of an effort in this direction; for men are obviously more ignorant of their own elusive mental conditions than of any other branch of knowledge. </p>
+<p> In looking over the problems involved in such a career as Smith's we must be struck by the necessity for able and unprejudiced research into the laws which govern apparent marvels. Attempts are now being made to ascertain those laws, and thus to aid people of the so-called 'mediumistic' temperament to understand, rather than be swayed by, their delusions. Whether such a result is as yet possible or not, Mormonism affords a gigantic proof of the crying need of an effort in this direction; for men are obviously more ignorant of their own elusive mental conditions than of any other branch of knowledge.</p>
 </div>
-
 </front>
-<body>
-
-
-
+<body id="ldmormon1205">
 <pb n="1"/>
+<div id="ldmormon200" type="book" n="1">
+<head>BOOK I</head>
+<pb n="[2]"/>
+<pb n="3"/>
+<div id="ldmormon001" type="chapter" n="1">
+<head>CHAPTER I</head>
+<p>IN the United States of America there was, in the early decades of this century, a very widely spread excitement of a religious sort. Except in the few long-settled portions of the eastern coast, the people were scattered over an untried country; means of travel were slow; news from a distance was scarce; new heavens and a new earth surrounded the settlers. In the veins of many of them ran the blood of those who had been persecuted for their faith: Covenanters, Quakers, sectaries of diverse sorts who could transmit to their descendants their instincts of fiery zeal, their cravings for 'the light that never was on sea or land,' but not that education by contact with law and order which, in older states, could not fail to moderate reasonable minds.</p>
 
-			<div id="ldmormon200" type="book" n="1">
-
-				<head>BOOK I</head>
-
-				<pb n="[2]"/>
-
-				<!--blank page-->
-
-			<pb n="3"/>
-
-			<div id="ldmormon001" type="chapter" n="1">
-
-				<head>CHAPTER I</head>
-
-				<p>IN the United States of America there was, in the early decades of this century, a very widely spread excitement of a religious sort. Except in the few long-settled portions of the eastern coast, the people were scattered over an untried country; means of travel were slow; news from a distance was scarce; new heavens and a new earth surrounded the settlers. In the veins of many of them ran the blood of those who had been persecuted for their faith: Covenanters, Quakers, sectaries of diverse sorts who could transmit to their descendants their instincts of fiery zeal, their cravings for 'the light that never was on sea or land,' but not that education by contact with law and order which, in older states, could not fail to moderate reasonable minds.</p>
-
-				<p>With the religious revivals came signs and wonders. A wave of peculiar psychical phenomena swept over the country, in explanation of which <pb n="4"/>the belief most widely received was that of the direct interposition of God or the devil. The difficulty of discerning between the working of the good and the bad spirit in abnormal manifestations was to most minds obviated by the fact that they looked out upon the confusing scene through the glasses of rigidly defined opinion, and according as the affected person did or did not conform to the spectator's view of truth, so he was judged to be a saint or a demoniac. Few sought to learn rather than to judge; one of these very few was a young man by name Ephraim Croom. He was by nature a student, and, being of a feeble constitution, he enjoyed what, in that country and time, was the very rare privilege of indulging his literary tastes under the shelter of the parental roof.</p>
+<p>With the religious revivals came signs and wonders. A wave of peculiar psychical phenomena swept over the country, in explanation of which <pb n="4"/>the belief most widely received was that of the direct interposition of God or the devil. The difficulty of discerning between the working of the good and the bad spirit in abnormal manifestations was to most minds obviated by the fact that they looked out upon the confusing scene through the glasses of rigidly defined opinion, and according as the affected person did or did not conform to the spectator's view of truth, so he was judged to be a saint or a demoniac. Few sought to learn rather than to judge; one of these very few was a young man by name Ephraim Croom. He was by nature a student, and, being of a feeble constitution, he enjoyed what, in that country and time, was the very rare privilege of indulging his literary tastes under the shelter of the parental roof.</p>
 
 				<p>In one of the last years of the eighteenth century Croom the elder had come with a young wife from his father's home in Massachusetts to settle in a township called New Manchester, in the State of New York. He was a Baptist by creed; a man of strong will, strong affections, and strong self-respect. Taking the portion of goods which was his by right, he sallied forth into the new country, thrift and intelligence written upon his forehead, thinking there the more largely to establish the prosperity of the green bay tree, and to serve his God and generation the better by planting his race in the newer land.</p>
 
@@ -2707,20 +2686,11 @@ Young as a leader, never murdered their neighbours, or defied the law in any way
 
 				<p>On the afternoon of that day they saw the ice that floated in large cakes on the breast of the Mississippi flash back the sunbeams to their straining eyes. The sight of the limits of the hostile State from which they were flying was a great joy to every one of them. Susannah felt her heart leap; Elvira, with the growing tendency to cling to her which she had displayed since their last meeting, cast her arms around her and sobbed for joy.</p>
 
-				<p>After this blessed glimpse of the river they went down through the recesses of a low forest, the frost and the sunshine still inspiriting them. As they went, the melody of a hymn was taken up from one end of the caravan to the other by all those well enough to join in the song. It was a swinging triumphant air, and Susannah found herself uplifted for the first time since the days of her baptism upon the party spirit of the sect, and singing with them, although she could only catch the words of the refrain often repeated,</p>
-
-			<q>	<lg>
-
-					<l>'Missouri</l>
-
-					<l>In her lawless fury,</l>
-
-					<l>Without judge or jury,</l>
-
-					<l>Drove the Saints and spilt their blood.'</l>
-
-				</lg> </q>
-
+				<p>After this blessed glimpse of the river they went down through the recesses of a low forest, the frost and the sunshine still inspiriting them. As they went, the melody of a hymn was taken up from one end of the caravan to the other by all those well enough to join in the song. It was a swinging triumphant air, and Susannah found herself uplifted for the first time since the days of her baptism upon the party spirit of the sect, and singing with them, although she could only catch the words of the refrain often repeated,
+<q><lg type="stanza"><l>'Missouri</l>
+<l>In her lawless fury,</l>
+<l>Without judge or jury,</l>
+<l>Drove the Saints and spilt their blood.'</l></lg></q></p>
 				<p>Again the mind of Joseph Smith had overmastered Susannah's mind. As Elvira had said, he, lying in a <pb n="294"/>gaol far away, enduring hardship, imminent danger of torturing death, was by his spirit animating this motley crowd, and now at last again his will broke down the barriers of reason that Susannah had raised and fortified even against the love of her child and the long reverence she had yielded to her husband The true secret of human leadership is, perhaps, known only to the Divine mind, perhaps also to the Satanic. It would certainly seem that the men who chance upon the power and wield it have often little understanding of the law by which they work, and their critics less.</p>
 
 			</div>
@@ -4049,26 +4019,25 @@ She was curiously unable to go back to her former <pb n="408"/>agonised anxietie
 
 				<p>'To-day I seemed to see' (she laid her hand across her knit brows) 'all the passion of it again, <pb n="444"/>the wrong, the right, the misery&#x2014;from the day that Angel and I went out with such young passionate desire to divide the right from the wrong. I could see Angel and my baby shot before my eyes as Joseph Smith was shot. It is terrible to see death come that way. But they are all three lying now in the perfect peace of death.' She put her hand in his. 'Then, dear, my mind came back from the rage and terror of war. I thought of their peace and of you&#x2014;how God has healed my life by your love, and given me such joy. Is he not able to provide for the healing of the nations?'</p>
 
-			</div> </div>
+			</div></div>
 <trailer> THE END</trailer>
 
 		</body>
 
-<back>
-
+<back id="ldmormon1206">
 <div type="colophon">
-<p> Printed by R &#x0026; R. Clark, LIMITED, <hi rend="italics">Edinburgh</hi>
+<p>Printed by R &#x0026; R. Clark, LIMITED, <hi rend="italics">Edinburgh</hi>
 </p></div>
 
 <pb n="[1]"/>
 <div id="ldmormon400" type="Advert">
 <figure entity="ldmormonad1" rend="inline">
-<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+<figDesc>Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
 </figure>
 
 <pb n="[2]"/>
 <figure entity="ldmormonad2" rend="inline">
-<figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
+<figDesc>Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
 </figure>
 
 <pb n="[3]"/>
@@ -4121,11 +4090,7 @@ She was curiously unable to go back to her former <pb n="408"/>agonised anxietie
 <figDesc> Advert included in back of Dougall's "The Mormon Prophet"</figDesc>
 </figure>
 </div>
-
 </back>
- 
-	
 </text>
-
 </TEI.2>
 
