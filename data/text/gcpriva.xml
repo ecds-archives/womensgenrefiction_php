@@ -2,9 +2,9 @@
 
 <!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
 
-<TEI.2>
+<TEI.2 id="gcpriva1201">
 
-<teiHeader>
+<teiHeader id="gcpriva1202">
 
 <fileDesc>
 
@@ -78,7 +78,7 @@
 <item>Supernatural murder.</item> 
 </list> 
 </keywords> 
-</textClass> 
+</textClass>
 </profileDesc> 
 <revisionDesc> 
 <change> 
@@ -94,7 +94,7 @@
 
 <text>
 
-<front>
+<front id="gcpriva1203">
 <pb n="[i]"/>
 <pb entity="gcprivatp" pages="titlePage"/>
 <titlePage type="half">
@@ -105,7 +105,7 @@
 
 <pb n="[ii]"/>
 <div id="gcpriva100" type="advert">
-<figure entity="gcprivaad1" rend="inline">
+<figure entity="gcprivafm1" rend="inline">
 <figDesc> Advert in front of Corbett's "Secrets of a Private Enquiry Office"</figDesc>
 </figure>
 </div>
@@ -126,16 +126,14 @@
 <l> London <lb/> BRADBURY, AGNEW. &#x0026; CO. LIMD., PRINTERS, WHITEFRIARS.</l></div>
 
 <div id="gcpriva300" type="table of contents">
-<figure entity="gcprivatc1" rend="inline">
+<figure entity="gcprivafm2" rend="inline">
 <figDesc>Table of contents in Corbett's "Secrets of a private enquiry office"</figDesc>
 </figure>
 </div>
 <pb/> 
 
 </front>
-<body>
-
-		***	<!--pages missing 1-6-->
+<body id="gcpriva1204">
 
 			<pb n="7"/>
 
@@ -2361,7 +2359,7 @@ What&#x2014;&#x2014;. But there, I am turning just as enthusiastically rhapsodic
 
 </body>
 
-<back>
+<back id="gcpriva1205">
 
 <div id="gcpriva017" type="colophon">
 <l>BRADBURY, AGNEW &#x0026; CO. LIMD., PRINTERS, WHITEFRIARS.</l>
