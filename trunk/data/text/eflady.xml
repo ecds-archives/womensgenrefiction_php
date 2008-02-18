@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
-<TEI.2>
-<teiHeader>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="eflady1201">
+<teiHeader id="eflady1202">
 <fileDesc>
 <titleStmt>
-<title>Her Ladyships Conscience, an electronic edition</title>
-<name n="Fowler, Ellen Thorneycroft, 1860-1929"> Ellen Thorneycroft Fowler</name>
+<title>Her Ladyship's Conscience, an electronic edition</title>
+<author><name type="person" reg="Fowler, Ellen Thorneycroft, 1860-1929">Ellen Thorneycroft Fowler</name></author>
 </titleStmt>
+<extent>520Kb</extent>
 <publicationStmt>
 <publisher>Emory University, Lewis H. Beck Center</publisher>
 <pubPlace>Atlanta, Georgia</pubPlace>
@@ -49,9 +50,9 @@
 <rs type="language">English</rs> 
 <rs type="ethnicity">Caucasian</rs> 
 <rs type="form">Unedited</rs> 
-<rs type="genre">Short Stories</rs> 
+<rs type="genre">Novel</rs> 
 <rs type="geography">Great Britain</rs> 
-<date>1800-1899</date> 
+<date>1900-1999</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
@@ -59,8 +60,8 @@
 <item>British literature--20th Century--Fiction.</item> 
 <item>Women authors, British--20th Century.</item> 
 <item>Marriage age.</item> 
-<item>Age differences in relationships.</item> 
-<item> Middle aged woman</item>
+<item>Age difference in relationships.</item> 
+<item> Middle age women</item>
 </list> 
 </keywords> 
 </textClass> 
@@ -75,24 +76,25 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
+<text id="eflady1203">
+<front id="eflady1204">
 <pb n="[iii]"/>
-<pb entity="efladytp" pages="titlePage"/>
+<pb entity="efladyfm1tp" pages="titlePage"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">HER LADYSHIP'S CONSCIENCE</titlePart>
 </docTitle>
-<byline>BY<docAuthor>ELLEN THORNEYCROFT FOWLER <lb/> THE HONBLE. MRS. ALFRED FELKIN)</docAuthor>AUTHOR OF<lb/> "CONCERNING ISABEL CARNABY," ETC.</byline>
+<byline>BY<docAuthor>ELLEN THORNEYCROFT FOWLER <lb/>(THE HONBLE. MRS. ALFRED FELKIN)</docAuthor>AUTHOR OF<lb/> "CONCERNING ISABEL CARNABY," ETC.</byline>
 <docImprint>
 <publisher>HODDER AND STOUGHTON</publisher><pubplace> LONDON  NEW YORK  TORONTO</pubplace>
 </docImprint>
 </titlePage>
 <pb n="[iv]"/>
-<div type="copyright">
+<div id="eflady400" type="copyright">
+<q>
 <l>RICHARD CLAY &#x0026; SONS, LIMITED,</l>
-<l>BRUNSWICK STREET,STAMFORD STREET. S.E.</l>
-<l> AND BUNGAY, SUFFOLK.</l>
+<l>BRUNSWICK STREET, STAMFORD STREET. S.E.</l>
+<l> AND BUNGAY, SUFFOLK.</l></q>
 </div>
 <pb n="v"/>
 <div id="eflady100" type="table of contents">
@@ -116,7 +118,7 @@
 </figure>
 </div>
 </front> 
-<body>
+<body id="eflady1205">
 <pb n="1"/>
 <div id="eflady200" type="book" n="1">
 <div id="eflady001" type="chapter" n="1">
@@ -138,7 +140,7 @@ CHAPTER I<lb/>ENTER LADY ESTHER</head>
 <p>"Then he must be like me. I'm tremendously modern for a woman of my age and size. My one effort in life is to march with the times. I often march till I'm quite out of breath. I'm always urging Tammy to march by my side. It is the only hope for an aristocracy in these socialistic times."</p>
 <p>Lady Esther's lip curled with scorn. "There is no hope for an aristocracy in these socialistic times."</p>
 <p>"Oh yes there is! if we only march: a hope of a certain kind. I'm not fussy, and I don't mind being disestablished, if only I'm not disendowed. But I didn't motor over here to talk politics with you, my <pb n="3"/>dear Esther: I came to hear all about Wilfred, and if he is a big enough man for the place. So do go on about him."</p>
-<p>"I'm trying to go on, but you keep interrupting me. Well, Wilfred is modern and up to date in quite a different way from yours. He is in earnest about it. It isn't just a pose with him as it is with you. You see he is <hi rend="itlalic">really</hi> young and fresh and enthusiastic, and believes in things with all his heart." Esther invariably sacrificed tact to truth.</p>
+<p>"I'm trying to go on, but you keep interrupting me. Well, Wilfred is modern and up to date in quite a different way from yours. He is in earnest about it. It isn't just a pose with him as it is with you. You see he is <hi rend="italic">really</hi> young and fresh and enthusiastic, and believes in things with all his heart." Esther invariably sacrificed tact to truth.</p>
 <p>The Duchess laughed her merry laugh. Nothing disturbed her good temper. "Thank you, my dear child. What a truly sisterly remark! But I hope you don't mean that our beloved cousin is actually socialistic, and wishes to break up Papa's estate into small holdings, or something dreadful of that kind!"</p>
 <p>"Oh dear no! He is very much in earnest, but it is quite the right sort of earnestness. He fully realizes the responsibilities of a great position, and is most anxious to render himself equal to them. He talks about being an earl just as you'd talk about being a clergyman, if you know what I mean."</p>
 <p>"I see. That is certainly more like Papa than me. I never feel that being a duchess is at all like being a bishop! But if Wilfred is that sort of a person, I don't wonder that Mamma has taken to him. She always loves earnestness, and a sense of responsibility, and things like that."</p>
@@ -442,15 +444,15 @@ CHAPTER I<lb/>ENTER LADY ESTHER</head>
 <p>Esther corrected him. "With his passion for righteousness, I think you mean: that was the ruling passion of the Jew."</p>
 <p>"Yes, perhaps you are right. I accept your amendment."</p>
 <p>"Well then, Wilfred, can't you see that if you accept my amendment you admit that the Hebraistic ideal is the right one? Righteousness is&#x2014;must be&#x2014;a higher thing than joy and beauty."</p>
-<p>"Certainly I admit that under what we call the Old Dispensation the Jew's ideal was higher than the Greek's. But I go further than that. I maintain that under the New Dispensation the two ideals are combined. The Jew sought righteousness rather than happiness&#x2014;the Greek strove for happiness rather than <pb n="61"/>righteousness; now there is neither Jew nor Greek, but we are all one in Christ. It is no longer a question of our either being good or being happy, but of being good because we are happy, and happy because we are good. I think the fine old verse pretty well expresses my creed in this matter&#x2014;</p>
-<lg>
+<p>"Certainly I admit that under what we call the Old Dispensation the Jew's ideal was higher than the Greek's. But I go further than that. I maintain that under the New Dispensation the two ideals are combined. The Jew sought righteousness rather than happiness&#x2014;the Greek strove for happiness rather than <pb n="61"/>righteousness; now there is neither Jew nor Greek, but we are all one in Christ. It is no longer a question of our either being good or being happy, but of being good because we are happy, and happy because we are good. I think the fine old verse pretty well expresses my creed in this matter&#x2014;<lb/>
+<q><lg type="stanza">
 <l>'"Live while you live," the epicure will say,</l>
 <l>"And give to pleasure every fleeting day ":</l>
 <l>"Live while you live," the zealous preacher cries,</l>
 <l>"And give to God each moment as it flies."</l>
 <l>Lord, in my life the two combined shall be;</l>
 <l>I live to pleasure while I live to Thee.'"</l>
-</lg>
+</lg></q></p>
 <p>Early training dies hard, especially in these immature minds who have never ventured far afield from the parental track. And so it was with Lady Esther. "Your views are very beautiful," she said with a wistful note in her voice, "and I should love to be able to think as you do, but I can't. The whole of religion seems to me to be bound up with self-denial and self-sacrifice, and I do not think we were sent into this world to be happy or to enjoy ourselves."</p>
 <p>"Well then, I do: but to be happy and to enjoy ourselves in our perfect fulfilment of the Divine Law. We <hi rend="italic">are</hi> sent into the world to be happy, dear Esther, but to be happy with the highest kind of happiness."</p>
 <p>And then the conversation drifted away from controversial matters into those many regions where the two cousins saw eye to eye. Although they did not always agree with one another, they invariably understood one another; and perfect comprehension&#x2014;far more than complete acquiescence&#x2014;is the truest basis for friendship.</p>
@@ -487,13 +489,14 @@ CHAPTER I<lb/>ENTER LADY ESTHER</head>
 <p>Here Esther again demurred. "I think she might very well have been a great abbess, one of those who ruled over vast territories, don't you know?"</p>
 <p>"If so, it was one of those lay sort of abbesses who got married and visited about among their friends. She never, never could have been a demure and devout nun, as you were."</p>
 <p>"Then you think," continued Esther, after a slight pause, while the fresh breeze coloured her cheek and ruffled her hair until she looked almost young again, <pb n="67"/>"that the reason why the first time we meet some people and yet feel that we have known them all our lives, is that we really did know them in a previous existence?"</p>
-<p>"Of course I do. I always love those lines of Kipling's&#x2014;</p>
-<lg>
+<p>"Of course I do. I always love those lines of
+Kipling's&#x2014;<lb/>
+<q><lg type="stanza">
 <l>Or ever the stately years had gone,</l>
 <l>To the world beyond the grave,</l>
 <l>I was a king in Babylon</l>
 <l>And you were a Christian slave.'</l>
-</lg>
+</lg></q></p>
 <p>I feel sure that you and I have met before, Esther, because we understood each other so well from the very beginning. I wonder if I played shepherd to your nymph, or father-confessor to your nun; or if you filled in an interval by taking the part of a gently born Puritan maiden while I was rollicking as a jolly Cavalier."</p>
 <p>Esther was silent for a minute, drinking in the beauty of the scene as they passed from the park into the woods, where the ground was covered with daffodils dancing in the merry March wind. Then she said: "I like your theory, Wilfred, it makes life so much more interesting and so much less hard. I mean if one feels one's life slipping away, and there has been nothing in it but dull routine, one is inclined to murmur, though, of course, I know that murmuring is wrong; we ought to accept our fate, whatever it is. But if we feel that there are other lives before and behind us&#x2014;lives on this earth, under the same conditions as this one, and filled with all the common, earthly blessings that this present one has lacked&#x2014;it puts quite a different face on things. One doesn't mind being a dull old maid in the intervals between dancing as a dryad and serving as a Christian slave," she added, with a wistful smile; "sitting out a dance <pb n="68"/>now and then, you know, is quite different from going partnerless through the whole evening."</p>
 <p>Wilfred looked down on her very tenderly, and something stirred in his heart which was neither friendship nor cousinly affection. Perhaps the spring in the air was responsible for it, with its magic message of a new heaven and a new earth&#x2014;or perhaps the fairy-like beauty of the wood through which they were passing, which looked like some fair temple with its pavements of gold and its rafters of fir&#x2014;or perhaps there was something in his theory after all that they two had known and loved each other in some previous existence; but, whatever the reason, the fact remained that, as Lord Westerham looked at the tall and graceful figure at his side, and realized how tragic is the fate of any woman who feels age coming upon her before she has tasted the full flavour of youth, he experienced an almost passionate pity, and something else which, though not exactly pity, is supposed to be near akin to it.</p>
@@ -1714,14 +1717,15 @@ CHAPTER I<lb/>THE WEDDING</head>
 <p>"Perhaps dear Esther did make a mistake," continued her mother; "but if so, she did it from the best motives, and she is certainly among those loving ones for whom it is written that all things work together for good. We may tangle the threads of life through our ignorance and clumsiness; but if we only err through ignorance and clumsiness, and not by evil intention, there is One Who will take the tangled threads out of our tired hands and weave them into a perfect pattern of palm-leaves and cherubim and open flowers. It makes me very happy to think that Esther and Wilfred are to be married at last: but it makes me still happier to think that the name and the family will not die out, but that dear little Win will carry them on and be as good a man, please God, as his father and your father have been before him."</p>
 <p>The Duchess shrugged her shoulders. "Mamma, <pb n="311"/>I do believe that you think the whole universe centres in Win."</p>
 <p>"So it does, my dear; just as it centres in Jocko and Archie. It always centres in the children, and the children's children, and always will."</p>
-</div></div>
-<back>
+</div></div></body>
+<back id="eflady1206">
 <pb/>
-<l>RICHARD CLAY &#x0026; SONS, LIMITED,</l>
-<l>BRUNSWICK STREET,STAMFORD STREET. S.E.</l>
-<l> AND BUNGAY, SUFFOLK</l>
+<div id="eflady500" type="colophon">
+<pb entity="efladybm" pages="colophon"/>
+<p>RICHARD CLAY &#x0026; SONS, LIMITED,<lb/>
+BRUNSWICK STREET, STAMFORD STREET. S.E.<lb/>
+AND BUNGAY, SUFFOLK</p></div>
 </back>
-</body>
 </text>
 </TEI.2>
 
