@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-Still needs header and main title page, although the stories are pre-div'ed.  The first page of each story is formatted in a complicated way, as some stories have individual epigraphs.
-
-<TEI.2>
-<teiHeader> 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="blsome1201">
+<teiHeader id="blsome1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>Some Men &#x0026; Women, an electronic edition</title> 
-<author n="Lowndes, Belloc Mrs., 1868-1947">Marie Belloc Lowndes</author> 
+<author><name type="person" reg="Lowndes, Mrs. Belloc, 1868-1947">Marie Belloc Lowndes</name></author> 
 </titleStmt> 
-<extent></extent> 
+<extent>350Kb</extent> 
 <publicationStmt> 
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -57,7 +56,7 @@ Still needs header and main title page, although the stories are pre-div'ed.  Th
 <rs type="form">Unedited</rs> 
 <rs type="genre">Short Stories</rs> 
 <rs type="geography">Great Britain</rs> 
-<date>1800-1899</date> 
+<date>1900-1999</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
@@ -65,10 +64,10 @@ Still needs header and main title page, although the stories are pre-div'ed.  Th
 <item>British literature--20th Century--Fiction.</item> 
 <item>Women authors, British--20th Century.</item> 
 <item>Short stories.</item> 
-<item>Infidelity-Marital.</item>
-<item>Divorce</item>
-<item>Suicide</item>
-<item>Murder</item>
+<item>Infidelity, marital.</item>
+<item>Divorce.</item>
+<item>Suicide.</item>
+<item>Murder.</item>
 </list> 
 </keywords> 
 </textClass> 
@@ -82,35 +81,30 @@ Still needs header and main title page, although the stories are pre-div'ed.  Th
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
-<front>
-<div id="blsomecover" type="covers">
-<figure entity="blsomefc" rend="inline">
-<figDesc> Front cover of Lowndes's "Some Men and Women"</figDesc>
-</figure>
-</div>
+<text id="blsome1203">
+<front id="blsome1204">
 <pb/>
 <pb n="[i]"/>
-<pb entity="blsometp" pages="titlePage"/>
 <titlePage type="half">
 <docTitle>
-<titlePart type="main"> SOME MEN AND WOMEN</titlePart>
+<titlePart type="main">SOME MEN AND WOMEN</titlePart>
 </docTitle>
 </titlePage>
 
 <pb n="[ii]"/>
 <div id="blsome100" type="advert">
-<figure entity="blsomead1" rend="inline">
-<figDesc> Advert in front of Lowndes's "Some Men and Women"</figDesc>
+<figure entity="blsomefm2" rend="inline">
+<figDesc>Advert in front of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 </div>
 
 <pb n="[iii]"/>
+<pb entity="blsomefm3" pages="titlePage"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">SOME MEN AND WOMEN</titlePart>
 </docTitle>
-<byline> BY <docAuthor> MRS. BELLOC LOWNDES</docAuthor> Author of "The Lodger," "Studies in Wives," Studies in Love and in Terror," etc., etc.</byline>
+<byline>BY <docAuthor> MRS. BELLOC LOWNDES</docAuthor><lb/> Author of "The Lodger," "Studies in Wives," Studies<lb/> in Love and in Terror," etc., etc.</byline>
 
 <epigram><cit><q>"Male and Female created He them."</q>
 <bibl> <hi rend="italics">Gen</hi>. <hi rend="italics">i</hi>. 27</bibl></cit></epigram>
@@ -118,20 +112,23 @@ Still needs header and main title page, although the stories are pre-div'ed.  Th
 <docImprint>
 <pubPlace>LONDON:</pubPlace> <publisher>HUTCHINSON &#x0026; CO.<lb/>PUBLISHERS</publisher> <pubPlace> PATERNOSTER ROW</pubPlace></docImprint> 
 </titlePage>
-<pb/>
+<pb n="[iv]"/>
+<pb n="[v]"/>
 <div id="blsome200" type="table of contents">
-<figure entity="blsometc" rend="inline">
-<figDesc> Table of contents in front of Lowndes's "Some Men and Women"</figDesc>
+<figure entity="blsomefm5" rend="inline">
+<figDesc>Table of contents in front of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 </div>
 </front>
-<group>
+<pb n="[vi]"/>
+<pb n="[viii]"/>
+<group id="blsome1205">
 <pb n="[7]"/>
-<text>
-<front>
+<text id="blsome1206">
+<front id="blsome1207">
 <titlePage type="half">
 <docTitle type="main">THE CALL</docTitle></titlePage>
-</front><body>
+</front><body id="blsome1208">
 <pb n="[9]"/>
 <div n="1" id="blsome001" type="story">
 <head>THE CALL</head>
@@ -183,9 +180,9 @@ others, had remarked, just a little significantly, only yesterday, "I'm told Mr.
 <p>The Georgian church close by chimed half-past six, and Helen forced herself to face the fact that Douglas Curtin was evidently going to "chuck" again.</p>
 <p>She suddenly visualized, with a horrid vividness of vision, her prim parlour-maid, Belt, coming up the two long flights of stairs; and she almost heard the tap on the door which would precede the uttering of the words, "Mr. Curtin has telephoned to say, ma'am, that he can't come this evening; he has an important business appointment at a quarter to seven."</p>
 <p>And then, all at once, her heart gave a leap of joy, for there had fallen on her ears, as if flung up through the still air of the London street, Douglas Curtin's familiar, unmistakable double knock. There was something authoritative, if perhaps just a trifle defiant and self-assertive, in the loud rat-tat-tat. It was the knock of a man sure of himself, who will command, if he has not already won, success.</p>
-<p>She slid off her bed, turned on the light, and, after pausing for a brief moment before the dim mirror of the small Chippendale dressing-table which was her latest and most prized present to herself, she ran down the one flight of stairs, and was in the drawing-room before she heard the front door open.</p>
+<p>She slid off her bed, turned on the light, and, after pausing for a brief moment before the dim mirror of the small Chippendale dressing-table which was her latest and most prized present to herself, she ran down the one flight of stairs, and was in the drawing-room before she heard the front door open.</p></div>
 <pb n="17     The Call"/>
-</div><div n="2" id="blsome003" type="section">
+<div n="2" id="blsome003" type="section">
 <head>(2)</head>
 <p>There was a strain of prudence, of clear good sense, in Helen Ackerington, and so, from the first moment of their closer friendship, she had always exacted, when he came to her husband's house, a certain formality of approach between her lover and herself. And now, as they shook hands in front of the servant who had brought him up, there was a quick, apparently careless, interchange of question and answer. Would he like some late tea&#x2014;or how about one of the cocktails which were then coming into fashion in her set?</p>
 <p>But Douglas Curtin, alone among the many men who came and went to that hospitable house, generally had the strength of mind to refuse a cocktail, even after a long hard day's work.</p>
@@ -225,7 +222,7 @@ remained a mere acquaintance, she had worked hard to make all her menfolk help h
 <pb n="22     Some Men and Women"/>
 his breast pocket, and then, suddenly, she did something which touched him queerly.</p>
 <p>Putting her bright head forward, she laid her cheek on his coat. "You <hi rend="italic">are</hi> good to me, dearest," she whispered. Then, opening the jewel-case, she gave a cry of surprise and pleasure.</p>
-"Oh, Douglas," she exclaimed, "you ought not to have got me this&#x2014;it must have cost a dreadful lot of money!"</p>
+<p>"Oh, Douglas," she exclaimed, "you ought not to have got me this&#x2014;it must have cost a dreadful lot of money!"</p>
 <p>It was a pear-shaped emerald, one of those curious freak jewels which were a fashion of the moment, and again she exclaimed, "It must have cost a dreadful lot of money!"</p>
 <p>He grew hotly red. "If you will be so material," he said vexedly, "it cost just about a third of what I made over that case your brother put in my way&#x2014;"</p>
 <p>And then it was her turn to feel vexed. Why had he said that? It was as if he were paying her for something.</p>
@@ -318,10 +315,11 @@ over the telephone; she had early decreed that it would be dangerous to do so.</
 <p>A deep sense of peace, comfort, security, flooded the broken voice which answered,</p>
 <p>"I thought you would; I told mother I <hi rend="italic">knew</hi> you would. Dearest, don't be shocked, don't be angry with me&#x2014;I've told mother that we love one another. I think she knew, poor old darling. I think&#x2014;I think she even understands."</p></div></div></body></text>
 <pb n="[35]"/>
-<text><front>
+<text id="blsome1209"><front id="blsome1210">
 <titlePage type="half">
 <docTitle type="main">THE PHILANDERER</docTitle></titlePage>
-</front><body>
+<pb n="[36]"/>
+</front><body id="blsome1211">
 <pb n="37"/>
 <div n="2" id="blsome006" type="story">
 <head>THE PHILANDERER</head>
@@ -581,15 +579,15 @@ pity for himself, and his eyes began to smart with unshed tears. He told himself
 <p>The doctor got up and took a step forward. He laid his hand heavily on the other's shoulder.</p>
 <p>"I'd no right to ask you that question, Hardwyke. I'll forget your answer. But remember that anything you say, from now on, may be used in evidence against you."</p></p></div></div></body></text>
 <pb n="[69]"/>
-<text><front>
+<text id="blsome1212"><front id="blsome1213">
 <titlePage type="half">
-<docTitle type="main">"GOD HAS MADE MEN SO"</docTitle></titlePage>
-</front><body>
+<docTitle type="main">"GOD HAS MADE MEN SO"</docTitle></titlePage><pb n="[70]"/>
+</front><body id="blsome1214">
 <pb n="71"/>
 <div n="3" id="blsome010" type="story">
 <head>"GOD HAS MADE MEN SO"</head>
-<epigraph><q>"Ah, my dear Alexander, God has made men so, once
-for all!"</q>&#x2014;DOSTOIEVSKY.</epigraph>
+<epigraph><cit><q>"Ah, my dear Alexander, God has made men so, once<lb/>
+for all!"</q></cit>&#x2014;<bibl>DOSTOIEVSKY</bibl>.</epigraph>
 <div n="1" id="blsome011" type="section">
 <head>(I)</head>
 <p>"I REMEMBER thinking that you would be very much surprised."</p>
@@ -702,9 +700,9 @@ She took a toss, and landed wrong. There was an account of the accident in the <
 <p>"You don't want it? Well, then, good-bye, my dear. I'm afraid I've given you rather a shock, but I say, 'Serve them both right!'"</p>
 <p>Jenny Carlton hung up the receiver and went into her bedroom. There she sat down in the darkness. What had happened was the one possibility she had not even glanced at, in the far-off days when she still considered possibilities.</p>
 <p>Towards morning she fell into a heavy sleep, and then all at once it was as if she awoke to hear the old call, the old cry: "Jenny! Jenny? Where are you? I want you." She heard her own voice in eager answer, "'I'm coming, Jack, I'm coming&#x2014;"</p>
-<p>And when the woman who was friend as well as servant brought in her breakfast, she said to her, "Josette? I'm going to England to-day. I don't know yet how long I'll be away&#x2014;I should think about a week."</p>
+<p>And when the woman who was friend as well as servant brought in her breakfast, she said to her, "Josette? I'm going to England to-day. I don't know yet how long I'll be away&#x2014;I should think about a week."</p></div>
 <pb n="85     'God has made Men so'"/>
-</div><div n="2" id="blsome012" type="section"><head>(2)</head>
+<div n="2" id="blsome012" type="section"><head>(2)</head>
 <p>There are two ways of reaching Fossington from the countryside railway station. One is by the high road, the other by a muddy lane. On this late March afternoon Jenny Carlton chose the muddy lane. And, as she walked along in the fast-gathering twilight, her courage began to ebb away. During the weary journey from Monte Carlo, and even during the night she had spent at an hotel in London, she had felt upheld and exalted, but now, what she had come so long a way to do suddenly appeared impossible of achievement.</p>
 <p>She stayed her footsteps and gazed up into the stormy sky with a feeling of distress, and, yes, shame. Acting on what she now realized had been an impulse bred of desperate loneliness, and the unnatural life she had led for two years, she had done a very foolish thing. How could she have supposed that to force an interview on the man whom she still thought of as her husband could be anything but acutely painful to them both?</p>
 <p>Still, as she had come here, and as there was no train back to London for two hours, she might surely venture to make her way by the side gate which gave from a field-path straight into the grounds of Fossington Manor, and see
@@ -860,14 +858,14 @@ Jack? You were smoking your pipe in the business-room. Have a pipe now!"</p>
 <p>"I always thought," he said, in a moved voice, "that this was the prettiest hand in the world."</p>
 <p>"I used to know another hand," she whispered back, "quite as pretty," and then she put out her right hand and laid it on the other.</p></div></div></body></text>
 <pb n="[105]"/>
-<text><front>
+<text id="blsome1215"><front id="blsome1216">
 <titlePage type="half">
-<docTitle type="main">THE ANSWER</docTitle></titlePage>
-</front><body>
+<docTitle type="main">THE ANSWER</docTitle></titlePage><pb n="[106]"/>
+</front><body id="blsome1217">
 <pb n="107"/>
 <div n="4" id="blsome015" type="story">
 <head>THE ANSWER</head>
-<epigraph><q><lg><l>See this poor shell of flesh,</l>
+<epigraph><cit><q><lg type="stanza" n="2"><l>See this poor shell of flesh,</l>
 <l>Still warm, but newly emptied of its soul;</l>
 <l>Could other spirit, loth to quit the world,</l>
 <l>In pain of parting dash to this resource,</l>
@@ -878,7 +876,7 @@ Jack? You were smoking your pipe in the business-room. Have a pipe now!"</p>
 <l>Earthbound within?</l></lg>
 <lg><l>Oh, really, my good Sir!</l>
 <l>Excuse a smile&#x2014;that's poetry, that's not science!</l>
-<l>Bless me, what would Professor Poodle say?</l></lg><q></epigraph>
+<l>Bless me, what would Professor Poodle say?</l></lg></q></cit></epigraph>
 <div n="1" id="blsome016" type="section">
 <head>(I)</head>
 <p>SYBIL ANCORET hurried along the narrow path close to the dipping edge of the cliffs which gave the Norfolk fishing village its name of Upcliffe. In her white flannel dress she looked like some delicate winged thing borne helplessly along on the strong north wind, which even on this hot July morning gave the air a keen tang.</p>
@@ -1147,7 +1145,7 @@ never faced that probing pain and fear for, when Lance was not actually in her p
 <p>As she said nothing for a moment, he went on "Darling? Darling! What can be the matter?"</p>
 <p>He put his arms round her, closely, and she remained still, shivering a little, her whole body in revolt against those strong enfolding arms.</p>
 <pb n="142     Some Men and Women"/>
-For the first time in their joint lives she consciously lied to him.</p>
+<p>For the first time in their joint lives she consciously lied to him.</p>
 <p>"I suppose we went up a little too fast just now. I seemed to feel a sudden stitch in my side. I'm all right now."</p>
 <p>If only he would withdraw those hard, gripping arms! But he still held her; and so violent was her sense of repulsion that a faint, sick feeling swept over her.</p>
 <p>"Really all right?" he asked, urgently.</p>
@@ -1239,11 +1237,11 @@ misgiving. "You do love me, don't you, Sybil?" he whispered.</p>
 <p>She and Lance had bought that table three years ago, at an auction which had been held in one of the old country houses inland. They had been afraid that it would be sold for far more than they could afford to give&#x2014;and even so, it had been a great extravagance, for it had cost twenty-three pounds, though a dealer had later offered them forty for it. But two days ago Lance, looking at her treasure with a touch of dissatisfaction, had exclaimed, "That table looks a bit shabby. We ought to have it done up."</p>
 <p>As she sat down, she remembered that remark of his, and she wished she could take the little table with her where she was going.</p>
 <p>Scarce pausing for a second, she wrote,</p>
-<q><text> <body>
+<q><text><body>
 <div id="blsome150" type="letter">
-<opener> <salute> Dear Mrs. Croft,</salute></opener><p>&#x2014;It would give us great pleasure if you would come in to-night, and share our very informal dinner. I expect my husband will have told you that I am going to take up golf. I'm quite looking forward to it.</p>
-<closer> <signed><p>Yours sincerely,</p>
-<p>SYBIL ANCORET.</p></signed></closer>
+<opener><salute> Dear Mrs. Croft,</salute></opener><p>&#x2014;It would give us great pleasure if you would come in to-night, and share our very informal dinner. I expect my husband will have told you that I am going to take up golf. I'm quite looking forward to it.</p>
+<closer><signed><p>Yours sincerely,</p>
+<p><name>SYBIL ANCORET</name>.</p></signed></closer>
 </div></body></text></q>
 <p>And then she put down her pen and stared at what she had just written. Could she have put down those words&#x2014;she, Sybil Ancoret? Three months ago the idea of writing such a note would have seemed grotesque, outrageous. But then, three months ago she had been quite a different woman from the woman she was now.</p>
 <p>She took up a book and tried to read, and then, about eleven, she went into the kitchen.</p>
@@ -1256,10 +1254,10 @@ misgiving. "You do love me, don't you, Sybil?" he whispered.</p>
 <p>Then she turned back again, towards the sea; and the postmaster testified, later, that it had never occurred to him to warn Mrs. Ancoret, because he thought that she must surely know how dangerous it was to try and get to Lowcliffe by the shore way, when the tide was running in.</p>
 </div></div></body></text>
 <pb n="[153]"/>
-<text><front>
+<text id="blsome1218"><front id="blsome1219">
 <titlePage type="half">
 <docTitle type="main">THE GUN ROOM</docTitle></titlePage>
-</front><body>
+</front><body id="blsome1220">
 <pb n="155"/>
 <div n="5" id="blsome020" type="story">
 <head>THE GUN ROOM</head>
@@ -1277,7 +1275,7 @@ people would have thought, to devote herself, as she had elected to do during th
 <p>But there was one person she had made sure would be at the station, and she had been at once relieved and surprised when she had become aware that there he was not.</p>
 <p>As the train had steamed in, she had stood by the carriage door, her eyes sweeping the platform. But she sought in vain for the tall, spare figure
 <pb n="157     The Gun Room"/>
-of Jim Varley, the still young-looking man who, partly because he had an attractive personality, and even more because he occupied the position of agent to the great Grendon property, had become a personage in the neighbourhood. For the first time since he had been invalided home from Flanders in I9I7, Captain Varley had not been at the station to receive Lady Grendon and make himself useful in the many little ways that a man can make himself useful on such an occasion.</p>
+of Jim Varley, the still young-looking man who, partly because he had an attractive personality, and even more because he occupied the position of agent to the great Grendon property, had become a personage in the neighbourhood. For the first time since he had been invalided home from Flanders in 1917, Captain Varley had not been at the station to receive Lady Grendon and make himself useful in the many little ways that a man can make himself useful on such an occasion.</p>
 <p>In the old days Jim Varley's absence would have angered as well as surprised her, but to-day she had felt a definite sense of relief. For though she had resolved that it should not be so, the thought of an interview which she intended to have with Captain Varley the next morning had shadowed Lady Grendon's home-coming, and during her long journey home it had filled her mind even to the exclusion of the joy she felt at her coming reunion with her darling Kitty. How glad she was now to remember that, excellent friends as she and Captain Varley had always been outwardly, and strongly as she had always upheld his somewhat weak authority&#x2014;for it was she who had been master, not he&#x2014;she had always seen to it that there should be due distance kept between herself, the widowed mistress of Grendon Castle, and her daughter's
 <pb n="158     Some Men and Women"/>
 agent. This had been an easy matter, for Varley, whatever his faults&#x2014;and he had many faults&#x2014;was of his employer's class, the last man, therefore, to presume on his position.</p>
@@ -1434,9 +1432,9 @@ winding stair leading straight down into a large hall-like apartment called the 
 <p>After a moment's thought and rapid calculation, she stooped and laid the gun down at a certain angle on the stone floor, close to the piteous, sprawling thing which had been Jim Varley.</p>
 <milestone rend="blank-line" unit="subsection"/>
 <p>When she stepped back into her brilliantly lighted bedroom she found herself, to her half-shamed surprise, trembling. . . . Opening her dressing-case, she saw that, though it had been unpacked, her maid had left the tiny flask of brandy undisturbed in its pocket, and for the first time in her life she unscrewed the top of the flask and drank a mouthful of the reviving spirit. Then she put her hands carefully all over her tweed coat and, also, felt her narrow skirt. She was too much of a sportswoman not to know the peculiar, gluey, feel of blood. But both coat and skirt were dry.</p>
-<p>After slowly undressing herself, she put on a dressing-gown and went into her bathroom. The water was still very hot. Then she had been only a short time away? It had seemed an eternity to her.</p>
+<p>After slowly undressing herself, she put on a dressing-gown and went into her bathroom. The water was still very hot. Then she had been only a short time away? It had seemed an eternity to her.</p></div>
 <pb n="179     The Gun Room"/>
-</div><div n="3" id="blsome023" type="section">
+<div n="3" id="blsome023" type="section">
 <head>(3)</head>
 <p>When the head housemaid came in to light the fire the next morning, Lady Grendon was lying back, wide awake, under the great yellow canopy of her broad bed.</p>
 <p>"Good morning, Lucy!" she called out, cheerily. "I'm glad to see you again."</p>
@@ -1450,12 +1448,12 @@ winding stair leading straight down into a large hall-like apartment called the 
 <pb n="180      Some Men and Women"/>
 to eat heartily, knowing that she would need all her strength for the difficult day that lay before her.</p>
 <p>But first, taking a paper pad from a table by her bed, she hastily scribbled a note in pencil. Then she folded the piece of paper over and wrote on the flap, "Captain Varley." She had never put into an envelope any of the frequent notes she had occasion to write to the agent. It had been one of her pet economies, as well as a precaution against silly gossip. This morning she unfolded the note and read over, carefully, what she had written.</p>
-<q> <text> <body>
+<q><text><body>
 <div id="blsome180" type="letter">
-<opener> <dateline>Tuesday morning.</dateline>
+<opener><dateline>Tuesday morning.</dateline>
 <salute>DEAR CAPTAIN VARLEY,</salute></opener>
 <p>I should be so pleased if you could come over and see me about eleven. I've had a wonderful time away, and I feel quite a different woman!</p>
-<closer> <signed>Yours sincerely,
+<closer><signed>Yours sincerely,
 <name>KATHARINE GRENDON.</name></signed></closer></div></body></text></q>
 <p>She rang for her maid. "Would you ask John to take this across at once to Captain Varley?"</p>
 <p>"Yes, my lady."</p>
@@ -1506,10 +1504,10 @@ quavering voice. "I don't think your ladyship ought to go in there&#x2014;if I m
 <p>She was sobbing now, the tears raining down her cheeks, her face convulsed, disfigured&#x2014;and it was Kitty who remained quiet and collected, and who, at last, putting her arms round her mother, whispered,</p>
 <p>"Don't be so sorry for me, Mummy. I will be brave, I can bear it, as I've got <hi rend="italic">you</hi> left&#x2014;"</p></div></div></body></text>
 <pb n="[187]"/>
-<text><front>
+<text id="blsome1221"><front id="blsome1222">
 <titlePage type="half">
-<docTitle type="main">ONE MAN'S WAY</docTitle></titlePage>
-</front><body>
+<docTitle type="main">ONE MAN'S WAY</docTitle></titlePage><pb n="[188]"/>
+</front><body id="blsome1223">
 <pb n="189"/>
 <div n="6" id="blsome024" type="story">
 <head>ONE MAN'S WAY</head>
@@ -1565,9 +1563,9 @@ really a very happy couple. Needless to say, I never deny her anything."</p>
 <p>"I fear you are going to make a mistake, my boy, and it's best to say so before it is too late. I know that there is a great deal that is good in Nelly's nature. She has a sense of duty, and she is very patient with that tiresome father of hers, but she's too pretty for my taste, and you and she have nothing really in common."</p>
 <p>Of course her words had had no effect on him at all; and she now told herself that she had been so far wrong in that her son and his wife did seem to get on very well together.</p>
 <p>During the war Nelly Maynard had not only really worked hard, making artificial fingers for the wounded, but she had also gone out a great deal. Gerald Maynard had made a second fortune, besides being among those men of business who were mysteriously considered indispensable at home.</p>
-<p>But since the end of the war Nelly had steadied down. She was an excellent mother to her two little girls, and certainly made her husband very comfortable. Outwardly all was well. Still, to old Mrs. Maynard's thinking there had long been a cloud in her prosperous son's blue sky, though he was blandly unaware of it.</p>
+<p>But since the end of the war Nelly had steadied down. She was an excellent mother to her two little girls, and certainly made her husband very comfortable. Outwardly all was well. Still, to old Mrs. Maynard's thinking there had long been a cloud in her prosperous son's blue sky, though he was blandly unaware of it.</p></div>
 <pb n="195     One Man's Way"/>
-</div><div n="2" id="blsome026" type="section">
+<div n="2" id="blsome026" type="section">
 <head>(2)</head>
 <p>As Gerald Maynard walked away from his mother's house, he felt what he very seldom did feel&#x2014;slightly confused and puzzled. He was not a clever man&#x2014;though he would have been very much surprised had anyone told him so&#x2014;but he knew the way his mother's mind worked. He felt sure that she had had some reason for suggesting that he should take his wife with him on this tiresome business trip to South America.</p>
 <p>The very fact that his mother said so little, and interfered not at all in their married life, gave the clever old woman a kind of hidden power. He had felt its influence over him to-day.</p>
@@ -1723,24 +1721,24 @@ mental, this evening. Funny of Nelly to take such great news so quietly.</p>
 <pb n="212     Some Men and Women"/>
 to bed, while he had Gill over to dine with him alone. But it was too late now.</p>
 <p>He went downstairs, and was pleased to see that his wife looked surprisingly better. Wonderful what a little powder, a little rouge, a little lip-stick, will do with a woman! When Nelly had begun using these aids to beauty he had felt quite shocked, as well as surprised, but he had soon got over that.</p>
-<p>"You look all right now, darling."
+<p>"You look all right now, darling."</p>
 <p>"I do feel better," she smiled at him bravely.</p>
 <p>"I wonder if you could binge yourself up to writing poor old Gill a little line of congrats? He was rather worried lest you should be offended with him."</p>
 <p>She had already begun walking across to her writing-table, but now she stopped, and without turning round said tartly, "Why should he think such a thing as that?"</p>
 <p>"Why, even I felt he might have given us a hint."</p>
 <p>After a minute or two she got up and held out a small sheet of notepaper. "Will that do?" she asked.</p>
 <p>He took it from her and read,</p>
-<q><text><body><div type="letter" id="blsome01"><opener><salute>DEAR GILL,</salute></opener>&#x2014;Gerry has told me your great news. Hearty congratulations. I could write reams&#x2014;but I've got a bad headache.
-<closer><signed>Yours ever,
-<lb/>NELLY MAYNARD.</signed></closer></div></body></text></q></p>
+<q><text><body><div type="letter" id="blsome01"><opener><salute>DEAR GILL,</salute></opener><p>&#x2014;Gerry has told me your great news. Hearty congratulations. I could write reams&#x2014;but I've got a bad headache.</p>
+<closer><signed>Yours ever,<lb/><name>NELLY MAYNARD</name>.</signed></closer></div></body></text></q>
 <pb n="213     One Man's Way"/>
 <p>She might have made it a little more affectionate, he thought, with a touch of disappointment. But no doubt she was still vexed that Gill had been so shy, as well as sly, about his coming engagement.</p>
 <p>"I wonder if you'd address the envelope?" she said. "I've such a headache to-night that I can hardly see!"</p>
 <p>"Of course I will. And look here, hadn't you better go to bed after all?"</p>
 <p>"Well," she answered, "perhaps I had."</p>
 <p>He kissed her with real tenderness. "Gill will be a lucky fellow if he has half as good a wife As I've got," he whispered.</p>
-<p>And then it was as if she suddenly crumpled up in his arms. She muttered, "I feel so queer, Gerry. Hold me&#x2014;hold me!" and she fainted.</p>
-</div><div n="4" id="blsome028" type="section">
+<p>And then it was as if she suddenly crumpled up in his arms. She
+muttered, "I feel so queer, Gerry. Hold me&#x2014;hold me!" and she fainted.</p></div>
+<div n="4" id="blsome028" type="section">
 <head>(4)</head>
 <p>When Maynard first sat down to breakfast the next morning he felt so worried about his wife that he told himself he could not eat anything. But the mushroom omelette was done to a turn, and the iced melon was so delicious, that he ended by making a very good meal. Nelly always took special trouble over her husband's breakfast, for she knew that as a rule he only had a very light lunch.</p>
 <p>And now there came over him a rush of almost
@@ -1805,7 +1803,7 @@ that he must think what to say and do. He must make a plan. And then, all at onc
 <p>He slipped his arm  round her. "I'm so sorry, Nelly." And indeed it was true that he was sorry, miserably, wretchedly sorry, for them both.</p>
 <p>She clung to him. "The truth is," she whispered, "I'm hurt about Gill. I don't think he's behaved at all well to us. You've been so awfully kind to him, Gerry."</p>
 <p>"We have both been kind to him," he said in a hard voice.</p>
-<p>A terrible struggle was going on in his heart. There is a type of crime&#x2014;what the French, if a brave yet an hysterical people, call a <hi rend="”italic">crime passionel</hi>&#x2014;which had always struck Maynard as almost ludicrous. He understood it now. He would have given all the remaining years of his
+<p>A terrible struggle was going on in his heart. There is a type of crime&#x2014;what the French, if a brave yet an hysterical people, call a <hi rend="italic">crime passionel</hi>&#x2014;which had always struck Maynard as almost ludicrous. He understood it now. He would have given all the remaining years of his
 <pb n="221     One Man's Way"/>
 life to have been able to kill Gill, swiftly, secretly, treacherously.</p>
 <p>He moved a little away from his wife. But she pulled his arm round her again, and very, very slowly, as if scarcely conscious of what he was doing, he gathered her closely to him.</p>
@@ -1815,7 +1813,7 @@ life to have been able to kill Gill, swiftly, secretly, treacherously.</p>
 <p>"I suppose it would be a great bore to take me with you on this trip of yours? I couldn't have a bigger change than that&#x2014;could I?"</p>
 <p>"Of course I'll take you." He added painfully, "But the boot's on the other leg; I've always known that I bored you, Nelly."</p>
 <p>And then she began crying again.</p>
-<p>"No, no!" she exclaimed. "<hi rend="”italic">You</hi> have always been good to me, Gerry," and she pressed up closer to him.</p>
+<p>"No, no!" she exclaimed. "<hi rend="italic">You</hi> have always been good to me, Gerry," and she pressed up closer to him.</p>
 <p>"Come, come! We mustn't get sentimental. Look at all these letters, Nelly."</p>
 <p>He threw the envelopes he held in his free hand on the counterpane.</p>
 <p>"I opened one; it's from Lady Swinley, asking you to break your journey to Scotland and stay with her near Perth. Would you like me to open the others?"</p>
@@ -1827,7 +1825,7 @@ life to have been able to kill Gill, swiftly, secretly, treacherously.</p>
 <p>He shook his head. "No, why should he? We had it all out yesterday. After I've telephoned about your passage, I'll send him a line to say we're off on Saturday."</p>
 <p>"Don't tell him I'm  not well," she said quickly, and he reassured her. "Of course I won't."</p>
 <p>"I expect he'll be married before we come back."</p>
-<p>"I hope he will," he said grimly.
+<p>"I hope he will," he said grimly.</p>
 <p>And then the colour rushed into her face as she exclaimed, "Gerry! How    about a wedding present? I must get him a really nice wedding present from us both before we start."</p>
 <p>"Don't you worry about that. I'll send him a handsome cheque with our best wishes for his happiness&#x2014;to reach him after we've gone."</p>
 <p>"I wonder if he will like that," she said, hesitatingly.</p>
@@ -1835,10 +1833,10 @@ life to have been able to kill Gill, swiftly, secretly, treacherously.</p>
 <pb n="223     One Man's Way"/>
 <p>And, being the manner of man he was, Gerald Maynard was surprised, the next time he went through his pass-book, to find that the handsome cheque he had made out in the name of Captain Ogilvy had not been cashed.</p></div></div></body></text>
 <pb n="[225]"/>
-<text><front>
+<text id="blsome1224"><front id="blsome1225">
 <titlePage type="half">
 <docTitle type="main">"I GOES BY THE FACE"</docTitle></titlePage>
-</front><body>
+</front><body id="1226">
 <pb n="227"/>
 <div n="7" id="blsome029" type="story">
 <head>"I GOES BY THE FACE"</head>
@@ -2024,10 +2022,10 @@ been a young chap! There's some that runs down the war, Mrs. Pilley, but it gave
 <p>He held out his strong, well-kept hand, and all at once Mrs. Pilley caught herself wondering what Mr. Brown's finger-tips looked like. She also saw, as in a mirage, the city church where she had triumphantly&#x2014;it had seemed a great triumph at the time&#x2014;led Mr. Pilley to the altar.</p>
 <p>She shivered a little; then, slowly, from under her black shawl embroidered with gay posies of flowers, her soft little hand crept out. . . .</p></div></div></body></text>
 <pb n="[253]"/>
-<text><front>
+<text id="blsome1227"><front id="blsome1228">
 <titlePage type="half">
 <docTitle type="main">THE DUCHESS'S STORY</docTitle></titlePage>
-</front><body>
+</front><body id="blsome1229">
 <pb n="255"/>
 <div n="8" id="blsome032" type="story">
 <head>THE DUCHESS'S STORY</head>
@@ -2043,7 +2041,7 @@ been a young chap! There's some that runs down the war, Mrs. Pilley, but it gave
 <p>"I know I'm old-fashioned," he said, a trifle pompously, "but in my time, Laura, a man was supposed to support his wife."</p>
 <pb n="256     Some Men and Women"/>
 <p>This time she turned on him in the half-light, and, putting her hands on his breast, looked up into his face.</p>
-<p>"Oh, <hi rend="”italic">what</hi> a story!" she exclaimed.</p>
+<p>"Oh, <hi rend="italic">what</hi> a story!" she exclaimed.</p>
 <p>He seemed so surprised that the Duchess began to laugh. Still, she did not think it an opportune moment to remind him that she herself had been a great heiress.</p>
 <p>"I can never make you remember that we have nine children," he said; but, even so, he pinched her cheek. It was still a very soft cheek.</p>
 <p>"I think I've far more reason to remember it than you have," she whispered, in a curious tone.</p>
@@ -2073,7 +2071,7 @@ Laura' and 'young Laura.' I shouldn't have liked that at all!" exclaimed the Duc
 <p>"I know it isn't; I'm only just going to give them my blessing&#x2014;surely you don't object to that?"</p>
 <p>But when he reached the pool of light round the great log fire, and when he saw the young couple get up, perhaps a thought reluctantly,
 <pb n="259     The Duchess's Story"/>
-and stand before him, he became, as was his way, tongue-tied; and his son-in-law elect wondered, deep in his heart, why such a clever, amusing person as the Duchess had ever married the Duke. Being a very serious-minded young man, he could not help fearing that it was just because the Duke <hi rend="”italic">was</hi> a duke, and the suspicion pained him, for he was becoming, in spite of himself, very fond of his future mother-in-law.</p>
+and stand before him, he became, as was his way, tongue-tied; and his son-in-law elect wondered, deep in his heart, why such a clever, amusing person as the Duchess had ever married the Duke. Being a very serious-minded young man, he could not help fearing that it was just because the Duke <hi rend="italic">was</hi> a duke, and the suspicion pained him, for he was becoming, in spite of himself, very fond of his future mother-in-law.</p>
 <p>"I'm afraid that I'm interrupting a very interesting conversation," said the Duke, at last.</p>
 <p>"We were talking about education." His daughter smiled, rather mischievously. She wasn't a bit afraid of her father.</p>
 <p>"Education?" The Duke looked puzzled. When he had been courting the Duchess, they had talked of very different things&#x2014;or, rather, she had, for he had been as shy with her then as he was now with other people.</p>
@@ -2137,7 +2135,7 @@ summer, they forded the river which forms, as you know, one of the boundaries of
 <p>"New Year's Eve? Just like to-day then!" exclaimed the eldest son of the house, Lord Ardvilly.</p>
 <p>The Duchess bent her head. "Seventy years ago to-night, after dinner was over, the whole party gathered together in what we now call the small hall, just outside this room, prepared to let the New Year in."</p>
 <p>The Duchess waited a moment, and she heard her eldest daughter explaining to Gerald Arbuthnot, "In the old days of which mother is talking, the door of what we now call the small hall was the main entrance to the castle. That is why we always let the New Year in there."</p>
-<p>"The clock struck twelve," continued the Duchess, "the front door, as it was then, was thrown open, everyone wished everyone else a happy New Year, and then some of those present noticed that Lady Lavinia was not there, and&#x2014;<hi rend=”italic">she was ever seen again!</hi>"</p>
+<p>"The clock struck twelve," continued the Duchess, "the front door, as it was then, was thrown open, everyone wished everyone else a happy New Year, and then some of those present noticed that Lady Lavinia was not there, and&#x2014;<hi rend="italic">she was ever seen again!</hi>"</p>
 <pb n="268     Some Men and Women"/>
 <p>Gerald Arbuthnot leant forward eagerly. "Did anyone see her go through the open door into the night, Duchess?"</p>
 <p>"No one saw her go out, and no one noticed when she left the hall. As a matter of fact, she was not really missed till the next morning. Her father evidently believed that, still feeling the terrible weight of his displeasure, she had slipped away to bed, unwilling to go through the jollification of seeing the New Year in. The majority of the guests only just knew her by sight, and the new maid had been told that she need not sit up. So it was not till the next day that the girl was known to have disappeared&#x2014;and the moment of her disappearance has always remained a mystery."</p>
@@ -2181,7 +2179,7 @@ Lane, London.</p></q>
 nothing to do with the rising tide of democracy. Why, my own grandmother, in her day the most autocratic old woman in the three kingdoms, was terribly afraid of her maid. In fact, her maid was supposed to be the only person of whom she had ever been afraid&#x2014;and she had had three husbands!"</p>
 <p>And then silence fell upon them all till the clock in the bell-tower began to strike. When that happened, Lord Ardvilly together with Lady Lavvy's lover, walked to the great iron-studded door, undid the heavy bolts, and turned the big key.</p>
 <p>It all took a little longer than they expected, and the last stroke of twelve had fallen on the still air when the door swung slowly back, admitting a rush of icy wind. The Duchess drew her beautiful Spanish shawl more closely round her, and suddenly told herself how nice it is to be young, really young! For her children had all rushed forward, and were peering out eagerly, while her eldest son had actually stepped through on to the frozen snow. She could no longer see him. He was engulfed in the darkness.</p>
-<p>For a moment the Duchess's heart stood still. Supposing <hi rend=”italic">he</hi> were to disappear now, for ever! What would happen to the happy House of Life in which she dwelt so securely? She visualized, with terrible vividness, the scene of
+<p>For a moment the Duchess's heart stood still. Supposing <hi rend="italic">he</hi> were to disappear now, for ever! What would happen to the happy House of Life in which she dwelt so securely? She visualized, with terrible vividness, the scene of
 <pb n="274     Some Men and Women"/>
 seventy years ago, when another party had been gathered here seeing the New Year in.</p>
 <p>It was with a queer feeling of relief that she saw her darling, a slender, good-looking boy of nineteen, emerge from the blackness outside. For a moment he stood silent on what had been for hundreds of years the threshold of his home; and then he put up his hand.</p>
@@ -2250,7 +2248,7 @@ not even to humour his wife, would the Duke allow this poor old pauper to be bur
 <p>"Yes," she said in a low voice, "quite a plain coffin. It has always shocked me that anyone could want anything else."</p>
 <p>She walked back with him through the now dark and silent house, and, though Denham was in attendance, she herself saw the doctor into his two-seater. "Thank you very much," she murmured, "and a very Happy New Year to you, my dear, kind friend."</p>
 <p>About ten o'clock the next morning the Duchess was told that Dr. Wakefield wished to speak to her Grace on the telephone. She was with the Duke when she received the message, and he saw that she looked worried, undecided, uncomfortable.</p>
-<p>"Would you rather I went?" he asked, very gently for him. "Hadn't <hi rend=”italic">I</hi> better speak to him, my darling?"</p>
+<p>"Would you rather I went?" he asked, very gently for him. "Hadn't <hi rend="italic">I</hi> better speak to him, my darling?"</p>
 <p>She shook her head. "No, you'd better keep out of it all. Besides, you hate the telephone!"</p>
 <pb n="282     Some Men and Women"/>
 <p>"I thought you would like to know something more about that poor old woman," Dr. Wakefield began&#x2014;"though it's only a very short page from 'the simple annals of the poor.' The Master of Manningford Workhouse says that she and her husband&#x2014;a very dour Scot, named MacAndrew&#x2014;settled here some twenty-five years ago. Until before the war they lived in a singularly lonely place&#x2014;a two-roomed cottage at the top of the second down. There seems no doubt that they had saved some money, though they were reduced to sore straits before the old man's death. She lived on for a while all by herself, and people&#x2014;I mean the people of her own class&#x2014;were very kind and generous to her, as they so often are to one another. And then, when during the war the food question became acute, one of her cronies persuaded her to go into the workhouse. She became a great favourite there, it seems. Like so many Scotswomen of that type, she was well educated, and she used to read to the other old people. She gave her age when she came in as seventy-five, but the Master thinks she was a good deal older than that. He suspects she was close on, or even over, ninety when she died. Lately her mind had been going a little, and that perhaps accounts for her having wandered into the park, which was really quite out of her way for Manningford. I have arranged
@@ -2266,257 +2264,252 @@ for the inquest to take place to-morrow at twelve. Do you still wish it to be he
 <p>"Yes," he called back. "Yes?"</p>
 <p>"What was her Christian name?"</p>
 <p>"Her Christian name? It was Charlotte, a rather unusual one for a person of her class. Charlotte MacAndrew was the name under which she was admitted to Manningford Workhouse."</p>
-<milestone rend="blank-line" type="subsection"/>
+<milestone unit="subsection" rend="blank-line"/>
 <p>Two days later, Gerald Arbuthnot, while
 <pb n="284     Some Men and Women"/>
 following the old pauper woman's plain oak coffin up the stone paths of the Old Churchyard, perceived that the grave had been prepared very near the grand tomb of that duke who had been known to his contemporaries as Old Magnifico. The world does move, after all, he reflected, for was he not now witnessing an example&#x2014;albeit in a most unexpected place&#x2014;of the true brotherhood of man?</p></div></div></body></text></group>
 
-<back><div id="blsome036" type="colophon">Printed at The Chapel River Press, Kingston, Surrey.</div>
+<back id="blsome1229"><div id="blsome036" type="colophon">Printed at The Chapel River Press, Kingston, Surrey.</div>
 
 <pb n="[1]"/>
 
 <div id="blsome037" type="advert">
-<figure entity="blsomead1" rend="inline">
+<figure entity="blsomebm1" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[2]"/>
-<figure entity="blsomead2" rend="inline">
+<figure entity="blsomebm2" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[3]"/>
-<figure entity="blsomead3" rend="inline">
+<figure entity="blsomebm3" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[4]"/>
-<figure entity="blsomead4" rend="inline">
+<figure entity="blsomebm4" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[5]"/>
-<figure entity="blsomead5" rend="inline">
+<figure entity="blsomebm5" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[6]"/>
-<figure entity="blsomead6" rend="inline">
+<figure entity="blsomebm6" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[7]"/>
-<figure entity="blsomead7" rend="inline">
+<figure entity="blsomebm7" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[8]"/>
-<figure entity="blsomead8" rend="inline">
+<figure entity="blsomebm8" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[9]"/>
-<figure entity="blsomead9" rend="inline">
+<figure entity="blsomebm9" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[10]"/>
-<figure entity="blsomead10" rend="inline">
+<figure entity="blsomebm10" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[11]"/>
-<figure entity="blsomead11" rend="inline">
+<figure entity="blsomebm11" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[12]"/>
-<figure entity="blsomead12" rend="inline">
+<figure entity="blsomebm12" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[13]"/>
-<figure entity="blsomead13" rend="inline">
+<figure entity="blsomebm13" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[14]"/>
-<figure entity="blsomead14" rend="inline">
+<figure entity="blsomebm14" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[15]"/>
-<figure entity="blsomead15" rend="inline">
+<figure entity="blsomebm15" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[16]"/>
-<figure entity="blsomead16" rend="inline">
+<figure entity="blsomebm16" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[17]"/>
-<figure entity="blsomead17" rend="inline">
+<figure entity="blsomebm17" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[18]"/>
-<figure entity="blsomead18" rend="inline">
+<figure entity="blsomebm18" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[19]"/>
-<figure entity="blsomead19" rend="inline">
+<figure entity="blsomebm19" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[20]"/>
-<figure entity="blsomead21" rend="inline">
+<figure entity="blsomebm21" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[22]"/>
-<figure entity="blsomead22" rend="inline">
+<figure entity="blsomebm22" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[23]"/>
-<figure entity="blsomead23" rend="inline">
+<figure entity="blsomebm23" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[24]"/>
-<figure entity="blsomead24" rend="inline">
+<figure entity="blsomebm24" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[25]"/>
-<figure entity="blsomead25" rend="inline">
+<figure entity="blsomebm25" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[26]"/>
-<figure entity="blsomead26" rend="inline">
+<figure entity="blsomebm26" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[27]"/>
-<figure entity="blsomead27" rend="inline">
+<figure entity="blsomebm27" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[28]"/>
-<figure entity="blsomead28" rend="inline">
+<figure entity="blsomebm28" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[29]"/>
-<figure entity="blsomead29" rend="inline">
+<figure entity="blsomebm29" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[30]"/>
-<figure entity="blsomead30" rend="inline">
+<figure entity="blsomebm30" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[31]"/>
-<figure entity="blsomead31" rend="inline">
+<figure entity="blsomebm31" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[32]"/>
-<figure entity="blsomead32" rend="inline">
+<figure entity="blsomebm32" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[33]"/>
-<figure entity="blsomead33" rend="inline">
+<figure entity="blsomebm33" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[34]"/>
-<figure entity="blsomead34" rend="inline">
+<figure entity="blsomebm34" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[35]"/>
-<figure entity="blsomead35" rend="inline">
+<figure entity="blsomebm35" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[36]"/>
-<figure entity="blsomead36" rend="inline">
+<figure entity="blsomebm36" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[37]"/>
-<figure entity="blsomead37" rend="inline">
+<figure entity="blsomebm37" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[38]"/>
-<figure entity="blsomead38" rend="inline">
-<figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
-</figure>
-
-<pb n="[i]"/>
-<figure entity="blsomead1" rend="inline">
+<figure entity="blsomebm38" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[39]"/>
-<figure entity="blsomead39" rend="inline">
+<figure entity="blsomebm39" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[40]"/>
-<figure entity="blsomead40" rend="inline">
+<figure entity="blsomebm40" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[41]"/>
 
-<figure entity="blsomead41" rend="inline">
+<figure entity="blsomebm41" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[42]"/>
-<figure entity="blsomead42" rend="inline">
+<figure entity="blsomebm42" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[43]"/>
-<figure entity="blsomead43" rend="inline">
+<figure entity="blsomebm43" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[44]"/>
-<figure entity="blsomead44" rend="inline">
+<figure entity="blsomebm44" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[45]"/>
 
-<figure entity="blsomead45" rend="inline">
+<figure entity="blsomebm45" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[46]"/>
 
-<figure entity="blsomead46" rend="inline">
+<figure entity="blsomebm46" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[47]"/>
 
-<figure entity="blsomead47" rend="inline">
+<figure entity="blsomebm47" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
 <pb n="[48]"/>
 
-<figure entity="blsomead48" rend="inline">
+<figure entity="blsomebm48" rend="inline">
 <figDesc>Advert included in back of Lowndes's "Some Men and Women"</figDesc>
 </figure>
 
