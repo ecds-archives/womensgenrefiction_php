@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
 
-<TEI.2>
+<TEI.2 id="lmworld1201">
 
-<teiHeader>
+<teiHeader id="lmworld1202">
 
 <fileDesc>
 
 <titleStmt>
 
-<title>A WOMAN AGAINST THE WORLD, an electronic edition</title>
+<title>A Woman Against The World, an electronic edition</title>
 
-<author n="Moberly, Lucy Gertrude">L.G. MOBERLY</author>
+<author><name type="person" reg="Moberly, Lucy Gertrude">L.G. MOBERLY</name></author>
 
 </titleStmt>
+<extent>450Kb</extent>
 
 <publicationStmt>
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
@@ -34,7 +35,9 @@
 <resp>Principal Investigators</resp></respStmt> 
 </seriesStmt> 
 <sourceDesc>
-<bibl><author>Moberly, Lucy Gertrude </author>. <title>A Woman Against the World</title>. <pubPlace>London, Melbourne and Toronto</pubPlace>: <publisher>Ward,Lock &#x0026; Co., Limited.</publisher>, <date>1909</date>.</bibl> 
+<bibl><author>Moberly, Lucy Gertrude </author>. <title>A Woman Against
+the World</title>. <pubPlace>London, Melbourne and Toronto</pubPlace>:
+<publisher>Ward, Lock &#x0026; Co., Limited.</publisher>, <date>1909</date>.</bibl> 
 </sourceDesc> 
 </fileDesc> 
 <encodingDesc> 
@@ -60,7 +63,7 @@
 <rs type="form">Unedited</rs> 
 <rs type="genre">Novel</rs> 
 <rs type="geography">Great Britain</rs> 
-<date>1800-1899</date> 
+<date>1900-1999</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
@@ -82,11 +85,10 @@
 </change> 
 </revisionDesc> 
 </teiHeader>
-<text>
+<text id="lmworld1203">
 
-<front>
+<front id="lmworld1204">
 <pb n="[3]"/>
-<pb entity="lmworldtp" pages="Title Page"/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main">A WOMAN AGAINST THE WORLD</titlePart>
@@ -97,21 +99,22 @@
 <pb/>
 <pb n="[6]"/>
 <div id="lmworldfm1" type="frontispiece">
-<figure entity="lmworldill" rend="inline">
-<p> MARGARET MERRIVALE.</p>
-<p> A WOMAN AGAINST THE WORLD</p>
-<figDesc> Illustration at the front of Moberly's "A Woman Against the World"</figDesc>
+<figure entity="lmworldfront" rend="inline">
+<p>MARGARET MERRIVALE.</p>
+<p><hi rend="italic">A Woman Against The World</hi>.]</p>
+<figDesc>Frontispiece of Moberly's "A Woman Against the World"</figDesc>
 </figure>
 </div>
 
 <pb n="[7]"/>
+<pb entity="lmworldtp" pages="titlePage"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main"> A WOMAN AGAINST <lb/> THE WORLD.</titlePart>
+<titlePart type="main">A WOMAN AGAINST<lb/> THE WORLD.</titlePart>
 </docTitle>
-<byline> BY <docAuthor> L.G. MOBERLY.</docAuthor> AUTHOR OF <lb/> "HOPE, MY WIFE," "DIANA," ETC.</byline>
+<byline> BY <docAuthor> L.G. MOBERLY.</docAuthor> AUTHOR OF<lb/> "HOPE, MY WIFE," "DIANA," ETC.</byline>
 <docImprint>
-<pubPlace> WARD, LOCK &#x0026; CO., LIMITED,</pubPlace> <publisher> LONDON, MELBOURNE AND TORONTO.</publisher> <docAuthor> 1909</docAuthor>
+<publisher> WARD, LOCK &#x0026; CO., LIMITED,</publisher> <pubPlace> LONDON, MELBOURNE AND TORONTO.</pubPlace><date> 1909</date>
 </docImprint>
 </titlePage>
 
@@ -120,7 +123,7 @@
 <div id="lmworld100" type="dedication">
 <head>DEDICATION</head>
 
-<p>TO DR. E. KINGSCOTE. A VERY SMALL "THANK-YOU" FOR A VERY GREAT BENEFIT.</p>
+<p>TO DR. E. KINGSCOTE.<lb/> A VERY SMALL "THANK-YOU" FOR<lb/> A VERY GREAT BENEFIT.</p>
 
 </div>
 
@@ -133,13 +136,13 @@
 
 <pb n="[10]"/>
 <figure entity="lmworldtc2" rend="inline">
-<figDesc> Table of contents included in front of Moberly's "A Woman Against the World"</figDesc>
+<figDesc>Table of contents included in front of Moberly's "A Woman Against the World"</figDesc>
 </figure>
 </div>
 
 </front>
 
-<body>
+<body id="lmworld1205">
 
 <pb n="11"/>
 
@@ -597,20 +600,13 @@ she broke off and looked round helplessly.</p>
 
 				<p>"We want their money&#x2014;certainly we want their money," Nora murmured as she wrote:</p>
 
-			<q> <text> <body>
-<div id="lmworld053" typ="letter">
-<opener> <dateline>	"BEACONSFIELD HOTEL, S.W.,<lb/>
-
-			"<hi rend="italic">March 24th</hi>.</dateline>
-
-				<salute>"DEAR MR. DACRE,</salute></opener>
+			<q><text><body>
+<div id="lmworld053" type="letter">
+<dateline>"BEACONSFIELD HOTEL, S.W.,<lb/>"<hi rend="italic">March 24th</hi>.</dateline>
+<opener><salute>"DEAR MR. DACRE,</salute></opener>
 
 				<p>"It was good of you to send us news
-of your doings in the country. Darestown is a part of the country I do not know at all&#x2014;it sounds quite charming. I have never met Lady Dunbar, though I have friends who know her. (Nora did not scruple to apply the title of friend, to the smart lady's maid in whose company she had once travelled from York to London, the maid whose sister had been in service with Lady Dunbar.) <pb n="54"/>My brother and I propose staying here a little longer, and if you are free on Saturday evening; and would dine with us, and go to His Majesty's, we should be delighted. We have a stall going begging.&#x2014;<closer> <signed>Yours sincerely,</signed>
-
-			
-
-			<name>NORA STANBURN."</name></closer></p></div></body></text></q>
+of your doings in the country. Darestown is a part of the country I do not know at all&#x2014;it sounds quite charming. I have never met Lady Dunbar, though I have friends who know her. (Nora did not scruple to apply the title of friend, to the smart lady's maid in whose company she had once travelled from York to London, the maid whose sister had been in service with Lady Dunbar.) <pb n="54"/>My brother and I propose staying here a little longer, and if you are free on Saturday evening; and would dine with us, and go to His Majesty's, we should be delighted. We have a stall going begging.&#x2014;<closer><signed>Yours sincerely,</signed><name>NORA STANBURN."</name></closer></p></div></body></text></q>
 
 				<p>"There!" she exclaimed, folding the letter. "Mr. Tom Dacre's letter is sufficiently <hi rend="italic">empress&#x00E9;</hi> to justify my writing&#x2014;and&#x2014;though he is more of a man of the world than poor dear Mr. Cartwright&#x2014;he&#x2014;is&#x2014;wonderfully simple."</p>
 
@@ -916,7 +912,7 @@ management&#x2014;&#x2014;"</p>
 
 				<p>"Yes, her home, her child, all that makes life beautiful, she has had to leave. Oh! the pity of it!"</p>
 
-				<p>"Yes, the pity of it!" Brian echoed, taking the <isc>minature</isc> from her," sometimes, I dare to wonder why such things are allowed, why one life&#x2014;like hers&#x2014;should be allowed to spread a blight all round it, to ruin other lives, to&#x2014;&#x2014;"</p>
+				<p>"Yes, the pity of it!" Brian echoed, taking the <sic>minature</sic> from her," sometimes, I dare to wonder why such things are allowed, why one life&#x2014;like hers&#x2014;should be allowed to spread a blight all round it, to ruin other lives, to&#x2014;&#x2014;"</p>
 
 				<p>"Not <hi rend="italic">ruin</hi> other lives surely?" Margaret interrupted quietly, wondering why the death of so eminently unsatisfactory a wife, should have produced such a lasting impression on this man. "I always feel that one can gather up the fragments of a life again, however much they may have been temporarily scattered."</p>
 
@@ -3628,10 +3624,10 @@ when she recovered sufficiently to eat some of the food he forced on her. He fel
 
 		</body>
 
-<back> 
+<back id="lmworld1206"> 
 
 <div type="colophon" id="lmworldbm1">
-<p> LONDON: WARD, LOCK &#x0026; CO., LTD. </p>
+<p>LONDON: WARD, LOCK &#x0026; CO., LTD. </p>
 </div>
 
 </back>
