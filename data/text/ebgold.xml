@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="ebgold1201">
 
-<TEI.2>
-
-<teiHeader>
+<teiHeader id="ebgold1202">
 
 <fileDesc>
 
 <titleStmt>
 
-<title> Mr. and Mrs. Gold, an electronic edition</title>
+<title>Dr. and Mrs. Gold, an electronic edition</title>
 
-<author n="Barnett, Edith A.">Edith A. Barnett</author>
+<author><name type="person" reg="Barnett, Edith A.">Edith A. Barnett</name></author>
 
 </titleStmt>
-
+<extent>300Kb</extent>
 <publicationStmt>
 <publisher>Emory University, Lewis H. Beck Center</publisher> 
 <pubPlace>Atlanta, Georgia</pubPlace> 
@@ -34,7 +33,7 @@
 <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt> 
 </seriesStmt> 
 <sourceDesc>
-<bibl><author>Barnett, Edith A.</author>. <title>Mr. and Mrs.Gold</title>. <pubPlace>London</pubPlace>: <publisher>Swan, Sonnenschein &#x0026; CO.</publisher>, <date>1891</date>.</bibl> 
+<bibl><author>Barnett, Edith A.</author>. <title>Dr. and Mrs. Gold</title>. <pubPlace>London</pubPlace>: <publisher>Swan, Sonnenschein &#x0026; CO.</publisher>, <date>1891</date>.</bibl> 
 </sourceDesc> 
 </fileDesc> 
 <encodingDesc> 
@@ -68,8 +67,8 @@
 <item>British literature--19th Century--Fiction.</item> 
 <item>Women authors, British--19th Century.</item> 
 <item>Anarchists.</item> 
-<item>Infidelity-Marital.</item> 
-<item> Social reformers</item>
+<item>Infidelity, marital.</item> 
+<item> Social reformers.</item>
 </list> 
 </keywords> 
 </textClass> 
@@ -82,37 +81,41 @@
 </change> 
 </revisionDesc> 
 </teiHeader> 
-<text>
-<front>
-<div id="lmworldcover" type="front cover">
-<figure entity="lmworldfc" type="inline">
-<figDesc> Front cover of Barnett's "Dr. and Mrs. Gold"</figDesc>
+<text id="ebgold1203">
+<front id="ebgold1204">
+<div id="ebgoldcover" type="front cover">
+<figure entity="ebgoldfc" type="inline">
+<figDesc>Front cover of Barnett's "Dr. and Mrs. Gold"</figDesc>
 </figure>
 </div>
 <pb/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">Dr. and Mrs. Gold</titlePart></docTitle></titlePage>
 
-<pb n="[i]"/>
-<div type="colophon" id="lmworldfm1">
-<p> THE ABERDEEN UNIVERSITY PRESS</p>
+<pb/>
+<div type="colophon" id="ebgoldfm1">
+<p>THE ABERDEEN UNIVERSITY PRESS</p>
 </div>
 
 <pb n="[ii]"/>
-<pb entity="lmworldtp" pages="Title Page"/>
+<pb entity="ebgoldTP" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
-<titlePart type="main"> DR. AND MRS. GOLD </titlePart>
+<titlePart type="main">DR. AND MRS. GOLD </titlePart>
 <titlePart type="sub"> AN EPISODE IN THE LIFE OF<lb/> A CAUSE</titlePart>
 </docTitle>
 <byline> BY <docAuthor> EDITH A. BARNETT</docAuthor> </byline>
-<epigraph> <cit> <q> "I do not know if all matter will be found to be made of one element, as oxygen or hydrogen,at last; but the world of manner and actions is wrought of one stuff,and beginning where we will, we are pretty sure in a short space to be mumbling our ten commandments."--</q>
+<epigraph><cit><q> "I do not know if all matter will be found to be made of one element, as oxygen or hydrogen,at last; but the world of manner and actions is wrought of one stuff,and beginning where we will, we are pretty sure in a short space to be mumbling our ten commandments."&#x2014;</q>
 <bibl>EMERSON</bibl></cit></epigraph>
 <docImprint>
-<pubPlace> LONDON</pubPlace> <publisher> SWAN SONNENSCHEIN &#x0026; CO.</publisher><pubPlace> PATERNOSTER SQUARE</pubPlace><docDate>1891 </docDate>
+<pubPlace> LONDON</pubPlace> <publisher> SWAN SONNENSCHEIN &#x0026;
+CO.</publisher><pubPlace> PATERNOSTER SQUARE</pubPlace><docDate> 1891</docDate>
 </docImprint>
 </titlePage>
 </front>
-
-<body>
+<pb/>
+<body id="ebgold1205">
 
 <pb n="1"/>
 
@@ -1694,10 +1697,10 @@
 
 </body>
 
-<back>
+<back id="ebgold1206">
 
 <div type="colophon" id="lmworldbm1">
-<p> ABERDEEN UNIVERSITY PRESS</p>
+<p>ABERDEEN UNIVERSITY PRESS</p>
 </div>
 </back>
 
