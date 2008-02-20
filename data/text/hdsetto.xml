@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
 
-<TEI.2>
+<TEI.2 id="hdsetto1201">
 
-<teiHeader>
+<teiHeader id="hdsetto1202">
 
 <fileDesc>
 
@@ -12,11 +12,11 @@
 
 <title>Set to Partners, an electronic edition</title>
 
-<author n= "Dudeney, Henry, Mrs., b.1866">Mrs. Henry Dudeney</author>
+<author><name type="person" reg="Dudeney, Henry, Mrs., b. 1866">Mrs. Henry Dudeney</name></author>
 
 </titleStmt>
 
-<extent></extent>
+<extent>675Kb</extent>
 
 <publicationStmt>
 
@@ -65,15 +65,16 @@
 <rs type="form">Unedited</rs> 
 <rs type="genre">Novel</rs> 
 <rs type="geography">Great Britain</rs> 
-<date>1800-1899</date> 
+<date>1900-1999</date> 
 </creation> 
 <textClass> 
 <keywords scheme="lcsh"> 
 <list> 
 <item>British literature--20th Century--Fiction.</item> 
 <item>Women authors, British--20th Century.</item> 
-<item>Women in journalism.</item> 
-<item>Short stories.</item> 
+<item>Assertiveness in women.</item> 
+<item>Women in the professions.</item> 
+<item>Disability.</item>
 </list> 
 </keywords> 
 </textClass> 
@@ -87,11 +88,10 @@
 </change> 
 </revisionDesc>
 </teiHeader>
-<text>
+<text id="hdsetto1203">
 
-<front>
+<front id="hdsetto1204">
 <pb n="[i]"/>
-<pb entity="hdsettotp" pages="titlePage"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">Set to Partners</titlePart>
@@ -102,7 +102,7 @@
 
 <div id="hdsetto100" type="advert">
 <figure entity="hdsettoad" rend="inline">
-<figDesc> Advert included in front of Dudeney's "Set to Partners"</figDesc>
+<figDesc>Advert included in front of Dudeney's "Set to Partners"</figDesc>
 </figure>
 </div>
 
@@ -116,13 +116,13 @@
 <byline>BY <docAuthor> Mrs. Henry Dudeney</docAuthor>
 AUTHOR OF "A RUNWAY RING," etc.</byline>
 <docImprint>
-<pubPlace>LONDON:</pubPlace><publisher>William Heinemann</publisher> <docDate>1913</docDate>
+<pubPlace>LONDON:</pubPlace><publisher> William Heinemann</publisher> <docDate>1913</docDate>
 </docImprint>
 </titlePage>
 
 <pb n="[iv]"/>
-<div type="copyright">
-<p> <hi rend="italics">copyright</hi></p>
+<div type="copyright" id="hdsettocopy">
+<p><hi rend="italics">copyright</hi></p>
 </div>
 
 <pb n="[v]"/>
@@ -132,18 +132,15 @@ AUTHOR OF "A RUNWAY RING," etc.</byline>
 </figure>
 </div>
 </front>
-<body>
+<body id="hdsetto1205">
 
-			<pb n="1"/>
+			<pb n="[1]"/>
 
 			<div id="hdsetto300" type="book" n="1">
 
-				<head>BOOK I A SENSE OF SPELLS</head>
+				<head>BOOK I<lb/> A SENSE OF SPELLS</head>
 
-			<pb n="2"/>
-
-			<!--Blank page-->
-
+			<pb n="[2]"/>
 			<pb n="3"/>
 
 			<div id="hdsetto001" type="chapter" n="1">
@@ -5787,11 +5784,7 @@ noble. Yet only for a moment did she remain upon this pedestal. The next, she fe
 
 			<pb n="319"/>
 
-
-				<head>III<lb/> LETTER TO ST. MARY OF EGYPT</head>
-
-	<q><text><body>
-<div type="letter" id="hdsetto014" n="3">
+	<q><text><body><div type="letter" id="hdsetto011" n="2"><head>III<lb/>LETTER TO ST. MARY OF EGYPT</head>
 			<opener><salute>ST. MARY OF EGYPT,</salute></opener>
 
 				<p>WHEN, as a child, I wrote my first letter, my belief in you was young and splendid, when I wrote my second, perhaps I did not believe at all; this afternoon I sit here writing, and, dear Saint, I do not know! Yet there is around me that sense of loving, brooding and protection. It emanates from you, and I feel that you are really you; that, perhaps, you are very near me now, and that, without doubt, you understand. So then! Well, I do believe in you and in all that belief implies.</p>
@@ -5822,10 +5815,10 @@ noble. Yet only for a moment did she remain upon this pedestal. The next, she fe
 
 				<p>I begin to feel that words are running out, that the spell is broken, that you understand completely, that no more needs to be said. So I shall, my Saint, put away this letter in the shell box with the other two, and I will not write to you again; unless they die, those two dear men. Then my sense of adventure will not only awake, but take action, and there will be new sides to show. For certainly no jeweller ever cut a precious stone so cunningly as God Himself cuts a woman's heart.</p>
 
-				<p>When I sign a letter to you next, if ever I sign, will it again be <closer><signed><name>ANGELINA PEACHEY</name></signed></closer></p></div></body></text></q></div>
+				<p>When I sign a letter to you next, if ever I sign, will it again be</p><closer><signed><name>ANGELINA PEACHEY</name></signed></closer></div></body></text></q></div>
 
 
-<div id="hdsetto015" type="colphon">					
+<div id="hdsetto015" type="colophon">					
 <p><hi rend="italic">Richard Clay &#38; Sons, Limited, London and Bungay</hi>.</p>
 </div>
 			</div>
