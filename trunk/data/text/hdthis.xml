@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
-<TEI.2>
-<teiHeader>
+<TEI.2 id="hdthis1201">
+<teiHeader id="hdthis1202">
 <fileDesc>
 <titleStmt>
 <title>This Way Out, an electronic edition</title>
@@ -75,7 +75,7 @@
 </revisionDesc>
 </teiHeader>
 <text>
-<front>
+<front id="hdthis1203">
 <pb n="[i]"/>
 <pb entity="hdsthistp" pages="titlePage"/>
 <titlePage type="half">
@@ -86,7 +86,7 @@
 
 <pb n="[ii]"/>
 <div id="hdthis100" type="advert">
-<figure entity="hdthisad" rend="inline">
+<figure entity="hdthisfm1" rend="inline">
 <figDesc> Advert included in front of Dudeney's "This Way Out"</figDesc>
 </figure>
 </div>
@@ -103,7 +103,7 @@
 </titlePage>
 <pb n="[iv]"/>
 </front>
-<body>
+<body id="hdthis1204">
 <div type="prologue">
 <pb n="1"/>
 <head>THIS WAY OUT<lb/>PROLOGUE</head>
@@ -498,7 +498,7 @@ with the head's wife and I'm no good at games and&#x2014;&#x2014;"</p>
 <p>"Head! You don't do it from your heart, Jane. That is all I mean."</p>
 <p>"Amateurs do it from the heart," said Jane scornfully. "Don't they, Mr. Buttifant? Come now! Stick up for me&#x2014;and for yourself. We are both," she looked at him with a sad kindness,"in the same boat."</p>
 <p>"I think it comes from somewhere else&#x2014;the abiding work&#x2014;not from the head, not from the heart," returned Buttifant. "But it isn't worth <pb n="50 THIS WAY OUT"/>thinking about. It's just one way of getting your living out of thousands of ways."</p>
-<p>"There I don't agree with you." Vaguener tempestuously emptied his teacup then stumped it down into the saucer.</p>0
+<p>"There I don't agree with you." Vaguener tempestuously emptied his teacup then stumped it down into the saucer.</p>
 <p>Buttifant and Jane smiled at each other.</p>
 <p>For they knew.</p>
 <p>Then Vaguener opened out. He talked to them. Jane put her elbows on the table and listened; she held triangles of hot toast in the air, biting infrequently; now and then sliding plates across the table towards the men. Or she took their cups and filled them silently. Her mouth was quivering.</p>
@@ -1699,8 +1699,8 @@ you think. If it isn't any good, if Branch won't touch it, I shall&#x2014;&#x201
 <p>When he let himself into the set he found it empty. Across the landing, he had noticed that Buttifant's oak was sported. The sitting-room was dim, so he lighted a candle. He wished, although it was June, that he could light a fire also. He shivered so.</p>
 <p>A note from Jane addressed to him was upon the roll-top desk. For one absurd moment he had an idea that she had eloped with Buttifant. He was full of imaginative hope concerning Jane and he did not care what became of her so long as she got out of the way: that is, so long as <hi rend="italic">Cackle Street</hi> was never <pb n="180 THIS WAY OUT"/>produced. He looked at the empty grate, half hoping to see the tinder of <hi rend="Italic">Cackle Street</hi> lying in it. She had threatened to burn it. Nothing in the grate! So he opened her note. Jane said,</p>
 <div type="letter" id="hdthis100"><p>
-<hi rend="italic">"I've had a wire from Branch who wants me to dine with him. I've got on your violet silk, old boy; there was nobody to hook me up. Branch is always dangerous when he's most chummy; so if this means bad luck I shall finish off, for I'm sick to death. I said so to you at tea time; and the word suicide made you jump, didn't it, dear old chap? I read that MS. over after you went out and it's bad. I have never written worse stuff. Don't sit up. If you go out, for Heaven's sake come in quietly: it's touch and go with me to-night.</hi>
-<closer><signed>Jane</signed></closer></p></div><div type="postscript" id="hdthis101">
+<hi rend="italic">"I've had a wire from Branch who wants me to dine with him. I've got on your violet silk, old boy; there was nobody to hook me up. Branch is always dangerous when he's most chummy; so if this means bad luck I shall finish off, for I'm sick to death. I said so to you at tea time; and the word suicide made you jump, didn't it, dear old chap? I read that MS. over after you went out and it's bad. I have never written worse stuff. Don't sit up. If you go out, for Heaven's sake come in quietly: it's touch and go with me to-night.</hi></p>
+<closer><signed>Jane</signed></closer></div><div type="postscript" id="hdthis101">
 <p>
 <hi rend="italic">"P.S.&#x2014;I am sick to death, Johnny&#x2014;sick."</hi></p>
 <p>She had said that twice; sick to death!</p>
@@ -3015,7 +3015,7 @@ you glad they're not big enough to hold a&#x2014;&#x2014;"</p>
 <pb n="[315]"/>
 <pb n="[316]"/></div></body>
 
-<back>
+<back id="hdthis1205">
 <div id="colophon">
 <l>PRINTED BY<lb/>WILLIAM BRENDON
 AND SON, LTD., PLYMOUTH<lb/>ENGLAND</l>
