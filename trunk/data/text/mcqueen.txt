@@ -94,8 +94,8 @@ added by the encoder and do not appear in the original text.</p>
       <change>
         <date>2008-February-13</date>
         <respStmt>
-          <name>Alice Hickcox,</name>
-          <resp>project manager.</resp>
+          <name>Tyler Kellermann,</name>
+          <resp>student assistant.</resp>
         </respStmt>
         <item>XML tags inserted in compliance with TEI guidelines.</item>
       </change>
@@ -104,6 +104,7 @@ added by the encoder and do not appear in the original text.</p>
 
 <text id="mcqueen1204">
 <front id="mcqueen1202">
+
 <div id="mcqueen000" type="covers">
 <figure entity="mcqeenfc" rend="inline">
 <figDesc>Front cover of Catherwood's <hi rend="italic">The Queen of
@@ -112,14 +113,15 @@ the Swamp</hi>.</figDesc>
 </div>
 <pb/>
 
+
 <div id="mcqeen001" type="advert">
-<figure entity="***" rend="inline">
+<figure entity="mcqueenfm1" rend="inline">
 <figDesc>Advertisement included in the front of Catherwood's <hi
 rend="italic">The Queen of the Swamp</hi>.</figDesc>
 </figure>
 </div>
 
-<pb entity="mcqueentp" pages="Title Page">
+<pb entity="mcqueentp" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">THE QUEEN OF THE<lb/>SWAMP</titlePart>
@@ -134,10 +136,11 @@ rend="italic">The Queen of the Swamp</hi>.</figDesc>
 <docDate>1899</docDate>
 </docImprint>
 </titlePage>
-</pb>
+<pb/>
+
 
 <div id="mcqeen002" type="copyright">
-<figure entity="***" rend="inline">
+<figure entity="mcqueenfm2" rend="inline">
 <figDesc>Copyright for Catherwood's <hi rend="italic">The Queen of the
 Swamp</hi>.</figDesc>
 </figure>
@@ -148,6 +151,7 @@ Swamp</hi>.</figDesc>
 <p>TO THE MEMORY OF MY MOTHER</p>
 </div>
 
+
 <pb/>
 <div id="mcqueen020" type="note">
 <head rend="center">NOTE</head>
@@ -155,8 +159,10 @@ Swamp</hi>.</figDesc>
 <p>The Puritan and the Church of England took possession of the Atlantic seaboard, north and south; and Jesuit and Recollet missionaries carried the cross through Canada and down the Mississippi. But the pioneer evangelist of the Middle West was the Methodist itinerant.</p>
 </div>
 
+<pb/>
+<pb/>
 <div id="mcqueen004" type="table of contents">
-<figure entity="mcqueentc" rend="inline">
+<figure entity="mcqueenfm5" rend="inline">
 <figDesc>Table of contents for Catherwood's <hi rend="italic">The
 Queen of the Swamp</hi>.</figDesc>
 </figure>
@@ -183,7 +189,7 @@ Queen of the Swamp</hi>.</figDesc>
 <p>On Christmas Day a large congregation poured from George's Chapel into the early dusk. Quarterly meeting, which for a week had drawn together, not only the neighborhood, but people from Millersport, Basil, and even Kirkersville, closed that afternoon. The presiding elder and his assistants were wrapping up their throats and joking with each other, for the occasion had been blessed with converts and a fairly liberal collection.</p>
 <p>These men must ride on around the circuit, risking health, and accepting whatever fell to their lot, yet nothing checked their flow of spirits. The only solemn person near the group was Mr. Warner, a local preacher and exhorter, who habitually prayed with a war-whoop, and kept the young people
 <pb n="2 THE QUEEN OF THE SWAMP"/>
-tittering at his pompous phrases. His father, an aged apparition, tottering on a stick, was circulating genially to shake every hand, known or unknown, and inquire, toothlessly, "Hi-ya! hi-ya! how's your consarn?" which being interpreted meant, "How are you, how are you, how's your concern?" (in religion).</p>
+tittering at his pompous phrases. His father, an aged apparition, tottering on a stick, was circulating genially to shake every hand, known or unknown, and inquire, toothlessly, "Hi-ya! hi-ya! how's your cousarn?" which being interpreted meant, "How are you, how are you, how's your concern?" (in religion).</p>
 <p>Women clustered together near the red-hot stove, exclaiming to each other, as their work-worn palms met, "Hoddy-do, Mis' Waddell, does your family keep well?" and "Law! Mis' Davis, it's good for sore eyes to see you out to meetin' once more!" "Yes, I been kept close all fall, but I told him it wouldn't do, we must come to big meetin'." "It's been a good time. One o' my boys," the speaker pressing her neighbor's hand, "was gathered in, and I have my suspicions the other's touched." "Yes, there's more under conviction than'll own to it."</p>
 <p>They made excuses to each other for neglecting neighborly duties in the past, but
 <pb n="3 THE QUEEN OF THE SWAMP"/>
@@ -393,7 +399,7 @@ him in meeting. "I like to lead her out to dance."</p>
 <p>"I don't believe Jane wants anybody,"
 <pb n="37 THE STIRRING-OFF"/>
 said Nora Waddell. "She's light-minded, and likes to enjoy herself."</p>
-<p>Dick Hanks stood by Jane and insisted on helping her to move the stirrer. His hair inclosed his head in the shape of a thatch, leaving but narrow eaves of forehead above his eyebrows, though his expression was open and amiable. Ile looked like one of Bewick's cuts of an English carter. The Hankses, however, were a rich family, and, in spite of their eccentricities, a power in the county. Old Jimmy Hanks so dreaded the grave that he had a marble vault hewed, watching its progress for years, and getting himself ready to occupy it a few weeks after its completion. Lest he should be buried alive, his will decreed that the vault should be unlocked and the coffin examined at intervals. The sight of a face floating in alcohol and spotted with drops from the metal casket not proving grateful to his heirs, the key was soon conveniently lost.</p>
+<p>Dick Hanks stood by Jane and insisted on helping her to move the stirrer. His hair inclosed his head in the shape of a thatch, leaving but narrow eaves of forehead above his eyebrows, though his expression was open and amiable. He looked like one of Bewick's cuts of an English carter. The Hankses, however, were a rich family, and, in spite of their eccentricities, a power in the county. Old Jimmy Hanks so dreaded the grave that he had a marble vault hewed, watching its progress for years, and getting himself ready to occupy it a few weeks after its completion. Lest he should be buried alive, his will decreed that the vault should be unlocked and the coffin examined at intervals. The sight of a face floating in alcohol and spotted with drops from the metal casket not proving grateful to his heirs, the key was soon conveniently lost.</p>
 <p>His son Dick, hearty in love and friend-
 <pb n="38 THE STIRRING-OFF"/>
 ship and noble in brawn, so feared the dark that he would not go into an unlighted room. When left by himself at the parting of roads after a night's frolic, he galloped his horse through brush and mire, and it was told that he had more than once reached home without a whole stitch to his back.</p>
@@ -460,7 +466,7 @@ while she hurriedly wiped her eyes and replied to some expression of neighborly 
 <p>"You don't feel put out? " urged John,
 <pb n="53 THE STIRRING-OFF"/>
 conscious of a pang because all the good fellows who courted Jane could not become his brothers-in-law.</p>
-<p>"No; oh, no," protested Dr. Miller with chagrin. "She'd a right to suit herself. I'II be around some other day."</p>
+<p>"No; oh, no," protested Dr. Miller with chagrin. "She'd a right to suit herself. I'll be around some other day."</p>
 <p>"We'd take it hard if you didn't," said John.</p>
 <p>"But just now," concluded the doctor, "I feel what a body might call&#x2014;stirred-off."</p>
 <p>Dick Hanks was riding up close to Jimmy Thompson, while Jimmy unblanketed his mare and prepared for a deliberate departure.
@@ -528,7 +534,7 @@ died ready to go out, when a knock sounded on the door.</p>
 <p>So he came in laden with sections of
 <pb n="65 SWEETNESS"/>
 trees, and built them handily upon the structure of the fire.</p>
-<p>"Do you want ary bucket of water?" was his next inquiry.</p>
+<p>"Do you want ary<sic/> bucket of water?" was his next inquiry.</p>
 <p>"No, I'm obleeged to you, Lanson," replied Wilda. "I fetched a big gourdful from the spring as I come uphill. It saves steps."</p>
 <p>Alanson now unbelted and took off his butternut-colored wamus, and Wilda hung it with his hat on a peg. He had a fine black blanket shawl for meeting, but he was not so reckless as to scratch it through hill underbrush every evening.</p>
 <p>Feeling himself now ready for society, Alanson walked over to the trundle-bed and greeted the invalid.</p>
@@ -551,7 +557,7 @@ the light fell upon the "Saturday Evening Post," and read a harrowing installmen
 <p>Wilda answered, without moving her eyes from the trundle-bed, "Don't you think we better let well enough alone, Lanson?"</p>
 <p>"Well, now, 'tisn't well enough," argued Alanson, and to the sylvan mind there is accumulated force in an oft-used argument. "You've got these woods lots and the house and a cow"&#x2014;</p>
 <p>"Yes, I'm well fixed," murmured Wilda.</p>
-<p>&#x2014;"but you have to leave your mother and go out among the neighbors to airn a living. How do you know sometime the house won't burn down?"</p>
+<p>&#x2014;"but you have to leave your mother and go out among the neighbors to airn<sic/> a living. How do you know sometime the house won't burn down?"</p>
 <p>"I am jub'ous about it often," owned Wilda, biting the end of a knitting-needle. But catching the yarn over her little finger she drove it ahead with her work.</p>
 <p>"Then eventually she might die."</p>
 <p>"I've thought of that," sighed Wilda. "And I've thought what'd become of her if I's to be taken and her left. Then who'd
@@ -587,7 +593,7 @@ let her pet rooster and hen&#x2014;that she's just as tickled with as a child&#x
 <pb n="73 SWEETNESS"/>
 <p>"What's that?"</p>
 <p>"Why, in a foreign place they call Germany, I've read they take an evergreen and make it stand like it growed in the house, and hang gifts on it, and if I don't disremember, they fix candles into it and light them."</p>
-<p>"I should think that would be pretty," said Wilda in some excitement. "Law, Lan-son! If we could fix it at the foot of her trundle-bed!</p>
+<p>"I should think that would be pretty," said Wilda in some excitement. "Law, Lanson! If we could fix it at the foot of her trundle-bed!</p>
 <p>Alanson thought they could fix it, and he set vigorously about the task. He ran out to the ash-hopper and brought in the keg which in summer time caught the lye. The evergreen tree, beautifully straight, and tasseled at the top, he fastened in the keg ingeniously, without clamor of nails and pounding.</p>
 <p>Then maid and bachelor trimmed the Christmas tree for their old sleeping child. A dexterous use of string hung all the hearts to the boughs, as well as oranges and lemons.
 <pb n="74 SWEETNESS"/>
@@ -661,14 +667,14 @@ told him, after an exchange of scrutiny, that he dursn't take a dare which 'ud r
 <p>After inquiring about the date of the funeral, and detailing watchers for the intervening nights, the other neighbors slowly
 <pb n="89 SERENA"/>
 dispersed squads. Lights appeared about the house, and the kitchen and cellar yielded up their prepared good things.</p>
-<p>Before they reached home the neighbors began to speculate about the disposition of the property. They said Moses Jeffr's had been a hard worker, and his sister Lindy had been a hard worker, and she had kept his house for more than twenty year: 'twouldn't be no more than right for him to leave her well off. She had been savin' with what her man left her, and Hod Miller had done a son's part by the old man. Money goes to them that lays up. Some said Mr. Jeffr's had cut off Sereny with a cent in his will. Sereny ought to knowed better than to clone as she did. It was a pity, specially as she was left a widow-woman, with a little boy to raise. But when a person makes their bed, they got to lie in it. How tickled Mr. Jeffr's was when Sereny was a little girl experiencin' religion! He never thought then she would go and
+<p>Before they reached home the neighbors began to speculate about the disposition of the property. They said Moses Jeffr's had been a hard worker, and his sister Lindy had been a hard worker, and she had kept his house for more than twenty year: 'twouldn't be no more than right for him to leave her well off. She had been savin' with what her man left her, and Hod Miller had done a son's part by the old man. Money goes to them that lays up. Some said Mr. Jeffr's had cut off Sereny with a cent in his will. Sereny ought to knowed better than to done as she did. It was a pity, specially as she was left a widow-woman, with a little boy to raise. But when a person makes their bed, they got to lie in it. How tickled Mr. Jeffr's was when Sereny was a little girl experiencin' religion! He never thought then she would go and
 <pb n="90 SERENA"/>
 run off. She had a good home, and he would have done well by her.</p>
 <p>On the other hand, there was folks-talk among the Serena faction, whose hearts melted toward the girl when she rocked before her father. They said there never would have been any trouble between Moses Jeffr's and his daughter if Lindy Miller hadn't managed things. Milt Heddin' was a good feller, only he hadn't the knack of gettin' along. But he could have worked the farm as well as Hod Miller. They wanted Sereny to have her rights. It was a scandal and a shame if that big, able-bodied feller, with land of his own, could turn her off the home place.</p>
 <p>Serena wandered about the house, which strangers seemed to possess, crying over familiar objects. She had large violet eyes, and was once considered as pretty a girl as came to meeting, though her lips were too prominent and full. She looked shabby and piteous. Sister McGafferty combed her hair
 <pb n="91 SERENA"/>
 for her, while her trembling, work-worn hands lay in her lap.</p>
-<p>"They've borried a black bonnet and dress for you, Sister Sereny," said the elder's wife, who had been around the circuit when this sorrowful creature was a shy child.</p>
+<p>"They've borried<sic/> a black bonnet and dress for you, Sister Sereny," said the elder's wife, who had been around the circuit when this sorrowful creature was a shy child.</p>
 <p>"I might have worn a better dress and bonnet. But when word came, I felt so bad I didn't think of anything. They didn't let me know until he was near gone."</p>
 <p>Milty spent his time out-of-doors. He approved of the barn, and did not approve of Aunt Lindy. His mother had said, "Aunt Lindy, this is my boy."</p>
 <p>And Aunt Lindy had said, "He looks spindlin', like the Heddin's. I hope you 're raisin' him to obedience. Children set on their own way gives their parents plenty of sorrow to sup."</p>
@@ -743,7 +749,7 @@ leghorn bonnet and exchanging parting civilities with several old neighbors.</p>
 <p>"She 's overcome like," explained Uncle Jesse.</p>
 <p>"Let me get to her," said Mrs. Holmes. Having got to her, Mrs. Holmes raised Serena's head on her arm, and began to laugh.</p>
 <p>"She's comin' out of it now," observed Sister MeGafferty. "All of you'd better go downstairs except Sister Holmes and me. Let her be without disturbin' a while. We'll have plenty of other chances to enjoy Sister Heddin's company."</p>
-<p>The neighbors and Jesse went submissively downstairs, but Little Jimmy Hohnes's wife kept on laughing with some effort, as if she felt afraid of ending in a sob.</p>
+<p>The neighbors and Jesse went submissively downstairs, but Little Jimmy Holmes's wife kept on laughing with some effort, as if she felt afraid of ending in a sob.</p>
 <pb n="105 SERENA"/>
 <p>"Oh, I'm so glad you'll be in the neighborhood again, Serene!" she said. "Things wouldn't never been right in this world if they'd turned out the other way. Don't look at me like you's thinkin' of the dead. But rouse up and feel better. There 's your Aunt Lindy and Hod standin' at the gate: I can see 'em through the winder. They're talkin' mighty serious, and she don't look so well satisfied as she did. But you must do well by her, Sereny. Give her the old spinnin'-wheel that stands in the smoke-house!"</p>
 </div>
@@ -2295,3 +2301,5 @@ he had folks."</p>
 </body>
 </text>
 </group>
+</text>
+</TEI.2>
