@@ -1,6 +1,6 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
-<TEI.2> 
-<teiHeader> 
+<TEI.2 id="dcmisst1201"> 
+<teiHeader id="dcmisst1202"> 
 <fileDesc> 
 <titleStmt> 
 <title>Miss Tommy, an electronic edition</title> 
@@ -34,7 +34,7 @@
 <title>Miss Tommy</title>. 
 <pubPlace>London</pubPlace>: <publisher>Macmillan and Co.</publisher>, <date>1884</date>.
 </bibl> 
-</sourceDesc> 
+</sourceDesc>
 </fileDesc> 
 <encodingDesc> 
 <projectDesc> 
@@ -86,7 +86,7 @@
 </revisionDesc> 
 </teiHeader>
 <text>
-<front>
+<front id="dcmisst1203">
 <pb/>
 <pb entity="dcmissttp" type="title page"/>
 <titlePage type="half">
@@ -109,11 +109,11 @@
 </titlePage>
 <div id="dcmisst000" type="preface">
 <head> PREFACE</head>
-<P> In the exciting blaze of modern fiction the glow-worm light of this simple and old-fashioned story almost seems to need apology; except that it is, in degree, a true story; and truth is always worth something. My heroine really lived- about half a century ago; she was very beautiful and charming; her name was Thomasina, and she was generally called "Miss Tommy."</P>
+<p> In the exciting blaze of modern fiction the glow-worm light of this simple and old-fashioned story almost seems to need apology; except that it is, in degree, a true story; and truth is always worth something. My heroine really lived- about half a century ago; she was very beautiful and charming; her name was Thomasina, and she was generally called "Miss Tommy."</p>
 <p> Perhaps in these days, when so many women disdain to be such- **contemning (sic) domestic life, and, by a curious contradiction, at once imitating and despising men, it may be excusable to have painted one who was "only a woman,"- and nothing more.</p>
 </div>   
 </front>
-<body>  
+<body id="dcmisst1204">  
 <pb n="[1]"/>
 <div id="dcmisst001" type="part" n="1">
 <head>MISS TOMMY.<lb/> 
@@ -156,7 +156,7 @@ of friends outside our circle, and for many months past my interests had narrowe
 <p>I should soon have poured out into her sympathising bosom the whole story of me and Charlie, but for the unromantic intervention of supper, to which some one took her in, and she disappeared. I might have forgotten her altogether, for in my preoccupied state of mind I was apt to forget both people and things,everything but Charlie, had not my mother one day, sitting by my bedside--I had fretted myself at last into real illness--said suddenly:</p>
 <p>"Decie" (being the tenth, I had been christened Decima), "where did you meet Miss Tommy Trotter?"</p>
 <p>"Miss Tommy Trotter?"</p>
-"An old friend of your aunt's, now staying with her. She was asking kindly after you, and sorry you were ill.  She also said, as you had been ordered sea air, and as it is so inconvenient for me to leave home, if I would trust you to her at Dover--"</p>
+<p>"An old friend of your aunt's, now staying with her. She was asking kindly after you, and sorry you were ill.  She also said, as you had been ordered sea air, and as it is so inconvenient for me to leave home, if I would trust you to her at Dover--"</p>
 <p>"Dover? Yes, I will go.  Please let me go at once," cried I, with an eagerness that must
 <pb n="8     MISS TOMMY. PART I"/>
 have given a pang to my tender mother, with whom I had steadily refused to go anywhere. But she had already learned, as mothers must, that there comes a time when even they cannot make their darlings happy. Years after, when she slept peacefully "under the daisies," I found out by my own experience how miserable I must have made my poor mother in those days.</p>
@@ -990,7 +990,15 @@ good-bye, I saw&#x2014;what she did not mean me to see&#x2014;the weary face, th
 <pb n="136 MISS TOMMY.  PART III."/> 
 attraction in any old maid's house, and was neither surprised nor sorry when Miss Trotter wrote that we must come to East Cliff and nowhere else. So we came.</p>
 <p>There was no change in the place or the house, except that by some miraculous agency my former bedroom had been turned into a nursery! But there was a great change in me&#x2014;from the idle, sentimental, love-sick girl, to the busy wife and mother, who had won from Fate all she craved. Was it worth the winning? Do we ever find a fulfilled desire as perfect as we thought it?</p>
-<p>But let me not lightly condemn either myself or my Charlie. If in some things I had not gained exactly what I expected, I had gained much that I did not expect&#x2014; experience, which is a possession in itself: a full, busy, active life, in which one has hardly time to consider whether it is a perfectly happy life or not. Also, I had gained, in a sense, myself: had learned to guide and control myself, which is the great secret of guiding and governing others.  In so doing I had also learned to live out of myself, and in and for others&#x2014;the real mystery and best blessing of marriage.</p>                                    I
+<p>But let me not lightly condemn either myself or my Charlie. If in
+some things I had not gained exactly what I expected, I had gained
+much that I did not expect&#x2014; experience, which is a possession
+in itself: a full, busy, active life, in which one has hardly time to
+consider whether it is a perfectly happy life or not. Also, I had
+gained, in a sense, myself: had learned to guide and control myself,
+which is the great secret of guiding and governing others.  In so
+doing I had also learned to live out of myself, and in and for
+others&#x2014;the real mystery and best blessing of marriage.</p>            
 <pb n="137 MISS TOMMY. PART III."/>
 <p>"No&#x2014;don't imagine I ever wish I had not been married," said I one day to Miss Tommy, when I had been opening up to her a fardel of cares domestic&#x2014;small in themselves, but amounting oftentimes to a heavy burden, such as unmarried girls&#x2014;free, careless creatures !&#x2014;can hardly understand. "How people can ever go on making novels and plays end with marriage, and dismiss their characters to live happy ever after, passes my comprehension! But for all that&#x2014;for all that&#x2014;"</p>
 <p>I looked at my sweet Carl, asleep on his rug on the shingle, with an umbrella over him, and thought of his kind young father, who was so proud of him and so fond of him in an ignorant masculine way. And I felt that spite of all cares, mine was the true life&#x2014;the natural life; that I had need to rejoice in it, and to thank God for it&#x2014;as I hope I did.</p>
@@ -1055,7 +1063,7 @@ would only come to us&#x2014;to baby and me. We are staying with Miss Trotter; a
 <p>"If this man&#x2014;you own he is a quack&#x2014;should fail; if he should leave you worse than before, which he says he may, what then?"</p>
 <p>"Nothing. I shall have done it by my own choice, and the result matters to nobody."</p>
 <p>"Is there any human being who can say, who dare venture to say, that his wellbeing matters to nobody?"</p>
-He seemed startled&#x2014;uneasy. She went on.</p>
+<p>He seemed startled&#x2014;uneasy. She went on.</p>
 <p>"To throw up one's life, saying it belongs to oneself alone, is some people's creed, I know;
 <pb n="147 MISS TOMMY. PART III."/>
 but is it not a very selfish one? Ought we not to do the best we can with the life Heaven gives, until Heaven takes it away? But I did not mean to preach&#x2014;I am not good at preaching&#x2014;only to suggest a practical idea."</p>
@@ -1072,7 +1080,7 @@ Miss Tommy laid her hand on my mouth, took out her tablets, wrote down the addre
 <p>The ass in the lion's skin&#x2014;we afterwards found out how great an ass he was, and how completely he had taken in the simple old soldier&#x2014;did not stay to face the great lion; but sent word that he had to go to a case a hundred miles off, and could not attend the consultation.</p>
 <p>"I thought as much," laughed Miss Trotter's eminent friend, when he heard the name. "You will never see any more of him."  And we never did.</p>
 <pb n="149 MISS TOMMY. PART III."/>
-</p>The great doctor was a character&#x2014;as most great doctors are. When we brought him into Major Gordon's dull room  his large kindly presence seemed to carry sunshine with it&#x2014;mental and moral.  He took by storm the sickly, morbid, nervous man, encouraged him by pleasant words, and then proceeded to business.</p>
+<p>The great doctor was a character&#x2014;as most great doctors are. When we brought him into Major Gordon's dull room  his large kindly presence seemed to carry sunshine with it&#x2014;mental and moral.  He took by storm the sickly, morbid, nervous man, encouraged him by pleasant words, and then proceeded to business.</p>
 <p>"I must have some one of you with me. Who will stay?"</p>
 <p>"I will," said Miss Trotter at once. And Uncle Gordon said "Thank you."</p>
 <p>So they turned us out&#x2014;Charlie and me. For nearly an hour we perambulated the streets in sore suspense. I might have felt it more, had my poor Charlie felt it less, but I never saw him so unmanned. When at last we were summoned back,&#x2014;to no very ill news, as I saw at a glance,&#x2014;Charlie quite gave in, and wrung his uncle's hand with a sob like a scolded child.</p>
@@ -1355,20 +1363,19 @@ Gordon always took up his old quarters. Once he drew me to the window: it was a 
 <p>"Yes. Everybody loved her," he said.</p>
 <p>After a little I drew down the blind, and made his fireside comfortable for him, the solitary fireside where he would sometimes sit, quite alone and doing nothing, all evening long. Then as I led him to his armchair, he suddenly whispered, catching my hand and grasping it hard:</p>
 <p>"Decie, when my time comes&#x2014;remember&#x2014;beside her."</p>
-<p>I have remembered.</p></div>
-<trailer>THE END.</trailer></body></text>
+<p>I have remembered.</p>
+<trailer>THE END.</trailer></div></body>
 
-
-<back>
+<back id="dcmisst1205">
 <pb/>
 <pb n="[i]"/>
 <div id="dcmisstbm1" type="advert">
-<figure entity="dcmisstad1" rend="inline">
+<figure entity="dcmisstbm1" rend="inline">
 <figDesc> Advert included in back of Craik's "Miss Tommy"</figDesc>
 </figure>
 
 <pb n="[ii]"/>
-<figure entity="dcmisstad2" rend="inline">
+<figure entity="dcmisstbm2" rend="inline">
 <figDesc> Advert included in back of Craik's "Miss Tommy"</figDesc>
 </figure>
 
@@ -1378,6 +1385,7 @@ Gordon always took up his old quarters. Once he drew me to the window: it was a 
 
 </back>
 
+</text>
 </TEI.2>
 
 
