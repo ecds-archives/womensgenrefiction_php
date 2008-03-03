@@ -2,9 +2,9 @@
 
 <!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
 
-<TEI.2>
+<TEI.2 id="cbcarol1201">
 
-<teiHeader>
+<teiHeader id="cbcarol1202">
 
 <fileDesc>
 
@@ -95,7 +95,7 @@
 
 <text>
 
-<front>
+<front id="cbcarol1203">
 <div id="cbcarolcover" type="covers">
 <figure entity="cbcarolfc" rend="inline">
 <figDesc> Front cover for Black's Caroline</figDesc>
@@ -128,6 +128,7 @@
 
 </titlePage>
 </front>
+<body id="cbcarol1204">
 <pb n="1"/>
 <div id="cbcarolfm2" type="prologue">
 <head>CAROLINE<lb/>
@@ -165,7 +166,6 @@ PROLOGUE</head>
 
 			<pb n="5"/>
 
-<body>
 
 <div id="cbcarol001" type="chapter" n="1">
 <head>I</head>
