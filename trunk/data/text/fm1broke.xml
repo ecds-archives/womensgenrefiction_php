@@ -2,38 +2,97 @@
 <!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
 <TEI.2>
 <teiHeader>
-<fileDesc>
-<titleStmt>
-<title/>
-<author/>
-</titleStmt>
-<publicationStmt>
-<pubPlace/>
-<publisher/>
-<publisher/>
-<date/>
-</publicationStmt>
-<sourceDesc>
-<p/>
-</sourceDesc>
-</fileDesc>
-<profileDesc/>
-</teiHeader>
-<text>
-<front>
-<titlePage>
+<fileDesc> 
+<titleStmt> 
+<title>A Broken Blossom, Vol. 1, an electronic edition</title> 
+<author n="Marryat, Florence., 1837-1899">Florence Marryat</author> 
+</titleStmt> 
+<extent>400Kb</extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability>
+<p>&#x00A9; 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> </address> 
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp></respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl><author>Marryat, Florence.</author>. 
+<title>A Broken Blossom, Vol 1.</title>. 
+<pubPlace>London</pubPlace>: <publisher>Samuel Tinsley &#x0026; Co.</publisher>, <date>1879</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p>
+</projectDesc> 
+<samplingDecl> <p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> <editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> <title>Library of Congress Subject Headings</title> </bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list>
+<item>British literature--19th Century--Fiction.</item> 
+<item>Death in the family.</item> 
+<item>.</item> 
+<item>.</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change>
+ <date>2008-April-07</date> 
+<respStmt><name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc>
+</teiHeader> 
+<text id=""> 
+<front id="">
+<div id="fm1brokefm1" type="front cover">
+<figure entity="fm1brokefc" rend="inline">
+<figDesc> Front cover of  Marryat's "A Broken Blossom, Vol. 1"</figDesc>
+</figure>
+</div>
+<pb n="[i]"/>
+<titlePage type="half">
 <docTitle>
-<titlePart/>
+<titlePart type="main">A BROKEN BLOSSOM</titlePart>
 </docTitle>
-<byline/>
-<byline/>
-<docImprint>
-<name/>
-<name/>
-<name/>
-<date/>
-</docImprint>
-</titlePage>
+<titlePage>
+<pb n="[ii]"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">A BROKEN BLOSSOM.<lb/>
+A novel.</titlePart>
+<byline> BY<lb/><docAuthor> FLORENCE MARRYAT,</docAuthor> <lb/>AUTHOR OF "LOVE'S CONFLICT," ETC., ETC., ETC.</byline>
+<
 </front>
 <body>
 <pb n="1"/>
