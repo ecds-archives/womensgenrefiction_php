@@ -1,73 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI.2 SYSTEM "teixlite.dtd">
 <TEI.2>
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>A BROKEN BLOSSOM.<lb/>A novel.</title>
-				<author>BY FLORENCE MARRYAT</author>
-			</titleStmt>
-			<publicationStmt>
-				<pubPlace>London</pubPlace>
-				<publisher>SAMUEL TINSLEY &#38; CO.</publisher>
-				<address>
-					<addrLine>10, SOUTHAMPTON STREET, STRAND.</addrLine>
-				</address>
-				<date>1879.</date>
-				<availability>
-					<p>[<hi rend="italic">All Rights Reserved</hi>.]</p>
-				</availability>
-			</publicationStmt>
-			<sourceDesc>
-				<p>IN THREE VOLUMES.</p>
-				<p>VOL. II.</p>
-			</sourceDesc>
-		</fileDesc>
-		<profileDesc/>
-	</teiHeader>
-	<text>
-		<front>
-			<titlePage>
-				<docTitle>
-					<titlePart>A BROKEN BLOSSOM.</titlePart>
-				</docTitle>
-				<byline>BY <docAuthor>FLORENCE MARRYAT</docAuthor>, AUTHOR OF "LOVE'S CONFLICT," ETC., ETC., ETC.</byline>
-				<docImprint>
-					<name>London</name>
-					<name>SAMUEL TINSLEY &#38; CO.</name>
-					<name>10, SOUTHAMPTON STREET, STRAND.</name>
-					<date>1879.</date>
-				</docImprint>
-			</titlePage>
-			<div>
-				<head>CONTENTS OF VOL. II.</head>
-				<list>
-					<item>I. THE VENETIAN GLASS <label>1</label>
-					</item>
-					<item>II. ARTHUR THRALE <label>36</label>
-					</item>
-					<item>III. THE  SECRET <label>64</label>
-					</item>
-					<item>IV. THE DENOUEMENT <label>89</label>
-					</item>
-					<item>V. CURED <label>116</label>
-					</item>
-					<item>VI. TWO SERPENTS <label>136</label>
-					</item>
-					<item>VII. ALL  FOR TESSIE <label>162</label>
-					</item>
-					<item>VIII. A  REVELATION <label>194</label>
-					</item>
-					<item>IX. CHARLIE <label>223</label>
-					</item>
-				</list>
-			</div>
-		</front>
-		<body>
-			<pb n="1"/>
-			<div>
-				<head>CHAPTER I<lb/>THE VENETIAN GLASS</head>
-				<p>THE<hi rend="italic">go&#x00FB;ter</hi> was laid in a long narrow room, which evidently had once been a banqueting hall. Remnants of exquisitely stained glass still ornamented its windows, although the ravages made in them by time had been replaced by ordinary white panes. Tall, straight-backed chairs, carved in black oak, and furnished with green cushions, the embossed velvet covering of which was both faded <pb n="2"/>and rent, stood at the table for our accommodation, whilst from the panelling of the walls looked down upon us an almost obliterated collection of the Baron's ancestors.</p>
+<teiHeader>
+<fileDesc> 
+<titleStmt> 
+<title>A Broken Blossom, Vol. 1, an electronic edition</title> 
+<author n="Marryat, Florence., 1837-1899">Florence Marryat</author> 
+</titleStmt> 
+<extent>400Kb</extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2008</date> 
+<availability>	
+<p>&#x00A9; 2008, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address> 			
+<addrLine>Lewis H. Beck Center</addrLine> 
+<addrLine>Emory University</addrLine> 
+<addrLine>Robert W. Woodruff Library</addrLine> 
+<addrLine>Atlanta, GA 30322-0053</addrLine> 
+<addrLine>United States of America</addrLine> 
+<addrLine>Email: beckctr@emory.edu</addrLine> </address> 
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp></respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl><author>Marryat, Florence.</author>. 
+<title>A Broken Blossom, Vol 2.</title>. 
+<pubPlace>London</pubPlace>: <publisher>Samuel Tinsley &#x0026; Co.</publisher>, <date>1879</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p>
+</projectDesc> 
+<samplingDecl> <p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl> <editorialDecl>
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> <title>Library of Congress Subject Headings</title> </bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">Great Britain</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list>
+<item>British literature--19th Century--Fiction.</item> 
+<item>Poverty.</item> 
+<item>orphanhood.</item> 
+<item>.</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change>
+<date>2008-May-02</date> 
+<respStmt><name>Shruthi Vissa, </name> 
+<resp>Encoder.</resp></respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines.</item> 
+</change> 
+</revisionDesc>
+</teiHeader> 
+<text id=""> 
+<front id="">
+<div id="fm2broke001" type="front cover">
+<figure entity="fm1brokefc" rend="inline">
+<figDesc> Front cover of Marryat's "A Broken Blossom, Vol. 2"</figDesc>
+</figure>
+</div>
+<pb/>
+<pb entity="fm2broke" type="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> A BROKEN BLOSSOM.<lb/>
+A novel.</titlePart>
+</docTitle>
+<byline> BY<lb/><docAuthor>FLORENCE MARRYAT,</docAuthor><lb/> 
+AUTHOR OF "LOVE'S CONFLICT," ETC., ETC., ETC.<lb/>
+IN THREE VOLUMES.<lb/>
+VOL. II.</byline>
+<docImprint>
+<pubPlace>London</pubPlace>
+<publisher>SAMUEL TINSLEY &#38; CO.</publisher>
+<pubPlace>10, SOUTHAMPTON STREET, STRAND.</pubPlace>
+<date>1879.</date>
+</docImprint>
+<imprimatur>[<hi rend="italic">All Rights Reserved</hi>.]</imprimatur>
+</titlePage>
+<pb/>
+<pb/>
+<div id="fm2broke002" type="table of contents">
+<figure entity="fm2broketc" rend="inline">
+<figDesc> Table of contents included in front matter of Marryat's "A Broken Blossom, vol. 2"</figDesc>
+</figure>
+</div>
+</front>
+<body>
+<pb n="[1]"/>
+<div id="fm2broke003" type="chapter" n="1">
+<head>A BROKEN BLOSSOM <lb/>CHAPTER I.<lb/>THE VENETIAN GLASS</head>
+<p>THE<hi rend="italic">go&#x00FB;ter</hi> was laid in a long narrow room, which evidently had once been a banqueting hall. Remnants of exquisitely stained glass still ornamented its windows, although the ravages made in them by time had been replaced by ordinary white panes. Tall, straight-backed chairs, carved in black oak, and furnished with green cushions, the embossed velvet covering of which was both faded <pb n="2"/>and rent, stood at the table for our accommodation, whilst from the panelling of the walls looked down upon us an almost obliterated collection of the Baron's ancestors.</p>
 				<p>Although the summer sun was shining through the windows, casting rainbow lights of ruby and violet and amber over the damask tablecloth, and the roses and clematis were hanging in clusters about the casement, there was a weird unearthly feeling about this chamber that made me shudder.</p>
 				<p>An artist would have fallen into raptures over the old oaken floors and wainscoting; the leash of wolfhounds that lay stretched out blinking in the sunshine, and watching their master's eye as for a revelation; the fragments of stained glass; the blackened ancestors. But to me, the aspect of the whole place spelt <hi rend="italic">Ruin</hi>, and I feared lest our host should read my feelings in my face.</p>
 				<p>That did not, however, seem likely. There <pb n="3"/>he sat at the head of the table, dispensing his simple hospitality as though he had been entertaining crowned heads at a royal banquet. He made no apology for the repast he offered us. It was the best he had to give, and he credited us with too much good taste to wish it better. When he pledged us in the <hi rend="italic">vin ordinaire</hi> of the country, poured into the most delicate of Venetian wineglasses, the slender stems of which were encircled by a tiny twist of blue and their bowls dotted with specks of gold, he might have been a prince drinking to his courtiers in a vintage of fabulous value. Those glasses alone were a marvel in themselves, and, mere fragmentary remains as they were of a past glory, told tales of what that glory must have been.</p>
@@ -202,7 +246,7 @@ been told&#2014;&#2014;'</p>
 				<p>The Baron de Nesselrode had paved the way for me. He could not complain if I took advantage of his kindness to return it. He had given me a present, and he should receive one in return. If ever I were on the brink of offending him by my good advice, I would plead my little vase as an excuse for trying to return the kindness he had shown me in the only coin I possessed.</p>
 			</div>
 			<pb n="36"/>
-			<div>
+			<div id="fm2broke004" type="chapter" n="2">
 				<head>CHAPTER II<lb/>ARTHUR THRALE</head>
 				<p>THE sun was streaming down the narrow rocky street of St. Pucelle, in one long, unbroken line of light. I could hear the shrill voice of Madame Marmoret screaming to frighten away the pigeons, as they alighted on the line she had erected in the courtyard to hang her spotless caps and aprons on; and Tessie disturbed me in the midst of writing a long letter home&#x2014;somehow, I found it difficult to get out of the habit of calling Mrs. Sandiland's place of residence <pb n="37"/>'home'&#x2014;to ask if I would take my work and go with her to sit on the brow of the hill that overlooked the valley of Artois.</p>
 				<p>'It is "pig-killing day" in St. Pucelle, Hilda, and you will find it so much pleasanter to be out of the town than in it.'</p>
@@ -313,7 +357,7 @@ goats, but not&#x2014;&#x2014;'</p>
 				<p>'Thank you so much! You are very kind,' I answered; but as the Caroluses were rich people, and I felt certain of paying the money in a day or two, I did not feel the obligation to be a weighty one. But it en-tailed my having to listen for another half-hour, at least, to the scandal Mrs. Carolus chose to retail me, until, to my infinite relief, I spied Tessie and Ange coming over the hill to put an end to the conversation.</p>
 			</div>
 			<pb n="64"/>
-			<div>
+			<div id="fm2broke005" type="chapter" n="3">
 				<head>CHAPTER III<lb/>THE SECRET</head>
 				<p>THERE was something mysterious about Mr. Lovett's manner and behaviour after he returned from that visit to Rille, which I could not account for. In the first place he was in the very best and highest of spirits, and the most extravagant dinners appeared upon the table for two days in consequence, whilst he lavished more than his usual affection and caresses upon his daughters and myself. Then, there seemed to be preparations going on for some great event.</p>
 				<pb n="65"/>
@@ -412,7 +456,7 @@ And we thought he wouldn't come till next week, until the letter arrived for pap
 				</p>
 			</div>
 			<pb n="89"/>
-			<div>
+			<div id="fm2broke006" type="chapter" n="4">
 				<head>CHAPTER IV<lb/>THE DENOUEMENT</head>
 				<p>I AM quite unable to remember what I said, or did, in the first shock of meeting him again. His presence in St. Pucelle was so utterly sudden and unexpected to me, that I should not have felt greater surprise if my dead mother had stood before me; and I do not think that, for the first few minutes, I at all believed or realised that I was face to face with the man who had embittered so large a portion of my life.</p>
 				<p>I suppose I said something, and held out <pb n="90"/>my hand to him, because he seized it eagerly, and appeared delighted at the recognition.</p>
@@ -513,7 +557,7 @@ And we thought he wouldn't come till next week, until the letter arrived for pap
 				<p>How little I thought, as I dragged myself up to my room, that her surmise would prove true.</p>
 			</div>
 			<pb n="116"/>
-			<div>
+			<div id="fm2broke007" type="chapter" n="5">
 				<head>CHAPTER V<lb/>CURED</head>
 				<p>THE chief feeling that I experienced when I came to review the events of that evening, was, that my unexpected encounter with Cave Charteris seemed to have dragged my mother out of her grave again. Until that moment I had believed that, little by little, I was learning to bear my great loss with hope and patience, if not with cheerful resignation. I had begun to think of my darling as in another and better world than this&#x2014;if not actually in heaven, at least amongst the <pb n="117"/>redeemed, willing to wait the moment of her perfection, and entirely separated from all earthly pain and trouble.</p>
 				<p>I had commenced to lose sense of the waking nightmare that had haunted me for so many weeks after her funeral; of the sight of the dead pinched face under the shrouding sheet; the waxen hands folded stiffly on her sunken breast; and over it all those horrid heavy clods of clay, the rattle of which upon her coffin lid would echo in my heart, I verily believed, until they fell upon my own. I felt the loss of her counsel, her companionship, and her love as keenly&#x2014;perhaps more keenly than when I had been first deprived of them; but I thought that time had cured me of the terrible human anguish with which I had laid her in the grave. But now it was all revived. The sight of Cave Charteris had brought it back again; brought back the memory of her maternal interest in him, <pb n="118"/>her confidence in his affection for me, and her self-reproach when we discovered that his attentions meant nothing, that she had not better guarded her one ewe lamb from the deceitfulness of the world.</p>
@@ -568,7 +612,7 @@ And we thought he wouldn't come till next week, until the letter arrived for pap
 				<p>As I lay down that night, the thought of dear old Charlie Sandilands came into my head, and I felt so glad to think that I had not known the state of my heart when he asked me to be his wife. Because, if I had, <pb n="135"/>I might, in the lonely position in which he found me, have been tempted to resign all further trouble by accepting his offer. So many women have been drawn into marriage for want of money, or companionship, or protection. And I knew now, even better than I did then, that I never could have been even decently contented as Charlie Sandiland's wife.</p>
 			</div>
 			<pb n="136"/>
-			<div>
+			<div id="fm2broke008" type="chapter" n="6">
 				<head>CHAPTER VI<lb/>TWO SERPENTS</head>
 				<p>I DO not think that if Tessie and Ange had foreseen that the presence of Mr. Charteris under their father's roof was to entail a series of visits from Miss Sophy Markham, they would have rejoiced so greatly at the acquisi-tion of their boarder. But she certainly lost no time in paying the preliminary one. As I descended to breakfast the following morning, I was surprised to hear her shrill voice from the <hi rend="italic">salle</hi>, and stopped midway in my journey to demand of Madame Marmoret in the <pb n="137"/>kitchen if it were possible that I heard aright.</p>
 				<p>Madame Marmoret, with her head tied up in a red handkerchief and gold earrings dangling from her ears, looked like a picturesque and pleased old gipsy.</p>
@@ -666,7 +710,7 @@ have seen, my dears, the things that went on between those two, you would have b
 				<p>'It frightens me,' she answered; and as I saw her pale face and lips, I believed that the insight she had experienced to falsehood had really caused her fear.</p>
 			</div>
 			<pb n="162"/>
-			<div>
+			<div id="fm2broke009" type="chapter" n="7">
 				<head>CHAPTER VII<lb/>ALL FOR TESSIE</head>
 				<p>IT was about this time that my eyes became first opened to the fact that old Mr. Lovett, notwithstanding his benevolent aspect and many protestations of affection, was exceedingly selfish with regard to his daughters. How those girls worked for, waited on, and believed in him! From the making of his bed and the setting in order of his room, to the starching and ironing of his muslin bands and the cooking of his particular dainties, Tessie and Ange did everything for him with <pb n="163"/>their own hands. And what was better, they did it cheerfully. There was never any question with them as to <hi rend="italic">which</hi> should undertake the duties; they only vied with one another to perform them first. I never saw two daughters more devoted to their father in my life: yet there was a difference in the manner with which they served him.</p>
 				<p>Ange did it with blind unwavering faith in the privilege she enjoyed. It was impossible not to read her perfect admiration and pride in the expression of her face. Her father was the highest creature in the world to her, and she the most favoured of girls to be able to call him hers.</p>
@@ -772,7 +816,7 @@ have seen, my dears, the things that went on between those two, you would have b
 				<p>As I sat in the evening light after he had left me, thinking of the interview just concluded, and softly stroking the hand he had raised to his lips, I kept on repeating, in a tone of the greatest satisfaction to myself, that I had done it all for Tessie.</p>
 			</div>
 			<pb n="194"/>
-			<div>
+			<div id="fm2broke010" type="chapter" n="8">
 				<head>CHAPTER VIII<lb/>A REVELATION</head>
 				<p>I HAD begun to be ashamed to meet Mrs. Carolus. Ange's silver earrings had only cost twenty-five francs, but I had not the wherewithal to pay for them, and I felt mean and shabby every time I saw her, and did not broach the subject of remuneration.</p>
 				<p>At last I resolved to make a second appeal to Mr. Lovett about my money. I did not feel timid this time; I felt angry. It was inconsiderate of the old man to leave me without funds for so long. It was part of the <pb n="195"/>same selfishness which made him so unmindful of his daughters' feelings, but I was not his daughter, whatever he might call me before strangers, and I determined to put up with it no longer.</p>
@@ -891,7 +935,7 @@ have seen, my dears, the things that went on between those two, you would have b
 				<p>But I felt that by the foregoing conversation I had bound myself to cleave to the fortunes of these girls until I could do them no further good. Poor patient Tessie, carrying her heavy burthen of disgrace alone, and lighthearted, unconscious Ange, dancing along the path of life as gaily as if it were all flowers and hid no secret mine which might explode at any moment and devastate her whole young, fresh existence: I could not tell which of the two I loved the more, nor which I could have the heart to forsake the sooner.</p>
 			</div>
 			<pb n="223"/>
-			<div>
+			<div id="fm2broke011" type="chapter" n="9">
 				<head>CHAPTER IX<lb/>CHARLIE</head>
 				<p>MY compact with Tessie did not, however, preclude one thing, and that was the taking advice of my friends on the state of my affairs. With the state of those of other people I had nothing to do. But I could not decide whether to write to Mr. Warrington or Mrs. Sandilands. The solicitor was, of course, the most proper person to consult on the subject, but it appeared to be such a formidable proceeding to make a regular complaint to him, and I dreaded its entailing legal inquiries, and <pb n="224"/>perhaps a complete estrangement between myself and the Lovetts. And, in that case, what would become of my promise of fidelity to Tessie? Mrs. Sandilands, on the other hand, although only a woman, had thorough good sense, and had managed all her own money affairs since her husband's death, and might be able to give me some hints by which to manage my guardian and obviate the necessity of calling in professional assistance.</p>
 				<p>So the day after I had taken that walk with Tessie, I sat down to write to Mrs. Sandilands. It was always a pleasure to me to take up the pen to address my old friend. Thoughts of the pretty countrified home which we had shared together, and of the many happy hours we had passed in each other's society, used to flow in upon me as I wielded it, and sometimes I was almost tempted to regret I had been so cold-hearted <pb n="225"/>as to be unable to claim the title of daughter so warmly offered to me. What a cheerful, comfortable fireside theirs was. I could imagine no brighter lot for some poor lonely unloved orphan than to be welcomed to the bosom of the Sandilands family&#x2014;for any orphan, that is to say, except Hilda Marsh. The bright-eyed helpful girls and the boisterous healthy boys, with their rosy cheeks and young clear voices&#x2014;I fancied I could see them at that moment gathered round the dinner-table.</p>
