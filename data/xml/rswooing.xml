@@ -139,7 +139,7 @@ ILLUSTRATIONS BY <lb/> KEMBLE AND FROST</titlePart>
 
 <pb n="[v]"/>
 <div id="rswooing200" type="list of illustrations">
-<figure id="rswooinglil" rend="inline">
+<figure entity="rswooinglil" rend="inline">
 <figDesc> List of Illustrations included in front of McEnery's "The Second Wooing of Salina Sue and Other Stories"</figDesc>
 </figure>
 </div>
@@ -147,26 +147,20 @@ ILLUSTRATIONS BY <lb/> KEMBLE AND FROST</titlePart>
 
 <pb n="[vi]"/>
 
-<group>
-<text> 
-<front> 
+<group id="rswooing99999">
+<text id="rswooing99999t1"> 
+<front id="rswooing99999f1"> 
 <pb n="[vii]"/>
-<pb entity="rswooingtp" pages="Title Page"/>
 <titlePage type="half">
 <docTitle>
-<titlePart type="main"> THE SECOND WOOING OF<lb/> SALINA SUE</titlePart>
+<titlePart type="main">THE SECOND WOOING OF<lb/>SALINA SUE</titlePart>
 </docTitle>
 </titlePage> 
+<pb/>
 </front>		    
 <body id="rswooing1204">
-
-			
-<pb n="3"/>
-
-			
+<pb entity="rswooingfp3" n="3" pages="3"/>			
 <div id="rswooing001" type="story" n="[1]">
-
-				
 <head>THE SECOND WOOING OF SALINA SUE</head>
 
 				<p>IT all came about through the investigations of the Reverend Saul Sanders, of the Buckeye Conference. Other evangelists had come to the plantation and conducted revivals, adding to the Church militant a goodly number of souls. Then things had gradually settled down in the old ruts. But with the advent of the good brother from the Buckeye Conference there began a new order of procedure.</p>
@@ -347,24 +341,20 @@ ILLUSTRATIONS BY <lb/> KEMBLE AND FROST</titlePart>
 
 				</div> </body></text>
 <pb n="[40]"/> 
-<text> <body>
 
+<text id="rswooing99999t2">
+<front id="rswooing99999f2">
 <pb n="[41]"/>
- <front>
-
-<pb entity="rswooing041" pages="Title Page"/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main"> MINERVY'S VALENTINES</titlePart>
 </docTitle>
 </titlePage>
-
 </front>
-
-<pb n="[42]"/>
+<body id="rswooing99999b2">
+<pb entity="rswooingfp42" n="[42]" pages="42"/>
 
   <div id="rswooing002" type="story" n="[2]">
-			
 	<head>MINERVY'S VALENTINES</head>
 
 				<pb n="43"/>
@@ -602,20 +592,18 @@ ILLUSTRATIONS BY <lb/> KEMBLE AND FROST</titlePart>
 			</div> </body></text>
 <pb n="[66]"/>
 			
-<text><body>
-
-	<pb n="[67]"/>	<front>
-<pb entity="rswooing067" pages="Title Page"/>
+<text>
+<front>
+<pb n="[67]"/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main"> TOBE TAYLOR'S APRIL <lb/> FOOLISHNESS</titlePart>
 </docTitle>
 </titlePage>
-
+<pb/>
 </front>
-
-<pb n="[68]"/> blank
-
+<body>
+<pb entity="rswooingfp69" n="[69]"/> 
 	<div id="rswooing003" type="book" n="[3]">
 
 				<head>TOBE TAYLOR'S APRIL FOOLISHNESS</head>
@@ -850,18 +838,19 @@ Tobe&#x2014;<hi rend="italic">perhaps</hi>.</p>
 
 			<pb n="[101]"/> 
 <text>
-<body> 
+
 <front>
 
-<pb entity="rswooing101" pages="Title Page"/>
+<pb n="[101]"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">EGYPT</titlePart>
 </docTitle>
 </titlePage>
-
+<pb/>
 </front>
-        <pb n="[102]"/> 
+<body> 
+        <pb entity="rswooingfp103" n="[103]"/> 
 
 			<div id="rswooing004" type="book" n="[4]">
 
@@ -1193,24 +1182,19 @@ and was watching him with eyes that shone like yellow fires.</p>
 
 			</div> </body></text>
 
-<text> <body>
+<text> 
 <front>
 <pb n="[148]"/> 
-<pb n="[149]"/>
-<pb entity="rswooing149" pages="Title Page"/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main">MILADY</titlePart>
 </docTitle>
-</titlePage>	
+</titlePage>
+<pb/>	
 </front>
-
-<pb n="[150]"/>
-			
-<pb n="151"/> 
-
-			
-<div id="rswooing005" type="book" n="5">
+<body>
+<pb entity ="rswooingfp151" n="[151]"/>
+<div id="rswooing005" type="story" n="5">
 
 				
 <head>MILADY</head>
@@ -1487,21 +1471,19 @@ and was watching him with eyes that shone like yellow fires.</p>
 
 			</div></body></text>
 
-<pb n="[186]"/>		
-
-<text> <body>                   
-<pb n="187"/> 
-<front> 
-<pb entity="rswooing187" pages="Title Page"/>
+<text> 
+<front>                   
+<pb/> 
 <titlePage type="half">
 <docTitle>
 <titlePart type="main"> THE ROMANCE<lb/> OF CHINAPKIN CASTLE</titlePart>
 </docTitle> 
 </titlePage>
-
+<pb/>
 </front>
-
-			<div id="rswooing006" type="book" n="[6]">
+<body>
+<pb entity="rswooingfp189" pages="189"/>
+			<div id="rswooing006" type="story" n="[6]">
 
 				<head>THE ROMANCE OF CHINKAPIN CASTLE</head>
 

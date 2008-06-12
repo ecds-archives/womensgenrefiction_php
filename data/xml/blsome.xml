@@ -108,7 +108,7 @@
 <bibl> <hi rend="italics">Gen</hi>. <hi rend="italics">i</hi>. 27</bibl></cit></epigraph>
 
 <docImprint>
-<pubPlace>LONDON:</pubPlace> <publisher>HUTCHINSON &#x0026; CO.<lb/>PUBLISHERS</publisher> <pubPlace> PATERNOSTER ROW</pubPlace></docImprint> 
+<pubPlace>LONDON:</pubPlace> <publisher>HUTCHINSON &#x0026; CO.<lb/>PUBLISHERS</publisher><pubPlace> PATERNOSTER ROW</pubPlace></docImprint> 
 </titlePage>
 <pb n="[iv]"/>
 <pb n="[v]"/>
@@ -125,7 +125,7 @@
 <text id="blsome1206">
 <front id="blsome1207">
 <titlePage type="half">
-<docTitle type="main">THE CALL</docTitle></titlePage>
+<docTitle><titlePart type="main">THE CALL</titlePart></docTitle></titlePage>
 </front><body id="blsome1208">
 <pb n="[9]"/>
 <div n="1" id="blsome001" type="story">
@@ -315,7 +315,7 @@ over the telephone; she had early decreed that it would be dangerous to do so.</
 <pb n="[35]"/>
 <text id="blsome1209"><front id="blsome1210">
 <titlePage type="half">
-<docTitle type="main">THE PHILANDERER</docTitle></titlePage>
+<docTitle><titlePart type="main">THE PHILANDERER</titlePart></docTitle></titlePage>
 <pb n="[36]"/>
 </front><body id="blsome1211">
 <pb n="37"/>
@@ -489,7 +489,7 @@ usual. "Every married man is, in a sense, bound. But though you may find it diff
 <p>She took a step nearer to him and gazed into his face with so strange and despairing a look that for the first time in his long, selfish life he felt ashamed of having made love to a woman&#x2014;ashamed, as well as bitterly sorry.</p>
 <p>"Do you still think your wife died a natural death?"</p>
 <p>"Of course I do. She was always an invalid, and her heart was in a bad state. I suppose she must have eaten something to-day at lunch that disagreed with her. Acute pain followed, and her heart gave way."</p>
-<p>"You really believe that?" The girl looked at him fixedly.
+<p>"You really believe that?" The girl looked at him fixedly.</p>
 <p>"What else can I believe?"</p>
 <p>He was puzzled by her manner. Was she trying to prolong their interview? Was she
 <pb n="59     The Philanderer"/>
@@ -575,17 +575,23 @@ pity for himself, and his eyes began to smart with unshed tears. He told himself
 <pb n="68     Some Men and Women"/>
 <p>"Yes&#x2014;no&#x2014;there may be, in the harness-room."</p>
 <p>The doctor got up and took a step forward. He laid his hand heavily on the other's shoulder.</p>
-<p>"I'd no right to ask you that question, Hardwyke. I'll forget your answer. But remember that anything you say, from now on, may be used in evidence against you."</p></p></div></div></body></text>
+<p>"I'd no right to ask you that question, Hardwyke. I'll forget your answer. But remember that anything you say, from now on, may be used in evidence against you."</p></div></div></body></text>
 <pb n="[69]"/>
 <text id="blsome1212"><front id="blsome1213">
 <titlePage type="half">
-<docTitle type="main">"GOD HAS MADE MEN SO"</docTitle></titlePage><pb n="[70]"/>
+<docTitle><titlePart type="main">"GOD HAS MADE MEN SO"</titlePart></docTitle></titlePage><pb n="[70]"/>
 </front><body id="blsome1214">
 <pb n="71"/>
 <div n="3" id="blsome010" type="story">
 <head>"GOD HAS MADE MEN SO"</head>
-<epigraph><cit><q>"Ah, my dear Alexander, God has made men so, once<lb/>
-for all!"</q></cit>&#x2014;<bibl>DOSTOIEVSKY</bibl>.</epigraph>
+<epigraph>
+<cit>
+<q>"Ah, my dear Alexander, God has made men so, once<lb/>
+for all!"
+</q>
+<bibl>&#x2014;DOSTOIEVSKY.</bibl>
+</cit>
+</epigraph>
 <div n="1" id="blsome011" type="section">
 <head>(I)</head>
 <p>"I REMEMBER thinking that you would be very much surprised."</p>
@@ -858,7 +864,7 @@ Jack? You were smoking your pipe in the business-room. Have a pipe now!"</p>
 <pb n="[105]"/>
 <text id="blsome1215"><front id="blsome1216">
 <titlePage type="half">
-<docTitle type="main">THE ANSWER</docTitle></titlePage><pb n="[106]"/>
+<docTitle><titlePart type="main">THE ANSWER</titlePart></docTitle></titlePage><pb n="[106]"/>
 </front><body id="blsome1217">
 <pb n="107"/>
 <div n="4" id="blsome015" type="story">
@@ -875,7 +881,7 @@ Jack? You were smoking your pipe in the business-room. Have a pipe now!"</p>
 <lg><l>Oh, really, my good Sir!</l>
 <l>Excuse a smile&#x2014;that's poetry, that's not science!</l>
 <l>Bless me, what would Professor Poodle say?</l></lg></q></cit></epigraph>
-<div n="1" id="blsome016" type="section">
+<div id="blsome016" type="section" n="1">
 <head>(I)</head>
 <p>SYBIL ANCORET hurried along the narrow path close to the dipping edge of the cliffs which gave the Norfolk fishing village its name of Upcliffe. In her white flannel dress she looked like some delicate winged thing borne helplessly along on the strong north wind, which even on this hot July morning gave the air a keen tang.</p>
 <p>Her heart was full of anguish, of a bitter, resentful agony which yet held a faint glimmer of hope. For the great London specialist who
@@ -928,7 +934,7 @@ between them and the sea, she saw with surprise and sharp displeasure that Nurse
 that what little colour she had left her face; and, also, that she put out her hand and groped for the handle of the low iron gate, as if she could not see it.</p>
 <p>Nurse Blake went on, in a hushed tone, "I had promised to telephone to Dr. Green if any change took place. But I could not make the exchange hear, so I went next door, and got through from there." After a moment's pause, she added, "And poor Mr. Croft is dead, too. He passed away just at the same moment as Mr. Ancoret. Isn't that strange?"</p>
 <p>But Mrs. Ancoret showed no sign of even having heard this pathetic little piece of news. She did not answer, "Yes, indeed," or, "I'm sorry to hear that," as any&#x2014;well, any nice, ordinary lady would have done. But for the fact that she was evidently stunned by grief, her silence would have been almost offensive.</p>
-<p>Side by side the two women who had shared in the losing struggle for Lance Ancoret's life, walked up the path; but when she reached the door of the house, Sybil Ancoret looked round, piteously. "I'm afraid," she whispered. "I feel so horribly afraid, nurse&#x2014;</p>"
+<p>Side by side the two women who had shared in the losing struggle for Lance Ancoret's life, walked up the path; but when she reached the door of the house, Sybil Ancoret looked round, piteously. "I'm afraid," she whispered. "I feel so horribly afraid, nurse&#x2014;"</p>
 <p>Come now, this was better!</p>
 <p>"If I were you, I'd go into the garden, and just sit down there till the doctor comes," said Nurse Blake soothingly. "There is no need for you
 <pb n="117     The Answer"/>
@@ -1238,8 +1244,8 @@ misgiving. "You do love me, don't you, Sybil?" he whispered.</p>
 <q><text><body>
 <div id="blsome150" type="letter">
 <opener><salute> Dear Mrs. Croft,</salute></opener><p>&#x2014;It would give us great pleasure if you would come in to-night, and share our very informal dinner. I expect my husband will have told you that I am going to take up golf. I'm quite looking forward to it.</p>
-<closer><signed><p>Yours sincerely,</p>
-<p><name>SYBIL ANCORET</name>.</p></signed></closer>
+<closer><salute>Yours sincerely,</salute>
+<signed>SYBIL ANCORET.</signed></closer>
 </div></body></text></q>
 <p>And then she put down her pen and stared at what she had just written. Could she have put down those words&#x2014;she, Sybil Ancoret? Three months ago the idea of writing such a note would have seemed grotesque, outrageous. But then, three months ago she had been quite a different woman from the woman she was now.</p>
 <p>She took up a book and tried to read, and then, about eleven, she went into the kitchen.</p>
@@ -1254,7 +1260,7 @@ misgiving. "You do love me, don't you, Sybil?" he whispered.</p>
 <pb n="[153]"/>
 <text id="blsome1218"><front id="blsome1219">
 <titlePage type="half">
-<docTitle type="main">THE GUN ROOM</docTitle></titlePage>
+<docTitle><titlePart type="main">THE GUN ROOM</titlePart></docTitle></titlePage>
 </front><body id="blsome1220">
 <pb n="155"/>
 <div n="5" id="blsome020" type="story">
@@ -1504,7 +1510,7 @@ quavering voice. "I don't think your ladyship ought to go in there&#x2014;if I m
 <pb n="[187]"/>
 <text id="blsome1221"><front id="blsome1222">
 <titlePage type="half">
-<docTitle type="main">ONE MAN'S WAY</docTitle></titlePage><pb n="[188]"/>
+<docTitle><titlePart type="main">ONE MAN'S WAY</titlePart></docTitle></titlePage><pb n="[188]"/>
 </front><body id="blsome1223">
 <pb n="189"/>
 <div n="6" id="blsome024" type="story">
@@ -1756,7 +1762,7 @@ painful affection for the dear little woman who lay ill upstairs. He told himsel
 <p>Gill hadn't been very sympathetic about Nelly's headache last night, but he would be sorry to hear that she was really ill in bed. Still, she would probably be quite well enough in a few
 <pb n="216     Some Men and Women"/>
 days to see him and his girl. And then a broad smile came over Gerald Maynard's face. He really could not get used to the idea of his impecunious pal's wonderful luck!</p>
-<p>Again he glanced at the envelopes addressed to his wife. They never had opened each other's letters. Very early in their married life&#x2014;in fact, on their honeymoon&#x2014;Nelly had pointed out that it was not a fair thing to do by one's correspondents.  But this was a special case. Dr. Malleson had been particularly anxious that she should not be worried with <hi rend="italic">anything</hi>.</p>
+<p>Again he glanced at the envelopes addressed to his wife. They never had opened each other's letters. Very early in their married life&#x2014;in fact, on their honeymoon&#x2014;Nelly had pointed out that it was not a fair thing to do by one's correspondents.  But this was a special case. Dr. Malleson had been particularly anxious that she should not be worried with <hi rend="italic">anything</hi>.</p>
 <p>So, after a moment's hesitation, he opened the top one of Nelly's letters. It was a friendly note from a certain Lady Swinley, with whom they had lately become acquainted, saying that if Mrs. Maynard was going north she would be so pleased to have her for a few days. But might she know as soon as possible? That was a letter which should be answered at once. How lucky that he had opened it!</p>
 <p>The next letter was Gill's. He told himself that he had better open that, too, as it would almost certainly contain some suggestion for bringing Miss Tallbridge to see them.</p>
 <p>He opened the envelope. What a tremendously long letter! Written, too, on some kind of cheap writing paper, not on Gill's usual smart club notepaper. Had Gill made a mistake and
@@ -1833,8 +1839,8 @@ life to have been able to kill Gill, swiftly, secretly, treacherously.</p>
 <pb n="[225]"/>
 <text id="blsome1224"><front id="blsome1225">
 <titlePage type="half">
-<docTitle type="main">"I GOES BY THE FACE"</docTitle></titlePage>
-</front><body id="1226">
+<docTitle><titlePart type="main">"I GOES BY THE FACE"</titlePart></docTitle></titlePage>
+</front><body id="blsome1226">
 <pb n="227"/>
 <div n="7" id="blsome029" type="story">
 <head>"I GOES BY THE FACE"</head>
@@ -2022,7 +2028,7 @@ been a young chap! There's some that runs down the war, Mrs. Pilley, but it gave
 <pb n="[253]"/>
 <text id="blsome1227"><front id="blsome1228">
 <titlePage type="half">
-<docTitle type="main">THE DUCHESS'S STORY</docTitle></titlePage>
+<docTitle><titlePart type="main">THE DUCHESS'S STORY</titlePart></docTitle></titlePage>
 </front><body id="blsome1229">
 <pb n="255"/>
 <div n="8" id="blsome032" type="story">
@@ -2228,7 +2234,7 @@ through the hall which had seen so strange and sad a scene so short a time ago.<
 <p>"The Duke always likes what I like," she said, a little stiffly. And Dr. Wakefield felt, what he very seldom had occasion to feel&#x2014;snubbed.</p>
 <p>He bent down again over the great bed. "I see she wears a wedding ring," he observed; and then, in a tone of surprise, he added, "Why, the top of her wedding finger is off. What an extraordinary thing!"</p>
 <p>The Duchess gave a sharp cry. It was clear that her nerves had been thoroughly upset by the sad end to her day.</p>
-<p>"Are you sure?" she exclaimed in an agitated voice&#x2014;"<hi rend="italic">sure</hi>, Dr. Wakefield?"</p>
+<p>"Are you sure?" she exclaimed in an agitated voice&#x2014;"<hi rend="italic">sure</hi>, Dr. Wakefield?"</p>
 <p>"Sure?" He looked round at her, puzzled. "Do you mean, am I sure that she is dead, Duchess? I haven't a doubt of it."</p>
 <p>"I don't mean that. I mean are you sure about her finger&#x2014;about the top of it being off?"</p>
 <p>"Perfectly sure. Would you like to see for yourself? There is nothing repugnant about it&#x2014;I should judge it to have been cut off a great many years ago."</p>
@@ -2267,7 +2273,7 @@ for the inquest to take place to-morrow at twelve. Do you still wish it to be he
 <pb n="284     Some Men and Women"/>
 following the old pauper woman's plain oak coffin up the stone paths of the Old Churchyard, perceived that the grave had been prepared very near the grand tomb of that duke who had been known to his contemporaries as Old Magnifico. The world does move, after all, he reflected, for was he not now witnessing an example&#x2014;albeit in a most unexpected place&#x2014;of the true brotherhood of man?</p></div></div></body></text></group>
 
-<back id="blsome1229"><div id="blsome036" type="colophon">Printed at The Chapel River Press, Kingston, Surrey.</div>
+<back id="blsome91229"><div id="blsome036" type="colophon"><p rend="center">Printed at The Chapel River Press, Kingston, Surrey.</p></div>
 
 <pb n="[1]"/>
 
