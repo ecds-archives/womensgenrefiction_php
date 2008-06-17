@@ -1,5 +1,117 @@
-<pb n="[5]"/><div id="asahmo" type="chapter" n="1"><head>AHMO'S
-PLOT;<lb/>OR,<lb/>THE GOVERNOR'S INDIAN CHILD.<lb/><milestone unit="section" rend="line"/>CHAPTER
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2 id=""> 
+<teiHeader id=""> 
+<fileDesc> 
+<titleStmt> 
+<title>Ahmo's Plot, an electronic edition</title> 
+<author><name type="person" reg="Stephens, Mrs. Ann S., 1810-1886">Mrs Ann S. Stephens</name></author> 
+</titleStmt> 
+<extent></extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2008</date> 
+<availability> 
+<p>&#x00A9; 2008, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p> </availability> </publicationStmt> 
+<seriesStmt> 
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt> 
+<name>Sheila T. Cavanagh</name> 
+<name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp> 
+</respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl>
+<author>Stephens, Mrs. Ann S.</author>.<title>Ahmo's plot</title>. <pubPlace>London</pubPlace>: <publisher>George Routledge&#x0026; Sons</publisher>, <date>1863</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc> 
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> 
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p> 
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">United States</rs> 
+<date>1800-1899</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>American literature--20th Century--Fiction.</item> 
+<item>Women authors, American--20th Century.</item> 
+<item>Local color in literature.</item> 
+<item>Marriage age.</item> 
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2008-June-17</date> 
+<respStmt> 
+<name>Shruthi Vissa,</name> 
+<resp>Encoder.</resp> 
+</respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> 
+</change> 
+</revisionDesc> 
+</teiHeader>
+<text>
+<front>
+<div id="asahmocover" type="front cover">
+<figure entity="asahmofc" rend="inline">
+<figDesc> Front cover of Mrs. Stephen' "Ahmo's Plot"</figDesc>
+</figure>
+</div>
+<pb/>
+
+<pb/>
+<pb entity="asahmotp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">Ahmo's Plot;<lb/>OR,<lb/>THE GOVERNOR'S INDIAN CHILD</titlePart>
+</docTitle>
+<byline>BY<docAuthor>MRS. ANNE S. STEPHENS,</docAuthor><lb/>AUTHOR OF "MALAESKA," "SYBIL CHASE," "ESTHER," ETC.</byline>
+<docImprint>
+<pubPlace>LONDON:</pubPlace>
+<publisher>GEORGE ROUTLEDGE &#x0026;SONS</publisher>
+<pubPlace>THE BROADWAY, LUDGATE.</pubPlace>
+</docImprint>
+</titlePage>
+</front>
+<body>
+<pb n="[5]"/>
+<div id="asahmo001" type="chapter" n="1"><head>AHMO'S
+PLOT;<lb/>OR,<lb/>THE GOVERNOR'S INDIAN CHILD.<lb/><milestone unit="section" rend="line"/>CHAPTERS
 I.<lb/>THE CASTLE.</head>
 <p>A STORM had been mustering in the sky all day long, heaping up from
 the forest in deep moans, and sweeping through the pines upon the
@@ -290,7 +402,7 @@ song which the party struck up as soon as the restraint of their
 elders was removed.</p>
 <p>"They quite forget they are strangers," said Montmorenci.</p>
 <p>"They could not please me better," replied he.</p>
-<p>The wind sighed drearily through the long passage, makitlg the
+<p>The wind sighed drearily through the long passage, making the
 candles in the tall silver candlesticks, which the servant carried
 before them, flicker and almost go out, while at quick intervals the
 lightning flashed through the narrow casements, and lighted up the old
@@ -329,7 +441,7 @@ and seated himself before the fire. "There never was a truer proverb,
 and verily Charles does not belie his race."</p><milestone
 unit="section" rend="line"/></div>
 
-<div id="asahmo" type="chapter" n="2"><head>CHAPTER II.<lb/>THE
+<div id="asahmo002" type="chapter" n="2"><head>CHAPTER II.<lb/>THE
 ISLAND.</head>
 <p>A FEW miles below Quebec lies one of the loveliest islands in the
 world; and within sight of its most beautiful point, the Falls of
@@ -458,7 +570,7 @@ green leaves and red berries when she sprung into the canoe, but it
 darkened now, and her great velvety eyes saddened heavily.</p><pb
 n="18     AHMO'S PLOT."/>
 <p>"Let us say no more," she pleaded, in the French tongue. "The child
-is little. The great white brave, her father, loves ner with all his
+is little. The great white brave, her father, loves her with all his
 soul. What chief of the Nations is strong enough to take her from
 him?"</p>
 <p>Chileli spoke proudly, her lips grew red, her eyes took fire under
@@ -618,7 +730,7 @@ as she faced the storm.</p>
 <p>Chileli knew the meaning of that song, and began to shudder. What
 if it were really death that lay in her path? She was only brave in
 her great love, and cowered down in the canoe, watching her mother's
-eyes, and praying inly to the saints her white brave worshiped.</p>
+eyes, and praying <hi rend="italics">inly</hi> to the saints her white brave worshiped.</p>
 <p>But the old woman was full of courage; her eyes brightened, her
 forehead expanded. She pulled against the current and baffled it with
 the ferocious strength of a tigress. The storm was her enemy, she
@@ -663,7 +775,7 @@ them, her voice was drowned, and the canoe was out of sight. Chileli
 was troubled, and called aloud for her mother to come back; but the
 wind alone howled an answer, and, chilled through and through, wet and
 troubled, she bent her way to the steep street, half thoroughfare,
-half stairs, which winds up to Cape Dromaud. She found her way to the
+half stairs, which winds up to Cape Dromand. She found her way to the
 castle without molestation, for the very guards were forced to take
 shelter, and she knew of a private entrance, which admitted her to the
 room, half chamber, half lodge, in which her daughter lay
@@ -674,7 +786,7 @@ was about to fling off the wet cloak, but desisted, from a keen
 anxiety to know if the Governor had been to his room and missed
 her.</p></div>
 
-<pb n="24     AHMO'S PLOT."/><div id="asahmo" type="chapter"
+<pb n="24     AHMO'S PLOT."/><div id="asahmo003" type="chapter"
 n="3"><head>CHAPTER III.<lb/>A NIGHT OF TERROR.</head>
 <p>WHEN Frontenac entered his room, he did not even glance toward the
 papers which had been spread on the table by his bed. He threw himself
@@ -920,7 +1032,7 @@ faint with the inexplicable emotions which swept over her when she
 comprehended that she was to hear the story of his life--his life in
 which hers was bound up.</p></div>
 
-<pb n="31     LIFE'S BEGINNING."/><div id="asahmo" type="chapter"
+<pb n="31     LIFE'S BEGINNING."/><div id="asahmo004" type="chapter"
 n="4"><head>CHAPTER IV.<lb/>FRONTENAC'S LIFE STORY.</head>
 <p>THE Governor began abruptly, speaking more as if thinking aloud
 than addressing his companion, while Montmorenci leaned back in his
@@ -1211,7 +1323,7 @@ plaything that served to while the gloom of a few lonely hours. She
 understood that, and though the cold left her limbs, it never left her
 heart after that night.</p></div>
 
-<pb n="39     A BROTHER'S TREACHERY."/><div id="asahmo" type="chapter"
+<pb n="39     A BROTHER'S TREACHERY."/><div id="asahmo005" type="chapter"
 n="5"><head>CHAPTER V.<lb/>FRONTENAC'S STORY CONTINUED.</head>
 <p>AT length the Governor spoke again; the firelight, wavering across
 his face, increased the ghastly expression which the torture of those
@@ -1463,7 +1575,7 @@ again."</p>
 silence--there was no comfort to offer. And in the darkness Chileli
 crouched, waiting for the end--growing colder and colder.</p></div>
 
-<pb n="46     AHMO'S PLOT."><div id="asahmo" type="chapter"
+<pb n="46     AHMO'S PLOT."/><div id="asahmo006" type="chapter"
 n="6"><head>CHAPTER VI.<lb/>CONCLUSION OF FRONTENAC'S STORY.</head>
 <p>"A WEEK after, I left France forever. At my request the king
 changed my appointment to a colonial one, and I sailed for Canada
@@ -1610,7 +1722,7 @@ fever. When they were both gone, the Indian woman struggled slowly to
 her feet, and, with death in her face, crept out of the
 chamber.</p></div>
 
-<pb n="50     AHMO'S PLOT."/><div id="asahmo" type="chapter"
+<pb n="50     AHMO'S PLOT."/><div id="asahmo007" type="chapter"
 n="7"><head>CHAPTER VII.<lb/>A PORTENT.</head>
 <p>A FORTNIGHT after the storm, the French frigate had left the
 harbor, and the Governor was once more deprived of even the poor
@@ -1624,7 +1736,7 @@ followed the strange warning of that night.</p>
 <p>For days he could not shake off the vividness of that
 impression. It was consistent with his character that he never once
 tried to mock his own heart with any imputation of having dwelt weakly
-upon a superstious folly.</p>
+upon a superstitious folly.</p>
 <p>During the time his guests were hovering about the castle,
 Frontenac scarcely saw Chileli, and then only casually; his mind was
 too engrossed by thoughts and the unusual business which pressed upon
@@ -1727,7 +1839,7 @@ her heart seemed breaking as they entered the room which was now
 haunted by the ghost of the happiness she could never know
 again.</p><milestone unit="section" rend="line"/></div>
 
-<div id="asahmo" type="chapter" n="8"><head>CHAPTER
+<div id="asahmo008" type="chapter" n="8"><head>CHAPTER
 VIII.<lb/>CULMINATION OF A SORROW.</head>
 <p>THE early Canadian winter set in with all its rigor and
 severity. To Frontenac it was a terribly lonely season, perhaps the
@@ -1861,7 +1973,7 @@ girl stooped down and pressed a passionate kiss on the still
 forehead. The canoe shot into the St. Lawrence, and floated downward,
 carrying away its heavy freight of sorrow.</p></div>
 
-<pb n="57     THE VOICE OF THE MANITOU."/><div id="asahmo" type="chapter"
+<pb n="57     THE VOICE OF THE MANITOU."/><div id="asahmo009" type="chapter"
 n="9"><head>CHAPTER IX.<lb/>THE DEATH COUCH.</head>
 <p>CHILELI lay down in her mother's lodge to die. She was too feeble
 for complaint, too gentle in her humility for any thing but
@@ -2024,7 +2136,7 @@ forest-trees without a hush, the lunar rainbow trembled over the
 Falls, and the river plunged on without a change.</p><milestone
 unit="section" rend="line"/></div>
 
-<div id="asahmo" type="chapter" n="10"><head>CHAPTER
+<div id="asahmo010" type="chapter" n="10"><head>CHAPTER
 X.<lb/>FRONTENAC'S NEW HOPE.</head>
 <p>DID Frontenac grieve over the death of that poor Indian girl? Alas,
 on this earth there is no grief so bitter and hard to endure as that
@@ -2167,7 +2279,7 @@ when the waterfall was frozen and the forests were white with snow,
 the old woman disappeared for a time, but, when the leaves were green,
 she came back again.</p><milestone unit="section" rend="line"/></div>
 
-<div id="asahmo" type="chapter" n="11"><head>CHAPTER XI.<lb/>AHMO'S
+<div id="asahmo011" type="chapter" n="11"><head>CHAPTER XI.<lb/>AHMO'S
 INCANTATION.</head>
 <p>IT was in the autumn of the second year after Frontenac's departure
 for France, that orders came to have the Gubernatorial place put in
@@ -2311,7 +2423,7 @@ also," hissed the squaw.</p>
 <p>"Does Mahaska remember her mother?" she whispered. The girl
 started, as if the question had struck some hidden wound close to her
 heart.</p>
-<p>"Ahmo knows that Mahaska has not forgotten," she tnswered,
+<p>"Ahmo knows that Mahaska has not forgotten," she answered,
 mournfully. "Why does she hurt her grandchild with questions sharp as
 the chief's arrow?"</p>
 <p>"Because the time has come for Mahaska to learn wisdom," said the
@@ -2327,10 +2439,10 @@ exultation that she could not restrain.</p>
 n="70     AHMO'S PLOT."/> came quickly, but she remained motionless
 under the keen glance which the woman bent on her from under her gray
 eyebrows.</p>
-<p>"Mahaska is not afraid?" she asked; "the white blood ih her veins
+<p>"Mahaska is not afraid?" she asked; "the white blood in her veins
 does not curdle at that name?"</p>
 <p>The girl lifted her head proudly.</p>
-<p>"Mahaska fears nothing--not even the thunder tempeak which the
+<p>"Mahaska fears nothing--not even the thunder tempest which the
 Manitou sends when he is angry."</p>
 <p>The old woman looked at her with a ferocious affection that had
 something terrible in it.</p>
@@ -2341,7 +2453,7 @@ fawn in the panther's lair."</p>
 me her Cherry Blossom, for she said the trees were white with them
 when I was born; but that day when we went to the Island where she
 died, she had no longer pleasant names for Mahaska, but held her fast
-to ber heart with great sobs that would have turned to tears in a
+to her heart with great sobs that would have turned to tears in a
 white woman's heart."</p>
 <p>The old woman writhed under these words with sudden pain, but she
 bore the terrible recollections thus called up with savage firmness;
@@ -2481,7 +2593,7 @@ she did not even hear the ponderous door close as it creaked beneath
 her grandmother's hand.</p><milestone unit="section"
 rend="line"/></div>
 
-<div id="asahmo" type="chapter" n="12"><head>CHAPTER XII.<lb/>THE NEW
+<div id="asahmo012" type="chapter" n="12"><head>CHAPTER XII.<lb/>THE NEW
 WIFE AND NEW LIFE.</head>
 <p>A LONG train was proceeding slowly through the dense forest below
 Quebec. The number of armed men that guarded it proved that it was no
@@ -2710,7 +2822,7 @@ indeed thrown off the old life as completely as if whole worlds swept
 between her and it, instead of the broad ocean which had borne her to
 that new existence.</p><milestone unit="section" rend="line"/></div>
 
-<div id="asahmo" type="chapter" n="13"><head>CHAPTER XIII.<lb/>THE
+<div id="asahmo013" type="chapter" n="13"><head>CHAPTER XIII.<lb/>THE
 LIONESS AND HER CUB.</head>
 <p>FROM the window of the chamber where we left her, Katharine, roused
 by the cannon and the tumult, watched that train wind up the hill and
@@ -2999,7 +3111,7 @@ replaced by poison, and gave it to the girl.</p>
 <p>Katharine placed it in her bosom, and went down to her canoe in
 silence.</p><milestone unit="section" rend="line"/></div>
 
-<div id="asahmo" type="chapter" n="14"><head>CHAPTER XIV.<lb/>EVIL
+<div id="asahmo014" type="chapter" n="14"><head>CHAPTER XIV.<lb/>EVIL
 CONQUERED.</head>
 <p>KATHARINE entered her lonely room. A wild tumult disturbed all her
 being. Where must she go--what should she do? Adverse passions
@@ -3105,7 +3217,7 @@ lips began to quiver, and with a burst of sobs she sprung up, snatched
 a toilet-bottle from the table, dashed it to atoms on the hearth, and
 fled from the room.</p><milestone unit="section" rend="line"/></div>
 
-<div id="asahmo" type="chapter" n="15"><head>CHAPTER XV.<lb/>KATHARINE
+<div id="asahmo015" type="chapter" n="15"><head>CHAPTER XV.<lb/>KATHARINE
 AND THE NEW MOTHER.</head>
 <p>THE festivities which followed the Governor's arrival with his
 bride had now commenced in earnest, and the countess found more of her
@@ -3279,7 +3391,7 @@ he did not notice us; but we will wait and surprise him."</p>
 <p>"No," said Katharine, "I will return to grandame; she never
 overlooks Mahaska."</p></div>
 
-<pb n="96     AHMO'S PLOT."/><div id="asahmo" type="chapter"
+<pb n="96     AHMO'S PLOT."/><div id="asahmo016" type="chapter"
 n="16"><head>CHAPTER XVI.<lb/>"OH, MOST WOEFUL NIGHT."</head>
 <p>KATHARINE went out abruptly, and joined Ahmo in the
 lodge-chamber.</p>
@@ -3611,7 +3723,7 @@ marble. It was not simple grief that possessed him, but under all was
 the horrible dread that she had been murdered by his own
 child.</p><milestone unit="section" rend="line"/></div>
 
-<div id="asahmo" type="chapter" n="18"><head>CHAPTER
+<div id="asahmo" type="chapter" n="17"><head>CHAPTER
 XVIII.<lb/>REVELATION OF THE PLOT.</head>
 <p>MAHASKA was locked in her lodge-chamber. All night long she had
 heard the tramp of a sentinel placed at the door. She was a prisoner
@@ -4117,4 +4229,4 @@ weary tone:</p>
 <p>"Now, Katharine, go to your room and pray for me, for yourself, and
 the pure spirit that is taken away."</p>
 <p>Katharine looked at him, awe-stricken; her proud young<pb
-n="119     THE DEATH-CHAMBER."/> head drooped low beneath the majesty of his sorrow, and without a word, she followed the physician from the room. When quite alone, Frontenac went slowly away, along the dim corridors, through the darkened banqueting saloons into the sublime stillness of the death-chamber, where his love lay guarded by the angels.</p></div>
+n="119     THE DEATH-CHAMBER."/> head drooped low beneath the majesty of his sorrow, and without a word, she followed the physician from the room. When quite alone, Frontenac went slowly away, along the dim corridors, through the darkened banqueting saloons into the sublime stillness of the death-chamber, where his love lay guarded by the angels.</p></div></body></text></TEI.2>
