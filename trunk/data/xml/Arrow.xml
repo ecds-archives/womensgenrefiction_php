@@ -2,8 +2,8 @@
 <teiHeader id="arrow1202"> 
 <fileDesc> 
 <titleStmt> 
-<title>The mystery of the hasty arrow, an electronic edition</title> 
-<author><name type="person" reg="Green, Anna Katherine 1846-1935">Ann Katherine Green</name></author> 
+<title>The Mystery of the Hasty Arrow, an electronic edition</title> 
+<author><name type="person" reg="Green, Anna Katharine, 1846-1935">Anna Katharine Green</name></author> 
 </titleStmt> 
 <extent>550Kb</extent> 
 <publicationStmt> 
@@ -29,7 +29,7 @@
 </seriesStmt> 
 <sourceDesc> 
 <bibl>
-<author>Green, Anna Katherine</author>. <title>The Mystery of the Hasty Arrow</title>. <pubPlace>New York</pubPlace>: <publisher>Dodd, Mead and Company</publisher>, <date>1917</date>.</bibl> 
+<author>Green, Anna Katharine</author>. <title>The Mystery of the Hasty Arrow</title>. <pubPlace>New York</pubPlace>: <publisher>Dodd, Mead and Company</publisher>, <date>1917</date>.</bibl> 
 </sourceDesc> 
 </fileDesc> 
 <encodingDesc> 
@@ -83,29 +83,25 @@
 </teiHeader>
 <text id="arrow1203">
 <front id="arrow1204">
-<div id="arrowcover" type="covers">
-<figure entity="arrowcover" rend="inline">
-<figDesc>Front cover of Green's "The Mystery of the hasty arrow"</figDesc>
-</figure>
+<div id="akgmyst9990" type="covers">
+<figure entity="akgmystcover" rend="inline">
+<figDesc>Image of the cover of <hi rend="italics">The Mystery of the Hasty Arrow</hi>.</figDesc></figure>
 </div>
 <pb/>
 <pb n="[i]"/>
 <titlePage type="half">
 <docTitle>
-<titlePart type="main">THE MYSTERY OF THE BROKEN ARROW</titlePart>
+<titlePart type="main">THE MYSTERY OF THE HASTY ARROW</titlePart>
 </docTitle>
 </titlePage>
-<pb/>
-<pb/>
 <pb n="[ii]"/>
-<div id="arrowfront" type="frontispiece">
-<figure entity="arrowfront" rend="inline">
+<div id="akgmystilltp" type="frontispiece">
+<figure entity="akgmystilltp" rend="inline">
 <p>"Do not by any show of curiosity endanger her recovery. I would not have her body or mind sacrificed on any account"</p>
 <figDesc>Frontispiece of Green's "The Mystery of the Broken Arrow"</figDesc>
 </figure>
 </div>
-<pb n="[iii]"/>
-<pb entity="arrowtp" pages="Title Page"/>
+<pb entity="akgmysttp" n="[iii]" pages="Title Page"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">THE MYSTERY OF THE HASTY ARROW</titlePart>
@@ -117,27 +113,30 @@ AUTHOR OF "THE LEAVENWORTH CASE," "INITIALS ONLY," etc.</byline>
 <pubPlace>NEW YORK</pubPlace> <publisher>DODD, MEAD AND COMPANY<lb/>PUBLISHERS</publisher> <docDate> 1917</docDate></docImprint> </titlePage>
 <pb n="[iv]"/>
 <div id="arrowcopy" type="copyright">
-<figure entity="arrowcopyright" rend="inline">
-<figDesc>Copyright page for Green's "The Mystery of the Hasty Arrow"</figDesc>
+<figure entity="akgmystcr" rend="inline">
+<figDesc>Copyright page for Green's <hi rend="italic">The Mystery of the Hasty Arrow</hi>.</figDesc>
 </figure>
 </div>
+
 <pb n="v"/>
-<div id="arrow100" type="table of contents">
-<figure entity="arrowtoc1" rend="inline">
-<figDesc>Table of Contents for Green's "The Mystery of the Hasty Arrow"</figDesc>
-</figure>
+<div id="akgmyst9998" type="Table of Contents">
+
+<figure entity="akgmystfm2" rend="inline">
+<figDesc>Table of Contents included in front of Green's <hi rend="italic">The Myster of the Hasty Arrow</hi></figDesc></figure>
+
 <pb n="vi"/>
-<figure entity="arrowtoc2" rend="inline">
-<figDesc>Table of Contents for Green's "The Mystery of the Hasty Arrow"</figDesc>
+<figure entity="akgmystfm3" rend="inline">
+<figDesc>THIS IS A TEST Table of Contents for Green's "The Mystery of the Hasty Arrow"</figDesc>
 </figure>
+
 <pb n="vii"/>
-<figure entity="arrowtoc3" rend="inline">
+<figure entity="akgmystfm4" rend="inline">
 <figDesc>Table of Contents for Green's "The Mystery of the Hasty Arrow"</figDesc>
 </figure>
 </div>
 <pb/>
 <div id="arrow200" type="list of illustrations">
-<figure entity="arrowilltoc" rend="inline">
+<figure entity="akgmystfm5" rend="inline">
 <figDesc>List of Illustrations for Green's "The Mystery of the Hasty Arrow"</figDesc>
 </figure></div> 
 </front>
@@ -227,7 +226,7 @@ into drawing herself to her full height,&#x2014;"it is not for me to conclude in
  floor. You will find none. How can an arrow be shot without a bow?"</p>
 <p>"It cannot be," came from some one at her back. "But it can be driven home like a dagger if the hand wielding it is sufficiently powerful."</p>
 <p>A cry left her lips; she seemed to listen as for some echo; then in a wild abandonment which ignored person and place she flung herself again at the dead girl's side, and before the astonished people surrounding her could intervene, she had caught up the body in her arms, and bending over it, whispered word after word into the poor child's closed ear.</p>
-<pb n="12"/></div>
+</div><pb n="12"/>
 <div id="arrow002" type="chapter" n="2">
 <head>  II <lb/>In Room B</head>
 <p>FIVE minutes later the Curator was at the 'phone calling up Police Headquarters. A death had occurred at the museum. Would they send over a capable detective?</p>
@@ -336,7 +335,7 @@ china&#x2014;I hate weapons. I shall hate them eternally after this." And she be
 <p>"I am told that when your attention was drawn to these weapons, you fell on your knees and murmured something into the dead girl's ears. How do you explain that?"</p>
 <p>"I was giving her messages to my husband. I felt&#x2014;strange as it may seem to you&#x2014;that they had fled the earth together&#x2014;and I wanted him to know that I would be constant, and other foolish things you will not wish me to repeat here. Is that all you wish to know?"</p>
 <p>Mr. Gryce bowed, and cast a quizzical glance in the direction of the Curator. Certainly for oddity this case transcended any he had had in years. With this woman eliminated from the situation, what explanation was there of the curious death he was there to investigate? As he was meditating how he could best convey to her the necessity of detaining her further, he heard a muttered exclamation from the young woman standing near her, and following the direction of her pointing finger, saw that the strange silence which had fallen upon the room had a cause. Mrs. Taylor had fainted away in her chair.</p>
-<pb n="26"/></div>
+</div><pb n="26"/>
 <div id="arrow003" type="chapter" n="3">
 <head>
 III<lb/>
@@ -396,8 +395,8 @@ works."</p>
 <p>"I had forgotten. I have something to do first. If you will kindly see that the people down there
 <pb n="37     THE HASTY ARROW"/>
 are kept from growing too impatient, I will soon join you with Mrs. Taylor, who must not be left on this floor after we have gone below."</p>
-<p>And with no further explanation of his purpose, he turned and proceeded without delay to Room B.</p>
-<pb n="38"/></div>
+<p>And with no further explanation of his purpose, he turned and proceeded without delay to Room B.</p></div>
+<pb n="38"/>
 <div id="arrow004" type="chapter" n="4">
 <head>IV<lb/>
 A STRATEGIC MOVE</head>
@@ -557,8 +556,8 @@ far as this young man was concerned. He had been so engrossed in his search for 
 <p>In his goings to and fro through the hall, he had passed the open door of Room H and noted how easily a direct flight could be made through it and Rooms I and J to the small staircase running down at the rear. Whether or not this explained the absence of anyone on this floor who by the utmost stretch of imagination could be held responsible for the accident which had occurred there, he felt it incumbent upon him to see in how short a time the escape he still believed in could be made through these rooms.</p>
 <p>Timing his steps from the pedestal nearest this end, he found that even at his slow pace it took but three minutes for him to reach the arcade leading into the court from the foot of the staircase. A
 <pb n="65     THE HASTY ARROW"/>
-man conscious of wrong and eager to escape would do it in less; and if, as possibly happened, he had to wait in the doorway of Room J till Correy and the boy had cleared the way for him by their joint run into the farther gallery, he would still have time to be well on his way to the lower floor before the cry went up which shut off all further egress. Relieved, if not contented with the prospect this gave of a new clue to his problem, he reentered the court and was preparing to renew his investigations when the arrival of the Coroner put a temporary end to his efforts as well as to the impatience of the so-called pawns, who were now allowed, one and all, to leave their posts.</p>
-<pb n="66"/></div>
+man conscious of wrong and eager to escape would do it in less; and if, as possibly happened, he had to wait in the doorway of Room J till Correy and the boy had cleared the way for him by their joint run into the farther gallery, he would still have time to be well on his way to the lower floor before the cry went up which shut off all further egress. Relieved, if not contented with the prospect this gave of a new clue to his problem, he reentered the court and was preparing to renew his investigations when the arrival of the Coroner put a temporary end to his efforts as well as to the impatience of the so-called pawns, who were now allowed, one and all, to leave their posts.</p></div>
+<pb n="66"/>
 <div id="arrow005" type="chapter" n="5">
 <head>
 V<lb/>
@@ -750,8 +749,8 @@ ends. If he was to be made to do what they wished, it would have to be through t
 <pb n="90     THE HASTY ARROW"/>
 <p>"What is he doing? " cried Mr. Travis.</p>
 <p>"Yes, what is he doing?" echoed Mr. Roberts.</p>
-<p>"Running a mark about his shoes to fix their exact location," was the grim response.</p>
-<pb n="91"/></div>
+<p>"Running a mark about his shoes to fix their exact location," was the grim response.</p></div>
+<pb n="91"/>
 <div id="arrow007" type="chapter" n="7">
 <head>
 VII<lb/>
@@ -819,7 +818,7 @@ said in passing me. She spoke in French, a language I understand, and
 she was exclaiming over her misfortune at not being allowed to
 accompany her young charge to whatever place she was going. It was
 bad, bad, she cried, and she would not
-<figure entity="arrow100" rend="inline">
+<figure entity="akgmystill100" rend="inline">
 <p>"I strolled to the door and so out in time to hear Madame's orders
 to the chauffeur. The young lady was to be taken to a museum. To a
 museum, at this early hour! and alone, alone!"</p>
@@ -889,8 +888,8 @@ comes for either Madame Duclos or Miss Willetts, notify me here; and if anyone c
 <p>"At once&#x2014;a general alarm. You can get a de-
 <pb n="108     THE HASTY ARROW"/>
 scription of her from the clerk at the Universal. She must not be allowed to leave town."</p>
-<p>Mr. Gryce sat down before the telephone. Coroner Price proceeded to acquaint the Inspector with such details of the affair as were now known. The Curator moved restlessly about. Gloom had settled upon the museum. On only one face was there a smile to be seen, but that was a heavenly one, irradiating the countenance of her who had passed from the lesser to the larger world with the joy of earth still warm in her innocent heart.</p>
-<pb n="109"/></div></div>
+<p>Mr. Gryce sat down before the telephone. Coroner Price proceeded to acquaint the Inspector with such details of the affair as were now known. The Curator moved restlessly about. Gloom had settled upon the museum. On only one face was there a smile to be seen, but that was a heavenly one, irradiating the countenance of her who had passed from the lesser to the larger world with the joy of earth still warm in her innocent heart.</p></div></div>
+<pb n="109"/>
 <div id="arrow400" type="book" n="2">
 <head>BOOK II<lb/>
 MR. X</head>
@@ -957,7 +956,7 @@ brought over these two women. As might be expected, he had no
 information of any significance to give me; nor could I obtain much
 from such members of the crew as I could get hold of. One steward
 remembered the Englishman, chiefly because he
-<figure entity="arrow118" rend="inline">
+<figure entity="akgmystill118" rend="inline">
 <p>"She is cruelly suffering from shock- no one is allowed to see her"</p>
 <figDesc>Illustration included in body of Green's "The Mystery of the
 Hasty Arrow"</figDesc>
@@ -1002,8 +1001,8 @@ conclusion: that Miss Willetts' death is not only a crime, but a premeditated on
 <p>"And I also. But as we have both said, time may clear away some of its incongruities. Meanwhile I have an experiment to propose." And leaning close to the Inspector, notwithstanding the fact that there was nobody within hearing and he knew it, he whispered a few words in his ear.</p>
 <p>The Inspector stared.</p>
 <p>"To-night?" he asked.</p>
-<p>The detective nodded.</p>
-<pb n="123"/></div>
+<p>The detective nodded.</p></div>
+<pb n="123"/>
 <div id="arrow009" type="chapter" n="9">
 <head>
 IX<lb/>
@@ -1067,8 +1066,8 @@ of hasty. The upper pedestal instead of the lower! Why should this possible fact
 <p>But why pursue conjecture when actuality only is of moment? Let us proceed with our relation and await the result.</p>
 <p>Arrived at the upper pedestal, Mr. La Fl&#x00E8;che took his place, received the third arrow and presently delivered it. The Coroner, who had already started for the other side, hastily approached the dummy, made his examination and threw up his hand with the loud shout:</p>
 <p>"The shot was made from there; the matter is settled!"</p>
-<p>Question: Had Mr. Travis wilfully misled them, or had the presumption in his favor been strengthened by this proof that it had been shown possible for another hand than his to have shot the arrow from this same section of the gallery, without disturbing his belief that he was the only person in it at the time?</p>
-<pb n="132"/></div>
+<p>Question: Had Mr. Travis wilfully misled them, or had the presumption in his favor been strengthened by this proof that it had been shown possible for another hand than his to have shot the arrow from this same section of the gallery, without disturbing his belief that he was the only person in it at the time?</p></div>
+<pb n="132"/>
 <div id="arrow55010" type="chapter" n="10">
 <head>
 X<lb/>
@@ -1106,8 +1105,8 @@ and his will carried him into full view of the whole performance."</p>
 <pb n="136      THE HASTY ARROW"/>
 Travis. Like ourselves, you gave little thought to what that upper pedestal might conceal."</p>
 <p>"You are right. I never even glanced that way. But if I had, I should have seen nothing. He was well hid, exceedingly well hid, whoever he was. But he cannot escape now; you'll get him, won't you, Inspector? He could not have left the building&#x2014; all say that this was impossible. He was one, then, of the people I saw moving about when I went down into the court. Find him! Find this murderer of innocence! of the sweetest, purest child&#x2014;"</p>
-<p>He turned away; grief was taking the place of indignation and revenge. At this sight the two men left him. The Inspector was at last convinced, both of the man's probity and of one stern, disconcerting fact: that the real culprit&#x2014;the man whose guilty fingers had launched the fatal arrow&#x2014;had been, as Travis said, one of the twenty-two persons who had been moving about for hours not only under his eyes but under those of the famous detective posted there.</p>
-<pb n="137"/></div>
+<p>He turned away; grief was taking the place of indignation and revenge. At this sight the two men left him. The Inspector was at last convinced, both of the man's probity and of one stern, disconcerting fact: that the real culprit&#x2014;the man whose guilty fingers had launched the fatal arrow&#x2014;had been, as Travis said, one of the twenty-two persons who had been moving about for hours not only under his eyes but under those of the famous detective posted there.</p></div>
+<pb n="137"/>
 <div id="arrow011" type="chapter" n="11">
 <head>
 XI<lb/>
@@ -1167,8 +1166,8 @@ this is an impression I obtained from the inner edge A of the pedestal in questi
 <p>"Gryce! Name your man; we shall get on faster."</p>
 <p>The aged detective rose.</p>
 <p>"I dare not," he said. "Give me one&#x2014;two days. I must have time to think&#x2014;to collect my evidence. A name once mentioned leaves an echo. When my echo rings, it must carry no false sound. Remember, I did not sleep last night. When I present this case to you as I see it, I must be at my best. I am not at my best to-day."</p>
-<p>This was doubtless true, but the Inspector had not discovered it.</p>
-<pb n="145"/></div>
+<p>This was doubtless true, but the Inspector had not discovered it.</p></div>
+<pb n="145"/>
 <div id="arrow012" type="chapter" n="12">
 <head>
 XII<lb/>
@@ -1215,8 +1214,8 @@ Sweetwater, rising slowly to his feet. "But a dream may help me out; we will see
 <p>"Take it, by all means."</p>
 <p>As Sweetwater turned to go, he was induced by the silence of his patron to cast a backward glance. Mr. Gryce had risen to his feet and was leaning toward him with an evident desire to speak.</p>
 <p>"My boy," said he, "if your dreams lead you to undertake the search I have mentioned, spare nobody; I say, spare <hi rend="italic">nobody</hi>."</p>
-<p>Then he sat down; and the memory which Sweetwater carried away with him of the old detective at the moment he uttered this final injunction was far from being a cheerful one.</p>
-<pb n="152"/></div>
+<p>Then he sat down; and the memory which Sweetwater carried away with him of the old detective at the moment he uttered this final injunction was far from being a cheerful one.</p></div>
+<pb n="152"/>
 <div id="arrow013"  type="chapter" n="13">
 <head>
 XIII<lb/>
@@ -1315,8 +1314,8 @@ restore the victim of his folly to life, while he himself has many days before h
 suggestion had the effect of slightly embarrassing Sweetwater. Yet he presently ventured to add after a moment of respectful waiting:</p>
 <p>"Did you know that after I woke from my dream I had a moment's doubt as to its accuracy on one point? The bow was undoubtedly flung behind the curtain, but the man&#x2014;"</p>
 <p>He paused abruptly. A morsel of clean white paper had just been pushed across the table under his eyes, and a peremptory voice was saying:</p>
-<p>"Write me his name. I will do the same for you."</p>
-<pb n="165"/></div>
+<p>"Write me his name. I will do the same for you."</p></div>
+<pb n="165"/>
 <div id="arrow014" type="chapter" n="14">
 <head>
 XIV<lb/>
@@ -1358,8 +1357,8 @@ a man would have to move fast to go the full length of the court from the Curato
 <pb n="170     THE HASTY ARROW"/>
 of a man who in all probability intends to finish up the day with a call on the girl he admires."</p>
 <p>"I understand." Sweetwater was quite himself again. "But do you know that this is no easy task you are giving me, Mr. Gryce. Where a man has but two coats, or three at best, it might not be so hard, perhaps, to get at them. But some men have a dozen, and if I don't mistake&#x2014;"</p>
-<p>"Sweetwater, I meant to give you a task of no little difficulty. It will keep you out of mischief."</p>
-<pb n="171"/></div>
+<p>"Sweetwater, I meant to give you a task of no little difficulty. It will keep you out of mischief."</p></div>
+<pb n="171"/>
 <div id="arrow010" type="chapter" n="10">
 <head>
 XV<lb/>
@@ -1404,7 +1403,7 @@ out, among a lot of nonsensical gossip. Mr. X, the real Mr. X this time, has, be
 <p>"The young lady, whose name he never mentioned, lives not in the
 city but in that same Long Island village where Mr. X's country-house
 is in
-<figure entity="arrow178" rend="inline">
+<figure entity="akgmystill178" rend="inline">
 <p>"It cannot be, now. Circumstances have changed for me lately,
 and much as i regret it I must ask you to be so good as to forgive me
 for giving up your plans"</p>
@@ -1492,8 +1491,8 @@ ing in the direction of the house, and at this moment were not many paces from i
 <p>"And a chat with a friend. Yes, I do; but if the museum were open&#x2014;"</p>
 <p>Mr. Roberts smiled.</p>
 <p>"I see that you are incorrigible." Then, with a gesture toward the house: "Come and see my new veranda. Its outlook will surprise you."</p>
-<p>As you have already surmised, he was the owner of this place; and the man for whose better understanding Sweetwater had again taken up the plane and the hammer.</p>
-<pb n="191"/></div>
+<p>As you have already surmised, he was the owner of this place; and the man for whose better understanding Sweetwater had again taken up the plane and the hammer.</p></div>
+<pb n="191"/>
 <div id="arrow017" type="chapter" n="17">
 <head>
 XVII<lb/>
@@ -1563,8 +1562,8 @@ might be expected, very proud of his new acquisition and quite blind to the cont
 <p>"I warrant ye it's all right," he said. "But look, an ye will. I don't want to lose no dimes."</p>
 <p>Sweetwater threw back one side of the coat, then
 <pb n="202     THE HASTY ARROW"/>
-the other, felt in the pockets and smiled. But Gryce, and not ignorant Father Dobbins, should have seen that smile. There was comedy in it, and there was the deepest tragedy also; for the marks of stitches forcibly cut were to be seen under one of the pockets &#x2014;stitches which must have held something as narrow as an umbrella-band and no longer than the little strip at which Mr. Gryce had been looking on night in a melancholy little short of prophetic.</p>
-<pb n="203"/></div>
+the other, felt in the pockets and smiled. But Gryce, and not ignorant Father Dobbins, should have seen that smile. There was comedy in it, and there was the deepest tragedy also; for the marks of stitches forcibly cut were to be seen under one of the pockets &#x2014;stitches which must have held something as narrow as an umbrella-band and no longer than the little strip at which Mr. Gryce had been looking on night in a melancholy little short of prophetic.</p></div>
+<pb n="203"/>
 <div id="arrow018" type="chapter" n="18">
 <head>
 XVIII<lb/>
@@ -1647,7 +1646,7 @@ myself all of a sudden sitting up in bed and listening with all my
 ears. Everything was quiet, even on the elevated road; but when the
 next train came thundering along, I heard, piercing shrilly through
 the rumble
-<figure entity="arrow216" rend="inline">
+<figure entity="akgmyst216" rend="inline">
 <p>"As I was waiting for the passing by of the next train, my last
 lodger came in and caught me standing there before Mrs. Clery's door"</p>
 <figDesc> Illustration included between pages 216 and 217 of Green's "The Mystery of the
@@ -1679,8 +1678,8 @@ that all the middle part was gone&#x2014;shot to pieces by those tearing bullets
 <p>"What do you mean by that?"</p>
 <p>"I hardly know myself, Chief. All is hazy yet, but skies clear, and so do most of our problems. If the two ends of my string should chance to come together&#x2014;"</p>
 <p>But here a look from his Chief stopped him.</p>
-<p>" Let us pray that they won't. But if they do, we shall not shirk our duty, Gryce."</p>
-<pb n="220"/></div>
+<p>" Let us pray that they won't. But if they do, we shall not shirk our duty, Gryce."</p></div>
+<pb n="220"/>
 <div id="arrow019" type="chapter" n="19">
 <head>
 XIX<lb/>
@@ -1796,8 +1795,8 @@ pressing his thanks for her candor, he rose to depart.</p>
 <p>Mrs. Duclos answered with some dignity that she had three daughters.</p>
 <p>"You are fortunate, madame," he remarked with his old-fashioned bow. "I live alone. My last grandchild left me a year ago for a man many years my junior."</p>
 <p>This brought the little one into his view. She was smiling, and he went away in a state of relief marred by but one regret:</p>
-<p>He was as ignorant as ever where to look for the mother of Angeline.</p>
-<pb n="234"/></div>
+<p>He was as ignorant as ever where to look for the mother of Angeline.</p></div>
+<pb n="234"/>
 <div id="arrow020" type="chapter" n="20">
 <head>
 XX<lb/>
@@ -1832,8 +1831,8 @@ I have obeyed her," he added with a touch of senility in his quiet chuckle which
 <pb n="239     THE HASTY ARROW"/>
 <p>But she was too wary, or too much preoccupied with her own affairs, to let the cat any farther out of the bag, and he had to be content with her promise, that the package should be given to the expressman as early as possible the next morning.</p>
 <p>The feebleness he showed while leaving the shop was in marked contrast, however, to the vigor with which he took down the telephone-receiver in the booth of the neighboring drug-store. But she was not there to see; nor anyone else who had the least interest in his movements. He could, therefore, give all the emphasis he desired to the demand he made upon Headquarters for a close watch to be set on the adjoining drygoods shop, for the purpose of intercepting and obtaining the address of a certain package, on the point of being expressed from there to some place up the river.</p>
-<p>Then he went home; for by now he was fully as tired as his years demanded.</p>
-<pb n="240"/></div>
+<p>Then he went home; for by now he was fully as tired as his years demanded.</p></div>
+<pb n="240"/>
 <div id="arrow021" type="chapter" n="21">
 <head>
 XXI<lb/>
@@ -1876,7 +1875,7 @@ know better what to do, then." She pointed to a bolt of striped
 wool&#x2014;a little gaudy for a woman whose taste they had both been
 speaking of as inclined to the plain and somber.</p> <p>"That? But
 that's bright enough. I've never seen her in that."</p>
-<figure entity="arrow244" rend="inline">
+<figure entity="akgmystill244" rend="inline">
 <p>All my lodgers were in but one, a young gentleman who has a night-key"</p>
 <figDesc>Illustration between pages 244 and 245 of Green's "The Mystery of
 the Hasty Arrow"</figDesc>
@@ -1901,8 +1900,8 @@ in the end to be the best thing that could happen to him. He accordingly took a 
 <p>Perhaps because she sat so unnaturally still. In all the time he stared at her simple bonnet and decently clothed shoulders, the silhouette she made against the silver band of the river did not change by an iota. He had been agaze upon the landscape too, but he was sure that he had not sat as still as this, and when, after an interval during which he had turned to see what kind of man it was who had spoken so vigorously, he wheeled back into place and glanced out again through his window, she was there yet, hat, shoulders and all, immovable as an image and almost as rigid.</p>
 <p>Well, and what of it? There was surely nothing very remarkable in so commonplace a fact; yet during the ensuing half-hour, during which he gave, or tried to give, the greater part of his attention to the political talk which followed the statements he had heard made in regard to the needs of a certain factory, his eye would turn riverward from time to time and always with a view to see if this woman had moved. And not once did he detect the least change in her attitude.</p>
 <pb n="248     THE HASTY ARROW"/>
-<p>"She will sit there all night," he muttered to himself; and after a while his curiosity mounted to such a pitch that he got up and went out on the piazza for one of his short strolls. </p>
-<pb n="249"/> </div>
+<p>"She will sit there all night," he muttered to himself; and after a while his curiosity mounted to such a pitch that he got up and went out on the piazza for one of his short strolls. </p></div>
+<pb n="249"/>
 
 <div id="arrow022" type="chapter" n="22">
 <head>XXII<lb/>
@@ -1968,8 +1967,8 @@ been taken from the child's hat and pinned upon the aunt's; and it was their fam
 <p>"Will you be obliging enough to see that I'm given an opportunity for a few words with this Phil Jenkins on his return?" he asked. "And if you will be so good, respect my confidence till I am sure I have made no mistake in thinking what I have of his passenger."</p>
 <p>The proprietor nodded, and Mr. Gryce settled himself again inside to watch for the rowboat's return.</p>
 <p>What he learned that night from this man Jenkins calmed him still further. The woman had acknowledged, on leaving him, that she was going to seek work at the factory. "A little old for the job," the man volunteered, "but spry. How she did clamber up that bank!"</p>
-<p>It was enough; Mr. Gryce was satisfied, and engaged a seat in his small boat for the following day.</p>
-<pb n="258"/></div>
+<p>It was enough; Mr. Gryce was satisfied, and engaged a seat in his small boat for the following day.</p></div>
+<pb n="258"/>
 <div id="arrow023" type="chapter" n="23">
 <head>
 XXIII<lb/>
@@ -2112,8 +2111,8 @@ intention of hiding herself in the remote village to which she had ordered her m
 <p>He would proceed then in her wake, conscious of the fresh disappointment which awaited her in the loss, through Miss Brown's sudden death, of the asylum she counted upon. Could he have gone on foot like herself, he might have been tempted to do so, for a trail is best followed slowly and with ear and eye very close to the ground. But as this was beyond his strength, he must wait till an automobile could be procured, and possibly till Sweetwater should arrive&#x2014;for Perry was no man for this job. There were no automobiles in this small town, and it might be necessary to send up or down the river some distance before one could be found capable of carrying them over the precipitous road they would be obliged to take in order to avoid the washout which had driven them to this extremity.</p>
 <p>But all would come right in time; and with Sweetwater at his elbow, the journey would be made and
 <pb n="281     THE HASTY ARROW"/>
-the woman caught, soon enough for him no doubt, hard as he felt it to wait. Why so hard, he might have found it difficult to say, since hitherto he had found it easy enough when the goal seemed sure and it was only with time he had to reckon!</p>
-<pb n="282"/></div>
+the woman caught, soon enough for him no doubt, hard as he felt it to wait. Why so hard, he might have found it difficult to say, since hitherto he had found it easy enough when the goal seemed sure and it was only with time he had to reckon!</p></div>
+<pb n="282"/>
 <div id="arrow025" type="chapter" n="25">
 <head>
 XXV<lb/>
@@ -2218,7 +2217,7 @@ THE FACE IN THE WINDOW</head>
 <p>"IS this the place?"</p>
 <p>"According to our instructions, yes. The first house after the first turn to the right. We took the first turn, and this is the first house. Romantic situation, eh? But a bit lonesome for a city chap? Shall I help you down?"</p>
 <p>While talking, Sweetwater, who was already in the road, held up his elbow to Mr. Gryce, who slowly descended. It was early morning, and the glory of sunshine was everywhere misleading the eye from the ravages of the night before; yet neither of these two men wore an air in keeping with the freshness of renewed life and the joyous aspect of exultant nature. There seemed to be an oppression upon them both&#x2014;a hesitation not common to either, and to all appearance without cause.</p>
-<p>To end what he probably considered a weakness, Sweetwater approached the door staring somewhat blankly from the flat front of the primitive old house whose privacy they were about to invade, and <pb n="300"/>
+<p>To end what he probably considered a weakness, Sweetwater approached the door staring somewhat blankly from the flat front of the primitive old house whose privacy they were about to invade, and 
 <pb n="300     THE MYSTERY OF"/>
 rapped on its weather-beaten panels, first gently and then with quick insistence.</p>
 <p>There was no response from within; no sound of movement; no token that he had been so much as heard. Sweetwater turned and consulted his companion before making another attempt.</p>
@@ -2258,6 +2257,7 @@ the police authorities of New York. Your daughter&#x2014;"</p>
 <p>"I've nothing to say&#x2014;nothing. Will you take that for your answer and let me go?"</p>
 <p>"Alas, madam, we cannot!" spoke up Mr. Gryce in his calm, benevolent way. "Miss Duclos' death was of a nature demanding an inquest. Your testimony, hard as it may be for you to give it, is necessary for a righteous verdict. That is all we want&#x2014;"</p>
 <p>"It is too much!" she cried. And with a quick glance upward she took another step or two along the bridge till she had reached the broken rail; and before Sweetwater in his dismay could more than give a horrified bound in her direction, she had made the fatal leap and was gone from their sight into the gorge below.</p></div></div>
+
 <pb n="[305]"/>
 <div id="arrow600" type="book" n="4">
 <head>
@@ -2481,7 +2481,7 @@ some result. That's what I reckon on now, if the business falls first to me."</p
 <p>"I don't understand myself; but this is a case which will never come into court."</p>
 <p>"I differ with you. I almost saw confession in his face when he turned upon me at last with that extravagant expression of admiration for the woman you say he meant to kill."</p>
 <p>"Why did his finger go so continuously to his vest pocket? When you answer that, I will give a name to what I just called <hi rend="italic">chance."</hi></p>
-<pb n="344"/></div>
+</div><pb n="344"/>
 <div id="arrow030" type="chapter" n="30">
 <head>
 XXX<lb/>
@@ -2601,7 +2601,7 @@ other. Perhaps this weapon of destruction was meant for one it failed to reach. 
 <p>"Attested to by her? I do not believe it. I never shall believe it, and I deny the charge. The ravings of a sick woman,&#x2014;if it is such you have listened to&#x2014;"</p>
 <p>"I advise you to stop there, Mr. Roberts," interjected the District
 Attorney. "Mrs. Taylor has
-<figure entity="arrow362" rend="inline">
+<figure entity="akgmystill362" rend="inline">
 <p>Rising, for her eyes seemed to draw him to his feet, he cried:
 "Shadows are falling upon me"</p>
 <figDesc>Illustration between pages 362 and 363 of Green's "The Mystery of
@@ -2776,7 +2776,7 @@ thing to me, gentlemen." Here she surveyed them one after the other with her pro
 <p>"I want to get at the works inside," she appealed to them with a
 helpless accent. "Can you tear off the back? That would be the
 quickest way. But
-<figure entity="arrow390" rend="inline">
+<figure entity="akgmystill390" rend="inline">
 <p>Breaking down now utterly, she fell on her knees sobbing out her
 soul at the feet of him from whose honor she had torn the last poor,
 pitiful shred</p>
