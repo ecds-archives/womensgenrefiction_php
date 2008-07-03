@@ -3,7 +3,7 @@
 <fileDesc> 
 <titleStmt> 
 <title>Tales for Christmas Eve, an electronic edition</title> 
-<author><name reg="Broughton, Rhoda 1840-1920">Rhoda Broughton</name></author> 
+<author><name reg="Broughton, Rhoda, 1840-1920">Rhoda Broughton</name></author> 
 </titleStmt> 
 <extent></extent> 
 <publicationStmt> 
@@ -1282,7 +1282,11 @@ life, the event that I think stands out most clearly from it is my dream and my 
 <pb n="[197]"/>
 <text>
 <front>
-<head rend="center">UNDER THE CLOAK.</head>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main">UNDER THE CLOAK.</titlePart>
+</docTitle>
+</titlePage>
 </front>
 
 
@@ -1404,6 +1408,7 @@ a bad habit which I have since seen fit to abandon.</p>
 </text>
 </group>
 <back>
+<pb entity="rbtalesextra1" pages="colophon"/>
 <div id="rbtalesbm1" type="colophon">
 <p> PRINTING OFFICER OF THE PUBLISHER</p>
 </div>

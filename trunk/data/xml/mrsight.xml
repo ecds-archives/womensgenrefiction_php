@@ -8,7 +8,7 @@
 
 <title>Sight Unseen and The Confession, an electronic edition</title>
 
-<author n="Rinehart, Mary Roberts, 1876-1958"> Mary Roberts Rinehart</author>
+<author><name type="person" reg="Rinehart, Mary Roberts, 1876-1958"> Mary Roberts Rinehart</name></author>
 
 </titleStmt>
 <extent></extent>
@@ -34,7 +34,7 @@
 <resp>Principal Investigators</resp> </respStmt> 
 </seriesStmt> 
 <sourceDesc>
-<bibl><author>Rinehart, Mary Roberts</author>. <title>Sight Unseen and The Confession</title>. <pubPlace>New York</pubPlace>: <publisher>George E. Doran Company.</publisher>, <date>1921</date>.</bibl> </sourceDesc> </fileDesc> <encodingDesc> 
+<bibl><author>Rinehart, Mary Roberts</author>. <title>Sight Unseen and The Confession</title>. <pubPlace>New York</pubPlace>: <publisher>George E. Doran Company</publisher>, <date>1921</date>.</bibl> </sourceDesc> </fileDesc> <encodingDesc> 
 <projectDesc>
 <p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
 </projectDesc> 
@@ -68,8 +68,8 @@
 <item>Women authors, American--20th Century.</item> 
 <item>Detective fiction.</item> 
 <item>Psychology.</item> 
-<item>Telephones</item>
-<item>Murder</item>
+<item>Telephones.</item>
+<item>Murder.</item>
 </list> 
 </keywords>
 </textClass> 
@@ -93,15 +93,13 @@
 <figDesc>The spine of Sigh Unseen and the Confession."</figDesc>
 </figure>
 </div>
-<pb n="[1]"/>
-<pb entity="rbgoodbyetp" pages="Title Page"/>
+<pb entity="mrsightfm1" pages="Title Page" n="[1]"/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main">SIGHT UNSEEN AND <lb/> THE CONFESSION</titlePart>
 </docTitle>
 </titlePage>
-<pb/>
-<pb n="[3]"/>
+<pb entity="mrsightfm2" n="[3]"/>
 <titlePage type="full">
 <byline> THE WORKS OF <lb/> MARY ROBERTS RINEHART</byline>
 <titlePart type="main"> SIGHT UNSEEN <lb/> &#x0026;<lb/> THE CONFESSION</titlePart>
@@ -144,11 +142,10 @@
 <pb/>
 
 <pb n="9"/>
-<div id="mrsight200" type="story" n="1">
+<div id="mrsight200" type="story" n="1"><head>SIGHT UNSEEN</head>
 <div id="mrsight0001" type="chapter" n="1">
 
-<head>SIGHT UNSEEN<lb/>
-SIGHT UNSEEN<lb/>I </head>
+<head>SIGHT UNSEEN<lb/>I</head>
 
 <p>THE rather extraordinary story revealed by the experiments of the Neighborhood Club have been until now a matter only of private record. But it seems to me, as an active participant in the investigations, that they should be given to the public; not so much for what they will add to the existing data on psychical research, for from that angle they were not unusual, but as yet another exploration into that still uncharted territory, the human mind.</p>
 
@@ -865,12 +862,12 @@ Herbert muttered something about the movies having nothing on us, and was angril
 <p>I had, however, removed my collar and tie, and my watch, carefully wound, was on the smoking-stand beside me.</p>
 
 </div>
-
+<pb n="64"/>
 <div id="mrsight005" type="chapter" n="5">
 
 <head>V</head>
 
-<pb n="64"/>
+
 
 <p>The death of Arthur Wells had taken place on Monday evening. Tuesday brought nothing new. The coroner was apparently satisfied, and on Wednesday the dead man's body was cremated.</p>
 
@@ -2341,10 +2338,8 @@ But the fact remains&#x2014;&#x2014;" He was hurt in his pride of her.</p>
 
 <pb n="175"/>
 
-<div id="mrsight300" type="story" n="2">
-<div id="mrsight001" type="chapter" n="1">
-
-<head>THE CONFESSION <lb/>I</head>
+<div id="mrsight300" type="story" n="2"><head>THE CONFESSION</head>
+<div id="mrsight001" type="chapter" n="1"><head>I</head>
 
 <p>I AM not a susceptible woman. I am objective rather than subjective, and a fairly full experience of life has taught me that most of my impressions are from within out rather than the other way about. For instance, obsession at one time a few years ago of a shadowy figure on my right, just beyond the field of vision, was later exposed as the result of a defect in my glasses. In the same way Maggie, my old servant, was during one entire summer haunted by churchbells and considered it a personal summons to eternity until it was shown to be in her inner ear.</p>
 
