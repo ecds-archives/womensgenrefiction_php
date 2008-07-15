@@ -3,7 +3,7 @@
 <fileDesc> 
 <titleStmt> 
 <title>A Hidden Chain, volume I, an electronic edition</title> 
-<author n="Russell, Dora">Dora Russell</author> 
+<author><name type="person" reg="Russell, Dora">Dora Russell</name></author> 
 </titleStmt>
 <extent>300kb</extent> 
 <publicationStmt> 
@@ -31,7 +31,7 @@
 <sourceDesc> 
 <bibl><author>Russell, Dora</author>. 
 <title>A Hidden Chain, volume I</title>. 
-<pubPlace>London</pubPlace>: <publisher>Digby, Long and Co. Publishers.</publisher>, 
+<pubPlace>London</pubPlace>: <publisher>Digby, Long and Co., Publishers.</publisher>, 
 <date>[189?]</date>.</bibl> 
 </sourceDesc> 
 </fileDesc> 
@@ -82,6 +82,7 @@
 </teiHeader> 
 <text id="dr1chain1203">
 <front id="dr1chain1204">
+
 <pb n="[ii]"/>
 <titlePage type="half">
 <docTitle>
@@ -102,6 +103,7 @@ In Three Volumes <lb/> <hi rend="italics">Vol. I</hi> <lb/> Second Edition</byli
 <pubPlace>18  BOUVERIE STREET, FLEET STREET. E.C.</pubPlace> 
 </docImprint>
 </titlePage>
+
 <pb n="[vi]"/>
 <div id="dr1chain000" type="table of contents">
 <figure entity="dr1chaintc1" rend="inline">

@@ -2,8 +2,8 @@
 <teiHeader id="dr3chain1202">
 <fileDesc>
 <titleStmt>
-<title> The Hidden Chain, volume III, an electronic edition</title>
-<author n="Russell, Dora">Dora Russell</author>
+<title>A Hidden Chain, volume III, an electronic edition</title>
+<author><name type="person" reg="Russell, Dora">Dora Russell</name></author>
 </titleStmt>
 <extent>300kb</extent>
 <publicationStmt>
@@ -86,13 +86,13 @@
 <text id="dr3chain1203">
 <front id="dr3chain1204">
 
-<pb entity="dr3chaintp" pages="Title Page"/>
+<pb n="[iii]"/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main">A Hidden Chain</titlePart>
 </docTitle>
 </titlePage>
-
+<pb entity="dr3chaintp" pages="Title Page" n="[v]"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main"> A Hidden Chain</titlePart>

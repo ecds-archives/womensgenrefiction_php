@@ -8,7 +8,7 @@
 
 <title> The Haunted Photograph, an electronic edition</title>
 
-<author n="Stuart,Ruth McEnery, 1856-1917">Ruth McEnery Stuart</author>
+<author><name type="person" reg="Stuart,Ruth McEnery, 1856-1917">Ruth McEnery Stuart</name></author>
 
 </titleStmt>
 
@@ -72,9 +72,9 @@
 <item>Women authors, American--20th Century.</item> 
 <item>Ghosts.</item> 
 <item>Regional realism--Southeast.</item>
-<item>Short stories</item>
-<item>Slavery</item>
-<item>Reconstruction</item> 
+<item>Short stories.</item>
+<item>Slavery.</item>
+<item>Reconstruction.</item> 
 </list> 
 </keywords> 
 </textClass> 
@@ -102,24 +102,20 @@
 <pb/>
 
 <pb n="[i]"/>
-<pb entity="rshaunttp" pages="Title Page"/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main">THE HAUNTED PHOTOGRAPH</titlePart>
 </docTitle>
 </titlePage>
 
-<pb/>
-<pb/>
-
 <pb n="[iv]"/>
 <div id="rshauntfm1" type="frontispiece">
-<figure entity="rshauntill" rend="inline">
+<figure entity="rshauntill1" rend="inline">
 <figDesc>Illustration at the front of Stuart's "The Haunted Photograph"</figDesc>
 </figure>
 </div>
 
-<pb n="[v]"/>
+<pb entity="rshaunttp" n="[v]"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main"> THE HAUNTED PHOTOGRAPH <lb/> WHENCE AND WHITTIER <lb/> A CASE IN DIPLOMACY <lb/> THE AFTERGLOW</titlePart>
@@ -132,7 +128,7 @@
 
 <pb n="[vi]"/>
 <div id="rshauntfm2" type="copyright">
-<figure entity="rshaunttpv" rend="inline">
+<figure entity="rshauntcrp" rend="inline">
 <figDesc> Copyright for Stuart's "The Haunted Photograph"</figDesc>
 </figure>
 </div>
@@ -168,12 +164,12 @@
 </titlePage>
 		 </front>
 	       <body id="rshaunt1204">
-
+<pb n="3"/>
 			<div id ="rshaunt300" type="story" n="1">
 
 				<head>THE HAUNTED PHOTOGRAPH</head>
 
-				<pb n="3"/>
+				
 
 				<p>TO the ordinary observer it was just a common photograph of a cheap summer hotel. It hung, sumptuously framed in plush, over the widow Morris's mantel, the one resplendent note in an otherwise modest home, in a characteristic Queen Anne village.</p>
 
@@ -219,17 +215,17 @@
 				she had thought for one brief moment
 				that he <pb n="10"/>
 
-<figure entity="rshauntill2" rend="inline">
-<p>She fanned herself with the asbestos mat</p>
-<figDesc> Illustration included in body of Stuart's "The Haunted
-Photograph"</figDesc>
-</figure>
+
+
+
 
 was beckoning to her&#x2014;and that she might have to go to him, and she was beginning to experience terror with shortness of breath and other premonitions of sudden passing when she discovered that he was merely killing flies and she flurriedly fanned herself with the asbestos mat which she had seized from the stove beside her and staggered out to a seat under the mulberries, as she stammered in broken accents:</p>
 
 				<p>"I do <hi rend="italic">de-clare</hi> Morris 'll be the death of me, yet. He 's most as much care to me dead as he was alive. . . . I made sure&#x2014;made sure he 'd come after me!''</p>
 
-				<p>And then, challenging her own fidelity, she hastened to add, "Not that I hadn't rather go to him than to take any trip in the world, but&#x2014;but I never did fancy that hotel, and since I've got used to seein' him there so constant, I feel sure that 's where we 'd put up. My belief is, anyway, that if there 's hereafters for some things, <pb n="11"/>there 's hereafters for all. From what I can gather, I reckon I 'm a kind of a cross between a Sweden-borgeian and a Gatesajar&#x2014;that, of course, engrafted on to a Methodist. Now, that hotel, when it was consumed by fire, which to it was the same as mortal death, why, it either ascended into Heaven, in smoke, or it fell, in ashes&#x2014;to the other place. If it died worthy, like as not it 's undergoin' repairs now for a 'mansion,' jasper cupolas, an'&#x2014;but, of course, such as that could be run up in a twinklin'.</p>
+				<p>And then, challenging her own fidelity, she hastened to add, "Not that I hadn't rather go to him than to take any trip in the world, but&#x2014;but I never did fancy that hotel, and since I've got used to seein' him there so constant, I feel sure that 's where we 'd put up. My belief is, anyway, that if there 's hereafters for some things, <figure entity="rshauntill2" rend="inline"><p>She fanned herself with the asbestos mat</p><figDesc> Illustration included in body of Stuart's "The Haunted
+Photograph"</figDesc>
+</figure><pb n="11"/>there 's hereafters for all. From what I can gather, I reckon I 'm a kind of a cross between a Sweden-borgeian and a Gatesajar&#x2014;that, of course, engrafted on to a Methodist. Now, that hotel, when it was consumed by fire, which to it was the same as mortal death, why, it either ascended into Heaven, in smoke, or it fell, in ashes&#x2014;to the other place. If it died worthy, like as not it 's undergoin' repairs now for a 'mansion,' jasper cupolas, an'&#x2014;but, of course, such as that could be run up in a twinklin'.</p>
 
 				<p>"Still, from what I've heard, it's more likely gone down to its deserts. It would seem hard for a hotel with so many awned-off corridors an' palmed embrasures with teet-a-teet sofas to live along without sin."</p>
 
@@ -237,11 +233,7 @@ was beckoning to her&#x2014;and that she might have to go to him, and she was be
 
 				<p>"Yes, Kitty! Spit away!" she ex-<pb
 				n="12"/>
-<figure entity="rshauntill3" rend="inline">
-<p> The cat glaring at the picture</p>
-<figDesc> Illustration included in body of Stuart's "The Haunted
-Photograph"</figDesc>
-</figure>
+
 
 claimed. "Like as not you see even more than I do!"</p>
 
@@ -253,7 +245,11 @@ claimed. "Like as not you see even more than I do!"</p>
 
 				<p>A neighbor who chanced to come in at the time, unobserved, overheard the last remark and Mrs. Morris, seeing that she was there, continued in an unchanged tone, while she gave her a chair,</p>
 
-				<p>"Of course, Mis' Withers, you know or can easy guess who I refer to. I mean that combly-featured wench thet kep' the books an' answered the telephone at the hotel&#x2014;<pb n="13"/>when she found the time from her meddlin'. Somehow, I never thought about her bein' burned in with Morris till Puss give her away. Puss never did like the girl when she was alive an' the first time I see her scratch an' spit at the picture, just the way she used to do whenever <hi rend="italic">she</hi> come in sight, why it just struck me like a clap o' thunder out of a clear sky that Puss knew who she was a-spittin' at&#x2014;an' I switched around sudden&#x2014;an' glanced up sudden&#x2014;an',&#x2014;</p>
+				<p>"Of course, Mis' Withers, you know or can easy guess who I refer to. I mean that combly-featured wench thet kep' the books an' answered the telephone at the hotel&#x2014;<figure entity="rshauntill3" rend="inline">
+<p> The cat glaring at the picture</p>
+<figDesc> Illustration included in body of Stuart's "The Haunted
+Photograph"</figDesc>
+</figure><pb n="13"/>when she found the time from her meddlin'. Somehow, I never thought about her bein' burned in with Morris till Puss give her away. Puss never did like the girl when she was alive an' the first time I see her scratch an' spit at the picture, just the way she used to do whenever <hi rend="italic">she</hi> come in sight, why it just struck me like a clap o' thunder out of a clear sky that Puss knew who she was a-spittin' at&#x2014;an' I switched around sudden&#x2014;an' glanced up sudden&#x2014;an',&#x2014;</p>
 
 				<p>"Well, what I seen, I seen! There was that beautied-up type-writer settin' in the window-sill o' Morris's butler's pantry&#x2014;an' if she didn't wink at me malicious, then I don't know malice when I see it. An' she used her fingers against her nose, too, most defiant an' impolite. So I says to Puss, I says, 'Puss,' I says, 'there 's <hi rend="italic">goin's on</hi> in that hotel, sure as fate. Annabel Bender has got the better o' me, for once!' An' tell the truth, it did spoil the <pb n="14"/>photograph for me, for a while, for, of course, after that, if I did n't see him somewheres on the watch for his faithful spouse, I 'd say to myself, 'He 's inside there with that pink-featured hussy!'</p>
 
@@ -276,18 +272,18 @@ claimed. "Like as not you see even more than I do!"</p>
 				perfume and, looking up, whom did she
 				see but the blonde lady <pb n="18"/>
 
-				<figure entity="rshauntill4" rend="inline">
-<p> She succumbed, green as the Ganges, into her own egg-basket</p>
-<figDesc> Illustration included in body of Stuart's "The Haunted
-Photograph"</figDesc>
-</figure>
-
 
 of her troubled dreams, striding bodily up to the counter, smiling as she swished.</p>
 
 				<p>At the sight, the good woman first rose to her feet and then as suddenly dropped&#x2014;flopped&#x2014;breathless and white&#x2014;backward&#x2014;and had to be revived, so that for the space of some minutes, things happened very fast&#x2014;that is, if we may believe the flurried testimony of the blonde who, in going over it, two hours later, had more than once to stop for breath.</p>
 
-				<p>"Well, say!" she panted, "Did you ever! <hi rend="italic">Such</hi> a turn as took her! I hadn't no more 'n stepped in the door when she succumbed, green as the Ganges, into her own egg-basket&#x2014;an' it full! An' she was on the eve o' floppin' back into the prunin' scizzor, points up, when I scrambled over the counter, breakin' my straight front in two, which she 's welcome to, poor thing! Then I loaned her my smellin' salts which she held her breath against until it got to be a case of smell or die, an' she smelt! <pb n="19"/>Then it was a case of temporary spasms for a minute, the salts spillin' out over her face, but when the accident evaporated, an' she had partially come to, an' opened her eyes, rational, I thought to myself, 'Maybe she don't know she 's keeled an' would be humiliated if she did,' so I acted callous an' I says, off-hand, like, I says, pushin' her apron around behind her over its <hi rend="italic">vice versa</hi>, so 's to cover up the eggs which I thought had better be broke to her gently, I says, 'I just called in, Mis' Morris, to borry your reci-pe for angel cake&#x2014;or maybe get you to bake one for us' (I knew she baked on orders). An' with that, what does she do but go over again, limp as wet starch, down an' through every egg in that basket, solid <hi rend="italic">an</hi>' fluid!</p>
+				<p>"Well, say!" she panted, "Did you ever! <hi rend="italic">Such</hi> a turn as took her! I hadn't no more 'n stepped in the door when she succumbed, green as the Ganges, into her own egg-basket&#x2014;an' it full! An' she was on the eve o' floppin' back into the prunin' scizzor, points up, when I scrambled over the counter, breakin' my straight front in two, which she 's welcome to, poor thing! Then I loaned her my smellin' salts which she held her breath against until it got to be a case of smell or die, an' she smelt! 
+
+				<figure entity="rshauntill4" rend="inline">
+<p> She succumbed, green as the Ganges, into her own egg-basket</p>
+<figDesc> Illustration included in body of Stuart's "The Haunted
+Photograph"</figDesc>
+</figure><pb n="19"/>Then it was a case of temporary spasms for a minute, the salts spillin' out over her face, but when the accident evaporated, an' she had partially come to, an' opened her eyes, rational, I thought to myself, 'Maybe she don't know she 's keeled an' would be humiliated if she did,' so I acted callous an' I says, off-hand, like, I says, pushin' her apron around behind her over its <hi rend="italic">vice versa</hi>, so 's to cover up the eggs which I thought had better be broke to her gently, I says, 'I just called in, Mis' Morris, to borry your reci-pe for angel cake&#x2014;or maybe get you to bake one for us' (I knew she baked on orders). An' with that, what does she do but go over again, limp as wet starch, down an' through every egg in that basket, solid <hi rend="italic">an</hi>' fluid!</p>
 
 				<p>"Well, by this time, a man who had seen her at her first worst an' run for a doctor, he come in with three an' whilst they were bowin' to each other an' backin', I giv' 'er her stimulus an' d'rectly she turned upon <pb n="20"/>me one rememberable gaze an' she says, 'Doctors,' says she, 'would you think they 'd have the gall to try to get me to cook for 'em? They 've ordered angel&#x2014;" An' with that, over she toppled again, no pulse nor nothin' same as the dead!"</p>
 
@@ -376,9 +372,7 @@ of her troubled dreams, striding bodily up to the counter, smiling as she swishe
 
 				<p>"Yes, she did," said another, forcibly pulling down the corners of her mouth, "&#x2014;on a <hi rend="italic">mighty slim chance</hi>&#x2014;and I only wish there 'd been a better man waitin' for her in that hotel."</p>
 
-				<pb n="[32]"/>
-
-				<!--page missing-->
+			
 
 			</div> </body></text>
 
@@ -396,11 +390,11 @@ of her troubled dreams, striding bodily up to the counter, smiling as she swishe
 <body>
 		
 <pb/>
-			<div id="rshaunt400" type="story" n="2">
+			<pb n="35"/>	<div id="rshaunt400" type="story" n="2">
 
 				<head>WHENCE AND WHITHER</head>
 
-				<pb n="35"/>
+			
 
 				<p>SALLY ANN SALISBURY was a long name for a servant in slave days&#x2014;a long name for familiar use&#x2014;but it was one frequently called across the back yard over the wood piles at Belle Haven plantation. It generally took about three calls to elicit response when there would slowly emerge from the wash-shed a slim yellow woman who, languidly shading her eyes with one hand, the other far back upon her hip, would answer:</p>
 
@@ -420,15 +414,15 @@ of her troubled dreams, striding bodily up to the counter, smiling as she swishe
 				her, not <pb n="38"/>
 
 
-<figure entity="rshauntill5" rend="inline">
+
+only as an abiding menace to their domestic happiness but because of her lawless tongue, which was as nimble as her morals or her dancing feet or weightless fingers. If she could "do up" a bit of French lingerie for her young mistress&#x2014;do it so exquisitely that that fastidious young lady was pleased to declare it "better than new," so could she do over a piece of plantation gossip into a confection of scandal better than true, better, that is, by way of much adorning, ruffled, fluted and garnished to a turn by her ever nimble tongue.</p>
+
+				<p>And, by the way, the laundering of the finery of her young mistress had always been Sassie's favorite work and for two reasons. First&#x2014;yes, it must come first&#x2014;Miss Geraldine was just exactly Sassie's size, her height, her heft and measurements, and&#x2014;this is the second reason&#x2014;and she gave it with a wink: The two had "percizely de same taste in dress!" It had been convenient to be custodian of so <figure entity="rshauntill5" rend="inline">
 <p> Sally Ann Salisbury</p>
 <figDesc> Illustration included in body of Staurt's "The Haunted
 Photograph"</figDesc>
 </figure>
-
-only as an abiding menace to their domestic happiness but because of her lawless tongue, which was as nimble as her morals or her dancing feet or weightless fingers. If she could "do up" a bit of French lingerie for her young mistress&#x2014;do it so exquisitely that that fastidious young lady was pleased to declare it "better than new," so could she do over a piece of plantation gossip into a confection of scandal better than true, better, that is, by way of much adorning, ruffled, fluted and garnished to a turn by her ever nimble tongue.</p>
-
-				<p>And, by the way, the laundering of the finery of her young mistress had always been Sassie's favorite work and for two reasons. First&#x2014;yes, it must come first&#x2014;Miss Geraldine was just exactly Sassie's size, her height, her heft and measurements, and&#x2014;this is the second reason&#x2014;and she gave it with a wink: The two had "percizely de same taste in dress!" It had been convenient to be custodian of so <pb n="39"/>much available finery. And Sassie really took a sort of servile pride in the radiant beauty of the mistress, who led her set socially. To an appreciable extent she felt her to be the product of her own skill.</p>
+<pb n="39"/>much available finery. And Sassie really took a sort of servile pride in the radiant beauty of the mistress, who led her set socially. To an appreciable extent she felt her to be the product of her own skill.</p>
 
 				<p>And then, she was her model, her fashion-plate. She had only to look at Miss Geraldine to know, not only what to wear but how to wear it&#x2014;how to "carry it off!" Sassie would twirl through the figures of the plantation dances in her mistress's empire gowns, holding her slim body just as the fairer belle had done, and she would lift her little head, tilted for coquetry, over the spring of a medici collar&#x2014;"just for all the world like Miss Geraldine"&#x2014;and gown or collar would go home fairly bristling with the counterfeit newness available only by adept fingers.</p>
 
@@ -632,11 +626,6 @@ only as an abiding menace to their domestic happiness but because of her lawless
 
 				<pb n="76"/>
 
-<figure entity="rshauntill6" rend="inline">
-<p> "How much'll you pay me for her, Charley?"</p>
-<figDesc> Illustration included in body of Stuart's "The Haunted
-Photograph"</figDesc>
-</figure>
 
 				<p>And he lowered his eyes and took in the Indian's face.</p>
 
@@ -666,7 +655,12 @@ Photograph"</figDesc>
 
 				<p>"Yas, dat 's all," and the eyes he lifted were clear. It was all.</p>
 
-				<p>"Well," said Steve. "I 'll take it." <pb n="77"/>His voice was steady and controlled. He might have been dickering for a horse.</p>
+				<p>"Well," said Steve. "I 'll take it." <figure entity="rshauntill6" rend="inline">
+<p> "How much'll you pay me for her, Charley?"</p>
+<figDesc> Illustration included in body of Stuart's "The Haunted
+Photograph"</figDesc>
+</figure>
+<pb n="77"/>His voice was steady and controlled. He might have been dickering for a horse.</p>
 
 				<p>"Yas," he repeated, in a moment. "I 'll take it&#x2014;I 'll take de money, but you can keep yo' things. You 'll need 'em.</p>
 
@@ -809,11 +803,6 @@ Photograph"</figDesc>
 				<p>But next day, when the funeral was
 				over, <pb n="88"/>
 
-<figure entity="rshauntill7" rend="inline">
-<p> "Seem like a pity to part 'em"</p>
-<figDesc> Illustration included in body of Stuart's "The Haunted
-Photograph"</figDesc>
-</figure>
 
 the two men walked home together. Then, while they sat in the front room&#x2014;not the "Studio Parlor" but the other&#x2014;her parlor on the other side&#x2014;a little room still palpitant with the spirit of its vanished mistress, and while the children laughed together beside them, it was Charley who said:</p>
 
@@ -825,7 +814,12 @@ the two men walked home together. Then, while they sat in the front room&#x2014;
 
 				<p>"Keep dat money, Steve&#x2014;an' do for 'er&#x2014;an' I'll come up wid more as she needs it. You kin do mo' for 'er 'n I kin. You got people&#x2014;an' I ain't. An' she won't nuver know&#x2014;an' I'll come&#x2014;or whar you go, I'll be close behind. You know, she loves me the best&#x2014;an' you won't min' dat&#x2014;jes' lemme keep up wid'er a little, an'&#x2014;"</p>
 
-				<p>While they were talking along, so, the children who were eating their corn-bread <pb n="89"/>and molasses, under the lamp, started to ask questions. It was Junior who began it.</p>
+				<p>While they were talking along, so, the children who were eating their corn-bread <figure entity="rshauntill7" rend="inline">
+<p> "Seem like a pity to part 'em"</p>
+<figDesc> Illustration included in body of Stuart's "The Haunted
+Photograph"</figDesc>
+</figure>
+<pb n="89"/>and molasses, under the lamp, started to ask questions. It was Junior who began it.</p>
 
 				<p>"Jes look at all de big moths, daddy&#x2014;fallin' into de lamp. Who made de moths, daddy?"</p>
 
@@ -845,9 +839,7 @@ the two men walked home together. Then, while they sat in the front room&#x2014;
 
 			</div></body></text>
 
-			<pb n="[90]"/>
-
-			<!--page missing-->
+		
 
 			<pb n="[91]"/>
 
@@ -863,14 +855,14 @@ the two men walked home together. Then, while they sat in the front room&#x2014;
 
  <body>
 
-<pb/>
+<pb n="93"/>
 
 		<div id="rshaunt500" type="story" n="3">
 
 				<head>A CASE IN DIPLOMACY</head>
 
 			
-				<pb n="93"/>
+				
 
 				<p>I HAD been writing Joshua's love letters for him all winter, and, after the first two or three, in the construction of which I had dutifully consulted him, it seemed better simply to take the temper of the fellow's mood and to let it color effusions which were entirely my own in form.</p>
 
@@ -902,11 +894,7 @@ the two men walked home together. Then, while they sat in the front room&#x2014;
 
 				<pb n="96"/>
 
-<figure entity="rshauntill8" rend="inline">
-<p> "No, sir! Not yit! Not on paper!"</p>
-<figDesc> Illustration included in body of Stuart's "The Haunted
-Photograph"</figDesc>
-</figure>
+
 
 
 
@@ -921,7 +909,11 @@ Photograph"</figDesc>
 
 				<p>"Keep that for speech, do you?" I laughed. "I hardly think you need my help, Joshua."</p>
 
-				<p>"Yas, Sir, I does! I sho does! I needs it severe! When I say I keeps it for speech, I means for future speech. I ain 't <pb n="97"/>nuver is said no sech to her <hi rend="italic">yit</hi>. I don't nuver see 'er on'y but jes' Sundays. But every Sunday of Gord's world I walks dem 'leven deep miles, all charged with language&#x2014;den de first sight of 'er, seem like hit all but strikes me dumb. I been gwine up to Three Forks now for purty nigh fo'teen Sundays, I reckon, ef dey was counted, an' I ain't nuver is done nuthin' but set down beside 'er an' mop my forehead&#x2014;an', of co'se, present 'er wid de gum-drops or rock-candy I fetches 'er&#x2014;an' seem like she 's purty much de same way. She 'll talk right along, jes as long as anybody else is in de room&#x2014;but&#x2014;but quick as we 's lef' by ourselfs, we bofe falls back on rock-candy an' gum-drops&#x2014;an' sweet-gum, of co'se. An' den, de fus' thing I knows, de 'larm clock strikes&#x2014;an' I has to strike out for home."</p>
+				<p>"Yas, Sir, I does! I sho does! I needs it severe! When I say I keeps it for speech, I means for future speech. I ain 't <figure entity="rshauntill8" rend="inline">
+<p> "No, sir! Not yit! Not on paper!"</p>
+<figDesc> Illustration included in body of Stuart's "The Haunted
+Photograph"</figDesc>
+</figure><pb n="97"/>nuver is said no sech to her <hi rend="italic">yit</hi>. I don't nuver see 'er on'y but jes' Sundays. But every Sunday of Gord's world I walks dem 'leven deep miles, all charged with language&#x2014;den de first sight of 'er, seem like hit all but strikes me dumb. I been gwine up to Three Forks now for purty nigh fo'teen Sundays, I reckon, ef dey was counted, an' I ain't nuver is done nuthin' but set down beside 'er an' mop my forehead&#x2014;an', of co'se, present 'er wid de gum-drops or rock-candy I fetches 'er&#x2014;an' seem like she 's purty much de same way. She 'll talk right along, jes as long as anybody else is in de room&#x2014;but&#x2014;but quick as we 's lef' by ourselfs, we bofe falls back on rock-candy an' gum-drops&#x2014;an' sweet-gum, of co'se. An' den, de fus' thing I knows, de 'larm clock strikes&#x2014;an' I has to strike out for home."</p>
 
 				<p>"And who sets the alarm?" I asked, amusement in my voice, in spite of me.</p>
 
@@ -1253,11 +1245,7 @@ family and her wages were always collected by a step-father several times remove
 
 
 
-<figure entity="rshauntill9" rend="inline">
-<p>"Git-git-git out de marryin' book, please, sir"</p>
-<figDesc> Illustration included in body of Stuart's "The Haunted
-Photograph"</figDesc>
-</figure>
+
 
 word, while his bride waited at the gate.</p>
 
@@ -1265,17 +1253,20 @@ word, while his bride waited at the gate.</p>
 
 				<p>"We ain't had much time sence I conversed wid you a while ago, but we 's done some swif' talkin'&#x2014;an' we gwine have de chu'ch-weddin' a week f'om Sunday night&#x2014;wid all proper bridesmaids an' ring-cake&#x2014;an' everything. I don't 'low to have little Juney stinted, jes on account o' marryin' a blame doggone fool like me, no, Sir! But, I tell you de truth, Marse Horace, nothin' but a lightnin'-flash 'II strike some folks! But I's struck wid a ' 'lectric' spark all right, now&#x2014;an' I's dat racklass happy, my foots ain't touchin' de groun'!</p>
 
-				<pb n="129"/>
+				<figure entity="rshauntill9" rend="inline">
+<p>"Git-git-git out de marryin' book, please, sir"</p>
+<figDesc> Illustration included in body of Stuart's "The Haunted
+Photograph"</figDesc>
+</figure><pb n="129"/>
 
 				<p>"An' you 'll sen' de telephome, please, Sir? Thanky, Sir! An' make it a peace­able message an' I trus' it 'll git dar befo' Sam Sly Devil gits started on his rampagious weddin'-journey. I may have to kill 'im off befo' I die, yit&#x2014;but I don't crave to resk makin' Juney a bridal gallows widder&#x2014;an' so sen' de telephome, please, Sir!"</p>
 
-				<pb n="[130]"/>
+		
 
 			
 
 			</div></body></text>
 
-			<pb n="[131]"/>
 <text>
 
 <front>
@@ -1290,12 +1281,12 @@ word, while his bride waited at the gate.</p>
 <body>
 			
 
-
-                    <div id="rshaunt600" type="chapter" n="4">
+<pb n="133"/>
+                    <div id="rshaunt600" type="story" n="4">
 
 				<head>THE AFTERGLOW</head>
 
-				<pb n="133"/>
+				
 
 				<p>IT is all so strange&#x2014;so incomprehensible&#x2014;so impossible! And yet&#x2014;</p>
 
@@ -1514,11 +1505,7 @@ word, while his bride waited at the gate.</p>
 
 
 
-<figure entity="rshauntill10" rend="inline">
-<p>Why, by all that is sacred, did I encourage this quiet man?</p>
-<figDesc>Illustration included in body of Stuart's "The Haunted
-Photograph"</figDesc>
-</figure>
+
 
 
 
@@ -1537,7 +1524,11 @@ evenings when he stayed and talked quietly, of common things&#x2014;just the swe
 
 				<p>Who knows anything?</p>
 
-				<p>Perhaps, after all, "Whatever is, is <pb n="159"/>right," as the transgressors claim. And yet&#x2014;</p>
+				<p>Perhaps, after all, "Whatever is, is <figure entity="rshauntill10" rend="inline">
+<p>Why, by all that is sacred, did I encourage this quiet man?</p>
+<figDesc>Illustration included in body of Stuart's "The Haunted
+Photograph"</figDesc>
+</figure><pb n="159"/>right," as the transgressors claim. And yet&#x2014;</p>
 
 				<p>For a material consideration, I am robbed of a sweet companionship which can count for nothing to the despoiler of my peace, for she loves a breeze, and he is a quiet man. He is clear of intellect and discerns every shade of difference between white and near-white, truth and half-truth&#x2014;while she is dense&#x2014;and correct&#x2014;and strong in faith in the Apostles' Creed and the Ten Commandments. And she would consider me wholly dishonored if she knew how I miss, and shall miss her husband.</p>
 
