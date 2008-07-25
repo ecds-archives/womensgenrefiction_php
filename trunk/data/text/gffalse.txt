@@ -1,3 +1,164 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="***">
+  <teiHeader id="***">
+    <fileDesc>
+      <titleStmt>
+        <title>Falsely Accused, an electronic edition</title>
+        <author><name type="person" reg="Fleming, Geraldine, 1851-1924">Geraldine Fleming</name></author>
+      </titleStmt>
+      <extent>704kb</extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2008</date>
+        <availability>
+          <p>&#x00A9; 2003, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Women's  Genre Fiction, 1860-1920</title>
+        <respStmt>
+          <name>Sheila T. Cavanagh</name>
+          <name>Charles D. Spornick</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><author>Fleming, Geraldine</author>.<title>Her Priceless
+	Love or Bonny Belle</title>. <pubPlace>New York</pubPlace>:
+	<publisher>Street &#x0026; Smith</publisher>, <date>1897</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only, with some exceptions. This electronic edition includes an encoded title page.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera. Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi. These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software. The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel. This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines. For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/.  Encoders silently replaced em
+dashes with two dashes. Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original
+text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Genre Fiction</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Unedited</rs>
+        <rs type="genre">Novel</rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item>American literature--19th Century--Fiction.</item>
+            <item>Women authors, American--19th Century.</item>
+            <item>Romance.</item>
+            <item>England.</item> <!-- no subject tag for either "britain" or "england" exists and i'm not sure which one it should be.-->
+	    <item>Courtship.</item>
+	    <item>Marriage.</item>
+            <item>Crime.</item>
+	    <item>New York.</item>
+	    <item>Social class.</item>
+	    <item>Friendship.</item>
+	  </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2008-July-25</date>
+        <respStmt>
+          <name>Tyler Kellermann,</name>
+          <resp>student assistant.</resp>
+        </respStmt>
+        <item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item>
+      </change>
+      <change>
+        <date>2008-July-25</date>
+        <respStmt>
+          <name>Tyler Kellermann,</name>
+          <resp>student assistant.</resp>
+        </respStmt>
+        <item>***Added id attributes to div elements, modified head tags, and added milestone tags where appropriate.***</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+
+<text>
+<front>
+<div id="***" type="covers">
+<figure entity="gfpricefc001">
+<figDesc>Front cover or Price's <hi rend="italic">Her Priceless Love</hi>.</figDesc>
+</figure>
+</div>
+<pb/>
+
+<div id="***" type="advert">
+<figure entity="gfprceadvert002">
+<figDesc>Advertisement included in Price's <hi rend="italic">Her Priceless Love</hi>.</figDesc>
+</figure>
+</div>
+
+<div id="gfprice1204" type="advert">
+<figure entity="gfpriceadvert003">
+<figDesc>Advertisement included in Price's <hi rend="italic">Her Priceless Love</hi>.</figDesc>
+</figure>
+</div>
+
+<pb entity="gfpricetp004" pages="Title Page"/>
+<titlePage type="full"/>
+<docTitle>
+<titlePart type="main">Her Priceless Love</titlePart>
+<titlePart type="sub">OR,</titlePart>
+<titlePart type="sub">BONNY BELLE</titlePart>
+</docTitle>
+<byline>BY<lb/><docAuthor>GERALDINE FLEMING</docAuthor><lb/>Author of "The Battle of Hearts," "Sold for Gold,"<lb/>"Her Dearest Love,"</byline>
+<docImprint>
+<publisher>STREET &#x0026; SMITH CORPORATION<lb/>PUBLISHERS</publisher>
+<pubPlace>79-89 Seventh Avenue, New York</pubPlace>
+</docImprint>
+<pb/>
+
+<div id="gfprice1204" type="copyright">
+<figure entity="gfpricecopyright005">
+<figDesc>Copyright information for Price's <hi rend="italic">Her Priceless Love</hi>.</figDesc>
+</figure>
+</div>
+</front>
+
+
+
+***********make sure everything above this line is corrected for the new book************
+
+
+
+
+
 <body>
 <pb n="[5]"/>
 <div id="gffalse001" type="chapter">
@@ -43,6 +204,7 @@ flowers she had pinned upon her breast. "How good of old Thomas to send them to 
 <p>"How stupid you are! Can't you look where you are going?" snapped Miss Detheredge angrily. "I
 <pb n="11 Hopes Deferred."/>
 dare say you have knocked my hat and my hair all awry with your blundering, you little idiot!" putting both hands up to her gleaming, golden tresses. "But there! it's lucky I met you anyhow, I suppose, for in another moment you'd have been gone&#x2014;shirking your work, as usual, and putting me to no end of trouble. Come in here"&#x2014;leading the way into the room from which she had just issued, and where stood another gorgeous female in a sumptuous carriage dress. "I was just about to send up for you. You can't go out to-day, after all. My dress for the dance at the Casino to-night has just arrived from New York and it's all wrong, and you'll have to sit down and alter it at once. So you can take off your hat and begin work on it right away."</p>
+</div>
 
 <pb n="[12]"/>
 <div id="gffalse002" type="chapter">
@@ -136,6 +298,7 @@ eagerly and very intently, but for all that there was an amused twinkle in his s
 <p>"Nothing more? Would you say nothing more that that? Having won the love of a supposed rich man, would you say no more than that if you found out that he was really very poor? Would you be content to live with him in a humble cottage&#x2014;the very humblest of cottages&#x2014;and wear cotton gowns, and do your own housework, and live plainer and eat even meaner food that your aunt gives you as it is? Would you be willing to do that, Gypsy? Would you, dear?"</p>
 <p>"Yes, and do it gladly for your sake," she answered artlessly, looking up at him with adoring eyes. "No lot would be a hard one so that it was shared with you, and, besides, I am better fitted for a poor man's wife than for a rich one's, and it will almost make me glad if you are poor, for then I can work for you and do for you with my own hands, and you'll always know that it is just you I love&#x2014;you, and nothing else."</p>
 <p>"You little enchantress! you little gem!" he exclaimed enthusiastically, as he caught her to his heart and covered her sweet face with kisses. "My darling, you are the queen of women, and I love you&#x2014;oh, I love you!"</p>
+</div>
 
 <pb n="[24]"/>
 <div id="gffalse003" type="chapter">
@@ -145,7 +308,7 @@ eagerly and very intently, but for all that there was an amused twinkle in his s
 <p>"Oh!" she gasped, springing up in alarm as she made this discovery; "oh! we must be going back at once. Do look! it is sunset, and it will be almost dark before I get home; and what will Cousin Ada say if she returns and finds me and the bodice both missing. She'll think I've stolen it and ran away. Do let us go back. I've only a little bit more to do, but I can finish that in the machine."</p>
 <p>Thus admonished Mr. Spread sprang to his feet and began forthwith to bundle the things back into the hamper, with the result that it was soon repacked and shoved back under the seat, and everything was in readiness for the journey home. A moment later they were speeding back under the arching trees, and the lengthening shadows were shutting in softly about them.</p>
 <p>So long as the light lasted, Gypsy stitched away at the bodice while she listened in rapt silence to her lover's talk, but, though her nimble fingers view fast, too much time had been wasted in the beginning, and darkness overtook her before her work was finished.</p>
-<pb n="25 A Cruel Awakening.">
+<pb n="25 A Cruel Awakening."/>
 <p>"Oh, dear! I can't see to set another stitch, and what will Cousin Ada say if the bodice isn't finished in time for her to wear it to-night?" she said despairingly, as she finally; gave up trying to work upon it and pinned it up in the towel again. "She will be so angry I'm afraid she will make Aunt Linda send me away, and then I shall be quite homeless."</p>
 <p>"We'll see about that," responded Mr. Spread, with a significant smile. "Miss Detheredge may have more than one surprise to-night, my darling, and&#x2014;listen here, Gypsy: I've changed my mind about going to the Casino dance to-night&#x2014;at least, with Miss Detheredge. If either she or your aunt turn you out, come to our accustomed place of meeting on the sands and you'll find me there waiting to receive you, dear, and to give Newport society a surprise that it won't get over in a while. But, upon second thought, come anyhow, my darling, whether your aunt turns you out or not, come at the accustomed hour&#x2014;nine o'clock. Promise me that you will, little woman, and make me the happiest chap under the sun."</p>
 <p>"Under the moon, you mean," corrected Gypsy, with a laugh. "Yes, I will come, for I wouldn't miss the chance of being with you for all the money in the world."</p>
@@ -202,6 +365,7 @@ had misjudged her; perhaps it was a mistake, after all. But she had gone&#x2014;
 <p>"It was the sight of that man's name in an American paper that has brought me here, and if it be not a false clew also, I am at last on the track of Hamilton Spread!"</p>
 <p>"Hamilton Spread!" gasped Gypsy, clutching at his arm. "Oh, father! father! was that the man's name?"</p>
 <p>"Yes," he answered fiercely. "Father and son bear the one accursed name, and it is not such a common one that a man may easily mistake it. And I may be on the track at last! Father and son&#x2014;I'll kill them both if I find them&#x2014;kill them and stamp that hated name off the face of the earth!"</p>
+</div>
 
 <pb n="[32]"/>
 <div id="gffalse004" type="chapter">
@@ -256,6 +420,7 @@ if he knew that I love you, dear, it would make his malice and his fury doubly s
 <p>And with these words upon her lips, with that resolution in her heart, she darted out of the summer-house, and, making her way to the sands, ran like a hunted hare in the direction of the spot where her lover was to await her coming.</p>
 <p>And, lo! as she went a shadow went after her&#x2014;a shadow that had risen from the gloom, where it had been crouching among the thick vines and flowering shrubs that shut the summerhouse in from the highroad&#x2014;and, gliding out into the moonlight, stood revealed&#x2014;Miss Ada Detheredge!</p>
 <p>Not one word did she speak, but with white, set face and eyes that glittered with malignant light, she crept from one shadow to another, and, keeping out of the gleam of the moon, ran breathlessly on in Gypsy's wake.</p>
+</div>
 
 <pb n="[39]"/>
 <div id="gffalse005" type="chapter">
@@ -330,6 +495,7 @@ reflected the anguish and despair that rent her frightened heart.</p>
 <p>"I swear it!" he responded, baring his head and raising his face to the night sky. "As God hears me, I swear it, my darling, and nothing shall tempt me to break my word!"</p>
 <p>"Then take me," she wailed, creeping into his arms. "Take me away at once, Hamilton, at once; for I will be your wife, and may neither of us ever regret the choice I have made!"</p>
 <p>"My darling!" he said ardently, as he pressed her close to his heart.</p>
+</div>
 
 <pb n="[48]"/>
 <div id="gffalse006" type="chapter">
@@ -387,6 +553,7 @@ I swore I would when your treachery sent me to the galleys at Toulon."</p>
 <p>For one moment Matthew Sleaford stood and looked down upon her&#x2014;his hands dripping, his handsome raiment splashed and stained with her blood&#x2014;stood and looked, as if waiting to see if there was any sign of life remaining; then, finding that there was none, he stooped, and, plucking out the knife, hurled it far away; then, with coldblooded calmness, he stooped again and wiped his hands upon the clothing of the woman he had slain.</p>
 <p>"So we are quits at last, you lovely, treacherous snake, and if I can only find him and duplicate this night's work I shall have nothing in the world left to desire!"</p>
 <p>Then, with one last glance at the body of his victim, he buttoned his coat over his bloodstained clothing and strode hastily away.</p>
+</div>
 
 <pb n="[56]"/>
 <div id="gffalse007" type="chapter">
@@ -460,7 +627,8 @@ ing or reading, but, bless you, a passing vehicle wasn't such a novelty that the
 <p>"She is right, Linda," said Geoffrey Meredith to Mrs. Detheredge, when he heard this. "There is every reason to suppose that, knowing I am in
 <pb n="64 Thwarted and Duped."/>
 America, Hamilton Spread and his wife have left it, so I will go back to the Old World and hunt for them there. But not alone this time. From what I now know of Gypsy I can readily believe that what you say of her being ungrateful to you in the past is quite true, and, having banished her from my heart, I am going to take you and your child into it, since Ada has promised to be a daughter to me and help me as I once hoped that Gypsy would help me, to hunt down that man and his son. So, when she is strong enough, we will sail for England, Linda; and I will begin my life work anew."</p>
-"And I mine," muttered Miss Detheredge, under her breath, as she heard this. "We are not done yet, Mr. Hamilton Spread; we are not done yet, Gypsy Meredith, and, after I have wiped out my score against you two, let Matthew Sleaford tremble and escape my vengeance, if he can!"
+"And I mine," muttered Miss Detheredge, under her breath, as she heard this. "We are not done yet, Mr. Hamilton Spread; we are not done yet, Gypsy Meredith, and, after I have wiped out my score against you two, let Matthew Sleaford tremble and escape my vengeance, if he can!"</p>
+</div>
 
 <pb n="[65]"/>
 <div id="gffalse008" type="chapter">
@@ -513,6 +681,7 @@ never gits the chance to take liberties with bo'rders o' mine ag'in, the forward
 <pb n="72 At the Farmhouse."/>
 how goes out to her. Oh, may I, Hamilton? It would please her very, very much."</p>
 <p>"You are to suit yourself in all things, Gypsy, my darling," he answered tenderly. "You will need a maid, for you are not strong, and if you wish it say yes to the child and be sure that in pleasing yourself you will please me."</p>
+</div>
 
 <pb n="[73]"/>
 <div id="gffalse009" type="chapter">
@@ -544,10 +713,11 @@ to bed instead of sitting up to keep him company while he wrote to the steamship
 <p>"Good night, and sweet dreams, my darling," he said. "Don't lie awake and wait for me, for I am a slow writer, and it's quite possible that I may walk over to the post office with my letter when I have finished it, for I am very anxious that it should catch the night mail."</p>
 <p>But, in spite of his anxiety, it was not to the steamship company he gave his first attention. As soon as he was alone, he dipped his pen into the ink and began as follows:</p>
 
-***letter heading****
-
-"IN THE WILDS OF MASSACHUSETTS, July 15.
-<p>"MY DEAR COUSIN: Don't start! Yes, it is really from me, and I am really here in America, and have been for months past. But I am coming home, old chap, and bringing the best little woman in the world with me. What do you think? I am married, Mat, actually married&#x2014;I, your good-for-nothing cousin, who used to vow that he would never surrender his independence to a woman, but would live and die in glorious bachelorhood and leave you his heir! I am actually a benedict, and have been for the past forty-eight hours.</p>
+ <q><text><body>
+ <div type="letter" id="***">
+ <opener><dateline>"IN THE WILDS OF MASSACHUSETTS, July 15.</dateline>
+ <salute>"MY DEAR COUSIN:</salute></opener>
+<p>Don't start! Yes, it is really from me, and I am really here in America, and have been for months past. But I am coming home, old chap, and bringing the best little woman in the world with me. What do you think? I am married, Mat, actually married&#x2014;I, your good-for-nothing cousin, who used to vow that he would never surrender his independence to a woman, but would live and die in glorious bachelorhood and leave you his heir! I am actually a benedict, and have been for the past forty-eight hours.</p>
 <p>"How shall I begin to tell you all about it? You know what a harum-scarum, rattle-pated, restless chap I am, and how I like to rush off without a moment's notice anywhere that happens to crop up in my mind? Well, while you were down in Devonshire with Asquith the runaway notion took hold of me again, and this time it prompted me to visit America. I suppose when you returned you wondered where the dickens I had gone, although my lawyer might have told you, for I let him into the secret, of course.</p>
 <pb n="77 The Smile of Fortune."/>
 <p>"Well, I had the Englishman's erroneous idea of this country as a place where men of distinction are pestered to death by reporters, and where the possessor of a title is absolutely haunted by the interviewer&#x2014;I find him much less in evidence than he is in England, by the way&#x2014;and long before the vessel reached port I resolved upon adopting an alias. I didn't want the ordinary Smith, Brown, or Robinson; I wanted something that would sound as though it were a bona-fide name and not an assumed one; so in my desperation I turned to the very things I was trying to escape&#x2014;the newspapers&#x2014;and I found what I wanted there.</p>
@@ -556,9 +726,12 @@ to bed instead of sitting up to keep him company while he wrote to the steamship
 <p>"I have already booked our passage home, but for reasons which I can't explain to you under the name of 'Mr. and Mrs. George Smith' this time, and we are
 <pb n="78 The Smile of Fortune."/>
 to set sail for England upon the steamer <hi rend="italic">Atlantic</hi>, which leaves New York upon Saturday, July twenty-seven, and you may reasonably expect us at the castle in a week from that date. Now, old chap, do me the favor of having the rooms which she will occupy decorated and fitted up in the most sumptuous manner possible. She is a brunette, so that will guide you in the choice of colors! Spare no expense, and have invitations issued at once for a grand ball, to be given in her honor one week from the date of our arrival.</p>
-<p>"While I write this, my darling sleeps, unconscious that she is a marchioness or that she has married any but a poor man who paints for a living and only 'feasts' when the luck is in and his pictures sell. May God bless her for the best and sweetest of women and hasten the day when not she alone, but all the world, may know that she is the idolized wife of your affectionate cousin,	DESMOND."</p>
+<p>"While I write this, my darling sleeps, unconscious that she is a marchioness or that she has married any but a poor man who paints for a living and only 'feasts' when the luck is in and his pictures sell. May God bless her for the best and sweetest of women and hasten the day when not she alone, but all the world, may know that she is the idolized wife of your affectionate cousin, <closer><signed><name>DESMOND</name>."</signed></closer></p>
 <lb/>
+ </div></body></text></q>
+
 <p>Passing the blotter over his still wet signature, my lord, the Right Honorable Philip Eustace Armbruster, Marquis of Desmond and Baron Camperdown, folded the written sheet, slipped it into an envelope, and, taking up his pen again, addressed it to : "Matthew Sleaford, Esq., Thetford Castle, Duphaven Royals, Kent, England."</p>
+</div>
 
 <pb n="[79]"/>
 <div id="gffalse010" type="chapter">
@@ -603,6 +776,7 @@ Higginses' gals to help me so long as you stay here, and arter a piece I'll try 
 <p>"Slain?" he struck in sharply; "why should I be slain? What! had your father, then, something to do with that mysterious plot against my life of which you spoke when&#x2014;"</p>
 <p>"You promised not to ask me anything," interrupted Gypsy hastily, and with a great deal of excitement. "Let us change the subject, Hamilton; but, oh, if you love me, pray, dear&#x2014;pray with me that Heaven will hasten the day of our departure, and that we shall soon be on the sea&#x2014;you and I and dear little Jemima Ann&#x2014;on the sea, and sailing away to that happiness and that peace which I know now I shall only find in a foreign land!"</p>
 <p>And that night, ere his head touched his pillow, my lord, remembering those words, did pray as she had asked him to do&#x2014;prayed fervently and long, not knowing what bitter trials awaited the woman he loved in that land which she was so anxious to reach, or that the fiat of fate had already gone forth, and that peace for him and her would fade with the fading of America's shores, and be wholly wrecked on the deep sea.</p>
+</div>
 
 <pb n="[86]"/>
 <div id="gffalse011" type="chapter">
@@ -672,6 +846,7 @@ as he stooped and kissed her. "Be brave, and go, and if we never more should mee
 <p>"Hark! they are calling you!" he said. "Kiss me, love, and go!"</p>
 <p>"No," she answered, "I will go only when you go, even if it be only in the last boat. I am not afraid to die with you. Hold me fast, dear. I will not go&#x2014;will not&#x2014;will not until I may go with you."</p>
 <p>"Neither will I," said a frightened voice at her side&#x2014;the voice of Jemima Ann. "I'll go when you and him goes; I will never before!"</p>
+</div>
 
 <pb n="[94]"/>
 <div id="gffalse012" type="chapter">
@@ -714,6 +889,7 @@ a smile. "It was 'until death shall ye part,' you know, and only death shall."</
 <p>For one instant, as she was borne aloft upon the crest of a wave, Gypsy saw his descending figure cleaving the air, then her boat seemed to sink down into a deep, blue valley between two liquid mountains, and, when it came up on the crest of the next wave, a frightful sight met her staring eyes.</p>
 <p>For the steamer had suddenly keeled over and gone down like a shot, and of my Lord Philip Desmond there was never a sign.</p>
 <p>She had seen him go down into the deep; but though she strained her eyes and prayed to God and all the angels of heaven to give him back to her, she never saw him come up again.</p>
+</div>
 
 <pb n="[98]"/>
 <div id="gffalse013" type="chapter">
@@ -772,6 +948,7 @@ farmer, I thought I had heard the last of them, and now this rascally Ned Twyfor
 <p>"But to-night I will think only of my mission, think only of the scheme which has brought me over three thousand miles of ocean to seek Lord Philip Desmond and win myself a fortune and a title. That he is here I know; that I would find him in one of the fashionable resorts of American society I felt sure when I came; but, though I have searched through many, I have found no trace of him, and now where shall I seek him next?"</p>
 <p>He rounded a curve and came suddenly in sight of the station. "I have not searched through every fashionable resort as yet, and I swear to Heaven that I will not cease hunting until I have done so. What better can I do, then, than to go back to New York, get a fresh list of society's summer haunts, and then start anew. Yes, yes, I'll do that; for neither Desmond nor anybody else in the world knows that I am in America, and I must succeed in the end."</p>
 <p>So, without further cogitation upon the subject, he made his way to the station, purchased a ticket, and half an hour later, while the man he sought was flying with his bride to the hills of Massachusetts, Mr. Matthew Sleaford was speeding off in the opposite direction, and his "mission" was already destined to result in utter failure.</p>
+</div>
 
 <pb n="[104]"/>
 <div id="gffalse014" type="chapter">
@@ -839,6 +1016,7 @@ had overlooked it before, could not overlook it this time. An angry flush mounte
 <p>"Stop!" interposed Ned, his face paling suddenly will something like absolute hatred flashing out of his dark eyes. "I shouldn't take a blow calmly, even from you, whom I respect because you were kind to my poor sister in those old days. Stop and listen to me. Mr. Haggie, the solicitor, sent me here to say this to you. He received the telegram you sent to the castle to-day, but was too ill to come in person. If I have given you a title, it is because you have a right to bear one, and because you are now, in the eyes of the law and by privilege from the crown, Matthew, Marquis of Desmond!"</p>
 <p>"What's that you say?" gasped Sleaford, starting toward him.</p>
 <p>"The truth, my lord!'' he answered without flinching. "Lord Philip Desmond is dead&#x2014;drowned in the wreck of the <hi rend="italic">Atlantic</hi> more than two months ago&#x2014;and you are now, by virtue of lineal descent, Marquis of Desmond and Baron Camperdown!"</p>
+</div>
 
 <pb n="[111]"/>
 <div id="gffalse015" type="chapter">
@@ -899,6 +1077,7 @@ with the wreck of the <hi rend="italic">Atlantic</hi>, was your predecessor, the
 <p>"Get me some more brandy!" he gasped. "No, get me champagne, champagne&#x2014;the wine of wealth, the drink of princes. I'll touch no other, all the rest of my life."</p>
 <p>Without a word Ned Twyford stepped to the door, opened it, closed it behind him, and went to do his master's bidding.</p>
 <p>"Oh, Maggie! My sister!" he said, in a wavering, husky voice, as he hurried away. "I know it now, lass, I know it now, where I only suspected it before. If you are living, dear, you are the Marchioness of Desmond this night, but if you are dead that man is your murderer, and I'll run him down if I track him till the Judgment Day!"</p>
+</div>
 
 <pb n="[116]"/>
 <div id="gffalse016" type="chapter">
@@ -942,6 +1121,7 @@ I always tried to do right and never told a lie in my life," she said presently.
 <p>And then, sinking down beside the figure of her delirious mistress, she laid one trembling arm across Gypsy's shoulders and reverently kissed her hair.</p>
 <p>"I said I'd die for you if you didn't let them send me back to the mission," she whispered softly; "and you didn't let them do it. I said I'd die for you if you done that, Mrs. Smith, and if there's ever a need for it, I'm going to stand by my word and be killed a-fightin' for you."</p>
 <p>And then she grew quite still, while the darkness of the night shut slowly down over the tempestuous waters and the boat went drifting on.</p>
+</div>
 
 <pb n="[121]"/>
 <div id="gffalse017" type="chapter">
@@ -1011,6 +1191,7 @@ Jemima Ann caught his hand and began to cover it with kisses. "You're a faithful
 <p>Under good Mrs. Merryweather's tutelage she soon mastered the mysteries of English money and learned where to shop in order to get the best value for it.</p>
 <p>Still she was very frugal in all her expenditures, for she realized the necessity of husbanding every penny, not knowing where more was to come from when her little store of money should be gone.</p>
 <p>So the days slipped by, and she lived her life of self-sacrifice under Mrs. Merryweather's roof, and here one morning the end of her long waiting came and Gypsy opened her eyes to consciousness again.</p>
+</div>
 
 <pb n="[128]"/>
 <div id="gffalse018" type="chapter">
@@ -1068,6 +1249,7 @@ being ill, my dear, and Miss St. Quentin&#x2014;which she never knew before that
 <p>"A coronet? What's that?"</p>
 <p>"A sign&#x2014;a symbol of nobility!" exclaimed Gypsy excitedly. "Merciful Heaven, what am I thinking? What mad thoughts are these that are whirling through my brain? What's here in this pocket? Letters&#x2014;papers&#x2014;a check book, and&#x2014;"</p>
 <p>She stopped suddenly, for her eye had fallen upon something, and at sight of it every vestige of color vanished from her face and left it white as snow.</p>
+</div>
 
 <pb n="[134]"/>
 <div id="gffalse019" type="chapter">
@@ -1129,6 +1311,7 @@ stopping to examine it, and but for Jemima Ann it might never have been investig
 <p>"Look at that&#x2014;look at that!" panted Jemima Ann, scrambling over the pile of clothing upon the floor and fairly thrusting the paper into Gypsy's face. "You need search no more&#x2014;it's him, and we've found it all out. Read what it says. Firefly winning the Derby, and, look there! there! 'Portrait of Lord Philip Desmond, from a photograph by Walery.' </p>"
 <p>Gypsy snatched the paper and looked at it&#x2014;looked at it, and sank back, white with the anguish of a breaking heart.</p>
 <p>The room seemed to be spinning round; an iron hand seemed to grip her heart and wring it to its very core; for there, looking up at her from the printed sheet, feature for feature, and line for line, was the face of the man who had gone down with the wreck of the <hi rend="italic">Atlantic</hi>.</p>
+</div>
 
 <pb n="[141]"/>
 <div id="gffalse020" type="chapter">
@@ -1178,6 +1361,7 @@ ent! Yes, I tell you you're a born actress, and I ought to know!"</p>
 <p>As if carried off her feet by the abruptness of the proposal, Gypsy was too dazed, too tempted, to decline it. Moreover, the opportunity seemed Heaven-sent, at a time of sore need. In fact, this new friend could not have chosen a more opportune moment to come to the rescue.</p>
 <p>"If you think I can really do this, help me to become an actress," Gypsy said, turning to her new friend. "Tell me what to do, show me where to turn, and I will bless you all the days of my life."</p>
 <p>"And so will Cis Rawley, I'll bet!" exclaimed Miss St. Quentin. "As for me, I'm delighted at the prospect of saving his glorious play, and, incidentally, snatching away some of Stella's laurels! Let's go at once to the theater, where poor Cis is worried to death over possible disaster. He will hear you read a scene or two of his play, and, after that&#x2014;well, let him decide whether you can play <hi rend="italic">Princess Mirza!</hi> You're lovely enough, in all conscience, my dear, even if you were a mere amateur, a barnstormer; but with your talent&#x2014; Put on your wraps at once, and let's be off."</p>
+</div>
 
 <pb n="[146]"/>
 <div id="gffalse021" type="chapter">
@@ -1214,6 +1398,7 @@ Quentin, when she was introduced to his lordship. "Yours is a name associated wi
 <pb n="149 A New Career."/>
 got some reason for pretendin' not to know them folks Miss St. Quentin axed him about. He's a bad lot, that 'Johnny,' Miss Gypsy, but if he's anything to do with our 'Lord Desmond' you must play him and find it all out.</p>
 <p>"I will," said Gypsy, under her breath. "Who knows but what his fancy for me may be a direct interposition of Providence in my behalf, and that I may be on the track of the truth at last?"</p>
+</div>
 
 <pb n="[150]"/>
 <div id="gffalse022" type="chapter">
@@ -1240,6 +1425,7 @@ gallery of the castle. Will you come with me now to see it?"</p>
 <p>The valet led Gypsy to the picture gallery, but while they were gazing upon the portrait, a sound of footsteps was heard in the corridor, and they had barely time to conceal themselves in a curtained alcove before the marquis and Ned Twyford, his steward entered.</p>
 <p>The two men proceeded to cut out Philip Desmond's portrait from its frame, and to substitute one of Matthew Sleaford, the usurping marquis. That done, the latter retired, taking the portrait which he intended to destroy; and Twyford soon after departed.</p>
 <p>"That man," whispered the valet, as they cautiously made their way out of doors, "is my brother. My real name is Maggie Twyford, and already he suspects who I am. The time has not yet come for me to reveal my identity to him, although I almost did so yesterday, when I talked with him."</p>
+</div>
 
 <pb n="[153]"/>
 <div id="gffalse023" type="chapter">
@@ -1279,6 +1465,7 @@ Not a day, not an hour must be lost before the search is begun. Ring up the hous
 <p>"Do you hear me?" reiterated Lord Desmond. "Who dares to say that I shall not arouse the house?"</p>
 <p>With a quick movement, Sleaford turned, and catching up the tassel of the bell rope, gave it an upward twist that lodged it high up in the carving above the fireplace, then:</p>
 <p>"I do!" he made answer, turning and facing his kinsman again. "I say that you shall not, Lord Philip Desmond&#x2014;I!"</p>
+</div>
 
 <pb n="[156]"/>
 <div id="gffalse024" type="chapter">
@@ -1317,6 +1504,7 @@ that lies in the vaults of the Bank of England, and you stand to-night a homeles
 <pb n="160 They Must Keep Who Can."/>
 tangled yellow hair gleamed in the streaming moonlight, and, standing thus, he called out to his foe, as old Lord Eldred, the founder of the race, had called out through the din of battle in the forgotten long ago.</p>
 <p>"For life, for love, for honor! Desmond is here! Who seeks him?"</p>
+</div>
 
 <pb n="[161]"/>
 <div id="gffalse025" type="chapter">
@@ -1367,6 +1555,7 @@ tering man before him; and, like a fury, he began the attack.</p>
 <pb n="166 The Issue of the Fray."/>
 <p>As he spoke, he stooped to give greater force to his stroke, but&#x2014;that stroke was never delivered!</p>
 <p>For suddenly there was a sharp, clashing sound behind him, the central window&#x2014;the window he had closed but never locked&#x2014;flew suddenly open, a dark figure sped across the track of moonlight upon the floor, a voice cried out in shrill, excited tones: "Stop! Stop! you madman!" and the usurper, starting back as the owner of that voice came between him and his prey, found himself looking down into the white face and dilated eyes of Ned Twyford!</p>
+</div>
 
 <pb n="[167]"/>
 <div id="gffalse026" type="chapter">
@@ -1453,6 +1642,7 @@ ing its steel tines toward Desmond's breast. "One 'jab' with this will soon sett
 <p>He unlocked the door and flew to the lavatory; he came back with sponge and towels and hot water, and, sinking on his knees, began to wash out the traces of his hideous crime.</p>
 <p>Twenty minutes later, when the work was done and he stole back to the ruined keep to report to Ned, he found the work there done, also.</p>
 <p>The heap of mold had been shoveled in, the grave was filled level with the floor, and he found Twyford standing over it, beating down the earth with the back of his spade and doing all in his power to remove every trace of that night's gruesome work.</p>
+</div>
 
 <pb n="[177]"/>
 <div id="gffalse027" type="chapter">
@@ -1499,6 +1689,7 @@ statuary, you say? And to be called for at the rear gate o' the castle grounds? 
 going with you, Taggert, and I'll give you all the necessary
 directions. Now, then, hop into your clothes, and come over to the rear gate as fast as possible."</p>
 <p>"Right you are," responded Mr. Taggert; then he drew in his head, the window closed with a bang, and Twyford, facing about suddenly, dashed off into the darkness like a man pursued.</p>
+</div>
 
 <pb n="[182]"/>
 <div id="gffalse028" type="chapter">
@@ -1570,6 +1761,7 @@ she's all broke up as it is with the heap of things she's got on her
 mind, poor dear! No, I won't tell her nuthin' about it, that's what!
 I'll just hold my jaw and lay low, and keep my eyes peeled, and if
 that fellow comes slouchin' round here and tries any games with Miss Gypsy, I'll come down on him like a thousand o' brick&#x2014;come down on him with both feet, and he'll think a cyclone's struck him when he gets me on his back with my teeth in his ear and my two hands pickin' bokays out of his side boards and his hair!"</p>
+</div>
 
 <pb n="[190]"/>
 <div id="gffalse029" type="chapter">
@@ -1633,6 +1825,7 @@ not tell anybody a word about it; if you're paid half a crown for the job? Can y
 <p>You prince of rascals!" he said, apostrophizing
 <pb n="197 Paving the Way."/>
 himself as he strode on under the trees, "you've done your dirty work well and wiped out all possibility of discovery. There'll be no one to say to-morrow that you were seen talking to the boy who delivered that letter; no one to say that you were seen skulking about in the neighborhood of the village; so, you're safer than such a dirty scoundrel deserves to be, for you've covered your tracks completely. Now, then, home to wash up the dishes and call on your master before you tumble into bed, but don't let me see your rascally face in the glass, Ned Twyford, or I believe I'll draw off and punch it!"</p>
+</div>
 
 <pb n="[198]"/>
 <div id="gffalse030" type="chapter">
@@ -1681,6 +1874,7 @@ some consolation, but to go away without a word, to leave her to think that my h
 <p>"Oh, Miss Montressor! will you? Can a lady like you humble yourself to such an extent for a fellow like me?"</p>
 <p>For an answer Gypsy seated herself at the table and produced pen, ink, and paper. "Tell me what you wish to say, and I will set it down as you dictate," she said, as she dated the sheet. "Now, then, I am ready. Please proceed."</p>
 <p>And, after covering her with thanks, Twyford did proceed, and this was the letter he dictated.</p>
+</div>
 
 <q><text><body>
 <div type="letter" id="***">
@@ -1716,6 +1910,7 @@ promised to see that it reaches your hands. When you receive it hesitate not a m
 <p>With the swiftness of thought he drew out of his pocket the letter Gypsy had written at his dictation, removed it from its envelope, flattened it out, laid it upon the writing table, and, taking up the ink bottle, poured its contents over the signature and let them trickle thence to the floor.</p>
 <p>"Upset in the haste of flight," he muttered, as he slipped out of
 the window again, leaving the letter and the overturned ink bottle upon the table. "Her own handwriting, her own paper&#x2014;no one can refute that testimony, and my game is won at last!"</p>
+</body>
 
 <pb n="[204]"/>
 <div id="gffalse031" type="chapter">
@@ -1804,8 +1999,7 @@ devoted principally to matters theatrical and always lavishly embellished with p
 <p>"No; let me."</p>
 <p>"It is she!"</p>
 <p>"Don't be a fool, it can't be, and yet&#x2014;"</p>
-<p>Then their voices blent in one excited: "It is, it is,
-it is Gypsy!" to which Ada added in the next breath:</p>
+<p>Then their voices blent in one excited: "It is, it is, it is Gypsy!" to which Ada added in the next breath:</p>
 <p>"See! it says she is an American&#x2014;it says it there!
 <pb n="209 After Many Days."/>
 &#x2014;there! and to think of her going on the stage, and making a success of it! Oh, Uncle Geoffrey, that man must have deserted her, otherwise he would never let her do a thing like this, and in his native land, too."</p>
@@ -1815,6 +2009,7 @@ it is Gypsy!" to which Ada added in the next breath:</p>
 <p>Then he rushed out of the room and down the stairs like a man pursued.</p>
 <p>Unwilling though they were to be dragged off to London in this unceremonious fashion, nothing was left for Mrs. Detheredge and Ada but to obey his commands and get ready at once; and so it came to pass that when the train for London steamed out of the Folkestone station and rushed away in the direction of the great metropolis, Mr. Geoffrey Meredith and his sister and his sister's daughter, locked up in a first-class compartment, went with it, and the exciting incidents of a night that was to stand out forever in their memories had at last begun.</p>
 <p>How it was to end no man could tell, and, least of all, Geoffrey Meredith.</p>
+</div>
 
 <pb n="[210]"/>
 <div id="gffalse032" type="chapter">
@@ -1893,6 +2088,7 @@ to you that I have told you only the truth, and that the wife you put from you l
 <p>And in the dead hush that had fallen, she sank down beside the couch and silently began to pray. With
 <pb n="218 Light at Eventide."/>
 bowed heads and hushed voices the three watchers by the dead stood and looked down upon him, amazed by the suddenness of the end, and awed by the presence of the Conqueror of conquerors, who had stolen in silently that none might hear, and had taken that which none may hold. And on the dead face there was no sign to show that the struggle to tell a great truth and see a great wrong righted had sapped his expiring strength and brought the end all too soon; for only a tender peace was there, and the smile of a man who had done his duty and gone out of all petty human strife and all darkened human ways forever.</p>
+</p>
 
 <pb n="[219]"/>
 <div id="gffalse033" type="chapter">
@@ -1941,7 +2137,7 @@ and so, jumping into the cab again, she was driven round to the box office of th
 <p>"Yes, please, and to that name, at the Langham Hotel," responded Ada, handing in one of her cards, and, there being no longer any reason for her to remain, she returned to her cab and was driven to the Langham, whither the telegram engaging rooms had already preceded her.</p>
 <pb n="223 Chiefly Epistolary."/>
 <p>In a very bad frame of mind she sat down to wait for the return of her mother and Mr. Meredith, and, after keeping a lonely vigil until after midnight, was finally rewarded by a brief note&#x2014;conveyed by messenger&#x2014;containing these words:</p>
-
+</div>
 
 <q><text><body>
 <div type="letter" id="***">
@@ -1984,6 +2180,7 @@ when I return.</p> <closer><signed>Hastily,
 </body></text></q>
 
 <p>Then, having sealed and addressed this note, she rang for a Bradshaw, looked up Deephaven Royals and how to reach it, and precisely twenty minutes later was seated in a cab and being rattled away toward Victoria Station.</p>
+</div>
 
 <pb n="[225]"/>
 <div id="gffalse034" type="chapter">
@@ -2071,6 +2268,7 @@ as the usurper comes striding in, calls out in a wild, excited way:</p>
 <p>"Ada!" he gasped, clutching at the door for support under the violence of the shock.</p>
 <pb n="234 What the Morning Brought."/>
 <p>"The very same, my dear Matthew," she answered, with smiling coolness. "I have come a long way to see you and your latest ideal. Shall we sit down here and talk, or do you prefer that we should stroll over to Thetford Castle together and celebrate our happy reunion there?"</p>
+</div>
 
 <pb n="[235]"/>
 <div id="gffalse035" type="chapter">
@@ -2100,7 +2298,6 @@ took from her trunk the shabby garments which, at the time of her
 meeting with Miss St. Quentin, represented her entire wardrobe, and
 hastily donned them, and, producing from the same source her
 theatrical "make-up box," proceeded to darken her
-1
 <pb n="237 At the Town House."/>
 complexion, and, by a few skillful lines, to alter the entire expression of her face.</p>
 <p>Taking down her abundant hair, she parted it exactly in the middle, and then drew it down over the tops of her ears in two straight bands, and twisted it up into a tight, hard knot at the back of her head, after which she powdered it until it presented an iron-gray appearance and surmounted the whole with a sort of poke bonnet, made by turning in the back part of the brim and tearing off the trimming of a black straw garden hat.</p>
@@ -2118,8 +2315,7 @@ the line, and for one brief instant were almost within arm's reach.</p>
 <p>Alighting under the arching roof of the great London station, Gypsy went down the long platform and thence out into the inclosure beyond where the omnibuses and the cabs stand, and there accosted a policeman.</p>
 <p>She knew that Desmond House was on Cromwell Road, in the South Kensington quarter of London, but she did not know. how to reach that spot from this part; and so affecting an Irish brogue, the better to conceal her real personality, addressed herself to the bobby.</p>
 <p>"Will ye be afther tellin' me how I'll be gettin' to Cromwell Road the easiest way?" said she; whereupon "bobby," thinking she hadn't a sixpence in her pocket, and hoping to raise a laugh among the bystanders, responded promptly:</p>
-<p>"Cab it!"
-And to his utter and complete surprise:</p>
+<p>"Cab it!" And to his utter and complete surprise:</p>
 <p>"Thank ye!" said Gypsy, and walked off to the nearest cab and engaged it on the spot.</p>
 <p>That the town house of the Desmonds was in the neighborhood of Queen's Gate she had often heard Matthew Sleaford say, and so "to Queen's Gate and Cromwell Road," was the address she gave the cabby as she furled her umbrella, stepped into the hansom, and closed the swinging doors, and, at half an hour's time, at Queen's Gate and Cromwell Road she stood.</p>
 <p>The cabman brought the long drive to an end, collected his half crown, and was upon the point of going on his way rejoicing, when:</p>
@@ -2130,6 +2326,7 @@ would ye be after tellin' me where Desmond House is, that I may be doin' that sa
 <p>"Good night!" responded Gypsy, making as if to go up Queen's Gate as he drove off; but the moment he was out of sight she turned abruptly and hurried back to Cromwell Road.</p>
 <p>In another moment she had crossed it and was standing before the house with the yellow pillars.</p>
 <p>"I shall soon know now what Maggie wants of me&#x2014;what good news she has to tell," she muttered, as she looked up at the great house in which not a ray of light was visible from top to bottom; then, running up the low steps, she seized the ponderous knocker and rapped for admittance.</p>
+</div>
 
 <pb n="[240]"/>
 <div id="gffalse036" type="chapter">
@@ -2174,6 +2371,7 @@ will shriek until the passers-by hear me, and acquaint the police."</p>
 <p>"The police are already acquainted," he made answer. "As the Marquis of Desmond's steward, I notified them this morning that my master intended to house an insane female relative here for a few weeks pending her removal to a Continental asylum, so you need hope for no assistance from them."</p>
 <p>"But my friends!" cried out Gypsy wildly. "They will miss me, they will trace me."</p>
 <p>"Your pardon, but you yourself have forbidden them, in the letter you wrote for me this afternoon, and which, with the signature blotted out, lies now on your writing table in the anteroom at Deephaven Villa. In that letter you have stated that you are voluntarily going away, and you have voluntarily gone away. You left them in secret; you came here in disguise, and so closed every door behind you in the most methodical way. You are my prisoner, Miss Montressor, and my prisoner you will remain until it suits me to set you free!"</p>
+</div>
 
 <pb n="[244]"/>
 <div id="gffalse037" type="chapter">
@@ -2248,6 +2446,7 @@ yourself so much upon your 'woman's wit,' you are still only a fool!" he said sn
 amazement and his own power to jeer at her for her short-sightedness and the egregious blunder she had made, in spite of her boasted cleverness. "If I was an adventurer once, I am an adventurer no longer; if I assumed a title in the days of the past I need do so no more; for death has swept away all barriers between me and a marquisate, and I am to-day, by right of inheritance, by right of lineal descent&#x2014;honestly, truthfully, legally, Matthew, Marquis of Desmond ant! Baron Camperdown."</p>
 <p>He had thought to overwhelm her by that statement, had thought to crush her with his own importance, but&#x2014;he knew little, after all, of the woman with whom he had to deal, and her very first words convinced him of the blunder he had made.</p>
 <p>"Then, if you are legally the marquis, I, as your wife, am the Marchioness of Desmond," she cried out joyously, "and as such I demand my lawful rights, my noble husband&#x2014;I demand to live with you in this castle, which, it seems, you do possess, after all&#x2014;I demand to share your grandeur, demand to share your position, your title, your wealth; and you shall no longer pay court to popular actresses, nor let the world believe that you are a single man. I am your wife, my lord marquis, and, as your wife, I demand my lawful rights!"</p>
+</div>
 
 <pb n="[252]"/>
 <div id="gffalse038" type="chapter">
@@ -2315,6 +2514,7 @@ the friends of the Marquis of Desmond know that his lordship has chosen for a wi
 <p>"Yours shall be to follow the trail as soon as my mother has found it," she went on, after a moment; "to follow and find this Sylvia Montressor, and when you have found her&#x2014;"</p>
 <p>"Yes, yes! When I have found her? Well, what, then?"</p>
 <p>"A repetition of what you tried on me in the Newport road!" she answered, looking him straight in the eyes. "Only it must be more skillfully done, and without blunders in this case. A few inches of sharp steel, a little ball of lead, or a cup of poison! What does it matter which you employ, so that Sylvia Montressor dies, and the fortune of the Desmonds goes with the title, and both come at last to you and me!"</p>
+</div>
 
 <pb n="[260]"/>
 <div id="gffalse039" type="chapter">
@@ -2363,6 +2563,7 @@ terday, and yesterday your niece journeyed to the address contained in it."</p>
 <p>"To Victoria Station," he called out to the driver, as he assisted his wife into the vehicle.</p>
 <p>"Aye, aye, sir," responded cabby, as he touched his hat; then the cab swung suddenly round, the horse started off, and the journey to Victoria was begun.</p>
 <p>Three-quarters of an hour later, when the train for Deephaven Royals steamed out of the station, it bore Mr. and Mrs. Meredith with it, and so it happened that precisely two hours after Miss Detheredge had written and dispatched her warning letter to her mother, the old ramshackle "fly," with its overgrown horse, rushed up from the station and halted before Deephaven Villa for the second time, and Jemima Ann, rushing to answer the summons of the knocker, flung open the door, and stood face to face with Gypsy's parents.</p>
+</div>
 
 <pb n="[265]"/>
 <div id="gffalse040" type="chapter">
@@ -2418,6 +2619,7 @@ ago. I know her for Gypsy Meredith, my own child; and I have come too late to se
 <p>"Yes, I am her father, and this is her mother&#x2014;her heartbroken mother, who has yearned so long to hold her. And we have come too late, too late to take her to our hearts and tell her that the past is forgiven, forgotten&#x2014;and we remember only her."</p>
 <p>"Oh, come in! oh, come in!" exclaimed Miss St. Quentin excitedly. "You do not yet know how proud you have reason to be of your daughter, Mr. Meredith ; you do not yet know whom it really was that she married all those months ago; but, thank fortune, I, as her friend, may tell you now, and so win you to help us in tracing and finding her. Come in, Mr. Meredith&#x2014;come into the drawing-room, and let me tell Sylvia Montressor's father and mother how true, how noble a woman she really is, and how blessed are you who not only know her as 'Gypsy,' but are permitted to call her daughter!"</p>
 <p>So she led them in, and so, for the second time the story of the past was told, and told&#x2014;this time, by Miss St. Quentin's lips&#x2014;to Gypsy Meredith's father.</p>
+</div>
 
 <pb n="[271]"/>
 <div id="gffalse041" type="chapter">
@@ -2484,6 +2686,7 @@ everything&#x2014;everything, 'ceptin' that bluff you give us about
 been Lord Matthew Sleaford's wife&#x2014;and, oh, gee! but that was a
 screamer, and no mistake!"</p>
 <p>"And yet it is as true as truth itself," responded Maggie fervently. "I am, indeed, Lord Matthew Sleaford's wife, and if I can but find the paper&#x2014;the blessed paper for which I seek&#x2014;even he cannot deny my claim nor refuse to give me the name which is truly and lawfully mine! I am his wife&#x2014;I am his lawful wife, and, after eight years of misery and desertion, I have come back to prove my rights!"</p>
+</div>
 
 <pb n="[278]"/>
 <div id="gffalse042" type="chapter">
@@ -2521,13 +2724,14 @@ we may find there some trifling thing that will put us on the track?"</p>
 <p>Miss St. Quentin glanced at the dress, and while the rest were searching about the floor and prying into the cupboards and wardrobes she went forward and took it up.</p>
 <p>She had had too long an experience upon the stage, where "clews" are ever in waiting for the proper person to find them, too long an experience of the ways of melodrama, to neglect so important a thing as the dress last worn by the lost heroine, and so, faithful to her dramatic instincts, she looked for a pocket, found it, plunged her hand into it, and triumphantly drew forth a letter.</p>
 <p>"I know where she is&#x2014;I know, I know, and so do you, Maggie Twyford! for this letter is signed 'Henri Du Bois,' and either you are a wretched little hypocrite, after all, or this letter in my hand is a forgery. Mr. Meredith! Jemima Ann! I know where Gypsy is! She is in London&#x2014;in Desmond House, Cromwell Road, South Kensington, and here's a letter that proves it!"</p>
+</div>
 
 <pb n="[282]"/>
 <div id="gffalse043" type="chapter">
 <head rend="center">CHAPTER XLIII.
 <lb/>THE WATERMARK.</head>
 <p>Merely crying out&#x2014;not saying anything intelligible, for they were all too wildly excited for that&#x2014;Mr. and Mrs. Meredith and Jemima Ann, and even the pseudo valet rushed upon the little actress like so many starving wolves upon a stray lamb, and for a moment or two nothing was heard but a jumble of excited sentences that ran like this:</p>
-,p>"A letter!" "Let me see it!" "Desmond House!" "How do you know?" "Oh, gee! have we found a clew?" "It's a trick! It's a forgery!" "Oh, Gypsy!"</div>
+<p>"A letter!" "Let me see it!" "Desmond House!" "How do you know?" "Oh, gee! have we found a clew?" "It's a trick! It's a forgery!" "Oh, Gypsy!"</p>
 <p>The first really intelligible speech that rose over the din and hubbub was uttered by Maggie Twyford.</p>
 <p>"Shame on you for even thinking I am a hypocrite, Cousin Sally, and if that letter says that I have had any hand in Lady Gypsy's disappearance, then the letter is a forgery.</p>
 <p>"The letter does say it, then," asseverated Miss St. Quentin. "Not in so many words, Maggie, but by reason of its signature."</p>
@@ -2602,6 +2806,7 @@ ceeded. Oh, it was Ned who wrote this letter, and it is Ned who has lured my lad
 <p>"I know it! I said it was!" shouted out Jemima Ann in the midst of the excitement produced by Maggie's assertion and the proof with which she backed it up&#x2014;a proof so conclusive that no one who compared the two notes could any longer doubt that the one hand had written both. "I knowed that he was at the bottom of it all. Where'll we find him? Where is he?"</p>
 <p>"In London!" responded Maggie. "He went there early last evening and has not since returned. Oh, Mr. Meredith, lose no time, but fly to her rescue at once, and rescue her from my brother's hands. Do you not see? Do you not understand? This letter is not one which has been left behind as a blind. It is a clew&#x2014;a real clew&#x2014;and we are on the track of the truth at last. For Desmond House is a deserted house at present, and what better place could Sleaford and his confederate hit upon to hide her in than that? She is there&#x2014;I feel and know that she is there&#x2014;that she went there believing the letter to be from me, and if you only arouse the police and show this letter to them&#x2014;"</p>
 <p>"Give it to me, and I will search every house in London until I find her!" he broke in excitedly. "Come, Jemima Ann, come Miss St. Quentin. Oh, Gypsy! Gypsy! take courage dear, for the tables have turned at last!"</p>
+</div>
 
 <pb n="[289]"/>
 <div id="gffalse044" type="chapter">
@@ -2656,11 +2861,12 @@ whose accents made her senses reel, quavered out somewhere in the darkness:</p>
 <p>She started with one great cry and half rose to her feet.</p>
 <p>"His voice!" she uttered in a voice of awe. "The dead has come back to me&#x2014;the dead has spoken to me! It is his voice&#x2014;Philip's voice&#x2014;and he is here in spirit to watch over me!"</p>
 <p>Then a darkness shut down upon her senses, her half-raised figure sank suddenly back upon the bed aed with a smile on her lips she quietly fainted away.</p>
+</div>
 
 <pb n="[295]"/>
 <div id="gffalse045" type="chapter">
 <head rend="center">CHAPTER XLV.
-<lb/>BEFORE TINE STORY ENDED.</head>
+<lb/>BEFORE THE STORY ENDED.</head>
 <p>When the morrow came&#x2014;that morrow which was productive of so much excitement at Deephaven Villa, and was fraught with such consequences to Matthew Sleaford, Gypsy was up betimes and had begun anew the inspection of the room in which she was confined.</p>
 <p>A close scrutiny, by daylight, of the door which gave access to the adjoining room, convinced her that it was not only badly warped by time, but that the lock which secured it was both weak and old, and could, if she had only some implement to assist her, be easily forced.</p>
 <p>At nine o'clock Twyford brought up her breakfast, and, finding her
@@ -2709,6 +2915,7 @@ thunder of footsteps came rushing up the stairs.</p>
 <p>"Gypsy! Gypsy! Where are you?" shouted out a
 <pb n="299 Before the Story Ended."/>
 voice as the great rush came sweeping upward. "My child, my child, it is I, your father! Come, Jemima Ann; come, Miss St. Quentin; come, officers! My child is here&#x2014;my child is here, for I have heard her voice. Up, up and let us save her. Oh, Gypsy! Where are you?"</p>
+</div>
 
 <pb n="[300]"/>
 <div id="gffalse046" type="chapter">
@@ -2760,9 +2967,9 @@ with them, leaving a broad, ragged gap along the wall above the
 fireplace. In its fall it became the instrument of Heaven's justice.</p>
 <p>Clattering downward, the heavy wooden shelf swept harmlessly over Twyford's head and struck him free of his captors, and, as he struggled to his feet amid the clouds of dust and fallen plaster, out of that ragged gap, where it had been so long hidden, fluttered a discolored scrap of partly written, partly printed paper, and lay, face upward, upon his sleeve.</p>
 <p>He glanced at it, saw in that glance a name written upon it that sent the blood rushing to his face, and then with a gasp of incredulity, he grabbed it and read it eagerly.</p>
-<pb n="305 Out of the Crooked Ways.">
+<pb n="305 Out of the Crooked Ways."/>
 <p>"She was his wife&#x2014;she was not his victim&#x2014;she was and is his wife!" he cried out wildly, above the din and confusion. "Take me, you wretches, take me and do what you will with me, for my work is done at last. My sister is Matthew Sleaford's wife, and this blessed thing is the certificate of their marriage!"</p>
-
+</div>
 
 <pb n="[306]"/>
 <div id="gffalse047" type="chapter">
@@ -2858,6 +3065,7 @@ write to my poor little sister, and under the seal of secrecy tell her the truth
 <p>"I will! I will!" interposed Gypsy.</p>
 <p>"Very well, then, all the rest is easy," said Ned. "'Monsieur Henri Du Bois' shall resign his position and come to this house; my lady's mother shall come here and join you and her, and, as for Mr. Meredith, he shall simply disappear. From what I have this night heard I do not think that either his sister or his sister's daughter will trouble themselves to hunt for him, and so, every door will he securely closed until you, my lord, are ready to open them all and proclaim yourself. Jemima Ann will return to Deephaven Royals only long enough to tell Sleaford that she is convinced that her mistress has been abducted and carried off to America, and she is going there in quest of her; then she will leave Deephaven Villa and come back here to assist my lady until your lordship is well and strong, and the day of retribution has dawned! In the hands of the law"&#x2014;turning to the police&#x2014;"I leave all the rest. That silence and secrecy will be preserved regarding this night's revelations I can well believe, so you may&#x2014;you must&#x2014;rest here in perfect security, my lord, until Heaven in its goodness gives you back your health and strength and makes you again fit to stand up for my lady and yourself."
 Against this plan&#x2014;particularly as Gypsy would listen to no denial&#x2014;my lord, the Marquis of Desmond, could offer no objection, and so it fell out that everything was conducted as the steward suggested, and Ned Twyford had his way. On the morrow he went back to Thetford Castle; on the morrow Gypsy's mother came in secret to Desmond House; on the morrow, too, "Monsieur Henri Du Bois" threw up his position at Thetford Castle and journeyed to the same place, and the net so skillfully woven about Matthew Sleaford, the usurper, began to close in and the end of the tragedy to approach.</p>
+</div>
 
 <pb n="[312]"/>
 <div id="gffalse048" type="chapter">
@@ -2872,70 +3080,71 @@ wife," but older, and wiser heads said: "Gammon, my dear! Desmond's head is set 
 <p>For Miss Detheredge had been noised about as "an heiress," you understand, and English society, which has a strong and reverent love for American dollars, had received her as something quite charming, and "the county" had to a man and a woman accepted its invitations to the betrothal ball.</p>
 <p>"Come along, mamma, let us go down, for I hear
 <pb n="313 A Foregone Conclusion."/>
-the first carriage on the drive, and I wouldn't keep Matthew waiting at such a time for anything in the world," said the bride-elect, with a sneering laugh, to her mother as she shook out her glistening satin draperies and prepared to leave her boudoir. "It isn't every night in the year, you know, that a woman has the pleasure of receiving congratulations upon her betrothal to a man who has for five years or more been her lawful husband, and I mean to make the most of the experience."
-For Miss Detheredge had long since taken her mother into her confidence, and the story of the past had been openly confessed.
-"Coed along, then," said Mrs. Detheredge, adjusting her black velvet train. "Dear me, Ada, I can hardly realize the situation even yet; and if Geoffrey takes it into his head to turn up some time after his long and mysterious disappearance, what will he say when he finds you the wife of a marquis?"
-"Let him say what he likes," responded Ada, with a shrug of her pearly shoulders. "What do I care? What do you care? He can't alter matters, can he?"
-"No, of course not, but Gypsy could if she were to return."
-"Gypsy be bothered; she never will return! My adorable hubby hasn't said it in so many words, but I know well enough that he has taken means to put her out of the way for all that! So she doesn't worry me in the slightest. Come, let's go down, mamma, and think only of the triumph that is ours, and of the gorgeous entertainment where I shall be the bright particular star, and the observed of all observers. The Marchioness of Desmond says, `Come down, Mrs. Detheredge,' and if you are not a stupid old silly, you will obey her."
-So down they went in their radiant happiness, and were soon in the thick of the fashionable crush. If Ada had longed for social success upon this pir.
+the first carriage on the drive, and I wouldn't keep Matthew waiting at such a time for anything in the world," said the bride-elect, with a sneering laugh, to her mother as she shook out her glistening satin draperies and prepared to leave her boudoir. "It isn't every night in the year, you know, that a woman has the pleasure of receiving congratulations upon her betrothal to a man who has for five years or more been her lawful husband, and I mean to make the most of the experience."</p>
+<p>For Miss Detheredge had long since taken her mother into her confidence, and the story of the past had been openly confessed.</p>
+<p>"Come along, then," said Mrs. Detheredge, adjusting her black velvet train. "Dear me, Ada, I can hardly realize the situation even yet; and if Geoffrey takes it into his head to turn up some time after his long and mysterious disappearance, what will he say when he finds you the wife of a marquis?"</p>
+<p>"Let him say what he likes," responded Ada, with a shrug of her pearly shoulders. "What do I care? What do you care? He can't alter matters, can he?"</p>
+<p>"No, of course not, but Gypsy could if she were to return."</p>
+<p>"Gypsy be bothered; she never will return! My adorable hubby hasn't said it in so many words, but I know well enough that he has taken means to put her out of the way for all that! So she doesn't worry me in the slightest. Come, let's go down, mamma, and think only of the triumph that is ours, and of the gorgeous entertainment where I shall be the bright particular star, and the observed of all observers. The Marchioness of Desmond says, 'Come down, Mrs. Detheredge,' and if you are not a stupid old silly, you will obey her."</p>
+<p>So down they went in their radiant happiness, and were soon in the thick of the fashionable crush.</p>
+<p>If Ada had longed for social success upon this par-
 <pb n="314 A Foregone Conclusion."/>
-titular night, her longings were certainly gratified; for never had she looked lovelier, and not even Gypsy's debut at Thetford Castle had been a greater triumph.
-Thick and fast the `carriages rolled up and the fashionable throng poured into the brilliant rooms. And if Matthew Sleaford had not actually hated the radiant creature who stood beside him graciously receiving the congratulations of his guests, he must have been proud of the success she scored ; for everybody admired her, everybody admitted that she would make an ideal marchioness, and the gentlemen in particular raved over her lovely eyes and her golden hair.
-But suddenly there was a lull, suddenly the doors were seized from without and sharply closed&#x2014;the footmen vanished, the guests were shut in, and from the grand corridor their floated dimly into the crowded rooms a noise that sounded like a subdued altercation.
-The guests arched their eyebrows and looked inquiringly at one another. This smacked too much of vulgarity ! The future marchioness, shocked and annoyed, whirled and demanded of her future lord the meaning of this outrageous proceeding, and he, in amazement, growled suddenly back :
-"I don't know, but, by the lord Harry, I soon will! What's Twyford about to allow such a disgraceful thing at such a time as this?"
-"Maybe some of the servants are drunk&#x2014;it can hardly be guests who are creating such a disturbance," whispered .Mrs. Detheredge. "See what it is, Mat-thew, and stop it."
-"I will," responded Sleaford, with a smothered oath. "Look to our guests, and I'll soon put a stop to this."
-A stop was put to it even as he spoke, and put in a manner that made everybody gasp and whirl sharply round, for without the slightest warning the doors were suddenly thrust open again and the voices of the footmen resumed their interrupted duties.
+ticular night, her longings were certainly gratified; for never had she looked lovelier, and not even Gypsy's d&#x00E9;but at Thetford Castle had been a greater triumph.</p>
+<p>Thick and fast the carriages rolled up and the fashionable throng poured into the brilliant rooms. And if Matthew Sleaford had not actually hated the radiant creature who stood beside him graciously receiving the congratulations of his guests, he must have been proud of the success she scored; for everybody admired her, everybody admitted that she would make an ideal marchioness, and the gentlemen in particular raved over her lovely eyes and her golden hair.</p>
+<p>But suddenly there was a lull, suddenly the doors were seized from without and sharply closed&#x2014;the footmen vanished, the guests were shut in, and from the grand corridor their floated dimly into the crowded rooms a noise that sounded like a subdued altercation.</p>
+<p>The guests arched their eyebrows and looked inquiringly at one another. This smacked too much of vulgarity! The future marchioness, shocked and annoyed, whirled and demanded of her future lord the meaning of this outrageous proceeding, and he, in amazement, growled suddenly back:</p>
+<p>"I don't know, but, by the lord Harry, I soon will! What's Twyford about to allow such a disgraceful thing at such a time as this?"</p>
+<p>"Maybe some of the servants are drunk&#x2014;it can hardly be guests who are creating such a disturbance," whispered Mrs. Detheredge. "See what it is, Matthew, and stop it."</p>
+<p>"I will," responded Sleaford, with a smothered oath. "Look to our guests, and I'll soon put a stop to this."</p>
+<p>A stop was put to it even as he spoke, and put in a manner that made everybody gasp and whirl sharply round, for without the slightest warning the doors were suddenly thrust open again and the voices of the footmen resumed their interrupted duties.</p>
 <pb n="315 A Foregone Conclusion."/>
-"The Right Honorable Mr. Felix Alwin and Miss Alwin," they announced, in loud tones. "Lord and Lady Penton, Mr. and Mrs. Geoffrey Meredith, Mr. and Mrs. Cecil Rawley, Miss Jemima Ann Meredith, Mr. Edward Twyford, and Mrs. Matthew Sleaford !"
-A cry rang through the length and breadth of the room as that last name was announced&#x2014;a cry in which both Ada and the usurper indignantly joined&#x2014;and as Sleaford sprang forward with an angry roar and glared in savage surprise at Mr. and Mrs. Meredith and Jemima Ann, and Mr. Cecil Rawley and his new-made wife, over the threshold stepped, in full evening attire, the form of his steward, supporting on his arm a slim, girlish figure arrayed in a gown of lavender silk, and with her lovely head bent demurely down.
-"Twy ford, my steward&#x2014;by Heaven!" gasped Sleaford, as he fixed a glance of wrath upon Ned. "You rascal, what is the meaning of this?"
-"It means that the time for unmasking has come at last, my worthy brother-in-law !" responded Ned. "It means that you have been my dupe all along ; it means that my work i ; done, and I am here to introduce this clear girl upon \sly arm as your lawful wife. Look up, Maggie, my lass, look up, and let him see you !"
-"Maggie Twyford!" gasped Sleaford, as she lifted her head and looked him straight in the eyes.
-"Yes, Maggie Twyford !" she made answer. "Your villainy has met its reward, Matthew Sleaford, and the victim you thought you had seen the last of has run you to earth, and is here to proclaim herself your lawful wife."
-"It is a lie. I&#x2014;I mean a falsehood," struck in Miss Detheredge excitedly. "Turn the woman out of the house, Matthew. Tell her to her face that she lies, and that she is not and never was your wife."
-j "He will hardly be bold enough to do that, in the face of this c:rnv acing document," said Ned Twyford calmly. "Lool. at it, Sleaford&#x2014;at a distance, if you
+<p>"The Right Honorable Mr. Felix Alwin and Miss Alwin," they announced, in loud tones. "Lord and Lady Penton, Mr. and Mrs. Geoffrey Meredith, Mr. and Mrs. Cecil Rawley, Miss Jemima Ann Meredith, Mr. Edward Twyford, and Mrs. Matthew Sleaford!"</p>
+<p>A cry rang through the length and breadth of the room as that last name was announced&#x2014;a cry in which both Ada and the usurper indignantly joined&#x2014;and as Sleaford sprang forward with an angry roar and glared in savage surprise at Mr. and Mrs. Meredith and Jemima Ann, and Mr. Cecil Rawley and his new-made wife, over the threshold stepped, in full evening attire, the form of his steward, supporting on his arm a slim, girlish figure arrayed in a gown of lavender silk, and with her lovely head bent demurely down.</p>
+<p>"Twyford, my steward&#x2014;by Heaven!" gasped Sleaford, as he fixed a glance of wrath upon Ned. "You rascal, what is the meaning of this?"</p>
+<p>"It means that the time for unmasking has come at last, my worthy brother-in-law!" responded Ned. "It means that you have been my dupe all along; it means that my work is done, and I am here to introduce this clear girl upon my arm as your lawful wife. Look up, Maggie, my lass, look up, and let him see you!"</p>
+<p>"Maggie Twyford!" gasped Sleaford, as she lifted her head and looked him straight in the eyes.</p>
+<p>"Yes, Maggie Twyford!" she made answer. "Your villainy has met its reward, Matthew Sleaford, and the victim you thought you had seen the last of has run you to earth, and is here to proclaim herself your lawful wife."</p>
+<p>"It is a lie. I&#x2014;I mean a falsehood," struck in Miss Detheredge excitedly. "Turn the woman out of the house, Matthew. Tell her to her face that she lies, and that she is not and never was your wife."</p>
+<p>"He will hardly be bold enough to do that, in the face of this convincing document," said Ned Twyford calmly. "Look at it, Sleaford&#x2014;at a distance, if you
 <pb n="316 A Foregone Conclusion."/>
 please! Look at it, and see how cleverly you have been run to earth. Wears well, doesn't it, for a simple bit of paper that has not been treasured. Shall I tell
-	you here I__fnund	tell your --friends--here	----what it is? Well, then, I found it tucked away behind the old oaken fireplace in the rooms you used to occupy,
-at Desmond House, and	
-"Silence !"
-"Oho! that takes the wind out of your sails, doesn't it? Ladies and gentlemen all," turning to the staring company, "I have the honor to announce to you that this little scrap of paper is the certificate of a marriage solemnized eight years ago between Mr. Matthew Sleaford and my sister, Maggie Twyford, and go	
-"Eight years ago !" shrieked Mrs. Detheredge excitedly. "Ada! do you hear that? He already had a wife when he married you in France five years since, and your union with him was illegal."
-The greatest consternation followed this inadvertent acknowledgment, and for the next two or three minutes everything was in a state of the wildest con-fusion.
-"Ho! ho ! so that is how the cat jumps, is it ?" cried Geoffrey Meredith, addressing himself to Ada. "You were already his wife, and this precious sister of mine
-is in this game with you, eh? Well, I shall know how to drop both you and her after this, you miserable pair of schemers !"
-But Ada never noticed him. She was too wild with excitement to do aught but cling to Slea ford and implore him to deny the truth, and he, with an eye to the main chance, thought only of conciliating Twyford and sealing his lips before he made any darker revelations.
-"It is true&#x2014;it is true&#x2014;I admit it," he said glancing imploringly at his ex-steward. "I have behaved badly, but it&#x2014;t is never too late to mend. Ne-: ,, dear old Ned, I acknowledge the truth. The marriage was
+you where I found it before I tell your friends here	what it is? Well, then, I found it tucked away behind the old oaken fireplace in the rooms you used to occupy at Desmond House, and&#x2014;"</p>
+<p>"Silence!"</p>
+<p>"Oho! that takes the wind out of your sails, doesn't it? Ladies and gentlemen all," turning to the staring company, "I have the honor to announce to you that this little scrap of paper is the certificate of a marriage solemnized eight years ago between Mr. Matthew Sleaford and my sister, Maggie Twyford, and go&#x2014;"</p>
+<p>"Eight years ago!" shrieked Mrs. Detheredge excitedly. "Ada! do you hear that? He already had a wife when he married you in France five years since, and your union with him was illegal."</p>
+<p>The greatest consternation followed this inadvertent acknowledgment, and for the next two or three minutes everything was in a state of the wildest confusion.</p>
+<p>"Ho! ho! so that is how the cat jumps, is it?" cried Geoffrey Meredith, addressing himself to Ada. "You were already his wife, and this precious sister of mine is in this game with you, eh? Well, I shall know how to drop both you and her after this, you miserable pair of schemers!"</p>
+<p>But Ada never noticed him. She was too wild with excitement to do aught but cling to Sleaford and implore him to deny the truth, and he, with an eye to the main chance, thought only of conciliating Twyford and sealing his lips before he made any darker revelations.</p>
+<p>"It is true&#x2014;it is true&#x2014;I admit it," he said glancing imploringly at his ex-steward. "I have behaved badly, but it&#x2014;it is never too late to mend. Ned, dear old Ned, I acknowledge the truth. The marriage was
 <pb n="317 A Foregone Conclusion."/>
-legal; your sister was and is my wife, and&#x2014;and \. Maggie, dear, come to me and forgive me."
-As he spoke he reached out his arms to her, but with a fierce, impassioned cry, Ned Twyford waved him back.
-"It's too late for that sort of thing now !" he cried. "You've killed all the love she ever had for you, and, even if you hadn't, I'd shoot her dead before she should ever go back to you. Coward ! usurper! assassin ! do you think you can make peace with me ?"
-"Ned, dear, Ned, don't speak&#x2014;don't&#x2014;don't, I beg you ! I'll make you rich if you seal your lips."
-"If riches could seal my lips, will they seal these ?" said Ned, turning. to the door. "Without there ! send in the officers, you lackeys, and announce your last guests."
-As he spoke the doors again flew inward, a posse of police filed into the room, and, at the same moment, the voices of the footmen called joyously, "My lord and my lady, the Marquis and Marchioness of Desmond!"
-A shriek rang through the rooms as he spoke&#x2014;a shriek from Sleaford, who saw them before others did&#x2014;and then, amidst the wildest confusion, they stepped forward and the last bolt fell. Garbed in a trailing gown of rich ivory white satin, her fair throat and her lustrous black hair ablaze with diamonds, the pseud "Miss Sylvia Montressor" appeared again before those who had thought they had seen the last of her, but appeared this time leaning upon the arm of a pale, hand-some man, whose coming was the cue for a universal panic.
-In one glance every soul in the room recognized him and cried out, "Desmond," but none more wildly than Matthew Sleaford.
-"Philip !" he shrieked, staggering back as from a specter. "Philip Desmond alive ! Great heavens ! Philip Desmond alive ?"
+legal; your sister was and is my wife, and&#x2014;and&#x2014;Maggie, dear, come to me and forgive me."</p>
+<p>As he spoke he reached out his arms to her, but with a fierce, impassioned cry, Ned Twyford waved him back.</p>
+<p>"It's too late for that sort of thing now!" he cried. "You've killed all the love she ever had for you, and, even if you hadn't, I'd shoot her dead before she should ever go back to you. Coward! usurper! assassin! do you think you can make peace with me?"</p>
+<p>"Ned, dear, Ned, don't speak&#x2014;don't&#x2014;don't, I beg you! I'll make you rich if you seal your lips."</p>
+<p>"If riches could seal my lips, will they seal these?" said Ned, turning to the door. "Without there! send in the officers, you lackeys, and announce your last guests."</p>
+<p>As he spoke the doors again flew inward, a posse of police filed into the room, and, at the same moment, the voices of the footmen called joyously, "My lord and my lady, the Marquis and Marchioness of Desmond!"</p>
+<p>A shriek rang through the rooms as he spoke&#x2014;a shriek from Sleaford, who saw them before others did&#x2014;and then, amidst the wildest confusion, they stepped forward and the last bolt fell. Garbed in a trailing gown of rich ivory white satin, her fair throat and her lustrous black hair ablaze with diamonds, the pseudo "Miss Sylvia Montressor" appeared again before those who had thought they had seen the last of her, but appeared this time leaning upon the arm of a pale, handsome man, whose coming was the cue for a universal panic.</p>
+<p>In one glance every soul in the room recognized him and cried out, "Desmond," but none more wildly than Matthew Sleaford.</p>
+<p>"Philip!" he shrieked, staggering back as from a specter. "Philip Desmond alive! Great heavens! Philip Desmond alive?"</p>
 <pb n="318 A Foregone Conclusion."/>
-"Yes, alive, you scoundrel&#x2014;alive, you would-be murderer, and come back to claim his own!" responded Iffy - "Come-haok with his bride&#x2014;his dear, beloved bride, whom you would have cheated had Heaven permitted you to do so. Wretch ! it was Ned Twy f ord who saved me from your murderous hands ; Ned Twy ford, who fooled you into believing that you had killed me, and that he- had buried my body in the ruins of the keep. But I live, you see&#x2014;live to defeat your infamous schemes."
-Suddenly, startlingly, and with a din like thunder, there rang forth a pistol shot&#x2014;a flash of flame blazed forth, a puff of smoke went curling upward, and when the crowd, dividing with a shriek of horror, fled to right and left, there on the floor lay Matthew Sleaford.
-"Cheated us, by Jupiter! We've had our journey here for nothing!" exclaimed the head constable, as he and his colleagues rushed forward and bent above the suicide. "Who'd have thought of his having a pistol about him at such a time as this? My lord, the case is closed, and there's nobody left to prosecute but these two women."
-"Let them go&#x2014;they are my wife's relatives, and I will not appear against them," he answered, as he wrapped his arms about Gypsy and held her close while she hid her pale face upon his shoulder and. leaned her shuddering form against his bosom.
-And so the tale ends as every good tale should end&#x2014;in the triumph of virtue and the downfall of vice.
-Years passed since that tragical night, and neither Miss Detheredge nor her mother were ever again heard of, for not only Mr. Meredith, but Lady Gypsy as well, were far too human to feel that they could ever forgive them, and so they let them go their ways and never wasted another thought upon them.
-But with those who had stood her friends she took a .astly different course.
-She did not let the "dignity of position" stand in
+<p>"Yes, alive, you scoundrel&#x2014;alive, you would-be murderer, and come back to claim his own!" responded my lord passionately. "Come back with his bride&#x2014;his dear, beloved bride, whom you would have cheated had Heaven permitted you to do so. Wretch! it was Ned Twyford who saved me from your murderous hands; Ned Twyford, who fooled you into believing that you had killed me, and that he had buried my body in the ruins of the keep. But I live, you see&#x2014;live to defeat your infamous schemes."</p>
+<p>Suddenly, startlingly, and with a din like thunder, there rang forth a pistol shot&#x2014;a flash of flame blazed forth, a puff of smoke went curling upward, and when the crowd, dividing with a shriek of horror, fled to right and left, there on the floor lay Matthew Sleaford.</p>
+<p>"Cheated us, by Jupiter! We've had our journey here for nothing!" exclaimed the head constable, as he and his colleagues rushed forward and bent above the suicide. "Who'd have thought of his having a pistol about him at such a time as this? My lord, the case is closed, and there's nobody left to prosecute but these two women."</p>
+<p>"Let them go&#x2014;they are my wife's relatives, and I will not appear against them," he answered, as he wrapped his arms about Gypsy and held her close while she hid her pale face upon his shoulder and leaned her shuddering form against his bosom.</p>
+<p>And so the tale ends as every good tale should end&#x2014;in the triumph of virtue and the downfall of vice.</p>
+<p>Years passed since that tragical night, and neither Miss Detheredge nor her mother were ever again heard of, for not only Mr. Meredith, but Lady Gypsy as well, were far too human to feel that they could ever forgive them, and so they let them go their ways and never wasted another thought upon them.</p>
+<p>But with those who had stood her friends she took a vastly different course.</p>
+<p>She did not let the "dignity of position" stand in
 <pb n="319 A Foregone Conclusion."/>
-her way, so far as Cis Rawley and his dear, good little wife were concerned, and, contrary to precedent&#x2014;for marquises and marchionesses are supposed to be above that sort of thing&#x2014;she and her husband agreed that she owed it as a duty to the Rawleys to stick to her engagement and appear in the much-advertised revival of the "Princess Mirza."
-So she went back&#x2014;with added prestige&#x2014;to the stage for another season, and when she finally retired for good and all, had the satisfaction of knowing that she had made Cis Rawley's fortune, and so, in a measure, repaid her debt to him and` his wife--both of whom always were counted among her dearest friends.
-Upon Maggie Twyford Lord Desmond settled an annuity, and then appointed her to the post of upper housekeeper, and kept her in his service until she finally left it to become the wife of a handsome, well-to-do young farmer, who, to quote Maggie's own words, "is as good as gold and repays her' a tiiuu; -4-fold for all the misery she suffered in the past at Mat-thew Sleaford's hands."
-Mr. and Mrs. Meredith took up their residence at the castle, since Lord Desmond wouldn't hear of any-thing else.
-Ned Twyford remained there, too, in his former position as steward, but enjoying three times the salary that any similar steward ever received before. Although he still occupied the steward's lodge, he no longer did so alone, for the years that passed brought changes to him as well as to others, and he no longer was a bachelor, but a husband and a father. He mar-
+her way, so far as Cis Rawley and his dear, good little wife were concerned, and, contrary to precedent&#x2014;for marquises and marchionesses are supposed to be above that sort of thing&#x2014;she and her husband agreed that she owed it as a duty to the Rawleys to stick to her engagement and appear in the much-advertised revival of the "Princess Mirza."</p>
+<p>So she went back&#x2014;with added prestige&#x2014;to the stage for another season, and when she finally retired for good and all, had the satisfaction of knowing that she had made Cis Rawley's fortune, and so, in a measure, repaid her debt to him and his wife&#x2014;both of whom always were counted among her dearest friends.</p>
+<p>Upon Maggie Twyford Lord Desmond settled an annuity, and then appointed her to the post of upper housekeeper, and kept her in his service until she finally left it to become the wife of a handsome, well-to-do young farmer, who, to quote Maggie's own words, "is as good as gold and repays her a thousand-fold for all the misery she suffered in the past at Matthew Sleaford's hands."</p>
+<p>Mr. and Mrs. Meredith took up their residence at the castle, since Lord Desmond wouldn't hear of anything else.</p>
+<p>Ned Twyford remained there, too, in his former position as steward, but enjoying three times the salary that any similar steward ever received before. Although he still occupied the steward's lodge, he no longer did so alone, for the years that passed brought changes to him as well as to others, and he no longer was a bachelor, but a husband and a father. He mar-
 <pb n="320 A Foregone Conclusion."/>
-tied Jemima Ann, precisely ten days after the bells of Deephaven Church rang out to tell all the world that an heir to Thetford Castle was born and the--rag of Desmond was continued in the direct line.
-THE END.
-No. 1147 of the NEW EAGLE SERIES, entitled "Love
-Given in Vain," by Adelaide Fox Robinson, is a charming story in which wealth and love contend for the mastery, the victory being iwon by true love, which brings the happiness desired.
+ried Jemima Ann, precisely ten days after the bells of Deephaven Church rang out to tell all the world that an heir to Thetford Castle was born and the race of Desmond was continued in the direct line.</p>
+<lb/>
+<center>THE END.</center>
+<lb/>
+<p>No. 1147 of the NEW EAGLE SERIES, entitled "Love Given in Vain," by Adelaide Fox Robinson, is a charming story in which wealth and love contend for the mastery, the victory being won by true love, which brings the happiness desired.</p>
+</div>
