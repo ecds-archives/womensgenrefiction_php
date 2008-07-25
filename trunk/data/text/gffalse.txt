@@ -1,6 +1,6 @@
 <!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
-<TEI.2 id="***">
-  <teiHeader id="***">
+<TEI.2 id="gffalse0001">
+  <teiHeader id="gffalse0002">
     <fileDesc>
       <titleStmt>
         <title>Falsely Accused, an electronic edition</title>
@@ -25,8 +25,7 @@
         </respStmt>
       </seriesStmt>
       <sourceDesc>
-        <bibl><author>Fleming, Geraldine</author>.<title>Her Priceless
-	Love or Bonny Belle</title>. <pubPlace>New York</pubPlace>:
+        <bibl><author>Fleming, Geraldine</author>.<title>Falsely Accused or Her Bitter Struggle</title>. <pubPlace>New York</pubPlace>:
 	<publisher>Street &#x0026; Smith</publisher>, <date>1897</date>.</bibl>
       </sourceDesc>
     </fileDesc>
@@ -76,7 +75,6 @@ text.</p>
         <keywords scheme="lcsh">
           <list>
             <item>American literature--19th Century--Fiction.</item>
-            <item>Women authors, American--19th Century.</item>
             <item>Romance.</item>
             <item>England.</item> <!-- no subject tag for either "britain" or "england" exists and i'm not sure which one it should be.-->
 	    <item>Courtship.</item>
@@ -104,60 +102,54 @@ text.</p>
           <name>Tyler Kellermann,</name>
           <resp>student assistant.</resp>
         </respStmt>
-        <item>***Added id attributes to div elements, modified head tags, and added milestone tags where appropriate.***</item>
+        <item>Added id attributes to div elements, modified head tags, and added milestone tags where appropriate.</item>
       </change>
     </revisionDesc>
   </teiHeader>
 
 <text>
 <front>
-<div id="***" type="covers">
-<figure entity="gfpricefc001">
-<figDesc>Front cover or Price's <hi rend="italic">Her Priceless Love</hi>.</figDesc>
+<div id="gffalse0003" type="covers">
+<figure entity="gffalsefc001">
+<figDesc>Front cover or Price's <hi rend="italic">Falsely Accused</hi>.</figDesc>
 </figure>
 </div>
 <pb/>
 
-<div id="***" type="advert">
-<figure entity="gfprceadvert002">
-<figDesc>Advertisement included in Price's <hi rend="italic">Her Priceless Love</hi>.</figDesc>
+<div id="gffalse0004" type="advert">
+<figure entity="gffalseadvert002">
+<figDesc>Advertisement included in Price's <hi rend="italic">Falsely Accused</hi>.</figDesc>
 </figure>
 </div>
 
-<div id="gfprice1204" type="advert">
-<figure entity="gfpriceadvert003">
-<figDesc>Advertisement included in Price's <hi rend="italic">Her Priceless Love</hi>.</figDesc>
+<div id="gffalse0005" type="advert">
+<figure entity="gffalseeadvert003">
+<figDesc>Advertisement included in Price's <hi rend="italic">Falsely Accused</hi>.</figDesc>
 </figure>
 </div>
 
-<pb entity="gfpricetp004" pages="Title Page"/>
+<div id="gffalse0006" type="title page">
+<pb entity="gffalsetp004" pages="Title Page"/>
 <titlePage type="full"/>
 <docTitle>
-<titlePart type="main">Her Priceless Love</titlePart>
+<titlePart type="main">Falsely Accused</titlePart>
 <titlePart type="sub">OR,</titlePart>
-<titlePart type="sub">BONNY BELLE</titlePart>
+<titlePart type="sub">Her Bitter Struggle</titlePart>
 </docTitle>
-<byline>BY<lb/><docAuthor>GERALDINE FLEMING</docAuthor><lb/>Author of "The Battle of Hearts," "Sold for Gold,"<lb/>"Her Dearest Love,"</byline>
+<byline>BY<lb/><docAuthor>GERALDINE FLEMING</docAuthor><lb/>Author of "Her Priceless Love," "The Battle of Hearts,"<lb/>"Sold for Gold," etc.</byline>
 <docImprint>
 <publisher>STREET &#x0026; SMITH CORPORATION<lb/>PUBLISHERS</publisher>
 <pubPlace>79-89 Seventh Avenue, New York</pubPlace>
 </docImprint>
 <pb/>
+</div>
 
-<div id="gfprice1204" type="copyright">
-<figure entity="gfpricecopyright005">
-<figDesc>Copyright information for Price's <hi rend="italic">Her Priceless Love</hi>.</figDesc>
+<div id="gffalse0007" type="copyright">
+<figure entity="gffalsecopyright005">
+<figDesc>Copyright information for Price's <hi rend="italic">Falsely Accused</hi>.</figDesc>
 </figure>
 </div>
 </front>
-
-
-
-***********make sure everything above this line is corrected for the new book************
-
-
-
-
 
 <body>
 <pb n="[5]"/>
@@ -714,7 +706,7 @@ to bed instead of sitting up to keep him company while he wrote to the steamship
 <p>But, in spite of his anxiety, it was not to the steamship company he gave his first attention. As soon as he was alone, he dipped his pen into the ink and began as follows:</p>
 
  <q><text><body>
- <div type="letter" id="***">
+ <div type="letter" id="gffalse0008">
  <opener><dateline>"IN THE WILDS OF MASSACHUSETTS, July 15.</dateline>
  <salute>"MY DEAR COUSIN:</salute></opener>
 <p>Don't start! Yes, it is really from me, and I am really here in America, and have been for months past. But I am coming home, old chap, and bringing the best little woman in the world with me. What do you think? I am married, Mat, actually married&#x2014;I, your good-for-nothing cousin, who used to vow that he would never surrender his independence to a woman, but would live and die in glorious bachelorhood and leave you his heir! I am actually a benedict, and have been for the past forty-eight hours.</p>
@@ -1274,7 +1266,7 @@ quis of Desmond?" responded Gypsy excitedly. "What was he doing with his clothin
 fled; for the letter&#x2014;bearing date of four years previously&#x2014;contained only these words:</p>
 
 <q><text><body>
-<div type="letter" id="***">
+<div type="letter" id="gffalse0009">
 <p><salute>"MY LORD:</salute>I hasten to tell you that your wishes have been carried out. A close guard has been put upon Firefly's stable and trainers, and if the ugly rumors Baltis says he overheard about the possibility of the horse being tampered with before the race day have any foundation, the thing will result in failure now. I am morally certain that Firefly will win the Derby, my lord, for there isn't his match in the kingdom, and I'm so sure of him that I shall back him for every penny I possess. Bless your lordship. I know that you couldn't have a present that would please you better than for Firefly to carry off the Derby cup, and he's going to win it for you, if I can make him do it.</p>
 <closer><signed>"Obediently your lordship's servant and jockey,
 "<name>JEM REDGES</name>."</signed></closer>
@@ -1671,7 +1663,7 @@ and as right as rain.</p>
 a careful survey of the library, blew out the light and stole upstairs
 to bed. "Come what may, he's bound to me now, and dare not speak should he ever turn against me; for it was he, not I, who actually killed Desmond&#x2014;killed him by burying him alive&#x2014;and my cause is his cause after that."</p>
 <p>But he might not have felt so sure of his man could he have followed and heard and seen what happened three-quarters of an hour later under the bedroom window of Mr. Timothy Taggert, the village "carrier" of Deephaven Royals.</p>
-<p>"Good Lauk a-mercy, Tim, there's somebody a-knockin' at the door, and a-callin' out for you!" exclaimed Mrs. Timothy, waking suddenly from her slumbers and giving her snoring husband a dig in the ribs with her elbow. "Wake up, wake up, do, and go see what it is. Something dreadful important, I know, for it's after half past three o'clock, and no-body would come knocking up respectable people oil& a tom-fool's errand at this hour of the morning. Law, don't you hear 'em a-poundin' and shoutin'? Get up, do, and see what it's all about."</p>
+<p>"Good Lauk a-mercy, Tim, there's somebody a-knockin' at the door, and a-callin' out for you!" exclaimed Mrs. Timothy, waking suddenly from her slumbers and giving her snoring husband a dig in the ribs with her elbow. "Wake up, wake up, do, and go see what it is. Something dreadful important, I know, for it's after half past three o'clock, and no-body would come knocking up respectable people on a tom-fool's errand at this hour of the morning. Law, don't you hear 'em a-poundin' and shoutin'? Get up, do, and see what it's all about."</p>
 <p>Whereupon, Mr. Taggert, with the weakness of a
 <pb n="180 Between Dark and Dawn."/>
 man who has been a henpecked husband for sixteen years, obeyed.</p>
@@ -1874,10 +1866,9 @@ some consolation, but to go away without a word, to leave her to think that my h
 <p>"Oh, Miss Montressor! will you? Can a lady like you humble yourself to such an extent for a fellow like me?"</p>
 <p>For an answer Gypsy seated herself at the table and produced pen, ink, and paper. "Tell me what you wish to say, and I will set it down as you dictate," she said, as she dated the sheet. "Now, then, I am ready. Please proceed."</p>
 <p>And, after covering her with thanks, Twyford did proceed, and this was the letter he dictated.</p>
-</div>
 
 <q><text><body>
-<div type="letter" id="***">
+<div type="letter" id="0010">
 <p><salute>"MY DEAR FRIEND:</salute> When you read these lines I shall have left this place, never to return&#x2014;I shall have gone back to the land from which I came, and leagues of ocean will lie between us forever. I go, however, wishing you every good thing in life, and carrying with me the memory of what we were to each other in the old days, but never can be again.
 "I know now that the hopes I built were false ones, never to be realized, that I have failed in every endeavor to become what I had hoped to become, and I go now to hide my disappointment and sorrow in a place known only to me. Try to forget me, and to believe that I love you still and will do so always. I shall pray for your happiness, but we will never meet again in this world. Farewell, and God bless you.</p>
 <closer><signed>"Ever affectionately yours,
@@ -1898,7 +1889,7 @@ over the letter to see if all is correct I will address the envelope."</p>
 <p>Then he was gone, and Gypsy, who had escorted him to the door, stood alone with the mysterious letter in her hand. All in a moment it dawned upon her from whom it might possibly be, and, slipping back into the anteroom, she closed the door, and tore off the envelope and drew forth a sheet of paper headed, "London," and bearing these words:</p>
 
 <q><text><body>
-<div type="letter" id="***">
+<div type="letter" id="0011">
 <p><salute>"DEAR FRIEND:</salute> I send this by an acquaintance, who is on his way to Deephaven Royals, and who has
 <pb n="203 Springing the Trap."/>
 promised to see that it reaches your hands. When you receive it hesitate not a moment, but disguise yourself and come at once to London&#x2014;to Desmond House, Cromwell Road, South Kensington&#x2014;where I shall be awaiting you. Say nothing to anybody, but come at once, and let not even your dearest friend know when you leave or where you go. I have news for you&#x2014;news that will make you swoon for very joy. Come, I implore you.</p>	<closer><signed>Hastily and hopefully,
@@ -1910,7 +1901,7 @@ promised to see that it reaches your hands. When you receive it hesitate not a m
 <p>With the swiftness of thought he drew out of his pocket the letter Gypsy had written at his dictation, removed it from its envelope, flattened it out, laid it upon the writing table, and, taking up the ink bottle, poured its contents over the signature and let them trickle thence to the floor.</p>
 <p>"Upset in the haste of flight," he muttered, as he slipped out of
 the window again, leaving the letter and the overturned ink bottle upon the table. "Her own handwriting, her own paper&#x2014;no one can refute that testimony, and my game is won at last!"</p>
-</body>
+</div>
 
 <pb n="[204]"/>
 <div id="gffalse031" type="chapter">
@@ -2040,8 +2031,8 @@ me satisfy myself that this Sylvia Montressor is Gypsy, and then I&#x2014;"</p>
 <p>"Come, Linda, come."</p>
 <p>Then he was gone like a flash, and Ada was alone in the cab.</p>
 <p>In the crowded state of the streets no one noticed the two figures that glided on in the wake of the ambulance, and the sufferer gave no clew; for he was
-<pb n="213 Light at Eventide.">
-still unconscious, and his white face gleamed like the face of the dead in the faint glow of the flickering gas lamps as the silent policeman trundled him patiently along.</pb>
+<pb n="213 Light at Eventide."/>
+still unconscious, and his white face gleamed like the face of the dead in the faint glow of the flickering gas lamps as the silent policeman trundled him patiently along.</p>
 <p>The accident had happened upon Tottenham Court Road, midway between, Oxford and Great Russell Streets, and, turning into this latter thoroughfare, the policeman and the ambulance moved along to the corner of Charlotte Street, and then, by easy stages, made their way to Bedford Square, where they finally came to a halt before one of the many ugly flat-brick houses which overlook the circular railed inclosure of grass and trees standing in the center of the square.</p>
 <p>A messenger having been sent on in advance to notify the occupants of the house, the door was thrown open, the now reviving sufferer was lifted and borne in, and, a moment later, a woman's anguished figure was seen to stagger past a window upon the ground floor, wringing its hands and beating its bosom in anguish and despair.</p>
 <p>Five minutes passed.</p>
@@ -2088,7 +2079,7 @@ to you that I have told you only the truth, and that the wife you put from you l
 <p>And in the dead hush that had fallen, she sank down beside the couch and silently began to pray. With
 <pb n="218 Light at Eventide."/>
 bowed heads and hushed voices the three watchers by the dead stood and looked down upon him, amazed by the suddenness of the end, and awed by the presence of the Conqueror of conquerors, who had stolen in silently that none might hear, and had taken that which none may hold. And on the dead face there was no sign to show that the struggle to tell a great truth and see a great wrong righted had sapped his expiring strength and brought the end all too soon; for only a tender peace was there, and the smile of a man who had done his duty and gone out of all petty human strife and all darkened human ways forever.</p>
-</p>
+</div>
 
 <pb n="[219]"/>
 <div id="gffalse033" type="chapter">
@@ -2137,10 +2128,9 @@ and so, jumping into the cab again, she was driven round to the box office of th
 <p>"Yes, please, and to that name, at the Langham Hotel," responded Ada, handing in one of her cards, and, there being no longer any reason for her to remain, she returned to her cab and was driven to the Langham, whither the telegram engaging rooms had already preceded her.</p>
 <pb n="223 Chiefly Epistolary."/>
 <p>In a very bad frame of mind she sat down to wait for the return of her mother and Mr. Meredith, and, after keeping a lonely vigil until after midnight, was finally rewarded by a brief note&#x2014;conveyed by messenger&#x2014;containing these words:</p>
-</div>
 
 <q><text><body>
-<div type="letter" id="***">
+<div type="letter" id="gffalse0012">
 <p>"Your mother and I will not return until tomorrow, so don't wait up
 for us.</p> <closer><signed>Affectionately,
 <name>"UNCLE GEOFFREY."</name></signed></closer>
@@ -2151,7 +2141,7 @@ for us.</p> <closer><signed>Affectionately,
 <p>On the morrow she awoke at ten o'clock to find it raining, and a telegram awaiting her with the simple message:</p>
 
 <q><text><body>
-<div type="letter" id="***">
+<div type="letter" id="0012">
 <p>"We may be late in returning.</p> <closer><signed>Don't worry.
 <name>"G. M."</name></signed></closer>
 </div>
@@ -2169,7 +2159,7 @@ whom it is rumored she is soon to marry."</p>
 penned this note:</p>
 
 <q><text><body>
-<div type="letter" id="***">
+<div type="letter" id="0013">
 <p><salute>"DEAR MOTHER:</salute> I have gone to a place called
 <pb n="224 Chiefly Epistolary."/>
 Deephaven Royals, in the county of Kent. Don't worry if I am absent a
@@ -3143,8 +3133,21 @@ her way, so far as Cis Rawley and his dear, good little wife were concerned, and
 <p>Ned Twyford remained there, too, in his former position as steward, but enjoying three times the salary that any similar steward ever received before. Although he still occupied the steward's lodge, he no longer did so alone, for the years that passed brought changes to him as well as to others, and he no longer was a bachelor, but a husband and a father. He mar-
 <pb n="320 A Foregone Conclusion."/>
 ried Jemima Ann, precisely ten days after the bells of Deephaven Church rang out to tell all the world that an heir to Thetford Castle was born and the race of Desmond was continued in the direct line.</p>
-<lb/>
-<center>THE END.</center>
-<lb/>
+
+<trailer rend="center">THE END.</trailer>
+</div>
+</body>
+
+<back>
+<div type="advert">
 <p>No. 1147 of the NEW EAGLE SERIES, entitled "Love Given in Vain," by Adelaide Fox Robinson, is a charming story in which wealth and love contend for the mastery, the victory being won by true love, which brings the happiness desired.</p>
 </div>
+
+<div id="gffalse0015" type="covers">
+<figure entity="gfpricebc006">
+<figDesc>Back cover of <hi rend="italic">Falsely Accused</hi>.</figDesc>
+</figure>
+</div>
+</back>
+</text>
+</TEI.2>
