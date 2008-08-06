@@ -1,6 +1,122 @@
-<text>
-<body>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd">
+<TEI.2 id="">
+<teiHeader id="">
+<fileDesc>
+<titleStmt>
+<title>Mother Carey's Chickens, an electronic edition</title>
+<author><name type="person" reg="Wiggin, Kate Douglas Smith, 1856-1923">Kate Douglas Smith Wiggin</name></author>
+</titleStmt>
+<extent>750Kb</extent>
+<publicationStmt>
+<pubPlace>Atlanta, Georgia</pubPlace>
+<publisher>Emory University, Lewis H. Beck Center</publisher>
+<date>2008</date>
+<availability>
+<p>&#x00A9; 2008, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit,or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:
+<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p></availability></publicationStmt>
+<seriesStmt><title>Women's Genre Fiction, 1860-1920</title>
+<respStmtm><name>Sheila T.Cavanagh</name><name>Charles D.Spornick</name>
+<resp> Principal Investigators</resp></respStmtm></seriesStmt>
+<sourceDesc> 
+<bibl><author>Marryat, Florence</author>. <title> Phyllida</title>. <pubPlace> London</pubPlace>: <publisher>F.V. White &#x0026; Co</publisher>, <date>1883</date></bibl>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<projectDesc>
+<p> This text was created by the Lewis H.Beck center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p>
+</projectDesc>
+<samplingDecl>
+<p> The title page, selected front matter, and the body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p>
+</samplingDecl>
+<editorialDecl>
+<p> Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital illustrations and covers were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for level 3 of the TEI in librarian Guidelines. For the details of level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been addded by the encoder and do not appear in the original text.</p>
+</editorialDecl>
+<classDecl>
+<taxonomy id="lcsh">
+<bibl>
+<title>Library of Congress Subject Headings</title>
+</bibl>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc>
+<creation>
+<rs type="collection">Genre Fiction</rs>
+<rs type="language">English</rs>
+<rs type="ethinicity">Caucasian</rs>
+<rs type="form">Unedited</rs>
+<rs type="genre">Novel</rs>
+<rs type="Geography">Great Britain</rs>
+<date>1900-1999</date>
+</creation>
+<textClass>
+<keywords scheme="lcsh">
+<list>
+<item>British Literature--20th Century--Fiction.</item>
+<item>Women Authors, British--20th Century.</item>
+<item>Marital conflict.</item>
+<item>Adultery.</item>
+<item>Women as writers.</item>
+</list>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc>
+<change>
+<date>2008-August-6</date>
+<respStmt>
+<name>Shruthi Vissa, </name>
+<resp> Encoder.</resp>
+</respStmt>
+<item> XML tags inserted are in compliance with TEI guidelines.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<text id=" ">
+<front id=" ">
+<pb entity="kwnmothetp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main"> MOTHER CAREY'S<lb/> CHICKENS</titlePart>
+</docTitle>
+<byline> BY<lb/> KATE DOUGLAS WIGGIN</byline>
+<docImprint> <pubPlace> NEW YORK</pubPlace> <publisher> GROSSET &#x0026; DUNLAP <lb/> PUBLISHERS</publisher></docImprint>
+</titlePage>
+<pb/>
+<div id="kwmothe100" type="copyright">
+<p> COPYRIGHT 1910 AND 1911, BY THE CURTIS PUBLISHING COMPANY<lb/>COPYRIGHT, 1911, BY KATE DOUGLAS RIGGS</p>
+<p> ALL RIGHTS RESERVED</p>
+</div>
+<pb/>
+<div id="kwmothe200" type="table of contents">
+<figure entity="kwmothetc1" rend="inline">
+<figDesc> Table of contents included in front of Wiggin's "Mother Carey's Chickens"</figDesc>
+</figure>
+ <pb/>
+<figure entity="kwmothetc2" rend="inline">
+<figDesc> Table of contents included in front of Wiggin's "Mother Carey's Chickens"</figDesc>
+</figure>
+</div>
 
+<pb/>
+<titlePage type="half">
+<docTitle>
+<titlePart type="main"> MOTHER CAREY'S CHICKENS</titlePart>
+</docTitle>
+</titlePage>
+
+<pb/>
+</front>
+<body>
 <pb n="1"/>
 <div id="kwmothe001" type="chapter" n="1">
 <head>MOTHER CAREY'S CHICKENS<lb/>
@@ -214,7 +330,7 @@ and clasped her in their arms, sobbing, choking, whispering all sorts of tender 
 <p>The Admiral smiled; a grave, lovely smile that often crept into his eyes when he held Mother
 
 <pb n="26 MOTHER CAREY'S CHICKENS"/>
-Carey's chickens on his knee. He kissed Nancy on the little white spot behind her ear where the brown hair curled in tiny rings like grape tendrils, soft as silk and delicate as pencil strokes. He said nothing, but his boyish dreams were in the kiss, and certain hopes of manhood that had never been realized. He was thinking that Margaret Gilbert was a fortunate and happy woman to have become Mother Carey; such a mother, too, that all about her was a wide, wide space, and next the space, the rest of the world, nearer or father according to their merits. He wondered if motherhood ought not to be like that, and he thought that if it were it would be a great help to God.</p>
+Carey's chickens on his knee. He kissed Nancy on the little white spot behind her ear where the brown hair curled in tiny rings like grape tendrils, soft as silk and delicate as pencil strokes. He said nothing, but his boyish dreams were in the kiss, and certain hopes of manhood that had never been realized. He was thinking that Margaret Gilbert was a fortunate and happy woman to have become Mother Carey; such a mother, too, that all about her was a wide, wide space, and next the space, the rest of the world, nearer or father according to their merits. He wondered if motherhood ought not to be like that, and he thought that if it were it would be a great help to God.</p></div>
 
 <pb n="27"/>
 <div id="kwmothe005" type="chapter" n="5">
@@ -301,7 +417,7 @@ time Julia visited us, Kitty and I got so tired of Gladys Ferguson's dresses, he
 <p>"I want her. She played horse once," said 
 
 <pb n="38 MOTHER CAREY'S CHICKENS"/>
-Peter. The opinion that the earth revolved around his one small person was natural at the age of four, but the same idea of the universe still existed in Gilbert's mind. A boy of thirteen ought perhaps to have a clearer idea of the relative sizes of world and individual; at least that was the conviction in Mother Carey's mind.</p>
+Peter. The opinion that the earth revolved around his one small person was natural at the age of four, but the same idea of the universe still existed in Gilbert's mind. A boy of thirteen ought perhaps to have a clearer idea of the relative sizes of world and individual; at least that was the conviction in Mother Carey's mind.</p></div>
 
 <pb n="39"/>
 <div id="kwmothe006" type="chapter" n="6">
@@ -399,7 +515,7 @@ persons under fifteen are always pressed for time and uniformly breathless, this
 <p>"And father found Beulah; and father found
 
 <pb n="51 NANCY'S IDEA"/>
-the house, and father blessed it and loved it and named it; that makes ever so many more good omens, more than enough to start housekeeping on," Nancy answered, kissing her mother goodnight.</p>
+the house, and father blessed it and loved it and named it; that makes ever so many more good omens, more than enough to start housekeeping on," Nancy answered, kissing her mother goodnight.</p></div>
 
 <pb n="52"/>
 <div id="kwmothe007" type="chapter" n="7">
@@ -629,7 +745,7 @@ envelope. Her face lighted as she read aloud:--
 <p>"Will Peter go too?" asked the youngest Carey eagerly, his nose quivering as it always did in excitement, when it became an animated question point.</p>
 <p>"I should think he would," exclaimed Kitty, clasping him in her arms. "What would the yellow house be without Peter?"</p>
 <p>"I wish Gilbert wouldn't talk about <hi rend="italic">his</hi> banners," said Nancy critically, as she looked at the telegram over her mother's shoulder. "They're not his banners at all, they're ours,--Carey banners; that's what they are!"</p>
-<p>Mother Carey had wished the same thing, but hoped that Nancy had not noticed the Gilbertian flaw in the telegram.</p>
+<p>Mother Carey had wished the same thing, but hoped that Nancy had not noticed the Gilbertian flaw in the telegram.</p></div>
 
 <pb n="83"/>
 <div id="kwmothe010" type="chapter" n="10">
@@ -643,7 +759,7 @@ THE CAREYS' FLITTING</head>
 <p>Youth delights in change, in the prospect of new scenes and fresh adventures, and as it is never troubled by any doubts as to the wisdom of its plans, the Carey children were full of vigor and energy just now. Charlestown, the old house, the daily life, all had grown sad and dreary to them since father had gone. Everything spoke of him. Even mother longed for something to lift her thought out of the past and give it wings, so that it might fly into the future and find some hope and comfort there. There was a continual bustle from morning till night, and a spirit of merriment that had long been absent.</p>
 <p>The Scotch have a much prettier word than we for all this, and what we term moving they call "flitting." The word is not only prettier, but in this instance more appropriate. It was such a buoyant, youthful affair, this Carey flitting. Light forms darted up and down the stairs and past the windows, appearing now at the back, now at the front of the house, with a picture, or a postage stamp, or a dish, or a penwiper, or a pillow, or a basket, or a spool. The chorus of "Where shall we put this, Muddy?" "Where will this go?" "May we throw this away?" would have distracted a less patient parent. When Gilbert returned from school at four, the air was filled with sounds of hammering and saw-
 
-<pb n="85 THE CAREYS' FLITTING/>
+<pb n="85 THE CAREYS' FLITTING"/>
 ing and filing, screwing and unscrewing, and it was joy unspeakable to be obliged (or at least almost obliged) to call in clarion tones to one another, across the din and fanfare, and to compel answers in a high key. Peter took a constant succession of articles to the shed, where packing was going on, but his chief treasures were deposited in a basket at the front gate, with the idea that they would be transported as his personal baggage. The pile grew and grew: a woolly lamb, two Noah's arks, bottles and marbles innumerable, a bag of pebbles, a broken steam engine, two china nest-eggs, an orange, a banana and some walnuts, a fishing line, a trowel, a ball of string. These give an idea of the quality of Peter's effects, but not of the quantity.</p>
 <p>Ellen the cook labored loyally, for it was her last week's work with the family. She would be left behind, like Charlestown and all the old life, when Mother Carey and the stormy petrels flitted across unknown waters from one haven to another. Joanna having earlier proved utterly unromantic in her attitude, Nancy went further with Ellen and gave her an English novel called "The Merriweathers," in which an old family servant had not only followed her employers from castle to hovel, remaining there without wages for years, but had insisted on lending all
 
@@ -693,8 +809,8 @@ rel. They put a little (very little) excelsior in the bottom, then a pair of dum
 "We filled one barrel last evening," she explained to them. "Will you please head that up before you begin work?" which one of the men obligingly did.</p>
 <p>"We'll mark all this stuff and take it down to the station this afternoon," said the head packer to Mrs. Carey.</p>
 <p>"Be careful with it, won't you?" she begged. "We are very fond of our glass and china, our clocks and all our little treasures."</p>
-<p>"You won't have any breakage so long as you deal with James Perkins &amp; Co.!" said the packer.</p>
-<p>Nancy went back into the room for a moment to speak with the skilful, virtuous J. P. &amp; Co. "There's no need to use any care with that corner barrel," she said carelessly. "It has nothing of value in it!"</p>
+<p>"You won't have any breakage so long as you deal with James Perkins &#x0026;Co.!" said the packer.</p>
+<p>Nancy went back into the room for a moment to speak with the skilful, virtuous J. P. &#x0026; Co. "There's no need to use any care with that corner barrel," she said carelessly. "It has nothing of value in it!"</p>
 <p>James Perkins went home in the middle of the afternoon and left his son to finish the work, and the son tagged and labelled and painted with all his might. The Dirty Boy barrel in the corner, being separated from the others, looked to him especially important, so he gave particular attention to that; pasted on it one label marked "Fragile," one "This Side Up," two "Glass with Care," and finding several "Perishables" in his pocket tied on a few of those, and removed the
 
 <pb n="93 THE CAREYS' FLITTING"/>
@@ -702,7 +818,7 @@ entire lot of boxes, crates, and barrels to the freight depot.</p>
 <p>The man who put the articles in the car was much interested in the Dirty Boy barrel. "You'd ought to have walked to Greentown and carried that one in your arms," he jeered. "What is the precious thing, anyway?"</p>
 <p>"Don't you mind what it is," responded young Perkins. "Jest you keep everybody 'n' everything from teching it! Does this lot o' stuff have to be shifted 'tween here and Greentown?"</p>
 <p>"No; not unless we git kind o' dull and turn it upside down jest for fun."</p>
-<p>"I guess you're dull consid'able often, by the way things look when you git through carryin' 'em, on this line," said Perkins, who had no opinion of the freight department of the A. &amp; B. The answer, though not proper to record in this place, was worthy of Perkins's opponent, who had a standing grudge against the entire race of expressmen and carters who brought him boxes and barrels to handle. It always seemed to him that if they were all out of the country or dead he would have no work to do.</p>
+<p>"I guess you're dull consid'able often, by the way things look when you git through carryin' 'em, on this line," said Perkins, who had no opinion of the freight department of the A. &#x0026;B. The answer, though not proper to record in this place, was worthy of Perkins's opponent, who had a standing grudge against the entire race of expressmen and carters who brought him boxes and barrels to handle. It always seemed to him that if they were all out of the country or dead he would have no work to do.</p>
 </div>
 <pb n="94"/>
 <div id="kwmothe011" type="chapter" n="11">
@@ -1112,7 +1228,7 @@ ered</hi> when mother said we were not to look upon Beulah as a place of hiding?
 THE POST BAG</head>
 <p>LETTER from Mr. William Harmon, storekeeper at Beulah Corner, to Hon. Lemuel Hamilton, American Consul at Breslau, Germany.</p>
 <q><text><body>
-<div type="letter" id="">
+<div type="letter" id="kwmothe143">
 <dateline><hi rend="smallcaps">Beulah</hi>, <hi rend="italic">June 27th</hi>.</dateline>
 <salute>DEAR LEM:</salute> <p>The folks up to your house want to lay out money on it and dont dass for fear you'll turn em out and pocket their improvements. If you haint got any better use for the propety I advise you to hold on to this bunch of tennants as they are O.K. wash goods, all wool, and a yard wide. I woodent like Mrs. Harmon <hi rend="italic">to know how I feel about the lady</hi>, who is hansome as a picture and the children are a first class crop and no mistake. They will not lay out much at first as they are short of cash but if ever good luck comes along they will fit up the house like a pallis and your granchildren will reep the proffit. I'll look out for your interest and see they dont do nothing outlandish. They'd have hard work to beat that fool-job your boys did on the old barn, fixin it up so't
 
@@ -1188,7 +1304,10 @@ You git your piece o' life an' you make what you can of it;--that's the idee! No
 meals, fearful lest they should lose any incident, any anecdote, any story, any reminiscence that might fall from his lips. Mrs. Carey took her mending basket and sat in the doorway, within ear shot, while Peter had all the scraps of paper and a small pasting board on the steps, where he conducted his private enterprises.</p>
 <p>Osh would cut his length of paper, lay it flat on the board, and apply the wide brush up and down neatly while he began his story. Sometimes if the tale were long and interesting the paste would dry, but in that case he went over the surface again. At the precise moment of hanging, the flow of his eloquence stopped abruptly and his hearers had to wait until the piece was finished before they learned what finally became of Lyddy Brown after she drove her husband ou' doors, or of Bill Harmon's bull terrier, who set an entire community quarreling among themselves. His racy accounts of Mrs. Popham's pessimism, which had grown prodigiously from living in the house with his optimism; his anecdotes of Lallie Joy Popham, who was given to moods, having inherited portions of her father's incurable hopefulness, and fragments of her mother's ineradicable gloom,--these were of a character that made the finishing of the hall a matter of profound unimportance.</p>
 
-***Picture goes here
+<figure entity="kwmotheill1" rend="inline">
+<figDesc> Illustration included in body of Wiggin's "Mother Carey's Chickens"</figDesc>
+<p> THE ENTIRE FAMILY LIVED ON THE FRONT STAIRS</p>
+</figure>
 
 <pb n="157 JACK OF ALL TRADES"/>
 <p>"I ain't one to hurry," he would say genially; "that's the reason I won't work by the hour or by the day. We've got one 'hurrier' in the family, and that's enough for Lallie Joy 'n' me! Mis' Popham does everything right on the dot, an' Lallie Joy 'n' me git turrible sick o' seein' that dot, 'n' hevin' our 'tention drawed to it if we <hi rend="italic">don't</hi> see it. Mis' Bill Harmon's another 'hurrier,'--well, you jest ask Bill, that's all! She an' Mis' Popham hev been at it for fifteen years, but the village ain't ready to give out the blue ribbon yet. Last week my wife went over to Harmon's and Mis' Harmon said she was goin' to make some molasses candy that mornin'. Well, my wife hurried home, put on her molasses, made her candy, cooled it and worked it, and took some over to treat Mis' Harmon, who was jest gittin' her kittle out from under the sink!"</p>
@@ -1219,7 +1338,9 @@ their black alpacky that's in the closet, an' the lookin' glass that's on the ma
 <p>So saying he took off his overalls, seized his hat, and with a parting salute was off down the road, singing his favorite song. I can give you the words and the time, but alas! I cannot print Osh Popham's dauntless spirit and serene content, nor his cheery voice as he travelled with tolerable swiftness to meet his waiting Maria.</p>
 
 <pb n="162 MOTHER CAREY'S CHICKENS"/>
-***This page has music on it.***
+<figure entity="kwmothefig" rend="inline">
+<figDesc> Music script included in body of Wiggin's "Mother Carey's Chickens"</figDesc>
+</figure>
 </div>
 <pb n="163 MOTHER CAREY'S CHICKENS"/>
 <div id="kwmothe018" type="chapter" n="18">
@@ -1939,7 +2060,10 @@ hearth. Then Nancy handed Peter a loosely bound sheaf, saying: "To light this fi
 <l>Shall never, never stand alone.</l>
 <l>Whose home is (lark and drear and old,</l>
 
-***a picture goes here***
+<figure entity="kwmotheill2" rend="inline">
+<figDesc> Illustration included on body of Wiggin's "Mother Carey's Chickens"</figDesc>
+<p> PETER CONTINUED ON THE HEARTH AND LIGHTED THE FIRE</p>
+</figure>
 
 <pb n="265 THE CAREY HOUSEWARMING"/>
 <l rend="indent">Whose hearth is cold,</l>
@@ -2057,6 +2181,7 @@ ply impossible to feed an open fire and write a book at the same time. He didn't
 <p>"Hush, Gilly! He must be a 'new beast' or he wouldn't have come at all!" answered Nancy.</p>
 </div>
 <pb n="278"/>
+<div id="kwmothe029" type="chapter" n="29">
 <head>XXIX<lb/>
 "TH' ACTION FINE"</head>
 <p>DECEMBER, January, and February passed with a speed that had something of magic in it. The Careys had known nothing heretofore of the rigors of a State o' Maine winter, but as yet they counted it all joy. They were young and hearty and merry, and the air seemed to give them all new energy. Kathleen's delicate throat gave no trouble for the first time in years; Nancy's cheeks bloomed more like roses than ever; Gilbert, growing broader shouldered and deeper chested daily, simply revelled in skating and coasting; even Julia was forced into an activity wholly alien to her nature, because it was impossible for her to keep warm unless she kept busy.</p>
@@ -2143,7 +2268,7 @@ nine weeks I taught there!"</p>
 <div id="kwmothe030" type="chapter" n="30">
 <head>XXX<lb/>
 THE INGLENOOK</head>
-IT was a wild Friday night in March, after days of blustering storms and drifting snow. Beulah was clad in royal ermine; not only clad, indeed, but nearly buried in it. The timbers of the Yellow House creaked, and the wreaths of snow blew against the windows and lodged there. King Frost was abroad, nipping toes and ears, hanging icicles on the eaves of houses, and decorating the forest trees with glittering pendants. The wind howled in the sitting room chimney, but in front of the great back-log the bed of live coals glowed red and the flames danced high, casting flickering shadows on the children's faces. It is possible to bring up a family by steam heat, and it is often necessary, but nobody can claim that it is either so simple or so delightful as by an open fire!</p>
+<p>IT was a wild Friday night in March, after days of blustering storms and drifting snow. Beulah was clad in royal ermine; not only clad, indeed, but nearly buried in it. The timbers of the Yellow House creaked, and the wreaths of snow blew against the windows and lodged there. King Frost was abroad, nipping toes and ears, hanging icicles on the eaves of houses, and decorating the forest trees with glittering pendants. The wind howled in the sitting room chimney, but in front of the great back-log the bed of live coals glowed red and the flames danced high, casting flickering shadows on the children's faces. It is possible to bring up a family by steam heat, and it is often necessary, but nobody can claim that it is either so simple or so delightful as by an open fire!</p>
 <p>The three cats were all nestled cosily in Nancy's lap or snuggled by her side. Mother Carey had demurred at two, and when Nancy appeared one day after school with a third, she spoke, with some firmness, of refusing it a home.</p>
 
 <pb n="292 MOTHER CAREY'S CHICKENS"/>
@@ -2248,7 +2373,10 @@ their merits, that I fully expected he would never stay at the academy of his ow
 <p>"Have I not felt it from the beginning?" asked Ralph. "I never knew my mother, Mrs. Carey, and few women have come into my life; I have been too poor and too busy to cultivate their friendship. Then I came to Beulah and you drew me into your circle; admitted an unknown, friendless fellow into your little group! It was beautiful; it was wonderful!"</p>
 <p>"What are mothers for, but to do just that, and more than all, for the motherless boys?"</p>
 
-***picture goes here***
+<figure entity="kwmotheill3" rend="inline">
+<figDesc> Image included in body of Wiggin's "Mother Carey's Chickens"</figDesc>
+<p> MOTHER CAREY WAS MOVED TO THE VERY HEART</p>
+</figure>
 
 <pb n="305 THE INGLENOOK"/>
 <p>"Well, I may never again have the courage to say it, so just believe me when I say your influence will be the turning-point in my life. I will never, so help me God, do anything to make me unworthy to sit in this fireglow! So long as I have brains and hands to work with, I will keep striving to create another home like this when my time comes. Any girl that takes me will get a better husband because of you; any children I may be blessed with will have a better father because I have known you. Don't make any mistake, dear Mrs. Carey, your hearth fire glows a long, long distance!"</p>
@@ -2398,7 +2526,7 @@ thing to be done at night and the first in the morning was the
 stealthy, whispered reading of one of these documents, lest even after
 the hundredth time, something wrong should suddenly appear to the eye
 or ear. They were addressed, they were stamped, and they would be
-posted to twenty-five families in the neighborhood on the closing day
+posted to twenty-five families in the neighborhood on the closing day 
 of the academy.</p>
 ***this is an advertisement... not sure what to do with it***
 <q rend="block">
@@ -2406,7 +2534,7 @@ of the academy.</p>
 <p>The Misses Kathleen and Julia Carey announce the opening of classes for private instruction on July 1st, from two to four o'clock daily in the<lb/>
 <hi rend="center">Hamilton Barn.</hi></p>
 <head rend="center">Faculty.</head>
-Miss Kathleen Carey Reading &amp; Elocution 2 P.M.<lb/>
+Miss Kathleen Carey Reading &#x0026; Elocution 2 P.M.<lb/>
 Miss Julia Carey Dancing, Embroidery 2-30 P.M.<lb/>
 
 <pb n="323 DOORS OF DARING"/>
@@ -2560,7 +2688,7 @@ THE CRIMSON RAMBLER</head>
 
 <pb n="345 THE CRIMSON RAMBLER"/>
 <p>"Upon my word, wonders will never cease!" exclaimed Nancy. "The Admiral said you were in Boston, but he never told us you would visit Beulah so soon!"</p>
-<p>"No, I wanted it to be a secret. I wanted to appear when the ball was at its height; the ghost of the old r&eacute;gime confronting the new, so to speak."</p>
+<p>"No, I wanted it to be a secret. I wanted to appear when the ball was at its height; the ghost of the old r&#x00E9;gime confronting the new, so to speak."</p>
 <p>"Beulah will soon be a summer resort; everybody seems to be coming here."</p>
 <p>"It's partly your fault, isn't it?"</p>
 <p>"Why, pray?"</p>
@@ -2643,7 +2771,7 @@ School, but five weeks of steady instruction had not sufficed to make her sure o
 <l>Fly like a youthful hart or roe</l>
 <l>Over the hills where spices grow."</l></q></p>
 <p>Julia had gone upstairs with the sleepy Peter-bird, who had been enjoying his first experience of late hours on the occasion of Nancy's coming out; the rest of the young folks were gathered in a group under the elms, chatting in couples,&#x2014;Olive and Ralph Thurston, Kathleen and Cyril Lord, Nancy and Tom Hamilton. Then they parted, Tom Hamilton strolling to the country hotel with the young school teacher for companion, while Olive and Cyril walked across the fields to the House of Lords.</p>
-<p>It was a night in a thousand. The air was warm, clear, and breathlessly still; so still that not a leaf stirred on the trees. The sky was cloudless, and the moon, brilliant and luminous, shone as it seldom shines in a northern clime. The water was low in Beulah's shining river and it ran almost noiselessly under the bridge. While Kathleen and Julia were still unbraiding their hair, exclaiming at every twist of the hand as to the "loveliness" of the party, Nancy had kissed. her mother and crept silently into bed. All night long the strains of The Tempest ran through her dreams. There was the touch of a strange hand
+<p>It was a night in a thousand. The air was warm, clear, and breathlessly still; so still that not a leaf stirred on the trees. The sky was cloudless, and the moon, brilliant and luminous, shone as it seldom shines in a northern clime. The water was low in Beulah's shining river and it ran almost noiselessly under the bridge. While Kathleen and Julia were still unbraiding their hair, exclaiming at every twist of the hand as to the "loveliness" of the party, Nancy had kissed her mother and crept silently into bed. All night long the strains of The Tempest ran through her dreams. There was the touch of a strange hand
 
 <pb n="355 THE CRIMSON RAMBLER"/>
 on hers, an altogether new touch, warm and compelling. There was the gay trooping down the centre of the barn in fours,&#x2014;some one by her side who had never been there before,&#x2014;and a sensation entirely new and intoxicating, that whenever she met the glance of her partner's merry dark eyes she found herself at the bottom of them.</p>
