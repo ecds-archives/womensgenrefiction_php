@@ -1,4 +1,112 @@
-<pb n="[5]"/><div id="assybil" type="chapter" n="1"><head>SYBIL
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI.2//EN" "./tgfw-tei.dtd"> 
+<TEI.2 id=""> 
+<teiHeader id=""> 
+<fileDesc> 
+<titleStmt>
+<title>Sybil Chase, an electronic edition</title>
+<author n="Stephens, Ann Sophia Winterbotham., Mrs., 1810-1886"> Anne S. Stephens</author>
+</titleStmt>
+<extent></extent> 
+<publicationStmt> 
+<publisher>Emory University, Lewis H. Beck Center</publisher> 
+<pubPlace>Atlanta, Georgia</pubPlace> 
+<date>2007</date> 
+<availability>
+<p>&#x00A9; 2004, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address>
+<addrLine>Lewis H. Beck Center</addrLine>
+<addrLine>Emory University</addrLine>
+<addrLine>Robert W. Woodruff Library</addrLine>
+<addrLine>Atlanta, GA 30322-0053</addrLine>
+<addrLine>United States of America</addrLine>
+<addrLine>Email: beckctr@emory.edu</addrLine>
+</address>
+</p> </availability> </publicationStmt> 
+<seriesStmt> 
+<title>Women's Genre Fiction, 1860-1920</title> 
+<respStmt> <name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name> 
+<resp>Principal Investigators</resp> 
+</respStmt> 
+</seriesStmt> 
+<sourceDesc> 
+<bibl><author>Stephens, Anne S.</author>. <title>Sybil Chase; or The Valley Ranche</title>. <pubPlace>LONDON</pubPlace>: <publisher>GEORGE ROUTLEDGE AND SONS</publisher>, <date>????</date>.</bibl> 
+</sourceDesc> 
+</fileDesc> 
+<encodingDesc> 
+<projectDesc>
+<p>This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p> 
+</projectDesc> 
+<samplingDecl> 
+<p>The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, and advertisements are provided as digital images only. </p> 
+</samplingDecl> 
+<editorialDecl> 
+<p>Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text. Digital page images are linked to the text file.</p>
+</editorialDecl> 
+<classDecl> 
+<taxonomy id="lcsh"> 
+<bibl> 
+<title>Library of Congress Subject Headings</title> 
+</bibl> 
+</taxonomy> 
+</classDecl> 
+</encodingDesc> 
+<profileDesc> 
+<creation> 
+<rs type="collection">Genre Fiction</rs> 
+<rs type="language">English</rs> 
+<rs type="ethnicity">Caucasian</rs> 
+<rs type="form">Unedited</rs> 
+<rs type="genre">Novel</rs> 
+<rs type="geography">United States</rs> 
+<date>1900-1999</date> 
+</creation> 
+<textClass> 
+<keywords scheme="lcsh"> 
+<list> 
+<item>American literature--20th Century--Fiction.</item> 
+<item>Women authors, American--20th Century.</item> 
+<item></item> 
+<item></item> 
+<item></item>
+</list> 
+</keywords> 
+</textClass> 
+</profileDesc> 
+<revisionDesc> 
+<change> 
+<date>2007-June-20</date> 
+<respStmt> 
+<name>Shruthi Vissa,</name> 
+<resp>Encoder.</resp> 
+</respStmt> 
+<item>XML tags inserted in compliance with TEI guidelines using TEILITE.</item> </change> 
+</revisionDesc> 
+</teiHeader>
+<text>
+<front>
+<div id="assybilfm1" type="front cover">
+<figure entity="assybilfc" rend="inline">
+<figDesc> Front Cover of Ann Stephens' "Sybil Chase"</figDesc>
+</figure>
+</div>
+ <pb/>
+
+<pb entity="assybilfm2" pages="title page"/>
+<titlePage type="full">
+<titlePart type="main">
+<docTitle> SYBIL CHASE <lb/> OR, <lb/> THE VALLEY RANCHE<lb/> A TALE OF CALIFORNIAN LIFE.</docTitle>
+</titlePart>
+<byline> BY<lb/> MRS. ANN S. STEPHENS.</byline>
+<docImprint>
+<pubPlace> LONDON :</pubPlace>
+<publisher>GEORGE ROUTLEDGE AND SONS,</publisher>
+<pubPlace> THE BROADWAY, LUDGATE</pubPlace>
+</docImprint>
+</titlePage>
+</front>
+<body>
+<pb n="[5]"/>
+<div id="assybil" type="chapter" n="1"><head>SYBIL
 CHASE:<lb/>OR,<lb/>THE VALLEY RANCHE.<lb/><milestone unit="section" rend="line"/>CHAPTER
 I.<lb/>THE BRIDLE-PATH.</head>
 <p>A SMALL valley cutting through a range of mountains in
@@ -3974,3 +4082,45 @@ into those rich, golden tresses, and the remnants of her beauty are
 mournful to look upon. One thing is remarkable. She never receives a
 letter, and never asks a question about any one in the Atlantic
 States. Sybil Yates is indeed a widow now.</p></div>
+<trailer>THE END </trailer>
+
+</body>
+<back>
+
+<div id="assybilbm" type="advertisements">
+<figure entity="assybilad1" rend="inline">
+<figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
+</figure>
+
+ <pb/>
+<figure entity="assybilad2" rend="inline">
+<figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
+</figure>
+
+<pb/>
+<figure entity="assybilad3" rend="inline">
+<figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
+</figure>
+
+<pb/>
+<figure entity="assybilad4" rend="inline">
+<figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
+</figure>
+
+<pb/>
+<figure entity="assybilad5" rend="inline">
+<figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
+</figure>
+
+<pb/>
+<figure entity="assybilad6" rend="inline">
+<figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
+</figure>
+
+<pb/>
+<figure entity="assybilad7" rend="inline">
+<figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
+</figure>
+</div>
+</back>
+</text></TEI.2>
