@@ -1,7 +1,171 @@
-ELSIE'S MOTHERHOOD.
-<p>CHAPTER I.</p>
-<p>Meantime a smiling offspring rises round. And mingles both their graces. By degrees The human blossom blows, and every day, Soft as it rolls along, shows some new charm, The father's lustre, and the mother's bloom.</p>
-<bibl>-Thomson's Seasons.</bibl>
+<TEI.2 id="">
+  <teiHeader id="">
+    <fileDesc>
+      <titleStmt>
+        <title>Elsie's Motherhood, an electronic edition</title>
+        <author><name type="person" reg="Finley, Martha, 1828-1909">Martha Finley</name></author>
+      </titleStmt>
+      <extent>475kb</extent>
+      <publicationStmt>
+        <publisher>Emory University, Lewis H. Beck Center</publisher>
+        <pubPlace>Atlanta, Georgia</pubPlace>
+        <date>2008</date>
+        <availability>
+          <p>&#x00A9; 2008, Lewis H. Beck Center, Emory University.  Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants.  Emory University makes no claim of copyright to the original text.  Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety.  For further inquiries about this text's availability, please contact:
+<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA  30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email:  beckctr@emory.edu</addrLine></address></p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Women's Genre Fiction, 1860-1920</title>
+        <respStmt>
+          <name>Sheila T. Cavanagh</name>
+          <name>Charles D. Spornick</name>
+          <resp>Principal Investigators</resp>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl><author>Finley, Martha</author>. <title>Elsie's Motherhood</title>. <pubPlace>New York</pubPlace>: <publisher>DODD, MEAD AND COMPANY</publisher>, <date>[????]</date>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This text was created by the Lewis H. Beck Center as a part of the
+Women's Genre Fiction Project.  Project participants intend for this
+encoded text, as well as all texts produced by this project, to be
+made available on the web for educational, scholarly and pedagogical
+purposes.  This project is funded by a grant from the National
+Endowment for the Humanities.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>The title page, selected front matter, and body text of novels and
+stories have been transcribed and encoded.  Paratextual elements such
+as covers, illustrations, front matter, and advertisements are
+provided as digital images only, with some exceptions.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>Processing this electronic text file began by creating TIFF images
+of each page using either a flatbed scanner or a PowerPhase FX digital
+camera.  Text pages were captured in grayscale at 400dpi while
+illustrations and covers were captured in color at 300dpi.  These
+digital images were converted to an electronic text file by Optical
+Character Recognition (OCR) software.  The text files produced by the
+OCR software have been proofread against the original novel or TIFF
+images of the original novel.  This proofread text file has then been
+encoded using the recommendations for Level 3 of the TEI in Libraries
+Guidelines.  For the details of Level 3 encoding, please see the
+webpage for TEI Guidelines for Best Encoding practices at
+http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em
+dashes with two dashes. Page numbers displayed in brackets have been
+added by the encoder and do not appear in the original text.</p>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy id="lcsh">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <rs type="collection">Genre Fiction</rs>
+        <rs type="language">English</rs>
+        <rs type="ethnicity">Caucasian</rs>
+        <rs type="form">Unedited</rs>
+        <rs type="genre">Novel</rs>
+        <rs type="geography">United States</rs>
+        <date>1800-1899</date>
+      </creation>
+      <textClass>
+        <keywords scheme="lcsh">
+          <list>
+            <item>American literature--19th Century--Fiction.</item>
+            <item>Women authors, American--19th Century.</item>
+            <item>Motherhood.</item>
+            <item>Sentimental fiction.</item>
+            <item>Christianity.</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>2008-September-9</date>
+        <respStmt>
+          <name>Shruthi Vissa, </name>
+          <resp>Encoder.</resp>
+        </respStmt>
+        <item>XML tags inserted in compliance with TEI guidelines.</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+<text>
+<front>
+<div id="mfmothecover" type="front cover">
+<figure entity="mfmothefc" rend="inline">
+<figDesc> Front Cover of Finley's "Elsie's Motherhood"</figDesc>
+</figure>
+</div>
+<pb/>
+
+<div id="mfmothe100" type="frontispiece">
+<figure entity="mfmotheill" rend="inline">
+<figDesc> Illustration included in front of Finley's "Elsie's Motherhood"</figDesc>
+</figure>
+</div>
+<pb/>
+
+<pb entity="mfmothetp" pages="Title Page"/>
+<titlePage type="full">
+<docTitle>
+<titlePart type="main">ELSIE'S MOTHERHOOD<lb/>A SEQUEL TO<lb/>"ELSIE'S WOMANHOOD</titlePart>
+</docTitle>
+<byline>BY<docAuthor>MARTHA FINLEY,</docAuthor></byline>
+<epigraph>
+<cit>
+<q><l> Sweet is the image of the brooding dove!</l>
+<l>Holy as Heaven a mother's tender love!</l>
+<l>The love of many prayers and many tears,</l>
+<l>Which changes not with dim declining years--</l>
+<l> The only love which, on this teeming earth,</l>
+<l> Asks no return for passion's wayward birth."</l></q>
+<bibl>--MRS. NORTON</bibl></cit></epigraph>
+<docImprint>
+<pubPlace>NEW YORK</pubPlace>
+<publisher>DODD, MEAD AND COMPANY<lb/>
+PUBLISHERS</publisher>
+</docImprint>
+</titlePage>
+<div id="mfmothe200" type="copyright page">
+<figure entity="mfmothecp" rend="inline">
+<figDesc> copyright information included in front of Finley's "Elsie's Motherhood"</figDesc>
+</figure>
+</div>
+<div id="mfmothe300" type="preface">
+<head> PREFACE.</head>
+<p> In compliance with the expressed desire of many of Elsie's friends and admirers, the story of her life is continued in this, the fifth volume of the series.</p>
+<p> When about to undertake its preparation the suggestion was made to the author that to bring the doings of the Ku Klux would add interest to the story and at the same time give a truer picture of life in the South during the years 1867-68, in which its events take place.</p>
+<p> The published reports of the Congressional Committee of Investigation were resorted to as the most reliable source of information, diligently examined, and care taken not to go beyond the facts there given as regards the proceedings of the Klan, the clemency and paternal acts of the Government, or the kindly, fraternal feelings and deeds of the people of the North toward their impoverished  and suffering bretheren of the South.</p>
+<p> These things have become matters of the history: vice and crime should be condemned wherever found; and naught has been set down in malice; for
+<pb n="iv"/>
+the author has a warm love for the South as part and parcel of the dear land of her birth.</p>
+<p> May this child of her brain give pain to none, but prove pleasant and profitable to all who peruse its pages, and especially helpful to young parents.</p>
+<p>M.F.</p>
+</div>
+</front>
+
+<body>
+<pb/> 
+<div id="mfmothe001" type="chapter" n="1">
+<head>ELSIE'S MOTHERHOOD.<lb/>CHAPTER I.</head>
+<epigraph>
+<cit>
+<q><l>Meantime a smiling offspring rises round,</l>
+<l> And mingles both their graces. By degrees</l>
+<l> The human blossom blows, and every day,</l>
+<l> Soft as it rolls along, shows some new charm,</l>
+<l> The father's lustre, and the mother's bloom.</l></q>
+<bibl>--<hi rend="italics">Thomson's Seasons.</hi></bibl></cit></epigraph>
 <p>	"MAMMA! Papa too!" It was a glad shout of a chorus of young voices as four pairs of little feet came pattering up the avenue and into the veranda; then as many ruby lips were held up for the morning kiss from the children's dearly loved father.</p>
 <p>	They had already had their half hour with mamma, which made so sweet a beginning of each day, yet she too must have a liberal share of the eagerly bestowed caresses; while Bruno, a great Newfoundland, the pet, playfellow, and guardian of the little flock, testified his delight in the scene by leaping about among them, fawning upon one and another, wagging his tail, and uttering again and again a short, joyous bark.</p>
 <p>Then followed a merry romp, cut short by the ringing of the breakfast bell, when all trooped into the
@@ -53,11 +217,8 @@ vi.</p>
 <p>	"No, no; only to have a party and wear her wedding dress," corrected Elsie.</p>
 <p>	"Papa, good-morning," cried their mother, coming swiftly through the hail, "I'm so glad, always so glad to see you."</p>
 <p>	"I know it," be said, pressing a fatherly kiss on the sweet lips, then holding her off for an instant to gaze fondly into the fair face. "And it is ten years to-day since I gave Travilla a share in my treasure. I was thinking of it as I rode over, and that you should celebrate this anniversary at your father's house."</p>
-<p>	"No, no, Dinsmore, you must be our guest," said Travilla, coming out and shaking hands cordially</p>
-<p>with his old friend. "We have it all arranged,--a family gathering, and Elsie to gratify us by wear-
-ing her bridal robes. Do you not agree with me
-that she would make as lovely a bride to-day as she
-did ten years ago?"</p>
+<p>	"No, no, Dinsmore, you must be our guest," said Travilla, coming out and shaking hands cordially with his old friend. "We have it all arranged,--a family gathering, and Elsie to gratify us by wearing her bridal robes. Do you not agree with me
+that she would make as lovely a bride to-day as she did ten years ago?"</p>
 <p>Quite. I relinquish my plans for yours; and
 <pb n="ELSIE'S MOTHERHOOD.    7"/>
 
@@ -113,16 +274,23 @@ papa will be displeased: so wonderfully fond of Elsie as he has grown of late."<
 <p>	No, your grandfather wouldn't like it," said Louise, as anxious as her daughters to enjoy the entertainment, yet glad to save her pride, by putting her acceptance on the score of pleasing her father.</p>
 <p>	"And you'll go too, and take us, mamma, won't you?" anxiously queried Molly Percival, who was between her cousins in age.</p>
 <p>	"Of course I'll go; we all want our share of the good things, and the pleasure of seeing and being seen," answered Enna, scorning Louise's subterfuge; "and if you and Dick will promise to make me no trouble, I'll take von along. But Bob and
-<pb n="12	ELSIE'S' MOTHERHOOD."/>
+<pb n="12	ELSIE'S MOTHERHOOD."/>
 
 Betty may stay at home, I'm not going to be bothered with them,-babies of five and three. But what shall we wear, Lu? I do say it's real mean in them to give us so short a notice. But of course Elsie enjoys making me feel my changed circumstances. I've no such stock of jewels, silks, and laces as she, nor the full purse that makes it an easy matter for her to order a fresh supply at a moment's warning."</p>
-<p>	"You have all, and more than the occasion calls for," remarked Adelaide quietly; "it is to be only a family gathering."</p>
-<p>CHAPTER II.
+<p>	"You have all, and more than the occasion calls for," remarked Adelaide quietly; "it is to be only a family gathering."</p></div>
 
-Though fools spurn Hymen's gentle powers,
-We, who improve his golden hours, By sweet experience know That marriage, rightly understood, Gives to the tender and the good A paradise below.
--Cotton.
- <p>ALLISON had fully kept his promise to Sophie, and Ashlands was again the fine old place it had been prior to the war. The family, consisting of the elder Mrs. Carrington, a young man named George Boyd, a nephew of hers who had taken charge of the plantation, Sophie and her four children, had now been in possession for over a year.</p>
+
+<div id="mfmothe002" type="chapter" n="2">
+<head>CHAPTER II.</head>
+
+<epigraph> <cit> <q> <l>Though fools spurn Hymen's gentle powers,</l>
+<l>We, who improve his golden hours,</l>
+<l> By sweet experience know</l>
+<l> That marriage, rightly understood, </l>
+<l>Gives to the tender and the good </l>
+<l>A paradise below.</l></q>
+<bibl>--<hi rend="italics">Cotton.</hi></bibl></cit></epigraph>
+ <p>MR. ALLISON had fully kept his promise to Sophie, and Ashlands was again the fine old place it had been prior to the war. The family, consisting of the elder Mrs. Carrington, a young man named George Boyd, a nephew of hers who had taken charge of the plantation, Sophie and her four children, had now been in possession for over a year.</p>
 <p>	Sophie, still an almost inconsolable mourner for the husband of her youth, lived a very retired life, devoting herself to his mother and his orphaned little ones.</p>
 <p>	Mrs. Ross, expecting to spend the fall and winter with them, had brought all her children and a governess, Miss Fisk, who undertook the tuition of the little Carringtons also during her stay at Ashlands, thus leaving the mothers more at liberty for the enjoyment of each other's society.</p>
 <pb n="14       ELSIE'S MOTHERHOOD."/>
@@ -193,11 +361,16 @@ often heard you say Mrs. Travilla was a far better little girl than you; so of c
 <p>	"Some children keep their good behavior for company," sneered Enna, "and I've no doubt these little paragons have their naughty fits as well as ours."</p>
 <p>	"It is quite true that they are not always good," Elsie said with patient sweetness. "And now I beg you will all excuse me for a few moments, as they never feel quite comfortable going to bed without a last word or two with mamma."</p>
 <p>	"Before I'd make myself such a slave to my children!" muttered Enna, looking after her as she glided from the room. "If they couldn't be content to be put to bed by their mammies, they might stay tip all night."</p>
-<p>	"I think Mrs. Travilla is right," observed the pastor; "the responsibilities of parents are very great. God says to each one, 'Take this child and nurse it for me, and I will give thee thy wages.'"</p>
-<p>CHAPTER III.
+<p>	"I think Mrs. Travilla is right," observed the pastor; "the responsibilities of parents are very great. God says to each one, 'Take this child and nurse it for me, and I will give thee thy wages.'"</p></div>
 
-Delightful task! to rear the tender thought, To teach the young idea how to shoot, To pour the fresh instruction o'er the mind, To breathe the enlivening spirit and to fix The generous purpose in the glowing breast!
-- Thomson's Seasons.
+<div id="mfmothe003" type="chapter" n="3">
+<head>CHAPTER III.</head>
+
+<epigraph> <cit> <q> <l>Delightful task! to rear the tender thought,</l>
+<l> To teach the young idea how to shoot,</l>
+<l> To pour the fresh instruction o'er the mind,</l>
+<l> To breathe the enlivening spirit and to fix The generous purpose in the glowing breast!</l></q>
+<bibl>--<hi rend="italics">Thomson's Seasons.</hi></bibl></cit></epigraph>
 
 <p>THE Ion little folks were allowed an extra nap the next morning, their parents wisely considering plenty of sleep necessary to the healthful development of their mental and physical powers. They themselves, however, felt no necessity for a like indulgence, their guests having departed in season to admit of their retiring at the usual hour, and were
 early in the saddle, keenly enjoying a brisk canter of several miles before breakfast.</p>
@@ -295,14 +468,15 @@ I know Aunt Delia's one of his. How much money have you, Vi?"</p>
 <p>	"Yes; and I'm going to buy some 'bacey,' as he calls it, for old Uncle Jack."</p>
 <p>	Mamma was duly consulted, approved of their plans, took them the next day to the nearest village, let them select the goods themselves, then helped them to cut out and make the garments. Eddie assisted by threading needles and sewing on buttons, saying "that would do for a boy, because he had heard papa say he had sometimes sewed on a button for himself when he was away at college."</p>
 <p>	To be sure the work might have been given to the seamstress, but it was the desire of these parents to train their little ones to give time and effort as well as money.</p>
+
 <div id="mfmothe005" type="chapter" n="5">
 <head>CHAPTER IV.</head>
 
-0, what a state is guilt! how wild! how wretched!
--Havard.
+<epigraph> <cit> <q> <l>0, what a state is guilt! how wild! how wretched!</l></q>
+<bibl><hi rend="italics">--Havard.</hi></bibl></cit></epigraph>
 	<p>THE war had. wrought many changes in the neighborhood where our friends resided; some who had been reared in the lap of luxury were now in absolute want, having sacrificed almost their last dollar in the cause of secession; to which also in numerous instances the husbands, sons, and brothers had fallen victims.</p>
 <p>	Though through the clemency of the Government there had been no executions for treason, no confiscation of property, many plantations had changed hands because of the inability of the original owners to work them, for lack of means to pay the laborers.</p>
-<p>	Elsie's tender sympathies were strongly enlisted for these old -friends and acquaintances, and their necessities often relieved by her bounty when they little guessed whence help had come. Her favors were doubled by the delicate kindness of the manner of their bestowal.</p>
+<p>	Elsie's tender sympathies were strongly enlisted for these old friends and acquaintances, and their necessities often relieved by her bounty when they little guessed whence help had come. Her favors were doubled by the delicate kindness of the manner of their bestowal.</p>
 <p>	The ability to give largely was the greatest pleasure her wealth afforded her, and one in which she indulged to the extent of disposing yearly in that way of the whole surplus of her ample income; not 
 <pb n="34	ELSIE'S	MOTHERHOOD."/>
 
@@ -405,7 +579,7 @@ caused some bruises; so that altogether the patient
 
 was likely to have to keep his bed for some days, and the doctor said must be kept quiet and as free from excitement as possible.</p>
 <p>	Elsie, leaving Aunt Chloe at the bedside, followed the physician from the room.</p>
-<p>	"You need give yourself no anxiety, my dear Mrs. Travilla," he said cheerily, taking her hand in his for a moment, in his kind fatherly way-for he was an old man now, and had known her from her early childhood-" the injuries are not at all serious, and there is no reason why your husband should not be about again in a week or so. But how did it happen? What hand fired the shot?"</p>
+<p>	"You need give yourself no anxiety, my dear Mrs. Travilla," he said cheerily, taking her hand in his for a moment, in his kind fatherly way--for he was an old man now, and had known her from her early childhood--" the injuries are not at all serious, and there is no reason why your husband should not be about again in a week or so. But how did it happen? What hand fired the shot?"</p>
 <p>	"Indeed I do not know, have not asked," she answered, with an emotion of surprise at herself for the omission. "It seems strange I should not, but I was so taken up with grief and fear for him, and anxiety to relieve his suffering, that I had room for no other thought. Can you tell us, sir?" turning to Mr. Leland, who was standing near.</p>
 <p>	"I--did not see the shot," he replied with some hesitation.</p>
 <p>"But you know; tell me, I beg of you."</p>
@@ -444,12 +618,15 @@ tones. " Elsie, daughter, cheer up, he will soon be well again."</p>
 
 an' Miss Elsie she comfortin' an' coaxin' an' pleadin', but he won't pay no pretention to nobody."</p>
 <p>	Elsie wept anew. "My poor child! my poor little son! what am I to do with him?"</p>
-<p>	"I will go to him; trust him to me," Mr. Dinsmore said, leaving the room with a quick firm step.</p>
+<p>	"I will go to him; trust him to me," Mr. Dinsmore said, leaving the room with a quick firm step.</p></div>
 <div id="mfmothe005" type="chapter" n="5">
 <head>CHAPTER V.</head>
 
-	If hearty sorrow Be a sufficient ransom for offence, I tender it here; I do as truly suffer, As e'er I did commit.
--She/capers.
+	<epigraph><cit> <q><l>If hearty sorrow</l> 
+<l>Be a sufficient ransom for offence, </l>
+<l>I tender it here; I do as truly suffer,</l>
+<l> As e'er I did commit.</l></q>
+<bibl>--<hi rend="italics">Shakspere.</hi></bibl></cit></epigraph>
 <p>"OH, Eddie, dear! do get up and come into the house!" entreated his sister. "I must leave you if you don't, for Prilla said mamma had sent for us; and you know we must obey."</p>
 <p>	"Oh, I can't, I can't go in! I can't see mamma! she will never, never love me any more!"</p>
 <p>	"Yes, she will, Eddie; nothing will ever make her stop loving us; and if you're really sorry for having disobeyed poor, dear papa, you'll not go on and disobey her now."</p>
@@ -481,7 +658,7 @@ an' Miss Elsie she comfortin' an' coaxin' an' pleadin', but he won't pay no pret
 <p>	Sorely the children missed their precious half hour with mamma that night, and every night and morning of their papa's illness; she could leave him only long enough each time to give them a few loving words and a kiss all round, and they scarcely
 <pb n="54	ELSIE'S MOTHERHOOD."/>
 
-saw her through the day-were not admitted to
+saw her through the day--were not admitted to
 their father's room at all.</p>
 <p>	But they were very good; lessons vent on nearly as usual, little Elsie keeping order in the schoolroom, even wilful Eddie quietly submitting to her gentle sway, and grandpa kindly attending to the recitations. He rode out with them too, and he, Aunt Rosie, or their mammies took them for a pleasant walk every fine day.</p>
 <p>	Friends and neighbors were very kind and attentive, none more so than the Lelands. Archie told his father how, and by whom, poor Eddie had been teased, provoked, and dared into firing the pistol; Mr. Leland told Mr. Dinsmore the story, and he repeated it to his father and sisters.</p>
@@ -529,14 +706,16 @@ forward and offering her band with a graceful courtesy very like her mamma's. "W
 <p>	Eddie could bear no more, but burst into an agony of tears and sobs.</p>
 <p>	"Calhoun Conly, do you think it very manly for a big fellow like you to torment such a little one as our Eddie?" queried Elsie, with rising indignation.</p>
 <p>	"No, I don't," he said frankly. "Never mind Eddie, I take it all back, and own that the other two deserve the lion's share of the blame, and punishment too. Come, shake hands and let's make up."</p>
-<p>	Eddie gave his hand, saying in broken tones, "I was a naughty boy, but papa has forgiven me, and I don't mean ever to disobey him any more.'</p>
+<p>	Eddie gave his hand, saying in broken tones, "I was a naughty boy, but papa has forgiven me, and I don't mean ever to disobey him any more."</p></div>
+
 <div id="mfmothe006" type="chapter" n="6">
 <head>CHAPTER VI.</head>
 
-So false is faction, and so smooth a liar, As that it never had a side entire."
--Daniel
+<epigraph> <cit> <q> <l>So false is faction, and so smooth a liar,</l>
+<l> <sic>As that it never had a side entire."</sic></l></q>
+<bibl>--<hi rend="italics">Daniel</hi></bibl></cit></epigraph>
 
-<p>By the first of December Mr. Travilla had entirely recovered from the ill effects of his accident-which had occurred early in November-and life at Ion resumed its usual quiet, regular, but pleasant routine, varied only by frequent exchange of visits with the other families of the connection, and near neighbors, especially the Lelands.</p>
+<p>By the first of December Mr. Travilla had entirely recovered from the ill effects of his accident--which had occurred early in November--and life at Ion resumed its usual quiet, regular, but pleasant routine, varied only by frequent exchange of visits with the other families of the connection, and near neighbors, especially the Lelands.</p>
 <p>	Because of the presence among them of their Northern relatives, this winter was made a gayer one than either of the last two, which had seen little mirth or <sic>jovialty</sic> among the older ones, subdued as they were by recent, repeated bereavements. Time had now somewhat assuaged their grief, and only the widowed ones still wore the garb of mourning.</p>
 <p>	A round of family parties for old and young filled up the holidays; and again just before the departure of the losses and Allisons in the early spring they were all gathered at Ion for a farewell day together.</p>
 <p>	Some of the blacks in Mr. Leland's employ had been beaten and otherwise maltreated only the previous night by a band of armed and disguised men,
@@ -615,8 +794,9 @@ putting both hands into his and smiling up into his face, her sweet soft eyes, b
 <p>	"Yes," he said, returning the smile, and holding the hands fast for a moment, "I am at home and shall stay for an hour or so."</p></div>
 <div id="mfmothe007" type="chapter" n="7"><head>CHAPTER VII.</head>
 
-Disguise, I see thou art a wickedness, Wherein the pregnant enemy does much.
--<sic>Shakspere's</sic> Twelfth Night,
+<epigraph><cit><q> <l>Disguise, I see thou art a wickedness,</l>
+<l> Wherein the pregnant enemy does much.</l></q>
+<bibl>--<hi rend="italics"><sic>Shakspere's</sic> Twelfth Night.</hi></bibl></cit></epigraph>
 
 <p>WILL you walk into the library, gentlemen? I have just received a package of new books, which, perhaps, you would like to examine," said Mr. Travilla to his guests as they left the tea-table.</p>
 <p>	"Presently, thank you," Mr. Dinsmore answered, catching Elsie's eye, and perceiving that she had something for his private ear.</p>
@@ -672,9 +852,7 @@ bondage. And tell me, Cal, do you look upon these midnight attacks of overpoweri
 penalty of the exposure of which was death, he would quietly withdraw and attend no more of its meetings. He understood the language of the searching look Mr. Dinsmore gave him, and seized the first opportunity for a word in private, to vindicate himself.</p>
 <p>	"Uncle," he said with frank sincerity, "I am not free to tell you everything, as I could wish, but I hope you will believe ate when I assure you that I never had any share in the violent doings of the Ku Klux, and never will."</p>
 <p>	Mr. Dinsmore bent upon him a second look of keen scrutiny. Conly bore it without flinching; and extending his hand, his uncle replied, "I think I understand the situation: but I will trust you, Cal, and not fear that in entertaining you here I am harboring a hypocrite and spy who may betray my family and myself into the hands of midnight assassins."</p>
-<p>"Thanks, uncle, you shall never have cause to
-repent of your confidence;' the lad answered with
-a flush of honest pride.</p>
+<p>"Thanks, uncle, you shall never have cause to repent of your confidence," the lad answered with a flush of honest pride.</p>
 <p>	He returned to Roselands the next day, and went directly to an upper room, at some distance from those usually occupied by the family, from whence came the busy hum of a sewing machine.</p>
 <p>	The door was securely fastened on the inner side, but opened immediately in response to three quick, sharp taps of a pencil which Calhoun took from his pocket.</p>
 <pb n="76	ELSIE'S MOTHERHOOD."/>
@@ -726,11 +904,14 @@ there of red braid littering the carpet near the machine, and the low rocking-ch
 <p>"Cal and Art, of course."</p>
 <p>	"Don't you believe it, Art cares for nothing but his books and Silverheels. Wasn't that a jolly birthday present, Dick? I wish Travilla and Cousin Elsie would remember ours the same way."</p>
 <p>"Reckon I do. There, everything's just as we found it. Now let's skedaddle."</p></div>
-<div id="mfmothe008" type="chapter" n="7">
+<div id="mfmothe008" type="chapter" n="8">
 <head>CHAPTER VIII.</head>
 
-A horrid spectre rises to my sight, Close by my side, and plain, and palpable In all good seeming and close circumstance As man meets man.
--Joanna Baillie.
+<epigraph><cit><q><l>A horrid spectre rises to my sight,</l>
+<l> Close by my side, and plain, and palpable</l>
+<l> In all good seeming and close circumstance</l>
+<l> As man meets man.</l></q>
+<bibl>--<hi rend="italics">Joanna Baillie.</hi></bibl></cit></epigraph>
 <p>IT was a sultry summer night, silent and still, not a leaf stirring, hardly so much as the chirp of an insect to be heard. The moon looked down from a cloudless sky upon green lawns and meadows, fields, and forests clothed in richest verdure; gardens, where bloomed lovely flowers in the greatest variety and profusion, filling the air in their immediate vicinity with an almost overpowering sweetness; a river flowing silently to the sea; cabins where the laborer rested from his toil, and lordlier dwellings, where perchance the rich man tossed restlessly on his more luxurious couch.</p>
 <p>	Mr. and Mrs. Travilla had spent the earlier part of the evening at the Oaks, and after their return, tempted by the beauty of the night, had sat conversing together in the veranda long after their usual hour for retiring. Now they were both sleeping soundly.</p>
 <p>	Perhaps the only creature awake about the house or on the plantation was Bungy the great watch
@@ -835,7 +1016,7 @@ that shooted the man'; I judge so from what I have heard of it."</p>
 <p>	"Yes, dearest, ob, so much better than we deserve!"</p>
 <p>Violet started up to a sitting posture. "Mamma,
 oh, mamma, I did have a dreadful, dreadful dream!
---that .I was 'way off from you and papa, out in the
+--that I was 'way off from you and papa, out in the
 night m the woods, and I saw----"</p>
 <pb n="92	ELSIE'S MOTHERHOOD."/>
 
@@ -847,13 +1028,13 @@ night m the woods, and I saw----"</p>
 <p>	The sobs grew fainter and softly sighing, "Yes, mamma," she said, "I asked him to send papa to bring me home, and he did."</p>
 <p>	"And papa came in here this morning and kissed both his girls before he went downstairs. Did you know that?"</p>
 <p>	"Did he? Oh, I wish I'd waked to give him a good hug!"</p>
-<p>	"I too;' said Elsie. "Papa loves us very much, doesn't he, mamma?"</p>
+<p>	"I too," said Elsie. "Papa loves us very much, doesn't he, mamma?"</p>
 <p>	"Dearly, dearly, my child; you and all his little ones."</p>
 <p>Vi's tears were dried, and when her father came
 <pb n="	ELSIE'S MOTHERHOOD.	93"/>
 
 in she met him with a cheerful face, quite ready for the customary romp, but days passed ere she was again her own bright, merry self, or seemed content unless clinging close to one or the other of her parents.</p>
-<p>	While the family were at the breakfast table Uncle Joe came in with the mail, his face full of excitement and tenor.</p>
+<p>	While the family were at the breakfast table Uncle Joe came in with the mail, his face full of excitement and terror.</p>
 <p>	"Dem Ku Kluxes dey's gettin' awful dangerous, massa," he said, laying down the bag with a trembling hand; "dey's gone an' shot the stage drivah an' killed 'um dead on the spot. Las' night, sah, jes ober yondah in de road todder side o' Mars Leland's place, and----"</p>
 <p>	Mr. Travilla stopped him in the midst of his story with a warning gesture and an anxious glance from one to another of the wondering, half frightened little faces about the table.</p>
 <p>"Another time and place, Uncle Joe."</p>
@@ -896,8 +1077,10 @@ were members, perhaps the judge also.<ref target="mfmothe97">*</ref> <note id="m
 <div id="mfmothe009" type="chapter" n="9">
 <head>CHAPTER 1X.</head>
 
-I feel my sinews slackened with the fright, And a cold sweat thrills down o'er all my limbs As if I were dissolving into water.
--Dryden.
+<epigraph><cit><q><l>I feel my sinews slackened with the fright,</l>
+<l> And a cold sweat thrills down o'er all my limbs</l>
+<l> As if I were dissolving into water.</l></q>
+<bibl>--<hi rend="italics">Dryden.</hi></bibl></cit></epigraph>
 
 	<p>EARLY one evening, a few days subsequent to the tragical death of Jones, the Ion family carriage, well freighted, was bowling along the road leading toward the Oaks.</p>
 <p>	A heavy shower had laid the dust and cooled the air, and the ride past blooming hedgerows and fertile fields was very delightful. The parents were in cheerful mood, the children gay and full of life and fun.</p>
@@ -931,7 +1114,7 @@ his own children seeming desirous to accept the invitation, Mr. Travilla permitt
 
 lug up a riding-whip, lying conveniently at hand, administered a castigation that made the offender yell and roar for mercy.</p>
 <p>	"You scoundrel!" replied the gentleman, still laying on his blows, "I have scant mercy for a great strong boy who amuses himself by frightening women and helpless little children."</p>
-<p>	"But you're not my father, and have no right, oh, .ob, oh!" blubbered Dick, trying to dodge the blows and wrench himself free. "I'll-I'll sue you for assault and battery."</p>
+<p>	"But you're not my father, and have no right, oh, oh, oh!" blubbered Dick, trying to dodge the blows and wrench himself free. "I'll--I'll sue you for assault and battery."</p>
 <p>	"Very well, I'll give you plenty while I'm about it, and if you don't want a second dose you will refrain from frightening my children in future."</p>
 <p>	It was an exciting scene, Walter getting almost as severe handling from Calhoun, nurses and children huddling together in the farthest corner of the room, Baby Herbert screaming at the top of his voice, and the others crying and sobbing while shrinking in nervous terror from the hideous disguises lying in a heap upon the floor.</p>
 <p>	"Oh, take them away! take them away, the horrid things!" screamed Virginia Conly, shuddering and hiding her face. "Wal and Dick, you wicked wretches, I don't care if they half kill you."</p>
@@ -952,7 +1135,7 @@ the room, "and if ever I catch you at such a trick again I'll give you twice as 
 
 	<p>"Do not go yet, Mr. Travilla; I think grandpa and the ladies will he here directly."</p>
 <p>	"Thanks, but I will see Mr. Dinsmore at another time. Now my first duty is to these terrified little ones."</p>
-<p>	"I am exceedingly sorry for what has occurred; more mortified than I can express-"</p>
+<p>	"I am exceedingly sorry for what has occurred; more mortified than I can express----"</p>
 <p>	"No need for apology, Conly; but you must see the necessity for our abrupt departure. Good-evening to you all."</p>
 <p>	Calhoun followed to the carriage door, helped to put the children in, then addressing Mr. Travilla, "I see you doubt me, sir," he said, "and not without reason, I own; yet I assure you I have no property in those disguises, never have worn, and never will wear, such a thing--much less take part in the violence they are meant to protect from punishment."</p>
 <p>	"I am glad to hear you say so, Cal. Good-evening." And the carriage whirled away down the avenue.</p>
@@ -976,18 +1159,18 @@ and for fear of wounding mother's feelings I have had to keep my tenors to mysel
 <pb n="106	ELSIE'S MOTHERHOOD."/>
 
 	<p>"My heart aches for her," Elsie said as they drove away; "what a sad, sad thing to be a widow!"</p>
-<p>	Yes; " responded Rose, " and to have lost your husband so--fighting against the land of your birth and love."</p>
-<p>	There was a long pause, broken by a sudden, hail frightened exclamation from Rosie. " Papa! what if we should meet the Ku Klux!</p>
-<p>	Not much danger, I think; they are not apt to be abroad so early. And we are nearing Ion."</p>
-<p>	I presume Edward has reached home before us," remarked Elsie. " I wonder how my little ones enjoyed their first visit to Roselands without their mother."</p>
+<p>	"Yes; " responded Rose, " and to have lost your husband so--fighting against the land of your birth and love."</p>
+<p>	There was a long pause, broken by a sudden, hail frightened exclamation from Rosie. " Papa! what if we should meet the Ku Klux!"</p>
+<p>	"Not much danger, I think; they are not apt to be abroad so early. And we are nearing Ion."</p>
+<p>	"I presume Edward has reached home before us," remarked Elsie. " I wonder how my little ones enjoyed their first visit to Roselands without their mother."</p>
 <p>	She soon learned; for she had scarcely set foot in the veranda ere they were clinging about her and pouring out the story of their terrible fright.</p>
 <p>	She pitied, soothed, and comforted them, trying to dispel their fears and lead them to forgive those who had ill-used them, though it cost no small effort to do so herself.</p>
 <div id="mfmothe010" type="chapter" n="10">
 <head>CHAPTER X.</head>
 
-Forgive, and ye shall be forgiven.
--Luke vi. 37.
-	<p>CALHOUN CONLY was much perturbed by the occurrences of the evening. He was fond of his cousin Elsie and her children, and very sorry, for both her sake and theirs, that they had suffered this fright; he greatly respected and liked Mr. Travilla too, and would fain have stood well in his esteem; he had hoped that he did; and also with his Uncle Horace-he had been so kindly treated, especially of lath, at both Ion and the Oaks; but now this unfortunate episode had placed him in a false position, and he could hardly expect to be again trusted or believed in.</p>
+<epigraph><cit><q><l>Forgive, and ye shall be forgiven.</l></q>
+<bibl>--<hi rend="italics">Luke</hi> vi. 37.</bibl></cit></epigraph>
+	<p>CALHOUN CONLY was much perturbed by the occurrences of the evening. He was fond of his cousin Elsie and her children, and very sorry, for both her sake and theirs, that they had suffered this fright; he greatly respected and liked Mr. Travilla too, and would fain have stood well in his esteem; he had hoped that he did; and also with his Uncle Horace--he had been so kindly treated, especially of late, at both Ion and the Oaks; but now this unfortunate episode had placed him in a false position, and he could hardly expect to be again trusted or believed in.</p>
 <p>	Such were his cogitations as he sat alone in the veranda after the Ion carriage had driven away. "What shall I do?" he asked himself, "what shall I do to recover their good opinion?"</p>
 <p>	Just then Walter appeared before him, looking crestfallen and angry.</p>
 <p>	"I say, Cal, it's bad enough for you to have thrashed me as you did, without bringing mother and Aunt Enna, and maybe grandfather too, down on me about those wretched masks and things; so
@@ -999,8 +1182,7 @@ give 'em up, and let Dick and me put em back before they get home."</p>
 <p>	"Yes, sir, you and Dick have got yourselves into a flue box, beside all the trouble you've made for other people," said Calhoun angrily. Then laying his hand on Walter's arm as he perceived that he was meditating flight, "No, sir, stay and face the music like a man; don't add cowardice to all the rest of it."</p>
 <p>	They heard the clatter of little feet running through the house and out upon the veranda, the carriage draw up before the door, then the voices of the children pouring out the story of their fright, and the punishment of its authors, and the answering tones of their grandfather and the ladies; Mr. Dinsmore's expressing surprise and indignation, Enna's full of passion, and Mrs. Conly's of cold displeasure.</p>
 	<pb n="ELSIES'S MOTHERHOOD.	109"/>
-<p>
-	"Let go o' me! they're coming this way," cried Walter, trying to wrench himself free.</p>
+<p>	"Let go o' me! they're coming this way," cried Walter, trying to wrench himself free.</p>
 <p>	But the inexorable Calhoun only tightened his grasp and dragged him on to the nursery.</p>
 <p>	Dick was there trying to pick the lock of the closet door with his pocket knife.</p>
 <p>	"What are you about, sir? No more mischief to-day, if you please," exclaimed Calhoun, seizing him with the free hand, the other having enough to do to hold Walter.</p>
@@ -1015,7 +1197,7 @@ give 'em up, and let Dick and me put em back before they get home."</p>
 Conly was saying in freezing tones. "If you think he deserves any more than you gave him, Cal, you have my full permission to repeat the dose."</p>
 <p>	"Where is the cause of all this unseemly disturbance?" demanded Mr. Dinsmore severely. "Calhoun, if you have he key of that closet and those wretched disguises are there, produce them at once."</p>
 <p>	The young man obeyed, while Enna, holding Dick fast, turned a half frightened look upon her sister; to which the latter, standing with her arms folded and her back braced against the wall, replied with one of cold, haughty indifference.</p>
-<p>	Calhoun drew out the obnoxious articles and held them up to a view,, a flush of mortification upon his face.</p>
+<p>	Calhoun drew out the obnoxious articles and held them up to a view, a flush of mortification upon his face.</p>
 <p>The children screamed and ran.</p>
 <p>	"Be quiet! they can't hurt you," said the grandfather, stamping his foot; then turning to Calhoun, "Ku Klux--your property and Arthur's, I presumes You are members, doubtless?" and he glanced from one to the other of his older grandsons in mingled anger and scorn, Arthur having just entered the room to ascertain the cause of the unusual commotion.</p>
 <p>	He flushed hotly at his grandsire's words and look. "I, sir! I a Ku Klux?" he exclaimed in a hurt, indignant tone; "I a midnight assassin stealing upon my helpless victims under cover of darkness and a hideous disguise? No, sir. How could
@@ -1060,7 +1242,7 @@ born on the same day of the same month, and their birthday would occur in less t
 <p>	At about the same time Elsie and her husband, seated alone together in their veranda, were conversing on the same subject. Mr. Travilla introduced it. They had been regretting the effect of the fright of the evening upon their children--Vi especially, as the one predisposed to undue excitement of the brain--yet hoping it might not prove lasting.</p>
 <p>	Elsie had just returned from seeing them to bed. "I left them much calmed and comforted," she said, "by our little talk together of God's constant watch over us, his all-power, and his protecting care and love; and by our prayer that he would have them in his keeping."</p>
 <p>	He pressed her hand in silence; then presently remarked, "The birthday of those boys is near at
-<pb n="ELSiE'S MOTHERHOOD.	115"/>
+<pb n="ELSIE'S MOTHERHOOD.	115"/>
 
 hand. They certainly deserve no remembrance from us; but how do you feel about it?"</p>
 <p>"Just as my noble, generous husband does," she said, looking up into his face with a proud, fond smile.</p>
@@ -1141,11 +1323,12 @@ of that little Ed sending us these splendid whips, and the little girls these pr
 <p>	"I should think you'd be ashamed to accept such gifts after the way you've behaved," said Arthur.</p>
 <p>	"So we are; but wouldn't it be worse to send 'em back? Awful rude, I should say." And Dick turned a half saucy, half beseeching look upon his grandfather.</p>
 <p>	The old gentleman smiled in spite of himself, and consented, in consideration of the boys' penitence for the past and fair promises for the future, to allow them to accept the generous gifts.</p>
-<p>	Uncle Joe explained which was for Dick, and which for Walter, and springing into their saddles, they were off like a shot, their grandfather calling after them to be back in ten minutes, if they wanted any breakfast.</p>
+<p>	Uncle Joe explained which was for Dick, and which for Walter, and springing into their saddles, they were off like a shot, their grandfather calling after them to be back in ten minutes, if they wanted any breakfast.</p></div>
 <div id="mfmothe011" type="chapter" n="11">
 <head>CHAPTER XI.</head>
 
-	If time enemy hunger, feed him; if he thirst, give him drink; for in so doing thou shalt heap coals of fire on his head. Be not overcome of evil, but overcome evil with good." -ROMANS xii. 20, 21.
+	<epigraph><cit><q><l><sic>If time enemy hunger, feed him; if he thirst, give him drink; for in so doing thou shalt heap coals of fire on his head. Be not overcome of evil, but overcome evil with good."</sic></l></q>
+<bibl>--ROMANS xii. 20, 21.</bibl></cit></epigraph>
 
 	<p>"SPLENDID!" cried Dick, wheeling about toward home, now half a mile away; but we must hurry back or grandpa will be mad. I say, Wal, what do you s'pose makes Travilla and Cousin Elsie so different from us? I mean all of us at Roselands."</p>
 <p>	"I don't know," returned Walter reflectively; "maybe because they're Christians. You know it says in the Bible we're to return good for evil."</p>
@@ -1215,12 +1398,16 @@ against me, and. I cannot disprove the tale they tell; but--oh, if you could tru
 <p>	He lifted his head, and gazed fearlessly into the keen dark eyes still bent searchingly upon him.</p>
 <p>	Mr. Dinsmore held out his hand, and cordially grasped the one Calhoun placed in it.</p>
 <p>	"Well, my boy, I will try: it is far pleasanter than to doubt you. But there is some one at Roselands who is disposed to aid and abet the Ku Klux in their lawless proceedings."</p>
-<p>	"I cannot deny that," said the nephew, "yet it would ill become me to say who it is; and I think, sir, since grandpa has set down his foot so decidedly in opposition, there will be no more of it. Travilla and Cousin Elsie have given me their confidence again, and I assure you, sir, I am deeply grateful to you all."</p>
+<p>	"I cannot deny that," said the nephew, "yet it would ill become me to say who it is; and I think, sir, since grandpa has set down his foot so decidedly in opposition, there will be no more of it. Travilla and Cousin Elsie have given me their confidence again, and I assure you, sir, I am deeply grateful to you all."</p></div>
+
 <div id="mfmothe012" type="chapter" n="12">
 <head>CHAPTER XII.</head>
 
-If thou neglect'st or dost unwillingly What I command, I'll rack thee with old cramps, Fill all thy bones with aches; make thee roar, That beasts shall tremble at thy din.
--Shakspere's Tempest.
+<epigraph><cit><q><l>If thou neglect'st or dost unwillingly</l>
+<l> What I command, I'll rack thee with old cramps, </l>
+<l>Fill all thy bones with aches; make thee roar,</l>
+<l> That beasts shall tremble at thy din.</l></q>
+<bibl>--<hi rend="italics">Shakspere's Tempest.</hi></bibl></cit></epigraph>
 
 	<p>THE Ion family were spending the day at the Oaks. It was now early in the fall of 1868, and political. excitement ran high over the coming presidential election. There bad been as yet no effectual check given to the lawless proceedings of the Ku Klux, and their frequent raids and numerous deeds of violence had inaugurated a reign of terror that was a shame and reproach to our boasted civilization and free institutions.</p>
 <p>	Many of the poorer classes, both blacks and whites, dared not pass the night in their houses, but when darkness fell, fled for safety to the shelter of the nearest woods, carrying their beds with them, and sleeping in the open air.</p>
@@ -1394,7 +1581,7 @@ with a crash, finishing his work when the hatchet came, by splitting the coffin 
 <p>"What do you intend doing?" asked Travilla.</p>
 <p>	"Inclination says, 'Stay and brave it out'; but I have not yet fully decided. I have invested all my means in this enterprise, and have a wife and family of helpless little ones to support."</p>
 <p>	"That makes it hard indeed; yet I fear your life is in great danger. But come what may, Leland, I stand your friend. If you should be attacked, fly to Ion; you will find an open door, a hearty welcome, and such protection as I am able to give. I think we could conceal you so that it would be a matter of difficulty for your foes to find you."</p>
-<p>	"A thousand thanks! God bless you for your kindness, sir! " exclaimed Leland, with emotion, warmly grasping the hand held out to him; and the two parted, each wending his homeward way.</p>
+<p>	"A thousand thanks! God bless you for your kindness, sir! " exclaimed Leland, with emotion, warmly grasping the hand held out to him; and the two parted, each wending his homeward way.</p></div>
 <div id="mfmothe013" type="chapter" n="13">
 <head>CHAPTER XIII.</head>
 
@@ -1429,7 +1616,7 @@ to see poor old Uncle Mose, who is very ill; and I want you to be mother to the 
 <p>	"Oh, mamma, mayn't we go with you?" cried Eddie and Vi in a breath; Harold chiming in, "And me too, mamma, me too!"</p>
 <p>	"No, dears, not to-day, but some other time you shall," the mother answered, giving each a good-bye kiss.</p>
 <p>	"Mamma, stay wis us; I'se 'f'aid de Kluxes get 'oo!" said Harold coaxingly, clinging about her neck with his chubby arms, while the big tears gathered in his great dark eyes.</p>
-<p>	No, dear, they don't come in the day-time. And God will take care of me. Papa is down at the quarter, too; and Uncle Joe and mammy will go with me." And, with a tender caress she gently released herself from his hold and turned away.</p>
+<p>	"No, dear, they don't come in the day-time. And God will take care of me. Papa is down at the quarter, too; and Uncle Joe and mammy will go with me." And, with a tender caress she gently released herself from his hold and turned away.</p>
 <p>	The children gazed wistfully after her graceful figure as it disappeared among the trees, Uncle Joe holding a great umbrella over her to shield her from the sun, while mammy and Aunt Sally followed, each with a basket on her arm.</p>
 <p>	Uncle Mose was rapidly nearing that bourne whence no traveller returns. As his mistress laid her soft white hand on his, she felt that the chill of death was there.</p>
 <p>	"You are almost home, Uncle Mose," she said, bending over him, her sweet face full of tender sympathy.</p>
@@ -1443,7 +1630,7 @@ to see poor old Uncle Mose, who is very ill; and I want you to be mother to the 
 <p>	"Yes, honey, dose de words ob de Good Book. Now will you please sing de twenty-third Psalm, an' den ask de Lord Jesus keep fas' hold dis ole niggah, till Jordan am past, an' de gate into de city?"</p>
 <p>	The request was granted; the sweet voice that had thrilled the hearts of many of the rich and noble of earth freely poured forth its richest strains to soothe the dying throes of agony of a poor old negro.</p>
 <p>Then kneeling by the humble couch, in a few
-	<pb n="ELSIE'S MOTHERHOOD.	153"/>
+<pb n="ELSIE'S MOTHERHOOD.	153"/>
 
 simple, touching words she commended the departing spirit to the almighty love and care of Him who had shed his blood to redeem it, earnestly pleading that the dying one might be enabled to cast himself wholly on Jesus, and in doing so be granted a speedy and abundant entrance into his kingdom and glory.</p>
 <p>	The fervent "Amen!" of Uncle lose joined in with hers; then low and feebly he added, "De good --Lord--bress you--my dear--young--missus."</p>
@@ -1454,7 +1641,7 @@ simple, touching words she commended the departing spirit to the almighty love a
 <p>	Mr. Travilla rode up at that instant. "That is right," he said. "Little wife, I am loath to have you exposed to the heat of this sultry day."</p>
 <p>	"And you, Edward? can you not come home now?" she asked.</p>
 <p>	"Not yet, wife; there are several matters I must attend to first, and I want to speak to Mr. Wood, who, I see, is just coming."</p>
-<pb n="154	ELS'IE'S MOTHERHOOD."/>
+<pb n="154	ELSIE'S MOTHERHOOD."/>
 
 	<p>He kissed his hand to her with the gallantry of the days of their courtship, and cantered off, while the carriage rolled on its way toward the mansion.</p>
 <p>" Daughter, if you must visit the quarter during this sultry weather, can you not choose an earlier hour?" asked Mr. Dinsmore.</p>
@@ -1462,7 +1649,7 @@ simple, touching words she commended the departing spirit to the almighty love a
 <p>" Yes; their next outrage will, I fear, be an attack upon him."</p>
 <p>" Then upon you and Edward! " she said, her cheek growing very pale and her eyes filling.</p>
 <p>" Papa, I am becoming very anxious."</p>
-<p><p>" ' I would have you without carefulness,' " he answered, taking her hand in his. " They can have no power at all against us, except it be given them from above. My child, God reigns, and if God be for us, who can be against us?"</p>
+<p>" ' I would have you without carefulness,' " he answered, taking her hand in his. " They can have no power at all against us, except it be given them from above. My child, God reigns, and if God be for us, who can be against us?"</p>
 <p>	"Yes, dear papa, and with David let us say, 'In the shadow of thy wings will I make my refuge, until these calamities be overpast.' "</p>
 <p>	Mr. Dinsmore was still with his daughter when Mr. Travilla returned with the news that Uncle Mose's sufferings were over, and it had been arranged that he and baby Ben should be buried that evening at dusk.</p>
 <p>	The children begged to be permitted to attend the double funeral; but their parents judged it best to
@@ -1497,7 +1684,7 @@ accommodation to the superstitious feelings of the blacks, which led them to pre
 <p>	For obvious reasons the services at the grave were made very short, and in another moment they could see the line of torches drawing rapidly nearer, till it reached the quarter and broke into fragments.</p>
 <p>	"We will go don now," Elsie said, rising and taking Harold's hand, "papa, grandpa, and Uncle Horace will be here in a moment."</p>
 <p>	"Mamma," whispered her namesake daughter, "how good God was to keep them safe from the Ku flux!"</p>
-<p>	"Yes, dearest, let us thank him with all our hearth."</p>
+<p>	"Yes, dearest, let us thank him with all our hearth."</p></div>
 <div id="mfmothe014" type="chapter" n="14">
 <head>CHAPTER XIV.</head>
 
@@ -1665,8 +1852,8 @@ host. "No one but my wife and myself yet knows of your coming, and it shall be k
 <p>	"Tut, man! 'tis nothing! are we not told to lay down our lives for the brethren? Let my help you to bed; I fear that leg will keep you there for some days."</p>
 <p>	"I fear so, indeed, but am sincerely thankful to have gotten off so well," replied Leland, accepting the offered assistance.</p>
 <p>	"A most comfortable, nay luxurious prison cell," he remarked cheerily, glancing about upon the elegant and tasteful furniture; "truly the lines have fallen to me in pleasant places."</p>
-<p>	Mr. Travilla smiled. "We will do what we can to make amends for the loss of liberty. It cannot be far from daybreak now: I will remove the light, throw open the shutters and leave you to rest. You must, of course, be anxious about your family. I will ride over to Fairview and bring you news of them within the hour."</p>
-<div id="mfmothe010" type="chapter" n="10">
+<p>	Mr. Travilla smiled. "We will do what we can to make amends for the loss of liberty. It cannot be far from daybreak now: I will remove the light, throw open the shutters and leave you to rest. You must, of course, be anxious about your family. I will ride over to Fairview and bring you news of them within the hour."</p></div>
+<div id="mfmothe015" type="chapter" n="15">
 <head>CHAPTER XV.</head>
 <epigraph>
   <cit>
@@ -1773,7 +1960,7 @@ a grand romp; but at Harold's question Eddie suddenly stood still, with an imper
 <p>"Ah ha, ah ha! um h'm, ah ha!"</p>
 <p>	"Has you dot any 'ittle boys and dirls at your house?" asked Harold.</p>
 <p>"Yes, my man, a quiver full of them." </p>
-<p>	Are they good? do they love Jesus?" asked Vi. "Please tell us about them."</p>
+<p>	"Are they good? do they love Jesus?" asked Vi. "Please tell us about them."</p>
 <p>	"If you like to, sir," said Elsie, with a sweet and gentle gravity. "Vi, dear, you know we mustn't tease."</p>
 <p>	"No, I didn't mean to tease," Vi answered, blushing. "Please excuse me, sir, and don't tell it 'less you want to."</p>
 <p>	"No, no; it will give me pleasure, my dear. I enjoy talking of my darlings; especially now when they are so far away."</p>
@@ -2185,6 +2372,7 @@ as lightnin' an' hide under the bed. It's yo' dey's after; somebody mus' a tole 
 <p>	"Tank de Lord, dat shot tole!" ejaculated Aunt Dicey. "Now stan' ready for de flex'."</p>
 <p>	The party in front were received with the same galling fire as before, and at the same moment a sound, coming apparently from the road beyond the avenue, a sound as of the steady tramp, tramp of infantry, and the heavy rumbling and rolling of artillery, smote upon their ears.</p>
 <p>	There had been a report that Federal troops were on the march to suppress the outrages and protect the helpless victims, and, seized with panic terror, the raiders gathered up their dead and wounded and fled.</p></div>
+
 <div id="mfmothe018" type="chapter" n="18">
 <head>CHAPTER XVIII.</head>
 
@@ -3469,7 +3657,7 @@ be deprived of the share you were to have had hi the innocent enjoyments planned
 <p>	Elsie had no reproaches for Meta, but kindly forgave her, and even requested that she might be permitted to share in the morrow's enjoyment, but Mrs. Carrington would not hear of it.</p></div>
 
 
-<div id="mfmothe023" type="chapter" n="23">
+<div id="mfmothe028" type="chapter" n="28">
 <head>CHAPTER XXVIII.</head>
 
 <epigraph>
@@ -3614,4 +3802,5 @@ room, Elsie found her namesake daughter sitting apart in a bay window, silently 
 <p>	"Isn't it lovely, mamma? see how the waters of our lakelet shine in the moonbeams like molten silver! and the fields, the groves, the hills! how charming they look in the soft light."</p>
 <p>	"Yes, darling: and that was what you were thinking of, sitting here alone?"</p>
 <p>	"Yes, mamma; and of how good God is to us to give us this lovely home and dear, kind father and mother to take care of us. It is always so sweet to come back to my home when I've been away. I was enjoying it all the way coming in the boat to-night; that, and thinking of the glad time when we shall all be gathered into the lovelier home Jesus is preparing for us."</p>
-<p>	"God grant we may!" said the mother, with emotion, "it is my heart's desire and prayer to God for all my dear ones, especially my children. 'Eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which God hath prepared for them that love him.' "</p>
+<p>	"God grant we may!" said the mother, with emotion, "it is my heart's desire and prayer to God for all my dear ones, especially my children. 'Eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which God hath prepared for them that love him.' "</p></div>
+</body></text></TEI.2>
