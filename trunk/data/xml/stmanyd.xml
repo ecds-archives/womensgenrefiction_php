@@ -85,15 +85,15 @@
 <text>
 <front id="stmanyd1203">
 <pb n="[i]"/>
-<pb entity="stmanydtp" pages="Title Page"/>
+
 <titlePage type="half">
 <docTitle>
 <titlePart type="main"> MANY DAUGHTERS</titlePart>
 </docTitle>
 </titlePage>
 
-<pb n="[ii]"/>
-<pb n="[iii]"/>
+<pb entity="stmanydtp" pages="Title Page" n="[iii]"/>
+
 <titlePage type="full">
 <docTitle>
 <titlePart type="main"> MANY DAUGHTERS</titlePart>
@@ -106,6 +106,7 @@
 <docImprint>
 <pubPlace>London</pubPlace>
 <publisher>DIGBY, LONG &#38; CO.</publisher>
+<address><addrLine>18 Bouverie Street, Fleet Street, E.C.</addrLine></address>
 <docDate>1900</docDate>
 </docImprint>
 </titlePage>

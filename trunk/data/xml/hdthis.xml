@@ -74,7 +74,7 @@
 <text>
 <front id="hdthis1203">
 <pb n="[i]"/>
-<pb entity="hdsthistp" pages="titlePage"/>
+<pb/>
 <titlePage type="half">
 <docTitle>
 <titlePart type="main">THIS WAY OUT</titlePart>
@@ -84,16 +84,17 @@
 <pb n="[ii]"/>
 <div id="hdthis100" type="advert">
 <figure entity="hdthisfm1" rend="inline">
-<figDesc> Advert included in front of Dudeney's "This Way Out"</figDesc>
+<figDesc> Advert included in front of Dudeney's "This Way Out"
+</figDesc>
 </figure>
 </div>
 
-<pb n="[iii]"/>
+<pb entity="hdthisfm2" pages="Title Page" n="[iii]"/>
 <titlePage type="full">
 <docTitle>
 <titlePart type="main">THIS WAY OUT</titlePart>
 </docTitle>
-<byline>BY<docAuthor> MRS.HENRY DUDENEY</docAuthor></byline>
+<byline>BY<lb/><docAuthor> MRS.HENRY DUDENEY</docAuthor></byline>
 <docImprint>
 <publisher> METHUEN AND CO., LTD.</publisher><pubPlace>36 ESSEX STREET W.C.<lb/>LONDON</pubPlace> 
 </docImprint>
