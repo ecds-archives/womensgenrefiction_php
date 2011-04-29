@@ -3,7 +3,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2011-04-29T13:11:29Z. 
+Schema generated from ODD source 2011-04-29T15:16:19Z. 
 Edition: 1.9.0. Last updated on February 25th 2011.
 Edition Location: http://www.tei-c.org/Vault/P5/1.9.0/
 
@@ -4592,7 +4592,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
       </element>
    </define>
    <define name="tei_pb">
-      <element name="pb">
+      <element name="pb" ns="">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(page break) marks the boundary between one page of a text and the next in a standard reference system.</a:documentation>
          <empty/>
          <optional>
@@ -4601,11 +4601,11 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
                <text/>
             </attribute>
          </optional>
+         <ref name="tei_att.breaking.attributes"/>
          <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
          <ref name="tei_att.sourced.attributes"/>
          <ref name="tei_att.spanning.attributes"/>
-         <ref name="tei_att.breaking.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
          <empty/>
       </element>
    </define>

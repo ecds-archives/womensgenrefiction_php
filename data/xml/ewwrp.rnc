@@ -1,11 +1,12 @@
-default namespace = "http://www.tei-c.org/ns/Examples"
+default namespace = ""
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
 namespace ns1 = "http://www.tei-c.org/ns/1.0"
+namespace ns2 = "http://www.tei-c.org/ns/Examples"
 namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2011-04-29T13:11:20Z. 
+# Schema generated from ODD source 2011-04-29T15:16:11Z. 
 # Edition: 1.9.0. Last updated on February 25th 2011.
 # Edition Location: http://www.tei-c.org/Vault/P5/1.9.0/
 #
@@ -66,7 +67,7 @@ tei_data.code = xsd:anyURI
 tei_data.name = xsd:Name
 tei_data.enumerated = tei_data.name
 tei_macro.anyXML =
-  element * - (ns1:* | egXML) {
+  element * - (ns1:* | ns2:egXML) {
     attribute * { text }*,
     (text | tei_macro.anyXML)*
   }
@@ -2392,16 +2393,16 @@ tei_milestone =
 tei_pb =
   
   ## (page break) marks the boundary between one page of a text and the next in a standard reference system.
-  element ns1:pb {
+  element pb {
     empty,
     
     ## aids in displaying pages. Carried over from DTD.
     attribute pages { text }?,
+    tei_att.breaking.attributes,
     tei_att.global.attributes,
-    tei_att.typed.attributes,
     tei_att.sourced.attributes,
     tei_att.spanning.attributes,
-    tei_att.breaking.attributes,
+    tei_att.typed.attributes,
     empty
   }
 tei_lb =
