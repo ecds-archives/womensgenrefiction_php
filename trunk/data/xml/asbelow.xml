@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="asbelow_1208">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="asbelow_1208">
   <teiHeader xml:id="asbelow1201"><fileDesc>
       <titleStmt>
         <title>Below Stairs, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Below Stairs</title>. <pubPlace>London</pubPlace>: <publisher>Methuen &amp; Co., Ltd.</publisher>, <date>1913</date>.</bibl>
@@ -91,7 +91,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="asbelow_1307" n="[ii]"/>
       <div xml:id="asbelow_110" type="copyright">
-        <figure><graphic url="ENTITY_asbelowcr" rend="inline"/>
+        <figure><graphic url="asbelowcrjpg" rend="inline"/>
           <figDesc>Page containing copyright information for Mrs. Sidgwick's
 <hi rend="italic">Below Stairs</hi>.</figDesc>
         </figure>
@@ -821,7 +821,7 @@ about, and she did not tell Gertie that she was serving a family of thirteen.</p
 <pb xml:id="asbelow_130642" n="94     BELOW STAIRS"/>
 month, provided she could find a place and Mrs Hayden a more brawny maid in the time. They both told Mrs Johns at the registry office of their needs, and Priscilla told Gertie in a letter. She also wrote to Mrs Masters and asked her if she would be willing to speak for her again.</p>
           <q>
-            <text xml:id="asbelow_1204">
+            <q><floatingText xml:id="asbelow_1204">
               <body xml:id="asbelow_1203">
                 <div xml:id="asbelow_100" type="letter">
                   <opener>"<salute>DEAR MRS MASTERS</salute></opener>
@@ -835,7 +835,7 @@ month, provided she could find a place and Mrs Hayden a more brawny maid in the 
                   <p xml:id="asbelow_130645">"How are Mr Masters and Mr Harry? Is he married yet?"</p>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="asbelow_130646">She had just written the letter but not folded it, when Gertie arrived unexpectedly, an apparition of awe-inspiring splendour in a blue velveteen gown and a fur stole and muff. Mrs Hayden was in the kitchen, but she received the young lady politely, and left the sisters to themselves.</p>
           <p xml:id="asbelow_130648">"Reggy is outside," said Gertie. "I can't stay five minutes. We're going to supper with an aunt

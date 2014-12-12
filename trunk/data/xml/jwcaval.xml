@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="jwcaval_12040">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="jwcaval_12040">
   <teiHeader xml:id="jwcaval1201"><fileDesc>
       <titleStmt>
         <title>Cavalry Life and Regimental Legends, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Cavalry Life and
@@ -116,13 +116,13 @@ LEGENDS</titlePart>
         </docImprint>
       </titlePage>
       <pb xml:id="jwcaval_13010" n="[vii]"/>
-      <div xml:id="jwcaval_002" type="table of contents">
-        <figure><graphic url="ENTITY_jwcavaltc1" rend="inline"/>
+      <div xml:id="jwcaval_002" type="table_of_contents">
+        <figure><graphic url="jwcavaltc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Winter's <hi rend="italic">Cavalry Life and
 Regimental Legends</hi>.</figDesc>
         </figure>
         <pb xml:id="jwcaval_13011" n="viii"/>
-        <figure><graphic url="ENTITY_jwcavaltc2" rend="inline"/>
+        <figure><graphic url="jwcavaltc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Winter's <hi rend="italic">Cavalry Life and
 Regimental Legends</hi>.</figDesc>
         </figure>
@@ -533,7 +533,7 @@ MATRIMONY.</head>
               <p xml:id="jwcaval_130352">'Perfectly certain; I don't think even Pat himself could tell the difference; and Miss Lifford will not be so familiar with his hand as all that.'</p>
               <p xml:id="jwcaval_130353">By the united efforts of the officers the following letter was produced:</p>
               <q>
-                <text xml:id="jwcaval_1205">
+                <q><floatingText xml:id="jwcaval_1205">
                   <body xml:id="jwcaval_1204">
                     <div xml:id="jwcaval_300" type="letter">
                       <opener>
@@ -549,7 +549,7 @@ the very happiest man in the world into '</p>
 O'SHAUGHNASSY</signed>.'</closer>
                     </div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="jwcaval_130356">Captain Gurney read this brilliant production aloud.</p>
               <p xml:id="jwcaval_130357">'There!' he exclaimed, in a self-satisfied tone, 'I think that reads like Pat, particularly the wind-up. Can any of you suggest an improvement?'</p>
@@ -599,7 +599,7 @@ O'SHAUGHNASSY</signed>.'</closer>
               <p xml:id="jwcaval_130396">'So it is. Well, Gurney, you've a very good opportunity of showing your wonderful cleverness,' said Pat, who could afford to be civil, 'and letting the world see if you are as clever at getting out of scrapes yourself as you are of getting other fellows in. When you've got the thing settled, I'll change the " into" into "out," and say it as many times again. I'm going now. I shouldn't like my presence to be any hindrance to the general conversation. Good-bye.'</p>
               <p xml:id="jwcaval_130397">With a gay laugh, O'Shaughnassy went noisily out of the room, and ran quickly up the echoing corridor to his own domain. Safely there, he immediately locked the door, and, flinging himself on his bed, indulged in the luxury of a hearty laugh, rolling over and over—burying his face in the pillows to smother the sound of his hilarity. At last he calmed down a little, and, smoothing out Miss Lifford's letter, which he had recaptured from Captain Gurney, read it again with care. I mentioned before that it was not lengthy; indeed, it ran thus:</p>
               <q>
-                <text xml:id="jwcaval_1207">
+                <q><floatingText xml:id="jwcaval_1207">
                   <body xml:id="jwcaval_1206">
                     <div xml:id="jwcaval_301" type="letter">
                       <p xml:id="jwcaval_130398">'You have made me happy—very happy indeed. Of course I will be your valentine to-morrow. Whose should I be, if not yours?</p>
@@ -609,7 +609,7 @@ O'SHAUGHNASSY</signed>.'</closer>
                       </closer>
                     </div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="jwcaval_130399">Mr. Patrick O'Shaughnassy kissed the crumpled paper rapturously.</p>
               <p xml:id="jwcaval_130400">'My darling, my sweet Alys!' he murmured blissfully. Then his more natural mode of expressing his satisfaction came in the words, 'By Jove! what a lucky chap I am!'</p>
@@ -771,7 +771,7 @@ O'SHAUGHNASSY</signed>.'</closer>
               <p xml:id="jwcaval_130514">'Yes, yes,' they all cried; 'let's have them all.'</p>
               <p xml:id="jwcaval_130515">'All right; then here goes.</p>
               <q>
-                <text xml:id="jwcaval_1209">
+                <q><floatingText xml:id="jwcaval_1209">
                   <body xml:id="jwcaval_1208">
                     <head>'"THE PRISONER AND THE FLOWER</head>
                     <lg type="stanza">
@@ -818,7 +818,7 @@ O'SHAUGHNASSY</signed>.'</closer>
                       <l>A glory over all."'</l>
                     </lg>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="jwcaval_130517">'Old Stephen seems to have given it up as a bad business,' laughed Gurney sneeringly.</p>
               <p xml:id="jwcaval_130518">I've heard it before,' put in Hunt thoughtfully—'the idea, at all events. Wasn't there some Italian chap who——'</p>
@@ -827,7 +827,7 @@ O'SHAUGHNASSY</signed>.'</closer>
               <p xml:id="jwcaval_130521">'Damn!' returned Stephen politely, at which the screams of laughter rang out anew. 'I say, are you fellows going to let me get into bed? It's beastly cold here'</p>
               <p xml:id="jwcaval_130522">'Bring him nearer the fire,' commanded the senior, 'and listen to this:</p>
               <q>
-                <text xml:id="jwcaval_12011">
+                <q><floatingText xml:id="jwcaval_12011">
                   <body xml:id="jwcaval_12010">
                     <head>'"TO AN OLD CLAY PIPE.</head>
                     <lg type="stanza">
@@ -850,7 +850,7 @@ O'SHAUGHNASSY</signed>.'</closer>
                       <l>Marching at ease."'</l>
                     </lg>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="jwcaval_130524">'Most defective line,' put in a laughing voice; 'why, hang it! it sounds like a dragoon at the manœuvres.'</p>
               <p xml:id="jwcaval_130525">'Keep quiet,' was the unceremonious reply from the reader, who continued:</p>
@@ -993,7 +993,7 @@ O'SHAUGHNASSY</signed>.'</closer>
 </p>
               <p xml:id="jwcaval_130624">Poor Stephen was utterly dismayed. He waited until the train had taken its departure, and then he walked slowly out of the station like a man in a dream, refusing an offer of a seat in Captain Bernard's cab without thinking of what he was doing. What could he do? They must have returned by the five o'clock train! What a fool he had been not to come up and meet that one on the chance of their having come by it. Well, he had never thought of it, and it was no use crying over that now; nor could he very well make any excuse to go to Major Winton's house at that time of night. Therefore he could do nothing but submit himself to Fate; that was what was against him. When he reached his rooms he opened his blotting-book and took therefrom a sheet of paper, on which was written a little poem which had escaped the eyes of his tormentors on the previous night.</p>
               <q>
-                <text xml:id="jwcaval_12013">
+                <q><floatingText xml:id="jwcaval_12013">
                   <body xml:id="jwcaval_12012">
                     <head>'KISMET.</head>
                     <lg>
@@ -1037,7 +1037,7 @@ O'SHAUGHNASSY</signed>.'</closer>
                       <l>"Kismet! It is destiny!" '</l>
                     </lg>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <pb xml:id="jwcaval_130625" n="57     A REGIMENTAL POET"/>
               <p xml:id="jwcaval_130626">'I believe there's something in it,' Stephen said aloud as he laid the paper back in its hiding-place; 'at all events, I've done my best to see her, and failed, so Fate must have had something to do with it. If it's for the best, "Kismet" will keep her true until I come back. I'll run the risk of trusting her.'</p>
@@ -1099,7 +1099,7 @@ O'SHAUGHNASSY</signed>.'</closer>
               <p xml:id="jwcaval_130660">'I could not forget anything you wished,' he responded.</p>
               <p xml:id="jwcaval_130661">'Oh,' remarked Miss Scrope a little blankly: she had not bargained for that tone of devotion. But after dinner, all the same, she demanded the poems, and, with a little show of unwillingness, Captain Gurney produced them. She took then from him and began reading, in the way she had done on the previous day, almost to herself:</p>
               <q>
-                <text xml:id="jwcaval_12015">
+                <q><floatingText xml:id="jwcaval_12015">
                   <body xml:id="jwcaval_12014">
                     <head>'CHARGE OF CHASSEURS.</head>
                     <lg type="stanza">
@@ -1133,7 +1133,7 @@ O'SHAUGHNASSY</signed>.'</closer>
                       <l>My lads: we must stop them, or die to a man.'"'</l>
                     </lg>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="jwcaval_130662">Miss Scrope laid the paper down with a long, long sigh.</p>
               <p xml:id="jwcaval_130663">'I think it is perfectly lovely,' she said at last.</p>
@@ -1547,7 +1547,7 @@ affright.</p>
             <p xml:id="jwcaval_1301030">'What shall I say next?' he said aloud.</p>
             <p xml:id="jwcaval_1301032">It took him a long time to write that letter; but at last he <pb xml:id="jwcaval_1301031" n="99     A CHERUB'S FACE UNDER A FORAGE-CAP"/>accomplished it. It was not very long, and it was rather stiff. It ran:</p>
             <q>
-              <text xml:id="jwcaval_12017">
+              <q><floatingText xml:id="jwcaval_12017">
                 <body xml:id="jwcaval_12016">
                   <div xml:id="jwcaval_320" type="letter">
                     <opener>
@@ -1561,7 +1561,7 @@ affright.</p>
                     </closer>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <p xml:id="jwcaval_1301035">That was the letter he wrote and sent. Three days passed, during which he received no reply—a fact which worried him somewhat. On the fourth day, however, he received a note, by hand, from Mrs. Hamilton, asking him to call and see her at the Black Swan Hotel.</p>
             <p xml:id="jwcaval_1301036">He happened to be just going out when the note reached him, so he thrust it into his pocket—not without a certain feeling of tenderness at the sight of the dainty delicate characters—and took his way into the town. He did not go very quickly, though; he called at the florist's half-way, and bought a flower for his buttonhole—a white rosebud it was. He met some people that he knew, and stayed to chat with them.</p>
@@ -1998,7 +1998,7 @@ height--barely twelve inches; his
             <p xml:id="jwcaval_1301414">Now Geoffry Bernard was very much in love, and considered all things fair in love and war; therefore, seeing a letter lying open on the blotting-pad, he made no more of reading it than if it had been his own. Dishonourable, of course it was, but true for all that. It was not long, and the ink was still wet.</p>
             <pb n="137     THE SIGN OF THE GOLDEN SWAN" pages="137" facs="jwcavalp137"/>
             <q>
-              <text xml:id="jwcaval_12019">
+              <q><floatingText xml:id="jwcaval_12019">
                 <body xml:id="jwcaval_12018">
                   <div xml:id="jwcaval_330" type="letter">
                     <opener>
@@ -2011,7 +2011,7 @@ height--barely twelve inches; his
                     </closer>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <p xml:id="jwcaval_1301417">'How the deuce does he remember them all?' murmured Geoffry Bernard, as he strolled to the pier-glass and began admiring himself. When, a few minutes later, Abdy entered, Bernard was resting his arms upon the chimney-shelf and his forehead upon his arms, staring into the fire in the brownest of brown studies.</p>
             <p xml:id="jwcaval_1301418">'Asleep, old man?' Abdy asked.</p>
@@ -2358,7 +2358,7 @@ side we have more fighting blood. I have some letters of my great-great-grandfat
             <p xml:id="jwcaval_1301739">She left the room, and presently returned with a bundle of old letters, very yellow and frayed, in her hand.</p>
             <p xml:id="jwcaval_1301740">Oh, are they not old?' she laughed, sitting down upon the rug and untying the string. 'What is this? Oh, listen!</p>
             <q>
-              <text xml:id="jwcaval_12021">
+              <q><floatingText xml:id="jwcaval_12021">
                 <body xml:id="jwcaval_12020">
                   <div xml:id="jwcaval_333" type="letter">
                     <opener>
@@ -2437,11 +2437,11 @@ embroider'd with gold, and a guard over the Head chac'd &amp; water-gilt, etc</c
                     </closer>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <p xml:id="jwcaval_1301742">Here is another:</p>
             <q>
-              <text xml:id="jwcaval_12023">
+              <q><floatingText xml:id="jwcaval_12023">
                 <body xml:id="jwcaval_12022">
                   <div xml:id="jwcaval_334" type="letter">
                     <opener>
@@ -2454,13 +2454,13 @@ embroider'd with gold, and a guard over the Head chac'd &amp; water-gilt, etc</c
                     </closer>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <p xml:id="jwcaval_1301745">"This place is in Surrey."</p>
             <p xml:id="jwcaval_1301746">'It is very good writing,' the Princess laughed, 'but the spelling is queer, and half the words abbreviated.'</p>
             <p xml:id="jwcaval_1301747">'I dare say he could fight,' Dick said, with great contempt on the subject of spelling. 'Go on.'</p>
             <q>
-              <text xml:id="jwcaval_12025">
+              <q><floatingText xml:id="jwcaval_12025">
                 <body xml:id="jwcaval_12024">
                   <div xml:id="jwcaval_335" type="letter">
                     <opener>
@@ -2483,13 +2483,13 @@ good-natured gentleman—it was he that reviewed me on Blackheath
 when I was in Sir F. Cope's regiment." <ref target="#jwcavaln1">*</ref><note xml:id="jwcavaln1" n="*" place="foot" resp="#auth">Cope's Foot.</note></p>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <p xml:id="jwcaval_1301753">'The next two letters,' observed the Princess, as she paused and scanned them carefully, ' are from my great-great-grandfather.'</p>
             <p xml:id="jwcaval_1301754">'Very likely—go on'—that was what Dick usually said when his Princess was talking—'go on.'</p>
             <pb xml:id="jwcaval_1301755" n="166     CAVALRY LIFE"/>
             <q>
-              <text xml:id="jwcaval_12027">
+              <q><floatingText xml:id="jwcaval_12027">
                 <body xml:id="jwcaval_12026">
                   <div xml:id="jwcaval_337" type="letter">
                     <opener>
@@ -2511,7 +2511,7 @@ when I was in Sir F. Cope's regiment." <ref target="#jwcavaln1">*</ref><note xml
                     <p xml:id="jwcaval_1301761">'"My duty to my mother, etc."</p>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <p xml:id="jwcaval_1301762">'How strange to read all those little tender private details written nearly a hundred-and-twenty years ago,' said the Princess dreamily. ' I wonder what your letters will read like a hundred-and-twenty years hence, Dick?'</p>
             <p xml:id="jwcaval_1301763">'Or yours?'</p>
@@ -2519,7 +2519,7 @@ when I was in Sir F. Cope's regiment." <ref target="#jwcavaln1">*</ref><note xml
             <p xml:id="jwcaval_1301765">'Why, do I not pay my Princess homage enough?' he asked tenderly.</p>
             <p xml:id="jwcaval_1301766">'Too much, Dick,' with a quick sigh. 'Well, do you care to hear any more—I believe there is some account of an engagement in one. Yes, here it is:</p>
             <q>
-              <text xml:id="jwcaval_12029">
+              <q><floatingText xml:id="jwcaval_12029">
                 <body xml:id="jwcaval_12028">
                   <div xml:id="jwcaval_339" type="letter">
                     <opener>
@@ -2538,7 +2538,7 @@ when I was in Sir F. Cope's regiment." <ref target="#jwcavaln1">*</ref><note xml
 yourself."</p>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <p xml:id="jwcaval_1301771">'What battle would that be, Dick?—Minden?'<ref target="#jwcavaln2">*</ref><note xml:id="jwcavaln2" n="*" place="foot" resp="#auth">The Battle of Villenhausen, July 16, 1761.</note></p>
             <p xml:id="jwcaval_1301772">'I believe Minden was in 1759. It must have been a pretty sharp engagement—how many did the French lose?'</p>
@@ -3024,7 +3024,7 @@ taken leave of his senses.</p>
               </q>
               <p xml:id="jwcaval_1302184">Eliot knew its purport before he opened it. It ran:</p>
               <q>
-                <text xml:id="jwcaval_12031">
+                <q><floatingText xml:id="jwcaval_12031">
                   <body xml:id="jwcaval_12030">
                     <div xml:id="jwcaval_341" type="letter">
                       <opener>
@@ -3037,7 +3037,7 @@ taken leave of his senses.</p>
                       </closer>
                     </div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="jwcaval_1302186">That was the end of it. He put the note in his pocket, and asked Cardella presently to go up to his room:</p>
               <p xml:id="jwcaval_1302187">' I've something to show you.'</p>

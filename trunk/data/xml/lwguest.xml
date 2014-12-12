@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lwguest_1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lwguest_1205">
   <teiHeader xml:id="lwguest1201"><fileDesc>
       <titleStmt>
         <title>The One Good Guest, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The One Good
@@ -96,19 +96,19 @@ text.</p>
       </titlePage>
       <pb xml:id="lwguest_1307" n="[ii]"/>
       <div xml:id="lwguest_000" type="copyright">
-        <figure><graphic url="ENTITY_lwguestcr" rend="inline"/>
+        <figure><graphic url="lwguestcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Walford's <hi rend="italic">The
 One Good Guest</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="lwguest_1308" n="[iii]"/>
-      <div xml:id="lwguest_001" type="table of contents">
-        <figure><graphic url="ENTITY_lwguesttc1" rend="inline"/>
+      <div xml:id="lwguest_001" type="table_of_contents">
+        <figure><graphic url="lwguesttc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Walford's <hi rend="italic">The
 One Good Guest</hi>.</figDesc>
         </figure>
         <pb xml:id="lwguest_1309" n="iv"/>
-        <figure><graphic url="ENTITY_lwguesttc2" rend="inline"/>
+        <figure><graphic url="lwguesttc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Walford's <hi rend="italic">The
 One Good Guest</hi>.</figDesc>
         </figure>

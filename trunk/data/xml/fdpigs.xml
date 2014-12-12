@@ -1,11 +1,11 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fdpigs_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fdpigs_1201">
   <teiHeader xml:id="fdpigs1202"><fileDesc>
       <titleStmt>
         <title>Pigs in Clover, an electronic edition</title>
         <author><name><choice><sic><name type="person">Frank Danby</name></sic><reg>Frankau, Julia, 1864-1916</reg></choice></name></author>
       </titleStmt>
       <extent>750Kb</extent>
-      <publicationStmt><pubPlace>Atlanta, Georgia</pubPlace><publisher>Emory University, Lewis H. Beck Center</publisher><date>2007</date><availability>
+      <publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2007</date><availability>
           <p xml:id="fdpigs_1301">© 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit,or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:
 <address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p>
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/171tx</idno></publicationStmt>
@@ -15,7 +15,7 @@
           <name>Sheila T.Cavanagh</name>
           <name>Charles D.Spornick</name>
           <resp> Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title> Pigs in Clover</title>. <pubPlace> London</pubPlace>: <publisher>William Heinemann</publisher>, <date>1903</date></bibl>
@@ -61,21 +61,21 @@
     </profileDesc><revisionDesc><change><date>2007-June-13</date><label> Encoder.</label><name>Shruthi Vissa, </name> XML tags inserted are in compliance with TEI guidelines.</change></revisionDesc></teiHeader>
   <text xml:id="fdpigs_1302873">
     <front xml:id="fdpigs_1204">
-      <div xml:id="fdpigs_cover" type="front covers">
-        <figure><graphic url="ENTITY_fdpigsfrontcover" rend="inline"/>
+      <div xml:id="fdpigs_cover" type="front_covers">
+        <figure><graphic url="fdpigsfrontcover.jpg" rend="inline"/>
           <figDesc>Front cover of Danby's "Pigs in Clover"</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_fdpigsspine" rend="inline"/>
+        <figure><graphic url="fdpigsspine.jpg" rend="inline"/>
           <figDesc>Spine of Danby's "Pigs in Clover"</figDesc>
         </figure>
       </div>
       <pb xml:id="fdpigs_1305"/>
       <div xml:id="fdpigs_100" type="Advert">
-        <figure><graphic url="ENTITY_fdpigsfm1" rend="inline"/>
+        <figure><graphic url="fdpigsfm1.jpg" rend="inline"/>
           <figDesc>Advert included in the front of Danby's "Pigs in Clover"</figDesc>
         </figure>
         <pb xml:id="fdpigs_1306"/>
-        <figure><graphic url="ENTITY_fdpigsfm2" rend="inline"/>
+        <figure><graphic url="fdpigsfm2.jpg" rend="inline"/>
           <figDesc>Advert included in the front of Danby's "Pigs in Clover"</figDesc>
         </figure>
       </div>
@@ -87,7 +87,7 @@
       </titlePage>
       <pb xml:id="fdpigs_1309"/>
       <div xml:id="fdpigs_0101" type="Advert">
-        <figure><graphic url="ENTITY_fdpigsfm5" rend="inline"/>
+        <figure><graphic url="fdpigsfm5.jpg" rend="inline"/>
           <figDesc>Advert included in the front of Danby's "Pigs in Clover"</figDesc>
         </figure>
       </div>
@@ -119,7 +119,7 @@ Author of "Dr. Phillips: a Maida Vale Idyll", "A Babe in Bohemia," etc.</byline>
       </titlePage>
       <pb xml:id="fdpigs_13013"/>
       <div xml:id="fdpigs_copyright" type="copyright">
-        <figure><graphic url="ENTITY_fdpigscopyright" rend="inline"/>
+        <figure><graphic url="fdpigscopyright.jpg" rend="inline"/>
           <figDesc>Copyright page of Danby's "Pigs in Clover"</figDesc>
         </figure>
       </div>

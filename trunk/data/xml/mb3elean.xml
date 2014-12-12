@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb3elean_0000">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb3elean_0000">
   <teiHeader xml:id="mb3elean0001"><fileDesc>
       <titleStmt>
         <title>Eleanor's Victory, volume III, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Eleanor's Victory, volume
@@ -85,7 +85,7 @@ added by the encoder and do not appear in the original text.</p>
     <front xml:id="mb3elean_0003">
       <pb xml:id="mb3elean_1305" n="[1]"/>
       <div xml:id="mb3elean_000" type="paratext">
-        <figure><graphic url="ENTITY_mb3eleanfm1" rend="inline"/>
+        <figure><graphic url="mb3eleanfm1.jpg" rend="inline"/>
           <figDesc>Inscription in the third volume of Braddon's <title rend="italic">Eleanor's Victory</title>.</figDesc>
         </figure>
       </div>
@@ -113,17 +113,17 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="mb3elean_13010" n="[iv]"/>
       <div xml:id="mb3elean_001" type="copyright">
-        <figure><graphic url="ENTITY_mb3eleancr" rend="inline"/>
+        <figure><graphic url="mb3eleancr.jpg" rend="inline"/>
           <figDesc>Copyright information for the third volume of Braddon's <hi rend="italic">Eleanor's Victory</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="mb3elean_13011" n="[v]"/>
-      <div xml:id="mb3elean_003" type="table of contents">
-        <figure><graphic url="ENTITY_mb3eleantc1" rend="inline"/>
+      <div xml:id="mb3elean_003" type="table_of_contents">
+        <figure><graphic url="mb3eleantc1.jpg" rend="inline"/>
           <figDesc>Table of contents for the third volume of Braddon's <title rend="italic">Eleanor's Victory</title>.</figDesc>
         </figure>
         <pb xml:id="mb3elean_13012" n="vi CONTENTS."/>
-        <figure><graphic url="ENTITY_mb3eleantc2" rend="inline"/>
+        <figure><graphic url="mb3eleantc2.jpg" rend="inline"/>
           <figDesc>Table of contents for the third volume of Braddon's <title rend="italic">Eleanor's Victory</title>.</figDesc>
         </figure>
       </div>
@@ -758,7 +758,7 @@ go away. She waited, with her hands clasped upon her heart; thinking of her triu
         <p xml:id="mb3elean_130695">The letter written by the old man to his three nieces was read aloud by Miss Sarah in the presence of the eager assembly. Amongst all those anxious listeners there was no one who listened more intently than Gilbert Monckton.</p>
         <p xml:id="mb3elean_130696">Maurice de Crespigny's letter was not a long one.</p>
         <q>
-          <text xml:id="mb3elean_130703">
+          <q><floatingText xml:id="mb3elean_130703">
             <body xml:id="mb3elean_130702">
               <opener>
                 <salute>"MY DEAR NIECES—SARAH, LAVINIA, AND ELLEN,—</salute>
@@ -774,7 +774,7 @@ go away. She waited, with her hands clasped upon her heart; thinking of her triu
                 <dateline>"<name rend="italic" type="place">Woodlands</name>, <date rend="italic">February 20th</date>."</dateline>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb3elean_130705">This was the old man's letter. There was not <pb xml:id="mb3elean_130704" n="137 DESERTED."/>one syllable of its contents which in any way disagreed with the wording of the will.</p>
         <p xml:id="mb3elean_130706">Launcelot Darrell drew a long breath; and his mother, sitting close to him, with her hand in his, could feel the clammy coldness of his fingers, and hear the loud thumping of his heart against his breast.</p>
@@ -852,7 +852,7 @@ go away. She waited, with her hands clasped upon her heart; thinking of her triu
         <p xml:id="mb3elean_130784">"He left a letter, ma'am. It's on the mantelpiece in the study."</p>
         <p xml:id="mb3elean_130785">Eleanor went to her husband's room with her heart beating high, and her cheeks flushed with indignation against him for the slight he had put upon her. Yes; there was the letter, sealed with his signet-ring. He was not generally in the habit of sealing his letters, so he must have looked upon this as one of some importance. Mrs. Monckton tore open the envelope. She turned pale as she read the first few lines of the letter. It was written over two sheets of note paper, and began thus:—</p>
         <q>
-          <text xml:id="mb3elean_130790">
+          <q><floatingText xml:id="mb3elean_130790">
             <body xml:id="mb3elean_130789">
               <opener>
                 <salute>"ELEANOR,—</salute>
@@ -860,7 +860,7 @@ go away. She waited, with her hands clasped upon her heart; thinking of her triu
               <p xml:id="mb3elean_130787">"When I asked you to be my wife I told you that in my early youth I had been deceived by a woman whom I loved very dearly, though not as dearly as I have since loved you. I told you this, and I implored you to remember my<pb xml:id="mb3elean_130786" n="151 GILBERT'S LETTER."/>blighted youth, and to have pity upon me. I entreated you to spare me the anguish of a second betrayal, a second awakening from my dream of happiness.</p>
               <p xml:id="mb3elean_130788">"Surely, if you had not been the most cruel of women, you would have been touched by the knowledge that I had already suffered so bitterly from a woman's treachery, and you would have had mercy upon me. But you had no mercy. It suited you to come back to this neighbourhood, to be near your former lover, Launcelot Darrell."</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb3elean_130791">The letter dropped from Eleanor's hands as she read these words.</p>
         <p xml:id="mb3elean_130792">"My former lover!" she cried; "my lover, Launcelot Darrell! Can my husband think that? <hi rend="italic">Can</hi> he think that I ever loved Launcelot Darrell?"</p>
@@ -868,7 +868,7 @@ go away. She waited, with her hands clasped upon her heart; thinking of her triu
         <p xml:id="mb3elean_130795">"How could he write such a letter?" she exclaimed indignantly. "How could he think such cruel things of me after I had told him the <pb xml:id="mb3elean_130794" n="152 ELEANOR'S VICTORY."/>truth—after I had revealed the secret of my life?"</p>
         <p xml:id="mb3elean_130796">She went on with the letter:—</p>
         <q>
-          <text xml:id="mb3elean_130806">
+          <q><floatingText xml:id="mb3elean_130806">
             <body xml:id="mb3elean_130805">
               <p xml:id="mb3elean_130797">"From the hour of our return to Tolldale, Eleanor," wrote Gilbert Monckton, " I knew the truth—the hard and cruel truth—very difficult for a man to believe, when he has built up his life and mapped out a happy future under the influence of a delusion which leaves him desolate when it melts away. I knew the worst. I. watched you as a man only watches the woman upon whose truth his every hope depends, and I saw that you still loved Launcelot Darrell. By a hundred evidences, small in themselves, but damning when massed together, you betrayed your secret. You had made a mercenary marriage, looking to worldly advantages to counterbalance your sacrifice of feeling; and you found too late that the sacrifice was too hard for you to bear.</p>
               <p xml:id="mb3elean_130798">"I watched you day by day, and hour by hour; and I saw that as the time for Laura's marriage approached, you grew hourly more unhappy, more restless, more impatient and capricious in your manner towards Launcelot.</p>
@@ -881,7 +881,7 @@ go away. She waited, with her hands clasped upon her heart; thinking of her triu
                 <signed>"<name type="person">GILBERT MONCKTON</name>."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb3elean_130807">This was the letter which the lawyer had written to his young wife. Its contents were like a thunderbolt in the shock which they caused to Eleanor's senses. She sat for a long time reading it over and over again. For the first time since her marriage she put aside the thought of her revenge, and began to think seriously of something else.</p>
         <pb xml:id="mb3elean_130808" n="155 GILBERT'S LETTER."/>
@@ -925,14 +925,14 @@ indignation—yet.</p>
         <p xml:id="mb3elean_130842">You see, this young lady's nature was as un-<pb xml:id="mb3elean_130841" n="162 ELEANOR'S VICTORY."/>disciplined as it had been in her girlhood, when she flung herself on her knees in the little Parisian chamber to take an oath of vengeance against her father's destroyer. She had not yet learnt to submit. She had not yet learnt the most sublime lesson that the Gospel teaches, to suffer unmerited wrong, and "take it patiently."</p>
         <p xml:id="mb3elean_130843">The letter she had written to Gilbert Monckton was very brief.</p>
         <q>
-          <text xml:id="mb3elean_130847">
+          <q><floatingText xml:id="mb3elean_130847">
             <body xml:id="mb3elean_130846">
               <p xml:id="mb3elean_130845">"Gilbert," she wrote, "you have most cruelly wronged me, and I cannot doubt that the day will come in which you will know how baseless your suspicions have been. Every word that I uttered in Mr. de Crespigny's house upon the night of his death was true. I am quite powerless to prove my truth, and I cannot be content to see Launcelot Darrell triumph. The mystery of the lost will is more than I can comprehend, but I declare that it was in my possession five minutes before I met you in the garden. If ever that will should be found, my justification will be found with it. I look to you to watch my interests in this matter, but I am quite incapable of remaining an inmate of your house while you think me the base creature I should be if my <pb xml:id="mb3elean_130844" n="163 GILBERT'S LETTER."/>accusations against Launcelot Darrell were in the slightest degree false. I will never return to Tolldale until ray truth has been proved. You need not fear that I will do anything to bring discredit upon your name. I go out into the world to get my own living, as I have done before.</p>
               <closer>
                 <signed>"<name type="person">ELEANOR MONCKTON</name>."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb3elean_130848">This letter expressed very little of the indignation which filled Eleanor's breast. Her pride revolted against the outrage which her husband had inflicted upon her; and she suffered all the more acutely because beneath her apparent indifference there lurked, in the innermost recesses of her heart, a true and pure affection for this cruel Gilbert Monckton, whose causeless suspicions had so deeply wounded her.</p>
         <p xml:id="mb3elean_130849">In proportion to the strength of her love was the force of her indignation, and she went away from Tolldale with angry thoughts raging in her breast, and buoying her up with a factitious courage.</p>
@@ -1149,7 +1149,7 @@ indignation—yet.</p>
         <pb xml:id="mb3elean_1301107" n="233 VERY LONELY."/>
         <p xml:id="mb3elean_1301108">All this time she was quite ignorant of the appearance of an advertisement which had been, repeated at the top of the second column of the " Times" supplement every day for nearly a month, and about which idle people hazarded all manner of conjectures—</p>
         <q>
-          <text xml:id="mb3elean_1301111">
+          <q><floatingText xml:id="mb3elean_1301111">
             <body xml:id="mb3elean_1301110">
               <opener>
                 <salute>ELEANOR,</salute>
@@ -1159,7 +1159,7 @@ indignation—yet.</p>
                 <signed> G.M.</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb3elean_1301112">Major Lennard was in the habit of seeing the " Times " every day at Galignani's; but, as he was not a very acute observer or original thinker, he took no notice of the repetition of this advertisement beyond an occasional " By Jove! Haw! that poor dayv'l's still advertising for El'ner!" nor did he ever make any allusion to the circumstance in his domestic circle.</p>
         <p xml:id="mb3elean_1301113">"So Eleanor hugged her sorrows secretly in the gayest city of the world, while Gilbert Monckton was hurrying hither and thither, and breaking his heart about his lost wife.</p>
@@ -1469,21 +1469,21 @@ The snake had only been scotched after all. It reared its head at the sound of t
       </div>
       <pb xml:id="mb3elean_1301451"/>
       <div xml:id="mb3elean_077" type="adverts">
-        <figure><graphic url="ENTITY_mb3eleanad1" rend="inline"/>
+        <figure><graphic url="mb3eleanad1.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of the third volume of
 Braddons' <hi rend="italic">Eleanor's Victory</hi>.</figDesc>
         </figure>
         <pb xml:id="mb3elean_1301452"/>
-        <figure><graphic url="ENTITY_mb3eleanad2" rend="inline"/>
+        <figure><graphic url="mb3eleanad2.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of the third volume of
 Braddons' <hi rend="italic">Eleanor's Victory</hi>.</figDesc>
         </figure>
         <pb xml:id="mb3elean_1301453"/>
-        <figure><graphic url="ENTITY_mb3eleanad3" rend="inline"/>
+        <figure><graphic url="mb3eleanad3.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of the third volume of
 Braddons' <hi rend="italic">Eleanor's Victory</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_mb3eleanad4" rend="inline"/>
+        <figure><graphic url="mb3eleanad4.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of the third volume of
 Braddons' <hi rend="italic">Eleanor's Victory</hi>.</figDesc>
         </figure>

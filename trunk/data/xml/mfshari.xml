@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mfshari_12011">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mfshari_12011">
   <teiHeader xml:id="mfshari1201"><fileDesc>
       <titleStmt>
         <title>Sharing Her Crime, an electronic edition</title>
@@ -16,7 +16,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Sharing Her Crime
@@ -86,7 +86,7 @@ added by the encoder and do not appear in the original text.</p>
     <front xml:id="mfshari_1202">
       <pb xml:id="mfshari_1305" n="[ii]"/>
       <div xml:id="mfshari_0001" type="advert">
-        <figure><graphic url="ENTITY_mfshariad" rend="inline"/>
+        <figure><graphic url="mfshariad.jpg" rend="inline"/>
           <figDesc>An image of an advertisement, "Popular Novels by May Agnes
 Fleming" in the front of <title><hi rend="italic">Sharing Her Crime</hi></title>.</figDesc>
         </figure>
@@ -117,19 +117,19 @@ ETC. ETC</byline>
       </titlePage>
       <pb xml:id="mfshari_1308" n="[iv]"/>
       <div xml:id="mfshari_0002" type="copyright">
-        <figure><graphic url="ENTITY_mfsharicr" rend="inline"/>
+        <figure><graphic url="mfsharicr.jpg" rend="inline"/>
           <figDesc>Copyright page for Fleming's <title>Sharing Her
 Crime</title></figDesc>
         </figure>
       </div>
       <pb xml:id="mfshari_1309" n="v"/>
-      <div xml:id="mfshari_0003" type="table of contents">
-        <figure><graphic url="ENTITY_mfsharitc1" rend="inline"/>
+      <div xml:id="mfshari_0003" type="table_of_contents">
+        <figure><graphic url="mfsharitc1.jpg" rend="inline"/>
           <figDesc>The table of contents for Fleming's <title><hi rend="italic">Sharing Her
 Crime</hi></title>.</figDesc>
         </figure>
         <pb xml:id="mfshari_13010" n="vi"/>
-        <figure><graphic url="ENTITY_mfsharitc2" rend="inline"/>
+        <figure><graphic url="mfsharitc2.jpg" rend="inline"/>
           <figDesc>The table of contents, continued, for Fleming's
 	  <title><hi rend="italic">Sharing Her
 Crime</hi></title>.</figDesc>
@@ -1597,7 +1597,7 @@ Placards were posted up, and rewards offered; the police were put upon her track
         <p xml:id="mfshari_1301128">One day, about three weeks after her flight, the postman brought a letter for Mrs. Gower. One glance at the superscription, and with a cry of joy she tore it open,
 <pb n="137 THE MOONLIGHT FLITTING." pages="137" facs="mfshari137"/>
 for it was in the light, careless hand of Gipsy. It ran as follows:
-<q><text xml:id="mfshari_1204"><body xml:id="mfshari_1203"><div xml:id="mfshari_0137" type="letter"><salute>"MY DEAR, DARLING
+<q><floatingText xml:id="mfshari_1204"><body xml:id="mfshari_1203"><div xml:id="mfshari_0137" type="letter"><salute>"MY DEAR, DARLING
 AUNTY:--</salute><p xml:id="mfshari_1301127">I suppose you have had great times up at Sunset
 Hall since I made a moonlight flitting of it. I wish I had been there
 to see the fun. I suppose Guardy stamped and roared, and blew up
@@ -1611,7 +1611,7 @@ fear it might bring on the gout, and tell him not to keep searching
 for me, for if he hunts till he's black in the face he won't find
 me. Remember me to Aunt Liz, and Louis, and Celeste, and--and <hi rend="italic">Archie</hi>. Tell Archie not to fall in love with
 anybody else; if he does he may look out for a squall from your own
-little</p><signed> GIPSY."</signed></div></body></text></q></p>
+little</p><signed> GIPSY."</signed></div></body></floatingText></q></p>
         <p xml:id="mfshari_1301129">This characteristic letter, instead of comforting the family, plunged them into still deeper trouble on her account. Mrs. Gower wept for her darling unceasingly, and would not be comforted; Lizzie sighed and yawned, and lay on her lounge from morning till night, looking drearier than ever; and the servants went in silence and sadness about their daily business, heaving a sigh and shedding a tear over every memento that recalled poor Gipsy. Now that she was gone they found how dearly they loved her, in spite of all the scrapes and troubles she had ever cost them.</p>
         <p xml:id="mfshari_1301131">A dull, heavy, stagnant silence hung over the mansion from morning till night. There was no more banging of doors, and flying in and out, and up and down
 <pb xml:id="mfshari_1301130" n="138 THE MOONLIGHT FLITTING."/>
@@ -4027,11 +4027,11 @@ of an hour, when the door was flung open, and Jupiter rushed in to announce "dat
         <p xml:id="mfshari_1302941">So says, the squire opened the letter and began to read. And as he read, his eyes began to protrude, till they threatened to shoot from his head altogether. The letter ran as follows:</p>
         <pb xml:id="mfshari_1302942" n="343 THE DEATH-BED CONFESSION."/>
         <p xml:id="mfshari_1302944">
-          <q>"<text xml:id="mfshari_1206"><body xml:id="mfshari_1205"><salute>MAGNUS ERLISTON: </salute><p xml:id="mfshari_1302943">Come to me
+          <q>"<floatingText xml:id="mfshari_1206"><body xml:id="mfshari_1205"><salute>MAGNUS ERLISTON: </salute><p xml:id="mfshari_1302943">Come to me
 immediately--am dying. I have something to tell you of the utmost
 importance, and I cannot die with it on my conscience. Above all
 things, do not, for your life, breathe a word of this to
-Dr. Wiseman. Come instantly, or you may repent it. </p><signed>MADGE ORANMORE.</signed></body></text>"</q>
+Dr. Wiseman. Come instantly, or you may repent it. </p><signed>MADGE ORANMORE.</signed></body></floatingText>"</q>
         </p>
         <p xml:id="mfshari_1302945">"Now, what in the name of Beelzebub does the woman mean?" exclaimed the squire, as he finished reading this. "How does she expect a man to turn out on a December night, with the gout in his legs? I say, youngster, do you know who sent you with this precious letter?"</p>
         <p xml:id="mfshari_1302946">"Yes, sir; my mistress, Mrs. Oranmore."</p>
@@ -4255,9 +4255,9 @@ was wrapped in?" inquired Mrs. Gower, without giving her time to answer Gipsy's 
         <p xml:id="mfshari_1303124">For reply, Mrs. Gower briefly narrated what had been told her by Mrs. Donne. The surprise of Gipsy may be imagined, but her surprise scarcely equaled her pleasure.</p>
         <p xml:id="mfshari_1303125">"Thank God!" she fervently exclaimed, as Mrs. Gower ceased, "then I have <hi rend="italic">not</hi> married the murderer of my mother--that thought would have rendered me wretched to my dying day. My mother, then, may be living yet, for all you know."</p>
         <p xml:id="mfshari_1303128">In her exultation Gipsy first rode over to tell Celeste, then coming home she seated herself and wrote the following letter to Louis:
-<pb n="363 ANOTHER SURPRISE." pages="363" facs="mfshari363"/><q><text xml:id="mfshari_1208"><body xml:id="mfshari_1207"><dateline>"SUNSET HALL, ST. MARK'S,<lb/>
+<pb n="363 ANOTHER SURPRISE." pages="363" facs="mfshari363"/><q><floatingText xml:id="mfshari_1208"><body xml:id="mfshari_1207"><dateline>"SUNSET HALL, ST. MARK'S,<lb/>
 December 23, 18--. </dateline><salute>"DEAR LOUIS: </salute><p xml:id="mfshari_1303127">In my last I told you I was the child of your Aunt Esther, and Alfred Oranmore; since then I have discovered we were mistaken. My father and yours, Louis, were the same--who my mother was, I know not; but Aunty Gower has shown me a likeness found on my father's neck when dead, representing a young and lovely girl, who must have been my mother; for though the picture is fair, and I am dark, yet they say they can trace a strong resemblance between us. It seems I was taken away by the nurse the night of my birth, and left on the shore, where aunty found me. What has become of their infant is yet unknown, but it it may be it, too, was saved, and will yet be found. How singularly things are turning out! Who would ever think we were brother and sister? Do hasten home, dear Louis, more hearts than one are longing for your coming. I have a thousand things yet to tell you, but you know I hate writing, so I will wait until I see you.</p><signed>Your affectionate <hi rend="italic">sister</hi>,
-<name>GIPSY."</name></signed></body></text></q></p>
+<name>GIPSY."</name></signed></body></floatingText></q></p>
       </div>
       <pb n="364 THE HEIRESS." pages="364" facs="mfshari364"/>
       <div xml:id="mfshari_0041" n="38" type="chapter">

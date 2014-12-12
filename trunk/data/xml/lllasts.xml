@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lllasts_12039">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lllasts_12039">
   <teiHeader xml:id="lllasts1201"><fileDesc>
       <titleStmt>
         <title>The Last Stroke, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Last
@@ -79,11 +79,11 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="lllasts_12038">
     <front xml:id="lllasts_1202">
       <div xml:id="lllasts_000" type="covers">
-        <figure><graphic url="ENTITY_lllastsfrontcover" rend="inline"/>
+        <figure><graphic url="lllastsfrontcover.jpg" rend="inline"/>
           <figDesc>The front cover of Lynch's <hi rend="italic">The Last
     Stroke</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_lllastsbackcover" rend="inline"/>
+        <figure><graphic url="lllastsbackcover.jpg" rend="inline"/>
           <figDesc>The back cover of Lynch's <hi rend="italic">The Last
     Stroke</hi>.</figDesc>
         </figure>
@@ -111,18 +111,18 @@ added by the encoder and do not appear in the original text.</p>
         </docImprint>
       </titlePage>
       <pb xml:id="lllasts_1309" n="v"/>
-      <div xml:id="lllasts_tc001" type="table of contents">
-        <figure><graphic url="ENTITY_lllaststc1" rend="inline"/>
+      <div xml:id="lllasts_tc001" type="table_of_contents">
+        <figure><graphic url="lllaststc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Lynch's <hi rend="italic">The Last
     Stroke</hi>.</figDesc>
         </figure>
         <pb xml:id="lllasts_13010" n="vi"/>
-        <figure><graphic url="ENTITY_lllaststc2" rend="inline"/>
+        <figure><graphic url="lllaststc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Lynch's <hi rend="italic">The Last
     Stroke</hi>.</figDesc>
         </figure>
         <pb xml:id="lllasts_13011" n="vii"/>
-        <figure><graphic url="ENTITY_lllaststc3" rend="inline"/>
+        <figure><graphic url="lllaststc3.jpg" rend="inline"/>
           <figDesc>Table of contents for Lynch's <hi rend="italic">The Last
     Stroke</hi>.</figDesc>
         </figure>
@@ -519,7 +519,7 @@ tions as regarded visitors, and inquiries, had set off, his medicine case carrie
         <p xml:id="lllasts_130349">"Yes,surely he ought to visit her now, really. Just ask her if I may come up, Mrs. Marcy. I--I'm glad you told me of this. Thank you. It will help me."</p>
         <p xml:id="lllasts_130350">Ten minutes later Doctor Barnes was hastening toward the telegraph office, where he sent away this singular and wordy message:</p>
         <q>
-          <text xml:id="lllasts_130353">
+          <q><floatingText xml:id="lllasts_130353">
             <body xml:id="lllasts_130352">
               <div xml:id="lllasts_0041" type="letter">
                 <opener>
@@ -531,7 +531,7 @@ tions as regarded visitors, and inquiries, had set off, his medicine case carrie
                 <signed>"WALTER BARNES."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_130354">"That will fetch him," he mused, as he hastened homeward. "Ferrars never breaks a promise, though I little expected to have to remind him of it within the year."</p>
         <p xml:id="lllasts_130355">"Well," began Brierly, when he entered his own door. "Have you seen her? Was she willing?"</p>
@@ -544,14 +544,14 @@ of her weakness, but she is right in her belief that we should be most secure th
         <p xml:id="lllasts_130361">"It will be the longest three hours I ever passed," he said, and a great sigh broke from his lips.</p>
         <p xml:id="lllasts_130362">But, before the first hour had passed, a boy from the telegraph office handed in a blue envelope, and the doctor hastily broke the seal and read--</p>
         <q>
-          <text xml:id="lllasts_130365">
+          <q><floatingText xml:id="lllasts_130365">
             <body xml:id="lllasts_130364">
               <div xml:id="lllasts_0042" type="letter">
                 <p xml:id="lllasts_130363">"Be with you at 6.20.</p>
                 <signed>"FERRARS."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_130366">When the first suburban train for the evening halted, puffing, at the village station, Doctor Barnes waiting upon the platform, saw a man of medium height and square English build step down from the smoking car and look indifferently about him.</p>
         <p xml:id="lllasts_130368">There was the usual throng of gaping and curious villagers, and some of them heard the stranger say, as
@@ -1154,14 +1154,14 @@ Robert Brierly, and held it toward them. "Witness the thing itself. It bears no 
         <p xml:id="lllasts_130864">A gesture from Brierly cut short his speech. "Read it, both of you," he said, with something like a groan. "And tell me what it means."</p>
         <p xml:id="lllasts_130865">Ferrars drew forth the sheet of note paper and slowly unfolded it. For a moment he scrutinised the page with a frown, and then began to read--</p>
         <q>
-          <text xml:id="lllasts_130870">
+          <q><floatingText xml:id="lllasts_130870">
             <body xml:id="lllasts_130869">
               <div xml:id="lllasts_0101" type="letter"><salute>"Mr. Charles Brierly: </salute><p xml:id="lllasts_130866">I don't know why I should be drawn into your love affair any further, and I have said my last word about your friend, Miss G--. One would think that the proofs you have already had would be more than enough. She is not the first woman, with a pretty face and an innocent way, who has fooled and tricked a man. Why don't you ask her and have it out? You'll find she can scratch as well as the rest of her sex. One word more, when you have had it out with her, beware! Especially if she weeps and forgives you. Remember the 'woman scorned.'</p><p xml:id="lllasts_130868">"Don't write me again. I shall not answer any more questions. And, remember your promise, don't let her
 <pb xml:id="lllasts_130867" n="123 THIS HELPS ME"/>
 dream that you ever heard of me. I shall feel safer. </p><salute>So
 good-bye and good luck.</salute> <signed>Yours,     J. B."</signed></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_130871">Ferrars folded up this strange letter slowly, saying:</p>
         <p xml:id="lllasts_130872">"This document has no date and no post office address." He held it in his hand for a moment in silence, looking at it thoughtfully, then. "I should like to retain this," he said, looking at Brierly, "as one of the documents in the case." And as Brierly silently bowed his assent, he added: "Have you formed an opinion concerning this letter?"</p>
@@ -1379,9 +1379,9 @@ aid being asked, the business of his neighbour became his own.</p>
 been expected, and the moment Robert Brierly found himself alone with Ferrars he drew from his pocket a letter, saying, as he unfolded it with gentle, careful touch:</p>
         <p xml:id="lllasts_1301052">"This letter, Mr. Ferrars, is the last written me by my brother. It was in the city, passing me on the way, before I had arrived here, and I found it, among others, at the office. I have not spoken of it even to the doctor. Read it, please."</p>
         <p xml:id="lllasts_1301057">Ferrars took the letter and read:
-<q><text xml:id="lllasts_1301056"><body xml:id="lllasts_1301055"><div xml:id="lllasts_0131" type="letter"><salute>"MY DEAR ROB.,--</salute><p xml:id="lllasts_1301054">Since writing you, I have found in an old newspaper, quite by accident, something which has almost set my head to spinning. I know what you will say to that, old boy. It brings up something out of the past; something of which I may have to tell you and which should have been told you before. It's the only thing, concerning myself that is, which you do not know as well as I, and if I have not confided this to you, it was because I almost feared to. But then, why try to explain and excuse on paper when we are to meet, please God, so soon. Brother mine, what if that flood tide which comes, they say, to each, once in life, was on its way to you and to me? Well, it shall not separate us, Rob.; not by my will. But stop. I shall grow
+<q><floatingText xml:id="lllasts_1301056"><body xml:id="lllasts_1301055"><div xml:id="lllasts_0131" type="letter"><salute>"MY DEAR ROB.,--</salute><p xml:id="lllasts_1301054">Since writing you, I have found in an old newspaper, quite by accident, something which has almost set my head to spinning. I know what you will say to that, old boy. It brings up something out of the past; something of which I may have to tell you and which should have been told you before. It's the only thing, concerning myself that is, which you do not know as well as I, and if I have not confided this to you, it was because I almost feared to. But then, why try to explain and excuse on paper when we are to meet, please God, so soon. Brother mine, what if that flood tide which comes, they say, to each, once in life, was on its way to you and to me? Well, it shall not separate us, Rob.; not by my will. But stop. I shall grow
 <pb xml:id="lllasts_1301053" n="154 THE LAST STROKE"/>
-positively oracular if I keep on, (no one ever could understand an oracle, you know) and so, till we meet,</p><salute> adieu.</salute><signed>"BROTHER CHARLIE."</signed></div></body></text></q></p>
+positively oracular if I keep on, (no one ever could understand an oracle, you know) and so, till we meet,</p><salute> adieu.</salute><signed>"BROTHER CHARLIE."</signed></div></body></floatingText></q></p>
         <p xml:id="lllasts_1301058">When Ferrars had read this strange missive once, he sat for a moment as if thinking, and then deliberately re-read it slowly, and with here and there a pause; when at last he handed it back to Brierly, he asked:</p>
         <p xml:id="lllasts_1301059">"Do you understand that letter?"</p>
         <p xml:id="lllasts_1301060">"No more than I do the riddle of the sphinx, Ferrars," he leaned forward eagerly as he put a question, and his eyes were apprehensive, though his voice was firm. "Do you connect that letter in any way with my brother's death?"</p>
@@ -1417,7 +1417,7 @@ square of paper contains the thing I want, I fancy," he meditated, as he smoothe
         <p xml:id="lllasts_1301085">The two paragraphs read as follows, the first being  an advertisement, with the usual heading, and in solid <sic>nonpariel</sic> type:--</p>
         <pb xml:id="lllasts_1301086" n="159 A GHOST"/>
         <q>
-          <text xml:id="lllasts_1301089">
+          <q><floatingText xml:id="lllasts_1301089">
             <body xml:id="lllasts_1301088">
               <div xml:id="lllasts_0141" type="letter">
                 <salute>"Charlie: </salute>
@@ -1425,7 +1425,7 @@ square of paper contains the thing I want, I fancy," he meditated, as he smoothe
                 <signed>"M."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301090">The second paragraph was in the form of a would-be facetious editorial paragraph, and ran thus:--</p>
         <q>
@@ -1533,7 +1533,7 @@ between Hilda and Ferrars, whom he had learned to know, and like, and trust. Whe
 <pb xml:id="lllasts_1301179" n="174 THE LAST STROKE"/>
 school, she found this letter awaiting her, "left," Mrs. Marcy said, "by her cousin":</p>
         <q>
-          <text xml:id="lllasts_1301184">
+          <q><floatingText xml:id="lllasts_1301184">
             <body xml:id="lllasts_1301183">
               <div xml:id="lllasts_0142" type="letter">
                 <salute>"DEAR COUSIN,--</salute>
@@ -1543,7 +1543,7 @@ school, she found this letter awaiting her, "left," Mrs. Marcy said, "by her cou
                 <signed>"FERRARS."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb xml:id="lllasts_1301185" n="175"/>
@@ -1716,18 +1716,18 @@ RUTH GLIDDEN.</head>
 grew troublesome, voicing the pros and cons of a case, and seeming to find this an aid to clearness of thought.</p>
         <p xml:id="lllasts_1301329">"It's a most baffling thing," he declared, taking up for the third time a letter in the strong upright hand of Doctor Barnes. "I wonder just what the man meant by penning this," and once more he ran his eye over this paragraph which occurred at the end of a long letter:</p>
         <q>
-          <text xml:id="lllasts_1301332">
+          <q><floatingText xml:id="lllasts_1301332">
             <body xml:id="lllasts_1301331">
               <div xml:id="lllasts_0171" type="letter">
                 <p xml:id="lllasts_1301330">"Mrs. Jamieson has not forgotten you. She asks after you now and then, when we meet, and desires to be remembered to you. She is not looking well, and, I fancy, finds Glenville duller than at first."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301333">"I'll wager she does not think of me any oftener than I of her. And she can't know how ardently I long to stand before her and look into those changeful, blue-green eyes of hers. What strangely handsome eyes they are--And say--Ah! how will those eyes look then, I wonder?"</p>
         <p xml:id="lllasts_1301334">Presently he turns the sheet and reads again:</p>
         <q>
-          <text xml:id="lllasts_1301338">
+          <q><floatingText xml:id="lllasts_1301338">
             <body xml:id="lllasts_1301337">
               <div xml:id="lllasts_0172" type="letter">
                 <p xml:id="lllasts_1301336">"I think you did well to instruct your two men here to make use of, and place confidence in Doran. He's a host in himself. And what do you think of the tramp they have traced to the vicinity of that
@@ -1735,20 +1735,20 @@ grew troublesome, voicing the pros and cons of a case, and seeming to find this 
 boat on the morning of the murder?  He was seen, it appears, by at least three."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301339">"Umph!" laying down the letter. "If you were here, my dear Barnes, I would tell you frankly--I feel just like being brutally frank with some one--that I have no doubt that the tramp is a link--there seems to be so many of them, and all detached--a link--and that he approached the boat in that tramp disguise, after separating from his confederate at some more distant point. Bah! It looks simple enough. Confederate leaves vehicle--or two horses, possibly--they could slip off the saddles and hobble them in a thicket, where they would look, to the passer-by, like a pair of grazing animals, or they might have used a wagon, travelling thus like two innocent bucolics.  Then how plain to me, the assassin goes through the woods, watchfully, like an Indian. The tramp boatman patrols the shore, to signal to the other when the victim  appears; or, should the assassin on shore be unable to creep upon his prey, the assassin in the boat may row boldly near, and, at the signal from the other, telling him there is a clear coast, fire upon the victim. If he is sure of his aim, how easy!  And if seen by the victim, well-'Dead men tell no tales.'"</p>
         <pb xml:id="lllasts_1301340" n="199 RUTH GLIDDEN"/>
         <p xml:id="lllasts_1301341">He muses silently awhile now, puts down the doctor's letter, and takes up the other.</p>
         <p xml:id="lllasts_1301342">"This," he murmurs, "is tantalising." And then he read from a letter, signed "Hilda G--."</p>
         <q>
-          <text xml:id="lllasts_1301345">
+          <q><floatingText xml:id="lllasts_1301345">
             <body xml:id="lllasts_1301344">
               <div xml:id="lllasts_0173" type="letter">
                 <p xml:id="lllasts_1301343">"Mrs. Jamieson begins to complain of the dullness of this place, in spite of the fact that she has had a visit from her husband's brother, a Mr. Carl Jamieson. He did not make a long visit, and I saw but little of him. He is something of a cripple, a sufferer from rheumatism, and just back from the hot springs. I met him but once. He looks and talks like an Englishman, and has a dark eye that betokens, if I am a judge of eyes, a bad temper. I give you these details knowing that all concerning the little blonde lady is of interest to you."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301346">"Of interest!" he muttered. "I should think so! Doubly so, now that there's so little else of interest, or--" He stopped short, and wheeled about in his chair. His office-boy had swung open his door, and was saying:</p>
         <p xml:id="lllasts_1301348">"A lady to see you, sir." And Ferrars arose to confront a visitor, a brunette so tall and lissom, so glowing with the rich hues of health and beauty, so clear of eye, and direct of gaze, that Ferrars could not at
@@ -1764,14 +1764,14 @@ first find his usually obedient tongue, and then she spoke.</p>
         <p xml:id="lllasts_1301356">The letter was marked "immediate," and the handwriting was that of James Myers.</p>
         <p xml:id="lllasts_1301357">With a murmured apology, the detective opened it, and read--</p>
         <q>
-          <text xml:id="lllasts_1301361">
+          <q><floatingText xml:id="lllasts_1301361">
             <body xml:id="lllasts_1301360">
               <div xml:id="lllasts_0174" type="letter"><p xml:id="lllasts_1301359">"MY DEAR FERRARS,--During the day you will no doubt receive a call from Miss Glidden. I cannot dictate your course, but I write this to say that no friend of Brierly's has a better right to the truth--all of it--nor a stronger will and greater power to aid. Of her
 <pb xml:id="lllasts_1301358" n="202 THE LAST STROKE"/>
 ability to keep a secret you can judge when you meet her.</p> <signed>"Yours,<lb/>
 "JAMES MYERS."</signed></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301362">When he had read this letter Ferrars silently proffered it to his visitor, and in silence she accepted and read it.</p>
         <p xml:id="lllasts_1301363">"I was strongly inclined to accede to your request, after, first, asking one question," he said, when she gave the letter back, still without speaking. "And now, having read this, I am quite ready to tell you what I can."</p>
@@ -1871,7 +1871,7 @@ the tired merry-makers she knocked at Ruth's door to announce her return.</p>
         <p xml:id="lllasts_1301443">There was no response, and she entered her own rooms where she found, conspicuously placed, a note. It was in a strong masculine hand, and she opened it quickly, looking first at the name at the bottom of the sheet. It was F. Grant.</p>
         <p xml:id="lllasts_1301444">She caught her breath, and sat down to read, wondering still and her heart beating strangely.</p>
         <q>
-          <text xml:id="lllasts_1301448">
+          <q><floatingText xml:id="lllasts_1301448">
             <body xml:id="lllasts_1301447">
               <div xml:id="lllasts_0175" type="letter">
                 <salute>"DEAR MADAM"--</salute>
@@ -1882,7 +1882,7 @@ address you? In the hope of seeing you again, at an early date, I am,</p>
                 <signed>"F. GRANT."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301449">An hour later she sent for Doctor Barnes, who came promptly.</p>
         <p xml:id="lllasts_1301450">"Doctor," she began, as soon as he had entered her room, and closed the door. "I won't try to deceive you. I have had twinges of neuralgia to-day, and my bottle is quite empty. But I want, most of all, to hear more about this sudden flitting. They have left me just a line of farewell. Of course I know about poor Mr. Brierly. There's no doubt of his death."</p>
@@ -1910,7 +1910,7 @@ THROUGH THE MAIL</head>
         <p xml:id="lllasts_1301468">This is what it contained:</p>
         <pb xml:id="lllasts_1301469" n="222 THE LAST STROKE"/>
         <q>
-          <text xml:id="lllasts_1301475">
+          <q><floatingText xml:id="lllasts_1301475">
             <body xml:id="lllasts_1301474">
               <div xml:id="lllasts_0191" type="letter">
                 <opener>
@@ -1929,7 +1929,7 @@ trust to hear that which I so much wish to know, upon my arrival in London, and 
                 <signed>"JAS. MYERS."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301476">Wendell Haynes, solicitor, smiled as he read this missive. He had a most vivid remembrance of his first and only visit to America, and of his meeting with James Myers, quite by accident and shortly after his arrival in Chicago, which city had seemed, to the visitor, a more amazing thing than the howling wilderness which he had been in daily expectation of seeing, would have appeared to him.</p>
         <p xml:id="lllasts_1301477">In his efforts to run down a friend from the suburbs, Myers had consulted a hotel register, and seeing the name of the English lawyer, written by its owner just under his eye, he had first looked at the man, and then at the name, and, upon learning that he was an utter stranger to the city, and to the ways of its legal fraternity, he had presented his card.</p>
@@ -1943,7 +1943,7 @@ doing of it; so that when James Myers arrived at Brown's, and put his
 name upon the big register, the following letter was promptly handed
 him across the clerk's desk:</p>
         <q>
-          <text xml:id="lllasts_1301484">
+          <q><floatingText xml:id="lllasts_1301484">
             <body xml:id="lllasts_1301483">
               <div xml:id="lllasts_0192" type="letter">
                 <opener>
@@ -1961,7 +1961,7 @@ will call upon me upon your arrival I will give you all details and addresses so
                 <signed>"W. D. HAYNES."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301485">"You see," said Solicitor Haynes, at the close of an hour's talk with Lawyer Myers, "thus far all is quite clearly traced, and there is no doubt of the rights of the Hugo Paisley heirs--if such are to be found, and if they can prove their heirship."</p>
         <p xml:id="lllasts_1301486">"And the family, here in England, is quite extinct, then?"</p>
@@ -1989,7 +1989,7 @@ with his friend later, hurried back to his hotel, where he found a cablegram awa
         <p xml:id="lllasts_1301506">"Hilda has seen the western tourist. He is watching us, and we will not attempt to sail until he is off the scent.     F."</p>
         <p xml:id="lllasts_1301507">Half an hour later this message went speeding back to New York, and from thence westward:</p>
         <q>
-          <text xml:id="lllasts_1301510">
+          <q><floatingText xml:id="lllasts_1301510">
             <body xml:id="lllasts_1301509">
               <div xml:id="lllasts_0193" type="letter">
                 <opener>
@@ -1998,12 +1998,12 @@ with his friend later, hurried back to his hotel, where he found a cablegram awa
                 <p xml:id="lllasts_1301508">"Case all right; way clear; no claimants."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301511">Which meant precisely what it said.</p>
         <p xml:id="lllasts_1301512">A few days later two letters passed each other in mid-ocean. The one westward-bound read thus:</p>
         <q>
-          <text xml:id="lllasts_1301521">
+          <q><floatingText xml:id="lllasts_1301521">
             <body xml:id="lllasts_1301520">
               <div xml:id="lllasts_0195" type="letter">
                 <salute>"MY DEAR FERRARS,--</salute>
@@ -2019,12 +2019,12 @@ already tabulated and awaiting me. Here they are in the order of your written qu
                 <signed>"JAS. MYERS."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="lllasts_1301522" n="230 THE LAST STROKE"/>
         <p xml:id="lllasts_1301523">The letter which passed this midway was from Ferrars, and contained some information.</p>
         <q>
-          <text xml:id="lllasts_1301533">
+          <q><floatingText xml:id="lllasts_1301533">
             <body xml:id="lllasts_1301532">
               <div xml:id="lllasts_0196" type="letter">
                 <salute>"DEAR SIR AND FRIEND"--it began--</salute>
@@ -2041,11 +2041,11 @@ to her, strange sight, a man came out tucking something into his waistcoat as he
                 <signed>"F. S. FERRARS."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301534">Two days later this letter reached Ferrars.</p>
         <q>
-          <text xml:id="lllasts_1301539">
+          <q><floatingText xml:id="lllasts_1301539">
             <body xml:id="lllasts_1301538">
               <div xml:id="lllasts_0197" type="letter">
                 <opener>
@@ -2064,7 +2064,7 @@ It came through our 'girl,' that is, the young woman who presides in my kitchen;
                 <signed>"SAMUEL DORAN."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301541">When Francis Ferrars had looked long at the picture enclosed in Doran's letter he started, and ejaculated,
 <pb xml:id="lllasts_1301540" n="234 THE LAST STROKE"/>
@@ -2437,7 +2437,7 @@ her brain teeming with plans for their meeting. What had brought him to London j
         <p xml:id="lllasts_1301857">She had been absent since luncheon, and upon her arrival at home
 she found this brief note awaiting her:</p>
         <q>
-          <text xml:id="lllasts_1301861">
+          <q><floatingText xml:id="lllasts_1301861">
             <body xml:id="lllasts_1301860">
               <div xml:id="lllasts_0231" type="letter">
                 <opener>
@@ -2451,7 +2451,7 @@ time only, and with little leisure, I take the liberty of asking if I may call u
                 <signed>"FERRISS GRANT."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301862">It was late when she reached Bloomsbury, and she had little time to dress for dinner and the evening, for she was going out again, but she replied to this note, bidding him come, and assuring him of his welcome at any hour. Then, reluctantly, and with a look of distaste, amounting almost to repugnance upon her face, she began to dress for the evening.</p>
         <p xml:id="lllasts_1301863">When Ferrars reached his rooms, after leaving the café, his lips were set, and his eyes gleamed dangerously, for a little time he paced the floor, and then, impelled by some thought, he looked to see if any letters had arrived during his absence. Yes, there they were, half a dozen of them. He glanced at their superscriptions, and then opened a little perfumed and black-bordered envelope. It was Mrs. Jamieson's reply to his note of the afternoon, and he read it and put it down slowly.</p>
@@ -2461,7 +2461,7 @@ modify my plans; and if, having met this once I shall have the courage, the hard
         <p xml:id="lllasts_1301866">The handwriting was that of Ruth Glidden, and the stationery that
 of a fashionable Piccadilly dressmaker.</p>
         <q>
-          <text xml:id="lllasts_1301869">
+          <q><floatingText xml:id="lllasts_1301869">
             <body xml:id="lllasts_1301868">
               <div xml:id="lllasts_0232" type="letter"><salute>"DEAR MR. F."--so ran the note--</salute><p xml:id="lllasts_1301867">"I am aware that you did not wish us, any of us, to be seen of men
 in London until certain things were accomplished, and I take upon
@@ -2472,7 +2472,7 @@ may, or may not, be of moment to you. At all events, I have eased my
 conscience, and Hilda's, by letting you know. Nothing of any moment
 was said on either side, and no questions were asked. </p> <salute>"Yours penitently,</salute><signed>"RUTH G."</signed></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301870">Over this womanlike note Ferrars wrinkled his brows, and finally smiled.</p>
         <p xml:id="lllasts_1301872">"I had not meant that they should meet until--but pshaw! What does it matter? Everything seems urging me on and shaping my course. So be it! It is
@@ -2520,7 +2520,7 @@ tears fell upon the hands that supported her bowed face.</p>
         <p xml:id="lllasts_1301909">"Let me read the note, dear," he said, unfolding the sheet he had
 held in his hand. "It is very brief and pointed:</p>
         <q>
-          <text xml:id="lllasts_1301912">
+          <q><floatingText xml:id="lllasts_1301912">
             <body xml:id="lllasts_1301911">
               <div xml:id="lllasts_0234" type="letter">
                 <salute>"'DEAR BRIERLY,--</salute>
@@ -2528,7 +2528,7 @@ held in his hand. "It is very brief and pointed:</p>
                 <signed>"'FERRARS.'"</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301913">"Ruth," he spoke softly, "Do you know what that means?"</p>
         <pb xml:id="lllasts_1301914" n="290 THE LAST STROKE"/>
@@ -2559,13 +2559,13 @@ MRS. GASTON LATHAM. </head>
         <p xml:id="lllasts_1301935">Ferrars gave her a sudden look of gratitude. "Thank you for showing me my own brutality," he replied. "I can trust you, and I do thank you; there could have been no one else." And Ruth went back to the inner room smiling a little, as she met her lover's eye.</p>
         <p xml:id="lllasts_1301936">To guard against all emergencies, the detective had left with the inspector a card telling him, and his men, where a telegram would reach him at different hours of the day, and at a quarter past two a message arrived, bearing the signature of the Swiss.</p>
         <q>
-          <text xml:id="lllasts_1301939">
+          <q><floatingText xml:id="lllasts_1301939">
             <body xml:id="lllasts_1301938">
               <div xml:id="lllasts_0241" type="letter">
                 <p xml:id="lllasts_1301937">"Q. H. and a lady on the way to meet you now."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lllasts_1301940">So it ran, and having read it, Ferrars asked:</p>
         <p xml:id="lllasts_1301941">"Is your boy safe, Mr. Haynes? and trusty?"</p>
@@ -2778,36 +2778,36 @@ death, and Ruth was silent a moment, before she answered; the awful scene coming
         <p xml:id="lllasts_1302112">The Gresham Press,<lb/>UNWIN
 BROTHERS,<lb/>WOKING AND LONDON.</p>
       </div>
-      <div xml:id="lllasts_bm002" type="back advertisement">
-        <figure><graphic url="ENTITY_lllastsbm002" rend="inline"/>
+      <div xml:id="lllasts_bm002" type="back_advertisement">
+        <figure><graphic url="lllastsbm002.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Lynch's<hi rend="italic">The Last Stroke</hi>.
 </figDesc>
         </figure>
-        <figure><graphic url="ENTITY_lllastsbm003" rend="inline"/>
+        <figure><graphic url="lllastsbm003.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Lynch's<hi rend="italic">The Last Stroke</hi>.
 </figDesc>
         </figure>
-        <figure><graphic url="ENTITY_lllastsbm004" rend="inline"/>
+        <figure><graphic url="lllastsbm004.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Lynch's<hi rend="italic">The Last Stroke</hi>.
 </figDesc>
         </figure>
-        <figure><graphic url="ENTITY_lllastsbm005" rend="inline"/>
+        <figure><graphic url="lllastsbm005.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Lynch's<hi rend="italic">The Last Stroke</hi>.
 </figDesc>
         </figure>
-        <figure><graphic url="ENTITY_lllastsbm006" rend="inline"/>
+        <figure><graphic url="lllastsbm006.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Lynch's<hi rend="italic">The Last Stroke</hi>.
 </figDesc>
         </figure>
-        <figure><graphic url="ENTITY_lllastsbm007" rend="inline"/>
+        <figure><graphic url="lllastsbm007.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Lynch's<hi rend="italic">The Last Stroke</hi>.
 </figDesc>
         </figure>
-        <figure><graphic url="ENTITY_lllastsbm008" rend="inline"/>
+        <figure><graphic url="lllastsbm008.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Lynch's<hi rend="italic">The Last Stroke</hi>.
 </figDesc>
         </figure>
-        <figure><graphic url="ENTITY_lllastsbm009" rend="inline"/>
+        <figure><graphic url="lllastsbm009.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Lynch's<hi rend="italic">The Last Stroke</hi>.
 </figDesc>
         </figure>

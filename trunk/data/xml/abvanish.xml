@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="abvanish_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="abvanish_1206">
   <teiHeader xml:id="abvanish1201"><fileDesc>
       <titleStmt>
         <title>Vanishing Points, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Vanishing
@@ -132,7 +132,7 @@ Points</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="abvanish_13012"/>
-      <div xml:id="abvanish_002" type="table of contents">
+      <div xml:id="abvanish_002" type="table_of_contents">
         <figure><graphic url="abvanishtc.jpg" rend="inline"/>
           <figDesc>Table of contents for Brown's <hi rend="italic">Vanishing
 Points</hi>.</figDesc>

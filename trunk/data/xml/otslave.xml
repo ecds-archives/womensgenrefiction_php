@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="otslave_1208">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="otslave_1208">
   <teiHeader xml:id="otslave1201"><fileDesc>
       <titleStmt>
         <title>A Slave to Duty and Other Women, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A Slave to Duty and
@@ -79,18 +79,18 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="otslave_1207">
     <front xml:id="otslave_1202">
       <div xml:id="otslave_000" type="covers">
-        <figure><graphic url="ENTITY_otslavefc" rend="inline"/>
+        <figure><graphic url="otslavefc.jpg" rend="inline"/>
           <figDesc>Front cover of Thanet's <hi rend="italic">Slave to Duty
 and Other Women</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_otslavebc" rend="inline"/>
+        <figure><graphic url="otslavebc.jpg" rend="inline"/>
           <figDesc>Back cover of Thanet's <hi rend="italic">Slave to Duty
 and Other Women</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="otslave_1305"/>
       <div xml:id="otslave_001" type="paratext">
-        <figure><graphic url="ENTITY_otslaveins" rend="inline"/>
+        <figure><graphic url="otslaveins.jpg" rend="inline"/>
           <figDesc>Inscription in the front of Thanet's <hi rend="italic">Slave to Duty
 and Other Women</hi>.</figDesc>
         </figure>
@@ -116,14 +116,14 @@ WOMEN</titlePart>
       </titlePage>
       <pb xml:id="otslave_13010"/>
       <div xml:id="otslave_002" type="copyright">
-        <figure><graphic url="ENTITY_otslavecr" rend="inline"/>
+        <figure><graphic url="otslavecr.jpg" rend="inline"/>
           <figDesc>Copyright information for Thanet's <hi rend="italic">Slave to Duty
 and Other Women</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="otslave_13011"/>
-      <div xml:id="otslave_003" type="table of contents">
-        <figure><graphic url="ENTITY_otslavetc" rend="inline"/>
+      <div xml:id="otslave_003" type="table_of_contents">
+        <figure><graphic url="otslavetc.jpg" rend="inline"/>
           <figDesc>Table of contents for Thanet's <hi rend="italic">Slave to Duty
 and Other Women</hi>.</figDesc>
         </figure>
@@ -755,7 +755,7 @@ contest.</p>
         <head>A Problem in Honor</head>
         <p xml:id="otslave_130660">THE doctor's boy caught Miss Conway's surrey in the West End and handed Mrs. Reynolds' note to her. Miss Conway read it. There were only a few lines hastily scratched with a lead pencil on a card and pushed into an envelope. They ran:</p>
         <q>
-          <text xml:id="otslave_1204">
+          <q><floatingText xml:id="otslave_1204">
             <body xml:id="otslave_1203">
               <opener>
                 <salute>"Dear Peggy:—</salute>
@@ -765,7 +765,7 @@ contest.</p>
                 <signed>"ANN."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="otslave_130662">"Tell Mrs. Reynolds I will be there at once, as fast as we can drive," said Miss Conway; and the doctor's boy sped away on his wheel. "To Mr. Wainwright's," she added to the coachman, who touched the horse lightly with the whip.</p>
         <p xml:id="otslave_130664">The coachman was a handsome young Irishman, smartly although soberly dressed in a plum-colored livery exactly matching the lining and body of the carriage. He <pb xml:id="otslave_130663" n="132 A PROBLEM IN HONOR"/>wore no glaring pomp of white doeskin and top boots, but his coat fitted perfectly and his shoes and his linen were speckless.</p>

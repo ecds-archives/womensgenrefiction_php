@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rstair_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rstair_1207">
   <teiHeader xml:id="rstair1201"><fileDesc>
       <titleStmt>
         <title>The Iron Stair, an electronic edition</title>
@@ -23,7 +23,7 @@ text's availability, please contact:
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Iron Stair: A Romance of
@@ -111,7 +111,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="rstair_1307" n="[ii]"/>
       <div xml:id="rstair_000" type="copyright">
-        <figure><graphic url="ENTITY_rstaircr" rend="inline"/>
+        <figure><graphic url="rstaircr.jpg" rend="inline"/>
           <figDesc>Copyright information for Rita's <hi rend="italic">The Iron
 Stair</hi>.</figDesc>
         </figure>
@@ -129,12 +129,12 @@ Stair</hi>.</figDesc>
         </bibl>
       </div>
       <pb xml:id="rstair_1309" n="[v]"/>
-      <div xml:id="rstair_002" type="table of contents">
-        <figure><graphic url="ENTITY_rstairtc1" rend="inline"/>
+      <div xml:id="rstair_002" type="table_of_contents">
+        <figure><graphic url="rstairtc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Rita's <hi rend="italic">The Iron
 Stair</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_rstairtc2" rend="inline"/>
+        <figure><graphic url="rstairtc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Rita's <hi rend="italic">The Iron
 Stair</hi>.</figDesc>
         </figure>
@@ -1670,7 +1670,7 @@ seeing Portland, and you knew--somehow--young Gale is going to Dartmoor."</p>
         <p xml:id="rstair_1301301">Aubrey laughed. "Unlimited cheek, and fascinating outlines are the stock in trade. Shall we go to the smoking-room?"</p>
         <p xml:id="rstair_1301302">There was a general movement. As they left the table a page came up to Aubrey and handed him a letter. He glanced at it carelessly enough. The writing was unknown. Then he looked at the post mark. With a sudden flush, he turned aside, and opened the envelope. Very brief were its contents.</p>
         <q>
-          <text xml:id="rstair_1204">
+          <q><floatingText xml:id="rstair_1204">
             <body xml:id="rstair_1203">
               <div xml:id="rstair_100" type="letter">
                 <opener>
@@ -1685,7 +1685,7 @@ Or have I been too wicked and ungrateful for forgiveness?</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="rstair_1301305">Aubrey crushed up the letter, and thrust it into his pocket. What a child she was, and how apparently changed! How could he have harboured such resentful feelings against her? He felt as if a sudden weight had been removed from his heart. As if a troubled dream had given place to morning's light and glory. He followed his three friends into the smoking-room, and astonished them by a burst of wild spirits, disjointed witticisms.</p>
         <p xml:id="rstair_1301306">No one was more surprised than Joshua Myers.</p>

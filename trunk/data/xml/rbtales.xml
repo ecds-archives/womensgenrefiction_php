@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rbtales_130742">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rbtales_130742">
   <teiHeader><fileDesc>
       <titleStmt>
         <title>Tales for Christmas Eve, an electronic edition</title>
@@ -10,7 +10,7 @@
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/175xr</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Tale for Christmas Eve</title>. <pubPlace>Leipzig</pubPlace>: <publisher>Bernhard Tauchnitz.</publisher>, <date>1872</date>.</bibl>
@@ -76,8 +76,8 @@
       </titlePage>
       <pb xml:id="rbtales_1308"/>
       <pb xml:id="rbtales_1309" n="[4]"/>
-      <div xml:id="rbtales_fm01" type="table of contents">
-        <figure><graphic url="ENTITY_rbtalesfm3" rend="inline"/>
+      <div xml:id="rbtales_fm01" type="table_of_contents">
+        <figure><graphic url="rbtalesfm3.jpg" rend="inline"/>
           <figDesc> Table of contents for Broughton's "Tales for Christmas"</figDesc>
         </figure>
       </div>
@@ -102,7 +102,7 @@
 AND<lb/>
 NOTHING BUT THE TRUTH.</head>
             <q>
-              <text xml:id="rbtales_13029">
+              <q><floatingText xml:id="rbtales_13029">
                 <body xml:id="rbtales_13028">
                   <div xml:id="rbtales_002" type="letter">
                     <head rend="center">MRS. DE WYNT TO MRS. MONTRESOR.</head>
@@ -143,11 +143,11 @@ able smell, or some odious inexplicable noise haunting the reception rooms. Noth
                     <p xml:id="rbtales_13027">"P.S.--I am so sorry I shall not be in town to witness your first raptures, but dear Artie looks so pale and thin and tall after the hooping-cough, that I am sending him off at once to the sea, and as I cannot bear the child out of my sight, I am going into banishment likewise."</p>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <pb xml:id="rbtales_13030" n="15 AND NOTHING BUT THE TRUTH."/>
             <q>
-              <text xml:id="rbtales_13035">
+              <q><floatingText xml:id="rbtales_13035">
                 <body xml:id="rbtales_13034">
                   <div xml:id="rbtales_003" type="letter">
                     <head rend="center">MRS. MONTRESOR TO MRS. DE WYNT.</head>
@@ -175,11 +175,11 @@ nowadays make themselves as like monkeys, or Scotch terriers, as they possibly c
                     </closer>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <pb xml:id="rbtales_13036" n="18 THE TRUTH, THE WHOLE TRUTH,"/>
             <q>
-              <text xml:id="rbtales_13041">
+              <q><floatingText xml:id="rbtales_13041">
                 <body xml:id="rbtales_13040">
                   <div xml:id="rbtales_004" type="letter">
                     <head rend="center">MRS. DE WYNT TO MRS. MONTRESOR.</head>
@@ -206,11 +206,11 @@ more heavily could Madame de Staël have sighed for Paris from among the shades 
                     </closer>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <pb xml:id="rbtales_13042" n="21 AND NOTHING BUT THE TRUTH."/>
             <q>
-              <text xml:id="rbtales_13052">
+              <q><floatingText xml:id="rbtales_13052">
                 <body xml:id="rbtales_13051">
                   <div xml:id="rbtales_0005" type="letter">
                     <head rend="center">MRS. MONTRESOR TO MRS. DE WYNT.</head>
@@ -250,11 +250,11 @@ exhaustion. We are, of course, utterly in the dark as to <hi rend="italic">what<
                     </closer>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <pb xml:id="rbtales_13053" n="28 THE TRUTH, THE WHOLE TRUTH,"/>
             <q>
-              <text xml:id="rbtales_13058">
+              <q><floatingText xml:id="rbtales_13058">
                 <body xml:id="rbtales_13057">
                   <div xml:id="rbtales_006" type="letter">
                     <head rend="center">MRS. DE WYNT TO MRS. MONTRESOR.</head>
@@ -282,11 +282,11 @@ make you listen to reason! Artie ought to be the best prop ever woman's old age 
                     </closer>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <pb xml:id="rbtales_13059" n="31 AND NOTHING BUT THE TRUTH."/>
             <q>
-              <text xml:id="rbtales_13071">
+              <q><floatingText xml:id="rbtales_13071">
                 <body xml:id="rbtales_13070">
                   <div xml:id="rbtales_007" type="letter">
                     <head rend="center">MRS. MONTRESOR TO MRS. DE WYNT.</head>
@@ -334,7 +334,7 @@ tears that are blinding me; he was such a dear fellow! I can't write any more to
                     </closer>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <trailer>This is a true story.</trailer>
           </div>
@@ -685,7 +685,7 @@ see the occupants--a dark gentleman, with the peculiar physiognomy which has bee
               <p xml:id="rbtales_130309">YESTERDAY morning I received the following letter:</p>
               <milestone rend="blank-line" unit="section"/>
               <q>
-                <text xml:id="rbtales_130314">
+                <q><floatingText xml:id="rbtales_130314">
                   <body xml:id="rbtales_130313">
                     <div xml:id="rbtales_015" type="letter">
                       <opener>
@@ -714,13 +714,13 @@ We lead an exclusively bucolic, cow-milking, pig-fattening, roast-mutton-eating 
                       <p xml:id="rbtales_130312">"P.S.--We will invite our little scarlet-headed curate to dinner to meet you, so as to soften your fall from the society of the Plungers."</p>
                     </div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <pb xml:id="rbtales_130315" n="93 BEHOLD, IT WAS A DREAM!"/>
               <p xml:id="rbtales_130316">This is my answer:</p>
               <milestone rend="blank-line" unit="section"/>
               <q>
-                <text xml:id="rbtales_130320">
+                <q><floatingText xml:id="rbtales_130320">
                   <body xml:id="rbtales_130319">
                     <div xml:id="rbtales_016" type="letter">
                       <opener>
@@ -741,7 +741,7 @@ your wifely description that it is your 'old man.' Till Tuesday, then,</p>
                       </closer>
                     </div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <milestone rend="blank-line" unit="section"/>
               <p xml:id="rbtales_130323">I am as good as my word; on Tuesday I set off. For four mortal hours and a half I am disastrously, hideously, diabolically sick. For four hours and a half I curse the day on which I was born, the day on which Jane Watson was born, the day on which her old man was born, and lastly--but oh! not, <hi rend="italic">not</hi> leastly--the day and the dock on which and in which the <hi rend="italic">Leinster's</hi> plunging, courtseying, throbbing body was born. On arriving at Holyhead, feeling convinced from my sensations that, as the French say, I touch my last hour, I indistinctly request to be allowed to stay on board and <hi rend="italic">die</hi>, then and there; but as the stewardess and my maid take a different view
@@ -940,7 +940,7 @@ you ever secure any one half so kind, pleasant, and gentleman-like."</p>
               <p xml:id="rbtales_130448">Three days after my return, I receive a letter from Jane:</p>
               <milestone rend="blank-line" unit="section"/>
               <q>
-                <text xml:id="rbtales_130452">
+                <q><floatingText xml:id="rbtales_130452">
                   <body xml:id="rbtales_130451">
                     <div xml:id="rbtales_020" type="letter">
                       <opener>
@@ -961,7 +961,7 @@ him off at once. He is now, I hope, on his way back to his native shores, and if
                       </closer>
                     </div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <milestone rend="blank-line" unit="section"/>
               <p xml:id="rbtales_130454">I fold up this note with a feeling of exceeding relief, and a thorough faith that I have been a superstitious hysterical fool. More resolved than ever am I to keep the reason for my return profoundly secret from my family. The next morning but one we are all in the breakfast-room after breakfast, hanging about, and looking at the papers. My sister has just thrown down the <hi rend="italic">Times</hi>, with a pettish exclamation that there is nothing in it, and that it really is not worth

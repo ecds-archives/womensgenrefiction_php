@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfaith_12012">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfaith_12012">
   <teiHeader xml:id="dfaith1201"><fileDesc>
       <titleStmt>
         <title>Faith and Unfaith, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Faith and
@@ -79,19 +79,19 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="dfaith_12011">
     <front xml:id="dfaith_1202">
       <div xml:id="dfaith_000" type="covers">
-        <figure><graphic url="ENTITY_dfaithfc" rend="inline"/>
+        <figure><graphic url="dfaithfc.jpg" rend="inline"/>
           <figDesc>Front cover of <hi rend="italic">Faith and Unfaith</hi> by
 The Duchess.</figDesc>
         </figure>
         <pb xml:id="dfaith_1305"/>
-        <figure><graphic url="ENTITY_dfaithbc" rend="inline"/>
+        <figure><graphic url="dfaithbc.jpg" rend="inline"/>
           <figDesc>Back cover of <hi rend="italic">Faith and Unfaith</hi> by
 The Duchess.</figDesc>
         </figure>
       </div>
       <pb xml:id="dfaith_1306"/>
       <div xml:id="dfaith_001" type="advert">
-        <figure><graphic url="ENTITY_dfaithad1" rend="inline"/>
+        <figure><graphic url="dfaithad1.jpg" rend="inline"/>
           <figDesc>Advertisement included in the front of <hi rend="italic">Faith and Unfaith</hi> by
 The Duchess.</figDesc>
         </figure>
@@ -675,7 +675,7 @@ and able to face the world. She holds up her delicate little hand between her ey
         <p xml:id="dfaith_130398">"Now listen to my letter," says Clarissa. "I want your advice. It is such a dear letter, and such a sad one and--and something must be done at once."</p>
         <p xml:id="dfaith_130399">"I quite agree with you," murmurs her father, dreamily. Once again his mind is losing itself in the folds of the fragrant "Times."</p>
         <q>
-          <text xml:id="dfaith_1204">
+          <q><floatingText xml:id="dfaith_1204">
             <body xml:id="dfaith_1203">
               <div xml:id="dfaith_100" type="letter">
                 <opener>
@@ -693,7 +693,7 @@ years could make you unkind or unfeeling. Do you think you will be very long in 
                 <p xml:id="dfaith_130403">"P.S.--If you could get me pretty children, I should be so glad; but of course it must not make any difference, and I dare say ugly ones are just as nice, when one gets used to them. I am dreadfully afraid of boys ; but perhaps there may be a few found somewhere amenable to reason, and at least one or two who do not object to knees in their knickerbockers. Do you remember the gardener's babies at Brussels, and how fond they were of me? Dear Cissy, write soon."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="dfaith_130404">This is the letter, with all its pathetic little confidences, its "do you remembers?" and "have you forgottens?" and its tone,--half proud and half beseeching,--that has touched Miss Peyton so deeply.</p>
         <p xml:id="dfaith_130405">Her mouth trembles, there are tears in her voice and eyes, as she finishes the last word and turns her face to her father. Something she sees in that vague but kindly man checks her enthusiasm for the moment; a thought but half defined, a suspicion, disgraceful if true, crosses her brain and fills her with indignation.</p>
@@ -1241,14 +1241,14 @@ thankfully, heartily, and expresses almost passionate delight at Clarissa's inst
         </q>
         <p xml:id="dfaith_130838">So sings Trench. To Clarissa, just now, his words convey nothing less than the very embodiment of truth. That Georgie should be unhappy for want of this vital essence cuts her to the heart,--the more so that Georgie persistently refuses to come to Gowran.</p>
         <q>
-          <text xml:id="dfaith_1206">
+          <q><floatingText xml:id="dfaith_1206">
             <body xml:id="dfaith_1205">
               <opener>
                 <salute>"DEAREST CLARISSA,</salute>
               </opener>
               <p xml:id="dfaith_130839">--Do not think me cold or ungrateful,"--so she writes,--"but, were I to go to you and feel again the warmth and tenderness of a home, it might unfit me for the life of trouble and work that must lie before me. `Summer is when we love and are beloved,' and, of course, such summer is over for me. I, know my task will be no light or easy one; but I have made up my mind to it, and indeed am thankful for it, as any change from this must of necessity be pleasant. And, besides, I may not be a governess forever. I have yet another plan in my head,--something papa and I agreed upon, before he left me,--that may put an end to my difficulties sooner than I think. I will tell you of it some time, when we meet."</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="dfaith_130840">"Poor darling," says Clarissa, "what a wretched little letter!" She sighs, and folds it up, and wonders vaguely what this other plan of Georgie's can be. Then she writes to her again, and describes Mrs. Redmond as well as is possible.</p>
         <p xml:id="dfaith_130842">"Accept her offer by return of post," she advises, earnestly. "Even if, after a trial, you do not like her, still this will be an opening for you; and I am glad in the thought that I shall always have you near me,--at least until that mysterious plan of yours meets the light. Mrs. Redmond is not, of course, everything of the most desirable, but she is passable, and very kind at heart. She is tall and angular, and talks all day long--and all night, I am sure, if one
@@ -3707,7 +3707,7 @@ cannot find it in his heart to condemn the woman who has just condemned Horace B
         <p xml:id="dfaith_1302727">"I don't think I am," says Scrope ; and time justifies his doubt of Dorian's steward.</p>
         <milestone rend="stars" unit="section"/>
         <q>
-          <text xml:id="dfaith_1208">
+          <q><floatingText xml:id="dfaith_1208">
             <body xml:id="dfaith_1207">
               <opener>
                 <dateline><name type="place">"SARTORIS</name>, <date>Tuesday</date>, four o'clock.</dateline>
@@ -3719,7 +3719,7 @@ cannot find it in his heart to condemn the woman who has just condemned Horace B
                 <signed>"D. B."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="dfaith_1302729">Sir James, who is sitting in his sister's room, starts to his feet on reading this letter.</p>
         <p xml:id="dfaith_1302730">"Patience, I must go at once to Sartoris," he says, looking pale and distressed.</p>
@@ -4495,47 +4495,47 @@ many a month ago, so the bargain would do you no good. Let us both make up our m
     </body>
     <back xml:id="dfaith_12010">
       <div xml:id="dfaith_070" type="adverts">
-        <figure><graphic url="ENTITY_dfaithad2" rend="inline"/>
+        <figure><graphic url="dfaithad2.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of <hi rend="italic">Faith and Unfaith</hi> by The Duchess.</figDesc>
         </figure>
         <pb xml:id="dfaith_1303280"/>
-        <figure><graphic url="ENTITY_dfaithad3" rend="inline"/>
+        <figure><graphic url="dfaithad3.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of <hi rend="italic">Faith and Unfaith</hi> by The Duchess.</figDesc>
         </figure>
         <pb xml:id="dfaith_1303281"/>
-        <figure><graphic url="ENTITY_dfaithad4" rend="inline"/>
+        <figure><graphic url="dfaithad4.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of <hi rend="italic">Faith and Unfaith</hi> by The Duchess.</figDesc>
         </figure>
         <pb xml:id="dfaith_1303282"/>
-        <figure><graphic url="ENTITY_dfaithad5" rend="inline"/>
+        <figure><graphic url="dfaithad5.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of <hi rend="italic">Faith and Unfaith</hi> by The Duchess.</figDesc>
         </figure>
         <pb xml:id="dfaith_1303283"/>
-        <figure><graphic url="ENTITY_dfaithad6" rend="inline"/>
+        <figure><graphic url="dfaithad6.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of <hi rend="italic">Faith and Unfaith</hi> by The Duchess.</figDesc>
         </figure>
         <pb xml:id="dfaith_1303284"/>
-        <figure><graphic url="ENTITY_dfaithad7" rend="inline"/>
+        <figure><graphic url="dfaithad7.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of <hi rend="italic">Faith and Unfaith</hi> by The Duchess.</figDesc>
         </figure>
         <pb xml:id="dfaith_1303285"/>
-        <figure><graphic url="ENTITY_dfaithad8" rend="inline"/>
+        <figure><graphic url="dfaithad8.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of <hi rend="italic">Faith and Unfaith</hi> by The Duchess.</figDesc>
         </figure>
         <pb xml:id="dfaith_1303286"/>
-        <figure><graphic url="ENTITY_dfaithad9" rend="inline"/>
+        <figure><graphic url="dfaithad9.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of <hi rend="italic">Faith and Unfaith</hi> by The Duchess.</figDesc>
         </figure>
         <pb xml:id="dfaith_1303287"/>
-        <figure><graphic url="ENTITY_dfaithad10" rend="inline"/>
+        <figure><graphic url="dfaithad10.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of <hi rend="italic">Faith and Unfaith</hi> by The Duchess.</figDesc>
         </figure>
         <pb xml:id="dfaith_1303288"/>
-        <figure><graphic url="ENTITY_dfaithad11" rend="inline"/>
+        <figure><graphic url="dfaithad11.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of <hi rend="italic">Faith and Unfaith</hi> by The Duchess.</figDesc>
         </figure>
         <pb xml:id="dfaith_1303289"/>
-        <figure><graphic url="ENTITY_dfaithad12" rend="inline"/>
+        <figure><graphic url="dfaithad12.jpg" rend="inline"/>
           <figDesc>Advertisement included inside the back cover of <hi rend="italic">Faith and Unfaith</hi> by The Duchess.</figDesc>
         </figure>
       </div>

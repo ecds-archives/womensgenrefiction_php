@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="agslipp_12013">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="agslipp_12013">
   <teiHeader xml:id="agslipp1201"><fileDesc>
       <titleStmt>
         <title>The Golden Slipper, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Golden
@@ -114,7 +114,7 @@ STRANGE</titlePart>
         </figure>
       </div>
       <pb xml:id="agslipp_1309" n="iii"/>
-      <div xml:id="agslipp_003" type="table of contents">
+      <div xml:id="agslipp_003" type="table_of_contents">
         <figure><graphic url="agslipptc.jpg" rend="inline"/>
           <figDesc>Table of contents for Green's <hi rend="italic">The Golden Slipper</hi>.</figDesc>
         </figure>
@@ -1483,7 +1483,7 @@ read with avidity the statement of events thus vouched for, finding them curious
           <milestone rend="blank-line" unit="subsection"/>
           <p xml:id="agslipp_1301136">I am a lawyer with an office in the Times Square Building. My business is mainly local, but sometimes I am called out of town, as witness the following summons received by me on the fifth of last October.</p>
           <q>
-            <text xml:id="agslipp_1204">
+            <floatingText xml:id="agslipp_1204">
               <body xml:id="agslipp_1203">
                 <opener>
                   <salute>DEAR SIR,--</salute>
@@ -1498,7 +1498,7 @@ not many days to live. A carriage will meet you at Highland Station at any hour 
 <lb/>N.J.</name>
                 </dateline>
               </body>
-            </text>
+            </floatingText>
           </q>
           <p xml:id="agslipp_1301138">The reference given was a Mr. Weed of Eighty-sixth Street--a well-known man of unimpeachable reputation.</p>
           <p xml:id="agslipp_1301140">Calling him up at his business office, I asked him what he could tell me about Mr. Postlethwaite
@@ -2589,7 +2589,7 @@ ten at night. Perhaps this was to ensure no break in his rule of life never to s
           <pb xml:id="agslipp_1301997" n="358 Missing: Page Thirteen"/>
           <p xml:id="agslipp_1301998">Was there any explanation for this strangely self-centred life. Those who knew him best seemed to think so. In the first place he had sprung from an unfortunate stock. Events of an unusual and tragic nature had marked the family of both parents. Nor had his parents themselves been exempt from this seeming fatality. Antagonistic in tastes and temperament, they had dragged on an unhappy existence in the old home, till both natures rebelled, and a separation ensued which not only disunited their lives but sent them to opposite sides of the globe never to return again. At least, that was the inference drawn from the peculiar circumstances attending the event. On the morning of one never-to-be-forgotten day, John Van Broecklyn, the grandfather of the present representative of the family, found the following note from his son lying on the library table:</p>
           <q>
-            <text xml:id="agslipp_1206">
+            <floatingText xml:id="agslipp_1206">
               <body xml:id="agslipp_1205">
                 <opener>
                   <salute>"FATHER:</salute>
@@ -2599,12 +2599,12 @@ ten at night. Perhaps this was to ensure no break in his rule of life never to s
                   <signed>"WILLIAM."</signed>
                 </closer>
               </body>
-            </text>
+            </floatingText>
           </q>
           <p xml:id="agslipp_1302000">Six hours later another note was found, this time from the wife:</p>
           <pb xml:id="agslipp_1302001" n="359 Problem 8 for Violet Strange"/>
           <q>
-            <text xml:id="agslipp_1208">
+            <floatingText xml:id="agslipp_1208">
               <body xml:id="agslipp_1207">
                 <opener>
                   <salute>"FATHER:</salute>
@@ -2614,7 +2614,7 @@ ten at night. Perhaps this was to ensure no break in his rule of life never to s
                   <signed>"RHODA."</signed>
                 </closer>
               </body>
-            </text>
+            </floatingText>
           </q>
           <p xml:id="agslipp_1302004">Both were gone, and gone forever. Simultaneous in their departure, they preserved each his own silence and sent no word back. If the one went east and the other west, they may have met on the other side of the globe, but never again in the home which sheltered their boy. For him and for his grandfather they had sunk from sight in the great sea of humanity, leaving them stranded on an isolated and mournful shore. The grandfather steeled himself to the double loss, for the child's sake; but the boy of eleven succumbed. Few of the world's great sufferers, of whatever age or condition, have mourned as this child mourned, or shown the effects of his grief so deeply or so long. Not till he had passed his majority did the line, carved in one day in his baby forehead, lose any of its intensity; and there are those who declare that even later than that, the midnight stillness of the house was disturbed from time to
 <pb xml:id="agslipp_1302003" n="360 Missing: Page Thirteen"/>
@@ -2896,7 +2896,7 @@ blushes faded under its fervency, and only her spirit spoke, as leaning towards 
         <p xml:id="agslipp_1302221">The evening before their marriage, Violet put a dozen folded sheets of closely written paper in his hand. They contained her story; let us read it with him.</p>
         <milestone rend="stars" unit="section"/>
         <q>
-          <text xml:id="agslipp_12010">
+          <floatingText xml:id="agslipp_12010">
             <body xml:id="agslipp_1209">
               <opener>
                 <salute>DEAR ROGER,--</salute>
@@ -2985,7 +2985,7 @@ to which we might rightfully look for any such amount was effectually closed to 
 to her. She has been in Europe for a year and last week she made her début. You read about it in the papers, but neither you nor any one else in this country but myself knew that under the name she had chosen to assume, Theresa Strange, the long forgotten beauty, has recovered that place in the world, to which her love and genius entitle her.</p>
               <p xml:id="agslipp_1302290">This is my story and hers. From now on, you are the third in the secret. Some day, my father will be the fourth. I think then, a new dawn of love will arise for us all, which will stay the whitening of his dear head--for I believe in him after all. Yesterday when he passed the wall where her picture once hung--no other has ever hung there--I saw him stop and look up, and, Roger, when he passed me a minute later, there was a tear in his hard eye.</p>
             </body>
-          </text>
+          </floatingText>
         </q>
         <trailer>FINIS</trailer>
       </div>

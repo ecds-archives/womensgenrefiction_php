@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lmadven_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lmadven_1207">
   <teiHeader xml:id="lmadven1201"><fileDesc>
       <titleStmt>
         <title>An Adventuress, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>An Adventuress</title>. <pubPlace>London</pubPlace>:
@@ -86,7 +86,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="lmadven_1307"/>
       <div xml:id="lmadven_fm000" type="advert">
-        <figure><graphic url="ENTITY_lmadvenad1" rend="inline"/>
+        <figure><graphic url="lmadvenad1.jpg" rend="inline"/>
           <figDesc>Advertisement page in L. T. Meade's <hi rend="italic">An
 Adventuress</hi>.</figDesc>
         </figure>
@@ -107,7 +107,7 @@ AUTHOR OF<lb/>
       </titlePage>
       <pb xml:id="lmadven_13010"/>
       <div xml:id="lmadven_fm001" type="copyright">
-        <figure><graphic url="ENTITY_lmadvencr" rend="inline"/>
+        <figure><graphic url="lmadvencr.jpg" rend="inline"/>
           <figDesc>Copyright information for L. T. Meade's <hi rend="italic">An
 Adventuress</hi>.</figDesc>
         </figure>
@@ -705,7 +705,7 @@ it for yourself."</p>
 desk. The young man took it up eagerly and was soon buried in its
 contents. It ran as follows:--</p>
         <q>
-          <text xml:id="lmadven_130192">
+          <q><floatingText xml:id="lmadven_130192">
             <body xml:id="lmadven_130191">
               <div xml:id="lmadven_1004" type="letter">
                 <opener>
@@ -746,7 +746,7 @@ to he present. Don't delay; please come
 immediately."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lmadven_130193">Ralph Henley let the letter flutter to the ground.</p>
         <p xml:id="lmadven_130194">"I could not make out why she was silent," he said; "but, of
@@ -3211,7 +3211,7 @@ the Humes heard very little about them. But early in September a
 letter arrived from Kate. It was addressed to Ethel, and ran as
 follows:--</p>
         <q>
-          <text xml:id="lmadven_1301089">
+          <q><floatingText xml:id="lmadven_1301089">
             <body xml:id="lmadven_1301088">
               <opener>
                 <salute>"MY DEAR ETHEL,</salute>
@@ -3225,7 +3225,7 @@ both manage to give us at least a fortnight? It will be delightful
 seeing you. Wire to me to Castellis when you receive this, and I will
 come and meet you at the station."</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lmadven_1301090">This letter was dated from Paris, but Kate had added a postscript
 to say that she and her husband would be at Castellis on the evening
@@ -3676,7 +3676,7 @@ train."</p>
         <p xml:id="lmadven_1301282">"Now to write to my husband," she said to herself. She sat down at
 her little writing-table and began her letter.</p>
         <q>
-          <text xml:id="lmadven_1301287">
+          <q><floatingText xml:id="lmadven_1301287">
             <body xml:id="lmadven_1301286">
               <opener>
                 <salute>"DEAREST RALPH,--</salute>
@@ -3705,7 +3705,7 @@ better.--</p>
 own<name>KITTY</name>."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lmadven_1301288">Having signed the letter, Kate left it on the table in the hall,
 and soon after one o'clock that day had left Castellis accompanied by
@@ -4183,7 +4183,7 @@ novel, amused herself reading it until it was time for bed.</p>
         <p xml:id="lmadven_1301459">The next day, thoroughly refreshed and with all her wits about her,
 she wrote a note to Mrs. Mildmay.</p>
         <q>
-          <text xml:id="lmadven_1301462">
+          <q><floatingText xml:id="lmadven_1301462">
             <body xml:id="lmadven_1301461">
               <opener>
                 <salute>"DEAR
@@ -4198,7 +4198,7 @@ Bouverie.</p>
 <name>JEANNETTE MARRYAT</name>."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lmadven_1301463">This note was addressed and then given to a chamber-maid, with
 directions to deliver it at once to the proprietress of the hotel.</p>
@@ -5974,7 +5974,7 @@ not an hour ago."</p>
         <p xml:id="lmadven_1302183">"Give it to me, please.</p>
         <p xml:id="lmadven_1302184">Mary tore open the thick envelope. A brief note lay within.</p>
         <q>
-          <text xml:id="lmadven_1302187">
+          <q><floatingText xml:id="lmadven_1302187">
             <body xml:id="lmadven_1302186">
               <opener>
                 <salute>"DEAR
@@ -5987,7 +5987,7 @@ at nine o'clock.--</p>
 FENTON-DOUGLAS."</name></signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lmadven_1302188">"Dinner--quick, please," said Mary, her eyes sparkling; "and, by
 the way, Mrs. Grace, can we have a private sitting-room."</p>
@@ -6127,7 +6127,7 @@ there has never been anything the matter with them."</p>
 morning."</p>
         <p xml:id="lmadven_1302266">Sir John took a letter from his pocket, opened it, and read the
 following lines:--
-<q><text xml:id="lmadven_1302265"><body xml:id="lmadven_1302264"><p xml:id="lmadven_1302263">"My dear wife, at my express desire, at first consented to see
+<q><floatingText xml:id="lmadven_1302265"><body xml:id="lmadven_1302264"><p xml:id="lmadven_1302263">"My dear wife, at my express desire, at first consented to see
 Dr. Martin Hewitt, who, as you know, makes consumption his
 speciality. I meant to take her to him this morning, but found that
 her nervous dread of consulting a male doctor was almost bringing on
@@ -6138,7 +6138,7 @@ particulars coincides with yours. Both lungs are now healed over, but
 the left lung in particular was gravely affected last year, and traces
 of the past mischief are abundantly evident. My wife and I go to
 Australia immediately, in compliance with Dr. Stevenson's
-orders."</p></body></text></q></p>
+orders."</p></body></floatingText></q></p>
         <p xml:id="lmadven_1302268">"You see," said Sir John, as he folded up the letter, "that
 Mrs. Henley really was very ill last year.<pb xml:id="lmadven_1302267" n="228 AN ADVENTURESS"/> I will own, Miss Hume, that your questions have puzzled
 me. I cannot imagine why you should have ever doubted my opinion with

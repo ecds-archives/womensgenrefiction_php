@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="jrnuns_1209">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="jrnuns_1209">
   <teiHeader xml:id="jrnuns1201"><fileDesc>
       <titleStmt>
         <title>The Nun's Curse, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Nun's Curse: A
@@ -107,13 +107,13 @@ OF<lb/>"GEORGE GEITH," "MISS GASCOIGNE," ETC.</byline>
 REGARDS OF THEIR FRIEND<lb/>The Author.</p>
       </div>
       <pb xml:id="jrnuns_13011" n="[vii]"/>
-      <div xml:id="jrnuns_002" type="table of contents">
-        <figure><graphic url="ENTITY_jrnunstc1" rend="inline"/>
+      <div xml:id="jrnuns_002" type="table_of_contents">
+        <figure><graphic url="jrnunstc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Riddell's <hi rend="italic">The Nun's
 Curse</hi>.</figDesc>
         </figure>
         <pb xml:id="jrnuns_13012" n="[vii]"/>
-        <figure><graphic url="ENTITY_jrnunstc2" rend="inline"/>
+        <figure><graphic url="jrnunstc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Riddell's <hi rend="italic">The Nun's
 Curse</hi>.</figDesc>
         </figure>
@@ -1551,7 +1551,7 @@ gone to London, because letters from London were constantly <pb xml:id="jrnuns_1
         <p xml:id="jrnuns_1301452">Then he went on to say Mr. Stirling had been hoping to see him for three weeks, and referred to Messrs. Bray &amp; Lucan. He did not add any encomiums on Mr. Stirling, or proffer any advice from himself. The letter was as cold as snow, but reading it in the full swing of a gay country house, Terence did not notice its reserve.</p>
         <p xml:id="jrnuns_1301454">"By Jove! two hundred letters!" he muttered. "There must be some confoundedly unpleasant among that lot! I shall have to face them soon;" and while his friends were call-<pb xml:id="jrnuns_1301453" n="120     THE NUN'S CURSE."/>ing for him to "Come along; the horses are at the door," he dashed off a hasty note:</p>
         <q>
-          <text xml:id="jrnuns_1204">
+          <q><floatingText xml:id="jrnuns_1204">
             <body xml:id="jrnuns_1203">
               <div xml:id="jrnuns_300" type="letter">
                 <p xml:id="jrnuns_1301455">"Please arrange with Mr. Stirling for me; let him step into the
@@ -1566,7 +1566,7 @@ affectionately,</salute>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="jrnuns_1301456">"Mr. Conway thinks you might be more comfortable at Calgarry House," remarked Mr. Malet tentatively, when he had said the owner would be at home in a few days, and left Terence's other suggestions unnamed.</p>
         <p xml:id="jrnuns_1301457">"It is very good of Mr. Conway," replied Mr. Stirling, "but I have no reason to complain of my present location; and anyhow I think, as there is no chance of coming to a conclusion just yet, I will take a run over to Derry, and get back about the week's end."</p>
@@ -4340,7 +4340,7 @@ dinner.</p>
         <p xml:id="jrnuns_1304279">No; whatever of sarcasm or anger that letter might contain, he could not destroy it thus contemptuously.</p>
         <p xml:id="jrnuns_1304280">"I am beginning a new life," so the young fellow's thought ran, "and I won't begin it by being a coward." Then, nerving himself as if to face a blow, he cut the wrapper, took up the written sheet and read:</p>
         <q>
-          <text xml:id="jrnuns_1206">
+          <q><floatingText xml:id="jrnuns_1206">
             <body xml:id="jrnuns_1205">
               <div xml:id="jrnuns_301" type="letter">
                 <opener>
@@ -4352,7 +4352,7 @@ dinner.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="jrnuns_1304283">This was the letter Terence had left for weeks unopened, <pb xml:id="jrnuns_1304282" n="370     THE NURSE'S CURSE."/>which he had intended never to open. For a moment he remained stunned, like one who, expecting to meet a peremptory demand for money, finds instead a receipt in full. Then he thrust the papers still strewed about back into the drawers; and, after no further delay than that involved in putting on his hat, flung the outer door wide, and passed joyously out.</p>
         <p xml:id="jrnuns_1304284">How delightful the spring sunshine seemed to him! how warm its glow—how exhilarating its brightness! Ah! after all there were no friends like old friends—slow to take offence, quick to forget injury. He had behaved as badly and ungratefully as it was possible for a man to behave. Once again he had done that which he could never undo; yet he was going, with something of the sap of hope which must have stirred in the repentant prodigal's heart, to make ample confession, and to say with deep abasement, ''I have sinned against Heaven and before thee. J have loved my own way, and found it a bad way. I know now that for all the troubles that have come upon me I have only myself to thank. I have done ill in the past, but I mean to try to do better in the future, God helping me."</p>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="edwarwo_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="edwarwo_1201">
   <teiHeader xml:id="edwarwo1202"><fileDesc>
       <titleStmt>
         <title>The War Workers, an electronic edition</title>
@@ -10,7 +10,7 @@
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/1711r</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. 
@@ -59,7 +59,7 @@
       </titlePage>
       <pb xml:id="edwarwo_1308" n="[2]"/>
       <div xml:id="edwarwo_100" type="advert">
-        <figure><graphic url="ENTITY_edwarwofm2" rend="inline"/>
+        <figure><graphic url="edwarwofm2.jpg" rend="inline"/>
           <figDesc>Advert included in the front of Delafield's "The War Workers"</figDesc>
         </figure>
       </div>
@@ -68,7 +68,7 @@
       <titlePage xml:id="edwarwo_13011" type="full"><docTitle><titlePart type="main"> THE <lb/> WAR-WORKERS</titlePart></docTitle><byline> by <lb/> <docAuthor>E. M. Delafield</docAuthor></byline><docImprint><pubPlace>New York</pubPlace><publisher>ALFRED A. KNOPF</publisher> <docDate>MCMXVIII</docDate> </docImprint> </titlePage>
       <pb xml:id="edwarwo_13012" n="[4]"/>
       <div xml:id="edwarwo_200" type="copyright">
-        <figure><graphic url="ENTITY_edwarwofm4" rend="inline"/>
+        <figure><graphic url="edwarwofm4.jpg" rend="inline"/>
           <figDesc>Copyright for Delafield's "The War-Workers"</figDesc>
         </figure>
       </div>
@@ -2062,7 +2062,7 @@ perintendent might include the supervision of Mrs. Smith's arrival every morning
         <p xml:id="edwarwo_1301853">The stage of lighting the fire, however, was further off than she realized, and she was obliged to sit huddled in her fur coat, opening letters with mottled, shaking hands that were turning rapidly purple, while the charwoman made an excruciating raking sound at the grate, put up an elaborate and exceedingly deliberate erection of coal, sticks, and newspaper, and finally applied to it a match which resulted in a little pale, cold flame which did not seem to Char productive of any warmth whatever.</p>
         <p xml:id="edwarwo_1301854">She sat at her table and wrote:</p>
         <q>
-          <text xml:id="edwarwo_1301860">
+          <q><floatingText xml:id="edwarwo_1301860">
             <body xml:id="edwarwo_1301859">
               <div xml:id="edwarwo_101" type="letter">
                 <salute>"DEAREST BRUCEY,</salute>
@@ -2079,7 +2079,7 @@ ever,<name>"CH. VIVIAN.</name></signed>
                 <p xml:id="edwarwo_1301858">"P.S.—Do as you like about reading this letter to my mother."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="edwarwo_1301861">It was fairly certain in what direction Miss Bruce's "liking " would take her on the point, and it was not without satisfaction that Char felt the certainty of her voluntarily embraced hardships becoming known at Plessing.</p>
         <p xml:id="edwarwo_1301862">Her letter to Miss Bruce somehow restored to her that sense of her own adequacy which physical conditions of discomfort, against which she had felt unable to react, had almost destroyed.</p>
@@ -2870,7 +2870,7 @@ to blame if the very worst happens. Mark my words, that uninteresting little cre
         <p xml:id="edwarwo_1302590">"Yes. I've got a letter that I rather wanted to talk to you about, from Miss Marsh at the Hostel."</p>
         <p xml:id="edwarwo_1302591">Joanna sat down, her hands lying idly folded in her lap, while Grace read aloud:</p>
         <q>
-          <text xml:id="edwarwo_1302595">
+          <q><floatingText xml:id="edwarwo_1302595">
             <body xml:id="edwarwo_1302594">
               <div xml:id="edwarwo_103" type="letter">
                 <salute>DEAR GRACIE.</salute>
@@ -2900,7 +2900,7 @@ hearing something that's made us all sit up <hi rend="italic">re</hi>
 Miss V. and—"</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="edwarwo_1302596">"That's all about Mrs. Bullivant," said Grace hastily.</p>
         <p xml:id="edwarwo_1302597">"Nonsense!" cried Joanna vigorously; "you've stopped at the most amusing bit. Unless it's marked private, for goodness' sake go on, and tell me what this scandal can be. I'm quite relieved to hear that Char's past holds <hi rend="italic">anything</hi> exciting."</p>
@@ -2908,17 +2908,17 @@ Miss V. and—"</p>
         <p xml:id="edwarwo_1302599">"It isn't marked private, and there really isn't much to read.</p>
         <pb xml:id="edwarwo_1302600" n="255 THE WAR-WORKERS"/>
         <q>
-          <text xml:id="edwarwo_1302603">
+          <q><floatingText xml:id="edwarwo_1302603">
             <body xml:id="edwarwo_1302602">
               <div xml:id="edwarwo_104" type="letter">
                 <p xml:id="edwarwo_1302601">"— and there'll be a good deal less said in future about how wonderful she is. Did you know that her father and mother, after he first got ill, simply <hi rend="italic">begged</hi> her to stay at home, for his sake, and she absolutely wouldn't? Work is all very well, but I must say that seems jolly callous, and one can't help wondering whether it really was the work she was after, or just the excitement and the honour and glory of her position. I know you never—"</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="edwarwo_1302604">Grace stopped again, and Lady Vivian said: "She knows you never liked her—well, go on."</p>
         <q>
-          <text xml:id="edwarwo_1302609">
+          <q><floatingText xml:id="edwarwo_1302609">
             <body xml:id="edwarwo_1302608">
               <div xml:id="edwarwo_105" type="letter">
                 <p xml:id="edwarwo_1302605">"— and most of the rest of us are feeling rather off the 'personal influence' stunt just at the moment. Delmege, of course, takes a high line and goes in for loyalty, etc., etc.—in fact, won't speak to any of us at present. But, as I say, that's her loss and not ours.</p>
@@ -2930,7 +2930,7 @@ Miss V. and—"</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="edwarwo_1302610">"Dora Marsh seems to me to be an uncommonly sensible girl," observed Lady Vivian thoughtfully.</p>
         <p xml:id="edwarwo_1302612">She gazed into the fire in silence for a few moments before

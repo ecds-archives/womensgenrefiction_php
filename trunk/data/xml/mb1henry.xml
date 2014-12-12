@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb1henry_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb1henry_1206">
   <teiHeader xml:id="mb1henry1201"><fileDesc>
       <titleStmt>
         <title>Henry Dunbar, volume I, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Henry Dunbar: The
@@ -80,13 +80,13 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="mb1henry_1202">
     <front xml:id="mb1henry_1203">
       <div xml:id="mb1henry_fm1" type="covers">
-        <figure><graphic url="ENTITY_mb1henryfc" rend="inline"/>
+        <figure><graphic url="mb1henryfc.jpg" rend="inline"/>
           <figDesc>The front cover of M. E. Braddon's Henry Dunbar.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_mb1henrysp" rend="inline"/>
+        <figure><graphic url="mb1henrysp.jpg" rend="inline"/>
           <figDesc>The spine of M. E. Braddon's Henry Dunbar.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_mb1henrybc" rend="inline"/>
+        <figure><graphic url="mb1henrybc.jpg" rend="inline"/>
           <figDesc>The back cover of M. E. Braddon's Henry Dunbar.</figDesc>
         </figure>
       </div>
@@ -138,12 +138,12 @@ with it:" and to request that her story may be judged by that
 standard.</p>
       </div>
       <pb xml:id="mb1henry_13013" n="[vii]"/>
-      <div xml:id="mb1henry_fm7" type="table of contents">
-        <figure><graphic url="ENTITY_mb1henrytc1" rend="inline"/>
+      <div xml:id="mb1henry_fm7" type="table_of_contents">
+        <figure><graphic url="mb1henrytc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Braddon's Henry Dunbar.</figDesc>
         </figure>
         <pb xml:id="mb1henry_13014" n="viii"/>
-        <figure><graphic url="ENTITY_mb1henrytc2" rend="inline"/>
+        <figure><graphic url="mb1henrytc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Braddon's Henry Dunbar.</figDesc>
         </figure>
       </div>
@@ -993,13 +993,13 @@ luncheon to-day," he said, laughing,—"or, at least, my enemies might say so, i
         <pb xml:id="mb1henry_130856" n="166 HENRY DUNBAR."/>
         <p xml:id="mb1henry_130857">It was from Henry Maddison Dunbar to William Balderby, and it consisted of these words:</p>
         <q>
-          <text xml:id="mb1henry_130861">
+          <q><floatingText xml:id="mb1henry_130861">
             <body xml:id="mb1henry_130860">
               <div xml:id="mb1henry_130859" type="letter">
                 <p xml:id="mb1henry_130858" rend="italic">"Pray come to me directly, at the George, Winchester. A very awful event has happened; and I am in great trouble and perplexity. Bring a lawyer with you. Let my daughter know that I shall not come to London for some days."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb1henry_130862">All this time the body of the murdered man lay on a long table in a darkened chamber at the Foresters' Arms.</p>
         <p xml:id="mb1henry_130863">The rigid outline of the corpse was plainly visible under the linen sheet that shrouded it; but the door of the dread chamber was locked, and no one was to enter until the coming of the coroner.</p>
@@ -1545,11 +1545,11 @@ a just man: and though Henry Dunbar had been the emperor of half Europe, instead
         <p xml:id="mb1henry_1301439">"Read it," she said; "you will see then how my father had been wronged by Henry Dunbar."</p>
         <p xml:id="mb1henry_1301440">Arthur Lovell unfolded the worn and faded letter. It had been written five-and-twenty years before by Sampson Wilmot. Margaret pointed to one passage on the second page.</p>
         <q>
-          <text xml:id="mb1henry_1301443">
+          <q><floatingText xml:id="mb1henry_1301443">
             <body xml:id="mb1henry_1301442">
               <p xml:id="mb1henry_1301441">"<hi rend="italic">Your bitterness against Henry Dunbar is very painful to me, my dear Joseph; yet I cannot but feel that your hatred against my employer son is only natural. I know that he was the first cause of your ruin; and that, but for him, your lot in life might have been very different. Try to forgive him; try to forget him, even if you cannot forgive. Do not talk of revenge. The revelation of that secret which you hold respecting the forged bills would bring disgrace not only upon him, but upon his father and his uncle. They are both good and honourable men, and I think that shame would kill them. Remember this, and keep the secret of that painful story</hi>."</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb1henry_1301445">Arthur Lovell's face grew terribly grave as <pb xml:id="mb1henry_1301444" n="268 HENRY DUNBAR."/>he read these lines. He had heard the story of the forgery hinted at, but he had never heard its details. He had looked upon it as a cruel scandal which had perhaps arisen out of some trifling error some unpaid debt of honour; some foolish gambling transaction in the early youth of Henry Dunbar.</p>
         <p xml:id="mb1henry_1301446">But here, in the handwriting of the dead clerk, here was the evidence of that old story. Those few lines in Sampson Wilmot's letter suggested a <hi rend="italic">motive</hi>.</p>
@@ -1728,7 +1728,7 @@ left <pb xml:id="mb1henry_1301611" n="297 THE BROKEN PICTURE."/>Winchester witho
         <p xml:id="mb1henry_1301617">"Bring me pen, ink, and paper," he said.</p>
         <p xml:id="mb1henry_1301618">The man wheeled a writing-table towards, the banker. Henry Dunbar sat down and wrote the following lines; in the firm, aristocratic hand-writing that was so familiar to the chief clerks in the banking-house.</p>
         <q>
-          <text xml:id="mb1henry_1301623">
+          <q><floatingText xml:id="mb1henry_1301623">
             <body xml:id="mb1henry_1301622">
               <div xml:id="mb1henry_1301621" type="letter">
                 <p xml:id="mb1henry_1301620">"<hi rend="italic">The young person who calls herself Joseph
@@ -1745,7 +1745,7 @@ will be sent to her at short intervals; if she conducts herself with
                 <dateline rend="italic">"Portland Place, August 30,1850."</dateline>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb1henry_1301624">The banker took out his cheque-book, wrote a cheque for fifty pounds, and folded it in the note which he had just written: then he rang the bell, and gave the note to the elderly man-servant who waited upon him.</p>
         <p xml:id="mb1henry_1301625">"Let that be taken to the young person in the hall," he said.</p>

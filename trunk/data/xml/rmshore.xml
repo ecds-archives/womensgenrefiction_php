@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rmshore_12010">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rmshore_12010">
   <teiHeader xml:id="rmshore1201"><fileDesc>
       <titleStmt>
         <title>The Lee Shore, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Lee
@@ -103,7 +103,7 @@ York</pubPlace>
       </titlePage>
       <pb xml:id="rmshore_1309" n="[iv]"/>
       <div xml:id="rmshore_028" type="copyright">
-        <figure><graphic url="ENTITY_rmshorefm3" rend="inline"/>
+        <figure><graphic url="rmshorefm3.jpg" rend="inline"/>
           <figDesc>An image of the copyright page for Rose Macaulay's <hi rend="italic">The Lee Shore</hi>.</figDesc>
         </figure>
       </div>
@@ -119,20 +119,20 @@ have not, runs so deep as almost <lb/>to run to the bottom."</p>
 --<bibl><hi rend="italic">P.N. Waggett.</hi></bibl></q>
       </div>
       <pb xml:id="rmshore_13014" n="[ix]"/>
-      <div xml:id="rmshore_029" type="table of contents">
-        <figure><graphic url="ENTITY_rmshorefm6" rend="inline"/>
+      <div xml:id="rmshore_029" type="table_of_contents">
+        <figure><graphic url="rmshorefm6.jpg" rend="inline"/>
           <figDesc>An image of the first page of the table of contents for Rose Macaulay's <hi rend="italic">The Lee Shore</hi>.</figDesc>
         </figure>
         <pb xml:id="rmshore_13015" n="[x]"/>
-        <figure><graphic url="ENTITY_rmshorefm7" rend="inline"/>
+        <figure><graphic url="rmshorefm7.jpg" rend="inline"/>
           <figDesc>An image of the second page of the table of contents for Rose Macaulay's <hi rend="italic">The Lee Shore</hi>.</figDesc>
         </figure>
         <pb xml:id="rmshore_13016" n="[xi]"/>
-        <figure><graphic url="ENTITY_rmshorefm8" rend="inline"/>
+        <figure><graphic url="rmshorefm8.jpg" rend="inline"/>
           <figDesc>An image of the third page of the table of contents for Rose Macaulay's <hi rend="italic">The Lee Shore</hi>.</figDesc>
         </figure>
         <pb xml:id="rmshore_13017" n="[xii]"/>
-        <figure><graphic url="ENTITY_rmshorefm9" rend="inline"/>
+        <figure><graphic url="rmshorefm9.jpg" rend="inline"/>
           <figDesc>An image of the fourth page of the table of contents for Rose Macaulay's <hi rend="italic">The Lee Shore</hi>.</figDesc>
         </figure>
       </div>
@@ -2737,7 +2737,7 @@ hugged Thomas close and
 <pb xml:id="rmshore_1301469" n="221     The Loss of a Wife"/>
 cried a little, and slipped out into the misty city with a handbag. Peter, coming in at tea-time, found the note on the sitting-room chimneypiece. It said:—</p>
         <q>
-          <text xml:id="rmshore_1204">
+          <floatingText xml:id="rmshore_1204">
             <body xml:id="rmshore_1203">
               <div xml:id="rmshore_018" type="letter">
                 <p xml:id="rmshore_1301472">"Don't try to follow me, Peter, for I can't come back. I <hi rend="italic">have</hi> tried to care for you more than him and be a
@@ -2769,7 +2769,7 @@ him; I think Mrs. Adams had better do it usually. She'll take care of him for yo
 "<signed><name>RHODA</name></signed>."</closer>
               </div>
             </body>
-          </text>
+          </floatingText>
         </q>
         <p xml:id="rmshore_1301473">Peter read it through, sitting on the rug by the fire. When he had finished it, he put it into the fire and watched it burn. Then he sighed, and sat very still for a while, his hands clasped round one knee.</p>
         <p xml:id="rmshore_1301474">Presently he got up and looked behind the clock, and saw that the next feeding-time was due now. So he rang for Mrs. Adams, the landlady, and asked her if she would mind bringing Thomas's bottle.</p>
@@ -3646,7 +3646,7 @@ than you, who praise emptiness and doing without, ever wanted anything."</p>
         <p xml:id="rmshore_1301895">It was Rodney who got up stiffly from his hard resting-place in the dark unlovely morning, and made tea over Peter's spirit-lamp for both of them. Peter woke later, and drank it mechanically. Then he looked at Rodney and said, "I'm horribly stiff. Why did neither of us go to bed?" He was pale and heavy-eyed, and violent no more, but very quiet and tired, as if, accepting, he was sinking deep in grey and cold seas, that numbed resistance and drowned words.</p>
         <p xml:id="rmshore_1301896">The milk came in, and Peter gave Thomas to drink; and on the heels of the milk came the post, and a letter for Peter.</p>
         <p xml:id="rmshore_1301897">"I suppose," said Peter dully, as he opened it, "she too has found out that it can't be done."</p>
-        <p xml:id="rmshore_1301899">The letter said: <q><text xml:id="rmshore_1206"><body xml:id="rmshore_1205"><div xml:id="rmshore_024" type="letter"><salute>"Peter,</salute><p xml:id="rmshore_1301898"> we can't do it. I am horribly, horribly sorry, but I know it now for certain. Perhaps you know it too, by now. Because the reason is in you, not in me. It is that you love Denis too much. So you couldn't be happy. I want you to be happy, more than I want anything in the world, but it can't be this way. Please, dear Peter, be happy sometime; please, please be happy. I love you always—if that helps at all.—</p><closer><signed><name>LUCY</name>."</signed></closer></div></body></text></q></p>
+        <p xml:id="rmshore_1301899">The letter said: <q><floatingText xml:id="rmshore_1206"><body xml:id="rmshore_1205"><div xml:id="rmshore_024" type="letter"><salute>"Peter,</salute><p xml:id="rmshore_1301898"> we can't do it. I am horribly, horribly sorry, but I know it now for certain. Perhaps you know it too, by now. Because the reason is in you, not in me. It is that you love Denis too much. So you couldn't be happy. I want you to be happy, more than I want anything in the world, but it can't be this way. Please, dear Peter, be happy sometime; please, please be happy. I love you always—if that helps at all.—</p><closer><signed><name>LUCY</name>."</signed></closer></div></body></floatingText></q></p>
         <p xml:id="rmshore_1301901">Peter let the note fall on the floor, and stood with
 <pb xml:id="rmshore_1301900" n="296     The Last Loss"/>
 bent head by the side of Thomas's crib, while Thomas guggled his milk.</p>

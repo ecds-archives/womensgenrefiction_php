@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cctender_12019">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cctender_12019">
   <teiHeader xml:id="cctender1201"><fileDesc>
       <titleStmt>
         <title>The Tender Mercies of the Good, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Tender
@@ -111,19 +111,19 @@ GARDEN</addrLine>
       </titlePage>
       <pb xml:id="cctender_1309" n="[iv]"/>
       <div xml:id="cctender_000" type="copyright">
-        <figure><graphic url="ENTITY_cctendercr" rend="inline"/>
+        <figure><graphic url="cctendercr.jpg" rend="inline"/>
           <figDesc>Copyright information for Coleridge's <hi rend="italic">The
 Tender Mercies of the Good</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="cctender_13010" n="v"/>
-      <div xml:id="cctender_001" type="table of contents">
-        <figure><graphic url="ENTITY_cctendertc1" rend="inline"/>
+      <div xml:id="cctender_001" type="table_of_contents">
+        <figure><graphic url="cctendertc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Coleridge's <hi rend="italic">The
 Tender Mercies of the Good</hi>.</figDesc>
         </figure>
         <pb xml:id="cctender_13011" n="vi"/>
-        <figure><graphic url="ENTITY_cctendertc2" rend="inline"/>
+        <figure><graphic url="cctendertc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Coleridge's <hi rend="italic">The
 Tender Mercies of the Good</hi>.</figDesc>
         </figure>
@@ -1334,7 +1334,7 @@ My name is my fortune, sir," said Diaphenia Villiers, with a curtsey.</p>
         <p xml:id="cctender_1301227">As for Mrs. Villiers, she watched in silence. There was something about the whole matter which she did not make out. Daffodil was going to Bracebridge on Thursday—an informal party, with a dance for the young people. The little excitement about Kit and Minna Lyall lent it an interest. Daffodil had prepared herself a pretty dress, and had expected a happy evening. She was young and she worked hard, and a bit of gaiety was refreshing, spite of inward needs and yearnings.</p>
         <p xml:id="cctender_1301228">On the Thursday morning she received a letter from Austin, as she supposed from Bracebridge; she hid it from her mother and managed to open it alone. To her extreme surprise it was dated "Junior University Club," and began abruptly:</p>
         <q>
-          <text xml:id="cctender_1204">
+          <q><floatingText xml:id="cctender_1204">
             <body xml:id="cctender_1203">
               <div xml:id="cctender_106" type="letter">
                 <p xml:id="cctender_1301230">"I have run away from you, because I can more easily write than speak, and, as I think, appear to <pb xml:id="cctender_1301229" n="155 THE DEMANDS OF LOVE."/>insult you less unpardonably. I love you day by day more fully, but I must withdraw my petition for your love in return.</p>
@@ -1345,7 +1345,7 @@ My name is my fortune, sir," said Diaphenia Villiers, with a curtsey.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cctender_1301232">"Daffodil, I must see that letter," said Mrs. Villiers, coming suddenly behind her.</p>
         <p xml:id="cctender_1301233">"Oh, mother, let me think about it first," said Daffodil, white and stunned; but Mrs. Villiers laid her hands on it, and, after all, what was the use of resistance?</p>
@@ -1387,7 +1387,7 @@ My name is my fortune, sir," said Diaphenia Villiers, with a curtsey.</p>
         <p xml:id="cctender_1301272">"I don't expect him to marry me," said Daffodil, steadily, "and I don't wish you to tell me why. Mother will not ask you, and nobody guesses anything about it. I must go now—to my work."</p>
         <p xml:id="cctender_1301273">She was gone before he could answer, or before he had time to know what he thought of a decision in which she took the initiative, and she went on and did her business as people do who have to work professionally, whatever may be going on in their own lives; and in an interval of leisure she answered Austin's letter, just as the words suggested themselves.</p>
         <q>
-          <text xml:id="cctender_1206">
+          <q><floatingText xml:id="cctender_1206">
             <body xml:id="cctender_1205">
               <div xml:id="cctender_107" type="letter">
                 <opener>
@@ -1399,7 +1399,7 @@ My name is my fortune, sir," said Diaphenia Villiers, with a curtsey.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cctender_1301276">She directed the letter to the care of Austin's friend at the club from which he had written, and posted it as she went home. Then, as she came back to Pretty-Peep, the clear vision was blurred, the strong purpose wavered, the forceful impulse that had held her up came to an end; the short-lived hopes, the brief delights so suddenly crushed, rushed back upon her brain, and she felt herself nothing but a perplexed, injured, and disappointed girl, for whom life was spoiled, when it ought to have been but beginning.</p>
         <p xml:id="cctender_1301277">She hid herself from her mother, lest her mother should reinforce this other side of herself.</p>
@@ -1472,7 +1472,7 @@ My name is my fortune, sir," said Diaphenia Villiers, with a curtsey.</p>
         <head>CHAPTER XXIII.<lb/>THE SILENT PAST.</head>
         <p xml:id="cctender_1301340">THE letter which had sent Colonel Fairford into Bishopsford on that eventful Thursday morning ran as follows:—</p>
         <q>
-          <text xml:id="cctender_1208">
+          <q><floatingText xml:id="cctender_1208">
             <body xml:id="cctender_1207">
               <div xml:id="cctender_008" type="letter">
                 <opener>
@@ -1485,7 +1485,7 @@ My name is my fortune, sir," said Diaphenia Villiers, with a curtsey.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cctender_1301343">Upon this resolute assertion of independence, came <pb xml:id="cctender_1301342" n="169 THE SILENT PAST."/>Daffodil's entreaty to be left to manage her love affair for herself. Probably the poor Colonel would have felt less perplexed if the young people had left him anything to do. Yet Jackson's receipted bill, which had come to him by the same post as Austin's letter, reminded him, with a little glowing comfort, of his changed relation to his son. Austin had decided that the payment was to be made; it had been longer due than was agreeable to the Colonel's sense of careful rectitude, but the young man had thought of it, and settled it before he went away. His father had come to trust his judgment in such matters, and to feel sure of his promptness in carrying them out. It seemed incredible, in spite of his scruples of the day before, that the ghost of the past should rise again to trouble them. He went to make sure with his own eyes that the fatal name was there, and then, when its miserable associations had begun to gain power over him, and fears half nervous, half scrupulous, to possess him, when Daffodil's words seemed to him but the unconsidered protest of a child, he took his way to his brother's office, to hear what communications he had received from Austin in the matter.</p>
         <p xml:id="cctender_1301345">"Well, Nicolas," said the solicitor, "I expected to see you, and in any case I must have come to hear what you had to say about Austin's proposals to Daffodil Villiers. Now, before we go further, I'll say my say about that. In the first place, Daffodil being of age, I have no power to withhold my consent; in the next, it is of course, however hardly bad times may press on the estate, such an excellent match for a girl with her prospects, that I could not do so with any reason, on her account, though I could have wished, on Austin's, that she had some fortune. And I think the young fellow was right in his demand for silence. He has entirely redeemed the past; you wouldn't find a steadier, quieter fellow anywhere. Augustine was saying the other day how regular he <pb xml:id="cctender_1301344" n="170 THE TENDER MERCIES OF THE GOOD."/>was at church, and so on, and how well we really had managed him. He is not at all a bad man of business, and has taken up no wild notions about property or politics, such as lead away clever youths. I saw no reason to object."</p>
@@ -1670,7 +1670,7 @@ My name is my fortune, sir," said Diaphenia Villiers, with a curtsey.</p>
       <div xml:id="cctender_036" n="26" type="chapter">
         <head>CHAPTER XXVI.<lb/>SIX OF ONE AND HALF A DOZEN OF THE OTHER.</head>
         <q>
-          <text xml:id="cctender_12010">
+          <q><floatingText xml:id="cctender_12010">
             <body xml:id="cctender_1209">
               <div xml:id="cctender_009" type="letter">
                 <opener>
@@ -1683,7 +1683,7 @@ My name is my fortune, sir," said Diaphenia Villiers, with a curtsey.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cctender_1301532">This was the note which answered the Colonel's anxious telegram, and, combined with his secret knowledge, it filled him with uniform dread. He could not tell what to do. Every step seemed to him full of danger. Even another inquiry might rouse suspicions. He was afraid of letting the Purcells see that there was anything the matter. He could not ask Jackson, even if he had discovered the offender, for fear he might hear that a clue had been found. Not for worlds would he have let his brothers hear of the incident, lest he might see that they entertained the fears which he was smothering. He could not bring himself to write the question to Austin, lest anger should drive him to some desperate step. He could not tell how far his fear was the mere nervous revival of former misery, or how far it had any reason-<pb xml:id="cctender_1301531" n="192 THE TENDER MERCIES OF THE GOOD."/>able ground. He doubted Austin, and yet, in a strange way, he longed for the help of his judgment. His own did not seem to answer to the call upon it.</p>
         <p xml:id="cctender_1301533">He remembered what Austin had said, that he could earn his living as a land agent, and the strong and sudden assertion of his own will, which had followed on the years of submission, and he knew that he dreaded a separation, not for Austin's sake, but for his own. He wanted the young man's help, and, in the strangest way, he felt that Austin's return would relieve him of this terrible sense of responsibility for Austin's conduct.</p>
@@ -2965,7 +2965,7 @@ at the inquest. Couldn't be brought in manslaughter in <pb xml:id="cctender_1302
         <p xml:id="cctender_1302820">She stood over the fire and opened it with a fearful heart. There was a pretty card painted with winged angels, such as her heart delighted in, and an ordinary Christmas greeting, and, besides, a slip of paper with a few words on it.</p>
         <pb xml:id="cctender_1302821" n="331 THE WOOD PILE."/>
         <q>
-          <text xml:id="cctender_12012">
+          <q><floatingText xml:id="cctender_12012">
             <body xml:id="cctender_12011">
               <div xml:id="cctender_100" type="letter">
                 <opener>
@@ -2978,7 +2978,7 @@ at the inquest. Couldn't be brought in manslaughter in <pb xml:id="cctender_1302
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cctender_1302823">The poor woman wept and trembled as she read.</p>
         <p xml:id="cctender_1302824">"Oh, my Miss Daffodil, my Miss Daffodil," she sobbed. "Oh, she's a brave lady, but even she don't know what a mother is. And Mr. Austin has had his revenge—since he's as good as killed him. Can I turn on him when he's dying r Or let him die in his sin?" Perhaps, if she confessed, God would spare him. And oh! how dreadful it was to feel so wicked and to know that the blessed white angels had nothing to do with her. "Oh," she thought to herself, "it's like a star in my heart to think of confessing it."</p>
@@ -3155,7 +3155,7 @@ I can't eat my cake and have it. My lover's got the hardest battle a man ever ha
         <p xml:id="cctender_1302996">Daffodil could laugh even while she wept, and when <pb xml:id="cctender_1302995" n="352 THE TENDER MERCIES OF THE GOOD."/>she sensibly went back to bed, and courted sleep under the warm coverings, she followed in thought, not Austin so much as Mrs. Purcell; every feeling of the woman's heart seemed plain, she felt as if she was sending forth her own strong spirit to help this weak one to the stupendous effort of confession which would free her soul.</p>
         <p xml:id="cctender_1302997">She wrote her Christmas letter and waited, and by the first possible post an answer came.</p>
         <q>
-          <text xml:id="cctender_12014">
+          <q><floatingText xml:id="cctender_12014">
             <body xml:id="cctender_12013">
               <div xml:id="cctender_101" type="letter">
                 <opener>
@@ -3169,13 +3169,13 @@ I can't eat my cake and have it. My lover's got the hardest battle a man ever ha
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cctender_1303000">Daffodil read this startling communication twice through. Was this then the meaning of it all? It was not exactly an improbable story in itself, and it fairly well fitted the facts of the case. At the same time, it did not carry conviction to her mind. And where <hi rend="italic">was</hi> the money? And then, was Jack really worse? was he dying? If Mrs. Purcell had done nothing else she had communicated the terror of that night and day of awful suspense. Had Austin's Christmas been passed in such quickened anguish? There was no other letter. It was cruel of Miss Worthington not to have let her know.</p>
         <p xml:id="cctender_1303001">But what was to be done? Here was a confession which would clear Austin at once, and yet—that confession did not seem to her shrewd insight to ring true. Should she send it to Austin? No, that wouldn't quite do, there was a better thing to do than that; she would send it straight off to Christopher Fairford.</p>
         <p xml:id="cctender_1303002">She put it up with the briefest note of explanation and no comments whatever. Then she wrote to Mrs. Purcell.</p>
         <q>
-          <text xml:id="cctender_12016">
+          <q><floatingText xml:id="cctender_12016">
             <body xml:id="cctender_12015">
               <div xml:id="cctender_208" type="letter">
                 <opener>
@@ -3188,7 +3188,7 @@ I can't eat my cake and have it. My lover's got the hardest battle a man ever ha
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cctender_1303005">She read this over when she had written it with a sort of surprise.</p>
         <p xml:id="cctender_1303006">"I had to put it like that," she thought, "but it's not at all what I should have said if I quite believed her for certain. She'll think it very unkind."</p>

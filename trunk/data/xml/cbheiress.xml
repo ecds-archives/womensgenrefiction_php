@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cbheiress_00001">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cbheiress_00001">
   <teiHeader xml:id="cbheiress00002"><fileDesc>
       <titleStmt>
         <title>The Heiress of Hilldrop, an electronic edition</title>
@@ -12,7 +12,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Heiress of Hilldrop</title>. <pubPlace>New York</pubPlace>: <publisher>F.M.Lupton</publisher>, <date>1893</date>.</bibl>
@@ -58,11 +58,11 @@
   <text xml:id="cbheiress_1302298">
     <front xml:id="cbheiress_1307">
       <div xml:id="cbheiress_1306" type="covers">
-        <figure><graphic url="ENTITY_cbheiressfc" rend="inline"/>
+        <figure><graphic url="cbheiressfc.jpg" rend="inline"/>
           <figDesc>Front Cover of <hi rend="italic">The Heiress of Hilldrop</hi> by Charlotte M. Braeme</figDesc>
         </figure>
         <pb xml:id="cbheiress_1305"/>
-        <figure><graphic url="ENTITY_cbheiressbc" rend="inline"/>
+        <figure><graphic url="cbheiressbc.jpg" rend="inline"/>
           <figDesc>Back Cover of <hi rend="italic">The Heiress of Hilldrop</hi> by Charlotte M. Braeme</figDesc>
         </figure>
       </div>
@@ -1003,7 +1003,7 @@ well as the present, Austin. You cannot help being in the position in which you 
         <p xml:id="cbheiress_130918">It came only too quickly. One morning in the early autumn she received a letter front Sir Thomas Dysart. She went out to read it alone, and it contained just what she had expected, just what she had dreaded and foreseen.</p>
         <p xml:id="cbheiress_130919">Sir Thomas had been in the south of France, and had only just heard of the misfortune that had befallen her. He was grieved to increase her troubles, but the engagement between his son and herself must now be considered at an end. He knew Lance would rebel against his decision. but he intended to remain firm, and. if, in spite of his wishes, the marriage was carried out, he should at once disinherit his son and divide all his money among various charities in London.</p>
         <q>
-          <text xml:id="cbheiress_130923">
+          <q><floatingText xml:id="cbheiress_130923">
             <body xml:id="cbheiress_130922">
               <div xml:id="cbheiress_9025" type="letter">
                 <p xml:id="cbheiress_130921">"I know," he continued, "that all good women
@@ -1015,7 +1015,7 @@ are unselfish. It is for you to prove, Miss Laurayne, whether your love for my s
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cbheiress_130924">Though cruel and cutting, though dictated by a sordid mercenary mind, the letter was full of common sense. Constance knew that her marriage now with her lover would ruin him.</p>
         <p xml:id="cbheiress_130925">She clasped the letter for some minutes, bewildered; then her mind recovered its balance.</p>

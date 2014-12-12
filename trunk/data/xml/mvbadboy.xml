@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mvbadboy_aseliza1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mvbadboy_aseliza1201">
   <teiHeader xml:id="aseliza1202"><fileDesc>
       <titleStmt>
         <title>A Bad Boy's Diary, an electronic edition</title>
@@ -10,7 +10,7 @@
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/175cj</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A Bad Boy's Diary</title>. <pubPlace>London</pubPlace>: <publisher>Frederick Warne and Company</publisher>, <date>1883</date>.</bibl>
@@ -55,18 +55,18 @@
     </profileDesc><revisionDesc><change><date>2008-January-07</date><label>Encoder.</label><name>Shruthi Vissa, </name>XML tags inserted in compliance with TEI guidelines.</change></revisionDesc></teiHeader>
   <text xml:id="mvbadboy_1301198">
     <front xml:id="mvbadboy_13012">
-      <div xml:id="mvbadboy_cover" type="front cover">
-        <figure><graphic url="ENTITY_mvbadboyfm1" rend="inline"/>
+      <div xml:id="mvbadboy_cover" type="front_cover">
+        <figure><graphic url="mvbadboyfm1.jpg" rend="inline"/>
           <figDesc> Front Cover of Victor's "A Bad Boy's Diary"</figDesc>
         </figure>
       </div>
       <pb xml:id="mvbadboy_1305"/>
       <div xml:id="mvbadboy_fm2" type="advert">
-        <figure><graphic url="ENTITY_mvbadboyad1" rend="inline"/>
+        <figure><graphic url="mvbadboyad1.jpg" rend="inline"/>
           <figDesc> Advert included in front of Victor's "A Bad Boy's Diary"</figDesc>
         </figure>
         <pb xml:id="mvbadboy_1306"/>
-        <figure><graphic url="ENTITY_mvbadboyad2" rend="inline"/>
+        <figure><graphic url="mvbadboyad2.jpg" rend="inline"/>
           <figDesc> Advert included in front of Victor's "A Bad Boy's Diary"</figDesc>
         </figure>
       </div>
@@ -84,12 +84,12 @@
         </docImprint>
       </titlePage>
       <pb xml:id="mvbadboy_13010"/>
-      <div xml:id="mvbadboy_fm3" type="table of contents">
-        <figure><graphic url="ENTITY_mvbadboytc1" rend="inline"/>
+      <div xml:id="mvbadboy_fm3" type="table_of_contents">
+        <figure><graphic url="mvbadboytc1.jpg" rend="inline"/>
           <figDesc>Table of contents at front of Victor's "Diary of a bad boy"</figDesc>
         </figure>
         <pb xml:id="mvbadboy_13011"/>
-        <figure><graphic url="ENTITY_mvbadboytc2" rend="inline"/>
+        <figure><graphic url="mvbadboytc2.jpg" rend="inline"/>
           <figDesc> Table of contents at front of Victor's "Diary of a bad boy"</figDesc>
         </figure>
       </div>
@@ -2273,7 +2273,7 @@ like other folks do when they want to advurtize."</p>
 read all over it quick til she came to the speshal notis collum, where
 it sade:</p>
         <q>
-          <text xml:id="mvbadboy_130621">
+          <q><floatingText xml:id="mvbadboy_130621">
             <body xml:id="mvbadboy_130620">
               <div xml:id="mvbadboy_100" type="letter">
                 <opener>
@@ -2293,7 +2293,7 @@ are shallo crechures any way, they beg to be excused this year.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mvbadboy_130622">Sue, she was looking over Bess's sholder; both my sisters got as
 red as fire--then as pail as chalk--an' sat rite down as if they hed
@@ -5575,36 +5575,36 @@ child, like the good little boys you read of.</p>
     <back xml:id="mvbadboy_1301197">
       <pb xml:id="mvbadboy_1301192" n="[127]"/>
       <div xml:id="mvbadboy_bm1" type="advert">
-        <figure><graphic url="ENTITY_mvbadboybad1" rend="inline"/>
+        <figure><graphic url="mvbadboybad1.jpg" rend="inline"/>
           <figDesc> Advertisement at back of Victor's "Bad Boy's Diary"</figDesc>
         </figure>
       </div>
       <pb xml:id="mvbadboy_1301193" n="[128]"/>
       <div xml:id="mvbadboy_bm2" type="advert">
-        <figure><graphic url="ENTITY_mvbadboybad2" rend="inline"/>
+        <figure><graphic url="mvbadboybad2.jpg" rend="inline"/>
           <figDesc> Advertisement at back of Victor's "Bad Boy's Diary"</figDesc>
         </figure>
       </div>
       <pb xml:id="mvbadboy_1301194" n="[129]"/>
       <div xml:id="mvbadboy_bm3" type="advert">
-        <figure><graphic url="ENTITY_mvbadboybad3" rend="inline"/>
+        <figure><graphic url="mvbadboybad3.jpg" rend="inline"/>
           <figDesc> Advertisement at back of Victor's "Bad Boy's Diary"</figDesc>
         </figure>
       </div>
       <pb xml:id="mvbadboy_1301195" n="[130]"/>
       <div xml:id="mvbadboy_bm4" type="advert">
-        <figure><graphic url="ENTITY_mvbadboybad4" rend="inline"/>
+        <figure><graphic url="mvbadboybad4.jpg" rend="inline"/>
           <figDesc> Advertisement at back of Victor's "Bad Boy's Diary"</figDesc>
         </figure>
       </div>
       <pb xml:id="mvbadboy_1301196" n="[131]"/>
       <div xml:id="mvbadboy_bm5" type="advert">
-        <figure><graphic url="ENTITY_mvbadboybad5" rend="inline"/>
+        <figure><graphic url="mvbadboybad5.jpg" rend="inline"/>
           <figDesc> Advertisement at back of Victor's "Bad Boy's Diary"</figDesc>
         </figure>
       </div>
       <div xml:id="mvbadboy_bc" type="advert">
-        <figure><graphic url="ENTITY_mvbadboybad6" rend="inline"/>
+        <figure><graphic url="mvbadboybad6.jpg" rend="inline"/>
           <figDesc>Back Cover of Victor's "Bad Boy's Diary"</figDesc>
         </figure>
       </div>

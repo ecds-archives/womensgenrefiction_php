@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb1elean_0000">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb1elean_0000">
   <teiHeader xml:id="mb1elean0001"><fileDesc>
       <titleStmt>
         <title>Eleanor's Victory, volume I, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Eleanor's Victory, volume
@@ -85,7 +85,7 @@ added by the encoder and do not appear in the original text.</p>
     <front xml:id="mb1elean_0003">
       <pb xml:id="mb1elean_1305" n="[1]"/>
       <div xml:id="mb1elean_000" type="paratext">
-        <figure><graphic url="ENTITY_mb1eleanfm1" rend="inline"/>
+        <figure><graphic url="mb1eleanfm1.jpg" rend="inline"/>
           <figDesc>Inscription in the first volume of Braddon's <title rend="italic">Eleanor's Victory</title>.</figDesc>
         </figure>
       </div>
@@ -113,7 +113,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="mb1elean_13010" n="[iv]"/>
       <div xml:id="mb1elean_001" type="copyright">
-        <figure><graphic url="ENTITY_mb1eleancr" rend="inline"/>
+        <figure><graphic url="mb1eleancr.jpg" rend="inline"/>
           <figDesc>Copyright information for the first volume of Braddon's <hi rend="italic">Eleanor's Victory</hi>.</figDesc>
         </figure>
       </div>
@@ -125,12 +125,12 @@ AMONG <lb/>THOSE EARLY FRIENDS WHOSE HEARTILY <lb/>EXPRESSED OPINION
 <lb/>GAVE ENCOURAGEMENT TO <lb/>THE AUTHOR.</p>
       </div>
       <pb xml:id="mb1elean_13013" n="[vii]"/>
-      <div xml:id="mb1elean_003" type="table of contents">
-        <figure><graphic url="ENTITY_mb1eleantc1" rend="inline"/>
+      <div xml:id="mb1elean_003" type="table_of_contents">
+        <figure><graphic url="mb1eleantc1.jpg" rend="inline"/>
           <figDesc>Table of contents for the first volume of Braddon's <title rend="italic">Eleanor's Victory</title>.</figDesc>
         </figure>
         <pb xml:id="mb1elean_13014" n="viii CONTENTS."/>
-        <figure><graphic url="ENTITY_mb1eleantc2" rend="inline"/>
+        <figure><graphic url="mb1eleantc2.jpg" rend="inline"/>
           <figDesc>Table of contents for the first volume of Braddon's <title rend="italic">Eleanor's Victory</title>.</figDesc>
         </figure>
       </div>
@@ -260,7 +260,7 @@ the passengers had rushed away to a great dreary  <hi rend="italic">salle d' att
         <p xml:id="mb1elean_130137">The letter from Hortensia Bannister was not a long one. It was written in sharp and decisive paragraphs, and in a neat, firm hand. Rather a cruel-looking hand, Eleanor Vane thought.</p>
         <p xml:id="mb1elean_130138">The old man put a double gold eyeglass over his nose, and began to read.</p>
         <q>
-          <text xml:id="mb1elean_130144">
+          <q><floatingText xml:id="mb1elean_130144">
             <body xml:id="mb1elean_130143">
               <opener>
                 <dateline><name rend="italic" type="place">Hyde Park
@@ -271,7 +271,7 @@ Gardens</name>, <date><hi rend="italic">August</hi>, 1853.</date></dateline>
               <p xml:id="mb1elean_130140">"I must, however, remind you that Eleanor Vane and I are the children of different mothers; that she has, therefore, less claim upon me than a sister usually has; and I freely confess I never heard of one sister being called upon to provide for another.</p>
               <p xml:id="mb1elean_130142">"You must also remember that I never enter-<pb xml:id="mb1elean_130141" n="30 ELEANOR'S VICTORY."/>tained any degree of friendship or affection for Eleanor's mother, who was much below you in station, and whom you married in direct opposition to myself and my sisters—"</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb1elean_130145">Eleanor started; she was too impetuous to listen quite passively to this letter. Her father felt the sudden movement of the arm about his neck.</p>
         <p xml:id="mb1elean_130146">"Your mother was an angel, my dear," he said; " and this woman is—never mind what. My daughters chose to give themselves airs to your poor mother because she had been their governess, and because her father had failed as a sugar-broker."</p>
@@ -286,7 +286,7 @@ Gardens</name>, <date><hi rend="italic">August</hi>, 1853.</date></dateline>
         <p xml:id="mb1elean_130153">"Yes, yes, my love, for your sake; if I stoop, it is for your sake, Eleanor."</p>
         <p xml:id="mb1elean_130154">The old man went on reading.</p>
         <q>
-          <text xml:id="mb1elean_130167">
+          <q><floatingText xml:id="mb1elean_130167">
             <body xml:id="mb1elean_130166">
               <p xml:id="mb1elean_130155">"Under these circumstances," the writer continued, "I have come to the following determination. I will give you a hundred pounds, to be paid to Madame Marly, who knows you, and has received a great deal of money from you for my education and that of my sisters, and who will, therefore, be inclined to receive Eleanor upon advantageous terms, For this sum of money Madame Marly will, I feel assured, consent to prepare my half-sister for the situation of governess in a gentleman's family; that is, of course, premising that Eleanor has availed herself conscientiously of the advantages afforded her by her residence with the Misses Bennett.</p>
               <p xml:id="mb1elean_130157">"I shall write to Madame Marly by this post, using my best influence with her for Eleanor's benefit; and, should I receive a favourable reply <pb xml:id="mb1elean_130156" n="32 ELEANOR'S VICTORY."/>to this letter, I will immediately send you an order for a hundred pounds, to be paid by you to Madame Marly.</p>
@@ -303,7 +303,7 @@ Gardens</name>, <date><hi rend="italic">August</hi>, 1853.</date></dateline>
                 <signed>"HORTENSIA BANNISTER."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb1elean_130168">George Vane burst into tears as he finished the letter. How cruelly she had stabbed him, this honourable, conscientious daughter, whom he had robbed certainly, but in a generous, magnanimous, reckless fashion, that made robbery rather a princely virtue than a sordid vice. How cruelly the old heart was lacerated by that bitter letter!</p>
         <p xml:id="mb1elean_130170">"As if I would touch the money," cried Mr. Vane, elevating his trembling hands to the low ceiling with a passionate and tragic gesture. "Have I been such a wretch to you, Eleanor, <pb xml:id="mb1elean_130169" n="34 ELEANOR'S VICTORY."/>that this woman should accuse me of wishing to snatch the bread from your innocent lips?"</p>
@@ -924,7 +924,7 @@ selected one, and handed it silently to Eleanor Vane. It was a sheet
 of letter-paper, written upon <pb n="170 ELEANOR'S VICTORY." pages="170" facs="mb1elean170"/>in her father's hand, but a part of it had been torn away.</p>
         <p xml:id="mb1elean_130798">Even had the whole of the letter been left, the writer's style was so wild and incoherent that it would have been no easy task to understand his meaning. In its torn and fragmentary state, this scrap of writing left by George Vane was only a scribble of confused and broken sentences. The sheet of paper had been torn from the top to the bottom, so that the end of each line was missing. The following broken lines were therefore all that Eleanor could decipher, and in these the words were blotted and indistinct.</p>
         <q>
-          <text xml:id="mb1elean_130802">
+          <q><floatingText xml:id="mb1elean_130802">
             <body xml:id="mb1elean_130801">
               <opener>
                 <salute>MY POOR ELEANOR,—</salute>
@@ -943,7 +943,7 @@ a villain who<lb/> some day live to revenge the fate<lb/> poor old
 father, who prays that God will<lb/> helpless old man whose folly<lb/>
 madness have</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb1elean_130803">There was no more. These lines were spread over the first leaf of a sheet of letter-paper; the second leaf, as well as a long strip of the first, had been torn away.</p>
         <p xml:id="mb1elean_130804">This was the only clue to the secret of his death which George Vane had left behind him.</p>
@@ -1182,7 +1182,7 @@ madness have</p>
         <p xml:id="mb1elean_1301076">ELEANOR VANE was not to go down to Berkshire alone. The beginning of her new life, that terrible beginning which she so much dreaded, was to make her acquainted with new people.</p>
         <p xml:id="mb1elean_1301077">She had received the following communication from Mrs. Darrell.</p>
         <q>
-          <text xml:id="mb1elean_1301081">
+          <q><floatingText xml:id="mb1elean_1301081">
             <body xml:id="mb1elean_1301080">
               <opener>
                 <dateline><name type="place"><hi rend="italic">"Hazlewood,</hi></name> <date><hi rend="italic">April 3rd,</hi> 1855.</date></dateline>
@@ -1196,7 +1196,7 @@ madness have</p>
                 <signed>"ELLEN DARRELL."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="mb1elean_1301082" n="239 GILBERT MONCKTON."/>
         <p xml:id="mb1elean_1301083">Eliza Picirillo worked harder upon a Monday than on any day in the
@@ -1599,12 +1599,12 @@ you here are friends whom nothing upon earth can ever estrange from you. Remembe
       </div>
       <pb xml:id="mb1elean_1301498"/>
       <div xml:id="mb1elean_n051" type="adverts">
-        <figure><graphic url="ENTITY_mb1eleanbm1" rend="inline"/>
+        <figure><graphic url="mb1eleanbm1.jpg" rend="inline"/>
           <figDesc>Advertisement for Benson's Watches and Clocks included in the back of the first volume of
 Braddon's <hi rend="italic">Eleanor's Victory</hi>.</figDesc>
         </figure>
         <pb xml:id="mb1elean_1301499"/>
-        <figure><graphic url="ENTITY_mb1eleanbm2" rend="inline"/>
+        <figure><graphic url="mb1eleanbm2.jpg" rend="inline"/>
           <figDesc>Advertisement for Benson's Watches and Clocks included in the back of the first volume of
 Braddon's <hi rend="italic">Eleanor's Victory</hi>.</figDesc>
         </figure>

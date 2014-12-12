@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mostori_12018">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mostori_12018">
   <teiHeader xml:id="mostori1201"><fileDesc>
       <titleStmt>
         <title>Stories of the Seen and Unseen, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila  T. Cavanagh</name>
           <name>Charles  D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Stories of the Seen and the Unseen</title>.  <pubPlace>Edinburgh</pubPlace>:<publisher>William Blackwood and Sons</publisher>,<date> 1902</date>.  viii, 316 pages.</bibl>
@@ -75,7 +75,7 @@ page images are linked to the text file.</p>
   <text xml:id="mostori_12017">
     <front xml:id="mostori_1202">
       <div xml:id="mostori_030" type="covers">
-        <figure><graphic url="ENTITY_mostorifc" height="504" rend="inline" width="357"/>
+        <figure><graphic url="mostorifc.jpg" height="504px" rend="inline" width="357px"/>
           <figDesc>Image of the front cover of Mrs. Oliphant's <hi rend="italic">
 Stories of the Seen and Unseen</hi>.</figDesc>
         </figure>
@@ -100,8 +100,8 @@ Stories of the Seen and Unseen</hi>.</figDesc>
         <imprimatur>All rights reserved</imprimatur>
       </titlePage>
       <pb xml:id="mostori_1309" n="[v]"/>
-      <div xml:id="mostori_031" type="table of contents">
-        <figure><graphic url="ENTITY_mostoritc" height="504" rend="inline" width="311"/>
+      <div xml:id="mostori_031" type="table_of_contents">
+        <figure><graphic url="mostoritc.jpg" height="504px" rend="inline" width="311px"/>
           <figDesc>Image of the table of contents for Mrs. Oliphant's <hi rend="italic">
 Stories of the Seen and Unseen</hi>.</figDesc>
         </figure>

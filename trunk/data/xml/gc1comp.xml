@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gc1comp_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gc1comp_1206">
   <teiHeader xml:id="gc1comp1201"><fileDesc>
       <titleStmt>
         <title>Compensation, volume I, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Compensation, volume I</title>. <pubPlace>London</pubPlace>:
@@ -93,12 +93,12 @@ translation]</hi>
         </imprimatur>
       </titlePage>
       <pb xml:id="gc1comp_1307" n="[iii]"/>
-      <div xml:id="gc1comp_000" type="table of contents">
-        <figure><graphic url="ENTITY_gc1comptc1" rend="inline"/>
+      <div xml:id="gc1comp_000" type="table_of_contents">
+        <figure><graphic url="gc1comptc1.jpg" rend="inline"/>
           <figDesc>Table of contents for the first volume Chatterton's <hi rend="italic">Compensation</hi>.</figDesc>
         </figure>
         <pb xml:id="gc1comp_1308" n="iv"/>
-        <figure><graphic url="ENTITY_gc1comptc2" rend="inline"/>
+        <figure><graphic url="gc1comptc2.jpg" rend="inline"/>
           <figDesc>Table of contents for the first volume Chatterton's <hi rend="italic">Compensation</hi>.</figDesc>
         </figure>
       </div>

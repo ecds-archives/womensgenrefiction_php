@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ekwed_9999">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ekwed_9999">
   <teiHeader xml:id="ekwed9998"><fileDesc>
       <titleStmt>
         <title>Wedded to Sport, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Wedded to Sport</title>. <pubPlace>London:</pubPlace>: <publisher>F. V. White &amp; Co.</publisher>, <date>1894.</date>.</bibl>
@@ -81,22 +81,22 @@ added by the encoder and do not appear in the original text.</p>
     </profileDesc><revisionDesc><change><date>2008-September-10</date><label>Encoder.</label><name>Shruthi Vissa, </name>XML tags inserted in compliance with TEI guidelines.</change></revisionDesc></teiHeader>
   <text xml:id="ekwed_1303471">
     <front xml:id="ekwed_13024">
-      <div xml:id="ekwed_100" type="front cover">
-        <figure><graphic url="ENTITY_ekwedfc" rend="inline"/>
+      <div xml:id="ekwed_100" type="front_cover">
+        <figure><graphic url="ekwedfc.jpg" rend="inline"/>
           <figDesc> Front cover of Kennard's "Wedded to Sport"</figDesc>
         </figure>
       </div>
       <pb xml:id="ekwed_1305"/>
       <div xml:id="ekwed_200" type="advert">
-        <figure><graphic url="ENTITY_ekwedad1" rend="inline"/>
+        <figure><graphic url="ekwedad1.jpg" rend="inline"/>
           <figDesc> Advertisement included in front of Kennard's "Wedded to Sport"</figDesc>
         </figure>
         <pb xml:id="ekwed_1306"/>
-        <figure><graphic url="ENTITY_ekwedad2" rend="inline"/>
+        <figure><graphic url="ekwedad2.jpg" rend="inline"/>
           <figDesc> Advertisement included in front of Kennard's "Wedded to Sport"</figDesc>
         </figure>
         <pb xml:id="ekwed_1307"/>
-        <figure><graphic url="ENTITY_ekwedad3" rend="inline"/>
+        <figure><graphic url="ekwedad3.jpg" rend="inline"/>
           <figDesc> Advertisement included in front of Kennard's "Wedded to Sport"</figDesc>
         </figure>
       </div>
@@ -137,12 +137,12 @@ AUTHOR OF<lb/>"A HOMBURG BEAUTY," "THE GIRL IN THE BROWN HABIT,"<lb/>
         <p xml:id="ekwed_13018"> AND KINGSTON-ON-THAMES</p>
       </div>
       <pb xml:id="ekwed_13019"/>
-      <div xml:id="ekwed_400" type="table of contents">
-        <figure><graphic url="ENTITY_ekwedtc1" rend="inline"/>
+      <div xml:id="ekwed_400" type="table_of_contents">
+        <figure><graphic url="ekwedtc1.jpg" rend="inline"/>
           <figDesc> Table of contents at front of Kennard's "Wedded to Sport"</figDesc>
         </figure>
         <pb xml:id="ekwed_13020"/>
-        <figure><graphic url="ENTITY_ekwedtc2" rend="inline"/>
+        <figure><graphic url="ekwedtc2.jpg" rend="inline"/>
           <figDesc> Table of contents at front of Kennard's "Wedded to Sport"</figDesc>
         </figure>
       </div>

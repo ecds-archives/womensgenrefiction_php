@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mfmothe_9999">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mfmothe_9999">
   <teiHeader xml:id="mfmothe9998"><fileDesc>
       <titleStmt>
         <title>Elsie's Motherhood, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Elsie's Motherhood</title>. <pubPlace>New York</pubPlace>: <publisher>Dodd, Mead and Company</publisher>, <date>1904</date>.</bibl>
@@ -82,14 +82,14 @@ added by the encoder and do not appear in the original text.</p>
     </profileDesc><revisionDesc><change><date>2008-September-9</date><label>Encoder.</label><name>Shruthi Vissa, </name>XML tags inserted in compliance with TEI guidelines.</change></revisionDesc></teiHeader>
   <text xml:id="mfmothe_1302863">
     <front xml:id="mfmothe_13018">
-      <div xml:id="mfmothe_cover" type="front cover">
-        <figure><graphic url="ENTITY_mfmothefc" rend="inline"/>
+      <div xml:id="mfmothe_cover" type="front_cover">
+        <figure><graphic url="mfmothefc.jpg" rend="inline"/>
           <figDesc> Front Cover of Finley's "Elsie's Motherhood"</figDesc>
         </figure>
       </div>
       <pb xml:id="mfmothe_1305"/>
       <div xml:id="mfmothe_100" type="frontispiece">
-        <figure><graphic url="ENTITY_mfmotheill" rend="inline"/>
+        <figure><graphic url="mfmotheill.jpg" rend="inline"/>
           <figDesc> Illustration included in front of Finley's "Elsie's Motherhood"</figDesc>
         </figure>
       </div>
@@ -120,8 +120,8 @@ PUBLISHERS</publisher>
         </docImprint>
       </titlePage>
       <pb xml:id="mfmothe_1309"/>
-      <div xml:id="mfmothe_200" type="copyright page">
-        <figure><graphic url="ENTITY_mfmothecp" rend="inline"/>
+      <div xml:id="mfmothe_200" type="copyright">
+        <figure><graphic url="mfmothecp.jpg" rend="inline"/>
           <figDesc> copyright information included in front of Finley's "Elsie's Motherhood"</figDesc>
         </figure>
       </div>

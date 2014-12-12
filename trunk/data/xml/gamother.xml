@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gamother_12022">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gamother_12022">
   <teiHeader xml:id="gamother1201"><fileDesc>
       <titleStmt>
         <title>The Mother's Recompense, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Mother's
@@ -84,7 +84,7 @@ added by the encoder and do not appear in the original text.</p>
     <front xml:id="gamother_1202">
       <pb xml:id="gamother_1305"/>
       <div xml:id="gamother_000" type="frontispiece">
-        <figure><graphic url="ENTITY_gamotherfp" rend="inline"/>
+        <figure><graphic url="gamotherfp.jpg" rend="inline"/>
           <p xml:id="gamother_1306">Page 165.</p>
           <figDesc>Frontispiece included in Aguilar's <hi rend="italic">The
 Mother's Recompense</hi>.</figDesc>
@@ -170,7 +170,7 @@ ultimate reward of maternal love.</p>
 Greville.</hi>
         </p>
         <q>
-          <text xml:id="gamother_1204">
+          <q><floatingText xml:id="gamother_1204">
             <body xml:id="gamother_1203">
               <div xml:id="gamother_100" type="letter">
                 <opener>
@@ -319,13 +319,13 @@ Once more, adieu.</salute>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gamother_13068" rend="center">
           <hi rend="italic">From Mrs. Hamilton to Miss Greville.</hi>
         </p>
         <q>
-          <text xml:id="gamother_1206">
+          <q><floatingText xml:id="gamother_1206">
             <body xml:id="gamother_1205">
               <div xml:id="gamother_101" type="letter">
                 <p xml:id="gamother_13071">I cannot, my dear Mary, suffer Emmeline's long letter to be forwarded to you without a few lines from me, to remove all lingering fears which you may perhaps have had, that I do not approve of your correspondence. Believe me, my dear girl, that to see you the chosen friend of my giddy but warm-hearted Emmeline is still, as it has ever been from your childhood, a source of real pleasure both to Mr. Hamilton
@@ -340,13 +340,13 @@ young sailor writes that this is rather a source of pleasure to him, for it will
                 <closer><salute>Yours, most affectionately,</salute> <signed>E. HAMILTON.</signed></closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gamother_13075" rend="center">
           <hi rend="italic">From Emmeline Hamilton to Mary Greville.</hi>
         </p>
         <q>
-          <text xml:id="gamother_1208">
+          <q><floatingText xml:id="gamother_1208">
             <body xml:id="gamother_1207">
               <div xml:id="gamother_102" type="letter">
                 <p xml:id="gamother_13078">A month, actually a whole month has elapsed, dearest Mary, since I wrote to you last, and not a line from you. Granting it was nearly a week on the way, three weeks are surely long enough for you to have written an answer, when I entreated
@@ -371,13 +371,13 @@ heart. Why am I so prejudiced against her, you will ask. Mary, I am prejudiced, 
                 <closer><salute>Your very affectionate</salute> <signed>EMMELINE.</signed></closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gamother_13090" rend="center">
           <hi rend="italic">From Mary Greville to Emmeline Hamilton.</hi>
         </p>
         <q>
-          <text xml:id="gamother_12010">
+          <q><floatingText xml:id="gamother_12010">
             <body xml:id="gamother_1209">
               <div xml:id="gamother_104" type="letter">
                 <opener>
@@ -399,13 +399,13 @@ will obey her gentle hint. Farewell, my Emmeline; may you long be spared the sor
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gamother_13097" rend="center">
           <hi rend="italic">From Mrs. Hamilton to Miss Greville.</hi>
         </p>
         <q>
-          <text xml:id="gamother_12012">
+          <q><floatingText xml:id="gamother_12012">
             <body xml:id="gamother_12011">
               <div xml:id="gamother_105" type="letter">
                 <opener>
@@ -420,7 +420,7 @@ blessed comfort in her fond heart, of which nothing can deprive her. For her sak
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb xml:id="gamother_130100" n="29 THE MOTHER'S RECOMPENSE."/>
@@ -1388,7 +1388,7 @@ do for a fortnight after his rejection, strengthened the intentions of both. The
 and ridicule, should mere acquaintance take the place of intimate friendship.</p>
         <p xml:id="gamother_130876">Miss Grahame accordingly wrote in a truly heroic and highly-phrased style, regretting, sympathising, and encouraging; but the answer, though guardedly worded, told her too plainly all her influence was over.</p>
         <q>
-          <text xml:id="gamother_12014">
+          <q><floatingText xml:id="gamother_12014">
             <body xml:id="gamother_12013">
               <div xml:id="gamother_110" type="letter">
                 <p xml:id="gamother_130878">"I am not strong enough," wrote Caroline, "yet to argue with you,
@@ -1429,7 +1429,7 @@ That visit to London, that introduction in the gay world, to which I looked forw
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <div xml:id="gamother_018" n="8" type="chapter">
@@ -1783,7 +1783,7 @@ His plan succeeded admirably: St. Eval galloped off to Airslie early the next mo
         <p xml:id="gamother_1301155">Lady Gertrude listened with earnest attention. The tale startled her, but she disliked the very sight of Lord Alphingham; she believed him to be a bad, designing man. She felt convinced Caroline did love her brother, much as appearances were against her; and both these feelings urged her to sift the whole matter carefully, and not permit the happiness of two individuals to be sacrificed to what might be but the idle invention or exaggerations of a bad man. Her ready mind instantly formed its plan, which calmly but earnestly she imparted to her brother, and implored his consent to act upon it. Startled and disturbed, St. Eval at first peremptorily refused; but his sister's eloquence at length succeeded.</p>
         <p xml:id="gamother_1301156">Early in the morning of the succeeding day Caroline Hamilton received the following brief note:--</p>
         <q>
-          <text xml:id="gamother_12016">
+          <q><floatingText xml:id="gamother_12016">
             <body xml:id="gamother_12015">
               <div xml:id="gamother_111" type="letter">
                 <p xml:id="gamother_1301157">"Will you, my dear Caroline, receive me half an hour this afternoon? I have something important to say; I have vanity enough to believe as it concerns me it will interest you. We shall be more alone at your house than mine, or I might ask you to come to me.</p>
@@ -1793,7 +1793,7 @@ His plan succeeded admirably: St. Eval galloped off to Airslie early the next mo
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gamother_1301158">Completely at a loss to understand the meaning of this little note, Caroline merely wrote a line to say she should be quite at Lady Gertrude's service at the appointed time; and so deeply was she engrossed in the sad tenour of her own thoughts, that all curiosity as to this important communication was dismissed.</p>
         <pb xml:id="gamother_1301159" n="247 THE MOTHER'S RECOMPENSE."/>
@@ -1987,7 +1987,7 @@ at which I caned but little, for I could not do it so quickly. I had hoped there
 to conclude her painful task, and thus obtained the approbation of her more than mother, the relative she so revered and loved.</p>
         <p xml:id="gamother_1301323">"And this, then, was the long task which your numerous avocations during the day prevented your completing, and you therefore took the time from that allotted to recreation and amusement--this, which so strongly emboldened my little Ellen, that even my coldness had no effect, except to make her miserable. What do you not deserve for thus deceiving me? I do not think I know any punishment sufficiently severe." Mrs. Hamilton had recalled all her playfulness, for she wished to banish every trace of sadness and emotion from the countenance of her niece. Ellen raised her head to answer her in her own playful tone, when they were both startled by the declining light of day being suddenly obscured, as if by the shadow of a figure standing by the open window near them. It was, however, so dark, that the outlines of the intruder were alone visible, and they would have been unrecognized by any, save by the eye of affection.</p>
         <p xml:id="gamother_1301327">Ellen sprung suddenly to her feet. "Edward!" burst gladly from her lips, and in another second a fine manly youth had darted through the open casement, and the long-parted brother and sister were in each other's arms. For a minute only Ellen was pressed in his embrace, and then releasing her, he turned towards his aunt, and even as a devoted mother, a fond and dutiful son, they met, for such had they been in the long years of separation. Frequently had that high-spirited boy been tempted to error and to sin, but as a talisman had her letters been. He thought on the years that were passed, on their last interview, when every word had graven itself upon his heart, on the devotedness of his orphan sister, the misery he had once occasioned; he thought on these things, and stood firm,--the tempter fled, he stood before them erect in youthful beauty, no inward stain bade him turn from those fond looks or shrink from the entwining arms of his young sister. And, oh, how blessed is it thus to meet! To feel that vanished years have not estranged us, distance has not diminished love, that we are to each other even as we parted; to feel again the fond kiss, to hear once more the accents of a voice which to us has been for years so still,--a voice that brings with it
-<pb xml:id="gamother_1301324"/><figure><graphic url="ENTITY_gamotherill276" rend="inline"/><p xml:id="gamother_1301325">Page 277.</p><figDesc>Illustration included in Aguilar's <hi rend="italic">The
+<pb xml:id="gamother_1301324"/><figure><graphic url="gamotherill276.jpg" rend="inline"/><p xml:id="gamother_1301325">Page 277.</p><figDesc>Illustration included in Aguilar's <hi rend="italic">The
 Mother's Recompense</hi>.</figDesc></figure><pb xml:id="gamother_1301326" n="278 THE MOTHER'S RECOMPENSE."/>
 the gush of memory! Past days flit before us; feelings, thoughts, hopes, we deemed were dead, all rise again, summoned by that secret witchery, the well-remembered though long silent voice. Let years, long, lingering, saddening years drag on their chain, let youth have given place to manhood, manhood to age, still will it be the same--the voice we once have loved, and deemed to us for ever still--oh, time, and grief, and blighted hope will be forgotten, and youth, in its undimmed and joyous beauty, its glow of generous feelings, its bright anticipations, all, all again be ours.</p>
         <p xml:id="gamother_1301328">"Mother; yes, now indeed may I call you mother!" exclaimed Edward, when the agitation of this sudden meeting had subsided, and he found himself seated on a sofa between his aunt and sister, clasping the hand of the former and twining his arm caressingly round the latter. "Now indeed may I indulge in the joy it is to behold you both again; now may I stand forth unshrinkingly to meet my uncle's glance, no guilt, or shame, or fear has cast its mist upon my heart. This was your gift," he drew a small Bible from his bosom. "I read it, first, because it had been yours, because it was dear to you, and then came other and holier thoughts, and I bowed down before the God you worshipped, and implored His aid to find strength, and he heard me."</p>
@@ -2496,7 +2496,7 @@ glanced her eye over the paper, and read as follows:--</p>
 Hanover.</hi>
         </p>
         <q>
-          <text xml:id="gamother_12018">
+          <q><floatingText xml:id="gamother_12018">
             <body xml:id="gamother_12017">
               <div xml:id="gamother_120" type="letter">
                 <opener>
@@ -2541,7 +2541,7 @@ fellow-creatures will be yours as warmly, as unfeignedly, as is that of</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gamother_1301728">No word, no sound broke from the parched lips of Emmeline as she ceased to read. She returned the paper to her father in that same silence, and turning from his glance, buried her face in her hands. Mr. Hamilton guessed at once all that was passing in that young and tortured heart; he drew her to him, and whispered fondly--</p>
         <p xml:id="gamother_1301729">"Speak to me, my Emmeline. You do not think he can mistake my feelings. He will not doubt all prejudice is removed."</p>
@@ -2947,7 +2947,7 @@ which, while the beauteous earth yet retains the traces of an awful curse, hath 
             <l>Vainly such a dream as this.</l>
           </lg>
           <pb xml:id="gamother_1302055"/>
-          <figure><graphic url="ENTITY_gamotherill424" rend="inline"/>
+          <figure><graphic url="gamotherill424.jpg" rend="inline"/>
             <p xml:id="gamother_1302056">Page 425.</p>
             <figDesc>Illustration included in Aguilar's <hi rend="italic">The
 Mother's Recompense</hi>.</figDesc>
@@ -3716,35 +3716,35 @@ day."</p>
       </div>
       <div xml:id="gamother_301" type="adverts">
         <pb xml:id="gamother_1302560"/>
-        <figure><graphic url="ENTITY_gamotherad1" rend="inline"/>
+        <figure><graphic url="gamotherad1.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Aguilar's <hi rend="italic">The Mother's Recompense</hi>.</figDesc>
         </figure>
         <pb xml:id="gamother_1302561"/>
-        <figure><graphic url="ENTITY_gamotherad2" rend="inline"/>
+        <figure><graphic url="gamotherad2.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Aguilar's <hi rend="italic">The Mother's Recompense</hi>.</figDesc>
         </figure>
         <pb xml:id="gamother_1302562"/>
-        <figure><graphic url="ENTITY_gamotherad3" rend="inline"/>
+        <figure><graphic url="gamotherad3.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Aguilar's <hi rend="italic">The Mother's Recompense</hi>.</figDesc>
         </figure>
         <pb xml:id="gamother_1302563"/>
-        <figure><graphic url="ENTITY_gamotherad4" rend="inline"/>
+        <figure><graphic url="gamotherad4.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Aguilar's <hi rend="italic">The Mother's Recompense</hi>.</figDesc>
         </figure>
         <pb xml:id="gamother_1302564"/>
-        <figure><graphic url="ENTITY_gamotherad5" rend="inline"/>
+        <figure><graphic url="gamotherad5.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Aguilar's <hi rend="italic">The Mother's Recompense</hi>.</figDesc>
         </figure>
         <pb xml:id="gamother_1302565"/>
-        <figure><graphic url="ENTITY_gamotherad6" rend="inline"/>
+        <figure><graphic url="gamotherad6.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Aguilar's <hi rend="italic">The Mother's Recompense</hi>.</figDesc>
         </figure>
         <pb xml:id="gamother_1302566"/>
-        <figure><graphic url="ENTITY_gamotherad7" rend="inline"/>
+        <figure><graphic url="gamotherad7.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Aguilar's <hi rend="italic">The Mother's Recompense</hi>.</figDesc>
         </figure>
         <pb xml:id="gamother_1302567"/>
-        <figure><graphic url="ENTITY_gamotherad8" rend="inline"/>
+        <figure><graphic url="gamotherad8.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Aguilar's <hi rend="italic">The Mother's Recompense</hi>.</figDesc>
         </figure>
       </div>

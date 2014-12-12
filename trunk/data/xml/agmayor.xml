@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="agmayor_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="agmayor_1201">
   <teiHeader xml:id="agmayor1202"><fileDesc>
       <titleStmt>
         <title>The Mayor's Wife, an electronic edition</title>
@@ -10,7 +10,7 @@
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/16xsd</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt> <name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name><resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt> <name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name><resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Mayor's Wife</title>. <pubPlace>New York</pubPlace>: <publisher>Grosset &amp; Dunlap</publisher>, <date>1907</date>.</bibl>
@@ -41,7 +41,7 @@
     </profileDesc><revisionDesc><change><date>2007-June-25</date><label>Encoder.</label><name>Shruthi Vissa,</name>XML tags inserted in compliance with TEI guidelines using TEILITE.</change></revisionDesc></teiHeader>
   <text xml:id="agmayor_1203">
     <front xml:id="agmayor_1204">
-      <div xml:id="agmayor_cover" type="front cover">
+      <div xml:id="agmayor_cover" type="front_cover">
         <figure><graphic url="agmayor.jpg_front_cover" rend="inline"/>
           <figDesc> Front Cover of Green's "The Mayor's Wife"</figDesc>
         </figure>
@@ -69,7 +69,7 @@
         </figure>
       </div>
       <pb xml:id="agmayor_13010"/>
-      <div xml:id="agmayor_100" type="table of contents">
+      <div xml:id="agmayor_100" type="table_of_contents">
         <figure><graphic url="agmayor.jpg_contents1" rend="inline"/>
           <figDesc>First table of contents page for Green's "The Mayor's Wife"</figDesc>
         </figure>

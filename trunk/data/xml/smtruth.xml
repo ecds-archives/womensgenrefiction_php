@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="smtruth_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="smtruth_1201">
   <teiHeader xml:id="smtruth1202"><fileDesc>
       <titleStmt>
         <title>Truth Dexter, an electronic edition</title>
@@ -8,7 +8,7 @@
       <publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2007</date><availability><p xml:id="smtruth_1301">© 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p> </availability><idno type="ark">http://pid.emory.edu/ark:/25593/176nr</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt> <name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name><resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt> <name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name><resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Truth Dexter</title>. <pubPlace>Boston</pubPlace>: <publisher>Little, Brown and Company</publisher>, <date>1901</date>.</bibl>
@@ -64,7 +64,7 @@
       </titlePage>
       <pb xml:id="smtruth_1308" n="[iv]"/>
       <div xml:id="smtruth_fm1" type="copyright">
-        <figure><graphic url="ENTITY_smtruthcopyright" rend="inline"/>
+        <figure><graphic url="smtruthcopyright.jpg" rend="inline"/>
           <figDesc>Copyright Page for McCall's "Truth Dexter"</figDesc>
         </figure>
       </div>
@@ -80,12 +80,12 @@
       </div>
       <pb xml:id="smtruth_13013"/>
       <pb xml:id="smtruth_13014" n="[vii]"/>
-      <div xml:id="smtruth_200" type="Table of Contents">
-        <figure><graphic url="ENTITY_smtruthcont" rend="inline"/>
+      <div xml:id="smtruth_200" type="table_of_contents">
+        <figure><graphic url="smtruthcont.jpg" rend="inline"/>
           <figDesc>Table of Contents included in front of McCall's "Truth Dexter"</figDesc>
         </figure>
         <pb xml:id="smtruth_13015" n="[viii]"/>
-        <figure><graphic url="ENTITY_smtruthcont2" rend="inline"/>
+        <figure><graphic url="smtruthcont2.jpg" rend="inline"/>
           <figDesc>Table of Contents included in front of McCall's "Truth Dexter"</figDesc>
         </figure>
       </div>
@@ -238,7 +238,7 @@
         <p xml:id="smtruth_130164">"This is but a revelry of sensation!"</p>
         <p xml:id="smtruth_130166">He must know! He must force her hand! With set <pb xml:id="smtruth_130165" n="21"/>lips he spurred himself to do what he afterward recognized to be the most unlawyer-like of his acts. He wrote as follows:—</p>
         <q>
-          <text xml:id="smtruth_130170">
+          <q><floatingText xml:id="smtruth_130170">
             <body xml:id="smtruth_130169">
               <div xml:id="smtruth_0021" type="letter">
                 <opener>
@@ -251,7 +251,7 @@
                 <p xml:id="smtruth_130168">Address telegram c/o Col. John Dexter, Big House, Dexterville, Ala.</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="smtruth_130171">As he read over this letter with a final precautionary minuteness, he was conscious of a sort of pity; but this, like wintry sunshine passing through glass, left no warmth behind. His chief thought was for himself. He assured himself again and again that the answer would certainly be "no." He thought that he wanted it to be so. He must at any cost rid himself of this burden of doubt and danger. He felt himself weak in considering Orchid's probable feelings at all</p>
         <p xml:id="smtruth_130172">"Poor little woman," he murmured once. "I feel like a botanist! Ought one to require that an orchid, with all its brilliant loveliness, should possess also a soul?" A faint smile was on his lips as he sealed, directed, and stamped the envelope.</p>
@@ -1628,7 +1628,7 @@ thing to show you - how I thanked you.  And you've been good to me here too.  I'
         <p xml:id="smtruth_1301566">Yet law, once mastered, was less an ultimate definition than a tool for real men to wield. The stability of existing arrangements was an editorial illusion; the future a game that a few astute European statesmen were playing, with law for club-rules. We, too, had in Revolutionary days sent statesmen to Europe. But with our present motley array of pork and caucus packers, "world-imagination" might well be declared dead. He, Craighead, felt himself able to master the ignored conditions, to pierce to the possibilities, to marshal the persuasions, to compel the future. He would put his finger upon the weak places in the imagined balances of power, recast the theory of economic and of military expansions, anticipate the inevitable current of human greed, and gather up into singlehanded thought the reins of racial destinies.</p>
         <p xml:id="smtruth_1301568">There was money in it, too. The leading world-issues have been, after all, and must ever remain, commercial. Our Pacific coast faced an awakening East. Hawaii, even now, was rising into prominence as a stepping-stone. Some of Van's Boston clients had already banded to invest large amounts in Japan, as soon as the new treaties should have come into operation. The exploitation of China's fabulous wealth claimed the ambition of rival syndicates. The very world-flows of cotton, oil, wheat, coal, and gold were changing, like the shifting of ocean currents over submerged coasts. Once North Africa had been the granary of the Roman Empire. The Manchesters and Pitts-<pb xml:id="smtruth_1301567" n="183"/>burgs of the future might well be planted along the banks of the Yangtse.</p>
         <p xml:id="smtruth_1301569">A week had passed. A cable from Liverpool assured the deserted husband that all was well with the travellers. In another week a letter from Truth arrived. Van threw down his volume of Captain Mahan's "Sea Power" to smile at the stiffly written address. He smiled again as he read the contents, dated from ship-board on the very day of landing.</p>
-        <q> <text xml:id="smtruth_1301572"> <body xml:id="smtruth_1301571"><div xml:id="smtruth_183" type="letter"><opener><salute>"MY DEAR MR. CRAIGHEAD" [it began],—</salute></opener><p xml:id="smtruth_1301570">"I hope you will excuse me for not writing sooner. I have not been feeling very well. The ship is going a little slower now, though; and I am up on deck in a big chair with my writing-pad on my lap. It is very beautiful here. We can see pale blue lumps out on the edge of the water, and Mrs. Adams says they are hills on the coast of Ireland. I can't believe it. I keep always looking for countries the shape and color of those in my old geography at home. We are just passing a lighthouse. It looks like a big steel needle standing on end. Things smell different already. The captain says that we will get into Liverpool to-night. I hope that you are well, and that grandma will not get sick while I am away. Mrs. Adams tells me about all the glorious things we are going to see. I can hardly believe that I am going to see such glorious things. I will write you about everything. I was very sorry to leave you in Boston. If you need me, or grandma gets sick, please send me a telegram at once, and I will come right home, even without Mrs. Adams. She is very, very kind to me. But you have been kindest of all. I shall never forget it. Good-bye, dear Mr. Craighead. Please don't work too hard, and make yourself sick.</p><closer><signed>Ever sincerely, your loving wife,</signed><name>TRUTH</name>."</closer></div></body></text></q>
+        <q> <q><floatingText xml:id="smtruth_1301572"> <body xml:id="smtruth_1301571"><div xml:id="smtruth_183" type="letter"><opener><salute>"MY DEAR MR. CRAIGHEAD" [it began],—</salute></opener><p xml:id="smtruth_1301570">"I hope you will excuse me for not writing sooner. I have not been feeling very well. The ship is going a little slower now, though; and I am up on deck in a big chair with my writing-pad on my lap. It is very beautiful here. We can see pale blue lumps out on the edge of the water, and Mrs. Adams says they are hills on the coast of Ireland. I can't believe it. I keep always looking for countries the shape and color of those in my old geography at home. We are just passing a lighthouse. It looks like a big steel needle standing on end. Things smell different already. The captain says that we will get into Liverpool to-night. I hope that you are well, and that grandma will not get sick while I am away. Mrs. Adams tells me about all the glorious things we are going to see. I can hardly believe that I am going to see such glorious things. I will write you about everything. I was very sorry to leave you in Boston. If you need me, or grandma gets sick, please send me a telegram at once, and I will come right home, even without Mrs. Adams. She is very, very kind to me. But you have been kindest of all. I shall never forget it. Good-bye, dear Mr. Craighead. Please don't work too hard, and make yourself sick.</p><closer><signed>Ever sincerely, your loving wife,</signed><name>TRUTH</name>."</closer></div></body></floatingText></q></q>
         <p xml:id="smtruth_1301574">"What a school-girl!" laughed Craighead. "What a refreshing, innocent little letter! She expresses herself simply and directly; ease will come later. She is a dear <pb xml:id="smtruth_1301573" n="184"/>child. I shall tell her to go to the best photographer in Paris and be taken in several poses."</p>
         <p xml:id="smtruth_1301575">A few days earlier Craighead had received a dainty little note from Orchid, asking him to visit them at their charming summer place on Ponkatuck Island. He had been there for several days the previous summer. He knew well the fine yachting among the neighboring islands, the rich fishing, the comfortable castle, the delicious fare, and, better than all, the soft, luxurious languor of the climate, so in harmony with the personal moods of the Lady of Ponkatuck. The note, in spite of the inconceivable audacity of its request, had been something of a temptation, but one quickly overcome. Orchid doubtless knew of Truth's absence, and of Van's loneliness. If her long silence had been ominous of a secret campaign, this was, indeed, its opening gun. She had not written to him since his last court-room triumph. How narrowly Norton had saved him from peril that fateful night! He held the master hand over Orchid now, and meant to keep it. She could have real power to injure Truth only through his weakness.</p>
         <p xml:id="smtruth_1301577">Not long after receiving his wife's letter a second, more enticing, invitation arrived from the lady he had sworn to shun. "I have been fortunate enough to capture Lord Gayrock," she wrote, mentioning a famous Englishman then on a visit to the "States." "He has promised to give us several days. Knowing your admiration for his lordship, I can't bear to have him go without meeting you. Also I have ventured to tell him of the brilliant promise of your career. Of course he is English—painfully so—and knows everything; but one does not have the privilege of sitting on the hub of the British diplomatic wheel every day. Do come down Saturday afternoon, and stay over Sunday. Tom begs me to urge you in his name. My invitation would, of course, include Mrs. Craighead, but that I hear she is abroad. Please let <pb xml:id="smtruth_1301576" n="185"/>me know by wire if you are coming, so that I can arrange to have no outsiders present. You and Lord Gayrock will be quite enough for one small island."</p>

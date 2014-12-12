@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sgbeth_1208">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sgbeth_1208">
   <teiHeader xml:id="sgbeth1201"><fileDesc>
       <titleStmt>
         <title>The Beth Book, an electronic edition</title>
@@ -22,7 +22,7 @@ header is included in its entirety.  For further inquiries about this text's ava
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Beth Book: Being a
@@ -94,7 +94,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="sgbeth_1307"/>
       <div xml:id="sgbeth_064" type="advert">
-        <figure><graphic url="ENTITY_sgbethfm2" rend="inline"/>
+        <figure><graphic url="sgbethfm2.jpg" rend="inline"/>
           <figDesc>An image of an advertisement included in the front matter
 of Sarah Grand's <hi rend="italic">The Beth Book</hi>.
 </figDesc>
@@ -128,7 +128,7 @@ peace, Sir? no;</hi></l>
       </titlePage>
       <pb xml:id="sgbeth_13010"/>
       <div xml:id="sgbeth_065" type="copyright">
-        <figure><graphic url="ENTITY_sgbethfm3" rend="inline"/>
+        <figure><graphic url="sgbethfm3.jpg" rend="inline"/>
           <figDesc>An image of the page that includes the copyright for Sarah
 Grand's <hi rend="italic">The Beth Book</hi>.
 </figDesc>
@@ -2928,7 +2928,7 @@ her write
 <pb xml:id="sgbeth_1301724" n="170     THE BETH BOOK"/>
 well? She asked Him the question again and again, lifting her grey eyes to the grey sky pathetically; and all the time, though she never suspected it, she was learning to write more than well, but in a very different sense of the word.</p>
         <p xml:id="sgbeth_1301728">Her note to Sammy was as follows:—
-<q><text xml:id="sgbeth_1204"><body xml:id="sgbeth_1203"><div xml:id="sgbeth_020" type="letter"><salute>DEAR SAMMY,—</salute><p xml:id="sgbeth_1301726">Come and talk to me. Do not be
+<q><floatingText xml:id="sgbeth_1204"><body xml:id="sgbeth_1203"><div xml:id="sgbeth_020" type="letter"><salute>DEAR SAMMY,—</salute><p xml:id="sgbeth_1301726">Come and talk to me. Do not be
 afrade. I do not mind rows, being always in them. And she can't do
 anything to you. I miss you. I want to tell you things. Such nice
 things keep coming to me. They make me feel all comfortable inside. I
@@ -2943,7 +2943,7 @@ seems rather difficult to stop: but nobody can write without stops. I
 always look at stops in books when I read but sometimes you put a coma
 and sometimes a semicollon. I expect you know but I don't so you must
 teach me. Its so nice writing things down. Come to the back gait
-tonight.</p></div></body></text></q></p>
+tonight.</p></div></body></floatingText></q></p>
         <p xml:id="sgbeth_1301729">When the letter was written in queer, crabbed characters, on one side of a half-sheet of paper, then folded so that she could write the address on the other side, because she had no envelope—she wondered how she should get it delivered. There was a coolness between her and Harriet. Beth resented the coarse insinuation about having a sweetheart, and shrank from hearing any more remarks of a like nature on the subject. And she couldn't send the letter by post because she had no stamp. Should she lay it on his doorstep. No, somebody else might get it. How then? She was standing on her own doorstep with the letter in her pocket when she asked herself the question, and just at the moment Sammy himself appeared, coming back from school. Quick as thought, Beth ran across the road, whipped out the letter and gave it to him. Sammy stood still in astonishment with his mouth open, gazing at it when he found it in his hand, as if he could not imagine how it got there.</p>
         <p xml:id="sgbeth_1301731">As soon as it was dark, Beth stationed herself at the back gate,
 which looked out into Orchard Street, and waited and waited, but Sammy
@@ -8498,7 +8498,7 @@ Press</p>
       </div>
       <pb xml:id="sgbeth_1305078"/>
       <div xml:id="sgbeth_055" type="advert">
-        <figure><graphic url="ENTITY_sgbethad1" rend="inline"/>
+        <figure><graphic url="sgbethad1.jpg" rend="inline"/>
           <figDesc>An image of the first page of advertisements included in the
 bock matter of Sarah Grand's <hi rend="italic">The Beth
 Book</hi>.</figDesc>
@@ -8506,14 +8506,14 @@ Book</hi>.</figDesc>
       </div>
       <pb xml:id="sgbeth_1305079"/>
       <div xml:id="sgbeth_056" type="advert">
-        <figure><graphic url="ENTITY_sgbethad2" rend="inline"/>
+        <figure><graphic url="sgbethad2.jpg" rend="inline"/>
           <figDesc>An image of the second page of advertisements included in the
 bock matter of Sarah Grand's <hi rend="italic">The Beth
 Book</hi>.</figDesc>
         </figure>
         <pb xml:id="sgbeth_1305080"/>
         <div xml:id="sgbeth_057" type="advert">
-          <figure><graphic url="ENTITY_sgbethad3" rend="inline"/>
+          <figure><graphic url="sgbethad3.jpg" rend="inline"/>
             <figDesc>An image of the third page of advertisements included in the
 bock matter of Sarah Grand's <hi rend="italic">The Beth
 Book</hi>.</figDesc>
@@ -8521,7 +8521,7 @@ Book</hi>.</figDesc>
         </div>
         <pb xml:id="sgbeth_1305081"/>
         <div xml:id="sgbeth_058" type="advert">
-          <figure><graphic url="ENTITY_sgbethad4" rend="inline"/>
+          <figure><graphic url="sgbethad4.jpg" rend="inline"/>
             <figDesc>An image of the fourth page of advertisements included in the
 bock matter of Sarah Grand's <hi rend="italic">The Beth
 Book</hi>.</figDesc>
@@ -8529,7 +8529,7 @@ Book</hi>.</figDesc>
         </div>
         <pb xml:id="sgbeth_1305082"/>
         <div xml:id="sgbeth_059" type="advert">
-          <figure><graphic url="ENTITY_sgbethad5" rend="inline"/>
+          <figure><graphic url="sgbethad5.jpg" rend="inline"/>
             <figDesc>An image of the fifth page of advertisements included in the
 bock matter of Sarah Grand's <hi rend="italic">The Beth
 Book</hi>.</figDesc>
@@ -8537,7 +8537,7 @@ Book</hi>.</figDesc>
         </div>
         <pb xml:id="sgbeth_1305083"/>
         <div xml:id="sgbeth_060" type="advert">
-          <figure><graphic url="ENTITY_sgbethad6" rend="inline"/>
+          <figure><graphic url="sgbethad6.jpg" rend="inline"/>
             <figDesc>An image of the sixth page of advertisements included in the
 bock matter of Sarah Grand's <hi rend="italic">The Beth
 Book</hi>.</figDesc>
@@ -8545,7 +8545,7 @@ Book</hi>.</figDesc>
         </div>
         <pb xml:id="sgbeth_1305084"/>
         <div xml:id="sgbeth_061" type="advert">
-          <figure><graphic url="ENTITY_sgbethad7" rend="inline"/>
+          <figure><graphic url="sgbethad7.jpg" rend="inline"/>
             <figDesc>An image of the seventh page of advertisements included in the
 bock matter of Sarah Grand's <hi rend="italic">The Beth
 Book</hi>.</figDesc>
@@ -8553,7 +8553,7 @@ Book</hi>.</figDesc>
         </div>
         <pb xml:id="sgbeth_1305085"/>
         <div xml:id="sgbeth_062" type="advert">
-          <figure><graphic url="ENTITY_sgbethad8" rend="inline"/>
+          <figure><graphic url="sgbethad8.jpg" rend="inline"/>
             <figDesc>An image of the eighth page of advertisements included in the
 bock matter of Sarah Grand's <hi rend="italic">The Beth
 Book</hi>.</figDesc>

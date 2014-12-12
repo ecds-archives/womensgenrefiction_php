@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="arcalva_1209">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../p5xml/tei_ewwrp1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="arcalva_1209">
   <teiHeader xml:id="arcalva1201"><fileDesc>
       <titleStmt>
         <title>Calvary Alley, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Calvary
@@ -78,7 +78,7 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="arcalva_1208">
     <front xml:id="arcalva_1202">
       <div xml:id="arcalva_000" type="covers">
-        <figure><graphic url="ENTITY_arcalvafc" rend="inline"/>
+        <figure><graphic url="arcalvafc" rend="inline"/>
           <figDesc>Front cover for Rice's <hi rend="italic">Calvary
 Alley</hi>.</figDesc>
         </figure>
@@ -91,7 +91,7 @@ Alley</hi>.</figDesc>
       </titlePage>
       <pb xml:id="arcalva_1307"/>
       <div xml:id="arcalva_001" type="frontispiece">
-        <figure><graphic url="ENTITY_arcalvafp" rend="inline"/>
+        <figure><graphic url="arcalvafp" rend="inline"/>
           <figDesc>Frontispiece for Rice's <hi rend="italic">Calvary
 Alley</hi>.</figDesc>
         </figure>
@@ -112,7 +112,7 @@ Patch," <lb/>"Lovey Mary," "Sandy," etc.</byline>
       </titlePage>
       <pb xml:id="arcalva_13010"/>
       <div xml:id="arcalva_002" type="copyright">
-        <figure><graphic url="ENTITY_arcalvacr" rend="inline"/>
+        <figure><graphic url="arcalvacr.jpg" rend="inline"/>
           <figDesc>Copyright for Rice's <hi rend="italic">Calvary
 Alley</hi>.</figDesc>
         </figure>
@@ -124,20 +124,20 @@ KENTUCKY WRITERS <lb/>WITH WHOM IT HAS BEEN MY <lb/>HAPPY FORTUNE TO MAKE <lb/>T
 LITERARY PILGRIMAGE</p>
       </div>
       <pb xml:id="arcalva_13013"/>
-      <div xml:id="arcalva_004" type="table of contents">
-        <figure><graphic url="ENTITY_arcalvatc1" rend="inline"/>
+      <div xml:id="arcalva_004" type="table_of_contents">
+        <figure><graphic url="arcalvatc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Rice's <hi rend="italic">Calvary
 Alley</hi>.</figDesc>
         </figure>
         <pb xml:id="arcalva_13014"/>
-        <figure><graphic url="ENTITY_arcalvatc2" rend="inline"/>
+        <figure><graphic url="arcalvatc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Rice's <hi rend="italic">Calvary
 Alley</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="arcalva_13015"/>
-      <div xml:id="arcalva_005" type="list of illustrations">
-        <figure><graphic url="ENTITY_arcalvalist" rend="inline"/>
+      <div xml:id="arcalva_005" type="list_of_illustrations">
+        <figure><graphic url="arcalvalist.jpg" rend="inline"/>
           <figDesc>List of illustrations for Rice's <hi rend="italic">Calvary
 Alley</hi>.</figDesc>
         </figure>
@@ -290,7 +290,7 @@ Alley</hi>.</figDesc>
         <p xml:id="arcalva_130172">When at last the child fell into a restless sleep, Nance sat patiently on, her small arms stiffening under their burden, and her bare feet and legs smarting from the stings of hungry mosquitos.</p>
         <p xml:id="arcalva_130176">By and by the limp garments on the clothes line overhead began to
 stir, and Nance, lifting her head 
-<pb xml:id="arcalva_130173"/><figure><graphic url="ENTITY_arcalvaill28" rend="inline"/><p xml:id="arcalva_130174">"Her tense muscles relaxed; she forgot to cry"</p><figDesc>Illustration included in Rice's <hi rend="italic">Calvary
+<pb xml:id="arcalva_130173"/><figure><graphic url="arcalvaill28.jpg" rend="inline"/><p xml:id="arcalva_130174">"Her tense muscles relaxed; she forgot to cry"</p><figDesc>Illustration included in Rice's <hi rend="italic">Calvary
 Alley</hi>.</figDesc></figure><pb xml:id="arcalva_130175" n="29 THE SNAWDORS AT HOME"/>gratefully to the vagrant breeze, caught her breath. There, just above the cathedral spire, white and cool among fleecy clouds, rose the full August moon. It was the same moon that at that moment was turning ocean waves into silver magic; that was smiling on sleeping forests and wind-swept mountains and dancing streams. Yet here it was actually taking the trouble to peep around the cathedral spire and send the full flood of its radiance into the most sordid corners of Calvary Alley, even into the unawakened soul of the dirty, ragged, tear-stained little girl clasping the sick baby on Snawdors fire-escape.</p>
         <p xml:id="arcalva_130177">Something in Nance responded. Her tense muscles relaxed; she forgot to cry. With eyes grown big and wistful, she watched the shining orb. All the bravado, the fear, and rebellion died out of her, and in hushed wonder she got from the great white night what God in heaven meant for us to get.</p>
       </div>
@@ -1013,7 +1013,7 @@ at a time! He's in Ike's room at school."</p>
         <p xml:id="arcalva_130900">Dan Lewis was put behind barred windows with eight hundred other young "foes of society." He was treated as a criminal, and when he resented it, he was put under a cold shower and beaten with a rattan until he fainted. Outraged, humiliated, bitterly resentful, his one idea was to escape. At the end of a month of cruelty and injustice he was developing a hatred against authority that would ultimately have landed him in the State prison had not a miraculous interference from without set him free and returned him to his work in Clarke's Bottle Factory.</p>
         <p xml:id="arcalva_130901">It all came about through a letter received by Mrs. Purdy, who was wintering in Florida—a tear-stained, blotted, misspelled letter that had been achieved with great difficulty. It ran:</p>
         <q>
-          <text xml:id="arcalva_1204">
+          <q><floatingText xml:id="arcalva_1204">
             <body xml:id="arcalva_1203">
               <div xml:id="arcalva_100" type="letter">
                 <opener>
@@ -1026,7 +1026,7 @@ at a time! He's in Ike's room at school."</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="arcalva_130904">This had been written a little at a time during Nance's first week at Forest Home. She had arrived in such a burning state of indignation that it required the combined efforts of the superintendent and the matron to calm her. In fact her spirit did not break until she was subjected to a thorough scrubbing from head to foot, and put to bed on a long porch between cold, clean sheets. She was used to sleeping in her underclothes in the hot close air of Snawdor's flat, with Fidy and Lobelia snuggled up on each side. This icy isolation was intolerable! Her hair, still damp, felt strange and uncomfortable; her eyes smarted from the recent application of soap. She lay with her knees drawn up to her chin and shivered and cried to go home.</p>
         <p xml:id="arcalva_130906">Hideous thoughts tormented her. Who 'd git up the coal, an' do the washin'? Would Mr. Snawdor <pb xml:id="arcalva_130905" n="131 THE STATE TAKES A HAND"/>fergit an' take off Rosy's aesophedity bag, so she 'd git the measles an' die like the baby? What did Mr. Lavinski think of her fer not comin' to work out the slipper money? Would Dan ever git his place back at the factory after he 'd been in the House of Refuse? Was Mr. Smelts' leg broke plum off, so 's he 'd have to hobble on a peg-stick?</p>
@@ -1503,7 +1503,7 @@ lision with the foreman, who demanded in no gentle tones what in the devil she w
         <p xml:id="arcalva_1301378">But after the medicine had been bought, and Fidy had grown quiet under its influence, Nance went across the hall to her own cold, barren room and flung herself across her narrow bed. The last chance of seeing the play had vanished. The only <pb xml:id="arcalva_1301377" n="200 CALVARY ALLEY"/>light of hope that had shone on her horizon for months had gone out.</p>
         <p xml:id="arcalva_1301379">When she got up, cold and miserable, and lighted the gas, she saw on the floor, where it had evidently been slipped under the door, a mysterious pink envelope. Tearing it open, she found, written in a large, loose scrawl:</p>
         <q>
-          <text xml:id="arcalva_1206">
+          <q><floatingText xml:id="arcalva_1206">
             <body xml:id="arcalva_1205">
               <div xml:id="arcalva_1102" type="letter">
                 <opener>
@@ -1516,7 +1516,7 @@ lision with the foreman, who demanded in no gentle tones what in the devil she w
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="arcalva_1301382">Nance's breath caught in her throat. The bubble was so radiant, so fragile, so unbelievable, that she was afraid to stir for fear of breaking it. She waited until she heard Mrs. Snawdor's heavy feet descending the stairs, and then she crept across the hall and sat on the side of Fidy's bed, waiting to give her the next dose of medicine. Her eyes were fixed on the bare lathes over the headboard where she had once knocked the plaster off tacking up a tomato-can label. But she did not see the hole or the wall. Calvary Alley and Cemetery Street had ceased to exist for her. She was already transported to a region of warmth and gaiety and song. <pb xml:id="arcalva_1301381" n="201 MISS BOBINET'S"/>All that was ugly and old and sordid lay behind her, and she told herself, with a little sob of joy, that at last the beautiful something for which she had waited so long was about to happen.</p>
       </div>
@@ -2498,7 +2498,7 @@ It was not only Saturday for Dan, but the most important Saturday that ever figu
         <p xml:id="arcalva_1302380">As he left the bridge, he saw the woman in the blue veil hurry past him, and with a furtive look about her, turn and go down the steep levee toward the water. There was something so nervous and erratic in her movements, that he stopped to watch her.</p>
         <p xml:id="arcalva_1302383">For a few moments she wandered aimlessly along the bank, apparently
 indifferent to the pelting rain;
-<pb xml:id="arcalva_1302381"/><figure><graphic url="ENTITY_arcalvaill330" rend="inline"/><figDesc>Illustration included in Rice's <hi rend="italic">Calvary Alley</hi>.</figDesc></figure><pb xml:id="arcalva_1302382" n="331 FATE TAKES A HAND"/>
+<pb xml:id="arcalva_1302381"/><figure><graphic url="arcalvaill330.jpg" rend="inline"/><figDesc>Illustration included in Rice's <hi rend="italic">Calvary Alley</hi>.</figDesc></figure><pb xml:id="arcalva_1302382" n="331 FATE TAKES A HAND"/>
 then she succeeded, after some difficulty, in climbing out on one of the coal barges that fringed the river bank.</p>
         <p xml:id="arcalva_1302384">Dan glanced down the long length of the bridge, empty now save for a few pedestrians and a lumbering truck in the distance. In mid-stream the paddle of a river steamer was churning the water into foam, and up-stream, near the dock, negro roustabouts could be heard singing. But under the bridge all was silent, and the levee was deserted in both directions. He strained his eyes to distinguish that vague figure on the barge from the surrounding shadows. He saw her crawling across the shifting coal; then he waited to see no more.</p>
         <p xml:id="arcalva_1302385">Plunging down the bank at full speed, he scrambled out on the barge and seized her by the arms. The struggle was brief, but fierce. With a cry of despair, she sank face downward on the coal and burst into hysterical weeping.</p>

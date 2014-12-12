@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sg2twins_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sg2twins_1206">
   <teiHeader xml:id="sg2twins1201"><fileDesc>
       <titleStmt>
         <title>The Heavenly Twins, volume II, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Heavenly Twins, In
@@ -118,7 +118,7 @@ added by the encoder and do not appear in the original text.</p>
 <lb/>DEVELOPMENT AND ARREST OF DEVELOPMENT.</head>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <sp>
                 <speaker><hi rend="italic">Fury</hi>:</speaker>
                 <l>Blood thou canst see, and fire; and canst hear groans; --</l>
@@ -145,7 +145,7 @@ added by the encoder and do not appear in the original text.</p>
                 <l>But live among their suffering fellow men</l>
                 <l>As if none felt: they know not what they do.</l>
               </sp>
-            </quote>
+            </q>
             <bibl>--<hi rend="italic">Prometheus Unbound</hi>.</bibl>
           </cit>
         </epigraph>
@@ -660,7 +660,7 @@ hoydenish, least human stage, during which she had given up hugging Diavolo, and
           <p xml:id="sg2twins_130531">It was only the Cathedral clock striking the hour, but it sounded portentously through the solemn stillness of the night, and with quickened attention they all looked up and listened.</p>
           <p xml:id="sg2twins_130533">Slowly the big bell boomed forth ten strokes. Then came a pause; and then the chime rolled through the room, a deafening volume of sound, in long reverberations, from amidst which the <pb xml:id="sg2twins_130532" n="68"/>constant message disentangled itself as it were, but distinctly, although to each listener with a different effect.</p>
           <p xml:id="sg2twins_130534">
-            <figure><graphic url="ENTITY_sg2twinsillbar" rend="inline"/>
+            <figure><graphic url="sg2twinsillbar.jpg" rend="inline"/>
               <figDesc>A line of music from Mendelssohn's "Elijah," including the
 words: He, watching over Israel, slumbers not, nor sleeps.</figDesc>
             </figure>
@@ -1149,14 +1149,14 @@ shape or form.</p>
         <head>BOOK IV.<lb/>THE TENOR AND THE BOY.—<lb/>AN INTERLUDE</head>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg>
                 <l>His words are bonds, his oaths are oracles;</l>
                 <l>His love sincere, his thoughts immaculate;</l>
                 <l>His tears pure messengers sent from his heart,</l>
                 <l>His heart as far from fraud as heaven from earth.</l>
               </lg>
-            </quote>
+            </q>
             <bibl>—<hi rend="italic">Two Gentlemen of Verona</hi></bibl>
           </cit>
         </epigraph>
@@ -1234,7 +1234,7 @@ sympathy and attention from the good women who had not self-love enough to be wo
           <p xml:id="sg2twins_1301107">"No," he began at last, "I do not even yet long for change, as you would understand the longing. I have begun to feel a want, though I scarcely know of what—of companionship, perhaps, of some new interest; but I have no inclination for any change that would take me away from here. After the storm I passed through, this place has been for me a perfect haven of rest; and now that my peace of mind has returned to me, do you think it would be wise, by any voluntary act, to alter the present course of my life, seeing that it is so well with me as it is? When a man is content, it does not seem to me that any change can be for the better; and, trifles apart, I really am content."</p>
           <p xml:id="sg2twins_1301109">"God grant it may last," the Dean responded earnestly. "Only I would warn you to be ready for change in case it comes to <pb xml:id="sg2twins_1301108" n="167"/>you in spite of yourself. I would warn you not to feel too secure. For I have noticed this, that, for some mysterious reason which no mortal can fathom, it appears to be the will of Heaven that when a man is able to say sincerely 'I am happy;' when he is most confident, believing his happiness to be as firmly placed as earthly happiness can be, then is the time for him to be most watchful, for then is change most likely to be at hand. Indeed, it has seemed to me that this feeling of security, or rather of content with things as they are, is in itself an indication of coming change."</p>
           <p xml:id="sg2twins_1301110">As he finished speaking the Cathedral clock above them began to strike the hour. Slowly the mellow notes followed each other, filling the night with sound, and dying away in a long reverberation when the twelfth had struck. Then came silence, then the chime, voicelike, clear, and resonant—
-<figure><graphic url="ENTITY_sg2twinsillbar" rend="inline"/><figDesc>A line of music from Mendelssohn's "Elijah," including the
+<figure><graphic url="sg2twinsillbar.jpg" rend="inline"/><figDesc>A line of music from Mendelssohn's "Elijah," including the
 words: He, watching over Israel, slumbers not, nor sleeps.</figDesc></figure></p>
           <p xml:id="sg2twins_1301111">After which all was so still that the Tenor, looking up through the open window at the moonlit Cathedral, towering above him, grey, shadowy, and mysterious, felt as if the world itself had stopped, and all the life in it had been resolved into a moment of intense self-consciousness, of illimitable passionate yearning for something not to be expressed.</p>
           <p xml:id="sg2twins_1301112">The next day was Saturday, and in the afternoon the Tenor had to sing.</p>
@@ -1282,7 +1282,7 @@ the Tenor sang softly to himself as he slowly pursued his way.</p>
           <p xml:id="sg2twins_1301135">The girl had been wandering off again, but at the first note of the supplication she stopped. A chord of memory stirred. She knew the words, she knew the tune. She had sung them both herself often and often at home in France. She was a Child of Mary then—and now?</p>
           <p xml:id="sg2twins_1301136">As the Tenor finished the last note of the phrase and paused, she clasped her hands convulsively, and gasped: "O mon Dieu! mon Dieu! ayez pitié de moi!"</p>
           <p xml:id="sg2twins_1301137">Her half-inarticulate cry did not reach the Tenor and the Boy, neither had they observed her distress, for just at that moment the city clock struck one, and both had raised their heads involuntarily in expectation of the chime. And presently out upon the night it rolled, a great wave of sound, swelling and spreading, muffled by distance somewhat, but still distinctly sweet and insistent—
-<figure><graphic url="ENTITY_sg2twinsillbar" rend="inline"/><figDesc>A line of music from Mendelssohn's "Elijah," including the
+<figure><graphic url="sg2twinsillbar.jpg" rend="inline"/><figDesc>A line of music from Mendelssohn's "Elijah," including the
 words: He, watching over Israel, slumbers not, nor sleeps.</figDesc></figure></p>
           <p xml:id="sg2twins_1301138">"Do you believe it?" said the Boy, glancing towards the girl, and repeating the gesture of disgust with which he had shrunk from her when she accosted him.</p>
           <p xml:id="sg2twins_1301139">The Tenor lifted his hat, and brushed his hand back over his hair. "Do I believe it in spite of <hi rend="italic">that?</hi> you would say," he answered, considering the girl, with quiet eyes. "Yes, I believe it," he declared, "in spite of <hi rend="italic">that</hi>, which has puzzled older heads than yours."</p>
@@ -1859,7 +1859,7 @@ But the Boy frowned for a moment at the definition, and then he said: "Is that w
           <p xml:id="sg2twins_1301681">"They tried to make out that I had some motive—something to gain by his death," the Tenor went on;" but everyone, and most of all his nearest of kin, his heir, came forward to exonerate me. He had provided for me in his will by settling the allowance he always made me on me and my heirs for ever. But he always said that my voice was my fortune, and he had no need to make enemies for me by giving me that which belonged by right to others. He was a just man, singularly open in all his dealings, and it was not hard to clear me, but still—oh!"—he broke off—"it was awful! awful!"</p>
           <p xml:id="sg2twins_1301682">"And afterwards?" the Boy ventured to ask.</p>
           <p xml:id="sg2twins_1301685">"Afterwards," the Tenor repeated slowly. "Afterwards—for some months—I wandered about. They were all very kind. They wanted me to stay with them—they wanted to take me abroad—they would have done anything to help and comfort me. But all I cared for was to be alone. At first there was a blank—the faces about me had no meaning for me—the people when they spoke could scarcely make me understand. I was mad in a way, but not mad enough to be insensible to sorrow. I felt the fearful calamity that had fallen upon me, but nothing else. I told myself <pb xml:id="sg2twins_1301683" n="244"/>every hour of the day that he was dead—dead; cruelly cut off in the midst of his happy life by me whom he loved—I could not have suffered more had I been guilty," the Tenor broke off. "This lasted—I hardly know how long; but eventually I began to fancy that he saw my agony of grief, and that it was a torment to him not to be able to come and comfort me. Then one day—I was in Cornwall at the time—sitting on the sea shore—and all at once—it was the strangest thing in life—I heard the chime! I had not been thinking of it. I doubt if I had thought of it a dozen times since I heard it first. But it sounded for me then—
-<figure><graphic url="ENTITY_sg2twinsillbar" rend="inline"/><figDesc>A line of music from Mendelssohn's "Elijah," including the
+<figure><graphic url="sg2twinsillbar.jpg" rend="inline"/><figDesc>A line of music from Mendelssohn's "Elijah," including the
 words: He, watching over Israel, slumbers not, nor sleeps.</figDesc></figure>
 I heard it quite distinctly, and I got up and looked about me. It was the first thing outside myself that had arrested my attention since I had seen him drop on the moor. I went back to the inn I was staying at, and asked about it; but I could scarcely make them understand what I meant, and there was certainly no such chime in that neighbourhood. Then I felt it was a message sent specially to me, and I made my man pack up my things, and then I dismissed him, and started at once for Morningquest alone. It was a long journey, and although I travelled with all possible speed, I did not arrive until nearly forty-eight hours later. It was close on midnight then, and the first thing I heard, when I found myself alone in my room at the hotel, was the chime itself. Have you ever noticed—or is it only my fancy?—that it seems to strike louder at midnight, and with greater intensity of expression, as we ourselves strike final chords? It sounded so to me then, and suggested something—I can't tell what, I can't define it; but something that changed the current of my thoughts, and made me feel I had done right to come. And from that moment my grief was less self-centred, <pb xml:id="sg2twins_1301684" n="245"/>and the blessed power to feel for others began to return to me. Almost immediately after my arrival, I heard of the tragedy in the Cathedral, the suicide of the Tenor, and the trouble the Dean and Chapter were having to find a substitute; and when I had seen the quiet shady Close, and the beautiful old Cathedral, and my little house with its high-walled garden at the back, standing, as it were, on holy ground, I longed to take up my abode there, where no one would know my story but those to whom the secret would be sacred, and no one would intrude upon my grief. So I applied for the Tenor's place, and I knew as soon as I had taken the step that it was a wise one. I thought, if anything could restore the balance of my mind, it would be the regular employment, the quiet monotony, the something to do that I must do, the duty and obligation, which were just sufficient without being any tax on my powers to take me out of myself. And the being able to shut myself up from the world in the Close, as I said before, was another inducement, though by far the greatest were the daily services in the Cathedral; while taking part in them I always feel that I am nearer him. When I applied for the place, and the Dean heard who I was—of course, he knew the story; the whole world knew it at that time—and heard how I yearned for a life of devotion, he sympathized with me entirely, gladly acceded to my request, and agreed to keep my secret. He has told me since that he always hoped and believed the quiet regular life would restore me, and when it had he intended to urge me to go away, and make the most of my powers. Dear, kind old man! he has indeed been a good friend to me, and he is a good man himself, if ever there were one. But I seem to have known none but good men," the Tenor concluded thoughtfully.</p>
           <p xml:id="sg2twins_1301686">"But your money, Israfil," the Boy said, impatiently; "what did you do with that?"</p>
@@ -1924,7 +1924,7 @@ I heard it quite distinctly, and I got up and looked about me. It was the first 
           <pb xml:id="sg2twins_1301748" n="257"/>
           <p xml:id="sg2twins_1301749">The Boy listened awhile with parted lips. It was a new experience for him, and he was deeply moved. Then his musical instinct awoke, and presently he took up the strain, voice and violin, accompanying the Tenor, who rowed on once more, while the river banks resounded with "<hi rend="italic">Christe audi nos, Christe exaudi nos</hi>," and re-echoed "<hi rend="italic">Miserere nobis</hi>."</p>
           <p xml:id="sg2twins_1301750">At one point as they approached, a lady appeared suddenly, and stood with her hands clasped to her breast, looking and listening. She was a tall and graceful woman wrapped in a long cloak and bare headed, as if she had stepped out from somewhere just for the moment. She evidently recognized the singer; and the Boy would have recognized the beautiful face, strong in its calm, sad serenity, and compassionate, had he looked that way; but he did not look that way, and they swept on, the music growing fainter and fainter in the distance, till at last the boat was out of sight. Yet even then a few high notes continued to float back; but these in turn quivered into silence, and all was still—only for a moment, though, for the clocks had struck unheeded, and now the chime rang out through the sultry air, voice-like, clear, and resonant:
-<figure><graphic url="ENTITY_sg2twinsillbar" rend="inline"/><figDesc>A line of music from Mendelssohn's "Elijah," including the
+<figure><graphic url="sg2twinsillbar.jpg" rend="inline"/><figDesc>A line of music from Mendelssohn's "Elijah," including the
 words: He, watching over Israel, slumbers not, nor sleeps.</figDesc></figure></p>
           <p xml:id="sg2twins_1301751">The lady listened, looking up as if the message were for her, but sighed.</p>
           <p xml:id="sg2twins_1301752">"It will come right, I know," she said, as she turned away. "But, Lord, how long?"</p>

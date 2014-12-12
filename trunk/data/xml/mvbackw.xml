@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mvbackw_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mvbackw_1207">
   <teiHeader xml:id="mvbackw1201"><fileDesc>
       <titleStmt>
         <title>The Backwoods' Bride, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Backwoods'
@@ -82,11 +82,11 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="mvbackw_1206">
     <front xml:id="mvbackw_1202">
       <div xml:id="mvbackw_000" type="covers">
-        <figure><graphic url="ENTITY_mvbackwfc" rend="inline"/>
+        <figure><graphic url="mvbackwfc.jpg" rend="inline"/>
           <figDesc>Front cover of Victor's <hi rend="italic">The Backwoods'
 Bride</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_mvbackwbc" rend="inline"/>
+        <figure><graphic url="mvbackwbc.jpg" rend="inline"/>
           <figDesc>Back cover of Victor's <hi rend="italic">The Backwoods'
 Bride</hi>.</figDesc>
         </figure>
@@ -933,7 +933,7 @@ under it much longer, myself. She's always been a self-willed, obstinate girl, a
         <p xml:id="mvbackw_130734">"Pshaw, 'Siah! here, Susan, open your letter."</p>
         <p xml:id="mvbackw_130735">Shading her face from observation, the girl tore open the missive and read:</p>
         <q>
-          <text xml:id="mvbackw_1204">
+          <q><floatingText xml:id="mvbackw_1204">
             <body xml:id="mvbackw_1203">
               <opener>
                 <salute>MY DARLING, MY OWN SWEET WIFE:--</salute>
@@ -952,7 +952,7 @@ be here.</p>
                 <dateline>April 30th.</dateline>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mvbackw_130738">She looked at the envelope again. It had been sent on to Washington and returned, there being money in it for Susan's use. In those days of slow coaches and no railroads, it took time for a letter to travel from Michigan to Washington, and back again. Mrs. Sturgiss had only received it about a month before Josiah left with it; he had been talking with her about Susan and the Carters, and regretting the scandalous way in which the community had treated young Gardiner, when she had told him of Susan's marriage at her house, of the bride-groom's strange non-appearance, and of the letter she now had.</p>
         <p xml:id="mvbackw_130739">Moved by remorse, and by a generous impulse new to him, 'Siah had redeemed his character by this attempt to find the one to whom it belonged. For a few moments a dazzling, blinding, bewildering joy dazed Susan's senses; then, doubt and suspense again asserted their sway. Why had he not made his appearance in all these five long months since the letter was written? Maybe he had grown worse again--had died alone, wondering why she did not answer his appeal and fly to him. Oh, cruel blunder of the soulless mail! as if they had not trouble enough, without this, to fill the cup.</p>

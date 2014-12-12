@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cy1daisy_1209">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cy1daisy_1209">
   <teiHeader xml:id="cy1daisy1201"><fileDesc>
       <titleStmt>
         <title>The Daisy Chain, part I, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Daisy Chain, part I</title>. <pubPlace>London</pubPlace>: <publisher>John W. Parker and Son</publisher>, <date>1856</date>.</bibl>
@@ -78,15 +78,15 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="cy1daisy_1208">
     <front xml:id="cy1daisy_1202">
       <div xml:id="cy1daisy_000" type="covers">
-        <figure><graphic url="ENTITY_cy1daisyfc" rend="inline"/>
+        <figure><graphic url="cy1daisyfc.jpg" rend="inline"/>
           <figDesc>Front cover of the first part of Yonge's <hi rend="italic">The Daisy Chain</hi>.</figDesc>
         </figure>
         <pb xml:id="cy1daisy_1305"/>
-        <figure><graphic url="ENTITY_cy1daisybc" rend="inline"/>
+        <figure><graphic url="cy1daisybc.jpg" rend="inline"/>
           <figDesc>Back cover of the first part of Yonge's <hi rend="italic">The Daisy Chain</hi>.</figDesc>
         </figure>
         <pb xml:id="cy1daisy_1306"/>
-        <figure><graphic url="ENTITY_cy1daisysp" rend="inline"/>
+        <figure><graphic url="cy1daisysp.jpg" rend="inline"/>
           <figDesc>Spine of the first part of Yonge's <hi rend="italic">The Daisy Chain</hi>.</figDesc>
         </figure>
       </div>
@@ -3437,7 +3437,7 @@ everyone was praising him--that I had! Harvey Anderson is welcome to be Dux and 
         <p xml:id="cy1daisy_1302785">Ethel was entirely consoled. Flora thought of the words '<hi rend="italic">téte Exaltêe</hi>,' and considered herself alone to have sober sense enough to see things in a true light--not that she went the length of believing that Norman had any underhand motives, but she thought it very discreet in her to think a prudent father would not have been satisfied with such a desire to avoid investigation.</p>
         <p xml:id="cy1daisy_1302786">Dr. May would not trust himself to enter on the subject with Dr. Hoxton in conversation; he only wrote a note.</p>
         <q>
-          <text xml:id="cy1daisy_1204">
+          <q><floatingText xml:id="cy1daisy_1204">
             <body xml:id="cy1daisy_1203">
               <opener>
                 <dateline>
@@ -3451,7 +3451,7 @@ everyone was praising him--that I had! Harvey Anderson is welcome to be Dux and 
                 <signed>'R. MAY.'</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cy1daisy_1302788">A long answer came in return, disclaiming all doubt of Norman's veracity, and explaining Dr. Hoxton's grounds for having degraded him. There had been misconduct in the school, he said, for some time past, and he did not consider that it was any very serious reproach, to a boy of Norman's age, that he had not had weight enough to keep up his authority, and had been carried away by the general feeling. It had been necessary to make an example for the sake of principle, and though very sorry it should have fallen on one of such high promise and general good conduct, Dr. Hoxton trusted that it would not be any permanent injury to his prospects, as his talents had raised him to his former position in the school so much earlier than usual.</p>
         <p xml:id="cy1daisy_1302789">'The fact was,' said Dr. May, 'that old Hoxton did it in a passion, feeling he must punish somebody, and now, finding there's no uproar about it, he begins to be sorry. I won't answer this note. I'll stop after church to-morrow and shake hands, and that will show we don't bear malice.'</p>
@@ -4641,7 +4641,7 @@ which Richard and Flora would fain have checked; but Margaret let them continue,
         <pb xml:id="cy1daisy_1303708" n="305 THE DAISY CHAIN."/>
         <p xml:id="cy1daisy_1303709">It was nearly the last letter before the Alcestis was heard of at Spithead. Then she sailed; she sent in her letters to Plymouth, and her final greetings by a Falmouth cutter--poor Harry's wild scrawl in pencil, looking very sea-sick.</p>
         <q>
-          <text xml:id="cy1daisy_1206">
+          <q><floatingText xml:id="cy1daisy_1206">
             <body xml:id="cy1daisy_1205">
               <opener>
                 <salute>'Dear papa and all,</salute>
@@ -4649,7 +4649,7 @@ which Richard and Flora would fain have checked; but Margaret let them continue,
               <p xml:id="cy1daisy_1303710"> good-bye. We are out of sight of land. Three years, and keep up a good heart. I shall soon be all right.</p>
               <closer><salute>Your</salute> <signed>H. MAY.'</signed></closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cy1daisy_1303711">It was inclosed in Mr. Ernescliffe's envelope, and with it came tidings that Harry's brave spirit was not failing, even under unto-ward circumstances, but he had struggled on deck, and tried to write, when all his contemporaries had given in; in fact, he was a fine fellow--everyone liked him, and Captain Gordon, though chary of commendation, had held him up to the other youngsters as an example of knowing what a sailor was meant to be like.</p>
         <p xml:id="cy1daisy_1303712">Margaret smiled, and cried over the news when she imparted it--but all serenely--and though she was glad to be alone, and wrote journals for Alan, when she could not send letters, she exerted herself to be the same sister as usual to the rest of the household, and not to give way to her wandering musings.</p>

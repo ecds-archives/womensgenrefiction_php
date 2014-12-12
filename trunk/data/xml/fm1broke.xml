@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fm1broke_130917">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fm1broke_130917">
   <teiHeader><fileDesc>
       <titleStmt>
         <title>A Broken Blossom, Vol. 1, an electronic edition</title>
@@ -14,7 +14,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. 
@@ -44,7 +44,7 @@
   <text xml:id="fm1broke_9999">
     <front xml:id="fm1broke_9998">
       <div xml:id="fm1broke_001" type="spine">
-        <figure><graphic url="ENTITY_fm1broke_spine" rend="inline"/>
+        <figure><graphic url="fm1broke_spine.jpg" rend="inline"/>
           <figDesc>Spine of  Marryat's "A Broken Blossom, Vol. 1"</figDesc>
         </figure>
       </div>
@@ -72,13 +72,13 @@ IN THREE VOLUMES. <lb/> VOL. I.</byline>
       </titlePage>
       <pb xml:id="fm1broke_1309"/>
       <div xml:id="fm1broke_002" type="dedication">
-        <figure><graphic url="ENTITY_fm1brokeded" rend="inline"/>
+        <figure><graphic url="fm1brokeded.jpg" rend="inline"/>
           <figDesc> Dedication included in front of Marryat's "A Broken Blossom"</figDesc>
         </figure>
       </div>
       <pb xml:id="fm1broke_13010"/>
-      <div xml:id="fm1broke_003" type="table of contents">
-        <figure><graphic url="ENTITY_fm1broketc" rend="inline"/>
+      <div xml:id="fm1broke_003" type="table_of_contents">
+        <figure><graphic url="fm1broketc.jpg" rend="inline"/>
           <figDesc> table of contents included in front matter of Marryat's "A Broken Blossom"</figDesc>
         </figure>
       </div>

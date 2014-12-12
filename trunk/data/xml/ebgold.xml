@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ebgold_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ebgold_1201">
   <teiHeader xml:id="ebgold1202"><fileDesc>
       <titleStmt>
         <title>Dr. and Mrs. Gold, an electronic edition</title>
@@ -10,7 +10,7 @@
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/170x7</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Dr. and Mrs. Gold</title>. <pubPlace>London</pubPlace>: <publisher>Swan, Sonnenschein &amp; CO.</publisher>, <date>1891</date>.</bibl>
@@ -56,8 +56,8 @@
     </profileDesc><revisionDesc><change><date>2007-June-20</date><label>Encoder.</label><name>Shruthi Vissa, </name>XML tags inserted in compliance with TEI guidelines.</change></revisionDesc></teiHeader>
   <text xml:id="ebgold_1203">
     <front xml:id="ebgold_1204">
-      <div xml:id="ebgold_cover" type="front cover">
-        <figure><graphic url="ENTITY_ebgoldfc" rend="inline"/>
+      <div xml:id="ebgold_cover" type="front_cover">
+        <figure><graphic url="ebgoldfc.jpg" rend="inline"/>
           <figDesc>Front cover of Barnett's "Dr. and Mrs. Gold"</figDesc>
         </figure>
       </div>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="af1may_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="af1may_1206">
   <teiHeader xml:id="af1may1201"><fileDesc>
       <titleStmt>
         <title>A Mayfair Tragedy, volume I, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A
@@ -133,7 +133,7 @@ added by the encoder and do not appear in the original text.</p>
         </trailer>
       </div>
       <pb xml:id="af1may_13012"/>
-      <div xml:id="af1may_003" type="table of contents">
+      <div xml:id="af1may_003" type="table_of_contents">
         <figure><graphic url="af1maytc.jpg" rend="inline"/>
           <figDesc>Table of contents for the first volume of Fraser's <hi rend="italic">A Mayfair Tragedy</hi>.</figDesc>
         </figure>

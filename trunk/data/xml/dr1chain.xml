@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dr1chain_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dr1chain_1201">
   <teiHeader xml:id="dr1chain1202"><fileDesc>
       <titleStmt>
         <title>A Hidden Chain, volume I, an electronic edition</title>
@@ -12,7 +12,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. 
@@ -60,12 +60,12 @@ In Three Volumes <lb/> <hi rend="italics">Vol. I</hi> <lb/> Second Edition</byli
         </docImprint>
       </titlePage>
       <pb xml:id="dr1chain_1309" n="[vi]"/>
-      <div xml:id="dr1chain_000" type="table of contents">
-        <figure><graphic url="ENTITY_dr1chaintc1" rend="inline"/>
+      <div xml:id="dr1chain_000" type="table_of_contents">
+        <figure><graphic url="dr1chaintc1.jpg" rend="inline"/>
           <figDesc> Table of Contents for Russel's <hi rend="italics">A Hidden Chain</hi></figDesc>
         </figure>
         <pb xml:id="dr1chain_13010" n="vii"/>
-        <figure><graphic url="ENTITY_dr1chaintc2" rend="inline"/>
+        <figure><graphic url="dr1chaintc2.jpg" rend="inline"/>
           <figDesc> Table of Contents for Russel's <hi rend="italics"> A Hidden Chain</hi></figDesc>
         </figure>
       </div>
@@ -937,7 +937,7 @@ landlord some of these days, not that the old lord is a bad one."</p>
         <p xml:id="dr1chain_130783">"I will wait with pleasure, my dear," Answered the farmer.</p>
         <p xml:id="dr1chain_130784">Upon this Eva ran upstairs and wrote a few lines to Lord Clair.</p>
         <q>
-          <text xml:id="dr1chain_130788">
+          <q><floatingText xml:id="dr1chain_130788">
             <body xml:id="dr1chain_130787">
               <div xml:id="dr1chain_99106" type="letter">
                 <opener>
@@ -951,7 +951,7 @@ return here from Eastcliff, I wish to bid you good-bye. Will three o'clock suit 
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="dr1chain_130789">Just as Eva was finishing this note a rap came to the room door, and Jane Richards entered it carrying a hat in her hand.</p>
         <p xml:id="dr1chain_130790">"Oh! Miss Moore, I have brought you the hat," she said, "As you are going out with Mr Dighton, and I'm so sorry you did not get it in the afternoon."</p>
@@ -993,7 +993,7 @@ brought about. Human nature generally is so constructed that we cannot help resp
         <p xml:id="dr1chain_130819">And the next morning brought Lord Clair's answer to her note, which Eva tossed to Annie with a little laugh after she had read it.</p>
         <p xml:id="dr1chain_130820">"Read that," she said, and Annie read as follows:—</p>
         <q>
-          <text xml:id="dr1chain_130825">
+          <q><floatingText xml:id="dr1chain_130825">
             <body xml:id="dr1chain_130824">
               <div xml:id="dr1chain_114" type="letter">
                 <opener>
@@ -1009,7 +1009,7 @@ not to be able to see you today, and need not tell you that tomorrow I shall onl
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="dr1chain_130826">"Oh! Eva," said Annie, after she had read this letter, "fancy if he comes to Eastcliff!"</p>
         <p xml:id="dr1chain_130827">"Well, my dear, it will not kill us if he does," replied Eva calmly, going on arranging her long and beautiful hair, for Clair's letter had been brought up to their bedroom before they were down in the morning. "It will help to amuse us!"</p>
@@ -1749,7 +1749,7 @@ a few moments later Clair was announced, they all felt—including Eva—that hi
         <p xml:id="dr1chain_1301491">"Oh, no; we have seen him outside once or twice. But how stupid we all are? Annie, let us sing them a song, and try to enliven them."</p>
         <p xml:id="dr1chain_1301492">She thus changed the conversation, but not the current of Richard Dighton's thoughts. He remained sullen and moody during the rest of the evening, and when the party broke up for the night, he hardly spoke to Eva. In the meanwhile, Clair at his hotel was studying the little note Eva had put in his hand. It was very brief, but significant.</p>
         <q>
-          <text xml:id="dr1chain_1301495">
+          <q><floatingText xml:id="dr1chain_1301495">
             <body xml:id="dr1chain_1301494">
               <div xml:id="dr1chain_203" type="letter">
                 <opener>
@@ -1762,7 +1762,7 @@ a few moments later Clair was announced, they all felt—including Eva—that hi
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb xml:id="dr1chain_1301496" n="[204]"/>
@@ -1795,7 +1795,7 @@ her that very afternoon, and that was sufficient to bring the sunshine
 back to Clair's heart.</p>
         <milestone rend="blank-line" unit="section"/>
         <q>
-          <text xml:id="dr1chain_1301519">
+          <q><floatingText xml:id="dr1chain_1301519">
             <body xml:id="dr1chain_1301518">
               <div xml:id="dr1chain_204" type="letter">
                 <opener>
@@ -1808,7 +1808,7 @@ back to Clair's heart.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="dr1chain_1301521">Even the news in this note did not displease Clair. Eva was leaving Eastcliff, and Clair was not sorry for this, after his unpleasant interview with Richard in the morning. He felt that he could not go to the Dightons' house now, but he felt that he could go wherever Eva was going, and then he could see
@@ -2169,35 +2169,35 @@ if his presence were known. He would watch and wait, and so gloomily he paced up
       </div>
       <pb xml:id="dr1chain_1301835" n="[1]"/>
       <div xml:id="dr1chain_300" type="advert">
-        <figure><graphic url="ENTITY_dr1chainad1" rend="inline"/>
+        <figure><graphic url="dr1chainad1.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
         </figure>
         <pb xml:id="dr1chain_1301836" n="2"/>
-        <figure><graphic url="ENTITY_dr1chainad2" rend="inline"/>
+        <figure><graphic url="dr1chainad2.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
         </figure>
         <pb xml:id="dr1chain_1301837" n="3"/>
-        <figure><graphic url="ENTITY_dr1chainad3" rend="inline"/>
+        <figure><graphic url="dr1chainad3.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
         </figure>
         <pb xml:id="dr1chain_1301838" n="4"/>
-        <figure><graphic url="ENTITY_dr1chianad4" rend="inline"/>
+        <figure><graphic url="dr1chianad4.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
         </figure>
         <pb xml:id="dr1chain_1301839" n="5"/>
-        <figure><graphic url="ENTITY_dr1chainad5" rend="inline"/>
+        <figure><graphic url="dr1chainad5.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
         </figure>
         <pb xml:id="dr1chain_1301840" n="6"/>
-        <figure><graphic url="ENTITY_dr1chainad6" rend="inline"/>
+        <figure><graphic url="dr1chainad6.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
         </figure>
         <pb xml:id="dr1chain_1301841" n="7"/>
-        <figure><graphic url="ENTITY_dr1chainad7" rend="inline"/>
+        <figure><graphic url="dr1chainad7.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
         </figure>
         <pb xml:id="dr1chain_1301842" n="7"/>
-        <figure><graphic url="ENTITY_dr1chainad8" rend="inline"/>
+        <figure><graphic url="dr1chainad8.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Russell's "The Hidden Chain"</figDesc>
         </figure>
       </div>

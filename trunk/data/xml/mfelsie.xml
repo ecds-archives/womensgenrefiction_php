@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mfelsie_12010">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mfelsie_12010">
   <teiHeader xml:id="mfelsie1201"><fileDesc>
       <titleStmt>
         <title>Elsie Dinsmore, an electronic edition</title>
@@ -15,10 +15,10 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
-        <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Elsie
+        <bibl><author><name><choice><sic>Martha Finley</sic><reg>Finley, Martha, 1828-1909</reg></choice></name></author>. <title>Elsie
 Dinsmore</title>. <pubPlace>London</pubPlace>: <publisher>George Routledge and Sons</publisher>, <date>[1890?]</date>.</bibl>
       </sourceDesc>
     </fileDesc><encodingDesc>
@@ -529,7 +529,7 @@ clothing and her room; and the little girl, of course readily gave her permissio
         <p xml:id="mfelsie_130313">"Oh yes," said Elsie, examining them with delight; "they are just right; and now I can finish it in a couple of hours."</p>
         <p xml:id="mfelsie_130314">"Time to get ready for bed now, ain't it, pet?" asked Chloe; but before the little girl had time to answer, a servant knocked at the door, and handed in a note for her. It was from Miss Allison, and, hastily tearing it open, she read:</p>
         <q>
-          <text xml:id="mfelsie_1204">
+          <floatingText xml:id="mfelsie_1204">
             <body xml:id="mfelsie_1203">
               <div xml:id="mfelsie_100" type="letter">
                 <opener>
@@ -544,7 +544,7 @@ supposed, and therefore I shall be obliged to start on my journey to-morrow.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText>
         </q>
         <p xml:id="mfelsie_130317">Elsie dropped the note on the floor and burst into tears.</p>
         <p xml:id="mfelsie_130318">"What de matter, darlin?" asked Chloe, anxiously.</p>
@@ -2702,8 +2702,8 @@ then he said very gravely, "I am afraid you read too many of those dull books. I
         <p xml:id="mfelsie_1302125">"Are you?" he answered with a smile. "I'm afraid I am spoiling you; but I can't help it to-night. I think you forgot your wish to repeat some verses to me?"</p>
         <p xml:id="mfelsie_1302126">"Oh! yes, papa!" she said, "but may I say them now?"</p>
         <p xml:id="mfelsie_1302129">He nodded assent, and she went on. "They are some Miss Rose sent me in one of her letters. She cut them out of a newspaper, she said, and sent them to me because she liked them so much; and I too think they are very sweet. The piece is headed
-<q><text xml:id="mfelsie_1206"><body xml:id="mfelsie_1205"><div xml:id="mfelsie_0233" type="poem"><head>'THE PILGRIM'S WANTS.'</head><lg type="stanza"><l>"'I want a sweet sense of Thy pardoning love, </l><l>That my manifold sins are forgiven; </l><l>That Christ, as my Advocate, pleadeth above, </l><l>That my name is recorded in heaven.'</l></lg><pb xml:id="mfelsie_1302127" n="286 ELSIE DINSMORE."/><lg type="stanza"><l>"'I want every moment to feel</l><l>That thy Spirit resides in my heart--</l><l>That his power is present to cleanse and to heal, </l><l>And newness of life to impart. </l></lg><lg type="stanza"><l>"'I want-Oh! I want to attain</l><l>Some likeness, my Saviour, to thee! </l><l>That longed-for resemblance once more to regain, </l><l>Thy comeliness put upon me. </l></lg><lg type="stanza"><l>"I want to be marked for thine own-</l><l>Thy seal on my forehead to wear; </l><l>To receive that new name on the mystic white stone</l><l>Which none but thyself can declare. </l></lg><lg type="stanza"><l>'I want so in thee to abide</l><l>to bring forth some fruit to thy praise; </l><l>The branch which thou prunest, though feeble and
-dried, </l><l>May languish, but never decays. </l></lg><lg type="stanza"><l>'I want thine own hand to unbind</l><l>Each tie to terrestial things, </l><l>Too tenderly cherished, too closely entwined, </l><l>Where my heart so tenaciously clings. </l></lg><lg type="stanza"><l>"'I want, by my aspect serene, </l><l>My actions and words, to declare</l><l>That my treasure is placed in a country unseen, </l><l>That my heart's best affections are there. </l></lg><lg type="stanza"><l>'I want as a trav'ller to haste</l><l>Straight onward, nor pause on my way; </l><l>Nor forethought in anxious contrivance to waste</l><l>On the tent only pitched for a day. </l></lg><pb xml:id="mfelsie_1302128" n="287 ELSIE DINSMORE."/><lg type="stanza"><l>"'I want--and this sums up my prayer--</l><l>To glorify thee till I die; </l><l>Then calmly to yield up my soul to thy care, </l><l>And breathe out in faith my last sigh.'"<ref target="#mfelsien1">*</ref><note xml:id="mfelsien1" n="*" place="foot" resp="#auth">These beautiful words are not mine, nor do I know either the name of the author or where they were originally published</note></l></lg></div></body></text></q></p>
+<q><floatingText xml:id="mfelsie_1206"><body xml:id="mfelsie_1205"><div xml:id="mfelsie_0233" type="poem"><head>'THE PILGRIM'S WANTS.'</head><lg type="stanza"><l>"'I want a sweet sense of Thy pardoning love, </l><l>That my manifold sins are forgiven; </l><l>That Christ, as my Advocate, pleadeth above, </l><l>That my name is recorded in heaven.'</l></lg><pb xml:id="mfelsie_1302127" n="286 ELSIE DINSMORE."/><lg type="stanza"><l>"'I want every moment to feel</l><l>That thy Spirit resides in my heart--</l><l>That his power is present to cleanse and to heal, </l><l>And newness of life to impart. </l></lg><lg type="stanza"><l>"'I want-Oh! I want to attain</l><l>Some likeness, my Saviour, to thee! </l><l>That longed-for resemblance once more to regain, </l><l>Thy comeliness put upon me. </l></lg><lg type="stanza"><l>"I want to be marked for thine own-</l><l>Thy seal on my forehead to wear; </l><l>To receive that new name on the mystic white stone</l><l>Which none but thyself can declare. </l></lg><lg type="stanza"><l>'I want so in thee to abide</l><l>to bring forth some fruit to thy praise; </l><l>The branch which thou prunest, though feeble and
+dried, </l><l>May languish, but never decays. </l></lg><lg type="stanza"><l>'I want thine own hand to unbind</l><l>Each tie to terrestial things, </l><l>Too tenderly cherished, too closely entwined, </l><l>Where my heart so tenaciously clings. </l></lg><lg type="stanza"><l>"'I want, by my aspect serene, </l><l>My actions and words, to declare</l><l>That my treasure is placed in a country unseen, </l><l>That my heart's best affections are there. </l></lg><lg type="stanza"><l>'I want as a trav'ller to haste</l><l>Straight onward, nor pause on my way; </l><l>Nor forethought in anxious contrivance to waste</l><l>On the tent only pitched for a day. </l></lg><pb xml:id="mfelsie_1302128" n="287 ELSIE DINSMORE."/><lg type="stanza"><l>"'I want--and this sums up my prayer--</l><l>To glorify thee till I die; </l><l>Then calmly to yield up my soul to thy care, </l><l>And breathe out in faith my last sigh.'"<ref target="#mfelsien1">*</ref><note xml:id="mfelsien1" n="*" place="foot" resp="#auth">These beautiful words are not mine, nor do I know either the name of the author or where they were originally published</note></l></lg></div></body></floatingText></q></p>
         <p xml:id="mfelsie_1302130">He was silent for a moment after she had repeated the last verse, then laying his hand softly on her head, and looking searchingly into her eyes, he asked, "And does my little one really wish all that those words express?"</p>
         <p xml:id="mfelsie_1302131">"Yes, papa, for myself and you too," she answered "O papa! I do want to be all that Jesus would have me! just like Him; so like Him that everybody who knows me will see the likeness and know that I belong to Him."</p>
         <p xml:id="mfelsie_1302132">"Nay, you belong to me," he said, leaning over her and patting her cheek. "Hush! not a syllable from your lips! I will have no gainsaying of my words," he added, with a mixture of authority and playfulness, as she seemed about to reply. "Now shut your eyes and go to sleep; I will have no more talking to-night."</p>

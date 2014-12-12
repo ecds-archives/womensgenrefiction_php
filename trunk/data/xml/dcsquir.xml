@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dcsquir_1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dcsquir_1205">
   <teiHeader xml:id="dcsquir1201"><fileDesc>
       <titleStmt>
         <title>The Squirrel-Cage, an electronic edition</title>
@@ -22,7 +22,7 @@ inquiries about this text's availability, please contact:<address><addrLine>Lewi
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Squirrel-Cage</title>.  <pubPlace>New York</pubPlace>:
@@ -90,15 +90,15 @@ page images are linked to the text file.</p>
       </textClass>
     </profileDesc><revisionDesc><change><date>2006-July-3</date><label>Electronic Text Specialist.</label><name>Alice Hickcox,</name>XML tags inserted in compliance with  TEI guidelines using TEILITE.</change></revisionDesc></teiHeader>
   <text xml:id="dcsquir_1202">
-    <front xml:id="dcsquir_1203"><pb xml:id="dcsquir_1305"/><titlePage xml:id="dcsquir_1306" type="half"><docTitle><titlePart type="main">THE SQUIRREL-CAGE</titlePart></docTitle></titlePage><pb xml:id="dcsquir_1307"/>    <div xml:id="dcsquir_fm01" type="frontispiece"><figure><graphic url="ENTITY_dcsquirill1" rend="inline"/><p xml:id="dcsquir_1308">Paul stood by her, looking down into her eyes, bending
+    <front xml:id="dcsquir_1203"><pb xml:id="dcsquir_1305"/><titlePage xml:id="dcsquir_1306" type="half"><docTitle><titlePart type="main">THE SQUIRREL-CAGE</titlePart></docTitle></titlePage><pb xml:id="dcsquir_1307"/>    <div xml:id="dcsquir_fm01" type="frontispiece"><figure><graphic url="dcsquirill1.jpg" rend="inline"/><p xml:id="dcsquir_1308">Paul stood by her, looking down into her eyes, bending
 	over her, smiling, pressing, confident, masterful (page
 	96)</p><figDesc>Frontispiece for Dorothy Canfield's "The
 	Squirrel-Cage"</figDesc></figure></div><pb pages="Title Page" facs="dcsquirtp"/><titlePage xml:id="dcsquir_13010" type="full"><docTitle><titlePart type="main">THE SQUIRREL-CAGE</titlePart></docTitle><byline>BY<lb/><docAuthor>DOROTHY CANFIELD</docAuthor></byline><titlePart type="desc">WITH ILLUSTRATIONS BY<lb/>JOHN ALONZO
       WILLIAMS</titlePart><docImprint><pubPlace>NEW YORK</pubPlace><publisher>GROSSET &amp; DUNLAP<lb/>
-	PUBLISHERS</publisher></docImprint></titlePage><pb xml:id="dcsquir_13011"/>    <div xml:id="dcsquir_fm02" type="copyright"><figure><graphic url="ENTITY_dcsquirfm1" rend="inline"/><figDesc>Copyright page of Dorothy Canfield's "The
-	   Squirrel-Cage"</figDesc></figure></div><pb xml:id="dcsquir_13012"/>    <div xml:id="dcsquir_toc" type="table of contents"><figure><graphic url="ENTITY_dcsquirfm2" rend="inline"/><figDesc>First Table of Contents page of Dorothy Canfield's
-	"The Squirrel-Cage"</figDesc></figure><pb xml:id="dcsquir_13013"/>      <figure><graphic url="ENTITY_dcsquirfm3" rend="inline"/><figDesc>Second Table of Contents page of Dorothy Canfield's
-	"The Squirrel-Cage"</figDesc></figure><pb xml:id="dcsquir_13014"/>      <figure><graphic url="ENTITY_dcsquirfm4" rend="inline"/><figDesc>List of Illustrations for Dorothy Canfield's
+	PUBLISHERS</publisher></docImprint></titlePage><pb xml:id="dcsquir_13011"/>    <div xml:id="dcsquir_fm02" type="copyright"><figure><graphic url="dcsquirfm1.jpg" rend="inline"/><figDesc>Copyright page of Dorothy Canfield's "The
+	   Squirrel-Cage"</figDesc></figure></div><pb xml:id="dcsquir_13012"/>    <div xml:id="dcsquir_toc" type="table_of_contents"><figure><graphic url="dcsquirfm2.jpg" rend="inline"/><figDesc>First Table of Contents page of Dorothy Canfield's
+	"The Squirrel-Cage"</figDesc></figure><pb xml:id="dcsquir_13013"/>      <figure><graphic url="dcsquirfm3.jpg" rend="inline"/><figDesc>Second Table of Contents page of Dorothy Canfield's
+	"The Squirrel-Cage"</figDesc></figure><pb xml:id="dcsquir_13014"/>      <figure><graphic url="dcsquirfm4.jpg" rend="inline"/><figDesc>List of Illustrations for Dorothy Canfield's
 	"The Squirrel-Cage"</figDesc></figure></div></front>
     <body xml:id="dcsquir_1204">
       <pb xml:id="dcsquir_13015" n="3"/>
@@ -578,7 +578,7 @@ persuade somebody who doesn't want to wait on me than to jump up and do it mysel
           <p xml:id="dcsquir_130414">"What did you have to do that kept you from that?"</p>
           <p xml:id="dcsquir_130415">"Oh, you're no housekeeper, that's evident, or you wouldn't ask. A man <hi rend="italic">never</hi> has any idea about the amount of work there is to do in a house. Why, set the table, and sweep the parlors, and change the flower vases, and dust, and pick up, and dust--I don't know what makes things get so dusty. We've got an awfully big house, you know, and of course I want to keep everything as nice as if Mother were up. Everybody expects me to do that!"</p>
           <p xml:id="dcsquir_130418">"I had a great-aunt," began Rankin with willful irrelevancy, "a very wonderful old woman who taught me most of what I value. She was considered cracked, so maybe that's why I am a freak, and she was as wise as wise! And she had stories that fitted every occasion. One that she used to tell was about a farmer cousin of hers, who had a team of spirited young horses that he was breaking. Everybody warned him that if they ever ran away they'd be spoiled for life, and he got carefuller and carefuller of them. One day he and his father were haying beside a river, and the father, who couldn't swim a stroke, fell
-<figure><graphic url="ENTITY_dcsquirill2" rend="inline"/><p xml:id="dcsquir_130416">"You say beautiful things!" he replied quietly. "My rough quarters
+<figure><graphic url="dcsquirill2.jpg" rend="inline"/><p xml:id="dcsquir_130416">"You say beautiful things!" he replied quietly. "My rough quarters
 are glorified for me"</p><figDesc>Illustration following page 66 in Dorothy Canfield's "The
 Squirrel-Cage"</figDesc></figure><pb xml:id="dcsquir_130417" n="67 Outside the Labyrinth"/>
 in. The horses were frightened by the splash and began to prance, and the son ran to their heads, beside himself with fear. The old man came to the top and screamed, 'Help! help!' and the son answered, fairly jumping up and down in his anguish of mind over his poor old father's fate, 'Oh, help, somebody! Somebody come and help! I can't leave my horses!'"</p>
@@ -1200,7 +1200,7 @@ various important matters which was interrupted by an impassioned call of Madame
           <p xml:id="dcsquir_130957">"Just a touch of gold braid on the collar, next the face, don't you--"</p>
           <p xml:id="dcsquir_130958">"Why not a real supper at midnight, with creamed oysters and things, as they do in the East?"</p>
           <p xml:id="dcsquir_130959">"Do <hi rend="italic">you</hi> see anything out of the way in publishing the details of Miss Lydia's dress the day before? It gives people a chance to know what to look for."</p>
-          <figure><graphic url="ENTITY_dcsquirill3" rend="inline"/>
+          <figure><graphic url="dcsquirill3.jpg" rend="inline"/>
             <p xml:id="dcsquir_130960">No, no; I can't—see him—I can't stand any
 more—"</p>
             <figDesc>Illustration following page 136 in Dorothy Canfield's "The
@@ -2400,7 +2400,7 @@ keeps saying --'I only did all those things--I only wanted all those things--bec
           <p xml:id="dcsquir_1301985">"No; you wouldn't see, of course. Yes; it's my doctrine--in theory. I believe it, as people believe in Christianity. I should be equally loath to see anybody doubt it, or practice it. Ah, I'm a fool! Besides, I was born in Kentucky. And I'm sixty-seven years old."</p>
           <p xml:id="dcsquir_1301986">He shut the door behind him with emphasis.</p>
           <p xml:id="dcsquir_1301989">He was on his way to Bellevue to see Lydia. Knowing her tender heart, he had expected to see her drowned in grief over her father's death. Her dry-eyed quiet made
-<figure><graphic url="ENTITY_dcsquirill4" rend="inline"/><p xml:id="dcsquir_1301987">"I see everything now," she went on. "He could not stop"</p><figDesc>Illustration following page 274 of Dorothy Canfield's "The
+<figure><graphic url="dcsquirill4.jpg" rend="inline"/><p xml:id="dcsquir_1301987">"I see everything now," she went on. "He could not stop"</p><figDesc>Illustration following page 274 of Dorothy Canfield's "The
 Squirrel-Cage."</figDesc></figure><pb xml:id="dcsquir_1301988" n="275 A Black Milestone"/>
 him uneasy. That morning, he found her holding Ariadne on her knees and telling her in a self-possessed, low tone, which did not tremble, some stories of "when grandfather was a little boy."</p>
           <p xml:id="dcsquir_1301990">"I don't want her to grow up without knowing something of my father," she explained to the doctor.</p>
@@ -3155,27 +3155,27 @@ chair."</p>
     </body>
     <back xml:id="dcsquir_1206">
       <div xml:id="dcsquir_bm01" type="adverts">
-        <figure><graphic url="ENTITY_dcsquirbm1" rend="inline"/>
+        <figure><graphic url="dcsquirbm1.jpg" rend="inline"/>
           <figDesc>Advertisement at the back of Dorothy Canfield's "The
 Squirrel-Cage"</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_dcsquirbm2" rend="inline"/>
+        <figure><graphic url="dcsquirbm2.jpg" rend="inline"/>
           <figDesc>Advertisement at the back of Dorothy Canfield's "The
 Squirrel-Cage"</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_dcsquirbm3" rend="inline"/>
+        <figure><graphic url="dcsquirbm3.jpg" rend="inline"/>
           <figDesc>Advertisement at the back of Dorothy Canfield's "The
 Squirrel-Cage"</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_dcsquirbm4" rend="inline"/>
+        <figure><graphic url="dcsquirbm4.jpg" rend="inline"/>
           <figDesc>Advertisement at the back of Dorothy Canfield's "The
 Squirrel-Cage"</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_dcsquirbm5" rend="inline"/>
+        <figure><graphic url="dcsquirbm5.jpg" rend="inline"/>
           <figDesc>Advertisement at the back of Dorothy Canfield's "The
 Squirrel-Cage"</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_dcsquirbm6" rend="inline"/>
+        <figure><graphic url="dcsquirbm6.jpg" rend="inline"/>
           <figDesc>Advertisement at the back of Dorothy Canfield's "The
 Squirrel-Cage"</figDesc>
         </figure>

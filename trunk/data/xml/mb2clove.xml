@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb2clove_0000">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb2clove_0000">
   <teiHeader xml:id="mb2clove0001"><fileDesc>
       <titleStmt>
         <title>The Cloven Foot, volume II, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Cloven Foot, volume
@@ -99,8 +99,8 @@ added by the encoder and do not appear in the original text.</p>
         <imprimatur>[<hi rend="italic">All rights reserved.</hi>]</imprimatur>
       </titlePage>
       <pb xml:id="mb2clove_1307" n="[iii]"/>
-      <div xml:id="mb2clove_001" type="table of contents">
-        <figure><graphic url="ENTITY_mb2clovetc" rend="inline"/>
+      <div xml:id="mb2clove_001" type="table_of_contents">
+        <figure><graphic url="mb2clovetc.jpg" rend="inline"/>
           <figDesc>Table of contents for the second volume of Braddon's <title rend="italic">The Cloven Foot</title>.</figDesc>
         </figure>
       </div>
@@ -110,7 +110,7 @@ added by the encoder and do not appear in the original text.</p>
       <div xml:id="mb2clove_011" n="1" type="chapter">
         <head>THE CLOVEN FOOT. <lb/>CHAPTER I. <lb/>EDWARD CLARE DISCOVERS A LIKENESS.</head>
         <q>
-          <text xml:id="mb2clove_13024">
+          <q><floatingText xml:id="mb2clove_13024">
             <body xml:id="mb2clove_13023">
               <div xml:id="mb2clove_100" type="letter">
                 <p xml:id="mb2clove_13010">HAZLEHURST RECTORY, February 22nd.—Dear Ned,—Do you remember my saying, when Laura refused to have a proper wedding gown, that her marriage was altogether an ill-omened business? I told her so, I told you so; in fact, I think I told everybody so; if it be not an unpardonable exaggeration to call the handful of wretched dowdier and frumps in such a place as Hazlehurst everybody. Well, I was right. The marriage has been a complete ,<hi rend="italic">fiasco</hi>. What do you think of our poor Laura's coming home from her honeymoon <hi rend="italic">alone?</hi><pb xml:id="mb2clove_1309" n="2 THE CLOVEN FOOT."/>Without even so much as her husband's portmanteau! She has shut herself up in the Manor House, where she lives the life of a female anchorite, and is so reserved in her manner towards me, her oldest friend, her all but sister, that even <hi rend="italic">I</hi> do not know the cause of this extraordinary state of affairs.</p>
@@ -131,7 +131,7 @@ added by the encoder and do not appear in the original text.</p>
                 <p xml:id="mb2clove_13022">P.S.—I hope you are writing a hook poems that will make the Laureate burst with envy. I have no personal animosity to him; but you are my brother, and, of course, your interests must be paramount.'</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb2clove_13026">This letter reached Edward Clare in his dingy lodgings, in a narrow side street near the British Museum, lodgings so dingy that it would have grieved the heart of his country-born and country-bred mother to see hey boy in such a den. But the apartments were quite dear enough for his slender means. The world, had not yet awakened to the stupendous fact that a new poet had been <pb xml:id="mb2clove_13025" n="5 EDWARD CLARE DISCOVERS A LIKENESS."/>born into it. Stupid reviewers went on prosing about Tennyson, Browning, and Swinburne, and the name of Clare was still unknown; even though it had appeared pretty often at the foot of a neat triplet of verses filling an odd page in a magazine.</p>
         <p xml:id="mb2clove_13027">'I shall never win a name in the magazines,' the young man told himself. 'It is worse than not writing at all. I shall rot unknown in my garret, or die of hunger and opium, like that poor boy who perished within a quarter of a mile of this dismal hole, unless I can get some rich publisher to launch me properly.'</p>
@@ -1085,7 +1085,7 @@ began Edward.</p>
         <pb n="210 THE CLOVEN FOOT." pages="210" facs="mb2clove210"/>
         <p xml:id="mb2clove_1301035">One was the certificate of Laura Malcolm's birth. The other five were letters addressed to Stephen Malcolm, Esq., Ivy Cottage, Chiswick. One of these, the latest in date, was from Jasper Treverton.</p>
         <q>
-          <text xml:id="mb2clove_1301038">
+          <q><floatingText xml:id="mb2clove_1301038">
             <body xml:id="mb2clove_1301037">
               <p xml:id="mb2clove_1301036">'I am deeply grieved to hear of your serious illness, my poor friend,' he wrote; 'your letter followed me to Germany, where I have been spending the autumn at one of the famous mineral baths. I started for England immediately, and landed here half an hour ago. I shall come on as fast as rail and cabs can bring me, and indeed hope to be with you before you get this letter.</p>
               <closer>
@@ -1095,7 +1095,7 @@ began Edward.</p>
 <lb/><date>'October 15th, 185—.'</date></dateline>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb2clove_1301040">The other letters were from friends of the past, like Jasper. One had enclosed aid in the shape of a post office order. The rest were sympathetic and regretful refusals to assist a broken-down acquaintance. The writers offered their impecunious friend every good wish, and benevolently com-<pb xml:id="mb2clove_1301039" n="211 A DISINTERESTED PARENT."/>mended him to Providence. In every case the respectability and the respectful tone of Stephen Malcolm's correspondents went far to testify to the fact that he had once been a gentleman. There was a deep descent from the position of the man to whom these letters were written to the status of Mr. Desrolles, the second-floor lodger in Cibber Street.</p>
         <p xml:id="mb2clove_1301041">So far as they went his credentials were undeniable. Laura had recognised him as her father. What justification could John Treverton find for repudiating his claim? For the money the man demanded he cared not a jot; but it pained him unspeakably to accept this dissipated waif, soaked in alcohol, as the father of the woman he loved.</p>

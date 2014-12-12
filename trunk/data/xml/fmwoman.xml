@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fmwoman_0000">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fmwoman_0000">
   <teiHeader xml:id="fmwoman0001"><fileDesc>
       <titleStmt>
         <title>Woman Against Woman, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Woman Against
@@ -83,26 +83,26 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="fmwoman_0002">
     <front xml:id="fmwoman_0003">
       <div xml:id="fmwoman_000" type="covers">
-        <figure><graphic url="ENTITY_fmwomanfc" rend="inline"/>
+        <figure><graphic url="fmwomanfc.jpg" rend="inline"/>
           <figDesc>Front cover of Marryat's Woman Against Woman.</figDesc>
         </figure>
         <pb xml:id="fmwoman_1305"/>
-        <figure><graphic url="ENTITY_fmwomanbc" rend="inline"/>
+        <figure><graphic url="fmwomanbc.jpg" rend="inline"/>
           <figDesc>Back cover of Marryat's Woman Against Woman.</figDesc>
         </figure>
         <pb xml:id="fmwoman_1306"/>
-        <figure><graphic url="ENTITY_fmwomansp" rend="inline"/>
+        <figure><graphic url="fmwomansp.jpg" rend="inline"/>
           <figDesc>Spine of Marryat's Woman Against Woman.</figDesc>
         </figure>
       </div>
       <pb xml:id="fmwoman_1307"/>
       <div xml:id="fmwoman_001" type="adverts">
-        <figure><graphic url="ENTITY_fmwomanifc" rend="inline"/>
+        <figure><graphic url="fmwomanifc.jpg" rend="inline"/>
           <figDesc>Advertisement included inside the front cover of Marryat's
 Woman Against Woman.</figDesc>
         </figure>
         <pb xml:id="fmwoman_1308"/>
-        <figure><graphic url="ENTITY_fmwomanad1" rend="inline"/>
+        <figure><graphic url="fmwomanad1.jpg" rend="inline"/>
           <figDesc>Advertisement in the front of Marryat's
 Woman Against Woman.</figDesc>
         </figure>
@@ -130,12 +130,12 @@ Ever," <lb/>"Gerald Estcourt," etc.</byline>
         </docImprint>
       </titlePage>
       <pb xml:id="fmwoman_13013" n="[iv]"/>
-      <div xml:id="fmwoman_002" type="table of contents">
-        <figure><graphic url="ENTITY_fmwomantc1" rend="inline"/>
+      <div xml:id="fmwoman_002" type="table_of_contents">
+        <figure><graphic url="fmwomantc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Marryat's Woman Against Woman.</figDesc>
         </figure>
         <pb xml:id="fmwoman_13014" n="iv Contents"/>
-        <figure><graphic url="ENTITY_fmwomantc2" rend="inline"/>
+        <figure><graphic url="fmwomantc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Marryat's Woman Against Woman.</figDesc>
         </figure>
       </div>
@@ -410,7 +410,7 @@ Rachel exclaimed in quite a different tone of voice,—</p>
         <p xml:id="fmwoman_130286">There was nothing to provoke any feeling but that of admiration in the writing, which, if one can judge character by such signs, betokened an off-hand and decided one; yet the girl to whom it was addressed scarcely glanced at the superscription on the cover, but tore it open and dashed through its contents as if they were not worth time or consideration.</p>
         <p xml:id="fmwoman_130287">They were as follows:—</p>
         <q>
-          <text xml:id="fmwoman_130293">
+          <q><floatingText xml:id="fmwoman_130293">
             <body xml:id="fmwoman_130292">
               <div xml:id="fmwoman_0111" type="letter">
                 <opener>
@@ -428,7 +428,7 @@ Rachel exclaimed in quite a different tone of voice,—</p>
                 <p xml:id="fmwoman_130291">"P.S. I am bringing home such lots of pretty things for my dear wife from China and the Cape, and all manner of queer places.</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fmwoman_130294">But the promise of "lots of pretty things" did not seem to have the effect upon Rachel that it would have done upon most girls of her age. Indeed, it is doubtful if her eyes ever travelled as far as the postscript, so fixed were they upon the latter sentence, and signature of the letter, her "devoted husband"—her husband—his wife. Although for five years she had known the fact, she had never seemed to grasp the meaning of the words until now. With it arose a sickly fear and dread—almost a great disgust. She sat for a few minutes motionless, looking at the reflection of her own face, from which all colour had fled, in the glass, and at first it seemed possible to mould her future for herself, and with the thought, her impulse was to tear her letter into a dozen pieces.</p>
         <p xml:id="fmwoman_130295">"His wife!" she exclaimed. "Never!—not for a thousand
@@ -550,7 +550,7 @@ worlds. I will <hi rend="italic">not</hi> be his wife. I will tell him so direct
         <p xml:id="fmwoman_130421">Mrs. Wilson having delivered the message to Mrs. Arundel's messenger through the open window, commenced, as a notable servant should, to employ the interval of her mistress's absence by setting her bedroom in order. The first object her eye lit, upon was the guitar.</p>
         <p xml:id="fmwoman_130423">"Ah, that has been returned, has it?" she thought to herself; "well, he didn't bring it with him this morning, any way, for I saw him come up the garden with Dr. Harris; there's more a-going on at times than one thinks for, I fancy, in this house.'' Having taken up the instrument and set it against another part of the wall with a vicious thump which can scarcely have been calculated to improve its tone, but probably was intended to improve its morality by showing it that it had no business to have been returned at all, she next proceeded to strip the bed, at the foot of which the sofa stood, and in the act some of the bedclothes trailing awkwardly upon the floor, Mrs. Wilson stooped to re-arrange them. Whilst so doing, she appeared to have found some object of interest, for she was a long time on her knees by the bedside, and when she finally resumed her original posture, it was with a look of undisguised triumph on her face and something small in her hand, which, having first well examined by aid of the light, she was very particular in wrapping in paper before she stowed it away in her pocket. In looking about for a piece with which to accomplish her object, she saw the torn sheets of Raymond Norreys' letter, which had been rent in four or five places, crumpled and defaced by passionate hands, and then contemptuously cast on one side to be trampled under foot as they might be. Caroline Wil-<pb xml:id="fmwoman_130422" n="55 A Spy in the Camp."/>son picked up one of the pieces, and smoothed out its creases. It happened to be the ending of the letter:—</p>
         <q>
-          <text xml:id="fmwoman_130426">
+          <q><floatingText xml:id="fmwoman_130426">
             <body xml:id="fmwoman_130425">
               <p xml:id="fmwoman_130424">"I shall write to you
 <lb/>"and that when we next
@@ -561,7 +561,7 @@ worlds. I will <hi rend="italic">not</hi> be his wife. I will tell him so direct
                 <signed>"<name type="person">RAYMOND NORREYS."</name></signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fmwoman_130427">She had to read the words over several times, and slowly, before she could quite arrive at their meaning, for she was not a well-educated woman; but it was not the first attempt by many that she had made to master the same handwriting, and therefore she soon arrived at the truth.</p>
         <p xml:id="fmwoman_130428">"This is what we do with our husband's letters, is it?" she said to herself. "This is how we value them? Well, I don't think if I had looked all day I could have found a better piece of paper to wrap my findings in. The two together, small though they be, may turn up yet, when they are least expected to do so. If I'm not mistaken, Mrs. Norreys will come to be sorry some of these fine days that she hasn't treated me with greater civility; till then, I don't lose sight of my little perquisite," and she put the paper and its enclosure safely away as she mused. But her mental soliloquy was here interrupted by the re-entrance of her mistress, with a flushed face, but no further signs of emotion than when she had left the room. She had not touched on the subject of his approaching death with her father, for Dr. Harris had told her not to do so. The dying man was fully aware that he was dying; he had said so again and again for weeks past, but his strength was nearly all gone, and it was not thought advisable, since he had never directly put the question, to tell him that his end was so near at hand. So, besides a gentle reproof for her red eyes, no allusion had been made to the impending trouble, for which Rachel had been thankful, for she did not feel as if she could have borne any more violent emotion that morning. She was thoroughly exhausted and worn out by the strength of her own feelings. But she was annoyed on her return to find that Mrs. Wilson had thought proper to commence making her bed, and setting her room in order.</p>
@@ -570,7 +570,7 @@ worlds. I will <hi rend="italic">not</hi> be his wife. I will tell him so direct
         <p xml:id="fmwoman_130431">"Major Arundel's orderly is still waiting for your answer, ma'am." was the mild expostulation.</p>
         <p xml:id="fmwoman_130432">"Oh, bother it!" exclaimed Rachel, with more impatience than elegance; "bring me my desk then." When it came, she hardly knew, on so little consideration, what to say. She wrote one note, and then tore it up. The fact is, she was not positive as to her interview with Cecil Craven having a private one, and she was diffident of not mentioning it to Mrs. Arundel, for fear the story might be repeated, and her silence on the subject make it appear more than it really was. She was already beginning (almost unconsciously to herself) to feel a little afraid of entirely trusting her bosom friend's good nature where Captain Craven was concerned. And so her second note spoke openly of the occurrence.</p>
         <q>
-          <text xml:id="fmwoman_130436">
+          <q><floatingText xml:id="fmwoman_130436">
             <body xml:id="fmwoman_130435">
               <head>From Mrs. Norreys to Mrs. Arundel.</head>
               <opener>
@@ -582,12 +582,12 @@ worlds. I will <hi rend="italic">not</hi> be his wife. I will tell him so direct
                 <signed>"<name type="person">RACHEL</name>."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fmwoman_130437">It was not long before the orderly brought back an answer to her note.</p>
         <pb xml:id="fmwoman_130438" n="57 A Spy in the Camp."/>
         <q>
-          <text xml:id="fmwoman_130441">
+          <q><floatingText xml:id="fmwoman_130441">
             <body xml:id="fmwoman_130440">
               <head>From Mrs. Arundel to Mrs. Norreys.</head>
               <opener>
@@ -599,7 +599,7 @@ worlds. I will <hi rend="italic">not</hi> be his wife. I will tell him so direct
                 <signed>"<name type="person">ELISE</name>."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fmwoman_130443">"Oh, how can Elise write such nonsense at such a time!" sighed poor Rachel, as she tore the effusion of her bosom friend in half, and threw it away. She felt that Mrs. Arundel's words were an insult to her present feelings; she wished she had never been so silly as to tell her anything about Cecil Craven. She might have guessed that she would not be able to enter into her view of the subject. She felt angry and sore that a joke could be made out of anything at such a miserable epoch of her existence, and so she tore up the note as her only means of expressing her want of sympathy with its contents, and almost hoped, for the first time, that her bosom friend would forget her promise, and not come to see her that evening. She tore up the note and threw it away; but why did she leave it on the floor? In her heedless impetuosity, Rachel Norreys had no forethought in little things; in another moment she had completed her dressing, and proceeded to join her father. The remembrance of her friend's words gave her annoyance, and therefore she imagined she was wise not to give them another thought if she could help it. Whilst in her bedroom she had looked everywhere for Cecil Craven's stud, but without success. That was another subject for worry; she was afraid that Caroline Wilson, notwithstanding her own careful search, might find it in some unexpected corner, and re-<pb xml:id="fmwoman_130442" n="58 Woman Against Woman."/>cognise the owner. But neither of these little troubles occupied her much. How could they whilst she sat, as she did all day, by her father's side, and remembered, as she listened to his voice, how soon it would be hushed for ever? She would have thought about them both a little more, perhaps, could she seen the look of malice on the face of the waiting-woman, whose capability of revenge she had laughed at and denied, only the day before, as she picked up the severed halves of Mrs. Arundel's foolish note whilst she was finishing the arrangement of her mistress's bedroom, and having read them, put them away safely in company with Cecil Craven's missing stud, and a look in her own eyes which betokened danger.</p>
       </div>
@@ -1086,7 +1086,7 @@ confess I have thought she was."</p>
         <p xml:id="fmwoman_130960">Mrs. Norreys emerged from her own bed-room. "No, my dear," was her answer; "I have seen no one. I was just coming down to seek you."</p>
         <p xml:id="fmwoman_130961">Then the servant was questioned, and he also denied having seen anything of Mr. Macpherson that evening. But, on a second examination of the dining-room, a scrap of paper was found on the mantelpiece, twisted into the form of a note, and addressed to Christine. The words in it were few:—</p>
         <q>
-          <text xml:id="fmwoman_130964">
+          <q><floatingText xml:id="fmwoman_130964">
             <body xml:id="fmwoman_130963">
               <p xml:id="fmwoman_130962">"I had come to pass the evening with you, but, as you seem better engaged, I have changed my mind, and am going to the Adelphi instead. Good night!</p>
               <closer>
@@ -1094,7 +1094,7 @@ confess I have thought she was."</p>
                 <signed>"A. M."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fmwoman_130965">The girl stamped her foot as she read it, and then tore it up, and threw the fragments into the waste-paper basket.</p>
         <p xml:id="fmwoman_130966">"What is the matter?" asked both her mother and brother.</p>
@@ -2063,7 +2063,7 @@ And when I first began to write the history of Mrs. Arundel, I thought it would 
         <pb xml:id="fmwoman_1301938" n="296 Woman Against Woman."/>
         <p xml:id="fmwoman_1301939">The next paper she examined was in her husband's handwriting, and was part of a torn and disregarded letter—</p>
         <q>
-          <text xml:id="fmwoman_1301942">
+          <q><floatingText xml:id="fmwoman_1301942">
             <body xml:id="fmwoman_1301941">
               <p xml:id="fmwoman_1301940">"I shall write to you—<lb/>and that when we next<lb/>right that I have now to sign myself,</p>
               <closer>
@@ -2071,13 +2071,13 @@ And when I first began to write the history of Mrs. Arundel, I thought it would 
                 <signed>"<name type="person">RAYMOND NORREYS</name>."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fmwoman_1301943">"What is this folly all about?" she said; finding her tongue when the foregoing scrap had passed through her hands. "This is simply part of a torn letter that some one, God knows why, must have extracted from my waste-paper basket months ago. It is one of your old letters, Raymond."</p>
         <p xml:id="fmwoman_1301944">"I know it," he replied, shortly.</p>
         <p xml:id="fmwoman_1301945">The next piece of writing that she examined was not so easily recognised by her. It was a letter written in a coarse and unfamiliar hand, and purported to be addressed to Raymond Norreys from a friend; but it bore no signature or date, and was indited on a common sheet of note-paper. Rachel turned it over and over, as if she was trying to guess at its transcriber, before she set herself to read it through. It was as follows:—</p>
         <q>
-          <text xml:id="fmwoman_1301948">
+          <q><floatingText xml:id="fmwoman_1301948">
             <body xml:id="fmwoman_1301947">
               <opener>
                 <salute>"To Mr. Norreys.</salute>
@@ -2088,7 +2088,7 @@ And when I first began to write the history of Mrs. Arundel, I thought it would 
                 <signed>"A WELL-WISHER."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="fmwoman_1301949" n="297 A Terrible Suspicion."/>
         <p xml:id="fmwoman_1301950">The handwriting of the foregoing epistle was so formal and unlike that of an educated person, and at the same time the phraseology was so correct, that Rachel, coupling both circumstances with the facts mentioned, had no hesitation in fixing the deed of darkness upon the shoulders of Caroline Wilson, particularly as the woman's dislike of herself was so well known. She was <hi rend="italic">very very</hi> white when she had finished reading the words of the "Well-wisher," but she summoned sufficient courage to untie next the little packet of card and cotton wool, from which fell Cecil's gold stud, with his monogram, C. C, deeply and plainly cut into the metal. She had been already too much shocked and astonished by what she had become acquainted with to feel any fresh surprise at its appearance.</p>

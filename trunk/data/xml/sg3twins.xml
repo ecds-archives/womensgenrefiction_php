@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sg3twins_12010">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sg3twins_12010">
   <teiHeader xml:id="sg3twins1201"><fileDesc>
       <titleStmt><title>The Heavenly Twins, volume III, an electronic edition</title><author><name><choice><sic><name type="person">Sarah Grand</name></sic><reg>Grand, Sarah</reg></choice></name></author>        <author><name><choice><sic/><reg/></choice></name></author></titleStmt>
       <extent>520kb</extent>
@@ -12,7 +12,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Heavenly Twins, In
@@ -92,11 +92,11 @@ added by the encoder and do not appear in the original text.</p>
         <titlePart type="desc">IN THREE VOLUMES <lb/>VOL. III.</titlePart>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <l>"They call us the Heavenly Twins.'</l>
               <l>"What, signs of the Zodiac?" said the Tenor.</l>
               <l>"No; signs of the times," said the Boy.</l>
-            </quote>
+            </q>
           </cit>
         </epigraph>
         <docImprint>
@@ -113,7 +113,7 @@ added by the encoder and do not appear in the original text.</p>
         <head>BOOK V.<lb/>MRS. KILROY OF ILVERTHORPE.</head>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg>
                 <l>Face to face in my chamber, my silent chamber, I saw her:</l>
                 <l>God and she and I only, there I sat down to draw her Soul through</l>
@@ -140,7 +140,7 @@ added by the encoder and do not appear in the original text.</p>
                 <l>Broken hearts triumph so."</l>
               </lg>
               <p xml:id="sg3twins_13010">—<bibl>Ibid</bibl>.</p>
-            </quote>
+            </q>
           </cit>
         </epigraph>
         <pb xml:id="sg3twins_13011" n="3"/>
@@ -374,7 +374,7 @@ and she called her.</p>
           <p xml:id="sg3twins_130263">The next day it was blowing a gale. Heavy showers began to fall at intervals, chilling the atmosphere, and finally settled into a steady downpour, such as frequently occurs in the middle of summer, making everything indoors humid and unwholesome, and causing colds, and sore throats, and other unseasonable complaints.</p>
           <p xml:id="sg3twins_130264">The Tenor taught his little choir boy as usual in the morning, went to the three services, getting more or less wet each time, and then came home and tried to do some work, but was not equal to it—his head ached; then tried to smoke, but the pipe nauseated him; and finally resigned himself to idleness, and just sat still in his lonely room, lonely of heart himself, yet with his hands patiently folded, dreamily watching the rain, as it beat upon the old cathedral opposite, and streamed from eave and gargoyle, and splashed from the narrow spouting under the roof, making spreading pathways of dark moisture for itself on the grey stone walls wherever it overflowed. It was all "His Will" to the Tenor, and for His sake there was nothing he would not have borne heroically.</p>
           <p xml:id="sg3twins_130265">
-            <figure><graphic url="ENTITY_sg3twinsillbar" rend="inline"/>
+            <figure><graphic url="sg3twinsillbar.jpg" rend="inline"/>
               <figDesc>A line of music from Mendelssohn's "Elijah," including the
 words: He, watching over Israel, slumbers not, nor sleeps.</figDesc>
             </figure>
@@ -607,7 +607,7 @@ chicken and tongue, a freshly opened tin of <hi rend="italic">paté de foie gras
           <p xml:id="sg3twins_130503">ANGELICA awoke unrefreshed after a few hours of light and restless sleep, much broken by dreams. "Dead! dead!" was the first thought in her mind, but it came unaccompanied by any feeling "Is Israfil really dead—buried—gone from us all for ever?" she asked herself in a kind of wonder. It was not at the thought of his death that she was wondering, however, but because the recollection of it did not move her in any way. Reflections which had caused her the sharpest misery only yesterday recurred to her now without affecting her in the least degree—except in that they made her feel herself to be a kind of monster of callousness, coldness, and egotism. The lonely grave, looking deserted already with the rain-bespattered, mud-bedraggled flowers fading upon it; the man himself as she had known him; his goodness, his kindness, the disinterested affection he had lavished upon her—she dwelt upon these things; she racked her brain to recall them in order to reawaken her grief and remorse, but in vain. Mind and memory responded to the effort, but her own heart she could not touch. The acute stage was over for the moment, and a most distressing numbness, attended by a sense of chilliness and general physical discomfort had succeeded it. The rims of her eyes were red and the lids still swollen by the tears of the day before; but the state of weeping, with the nervous energy and mental excitement which had been the first consequence of the shock, was a happy one compared with the dry inhuman apathy of this, and she strove to recall it, but only succeeded in adding the old sensation of discontent with everything as it is and nothing is worth while to her already deep depression. She loved order and regularity in a household, but now <pb xml:id="sg3twins_130502" n="90"/>the very thought of the old accustomed dull routine of life at the Castle exasperated her. After her grandfather would come her uncle, and after him in all human probability Diavolo would succeed, and there would be a long succession of solemn servants, each attending to the same occupations which had been carried on by other servants in the same place for hundreds of years; horrible monotony, all tending to nothing! For she saw as in a vision the end of the race to which she belonged. They and their like were doomed, and, with them, the distinguished bearing, the high-bred reserve, the refined simplicity and dignity of manner which had held them above the common herd, a class apart, until she came, were also doomed. "I am of the day," she said to herself; "the vulgar outcome of a vulgar era, bred so, I suppose, that I may see through others, which is to me the means of self-defence. I see that in this dispute of 'womanly or unwomanly,' the question to be asked is, not 'What is the pursuit?' but 'What are the proceeds?' No social lawmaker ever <hi rend="italic">said</hi> 'Catch me letting a woman into anything that pays!' It was left for me to translate the principle into the vernacular."</p>
           <p xml:id="sg3twins_130505">She breakfasted upstairs so that she might not have to talk, but went down immediately afterwards in order to find somebody to speak to, so rapid were the alternations of her moods. It was not in Angelica's nature to conceal anything she had done from her friends for long, and before she had been twenty-four hours at the castle she had taken her Aunt Claudia, and the lady known to them all intimately as "Ideala," into her confidence; but neither of them attempted to improve the occasion. They said even less than her uncle had done, and this reticence perplexed Angelica. She would have liked them to make much of her wickedness, to have reasoned with her, lectured her, and incited her to argue. She did not perceive, as they did, that she was one of those who must work out their own salvation in fear and trembling, and she was angry with them because they continued their ordinary avocations as if <pb xml:id="sg3twins_130504" n="91"/>nothing had happened when everything had gone so wrong with her.</p>
           <p xml:id="sg3twins_130506">The weary day dragged its slow length along. A walk about the grounds, luncheon, a long drive, calling at Ilverthorpe on the way back for letters; afternoon tea with her grandfather in the oriel room, and afterwards the accustomed wait with bowed head for the chime, which floated up at last from afar, distinct, solemn, slow, and weary like the voice of one who vainly repeats a blessed truth to ears that will not hear—
-<figure><graphic url="ENTITY_sg3twinsillbar" rend="inline"/><figDesc>A line of music from Mendelssohn's "Elijah," including the
+<figure><graphic url="sg3twinsillbar.jpg" rend="inline"/><figDesc>A line of music from Mendelssohn's "Elijah," including the
 words: He, watching over Israel, slumbers not, nor sleeps.</figDesc></figure>
 Her grandfather raised his velvet cap, and held it above his bald head while he repeated the words aloud, after which he muttered a prayer for the restoration of "Holy Church," then rose, and, leaning heavily on his ebony stick, walked from the room with the springless step of age, accompanied by his daughter Claudia and his son, and followed by two deerhounds, old and faithful friends who seldom left him. When the door closed upon this little procession, Angelica found herself alone with her aunt Lady Fulda, to whom she had not spoken since the day before. They were sitting near to each other, Angelica being in the window, from whence she had looked down upon the tree-tops and the distant city while they waited for the chime, the melancholy cadence of which had added something to the chill misery of her mood.</p>
           <p xml:id="sg3twins_130507">"Do you still believe it?" she asked ironically, and then felt as if she were always asking that question in that tone.</p>
@@ -726,7 +726,7 @@ Her grandfather raised his velvet cap, and held it above his bald head while he 
         <head>BOOK VI.<lb/>THE IMPRESSIONS OF DR. GALBRAITH.</head>
         <epigraph>
           <cit>
-            <quote><l>Nothing extenuate, nor set down aught in malice.</l>—<bibl><hi rend="italic">Othello</hi>, Act V. Sc. II.</bibl></quote>
+            <q><l>Nothing extenuate, nor set down aught in malice.</l>—<bibl><hi rend="italic">Othello</hi>, Act V. Sc. II.</bibl></q>
           </cit>
         </epigraph>
         <pb xml:id="sg3twins_130627" n="[115]"/>
@@ -788,7 +788,7 @@ Her grandfather raised his velvet cap, and held it above his bald head while he 
           <p xml:id="sg3twins_130682">The request arrived in the shape of a letter from Lady Adeline Hamilton-Wells, an intimate friend of mine, and one who has always had my most sincere respect and affection. She is a woman who lives altogether for others, devoting the greater part of her ample means, and all the influence of an excellent position, to their service; and she is a woman who stands alone on the strength of her own <pb xml:id="sg3twins_130681" n="128"/>individuality, for Mr. Hamilton-Wells does not count. Her great charm is her perfect sincerity. She is essentially true.</p>
           <p xml:id="sg3twins_130683">When I saw her note on the breakfast table next clay, I knew that somehow it would prove to be of more importance than the whole of my other letters put together, and I therefore hastened to open it first.</p>
           <q>
-            <text xml:id="sg3twins_1204">
+            <q><floatingText xml:id="sg3twins_1204">
               <body xml:id="sg3twins_1203">
                 <div xml:id="sg3twins_031" type="letter">
                   <opener>
@@ -800,12 +800,12 @@ Her grandfather raised his velvet cap, and held it above his bald head while he 
                   <closer>"<signed>ADELINE HAMILTON-WELLS</signed>."</closer>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <pb xml:id="sg3twins_130686" n="129"/>
           <p xml:id="sg3twins_130687">My answer to this letter has lately come into my possession, and I give it as being of more value probably than any subsequent record of these early impressions.</p>
           <q>
-            <text xml:id="sg3twins_1206">
+            <q><floatingText xml:id="sg3twins_1206">
               <body xml:id="sg3twins_1205">
                 <div xml:id="sg3twins_032" type="letter">
                   <opener>
@@ -833,7 +833,7 @@ with more pranks probably than those who know not Joseph.</p>
                   </closer>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
         </div>
         <pb xml:id="sg3twins_130696" n="131"/>

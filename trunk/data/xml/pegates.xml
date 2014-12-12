@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pegates_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pegates_1206">
   <teiHeader xml:id="pegates1201"><fileDesc>
       <titleStmt>
         <title>When the Gates Lift Up Their Heads, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>When the Gates Lift Up
@@ -80,7 +80,7 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="pegates_1205">
     <front xml:id="pegates_1202">
       <div xml:id="pegates_000" type="cover">
-        <figure><graphic url="ENTITY_pegatesfc" rend="inline"/>
+        <figure><graphic url="pegatesfc.jpg" rend="inline"/>
           <figDesc>Front cover of Erskine's <hi rend="italic">When the Gates
 Lift Up Their Heads</hi>.</figDesc>
         </figure>
@@ -111,7 +111,7 @@ Heads</titlePart>
                 <l>"All I could never be,</l>
                 <l>All, men ignored in me,</l>
                 <l>This, I was worth to God, whose wheeel the pitcher shaped.</l>
-                <milestone rend="dots" unit="stanza break"/>
+                <milestone rend="dots" unit="stanza_break"/>
                 <l>Fool! All that is, at all,</l>
                 <l>Lasts ever, past recall;</l>
                 <l>Earth changes, but thy soul and God stand sure;</l>
@@ -130,19 +130,19 @@ Heads</titlePart>
       </titlePage>
       <pb xml:id="pegates_1309" n="iv"/>
       <div xml:id="pegates_001" type="copyright">
-        <figure><graphic url="ENTITY_pegatescr" rend="inline"/>
+        <figure><graphic url="pegatescr.jpg" rend="inline"/>
           <figDesc>Copyright information for Erskine's <hi rend="italic">When the Gates
 Lift Up Their Heads</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="pegates_13010" n="[v]"/>
-      <div xml:id="pegates_002" type="table of contents">
-        <figure><graphic url="ENTITY_pegatestc1" rend="inline"/>
+      <div xml:id="pegates_002" type="table_of_contents">
+        <figure><graphic url="pegatestc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Erskine's <hi rend="italic">When the Gates
 Lift Up Their Heads</hi>.</figDesc>
         </figure>
         <pb xml:id="pegates_13011" n="vi"/>
-        <figure><graphic url="ENTITY_pegatestc2" rend="inline"/>
+        <figure><graphic url="pegatestc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Erskine's <hi rend="italic">When the Gates
 Lift Up Their Heads</hi>.</figDesc>
         </figure>
@@ -3237,19 +3237,19 @@ have nothing more to trouble me." <pb xml:id="pegates_1302569" n="348 When the G
     <back xml:id="pegates_1204">
       <div xml:id="pegates_100" type="advert">
         <pb xml:id="pegates_1303214"/>
-        <figure><graphic url="ENTITY_pegatesad1" rend="inline"/>
+        <figure><graphic url="pegatesad1.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Erskine's <hi rend="italic">When the Gates Lift Up their Head</hi>.</figDesc>
         </figure>
         <pb xml:id="pegates_1303215"/>
-        <figure><graphic url="ENTITY_pegatesad2" rend="inline"/>
+        <figure><graphic url="pegatesad2.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Erskine's <hi rend="italic">When the Gates Lift Up their Head</hi>.</figDesc>
         </figure>
         <pb xml:id="pegates_1303216"/>
-        <figure><graphic url="ENTITY_pegatesad3" rend="inline"/>
+        <figure><graphic url="pegatesad3.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Erskine's <hi rend="italic">When the Gates Lift Up their Head</hi>.</figDesc>
         </figure>
         <pb xml:id="pegates_1303217"/>
-        <figure><graphic url="ENTITY_pegatesad4" rend="inline"/>
+        <figure><graphic url="pegatesad4.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Erskine's <hi rend="italic">When the Gates Lift Up their Head</hi>.</figDesc>
         </figure>
       </div>

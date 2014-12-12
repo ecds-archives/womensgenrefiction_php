@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="atvictor_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="atvictor_1206">
   <teiHeader xml:id="atvictor1201"><fileDesc>
       <titleStmt>
         <title>Sir Victor's Choice, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Sir Victor's
@@ -79,7 +79,11 @@ added by the encoder and do not appear in the original text.</p>
           </list>
         </keywords>
       </textClass>
-    </profileDesc><revisionDesc><change><date>2006-June-28</date><label>Electronic Text Specialist.</label><name>Alice Hickcox, </name>XML tags inserted in compliance with TEI guidelines.</change></revisionDesc></teiHeader>
+    </profileDesc>
+    <revisionDesc>
+      <change><date>2006-June-28</date><label>Electronic Text Specialist.</label><name>Alice Hickcox, </name>XML tags inserted in compliance with TEI guidelines.</change>
+    </revisionDesc>
+  </teiHeader>
   <text xml:id="atvictor_1202">
     <front xml:id="atvictor_1203">
       <pb n="[i]" pages="Title Page" facs="atvictorTP"/>
@@ -98,18 +102,18 @@ added by the encoder and do not appear in the original text.</p>
         </docImprint>
       </titlePage>
       <pb xml:id="atvictor_1307" n="[iii]"/>
-      <div xml:id="atvictor_toc" type="table of contents">
-        <figure><graphic url="ENTITY_atvictorfm1" rend="inline"/>
+      <div xml:id="atvictor_toc" type="table_of_contents">
+        <figure><graphic url="atvictorfm1.jpg" rend="inline"/>
           <figDesc>First table of contents page for Annie Thomas's
 	  "Sir Victor's Choice"</figDesc>
         </figure>
         <pb xml:id="atvictor_1308" n="iv"/>
-        <figure><graphic url="ENTITY_atvictorfm2" rend="inline"/>
+        <figure><graphic url="atvictorfm2.jpg" rend="inline"/>
           <figDesc>Second table of contents page for Annie Thomas's
 	  "Sir Victor's Choice"</figDesc>
         </figure>
         <pb xml:id="atvictor_1309" n="v"/>
-        <figure><graphic url="ENTITY_atvictorfm3" rend="inline"/>
+        <figure><graphic url="atvictorfm3.jpg" rend="inline"/>
           <figDesc>Third table of contents page for Annie Thomas's
 	  "Sir Victor's Choice"</figDesc>
         </figure>
@@ -219,8 +223,8 @@ it is never well when she takes <pb xml:id="atvictor_13058" n="9 MADGE'S OATH."/
         <p xml:id="atvictor_13082">It <hi rend="italic">was</hi> hard to bear, this sight of the head of the family whimpering and lamenting like an old woman. They had borne much, these girls, in the unacknowledged hope of the better day that was to dawn for them when their father's uncle died. They had borne poverty, privation, cark and care; and now their lather's uncle was dead, and Sir Victor, his son, instead of Drummond, their father reigned in his stead, a thousand feelings urged them on to amend matters at any cost, if possible.</p>
         <p xml:id="atvictor_13083">"Papa," Madge said, with a calmer voice than she had hitherto spoken in, "Don't repine—don't give way. At the expiration of your two years of guardianship either Charlie or myself will be Sir Victor's wife—so help me, God!"</p>
       </div>
-      <pb xml:id="atvictor_13084" n="13"/>
       <div xml:id="atvictor_002" n="2" type="chapter">
+      <pb xml:id="atvictor_13084" n="13"/>
         <head>CHAPTER II.<lb/>DISPOSES OF A PLEBEIAN BRIDE.</head>
         <p xml:id="atvictor_13085">SIR ARTHUR CLEEVE had died in Paris, whither he had winged his feeble old flight a few months previously. He had thought that the bright French capital would put fresh vitality into his worn-out frame. He deemed that the limp hold he had of life was solely clue to the relaxing influence of the soft Devonshire climate. So he had left his old mansion, "The Chase," and gone off accompanied by his son—only to die after all amongst strangers.</p>
         <p xml:id="atvictor_13086">The boy had known but little of his father—nothing, in fact save what these few months in Paris had taught him. He had faint memories of having worn little velvet doublets and white frills long ago: and of having careered about a large house in company with a large dog, and of occasionally sharing with that dog the notice of a gentleman whom he was told was his papa. But this state of things could only have endured for a short time, for his next memories were of himself, still a mere mite, at a solemnly unpleasant school, minus velvet doublet, frills, dog, and indeed most things that made life agreeable; and the gentleman never appeared unto him there to accord him notice of any sort.</p>
@@ -847,10 +851,10 @@ father had sold yards of ribbon, and with the <pb xml:id="atvictor_130656" n="95
         <p xml:id="atvictor_130734">"That's absurd; and as to being friendly, that's nonsense, too! Be as friendly as you like, only——"</p>
         <p xml:id="atvictor_130735">He did not say what; and his brother, accompanied by Sir Victor Cleeve, left for Aldershott the next day.</p>
         <p xml:id="atvictor_130741">A fuller explanation of the reason why he did so, will be found in the following letter from Mrs. Selwyn James to her cousin, Mrs. Burroughes:—
-<q><text xml:id="atvictor_130740"><body xml:id="atvictor_130739"><salute>"MY DEAR THEODORA," </salute><p xml:id="atvictor_130736"><hi rend="italic">(she wrote)</hi>.—</p><p xml:id="atvictor_130738">"You told me not to bother you with a letter until I had something to write about. I think you will acknowledge when you receive this that I have"—here Alice's pen faltered; she desired to write with the dignified ease and confident strength of a married woman, and she was conscious that without the greatest care her letter would be full of the graphic tautologies of a school-girl—" obeyed you. The ball at The Chase on the 25th was very pleasant. I wore the white more that's gored at every breadth, with the Honiton lace tunic, looped up with white roses, and pearls and white roses in my hair. It sat beautifully over my sans-flectum. You were afraid there was too much fulness in front, but there wasn't a bit. It was much the handsomest dress in the room, though the Miss Cleeves' dresses were very pretty. I didn't dance every time, but I might have done so, for of course everybody paid me a great deal of attention, especially Sir Victor <pb xml:id="atvictor_130737" n="106 SIR VICTOR'S CHOICE."/>
-Cleeve (more about him when we meet). ('Oh, gracious! I hope not,' was Mrs. Burroughes's commentary on this passage). Selwyn's brother went with us; I thought it would be only good-natured to the Lisles to take him, for of course there are not many men like him about here. He is excessively agreeable, can talk about everything, and I danced with him a great deal, and Selwyn got <hi rend="italic">dreadfully</hi> jealous, and said terrible things. Since the ball, I went out into papa's shrubbery several times with Conway, with just my shawl over my head, and Selwyn had words with Conway about it, and though there was nothing at all in it, Conway very nobly and generously went away at once. Selwyn says I shall not scamper about like an unmarried girl (Selwyn had really said, 'like a dairy-maid,' but that Alice elected to ignore), and that I must adapt myself to my new and important position. I suppose I shall have fearful work with him when I get to Royston Hall, for I shall insist upon going out, and seeing who I like at home. Do write to me and give me your advice.</p><salute>"<sic>You</sic> affectionate cousin,</salute><signed>"ALICE JAMES."</signed></body></text></q></p>
+<q><floatingText xml:id="atvictor_130740"><body xml:id="atvictor_130739"><salute>"MY DEAR THEODORA," </salute><p xml:id="atvictor_130736"><hi rend="italic">(she wrote)</hi>.—</p><p xml:id="atvictor_130738">"You told me not to bother you with a letter until I had something to write about. I think you will acknowledge when you receive this that I have"—here Alice's pen faltered; she desired to write with the dignified ease and confident strength of a married woman, and she was conscious that without the greatest care her letter would be full of the graphic tautologies of a school-girl—" obeyed you. The ball at The Chase on the 25th was very pleasant. I wore the white more that's gored at every breadth, with the Honiton lace tunic, looped up with white roses, and pearls and white roses in my hair. It sat beautifully over my sans-flectum. You were afraid there was too much fulness in front, but there wasn't a bit. It was much the handsomest dress in the room, though the Miss Cleeves' dresses were very pretty. I didn't dance every time, but I might have done so, for of course everybody paid me a great deal of attention, especially Sir Victor <pb xml:id="atvictor_130737" n="106 SIR VICTOR'S CHOICE."/>
+Cleeve (more about him when we meet). ('Oh, gracious! I hope not,' was Mrs. Burroughes's commentary on this passage). Selwyn's brother went with us; I thought it would be only good-natured to the Lisles to take him, for of course there are not many men like him about here. He is excessively agreeable, can talk about everything, and I danced with him a great deal, and Selwyn got <hi rend="italic">dreadfully</hi> jealous, and said terrible things. Since the ball, I went out into papa's shrubbery several times with Conway, with just my shawl over my head, and Selwyn had words with Conway about it, and though there was nothing at all in it, Conway very nobly and generously went away at once. Selwyn says I shall not scamper about like an unmarried girl (Selwyn had really said, 'like a dairy-maid,' but that Alice elected to ignore), and that I must adapt myself to my new and important position. I suppose I shall have fearful work with him when I get to Royston Hall, for I shall insist upon going out, and seeing who I like at home. Do write to me and give me your advice.</p><salute>"<sic>You</sic> affectionate cousin,</salute><signed>"ALICE JAMES."</signed></body></floatingText></q></p>
         <p xml:id="atvictor_130745">Mrs. Burroughes's reply was couched in these terms—
-<q><text xml:id="atvictor_130744"><body xml:id="atvictor_130743"><salute>"DEAR ALICE—</salute><p xml:id="atvictor_130742">The opening of your note gave me palpitation of the heart, which subsided towards the end. If knocking under to your husband's little prejudices will make things pleasanter, you'll be a goose not to do so. I'm no rule, for it's strange, but true, that Mr. Burroughes has none.</p><salute>"Yours affectionately,</salute><signed>"THEODORA BURROUGHES."</signed></body></text></q></p>
+<q><floatingText xml:id="atvictor_130744"><body xml:id="atvictor_130743"><salute>"DEAR ALICE—</salute><p xml:id="atvictor_130742">The opening of your note gave me palpitation of the heart, which subsided towards the end. If knocking under to your husband's little prejudices will make things pleasanter, you'll be a goose not to do so. I'm no rule, for it's strange, but true, that Mr. Burroughes has none.</p><salute>"Yours affectionately,</salute><signed>"THEODORA BURROUGHES."</signed></body></floatingText></q></p>
         <p xml:id="atvictor_130746"><hi rend="italic">No one</hi> would assist Alice in playing this difficult game, not even the woman who played it so well herself.</p>
         <p xml:id="atvictor_130747">Miss Cleeve had enacted her laborious part well. None knew that she had longed for, yet dreaded Sir Victor's departure for a while, and Sir Victor was gone—gone to Aldershott, where he would be with men and men alone.</p>
       </div>

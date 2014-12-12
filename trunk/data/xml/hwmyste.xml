@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="hwmyste_1304734">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="hwmyste_1304734">
   <teiHeader><fileDesc>
       <titleStmt>
         <title>The Mystery</title>
@@ -15,7 +15,7 @@
           <name>Sheila T.Cavanagh</name>
           <name>Charles D.Spornick</name>
           <resp> Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author><title> The Mystery</title><pubPlace> Philadelphia</pubPlace>:<publisher>T.B. Peterson &amp; Co.</publisher><date> 1862</date>. </bibl>
@@ -76,16 +76,16 @@ A<lb/> STORY OF DOMESTIC LIFE.</titlePart>
         </docImprint>
       </titlePage>
       <div xml:id="hwmyste_9999" type="copyright">
-        <figure><graphic url="ENTITY_hwmystecr" rend="inline"/>
+        <figure><graphic url="hwmystecr.jpg" rend="inline"/>
           <figDesc>Copyright page for Wood's "The Mystery."</figDesc>
         </figure>
       </div>
-      <div xml:id="hwmyste_0001" type="table of contents">
-        <figure><graphic url="ENTITY_hwmystetc1" rend="inline"/>
+      <div xml:id="hwmyste_0001" type="table_of_contents">
+        <figure><graphic url="hwmystetc1.jpg" rend="inline"/>
           <figDesc> Contents</figDesc>
         </figure>
         <pb xml:id="hwmyste_1307"/>
-        <figure><graphic url="ENTITY_hwmystetc2" rend="inline"/>
+        <figure><graphic url="hwmystetc2.jpg" rend="inline"/>
           <figDesc> Contents</figDesc>
         </figure>
       </div>
@@ -2670,14 +2670,14 @@ A<lb/> STORY OF DOMESTIC LIFE.</titlePart>
         <p xml:id="hwmyste_1302600">"Please to let the man bring the letters to the house, ma'am, should you meet him again," he respectfully observed to Mrs. Penn. "My lady never allows any one to take them from the postman: he brings them into the hall and delivers them into my hand. Miss Emily, when she was at home, once took them from the man in the grounds, and my lady was so displeased with her: her lady-ship is very strict about the post letters."</p>
         <p xml:id="hwmyste_1302601">Hickens departed with his master's letter, and I opened mine, and read as follows:</p>
         <q>
-          <text xml:id="hwmyste_1302605">
+          <q><floatingText xml:id="hwmyste_1302605">
             <body xml:id="hwmyste_1302604">
               <div xml:id="hwmyste_100" n="1" type="letter"> <p xml:id="hwmyste_1302602">"The idea of your making all this dreadful fuss—though I suppose it is mamma, not you. She's neither poison nor a tiger, and therefore will not do the house irretrievable damage. It's not my fault if Alfred has taken this gastric fever, and I am detained here: I'd rather he in the wilds of Africa, I do assure you, scampering over the sandy desert on a mad pony, than condemned to be pent up in sick chambers. Fancy what it is! Alfred reduced to a skeleton in his bed, taking nothing but <hi rend="italic">tisane</hi> and that sort of slops, and lamenting that he won't get over it: Madame de Mellissie in <hi rend="italic">her</hi> bed, groaning under an agonizing attack of sciatica; and I doing duty between the two. It's dreadful. I should come off to Chandos to-morrow, and leave them till they were better, but for the fear that one or other might die, in which case the world would call me hard-hearted and every other ill name it could lay its tongue to. You see what my present fate is; wretched enough, without you going on at me for thoughtlessness and all the rest of it. How I should get through the dreary day but for some novels and a few callers, I don't know: but the novels are not exciting, and the visitors are stupid. Paris is empty just now, and as dull as a dungeon. Don't go worrying me with any more letters reflecting on my 'prudence,' or I shall send them back to you: if mamma orders you to write, tell her plainly that you won't. Ever yours,</p><closer><signed>"EMILY DE MELLISSIE.</signed></closer></div>
               <div xml:id="hwmyste_9200" type="postscript">
                 <p xml:id="hwmyste_1302603">"P. S. Pray who is Anne Hereford that she should disturb the peace of Chandos? I'll come over and relieve you of her as soon as I can; and meanwhile if it's inconvenient, as you broadly hint, to entertain her as a visitor, put her with the servants: only do not inundate me with mamma's lectures second hand."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="hwmyste_1302606">I had read to the end of this letter, where my own name occurred, before it struck me that it could not be meant for myself. Having written one letter to Madame de Mellissie, to which she had hitherto sent no reply, the circumstance tended to mislead me in reading this—which was probably meant for her brother. Before I could fold it up Mr. Chandos entered: a stick in one hand, leaning on Hickens with the other. Since the accident, a temporary bed had been made up for him on the ground floor, so that he had only to cross the hall. I said nothing till Hickens retired; then I advanced to him with the note.</p>
         <p xml:id="hwmyste_1302607">"This letter must be intended for you, I think, Mr. Chandos, although it was addressed to me. It is from Madame Alfred de Mellissie."</p>
@@ -2689,7 +2689,7 @@ A<lb/> STORY OF DOMESTIC LIFE.</titlePart>
         <pb xml:id="hwmyste_1302613" n="130"/>
         <p xml:id="hwmyste_1302614">The following was her letter to me:—</p>
         <q>
-          <text xml:id="hwmyste_1302617">
+          <q><floatingText xml:id="hwmyste_1302617">
             <body xml:id="hwmyste_1302616">
               <div xml:id="hwmyste_200" n="2" type="letter">
                 <opener>"My dear Anne Hereford,</opener>
@@ -2699,7 +2699,7 @@ A<lb/> STORY OF DOMESTIC LIFE.</titlePart>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="hwmyste_1302618">That was the note, and a fine specimen of contradiction it presented. Mr. Chandos took it from my hand.</p>
         <p xml:id="hwmyste_1302619">"May I read it? I have not done So."</p>

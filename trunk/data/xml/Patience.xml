@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="Patience_patience1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="Patience_patience1201">
   <teiHeader xml:id="patience1202"><fileDesc>
       <titleStmt>
         <title>Patience Sparhawk and Her Times, an electronic edition</title>
@@ -12,7 +12,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Patience Sparhawk and Her Times</title>. <pubPlace>New York and London</pubPlace>: <publisher>John Lane: The Bodley Head</publisher>, <date>1897</date>.</bibl>
@@ -59,8 +59,8 @@
     </profileDesc><revisionDesc><change><date>2007-June-28</date><label>Encoder.</label><name>Shruthi Vissa,</name>XML tags inserted in compliance with TEI guidelines using TEILITE.</change></revisionDesc></teiHeader>
   <text xml:id="Patience_patience1203">
     <front xml:id="Patience_patience1204">
-      <div xml:id="Patience_patiencecover" type="Front Cover">
-        <figure><graphic url="ENTITY_patiencefc" rend="inline"/>
+      <div xml:id="Patience_patiencecover" type="Front_Cover">
+        <figure><graphic url="patiencefc.jpg" rend="inline"/>
           <figDesc> Front Cover of Atherton's "Patience Sparhawk and Her Times"</figDesc>
         </figure>
       </div>
@@ -72,7 +72,7 @@
       </titlePage>
       <pb xml:id="Patience_1307"/>
       <div xml:id="Patience_patience800" type="advert">
-        <figure><graphic url="ENTITY_patiencefm2" rend="inline"/>
+        <figure><graphic url="patiencefm2.jpg" rend="inline"/>
           <figDesc>Advert included in front of Atherton's "Patience Sparhawk and Her Times"</figDesc>
         </figure>
       </div>
@@ -91,7 +91,7 @@
       </titlePage>
       <pb xml:id="Patience_13011"/>
       <div xml:id="Patience_patiencecopy" type="copyright">
-        <figure><graphic url="ENTITY_patiencefm4" rend="inline"/>
+        <figure><graphic url="patiencefm4.jpg" rend="inline"/>
           <figDesc>Copyright page of Atherton's "Patience Sparhawk and Her Times"</figDesc>
         </figure>
       </div>
@@ -1142,7 +1142,7 @@ the side of the house reserved for men. As she went down the hall she heard groa
           <p xml:id="Patience_130784">The first she opened was from Miss Tremont.</p>
           <pb xml:id="Patience_130785" n="119     Patience Sparhawk and Her Times "/>
           <q>
-            <text xml:id="Patience_130794">
+            <floatingText xml:id="Patience_130794">
               <body xml:id="Patience_130793">
                 <div xml:id="Patience_patience119" type="letter">
                   <opener>
@@ -1162,7 +1162,7 @@ we sit in the Tea House on the slope and Honora embroiders Catholic Church thing
                   <closer> <signed><name>HARRIET TREMONT</name>.</signed></closer>
                 </div>
               </body>
-            </text>
+            </floatingText>
           </q>
           <p xml:id="Patience_130795">"Dear old soul," thought Patience. "I think I know them better than she does, already. She is worth the whole selfish crowd; but I should like to know Hal. Beverly must be a chump."</p>
         </div>
@@ -1175,7 +1175,7 @@ Mrs. Thrailkill's death, and mentioned that Rosita had gone to
 Sacramento to visit Miss Galpin--now Mrs. Trent--until her uncle, who
 had returned to Kentucky, should send for her.</p>
           <q>
-            <text xml:id="Patience_130802">
+            <floatingText xml:id="Patience_130802">
               <body xml:id="Patience_130801">
                 <div xml:id="Patience_patience122" type="letter">
                   <p xml:id="Patience_130799">Oh, Patita! Patita! [the letter began], what do you think? <hi rend="italic">I am on the stage.</hi> I had been crazy to go on ever
@@ -1193,7 +1193,7 @@ sing, sing, sing, and dance, dance, dance, and have beautiful cloths and jewels 
                   <p xml:id="Patience_130800">P.S.--I'm to have a Spanish stage name, "La Rosita," I guess. Mr. Soper says that Thrailkill is an "anti-climax," and would never "go down."</p>
                 </div>
               </body>
-            </text>
+            </floatingText>
           </q>
         </div>
         <div xml:id="Patience_patience209" n="9" type="chapter">
@@ -2858,7 +2858,7 @@ symbol of poverty and struggle and an entirely new existence. Her
 second impulse was to sit down on a chair and cry; but she set her
 teeth, and read Miss Merrien's note instead.</p>
           <q>
-            <text xml:id="Patience_1302097">
+            <floatingText xml:id="Patience_1302097">
               <body xml:id="Patience_1302096">
                 <div xml:id="Patience_patience0800" type="note">
                   <p xml:id="Patience_1302094">I am so sorry not to be able to meet you [it read]; but I am a slave, you know. Before I was out of bed this morning I received an assignment to go to a woman's club meeting at eleven. But I'll get back in time to go
@@ -2873,7 +2873,7 @@ down to the shop with you. Don't get blue--if you can help it. Remember that eve
                   <p xml:id="Patience_1302095">P.S. Your clothes are in the closet in the hall. The key is in the washstand drawer.</p>
                 </div>
               </body>
-            </text>
+            </floatingText>
           </q>
           <p xml:id="Patience_1302098">Patience felt in better cheer after reading Miss Merrien's kindly greeting, but the day dragged along very heavily. She went out and bought all the newspapers, and studied them attentively for hints; but they did not tell her inexperience anything, and after a time she let them fall to the floor and sat staring at the blank windows opposite. For the first time doubts assailed her. She had been so full of young confidence, and pride in her brains and health and courage, that she had not regarded the issue of her struggle with the world in the light of a problem; but face to face with the practical details, she felt short of breath and weak in the knees.</p>
           <p xml:id="Patience_1302099">At two o'clock Miss Merrien came in, looking very tired. There were black scoops under her eyes, and the lines about her mouth were strongly accentuated. But she smiled brightly as Patience rose to greet her.</p>
@@ -3857,7 +3857,7 @@ Our love-making has barely progressed beyond friendship: we shall hardly recogni
 </head>
           <p xml:id="Patience_1302825">ON the third of February she received a letter, the handwriting of whose address made her change colour: she had seen it once on Mrs. Peele's desk. It was the first communication of any sort that she had received from the man who was to defend her life. She opened the letter with angry curiosity.</p>
           <q>
-            <text xml:id="Patience_1302831">
+            <floatingText xml:id="Patience_1302831">
               <body xml:id="Patience_1302830">
                 <div xml:id="Patience_patience803" type="letter">
                   <opener>
@@ -3875,7 +3875,7 @@ Mr. Simms, had gathered in and digested all the facts in the case. Now, however,
                   </closer>
                 </div>
               </body>
-            </text>
+            </floatingText>
           </q>
           <p xml:id="Patience_1302832">Patience read this carefully worded epistle twice, then laughed and shrugged her shoulders.</p>
           <p xml:id="Patience_1302833">"I am glad he has declared himself," she thought. "Of course I should have ignored the past, but it is a relief to think that there will be no awkwardness."</p>

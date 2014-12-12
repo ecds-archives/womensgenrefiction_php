@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rddocto_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rddocto_1207">
   <teiHeader xml:id="rddocto1201"><fileDesc>
       <titleStmt>
         <title>Doctor Warrick's Daughters, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Doctor Warrick's
@@ -79,18 +79,18 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="rddocto_1206">
     <front xml:id="rddocto_1202">
       <div xml:id="rddocto_000" type="covers">
-        <figure><graphic url="ENTITY_rddoctofc" rend="inline"/>
+        <figure><graphic url="rddoctofc.jpg" rend="inline"/>
           <figDesc>Front cover of Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_rddoctosp" rend="inline"/>
+        <figure><graphic url="rddoctosp.jpg" rend="inline"/>
           <figDesc>Spine of Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="rddocto_1305"/>
       <div xml:id="rddocto_001" type="frontispiece">
-        <figure><graphic url="ENTITY_rddoctofp" rend="inline"/>
+        <figure><graphic url="rddoctofp.jpg" rend="inline"/>
           <p xml:id="rddocto_1306">"SHE TURNED INTO THE OLD GARDEN"</p>
           <figDesc>Frontispiece from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc>
@@ -112,7 +112,7 @@ Daughters</hi>.</figDesc>
       </titlePage>
       <pb xml:id="rddocto_1309"/>
       <div xml:id="rddocto_002" type="copyright">
-        <figure><graphic url="ENTITY_rddoctocr" rend="inline"/>
+        <figure><graphic url="rddoctocr.jpg" rend="inline"/>
           <figDesc>Copyright for Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc>
         </figure>
@@ -122,8 +122,8 @@ Daughters</hi>.</figDesc>
         <p xml:id="rddocto_13011">TO <lb/>C.B.D.</p>
       </div>
       <pb xml:id="rddocto_13012"/>
-      <div xml:id="rddocto_004" type="list of illustrations">
-        <figure><graphic url="ENTITY_rddoctolist" rend="inline"/>
+      <div xml:id="rddocto_004" type="list_of_illustrations">
+        <figure><graphic url="rddoctolist.jpg" rend="inline"/>
           <figDesc>List of illustrations for  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc>
         </figure>
@@ -536,7 +536,7 @@ money for <hi rend="italic">us?</hi> Has Mildred allowed you to make such a sacr
         <p xml:id="rddocto_130363">If the step could be taken while she was gone, there would be a victory!</p>
         <p xml:id="rddocto_130364">"If the thing is right to do, let me do it!" he blustered. "Never mind Mildred."</p>
         <pb xml:id="rddocto_130365"/>
-        <figure><graphic url="ENTITY_rddoctoill48" rend="inline"/>
+        <figure><graphic url="rddoctoill48.jpg" rend="inline"/>
           <p xml:id="rddocto_130366">"'TO THINK MY FATHER IS TO DO THIS GREAT WORK!'"</p>
           <figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc>
@@ -712,7 +712,7 @@ American scenery shut into this little farm? Brooke, listen to reason. We are wa
         <p xml:id="rddocto_130513">Brooke laughed, with sudden relief, and lighted his pipe, which had gone out. "What is done is done. I must stick to the Rutabagas, you see."</p>
         <p xml:id="rddocto_130514">Edward sat down, holding his head between his hands, in gloomy silence. Suddenly he started up. "I have it! You said I would pay my own expenses with Mears? Why not give me the same amount and let me go alone? To my mother's people in Louisiana? By all reports the Soudés are a good stock--worth knowing. I could study the scenery on the Gulf! By George, Brooke, that's a great idea! I would have no end of a good time. It would set you free to go with Mears. Though he's a cad. But if you like him--Why do you look so grumpy about it? You object? I wish you to be satisfied," he said, hesitating. "What's wrong, then? Where's the difficulty? Oh, I see"--rising with an angry laugh. "New Orleans is not a Sunday-school! I may play euchre? This is a little too much, Brooke! You know that I have outgrown that folly. Come now, old fellow, don't draw the reins too tight. I'm not built like you."</p>
         <pb xml:id="rddocto_130515"/>
-        <figure><graphic url="ENTITY_rddoctoill70" rend="inline"/>
+        <figure><graphic url="rddoctoill70.jpg" rend="inline"/>
           <p xml:id="rddocto_130516">"GLANCING IN AT NED"</p>
           <figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc>
@@ -1016,7 +1016,7 @@ gradually obtained the facts of Soudé's history. He also gave her copies of Joh
         <p xml:id="rddocto_130771">There was a lawn party that afternoon and a dance at night at one of the large houses upon the bay. Mr. Soudé arrived late, and found that some of the guests had wandered out upon the half-ruined galleries, and to the lawns sloping down to the beach. 'The sun was hidden by a silvery fog, a damp wind stirred the blossoms of the magnolias and the veils of gray moss upon the trees. There was a hush in the air, a sad significance of decay under all the soft splendor, which touched Soudé, who was easily moved by the moods of nature. He wandered down alone to the beach. In the far distance the heaving plane of water was covered by dull mists, out of which white sails flashed and disappeared. Suddenly he started forward.</p>
         <p xml:id="rddocto_130772">A woman was walking out upon a rotten pier, her eyes fixed upon the distant sails, unconscious that the timbers were crumbling beneath her. The water below was deep and slimy.</p>
         <p xml:id="rddocto_130776">John climbed out on a beam below her.
-<pb xml:id="rddocto_130773"/><figure><graphic url="ENTITY_rddoctoill106" rend="inline"/><p xml:id="rddocto_130774">"A WOMAN WAS WALKING OUT UPON A ROTTEN PIER"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
+<pb xml:id="rddocto_130773"/><figure><graphic url="rddoctoill106.jpg" rend="inline"/><p xml:id="rddocto_130774">"A WOMAN WAS WALKING OUT UPON A ROTTEN PIER"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc></figure><pb xml:id="rddocto_130775" n="107"/>
 "Don't look down!" he shouted. "Give me your hand! Quick! There!"</p>
         <p xml:id="rddocto_130777">He caught her just as the timbers fell with a crash into the water.</p>
@@ -1133,7 +1133,7 @@ rouge on 'em, too. But they light up well, hu! hu!"</p>
         <p xml:id="rddocto_130875"> Soudé did not ask Milly to dance, When she glanced shyly up at him, he had a mad impulse to snatch this innocent child to his arms and carry her away out of sight of the coarse crowd. He stammered a word or two and stood still, looking at her. At least he would not go spinning around with her before this miserable mob!</p>
         <p xml:id="rddocto_130876">"It is very quiet on the veranda," he said. "Will you walk through this dance with me?"</p>
         <p xml:id="rddocto_130880">She laid her hand timidly on his arm, and they
-<pb xml:id="rddocto_130877"/><figure><graphic url="ENTITY_rddoctoill120" rend="inline"/><p xml:id="rddocto_130878">"PLUNKETT DREW A STARTLED BREATH"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
+<pb xml:id="rddocto_130877"/><figure><graphic url="rddoctoill120.jpg" rend="inline"/><p xml:id="rddocto_130878">"PLUNKETT DREW A STARTLED BREATH"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc></figure><pb xml:id="rddocto_130879" n="121"/>
 went out. As they walked to and fro, on one side were the windows of the ball-room, with their flashes of color and light, and on the other the heavy night, with the mysterious waste of star-lit water quivering yonder on the horizon.</p>
         <p xml:id="rddocto_130881">David Plunkett stationed himself on one of the windows, where he could catch glimpses of the two figures passing in the darkness. Once the light fell full upon them. Plunkett drew a startled breath. He had never seen Milly's face look like that, so happy, so--honest. "The little devil's telling the truth now, for once in her life," thought David. What hold could this strange man have on her?</p>
@@ -1270,7 +1270,7 @@ cent of interest, either. Heh? What d'ye say?"</p>
         <p xml:id="rddocto_1301002">"How will you raise the money?"</p>
         <p xml:id="rddocto_1301003">"I will sell the farm."</p>
         <p xml:id="rddocto_1301007">"Thank God for that! I hate that old house, and the cursed cows and pigs." In a few minutes
-<pb xml:id="rddocto_1301004"/><figure><graphic url="ENTITY_rddoctoill134" rend="inline"/><p xml:id="rddocto_1301005">"'GIVE ME THE PISTOL NOW, NED'"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
+<pb xml:id="rddocto_1301004"/><figure><graphic url="rddoctoill134.jpg" rend="inline"/><p xml:id="rddocto_1301005">"'GIVE ME THE PISTOL NOW, NED'"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc></figure><pb xml:id="rddocto_1301006" n="135"/>
 he said, "Forgive me, Brooke. I know you like the place. Mortgage it. I'll pay you the money to redeem it as soon as I get to work. One picture will buy a dozen such farms."</p>
         <p xml:id="rddocto_1301008">He walked a few paces and stopped again. "I've had no money since Tuesday," he stammered. "I'm faint. If I had some food, I should not be so nearly mad."</p>
@@ -1403,7 +1403,7 @@ world, and he loved her! She wanted now to be alone with him. She paced up and d
         <p xml:id="rddocto_1301115">In a week-to-morrow?</p>
         <p xml:id="rddocto_1301116">All these things would be hers and she could pour them into his hands.</p>
         <pb xml:id="rddocto_1301117"/>
-        <figure><graphic url="ENTITY_rddoctoill150" rend="inline"/>
+        <figure><graphic url="rddoctoill150.jpg" rend="inline"/>
           <p xml:id="rddocto_1301118">"PRESENTLY SHE SAT DOWN TO THINK OUT HER PLAN"</p>
           <figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc>
@@ -1639,7 +1639,7 @@ show of hospitality? To her own house, her own carriage? Even John waited for a 
 sudden earnestness. "Edward is weak, but not dishonorable. That is
 impossible. You forget. His mother was a Soudé--one of
 us.
-<pb xml:id="rddocto_1301301"/><figure><graphic url="ENTITY_rddoctoill178" rend="inline"/><p xml:id="rddocto_1301302">"ITS ROW OF LIGHTS GLEAMING THROUGH THE DARKNESS"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
+<pb xml:id="rddocto_1301301"/><figure><graphic url="rddoctoill178.jpg" rend="inline"/><p xml:id="rddocto_1301302">"ITS ROW OF LIGHTS GLEAMING THROUGH THE DARKNESS"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc></figure><pb xml:id="rddocto_1301303" n="179"/>
 He could not be dishonorable." She gave a quick little decisive nod, and flecked the horses with her whip. They darted forward. In a moment she turned, smiling, to point out some birds to Anne, but her lips were pale.</p>
         <p xml:id="rddocto_1301305">"If we had been men, she would have drawn a pistol in defence of the family honor," thought Anne, and liked her companion better than ever.</p>
@@ -1737,7 +1737,7 @@ laundry, and a sow and her pigs rooted tranquilly under the gallery.</p>
         <p xml:id="rddocto_1301379">"Very well," said John, his eyes twinkling. "We won't argue about
 it, little girl." Nothing could be more delightful, he thought, than a
 pretty
-<pb xml:id="rddocto_1301376"/><figure><graphic url="ENTITY_rddoctoill190" rend="inline"/><p xml:id="rddocto_1301377">"SHE RAN HER FINGERS CURIOUSLY OVER THE BRICKS"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
+<pb xml:id="rddocto_1301376"/><figure><graphic url="rddoctoill190.jpg" rend="inline"/><p xml:id="rddocto_1301377">"SHE RAN HER FINGERS CURIOUSLY OVER THE BRICKS"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc></figure><pb xml:id="rddocto_1301378" n="191"/>
 woman prattling of these high matters which only men could understand.</p>
         <p xml:id="rddocto_1301380">Milly drew him along the path. "There is a little group of huts--quite a village. Who live there?" she asked.</p>
@@ -1837,7 +1837,7 @@ remembered Milly's command and checked himself. "In a few days I can
 tell you all, sir. Just trust me till then." He edged along the step
 until his broad back leaned against his father's knee. "I was thinking
 just now that there was no more beautiful
-<pb xml:id="rddocto_1301461"/><figure><graphic url="ENTITY_rddoctoill202" rend="inline"/><p xml:id="rddocto_1301462">"AS JOHN LOOKED AT IT THE SLOW TEARS ROSE TO HIS EYES"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
+<pb xml:id="rddocto_1301461"/><figure><graphic url="rddoctoill202.jpg" rend="inline"/><p xml:id="rddocto_1301462">"AS JOHN LOOKED AT IT THE SLOW TEARS ROSE TO HIS EYES"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc></figure><pb xml:id="rddocto_1301463" n="203"/>
 home in the world than this, and that when I bring her to it--"</p>
         <p xml:id="rddocto_1301465">"Her?"</p>
@@ -2008,7 +2008,7 @@ he said heartily, "you have done with this load now. I take it on my shoulders. 
         <p xml:id="rddocto_1301614">It was a recognition of the white blood in him. It flamed in his veins. He stopped to look at the babies as he passed their trundle-bed, and kissed them both, but he patted one fondly. It was the whiter of the two and had reddish hair.</p>
         <p xml:id="rddocto_1301615">John left his father in his room and hurried out of the house. He had a queer shivering fit such as women have, and was ashamed of it. He had been thrown headlong into filth and never could be clean again! The Soudés, thieves! He plunged into the marsh and walked in the night for hours.</p>
         <p xml:id="rddocto_1301619">The morning rose at last on his wretched-
-<pb xml:id="rddocto_1301616"/><figure><graphic url="ENTITY_rddoctoill220" rend="inline"/><p xml:id="rddocto_1301617">"'I DID YOU AN INJUSTICE,' HE SAID"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
+<pb xml:id="rddocto_1301616"/><figure><graphic url="rddoctoill220.jpg" rend="inline"/><p xml:id="rddocto_1301617">"'I DID YOU AN INJUSTICE,' HE SAID"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc></figure><pb xml:id="rddocto_1301618" n="221"/>
 ness. Red lights struck across the vast slope toward the Gulf, with its population of spectral trees and moving mists. The fresh air blew; thousands of birds began to sing. Soudé ran to the bay and, undressing, threw himself into the water. He fought with the waves a while, shouting to himself, and came out all in a glow and laughing. He was so young! There was so much to do! The day was so bright and cold! Now for work. Every dollar must be saved to pay off that debt, and he must plunge into Pomeroy's scheme and earn a support for his wife. Milly and he would take care of Therese, he thought, with a tender smile on his lips.</p>
         <p xml:id="rddocto_1301620">He hurried to the house. There was so much to do, and he was so strong and able for it, that the old disaster faded, dim and far off as the unclean fogs yonder upon the swamps.</p>
@@ -2213,7 +2213,7 @@ drowned his noise. When they stopped at a station he poured out his oaths on the
         <p xml:id="rddocto_1301789">"Milly," he said, hurrying in, "here is David. Come to take pot-luck with us. Come in, Plunkett. Why do you stand out there? Ring the bell, Mildred, for Peter."</p>
         <p xml:id="rddocto_1301790">David stood just inside the door, immovable. "You do not say that you are glad to see me, Milly?" he said, in his hoarse voice.</p>
         <p xml:id="rddocto_1301794">"Why, of course I'm glad, David," she piped
-<pb xml:id="rddocto_1301791"/><figure><graphic url="ENTITY_rddoctoill244" rend="inline"/><p xml:id="rddocto_1301792">"SOME MEN PASSING STARED CURIOUSLY AT HIM"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
+<pb xml:id="rddocto_1301791"/><figure><graphic url="rddoctoill244.jpg" rend="inline"/><p xml:id="rddocto_1301792">"SOME MEN PASSING STARED CURIOUSLY AT HIM"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc></figure><pb xml:id="rddocto_1301793" n="245"/>
 feebly, without looking up, being busy with her embroidery. She felt his eyes on her; and, presently, peeped up through her curly lashes.</p>
         <p xml:id="rddocto_1301795">How she loathed the huge creature standing there, with his great, obese body and round, unmeaning face! She stitched on. Just here, on these roses, John would rest his dear old head, when he came home tired, to the mean cabin--she in her calico gown! She peeped up again.</p>
@@ -2336,7 +2336,7 @@ Enormous profits out there for a man of skill and energy."</p>
         <p xml:id="rddocto_1301897">He heard her.</p>
         <p xml:id="rddocto_1301898">"You mean the opium?" said the doctor. "I have heard that; poor boy!"</p>
         <pb xml:id="rddocto_1301899"/>
-        <figure><graphic url="ENTITY_rddoctoill48" rend="inline"/>
+        <figure><graphic url="rddoctoill48.jpg" rend="inline"/>
           <p xml:id="rddocto_1301900">"ON THE OLD SETTEE ON THE PORCH"</p>
           <figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc>
@@ -2388,7 +2388,7 @@ cheeks are wet! Why, there is nobody else! It is you--<hi rend="italic">you!</hi
         <p xml:id="rddocto_1301939">"Don't talk French, Ned. I don't understand it. This is so much to me! I thought you'd be glad. You might as well talk French when I was dead as now."</p>
         <p xml:id="rddocto_1301940">Ned sat up in the bed. "Forgive me, dear old man. Here, give me your hand. I'm a selfish brute. But you were as triumphant as if you'd won the Grand Prix, and it was only Nancy Warrick! I'm very pleased, really. She certainly has points of remarkable beauty--eyes like the Ferronière's--though her hands and feet are atrocious. But that needn't worry you. We all have some faults. Well, we'll talk it over to-morrow. I'm horribly sleepy. God bless you and your wife!"</p>
         <p xml:id="rddocto_1301944">He was not sleepy. His bright eyes watched
-<pb xml:id="rddocto_1301941"/><figure><graphic url="ENTITY_rddoctoill265" rend="inline"/><p xml:id="rddocto_1301942">"'I'VE BEEN QUITE FRANK WITH ANNE'"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
+<pb xml:id="rddocto_1301941"/><figure><graphic url="rddoctoill265.jpg" rend="inline"/><p xml:id="rddocto_1301942">"'I'VE BEEN QUITE FRANK WITH ANNE'"</p><figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc></figure><pb xml:id="rddocto_1301943" n="265"/>
 the lamp for hours while he pondered the situation. "It will never do," was his decision at last. "There can't be two rulers in one house. She or I will have to knuckle under. Well, we'll see!" and then he fell calmly sleep.</p>
         <p xml:id="rddocto_1301945">When Anne went to her father with her story he expressed great concern. "But really, what have you to live o? If there were nothing to consider but feelings, I should give you my blessing, and be very glad--"</p>
@@ -2444,7 +2444,7 @@ many years I have looked forward to this coming home, Nancy."</p>
         <p xml:id="rddocto_1301991">"Did you not know? He went to New York the day you left. He said he had told you--"</p>
         <p xml:id="rddocto_1301992">Brooke hurried through the lighted house to Ned's room. Upon the table was a letter directed to himself.</p>
         <q>
-          <text xml:id="rddocto_1204">
+          <q><floatingText xml:id="rddocto_1204">
             <body xml:id="rddocto_1203">
               <div xml:id="rddocto_100" type="letter">
                 <p xml:id="rddocto_1301993">"Dear old man, I need a change. I shall run over to Paris for a few months of hard work. Here are some bills which I wish you would settle for me at your leisure. I have borrowed a little money from you, but will wipe the slate clean when I sell my first picture. My fondest love to my charming sister.</p>
@@ -2454,7 +2454,7 @@ many years I have looked forward to this coming home, Nancy."</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="rddocto_1301994">Beneath was a pile of bills, the upper one from Caldwell &amp; Co.</p>
         <p xml:id="rddocto_1301995">Calhoun went to his desk and opened it. The Bible was in its place, but there was no money in it. He beckoned to Anne and handed the letter to her.</p>
@@ -2610,7 +2610,7 @@ steadily up and down the salon. He laid his hand on hers, a grave alarm in his f
         <p xml:id="rddocto_1302129">They carried her to her room. The physicians came and went all
 day.</p>
         <pb xml:id="rddocto_1302130"/>
-        <figure><graphic url="ENTITY_rddoctoill288" rend="inline"/>
+        <figure><graphic url="rddoctoill288.jpg" rend="inline"/>
           <p xml:id="rddocto_1302131">"THE DOCTOR TURNED AWAY WHEN DAVID WENT TO IT"</p>
           <figDesc>Illustration from  Davis's <hi rend="italic">Doctor Warrick's
 Daughters</hi>.</figDesc>

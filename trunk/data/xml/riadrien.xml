@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="riadrien_12012">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="riadrien_12012">
   <teiHeader xml:id="riadrien1201"><fileDesc>
       <titleStmt>
         <title>Adrienne, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Adrienne: A Romance of French Life</title>. <pubPlace>London</pubPlace>:
@@ -755,7 +755,7 @@ dim her sight; she strove to speak, but the words were hard to form, and harder 
         <p xml:id="riadrien_130574">"Understand!" muttered the old man, putting his hand to his head in a dazed, bewildered fashion. "I--I cannot read it, Maï. Tell me what he says."</p>
         <p xml:id="riadrien_130575">The girl took the paper from his shaking fingers, and slowly, and with difficulty, read out these lines:--</p>
         <q>
-          <text xml:id="riadrien_1204">
+          <q><floatingText xml:id="riadrien_1204">
             <body xml:id="riadrien_1203">
               <div xml:id="riadrien_050" type="letter">
                 <opener>"<salute>FATHER</salute>,</opener>
@@ -765,7 +765,7 @@ any longer. You have been good to me. I know it; but the life here is not what I
                 <closer>--<salute>Your son</salute><signed>"ANDRÉ"</signed></closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="riadrien_130578">With stammering and hesitation, for she read but ill, little Maï spelt out the contents of the letter. As she finished there was a long silence.</p>
         <p xml:id="riadrien_130579">The old man's heart felt bitter within him. The child he had loved and tended through infancy and youth--for whom he had laboured, and worked, and denied himself--that child had forsaken him now, and left him desolate and alone in his old age.</p>
@@ -1551,14 +1551,14 @@ given up his peasant's dress now. He looks more civilised, but less picturesque 
         <p xml:id="riadrien_1301264">Presently her maid entered with some tea and a salver of letters, which she placed on the table beside her young mistress. Adrienne took them up indifferently. One was from Céline. She read that eagerly and with interest. It always pleased her to hear of Valtours. She laid it aside at last. A little smile curved her lips. She would be soon going back to the château now, and how pleased Céline would be when she heard.</p>
         <p xml:id="riadrien_1301265">Her fingers had mechanically broken open another envelope. Her eyes fell on the lines traced by a strange and unknown hand. She sat as if suddenly turned to stone. Her face grew ghastly in its pallor.</p>
         <q>
-          <text xml:id="riadrien_1206">
+          <q><floatingText xml:id="riadrien_1206">
             <body xml:id="riadrien_1205">
               <div xml:id="riadrien_060" type="letter">
                 <p xml:id="riadrien_1301266">"MADAME," she read, "if you are ignorant of what all the world of Paris knows, namely, your husband's open infidelity, come at midnight to the Rue d'Antoine, No. 9. He has a supper-party there, and his mistress will be present. If you believe this information, and tax him with its truth, he will deny it. If you come yourself you will have clear proof of how you are deceived and wronged. The supper is at twelve. I will let you in, and place you where you may be unseen and yet satisfy your eyes and ears that what I say is true.</p>
                 <closer>"<signed>A SINCERE AND HUMBLE WELL-WISHER</signed>."</closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="riadrien_1301267">Adrienne never knew if it was an hour or a moment that she sat there with that letter in her hands, and that crushing, numbing sense of misery weighing upon her heart.</p>
         <pb xml:id="riadrien_1301268" n="191     Adrienne."/>
@@ -2631,14 +2631,14 @@ ing heart; then, quite suddenly, the letter fell from his grasp. He bent his hea
         <p xml:id="riadrien_1302189">"It is too much happiness;" he cried wildly. "Oh, my angel! my wife! Heaven grant that the future may atone for the past!"</p>
         <p xml:id="riadrien_1302190">This was Adrienne's letter:--</p>
         <q>
-          <text xml:id="riadrien_1208">
+          <q><floatingText xml:id="riadrien_1208">
             <body xml:id="riadrien_1207">
               <div xml:id="riadrien_070" type="letter">
                 <opener>"<salute>MY HUSBAND</salute>,--</opener>
                 <p xml:id="riadrien_1302191">They have only told me now of your long sufferings--your great danger. It was cruel to keep me in ignorance, but it was done for the best. I would hasten to you now, but another claim is on my life--the claim of a child's helplessness. Yes, Armand, as I write these words our little son lies by my side, and your eyes seem to look up to me from his face and waken again all the love of old. Let the past be forgotten; the future may yet atone for the misery and unhappiness I have felt. Come to me when health and strength allow of it. They say all danger is over now. God grant it! My heart is full to overflowing, but I am too weak to write more. Only remember your wife and child are ready to welcome you, and all the past is forgiven and forgotten. I can only think of you as suffering and alone, and long to be by your side."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="riadrien_1302192">Armand do Valtour needed no more tonics after that letter. Happiness was the medicine that gave back strength to his body--hope to his heart.</p>
         <pb xml:id="riadrien_1302193" n="331     Adrienne."/>

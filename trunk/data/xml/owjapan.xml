@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="owjapan_12029">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="owjapan_12029">
   <teiHeader xml:id="owjapan1201"><fileDesc>
       <titleStmt>
         <title>A Japanese Blossom, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A Japanese
@@ -78,14 +78,14 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="owjapan_12028">
     <front xml:id="owjapan_1202">
       <div xml:id="owjapan_1001" type="covers">
-        <figure><graphic url="ENTITY_owjapanfc" rend="inline"/>
+        <figure><graphic url="owjapanfc.jpg" rend="inline"/>
           <figDesc>Front cover of  Watanna's <hi rend="italic">A Japanese
 Blossom</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="owjapan_1305"/>
       <div xml:id="owjapan_1000" type="frontispiece">
-        <figure><graphic url="ENTITY_owjapanfp" rend="inline"/>
+        <figure><graphic url="owjapanfp.jpg" rend="inline"/>
           <figDesc>Frontispiece for Watanna's <hi rend="italic">A Japanese
 Blossom</hi>.</figDesc>
         </figure>
@@ -105,7 +105,7 @@ Blossom</hi>.</figDesc>
       </titlePage>
       <pb xml:id="owjapan_1308"/>
       <div xml:id="owjapan_1547" type="copyright">
-        <figure><graphic url="ENTITY_owjapancr" rend="inline"/>
+        <figure><graphic url="owjapancr.jpg" rend="inline"/>
           <figDesc>Copyright information for Watanna's <hi rend="italic">A Japanese
 Blossom</hi>.</figDesc>
         </figure>
@@ -115,8 +115,8 @@ Blossom</hi>.</figDesc>
         <p xml:id="owjapan_13010">TO <lb/>MY CHILDREN</p>
       </div>
       <pb xml:id="owjapan_13011"/>
-      <div xml:id="owjapan_1003" type="list of illustrations">
-        <figure><graphic url="ENTITY_owjapanill" rend="inline"/>
+      <div xml:id="owjapan_1003" type="list_of_illustrations">
+        <figure><graphic url="owjapanill.jpg" rend="inline"/>
           <figDesc>List of illustrations for Watanna's <hi rend="italic">A Japanese
 Blossom</hi>.</figDesc>
         </figure>
@@ -527,7 +527,7 @@ Left to the care of his doting old grandparents, Mr. Kurukawa saw clearly how mu
       <div xml:id="owjapan_1008" n="5" type="chapter">
         <head>V</head>
         <p xml:id="owjapan_130281">MARION sat on a gigantic moss-grown rock, looking with somewhat wistful eyes at the children in the family pond. She envied them their intense enjoyment. The family pond, it should be explained, was also the family bathtub. It was a great pool of water, set in the heart of the garden, a beautiful and alluring spot for the children. All about it the blossoming trees bent their heads as if to look at their own reflected images in the mirror of the water. The Kurukawas had added to its natural beauty by placing along its banks huge rocks of strange
-<pb xml:id="owjapan_130279"/><figure><graphic url="ENTITY_owjapanill52" rend="inline"/><figDesc>Illustration from Watanna's <hi rend="italic">A Japanese
+<pb xml:id="owjapan_130279"/><figure><graphic url="owjapanill52.jpg" rend="inline"/><figDesc>Illustration from Watanna's <hi rend="italic">A Japanese
 Blossom</hi>.</figDesc></figure><pb n="53     A JAPANESE BLOSSOM" pages="53" facs="owjapan053"/>
 formation, very charming to look at, and comfortable to sit upon.</p>
         <p xml:id="owjapan_130282">Out over the water a sort of pleasure-booth was built, over which the wistaria vines clambered and bloomed in wild profusion. This was the dolls' house of the little Japanese girls. In the water were two diminutive sampans and also a raft, the property of Taro, inherited from Gozo.</p>
@@ -678,7 +678,7 @@ Don't you see, I wrote to him first. Yes, I did, too, I wrote him the longest le
         <p xml:id="owjapan_130400">"Well, well, what does he say?" asked Marion, excitedly.</p>
         <p xml:id="owjapan_130401">Plum Blossom looked over her brother's shoulder and translated in this wise:</p>
         <q>
-          <text xml:id="owjapan_1204">
+          <q><floatingText xml:id="owjapan_1204">
             <body xml:id="owjapan_1203">
               <div xml:id="owjapan_1015" type="letter">
                 <opener>
@@ -691,7 +691,7 @@ Don't you see, I wrote to him first. Yes, I did, too, I wrote him the longest le
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb n="80     A JAPANESE BLOSSOM" pages="80" facs="owjapan080"/>
         <p xml:id="owjapan_130404">"Is that all?" inquired Marion, blankly, her blue eyes filling with tears.</p>
@@ -1118,7 +1118,7 @@ hardships, no word of the battles fought, and he was now a veteran. He wrote tha
 <pb n="150     A JAPANESE BLOSSOM" pages="150" facs="owjapan150"/>
 her. After a time the various epistles were read aloud by their authors. With her little lisp Plum Blossom read her letter:</p>
         <q>
-          <text xml:id="owjapan_1206">
+          <q><floatingText xml:id="owjapan_1206">
             <body xml:id="owjapan_1205">
               <div xml:id="owjapan_1024" type="letter">
                 <opener>
@@ -1139,13 +1139,13 @@ fire worg and Juji burn match. Thas something for him. I am now soon
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="owjapan_130756">As soon as Plum Blossom ceased, Iris began reading. Her letter proved to be, however, an almost exact copy of her sister's, for, sitting
 <pb n="151     A JAPANESE BLOSSOM" pages="151" facs="owjapan151"/>
 close to Plum Blossom, she had simply copied her sister's letter bodily, thus saving herself the labor of composition. They all laughed when she re-read Plum Blossom's letter. Marion read hers shyly.</p>
         <q>
-          <text xml:id="owjapan_1208">
+          <q><floatingText xml:id="owjapan_1208">
             <body xml:id="owjapan_1207">
               <div xml:id="owjapan_1025" type="letter">
                 <opener>
@@ -1155,7 +1155,7 @@ close to Plum Blossom, she had simply copied her sister's letter bodily, thus sa
                 <p xml:id="owjapan_130758">Dear father, I do love you. Mamma cries for you at night."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="owjapan_130760">She was interrupted here by a protest from the family. Father ought
 <pb n="152     A JAPANESE BLOSSOM" pages="152" facs="owjapan152"/>
@@ -1165,7 +1165,7 @@ not to be told of tears. So she scratched that sentence out laboriously, and the
         </q>
         <p xml:id="owjapan_130762">Billy interrupted this time. "How much longer is it?" he asked, gruffly. Marion continued, her face flushed:</p>
         <q>
-          <text xml:id="owjapan_12010">
+          <q><floatingText xml:id="owjapan_12010">
             <body xml:id="owjapan_1209">
               <div xml:id="owjapan_1026" type="letter">
                 <p xml:id="owjapan_130763">"--and this is all, dear father, and I hope you will win the fight, only please, please don't kill anybody or let any one kill you.</p>
@@ -1178,13 +1178,13 @@ not to be told of tears. So she scratched that sentence out laboriously, and the
                 <p xml:id="owjapan_130764">"P. S.--Give my best love to Gozo, and tell him I pray for him, too, and, please, also, would you lend him the Bible I gave you sometimes?"</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="owjapan_130766">It was Taro's turn. He began
 <pb n="153     A JAPANESE BLOSSOM" pages="153" facs="owjapan153"/>
 reading in Japanese, but was forced to translate:</p>
         <q>
-          <text xml:id="owjapan_12012">
+          <q><floatingText xml:id="owjapan_12012">
             <body xml:id="owjapan_12011">
               <div xml:id="owjapan_1028" type="letter">
                 <opener>
@@ -1202,11 +1202,11 @@ dutiful sons may enlist.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="owjapan_130768">Billy's letter was characteristic.</p>
         <q>
-          <text xml:id="owjapan_12014">
+          <q><floatingText xml:id="owjapan_12014">
             <body xml:id="owjapan_12013">
               <div xml:id="owjapan_1029" type="letter">
                 <opener>
@@ -1241,7 +1241,7 @@ anywhere.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb n="155     A JAPANESE BLOSSOM" pages="155" facs="owjapan155"/>
         <p xml:id="owjapan_130772">"Talk about long letters," said Marion.</p>
@@ -1322,7 +1322,7 @@ sat at the various tables eating their luncheon.</p>
         <p xml:id="owjapan_130830">"Well," said Billy, crossly, "I'm tired of rice-cakes and sweet things. I want something else. Do you keep chop-suey?" It was a dish he liked very much, having become acquainted with it through a Chinese cook lately employed. The little maid thought she might bring something resembling chop-suey. So she sped away to fill the orders. Soon she was back, followed by another maid carrying the luncheon on black lacquer trays. The omelets ordered by Mrs. Kurukawa were served in the most attractive shapes. Each omelet was formed in a different pattern, as a chrysanthemum, a twig of pine-tree, a plum blossom.</p>
         <p xml:id="owjapan_130831">"They're too pretty to eat," said Marion, looking with delight at the flower form before her.</p>
         <p xml:id="owjapan_130834">Billy's chop-suey was a chicken-stew, to which had been added
-<pb xml:id="owjapan_130832"/><figure><graphic url="ENTITY_owjapanill170" rend="inline"/><figDesc>Illustration from Watanna's <hi rend="italic">Japanese
+<pb xml:id="owjapan_130832"/><figure><graphic url="owjapanill170.jpg" rend="inline"/><figDesc>Illustration from Watanna's <hi rend="italic">Japanese
 Blossom</hi>.</figDesc></figure><pb n="171     A JAPANESE BLOSSOM" pages="171" facs="owjapan171"/>
 mushrooms. As they ate the meal the little waitress brought her samisen, and, running her fingers lightly across it, she began to first play and then to sing:</p>
         <q>
@@ -1486,7 +1486,7 @@ their services. Their French friend had better revise his thoughts.</p>
         <p xml:id="owjapan_130919">The letter from Gozo was brief, but his step-mother read it greedily. It was written in the English language.</p>
         <pb n="193     A JAPANESE BLOSSOM" pages="193" facs="owjapan193"/>
         <q>
-          <text xml:id="owjapan_12016">
+          <q><floatingText xml:id="owjapan_12016">
             <body xml:id="owjapan_12015">
               <div xml:id="owjapan_1042" type="letter">
                 <opener>
@@ -1500,7 +1500,7 @@ their services. Their French friend had better revise his thoughts.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb n="194" pages="194" facs="owjapan194"/>
@@ -1616,7 +1616,7 @@ Kurukawa. "My husband would not have done so. Oh, I have tried to be as he would
         <head>XXIV</head>
         <p xml:id="owjapan_1301014">TWO weeks later the mail for Tokio contained several pathetic epistles. Most of them were written in the wandering, crude, yet peculiarly attractive handwriting of little children. Mrs. Kurukawa read them over and over again, crying softly as she did so.</p>
         <q>
-          <text xml:id="owjapan_12018">
+          <q><floatingText xml:id="owjapan_12018">
             <body xml:id="owjapan_12017">
               <div xml:id="owjapan_1046" type="letter">
                 <opener>
@@ -1633,10 +1633,10 @@ father is gone, and he says he wishes he could have the chance to do what father
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="owjapan_12020">
+          <q><floatingText xml:id="owjapan_12020">
             <body xml:id="owjapan_12019">
               <div xml:id="owjapan_1047" type="letter">
                 <opener>
@@ -1656,10 +1656,10 @@ happiness.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="owjapan_12022">
+          <q><floatingText xml:id="owjapan_12022">
             <body xml:id="owjapan_12021">
               <div xml:id="owjapan_1048" type="letter">
                 <opener>
@@ -1674,10 +1674,10 @@ about it all the time and want to come to you. I don't think it right for a woma
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="owjapan_12024">
+          <q><floatingText xml:id="owjapan_12024">
             <body xml:id="owjapan_12023">
               <div xml:id="owjapan_1049" type="letter">
                 <opener>
@@ -1693,10 +1693,10 @@ wet. Therefore I praying until you <hi rend="italic">please</hi> come home with 
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="owjapan_12026">
+          <q><floatingText xml:id="owjapan_12026">
             <body xml:id="owjapan_12025">
               <div xml:id="owjapan_1148" type="letter">
                 <opener>
@@ -1717,7 +1717,7 @@ the lambs.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb n="219" pages="219" facs="owjapan219"/>
@@ -1771,7 +1771,7 @@ spoke with a note of irresistible appeal in her voice.</p>
         <p xml:id="owjapan_1301068">"In Japan--the hospital at Saseho. I unworthily brought him home on--"</p>
         <p xml:id="owjapan_1301069">He noticed that her hand fell feebly from his. Then he caught her as she reeled. She had fainted.</p>
         <pb xml:id="owjapan_1301070"/>
-        <figure><graphic url="ENTITY_owjapaanill226" rend="inline"/>
+        <figure><graphic url="owjapaanill226.jpg" rend="inline"/>
           <figDesc>Illustration from Watanna's <hi rend="italic">A Japanese
 Blossom</hi>.</figDesc>
         </figure>

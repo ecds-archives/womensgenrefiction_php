@@ -1,5 +1,5 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="jmtyler_1201">
-  <teiHeader xml:id="jmtyler1202"><fileDesc><titleStmt><title>The Adventures of Tyler Tatlock, an electronic edition</title><author><name><choice><sic><name type="person">Dick Donovan</name></sic><reg>Muddock, J.E. (Joyce Emmerson), 1843-1934</reg></choice></name></author></titleStmt><extent>600Kb</extent><publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2007</date><availability><p xml:id="jmtyler_1301">© 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p></availability><idno type="ark">http://pid.emory.edu/ark:/25593/172zk</idno></publicationStmt><seriesStmt><title>Women's Genre Fiction, 1860-1920</title><respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp><name/></respStmt></seriesStmt><sourceDesc><bibl><author><name><choice><sic/><reg/></choice></name></author>. 
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="jmtyler_1201">
+  <teiHeader xml:id="jmtyler1202"><fileDesc><titleStmt><title>The Adventures of Tyler Tatlock, an electronic edition</title><author><name><choice><sic><name type="person">Dick Donovan</name></sic><reg>Muddock, J.E. (Joyce Emmerson), 1843-1934</reg></choice></name></author></titleStmt><extent>600Kb</extent><publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2007</date><availability><p xml:id="jmtyler_1301">© 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p></availability><idno type="ark">http://pid.emory.edu/ark:/25593/172zk</idno></publicationStmt><seriesStmt><title>Women's Genre Fiction, 1860-1920</title><respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt></seriesStmt><sourceDesc><bibl><author><name><choice><sic/><reg/></choice></name></author>. 
 <title>The Adventures of Tyler Tatlock</title>. <pubPlace>London</pubPlace>: <publisher>Chatto &amp; Windus</publisher>, <date>1900</date>.</bibl> </sourceDesc> </fileDesc><encodingDesc><projectDesc><p xml:id="jmtyler_1302">This text was created by the Lewis H. Beck Center as a part of the Women's Genre Fiction Project. Project participants intend for this encoded text, as well as all texts produced by this project, to be made available on the web for educational, scholarly and pedagogical purposes. This project is funded by a grant from the National Endowment for the Humanities.</p></projectDesc> <samplingDecl><p xml:id="jmtyler_1303">The title page, selected front matter, and body text of novels and stories have been transcribed and encoded. Paratextual elements such as covers, illustrations, front matter, and advertisements are provided as digital images only, with some exceptions.</p></samplingDecl><editorialDecl><p xml:id="jmtyler_1304">Processing this electronic text file began by creating TIFF images of each page using either a flatbed scanner or a PowerPhase FX digital camera. Text pages were captured in grayscale at 400dpi while illustrations and covers were captured in color at 300dpi. These digital images were converted to an electronic text file by Optical Character Recognition (OCR) software. The text files produced by the OCR software have been proofread against the original novel or TIFF images of the original novel. This proofread text file has then been encoded using the recommendations for Level 3 of the TEI in Libraries Guidelines. For the details of Level 3 encoding, please see the webpage for TEI Guidelines for Best Encoding practices at http://www.indiana.edu/~letrs/tei/. Encoders silently replaced em dashes with two dashes. Page numbers displayed in brackets have been added by the encoder and do not appear in the original text.</p></editorialDecl><classDecl><taxonomy xml:id="lcsh"><bibl><title>Library of Congress Subject Headings</title></bibl></taxonomy></classDecl></encodingDesc><profileDesc>
       <creation>
         <rs type="collection">Genre Fiction</rs>
@@ -26,15 +26,15 @@
   <text xml:id="jmtyler_1203">
     <front xml:id="jmtyler_1204">
       <div xml:id="jmtyler_cover" type="covers">
-        <figure><graphic url="ENTITY_jmtylerfc" rend="inline"/>
+        <figure><graphic url="jmtylerfc.jpg" rend="inline"/>
           <figDesc> Front cover for Donovan's "The Adventures of Tyler Tatlock"</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_jmtylerspine" rend="inline"/>
+        <figure><graphic url="jmtylerspine.jpg" rend="inline"/>
           <figDesc>Spine of Donovan's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
       </div>
       <div xml:id="jmtyler_100" type="advert">
-        <figure><graphic url="ENTITY_jmtyler_frontad1" rend="inline"/>
+        <figure><graphic url="jmtyler_frontad1.jpg" rend="inline"/>
           <figDesc>Advert included in the front of Donovan's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
       </div>
@@ -47,7 +47,7 @@
       </titlePage>
       <pb xml:id="jmtyler_1308"/>
       <div xml:id="jmtyler_cp" type="copyright">
-        <figure><graphic url="ENTITY_jmtylercopy" rend="inline"/>
+        <figure><graphic url="jmtylercopy.jpg" rend="inline"/>
           <figDesc>Copyright page of Donovan's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
       </div>
@@ -71,8 +71,8 @@
           <docDate>1900</docDate>
         </docImprint>
       </titlePage>
-      <div xml:id="jmtyler_300" type="table of contents">
-        <figure><graphic url="ENTITY_jmtylertc" rend="inline"/>
+      <div xml:id="jmtyler_300" type="table_of_contents">
+        <figure><graphic url="jmtylertc.jpg" rend="inline"/>
           <figDesc>Table of Contents for Donovan's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
       </div>
@@ -848,7 +848,7 @@ trick. Her father went down to Edinburgh and penned the, following
 note:—</p>
         <milestone rend="blank-line" unit="section"/>
         <q>
-          <text xml:id="jmtyler_130533">
+          <q><floatingText xml:id="jmtyler_130533">
             <body xml:id="jmtyler_130532">
               <div xml:id="jmtyler_069" type="letter">
                 <opener>
@@ -867,7 +867,7 @@ however strange my request may be, comply with it, otherwise my death
 will lie at your door.'</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="jmtyler_130535">This note, though it distressed Margaret and put her into a flutter, fulfilled its purpose, for nothing her father did surprised her, and so, without waiting to think, she threw on her hat and cloak and hurried out. When she met her
@@ -1471,7 +1471,7 @@ advertisement appeared the following was sent to each office:</p>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="jmtyler_130942">In accordance with the arrangement it did not appear, and after the lapse of a day or two a letter, of which the following is a copy, was sent to each publisher:</p>
         <q>
-          <text xml:id="jmtyler_130946">
+          <q><floatingText xml:id="jmtyler_130946">
             <body xml:id="jmtyler_130945">
               <div xml:id="jmtyler_147" type="letter">
                 <opener>
@@ -1488,7 +1488,7 @@ once. Stamped addressed envelope enclosed.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="jmtyler_130947">The address given proved to be a little huckster's shop, and the proprietor made a trifle occasionally by allowing people to have letters addressed there. When a sufficient time had elapsed for a reply to be sent, a woman called at the shop and asked for Maria Hutton's letters. She was watched and followed to a very respectable-looking house in the Buckingham Palace Road, which was found to be in the occupation of a man known to the landlord as William Priestly. He had lived there a little over a year, paid his rent very regularly, and was supposed to be a commercial traveller, as he was very frequently away.</p>
@@ -1965,7 +1965,7 @@ secured it. As soon as he was in possession of the fragments of the
 letter Tatlock went to his room, and with infinite patience succeeded
 in putting that letter together, and this is what he read:</p>
         <q>
-          <text xml:id="jmtyler_1301238">
+          <q><floatingText xml:id="jmtyler_1301238">
             <body xml:id="jmtyler_1301237">
               <div xml:id="jmtyler_208" type="letter">
                 <opener>
@@ -1989,7 +1989,7 @@ immediately. Perhaps he will come across the pond.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="jmtyler_1301240">This letter revealed a good deal, and left no room to doubt that Jackson was the 'boss' referred to, and that he was a rascal. Tatlock soon determined on the course to pursue. In a few hours he was travelling back to Scotland,
 <pb xml:id="jmtyler_1301239" n="209 THE YANKEE TOURIST"/>
@@ -2389,7 +2389,7 @@ written on half a sheet of note paper. It was without date or address,
 and was worded as follows:—</p>
         <milestone rend="blank-line" unit="section"/>
         <q>
-          <text xml:id="jmtyler_1301440">
+          <q><floatingText xml:id="jmtyler_1301440">
             <body xml:id="jmtyler_1301439">
               <div xml:id="jmtyler_247" type="letter">
                 <opener>
@@ -2405,7 +2405,7 @@ G.'</name></signed>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="jmtyler_1301442">Now it happened that it was between three and four on a Thursday that Jim Schofield saw the gentleman he had seen on two or three occasions go into the cottage. The deduction, therefore, was that the 'gentleman' and the writer of the note were the same. In a drawer in Mrs. Sherrington's bedroom, amongst a quantity of linen, a gentleman's white shirt was found, marked in one corner with the initials 'G. M.' These things and a detailed description of the mysterious visitor, the description being supplied by Jim Schofield, were all that Tatlock had to guide him in the initial stage of the inquiry. He ascertained that Mrs. Sherrington had rented the cottage two years previously to her death from a farmer named Archibald Gifford, the rent being twenty pounds a year,
@@ -2633,131 +2633,131 @@ LONDON</p>
     <back xml:id="jmtyler_1206">
       <pb xml:id="jmtyler_1301648" n="[1]"/>
       <div xml:id="jmtyler_500" type="advert">
-        <figure><graphic url="ENTITY_jmtylerbm01" rend="inline"/>
+        <figure><graphic url="jmtylerbm01.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301649" n="2"/>
-        <figure><graphic url="ENTITY_jmtylerbm02" rend="inline"/>
+        <figure><graphic url="jmtylerbm02.jpg" rend="inline"/>
           <figDesc>Advert inluded in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301650" n="3"/>
-        <figure><graphic url="ENTITY_jmtylerbm03" rend="inline"/>
+        <figure><graphic url="jmtylerbm03.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301651" n="4"/>
-        <figure><graphic url="ENTITY_jmtylerbm04" rend="inline"/>
+        <figure><graphic url="jmtylerbm04.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301652" n="5"/>
-        <figure><graphic url="ENTITY_jmtylerbm05" rend="inline"/>
+        <figure><graphic url="jmtylerbm05.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301653" n="6"/>
-        <figure><graphic url="ENTITY_jmtylerbm06" rend="inline"/>
+        <figure><graphic url="jmtylerbm06.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301654" n="7"/>
-        <figure><graphic url="ENTITY_jmtylerbm07" rend="inline"/>
+        <figure><graphic url="jmtylerbm07.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301655" n="8"/>
-        <figure><graphic url="ENTITY_jmtylerbm08" rend="inline"/>
+        <figure><graphic url="jmtylerbm08.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301656" n="9"/>
-        <figure><graphic url="ENTITY_jmtylerbm09" rend="inline"/>
+        <figure><graphic url="jmtylerbm09.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301657" n="10"/>
-        <figure><graphic url="ENTITY_jmtylerbm10" rend="inline"/>
+        <figure><graphic url="jmtylerbm10.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301658" n="11"/>
-        <figure><graphic url="ENTITY_jmtylerbm11" rend="inline"/>
+        <figure><graphic url="jmtylerbm11.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301659" n="12"/>
-        <figure><graphic url="ENTITY_jmtylerbm12" rend="inline"/>
+        <figure><graphic url="jmtylerbm12.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301660" n="13"/>
-        <figure><graphic url="ENTITY_jmtylerbm13" rend="inline"/>
+        <figure><graphic url="jmtylerbm13.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301661" n="14"/>
-        <figure><graphic url="ENTITY_jmtylerbm14" rend="inline"/>
+        <figure><graphic url="jmtylerbm14.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301662" n="15"/>
-        <figure><graphic url="ENTITY_jmtylerbm15" rend="inline"/>
+        <figure><graphic url="jmtylerbm15.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301663" n="16"/>
-        <figure><graphic url="ENTITY_jmtylerbm16" rend="inline"/>
+        <figure><graphic url="jmtylerbm16.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301664" n="17"/>
-        <figure><graphic url="ENTITY_jmtylerbm17" rend="inline"/>
+        <figure><graphic url="jmtylerbm17.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301665" n="18"/>
-        <figure><graphic url="ENTITY_jmtylerbm18" rend="inline"/>
+        <figure><graphic url="jmtylerbm18.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301666" n="19"/>
-        <figure><graphic url="ENTITY_jmtylerbm19" rend="inline"/>
+        <figure><graphic url="jmtylerbm19.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301667" n="20"/>
-        <figure><graphic url="ENTITY_jmtylerbm20" rend="inline"/>
+        <figure><graphic url="jmtylerbm20.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301668" n="21"/>
-        <figure><graphic url="ENTITY_jmtylerbm21" rend="inline"/>
+        <figure><graphic url="jmtylerbm21.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301669" n="22"/>
-        <figure><graphic url="ENTITY_jmtylerbm22" rend="inline"/>
+        <figure><graphic url="jmtylerbm22.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301670" n="23"/>
-        <figure><graphic url="ENTITY_jmtylerbm23" rend="inline"/>
+        <figure><graphic url="jmtylerbm23.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301671" n="24"/>
-        <figure><graphic url="ENTITY_jmtylerbm24" rend="inline"/>
+        <figure><graphic url="jmtylerbm24.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301672" n="25"/>
-        <figure><graphic url="ENTITY_jmtylerbm25" rend="inline"/>
+        <figure><graphic url="jmtylerbm25.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301673" n="26"/>
-        <figure><graphic url="ENTITY_jmtylerbm26" rend="inline"/>
+        <figure><graphic url="jmtylerbm26.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301674" n="27"/>
-        <figure><graphic url="ENTITY_jmtylerbm27" rend="inline"/>
+        <figure><graphic url="jmtylerbm27.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301675" n="28"/>
-        <figure><graphic url="ENTITY_jmtylerbm28" rend="inline"/>
+        <figure><graphic url="jmtylerbm28.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301676" n="29"/>
-        <figure><graphic url="ENTITY_jmtylerbm29" rend="inline"/>
+        <figure><graphic url="jmtylerbm29.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301677" n="30"/>
-        <figure><graphic url="ENTITY_jmtylerbm30" rend="inline"/>
+        <figure><graphic url="jmtylerbm30.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301678" n="31"/>
-        <figure><graphic url="ENTITY_jmtylerbm31" rend="inline"/>
+        <figure><graphic url="jmtylerbm31.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301679" n="32"/>
-        <figure><graphic url="ENTITY_jmtylerbm32" rend="inline"/>
+        <figure><graphic url="jmtylerbm32.jpg" rend="inline"/>
           <figDesc>Advert included in back of Muddock's "The Adventures of Tyler Tatlock."</figDesc>
         </figure>
         <pb xml:id="jmtyler_1301680"/>

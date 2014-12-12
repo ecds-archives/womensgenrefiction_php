@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cbdecan_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cbdecan_1201">
   <teiHeader xml:id="cbdecaon1202"><fileDesc>
       <titleStmt>
         <title>The Confessions of a Decanter, an electronic edition</title>
@@ -13,7 +13,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Confessions of a Decanter</title>. <pubPlace>London</pubPlace>: <publisher>S.W. Partridge and Co.</publisher>, <date>[1862]</date>.</bibl>
@@ -59,15 +59,15 @@
     </profileDesc><revisionDesc><change><date>2007-June-15</date><label>Encoder.</label><name>Shruthi Vissa, </name>XML tags inserted in compliance with TEI guidelines.</change></revisionDesc></teiHeader>
   <text xml:id="cbdecan_130239">
     <front xml:id="cbdecan_1203">
-      <div xml:id="cbdecan_cover" type="front cover">
-        <figure><graphic url="ENTITY_cbdecanfc" rend="inline"/>
+      <div xml:id="cbdecan_cover" type="front_cover">
+        <figure><graphic url="cbdecanfc.jpg" rend="inline"/>
           <figDesc> Front cover of Balfour's "Confessions of a Decanter"</figDesc>
         </figure>
       </div>
       <pb xml:id="cbdecan_1305"/>
       <pb xml:id="cbdecan_1306" n="[i]"/>
       <div xml:id="cbdecan_fm1" type="frontispiece">
-        <figure><graphic url="ENTITY_cbdecanfm1" rend="inline"/>
+        <figure><graphic url="cbdecanfm1.jpg" rend="inline"/>
           <p xml:id="cbdecan_1307"> THE BRIDE'S PURCHASE</p>
           <p xml:id="cbdecan_1308"> [Page 5.</p>
           <figDesc> Illustration at the front of Balfour's "Confessions of a Decanter"</figDesc>
@@ -200,7 +200,7 @@
 				spirits or wine, but that an elegant
 				cordial like that I held, was quite
 				innocent.</p>
-        <figure><graphic url="ENTITY_cbdecanill15" rend="inline"/>
+        <figure><graphic url="cbdecanill15.jpg" rend="inline"/>
           <p xml:id="cbdecan_13065"> THE INFANT'S OPIATE.     [Page 15</p>
           <figDesc> Illustration included in body of Balfour's "Confessions of a
 Decanter"</figDesc>
@@ -324,7 +324,7 @@ Decanter"</figDesc>
 				long," she said aloud. He 
 
 
-<figure><graphic url="ENTITY_cbdecanill47" rend="inline"/><p xml:id="cbdecan_130148"> THE DYING DRUNKARD   [Page 47.</p><figDesc> Illustration included in body of Balfour's "The Confessions
+<figure><graphic url="cbdecanill47.jpg" rend="inline"/><p xml:id="cbdecan_130148"> THE DYING DRUNKARD   [Page 47.</p><figDesc> Illustration included in body of Balfour's "The Confessions
 of a Decanter"</figDesc></figure><pb xml:id="cbdecan_130149" n="47"/>shook off her hand as she attempted to touch him again, and pointed impatiently towards me; the woman understood him, poured him out a glassful, and with a teaspoon in her hand, prepared to administer it, but with unexpected strength, he eagerly clutched the glass in his long, bony hands, and though they were very tremulous, by bowing his head forward, managed to drink off the potion at a draught. He sank back exhausted for a minute or two, and then spoke quite clearly, and with great rapidity.</p>
         <p xml:id="cbdecan_130151">"Nurse, has my sister come? Nurse, do you think me worse? No, no, I'm not worse! I'm getting better, I'm surely getting better! It was needless to send for Anne. Why, I feel much better, very much. Why do you look so at me, as if I were dying? I'm not dying, so don't croak, you old raven."</p>
         <p xml:id="cbdecan_130152">He was silent an instant, and then he shouted out, "Die!—Oh God, I dare not die! I must not, I will not die!" His voice rose to a scream. There was a sort of choking catch in his throat, that lasted full a minute. Then he caught his breath, and drawing it slowly for a few seconds, said in a hollow voice:—</p>
@@ -398,7 +398,7 @@ of a Decanter"</figDesc></figure><pb xml:id="cbdecan_130149" n="47"/>shook off h
 				instantly carried me to a stone re-
 
 
-<figure><graphic url="ENTITY_cbdecanill65" rend="inline"/><p xml:id="cbdecan_130208"> THE PROMOTION.        [Page 65.</p><figDesc> Illustration included in body of Balfour's "The Confessions
+<figure><graphic url="cbdecanill65.jpg" rend="inline"/><p xml:id="cbdecan_130208"> THE PROMOTION.        [Page 65.</p><figDesc> Illustration included in body of Balfour's "The Confessions
 of a Decanter"</figDesc></figure><pb xml:id="cbdecan_130209" n="65"/>ceptacle, and I was soon filled with a cool, clear, sparkling fluid.</p>
         <p xml:id="cbdecan_130211">"There!" said the damsel, her bright blue eyes glancing gaily at me. "Now, Mr. Decanter, you're full of the best drink in the world, fine clear pure cold WATER!"</p>
         <p xml:id="cbdecan_130213">Water! I that had held rich cordials, costly liquors, choice wines, to be brought down to hold what every paltry stream and tank, and pump could supply. Who now would ever taste me? Alas! I felt that the playhouse line I heard in Mrs. Hague's dwelling, applied to me, though under a different name, "Othello's occupation's gone," but I had not much time for these gloomy reflections. The cheerful-looking lass carried me across the road, and entered the well-known chapel, whence I had been ejected by the minister's orders, and advancing to the end before the place with the velvet cushion, she mounted some temporary steps, and placed me upon a table in the midst of a platform, where I stood between two wax candles, which were just being lighted. Soon people began to come in, and the place became very full, I was a little consoled for my loss of dignity, by the consciousness that I looked mighty well, returned the glance of the candles and sparkled as gaily as ever I had done. The minister, who had acted so unceremoniously, sat in a chair at the table where I was, and many earnest-looking men surrounded him. Then, after a little while, speaking began, and I found to my <pb xml:id="cbdecan_130212" n="66"/>surprise, that I was now really in a very dignified position. My contents were the theme of the poet's song, the orator's eloquence, and the reasoner's arguments. Oh, I soon found out how things stood! and rejoiced in my conversion, the more particularly, as some of the fluids I had once been so unfortunate as to harbour, were stripped of their gay-coloured garments of rich brown, and rosy red, and glowing amber, and were burnt up in a flame equally blue and stinking, while a nauseous-looking pap, sickly and bitter, was all that remained of their finery.</p>
@@ -417,79 +417,79 @@ of a Decanter"</figDesc></figure><pb xml:id="cbdecan_130209" n="65"/>ceptacle, a
       </div>
       <pb xml:id="cbdecan_130220" n="[1]"/>
       <div xml:id="cbdecan_bm01" type="advert">
-        <figure><graphic url="ENTITY_cbdecanad1" rend="inline"/>
+        <figure><graphic url="cbdecanad1.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130221" n="[2]"/>
-        <figure><graphic url="ENTITY_cbdecanbm02" rend="inline"/>
+        <figure><graphic url="cbdecanbm02.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130222" n="[3]"/>
-        <figure><graphic url="ENTITY_cbdecanbm03" rend="inline"/>
+        <figure><graphic url="cbdecanbm03.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130223" n="[4]"/>
-        <figure><graphic url="ENTITY_cbdecanbm04" rend="inline"/>
+        <figure><graphic url="cbdecanbm04.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130224" n="[5]"/>
-        <figure><graphic url="ENTITY_cbdecanbm05" rend="inline"/>
+        <figure><graphic url="cbdecanbm05.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130225" n="[6]"/>
-        <figure><graphic url="ENTITY_cbdecanbm06" rend="inline"/>
+        <figure><graphic url="cbdecanbm06.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130226" n="[7]"/>
-        <figure><graphic url="ENTITY_cbdecanbm07" rend="inline"/>
+        <figure><graphic url="cbdecanbm07.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130227" n="[8]"/>
-        <figure><graphic url="ENTITY_cbdecanbm08" rend="inline"/>
+        <figure><graphic url="cbdecanbm08.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130228" n="[9]"/>
-        <figure><graphic url="ENTITY_cbdecanbm09" rend="inline"/>
+        <figure><graphic url="cbdecanbm09.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130229" n="[10]"/>
-        <figure><graphic url="ENTITY_cbdecanbm10" rend="inline"/>
+        <figure><graphic url="cbdecanbm10.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130230" n="[11]"/>
-        <figure><graphic url="ENTITY_cbdecanbm11" rend="inline"/>
+        <figure><graphic url="cbdecanbm11.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130231" n="[12]"/>
-        <figure><graphic url="ENTITY_cbdecanbm12" rend="inline"/>
+        <figure><graphic url="cbdecanbm12.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130232" n="[13]"/>
-        <figure><graphic url="ENTITY_cbdecanbm13" rend="inline"/>
+        <figure><graphic url="cbdecanbm13.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130233" n="[14]"/>
-        <figure><graphic url="ENTITY_cbdecanbm14" rend="inline"/>
+        <figure><graphic url="cbdecanbm14.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130234" n="[15]"/>
-        <figure><graphic url="ENTITY_cbdecanbm15" rend="inline"/>
+        <figure><graphic url="cbdecanbm15.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130235" n="[16]"/>
-        <figure><graphic url="ENTITY_cbdecanbm16" rend="inline"/>
+        <figure><graphic url="cbdecanbm16.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130236" n="[17]"/>
-        <figure><graphic url="ENTITY_cbdecanbm17" rend="inline"/>
+        <figure><graphic url="cbdecanbm17.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130237" n="[18]"/>
-        <figure><graphic url="ENTITY_cbdecanbm18" rend="inline"/>
+        <figure><graphic url="cbdecanbm18.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
         <pb xml:id="cbdecan_130238" n="[19]"/>
-        <figure><graphic url="ENTITY_cbdecanbm19" rend="inline"/>
+        <figure><graphic url="cbdecanbm19.jpg" rend="inline"/>
           <figDesc> Advert included in back of Balfour's "The Confessions of a Decanter"</figDesc>
         </figure>
       </div>

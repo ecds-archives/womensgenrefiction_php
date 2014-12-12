@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="esperil_12010">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="esperil_12010">
   <teiHeader xml:id="esperil1201"><fileDesc>
       <titleStmt>
         <title>Capitola's Peril, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Capitola's Peril</title>. <pubPlace>Chicago</pubPlace>:
@@ -78,11 +78,11 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="esperil_1209">
     <front xml:id="esperil_1202">
       <div xml:id="esperil_000" type="covers">
-        <figure><graphic url="ENTITY_esperilsp" rend="inline"/>
+        <figure><graphic url="esperilsp.jpg" rend="inline"/>
           <figDesc>Spine of Southworth's <hi rend="italic">Capitola's
 Peril</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_esperilfc" rend="inline"/>
+        <figure><graphic url="esperilfc.jpg" rend="inline"/>
           <figDesc>Front cover of Southworth's <hi rend="italic">Capitola's
 Peril</hi>.</figDesc>
         </figure>
@@ -104,7 +104,7 @@ Eve," <lb/>"The Deserted Wife," "Eudora," "The Haunted Homestead,"
       </titlePage>
       <pb xml:id="esperil_1307" n="[3]"/>
       <div xml:id="esperil_001" type="copyright">
-        <figure><graphic url="ENTITY_esperilcr" rend="inline"/>
+        <figure><graphic url="esperilcr.jpg" rend="inline"/>
           <figDesc>Copyright for Southworth's <hi rend="italic">Capitola's
 Peril</hi>.</figDesc>
         </figure>
@@ -818,11 +818,11 @@ how you scorn that love, or continue to taunt me with the mention of an unworthy
         <p xml:id="esperil_130520">At the end of the week the expected letter came. It was short and to the purpose. It ran thus:</p>
         <pb xml:id="esperil_130521" n="52     Cap Frees the Captive."/>
         <q>
-          <text xml:id="esperil_1204">
+          <q><floatingText xml:id="esperil_1204">
             <body xml:id="esperil_1203">
               <div xml:id="esperil_100" type="letter"><opener><dateline><name type="place">WASHINGTON,</name> <date>Dec. 14, 18--.</date></dateline><salute>MY DEAR CRAVEN:</salute></opener><p xml:id="esperil_130522">--You are losing time. Do not hope to win the girl by the means you propose. She is too acute to be deceived and too firm to be persuaded. We must not hesitate to use the only possible means by which we can coerce her into compliance. I shall follow this letter by the first stagecoach; and, before the beginning of the next month, Clara Day shall be your wife.</p> <closer><salute>Your affectionate father,</salute><signed>GABRIEL LE NOIR</signed><address><addrLine><name type="person">C. LE NOIR, ESQ.</name>, <name type="place">Hidden House</name>.</addrLine></address></closer></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esperil_130523">When Craven Le Noir read this letter, his thin, white face and deep-set eyes lighted up with triumph. But Craven Le Noir huzzaed before he was out of the woods. He had not calculated upon Capitola.</p>
         <p xml:id="esperil_130524">The next day Colonel Le Noir came to the Hidden Home. He arrived late in the afternoon.</p>
@@ -1115,7 +1115,7 @@ and the shelves with Traverse's 'old schoolbooks on the left of the fireplace.</
         <p xml:id="esperil_130758">So Marah sat very still and sad, bending over her needlework, without ever turning her head in the direction of the door. True, he wrote to her every week. No Wednesday ever passed without bringing her a letter written in a strong, buoyant and encouraging strain. Still she missed Traverse very sadly. It was dreary to rise up in the empty house every morning; dreary to sit down to her solitary meals, and drearier still to go to bed in her lonely room without having received her boy's kiss and heard his cheerful good-night. And it was her custom every night to read over Traverse's last letter before retiring to bed.</p>
         <p xml:id="esperil_130759">It was getting on toward ten o'clock when she folded up her work and put it away, and drew her boy's latest epistle from her bosom to read. It ran as follows:</p>
         <q>
-          <text xml:id="esperil_1206">
+          <q><floatingText xml:id="esperil_1206">
             <body xml:id="esperil_1205">
               <div xml:id="esperil_102" type="letter">
                 <opener>
@@ -1131,7 +1131,7 @@ lence, I should still have desired to serve the indigent; "for whoso giveth to t
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esperil_130762">"I must try to go. It will be an awful expense, because I know no one down there, and I shall have to board at the tavern at Tip-Top while I am making inquiries--for I dare not approach the dwelling of Gabriel Le Noir!" said Marah Rocke, as she folded up her letter, and replaced it in her bosom.</p>
         <p xml:id="esperil_130763">Just at that moment she heard the sound of wheels approach, and a vehicle of some sort draw up at the gate, and some one speaking without.</p>
@@ -3576,45 +3576,45 @@ and, as his heart is satisfied and at rest, his temper is gradually improving. A
     <back xml:id="esperil_1208">
       <div xml:id="esperil_105" type="adverts">
         <pb xml:id="esperil_1302689"/>
-        <figure><graphic url="ENTITY_esperilad1" rend="inline"/>
+        <figure><graphic url="esperilad1.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Southworth's <hi rend="inline">Capitola's Peril</hi>.</figDesc>
         </figure>
         <pb xml:id="esperil_1302690"/>
-        <figure><graphic url="ENTITY_esperilad2" rend="inline"/>
+        <figure><graphic url="esperilad2.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Southworth's <hi rend="inline">Capitola's Peril</hi>.</figDesc>
         </figure>
         <pb xml:id="esperil_1302691"/>
-        <figure><graphic url="ENTITY_esperilad3" rend="inline"/>
+        <figure><graphic url="esperilad3.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Southworth's <hi rend="inline">Capitola's Peril</hi>.</figDesc>
         </figure>
         <pb xml:id="esperil_1302692"/>
-        <figure><graphic url="ENTITY_esperilad4" rend="inline"/>
+        <figure><graphic url="esperilad4.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Southworth's <hi rend="inline">Capitola's Peril</hi>.</figDesc>
         </figure>
         <pb xml:id="esperil_1302693"/>
-        <figure><graphic url="ENTITY_esperilad5" rend="inline"/>
+        <figure><graphic url="esperilad5.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Southworth's <hi rend="inline">Capitola's Peril</hi>.</figDesc>
         </figure>
         <pb xml:id="esperil_1302694"/>
-        <figure><graphic url="ENTITY_esperilad6" rend="inline"/>
+        <figure><graphic url="esperilad6.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Southworth's <hi rend="inline">Capitola's Peril</hi>.</figDesc>
         </figure>
         <pb xml:id="esperil_1302695"/>
-        <figure><graphic url="ENTITY_esperilad7" rend="inline"/>
+        <figure><graphic url="esperilad7.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Southworth's <hi rend="inline">Capitola's Peril</hi>.</figDesc>
         </figure>
         <pb xml:id="esperil_1302696"/>
-        <figure><graphic url="ENTITY_esperilad8" rend="inline"/>
+        <figure><graphic url="esperilad8.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Southworth's <hi rend="inline">Capitola's Peril</hi>.</figDesc>
         </figure>
         <pb xml:id="esperil_1302697"/>
-        <figure><graphic url="ENTITY_esperilad9" rend="inline"/>
+        <figure><graphic url="esperilad9.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Southworth's <hi rend="inline">Capitola's Peril</hi>.</figDesc>
         </figure>
       </div>
       <div xml:id="esperil_111" type="paratext">
         <pb xml:id="esperil_1302698"/>
-        <figure><graphic url="ENTITY_esperilibc" rend="inline"/>
+        <figure><graphic url="esperilibc.jpg" rend="inline"/>
           <figDesc>Page inside back cover of Southworth's <hi rend="inline">Capitola's Peril</hi>.</figDesc>
         </figure>
       </div>

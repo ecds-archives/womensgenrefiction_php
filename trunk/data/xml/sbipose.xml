@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sbipose_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sbipose_1207">
   <teiHeader xml:id="sbipose1201"><fileDesc>
       <titleStmt>
         <title>I Pose, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>I Pose</title>. <pubPlace>London</pubPlace>:
@@ -84,7 +84,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="sbipose_1307"/>
       <div xml:id="sbipose_1308" type="paratext">
-        <figure><graphic url="ENTITY_sbiposefm1" rend="inline"/>
+        <figure><graphic url="sbiposefm1.jpg" rend="inline"/>
           <figDesc>Publisher's advertisement in Stella Benson's <hi rend="italic">I Pose</hi></figDesc>
         </figure>
       </div>
@@ -102,7 +102,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="sbipose_13011"/>
       <div xml:id="sbipose_13012" type="copyright">
-        <figure><graphic url="ENTITY_sbiposefm2" rend="inline"/>
+        <figure><graphic url="sbiposefm2.jpg" rend="inline"/>
           <figDesc>Copyright page for Stella Benson's <hi rend="italic">I
 Pose</hi>.</figDesc>
         </figure>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="jmstar_12012">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="jmstar_12012">
   <teiHeader xml:id="jmstar1201"><fileDesc>
       <titleStmt>
         <title>The Star of Fortune, an electronic edition</title>
@@ -15,13 +15,13 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Star of
-Fortune</title>. <pubPlace>London</pubPlace>: <publisher>Chapman and Hall</publisher>, <date>1895</date>.</bibl>
-        <p xml:id="jmstar_1302">Emory University's copy of this title contained several damaged
-pages (60-3, 95), which the University of Pennsylvania generously provided.</p>
+Fortune</title>. <pubPlace>London</pubPlace>: <publisher>Chapman and Hall</publisher>, <date>1895</date>.
+        <note><p xml:id="jmstar_1302">Emory University's copy of this title contained several damaged
+pages (60-3, 95), which the University of Pennsylvania generously provided.</p></note></bibl>
       </sourceDesc>
     </fileDesc><encodingDesc>
       <projectDesc>
@@ -105,7 +105,7 @@ LD.</publisher><docDate>1895.</docDate></docImprint>
       </titlePage>
       <pb xml:id="jmstar_13010" n="[iv]"/>
       <div xml:id="jmstar_000" type="copyright">
-        <figure><graphic url="ENTITY_jmstarcr" rend="inline"/>
+        <figure><graphic url="jmstarcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Muddock's <hi rend="italic">The
 Star of Fortune</hi>.</figDesc>
         </figure>
@@ -123,13 +123,13 @@ distance of time they are still vivid in my memory.</p>
         <bibl>J. E. MUDDOCK.</bibl>
       </div>
       <pb xml:id="jmstar_13013" n="[vii]"/>
-      <div xml:id="jmstar_002" type="table of contents">
-        <figure><graphic url="ENTITY_jmstartc1" rend="inline"/>
+      <div xml:id="jmstar_002" type="table_of_contents">
+        <figure><graphic url="jmstartc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Muddock's <hi rend="italic">The
 Star of Fortune</hi>.</figDesc>
         </figure>
         <pb xml:id="jmstar_13014" n="[viii]"/>
-        <figure><graphic url="ENTITY_jmstartc2" rend="inline"/>
+        <figure><graphic url="jmstartc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Muddock's <hi rend="italic">The
 Star of Fortune</hi>.</figDesc>
         </figure>
@@ -238,7 +238,7 @@ must treat him as if he were an absolute stranger. Do you understand?"</p>
         <p xml:id="jmstar_13094">Poor Hester tacitly admitted that she understood only too well. And while not prepared just then to set herself in direct opposition to her father's wishes, she certainly did not intend to accept his dictum as irrevocable.</p>
         <p xml:id="jmstar_13095">To what an extraordinary concatenation of thrilling events this difference of opinion between herself and her father was to lead will be disclosed as the narrative proceeds; but Mr. Dellaby himself had no foreshadowing of what was to come. He considered his word law, his commands final, and in order to give, as he thought, the final blow to the whole affair, he penned the following severe letter to young Hallett--</p>
         <q>
-          <text xml:id="jmstar_1204">
+          <q><floatingText xml:id="jmstar_1204">
             <body xml:id="jmstar_1203">
               <div xml:id="jmstar_100" type="letter">
                 <opener>
@@ -252,7 +252,7 @@ your unwelcome attentions on my child. I have been very outspoken because I cons
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="jmstar_13098">Mr. Dellaby read this letter over two or three times, and he evidently considered that its strong language was fully justified, for he did not alter a single word, nor soften down an expression. But sealing it up, he dispatched the missive to Hallett at his quarters in the Castle, and having done that he sought an interview with his daughter, as recorded in the opening pages of this story.</p>
       </div>
@@ -460,7 +460,7 @@ him. We do seem such a scattered family somehow. But I would fain believe that a
         <p xml:id="jmstar_130296">"Madge's letter to her sister was sent under separate cover. It was destined--unconsciously so to the writer--to influence Hester's future movements in a way that was never anticipated. How this was the case will best be understood by the following extract.</p>
         <milestone rend="stars" unit="section"/>
         <q>
-          <text xml:id="jmstar_1206">
+          <q><floatingText xml:id="jmstar_1206">
             <body xml:id="jmstar_1205">
               <div xml:id="jmstar_101" type="letter">
                 <p xml:id="jmstar_130298">"Often, dear, when my thoughts wander away far across the sea that separates us--and, oh, how many times they do that in the course of a week--I wonder what you are doing, and, oh, how I yearn to have a glimpse of your dear darling face. How true it is that absence makes the heart grow fonder! You are a woman, dear, with a woman's heart, and a woman's mind, and mayhap you have given that heart into somebody's keeping. If so, God grant he may be worthy of the great trust, for you, my beloved sister, have such a sweet disposition, such a generous, noble mind, that the man who wins you may well be proud. Will it be your fate to have a soldier husband? Likely enough it will, for all our
@@ -488,7 +488,7 @@ cannot imagine either mother or father consenting to your leaving them even for 
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb xml:id="jmstar_130302" n="64"/>
@@ -1623,7 +1623,7 @@ standpoint, her heaven-appointed destiny.
 That letter, by the postmark, had been posted in Jhansi, and Jhansi was within three days' ride of where she was then.</p>
         <p xml:id="jmstar_1301155">At last she opened the letter, and with greedy eyes read what follows:--</p>
         <q>
-          <text xml:id="jmstar_1208">
+          <q><floatingText xml:id="jmstar_1208">
             <body xml:id="jmstar_1207">
               <div xml:id="jmstar_157" type="letter">
                 <opener>
@@ -1644,7 +1644,7 @@ heart which I held. It was a romantic quest, perhaps but love led the way; and y
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="jmstar_1301158" n="190 THE STAR OF FORTUNE."/>
         <p xml:id="jmstar_1301159">If Hester had been excited before reading this letter, her feelings afterwards may be better imagined than described. She well understood now how Jack had "disgraced" himself on the passage out. It was part of his scheme to get to her, and whatever others might do, she was prepared to condone everything for the sake of the love he bore her and she bore for him. She agreed with him that a few days seemed a long time when love was yearning for its object, but she consoled herself that the time would speed, then would come the great reward for the misunderstanding and the weary waiting. And she made a resolution that when Jack came, if her sister did not choose to make herself agreeable to him, she would go away. She knew not where she would go to, nor what she would do. She was content to leave that knotty point for Jack to settle. At any rate he was lord of her heart, and every other consideration and every one else must give way to him. If her friends and relatives refused to see him as she saw him, that was their affair, and they must settle it with their own consciences. She was fully prepared and no less determined to take her fate in her own hands, whether it was for good or ill. She was her father's daughter, and her father was a man of iron will when occasion required. She had come thousands of miles in the carrying out of her purpose, and now that her lover was within hail of her--and she knew that he was true--she was not going to be baulked of her triumph.</p>

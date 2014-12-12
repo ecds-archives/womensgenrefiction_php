@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mjcromp_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mjcromp_1206">
   <teiHeader xml:id="mjcromp1201"><fileDesc>
       <titleStmt>
         <title>The Cromptons, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The
@@ -82,13 +82,13 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="mjcromp_1205">
     <front xml:id="mjcromp_1202">
       <div xml:id="mjcromp_5689" type="covers">
-        <figure><graphic url="ENTITY_mjcrompfc" rend="inline"/>
+        <figure><graphic url="mjcrompfc.jpg" rend="inline"/>
           <figDesc>Front cover of Holmes's The Cromptons.</figDesc>
         </figure>
       </div>
       <pb xml:id="mjcromp_1305" n="[6]"/>
       <div xml:id="mjcromp_000" type="frontispiece">
-        <figure><graphic url="ENTITY_mjcrompfp" rend="inline"/>
+        <figure><graphic url="mjcrompfp.jpg" rend="inline"/>
           <p xml:id="mjcromp_1306">"Here by this grave I promise all you ask."--Page  39.</p>
           <figDesc>Frontispiece included in Holmes's The Cromptons.</figDesc>
         </figure>
@@ -106,7 +106,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="mjcromp_1309" n="[8]"/>
       <div xml:id="mjcromp_001" type="copyright">
-        <figure><graphic url="ENTITY_mjcrompcr" rend="inline"/>
+        <figure><graphic url="mjcrompcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Holmes's The Cromptons</figDesc>
         </figure>
       </div>
@@ -1348,7 +1348,7 @@ young Miss, an' t'other for de rag doll lil chile took norf wid her and called J
           <head>CHAPTER X 
 <lb/>PART SECOND OF REV. MR. MASON'S LETTER</head>
           <q>
-            <text xml:id="mjcromp_130977">
+            <q><floatingText xml:id="mjcromp_130977">
               <body xml:id="mjcromp_130976">
                 <p xml:id="mjcromp_130962">"I was interrupted yesterday, and hardly know where to begin again, or what I have written, as Jake was a little mixed and went forward and back at times, showing that his memory was, as he said, leaky, but when he struck the child he was bright as a guinea. 'Lil Chile' and 'Honey Bee' he calls her. He told me of her running into the house to meet the Colonel, with her soiled frock, and her face and hands besmeared with molasses; of her tussle with Mandy Ann, who wanted to wash her face and change her clothes, and of her fine appearance at the last in a white gown, her best, which he had bought and Mandy Ann made not long before, and which the Colonel would not take with him. So they kept it, and Mandy Ann washed and ironed it, and put it away with some sweet herbs, and aired it every year till she was married, when Jake cared for it till Mandy Ann's twins were born,--Alex and Aaron. Then Mandy Ann borrowed it for them to be christened in, one of them one Sunday and one the next, so that both had the honor of wearing it, while Jake was sponsor, 'For,' said he, 'Mandy Ann has gin up them hollerin' meetin's whar white folks done come to see de ole darkies have a kind of powow, as dey use to have befo' de wah. Clar for't if de
 <pb xml:id="mjcromp_130961" n="212 THE CROMPTONS"/>
@@ -1374,12 +1374,12 @@ thought there were two towns of the same name in one State, and I'd inquire if C
                   <signed>"CHARLES MASON."</signed>
                 </closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <pb xml:id="mjcromp_130978" n="216 THE CROMPTONS"/>
           <p xml:id="mjcromp_130979">This was the letter which had sent the Rev. Arthur to call on Mrs. Biggs, with no thought of Eloise in his mind. She was not yet an active factor in the drama which was to be played out .so rapidly. Returning to his boarding place, the rector read his father's letter a second time, and then answered it. A part of what he wrote we give:</p>
           <q>
-            <text xml:id="mjcromp_130983">
+            <q><floatingText xml:id="mjcromp_130983">
               <body xml:id="mjcromp_130982">
                 <p xml:id="mjcromp_130981">"I have just come from an interview with a woman who is credited with knowing the history of the place forty years back, and I have no doubt that Shaky's Col. Crompton is living here in Crompton Place, the richest man in town and largest contributor to the church. There is a lady living with him who people believe is his daughter, although he has never acknowledged her as such. Mrs. Biggs, the woman I interviewed, gave me a most graphic account of the manner of her arrival at Crompton Place, when she was a little girl like the one you describe. She has a lovely face, but is a little twisted in her brain. She did run away with her music teacher, and her name is Amy Eudora. There was no mention made of Harris. They call her Miss Amy. There can't be much doubt of her identity with Jaky's lil chile. Send him on, and Mandy Ann, too,--and the four twins, Alex and Aaron, Judy and Dory. I'll pay half their fare! There's enough of the old Adam in me to make me want to see them confront the proud Colonel, who ignores me for reasons I could not fathom, until I received your letter. Then I suspected that because I am your son he feared that some pages of his life, which he hoped were blotted out by time and the ravages of war, might be revealed. He is an old man, of course, but distinguished-looking still, though much broken with
 <pb xml:id="mjcromp_130980" n="217 LETTER FROM REV. CHARLES MASON"/>
@@ -1388,7 +1388,7 @@ rheumatic gout, which keeps him mostly at home. My respects to Shaky, whom I hop
                   <signed>"ARTHUR."</signed>
                 </closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
         </div>
         <pb xml:id="mjcromp_130984" n="[218]"/>
@@ -1851,7 +1851,7 @@ white cape. I see you've got Tom Walker, body and soul, but my land! you'd get a
 to the school-house where Ruby Ann still presided,
 and where Eloise hoped soon to take up her duties. She was very happy, or would have been if she could have heard from California. Every day she hoped for news, and every day was disappointed, until at last nearly a week after the Rummage a letter came forwarded by her grandmother from Mayville. It was from a physician to whom Eloise had twice written with regard to her mother, and this was his reply:</p>
           <q>
-            <text xml:id="mjcromp_1301347">
+            <q><floatingText xml:id="mjcromp_1301347">
               <body xml:id="mjcromp_1301346">
                 <opener>
                   <dateline>"<name type="place">Portland, Oregon</name>, <date>September --, 18--</date>.</dateline>
@@ -1865,7 +1865,7 @@ the asylum, who could give you the information you desire.</p>
                   <signed>"J. P. ALLING, M.D."</signed>
                 </closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="mjcromp_1301348">It was Ruby who brought the letter one evening two or three days before Eloise expected to make her first appearance in school. Mrs. Biggs and Tim were out and Eloise was alone. Tearing open the envelope, she read it quickly, and then with the bitterest cry Ruby had ever heard, covered her face with her hands and sobbed: "My mother! Oh, my mother!"</p>
           <p xml:id="mjcromp_1301349">"Is she dead?" Ruby asked, and Eloise replied, "Worse than that, perhaps. I don't know where she is. Read what it says."</p>
@@ -1923,7 +1923,7 @@ ing on the pretence of adjusting a curtain and brushing up the hearth, but reall
           <p xml:id="mjcromp_1301389">"Yes, by leaving me, and holding your tongue! There's the devil to pay!" was the answer.</p>
           <p xml:id="mjcromp_1301390">Peter was accustomed to hearing of his master's debts in that direction, and to being told to hold his tongue, and he answered, "All right, sir," and left the room. For some moments the Colonel sat perfectly still, his heart beating so fast that he could scarcely breathe. Then he opened Jake's letter, and read as follows:</p>
           <q>
-            <text xml:id="mjcromp_1301395">
+            <q><floatingText xml:id="mjcromp_1301395">
               <body xml:id="mjcromp_1301394">
                 <div xml:id="mjcromp_0700" type="letter">
                   <opener>
@@ -1947,7 +1947,7 @@ news. Rite me wen you git this. I shall wait till I har, an' then start to onc't
                   </closer>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="mjcromp_1301396">To describe the Colonel's state of mind as he read this letter is impossible. He forgot the pain in his leg and knee in the greater sensation of the cold, prickly feeling which ran through his veins, making his fingers feel like sticks, and powerless to hold the letter, which dropped to the floor. With every year he had hugged closer and closer the secret of his life, becoming more and more morbid and more fearful, lest in some way his connection with the palmetto clearing should be known and he fall from the high pedestal on which he had stood so long, and from which his fall would be greater because he had been there so long. It would all be right after he was dead. He had seen to that, and didn't care what the world would say when he was not alive to hear it. But he was very much alive now, and his sin bade fair to find him out.</p>
           <p xml:id="mjcromp_1301398">"Just as I feared when that rector told me who
@@ -1974,7 +1974,7 @@ and how came Tom Walker, the biggest rascal in town, by my chairs, or Tim Biggs 
           <p xml:id="mjcromp_1301415">"Smith!" he said, "I can't abide it! And what has she to say to Mrs. Smith?"</p>
           <p xml:id="mjcromp_1301416">The note was not sealed, and without the least hesitancy he opened it and read, commenting as he did so.</p>
           <q>
-            <text xml:id="mjcromp_1301420">
+            <q><floatingText xml:id="mjcromp_1301420">
               <body xml:id="mjcromp_1301419">
                 <p xml:id="mjcromp_1301418">"My dear Mrs. Smith." (Her dear Mrs. Smith! I like that.) "I am going away (Glad to hear it) and I wish to thank you for the many things you have sent me. (The deuce she has! I didn't know it.) The pretty hat I want to keep, with the slippers, which remind me of my mother. (Slippers,--remind
 <pb xml:id="mjcromp_1301417" n="300 THE CROMPTONS"/>
@@ -1984,7 +1984,7 @@ her of her mother, who, I dare say, never wore anything but big shoes, and coars
                   <signed>"E. A. SMITH."</signed>
                 </closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="mjcromp_1301421">"Smith again! E. A. Smith!" the Colonel said. "Why couldn't she write her whole name? E. A., ELIZA ANN, of course! That's who she is, ELIZA ANN SMITH!"</p>
           <p xml:id="mjcromp_1301422">If there was one name he disliked as much as he did Smith, it was Eliza Ann, and he repeated it again: "ELIZA ANN SMITH! Fruit and flowers and books, and shoes and my sea chair and a wheel chair sent to her by Amy! Where did she get the wheel, I'd like to know? I don't believe it!" he added, as a sudden light broke upon him. "It's that dog Howard's work, and that other chap."</p>
@@ -2458,7 +2458,7 @@ house. Why no provision was made for Amy he could not imagine. "But it will make
           <p xml:id="mjcromp_1301807">At the thought of her his heart gave a great throb, for she was dearer to him than he had supposed. "I believe I'd give up Crompton if I could win her," he thought, "but that cannot be; Jack is the lucky fellow," and then he began to calculate how much he would give Amy out and out. "She can live here, of course, if she will, but she must have something of her own. Will twenty thousand be enough, or too much?" he said, and from the sum total of the estate he subtracted twenty thousand dollars, with so large a remainder that he decided to give her that amount in bonds and mortgages, which would cause her as little trouble as possible. There were some government bonds in a private drawer, through which he had searched for a will. He would have a look at them and see which were the more desirable for Amy. He had been through that drawer three or four times, and there was no thought of the will now as he opened it, wondering that it came so hard, as if something were binding on the top or side. It shut harder, or, rather, it didn't shut at all, and with a jerk he pulled it out to see what was the matter. As he did so a folded sheet of foolscap, which had been lodged between the drawer and the side of the desk, fell to the floor. With a presentiment of the truth Howard took it up and read, "THE LAST WILL AND CONFESSION OF JAMES CROMPTON!"</p>
           <p xml:id="mjcromp_1301808">It had come at last, and, unfolding the sheet, Howard began to read, glancing first at the date, which was a few weeks after Amy came from California.</p>
           <q>
-            <text xml:id="mjcromp_1301836">
+            <q><floatingText xml:id="mjcromp_1301836">
               <body xml:id="mjcromp_1301835">
                 <p xml:id="mjcromp_1301810">"KNOW ALL MEN BY THESE PRESENTS," it began,
 <pb xml:id="mjcromp_1301809" n="364 THE CROMPTONS"/>
@@ -2500,7 +2500,7 @@ big picnic on my grounds.</p>
                   <signed>"JAMES M. CROMPTON."</signed>
                 </closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
         </div>
         <pb xml:id="mjcromp_1301837" n="[371]"/>

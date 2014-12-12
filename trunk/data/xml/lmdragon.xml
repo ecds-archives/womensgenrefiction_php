@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lmdragon_12035">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lmdragon_12035">
   <teiHeader xml:id="lmdragon1201"><fileDesc>
       <titleStmt>
         <title>Under the Dragon Throne, an electronic edition</title>
@@ -16,7 +16,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author> and <author><name><choice><sic/><reg/></choice></name></author>. <title>Under the Dragon Throne</title>. <pubPlace>London</pubPlace>:
@@ -109,13 +109,13 @@ something."</hi>—</p>
         </docImprint>
       </titlePage>
       <pb xml:id="lmdragon_13010" n="[v]"/>
-      <div xml:id="lmdragon_001" type="table of contents">
-        <figure><graphic url="ENTITY_lmdragontc1" rend="inline"/>
+      <div xml:id="lmdragon_001" type="table_of_contents">
+        <figure><graphic url="lmdragontc1.jpg" rend="inline"/>
           <figDesc>The table of contents for Meade's <hi rend="italic">Under
 the Dragon Throne</hi>.</figDesc>
         </figure>
         <pb xml:id="lmdragon_13011" n="[vi]"/>
-        <figure><graphic url="ENTITY_lmdragontc2" rend="inline"/>
+        <figure><graphic url="lmdragontc2.jpg" rend="inline"/>
           <figDesc>The table of contents for Meade's <hi rend="italic">Under
 the Dragon Throne</hi>.</figDesc>
         </figure>
@@ -142,7 +142,7 @@ the Dragon Throne</hi>.</figDesc>
               <p xml:id="lmdragon_13018">"The gentleman brought this letter of introduction," continued Bryce,"and begged me to give it to you, sir, the moment you were at leisure to look at it. This is his visiting-card."</p>
               <p xml:id="lmdragon_13019">Maitland took both letter and card in his hand. When he read the name on the card, he gave a perceptible start: "Mr. James Pennant. Surely not Lady Margaret's son," he exclaimed half aloud. He eagerly tore open the letter. It ran as follows:</p>
               <q>
-                <text xml:id="lmdragon_1205">
+                <q><floatingText xml:id="lmdragon_1205">
                   <body xml:id="lmdragon_1204">
                     <div xml:id="lmdragon_050" type="letter">
                       <opener>"<salute>MY DEAR MR. MAITLAND</salute>,</opener>
@@ -152,7 +152,7 @@ the Dragon Throne</hi>.</figDesc>
 "<signed>MARGARET PENNANT</signed></closer>
                     </div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="lmdragon_13021">When Maitland's quick eyes had devoured this letter, he looked at Bryce. "The young Englishman turns out to be the son of an old friend," he remarked. "Lady Margaret Coningsby is his mother. You remember Lady Margaret as a young lady—eh, Bryce?"</p>
               <pb xml:id="lmdragon_13022" n="5     RICHARD MAITLAND, CONSUL"/>
@@ -335,7 +335,7 @@ when <pb n="29     RICHARD MAITLAND, CONSUL" pages="29" facs="lmdragonpg29"/> I 
               <p xml:id="lmdragon_130207">"It is war to the knife," repeated Maitland—"war to the knife; and whoever is first in the field wins. Leave me for a few minutes, Bryce. I must write a letter to the Prefect, which you will take to him immediately."</p>
               <p xml:id="lmdragon_130208">Bryce withdrew; and Maitland sat before his desk. He was always a determined-looking man. As he wrote, the expression of his face grew hard and firm. His letter ran as follows:</p>
               <q>
-                <text xml:id="lmdragon_1207">
+                <q><floatingText xml:id="lmdragon_1207">
                   <body xml:id="lmdragon_1206">
                     <div xml:id="lmdragon_052" type="letter">
                       <p xml:id="lmdragon_130209">(After compliments.) "I have been made acquainted with the fact that you have committed an Englishman of the name of James Pennant to prison in your Yamun. I claim his release immediately, and will undertake to be responsible for his custody.</p>
@@ -345,16 +345,16 @@ when <pb n="29     RICHARD MAITLAND, CONSUL" pages="29" facs="lmdragonpg29"/> I 
                       </closer>
                     </div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="lmdragon_130210">This letter was addressed to the Prefect, and despatched immediately.</p>
               <p xml:id="lmdragon_130211">In the course of the afternoon, Maitland received the following reply:</p>
               <q>
-                <text xml:id="lmdragon_1209">
+                <q><floatingText xml:id="lmdragon_1209">
                   <body xml:id="lmdragon_1208">
                     <div xml:id="lmdragon_753" type="letter"><p xml:id="lmdragon_130213">"Respectfully I beg to thank your Excellency for your communication. James Pennant is a prisoner in the <pb xml:id="lmdragon_130212" n="35     RICHARD MAITLAND, CONSUL"/>prison-house of my Yamun. I have, in accordance with usage, referred his case to the Viceroy of the Province, and am therefore unable to act in the matter of the prisoner's release without his instructions.</p> <closer><salute>May ten thousand happinesses be in store for you.</salute><signed>"LE."</signed></closer></div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="lmdragon_130214">When Maitland read this unsatisfactory letter, his face turned very white. He motioned to the messenger to await his reply, and went back to his study. He summoned Bryce, who appeared immediately.</p>
               <p xml:id="lmdragon_130215">"You know the English frigate lying off the port, don't you?" he asked.</p>
@@ -362,7 +362,7 @@ when <pb n="29     RICHARD MAITLAND, CONSUL" pages="29" facs="lmdragonpg29"/> I 
               <p xml:id="lmdragon_130217">"I shall require you to take a message to the Captain directly. In the meantime, wait here while I write a reply to the Prefect's letter."</p>
               <p xml:id="lmdragon_130218">Maitland then hastily wrote as follows:</p>
               <q>
-                <text xml:id="lmdragon_12011">
+                <q><floatingText xml:id="lmdragon_12011">
                   <body xml:id="lmdragon_12010">
                     <div xml:id="lmdragon_053" type="letter">
                       <p xml:id="lmdragon_130219">(After compliments.) "As English Consul, I insist upon the release of the Englishman, James Pennant. If he has not been committed to my custody within twelve hours from now, I shall enforce my claim with the assistance of the Captain of Her Majesty's ship <hi rend="italic">Rattler</hi>, at present lying off the port.</p>
@@ -372,7 +372,7 @@ when <pb n="29     RICHARD MAITLAND, CONSUL" pages="29" facs="lmdragonpg29"/> I 
                       </closer>
                     </div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="lmdragon_130220">This letter was despatched immediately; but Maitland waited in vain for any reply, the fact being that Le only wanted time to carry out his own fiendish schemes. He thought the Viceroy's answer would, in all probability, reach him that evening. If so, Pennant could be executed in the morning. When Pennant was no more, it would be easy to dare the English Consul to do his worst.</p>
               <pb xml:id="lmdragon_130221" n="36     RICHARD MAITLAND, CONSUL"/>
@@ -1016,7 +1016,7 @@ for me?"</p>
               <p xml:id="lmdragon_130858">He entered the General's tent, and, sitting down, drew a sheet of paper towards him, and began his miserable task. He tried hard to make the best of the story he had to tell, but, try as he would, he could not but reveal the truth to Clara. He must remain with the army in Manchuria; there would be no chance of his returning to Port Arthur until the Japanese should be driven back and the roads to that fortress effectually secured.</p>
               <p xml:id="lmdragon_130859">Meanwhile, Kung, well pleased with himself, and in high good-humour with the rest of the world, sat down and prepared to indite a despatch as false as his own nature. It ran in the following terms:</p>
               <q>
-                <text xml:id="lmdragon_12019">
+                <q><floatingText xml:id="lmdragon_12019">
                   <body xml:id="lmdragon_12018">
                     <div xml:id="lmdragon_061" type="letter">
                       <opener>"A RESPECTFUL COMMUNICATION.</opener>
@@ -1028,7 +1028,7 @@ abundantly.</salute>
                       </closer>
                     </div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
             </div>
             <pb n="[129]" pages="129" facs="lmdragonpg129"/>
@@ -1275,7 +1275,7 @@ been received by the English Consul, a man of the name of Maitland——"</p>
               <p xml:id="lmdragon_1301113">"God bless you!" she said. "You don't know our God, but the Providence above will reward you.</p>
               <p xml:id="lmdragon_1301114">She then sat hastily down, and wrote a letter to her husband.</p>
               <q>
-                <text xml:id="lmdragon_12021">
+                <q><floatingText xml:id="lmdragon_12021">
                   <body xml:id="lmdragon_12020">
                     <div xml:id="lmdragon_070" type="letter">
                       <opener>
@@ -1289,7 +1289,7 @@ will do your utmost to rescue me. I dare not add any more, except that
 I would rather die than be false to you."</p>
                     </div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="lmdragon_1301116">When this letter was finished, Clara gave it to the amah, who fastened it hastily into the lining of her dress. At an early hour the next morning the faithful woman left the fortress.</p>
             </div>
@@ -1445,7 +1445,7 @@ I would rather die than be false to you."</p>
               <p xml:id="lmdragon_1301260">GEORGE KYNNERSLEY, a typical young Englishman, was standing in the common saloon of the Inn of Benevolence and Virtue in the town of Lung-hsien, in the Middle Kingdom of China. He had a frown on his brow, his face was flushed, and there were tokens about his person as if he had lately engaged in a somewhat fierce tussle. An attendant approached bearing a letter, and Kynnersley turned on him angrily, but when his eyes rested on the handwriting, the frown between his brows was succeeded by an expression of interest, his eyes grew full of eagerness, and, seizing the letter, he tore it open.</p>
               <p xml:id="lmdragon_1301261">It was in the English tongue, and ran as follows:</p>
               <q>
-                <text xml:id="lmdragon_12026">
+                <q><floatingText xml:id="lmdragon_12026">
                   <body xml:id="lmdragon_12025">
                     <div xml:id="lmdragon_081" type="letter">
                       <opener>
@@ -1459,7 +1459,7 @@ I would rather die than be false to you."</p>
                       </closer>
                     </div>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="lmdragon_1301264">Kynnersley's eyes flew over these lines. He read the letter twice; then, crushing it into his pocket, he began to pace up and down the long room with hasty steps. His eyes were blazing with excitement, and his thoughts were as follows:</p>
               <p xml:id="lmdragon_1301265">"What an ass I have made of myself! Why can I never keep that confounded temper in check? I have just done what our good Consul warned me against, and have put one of the big men of this place into the worst possible humour. The Magistrate of Lung-hsien is my enemy from this time forth, or I am very much mistaken. The fact is, I never shall be able to brook the insolence of these low-toned Chinamen. I acted like a fool, but I believe if the thing were to happen over again I should again conduct myself in the same idiotic fashion. Well, the only thing to do now is to hurry up my report, and get back to Ch'anghai as quickly as possible."</p>

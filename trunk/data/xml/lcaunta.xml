@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lcaunta_12014">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lcaunta_12014">
   <teiHeader xml:id="lcaunta1201"><fileDesc>
       <titleStmt>
         <title>Aunt Anne, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Aunt
@@ -108,7 +108,7 @@ Square</pubPlace>
       </titlePage>
       <pb xml:id="lcaunta_1307"/>
       <div xml:id="lcaunta_000" type="copyright">
-        <figure><graphic url="ENTITY_lcauntacr" rend="inline"/>
+        <figure><graphic url="lcauntacr.jpg" rend="inline"/>
           <figDesc>Copyright information for Mrs. Clifford's <hi rend="italic">Aunt Anne</hi>.</figDesc>
         </figure>
       </div>
@@ -494,7 +494,7 @@ all.</p>
 <pb xml:id="lcaunta_130351" n="45     AUNT ANNE"/>and her reply awaited with much anxiety. It
 came the next morning, and ran thus:</p>
         <q>
-          <text xml:id="lcaunta_1204">
+          <q><floatingText xml:id="lcaunta_1204">
             <body xml:id="lcaunta_1203">
               <div xml:id="lcaunta_030" type="letter">
                 <opener>"<salute>MY DEAR FLORENCE</salute>,--</opener>
@@ -512,7 +512,7 @@ BAINES.</signed></closer>
 darlings, to have the sunshade without delay, for the afternoons are getting to be so bright and sunny that I have requested Mrs. North to have out the open carriage for her afternoon drive."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lcaunta_130357">"Really, Walter," Mrs. Hibbert said, "she is a most extraordinary person. If she is so poor that she cannot buy a few pocket-handkerchiefs, why did she send us those presents yesterday? Flowers are expensive at this time of year."</p>
         <pb xml:id="lcaunta_130358" n="46     AUNT ANNE"/>
@@ -1150,7 +1150,7 @@ said to himself.</p>
 check into an envelope, a note arrived. It had been left by hand. It
 was scented with violets, and ran thus:</p>
         <q>
-          <text xml:id="lcaunta_1206">
+          <q><floatingText xml:id="lcaunta_1206">
             <body xml:id="lcaunta_1205">
               <div xml:id="lcaunta_130969" type="letter">
                 <opener>"<salute>DEAR MRS. HIBBERT</salute>,--</opener>
@@ -1169,7 +1169,7 @@ sincerely</salute>,<signed>"E. NORTH."</signed></closer>
 receipt."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb xml:id="lcaunta_130971" n="[118]"/>
@@ -1216,14 +1216,14 @@ a little pin-cushion, covered with blue velvet, and having round it a
 rim of silver filigree work. Attached to it was a little note, which
 ran thus:</p>
         <q>
-          <text xml:id="lcaunta_1208">
+          <q><floatingText xml:id="lcaunta_1208">
             <body xml:id="lcaunta_1207">
               <div xml:id="lcaunta_033" type="letter">
                 <opener>"<salute>MY DARLING</salute>,--</opener>
                 <p xml:id="lcaunta_130996">Accept this little token of my love and gratitude. I feel that there is no way in which I can better prove how much I appreciated your generous gift to me than by spending a portion of it on a token of my affection to you. I trust you will honor my little gift with your acceptance."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lcaunta_130998">"Oh," said Florence again, in despair, "I wonder if she
 <pb xml:id="lcaunta_130997" n="122     AUNT ANNE"/>
@@ -2234,7 +2234,7 @@ find out precisely where the P. &amp; O.'s sail from for Bombay; then I shall be
 flashed back, and the weary woman of five minutes ago was almost a light-hearted girl again.</p>
         <p xml:id="lcaunta_1301919">"It is rather a nice letter," she said, and propped up the wicks of the flickering candles with the corner of the envelope. "I believe she wrote merely out of kindness; it proves that there is some generosity in even the most virtuous heart. I'll write to Mrs. Wimple--" she stopped--and reflected for a minute or two. "Poor old lady! she was very good to me; she was like a mother--no woman has called me 'my love' since she went away." She walked up and down the room for a moment, and looked out again at the wide street and the flashing lights. Suddenly she turned, seized her blotting-book, and knelt down by the table in the impulsive manner that characterized her. "I'll write at once," she said. "Of course it will shock her sweet old nerves; but I know she'll be glad to hear from  me, though she won't own it even to herself."</p>
         <q>
-          <text xml:id="lcaunta_12010">
+          <q><floatingText xml:id="lcaunta_12010">
             <body xml:id="lcaunta_1209">
               <div xml:id="lcaunta_034" type="letter">
                 <opener>"<salute>DEAREST OLD LADY</salute>,--</opener>
@@ -2254,7 +2254,7 @@ lady, and even if you have any left you would, no doubt, think it far too good f
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lcaunta_1301924">When it was finished, her excitement gave way; her spirits ran down; she went, wearily, back to the sofa and pillowed her head on her arms once more. "I wonder what the next incident will be, and how many days and nights it is off." She shut her eyes, and in thought hurried down the street to the old port. She saw the masts of ships, and the moving water, and the passing lights in the distance. "0 God!" she said to herself, "how terrible it is to think that the land is empty for me from end to end. Though I walked over every mile of it, I should never see his face or hear his voice, and there is not a heart in the whole of it that cares one single jot for me. And the great sea is there, and the ships going on and on, and not a soul on board one of them who knows that I live or cares if I die. It frightens me and stuns me, and frightens me again. I am so hungry, and longing, and eager for the utter impossibilities. Oh, my darling, if you had only trusted me; if you could have believed that the sin was outside me and not in my heart; if you had written me just one little line to tell me that some day, even though it were years and years ahead, you would come to me and take me into your life forever, I would have been so good--I would have made myself the best woman on earth, so that I might give you the best love that ever Heaven sent into a human heart." There was another knock at the door, and something like a cry escaped from her lips.</p>
         <pb xml:id="lcaunta_1301925" n="226     AUNT ANNE"/>
@@ -3095,45 +3095,45 @@ face towards the window, as though she were listening, and looked at Aunt Anne's
     <back xml:id="lcaunta_12012">
       <div xml:id="lcaunta_050" type="adverts">
         <pb xml:id="lcaunta_1302780"/>
-        <figure><graphic url="ENTITY_lcauntabm01" rend="inline"/>
+        <figure><graphic url="lcauntabm01.jpg" rend="inline"/>
           <figDesc>Advertisement included at the end of Mrs. Clifford's <hi rend="italic">Aunt Anne</hi>.</figDesc>
         </figure>
         <pb xml:id="lcaunta_1302781"/>
-        <figure><graphic url="ENTITY_lcauntabm02" rend="inline"/>
+        <figure><graphic url="lcauntabm02.jpg" rend="inline"/>
           <figDesc>Advertisement included at the end of Mrs. Clifford's <hi rend="italic">Aunt Anne</hi>.</figDesc>
         </figure>
         <pb xml:id="lcaunta_1302782"/>
-        <figure><graphic url="ENTITY_lcauntabm03" rend="inline"/>
+        <figure><graphic url="lcauntabm03.jpg" rend="inline"/>
           <figDesc>Advertisement included at the end of Mrs. Clifford's <hi rend="italic">Aunt Anne</hi>.</figDesc>
         </figure>
         <pb xml:id="lcaunta_1302783"/>
-        <figure><graphic url="ENTITY_lcauntabm03" rend="inline"/>
+        <figure><graphic url="lcauntabm03.jpg" rend="inline"/>
           <figDesc>Advertisement included at the end of Mrs. Clifford's <hi rend="italic">Aunt Anne</hi>.</figDesc>
         </figure>
         <pb xml:id="lcaunta_1302784"/>
-        <figure><graphic url="ENTITY_lcauntabm04" rend="inline"/>
+        <figure><graphic url="lcauntabm04.jpg" rend="inline"/>
           <figDesc>Advertisement included at the end of Mrs. Clifford's <hi rend="italic">Aunt Anne</hi>.</figDesc>
         </figure>
         <pb xml:id="lcaunta_1302785"/>
-        <figure><graphic url="ENTITY_lcauntabm05" rend="inline"/>
+        <figure><graphic url="lcauntabm05.jpg" rend="inline"/>
           <figDesc>Advertisement included at the end of Mrs. Clifford's <hi rend="italic">Aunt Anne</hi>.</figDesc>
         </figure>
         <pb xml:id="lcaunta_1302786"/>
-        <figure><graphic url="ENTITY_lcauntabm06" rend="inline"/>
+        <figure><graphic url="lcauntabm06.jpg" rend="inline"/>
           <figDesc>Advertisement included at the end of Mrs. Clifford's <hi rend="italic">Aunt Anne</hi>.</figDesc>
         </figure>
         <pb xml:id="lcaunta_1302787"/>
-        <figure><graphic url="ENTITY_lcauntabm07" rend="inline"/>
+        <figure><graphic url="lcauntabm07.jpg" rend="inline"/>
           <figDesc>Advertisement included at the end of Mrs. Clifford's <hi rend="italic">Aunt Anne</hi>.</figDesc>
         </figure>
         <pb xml:id="lcaunta_1302788"/>
-        <figure><graphic url="ENTITY_lcauntabm08" rend="inline"/>
+        <figure><graphic url="lcauntabm08.jpg" rend="inline"/>
           <figDesc>Advertisement included at the end of Mrs. Clifford's <hi rend="italic">Aunt Anne</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="lcaunta_1302789"/>
       <div xml:id="lcaunta_060" type="paratext">
-        <figure><graphic url="ENTITY_lcauntabm09" rend="inline"/>
+        <figure><graphic url="lcauntabm09.jpg" rend="inline"/>
           <figDesc>Circulation record for The Craddock Circle pasted into the
 back of  Mrs. Clifford's <hi rend="italic">Aunt Anne</hi>.</figDesc>
         </figure>

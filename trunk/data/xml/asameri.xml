@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="asameri_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="asameri_1201">
   <teiHeader xml:id="asameri1202"><fileDesc>
       <titleStmt> <title>An American Woman, an electronic edition</title><author><name><choice><sic><name type="person">Annie S. Swan</name></sic><reg>Swan, Annie S., 1859-1943</reg></choice></name></author></titleStmt>
       <extent/>
@@ -7,7 +7,7 @@
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/16z1g</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>An American Woman</title>. <pubPlace>London</pubPlace>: <publisher>Hutchinson &amp; Co.</publisher>, <date>1900</date>.</bibl>
@@ -64,7 +64,7 @@
       <div xml:id="asameri_fm1" type="frontispiece">
         <p xml:id="asameri_1308"> " 'It must have been very sudden at the end?' he remarked" (<hi rend="italic">p.</hi> 13).</p>
         <p xml:id="asameri_1309"> [<hi rend="italic">frontispiece.</hi></p>
-        <figure><graphic url="ENTITY_asameripic1" rend="inline"/>
+        <figure><graphic url="asameripic1.jpg" rend="inline"/>
           <figDesc> Illustration at the front of Swan's "An American Woman"</figDesc>
         </figure>
       </div>
@@ -89,16 +89,16 @@
         <p xml:id="asameri_13015"> LONDON AND AYLESBURY</p>
       </div>
       <pb xml:id="asameri_13016" n="v"/>
-      <div xml:id="asameri_fm3" type="table of contents">
-        <figure><graphic url="ENTITY_asamerifm1" rend="inline"/>
+      <div xml:id="asameri_fm3" type="table_of_contents">
+        <figure><graphic url="asamerifm1.jpg" rend="inline"/>
           <figDesc> Table of contents included in front of Swan's "An American Woman"</figDesc>
         </figure>
         <pb xml:id="asameri_13017" n="vi"/>
-        <figure><graphic url="ENTITY_asamerifm2" rend="inline"/>
+        <figure><graphic url="asamerifm2.jpg" rend="inline"/>
           <figDesc> Table of contents included in front of Swan's "An American Woman"</figDesc>
         </figure>
         <pb xml:id="asameri_13018" n="vii"/>
-        <figure><graphic url="ENTITY_asamerifm3" rend="inline"/>
+        <figure><graphic url="asamerifm3.jpg" rend="inline"/>
           <figDesc> Table of contents included in front of Swan's "An American Woman"</figDesc>
         </figure>
       </div>
@@ -472,7 +472,7 @@ companion. She became quiet and <pb xml:id="asameri_130308" n="53 A Gulf Fixed"/
         <p xml:id="asameri_130346">"The last I heard of her she was in London. I think Merriot—that is my housekeeper—has her latest address. She used to correspond with her sometimes, and once she came down here with her little boy for a rest and change. She has only one child, who is deformed—a great grief to her—but he is a wonderfully sweet child, and quite a genius."</p>
         <p xml:id="asameri_130347">"Oh, I do hope I shall be able to find them. If it will not trouble you too much, Lady Escott, will you kindly ask your housekeeper to give me the latest address?"</p>
         <p xml:id="asameri_130348">Lady Escott rose and rang the bell.</p>
-        <figure><graphic url="ENTITY_asameripic2" rend="inline"/>
+        <figure><graphic url="asameripic2.jpg" rend="inline"/>
           <p xml:id="asameri_130349">" 'I infer from what you say, Miss Leyton, that your father has left you comfortably off?' " (<hi rend="italic">p. </hi> 59.)</p>
           <figDesc> Illustration included in body of Swan's "An American Woman"</figDesc>
         </figure>
@@ -717,7 +717,7 @@ neighbour, <pb xml:id="asameri_130565" n="93 Paving the Way"/>Father O'Dowd, who
         <p xml:id="asameri_130585">"Indeed," said Brian, and waited to hear what was to come. Right well he knew that there was some ulterior motive behind his stepmother's well-chosen words.</p>
         <p xml:id="asameri_130586">"She is a charming girl, but so lonely. I felt so sorry for her. There she is stranded in London without a soul to take an interest in her but an old depressed-looking governess. She is very rich; but, as she pathetically remarked, there is so much that money cannot buy. I felt quite touched by her lonely position, and I hope, dear Brian, that I made no mistake in thinking that your kind heart would be the first to feel for her?"</p>
         <p xml:id="asameri_130587">"What do you want me to do?" asked Brian, bluntly.</p>
-        <figure><graphic url="ENTITY_asameripic3" rend="inline"/>
+        <figure><graphic url="asameripic3.jpg" rend="inline"/>
           <p xml:id="asameri_130588"> " 'You will not expect me, I trust, to pay very much attention to her' "</p>
           <p xml:id="asameri_130589"> (<hi rend="italic"> p.</hi> 97).</p>
           <figDesc> Illustration included in body of Swan's "An American Woman"</figDesc>
@@ -823,7 +823,7 @@ replied simply and without effort; but she did not convey a brilliant
 impression, and no one present at that first moment dreamed of her
 real nature. That dinner hour was
 
-<figure><graphic url="ENTITY_asameripic4" rend="illustration"/><p xml:id="asameri_130671"> "When he offered his arm to conduct her to the dining-room, she took it, distinctly conscious of an odd thrill" (<hi rend="italic"> p. </hi> 112).</p><figDesc> Illustration included in body of Swan's "An American Woman"</figDesc></figure><pb xml:id="asameri_130672" n="113 In an Irish Castle"/>one of extreme tension for Lady Lyndon. No one knew what she suffered; Brian least of all guessed how much he had in his power.</p>
+<figure><graphic url="asameripic4.jpg" rend="illustration"/><p xml:id="asameri_130671"> "When he offered his arm to conduct her to the dining-room, she took it, distinctly conscious of an odd thrill" (<hi rend="italic"> p. </hi> 112).</p><figDesc> Illustration included in body of Swan's "An American Woman"</figDesc></figure><pb xml:id="asameri_130672" n="113 In an Irish Castle"/>one of extreme tension for Lady Lyndon. No one knew what she suffered; Brian least of all guessed how much he had in his power.</p>
         <p xml:id="asameri_130674">When the ladies withdrew and re-entered the drawing-room again Lady Lyndon was surprised to find some one there.</p>
         <p xml:id="asameri_130675">"Why, Mr. Parnell," she exclaimed, "how do you come here, and why were we not told?"</p>
         <p xml:id="asameri_130676">"Because I gave my instructions to Doolan, my dear Lady Lyndon," was his gay reply. "I wanted to, see Sheldon. He's here yet, I understand?"</p>
@@ -1404,7 +1404,7 @@ right, no right, I say,
 
 
 
-<figure><graphic url="ENTITY_asameripic5" rend="inline"/><p xml:id="asameri_1301182"> " ' It was acting a lie,' he said" (<hi rend="italic">p.</hi> 199).</p><figDesc> Illustration included in body of Swan's "An American Woman"</figDesc></figure><pb xml:id="asameri_1301183" n="199 The Blow Falls"/>to use my house and my name for such purpose. She shall render account of it to me."</p>
+<figure><graphic url="asameripic5.jpg" rend="inline"/><p xml:id="asameri_1301182"> " ' It was acting a lie,' he said" (<hi rend="italic">p.</hi> 199).</p><figDesc> Illustration included in body of Swan's "An American Woman"</figDesc></figure><pb xml:id="asameri_1301183" n="199 The Blow Falls"/>to use my house and my name for such purpose. She shall render account of it to me."</p>
         <p xml:id="asameri_1301185">Lois was silent, terrified indeed by the look on his face.</p>
         <p xml:id="asameri_1301186">"May I ask you if you came to Ballymore knowing that I was in ignorance of this arrangement?" was his next question.</p>
         <p xml:id="asameri_1301187">"I came to Ballymore in entire ignorance of it," she answered at once. "Lady Lyndon simply told me what members were in the household, but I must confess that after I was in the house she told me that she had not been entirely frank with you about my visit; then I was powerless. What could I do? And, after all, was it so very grave an offence?"</p>
@@ -1681,7 +1681,7 @@ off her glove and let her white, beautiful hand touch the cool ripple
 of the tide. "I feel as if I wanted to sit here for ever and ever and
 
 think of nothing."</p>
-        <figure><graphic url="ENTITY_asameripic6" rend="inline"/>
+        <figure><graphic url="asameripic6.jpg" rend="inline"/>
           <p xml:id="asameri_1301447">" ' Here at last there is peace to talk' "(<hi rend="italic">p.</hi> 240).</p>
           <figDesc> Illustration included in body of Swan's "An American Woman"</figDesc>
         </figure>
@@ -1925,7 +1925,7 @@ course. On the evening <pb xml:id="asameri_1301564" n="261 What Shall I Do?"/>of
         <pb xml:id="asameri_1301677" n="277 Impossible"/>
         <p xml:id="asameri_1301678">"No, I haven't," came back the muffled sound, "and I never will tell him, nor will you. From what he said to-night I have gathered that he would never, never forgive me. I dare not risk it; and you must keep my counsel, Mary, if you would save me from despair."</p>
       </div>
-      <pb n="278 An American Woman" pages="278" facs="asameri278"/>
+      <pb n="278" pages="278" facs="asameri278"/>
       <div xml:id="asameri_0033" n="33" type="chapter">
         <head>CHAPTER XXXIII<lb/>FOR BETTER FOR WORSE</head>
         <p xml:id="asameri_1301681">THEY were married in St. Margaret's, Westminster, on a Saturday
@@ -2125,15 +2125,8 @@ by such pure and single-hearted motives.It is this purity of purpose
         <p xml:id="asameri_1301850">"Well," she said, curtly, "what do you want here?"</p>
         <p xml:id="asameri_1301851">"Can you ask me, Lois?" he asked, as he folded his arms and looked at her steadily. "I have made a long journey to see you, although I cannot hope to be welcome."</p>
         <p xml:id="asameri_1301852">"No, you are right—you are not welcome," she answered, steadily. "Of what use is it to pursue me here? You are not usually obtuse, and you might have understood that when I left America as I did I had no intention of coming back, and that I wished to be done with the old life for ever."</p>
-        <p xml:id="asameri_1301855">"Ah, yes, I had no difficulty whatever in understanding your
-
-motive; but unfortunately I could not take precisely the same view of
-
-the case as you. It is not so easy to cast the past behind
-
-you—there are some
-
-<figure><graphic url="ENTITY_asameripic7" rend="inline"/><p xml:id="asameri_1301853"> "'Well,' she said curtly, 'what do you want here?'" (<hi rend="italic">p.</hi> 312).</p><figDesc> Illustration included in body of Swan's "An American Woman"</figDesc></figure><pb xml:id="asameri_1301854" n="313 Nemesis"/>forces in it to be reckoned with. You surely knew very little of me if you thought I would submit tamely to such cavalier treatment."</p>
+        <p xml:id="asameri_1301855">"Ah, yes, I had no difficulty whatever in understanding your motive; but unfortunately I could not take precisely the same view of the case as you. It is not so easy to cast the past behind you—there are some
+<figure><graphic url="asameripic7.jpg" rend="inline"/><p xml:id="asameri_1301853"> "'Well,' she said curtly, 'what do you want here?'" (<hi rend="italic">p.</hi> 312).</p><figDesc> Illustration included in body of Swan's "An American Woman"</figDesc></figure><pb xml:id="asameri_1301854" n="313 Nemesis"/>forces in it to be reckoned with. You surely knew very little of me if you thought I would submit tamely to such cavalier treatment."</p>
         <p xml:id="asameri_1301856">"It was not more than you might have expected. How often did I tell you plainly that I regretted what had passed between us."</p>
         <p xml:id="asameri_1301857">"You might regret it," he answered, smoothly, "but you cannot wipe it out."</p>
         <p xml:id="asameri_1301858">"It was nothing," she said, quickly, "a foolish escapade of which any girl might have been guilty, and the folly of which she saw as soon as she gained more sense and knowledge of the world, that is all. You cannot say I deceived you, because I have not hid from you during the last few years that I no longer cared for you in the way you wish, in fact I never did really care for you in that way. I was too young to know what I was doing."</p>
@@ -2237,7 +2230,7 @@ in a position of extreme awkwardness, being <pb xml:id="asameri_1301894" n="321 
 are one or two little items which she has forgotten, but they are of
 
 such small consequence
-<figure><graphic url="ENTITY_asameripic8" rend="inline"/><p xml:id="asameri_1301932"> "He suddenly felt himself gripped by the coat collar and shaken like a rat' ( <hi rend="italic"> p. </hi> 329).</p><figDesc> Illustration included in body of Swan's "An American Woman"</figDesc></figure><pb xml:id="asameri_1301933" n="329 'All is Well'"/>that I need not trouble to mention them, only she has done me an injustice. I did not wish to destroy the domestic peace of which I have heard such glowing accounts since I landed in this country, I simply wished to call and offer my congratulations. Mrs. Lyndon has misunderstood me, and so has led up to this unfortunate, and, for me at least, distinctly unpleasant, interview."</p>
+<figure><graphic url="asameripic8.jpg" rend="inline"/><p xml:id="asameri_1301932"> "He suddenly felt himself gripped by the coat collar and shaken like a rat' ( <hi rend="italic"> p. </hi> 329).</p><figDesc> Illustration included in body of Swan's "An American Woman"</figDesc></figure><pb xml:id="asameri_1301933" n="329 'All is Well'"/>that I need not trouble to mention them, only she has done me an injustice. I did not wish to destroy the domestic peace of which I have heard such glowing accounts since I landed in this country, I simply wished to call and offer my congratulations. Mrs. Lyndon has misunderstood me, and so has led up to this unfortunate, and, for me at least, distinctly unpleasant, interview."</p>
         <p xml:id="asameri_1301935">Lyndon was not a passionate man, but his slow anger once roused was like a whirlwind sweeping everything before it. Although Lois had not entered into any details, the whole circumstances of the case and of Harewood's present attitude were as clear before his mental vision as if they had been photographed. Misled by Lyndon's apparently quiet and somewhat indifferent manner, Harewood was about to open his mouth again, when he suddenly felt himself gripped by the coat collar and shaken like a rat. Keeping him in his strong grip, against which Harewood was absolutely powerless to resist, Lyndon dragged him across the room, undid the fastenings of one of the long windows, and threw him out on to the terrace.</p>
         <p xml:id="asameri_1301937">"Now, make yourself scarce," he said, "and the next time you set out to play the <hi rend="italic">rôle</hi> of coward and cur take into reckoning first the manner of people you have to deal with." Then he banged the window, put in the bolts, and drew the heavy curtains close as they had been before. Lyndon dropped into a chair breathing somewhat heavily. The whole thing had happened in such a brief space of time that he had scarcely realised its full import. He was glad to be alone to <pb xml:id="asameri_1301936" n="330 An American Woman"/>bring some order out of the chaos of his thoughts. This extraordinary and unlooked-for occurrence had given him a severe shock, but he did not feel so bitter as might have been expected against his wife; nay, he was conscious of nothing at that moment but a vast pity for her. What had been painful enough for him must have been a terrible ordeal for her, and when he recalled her splendid courage—that of a wounded animal brought to bay—it seemed to take the edge off the disappointment caused by her lack of confidence in him. Not the shadow of a doubt regarding the truth of the story she had told him troubled him. He had sufficient experience of human nature to recognise the utterances of truth; her manner, even more than her words, had been convincing, and yet, while his heart was tender towards her, he shrank in some indefinable manner from the next moment of their meeting. He possessed, in an exaggerated degree, that hatred of scenes peculiar to the nationality in which he had been reared. If he had had his way he would have gone on as before, without permitting Harewood's name to be so much as mentioned between them, but he knew that to be impossible; and so, after having composed his own feelings in these few quiet moments, he rose and went in search of his wife. As he crossed the hall he encountered the butler with a tray.</p>
         <p xml:id="asameri_1301938">"They have not finished dinner, I suppose?" he said, inquiringly.</p>

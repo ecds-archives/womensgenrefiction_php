@@ -1,11 +1,11 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fmphyll_9999">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fmphyll_9999">
   <teiHeader xml:id="fmphyll9998"><fileDesc>
       <titleStmt>
         <title>Phyllida, an electronic edition</title>
         <author><name><choice><sic><name type="person">Florence Marryat</name></sic><reg>Marryat, Florence, 1837-1899</reg></choice></name></author>
       </titleStmt>
       <extent>750Kb</extent>
-      <publicationStmt><pubPlace>Atlanta, Georgia</pubPlace><publisher>Emory University, Lewis H. Beck Center</publisher><date>2008</date><availability>
+      <publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2008</date><availability>
           <p xml:id="fmphyll_1301">© 2008, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit,or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:
 <address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p>
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/171zg</idno></publicationStmt>
@@ -15,7 +15,7 @@
           <name>Sheila T.Cavanagh</name>
           <name>Charles D.Spornick</name>
           <resp> Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title> Phyllida</title>. <pubPlace> London</pubPlace>: <publisher>F. V. White &amp; Co.</publisher>, <date>1883</date></bibl>
@@ -61,18 +61,18 @@
     </profileDesc><revisionDesc><change><date>2008-June-3</date><label> Encoder.</label><name>Shruthi Vissa, </name> XML tags inserted are in compliance with TEI guidelines.</change></revisionDesc></teiHeader>
   <text xml:id="fmphyll_9997">
     <front xml:id="fmphyll_9996">
-      <div xml:id="fmphyll_cover" type="front covers">
-        <figure><graphic url="ENTITY_fmphyllfc" rend="inline"/>
+      <div xml:id="fmphyll_cover" type="front_covers">
+        <figure><graphic url="fmphyllfc.jpg" rend="inline"/>
           <figDesc> Front cover of Marryat's "Phyllida"</figDesc>
         </figure>
       </div>
       <div xml:id="fmphyll_spine" type="spine">
-        <figure><graphic url="ENTITY_fmphyllspl" rend="inline"/>
+        <figure><graphic url="fmphyllspl.jpg" rend="inline"/>
           <figDesc> Spine of Marryat's "Phyllida"</figDesc>
         </figure>
       </div>
-      <div xml:id="fmphyll_back" type="back cover">
-        <figure><graphic url="ENTITY_fmphyllbc" rend="inline"/>
+      <div xml:id="fmphyll_back" type="back_cover">
+        <figure><graphic url="fmphyllbc.jpg" rend="inline"/>
           <figDesc> Back Cover of Marryat's "Phyllida"</figDesc>
         </figure>
       </div>
@@ -83,7 +83,7 @@
       </titlePage>
       <pb xml:id="fmphyll_1306"/>
       <div xml:id="fmphyll_100" type="advert">
-        <figure><graphic url="ENTITY_fmphyllfm2" rend="inline"/>
+        <figure><graphic url="fmphyllfm2.jpg" rend="inline"/>
           <figDesc> Advert included in front of Marryat's "Phyllida"</figDesc>
         </figure>
       </div>
@@ -680,7 +680,7 @@ left for you.'</p>
 paper, and directed to himself. He opened it. It contained an ordinary
 wedding-ring, and these words:--</p>
         <q>
-          <text xml:id="fmphyll_130183">
+          <q><floatingText xml:id="fmphyll_130183">
             <body xml:id="fmphyll_130182">
               <div xml:id="fmphyll_002" type="letter">
                 <opener>
@@ -699,7 +699,7 @@ goodness.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fmphyll_130184">'Rubbish!' exclaimed Nelson Cole roughly; 'what did the girl mean
 by leaving me this? What does she suppose I can want with her mother's
@@ -1395,12 +1395,12 @@ sprung up in his uneventful life.</p>
         <head>CHAPTER III.</head>
         <p xml:id="fmphyll_130364">THE following morning Mrs Freshfield was considerably startled by
 receiving a note from her son:--
-<q><text xml:id="fmphyll_130363"><body xml:id="fmphyll_130362"><div xml:id="fmphyll_006" type="letter"><opener><salute>'MY DEAR
+<q><floatingText xml:id="fmphyll_130363"><body xml:id="fmphyll_130362"><div xml:id="fmphyll_006" type="letter"><opener><salute>'MY DEAR
 MOTHER,--</salute></opener><p xml:id="fmphyll_130361">Since you make a point<pb xml:id="fmphyll_130360" n="47 Phyllida."/> of my dining at Blue Mount to-day, you must let me bring
 my friend Anderson with me. He turned up expectedly at Briarwood last
 night, and I cannot leave him to spend the evening
 alone.--</p><closer><signed>Yours
-affectionately,<name>BERNARD.'</name></signed></closer></div></body></text></q></p>
+affectionately,<name>BERNARD.'</name></signed></closer></div></body></floatingText></q></p>
         <p xml:id="fmphyll_130365">Now, Charles Anderson was an old college chum of Bernard's, to whom
 he was deeply attached. The young men had gone rather different ways
 since starting in life, Anderson having become deeply imbued whilst at
@@ -5819,7 +5819,7 @@ wife. Miss Warren had very few absurd scruples with regard to the
 dishonour of prying into the correspondence of another. She seized the
 note with alacrity, and made herself mistress of its contents.</p>
         <q>
-          <text xml:id="fmphyll_1301482">
+          <q><floatingText xml:id="fmphyll_1301482">
             <body xml:id="fmphyll_1301481">
               <div xml:id="fmphyll_016" type="letter">
                 <opener>
@@ -5842,7 +5842,7 @@ husband.'</signed>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fmphyll_1301483">Miss Warren twisted the note round and round in her fingers.</p>
         <p xml:id="fmphyll_1301485">'I wonder if the servants know why he was called away?' she
@@ -6710,10 +6710,10 @@ nothing of her. She must have gone to Brick Common. But it is too bad, too hard 
         <p xml:id="fmphyll_1301807">'What does <hi rend="italics"> what</hi> mean?'</p>
         <p xml:id="fmphyll_1301808">'This letter--her letter. Read what she says to me.'</p>
         <p xml:id="fmphyll_1301809">Nelson Cole took up the paper, and read the following words:-</p>
-        <q> <text xml:id="fmphyll_1301813"> <body xml:id="fmphyll_1301812"> <div xml:id="fmphyll_018" type="letter"><opener>'Bernard,</opener> <p xml:id="fmphyll_1301811"> By the time this reaches you, your friend will have told you all he knows about me; and you will have learned how much you have been deceived. But oh, my darling, don't fret about it; I will never disgrace you more. I am going away where you will never hear of me. Only try to forget everything about me, excepting that I loved you very dearly, and had not strength to do what
+        <q> <q><floatingText xml:id="fmphyll_1301813"> <body xml:id="fmphyll_1301812"> <div xml:id="fmphyll_018" type="letter"><opener>'Bernard,</opener> <p xml:id="fmphyll_1301811"> By the time this reaches you, your friend will have told you all he knows about me; and you will have learned how much you have been deceived. But oh, my darling, don't fret about it; I will never disgrace you more. I am going away where you will never hear of me. Only try to forget everything about me, excepting that I loved you very dearly, and had not strength to do what
 
 <pb xml:id="fmphyll_1301810" n="269 Phyllida."/>
-I ought to have done. But indeed, indeed, I believed myself to be your wife.</p><closer><signed> 'PHYLLIDA.'</signed></closer></div></body></text></q>
+I ought to have done. But indeed, indeed, I believed myself to be your wife.</p><closer><signed> 'PHYLLIDA.'</signed></closer></div></body></floatingText></q></q>
         <p xml:id="fmphyll_1301814"><hi rend="italics">' What does it mean ?'</hi> again demanded Bernard Freshfield, as Cole came to the end of the letter.</p>
         <p xml:id="fmphyll_1301815">' It means, my poor boy, that at last she speaks the truth.'</p>
         <p xml:id="fmphyll_1301816">' The truth !--that paper ! Take care what you are saying, Cole ; the truth that she disgraced me--that she only believed herself to be my wife. Why, I married her by special licence at Gatehead. She must be mad ; you are all mad to imagine such a thing.'</p>
@@ -6918,13 +6918,13 @@ her foot with upsetting the tea-kettle, and she kept on screaming out. for Mrs F
 it) ; ' for I know what her poor, dear aunt lies ill of, and it's a disease as will never rest until it's carried her off. And how I'm to satisfy all these poor people as come hollering after the mistress, whilst she's away, the Lord only knows. But if any of you jades go to disturb the master in the libbery or elsewhere,' cried Mrs Garnett, with a sudden change of manner, 'you'll lose your places. He's got more than enough to think of and man-age, poor, dear gentleman, with the whole parish visiting thrown on his hands. So you mind what I say, and keep down here in your proper places, or it will be the worse for you.'</p>
         <p xml:id="fmphyll_1301985">Meanwhile Bernard remained in the library, in silent torture, with his face buried in his hands, trying to disentangle the confused thoughts that tripped each other up as they rushed helter-skelter through his brain to reduce the chaos into order--to remember exactly what had happened to him, and to decide what influence it would exert upon his future. He had one especially hard task before him--to tell the truth to his mother. He felt he must tell it ; that it was due to her and to Laura that they should hear of the disgrace that had fallen on the family, through his means, from his own lips. He did not know how much or how little of the news had already circulated through Bluemere. Mrs Penfold's sudden departure seemed as though she was aware of it ; it would never do for it to reach Blue Mount by a stranger's hand. He pulled out pen and paper at once, and wrote hurriedly ; but his letter was addressed not to Mrs Freshfield--but to Laura.</p>
         <q>
-          <text xml:id="fmphyll_1301989">
+          <q><floatingText xml:id="fmphyll_1301989">
             <body xml:id="fmphyll_1301988">
               <div xml:id="fmphyll_020" type="letter"> <opener>' MY DEAREST SISTER,</opener><p xml:id="fmphyll_1301987">--A terrible blow has fallen upon me, which you must not hear from
 <pb xml:id="fmphyll_1301986" n="295 Phyllida."/>
 any one but myself. Phyllida has left me. She was never my wife. She was a married woman when she came to England, and Cole (who knew her in America) recognised her directly they met. Break this news to my poor mother as gently as you can, and talk about it as little as possible. And whatever you do, don't come to Briarwood, for I cannot speak on this subject nor see any one, at all events for the present.</p><closer><signed>--Ever your affectionate brother,<name>	BERNARD.'</name></signed></closer></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fmphyll_1301991">He sealed his letter and despatched it by a groom, and then he went up to the chamber which Phyllida had occupied, and locked himself in, and spent the night amidst the relics of his lost love, with which it was strewn. She had taken nothing away with her apparently, except the plain serge dress she wore. All the costly fabrics he had taken such delight in purchasing for her--the delicate silks and satins ; the sable trimmed and velvet mantles ; the lace and jewellery, that had excited the indignation of her mother-in-law-- were all there. She had left them behind her, seemingly with the utmost in-difference, and gone forth into the fog and the darkness, unprovided and alone. Even her purse, containing the money with which he supplied her for the parish needs--(' Judas's bag,' as the poor child had laughingly called it)--lay on the toilet table, and Bernard took it up mechanically and counted the contents. A five-pound note, two sovereigns, and seven shillings in silver. What had Phyllida taken with her? he thought in a dazed manner ; by what means did she intend to provide for herself in the future? But even such speculations did not cause any feelings of
 <pb xml:id="fmphyll_1301990" n="296 Phyllida."/>

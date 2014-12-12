@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mayoung_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mayoung_1201">
   <teiHeader xml:id="mayoung1202"><fileDesc>
       <titleStmt>
         <title>A Young Man from the Country, an electronic edition</title>
@@ -14,7 +14,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A Young Man from the Country</title>. <pubPlace>London</pubPlace>: <publisher>Hurst and Blackett, Limited</publisher>, <date>1906</date>.</bibl>
@@ -60,8 +60,8 @@
     </profileDesc><revisionDesc><change><date>2007-June-25</date><label>Encoder.</label><name>Shruthi Vissa, </name>XML tags inserted in compliance with TEI guidelines.</change></revisionDesc></teiHeader>
   <text xml:id="mayoung_1205">
     <front xml:id="mayoung_1203">
-      <div xml:id="mayoung_cover" type="front cover">
-        <figure><graphic url="ENTITY_mayoungfc" rend="inline"/>
+      <div xml:id="mayoung_cover" type="front_cover">
+        <figure><graphic url="mayoungfc.jpg" rend="inline"/>
           <figDesc> Front cover of Albanesi's "A Young Man from the Country"</figDesc>
         </figure>
       </div>
@@ -554,7 +554,7 @@ good. Patsy, why have I never known the country could be so delightful before? I
       </div>
       <pb xml:id="mayoung_1302568" n="[343]"/>
       <div xml:id="mayoung_200" type="advert">
-        <figure><graphic url="ENTITY_mayoungad001" rend="inline"/>
+        <figure><graphic url="mayoungad001.jpg" rend="inline"/>
           <figDesc> Advert included in back of Albanesi's "A Young Man from the Country"</figDesc>
         </figure>
       </div>

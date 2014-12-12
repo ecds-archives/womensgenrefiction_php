@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="llunder_12012">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="llunder_12012">
   <teiHeader xml:id="llunder1201"><fileDesc>
       <titleStmt>
         <title>Under Fate's Wheel, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Under Fate's Wheel</title>. <pubPlace>London</pubPlace>:
@@ -79,12 +79,12 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="llunder_12011">
     <front xml:id="llunder_1202">
       <div xml:id="llunder_000" type="covers">
-        <figure><graphic url="ENTITY_llunderfc" rend="inline"/>
+        <figure><graphic url="llunderfc.jpg" rend="inline"/>
           <figDesc>Front cover of Lynch's <hi rend="italic">Under Fate's
 Wheel</hi>.</figDesc>
         </figure>
         <pb xml:id="llunder_1305"/>
-        <figure><graphic url="ENTITY_llunderbc" rend="inline"/>
+        <figure><graphic url="llunderbc.jpg" rend="inline"/>
           <figDesc>Back cover of Lynch's <hi rend="italic">Under Fate's
 Wheel</hi>.</figDesc>
         </figure>
@@ -97,7 +97,7 @@ Wheel</hi>.</figDesc>
       </titlePage>
       <pb xml:id="llunder_1308"/>
       <div xml:id="llunder_001" type="frontispiece">
-        <figure><graphic url="ENTITY_llunderfp" rend="inline"/>
+        <figure><graphic url="llunderfp.jpg" rend="inline"/>
           <p xml:id="llunder_1309">"'Help! help! help!'" (Page 109.) <lb/>Under Fate's Wheel, Frontispiece</p>
           <figDesc>Frontispiece included in  Lynch's <hi rend="italic">Under Fate's
 Wheel</hi>.</figDesc>
@@ -120,16 +120,16 @@ etc.</byline>
         </docImprint>
       </titlePage>
       <pb xml:id="llunder_13012" n="5"/>
-      <div xml:id="llunder_002" type="table of contents">
-        <figure><graphic url="ENTITY_llundertc1" rend="inline"/>
+      <div xml:id="llunder_002" type="table_of_contents">
+        <figure><graphic url="llundertc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Lynch's <hi rend="italic">Under Fate's Wheel</hi>.</figDesc>
         </figure>
         <pb xml:id="llunder_13013" n="6"/>
-        <figure><graphic url="ENTITY_llundertc2" rend="inline"/>
+        <figure><graphic url="llundertc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Lynch's <hi rend="italic">Under Fate's Wheel</hi>.</figDesc>
         </figure>
         <pb xml:id="llunder_13014" n="7"/>
-        <figure><graphic url="ENTITY_llundertc3" rend="inline"/>
+        <figure><graphic url="llundertc3.jpg" rend="inline"/>
           <figDesc>Table of contents for Lynch's <hi rend="italic">Under Fate's Wheel</hi>.</figDesc>
         </figure>
       </div>
@@ -331,7 +331,7 @@ know, and to see my--sister. Tell her the best--you <hi rend="italic">can</hi>--
         <p xml:id="llunder_130181">"Only that? I had not observed it when he lay, conscious and pain-racked, but--as he lies there now--there is really a close resemblance. Same height and weight; hair and eyes same colour, straight noses, both. If you had worn your beards the same way you might have passed for brothers--ever observed the likeness?"</p>
         <p xml:id="llunder_130182">The Lieutenant starts at the first word, and now stands looking closely, earnestly, at the still, dead face.</p>
         <pb xml:id="llunder_130183"/>
-        <figure><graphic url="ENTITY_llunderill32" rend="inline"/>
+        <figure><graphic url="llunderill32.jpg" rend="inline"/>
           <p xml:id="llunder_130184">"The listener outside lifts herself." <lb/>Under Fate's Wheel,
 Page 32</p>
           <figDesc>Illustration included in Lynch's <hi rend="italic">Under
@@ -663,7 +663,7 @@ do <hi rend="italic">not</hi> agree, for once; and to Felix the fact seems stran
 <lb/>A DAY OF FATE</head>
         <p xml:id="llunder_130452">IT begins with a letter from Hope Chetwynde to Felix:</p>
         <q>
-          <text xml:id="llunder_1204">
+          <q><floatingText xml:id="llunder_1204">
             <body xml:id="llunder_1203">
               <opener>
                 <dateline>
@@ -691,7 +691,7 @@ meet, adieu to you, <hi rend="italic">mon frère</hi>.</p>
                 <signed>"HOPE."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="llunder_130464">This letter is received in the morning, and Felix Chetwynde, reading it, smiles, frowns, and sighs, and, at last, folding it away, begins a carefully careless outing toilet.</p>
         <p xml:id="llunder_130465">"It might have been worse," he says, as he adjusts his soft cycling cap, "and--it might have been <hi rend="italic">better</hi>, and now for some fun."</p>
@@ -1452,7 +1452,7 @@ notes that a lock of hair just above the temple is fallen from its place, and st
         <p xml:id="llunder_1301128">"Of--whom?"</p>
         <p xml:id="llunder_1301129">"Ah--there it is! I don't know."</p>
         <pb xml:id="llunder_1301130"/>
-        <figure><graphic url="ENTITY_llunderill160" rend="inline"/>
+        <figure><graphic url="llunderill160.jpg" rend="inline"/>
           <p xml:id="llunder_1301131">"A soft kiss upon the cold brow." <lb/>Under Fate's Wheel,
 Page 160</p>
           <figDesc>Illustration included in Lynch's <hi rend="italic">Under
@@ -1616,7 +1616,7 @@ bicycle attire, and to know that I actually <hi rend="italic">rode</hi> one of t
         <head>CHAPTER XV
 <lb/>HOPE'S SECRET</head>
         <q>
-          <text xml:id="llunder_1206">
+          <q><floatingText xml:id="llunder_1206">
             <body xml:id="llunder_1205">
               <opener>
                 <salute>"MY BELOVED WILL--</salute>
@@ -1629,7 +1629,7 @@ stand due south from the rustic bridge, and half a dozen rods away. I shall be t
                 <signed>"INEZ."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="llunder_1301276">This is the letter which is read aloud by Cassandra Chetwynde, and which goes from her hand to that of Hope, who looks at it closely, looks again, an then starts and rises abruptly.</p>
         <p xml:id="llunder_1301277">"Wait a moment," she says, and is gone, returning like a flash with a tiny folded bit of paper in her hand.</p>
@@ -2508,7 +2508,7 @@ where the lawn merges into the wood, beyond and southward, the shore extends out
         <p xml:id="llunder_1302006">Being men of nerve, they waste no words. The boy lies close to the foot of a tree, and when they lift him the blood trickles from a cut in the temple.</p>
         <p xml:id="llunder_1302007">There is but one thing to do, and it is promptly done. They lift the lifeless form, and send Higgins--frightened now, and ashamed, after a sharp reprimand from his master--running ahead to prepare the way.</p>
         <pb xml:id="llunder_1302008"/>
-        <figure><graphic url="ENTITY_llunderill290" rend="inline"/>
+        <figure><graphic url="llunderill290.jpg" rend="inline"/>
           <p xml:id="llunder_1302009">"A boyish figure, and a wrecked bicycle." <lb/>Under Fate's Wheel,
 Page 290</p>
           <figDesc>Illustration included in Lynch's <hi rend="italic">Under
@@ -2869,7 +2869,7 @@ two weeks perhaps." She looks across at Mrs. Hilton. The look is a question.</p>
         <milestone rend="dots" unit="section"/>
         <p xml:id="llunder_1302318">When the next issue of the <hi rend="italic">Lee Weekly Gazette</hi> appeared the following interesting bit of news was chronicled on its foremost page, headed--</p>
         <q>
-          <text xml:id="llunder_1208">
+          <q><floatingText xml:id="llunder_1208">
             <body xml:id="llunder_1207">
               <head>"MURDER WILL OUT.</head>
               <p xml:id="llunder_1302319">"On Tuesday last Sheriff Cook returned from a two weeks' absence upon business of an important and very private nature.</p>
@@ -2879,7 +2879,7 @@ shoulders any faintest suspicion of guilt. It seems that learning that a strange
               <p xml:id="llunder_1302322">"A full and complete confession entirely exonerates Mr. Hilton, and we, with his many friends, unite in offering sincere congratulations.</p>
               <p xml:id="llunder_1302323">"There was, it appears, an old feud between this man and Chetwynde, all the facts being known to the parties most concerned. It has been decided--death having cancelled the debt to justice--to let the details remain unpublished, as its exploitation could only whet a morbid appetite and benefit none. We have the above direct from the sheriff, and it may be regarded as official and final."</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="llunder_1302324">In the same issue, on another page, there appears this item:--</p>
         <q>

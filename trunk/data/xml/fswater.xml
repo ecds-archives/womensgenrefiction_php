@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fswater_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fswater_1206">
   <teiHeader xml:id="fswater1201"><fileDesc>
       <titleStmt>
         <title>On the Face of the Waters, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>On the Face
@@ -86,7 +86,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="fswater_1307" n="[ii]"/>
       <div xml:id="fswater_0001" type="advert">
-        <figure><graphic url="ENTITY_fswaterad" rend="inline"/>
+        <figure><graphic url="fswaterad.jpg" rend="inline"/>
           <figDesc>Advertisement included in Steel's On the Face of
 	  the Waters.</figDesc>
         </figure>
@@ -150,13 +150,13 @@ object with which this book has been written.</p>
         </bibl>
       </div>
       <pb xml:id="fswater_13018" n="[vii]"/>
-      <div xml:id="fswater_0006" type="table of contents">
-        <figure><graphic url="ENTITY_fswtertc1" rend="inline"/>
+      <div xml:id="fswater_0006" type="table_of_contents">
+        <figure><graphic url="fswtertc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Steel's On the Face of the
 Waters.</figDesc>
         </figure>
         <pb xml:id="fswater_13019" n="viii CONTENTS."/>
-        <figure><graphic url="ENTITY_fswtertc2" rend="inline"/>
+        <figure><graphic url="fswtertc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Steel's On the Face of the
 Waters.</figDesc>
         </figure>
@@ -6221,7 +6221,7 @@ little Allie who never made a man feel a fool or a beast. Something in
 the last assertion seemed to harden his heart; he took up his pen and
 began to write:--</p>
           <q>
-            <text xml:id="fswater_1301241">
+            <q><floatingText xml:id="fswater_1301241">
               <body xml:id="fswater_1301240">
                 <div xml:id="fswater_0901" type="letter">
                   <opener>
@@ -6259,7 +6259,7 @@ couldn't have lasted to the finish, and after all, that is the win or
 the lose in a race. H. E.</p>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="fswater_1301243">The postscript was added after re-reading the rest with an
 uncomfortable remembrance that it was the last letter he<pb xml:id="fswater_1301242" n="166 ON THE FACE OF THE WATERS"/> meant to write to her. Then he

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dcmisst_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dcmisst_1201">
   <teiHeader xml:id="dcmisst1202"><fileDesc>
       <titleStmt>
         <title>Miss Tommy, an electronic edition</title>
@@ -10,7 +10,7 @@
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/170hk</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. 
@@ -440,7 +440,7 @@ to Miss Trotter. She read it, then walked to the window and read it
 again. Lastly, she gave it to me to read—</p>
         <milestone rend="blank-line" unit="section"/>
         <q>
-          <text xml:id="dcmisst_130516">
+          <q><floatingText xml:id="dcmisst_130516">
             <body xml:id="dcmisst_130515">
               <div xml:id="dcmisst_1107" type="letter">
                 <opener>
@@ -456,7 +456,7 @@ GORDON."</name></signed>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="dcmisst_130517">I returned the letter in silence, and without looking at her. For myself, I could have burst out sobbing, or torn my hair in despair, had not such proceedings been utterly ridiculous as the result of a formal note of farewell from Charlie's uncle. At which, moreover, Charlie himself, who came in shortly afterwards, did not seem in the least surprised.</p>
@@ -988,11 +988,11 @@ Gordon always took up his old quarters. Once he drew me to the window: it was a 
       <pb xml:id="dcmisst_130929"/>
       <pb xml:id="dcmisst_130930" n="[i]"/>
       <div xml:id="dcmisst_bm1" type="advert">
-        <figure><graphic url="ENTITY_dcmisstbm1" rend="inline"/>
+        <figure><graphic url="dcmisstbm1.jpg" rend="inline"/>
           <figDesc> Advert included in back of Craik's "Miss Tommy"</figDesc>
         </figure>
         <pb xml:id="dcmisst_130931" n="[ii]"/>
-        <figure><graphic url="ENTITY_dcmisstbm2" rend="inline"/>
+        <figure><graphic url="dcmisstbm2.jpg" rend="inline"/>
           <figDesc> Advert included in back of Craik's "Miss Tommy"</figDesc>
         </figure>
         <pb xml:id="dcmisst_130932"/>

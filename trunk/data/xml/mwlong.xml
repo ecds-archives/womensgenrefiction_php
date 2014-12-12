@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mwlong_cecfair1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mwlong_cecfair1205">
   <teiHeader xml:id="cecfair1201"><fileDesc>
       <titleStmt>
         <title>The Long Arm and Other Detective Stories, an electronic edition</title>
@@ -12,7 +12,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl> <author><name><choice><sic/><reg/></choice></name></author>. <title>The Long Arm and Other Detective Stories</title>. <pubPlace>London</pubPlace>: <publisher>Chapman and Hall</publisher>, <date>1895</date>.</bibl>
@@ -57,19 +57,19 @@
     </profileDesc><revisionDesc><change><date>2008-February-12</date><label>Encoder.</label><name>Shruthi Vissa,</name>XML tags inserted in compliance with TEI guidelines using TEILITE.</change></revisionDesc></teiHeader>
   <text xml:id="mwlong_1301485">
     <front xml:id="mwlong_13015">
-      <div xml:id="mwlong_cover" type="front cover">
-        <figure><graphic url="ENTITY_mwlongfc059" rend="inline"/>
+      <div xml:id="mwlong_cover" type="front_cover">
+        <figure><graphic url="mwlongfc059.jpg" rend="inline"/>
           <figDesc> Front Cover of Freeman's "The Long Arm"</figDesc>
         </figure>
       </div>
       <div xml:id="mwlong_spine1" type="spine">
-        <figure><graphic url="ENTITY_mwlongspine" rend="inline"/>
+        <figure><graphic url="mwlongspine.jpg" rend="inline"/>
           <figDesc>Image of spine from Mary Eleanor Wilkins Freeman's "The Long Arm."</figDesc>
         </figure>
       </div>
       <pb xml:id="mwlong_1305"/>
       <div xml:id="mwlong_001" type="advert">
-        <figure><graphic url="ENTITY_mwlongfm1" rend="inline"/>
+        <figure><graphic url="mwlongfm1.jpg" rend="inline"/>
           <figDesc> Advert included in front of Freeman's "The Long Arm and Other Detective Stories"</figDesc>
         </figure>
       </div>
@@ -82,7 +82,7 @@
       </titlePage>
       <pb xml:id="mwlong_1308"/>
       <div xml:id="mwlong_002" type="frontispiece">
-        <figure><graphic url="ENTITY_mwlongfm2" rend="inline"/>
+        <figure><graphic url="mwlongfm2.jpg" rend="inline"/>
           <figDesc> Frontispiece for Freeman's "The Long Arm"</figDesc>
         </figure>
       </div>

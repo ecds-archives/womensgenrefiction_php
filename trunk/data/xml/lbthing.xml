@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lbthing_1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lbthing_1205">
   <teiHeader xml:id="lbthing1201"><fileDesc>
       <titleStmt>
         <title>The Under Side of Things, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Under Side of
@@ -80,22 +80,22 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="lbthing_1204">
     <front xml:id="lbthing_1202">
       <div xml:id="lbthing_0000" type="covers">
-        <figure><graphic url="ENTITY_lbthingfc" rend="inline"/>
+        <figure><graphic url="lbthingfc.jpg" rend="inline"/>
           <figDesc>Front cover of Bell's The Under Side of Things.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_lbthingbc" rend="inline"/>
+        <figure><graphic url="lbthingbc.jpg" rend="inline"/>
           <figDesc>Back cover of Bell's The Under Side of Things.</figDesc>
         </figure>
       </div>
       <pb xml:id="lbthing_1305"/>
       <div xml:id="lbthing_0001" type="inscription">
-        <figure><graphic url="ENTITY_lbthingins" rend="inline"/>
+        <figure><graphic url="lbthingins.jpg" rend="inline"/>
           <figDesc>Inscription by the author in the front of Bell's The Under
 Side of Things.</figDesc>
         </figure>
       </div>
       <div xml:id="lbthing_0002" type="frontispiece">
-        <figure><graphic url="ENTITY_lbthingfp" rend="inline"/>
+        <figure><graphic url="lbthingfp.jpg" rend="inline"/>
           <p xml:id="lbthing_1306">Lilian Bell</p>
           <figDesc>Frontispiece included in Bell's The Under Side of Things.</figDesc>
         </figure>
@@ -117,7 +117,7 @@ WILDERNESS" ETC.</byline>
       </titlePage>
       <pb xml:id="lbthing_1309"/>
       <div xml:id="lbthing_0003" type="copyright">
-        <figure><graphic url="ENTITY_lbthingcr" rend="inline"/>
+        <figure><graphic url="lbthingcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Bell's The Under Side of Things.</figDesc>
         </figure>
       </div>
@@ -127,8 +127,8 @@ WILDERNESS" ETC.</byline>
 BELL LESSIG <lb/>WHO IS THE VERY PULSE OF MY HEART</p>
       </div>
       <pb xml:id="lbthing_13012"/>
-      <div xml:id="lbthing_0005" type="table of contents">
-        <figure><graphic url="ENTITY_lbthingtc" rend="inline"/>
+      <div xml:id="lbthing_0005" type="table_of_contents">
+        <figure><graphic url="lbthingtc.jpg" rend="inline"/>
           <figDesc>Table of contents for Bell's The Under Side of Things.</figDesc>
         </figure>
       </div>
@@ -5025,7 +5025,7 @@ York. Let mother run to get it."</p>
         <p xml:id="lbthing_1301509">She opened the telegram without a fear. It was from the post
 surgeon at Fort Jefferson.</p>
         <q>
-          <text xml:id="lbthing_1301512">
+          <q><floatingText xml:id="lbthing_1301512">
             <body xml:id="lbthing_1301511">
               <div xml:id="lbthing_1688" type="letter">
                 <opener>
@@ -5040,7 +5040,7 @@ Surgeon."</signed>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lbthing_1301513">Alice fell just where she stood, like a broken lily. It was her
 father who found her, and with unspeakable tenderness carried her to
@@ -5058,7 +5058,7 @@ assistance when the pestilence broke out at the fort.</p>
         <p xml:id="lbthing_1301518">She was sitting listlessly at the window, with her boy in her arms,
 when this letter was put into her hands to read:</p>
         <q>
-          <text xml:id="lbthing_1301529">
+          <q><floatingText xml:id="lbthing_1301529">
             <body xml:id="lbthing_1301528">
               <div xml:id="lbthing_1687" type="letter">
                 <opener>
@@ -5121,7 +5121,7 @@ MAGNUS."</name>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="lbthing_1301530" n="237 INTO SILENCE"/>
         <p xml:id="lbthing_1301531">When Alice finished she buried her face in her baby's little white

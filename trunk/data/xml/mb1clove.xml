@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb1clove_0000">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb1clove_0000">
   <teiHeader xml:id="mb1clove0001"><fileDesc>
       <titleStmt>
         <title>The Cloven Foot, volume I, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Cloven Foot, volume
@@ -85,11 +85,11 @@ added by the encoder and do not appear in the original text.</p>
     <front xml:id="mb1clove_0003">
       <pb xml:id="mb1clove_1305" n="[1]"/>
       <div xml:id="mb1clove_000" type="paratext">
-        <figure><graphic url="ENTITY_mb1clovefm1" rend="inline"/>
+        <figure><graphic url="mb1clovefm1.jpg" rend="inline"/>
           <figDesc>Inscription in the first volume of Braddon's <title rend="italic">The Cloven Foot</title>.</figDesc>
         </figure>
         <pb xml:id="mb1clove_1306"/>
-        <figure><graphic url="ENTITY_mb1clovefm2" rend="inline"/>
+        <figure><graphic url="mb1clovefm2.jpg" rend="inline"/>
           <figDesc>Annotated page in the front of the first volume of Braddon's <title rend="italic">The Cloven Foot</title>.</figDesc>
         </figure>
       </div>
@@ -109,8 +109,8 @@ added by the encoder and do not appear in the original text.</p>
         <imprimatur>[<hi rend="italic">All rights reserved.</hi>]</imprimatur>
       </titlePage>
       <pb xml:id="mb1clove_1309" n="[iii]"/>
-      <div xml:id="mb1clove_001" type="table of contents">
-        <figure><graphic url="ENTITY_mb1clovetc" rend="inline"/>
+      <div xml:id="mb1clove_001" type="table_of_contents">
+        <figure><graphic url="mb1clovetc.jpg" rend="inline"/>
           <figDesc>Table of contents for the first volume of Braddon's <title rend="italic">The Cloven Foot</title>.</figDesc>
         </figure>
       </div>
@@ -616,7 +616,7 @@ way to dishonour, he will declare himself—and then——'</p>
         <p xml:id="mb1clove_130582">Mr. Chicot did not say where lie was going, and Desrolles was too discreet to push the question. He was a man who boasted sometimes, when drink had made him maudlin, that, whatever had become of his morals, lie had never lost his manners.</p>
         <p xml:id="mb1clove_130583">Jack Chicot left a brief pencilled note for his wife:—</p>
         <q>
-          <text xml:id="mb1clove_130586">
+          <q><floatingText xml:id="mb1clove_130586">
             <body xml:id="mb1clove_130585">
               <opener>
                 <salute>'DEAR ZAIRE,—</salute>
@@ -627,7 +627,7 @@ way to dishonour, he will declare himself—and then——'</p>
                 <signed>'J. C.'</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb xml:id="mb1clove_130587" n="[138]"/>
@@ -1277,7 +1277,7 @@ modé,</hi>and your things ought to be in the latest style. I'll look through th
         <p xml:id="mb1clove_1301296">She trembled as she drew near the door, and felt as if in another moment she might stumble <pb xml:id="mb1clove_1301295" n="276 THE CLOVEN FOOT."/>and fall fainting on the threshold. She was approaching the most critical moment of her life, the very turning point of her destiny. All must depend upon what John Treverton had to say to her in the next few minutes. She opened the door and went in, breathless, incapable of speech. She felt that she could ask him no questions, she could only stand there and listen to all he had to tell.</p>
         <p xml:id="mb1clove_1301297">The room was empty, Laura could just see as much as that in the fitful glow of the fire; and then a jet of flame leaped suddenly out of the dimness like a living thing, and showed her a letter lying on the table. He had written to her. That which he had to tell was too terrible for speech, and he had, therefore, written. Hope and comfort died within her at the sight of that letter. She hurried back to her dressing-room, where she had left the candles burning, locked herself in, and then, standing, faint and still trembling, by the mantel-piece, she tore open the envelope and read her husband's letter,</p>
         <q>
-          <text xml:id="mb1clove_1301306">
+          <q><floatingText xml:id="mb1clove_1301306">
             <body xml:id="mb1clove_1301305">
               <opener>
                 <salute>'DEAREST AND EVER DEAREST,—</salute>
@@ -1290,7 +1290,7 @@ modé,</hi>and your things ought to be in the latest style. I'll look through th
                 <signed>'JOHN TREVERTON&gt;.'</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb1clove_1301307">She stood for some minutes pale as marble, with the letter in her hand, and then she lifted the senseless paper to her lips, and kissed it passionately.</p>
         <p xml:id="mb1clove_1301308">'He loves me,' she cried involuntarily. 'Thank God for that. I can bear anything now I am sure of that.'</p>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mcsorrow_0000">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mcsorrow_0000">
   <teiHeader xml:id="mcsorrow0001"><fileDesc>
       <titleStmt>
         <title>The Sorrows of Satan, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Sorrows of
@@ -107,7 +107,7 @@ OF "BARABAS," <lb/>"VENDETTA!" ETC., ETC.</byline>
       </titlePage>
       <pb xml:id="mcsorrow_1309" n="[4]"/>
       <div xml:id="mcsorrow_000" type="copyright">
-        <figure><graphic url="ENTITY_mcsorrowcr" rend="inline"/>
+        <figure><graphic url="mcsorrowcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Marie Corelli's <hi rend="italic">The Sorrows of Satan</hi>.</figDesc>
         </figure>
       </div>
@@ -139,7 +139,7 @@ swear and it seemed natural,—for though temporarily weakened by lack of food I
         <p xml:id="mcsorrow_13038">"Why Jack, old fellow, I wronged you!" I exclaimed,—"your heart is n the right place after all."</p>
         <p xml:id="mcsorrow_13039">And profoundly touched by my friend's ready generosity, I eagerly perused his letter. It was not very long and had evidently been written off in haste.</p>
         <q>
-          <text xml:id="mcsorrow_13043">
+          <q><floatingText xml:id="mcsorrow_13043">
             <body xml:id="mcsorrow_13042">
               <opener>
                 <salute>"DEAR GEOFF,</salute>
@@ -176,7 +176,7 @@ about the fifty till you feel you have tided over the storm.</p>
                 <signed>"BOFFLES."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mcsorrow_13045">I laughed as I read the absurd signature, though my eyes were dim with something like tears. 'Boffles' was the nickname given to my friend by several of our college companions, and neither he nor I knew how it first arose. But no one except the dons ever addressed him by his proper name, which was John Carrington,—he was simply 'Boffles,' and Boffles he remained even now for all those who had been his intimates. I refolded and put by his letter and the draft for the fifty pounds, and with a passing vague wonder as to what manner of man the 'philanthropist' might be who had more money than he knew what to do with, I turned to the consideration of my other two correspondents, relieved to feel that now, whatever happened, I could settle up arrears with my landlady the next day as I had promised. Moreover I could order some supper, and have a fire lit to cheer my chilly room. Before attending to these creature comforts however, I opened the long blue envelope that looked so like a threat of legal proceedings, and unfolding the paper within, stared at it amazedly. What was it all about?—The written characters danced before my eyes,—puzzled and bewildered, I found myself reading the thing over and over again without any clear comprehension of it. Presently a glimmer of meaning flashed upon me, startling my senses like an electric shock,...no—no—!—impossible! Fortune never could be so mad as this!—never so wildly capricious and grotesque of humour! It was some senseless hoax that was being practised upon me,...and yet,...if it were a joke it was a very elaborate and remarkable one! Weighted with the <pb xml:id="mcsorrow_13044" n="16 THE SORROWS OF SATAN"/>majesty of the law too!...Upon my word and by all the fantastical freakish destinies that govern human affairs, the news seemed actually positive and genuine!</p>
       </div>
@@ -191,7 +191,7 @@ about the fifty till you feel you have tided over the storm.</p>
         <p xml:id="mcsorrow_13054">I was about to leave the room on the swift impulse of excitement and joy, when a fresh and violent gust of wind roared down the chimney, bringing with it a shower of soot which fell in a black heap on my rejected manuscript where it lay forgotten on the floor as I had despairingly thrown it. I hastily picked it up and shook it free from the noisome dirt, wondering as I did so, what would be its fate now?—now, when I could afford to publish it myself, and not only publish it but advertise it, and not only advertise it but 'push' it, in all the crafty and cautious ways known to the inner circles of 'booming.' I smiled as I thought of the vengeance I would take on all those who had scorned and slighted me and my labour,—how they should cower before me!—how they should fawn at my feet like whipt curs and whine their fulsome adulation! Every stiff and stubborn neck should bend before me; this I resolved upon; for though money does not always conquer everything, it only fails when it is money apart from brains. Brains and money together can move the world,—brains can very frequently do this alone without money, of which serious and proved fact those who have no brains should beware!</p>
         <p xml:id="mcsorrow_13056">Full of ambitious thought, I now and then caught wild <pb xml:id="mcsorrow_13055" n="19 THE SORROWS OF SATAN"/>sounds from the violin that was being played next door,—notes like sobbing cries of pain, and anon rippling runs like a careless woman's laughter,—and all at once I remembered I had not yet opened the third letter addressed to me,—the one coroneted in scarlet and gold, which had remained where it was on the table almost unnoticed till now. I took it up and turned it over with an odd sense of reluctance in my fingers, which were slow at the work of tearing the thick envelope asunder. Drawing out an equally thick small sheet of notepaper also coroneted, I read the following lines written in an admirably legible, small and picturesque hand.</p>
         <q>
-          <text xml:id="mcsorrow_13059">
+          <q><floatingText xml:id="mcsorrow_13059">
             <body xml:id="mcsorrow_13058">
               <opener>
                 <salute>DEAR SIR.</salute>
@@ -202,7 +202,7 @@ about the fifty till you feel you have tided over the storm.</p>
                 <signed>LUCIO RIMÂNEZ.</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mcsorrow_13061">The card mentioned dropped on the table as I finished reading the note. It bore a small exquisitely engraved coronet and the words
 <q><p xml:id="mcsorrow_13060">PRINCE LUCIO RIMÂNEZ,</p></q></p>
@@ -245,7 +245,7 @@ must excuse me if I seem confused or astonished...I had expected to see quite an
         <p xml:id="mcsorrow_13092">Thus requested, and wishing to prove myself as courteous as I had hitherto been brusque, I at once opened my friend's note and read as follows,—</p>
         <pb xml:id="mcsorrow_13093" n="25 THE SORROWS OF SATAN"/>
         <q>
-          <text xml:id="mcsorrow_13096">
+          <q><floatingText xml:id="mcsorrow_13096">
             <body xml:id="mcsorrow_13095">
               <opener>
                 <salute>DEAR GEOFFREY.</salute>
@@ -274,7 +274,7 @@ cordial friendship, I am, dear Geoffrey,</p>
                 <signed>JOHN CARRINGTON.</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mcsorrow_13097">The signature of 'Boffles' had evidently been deemed out of place this time and somehow I was foolishly vexed at its omission. There seemed to be something formal and stiff in the letter, almost as if it had been written to dictation, and under pressure. What gave me this idea I know not. I glanced furtively at my silent companion,—he caught my stray look and returned it with a curiously grave fixity. Fearing lest my momentary vague distrust of him had been reflected in my eyes I made haste to speak—</p>
         <p xml:id="mcsorrow_13099">"This letter, prince, adds to my shame and regret that I <pb xml:id="mcsorrow_13098" n="26 THE SORROWS OF SATAN"/>should have greeted you in so churlish a manner this evening. No apology can condone my rudeness,—but you cannot imagine how mortified I felt, and still feel, to be compelled to receive you in this miserable den,—it is not at all the sort of place in which I should have liked to welcome you..." And I broke off with a renewed sense of irritation, remembering how actually rich I now was, and that in spite of this I was obliged to seem poor. Meanwhile the prince waived aside my remarks with a light gesture of his hand.</p>
@@ -3027,7 +3027,7 @@ over their meal.</p>
 did not appear. He telegraphed his regrets from Paris, and followed
 the telegram by a characteristic letter which ran thus:</p>
         <q>
-          <text xml:id="mcsorrow_1302082">
+          <q><floatingText xml:id="mcsorrow_1302082">
             <body xml:id="mcsorrow_1302081">
               <opener>
                 <salute>MY DEAR TEMPEST,</salute>
@@ -3099,7 +3099,7 @@ your fair spouse, the Lady Sibyl, and believe me,</p>
                 <signed>LUCIO RIMÂNEZ.</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mcsorrow_1302083">I laughed over this letter and showed it to my wife, who did not
 laugh. She read it through with a closeness of attention that somewhat
@@ -4075,7 +4075,7 @@ after what has happened of course I cannot stay here,—and I give you my word I
         <head>XXXIII</head>
         <p xml:id="mcsorrow_1302320">WITH the morning came full consciousness; I realized bitterly all that had happened, but I was no longer inclined to bemoan my fate. My senses were stricken, as it seemed, too numb and rigid for any further outbreak of passion. A hard callousness took the place of outraged feeling; and though despair was in my heart, my mind was made up to one stern resolve,—I would look upon Sibyl no more. Never again should that fair face, the deceitful mask of a false nature, tempt my sight and move me to pity or forgiveness,—that I determined. Leaving the room in which I had passed the night I went to my study and wrote the following letter:</p>
         <q>
-          <text xml:id="mcsorrow_1302324">
+          <q><floatingText xml:id="mcsorrow_1302324">
             <body xml:id="mcsorrow_1302323">
               <opener>
                 <salute>SIBYL,</salute>
@@ -4086,7 +4086,7 @@ after what has happened of course I cannot stay here,—and I give you my word I
                 <signed>GEOFFREY TEMPEST.</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mcsorrow_1302325">This letter, folded and sealed, I sent to my wife in her own apartments, by her maid,—the girl came back and said she had delivered it, but that there was no answer. Her ladyship had a severe headache and meant to keep her room that morning. I expressed just as much civil regret as a confidential maid would naturally expect from the newly-wedded husband of her mistress,—and then, giving instructions to my man Morris to pack my portmanteau, I partook of a hurried breakfast with Lucio in more or less silence and constraint, for the servants were in attendance, and I did not wish them to suspect that anything was wrong. For their benefit, I gave out that my friend and I were called suddenly to town on urgent business,—that we might be absent a couple of days, perhaps longer,—and that any special message or telegram could be sent on to me at Arthur's Club. I was thankful when we at last got away,—when the tall picturesque red gables of Willowsmere vanished from my sight,—and when finally, seated in a railway smoking-carriage reserved for our two selves we were able to watch the miles of distance gradually extending between us and the beautiful autumnal woods of poet-hauntea Warwickshire. For a long time we kept silence, turning over and pretending to read the morning's papers,—till presently flinging down the dull and wearisome 'Times' sheet, I sighed heavily, and leaning back, closed my eyes.</p>
         <p xml:id="mcsorrow_1302326">"I am truly very much distressed about all this," said Lucio then, with extreme gentleness and suavity. "It seems to me that I am the adverse element in the affair. If Lady Sibyl had never seen <hi rend="italic">me</hi>——"</p>
@@ -4862,7 +4862,7 @@ blasphemy,—turn to <pb n="461 THE SORROWS OF SATAN" pages="461" facs="mcsorrow
         <p xml:id="mcsorrow_1302756">I now took a humble room and set to work on a new literary enterprise, avoiding everyone I had hitherto known, for being now a poor man, I was aware that 'swagger society' wished to blot me from its visiting-list. I lived with my thoughts,—musing on many things, training myself to humility, obedience, and faith with fortitude,—and day by day I did battle with the monster, Egotism, that presented itself in a thousand disguises at every turn in my own life as well as in the lives of others. I had to re-form my character,—to mould the obstinate nature that rebelled, and make its obstinacy serve for the attainment of higher objects than world's renown,—the task was difficult,—but I gained ground a little with every fresh effort.</p>
         <p xml:id="mcsorrow_1302757">I had lived for some months like this happily enough, when all the reading world was suddenly electrified by another book of Mavis Clare's. My lately favoured first work was again forgotten and thrust aside,—hers, slated and screamed at as usual by the criticasters, was borne along to fame by a great wave of honest public praise and enthusiasm. And I? I rejoiced—no longer grudging or envious of her sweet fame, I stood apart in spirit as it were, while the bright car of her triumph went by, decked, not only with laurels, but with roses,—the blossoms of a people's love and honour. With all my soul I reverenced her genius,—with all my heart I honoured her pure womanliness. And in the very midst of her brilliant success, when all the world was talking of her, she wrote to me, a simple little letter, as gracious as her own fair name.</p>
         <q>
-          <text xml:id="mcsorrow_1302761">
+          <q><floatingText xml:id="mcsorrow_1302761">
             <body xml:id="mcsorrow_1302760">
               <opener>
                 <salute>DEAR MR TEMPEST,</salute>
@@ -4873,7 +4873,7 @@ blasphemy,—turn to <pb n="461 THE SORROWS OF SATAN" pages="461" facs="mcsorrow
                 <signed>MAVIS CLARE.</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mcsorrow_1302762">A mist came before my eyes,—I almost felt her gentle presence in my room,—I saw the tender look, the radiant smile,—the innocent yet earnest joy of life, and love of purity that emanated from the fair personality of the sweetest woman I had ever known. She called herself my friend!...it was a privilege of which I felt myself unworthy. I folded the letter and put it near my heart to serve me as a talisman,...she, of all bright creatures in the world surely knew the secret of happiness! Some-day,...yes,...I would go and see her,...my Mavis that sang in her garden of lilies,—some day when I had force and manliness enough to tell her all,—save my love for her! For that, I felt, must never be spoken,—Self must resist Self, and clamour no more at the gate of a forfeited Paradise. Some day I would see her,...but not for a long time,...not till I had, in part at least, worked out my secret expiation. As I sat musing thus, a strange memory came into my brain,...I thought I heard a voice resembling my own which said—</p>
         <p xml:id="mcsorrow_1302763">"<hi rend="italic">Lift, oh lift the shrouding veil, spirit of the City Beautiful! For I feel I shall read in your eyes the secret of happiness!</hi>''</p>

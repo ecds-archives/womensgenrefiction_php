@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fwheire_12014">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fwheire_12014">
   <teiHeader xml:id="fwheire1201"><fileDesc>
       <titleStmt>
         <title>Heiress of Densley Wold, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Heiress of Densley
@@ -84,7 +84,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="fwheire_1306"/>
       <div xml:id="fwheire_000" type="frontispiece">
-        <figure><graphic url="ENTITY_fwheirefp" rend="inline"/>
+        <figure><graphic url="fwheirefp.jpg" rend="inline"/>
           <figDesc>Frontispiece from Warden's <hi rend="italic">Heiress of
 Densley Wold</hi>.</figDesc>
         </figure>
@@ -105,7 +105,7 @@ House <lb/>on the Marsh, " etc.</byline>
       </titlePage>
       <pb xml:id="fwheire_1309"/>
       <div xml:id="fwheire_001" type="copyright">
-        <figure><graphic url="ENTITY_fwheirecr" rend="inline"/>
+        <figure><graphic url="fwheirecr.jpg" rend="inline"/>
           <figDesc>Copyright information for  Warden's <hi rend="italic">Heiress of
 Densley Wold</hi>.</figDesc>
         </figure>
@@ -771,7 +771,7 @@ Densley Wold</hi>.</figDesc>
         <p xml:id="fwheire_130712">St. Quintin, who was in a state of great excitement, quelled his impulse to fly into a rage. Instead he laughed loudly, and said he was longing for the time when James Ince would see, without any sort of doubt, that he was making about the biggest blunder that ever was made by a fellow who fancied himself cleverer than anybody else, for the simple reason that he took everybody, whose antecedents he didn't know, for a rogue.</p>
         <p xml:id="fwheire_130713">Ince made no reply to this, and for the rest of the short time he stayed, conversation was slack and constrained. Two days after, Ince got this note from his friend—</p>
         <q>
-          <text xml:id="fwheire_1204">
+          <q><floatingText xml:id="fwheire_1204">
             <body xml:id="fwheire_1203">
               <div xml:id="fwheire_100" type="letter">
                 <opener>
@@ -786,7 +786,7 @@ down with me on Monday.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fwheire_130715">When Monday evening came, the two men started together, going, not by train, but by a new motor-car which St. Quintin had just bought.</p>
         <p xml:id="fwheire_130717">Ince was wise enough to say nothing which could give his friend cause for offence, and the <pb xml:id="fwheire_130716" n="105 HEIRESS OF DENSLEY WOLD"/>evening being fine, they enjoyed the trip, in spite of misgivings in the minds of each. For, while Ince felt sure he should detect the cloven hoof beneath the exterior, however attractive, of the Leblancs, St. Quintin was wondering whether their hosts, and even Marie herself, might not be shrewd enough to guess that Ince was coming in the character of a spy.</p>
@@ -1602,7 +1602,7 @@ down with me on Monday.</p>
         <p xml:id="fwheire_1301559">Something vague and indefinable seemed to seize St. Quintin in a grip of despair and dread as he heard these words. He did not know at all of what he was afraid, but he felt sure, though there was no distress upon Monsieur Leblanc's <pb xml:id="fwheire_1301558" n="223 HEIRESS OF DENSLEY WOLD"/>face, that something had gone wrong, very wrong, something more important than it seemed on the surface to be.</p>
         <p xml:id="fwheire_1301560">It was with an air of frank mistrust that he held out his hand, took the paper, and read—</p>
         <q>
-          <text xml:id="fwheire_1206">
+          <q><floatingText xml:id="fwheire_1206">
             <body xml:id="fwheire_1205">
               <div xml:id="fwheire_102" type="letter">
                 <p xml:id="fwheire_1301561">"Missed the train. Coming on to-night. Tell Monsieur Leblanc to
@@ -1612,7 +1612,7 @@ meet us at Doncaster at 11.5.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fwheire_1301562">"I thought," said St. Quintin, very coldly, "that they were to have come here last night!"</p>
         <p xml:id="fwheire_1301563">"So it was arranged. But you know what women are! They seem to have made a great hash of it all!" said Monsieur Leblanc, with an air of great irritation at his wife's stupidity.</p>
@@ -1995,7 +1995,7 @@ meet us at Doncaster at 11.5.</p>
         <p xml:id="fwheire_1301962">"What did you write this to me for? she asked.</p>
         <p xml:id="fwheire_1301963">He could see that she was in a state of great agitation and apparently suffering from some severe mental strain. Her eyes were restless and feverish, and her face had lost its delicate colouring and wore a leaden flush.</p>
         <q>
-          <text xml:id="fwheire_1208">
+          <q><floatingText xml:id="fwheire_1208">
             <body xml:id="fwheire_1207">
               <div xml:id="fwheire_104" type="letter">
                 <p xml:id="fwheire_1301964">"Please come out and see me for a few moments if you want to hear anything about S. Q.</p>
@@ -2004,7 +2004,7 @@ meet us at Doncaster at 11.5.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fwheire_1301965">This was the message he had written on the scrap of paper, and she read it over once more as she stood before him.</p>
         <p xml:id="fwheire_1301966">"What have you got to tell me?" she asked again.</p>
@@ -2387,7 +2387,7 @@ meet us at Doncaster at 11.5.</p>
         <p xml:id="fwheire_1302371">And then there was an interval, during which neither the baronet nor his grand-niece heard anything from the other.</p>
         <p xml:id="fwheire_1302373">But one day, about a month later, Sir William Lane got a letter in a masculine handwriting <pb xml:id="fwheire_1302372" n="343 HEIRESS OF DENSLEY WOLD"/>which he did not know, and on opening it he found it to contain these words—</p>
         <q>
-          <text xml:id="fwheire_12010">
+          <q><floatingText xml:id="fwheire_12010">
             <body xml:id="fwheire_1209">
               <div xml:id="fwheire_106" type="chapter">
                 <opener>
@@ -2400,7 +2400,7 @@ meet us at Doncaster at 11.5.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
     </body>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="bhanglo_1209">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="bhanglo_1209">
   <teiHeader xml:id="bhanglo1201"><fileDesc>
       <titleStmt>
         <title>The Anglomaniacs, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Anglomaniacs</title>. <pubPlace>New York</pubPlace>:
@@ -78,7 +78,7 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="bhanglo_1208">
     <front xml:id="bhanglo_1202">
       <div xml:id="bhanglo_000" type="covers">
-        <figure><graphic url="ENTITY_bhanglofc" rend="inline"/>
+        <figure><graphic url="bhanglofc.jpg" rend="inline"/>
           <figDesc>Front cover of Harrison's <hi rend="italic">The
 Anglomaniacs</hi>.</figDesc>
         </figure>
@@ -103,7 +103,7 @@ Anglomaniacs</hi>.</figDesc>
       </titlePage>
       <pb xml:id="bhanglo_1309"/>
       <div xml:id="bhanglo_001" type="copyright">
-        <figure><graphic url="ENTITY_bhanglocr" rend="inline"/>
+        <figure><graphic url="bhanglocr.jpg" rend="inline"/>
           <figDesc>Copyright information for  Harrison's <hi rend="italic">The
 Anglomaniacs</hi>.</figDesc>
         </figure>
@@ -420,7 +420,7 @@ Europe—<hi rend="italic">any where</hi>."</p>
         <p xml:id="bhanglo_130430">"I don't think I mentioned," resumed Mrs. Floyd-Curtis, after a moment's silence, "that Lady Melrose has promised me a visit before she sets out for the West."</p>
         <p xml:id="bhanglo_130431">"She is so very fond of you," answered Barbara, with a cooing little laugh, as she turned over for admiration the new bangle, with its ruby solitaire, that Mrs. Floyd-Curtis had that morning clasped upon her wrist. "And you will find Melrose so very nice."</p>
         <q>
-          <text xml:id="bhanglo_1204">
+          <q><floatingText xml:id="bhanglo_1204">
             <body xml:id="bhanglo_1203">
               <opener>
                 <salute>MY DEAR MELROSE [had his mother in America written to the young lord who was tired of everything]:</salute>
@@ -432,7 +432,7 @@ Europe—<hi rend="italic">any where</hi>."</p>
               <p xml:id="bhanglo_130440">The way I happen to know about these Curtises is that the mother has been so uncommonly polite. To show you how they live, soon after we landed from the boat she invited me to an "informal luncheon," at her house in what is called Washington Square. Of course I went in my everyday gown and bonnet, <pb xml:id="bhanglo_130439" n="162 THE ANGLOMANIACS."/>expecting to get a chop and a potato, and perhaps a glass of beer. But, dear me! It was superb; a great banquet, with the rooms darkened, and lighted by lamps and candles, and such banks of flowers as we'd never think of ordering in except for state affairs. We were at table for nearly three hours, and at every place were five or six wine-glasses, and the table loaded down with gold and silver, and S"èvres and Dresden and Minton china for each remove. Twelve women were at table, and they looked for "the world and all like Kate Reily's fashion-plates, and talked all together in the shrillest way. When we got up to go into the drawing-room to drink coffee the servants gave us bouquets. A person at the luncheon told me she heard our hostess had ordered all the roses of a single variety that could be purchased in town, costing at least five shillings for each rose. We fetched away also <hi rend="italic">menus</hi> printed in gold on satin, bags of sugar-plums, and other costly knickknacks. It was quite embarrassing. I felt as if I had been shoplifting. And this, they tell me, is an ordinary kind of entertainment among the ladies of New York. One must not expect to meet their men at luncheons. They are at work "down town."</p>
               <p xml:id="bhanglo_130442">Do, my dear Melrose, think over what I have said. You know better than I do how badly you need the money. Fancy my hearing a man say, yesterday, that he would rather be a hack-driver in New York than a poor peer in England. But all these people exaggerate, you know, and there are so many of us in the <pb xml:id="bhanglo_130441" n="163 THE ANGLOMANIACS."/>same box. Marrying an American isn't what it used to be. If I were not hurrying to catch this mail I'd tell you more about the girl herself. On second thoughts, I send you inclosed her photograph. I dare say you will be surprised, as I was, at a certain air she has—quite like one of us. But then most things here are a surprise. They don't talk a bit like Americans in novels. I am very much disappointed, on the whole, at the want of local color. But it is cheaper living than I thought. They invite you all the time.</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb xml:id="bhanglo_130443" n="165"/>
@@ -686,14 +686,14 @@ send us out a few more of his sort."</p>
         <p xml:id="bhanglo_130780">"It is nothing. I am reading. I will come to you presently," Lily's voice answered, and Grace went back, light-hearted, to her pleasant toil.</p>
         <p xml:id="bhanglo_130781">Lily sat staring wildly at a sheet of notepaper scrawled with Mrs. Clay's bold English handwriting. On her lap and around her feet lay others in envelopes of which the seals had long been broken.</p>
         <q>
-          <text xml:id="bhanglo_1206">
+          <q><floatingText xml:id="bhanglo_1206">
             <body xml:id="bhanglo_1205">
               <p xml:id="bhanglo_130783">These letters I inclose for your amusement on your voyage. They were written by a man who has vowed vows to many women, and whose motive in marrying you you will find herein discussed. Some of them have been for years in my possession. The most re- <pb xml:id="bhanglo_130782" n="287 THE ANGLOMANIACS."/>cent will enlighten you upon any points that may seem to be obscure. They are the wedding present to you of</p>
               <closer>
                 <salute>BARBARA CLAY.</salute>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="bhanglo_130784">With hot hands the young girl gathered together the scattered envelopes. All of them bore the same superscription, all of them were written by Melrose. For a moment she covered her eyes and tried to think. Within her brain suspicions whirled thick and fast like November leaves before the storm. Then resolutely she went out on deck to find her lover.</p>
         <p xml:id="bhanglo_130785">Melrose was alone and smoking. He threw away his cigar and advanced to meet her. At that hour they had been accustomed to walk and talk together.</p>

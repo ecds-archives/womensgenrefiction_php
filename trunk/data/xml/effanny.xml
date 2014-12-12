@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="effanny_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="effanny_1201">
   <teiHeader xml:id="effanny1202"><fileDesc>
       <titleStmt>
         <title>Fanny Herself, an electronic edition</title>
@@ -12,7 +12,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Fanny Herself</title>. <pubPlace>New York</pubPlace>: <publisher>Frederick A. Stokes Company</publisher>, <date>1917</date>.</bibl>
@@ -59,14 +59,14 @@
     </profileDesc><revisionDesc><change><date>2007-July-2</date><label>Encoder.</label><name>Shruthi Vissa,</name>XML tags inserted in compliance with TEI guidelines using TEILITE.</change></revisionDesc></teiHeader>
   <text xml:id="effanny_1203">
     <front xml:id="effanny_1204">
-      <div xml:id="effanny_effanycover" type="front cover">
-        <figure><graphic url="ENTITY_effannycover" rend="inline"/>
+      <div xml:id="effanny_effanycover" type="front_cover">
+        <figure><graphic url="effannycover.jpg" rend="inline"/>
           <figDesc> Front cover of Ferber's "Fanny Herself"</figDesc>
         </figure>
       </div>
       <pb xml:id="effanny_1305"/>
       <div xml:id="effanny_fm1" type="frontispiece">
-        <figure><graphic url="ENTITY_effannypic1" rend="inline"/>
+        <figure><graphic url="effannypic1.jpg" rend="inline"/>
           <p xml:id="effanny_1306">"She loved luxury. She smiled and flashed at the hand-<lb/>some old priest opposite her."<lb/><q>—<hi rend="italic">Page 198</hi></q></p>
           <figDesc>Frontispiece of Ferber's "Fanny Herself"</figDesc>
         </figure>
@@ -86,7 +86,7 @@
       </titlePage>
       <pb xml:id="effanny_1309"/>
       <div xml:id="effanny_fm03" type="copyright">
-        <figure><graphic url="ENTITY_effanyfm3" rend="inline"/>
+        <figure><graphic url="effanyfm3.jpg" rend="inline"/>
           <figDesc>Copyright page for Ferber's "Fanny Herself"</figDesc>
         </figure>
       </div>
@@ -95,8 +95,8 @@
         <p xml:id="effanny_13011">TO<lb/>WILLIAM ALLEN WHITE</p>
       </div>
       <pb xml:id="effanny_13012"/>
-      <div xml:id="effanny_fm05" type="list of illustrations">
-        <figure><graphic url="ENTITY_effannyfm5" rend="inline"/>
+      <div xml:id="effanny_fm05" type="list_of_illustrations">
+        <figure><graphic url="effannyfm5.jpg" rend="inline"/>
           <figDesc>List of Illustrations included in front of Ferber's "Fanny Herself"</figDesc>
         </figure>
       </div>
@@ -1140,7 +1140,7 @@ Slosson was to be there. At ten o'clock she entered Fenger's inner office. He wa
         <p xml:id="effanny_130892">Fenger's eyes narrowed upon her. "Pretty sure of yourself, aren't you?"</p>
         <p xml:id="effanny_130896">"Yes," said Fanny. She came over to his desk.
 
-<figure><graphic url="ENTITY_effannypic2" rend="inline"/><p xml:id="effanny_130893"> " 'Now, Miss Brandeis, what's the trouble with the Haynes-<lb/>Cooper
+<figure><graphic url="effannypic2.jpg" rend="inline"/><p xml:id="effanny_130893"> " 'Now, Miss Brandeis, what's the trouble with the Haynes-<lb/>Cooper
 infants' wear department?' "</p><p xml:id="effanny_130894"><hi rend="italic">—Page 147</hi></p><figDesc>Illustration between pages 146 and 147 of Ferber's "Fanny Herself"</figDesc></figure><pb xml:id="effanny_130895" n="147     FANNY HERSELF"/>
 "I wish we needn't have Mr. Slosson here this morning. After all, he's been here for years, and I'm practically an upstart. He's so much older, too. I--I hate to hurt him. I wish you'd--"</p>
         <p xml:id="effanny_130897">But Fenger shook his head. "Slosson's due now. And he has got to take his medicine. This is business, Miss Brandeis. You ought to know what that means. For that matter, it may be that you haven't hit upon an idea. In that case, Slosson would have the laugh, wouldn't he?"</p>
@@ -1290,7 +1290,7 @@ woman. He's a man. Let him work with his hands, as I do. He's had his share. Mor
         <p xml:id="effanny_1301018">"He wants something. Money. If I send him some I can't have that new tailor suit, or the furs. And I need them. I'm going to have them."</p>
         <p xml:id="effanny_1301019">She tore open the letter.</p>
         <q>
-          <text xml:id="effanny_1301024">
+          <q><floatingText xml:id="effanny_1301024">
             <body xml:id="effanny_1301023">
               <div xml:id="effanny_101" type="letter">
                 <opener>
@@ -1304,7 +1304,7 @@ woman. He's a man. Let him work with his hands, as I do. He's had his share. Mor
 February, I think. Olga has been simply wretched, but the doctor says she'll feel better from now on. The truth of it is she needs a lot of things and I can't give them to her. I told you I'd been working on this concerto of mine. Sometimes I think it's the real thing, if only I could get the leisure and the peace of mind I need to work on it. You don't know what it means to be eaten up with ambition and to be handicapped--"</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="effanny_1301025">"Oh, don't I!" said Fanny Brandeis, between her teeth, and crumpled the letter in her strong fingers. "Don't I!" She got up from her chair and began to walk up and down her little office, up and down. A man often works off his feelings thus; a woman rarely. Fenger, who had not been twice in her office since her coming to the Haynes-Cooper plant, chose this moment to visit her, his hands full of papers, his head full of plans. He sensed something wrong at once, as a highly organized human instrument responds to a similarly constructed one.</p>
         <p xml:id="effanny_1301026">"What's wrong, girl?"</p>
@@ -1544,7 +1544,7 @@ in the country that couldn't use that kind of stuff. And there aren't three peop
         <p xml:id="effanny_1301240">"The-- Here, I'll show you. I won't do another sketch for a year. I'll prove to you that my ancestors' religion doesn't influence my work, or my play."</p>
         <p xml:id="effanny_1301244">"Dear, you can't prove that, because the contrary has been proven long ago. You yourself proved it when you did that sketch of the old fish vender in the Ghetto. The one with the beard. It took a thousand years of suffering and persecution and faith to stamp
 
-<figure><graphic url="ENTITY_effannypic3" rend="inline"/><p xml:id="effanny_1301241"> "Fanny's hands became fists, gripping the power she<lb/> craved. 'Then
+<figure><graphic url="effannypic3.jpg" rend="inline"/><p xml:id="effanny_1301241"> "Fanny's hands became fists, gripping the power she<lb/> craved. 'Then
 I shall have arrived.'"</p><p xml:id="effanny_1301242"><hi rend="italic">—Page 188</hi></p><figDesc>Illustration between pages 188 and 189 of Ferber's "Fanny Herself"</figDesc></figure><pb xml:id="effanny_1301243" n="189     FANNY HERSELF"/>
 that look on his face, and it took a thousand years to breed in you the genius to see it, and put it down on paper. Fan, did you ever read Fishberg's book?"
 "No," said Fanny, low-voiced.</p>
@@ -2467,7 +2467,7 @@ Fenger stood looking at her, his head lowered. A scarlet stripe, that she had ne
         <p xml:id="effanny_1302012">'Katherine left here yesterday.  She's in town." Then, at the look in her face, "She was here when I telephoned you yesterday. Late yesterday afternoon she had one of her fantastic notions. She insisted that she must go into town. It was too cold for her here. Too damp. Too--well, she went. And I let her go. And I didn't telephone you again. I wanted you to come."</p>
         <p xml:id="effanny_1302016">Fanny Brandeis, knowing him, must have felt a great qualm of terror and helplessness. But she was angry,
 
-<figure><graphic url="ENTITY_effannypic4" rend="inline"/><p xml:id="effanny_1302013">" 'You nervy little devil, you!' "</p><p xml:id="effanny_1302014"><hi rend="italic">—Page 301</hi></p><figDesc>Illustration between pages 300 and 301 of Ferber's "Fanny Herself"</figDesc></figure><pb xml:id="effanny_1302015" n="301     FANNY HERSELF"/>
+<figure><graphic url="effannypic4.jpg" rend="inline"/><p xml:id="effanny_1302013">" 'You nervy little devil, you!' "</p><p xml:id="effanny_1302014"><hi rend="italic">—Page 301</hi></p><figDesc>Illustration between pages 300 and 301 of Ferber's "Fanny Herself"</figDesc></figure><pb xml:id="effanny_1302015" n="301     FANNY HERSELF"/>
 too, a wholesome ingredient in a situation such as this. The thing she said and did now was inspired. She laughed--a little uncertainly, it is true--but still she laughed. And she said, in a matter-of-fact tone:</p>
         <p xml:id="effanny_1302017">"Well, I must say that's a rather shabby trick. Still, I suppose the tired business man has got to have his little melodrama. What do I do? H'm? Beat my breast and howl? Or pound on the door panel?"</p>
         <p xml:id="effanny_1302018">Fenger stood looking at her. "Don't laugh at me, Fanny."</p>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mdcrack_12010">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mdcrack_12010">
   <teiHeader xml:id="mdcrack1201"><fileDesc>
       <titleStmt>
         <title>Cracker Joe, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Cracker
@@ -81,13 +81,13 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="mdcrack_1209">
     <front xml:id="mdcrack_1202">
       <div xml:id="mdcrack_000" type="covers">
-        <figure><graphic url="ENTITY_mdcrackfc" rend="inline"/>
+        <figure><graphic url="mdcrackfc.jpg" rend="inline"/>
           <figDesc>Front cover of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_mdcracksp" rend="inline"/>
+        <figure><graphic url="mdcracksp.jpg" rend="inline"/>
           <figDesc>Spine of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_mdcrackbc" rend="inline"/>
+        <figure><graphic url="mdcrackbc.jpg" rend="inline"/>
           <figDesc>Back cover of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
       </div>
@@ -100,7 +100,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="mdcrack_1307" n="[ii]"/>
       <div xml:id="mdcrack_001" type="illustration">
-        <figure><graphic url="ENTITY_mdcrackill1" rend="inline"/>
+        <figure><graphic url="mdcrackill1.jpg" rend="inline"/>
           <figDesc>Illustration included in the front of  Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
       </div>
@@ -126,17 +126,17 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="mdcrack_13011" n="[iv]"/>
       <div xml:id="mdcrack_002" type="copyright">
-        <figure><graphic url="ENTITY_mdcrackcr" rend="inline"/>
+        <figure><graphic url="mdcrackcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="mdcrack_13012" n="[v]"/>
-      <div xml:id="mdcrack_003" type="table of contents">
-        <figure><graphic url="ENTITY_mdcracktc1" rend="inline"/>
+      <div xml:id="mdcrack_003" type="table_of_contents">
+        <figure><graphic url="mdcracktc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_13013" n="vi"/>
-        <figure><graphic url="ENTITY_mdcracktc2" rend="inline"/>
+        <figure><graphic url="mdcracktc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
       </div>
@@ -1249,7 +1249,7 @@ ten or twelve pistol-shots in one such bout; fellows fired anywhere--into the ce
         <p xml:id="mdcrack_1301031">"There you go, always thinking of property. Read that!"</p>
         <p xml:id="mdcrack_1301032">She took the letter and read as follows:--</p>
         <q>
-          <text xml:id="mdcrack_1204">
+          <q><floatingText xml:id="mdcrack_1204">
             <body xml:id="mdcrack_1203">
               <opener>
                 <salute>SQUIRE BELOIT: SIR,--</salute>
@@ -1263,7 +1263,7 @@ ten or twelve pistol-shots in one such bout; fellows fired anywhere--into the ce
                 <signed>ALEXANDER FRY.</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mdcrack_1301038">"For Heaven's sake, pa! " gasped Miranda.</p>
         <p xml:id="mdcrack_1301039">"Nice little scrape I've got myself into, hevn't I?"</p>
@@ -2392,7 +2392,7 @@ her, and her heart beat faster in pity for the poor unhappy child.</p>
         <p xml:id="mdcrack_1302054">Then she bolstered Derry up on the pillows, and the girl with a trembling hand wrote the following:--</p>
         <pb xml:id="mdcrack_1302055" n="295 'I'VE DONE TRYING.'"/>
         <q>
-          <text xml:id="mdcrack_1206">
+          <q><floatingText xml:id="mdcrack_1206">
             <body xml:id="mdcrack_1205">
               <head>To Mr. GEORGE BARRON.</head>
               <opener>
@@ -2404,7 +2404,7 @@ her, and her heart beat faster in pity for the poor unhappy child.</p>
                 <signed>DERINTHA DUNN.</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mdcrack_1302057">This she folded and addressed, hardly conscious of the warm tears plashing from her eyes; and calling her little brother Wash, who was still a favorite of Barron's, she bade him go quickly and give it to him.</p>
         <p xml:id="mdcrack_1302058">"Into his own hand, remember, Bud. Don't let Canty or any one else have it; now, mind. Poor sick sister would feel so bad if you did n't do as she tells you!"</p>
@@ -2648,67 +2648,67 @@ his true heart, experienced a pride that was beyond expression for this man who 
     </body>
     <back xml:id="mdcrack_1208">
       <div xml:id="mdcrack_100" type="adverts">
-        <figure><graphic url="ENTITY_mdcrackbm1" rend="inline"/>
+        <figure><graphic url="mdcrackbm1.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302253"/>
-        <figure><graphic url="ENTITY_mdcrackbm2" rend="inline"/>
+        <figure><graphic url="mdcrackbm2.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302254"/>
-        <figure><graphic url="ENTITY_mdcrackbm3" rend="inline"/>
+        <figure><graphic url="mdcrackbm3.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302255"/>
-        <figure><graphic url="ENTITY_mdcrackbm4" rend="inline"/>
+        <figure><graphic url="mdcrackbm4.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302256"/>
-        <figure><graphic url="ENTITY_mdcrackbm5" rend="inline"/>
+        <figure><graphic url="mdcrackbm5.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302257"/>
-        <figure><graphic url="ENTITY_mdcrackbm6" rend="inline"/>
+        <figure><graphic url="mdcrackbm6.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302258"/>
-        <figure><graphic url="ENTITY_mdcrackbm7" rend="inline"/>
+        <figure><graphic url="mdcrackbm7.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302259"/>
-        <figure><graphic url="ENTITY_mdcrackbm8" rend="inline"/>
+        <figure><graphic url="mdcrackbm8.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302260"/>
-        <figure><graphic url="ENTITY_mdcrackbm9" rend="inline"/>
+        <figure><graphic url="mdcrackbm9.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302261"/>
-        <figure><graphic url="ENTITY_mdcrackbm10" rend="inline"/>
+        <figure><graphic url="mdcrackbm10.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302262"/>
-        <figure><graphic url="ENTITY_mdcrackbm11" rend="inline"/>
+        <figure><graphic url="mdcrackbm11.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302263"/>
-        <figure><graphic url="ENTITY_mdcrackbm12" rend="inline"/>
+        <figure><graphic url="mdcrackbm12.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302264"/>
-        <figure><graphic url="ENTITY_mdcrackbm13" rend="inline"/>
+        <figure><graphic url="mdcrackbm13.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302265"/>
-        <figure><graphic url="ENTITY_mdcrackbm14" rend="inline"/>
+        <figure><graphic url="mdcrackbm14.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302266"/>
-        <figure><graphic url="ENTITY_mdcrackbm15" rend="inline"/>
+        <figure><graphic url="mdcrackbm15.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
         <pb xml:id="mdcrack_1302267"/>
-        <figure><graphic url="ENTITY_mdcrackbm16" rend="inline"/>
+        <figure><graphic url="mdcrackbm16.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Denison's <hi rend="italic">Cracker Joe</hi>.</figDesc>
         </figure>
       </div>

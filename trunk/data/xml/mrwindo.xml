@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mrwindo_12014">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mrwindo_12014">
   <teiHeader xml:id="mrwindo1201"><fileDesc>
       <titleStmt>
         <title>The Window at the White Cat, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila  T. Cavanagh</name>
           <name>Charles  D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The
@@ -77,18 +77,18 @@ text.</p>
   <text xml:id="mrwindo_1202">
     <front xml:id="mrwindo_1204">
       <div xml:id="mrwindo_fm1" type="covers">
-        <figure><graphic url="ENTITY_mrwindofc" rend="inline"/>
+        <figure><graphic url="mrwindofc.jpg" rend="inline"/>
           <figDesc>Front cover of Mary Roberts Rinehart's <hi rend="italic">The
 Window at the White Cat</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_mrwindosp" rend="inline"/>
+        <figure><graphic url="mrwindosp.jpg" rend="inline"/>
           <figDesc>Spine of Mary Roberts Rinehart's <hi rend="italic">The
 Window at the White Cat</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="mrwindo_1305"/>
       <div xml:id="mrwindo_fm2" type="frontispiece">
-        <figure><graphic url="ENTITY_mrwindoill01" rend="inline"/>
+        <figure><graphic url="mrwindoill01.jpg" rend="inline"/>
           <figDesc>Frontispiece of Mary Roberts Rinehart's <hi rend="italic">The
 Window at the White Cat</hi>.</figDesc>
         </figure>
@@ -111,13 +111,13 @@ BY ARTHUR I. KELLER</titlePart>
       </titlePage>
       <pb xml:id="mrwindo_1308"/>
       <div xml:id="mrwindo_fm3" type="copyright">
-        <figure><graphic url="ENTITY_mrwindocopy" rend="inline"/>
+        <figure><graphic url="mrwindocopy.jpg" rend="inline"/>
           <figDesc>Copyright page from Mary Roberts Rinehart's <hi rend="italic">The
 Window at the White Cat</hi>.</figDesc>
         </figure>
       </div>
-      <div xml:id="mrwindo_toc" type="table of contents">
-        <figure><graphic url="ENTITY_mrwindocont" rend="inline"/>
+      <div xml:id="mrwindo_toc" type="table_of_contents">
+        <figure><graphic url="mrwindocont.jpg" rend="inline"/>
           <figDesc>Table of Contents page from Mary Roberts Rinehart's <hi rend="italic">The
 Window at the White Cat</hi>.</figDesc>
         </figure>
@@ -403,7 +403,7 @@ NINETY-EIGHT PEARLS</head>
 fascinating trick of taking the end of her tail in her mouth and spinning.</p>
         <p xml:id="mrwindo_130203">On that particular morning, Katie also brought me a letter, and I recognized the cramped and rather uncertain writing of Miss Jane Maitland.</p>
         <q>
-          <text xml:id="mrwindo_130206">
+          <q><floatingText xml:id="mrwindo_130206">
             <body xml:id="mrwindo_130205">
               <div xml:id="mrwindo_301" type="letter">
                 <salute>"<hi rend="smallcaps">Dear Mr. Knox</hi>:</salute>
@@ -411,7 +411,7 @@ fascinating trick of taking the end of her tail in her mouth and spinning.</p>
                 <signed>"Very truly yours,<lb/><name><hi rend="smallcaps">"Susan Jane Maitland</hi></name>."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mrwindo_130207">It was a very commonplace note: I had had one like it after every board-meeting of the orphans' home, Miss Maitland being on principle an aggressive minority. Also, having considerable mind, changing it became almost as ponderous an operation as moving a barn, although not nearly so stable.</p>
         <p xml:id="mrwindo_130208">(Fred accuses me here of a very bad pun, and reminds me, quite undeservedly, that the pun is the lowest form of humor.)</p>
@@ -752,7 +752,7 @@ was in this house last night; I heard them distinctly. There must have been two,
 even intelligent; certainly not cunning. Heppie, the cook and only other servant, was partly blind and her horizon was the diameter of her largest kettle. No--it had not been a servant, this mysterious intruder who passed the Maitland silver on the side-board without an attempt to take it, and who floundered around an attic at night, in search of nothing more valuable than patchwork quilts and winter flannels. It is strange to look back and think how quietly we sat there; that we could see nothing but burglary--or an attempt at it--in what we had found.</p>
         <p xml:id="mrwindo_130446">It must have been after nine o'clock when Bella came running into the room. Ordinarily a slow and clumsy creature, she almost flew. She had a tray in her hand, and the dishes were rattling and threatening overthrow at every step. She brought up against a chair, and a cup went flying. The breaking of a cup must have been a serious offense in Miss Letitia Maitland's house, but Bella took no notice whatever of it.</p>
         <p xml:id="mrwindo_130447">"Miss Jane," she gasped, "Miss Jane, she's--she's--"</p>
-        <figure><graphic url="ENTITY_mrwindoill02" rend="inline"/>
+        <figure><graphic url="mrwindoill02.jpg" rend="inline"/>
           <figDesc>Illustration following page 76 of Mary Roberts Rinehart's <hi rend="italic">The Window at the White Cat</hi>.
 </figDesc>
         </figure>
@@ -1149,7 +1149,7 @@ lot of explosions, but I thought it was an automobile, out in the street."</p>
         <p xml:id="mrwindo_130727">Wardrop looked dazed.</p>
         <p xml:id="mrwindo_130729">"He was in a bad way when I left this morning," he said huskily. "There isn't much use now trying to hide anything; God knows I've done all I could. But he has been using cocaine for years, and to-day he ran out of the stuff. When I got here, about half
 
-<figure><graphic url="ENTITY_mrwindoill03" rend="inline"/><figDesc>Illustration following page 126 of Mary Roberts Rinehart's <hi rend="italic">The Window at the White Cat</hi>.
+<figure><graphic url="mrwindoill03.jpg" rend="inline"/><figDesc>Illustration following page 126 of Mary Roberts Rinehart's <hi rend="italic">The Window at the White Cat</hi>.
 </figDesc></figure><pb xml:id="mrwindo_130728" n="127 ONLY ONE EYE CLOSED"/>
 an hour ago, he was on the verge of killing himself. I got the revolver from him--he was like a crazy man, and as soon as I dared to leave him, I went out to try and find a doctor--"</p>
         <p xml:id="mrwindo_130730">"To get some cocaine?"</p>
@@ -1171,13 +1171,13 @@ from his hip pocket. It was an ordinary thirty-eight. The detective opened it an
         <p xml:id="mrwindo_130743">"If Mr. Fleming shot himself," the detective pursued relentlessly, "there would be powder marks around the wound. Then, too, he was in the act of writing a letter. It was a strange impulse, this--you see, he had only written a dozen words."</p>
         <p xml:id="mrwindo_130744">I glanced at the paper on the table. The letter had no superscription; it began abruptly:</p>
         <q>
-          <text xml:id="mrwindo_130747">
+          <q><floatingText xml:id="mrwindo_130747">
             <body xml:id="mrwindo_130746">
               <div xml:id="mrwindo_9102" type="letter">
                 <p xml:id="mrwindo_130745">"I shall have to leave here. The numbers have followed me. To-night--"</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mrwindo_130748">That was all.</p>
         <p xml:id="mrwindo_130749">"This is not suicide," Hunter said gravely. "It is murder, and I warn you, Mr. Wardrop, to be careful what you say. Will you ask Doctor Gray to come in, Mr. Knox?"</p>
@@ -2461,7 +2461,7 @@ it is in its first bloom. Across the hall Fred was talking to Margery through th
 as I stood in the doorway, I had a vivid mental picture of Edith's description of me, sitting up puppy-like to beg for a kind word, and wiggling with delight when I got it. If I slunk into my office that morning like a dog scourged to his kennel, Edith was responsible.</p>
         <p xml:id="mrwindo_1301691">At the office I found a note from Miss Letitia, and after a glance at it I looked for the first train, in my railroad schedule. The note was brief; unlike the similar epistle I had received from Miss Jane the day she disappeared, this one was very formal.</p>
         <q>
-          <text xml:id="mrwindo_1301694">
+          <q><floatingText xml:id="mrwindo_1301694">
             <body xml:id="mrwindo_1301693">
               <div xml:id="mrwindo_9103" type="letter">
                 <salute>"<hi rend="smallcaps">Mr. John Knox</hi>:<lb/>
@@ -2471,7 +2471,7 @@ as I stood in the doorway, I had a vivid mental picture of Edith's description o
 Maitland</hi></name>."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mrwindo_1301696">I had an appointment with Burton for the afternoon, to take Wardrop, if we could get him on some pretext, to Doctor Anderson. That day, also, I had
 
@@ -2608,7 +2608,7 @@ mean enough about doing it. "You need something to brace you up."</p>
         <p xml:id="mrwindo_1301796">"I guess it is Knox's butt-in," Burton conceded, "but I get it later, Doctor; you promised."</p>
         <p xml:id="mrwindo_1301797">The physical examination was very brief; when I was called in Wardrop was standing at the window looking down into the street below, and the doctor was writing at his desk. Behind Wardrop's back he gave me the slip he had written.</p>
         <q>
-          <text xml:id="mrwindo_1301801">
+          <q><floatingText xml:id="mrwindo_1301801">
             <body xml:id="mrwindo_1301800">
               <p xml:id="mrwindo_1301799">"Test is for association of ideas. Watch length of time between word I give and his reply. I often
 
@@ -2616,7 +2616,7 @@ mean enough about doing it. "You need something to brace you up."</p>
 <pb xml:id="mrwindo_1301798" n="301 ASSOCIATION OF IDEAS"/>
 get hold of facts forgotten by the patient. A wait before the answering word is given shows an attempt at concealment."</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mrwindo_1301802">"Now, Mr. Wardrop," he said, "will you sit here, please?"</p>
         <p xml:id="mrwindo_1301803">He drew a chair to the center-table for Wardrop, and another, just across for himself. I sat back and to one side of the patient, where I could see Wardrop's haggard profile and every movement of the specialist.</p>
@@ -2868,7 +2868,7 @@ window, I supposed he was telling her he had thrown what she wanted out there. E
         <p xml:id="mrwindo_1301987">I yelled to Schwartz to warn him, but he had already seen the revolver. As he struck her hand aside, the explosion came; I saw her stagger, clutch at a chair, and fall backward beyond my range of vision.</p>
         <p xml:id="mrwindo_1301988">Then the light went out, and I was staring at a black, brick wall.</p>
         <p xml:id="mrwindo_1301990">I turned and ran frantically toward the stairs. Luckily, I found them easily. I fell rather than ran down to the floor below. Then I made a wrong turning and lost some time. My last match set me
-<figure><graphic url="ENTITY_mrwindoill04" rend="inline"/><figDesc>Illustration following page 330 of Mary Roberts Rinehart's <hi rend="italic">The Window at the White Cat</hi>.
+<figure><graphic url="mrwindoill04.jpg" rend="inline"/><figDesc>Illustration following page 330 of Mary Roberts Rinehart's <hi rend="italic">The Window at the White Cat</hi>.
 </figDesc></figure><pb xml:id="mrwindo_1301989" n="331 IN THE ROOM OVER THE WAY"/>
 right and I got into the yard somehow, and to the street.</p>
         <p xml:id="mrwindo_1301991">It was raining harder than ever, and the thunder was incessant. I ran around the corner of the street, and found the gate to the White Cat without trouble. The inner gate was unlocked, as Burton had said he would leave it, and from the steps of the club I could hear laughter and the refrain of a popular song. The door opened just as I reached the top step, and I half-tumbled inside.</p>
@@ -3176,7 +3176,7 @@ shelf of a three-cornered Empire cupboard, with glass doors and spindle legs, I 
         <p xml:id="mrwindo_1302202">"I brought you here to find Aunt Jane," I said soberly, taking a letter and the flat package out of my pocket. "You see, my theory worked out. <hi rend="italic">Here</hi> is Aunt Jane, and <hi rend="italic">there</hi> is the money from the Russia leather bag."</p>
         <p xml:id="mrwindo_1302203">I laid the packet in Margery's lap, and without ceremony opened the letter. It began:</p>
         <q>
-          <text xml:id="mrwindo_1302217">
+          <q><floatingText xml:id="mrwindo_1302217">
             <body xml:id="mrwindo_1302216">
               <div xml:id="mrwindo_9104" type="letter">
                 <salute>"<hi rend="smallcaps">My Dearest Niece</hi>:</salute>
@@ -3204,7 +3204,7 @@ I am emptying it and taking it with me, for he has mine.</p>
                 <signed>"<hi rend="smallcaps">Your Loving <name>Aunt Jane</name></hi>."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mrwindo_1302219">When Margery stopped reading, there was an amazed silence. Then we all three burst into relieved, uncontrolled mirth. The dear, little, old lady
 

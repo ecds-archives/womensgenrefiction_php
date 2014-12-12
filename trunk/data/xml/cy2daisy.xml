@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cy2daisy_12011">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cy2daisy_12011">
   <teiHeader xml:id="cy2daisy1201"><fileDesc>
       <titleStmt>
         <title>The Daisy Chain, part II, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The
@@ -81,15 +81,15 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="cy2daisy_12010">
     <front xml:id="cy2daisy_1202">
       <div xml:id="cy2daisy_000" type="covers">
-        <figure><graphic url="ENTITY_cy2daisyfc" rend="inline"/>
+        <figure><graphic url="cy2daisyfc.jpg" rend="inline"/>
           <figDesc>Front cover of the second part of Yonge's <hi rend="italic">The Daisy Chain</hi>.</figDesc>
         </figure>
         <pb xml:id="cy2daisy_1305"/>
-        <figure><graphic url="ENTITY_cy2daisybc" rend="inline"/>
+        <figure><graphic url="cy2daisybc.jpg" rend="inline"/>
           <figDesc>Back cover of the second part of Yonge's <hi rend="italic">The Daisy Chain</hi>.</figDesc>
         </figure>
         <pb xml:id="cy2daisy_1306"/>
-        <figure><graphic url="ENTITY_cy2daisysp" rend="inline"/>
+        <figure><graphic url="cy2daisysp.jpg" rend="inline"/>
           <figDesc>Spine of the second part of Yonge's <hi rend="italic">The Daisy Chain</hi>.</figDesc>
         </figure>
       </div>
@@ -690,7 +690,7 @@ of me to say it, and--'</p>
         <p xml:id="cy2daisy_130431">Dr. May gave Ethel his sheet not folded. His written words were
 now so few as to be cherished amongst his children.</p>
         <q>
-          <text xml:id="cy2daisy_1204">
+          <q><floatingText xml:id="cy2daisy_1204">
             <body xml:id="cy2daisy_1203">
               <div xml:id="cy2daisy_100" type="letter">
                 <opener>
@@ -707,7 +707,7 @@ now so few as to be cherished amongst his children.</p>
 home and cheer her.</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb xml:id="cy2daisy_130434" n="376 THE DAISY CHAIN."/>
@@ -1204,7 +1204,7 @@ the Grange, and, on arriving, found Hector deep in "Wild Sports of the West," wh
         <p xml:id="cy2daisy_130827">It was completed at last, and Ethel stitched it up with a narrow red and white ribbon--the Balliol colours; and set Meta at him till a promise was extorted that he would send it in.</p>
         <p xml:id="cy2daisy_130828">And, in due time, Ethel received the following note:</p>
         <q>
-          <text xml:id="cy2daisy_1206">
+          <q><floatingText xml:id="cy2daisy_1206">
             <body xml:id="cy2daisy_1205">
               <opener>
                 <salute>My dear Ethel,--</salute>
@@ -1213,7 +1213,7 @@ the Grange, and, on arriving, found Hector deep in "Wild Sports of the West," wh
 it.</p>
               <closer><salute>Your affectionate,</salute> <signed> N. W. M.</signed></closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cy2daisy_130831">They were too much accustomed to Norman's successes to be extraordinarily excited; Ethel would have been much mortified if
 <pb xml:id="cy2daisy_130830" n="411 THE DAISY CHAIN."/>
@@ -2014,7 +2014,7 @@ subject, as if he wanted to say something, 'if she were only safe with a man who
         <pb xml:id="cy2daisy_1301537" n="467 THE DAISY CHAIN."/>
         <p xml:id="cy2daisy_1301538">They were interested, but in a listening mood, that caused a universal start when the bell again sounded. This time, James reported that the servant from the Grange said his master was very ill--he had brought a letter to post for Mr. George Rivers, and here was a note for Miss Ethel. It was the only note Ethel had ever received from her father, and only contained these few words:--</p>
         <q>
-          <text xml:id="cy2daisy_1208">
+          <q><floatingText xml:id="cy2daisy_1208">
             <body xml:id="cy2daisy_1207">
               <opener>
                 <salute>Dear E.</salute>
@@ -2024,7 +2024,7 @@ subject, as if he wanted to say something, 'if she were only safe with a man who
                 <signed>R. M.</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cy2daisy_1301540">Ethel put her hands to her forehead. It was as if she had been again plunged into the stunned dream of misery of four years ago, and her sensation was of equal bewilderment and uselessness, but it was but for a moment--the next she was in a state of over bustle and eagerness. She wanted to fly about and hasten to help Meta, and could hardly obey the word and gesture by which Margaret summoned her to her side.</p>
         <p xml:id="cy2daisy_1301541">'Dear Ethel, you must calm yourself, or you will not be of use.'</p>

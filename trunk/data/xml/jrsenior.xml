@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="jrsenior_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="jrsenior_1207">
   <teiHeader xml:id="jrsenior1201"><fileDesc>
       <titleStmt>
         <title>The Senior Partner, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Senior
@@ -87,7 +87,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="jrsenior_1307"/>
       <div xml:id="jrsenior_000" type="paratext">
-        <figure><graphic url="ENTITY_jrseniorpt" rend="inline"/>
+        <figure><graphic url="jrseniorpt.jpg" rend="inline"/>
           <figDesc>Publisher information included in the front of Riddell's <hi rend="italic">The Senior Partner</hi>.</figDesc>
         </figure>
       </div>
@@ -109,12 +109,12 @@ GARDENS,' ETC.</byline>
         <imprimatur>[All Rights Reserved]</imprimatur>
       </titlePage>
       <pb xml:id="jrsenior_13010" n="[iii]"/>
-      <div xml:id="jrsenior_001" type="table of contents">
-        <figure><graphic url="ENTITY_jrseniortc1" rend="inline"/>
+      <div xml:id="jrsenior_001" type="table_of_contents">
+        <figure><graphic url="jrseniortc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Riddell's <hi rend="italic">The Senior Partner</hi>.</figDesc>
         </figure>
         <pb xml:id="jrsenior_13011" n="vi"/>
-        <figure><graphic url="ENTITY_jrseniortc2" rend="inline"/>
+        <figure><graphic url="jrseniortc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Riddell's <hi rend="italic">The Senior Partner</hi>.</figDesc>
         </figure>
       </div>
@@ -4382,7 +4382,7 @@ had thrust him without ceremony out of the paradise of Bush-lane; and advised hi
         <p xml:id="jrsenior_1303833">'What's in the wind now, I wonder?' thought Mr. McCullagh, tearing open the letter, and reading:</p>
         <p xml:id="jrsenior_1303834">'"Dear McCullagh." My! but we're familiar! That's the way they do, though, among themselves, I've noticed, so I darena doubt it's all right and proper.</p>
         <q>
-          <text xml:id="jrsenior_1204">
+          <q><floatingText xml:id="jrsenior_1204">
             <body xml:id="jrsenior_1203">
               <opener>
                 <salute>"Dear McCullagh,--</salute>
@@ -4400,7 +4400,7 @@ quarter to five, and trust you will not
 disappoint.</p>
               <closer><salute>--Yours faithfully,</salute> <signed>HERRION POUSNETT."</signed></closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="jrsenior_1303836" n="359 MR. M'CULLAGH IS AMAZED."/>
         <p xml:id="jrsenior_1303837">'The very thing, by my saul! just what I wanted!' cried Mr. McCullagh, delighted at the thought of escaping Effie and Miss Nicol; 'it has come in the very nick o' time. Na, na, I won't disappoint ye, Mr. Herrion Pousnett. What'll I want, now?' and he plunged into the mysteries of wardrobe and toilet with an enthusiasm which would have amazed Janet had she been there to see.</p>

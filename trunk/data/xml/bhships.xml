@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="bhships_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="bhships_1207">
   <teiHeader xml:id="bhships1201"><fileDesc>
       <titleStmt>
         <title>Ships that Pass in the Night, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Ships That
@@ -123,8 +123,8 @@ IS LOVINGLY DEDICATED.</p>
         </p>
       </div>
       <pb xml:id="bhships_13012"/>
-      <div xml:id="bhships_1002" type="table of contents">
-        <figure><graphic url="ENTITY_bhshipstc" rend="inline"/>
+      <div xml:id="bhships_1002" type="table_of_contents">
+        <figure><graphic url="bhshipstc.jpg" rend="inline"/>
           <figDesc>Table of contents for Beatrice Harraden's <hi rend="italic">Ships That Pass in the Night</hi>.
 </figDesc>
         </figure>
@@ -1398,7 +1398,7 @@ was genuinely interested, he was well satisfied. From time to time he looked at 
           <p xml:id="bhships_1301118">Two days after Bernardine had left Petershof, the snows began to melt. Nothing could be drearier than that process: nothing more desolate than the outlook.</p>
           <p xml:id="bhships_1301119">The Disagreeable Man sat in his bedroom trying to read Carpenter's Anatomy. It failed to hold him. Then he looked out of the window, and listened to the dripping of the icicles. At last he took a pen, and wrote as follows:</p>
           <q>
-            <text xml:id="bhships_1301141">
+            <q><floatingText xml:id="bhships_1301141">
               <body xml:id="bhships_1301140">
                 <salute>"LITTLE COMRADE, LITTLE PLAYMATE,</salute>
                 <p xml:id="bhships_1301121">I could not believe that you were really going. When you first
@@ -1418,7 +1418,7 @@ was genuinely interested, he was well satisfied. From time to time he looked at 
                 <pb xml:id="bhships_1301138" n="204 SHIPS THAT PASS IN THE NIGHT"/>
                 <p xml:id="bhships_1301139">"But I do love you, no one can take that from me: it is my own dignity, the crown of my life. Such a poor life ....no, no, I won't say that now. I cannot pity myself now ....no, I cannot. . . ."</p>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="bhships_1301142">The Disagreeable Man stopped writing, and the pen dropped on the table.</p>
           <p xml:id="bhships_1301143">He buried his tear-stained face in his hands. He cried his heart out, this Disagreeable Man.</p>

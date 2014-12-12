@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="molindo_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="molindo_1207">
   <teiHeader xml:id="molindo1201"><fileDesc>
       <titleStmt>
         <title>The Ladies Lindores, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author><title>The Ladies Lindores</title>
@@ -91,7 +91,7 @@ Square</pubPlace><docDate>1883</docDate></docImprint>
       </titlePage>
       <pb xml:id="molindo_1307" n="[2]"/>
       <div xml:id="molindo_000" type="advert">
-        <figure><graphic url="ENTITY_molindoad" rend="inline"/>
+        <figure><graphic url="molindoad.jpg" rend="inline"/>
           <figDesc>An advertisement listing novels by Mrs. Oliphant included in
 the front of <hi rend="italic">The Ladies Lindores</hi>.</figDesc>
         </figure>
@@ -2216,7 +2216,7 @@ at him with curious eyes. The town had at last become conscious of what had happ
       <div xml:id="molindo_040" n="40" type="chapter">
         <head>CHAPTER XL.</head>
         <q>
-          <text xml:id="molindo_1204">
+          <q><floatingText xml:id="molindo_1204">
             <body xml:id="molindo_1203">
               <div xml:id="molindo_100" type="letter">
                 <opener>
@@ -2272,7 +2272,7 @@ sends you her love.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="molindo_1302295">Edith felt, perhaps, that this was not a very prudent letter. She was not thinking of prudence, but of relieving her own mind and comforting John Erskine, oppressed and suffering. And, besides, she was herself in a condition of great excitement and agitation. She had been brought back from Tinto, she and her mother, with a purpose. Perhaps it was not said to her in so many words, but it was certainly conveyed to the minds of the female members of the family generally that Millefleurs was at the end of his patience, and his suit must have an answer once for all. Carry had been told of the proposal by her mother, and had pledged herself to say nothing against it. And she had kept her promise, though with difficulty, reserving to herself the power to act afterward if Edith should be driven to consent against her will.</p>
         <p xml:id="molindo_1302296">"Another of us shall not do it," Carry said; "oh! not if I can help it."</p>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fsperma_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fsperma_1206">
   <teiHeader xml:id="fsperma1201"><fileDesc>
       <titleStmt>
         <title>In the Permanent Way, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>In the Permanent
@@ -78,11 +78,11 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="fsperma_1205">
     <front xml:id="fsperma_1202">
       <div xml:id="fsperma_0000" type="covers">
-        <figure><graphic url="ENTITY_fspermafc" rend="inline"/>
+        <figure><graphic url="fspermafc.jpg" rend="inline"/>
           <figDesc>Front cover of Steel's <hi rend="italic">In the Permanent Way</hi>.</figDesc>
         </figure>
         <pb xml:id="fsperma_1305"/>
-        <figure><graphic url="ENTITY_fspermasp" rend="inline"/>
+        <figure><graphic url="fspermasp.jpg" rend="inline"/>
           <figDesc>Spine of Steel's <hi rend="italic">In the Permanent Way</hi>.</figDesc>
         </figure>
       </div>
@@ -94,7 +94,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="fsperma_1308"/>
       <div xml:id="fsperma_0001" type="advert">
-        <figure><graphic url="ENTITY_fspermaad" rend="inline"/>
+        <figure><graphic url="fspermaad.jpg" rend="inline"/>
           <figDesc>Advertisement included in Steel's <hi rend="italic">In the
 Permanent Way</hi>.</figDesc>
         </figure>
@@ -113,8 +113,8 @@ Permanent Way</hi>.</figDesc>
         </docImprint>
       </titlePage>
       <pb xml:id="fsperma_13011"/>
-      <div xml:id="fsperma_0002" type="table of contents">
-        <figure><graphic url="ENTITY_fspermatc" rend="inline"/>
+      <div xml:id="fsperma_0002" type="table_of_contents">
+        <figure><graphic url="fspermatc.jpg" rend="inline"/>
           <figDesc>Table of contents for Steel's <hi rend="italic">In the
 Permanent Way</hi>.</figDesc>
         </figure>

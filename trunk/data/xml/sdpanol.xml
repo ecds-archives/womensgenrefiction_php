@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sdpanol_12013">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sdpanol_12013">
   <teiHeader xml:id="sdpanol1201"><fileDesc>
       <titleStmt>
         <title>Panola, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Panola: A Tale
@@ -83,7 +83,7 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="sdpanol_1202">
     <front xml:id="sdpanol_1205">
       <div xml:id="sdpanol_00" type="covers">
-        <figure><graphic url="ENTITY_sdpanolfc" rend="inline"/>
+        <figure><graphic url="sdpanolfc.jpg" rend="inline"/>
           <figDesc>Front cover of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
       </div>
@@ -129,7 +129,7 @@ melons."</l>
       </titlePage>
       <pb xml:id="sdpanol_1307" n="[18]"/>
       <div xml:id="sdpanol_01" type="copyright">
-        <figure><graphic url="ENTITY_sdpanolfm01" rend="inline"/>
+        <figure><graphic url="sdpanolfm01.jpg" rend="inline"/>
           <figDesc>Copyright page of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
       </div>
@@ -144,12 +144,12 @@ THE NUMBER OF HIS FRIENDS.</p>
 August 20th, 1877.</dateline>
       </div>
       <pb xml:id="sdpanol_13011" n="21"/>
-      <div xml:id="sdpanol_03" type="table of contents">
-        <figure><graphic url="ENTITY_sdpanolcon1" rend="inline"/>
+      <div xml:id="sdpanol_03" type="table_of_contents">
+        <figure><graphic url="sdpanolcon1.jpg" rend="inline"/>
           <figDesc>Page one of table of contents for  Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
         <pb xml:id="sdpanol_13012" n="22"/>
-        <figure><graphic url="ENTITY_sdpanolcon2" rend="inline"/>
+        <figure><graphic url="sdpanolcon2.jpg" rend="inline"/>
           <figDesc>Page two of table of contents for  Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
       </div>
@@ -260,13 +260,13 @@ make ineffectual efforts to utter the right cadence; but at last, seeming to gro
         <p xml:id="sdpanol_13047">"Uncle Jacob is dead in New York. This letter concerns you both, as well as myself."</p>
         <p xml:id="sdpanol_13048">It was a large letter, and it contained an enclosure written on foolscap, very closely covering all four sides of the sheet. Mark now set himself to read the enclosed foolscap.</p>
         <p xml:id="sdpanol_13056">Victor held the letter, and Natika, leaning over his shoulder, read it at the same time that he did. Victor gave utterance to a low whistle of surprise and seeming vexation as he laid the letter down, which ran as follows:
-<q><text xml:id="sdpanol_13055"><body xml:id="sdpanol_13054"><div xml:id="sdpanol_9101" type="letter"><dateline>"NEW ORLEANS, 18--.</dateline><salute>"MR. MARK BOLLING: SIR:--</salute><p xml:id="sdpanol_13050">We have been requested by the trustees appointed in the last will and testament of your late uncle, Mr. Jacob Canonge, to write to you, and to enclose a certified copy of said will and testament of said Jacob Canonge. Said will is a holograph instrument, and is perfect according to law of Louisiana, being written, signed and sealed by said testator. It has been duly recorded by said trustees, and the succession is now duly opened according to law. The said will is somewhat peculiar in its terns and conditions of bequest, which, of course, we regret; but, although the said late Jacob Canonge was regarded as rather eccentric in character, his sound health and sanity were never questioned, and he was considered to be singularly shrewd in all practical business matters. His physicians--the Doc-
+<q><floatingText xml:id="sdpanol_13055"><body xml:id="sdpanol_13054"><div xml:id="sdpanol_9101" type="letter"><dateline>"NEW ORLEANS, 18--.</dateline><salute>"MR. MARK BOLLING: SIR:--</salute><p xml:id="sdpanol_13050">We have been requested by the trustees appointed in the last will and testament of your late uncle, Mr. Jacob Canonge, to write to you, and to enclose a certified copy of said will and testament of said Jacob Canonge. Said will is a holograph instrument, and is perfect according to law of Louisiana, being written, signed and sealed by said testator. It has been duly recorded by said trustees, and the succession is now duly opened according to law. The said will is somewhat peculiar in its terns and conditions of bequest, which, of course, we regret; but, although the said late Jacob Canonge was regarded as rather eccentric in character, his sound health and sanity were never questioned, and he was considered to be singularly shrewd in all practical business matters. His physicians--the Doc-
 <pb xml:id="sdpanol_13049" n="36     PANOLA."/>
 tons Stone and Roussel--testify to his admirable soundness of mind up to the very last moments of existence. The injunctions of the will, therefore, must be fully obeyed. The trustees--Messrs. Adams, James and Slocumb--unite with us in hoping that you may soon be restored to the health and happy condition of life, which said will demands of you before they can resign to you the control of the vast wealth, designed for your inheritance by your late uncle, said late Jacob Canonge. Together with this, please find notices to the other heirs--Mr. Victor Burthe and Miss Natika Jacquimin--of their unconditioned bequests from their late uncle, said late Jacob Canonge, which bequests are in the sum of one hundred thousand dollars each, said money being now on deposit in the Canal Bank of New Orleans, subject to their order at sight. Please also find list and vouchers of said divers moneys, bequeathed conditionally to you by said late Jacob Canonge--said moneys amounting, as shown and exhibited by said vouchers, to the sum of three millions five hundred thousand and forty-five dollars and fifty-five cents, which is already well and sufficiently invested by said late Jacob Canonge, as shown by said vouchers. All to be subject to your order under certain conditions, as set forth in said last will and testament of said late Jacob Canonge.</p><p xml:id="sdpanol_13052">"You will be so good as to notify us where and when you desire to be deposited the annual pay-
 <pb xml:id="sdpanol_13051" n="37     IN THE ATTAKAPAS."/>
 ments of the sum of three hundred dollars, always payable in gold, the amount specified as a temporary provision for you until the aforesaid conditions be filled as demanded by said last will and testament of said late Jacob Canonge. It is now subject to your order.</p><p xml:id="sdpanol_13053">"With profound respect, we have the honor to subscribe ourselves your most obedient servants,</p><signed>"BRADFORD AND BRADFORD,<lb/>
 "Att'ys-at-Law, 20 Custom House street,<lb/>
-"New Orleans, Louisiana."</signed></div></body></text></q></p>
+"New Orleans, Louisiana."</signed></div></body></floatingText></q></p>
         <p xml:id="sdpanol_13057">"Here's the will," said Mark, handing the long bit of foolscap he had been reading to Victor.</p>
         <p xml:id="sdpanol_13058">"It is a shame! The very meanest will that ever any old man made! That's my opinion of it," exclaimed Natika, indignantly, tossing back, with her fair, white, jewelled hand, the heavy ringlets that had fallen forward over her face as she leaned over Victor's shoulder reading the portentous papers.</p>
         <p xml:id="sdpanol_13059">"He was a mean, crabbed old hunks, any how! I always did think so," said Victor. "He has been too good to us, who did not need his dirty money. But, to treat poor Mark in that tantalizing fashion! It is downright wicked! I hope the old fellow will be put through three millions of ages in purgatory for his malice! As if it was Mark's fault that he can't walk! Oh, le vieil diable!"</p>
@@ -907,7 +907,7 @@ and this letter has been wandering about a good deal, being first brought down o
         <p xml:id="sdpanol_130506">"I don't understand it either, Mark; so you had better translate," proposed Victor. "I should like to hear what Römer says for himself."</p>
         <p xml:id="sdpanol_130507">Mark glanced over the letter. "Well, it is great injustice to Römer, who is really quite eloquent in his own tongue; but here goes for an off-hand translation, literal, of course."</p>
         <q>
-          <text xml:id="sdpanol_130514">
+          <q><floatingText xml:id="sdpanol_130514">
             <body xml:id="sdpanol_130513">
               <div xml:id="sdpanol_1002" type="letter">
                 <salute>"MY DEAR MARK:--</salute>
@@ -920,12 +920,12 @@ den Linden,' in Berlin. I was in a little danger lest the rocks might cut my gra
                 <p xml:id="sdpanol_130512">"This is a splendid country for a botanist. I do not know when I can persuade myself to leave it. I find so much that is delightful here. I have learned to live like the people here, and it does very well indeed. Sometimes I find I can go very well for several days, as the Arabs do, with the sustenance of small balls of ground coffee, which I can generally obtain in this latitude. It is very convenient, and easily portable."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="sdpanol_130515">"Good Lord!" ejaculated Victor, "what a diet!"</p>
         <p xml:id="sdpanol_130516">Mark smiled as he glanced up from his letter. Docteur Canonge was rubbing his hands in glee. Homer was a man after his own heart.</p>
         <p xml:id="sdpanol_130517">"Oh, but I <hi rend="italic">should</hi> like to eat coffee wiz such a compagnon!" said the docteur; "it would be nectare of zie gods!"</p>
-        <p xml:id="sdpanol_130521">"Besides," continued Mark, reading, <q><text xml:id="sdpanol_130520"><body xml:id="sdpanol_130519"><div xml:id="sdpanol_1003" type="letter"><p xml:id="sdpanol_130518">I have frequently much fruits and many plants which are edible and known to me, so that I fare well. Some day you will find me knocking at your gate, dear Mark, when, if ever, I can persuade myself to quit this land of interest and wonders. Make my compliments to your venerable and most admired grandfather, Monsieur le Marquis and Docteur Canonge, whom I hope some day to see, and to lay at his feet my most respectful homage. With unchanging friendship, believe me, my dear Mark,</p><signed>"Yours,      "RöMER."</signed></div></body></text></q></p>
+        <p xml:id="sdpanol_130521">"Besides," continued Mark, reading, <q><floatingText xml:id="sdpanol_130520"><body xml:id="sdpanol_130519"><div xml:id="sdpanol_1003" type="letter"><p xml:id="sdpanol_130518">I have frequently much fruits and many plants which are edible and known to me, so that I fare well. Some day you will find me knocking at your gate, dear Mark, when, if ever, I can persuade myself to quit this land of interest and wonders. Make my compliments to your venerable and most admired grandfather, Monsieur le Marquis and Docteur Canonge, whom I hope some day to see, and to lay at his feet my most respectful homage. With unchanging friendship, believe me, my dear Mark,</p><signed>"Yours,      "RöMER."</signed></div></body></floatingText></q></p>
         <pb xml:id="sdpanol_130522" n="131     A GERMAN NATURALIST."/>
         <p xml:id="sdpanol_130523">"Dat is a man! a man among zouzands!" commented Docteur Canonge, clasping his paste-covered fingers together enthusiastically. "It is a friend to be proud for, my dear Mark!"</p>
         <p xml:id="sdpanol_130524">Victor ran his fingers through his soft, dark curls and looked laughingly at his grandfather.</p>
@@ -1207,7 +1207,7 @@ his independence ; but she knew him too well to press the matter, or to say anyt
         <head>CHAPTER XVII.<lb/>
 HOT SPRINGS OF ARKANSAS.</head>
         <q>
-          <text xml:id="sdpanol_130750">
+          <q><floatingText xml:id="sdpanol_130750">
             <body xml:id="sdpanol_130749">
               <div xml:id="sdpanol_1004" type="letter">
                 <dateline>"18--.</dateline>
@@ -1227,7 +1227,7 @@ them, rather an old girl, who wears spectacles and does up the principal literar
 here very much. I take her in every day. It is good for her health."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="sdpanol_130751">"I wonder why women like Natika are so satirical towards their own sex," thought Victor. "The two women I know best, she and Panola, are certainly not given 'to gush,' as she calls it. God knows she is as changeable as a chameleon and very difficult to keep pleased with anything; that is just her charm. And Panola is cold as an iceberg. It would be interesting to thaw her snow. She is far the nobler woman. But then Natika is so cursedly fascinating. Other women are so commonplace beside her!"</p>
       </div>
@@ -1470,7 +1470,7 @@ own hands as well as hers. She found little difficulty; though the laws of Louis
         <p xml:id="sdpanol_130925">Panola was amazed; but one thing was clear to her. She had lost her estate. If she had known
 <pb xml:id="sdpanol_130915" n="218     PANOLA."/>
 of it in time, she was sure, if she had applied to Satana, he would have helped er. But what to do now she did not see. A home with her aunt Bolling she would not accept. Though Panola had never shared her mother's dislike to her aunt, yet she felt somehow as if she would not like to live with or to be dependent on her. So "she wrote a note declining her aunt's proffered kindness; and to Mark she wrote, frankly telling him she had not known anything about the law suit and judgment. But it was too late to remedy the evil now. The property was gone. Docteur Canonge wrote a loving letter to Panola, inviting her to come "to take care of him and his poor Mark." Panola, wept over the affectionate letter of the good old man. But she could not go to Docteur Canonge. Shortly afterward Mark received this letter from her
-<q><text xml:id="sdpanol_130924"><body xml:id="sdpanol_130923"><div xml:id="sdpanol_1005" type="letter"><salute>"DEAR MARK:--</salute><p xml:id="sdpanol_130917">I have at last succeeded in arranging my little affairs. Through the kindness of Von La Hache and Olivera, who aided me, the one on the piano, and the other with his exquisite violin, I gave a very successful concert here last night. You will see the notice of it in the papers of the day, which I send you. The laudations are rather extravagant, but it was quite a little triumph for me. I was rather not frightened, more <hi rend="italic">excited</hi>, when Olivera led me on to the stage, violin in hand. (My Straduarius is finer than his instrument.)
+<q><floatingText xml:id="sdpanol_130924"><body xml:id="sdpanol_130923"><div xml:id="sdpanol_1005" type="letter"><salute>"DEAR MARK:--</salute><p xml:id="sdpanol_130917">I have at last succeeded in arranging my little affairs. Through the kindness of Von La Hache and Olivera, who aided me, the one on the piano, and the other with his exquisite violin, I gave a very successful concert here last night. You will see the notice of it in the papers of the day, which I send you. The laudations are rather extravagant, but it was quite a little triumph for me. I was rather not frightened, more <hi rend="italic">excited</hi>, when Olivera led me on to the stage, violin in hand. (My Straduarius is finer than his instrument.)
 <pb xml:id="sdpanol_130916" n="219          A SUCCESSFUL DEBUTANTE."/>
 You know mine was found in Mexico in an old Spanish family, where it had been an heirloom, and papa paid an immense sum for it. Poor papa! He little thought he was purchasing a means for his daughter to make her bread. At first, my eyes took in a sea of faces and heads that made my own head swim. But Von La Hache struck a bold chord to cover my confusion, and Olivera kindly whispering 'courage, allons,' drew his bow across the violin in the first notes of our duo, which it had been considered best for me to make my essay in public with. At the sound of the violin a wonderful sense of power stole over me, and settling my Straduarius, I drew my bow with as much firmness of touch and clearness of tone as I ever did in my life. I forgot the faces, and only listened to the witching notes from Olivera's instrument as it mounted, like a bird, higher and higher, I following in a vain emulation, until at last we both burst out into a gush of music that carried us both away. I believe we both forgot the audience. I am sure I did, until I was recalled to consciousness by the storm of applause. It was very exciting, the waving of handkerchiefs, and the air seemed to rain flowers, as bouquets fell all over the stage around us.</p><p xml:id="sdpanol_130918">"After we had retired, during the interval, Von La Hache seized my hands in ecstasy. 'Dear Madame, your fortune is made. You play like an angel.'</p><pb xml:id="sdpanol_130919" n="220     PANOLA."/><p xml:id="sdpanol_130920">"Well! You know <hi rend="italic">Francia's angels are</hi> playing on violins in those famous pictures of his. And I have seen a St. Cecelia also playing on the violin. So Von La Hache's compliment was not so far out of the way. The issue of it all, dear Mark, is that your little Panola is become suddenly famous. The impresario of the opera house has called upon me this morning, with proposals for a series of concerts, and others have been here, editors and all sorts of people, urging different kinds of engagements and plans upon me until my head aches. But I think I shall accept an offer from an agent who wishes me to give concerts in all the principal cities, and perhaps I shall go to Europe. I have secured a good respectable maid, over middle age, to accompany me. Love to grand papa Canonge and to Lizbette.</p>    <salute> Your affectionate</salute><signed>"PANOLA.</signed></div><div xml:id="sdpanol_130922" type="postscript"><p xml:id="sdpanol_130921">"P. S.--I have made one thousand dollars
 already by my concerts. You see I shall be quite rich if I go on. Dear
@@ -1478,7 +1478,7 @@ Mark, you must let me help grandpapa Canonge. I know how proud you are
 about money, but I have a right to help the dear old man, who is like
 my father. I shall deposit money from time to time, subject to your
 order, for <hi rend="italic">his use</hi>. You can draw it without
-letting him know. Won't you do this for <hi rend="italic">me?</hi>--for <hi rend="italic">Panola?"</hi></p></div></body></text></q></p>
+letting him know. Won't you do this for <hi rend="italic">me?</hi>--for <hi rend="italic">Panola?"</hi></p></div></body></floatingText></q></p>
         <p xml:id="sdpanol_130927">Mark read this letter with mingled feelings. He
 <pb xml:id="sdpanol_130926" n="221     A SUCCESSFUL DEBUTANTE."/>
 was proud of Panola's great success, and yet he disliked the publicity of it all. He disliked to take money from her, and yet he saw how it would hurt her if he refused it. They were very poor now. The old docteur was getting too old and too feeble to continue his practice. Lizbette was old and rheumatic, and Mark was helpless. His three hundred per annum, from his uncle Jacob's will, was really all that they had to depend upon to keep the little household from destitution. His grandfather talked of selling his books, but Mark knew that that would break the old man's heart; and then he would get little or nothing for them in the depressed condition of the country. Mark thought over every thing. Victor and Natika had both written, proffering aid to their grandfather and to Mark, but both had rejected it with scorn. They had disclaimed all further intercourse with Victor and Natika, who had gone away together and had been privately married as soon as Panola had procured the divorce.</p>
@@ -1486,9 +1486,9 @@ was proud of Panola's great success, and yet he disliked the publicity of it all
 congratulating her upon her success as a musicienne, and assuring her
 of the hearty sympathy of his grandfather and himself in all her
 undertakings. In regard to the money, he said,
-<q><text xml:id="sdpanol_130931"><body xml:id="sdpanol_130930"><div xml:id="sdpanol_9105" type="letter"><p xml:id="sdpanol_130929">"Yes, Panola, I will take from <hi rend="italic">you</hi> so much as is needful for the comfort of my grandfather, who loves you so much; and even what <hi rend="italic">I</hi> absolutely
+<q><floatingText xml:id="sdpanol_130931"><body xml:id="sdpanol_130930"><div xml:id="sdpanol_9105" type="letter"><p xml:id="sdpanol_130929">"Yes, Panola, I will take from <hi rend="italic">you</hi> so much as is needful for the comfort of my grandfather, who loves you so much; and even what <hi rend="italic">I</hi> absolutely
 <pb xml:id="sdpanol_130928" n="222      PANOLA."/>
-need I will take from <hi rend="italic">you</hi>--what I would not from any other living being. But I have enough for my small wants, you know, from my uncle Jacob's will. Write to us daily, Panola. We miss you every hour, and talk of you, and think of you always.</p><salute>Your friend and relative,</salute><signed>"MARK BOLLING."</signed></div></body></text></q></p>
+need I will take from <hi rend="italic">you</hi>--what I would not from any other living being. But I have enough for my small wants, you know, from my uncle Jacob's will. Write to us daily, Panola. We miss you every hour, and talk of you, and think of you always.</p><salute>Your friend and relative,</salute><signed>"MARK BOLLING."</signed></div></body></floatingText></q></p>
         <p xml:id="sdpanol_130933">Poor Mark wrote and rewrote and erased his letter in order to get it cool enough, and yet to give some expression to gratitude natural under the circumstances and proper to be expressed. So Panola started off on her tour of concert-giving, and she wrote a journal, which she sent back continually to the little household, which she called now "home." It was the only excitement they had in the quiet monotony of the sad country; and Mark looked with impatient eagerness for the daily coming of the long letters which never failed, and which amused grandfather Canonge excessively. Panola's observations were so original and so fresh. The old man would laugh till tears were in his eves, over her descriptions of scenes and the people she met.</p>
       </div>
       <pb xml:id="sdpanol_130934" n="223     SEVENTEENTH CENTURY POISON."/>
@@ -1590,7 +1590,7 @@ corner of the earth "Louisiana" was located; and would spread their fingers over
         <p xml:id="sdpanol_1301006">She did not know that they were patronizing her! She thought she was doing them a great favor in playing for them. Her happiest hours were when she stood, violin in hand, before the public. There was no stay in the furore that she inspired, and her agent gathered in gold with both hands. He gave her a fair portion of it, and she sent it all home to "grandpapa and Mark." Her pure, loving heart was anchored there, in that nook of the Louisiana prairie country.</p>
         <p xml:id="sdpanol_1301007">From Paris, where she now was, she wrote thus to Mark:</p>
         <q>
-          <text xml:id="sdpanol_1301040">
+          <q><floatingText xml:id="sdpanol_1301040">
             <body xml:id="sdpanol_1301039">
               <div xml:id="sdpanol_1007" type="letter">
                 <p xml:id="sdpanol_1301009">"I have been here a month-well received. I think the Parisians are kinder to me because I come from a French colony, and they think I am a Creole. They feel a sort of <hi rend="italic">esprit de famille</hi> in me. The papers are very complimentary; but better than all is the kindly manner in which the great musicians here receive me. They are truly good to me. At my first concert I recognized, in one of the side loges, Victor. It did not agitate me to see him there. I don't believe I should mind meeting him
@@ -1603,7 +1603,7 @@ at all. I only disliked Victor during the brief period that I was his nominal wi
                 <p xml:id="sdpanol_1301017">"I was called back three times after every piece,
 <pb xml:id="sdpanol_1301012" n="240     PANOLA."/>
 and at the last encore I signed to have my violin handed back to me. It was brought. When I took it again in my hands, smiling, the house rose. You never heard such a noise as they did make; but at the first scrape of the bow all was still. I played, for the first time in Europe, an improvisation. I played it for Victor I played some things he used to sing for us--some things mamma liked--as tenderly as I could; then I played some modulations, and got into 'Dixie' and the 'Bonnie Blue Flag;' and wound up with an allegro on the corn song of the negroes, and the extravaganza of the 'Arkansas Traveller.' Victor knew then that I had recognized him. He waved his hand sadly, and put it up over his eyes--I think he wept. I quitted the stage, and the curtain dropped. As I was leaving the dressing-room to return to my lodgings, accompanied, as usual, by my good Ellen, a note was handed me from Victor--here it is; I send it to you to read:
-<q><text xml:id="sdpanol_1301016"><body xml:id="sdpanol_1301015"><div xml:id="sdpanol_9107" type="letter"><salute>"'PANOLA:--</salute><p xml:id="sdpanol_1301014">I think, from your music to-night, that you have forgiven me. You can recall the past without pain or anger. I know that means that you never did love me much. If you loved me you would not have forgiven or forgotten so readily. So that emboldens me--as mortifying as the facts may be to any man's vanity--yet it emboldens me to approach you. They tell me I am
+<q><floatingText xml:id="sdpanol_1301016"><body xml:id="sdpanol_1301015"><div xml:id="sdpanol_9107" type="letter"><salute>"'PANOLA:--</salute><p xml:id="sdpanol_1301014">I think, from your music to-night, that you have forgiven me. You can recall the past without pain or anger. I know that means that you never did love me much. If you loved me you would not have forgiven or forgotten so readily. So that emboldens me--as mortifying as the facts may be to any man's vanity--yet it emboldens me to approach you. They tell me I am
 <pb xml:id="sdpanol_1301013" n="241     PANOLA IN PARIS."/>
 dying. I suppose I am. I suffer enough, God knows! and I feel so
 utterly forlorn and so lonely. I can't tell you what I felt in hearing
@@ -1616,7 +1616,7 @@ one feels how bitter it is to be an exile from one's country." Oh,
 Panola! illness and pain act like old age for me! I can't tell you how
 I long and yearn for home, and for the old familiar faces. It would be
 a charity in you to receive me for an hour. May I come? If so, send a
-note to Numero 11, Rue St. Honore.</p><salute> "'VICTOR.'</salute></div></body></text></q></p>
+note to Numero 11, Rue St. Honore.</p><salute> "'VICTOR.'</salute></div></body></floatingText></q></p>
                 <p xml:id="sdpanol_1301018">"I wrote him to come the next morning at eleven o'clock.</p>
                 <milestone rend="stars" unit="section"/>
                 <p xml:id="sdpanol_1301019">"Punctually at eleven o'clock Victor entered my little salon. Ellen was sewing in the adjoining apartment, with the door opened between us. Victor was very much agitated--more than I was. He kissed my hand in silence as I extended it to him; then he began to cough. I pushed an easy-chair towards him, and stirred up the fire to make it blaze. Victor threw himself in the chair.</p>
@@ -1642,11 +1642,11 @@ to grandpapa. Answer him kindly, clear Mark--dearest grandpapa: the poor fellow 
                 <p xml:id="sdpanol_1301038">"Natika is in Egypt, with her relatives. Victor does not speak of her much to me, of course; though he might do so if he liked; it wouldn't hurt me at all."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="sdpanol_1301041">Victor wrote:</p>
         <q>
-          <text xml:id="sdpanol_1301049">
+          <floatingText xml:id="sdpanol_1301049">
             <body xml:id="sdpanol_1301048">
               <div xml:id="sdpanol_1008" type="letter">
                 <dateline>"PARIS, 18--.</dateline>
@@ -1664,11 +1664,11 @@ understand about it exactly. I must tell you that 'zose Injuns'--as grandpapa ca
                 <signed>"VICTOR."</signed>
               </div>
             </body>
-          </text>
+          </floatingText>
         </q>
         <p xml:id="sdpanol_1301050">Victor to Mark, later.</p>
         <q>
-          <text xml:id="sdpanol_1301066">
+          <floatingText xml:id="sdpanol_1301066">
             <body xml:id="sdpanol_1301065">
               <div xml:id="sdpanol_1009" type="letter"><dateline>"PARIS, 18--.</dateline><salute>"DEAREST MARK:--</salute><p xml:id="sdpanol_1301052">Your kind letter, containing the few precious words from grandpapa, reached me only a few minutes ago. Thanks, a thousand thanks, that you will receive back your prodigal, alas! not
 <pb xml:id="sdpanol_1301051" n="247     PANOLA IN PARIS."/>
@@ -1686,14 +1686,14 @@ week; pray God for me that I may live to see your face once more, and
 dear grandpapa's.</p>    <signed> "YOUR
 VICTOR."</signed></div>
             </body>
-          </text>
+          </floatingText>
         </q>
       </div>
       <div xml:id="sdpanol_028" n="28" type="chapter">
         <head>CHAPTER XXVIII.<lb/>
 VICTOR'S DEATH.</head>
         <q>
-          <text xml:id="sdpanol_1301088">
+          <floatingText xml:id="sdpanol_1301088">
             <body xml:id="sdpanol_1301087">
               <div xml:id="sdpanol_91010" type="letter">
                 <dateline>"NEW YORK, 18--.</dateline>
@@ -1722,7 +1722,7 @@ that I persisted in coming with him. I don't know what he would have done withou
                 <signed>"PANOLA."</signed>
               </div>
             </body>
-          </text>
+          </floatingText>
         </q>
         <pb n="252 PANOLA." pages="252" facs="sdpanol252"/>
         <p xml:id="sdpanol_1301090">The group of friends stood around Victor's open grave. The words
@@ -1796,34 +1796,34 @@ are glitteringly white in the splendor of its light. On the topmost bough of the
     </body>
     <back xml:id="sdpanol_1206">
       <div xml:id="sdpanol_bm" type="advertisments">
-        <figure><graphic url="ENTITY_sdpanolbkm01" rend="inline"/>
+        <figure><graphic url="sdpanolbkm01.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_sdpanolbkm02" rend="inline"/>
+        <figure><graphic url="sdpanolbkm02.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_sdpanolbkm03" rend="inline"/>
+        <figure><graphic url="sdpanolbkm03.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_sdpanolbkm04" rend="inline"/>
+        <figure><graphic url="sdpanolbkm04.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_sdpanolbkm05" rend="inline"/>
+        <figure><graphic url="sdpanolbkm05.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_sdpanolbkm06" rend="inline"/>
+        <figure><graphic url="sdpanolbkm06.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_sdpanolbkm07" rend="inline"/>
+        <figure><graphic url="sdpanolbkm07.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_sdpanolbkm08" rend="inline"/>
+        <figure><graphic url="sdpanolbkm08.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_sdpanolbkm09" rend="inline"/>
+        <figure><graphic url="sdpanolbkm09.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_sdpanolbkm10" rend="inline"/>
+        <figure><graphic url="sdpanolbkm10.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of Sarah A. Dorsey's <hi rend="italic">Panola</hi>.</figDesc>
         </figure>
       </div>

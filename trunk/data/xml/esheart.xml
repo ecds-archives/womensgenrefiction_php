@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="esheart_12031">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="esheart_12031">
   <teiHeader xml:id="esheart1201"><fileDesc>
       <titleStmt>
         <title>A Tortured Heart, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author> <title>A Tortured Heart,
@@ -80,7 +80,7 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="esheart_12030">
     <front xml:id="esheart_1202">
       <div xml:id="esheart_000" type="covers">
-        <figure><graphic url="ENTITY_esheartfc" rend="inline"/>
+        <figure><graphic url="esheartfc.jpg" rend="inline"/>
           <figDesc>The front cover of Southworth's <hi rend="italic">A Tortured Heart</hi>.</figDesc>
         </figure>
       </div>
@@ -101,7 +101,7 @@ Serpent"</titlePart>
       </titlePage>
       <pb xml:id="esheart_1307" n="[2]"/>
       <div xml:id="esheart_001" type="advert">
-        <figure><graphic url="ENTITY_esheartad" rend="inline"/>
+        <figure><graphic url="esheartad.jpg" rend="inline"/>
           <figDesc>Advertisement included in the front of Southworth's <hi rend="italic">A Tortured Heart</hi>.</figDesc>
         </figure>
       </div>
@@ -398,7 +398,7 @@ There will be no danger to me. And now, as I shall be off to the meet to-morrow 
         <p xml:id="esheart_130273">"An office boy brought it over from Hawkeville in the ferryboat, your grace."</p>
         <p xml:id="esheart_130274">The duchess glanced over the dispatch and then read it aloud to her daughters:</p>
         <q>
-          <text xml:id="esheart_1204">
+          <q><floatingText xml:id="esheart_1204">
             <body xml:id="esheart_1203">
               <div xml:id="esheart_100" type="letter">
                 <opener>
@@ -410,7 +410,7 @@ There will be no danger to me. And now, as I shall be off to the meet to-morrow 
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esheart_130276">"So he is gone at length, poor old gentleman," said Lady Hawkewood.</p>
         <p xml:id="esheart_130277">"Is the messenger waiting?" inquired the duchess.</p>
@@ -418,7 +418,7 @@ There will be no danger to me. And now, as I shall be off to the meet to-morrow 
         <p xml:id="esheart_130279">"Then bring me writing materials from the library."</p>
         <p xml:id="esheart_130280">When the servant had obeyed this order, the duchess wrote a hasty acknowledgment of the telegram, as follows:</p>
         <q>
-          <text xml:id="esheart_1206">
+          <q><floatingText xml:id="esheart_1206">
             <body xml:id="esheart_1205">
               <div xml:id="esheart_101" type="letter">
                 <opener>
@@ -430,7 +430,7 @@ There will be no danger to me. And now, as I shall be off to the meet to-morrow 
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esheart_130282">The duchess sent this answer by the same boy who brought the dispatch.</p>
         <p xml:id="esheart_130283">Then she gave orders that a mounted groom should ride full speed to Bowling Green to carry the news to the duke--news that would certainly recall him immediately to the castle.</p>
@@ -863,7 +863,7 @@ she wore upon her dark hair a little breakfast cap of white crepe lisse.</p>
         </q>
         <p xml:id="esheart_130678">Lady Hawkewood now did what she had not done since the beginning of the estrangement between herself and the earl. She opened and read his letter--read it the more willingly that it was couched in the coldest, most formal and businesslike terms.</p>
         <q>
-          <text xml:id="esheart_1208">
+          <q><floatingText xml:id="esheart_1208">
             <body xml:id="esheart_1207">
               <div xml:id="esheart_102" type="letter">
                 <opener><dateline>"<name type="place">CASTLE BELLE ISLE</name>, <date>Oct. 27, 18-</date>.</dateline><salute>"TO THE COUNTESS OF HAWKEWOOD--MADAM</salute>:</opener>
@@ -880,7 +880,7 @@ explanation you must acknowledge to be absolutely necessary in view of the dutie
 obedient servant,</salute> <signed>HAWKEWOOD.</signed>"</closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esheart_130687">The countess read this strange letter quite through. Then holding it in her hand, upon her lap, she mused upon it for some moments.</p>
         <p xml:id="esheart_130689">"The most reckless letter, under the circumstances, that I ever read!" she muttered to herself. "Does he not know why I will not associate with him any longer? Does not his conscience warn him? Does he pretend that he wants an explanation, because he believes that I will not have the courage to give one? Oh! I have but little courage for such a terrible ordeal!" she added, with a shudder; "but whether he really desires an interview with an explanation, or whether he only pretends that he does, in the belief that I am afraid to make one, and that he will in this manner place me at disadvantage--one thing is cer-
@@ -1843,7 +1843,7 @@ husband--not with longing, but with dread. She prayed--prayed earnestly--that so
         <p xml:id="esheart_1301561">While she sat thus a chambermaid came to her room bearing a note, which the girl told the lady had been brought by a soldier from the barracks, and that he would wait for an answer.</p>
         <p xml:id="esheart_1301562">Isoline opened the envelope and read:</p>
         <q>
-          <text xml:id="esheart_12010">
+          <q><floatingText xml:id="esheart_12010">
             <body xml:id="esheart_1209">
               <div xml:id="esheart_103" type="letter"><opener><dateline>"OFFICERS' MESSROOM, <name type="place">HOBART TOWN</name><lb/>
 BARRACKS, Thursday Evening.</dateline><salute>"DEAREST LOVE</salute>:</opener> <p xml:id="esheart_1301563">I feel so annoyed to find
@@ -1853,12 +1853,12 @@ see that the fastenings of your doors and windows are secure. This I
 advise merely to make 'assurance doubly sure.' You need not be
 afraid. You are quite safe. Heaven bless you.</p><closer><signed> COSMO."</signed></closer></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esheart_1301564">"Another respite!" said Isoline to herself, as she heaved a deep sigh--not of disappointment, but of relief.</p>
         <p xml:id="esheart_1301565">She sat down and penned the following lines:</p>
         <q>
-          <text xml:id="esheart_12012">
+          <q><floatingText xml:id="esheart_12012">
             <body xml:id="esheart_12011">
               <div xml:id="esheart_104" type="letter"><opener><dateline><name type="place">"ROYAL VICTORIA HOTEL</name>, Thursday Evening.</dateline><salute>"MY OWN DEAREST ONE</salute>:</opener> <p xml:id="esheart_1301566">Do not give yourself
 a moment's uneasiness. I am not afraid to stay here with Lona Pond in
@@ -1867,7 +1867,7 @@ never to be parted from you even for an hour. But when duty interferes
 to separate us for a few hours I must not, and I do not, complain. May
 Heaven bless you also!</p><closer><signed> ISOLINE."</signed></closer></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="esheart_1301567" n="120     A TORTURED HEART"/>
         <p xml:id="esheart_1301568">She sent this note down by the chambermaid to the soldier who was waiting to take it to the barracks.</p>
@@ -1878,13 +1878,13 @@ Heaven bless you also!</p><closer><signed> ISOLINE."</signed></closer></div>
         <p xml:id="esheart_1301573">She opened it "in tremor and in fear."</p>
         <p xml:id="esheart_1301574">She read:</p>
         <q>
-          <text xml:id="esheart_12014">
+          <q><floatingText xml:id="esheart_12014">
             <body xml:id="esheart_12013">
               <div xml:id="esheart_105" type="letter"><opener><dateline>"<name type="place">GOVERNMENT HOUSE</name>, Thursday Evening.</dateline><salute>"ISOLINE</salute>:</opener> <p xml:id="esheart_1301575">I know that your husband has been occupied all day, so that you have had no opportunity of confiding to him the dreaded secret you feel it your duty to tell, even at the price of your mother's life and honor. I know also that Lieut. Belle Isle is on duty at the barracks, and that you are alone at your hotel, and that you will have no occasion to make your communication to him until to-morrow morning.</p><p xml:id="esheart_1301576">"I also am alone in my private apartments, his excellency being closeted with some gentlemen for the evening.</p><p xml:id="esheart_1301577">"Now, I must have a <hi rend="italic">tête-à-tête</hi>with you this very night. I have received by the <hi rend="italic">Labrador</hi> the most startling news from England, which will profoundly affect my destiny and yours. I must impart this news to you at once, before you have any explanations on a certain subject with your husband.</p><p xml:id="esheart_1301578">"Come to me without delay. I send a carriage for you.</p><p xml:id="esheart_1301579">"You may bring your maid, if you please; but if you do, you must
 leave her in the carriage outside while you come in to me. Come
 quickly to your sorely tried but still affectionate mother,</p><closer><signed> M. SEYRES</signed>."</closer></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esheart_1301580">Isoline folded the note and put it in her pocket, summoned her own maid, and said:</p>
         <p xml:id="esheart_1301581">"Give me my traveling hat and sacque, and then get ready quickly to attend me. I am going out for a drive."</p>
@@ -1923,13 +1923,13 @@ a fraud that, if brought home to me, would be felony, punishable with transporta
         <p xml:id="esheart_1301612">The viscountess turned up the light of the moderator lamp on the sofa stand and drew a letter from the pocket of her ruby velvet dress.</p>
         <p xml:id="esheart_1301613">"It is from Poinsett, poor man! He thought I would be quite overwhelmed by the news he had to tell me. He little knew what a deliverance it would be. Listen:</p>
         <q>
-          <text xml:id="esheart_12016">
+          <q><floatingText xml:id="esheart_12016">
             <body xml:id="esheart_12015">
               <div xml:id="esheart_106" type="letter"><opener><dateline>"'<name type="place">LINCOLN'S INN FIELDS, LONDON,</name><date>Dec. 15, 18--.</date></dateline><salute>"MY DEAR MADAM</salute>:</opener> <p xml:id="esheart_1301614">I fear the announcement I am about to make will fill you with as much surprise and distress as I myself experienced on first discovering the facts.</p><p xml:id="esheart_1301615">"'You may remember that on the occasion of the reading of the will of my late client, Maria, Princess Zavieski, I informed you that I had not been employed to draw up that will, and that my father and predecessor had drawn it up, under the immediate verbal instructions of the princess, and that the custody of the will had descended to me with that of all other documents relating to the Zavieski estate, which came to me with the business of my father.</p><p xml:id="esheart_1301616">"'At the time that I produced this will, after the funeral of the late princess, I had not the slightest suspicion that a later will existed.</p><p xml:id="esheart_1301617">"'Last week, however, on opening a box containing some old leases to which I wished to refer, I found, to my astonishment, a will dated some five years later than the one under which you inherited the whole property.</p><p xml:id="esheart_1301618">"'By this later will, which is regularly drawn up and witnessed, the whole property is bequeathed equally and unconditionally to you and to Cosmo Belle Isle, share and share alike.</p><p xml:id="esheart_1301619">"'How the former canceled will happened not to be destroyed, and the last will came to be mislaid, I cannot understand, except upon the reflection that the last will was drawn up and executed during the months of my father's life when age and infirmities had rather incapacitated him for the details of office business.</p><p xml:id="esheart_1301620">"'However, the present will is the only one valid in law, and under it the nephew by marriage of the late Princess Zavieski--Lieut. the Hon. Cosmo Belle Isle--inherits half the estate.</p><p xml:id="esheart_1301621">"'I am really very sorry for this on your account.</p><pb xml:id="esheart_1301622" n="124     A TORTURED HEART"/><closer>"'Waiting your instructions in the premises, <salute>I am,
 madam, your obedient servant,</salute> <signed>PETER
 POINSETT</signed>.'</closer></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esheart_1301623">"There!" said the viscountess, "that is the lawyer's letter. I have the legal right to one-half my late aunt's estate, for it was left me unconditionally. Cosmo Belle Isle has a legal right to the other half, and to no more. So he will not be wronged out of a farthing. He will, of course, receive the rents and the interest of invested funds to the amount of half the income of the estates for the last year, and an equal share of the real estate and capital as soon as the transfer can be made. So you see, Isoline, you have not the least occasion to denounce your mother to your husband," concluded the lady.</p>
         <p xml:id="esheart_1301624">"No, I have not, And, oh! how I thank Heaven for this deliverance!" exclaimed Isoline, bursting into tears and sobbing for joy.</p>
@@ -2011,7 +2011,7 @@ latest copy of the <hi rend="italic">London Times</hi>, that had come out in the
         <p xml:id="esheart_1301696">"If you please, sir, it is the soldier from the government house. He has brought a note for my mistress," answered the girl, as she walked across the room and laid a folded paper in the lap of the lady.</p>
         <p xml:id="esheart_1301697">Isoline opened it and read:</p>
         <q>
-          <text xml:id="esheart_12018">
+          <q><floatingText xml:id="esheart_12018">
             <body xml:id="esheart_12017">
               <div xml:id="esheart_107" type="letter"><opener><dateline>"<name type="place">GOVERNMENT HOUSE</name>, Friday Morning.</dateline><salute>"ISOLINE</salute>:</opener> <p xml:id="esheart_1301698">All is over! I have had a full explanation with Lord Seyres this morning.</p><p xml:id="esheart_1301699">"Oh! he has forgiven me! He has forgiven me like his own noble and magnanimous self!</p><p xml:id="esheart_1301700">"But I am overwhelmed with sorrow and humiliation! For I know now through the deep grief that it has caused him how great my sin has been! And though he is more deeply grieved than angered, and though, having once forgiven me, he will never, never. by word or look, reproach me with my fault, yet I feel and know that I have fallen so far beneath his esteem that I can never, never be reinstated in it!</p><p xml:id="esheart_1301701">"Oh, it is bitter! It is passing bitter!</p><p xml:id="esheart_1301702">"The hardest words he said to me were these:</p><p xml:id="esheart_1301703">"'Since you were married under your maiden name, to which you had no further right, we must be quietly remarried by our chaplain and under your proper name. Since this was to happen, I am glad that it has happened at the antipodes of our native land. It will save us both much exposure and mortification.</p><p xml:id="esheart_1301704">"'But we must not let the guiltless young people suffer for our own misfortunes. Send for your poor daughter and her husband. See them alone at first. It will be less embarrassing. I will see them later.'</p><p xml:id="esheart_1301705">"Yes, Isoline, those were his words! I never loved and honored him so much as now, when, oh, my soul! I have forfeited his good opinion forever!</p><p xml:id="esheart_1301706">"He has gone out and left me here to receive you and Cosmo. Come at once and bring him to your poor mother.</p><closer><signed>"M. SEYRES.</signed></closer></div>
               <pb xml:id="esheart_1301707" n="131     A TORTURED HEART"/>
@@ -2022,7 +2022,7 @@ latest copy of the <hi rend="italic">London Times</hi>, that had come out in the
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esheart_1301709">Isoline finished and folded the letter, with a deep sigh.</p>
         <p xml:id="esheart_1301710">"That is a long note, my love! Who is it from and what is it about--if I may be permitted to ask you? You need not answer unless you like," said Lieut. Belle Isle, in a light and bantering tone, for the young fellow felt very gay and happy over his unexpected inheritance of a fortune.</p>
@@ -2665,14 +2665,14 @@ risked such a contingency yet! But I may have to do so before I reach London."</
 I am going there, and I mean to make my fortune by hook or by crook, so as to send for you and marry you and make a lady of you, as many a poor man has done by his sweetheart before me," said the tramp.</p>
         <p xml:id="esheart_1302294">"Lord grant it, Ham, dear! But now listen while I read you this description, which was like enough to you a month ago, but see how it fits you now," said the girl. And sitting down on the pile of stones, with her back to the fence, she held out the broad poster between her two hands, and read as follows:</p>
         <q>
-          <text xml:id="esheart_12020">
+          <q><floatingText xml:id="esheart_12020">
             <body xml:id="esheart_12019">
               <div xml:id="esheart_109" type="excerpt">
                 <head>"'TWO HUNDRED POUNDS REWARD.</head>
                 <p xml:id="esheart_1302295">"'By order of the Lord Lieutenant of the county the above reward is hereby offered and will be given for the apprehension of Henri Delaplaine and Ham Gow, charged with the murder of the late Earl of Hawkewood. Said Henri Delaplaine--'</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esheart_1302296">"But I'll skip all that and come to you," said Lona Pond, interrupting herself, as she passed the poster down through her hands and read on--with running comments:</p>
         <q>
@@ -2788,7 +2788,7 @@ twelve hours' walk of the great metropolis, which he hoped to reach quite easily
         <p xml:id="esheart_1302395">He looked at the heading that had caught his sight with more attention, and then burst into a peal of laughter.</p>
         <p xml:id="esheart_1302396">The paragraph was:</p>
         <q>
-          <text xml:id="esheart_12022">
+          <q><floatingText xml:id="esheart_12022">
             <body xml:id="esheart_12021">
               <div xml:id="esheart_110" type="excerpt">
                 <head>"NOT HAM GOW.</head>
@@ -2797,7 +2797,7 @@ twelve hours' walk of the great metropolis, which he hoped to reach quite easily
 his old tricks, and is now wanted by the police on another account. And, therefore, though Mr. Hice is freed from the charge of murder in Cornwall, he is held for highway robbery in Kent. The criminal, Ham Gow, is still supposed to be at large."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esheart_1302399">Mr. Gow read this paragraph very carefully from beginning to end, and then threw back his head and laughed long and loudly.</p>
         <p xml:id="esheart_1302400">When his peal of mirthful laughter was over, he thrust the paper in his pocket and arose to resume his journey, muttering to himself as he walked down the lane:</p>
@@ -4506,7 +4506,7 @@ happy girl we have been discussing is never mentioned in the presence of my fath
         <p xml:id="esheart_1303970">HE recalled all the circumstances as he had followed them through the daily papers, from the first announcement of the discovery of the murder to the very end of the affair, when the convicted young murderess had had her sentence of death commuted to transportation for life.</p>
         <p xml:id="esheart_1303971">He recalled a certain dismal vacation spent at Hawkewood, when it drizzled incessantly for a month, and when his only excitement was the daily arrival of the <hi rend="italic">Times</hi>, and how he thought just then that the "Thunderer" was about as heavy as the weather, until one morning when he read the caption of a paragraph as follows:</p>
         <q>
-          <text xml:id="esheart_12024">
+          <q><floatingText xml:id="esheart_12024">
             <body xml:id="esheart_12023">
               <div xml:id="esheart_111" type="excerpt">
                 <head>STRANGE DISAPPEARANCE OF A CHILD</head>
@@ -4522,13 +4522,13 @@ been employed to prosecute the search. Large rewards have been offered
 for news."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esheart_1303978">This was the first intimation the public received of an event that was destined to develop into one of the most heartrending domestic tragedies that ever desolated a Christian home or shocked a civilized community.</p>
         <p xml:id="esheart_1303979">A few days passed, which, of this affair, only chronicled the futile efforts of detectives to discover the fate of the lost boy.</p>
         <p xml:id="esheart_1303980">At the end of the week came another sensational paragraph:</p>
         <q>
-          <text xml:id="esheart_12026">
+          <q><floatingText xml:id="esheart_12026">
             <body xml:id="esheart_12025">
               <div xml:id="esheart_112" type="excerpt">
                 <head>"DISCOVERY OF THE MUTILATED REMAINS OF THE CHILD AT
@@ -4536,20 +4536,20 @@ for news."</p>
                 <p xml:id="esheart_1303981">"No clue has been obtained to the murderer. The coroner's inquest will be held to-day."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="esheart_1303982">Then followed the distressing details of the finding of the body, the grief of the mother, the opinion of the doctor.</p>
         <p xml:id="esheart_1303983">And for days after this the papers were half filled with details of the inquest and the examination of innumerable witnesses; but no clue was found to the mystery of the murder.</p>
         <p xml:id="esheart_1303984">At last, at the end of the second week, came this:</p>
         <q>
-          <text xml:id="esheart_12028">
+          <q><floatingText xml:id="esheart_12028">
             <body xml:id="esheart_12027">
               <div xml:id="esheart_113" type="excerpt">
                 <head>"THE ROSE HILL MYSTERY.</head>
                 <p xml:id="esheart_1303985">"Startling Developments--Shocking Juvenile Depravity--The Arrest of Margaret Mabel Campbell, a Young Girl of Fourteen Years, and a Cousin of the Deceased, on the Charge of Having Murdered the Late George Stuart Douglas Campbell."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="esheart_1303986" n="307     A TORTURED HEART"/>
         <p xml:id="esheart_1303987">Here followed all the details of the circumstances attending the crime, from the first secret clue gained by the detectives to the unraveling of the whole web of mystery, and the discovery of the murderess in the person of a child of fourteen years.</p>

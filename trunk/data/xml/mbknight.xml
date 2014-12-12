@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mbknight_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mbknight_1206">
   <teiHeader xml:id="mbknight1201"><fileDesc>
       <titleStmt>
         <title>A Knight of Spain, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A Knight of
@@ -105,21 +105,21 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="mbknight_13011" n="[iv]"/>
       <div xml:id="mbknight_002" type="copyright">
-        <figure><graphic url="ENTITY_mbknightcr" rend="inline"/>
+        <figure><graphic url="mbknightcr.jpg" rend="inline"/>
           <figDesc>Copyright page for Bowen's <hi rend="italic">A Knight of Spain</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="mbknight_13012" n="[v]"/>
-      <div xml:id="mbknight_003" type="table of contents">
-        <figure><graphic url="ENTITY_mbknighttc1" rend="inline"/>
+      <div xml:id="mbknight_003" type="table_of_contents">
+        <figure><graphic url="mbknighttc1.jpg" rend="inline"/>
           <figDesc>Page one of the table of contents for Bowen's <hi rend="italic">A Knight of Spain</hi>.</figDesc>
         </figure>
         <pb xml:id="mbknight_13013" n="vi"/>
-        <figure><graphic url="ENTITY_mbknighttc2" rend="inline"/>
+        <figure><graphic url="mbknighttc2.jpg" rend="inline"/>
           <figDesc>Page two of the table of contents for Bowen's <hi rend="italic">A Knight of Spain</hi>.</figDesc>
         </figure>
         <pb xml:id="mbknight_13014" n="vii"/>
-        <figure><graphic url="ENTITY_mbknighttc3" rend="inline"/>
+        <figure><graphic url="mbknighttc3.jpg" rend="inline"/>
           <figDesc>Page one of the table of contents for Bowen's <hi rend="italic">A Knight of Spain</hi>.</figDesc>
         </figure>
       </div>
