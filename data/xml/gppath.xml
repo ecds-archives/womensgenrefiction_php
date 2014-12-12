@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gppath_1301769">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gppath_1301769">
   <teiHeader><fileDesc>
       <titleStmt>
         <title>The Pathway, an electronic edition</title>
@@ -8,7 +8,7 @@
       <publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2007</date><availability>
           <p xml:id="gppath_1301">© 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p>
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/172m6</idno></publicationStmt>
-      <seriesStmt><title>Women's Genre Fiction, 1860-1920</title> <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp><name/></respStmt></seriesStmt>
+      <seriesStmt><title>Women's Genre Fiction, 1860-1920</title> <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt></seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Pathway</title>. <pubPlace>London, Melbourne and Toronto</pubPlace>: <publisher>Ward, Lock &amp; Co., Limited</publisher>, <date>1914</date>.</bibl>
       </sourceDesc>
@@ -53,7 +53,7 @@
     <front xml:id="gppath_13013">
       <pb xml:id="gppath_1305" n="[2]"/>
       <div xml:id="gppath_fm1" type="frontispiece">
-        <figure><graphic url="ENTITY_gppathill1" rend="inline"/>
+        <figure><graphic url="gppathill1.jpg" rend="inline"/>
           <figDesc> Ilustration at the front of Page's "The Pathway"</figDesc>
         </figure>
       </div>
@@ -75,12 +75,12 @@
         <p xml:id="gppath_13010">Copyright, 1913, by Gertrude Page,<lb/>in the United State of America.</p>
       </div>
       <pb xml:id="gppath_13011" n="[5]"/>
-      <div xml:id="gppath_9100" type="table of contents">
-        <figure><graphic url="ENTITY_gppathcont1" rend="inline"/>
+      <div xml:id="gppath_9100" type="table_of_contents">
+        <figure><graphic url="gppathcont1.jpg" rend="inline"/>
           <figDesc> Table of contents in front of Page's "The Pathway"</figDesc>
         </figure>
         <pb xml:id="gppath_13012" n="6"/>
-        <figure><graphic url="ENTITY_gppathcont2" rend="inline"/>
+        <figure><graphic url="gppathcont2.jpg" rend="inline"/>
           <figDesc> Table of contents in front of Page's "The Pathway"</figDesc>
         </figure>
       </div>
@@ -153,7 +153,7 @@ Toby said he couldn't make it do, and he would be better off here with nothing b
         <p xml:id="gppath_13051">"Dirty!" said she, in a voice of disgust. "<hi rend="italic">Hamba gaza</hi>" (Go and wash it). "No wonder your bread tastes like mouldy suet dumpling if you knead it for about two minutes and then cook it in a dirty tin. What garments!" she added to her sister. "Where did he raise them?"</p>
         <p xml:id="gppath_13053">"He did a deal with a mine boy yesterday for the knickerbockers. I told him they were hideous.
 
-<figure><graphic url="ENTITY_gppathill2" rend="inline"/><figDesc> Picture in body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_13052" n="15     A WILDERNESS HOME"/>               
+<figure><graphic url="gppathill2.jpg" rend="inline"/><figDesc> Picture in body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_13052" n="15     A WILDERNESS HOME"/>               
 I went into the kitchen when he was trying them on. Rather embarrassing for both of us!"</p>
         <p xml:id="gppath_13054">Bobbie laughed. "Except that he is so exactly like a chimpanzee, I half imagine him one. All the same, it is a relief the garments are whole. He was scarcely decent in the others. Hullo, who is this? I hear a bicycle bell." And she turned her head towards the screen and bushes from whence emerged the track from the road. Almost at the same moment a gay voice sang out, "Come into the garden, Maud!" and Toby Fitzgerald sprang off his bicycle beside the little rustic verandah in front of the sitting-room hut.</p>
         <p xml:id="gppath_13055">He approached Bobbie, holding out to her an ungainly parcel wrapped in an old piece of newspaper. "Fair lady," he said, while his sunny, blue eyes danced delightfully, "I have brought you a little gift--just a little bon-bon, don't you know. Not exactly a keepsake--at least, I shouldn't recommend it as such." Then, as he unwrapped the greasy newspaper: "Behold! A sirloin of beef from my very own butcher's shop!"</p>
@@ -687,7 +687,7 @@ say nothing about it. Therefore Fortescue has got to get out of the
 way before ever he sets foot on Loka kopje. What's more, it's got to
 be done very neatly, so as to look as if them scoundrel niggers did it, and that's where you've got to help."</p>
         <p xml:id="gppath_130412">"Has it entered this clever head of yours that, if anything happened to a man like Fortescue,there'd be a hue and cry throughout the land? He's a leader, and all the settler community swears by him. They're pretty dangerous devils when roused."</p>
-        <p xml:id="gppath_130415">"Yes," replied Van Tyl, cynically. "They'll probably raze the kraal to the ground, with the niggers in it"--and he laughed. "But, for me, it's only another good reason to finish him. What business has he to thwart my race and say they shan't have Rhodesia? To pour ridicule on my native tongue, and give it as a reason for keeping Rhodesia out of the Union? We're top dog now. We're God's chosen people, and if we want this d--d country for all our poor settlers and for our people generally, what right 'as 'e got to get up an' tell the people,<pb xml:id="gppath_130413"/><figure><graphic url="ENTITY_gppathill3" rend="inline"/><figDesc> picture included in body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_130414" n="81     THE VILLAINY OF VAN TYL"/>
+        <p xml:id="gppath_130415">"Yes," replied Van Tyl, cynically. "They'll probably raze the kraal to the ground, with the niggers in it"--and he laughed. "But, for me, it's only another good reason to finish him. What business has he to thwart my race and say they shan't have Rhodesia? To pour ridicule on my native tongue, and give it as a reason for keeping Rhodesia out of the Union? We're top dog now. We're God's chosen people, and if we want this d--d country for all our poor settlers and for our people generally, what right 'as 'e got to get up an' tell the people,<pb xml:id="gppath_130413"/><figure><graphic url="gppathill3.jpg" rend="inline"/><figDesc> picture included in body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_130414" n="81     THE VILLAINY OF VAN TYL"/>
 of Rhodesia it ain't worth while, and to back 'em for all 'e's
 worth--to say they'll keep independent till they sees fit to do,
 otherwise? I reckon I'm doin' my country a service in putting him out
@@ -971,7 +971,7 @@ no time to move. Bobbie was seated on the couch, bending over a photograph, and 
         <p xml:id="gppath_130572">"A bicycle pump, old chap? Why, of course I can!" And, rising, he
 took his from a table and offered it to Toby. "You are starting rather
 late." But Toby did not appear to hear him. He only stood there in the door, once more staring at Bobbie. Once she opened her lips to speak, but no sound came.</p>
-        <p xml:id="gppath_130575">"Have you nothing to say?" Toby asked, in a<pb xml:id="gppath_130573"/><figure><graphic url="ENTITY_gppathill4" rend="inline"/><figDesc> picture included in body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_130574" n="113     TOBY AS SALESMAN"/>
+        <p xml:id="gppath_130575">"Have you nothing to say?" Toby asked, in a<pb xml:id="gppath_130573"/><figure><graphic url="gppathill4.jpg" rend="inline"/><figDesc> picture included in body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_130574" n="113     TOBY AS SALESMAN"/>
 low, furious voice, riled beyond endurance by Blake's manner, and seeming to lose his head.</p>
         <p xml:id="gppath_130576">Then Bobbie lost hers a little also. She resented bitterly that he should speak to her in such a tone before Blake, and should so instantly think the worst of her.</p>
         <p xml:id="gppath_130577">"Really, Toby--" she began, a little indignantly.</p>
@@ -1317,7 +1317,7 @@ no answer, and crept back to guard Bobbie as well as he could by the rock.</p>
 steady aim. If, on the other hand, as was probable, the enemy crept up to them and fired at close quarters, he knew it meant death both for himself and his deliverer. In an agony of doubt, he meditated carrying her boldly across a little open space. into some boulders near the river, where they might more safely lie concealed till morning. But, to do this, he must cross the firelight, and he feared it might only mean certain death more quickly to one or both of them. At least they were the safe side of their rock now, and it seemed unlikely anyone could get round to approach them without his having a chance to fire. It seemed only too sure that death was the intention of the man by the river, doubtless desperate now because some scheme of his had miscarried.</p>
         <p xml:id="gppath_130753">This was indeed the truth. Suddenly the gold meant nothing. Vengeance was the one thought uppermost. Van Tyl swore with dreadful oaths he would kill Sir James and this person who had baulked him, and then he would get away, and get clear of the country into Portuguese territory, and hide there until it was safe to go to the coast. And, seeing his immense advantage, he probably would have achieved this had it not been for the heroism of Jim, the devoted native.</p>
         <p xml:id="gppath_130756">When Sir James called to him and received no reply, and feared he had deserted, he was already planning to save him. Awakened suddenly by the shot, he had been a few seconds before he realised what was happening. Then, in the firelight, he had seen the woman on the ground and Sir James bending over her as the second shot whistled over their heads and passed through the tent. Instantly
-<pb xml:id="gppath_130754"/><figure><graphic url="ENTITY_gppathill5" rend="inline"/><figDesc> picture included in body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_130755" n="161     JIM'S HEROISM"/>
+<pb xml:id="gppath_130754"/><figure><graphic url="gppathill5.jpg" rend="inline"/><figDesc> picture included in body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_130755" n="161     JIM'S HEROISM"/>
 he was alert. Down there by the river was a man trying to kill his master. His simple duty was to kill the man. He waited a breathless second while Sir James carried Bobbie behind the rock to safety, and then wriggled like a snake along the ground through the shadows towards the danger zone. A few seconds later he descried the dark shadows of the three Mashonas lurking hidden in the bushes, uncertain whether to rush in with their axes or let the white man finish the killing himself. Seeing the gleam of axes, Jim realised that there were other the man at the river, and crept noiselessly close to the Mashonas. Then with deadly swiftness and precision, making a low growl like a leopard, he leaped upon the nearest nigger and caught him by the throat, pinning him down to the ground.</p>
         <p xml:id="gppath_130758">Terrified out of their senses by the suddenness of the attack, the other two fled into the bush, while Jim seized the axe of the third one and knocked him senseless. If Van Tyl heard anything, he did not heed. He had almost forgotten that the three murderers were lurking near. Blake still lay in a senseless heap on the ground, and his victims were hiding close beside the tent. A dreadful lust of killing possessed him, and for swift vengeance. He had plenty of cartridges in his belt, and he meant the two souls, so desperately at his mercy, should be dead by morning. Taking steady aim, he waited rigidly for the moment when he believed Sir James would creep from the shelter of the rock to try and engage him in the open. He knew him for a fearless soldier, and did not believe he would be long content to crouch in hiding. By approaching nearer, he now commanded every avenue of escape. Once
 
@@ -1724,7 +1724,7 @@ in the future! Good-bye! I'll tell Toby, if; l ever see him, and he does not alr
         <p xml:id="gppath_1301052">"We shall not miss Mr. Blake." And Betty made no attempt to hide her dislike. "Where is he going?"</p>
         <p xml:id="gppath_1301053">"He did not say. He spoke of being tired of the monotony here, and said he felt he must wander a little."</p>
         <p xml:id="gppath_1301056">Betty glanced at her sister keenly. She had long suspected that Blake cared for her, and, putting two and two together, decided that Bobbie had just refused to marry him. She wondered if anything of the same kind were the reason for Toby's sudden departure, but decided it could hardly be so when they were almost engaged already. She wished with all her heart that Toby had not gone. For reasons she had not yet divulged to Bobbie, they needed his cheering presence more than ever before to help them to forget their anxieties occasionally. But, if she had said nothing, Bobbie had not been slow to observe the worried expression upon her brothers' faces, and upon Betty's when she thought no one was looking; and because she felt a certain relief now the interview with Blake was over, and she had been able to ask him the thing
-<pb xml:id="gppath_1301054"/><figure><graphic url="ENTITY_gppathill6" rend="inline"/><figDesc> picture included in body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_1301055" n="209     THE INTERVIEW"/>
+<pb xml:id="gppath_1301054"/><figure><graphic url="gppathill6.jpg" rend="inline"/><figDesc> picture included in body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_1301055" n="209     THE INTERVIEW"/>
 that was in her mind concerning Toby, she felt better able to give her attention/to the trouble, and taxed her sister to find out what was wrong. At first Betty tried to parry her questioning, but Bobbie only said: " You may as well tell me. I am not ill now, and I know something is worrying you all."</p>
         <p xml:id="gppath_1301057">"It is only the mine," Betty faltered. "It does not pay to work it now."</p>
         <p xml:id="gppath_1301058">"It has not done before, and then a fresh vein cropped up. I do not think that is all."</p>
@@ -1862,7 +1862,7 @@ his thoughts ran on to Toby, and he wondered somewhat at Bobbie's attitude. Was 
 prompt action of Miss Glynn and the timely help of Mr. Blake, who caused the first shot to swerve, and the devoted service of the Angoni native Jim, who lost his life defending his master.</p>
         <p xml:id="gppath_1301132">As Bobbie was in no condition to travel forty miles in the great heat of November, her written deposition was accepted, and the case was brought to an end. Very little of it reached the papers, and, in spite of his importance, Sir James contrived afterwards to laugh the matter aside so satisfactorily that it never received serious attention. Hence no rumour reached Toby, in his self-imposed exile, that might have opened his eyes and brought him back. The discovery that Van Tyl owned the claim next to his on Loka kopje explained a good deal more to Sir James, and in his heart he suspected that Van Tyl had nursed some idea of moving the pegs. This was confirmed by something his carriers learnt at Shagann's kraal, but, as he only wanted the case quickly ended, he said nothing about it. His personal visit to the kraal itself only showed him that, if any of its inhabitants had been inculpated, it had been arranged secretly, and probably he would never trace the real offenders, however much he tried. So he contented himself with giving the old chief Shagann a severe talking to, and reducing him to a condition of abject humility before the sturdy Angoni carriers who formed Sir James's bodyguard. The only thing that still puzzled him was Blake's part, and, much as he would have liked to unravel the mystery, he felt a delicacy about probing too far because of Bobbie's attitude. He felt that he must respect her unspoken wish, but he was not in the least surprised when, after the
 
-<figure><graphic url="ENTITY_gppathill7" rend="inline"/><figDesc> Picture included in body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_1301131" n="225     BLAKE'S PLANS"/>
+<figure><graphic url="gppathill7.jpg" rend="inline"/><figDesc> Picture included in body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_1301131" n="225     BLAKE'S PLANS"/>
 inquiry at Geegi, Blake informed him that he had been called away to the south, and was leaving immediately. He noticed that, in spite of his effort to speak naturally, Blake seemed both self-conscious and ill at ease, and he could not resist putting one or two questions to him.</p>
         <p xml:id="gppath_1301133">"I'm sorry you have to go away. This is a busy time for farmers, is it not? How will you get your mealies planted?"</p>
         <p xml:id="gppath_1301134">"I have a good head boy," Blake answered brusquely, not caring to meet Sir James's eyes."He will see to them."</p>
@@ -2139,7 +2139,7 @@ SIR JAMES IS ANXIOUS.</head>
         <p xml:id="gppath_1301330">Perhaps this was a little owing to her state of mind. Whether Bobbie knew it or not, she had in her the seeds of a certain fanaticism for anything that appealed to her strongly, and she was capable of going to great lengths for the sake of an idea. Telling herself, therefore, that her dream of happiness was for ever shattered, she tried to deaden the memory of it by sacrificing herself upon the altar of usefulness.</p>
         <p xml:id="gppath_1301332">Sir James had told her she could be of great help to him in his work, and that together they would achieve much in the interests of Rhodesia. Bobbie had all along nursed a romantic view of the young
 
-<figure><graphic url="ENTITY_gppathill8" rend="inline"/><figDesc> Picture in the body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_1301331" n="257     SIR JAMES IS ANXIOUS"/>
+<figure><graphic url="gppathill8.jpg" rend="inline"/><figDesc> Picture in the body of Page's "The Pathway"</figDesc></figure><pb xml:id="gppath_1301331" n="257     SIR JAMES IS ANXIOUS"/>
 country she had made her home, and dreamed it a gloriously satisfying thing to devote one's life to helping such a country forward on its road of progress. And now that love had failed her, she sought honestly to rise above her bitter sense of loss and wrong, and throw herself heart and soul into the path of usefulness that offered. She did not pretend. Pretence, in the ordinary sense, was impossible to her. She never tried to persuade either herself or Sir James that she was swayed by love. She knew perfectly well that she loved Toby's memory still, and that any day she would have chosen, if she might, to be poor and obscure with him. But, since that possibility seemed to her closed for ever, she set herself bravely to do her best in the path that appeared to be the one mapped out.</p>
         <p xml:id="gppath_1301333">She believed Toby was even now crossing the ocean to India, having resolutely killed his love for her, and that with him had gone her chance for that real, deep happiness which she had believed he would bring to her life. Little, indeed, did she dream that he was still at the coast, nursing a heart as hopeless as her own, while he cheered with kindly attentions a forlorn little Portuguese traveller!</p>
         <p xml:id="gppath_1301337">To please Sir James, she and Betty paid a visit to Lobenwayo, and stayed two weeks in the beautiful home he had built on the outskirts of the town. Naturally the engagement had caused a considerable stir, and the house was inundated by callers; but,true to his promise, Sir James made no demur when Bobbie chose to hide herself in the garden and fix daily a forbidding "Not at Home" at the front door. She was only to be seen motoring with him, and the curiosity of the town was kept at a keen
@@ -2236,7 +2236,7 @@ Alfonse say it. You mustn't kiss me, and I mustn't' kiss you. It wouldn't be 'pl
         <p xml:id="gppath_1301404">For answer, she gave him the flimsy paper, and he read aloud--</p>
         <milestone rend="blank-line" unit="section"/>
         <q>
-          <text xml:id="gppath_1301407">
+          <q><floatingText xml:id="gppath_1301407">
             <body xml:id="gppath_1301406">
               <div xml:id="gppath_100" type="letter">
                 <p xml:id="gppath_1301405">"Unavoidably prevented going to Chinde. Land at Beira and take
@@ -2244,7 +2244,7 @@ train to Salisbury. I will trek there and fetch you.</p>
                 <signed>Love.--<name>ALFONSE</name>."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="gppath_1301408">"Good gracious!" he exclaimed.</p>
@@ -2689,7 +2689,7 @@ SIR JAMES'S LETTER.</head>
 on purpose.</p>
         <pb xml:id="gppath_1301738" n="316     THE PATHWAY"/>
         <q>
-          <text xml:id="gppath_1301748">
+          <q><floatingText xml:id="gppath_1301748">
             <body xml:id="gppath_1301747">
               <div xml:id="gppath_8101" type="letter">
                 <salute>"Dear Little Woman,"</salute>
@@ -2706,7 +2706,7 @@ Fitzgerald can, I see also that, if I love you truly, I can only give you up to 
                 <signed>"I am, and always shall be, your debtor,<lb/><name>"James Hall Fortescue</name>."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="gppath_1301749">When Toby at last came to the spot where Bobbie awaited him, he found her crying quietly. Thinking it was because they must part, he swallowed a lump in his throat, and sought to rally her with a hope that things might yet right themselves. For answer, she placed the letter in his hand and walked away a little distance while he read it. When, later, his step sounded behind her, she did not turn round, and he slipped his arm through hers, unable for the moment to speak.</p>

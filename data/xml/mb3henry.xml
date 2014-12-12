@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb3henry_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb3henry_1206">
   <teiHeader xml:id="mb3henry1201"><fileDesc>
       <titleStmt>
         <title>Henry Dunbar, volume III, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Henry Dunbar: The
@@ -80,13 +80,13 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="mb3henry_1202">
     <front xml:id="mb3henry_1203">
       <div xml:id="mb3henry_fm1" type="covers">
-        <figure><graphic url="ENTITY_mb3henryfc" rend="inline"/>
+        <figure><graphic url="mb3henryfc.jpg" rend="inline"/>
           <figDesc>The front cover of M. E. Braddon's Henry Dunbar.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_mb3henrysp" rend="inline"/>
+        <figure><graphic url="mb3henrysp.jpg" rend="inline"/>
           <figDesc>The spine of M. E. Braddon's Henry Dunbar.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_mb3henrybc" rend="inline"/>
+        <figure><graphic url="mb3henrybc.jpg" rend="inline"/>
           <figDesc>The back cover of M. E. Braddon's Henry Dunbar.</figDesc>
         </figure>
       </div>
@@ -109,8 +109,8 @@ added by the encoder and do not appear in the original text.</p>
         <imprimatur>[All rights reserved.]</imprimatur>
       </titlePage>
       <pb xml:id="mb3henry_1307"/>
-      <div xml:id="mb3henry_fm" type="table of contents">
-        <figure><graphic url="ENTITY_mb3henrytc" rend="inline"/>
+      <div xml:id="mb3henry_fm" type="table_of_contents">
+        <figure><graphic url="mb3henrytc.jpg" rend="inline"/>
           <figDesc>Table of contents for Braddon's Henry Dunbar.</figDesc>
         </figure>
       </div>
@@ -297,14 +297,14 @@ slipped away from him, <pb xml:id="mb3henry_130162" n="35 MARGARET'S LETTER."/>a
         <p xml:id="mb3henry_130180">On the very day after this resolution took a definite form, Clement received a letter from Margaret Wilmot. The sight of the well-known writing gave him a shock of mingled surprise and hope, and his fingers were faintly tremulous as they tore open the envelope. The letter was carefully worded, and very brief.</p>
         <pb xml:id="mb3henry_130181" n="39 MARGARET'S LETTER."/>
         <q>
-          <text xml:id="mb3henry_130185">
+          <q><floatingText xml:id="mb3henry_130185">
             <body xml:id="mb3henry_130184">
               <div xml:id="mb3henry_130183" type="letter">
                 <p xml:id="mb3henry_130182">"<hi rend="italic">You are a good man, Mr. Austin</hi>," Margaret wrote; "<hi rend="italic">and though you have reason to despise me, I do not think you will refuse to receive my testimony in favour of another who has been falsely suspected of a terrible crime, and who has need:of justification. Henry Dunbar was not the murderer of my father. As Heaven is my witness, this is the truth, and I know it to be the truth. Let this knowledge content you, and allow the secret of the murder to remain for ever a mystery upon earth. God knows the truth, and has doubtless punished the wretched sinner who was guilty of that crime, as He punishes every other sinner, sooner or later, in the course of His ineffable wisdom. Leave the sinner, wherever he may be hidden, to the judgment of God, which penetrates every hiding-place; and forget that you ever known me, or my miserable story</hi>.</p>
                 <signed>"MARGARET WILMOT."</signed>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb3henry_130186">Even this letter did not shake Clement Austin's resolution.</p>
         <p xml:id="mb3henry_130188">"No, Margaret," he thought; "even your pleading shall not turn me from my purpose. Besides, how can I tell in what manner this letter <pb xml:id="mb3henry_130187" n="40 HENRY DUNBAR."/>may have been written? It may have been written at Henry Dunbar's dictation, and under coercion. Be it as it may, the mystery of the "Winchester murder shall be set at rest, if patience or intelligence can solve the enigma. No mystery shall separate me from the woman I love."</p>
@@ -592,10 +592,10 @@ though the broken heart of his innocent daughter was a sacrifice to his iniquity
         <p xml:id="mb3henry_130493">"The waiter was moving softly about the room; but though I saw him look at me wistfully once or twice, he did not speak to me until he was about to leave the room, when he told me that there was a letter on the mantelpiece; a letter which had come by the evening post.</p>
         <p xml:id="mb3henry_130494">"The letter had been staring me in the face all the evening, but in my abstraction I had never noticed it.</p>
         <p xml:id="mb3henry_130504">"It was from my mother. I opened it when the waiter had left me, and read the following lines—
-<q><text xml:id="mb3henry_130503"><body xml:id="mb3henry_130502"><div xml:id="mb3henry_130501" type="letter"><salute>"'MY DEAREST CLEM,—</salute><p xml:id="mb3henry_130496" rend="italic">I was very glad to get your letter this morning, announcing your safe arrival at Winchester. I daresay I am a foolish old woman, <pb xml:id="mb3henry_130495" n="112 HENRY DUNBAR."/>
+<q><floatingText xml:id="mb3henry_130503"><body xml:id="mb3henry_130502"><div xml:id="mb3henry_130501" type="letter"><salute>"'MY DEAREST CLEM,—</salute><p xml:id="mb3henry_130496" rend="italic">I was very glad to get your letter this morning, announcing your safe arrival at Winchester. I daresay I am a foolish old woman, <pb xml:id="mb3henry_130495" n="112 HENRY DUNBAR."/>
 but I always begin to think of railway collisions, and all manner of possible and impossible calamities, directly you leave me on ever so short a journey.</p><p xml:id="mb3henry_130497" rend="italic">"'I was very much surprised yesterday morning by a visit from Margaret Wilmot. I was very cool to her at first; for though you never told me why your engagement to her was so abruptly broken off, I could not but think she was in some mariner to blame, since I knew you too well, my darling boy, to believe you capable of inconstancy or unkindness. I thought, therefore, that her visit was very ill-timed, and I let her see that my feelings towards her were entirely changed.</p><p xml:id="mb3henry_130499"> rend="italic"&gt;"'But, oh, Clement, when I saw the alteration in that unhappy girl, my heart melted all at once, and I could not speak to her coldly or unkindly. I never saw such a change in any one before. She is altered from a pretty girl into a pale haggard woman. Her manners are as much changed as her personal appearance. She had a feverish restlessness that fidgeted me out of my life; and her lips trembled every now and then while she was speaking, and her words seemed to die away as she tried to utter them. She
 <pb xml:id="mb3henry_130498" n="113 CLEMENT AUSTIN'S JOURNAL CONTINUED."/>
-wanted to see you, she said; and when I told her that you were out of town, she seemed terribly distressed. But afterwards, when she had questioned me a good deal, and I told her that you had gone to Winchester, she started suddenly to her feet, and began to tremble from head to foot.</p><p xml:id="mb3henry_130500" rend="italic">"'I rang for wine, and made her take some. She did not refuse to take it; on the contrary, she drank the wine quite eagerly, and said, 11 hope it will give me strength. I am so feeble, so miserably weak and feeble, and I want to be strong.' I persuaded her to stop and rest; but she wouldn't listen to me. She wanted to go back to London, she said; she wanted to be in London by a particular time. Do what I would, I could not detain her. She took my hands and pressed them to her poor pale lips, and then hurried away, so changed from the bright Margaret of the past, that a dreadful thought took possession of my mind, and I began to fear that she was mad.'</p></div></body></text></q></p>
+wanted to see you, she said; and when I told her that you were out of town, she seemed terribly distressed. But afterwards, when she had questioned me a good deal, and I told her that you had gone to Winchester, she started suddenly to her feet, and began to tremble from head to foot.</p><p xml:id="mb3henry_130500" rend="italic">"'I rang for wine, and made her take some. She did not refuse to take it; on the contrary, she drank the wine quite eagerly, and said, 11 hope it will give me strength. I am so feeble, so miserably weak and feeble, and I want to be strong.' I persuaded her to stop and rest; but she wouldn't listen to me. She wanted to go back to London, she said; she wanted to be in London by a particular time. Do what I would, I could not detain her. She took my hands and pressed them to her poor pale lips, and then hurried away, so changed from the bright Margaret of the past, that a dreadful thought took possession of my mind, and I began to fear that she was mad.'</p></div></body></floatingText></q></p>
         <p xml:id="mb3henry_130506">"The letter went on to speak of other things; but I could not think of any thing but my mother's description of Margaret's visit. I understood her agitation at hearing of my journey to Winchester. <pb xml:id="mb3henry_130505" n="114 HENRY DUNBAR."/>She knew that only one motive could lead me to that place. I knew now that the familiar figure I had seen in the moonlit street and in the dusky grove was no phantasm of my over-excited brain. I knew now that it was the figure of the noble-hearted woman I loved—the figure of the heroic daughter, who had followed me to Winchester, and dogged my footsteps, in the vain effort to stand between her father and the penalty of his crime.</p>
         <p xml:id="mb3henry_130507">"As I had been watched in the street on the previous night, I had been watched to-night in the grove. The rustling dress, the shadowy figure melting in the obscurity of the rain-blotted landscape had belonged to Margaret Wilmot!</p>
         <p xml:id="mb3henry_130508">"Mr. Carter came in while I was still pondering over my mother's letter.</p>
@@ -953,14 +953,14 @@ cup-<pb xml:id="mb3henry_130816" n="179 THE HOUSEMAID AT WOODBINE COTTAGE."/>boa
         <p xml:id="mb3henry_130860">Mr. Carter awoke the porter, and sent him to <pb xml:id="mb3henry_130859" n="186 HENRY DUNBAR."/>the station-master to ask if any letter addressed to Mr. Henry Carter had been left in that functionary's care. The porter went yawning to make this inquiry, and came back by and by, still yawning, to say that there was such a letter, and would the gentleman please step into the station-master's office to claim and receive it.</p>
         <p xml:id="mb3henry_130861">The note was not a long one, nor was it encumbered by any ceremonious phraseology.</p>
         <q>
-          <text xml:id="mb3henry_130864">
+          <q><floatingText xml:id="mb3henry_130864">
             <body xml:id="mb3henry_130863">
               <p xml:id="mb3henry_130862" rend="italic">"Gent in furred coat turned up 2.10, took a ticket for Derby, 1 class, took ticket for same place
 self, 2 class.—</p>
               <signed rend="italic">Yrs to commd,
 T. T."</signed>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb3henry_130865">Mr. Carter crumpled up the note and dropped it into his pocket. The station-master gave him all the information about the trains. There was a train for Derby at seven o'clock that evening; and for the three and a half weary hours that must intervene Mr. Carter was left to amuse himself as best he might.</p>
         <p xml:id="mb3henry_130866">"Derby," he muttered to himself, "Derby. Why, he must be going north; and what, in the name of all that's miraculous, takes him <hi rend="italic">that</hi> way?"</p>
@@ -981,7 +981,7 @@ carriage into another, and off one line of railway on to another, with
 all those pauses on draughty platforms which are <pb xml:id="mb3henry_130872" n="189 ON THE TRACK."/>so refreshing to the worn-out traveller who works his weary way across country in the dead of the night.</p>
         <p xml:id="mb3henry_130874">At last, however, after a journey that seemed interminable by reason of those short naps, which always confuse the sleeper's estimate of time, the detective found himself at Derby, still in the dead of the night; for to the railway traveller it is all dead of night after dark. Here he applied immediately to the station-master, from whom he got another little note directed to him by Mr. Tibbles, and very much resembling that which he had received at Shorncliffe.</p>
         <q>
-          <text xml:id="mb3henry_130877">
+          <q><floatingText xml:id="mb3henry_130877">
             <body xml:id="mb3henry_130876">
               <p xml:id="mb3henry_130875"><hi rend="italic">"All right up to Derby"</hi> wrote Sawney
 Tom. <hi rend="italic">"Gent in
@@ -990,7 +990,7 @@ on with him direct.—</hi></p>
               <signed rend="italic">Yours to command,
 T. T."</signed>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb3henry_130878">Mr. Carter lost no time after perusing this communication. He set to work at once to find out all about the means of following his assistant and the lame traveller.</p>
         <p xml:id="mb3henry_130880">Here he was told that he had a couple hours to wait for the train that was to take him <pb xml:id="mb3henry_130879" n="190 HENRY DUNBAR."/>on to Normanton, and at Normanton he would have another hour to wait for the train that was to carry him to Hull.</p>
@@ -1182,7 +1182,7 @@ I've gone through. Hanging about this <pb xml:id="mb3henry_1301052" n="229 GIVIN
         <p xml:id="mb3henry_1301081">Mr. Carter questioned the guards, the ticket-collectors, the porters, the cabmen; but not one among them gave him the least scrap of available information. He went away to Scotland Yard despairing, and laid his case before the authorities there.</p>
         <p xml:id="mb3henry_1301082">There's only one way of having him," he said, "and that's the diamonds. From what I can make out, he had no money with him, and in that case he'll be trying to turn some of those diamonds into cash."</p>
         <p xml:id="mb3henry_1301087">The following advertisement appeared in the supplement to the <hi rend="italic">Times</hi> for the next day:
-<q><text xml:id="mb3henry_1301086"><body xml:id="mb3henry_1301085"><p xml:id="mb3henry_1301084">"<hi rend="italic">To Pawnbrokers and Others.—A liberal reward will be given to any person affording information that may lead to the apprehension of a tall man, walking lame, who is known to have a large quantity of unset diamonds in his possession, and</hi><pb xml:id="mb3henry_1301083" n="236 HENRY DUNBAR."/><hi rend="italic">who most likely has attempted to dispose of the same</hi>."</p></body></text></q></p>
+<q><floatingText xml:id="mb3henry_1301086"><body xml:id="mb3henry_1301085"><p xml:id="mb3henry_1301084">"<hi rend="italic">To Pawnbrokers and Others.—A liberal reward will be given to any person affording information that may lead to the apprehension of a tall man, walking lame, who is known to have a large quantity of unset diamonds in his possession, and</hi><pb xml:id="mb3henry_1301083" n="236 HENRY DUNBAR."/><hi rend="italic">who most likely has attempted to dispose of the same</hi>."</p></body></floatingText></q></p>
         <p xml:id="mb3henry_1301088">But this advertisement remained unanswered.</p>
         <p xml:id="mb3henry_1301089">"They're too clever for us, sir," Mr. Carter remarked to one of the Scotland-Yard officials. "Whoever Joseph Wilmot may have sold those diamonds to has got a good bargain, you may depend upon it, and means to stick to it. The pawnbrokers and others think our advertisement a plant, you may depend upon it."</p>
       </div>
@@ -1254,7 +1254,7 @@ Mr. Bal<pb xml:id="mb3henry_1301130" n="247 CLEMENT'S STORY.—BEFORE THE DAWN."
         <p xml:id="mb3henry_1301152">"The box contained a fortune—a fortune in the shape of unset diamonds, lying as close together as their nature would admit—unset diamonds, which glittered and flashed upon us in the lamplight.</p>
         <p xml:id="mb3henry_1301157">Inside the lid there was a folded paper, upon which the following
 lines were written in the dear hand, the never-to-be-forgotten hand:
-<q><text xml:id="mb3henry_1301156"><body xml:id="mb3henry_1301155"><salute>"'EVER- DEAREST CLEMENT,—</salute><p xml:id="mb3henry_1301154"><hi rend="italic">The sad and miserable secret which led to our parting is
+<q><floatingText xml:id="mb3henry_1301156"><body xml:id="mb3henry_1301155"><salute>"'EVER- DEAREST CLEMENT,—</salute><p xml:id="mb3henry_1301154"><hi rend="italic">The sad and miserable secret which led to our parting is
 a secret no longer. You know all, and you have no doubt forgiven, and
 perhaps in part forgotten, the wretched woman to whom your love was
 once so dear, and to whom the memory of your love will ever be a
@@ -1268,7 +1268,7 @@ regret to say they only represent a part of the money withdrawn from
 the funds in the name of Henry Dunbar. Good-by, dear and generous
 friend; this is the last you will ever hear of one whose name must
 sound odious to the ears of honest men Pity me, and forget me; and may
-a happier woman be to you that which I can never be</hi>.</p><signed>M. W.'</signed></body></text></q></p>
+a happier woman be to you that which I can never be</hi>.</p><signed>M. W.'</signed></body></floatingText></q></p>
         <p xml:id="mb3henry_1301159">"This was all. Nothing could be firmer than the tone of this
 letter, in spite of its pensive gentleness. My poor girl could not be
 brought to believe that I should hold it no disgrace to make her my
@@ -1276,13 +1276,13 @@ wife, in spite of the hideous story connected with her name. In my
 vexation and disappointment, I appealed once <pb xml:id="mb3henry_1301158" n="254 HENRY DUNBAR."/>more to the unfailing friend of parted or persecuted lovers,
 the Jupiter of Printing-House Square.</p>
         <q>
-          <text xml:id="mb3henry_1301162">
+          <q><floatingText xml:id="mb3henry_1301162">
             <body xml:id="mb3henry_1301161">
               <salute>"'<hi rend="italic">Margaret</hi>, ' </salute>
               <p xml:id="mb3henry_1301160">I wrote, in the advertisement which adorned the second column of the <hi rend="italic">Times</hi> supplement on twenty consecutive occasions, '<hi rend="italic">I hold you to your old promise, and consider the circumstances of our parting as in no manner a release from your old engagement. The greatest wrong you can inflict upon me will be inflicted by your desertion</hi>.</p>
               <signed>C. A.'</signed>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb3henry_1301163">"This advertisement was as useless as its predecessor. I looked in vain for any answer.</p>
         <p xml:id="mb3henry_1301164">"I lost no time in fulfilling the commission intrusted to me. I went down to Shorncliffe and delivered the box of diamonds into the hands of John Lovell, the solicitor; for Lady Jocelyn was still on the Continent. He packed the box in paper, and made me seal it with my signet-ring, in the presence of one of his clerks, before he put it away in an iron safe near his desk.</p>
@@ -1352,13 +1352,13 @@ old-fashioned <pb xml:id="mb3henry_1301203" n="265 THE DAWN."/>place, with a rui
         <p xml:id="mb3henry_1301224">"I looked at all the newest stones, till I came at last to one standing in the obscurest corner of the churchyard, almost hidden by the low wall.</p>
         <p xml:id="mb3henry_1301225">"There was a very brief inscription on this modest headstone; but it was enough to tell me whose ashes lay buried under the spot on which I stood.</p>
         <q>
-          <text xml:id="mb3henry_1301228">
+          <q><floatingText xml:id="mb3henry_1301228">
             <body xml:id="mb3henry_1301227">
               <p xml:id="mb3henry_1301226"><hi rend="italic">"To the memory of<lb/>
 J. W.<lb/>
 Who died December</hi> 19, 1853.<lb/><hi rend="italic">'Lord have mercy upon me, a sinner!'</hi></p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mb3henry_1301229">"I was still looking at this brief memorial, when I heard a woman's dress rustling upon the long rank grass, and turning suddenly, saw my darling coming towards me, very pale, very pensive, but with a kind of seraphic resignation upon her face which made her seem to me more beautiful than I had ever seen her before.</p>
         <p xml:id="mb3henry_1301231">"She started at seeing me, but did not faint. She only grew paler than she had been before, <pb xml:id="mb3henry_1301230" n="270 HENRY DUNBAR."/>

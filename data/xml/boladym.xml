@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="boladym_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="boladym_1206">
   <teiHeader xml:id="boladym1201"><fileDesc>
       <titleStmt>
         <title>Lady Molly of Scotland Yard, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Lady Molly of Scotland Yard</title>. <pubPlace>London</pubPlace>: <publisher>Cassell and Company, Ltd.</publisher>, <date>1910</date>.</bibl>
@@ -84,7 +84,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="boladym_1307"/>
       <div xml:id="boladym_001" type="frontispiece">
-        <figure><graphic url="ENTITY_boladymfp" rend="inline"/>
+        <figure><graphic url="boladymfp.jpg" rend="inline"/>
           <figDesc>Frontispiece from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc>
         </figure>
       </div>
@@ -108,20 +108,20 @@ of "The Scarlet Pimpernel," etc.</byline>
         <p xml:id="boladym_13011">ALL RIGHTS RESERVED</p>
       </div>
       <pb xml:id="boladym_13012" n="[v]"/>
-      <div xml:id="boladym_003" type="table of contents">
-        <figure><graphic url="ENTITY_boladymfm2" rend="inline"/>
+      <div xml:id="boladym_003" type="table_of_contents">
+        <figure><graphic url="boladymfm2.jpg" rend="inline"/>
           <figDesc>The table of contents for the Baroness Orczy's
 <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="boladym_13013" n="[vii]"/>
-      <div xml:id="boladym_004" type="list of illustrations">
-        <figure><graphic url="ENTITY_boladymfm3" rend="inline"/>
+      <div xml:id="boladym_004" type="list_of_illustrations">
+        <figure><graphic url="boladymfm3.jpg" rend="inline"/>
           <figDesc>The list of illustrations for the Baroness Orczy's
 <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc>
         </figure>
         <pb xml:id="boladym_13014" n="[viii]"/>
-        <figure><graphic url="ENTITY_boladymfm4" rend="inline"/>
+        <figure><graphic url="boladymfm4.jpg" rend="inline"/>
           <figDesc>The list of illustrations for the Baroness Orczy's
 <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc>
         </figure>
@@ -252,7 +252,7 @@ Hooker heard her voice when she left home with her sister, and she visited Mrs. 
           <p xml:id="boladym_130112">"I don't know who it was. It had nothing to do with me, but I was sorry for the girl because of everyone turning against her, including her sister, and I tried to give her a little pleasure when I could."</p>
           <p xml:id="boladym_130113">That was all right. Very sympathetically told. The public quite liked this pleasing specimen of English cricket-, golf- and football-loving manhood. Subsequently Mr. Lydgate admitted meeting Mary on December 26th and January 1st, but he swore most emphatically that that was the last he ever saw of her.</p>
           <pb xml:id="boladym_130114"/>
-          <figure><graphic url="ENTITY_boladymill018" rend="inline"/>
+          <figure><graphic url="boladymill018.jpg" rend="inline"/>
             <p xml:id="boladym_130115">"'You swear to that, Mr. Lydgate?' asked the coroner" (<hi rend="italic">see page 19</hi>).</p>
             <figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc>
           </figure>
@@ -330,7 +330,7 @@ in the passage whilst she herself went into the room, I following behind her.</p
           <p xml:id="boladym_130174">"That will be for you to prove," said Lady Molly dryly. "The child cannot now, of course, remain with Mrs. Williams; she will be removed to the workhouse, and--"</p>
           <p xml:id="boladym_130175">"No, that she shan't be," said the mother excitedly. "She shan't be, I tell you. The workhouse, indeed," she added in a paroxysm of hysterical tears, "and her father a lord!"</p>
           <pb xml:id="boladym_130176"/>
-          <figure><graphic url="ENTITY_boladymill024" rend="inline"/>
+          <figure><graphic url="boladymill024.jpg" rend="inline"/>
             <p xml:id="boladym_130177">"The woman gave a shriek which unmistakably was one of fear"
 <hi rend="italic">see page 24</hi>).</p>
             <figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc>
@@ -552,7 +552,7 @@ the belief that this was merely a blind, and that personal spite and revenge wer
           <p xml:id="boladym_130343">Within twenty-four hours a dozen witnesses were prepared to swear that that fragment of cloth was part of a coat habitually worn by Mr. Carrthwaite's English overseer, Mr. Cecil Shuttleworth. It appears that this young man had lately, in defiance of the rigid rules prescribed by his employer, joined a local society--semi-social, semi-religious--which came under the ban of the old Yorkshireman's prejudices.</p>
           <p xml:id="boladym_130344">Apparently there had been several bitter quarrels between Mr. Carrthwaite and young Shuttleworth, culminating in one tempestuous scene, witnessed by the former's servants at his villa; and although these people did not understand the actual words that passed between the two Englishmen, it was pretty clear that they amounted to an ultimatum on the one side and defiance on the other. The dismissal of the overseer followed immediately, and that same evening Mr. Carrthwaite was found murdered in his garden.</p>
           <p xml:id="boladym_130348">Mind you--according to English ideas--the preliminary investigations in that mysterious crime were hurried through in a manner which we should think unfair to the accused. It seemed from the first as if the Sicilian police had wilfully made up their minds that Shuttleworth was guilty. For instance, although
-<pb xml:id="boladym_130345"/><figure><graphic url="ENTITY_boladymill056" rend="inline"/><p xml:id="boladym_130346">"He had been found dead in the garden of his villa" (<hi rend="italic">see page 55</hi>).</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_130347" n="57     THE IRISH-TWEED COAT"/>
+<pb xml:id="boladym_130345"/><figure><graphic url="boladymill056.jpg" rend="inline"/><p xml:id="boladym_130346">"He had been found dead in the garden of his villa" (<hi rend="italic">see page 55</hi>).</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_130347" n="57     THE IRISH-TWEED COAT"/>
 so many people were prepared to swear that the young English overseer had often worn a coat of which the piece found in the murdered man's hand was undoubtedly a torn fragment, yet the coat itself was not found among his effects, neither were his late master's watch and chain.</p>
           <p xml:id="boladym_130349">Nevertheless, the young man was arrested within a few hours of the murder, and--after the formalities of the preliminary "instruction"--was duly committed to stand his trial on the capital charge.</p>
           <p xml:id="boladym_130350">It was about this time that I severed my official connection with the Yard. Lady Molly now employed me as her private secretary, and I was working with her one day in the study of our snug little flat in Maida Vale, when our trim servant came in to us with a card and a letter on a salver.</p>
@@ -600,7 +600,7 @@ cence would be destroyed, or, at any rate, kept back until too late."</p>
           <p xml:id="boladym_130386">Lady Molly made no comment. She was meditating. That there was truth in what the man said, no one could deny.</p>
           <p xml:id="boladym_130387">The few details which we had gleaned over here of the hurried investigations, the summary commitment for trial of the accused, the hasty dismissal of all evidence in his favour, proved that, at any rate, the father's anxiety was well founded.</p>
           <p xml:id="boladym_130390">"But, then, what in the world do you propose to
-<figure><graphic url="ENTITY_boladymill062" rend="inline"/><p xml:id="boladym_130388">"'Well,' said Lady Molly, '. . . what is it that you want us
+<figure><graphic url="boladymill062.jpg" rend="inline"/><p xml:id="boladym_130388">"'Well,' said Lady Molly, '. . . what is it that you want us
 to do in the matter?'" (<hi rend="italic">see page 63</hi>).</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_130389" n="63     THE IRISH-TWEED COAT"/>
 do?" said Lady Molly after a while. "Do you want to take the proofs over yourself to your boy's advocate? Is that it?"</p>
           <p xml:id="boladym_130391">"No, that would he no good," he replied simply. "I am known in Sicily. I should be watched, probably murdered, too, and my death would not benefit my boy."</p>
@@ -860,7 +860,7 @@ that her sister had died in her arms two months after the birth of Captain Duple
           <p xml:id="boladym_130594">Two of our best men from the Yard, Pegram and Elliott, were left in charge of the case. They remained at Fordwych (the little town close by), as did Miss Joan, who had taken up her permanent abode at the d'Alboukirk Arms, whilst I returned to town immediately after the inquest. Captain Jack had rejoined his regiment, and apparently the ladies of the Castle had resumed their quiet, luxurious life just the same as heretofore. The old lady led her own somewhat isolated, semi-regal life; Miss Henriette fenced and boxed, played hockey and golf, and over the fine Castle and its haughty inmates there hovered like an ugly bird of prey the threatening presence of a nameless suspicion.</p>
           <p xml:id="boladym_130595">The two ladies might choose to flout public opinion, but public opinion was dead against them. No one dared formulate a charge, but everyone remembered that Miss Henriette had, on the very morning of the murder, been playing golf in the field where the knife was discovered, and that if Miss Joan Duplessis ever failed to make good her claim to the barony of d'Alboukirk, Miss Henriette would remain in undisputed possession. So now, when the ladies drove past in the village street, no one doffed a cap to salute them, and when at church the parson read out the sixth commandment, "Thou shalt do no murder," all eyes gazed with fearsome awe at the old Baroness and her niece.</p>
           <pb xml:id="boladym_130596"/>
-          <figure><graphic url="ENTITY_boladymill100" rend="inline"/>
+          <figure><graphic url="boladymill100.jpg" rend="inline"/>
             <p xml:id="boladym_130597"> "'You swear to that, Mr. Lydgate?' asked the coroner" (<hi rend="italic">see page 19</hi>).</p>
             <figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc>
           </figure>
@@ -902,7 +902,7 @@ stood outlined for a short moment at the open window.</p>
           <pb xml:id="boladym_130632" n="106     LADY MOLLY OF SCOTLAND YARD"/>
           <p xml:id="boladym_130633">"Roonah's part was, of course, the important thing in the whole case, since she was here prepared to swear to the actual date of the first Madame Duplessis's death. The initiative, of course, may have come either from Joan or from Captain Duplessis himself, out of hatred for the family who would have nothing to do with him and his favourite younger daughter. That, of course, we shall never know. At first Roonah was a Parsee, with a dog-like devotion to the girl whom she had nursed as a baby, and who no doubt had drilled her well into the part she was to play. But presently she became a Roman Catholic--an ardent convert, remember, with all a Roman Catholic's fear of hell-fire. I went to the convent this morning. I heard the priest's sermon there, and I realised what an influence his eloquence must have had over poor, ignorant, superstitious Roonah. She was still ready to die for her young mistress, but she was no longer prepared to swear to a lie for her sake. After Mass I called at Fordwych Castle. I explained my position to old Lady d'Alboukirk, who took me into the room where Roonah had slept and died. There I found two things," continued Lady Molly, as she opened the elegant reticule which still hung upon her arm, and placed a big key and a prayerbook before me.</p>
           <p xml:id="boladym_130636">"The key I found in a drawer of an old cupboard in the dressing-room where Roonah slept, with all sorts of odds and ends belonging to the unfortunate woman, and going to the door which led into what
-<figure><graphic url="ENTITY_boladymill106" rend="inline"/><p xml:id="boladym_130634">"'I sent Pegram to her room with orders to break open the locks of
+<figure><graphic url="boladymill106.jpg" rend="inline"/><p xml:id="boladym_130634">"'I sent Pegram to her room with orders to break open the locks of
 her hand-bag and dressing-case'" (<hi rend="italic">see page 107</hi>)</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_130635" n="107     THE FORDWYCH CASTLE MYSTERY"/>
 had been Joan's bedroom, I found that it was locked, and that this key fitted into the lock. Roonah had locked that door herself on her own side--<hi rend="italic">she was afraid of her mistress</hi>. I knew now that I was right in my surmise. The prayer-book is a Roman Catholic one. It is heavily thumb-marked there, where false oaths and lying are denounced as being deadly sins for which hell-fire would be the punishment. Roonah, terrorised by fear of the supernatural, a new convert to the faith, was afraid of committing a deadly sin.</p>
           <p xml:id="boladym_130637">"Who knows what passed between the two women, both of whom have come to so violent and terrible an end? Who can tell what prayers, tears, persuasions Joan Duplessis employed from the time she realised that Roonah did not mean to swear to the lie which would have brought her mistress wealth and glamour until the awful day when she finally understood that Roonah would no longer even hold her tongue, and devised a terrible means of silencing her for ever?</p>
@@ -1089,7 +1089,7 @@ over. But it was by no means that yet, for there was still a good deal of entrea
           <p xml:id="boladym_130770">"I suppose you think, as I do, that the mysterious elderly female, who seems to have impersonated the mother all through, was an accomplice of Jane Turner's, and that the assault was a put-up job between them," I said. "Inspector Danvers will be delighted--for this theory is a near approach to his own."</p>
           <p xml:id="boladym_130771">"H'm!" was all the comment vouchsafed on my remark.</p>
           <p xml:id="boladym_130774">"I am sure it was Arthur Cutbush, the girl's sweetheart, after all," I retorted hotly, "and you'll see that, put to the test of sworn evidence, his alibi at the time of the assault itself won't hold good. Moreover, now," I added triumphantly, "we have know-
-<figure><graphic url="ENTITY_boladymill128" rend="inline"/><p xml:id="boladym_130772">"Ten minutes later the dainty clouds of lace and chiffon were
+<figure><graphic url="boladymill128.jpg" rend="inline"/><p xml:id="boladym_130772">"Ten minutes later the dainty clouds of lace and chiffon were
 finally wafted out"  (<hi rend="italic">see page 128</hi>)</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_130773" n="129     A DAY'S FOLLY"/>
 ledge which has been lacking all along--the motive."</p>
           <p xml:id="boladym_130775">"Ah!" said my lady, smiling at my enthusiasm, "that's how you argue, Mary, is it?</p>
@@ -1154,7 +1154,7 @@ or seen me run in search of Danvers. My dear lady s still alone in the dingy par
           <p xml:id="boladym_130830">"No; the plate was a failure, but Jane Turner would not thus readily give up the idea of getting money out of the poor, pusillanimous Countess. We know how she succeeded in terrorising that silly little woman. It is wonderful how cleverly a girl like that worked out such a complicated scheme, all alone."</p>
           <p xml:id="boladym_130831">"All alone?</p>
           <p xml:id="boladym_130834">"Yes; there was no one else. She was the elderly woman who used to meet the Countess, and who rang at the front door of the Weston apartment-house. She arranged the whole of the <hi rend="italic">mise en scàne</hi> of the assault on herself, all alone, and took everybody in with it--it was so perfectly done. She planned and executed it
-<figure><graphic url="ENTITY_boladymill136" rend="inline"/><p xml:id="boladym_130832">"'Not too late, I think,' she whispered hurriedly. 'Break it open,
+<figure><graphic url="boladymill136.jpg" rend="inline"/><p xml:id="boladym_130832">"'Not too late, I think,' she whispered hurriedly. 'Break it open,
 Danvers'"  (<hi rend="italic">see page 135</hi>)</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_130833" n="137     A DAY'S FOLLY"/>
 because she was afraid that the little Countess would be goaded into confessing her folly to her husband, or to her own parents, when a prosecution for blackmail would inevitably follow. So she risked everything on a big coup, and almost succeeded in getting a thousand pounds from Her Serene Highness, meaning to reassure her, as soon as she had the money, by the statement that the negative and prints had been destroyed. But the appearance of the Grand Duchess of Starkburg-Nauheim this afternoon frightened her into an act of despair. Confronted with the prosecution she dreaded and with the prison she dared not face, she, in a mad moment, attempted to take her life."</p>
           <p xml:id="boladym_130835">"I suppose now the whole matter will be hushed up."</p>
@@ -1210,7 +1210,7 @@ turned with a look of violent wrath towards the window embrasure.</p>
           <p xml:id="boladym_130868">"That you were paralysed and imbecile when you made it," replied the Marquise, dryly.</p>
           <p xml:id="boladym_130869">Monsieur le Curé, who up to now had been fidgeting nervously with his hat, now raised his hands and eyes up to the ceiling to emphasise the horror which he felt at this callous suggestion. Lady Molly no longer desired to go; the half-paralysed grip on her wrist had relaxed, but she sat there quietly, interested with every fibre of her quick intelligence in the moving drama which was being unfolded before her.</p>
           <p xml:id="boladym_130870">There was a pause now, a silence broken only by the monotonous ticking of a monumental, curious-looking clock which stood in an angle of the room. Miss de Genneville had made no reply to her sister's cruel taunt, but a look, furtive, maniacal, almost dangerous, now crept into her eyes.</p>
-          <figure><graphic url="ENTITY_boladymill144" rend="inline"/>
+          <figure><graphic url="boladymill144.jpg" rend="inline"/>
             <p xml:id="boladym_130871">"Confronting the old woman, with a look of hate gleaming in his eyes" (<hi rend="italic">see page 144</hi>)</p>
             <figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc>
           </figure>
@@ -1372,7 +1372,7 @@ course, I was taken unawares; but the next moment I found myself quite helpless,
           <p xml:id="boladym_1301004">With a smothered, gurgling exclamation which I will not attempt to describe, the Marquis literally fell on that paper, like a hungry wild beast upon its prey. He was on his knees before me, and I could see that the paper was a square envelope, which, with a trembling hand, he tore open.</p>
           <p xml:id="boladym_1301005">It contained a short document whereon the signature "Amédé de Terhoven" was clearly visible. It was the confession of forgery made by the young Marquis just a year ago; there were also a few banknotes: some hundred thousand francs, perhaps. The young man threw them furiously aside, and once more turned to the clock. The doors were wide open, but they revealed nothing save the huge and complicated mechanism of the clock.</p>
           <p xml:id="boladym_1301009">Mademoiselle de Genneville--eccentric and far-
-<pb xml:id="boladym_1301006"/><figure><graphic url="ENTITY_boladymill164" rend="inline"/><p xml:id="boladym_1301007">"Now we could distinctly see the glimmer of white paper" (<hi rend="italic">see page 164</hi>)</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_1301008" n="165     A CASTLE IN BRITTANY"/>
+<pb xml:id="boladym_1301006"/><figure><graphic url="boladymill164.jpg" rend="inline"/><p xml:id="boladym_1301007">"Now we could distinctly see the glimmer of white paper" (<hi rend="italic">see page 164</hi>)</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_1301008" n="165     A CASTLE IN BRITTANY"/>
 seeing to the last--had played this gigantic hoax on her scheming relatives. Whilst they directed all their unscrupulous energies towards trying to obtain possession of her will in one place, she had calmly put it securely somewhere else.</p>
           <p xml:id="boladym_1301010">Meantime, Monsieur le Marquis had sufficient presence of mind, and, I must own, sufficient dignity, not only to release me from my bonds but also to offer me the fifty thousand francs which he had promised me.</p>
           <p xml:id="boladym_1301011">"I can wind up the clock now," he said dully, "and you can walk straight out of this place. No one need know that you impersonated your friend. She, no doubt, knew of this--hoax; therefore we found the scheme to keep her out of the way so easy of accomplishment. It was a grisly joke, wasn't it? How the old witch must be chortling in her grave!"</p>
@@ -1860,7 +1860,7 @@ three or four golden sovereigns over which she had thrown her grimy hand.</p>
           <p xml:id="boladym_1301415">She spoke to Miss Cruikshank, who was facing me, and who, on seeing me appear, turned as white as a ghost. But she quickly recovered herself, and, standing between me and the woman, she said vehemently:</p>
           <p xml:id="boladym_1301416">"What do you mean by prying on me like this? Go and pack your boxes and leave the house this instant."</p>
           <p xml:id="boladym_1301417">But before I could reply the woman had interposed.</p>
-          <figure><graphic url="ENTITY_boladymill224" rend="inline"/>
+          <figure><graphic url="boladymill224.jpg" rend="inline"/>
             <p xml:id="boladym_1301418">"'Go and pack your boxes and leave the house this instant'" (<hi rend="italic">see page 224</hi>)</p>
             <figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc>
           </figure>
@@ -2048,7 +2048,7 @@ gathered, presently, that the pseudo Mrs. Stein had succeeded in persuading Rosi
           <p xml:id="boladym_1301569">She and her newly acquired friend were, about this time, deeply interested in the case known as the "West End Shop Robberies," which no doubt you recollect, since they occurred such a very little while ago. Ladies who were shopping in the large drapers' emporiums during the crowded and busy sale time, lost reticules, purses, and valuable parcels, without any trace of the clever thief being found.</p>
           <p xml:id="boladym_1301570">The drapers, during sale-time, invariably employ detectives in plain clothes to look after their goods, but in this case it was the customers who were robbed, and the detectives, attentive to every attempt at "shoplifting," had had no eyes for the more subtle thief.</p>
           <pb xml:id="boladym_1301571"/>
-          <figure><graphic url="ENTITY_boladymill248" rend="inline"/>
+          <figure><graphic url="boladymill248.jpg" rend="inline"/>
             <p xml:id="boladym_1301572">"Still talking shrilly . . . the pseudo Mrs. Stein dragged her into
 our own sitting-room" (<hi rend="italic">see page 107</hi>)</p>
             <figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc>
@@ -2373,7 +2373,7 @@ facing one another, with that awful secret, only half. revealed, hovering in the
           <p xml:id="boladym_1301842">"I think we can," rejoined Lady Molly, simply; "at any rate, I mean to try. I have two of the waitresses from Mathis' outside in a cab, and I have already spoken to the attendant who served you at Sanchia's, an obscure milliner in a back street near Portland Road. We know that you were at great pains there to order a hat of certain dimensions and to your own minute description; it was a copy of one you had once seen Miss Löwenthal wear when you met her at your late husband's office. We can prove that meeting, too. Then we have your maid's testimony that you wore that same hat once, and once only, the day, presumably, that you went out to a concert--a statement which you will find it difficult to substantiate--and also the day on which your husband was murdered."</p>
           <p xml:id="boladym_1301843">"Bah! the public will laugh at you!" retorted Lady Irene, still defiantly. "You would not dare to formulate so monstrous a charge!"</p>
           <p xml:id="boladym_1301847">"It will not seem monstrous when justice has
-<pb xml:id="boladym_1301844"/><figure><graphic url="ENTITY_boladymill288" rend="inline"/><p xml:id="boladym_1301845">"Lady Irene, with a cry of agony, fell senseless in my dear lady's arms" (<hi rend="italic">see page 290</hi>)</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_1301846" n="289     THE WOMAN IN THE BIG HAT"/>
+<pb xml:id="boladym_1301844"/><figure><graphic url="boladymill288.jpg" rend="inline"/><p xml:id="boladym_1301845">"Lady Irene, with a cry of agony, fell senseless in my dear lady's arms" (<hi rend="italic">see page 290</hi>)</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_1301846" n="289     THE WOMAN IN THE BIG HAT"/>
 weighed in the balance the facts which we can prove. Let me tell you a few of these, the result of careful investigation. There is the fact that you knew of Mr. Culledon's entanglement with Miss Elizabeth Löwenthal, and did your best to keep it from old Mrs. Steinberg's knowledge, realising that any scandal round her favourite nephew would result in the old lady cutting him-and therefore you-out of her will. You dismissed a parlour-maid for the sole reason that she had been present when Miss Löwenthal was shown into Mr. Culledon's study. There is the fact that Mrs. Steinberg had so worded her will that, in the event of her nephew dying before her, her fortune would devolve on you; the fact that, with Miss Löwenthal's action for breach of promise against your husband, your last hope of keeping the scandal from the old lady's ears had effectually vanished. You saw the fortune eluding your grasp; you feared Mrs. Steinberg would alter her will. Had you found the means, and had you dared, would you not rather have killed the old lady? But discovery would have been certain. The other crime was bolder and surer. You have inherited the old lady's millions, for she never knew of her nephew's earlier peccadillos.</p>
           <p xml:id="boladym_1301848">"All this we can state and prove, and the history of the hat, bought, and worn one day only, that same memorable day, and then thrown away."</p>
           <p xml:id="boladym_1301849">A loud laugh interrupted her--a laugh that froze my very marrow.</p>
@@ -2488,7 +2488,7 @@ who had been solicitor to the deceased practically until the last moment, when M
           <p xml:id="boladym_1301932">It was then a little after four o'clock. I could hear Captain de Mazareen's voice, low-toned and infinitely tender. He adored my dear lady, but he was a very quiet man, and it was only by the passionate tensity of his attitude when he was near her that a shrewdly observant person could guess how deeply he cared. Now, through the open door, I could see his handsome head bowed very low, so that he could better look into her upturned eyes. His arms were round her, as if he were fighting the world for the possession of her, and would never let her go again. But there were tears in her eyes.</p>
           <p xml:id="boladym_1301933">"Hubert," she said after a while, "I want you to marry me. Will you?"</p>
           <p xml:id="boladym_1301937">"Will I?" he whispered, with an intensity of
-<pb xml:id="boladym_1301934"/><figure><graphic url="ENTITY_boladymill304" rend="inline"/><p xml:id="boladym_1301935">"Philip Baddock looked defiant, and Felkin taciturn ans sulky" (<hi rend="italic">see page 327</hi>)</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_1301936" n="305     SIR JEREMIAH'S WILL"/>
+<pb xml:id="boladym_1301934"/><figure><graphic url="boladymill304.jpg" rend="inline"/><p xml:id="boladym_1301935">"Philip Baddock looked defiant, and Felkin taciturn ans sulky" (<hi rend="italic">see page 327</hi>)</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_1301936" n="305     SIR JEREMIAH'S WILL"/>
 passionate longing which seemed to me then so unutterably pathetic that I could have sat down and had a good cry.</p>
           <p xml:id="boladym_1301938">"But," rejoined Lady Molly, earnestly, "I mean as soon as possible-to-morrow, by special licence. You can wire to Mr. Hurford to-night, and he will see about it the first thing in the morning. We can travel up to town by the night train. Father and Mary will come with me. Father has promised, you know, and we can he married to-morrow . . . I think that would be the quickest way."</p>
           <p xml:id="boladym_1301939">There was a pause. I could well imagine how astonished and perturbed Captain Hubert must be feeling. It was such a strange request for a woman to make at such a time. I could see by the expression of his eyes that he was trying to read her thoughts. But she looked up quite serenely at him, and, frankly, I do not think that he had the slightest inkling of the sublime motive which lay at the back of her strange insistence.</p>
@@ -2628,7 +2628,7 @@ You see how little people understood my dear lady's motives. Some went so far as
           <p xml:id="boladym_1302048">Certainly Lady Molly's conduct at this time helped to foster this idea. Finding that even the chief was inclined to give her the cold shoulder, she shut up our flat in Maida Vale and took up her residence at the little house which she owned in Kirk, and from the windows of which she had a splendid view of stately Appledore Castle nestling among the trees on the hillside.</p>
           <p xml:id="boladym_1302049">I was with her, of course, and Mr. Philip Baddock was a frequent visitor at the house. There could be no doubt that he admired her greatly, and that she accepted his attentions with a fair amount of graciousness. The county fought shy of her. Her former engagement to Captain de Mazareen was well known, and her treachery to him--so it was called--was severely censured.</p>
           <p xml:id="boladym_1302053">Living almost in isolation in the village, her whole soul seemed wrapped in thoughts of how to unravel the mystery of the death of Mr. Steadman. Captain de Mazareen had sworn in his defence that
-<pb xml:id="boladym_1302050"/><figure><graphic url="ENTITY_boladymill322" rend="inline"/><p xml:id="boladym_1302051">"'Ask Philip Baddock if my threats are paltry" (<hi rend="italic">see page 336</hi>)</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_1302052" n="323     THE END"/>
+<pb xml:id="boladym_1302050"/><figure><graphic url="boladymill322.jpg" rend="inline"/><p xml:id="boladym_1302051">"'Ask Philip Baddock if my threats are paltry" (<hi rend="italic">see page 336</hi>)</p><figDesc>Illustration from the Baroness Orczy's <hi rend="italic">Lady Molly of Scotland Yard</hi>.</figDesc></figure><pb xml:id="boladym_1302052" n="323     THE END"/>
 the solicitor, after starting to walk through the Elkhorn woods with him, had feared that the tramp over rough ground would be too much for him, and had almost immediately turned back in order to regain the road. But the chauffeur, George Taylor, who was busy with the broken-down car some two hundred yards up the road, never saw Mr. Steadman again, whilst Captain de Mazareen arrived at the gates of Appledore Castle alone. Here he was met by Mr. Philip Baddock, who informed him that Sir Jeremiah had breathed his last an hour before.</p>
           <p xml:id="boladym_1302054">No one at the Castle recollected seeing a stick in Captain Hubert's hand when he arrived, whilst there were several witnesses who swore that he carried one at Appledore Station when he started to walk with her ladyship. The stick was found close to the body of the solicitor; and the solicitor, when he met with his terrible death, had in his pocket the draft of a will which meant disinheritance to Captain de Mazareen.</p>
           <p xml:id="boladym_1302055">Here was the awful problem which Lady Molly had to face and to solve if she persisted in believing that the man whom she loved, and whom she had married at the moment when she knew that proofs of guilt were dead against him, was indeed innocent.</p>

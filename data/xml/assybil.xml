@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="assybil_1301427">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="assybil_1301427">
   <teiHeader xml:id="assybil9999"><fileDesc>
       <titleStmt>
         <title>Sybil Chase, an electronic edition</title>
@@ -8,7 +8,7 @@
       <publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2007</date><availability><p xml:id="assybil_1301">© 2004, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p> </availability><idno type="ark">http://pid.emory.edu/ark:/25593/16z79</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt> <name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name><resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt> <name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name><resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Sybil Chase; or The Valley Ranche</title>. <pubPlace>LONDON</pubPlace>: <publisher>George Routledge and Sons</publisher>, <date>????</date>.</bibl>
@@ -52,8 +52,8 @@
     </profileDesc><revisionDesc><change><date>2007-June-20</date><label>Encoder.</label><name>Shruthi Vissa,</name>XML tags inserted in compliance with TEI guidelines using TEILITE.</change></revisionDesc></teiHeader>
   <text xml:id="assybil_1301426">
     <front xml:id="assybil_1308">
-      <div xml:id="assybil_fm1" type="front cover">
-        <figure><graphic url="ENTITY_assybilfc" rend="inline"/>
+      <div xml:id="assybil_fm1" type="front_cover">
+        <figure><graphic url="assybilfc.jpg" rend="inline"/>
           <figDesc> Front Cover of Ann Stephens' "Sybil Chase"</figDesc>
         </figure>
       </div>
@@ -4069,31 +4069,31 @@ States. Sybil Yates is indeed a widow now.</p>
     </body>
     <back xml:id="assybil_1301425">
       <div xml:id="assybil_bm" type="advertisements">
-        <figure><graphic url="ENTITY_assybilad1" rend="inline"/>
+        <figure><graphic url="assybilad1.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
         </figure>
         <pb xml:id="assybil_1301419"/>
-        <figure><graphic url="ENTITY_assybilad2" rend="inline"/>
+        <figure><graphic url="assybilad2.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
         </figure>
         <pb xml:id="assybil_1301420"/>
-        <figure><graphic url="ENTITY_assybilad3" rend="inline"/>
+        <figure><graphic url="assybilad3.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
         </figure>
         <pb xml:id="assybil_1301421"/>
-        <figure><graphic url="ENTITY_assybilad4" rend="inline"/>
+        <figure><graphic url="assybilad4.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
         </figure>
         <pb xml:id="assybil_1301422"/>
-        <figure><graphic url="ENTITY_assybilad5" rend="inline"/>
+        <figure><graphic url="assybilad5.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
         </figure>
         <pb xml:id="assybil_1301423"/>
-        <figure><graphic url="ENTITY_assybilad6" rend="inline"/>
+        <figure><graphic url="assybilad6.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
         </figure>
         <pb xml:id="assybil_1301424"/>
-        <figure><graphic url="ENTITY_assybilad7" rend="inline"/>
+        <figure><graphic url="assybilad7.jpg" rend="inline"/>
           <figDesc> Advertisement included in back of Stephens' "Sybil Chase"</figDesc>
         </figure>
       </div>

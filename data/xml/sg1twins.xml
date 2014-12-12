@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sg1twins_12022">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sg1twins_12022">
   <teiHeader xml:id="sg1twins1201"><fileDesc>
       <titleStmt>
         <title>The Heavenly Twins, volume I, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Heavenly Twins, In
@@ -135,7 +135,7 @@ Holmes</hi></name>.</bibl>
       </div>
       <div xml:id="sg1twins_302" n="Proem" type="proem">
         <head>PROEM.</head>
-        <figure><graphic url="ENTITY_sg1twinsillv" rend="inline"/>
+        <figure><graphic url="sg1twinsillv.jpg" rend="inline"/>
           <figDesc>A line of music from Mendelssohn's "Elijah," including the
 words: He, watching over Israel, slumbers not, nor sleeps.</figDesc>
         </figure>
@@ -301,7 +301,7 @@ only, when the message sounded, they listened with that full-hearted
 pleasure which is the best praise and thanks. Mendelssohn must have
 felt it when the melody first occurred to him, and the words had
 wedded themselves to the music in his soul!</p>
-        <figure><graphic url="ENTITY_sg1twinsillx" rend="inline"/>
+        <figure><graphic url="sg1twinsillx.jpg" rend="inline"/>
           <figDesc>A line of music with the words: He, watching over Israel,
 slumbers not, nor sleeps.</figDesc>
         </figure>
@@ -498,17 +498,17 @@ them to their fate.</p>
 <lb/>CHILDHOODS AND GIRLHOODS.</head>
         <epigraph>
           <cit>
-            <quote>The Spring is the pleasantest of the seasons; and the young of most
+            <q>The Spring is the pleasantest of the seasons; and the young of most
 animals, though far from being completely fashioned, afford a more agreeable
 sensation than the full grown; because the Imagination is entertained with the
 promise of something more, and does not acquiesce in the present object of the
-sense.</quote>
+sense.</q>
             <bibl>--<hi rend="italic">Burke on the Sublime</hi>.</bibl>
           </cit>
           <cit>
-            <quote>I am inclined to agree with Francis Galton in believing that education
+            <q>I am inclined to agree with Francis Galton in believing that education
 and environment produce only a small effect on the mind of any one, and that
-most of our qualities are innate.</quote>
+most of our qualities are innate.</q>
             <bibl>--<hi rend="italic">Darwin.</hi></bibl>
           </cit>
         </epigraph>
@@ -1222,7 +1222,7 @@ associate with inferior cooks of your kind, what then?"</p>
           <p xml:id="sg1twins_130362">THE next morning all the guests left Fraylingay, and the family there settled into their accustomed grooves. Evadne and her father walked and rode, conversing together as usual, he enjoying the roll and rumble and fine flavour of his own phrase-making amazingly, and she also impressed by the roll and rumble. But when it was all over, and he had marched off in triumph, she would collect the mutilated remains of the argument and examine them at her leisure, and in nine cases out of ten it proved to be quartz that he had crushed and contemned, overlooking the gold it contained, but releasing it for her to find and add exultingly to her own collection. In this way, therefore, she continued to obtain her wealth of ore from him, and both were satisfied—he, because he was sure that, thanks to him, she was "a thoroughly sensible girl with no nonsense of new-fangled notions about her;" and she because, being his daughter, she had not altogether escaped the form of mental <hi rend="italic">myopia</hi> from which he suffered, and was in the habit of seeing only what she hoped and wished to see in those she loved. Man, the unjust and iniquitous, was to her always the outside, vague, theoretical man of the world; never the dear undoubted papa at home.</p>
           <p xml:id="sg1twins_130363">Evadne was the eldest of six girls, and their mother had a comfortable as-it-was-in-the-beginning-is-now-and-ever-shall-be feeling about them all; but she prided herself most upon Evadne as answering in every particular to the conventional idea of what a young lady should be.</p>
           <q>
-            <text xml:id="sg1twins_1204">
+            <q><floatingText xml:id="sg1twins_1204">
               <body xml:id="sg1twins_1203">
                 <div xml:id="sg1twins_009" type="letter">
                   <p xml:id="sg1twins_130365">"The dear child," she wrote to Lady Adeline, "is <hi rend="italic">all</hi>
@@ -1284,11 +1284,11 @@ day.—</p>
 Fraylingay to-morrow, so please write to me there."</p>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="sg1twins_130369">The following is Lady Adeline's reply to Mrs. Frayling's letter:—</p>
           <q>
-            <text xml:id="sg1twins_1206">
+            <q><floatingText xml:id="sg1twins_1206">
               <body xml:id="sg1twins_1205">
                 <dateline>"Hamilton House, Morningquest, 30th July.</dateline>
                 <p xml:id="sg1twins_130370">"My dear Elizabeth,—I am afraid you will have been wondering what h become of us, but I know you will acquit me of all blame for the long delay in answering your letter when I tell you that I have only just received it! We had left Paris before it arrived for (what is always to me) a tiresome tour about the Continent, and it has been following us from pillar to post, finally reaching me here at home, where we have been settled a fortnight. I had not forgotten your kind invitation, but I am afraid I must give up all idea of going to you this year. We hurried back because Mr. Hamilton-Wells became homesick suddenly while we were abroad, and I don't think it will be possible to get him to move again for some time..But won't you come to us? Do, dear, and bring your just-come-out, and, I am sure, most charming, Evadne for our autumn gaieties. If Mr. Frayling would come too, we should be delighted, but I know he has a poor opinion of <hi rend="italic">our</hi> coverts, and I despair of being able to tempt him from his own shooting; and, therefore, I ask <hi rend="italic">you</hi>, first and foremost, in the hope that you will be able to come whether he does or not.</p>
@@ -1345,7 +1345,7 @@ your own children so charming.</p>
                 <closer>—<salute>Ever lovingly
 yours,</salute><signed>ADELINE HAMILTON-WELLS</signed>."</closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="sg1twins_130379">Mrs. Frayling wrote a full account of Evadne's presentation at <pb xml:id="sg1twins_130378" n="52"/>
 Court to her sister, Mrs. Orton Beg—who was wandering about Norway by
@@ -1940,7 +1940,7 @@ moment, and with the desire to go forth and do great deeds of love.</p>
           <p xml:id="sg1twins_130601">But presently the Cathedral clock began to strike, and she raised her head
 to listen. One, two, three, four, the round notes fell; then there was a
 pause; and then the chime rolled out over the storm-stained city:
-<figure><graphic url="ENTITY_sg1twinsillx" rend="inline"/><figDesc>A line of music with the words: "He, watching over Israel,
+<figure><graphic url="sg1twinsillx.jpg" rend="inline"/><figDesc>A line of music with the words: "He, watching over Israel,
 slumbers not, nor sleeps.</figDesc></figure>
 Mechanically, Mrs. Orton Beg repeated the phrase
 with each note <pb xml:id="sg1twins_130600" n="89"/> as it floated forth, filling the silent spaces;
@@ -2072,7 +2072,7 @@ gave <pb xml:id="sg1twins_130648" n="95"/> myself up to it unreservedly. Certain
 fool—there is no other word for it."</p>
           <p xml:id="sg1twins_130650">"But are you married, Evadne?' Mrs. Orton Beg asked in a voice rendered unnatural by the rapid beating of her heart.</p>
           <p xml:id="sg1twins_130651">"Let me tell you, auntie, all about it," Evadne answered hoarsely. She drew her chair a little closer to the fire, and spread her hands out to the blaze. There was no other light in the room by this time. The wind without howled dismally still, but at intervals, as if with an effort. During one of its noisiest bursts, the cathedral clock began to strike, and hushed it, as it were, suddenly. It seemed to be listening, to be waiting, and Evadne waited and listened too, raising her head. There was a perceptible, momentary pause, then came the chime, full, round, mournful, melodious, yet glad too, in the strength of its solemn assurance, filling the desolate regions of sorrow and silence with something of hope whereon the weary mind might repose:—
-<figure><graphic url="ENTITY_sg1twinsillx" rend="inline"/><figDesc>A line of music with the words: "He, watching over Israel,
+<figure><graphic url="sg1twinsillx.jpg" rend="inline"/><figDesc>A line of music with the words: "He, watching over Israel,
 slumbers not, nor sleeps.</figDesc></figure></p>
           <p xml:id="sg1twins_130652">When the last reverberation of the last note had melted out of hearing, Evadne sighed; then she straightened herself, as if collecting her energy, and began to speak.</p>
           <p xml:id="sg1twins_130653">"Yes, I am married," she said, "but when I went to change my dress after the ceremony, I found this letter. It was intended, you see, to reach me some days before it did, but unfortunately it was addressed to Fraylingay, and time was lost in forwarding it." She handed it to her aunt, who raised her eyebrows when she saw the writing, as if she recognized it, hastily drew the letter from its envelope, and held it so that the blaze fell upon it while she read. Evadne knelt on the hearthrug, and stirred the fire, making it burn up brightly.</p>
@@ -2151,7 +2151,7 @@ my heart swells. I leave all that is inexplicable to Him, and thank Him for the 
           <p xml:id="sg1twins_130703">Mrs. Frayling spent the three days in sitting still, embroidering silk flowers on a satin ground, and watering them well with her tears. But on the morning of the fourth day, by the first post, letters arrived which put an end to their suspense. One was from Mrs. Orton Beg and the other from Evadne herself. Mrs. Frayling read them aloud at the breakfast table, and the three sat for an hour in solemn conclave, considering them.</p>
           <p xml:id="sg1twins_130704">Mrs. Orton Beg had had time to recover herself and reflect before she wrote, and the consequence was some modification of her first impression.</p>
           <q>
-            <text xml:id="sg1twins_1208">
+            <q><floatingText xml:id="sg1twins_1208">
               <body xml:id="sg1twins_1207">
                 <salute>"My dear Elizabeth,</salute>
                 <p xml:id="sg1twins_130706">"Evadne is here; she arrived this afternoon. On her wedding day she received a letter from a lady, whose name I am not allowed to mention here, but written under the impression that Evadne was being kept in ignorance of Major Colquhoun's past life, and offering to give her any information that had been withheld so that she might not be blindly entrapped into marrying him under the delusion that he was a worthy man. The letter arrived too late, but Evadne went off nevertheless on the spur of the moment to make further inquiries, the result of which is great indignation on her part for having been allowed to marry a man of such antecedents, and a determination not to live with him. She wishes to stay <pb xml:id="sg1twins_130705" n="104"/>here with me for the present, and I am very glad to have her. I give her an asylum, but I shall not speak a word to influence her decision in any way if I can help it. It is a matter of conscience with her, and I perceive that her moral consciousness and mine are not quite the same; but in the present state of my ignorance, I feel that it would be presumption on my part to set my own up as superior, and therefore I think it better not to interfere in any way.</p>
@@ -2160,11 +2160,11 @@ my heart swells. I leave all that is inexplicable to Him, and thank Him for the 
                 <closer><salute>"Your loving sister,</salute>
 "<signed>OLIVE ORTON BEG</signed>."</closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="sg1twins_130709">Evadne's letter ran thus:—</p>
           <q>
-            <text xml:id="sg1twins_12010">
+            <q><floatingText xml:id="sg1twins_12010">
               <body xml:id="sg1twins_1209">
                 <opener>"The Close, Morningquest,
 <dateline>"4th October.</dateline></opener>
@@ -2176,7 +2176,7 @@ my heart swells. I leave all that is inexplicable to Him, and thank Him for the 
                 <closer>"<salute>Your affectionate Daughter,</salute>
 "<signed>EVADNE</signed>."</closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="sg1twins_130715">"Good heavens! good heavens!" Mr. Frayling ejaculated several times.</p>
           <p xml:id="sg1twins_130716">Major Colquhoun had curled his moustache during the reading of the letter, with the peculiar set expression of countenance he was in the habit of assuming to mask his emotions.</p>
@@ -2195,7 +2195,7 @@ my heart swells. I leave all that is inexplicable to Him, and thank Him for the 
           <p xml:id="sg1twins_130731">"He is in great grief," Mrs. Frayling maintained.</p>
           <p xml:id="sg1twins_130732">As soon as she was settled at Fraylingay, she wrote to Evadne:</p>
           <q>
-            <text xml:id="sg1twins_12012">
+            <q><floatingText xml:id="sg1twins_12012">
               <body xml:id="sg1twins_12011">
                 <div xml:id="sg1twins_018" type="letter">
                   <salute>"My poor misguided Child,</salute>
@@ -2214,11 +2214,11 @@ such a way. Your poor husband has been very sweet and good all through this drea
                   <p xml:id="sg1twins_130737">"P.S.—Your father is so horrified at your conduct that he declares he will neither write to you nor speak to you until you return to your duty."</p>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="sg1twins_130738">Evadne took a day and a half to consider her mother's letter, and then she wrote the following reply:—</p>
           <q>
-            <text xml:id="sg1twins_12014">
+            <q><floatingText xml:id="sg1twins_12014">
               <body xml:id="sg1twins_12013">
                 <opener>"The Close, Morningquest,
 <dateline>"9th October.</dateline></opener>
@@ -2229,11 +2229,11 @@ such a way. Your poor husband has been very sweet and good all through this drea
                 <closer>"<salute>Your affectionate Daughter,</salute>
 "<signed>EVADNE</signed>."</closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="sg1twins_130744">Mrs. Frayling's reply to this letter arrived by return of post, red-hot. Evadne, glancing at the envelope, frowned to find herself addressed as "Mrs. Colquhoun." The name had not struck her on her mother's first communication, which was also the first occasion upon which she had been so addressed, and it had not occurred to her until now that she would have to be "Mrs. Colquhoun" from thenceforth, whether she liked it or not. She felt it to be unjust, distinctly; a gross infringement of the liberty of the subject, and she opened her mother's letter with rage and rebellion at her heart, and found the contents anything but soothing to such a state of mind. It ran as follows:—</p>
           <q>
-            <text xml:id="sg1twins_12016">
+            <q><floatingText xml:id="sg1twins_12016">
               <body xml:id="sg1twins_12015">
                 <salute>"You most unnatural Child,</salute>
                 <p xml:id="sg1twins_130746">"We shall all be disgraced if this story gets about. So far, the world knows nothing, and there is time for you to save yourself. I warn you that your father's anger is extreme. He says he shall be obliged to put you in a lunatic asylum if you do not give in at once, and consent to live with your husband. And there is the law too which your husband can invoke. And think of your five sisters. Will anybody marry them after such a business with you? Their prospects will be simply ruined by your heartless selfishness. No girl in my young days would have acted so outrageously. It is not decent. It is positively immodest. I repeat that your father <hi rend="italic">is</hi> the proper person to judge for you. You know nothing of the world, and even if you did, you are not old enough to think for yourself. You do not imagine yourself to be a sort of seer, I hope, better informed by intuition than your parents are by wisdom and knowledge, for that would be a certain sign of insanity. Your father thinks your opposition is mere conceit, and certainly no good can come of it. All right-minded women have submitted and suffered patiently, and have had their reward. Think of the mother of St. Augustin! Her husband returned to her penitent after <pb xml:id="sg1twins_130745" n="111"/>years of depravity. '<hi rend="italic">Every wise woman buildeth her house; but the foolish pluck it down</hi>,' and that is what you are doing. '<hi rend="italic">A continual dropping on a rainy day and a contentious woman are alike</hi>.' For heaven's sake, my child, do not become a contentious woman. See also Prov. viii. If only you had read your Bible regularly every day, prayed humbly for a contrite heart, and <hi rend="italic">obeyed your parents</hi>, as you have always been taught to do, we should never have had all this dreadful trouble with you; but you show yourself wanting in respect in every way and in all right and proper feeling, and really I don't know what to do. I don't indeed. O do remember that forgiveness is still offered to you, and repent while it is called to-day. I assure you that your poor husband is even more ready than your father and myself to forgive and forget.</p>
@@ -2241,13 +2241,13 @@ such a way. Your poor husband has been very sweet and good all through this drea
                 <closer>"<salute>Your affectionate Mother,</salute>
 "<signed>ELIZABETH FRAYLING</signed>."</closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="sg1twins_130748">Evadne read this letter in the drawing-room, and stood for a little, leaning against the window-frame looking up at the Close, at the old trees dishevelled by the recent gale, and at the weatherbeaten wall of the south transept of the Cathedral, from which the beautiful spire sprang upwards; but she rendered no account to herself of these marvels of nature and art.</p>
           <p xml:id="sg1twins_130750">Something in her attitude as she stood there with one hand resting flat upon the window-frame high above her head, and the other hanging down beside her loosely holding her mother's letter, attracted Mrs. Orton Beg's attention, and made her wonder what thought her niece was so intent upon. Not one of the thoughts of youth, which are "long, long thoughts," apparently, for the expression of her countenance was not far away, and neither was it sad nor angry, but only intent. Presently, she turned from the window, languidly strolled to the writing table, re-read her letter, and began to write without moving a muscle of her face. As she proceeded, however, she compressed her lips and bent her brows portentously, and Mrs. Orton Beg was sure that she heard no note of the mellow chime which sounded once while she was so engaged, and seemed to her aunt to plead with her solemnly to cast her care <pb xml:id="sg1twins_130749" n="112"/>on the great Power watching, and continue passively in the old worn grooves, as Mrs. Orton Beg herself had done.</p>
           <p xml:id="sg1twins_130751">Evadne began abruptly:—</p>
           <q>
-            <text xml:id="sg1twins_12018">
+            <q><floatingText xml:id="sg1twins_12018">
               <body xml:id="sg1twins_12017">
                 <opener>"The Close, Morningquest,
 <dateline>"13th October.</dateline><salute>"Dear Mother,</salute></opener>
@@ -2260,7 +2260,7 @@ such a way. Your poor husband has been very sweet and good all through this drea
                 <closer>"<salute>Your most loving Child,</salute>
 "<signed>EVADNE</signed>."</closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="sg1twins_130758">The last lines were crowded into the smallest possible space, and there had hardly been room enough for her name at the end. She glanced at the clock as she folded the letter, and finding that there was only just time to catch the post she rang for a servant and told her to take it at once. Then she took her old stand in the window, and watched the girl hurrying up the Close, holding the white letter carelessly, and waving it to and fro on a level with her shoulder as she went.</p>
           <p xml:id="sg1twins_130759">"I wish I had had time to re-write it," Evadne thought; "shall I call her back? No. Anything will be better for mother than another day's suspense. But I think I might have expressed myself better. I don't know, though." She turned from the window, and met her aunt's kind eyes fixed upon her.</p>
@@ -2757,7 +2757,7 @@ such a way. Your poor husband has been very sweet and good all through this drea
           <p xml:id="sg1twins_1301258">"You never seem to be here, somehow," said Diavolo, struggling with a big thought he could not express. "I always feel when you come in as if you were miles and miles away from us. Now, mamma is always close to us, and papa gets quite in the way; but you seem to be"—he raised both hands high above his head, with the palms spread outwards, and then let his arms sink to his sides slowly. The gesture expressed an immeasurable distance above and beyond him.</p>
           <p xml:id="sg1twins_1301259">"Yes," said Angelica, "I feel that too. But sometimes, when there's music and flowers and no light to speak of—in church, you know—and you feel as if angels might be about, or even the Lord himself, I rise up beside you somehow, and come quite close."</p>
           <p xml:id="sg1twins_1301261">Lady Fulda's eyes deepened with feeling as Angelica spoke, and drawing the child to her side, she smoothed her hair, and gazed down into her face earnestly, as if she would penetrate the veil of flesh that baffled her when she tried to see clearly the soul of which Angelica occasionally gave her some such glimpse. <pb xml:id="sg1twins_1301260" n="180"/>The old duke glanced round at the clock, and instantly the attentive priest stepped to the window and opened it wide. Then the duke raised his hand as if to enjoin silence, and presently the music of the bells of the city clocks, striking the hour in various tones, and all at different moments, causing a continuous murmurous sea of sound, arose from below. When the last vibration ceased there was a quite perceptible pause. The duke took off his little round black velvet cap, and leant forward, listening intently; Lady Fulda bent her head and her lips moved; the priest folded his hands and looked straight before him with the unconscious eyes of one absorbed in thought or prayer who sees not; the twins, assuming a sanctimonious expression, bowed their hypocritical heads and watched what was going on out of the corners of their eyes. There was a moment's interval, and then came the chime, mellowed by distance, but clear and resonant:
-<figure><graphic url="ENTITY_sg1twinsillx" rend="inline"/><figDesc>A line of music with the words: "He, watching over Israel,
+<figure><graphic url="sg1twinsillx.jpg" rend="inline"/><figDesc>A line of music with the words: "He, watching over Israel,
 slumbers not, nor sleeps.</figDesc></figure></p>
           <p xml:id="sg1twins_1301262">It was the habit of the old duke to listen for it hour by hour, and while it rang, he, and those of his household who shared his faith, offered a fervent prayer for the restoration of Holy Church.</p>
           <p xml:id="sg1twins_1301263">Lady Fulda insisted on sending the children home under proper escort. They strongly objected. They said they were not going straight home; they had to call on the Bishop of Morningquest.</p>
@@ -2998,24 +2998,24 @@ Diavolo chanted, accompanying the words with a little dance, in which Angelica, 
 <lb/>A MALTESE MISCELLANY.</head>
         <epigraph>
           <cit>
-            <quote>DEATH itself to the reflecting mind is less serious than
+            <q>DEATH itself to the reflecting mind is less serious than
 marriage. The elder plant is cut down that the younger may have room to
 flourish; a few tears drop into the loosened soil, and buds and blossoms
 spring over it. Death is not a blow, is not even a pulsation; it is a
 pause. But marriage unrolls the awful lot of numberless generations. Health,
 genius, honour are the words inscribed on some; on others are disease,
-fatuity and infamy.</quote>
+fatuity and infamy.</q>
             <bibl>--<hi rend="italic">Walter Savage
 Landor.</hi></bibl>
           </cit>
         </epigraph>
         <epigraph>
           <cit>
-            <quote>THE great leading idea is quite new to me, viz., that during the
+            <q>THE great leading idea is quite new to me, viz., that during the
 late ages, the mind will have been modified more than the body; yet I had not
 got as far as to see with you, that the struggle between the races of man
 depended entirely on intellectual and <hi rend="italic">moral</hi>
-qualities.</quote>
+qualities.</q>
             <bibl>--<hi rend="italic">Darwin: Letter to A.R. Wallace</hi>.</bibl>
           </cit>
         </epigraph>

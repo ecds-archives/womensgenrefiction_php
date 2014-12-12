@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fblasso_0000">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fblasso_0000">
   <teiHeader xml:id="fblasso0001"><fileDesc>
       <titleStmt>
         <title>That Lass o' Lowrie's, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>That Lass o'
@@ -83,23 +83,23 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="fblasso_0002">
     <front xml:id="fblasso_0003">
       <div xml:id="fblasso_000" type="covers">
-        <figure><graphic url="ENTITY_fblassofc" rend="inline"/>
+        <figure><graphic url="fblassofc.jpg" rend="inline"/>
           <figDesc>Front cover of Burnett's That Lass o' Lowrie's.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_fblassosp" rend="inline"/>
+        <figure><graphic url="fblassosp.jpg" rend="inline"/>
           <figDesc>Spine of Burnett's That Lass o' Lowrie's.</figDesc>
         </figure>
       </div>
       <pb xml:id="fblasso_1305"/>
       <div xml:id="fblasso_5371" type="paratext">
-        <figure><graphic url="ENTITY_fblassopt" rend="inline"/>
+        <figure><graphic url="fblassopt.jpg" rend="inline"/>
           <figDesc>Inscription included in the front of Burnett's That Lass o'
 Lowrie's.</figDesc>
         </figure>
       </div>
       <pb xml:id="fblasso_1306"/>
       <div xml:id="fblasso_3001" type="frontispiece">
-        <figure><graphic url="ENTITY_fblassofp" rend="inline"/>
+        <figure><graphic url="fblassofp.jpg" rend="inline"/>
           <p xml:id="fblasso_1307">SHE STEPPED INTO THE GALLERY BEFORE HE COULD PROTEST.</p>
           <figDesc>Frontispiece included in Burnett's That Lass o' Lowrie's.</figDesc>
         </figure>
@@ -121,25 +121,25 @@ Lowrie's.</figDesc>
       <pb xml:id="fblasso_13010" n="[ii]"/>
       <pb xml:id="fblasso_13011"/>
       <div xml:id="fblasso_3002" type="copyright">
-        <figure><graphic url="ENTITY_fblassocr" rend="inline"/>
+        <figure><graphic url="fblassocr.jpg" rend="inline"/>
           <figDesc>Copyright information for Burnett's That Lass o' Lowrie's.</figDesc>
         </figure>
       </div>
       <pb xml:id="fblasso_13012" n="[iii]"/>
-      <div xml:id="fblasso_3003" type="table of contents">
-        <figure><graphic url="ENTITY_fblassotc1" rend="inline"/>
+      <div xml:id="fblasso_3003" type="table_of_contents">
+        <figure><graphic url="fblassotc1.jpg" rend="inline"/>
           <figDesc>Table of contents of Burnett's That Lass o' Lowrie's.</figDesc>
         </figure>
         <pb xml:id="fblasso_13013" n="iv"/>
-        <figure><graphic url="ENTITY_fblassotc2" rend="inline"/>
+        <figure><graphic url="fblassotc2.jpg" rend="inline"/>
           <figDesc>Table of contents of Burnett's That Lass o' Lowrie's.</figDesc>
         </figure>
         <pb xml:id="fblasso_13014" n="v"/>
-        <figure><graphic url="ENTITY_fblassotc3" rend="inline"/>
+        <figure><graphic url="fblassotc3.jpg" rend="inline"/>
           <figDesc>Table of contents of Burnett's That Lass o' Lowrie's.</figDesc>
         </figure>
         <pb xml:id="fblasso_13015" n="vi"/>
-        <figure><graphic url="ENTITY_fblassotc4" rend="inline"/>
+        <figure><graphic url="fblassotc4.jpg" rend="inline"/>
           <figDesc>Table of contents of Burnett's That Lass o' Lowrie's.</figDesc>
         </figure>
       </div>
@@ -198,7 +198,7 @@ to battle in secret, though of this he would have felt it almost dishonor to com
         <p xml:id="fblasso_13057">He read the note himself and then handed it to Derrick.</p>
         <p xml:id="fblasso_13058">It was a compact, decided hand, free from the suspicion of an unnecessary curve.</p>
         <q>
-          <text xml:id="fblasso_13061">
+          <q><floatingText xml:id="fblasso_13061">
             <body xml:id="fblasso_13060">
               <opener>
                 <salute>"DEAR MR. GRACE,--</salute>
@@ -210,7 +210,7 @@ to battle in secret, though of this he would have felt it almost dishonor to com
                 <signed>ANICE BARHOLM."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fblasso_13062">Derrick refolded the note and handed it back to his friend. To tell the truth, it did not impress him very favorably. A girl not yet twenty years old, who could write such a note as this to a man who loved her, must be rather <hi rend="italic">too</hi> self-contained and well balanced.</p>
         <p xml:id="fblasso_13063">"You have never told me much of this story, Grace," he said.</p>
@@ -548,7 +548,7 @@ flowers for the house, Anice, standing before a high lilac bush, and pulling its
         <p xml:id="fblasso_130347">This passer-by--a tall pit girl with a handsome, resolute face--stood behind the dark green hedge, and watched her. Perhaps to this girl, weary with her day's labor, grimed with coal-dust, it was not unlike standing outside paradise. Early in the year as it was, there were flowers enough in the beds, and among the shrubs, to make the spring air fresh with a faint, sweet odor. But here too was Anice in her soft white merino dress, with her basket of flowers, with the blue bells at her belt, and her half audible song. She struck Joan Lowrie with a new sense of beauty and purity. As she watched her she grew discontented--restless--sore at heart. She could not have told why, but she felt a certain anger against herself. She had had a hard day. Things had gone wrong at the pit's mouth; things had gone wrong at home. It was hard for her strong nature to bear with Liz's weakness. Her path was never smooth, but to-day it had been at its roughest. The little song fell upon her ear with strong pathos.</p>
         <p xml:id="fblasso_130348">"She's inside o' th' hedge," she said to herself in a dull voice. "I'm outside, theer's th' difference. It a'most looks loike the hedge went aw' around an' she'd been born among th' flowers, and theer's no way out for her--no more than theer's a way in fur me."</p>
         <p xml:id="fblasso_130352">Then it was that Anice turned round and saw her. Their eyes met, and, singularly enough, Anice's first
-<pb xml:id="fblasso_130349"/><figure><graphic url="ENTITY_fblassoill48" rend="inline"/><p xml:id="fblasso_130350">THEN IT WAS THAT ANICE TURNED AROUND AND SAW HER.</p><figDesc>Illustration included in Burnett's That Lass o'
+<pb xml:id="fblasso_130349"/><figure><graphic url="fblassoill48.jpg" rend="inline"/><p xml:id="fblasso_130350">THEN IT WAS THAT ANICE TURNED AROUND AND SAW HER.</p><figDesc>Illustration included in Burnett's That Lass o'
 Lowrie's.</figDesc></figure><pb xml:id="fblasso_130351" n="49 OUTSIDE THE HEDGE."/>
 thought was that this was Joan. Derrick's description made her sure. There were not two such women in Riggan. She made her decision in a moment. She stepped across the grass to the hedge with a ready smile.</p>
         <p xml:id="fblasso_130353">"You were looking at my flowers," she said. "Will you have some?"</p>
@@ -869,7 +869,7 @@ I've done. Will tha walk on first an' let me follow thee?"</p>
         <p xml:id="fblasso_130621">They went out into the road together, he first, she following at a short distance, so that nobody seeing the one could avoid seeing the other. It was an awkward and trying position for a man of Derrick's temperament, and under some circumstances he would have rebelled against it; as it was, he could not feel humiliated.</p>
         <p xml:id="fblasso_130622">At a certain dark bend in the road not far from Lowrie's cottage, Joan halted suddenly and spoke.</p>
         <p xml:id="fblasso_130626">"Feyther," she said, in a clear steady voice, "is na that
-<pb xml:id="fblasso_130623"/><figure><graphic url="ENTITY_fblassoill84" rend="inline"/><p xml:id="fblasso_130624">JOAN HALTED SUDDENLY.</p><figDesc>Illustration included in Burnett' That Lass o'
+<pb xml:id="fblasso_130623"/><figure><graphic url="fblassoill84.jpg" rend="inline"/><p xml:id="fblasso_130624">JOAN HALTED SUDDENLY.</p><figDesc>Illustration included in Burnett' That Lass o'
 Lowrie's.</figDesc></figure><pb xml:id="fblasso_130625" n="85 ON THE KNOLL ROAD."/>
 yo' standin' theer? I thowt yo'd happen to be comin' whoam this way. Wheer has tha been?" And as he passed on, Derrick caught the sound of a muttered oath, and gained a side glimpse of a heavy, slouching figure coming stealthily out of the shadow.</p>
       </div>
@@ -1018,7 +1018,7 @@ theer's other things I'd loike to know. Tha canst under stand," she added a litt
         <head>CHAPTER XIV.
 <lb/>THE OPEN "DAVY."</head>
         <q>
-          <text xml:id="fblasso_130747">
+          <q><floatingText xml:id="fblasso_130747">
             <body xml:id="fblasso_130746">
               <opener>
                 <salute>MESTER DERIK</salute>
@@ -1028,7 +1028,7 @@ theer's other things I'd loike to know. Tha canst under stand," she added a litt
                 <signed> honest man wi a famly tu fede.</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fblasso_130748">THE engineer found this letter near his plate one morning on coming down to breakfast. His landlady explained that her daughter had picked it up inside the garden gate, where it had been thrown upon the gravel-walk, evidently from the road.</p>
         <p xml:id="fblasso_130749">Derrick read it twice or three times before putting it in his pocket. Upon the whole, he was not unprepared for the intelligence. He knew enough of human nature--such human nature as Lowrie represented--to feel sure that the calm could not continue. If for the present the man did not defy him openly, he would disobey him in secret, while biding his time for other means of retaliation.</p>
@@ -1472,7 +1472,7 @@ ful listlessness, were tremulous high spirits and feverish fits of gayety.</p>
         <p xml:id="fblasso_1301122">"Aye," wept Liz, "he wur, an' I dare na tell yo'. It seemit loike it tuk away my breath, an aw my heart owt o' me. Nivver yo' blame me, Joan--nivver yo' be hard on me--ivverything else is hard enow. I thowt I wur safe i' yo'--I did fur sure."</p>
         <p xml:id="fblasso_1301123">"An' yo' <hi rend="itallic">are</hi> safe," Joan answered. "Dost tha' think I would turn agen thee? Nay, lass; tha'rt as safe as th' choild is, when I hold it i' my breast. I ha' a pain o' my own, Liz, as'll nivver heal, an' I'd loike to know as I'd held out my hond to them as theer is healin' fur. I'd thank God fur th' chance--poor lass--poor lass--poor lass!" And she bent down and kissed her again and again. </p>
         <pb xml:id="fblasso_1301124"/>
-        <figure><graphic url="ENTITY_fblassoill156" rend="inline"/>
+        <figure><graphic url="fblassoill156.jpg" rend="inline"/>
           <p xml:id="fblasso_1301125">SHE DREW THE CURLY HEAD DOWN UPON HER LAP.</p>
           <figDesc>Illustration included in Burnett' That Lass o'
 Lowrie's.</figDesc>
@@ -2682,32 +2682,32 @@ Her old speech came back in the quick hushed cry she uttered.</p>
     <back xml:id="fblasso_2187">
       <pb xml:id="fblasso_1302164"/>
       <div xml:id="fblasso_080" type="adverts">
-        <figure><graphic url="ENTITY_fblassobm1" rend="inline"/>
+        <figure><graphic url="fblassobm1.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back matter of Burnett's That
 Lass o' Lowrie's.</figDesc>
         </figure>
         <pb xml:id="fblasso_1302165"/>
-        <figure><graphic url="ENTITY_fblassobm2" rend="inline"/>
+        <figure><graphic url="fblassobm2.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back matter of Burnett's That
 Lass o' Lowrie's.</figDesc>
         </figure>
         <pb xml:id="fblasso_1302166"/>
-        <figure><graphic url="ENTITY_fblassobm3" rend="inline"/>
+        <figure><graphic url="fblassobm3.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back matter of Burnett's That
 Lass o' Lowrie's.</figDesc>
         </figure>
         <pb xml:id="fblasso_1302167"/>
-        <figure><graphic url="ENTITY_fblassobm4" rend="inline"/>
+        <figure><graphic url="fblassobm4.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back matter of Burnett's That
 Lass o' Lowrie's.</figDesc>
         </figure>
         <pb xml:id="fblasso_1302168"/>
-        <figure><graphic url="ENTITY_fblassobm5" rend="inline"/>
+        <figure><graphic url="fblassobm5.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back matter of Burnett's That
 Lass o' Lowrie's.</figDesc>
         </figure>
         <pb xml:id="fblasso_1302169"/>
-        <figure><graphic url="ENTITY_fblassobm6" rend="inline"/>
+        <figure><graphic url="fblassobm6.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back matter of Burnett's That
 Lass o' Lowrie's.</figDesc>
         </figure>

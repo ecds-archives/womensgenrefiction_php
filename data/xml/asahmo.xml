@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="asahmo_9990">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="asahmo_9990">
   <teiHeader xml:id="asahmo9991"><fileDesc>
       <titleStmt>
         <title>Ahmo's Plot, an electronic edition</title>
@@ -12,7 +12,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>.<title>Ahmo's plot</title>. <pubPlace>London</pubPlace>: <publisher>George Routledge and Sons</publisher>, <date>1863</date>.</bibl>
@@ -57,8 +57,8 @@
     </profileDesc><revisionDesc><change><date>2008-June-17</date><label>Encoder.</label><name>Shruthi Vissa,</name>XML tags inserted in compliance with TEI guidelines using TEILITE.</change></revisionDesc></teiHeader>
   <text xml:id="asahmo_1301222">
     <front xml:id="asahmo_1309">
-      <div xml:id="asahmo_cover" type="front cover">
-        <figure><graphic url="ENTITY_asahmofc" rend="inline"/>
+      <div xml:id="asahmo_cover" type="front_cover">
+        <figure><graphic url="asahmofc.jpg" rend="inline"/>
           <figDesc> Front cover of Mrs. Stephen' "Ahmo's Plot"</figDesc>
         </figure>
       </div>

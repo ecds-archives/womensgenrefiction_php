@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="tdiras_1208">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="tdiras_1208">
   <teiHeader xml:id="tdiras1201"><fileDesc>
       <titleStmt>
         <title>Iras, A Mystery, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Iras, A Mystery</title>. <pubPlace>Edinburgh</pubPlace>:
@@ -80,7 +80,7 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="tdiras_1207">
     <front xml:id="tdiras_1202">
       <div xml:id="tdiras_000" type="covers">
-        <figure><graphic url="ENTITY_tdirasfc" rend="inline"/>
+        <figure><graphic url="tdirasfc.jpg" rend="inline"/>
           <figDesc>Front cover of Douglas's <hi rend="italic">Iras</hi>.</figDesc>
         </figure>
       </div>
@@ -350,7 +350,7 @@ reach of a doctor's prescription, comforted me in spite of myself. I slept sound
         <p xml:id="tdiras_130138">I have it by me, and shall transcribe such portions of it as bear upon my narrative.</p>
         <pb xml:id="tdiras_130139" n="49     Iras: A Mystery"/>
         <q>
-          <text xml:id="tdiras_1204">
+          <q><floatingText xml:id="tdiras_1204">
             <body xml:id="tdiras_1203">
               <opener>"<salute>DEAR OLD CHUM</salute>,--</opener>
               <p xml:id="tdiras_130140">Your precious
@@ -416,7 +416,7 @@ at hieroglyphics, but, so far as I have been able to make out, the
 mummy on its way to you is that of a woman--the virgin daughter of the priest Khames.  Send me that wire without fail, to relieve my mind as well as Abd-el-Moluk's, and believe me, dear Lavenham, your devoted--</p>
               <closer>"<signed>J. SKIPTON</signed>."</closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="tdiras_130161" n="62     Iras: A Mystery"/>
         <p xml:id="tdiras_130162">I got back to work that morning, and was greatly relieved to find
@@ -1401,7 +1401,7 @@ have no kindred to dispute such disposition as I choose to make of my little pro
     </body>
     <back xml:id="tdiras_1206">
       <div xml:id="tdiras_512" type="advert">
-        <figure><graphic url="ENTITY_tdirasad" rend="inline"/>
+        <figure><graphic url="tdirasad.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Douglas's <hi rend="italic">Iras</hi>.</figDesc>
         </figure>
       </div>

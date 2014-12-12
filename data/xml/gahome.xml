@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gahome_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gahome_1201">
   <teiHeader xml:id="gahome1202"><fileDesc>
       <titleStmt>
         <title>Home Influence: A Tale for Mothers and Daughters, an electronic edition</title>
@@ -10,7 +10,7 @@
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/1728t</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. 
@@ -64,7 +64,7 @@
       <div xml:id="gahome_13011" type="dedicaton">
         <p xml:id="gahome_1307" rend="center">TO<lb/>MRS. HERBERT TOWNSHEND BOWEN.</p>
         <q>
-          <text xml:id="gahome_13010">
+          <q><floatingText xml:id="gahome_13010">
             <body xml:id="gahome_1309">
               <div xml:id="gahome_900" type="letter">
                 <opener>
@@ -93,7 +93,7 @@ AGUILAR.</name></signed>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb xml:id="gahome_13012" n="[v]"/>
@@ -361,11 +361,11 @@ so earnestly endeavored to diffuse.</p>
       </div>
       <pb xml:id="gahome_13050" n="xviii"/>
       <pb xml:id="gahome_13051" n="xix"/>
-      <div xml:id="gahome_000" type="table of contents">
-        <figure><graphic url="ENTITY_gahomefml2" rend="inline"/>
+      <div xml:id="gahome_000" type="table_of_contents">
+        <figure><graphic url="gahomefml2.jpg" rend="inline"/>
           <figDesc> Table of Contents for Home Influence: A Tale for Mothers and Daughters</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_gahomefm13" rend="inline"/>
+        <figure><graphic url="gahomefm13.jpg" rend="inline"/>
           <figDesc> Table of Contents for Home Influence: A Tale for Mothers and Daughters.</figDesc>
         </figure>
       </div>

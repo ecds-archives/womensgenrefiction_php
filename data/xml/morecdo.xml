@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="morecdo_12014">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="morecdo_12014">
   <teiHeader xml:id="morecdo1201"><fileDesc>
       <titleStmt>
         <title>Chronicles of Carlingford: The Rector and The Doctor's Family, an
@@ -16,7 +16,7 @@ electronic edition</title>
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Fate of Madame
@@ -80,7 +80,7 @@ page images have been linked to the text file.</p>
   <text xml:id="morecdo_12013">
     <front xml:id="morecdo_1202">
       <div xml:id="morecdo_500" type="spine">
-        <figure><graphic url="ENTITY_morecdosp" rend="inline"/>
+        <figure><graphic url="morecdosp.jpg" rend="inline"/>
           <figDesc>An image of the spine of Mrs. Oliphant's <hi rend="italic">The Rector and The Doctor's Family</hi>.</figDesc>
         </figure>
       </div>
@@ -516,7 +516,7 @@ house. Dr Rider went to his hard day's work vaguely expectant, feeling sure he m
 <pb xml:id="morecdo_130261" n="84     CHRONICLES OF CARLINGFORD:"/>
 came among Dr Rider's letters. He signaled it out by instinct, and opened it with an impatience wonderful to behold.</p>
               <q>
-                <text xml:id="morecdo_1208">
+                <q><floatingText xml:id="morecdo_1208">
                   <body xml:id="morecdo_1207">
                     <opener>"<salute>SIR</salute>,</opener>
                     <p xml:id="morecdo_130263">--We are all at the Blue
@@ -534,7 +534,7 @@ you to call on me.</p>
                     <closer><salute>Begging you will pardon me, I remain,</salute>
 "<signed>NETTIE UNDERWOOD</signed></closer>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="morecdo_130267">"She remains Nettie Underwood," said the doctor unawares. He laughed to himself at that conclusion. Then an odd gleam came across his face. It was probably the first time he had laughed in a natural fashion for some months back, and the unusual exertion made his cheeks tingle.  His temper was improved that
 <pb xml:id="morecdo_130264" n="85     THE DOCTOR'S FAMILY."/>

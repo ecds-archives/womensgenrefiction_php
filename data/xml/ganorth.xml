@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ganorth_1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ganorth_1205">
   <teiHeader xml:id="ganorth1201"><fileDesc>
       <titleStmt>
         <title>Senator North, an electronic edition</title>
@@ -22,7 +22,7 @@ inquiries about this text's availability, please contact:<address><addrLine>Lewi
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Senator North</title>.  <pubPlace>New York</pubPlace>:
@@ -93,12 +93,12 @@ page images are linked to the text file.</p>
   <text xml:id="ganorth_1202">
     <front xml:id="ganorth_1204">
       <div xml:id="ganorth_fm00" type="covers">
-        <figure><graphic url="ENTITY_ganorthfc" rend="inline"/>
+        <figure><graphic url="ganorthfc.jpg" rend="inline"/>
           <figDesc>Front cover of Gertrude Atherton's "Senator North"</figDesc>
         </figure>
       </div>
       <div xml:id="ganorth_fm01" type="adverts">
-        <figure><graphic url="ENTITY_ganorthadv1" rend="inline"/>
+        <figure><graphic url="ganorthadv1.jpg" rend="inline"/>
           <figDesc>Page including a list of other books by Mrs. Atherton at the front of "Senator North"</figDesc>
         </figure>
       </div>
@@ -114,7 +114,7 @@ page images are linked to the text file.</p>
       </titlePage>
       <pb xml:id="ganorth_1307"/>
       <div xml:id="ganorth_fm02" type="copyright">
-        <figure><graphic url="ENTITY_ganorthcopy" rend="inline"/>
+        <figure><graphic url="ganorthcopy.jpg" rend="inline"/>
           <figDesc>Copyright page of Gertrude Atherton's "Senator
     North."</figDesc>
         </figure>
@@ -558,10 +558,10 @@ as soon as they could.</p>
           <head>X</head>
           <p xml:id="ganorth_130408">BETTY rose suddenly from the breakfast-table and went into the library, carrying a half-read letter. She had felt her face flush and her hand tremble, and escaped from the servants into a room where she could think alone for hours, if she wished.</p>
           <p xml:id="ganorth_130417">The letter ran as follows:—
-<q><text xml:id="ganorth_130416"><body xml:id="ganorth_130415"><div xml:id="ganorth_130412" type="letter"><dateline>THE PARSONAGE, ST. ANDREW, VIRGINIA.</dateline><lb/><salute>TO MISS ELIZABETH MADISON:<lb/>
+<q><floatingText xml:id="ganorth_130416"><body xml:id="ganorth_130415"><div xml:id="ganorth_130412" type="letter"><dateline>THE PARSONAGE, ST. ANDREW, VIRGINIA.</dateline><lb/><salute>TO MISS ELIZABETH MADISON:<lb/>
 DEAR MADAM,—</salute><p xml:id="ganorth_130410">I have a communication of a somewhat trying nature to make, and believe me, I would not make it were not my end very near. Your father, dear madam, the late Harold Carter Madison, left an illegitimate daughter by a woman whom he loved for many years, an octaroon named Cassandra Lee. Before his death he gave poor Cassie a certain sum of money, and made her <pb xml:id="ganorth_130409" n="78  Senator North"/>promise to leave Washington and never return. She came here and devoted the few remaining years of her life to the care of her child. I and my wife were the only persons who knew her story, and when she was dying we willingly promised to take the little one. For the last ten years Harriet has lived here in the parsonage and has been the only child I have ever known,—a dearly beloved child. She has been carefully educated and is a lady in every sense of the word. I had until the last two years a little school, and she was my chief assistant. But the public school proved more attractive—and doubtless is more thorough—and this passed from me. Last year my wife died. Now I am going, and very rapidly. I have only just learned the nature of my illness, and I may be dead before you receive this letter. I write to beg you to receive your sister. There is no argument I can use, dear lady, which your own conscience will not dictate. You will not be ashamed of her. She shows not a trace of the taint in her blood. The money your father gave Cassie has gone long since, but Harriet asks no alms of you, only that you will help her to go somewhere far from those who know that she is not as white as she looks, and to give her a chance to earn her living. She is well fitted to be a governess or companion, and no doubt you could easily place her. But she is lonely and frightened and miserable. Be merciful and receive her into your home for a time.</p><p xml:id="ganorth_130411">"I dare not write this to your mother. She has no cause to feel warmly to Harriet. But you are young, and wealthy in your own right. Her future rests with you. Here in this village she can do absolutely nothing, and after I am buried she will not have enough to keep her for a month. Answer to her—she bears my name.</p><salute>I am, dear lady,<lb/>
 Your humble and obd't servant,</salute><lb/><signed>ABRAHAM WALKER.</signed></div><div xml:id="ganorth_130414" type="postcript"><p xml:id="ganorth_130413">P. S. Harriet is twenty-three. She has
-letters in her possession which prove her parentage.</p></div></body></text></q></p>
+letters in her possession which prove her parentage.</p></div></body></floatingText></q></p>
           <pb xml:id="ganorth_130418" n="79  Senator North"/>
           <p xml:id="ganorth_130419">Betty's first impulse was to take the next train for St. Andrew. Her heart went out to the lonely girl, deprived of her only protector, wretched under the triple load of poverty, friendlessness, and the curse of race. She remembered vividly those two men in the church whose bearing expressed more forcibly than any words the canker that had blighted their manhood. And this girl bore no visible mark of the wrong that had been done her, and only needed the opportunity to be happy and respected. Could duty be more plain? And was she a chosen instrument to right one at least of the great wrongs perpetrated by the brilliant, warm-hearted, reckless men of her race?</p>
           <p xml:id="ganorth_130421">But in a moment she shuddered and dropped the letter, a wave of horror and disgust rising within her. This girl was her half-sister, and was, light or dark, a negress. Betty had seen too much of the world in her twenty-seven years to weep at the discovery of her father's weakness, or to shrink from a woman so unhappy 
@@ -990,7 +990,7 @@ in the heavy shadows, was a coffin on its trestle.</p>
           <p xml:id="ganorth_130846">Mrs. Madison had not retired and was awaiting her daughter in the living-room. Betty found the household an apparently happy one. The Major was a courtly gentleman who told stories of the war. Harriet in her soft black mull with a deep color in her cheeks looked superb, and Betty kissed and congratulated her warmly; as Senator North had predicted, the physical repulsion had worn away long since. The big room with its matting and cane divans and chairs, heaped with bright cushions, and the pungent fire in the deep chimney—for the evenings were still cold—looked cosey and inviting; no wonder everybody was content. Even Jack looked less careworn than usual; doubtless the pines, as ever, had routed his malaria. Only Sally's gayety seemed a little forced, and there was an occasional snap in her eye and dilation of her nostril.</p>
           <p xml:id="ganorth_130848">When Betty had put her mother to bed and talked her to sleep, she went to her own room and opened the window. She could hear the lake murmuring at <pb xml:id="ganorth_130847" n="153  Senator North"/>the foot of the terrace, the everlasting sighing of the pines; but it was very dark: she could hardly see the grim mountains across the water. Just below them was a triple row of lights. He should have been behind those lights and he was not. For the moment she hated politics.</p>
           <p xml:id="ganorth_130852">She closed the window and wrote the following letter:—
-<q><text xml:id="ganorth_130851"><body xml:id="ganorth_130850"><salute>DEAR MR. NORTH,—</salute><p xml:id="ganorth_130849">I am home, you see. Don't reply and tell me that the Tariff Bill surrounds you like a fortress wall. I am going for a walk at five o'clock on Saturday morning, and I expect to meet you somewhere in the forest above the north end of the lake. You can reach it by the path on your side. I shall row there. Do not labor over an excuse, my friend. I know how you hate to write letters, and you know that I am a tyrant whose orders are always obeyed.</p><signed>BETTY MADISON.</signed></body></text></q></p>
+<q><floatingText xml:id="ganorth_130851"><body xml:id="ganorth_130850"><salute>DEAR MR. NORTH,—</salute><p xml:id="ganorth_130849">I am home, you see. Don't reply and tell me that the Tariff Bill surrounds you like a fortress wall. I am going for a walk at five o'clock on Saturday morning, and I expect to meet you somewhere in the forest above the north end of the lake. You can reach it by the path on your side. I shall row there. Do not labor over an excuse, my friend. I know how you hate to write letters, and you know that I am a tyrant whose orders are always obeyed.</p><signed>BETTY MADISON.</signed></body></floatingText></q></p>
           <p xml:id="ganorth_130853">"That should not worry him," she thought, "and it should bring him."</p>
         </div>
         <div xml:id="ganorth_2003" n="3" type="chapter">
@@ -1636,13 +1636,13 @@ him. And perhaps I did right. I can't think it was n't an inspiration
 to confess and be forgiven before he found out for himself."</p>
           <milestone rend="blank-line" unit="section"/>
           <p xml:id="ganorth_1301462">Betty was in the living-room with Senator North when a letter from Jack Emory was brought to her. With it, also bearing the Washington postmark, was <pb xml:id="ganorth_1301455" n="245  Senator North"/>another, directed in an unfamiliar and illiterate hand. Betty, cold with apprehension, tore open Emory's letter. It read:—
-<q><text xml:id="ganorth_1301461"><body xml:id="ganorth_1301460"><salute>DEAR BETTY,—</salute><p xml:id="ganorth_1301456">You know, of course, that my wife confessed to me the terrible fact that she has negro blood in her veins. My one impulse when she told me was to get back to my home like a beaten dog to its kennel. I did little thinking on the train; whether I talked to people or whether I was too stupefied to think, I cannot tell you. But here I have done thinking enough. At first I hated, I loathed, I abhorred her. I resolved merely never to see her again, to ask you to send her to Europe as quickly as possible, to threaten her with exposure and arrest if she ever returned. But, Betty, although I have not yet forgiven her, although the thought of her awful hidden birthmark still fills me with horror and disgust, I know the weakness of man. The marriage is void according to the laws of Virginia, and I know that if I returned to her she would insist upon remarriage in a Northern State—and I might succumb. And rather than do that, rather than dishonor my blood, rather than do that monstrous wrong, not only to my family but to the South that has my heart's allegiance—as passionate an allegiance as if I had fought and bled on her battlefields—I am going to kill myself.</p><p xml:id="ganorth_1301457">Do not for a moment imagine, Betty, that I hold you to account. I can guess why you did not warn me in the beginning, why you did not tell me when it was too late. Would that I had gone on to the end faithful to my ideal of you! My lonely years in this old house were brightened and made endurable with the mere thought of you. But man was not made to live on shadows, and I loved again, so deeply that I dare not trust myself to live.</p><p xml:id="ganorth_1301459">I send her only one message—she must drop my name. She has no legal title to it according to the laws of Virginia; the marriage would be declared void were it known that she had black blood in her. I would spare her shame and <pb xml:id="ganorth_1301458" n="246  Senator North"/>exposure, but she shall not bear my name, and it is my
+<q><floatingText xml:id="ganorth_1301461"><body xml:id="ganorth_1301460"><salute>DEAR BETTY,—</salute><p xml:id="ganorth_1301456">You know, of course, that my wife confessed to me the terrible fact that she has negro blood in her veins. My one impulse when she told me was to get back to my home like a beaten dog to its kennel. I did little thinking on the train; whether I talked to people or whether I was too stupefied to think, I cannot tell you. But here I have done thinking enough. At first I hated, I loathed, I abhorred her. I resolved merely never to see her again, to ask you to send her to Europe as quickly as possible, to threaten her with exposure and arrest if she ever returned. But, Betty, although I have not yet forgiven her, although the thought of her awful hidden birthmark still fills me with horror and disgust, I know the weakness of man. The marriage is void according to the laws of Virginia, and I know that if I returned to her she would insist upon remarriage in a Northern State—and I might succumb. And rather than do that, rather than dishonor my blood, rather than do that monstrous wrong, not only to my family but to the South that has my heart's allegiance—as passionate an allegiance as if I had fought and bled on her battlefields—I am going to kill myself.</p><p xml:id="ganorth_1301457">Do not for a moment imagine, Betty, that I hold you to account. I can guess why you did not warn me in the beginning, why you did not tell me when it was too late. Would that I had gone on to the end faithful to my ideal of you! My lonely years in this old house were brightened and made endurable with the mere thought of you. But man was not made to live on shadows, and I loved again, so deeply that I dare not trust myself to live.</p><p xml:id="ganorth_1301459">I send her only one message—she must drop my name. She has no legal title to it according to the laws of Virginia; the marriage would be declared void were it known that she had black blood in her. I would spare her shame and <pb xml:id="ganorth_1301458" n="246  Senator North"/>exposure, but she shall not bear my name, and it is my
 dying request that you use any means to make her drop
-it. Good-bye. </p><signed>JACK EMORY.</signed></body></text></q></p>
+it. Good-bye. </p><signed>JACK EMORY.</signed></body></floatingText></q></p>
           <p xml:id="ganorth_1301463">Betty thrust the letter into Senator North's hand. "Read it!" she said. "Read it! Oh, do you suppose he has—"</p>
           <p xml:id="ganorth_1301467">Her glance fell on the other letter and she opened it with heavy
 fingers. It read:—
-<q><text xml:id="ganorth_1301466"><body xml:id="ganorth_1301465"><salute>MIS BETTY,—</salute><p xml:id="ganorth_1301464">Marse Jack done shot himself. He tole me not to telegraf.</p><salute>Yours truly, </salute><signed>JIM.</signed></body></text></q></p>
+<q><floatingText xml:id="ganorth_1301466"><body xml:id="ganorth_1301465"><salute>MIS BETTY,—</salute><p xml:id="ganorth_1301464">Marse Jack done shot himself. He tole me not to telegraf.</p><salute>Yours truly, </salute><signed>JIM.</signed></body></floatingText></q></p>
           <p xml:id="ganorth_1301468">Betty stood staring at Senator North as he read Jack's letter. When he had finished it, she handed him the other. He read it, then took her cold hands in his.</p>
           <p xml:id="ganorth_1301469">"You must tell her," he said. "It is a terrible trial for you, but you must do it."</p>
           <p xml:id="ganorth_1301470">"Ah!" she cried sharply. "I believe you are thinking of me only, not of that poor girl."</p>
@@ -1897,7 +1897,7 @@ Betty turned and looked squarely at her mother, who had lost even the semblance 
           <p xml:id="ganorth_1301726">It was this blind rage that enabled her to go back to the parlor and keep up until the Carters went home a few moments later, and her mother had gone to bed. Then she went to her boudoir and locked herself in.</p>
           <p xml:id="ganorth_1301727">How she got through that night without sending him an imperious summons she never knew, unless it were that she found some measure of relief in a letter she wrote to him. If she could not see him, he was still her lover, her only intimate friend, and her confessor. She promised not to write again, but she demanded what help he could give her.</p>
           <p xml:id="ganorth_1301733">She sent the letter in the morning, and he replied at once:—
-<q><text xml:id="ganorth_1301732"><body xml:id="ganorth_1301731"><p xml:id="ganorth_1301729">I know. Do you think it was necessary to tell me? Do you suppose my mind left you for a moment last night, and that I know and love you so little that I failed to im-<pb xml:id="ganorth_1301728" n="299  Senator North"/>agine and understand in a single particular? If I were less of a man and more of a god, I should go to you and give you the help you need, but I am only strong enough to keep away from you. Not in thought, however,—if that is any help.</p><p xml:id="ganorth_1301730">We shall meet in public and speak together. I have no desire to
+<q><floatingText xml:id="ganorth_1301732"><body xml:id="ganorth_1301731"><p xml:id="ganorth_1301729">I know. Do you think it was necessary to tell me? Do you suppose my mind left you for a moment last night, and that I know and love you so little that I failed to im-<pb xml:id="ganorth_1301728" n="299  Senator North"/>agine and understand in a single particular? If I were less of a man and more of a god, I should go to you and give you the help you need, but I am only strong enough to keep away from you. Not in thought, however,—if that is any help.</p><p xml:id="ganorth_1301730">We shall meet in public and speak together. I have no desire to
 forget you nor that you should forget me. We neither of us shall
 forget, but we shall live and endure, as the strongest of us always
 do. You tell me that you are tormented by the thought that you have
@@ -1906,7 +1906,7 @@ insignificance beside this, and yet that this greatest that has come
 to me in a long life is glorified by the fact of its existence. And if
 it is almost a relief to know that I shall not see you alone again, it
 is a satisfaction and a joy to remember that I have kissed
-you. </p><signed>R. N.</signed></body></text></q></p>
+you. </p><signed>R. N.</signed></body></floatingText></q></p>
         </div>
         <div xml:id="ganorth_3008" n="8" type="chapter">
           <head>VIII</head>
@@ -2122,7 +2122,7 @@ description of Bryce: "The place consecrated to great affairs."</p>
           <pb xml:id="ganorth_1301950" n="341  Senator North"/>
           <p xml:id="ganorth_1301951">She wondered if she ever should dare to enter the parlor again, and if it always would not look dark to her.</p>
           <p xml:id="ganorth_1301955">She sat down at her desk and wrote a letter. It ran:—
-<q><text xml:id="ganorth_1301954"><body xml:id="ganorth_1301953"><salute>DEAR MR. BURLEIGH,—</salute><p xml:id="ganorth_1301952">I will marry you if you still wish it. Will you dine with us to-night?</p><signed>MADISON.</signed></body></text></q></p>
+<q><floatingText xml:id="ganorth_1301954"><body xml:id="ganorth_1301953"><salute>DEAR MR. BURLEIGH,—</salute><p xml:id="ganorth_1301952">I will marry you if you still wish it. Will you dine with us to-night?</p><signed>MADISON.</signed></body></floatingText></q></p>
           <p xml:id="ganorth_1301956">She was too tired for emotion, but she knew what would come later. Nevertheless, she went to the front door and asked the watchman to post the letter. Then she went to bed.</p>
         </div>
         <div xml:id="ganorth_3015" n="15" type="chapter">
@@ -2204,8 +2204,8 @@ un<pb xml:id="ganorth_1302010" n="352  Senator North"/>becoming gown. She was on
         <div xml:id="ganorth_3017" n="17" type="chapter">
           <head>XVII</head>
           <p xml:id="ganorth_1302032">THE next day, before starting for New York, she wrote a note to Senator North:—
-<q><text xml:id="ganorth_1302031"><body xml:id="ganorth_1302030"><p xml:id="ganorth_1302027">I am going to marry Robert Burleigh. On Tuesday morning I almost went to your house—to bring you back with me here. I came to my senses in time; but I might not again. I want you to understand.</p><p xml:id="ganorth_1302028">I wish he were not on the winning side. But he is the only man I can even think of marrying.</p><p xml:id="ganorth_1302029">I do not think this much is disloyal to him. But I will not say
-other things. </p><signed> B. M.</signed></body></text></q></p>
+<q><floatingText xml:id="ganorth_1302031"><body xml:id="ganorth_1302030"><p xml:id="ganorth_1302027">I am going to marry Robert Burleigh. On Tuesday morning I almost went to your house—to bring you back with me here. I came to my senses in time; but I might not again. I want you to understand.</p><p xml:id="ganorth_1302028">I wish he were not on the winning side. But he is the only man I can even think of marrying.</p><p xml:id="ganorth_1302029">I do not think this much is disloyal to him. But I will not say
+other things. </p><signed> B. M.</signed></body></floatingText></q></p>
           <p xml:id="ganorth_1302033">Burleigh came to the train to see her off, and Betty looked so charming in her rich brown travelling frock and little turban, and smiled so gayly upon him, that his heavy spirit lifted its wings and he begged to be allowed to go to New York on Saturday. But to this she would not listen, and he was forced to content himself with making elaborate preparations for her comfort in the little drawing-room, and buying a copy of every paper and magazine the newsboy had on sale.</p>
           <p xml:id="ganorth_1302034">"I am sure he will make an ideal husband," said Mrs. Madison, as she waved her hand to him from the window.</p>
           <pb xml:id="ganorth_1302035" n="355  Senator North"/>
@@ -2238,7 +2238,7 @@ conversation.</p>
           <p xml:id="ganorth_1302059">Then she sat down at the desk and wrote a note to Burleigh. It was a brief epistle, but she was a long while writing it. Her previous notes had been dashed off in ten minutes, and usually related to the play of the previous evening. His replies had been a curious mingling of half-offended pride and a passion which was only restrained by the fear that the lady was not yet ready for it.</p>
           <p xml:id="ganorth_1302061">Finally Betty concocted the missive to the satisfaction of her mind's diplomatic condition. She had not yet brought herself to begin any of her notes to him for<pb xml:id="ganorth_1302060" n="359  Senator North"/>mally. "Dear Robert " was as yet unnatural, and "Dear Mr. Burleigh" absurd; so she ignored the convention.</p>
           <q>
-            <text xml:id="ganorth_1302064">
+            <q><floatingText xml:id="ganorth_1302064">
               <body xml:id="ganorth_1302063">
                 <p xml:id="ganorth_1302062">"I suddenly have made up my mind to go to the Adirondacks for a month, <hi rend="italic">quite alone</hi>," she wrote. "When one is going to take a tremendous step, one needs solitude that one may do a great deal of hard thinking. I don't wonder that some Catholic women go into retreat. At all
 events, Washington, 'the world,' even my mother, even you, who always are so kind and considerate, seem impossible to me at present; and if I am to live with some one else for the rest of my life, I must have one uninterupted month of solitary myself. Doubtless that will do me till the end of my time! So would you mind if I asked you not even to write to me? I have enjoyed your notes so
@@ -2246,7 +2246,7 @@ much, but I want to feel absolutely alone. Don't think this is petty egoism. It 
 ever are to understand each other I am sure I need not explain myself further. </p>
                 <signed>B. M."</signed>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="ganorth_1302065">"It has a rather heartless ring," she thought with a sigh, "but it will intrigue him, and—who knows? As heaven is my witness, I do not. But I do know this, that unless I get away from them all and fairly inside of myself, whatever I do will seem the wrong thing and I might end by making a dramatic fool of myself."</p>
         </div>
@@ -2264,19 +2264,19 @@ ever are to understand each other I am sure I need not explain myself further. <
           <p xml:id="ganorth_1302079">There are only a certain number of arguments in any brain, and after they have been reiterated a sufficient number of times they pall. From argument Betty lapsed naturally into meditation, and the subject of these meditations, tender, regretful, and impassioned, was one man only; and Burleigh had no place in them. Occasionally she forced him into her mind, but he seemed as anxious to get out as she was to drive him; and after the ice melted and she was able to spend hours on the lake, and rest under spreading oaks, where she had only to shut her eyes to imagine herself companioned, she felt herself unfaithful if she cast a solitary thought to Burleigh.</p>
           <p xml:id="ganorth_1302081">At the end of the month she was not tired of solitude, but she was tired of her intellectual attitude. She was human first and mental afterward; and she wanted nothing on earth but to be the wife of the man whom she had loved for a lifetime in a year. The <pb xml:id="ganorth_1302080" n="364  Senator North"/>moment she formulated this wish, hesitation fled and she could not wind up her engagement with Burleigh rapidly enough. Her letter, however, was very sweet and apologetic, and it was also very honest. She knew that unless she told him she loved another man and intended to marry him, he would take the next train for the Adirondacks and plead his cause in person. His reply was characteristic.</p>
           <q>
-            <text xml:id="ganorth_1302085">
+            <q><floatingText xml:id="ganorth_1302085">
               <body xml:id="ganorth_1302084">
                 <p xml:id="ganorth_1302082">"Very well," it ran. "I do not pretend to say I was not prepared after your last letter from New York. And although I could not guess your motive in accepting me, I knew that you did not love me. But if I am not overwhelmed with surprise, the pain is no easier on that account, and will not be until the grass has had time to grow over it a little. And at least it is a relief to know the worst. Of course I forgive you. I doubt if any man could feel bitterly toward you. You compel too much love for that.</p>
                 <p xml:id="ganorth_1302083">"Don't worry about me. I have work enough to do—a State to talk sense into and a nation to which to devote my poor energies. My brain such as it is will be constantly occupied, which is the next best good a man can have.</p>
                 <signed>"ROBERT BURLEIGH."</signed>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="ganorth_1302086">Betty wrote him four pages of enthusiastic friendliness in reply, and paid him the compliment of postponing her letter to Senator North until the following day.</p>
           <p xml:id="ganorth_1302087">But on that day she rose with the feeling that the sun never would set.</p>
           <p xml:id="ganorth_1302088">She was as brief as possible, for she knew that he hated long letters. Nevertheless, she conveyed an exact impression of her weeks of deliberation and analysis.</p>
           <q>
-            <text xml:id="ganorth_1302092">
+            <q><floatingText xml:id="ganorth_1302092">
               <body xml:id="ganorth_1302091">
                 <p xml:id="ganorth_1302090">"I want you to understand," she went on, "that my
 only wish when I came here for solitary thought was to do <pb xml:id="ganorth_1302089" n="365 Senator North"/>the right thing, irrespective of my own wishes in the
@@ -2287,18 +2287,18 @@ me, if you think that I have violated my sense of honor, then at least
 I shall marry no one else. </p>
                 <signed>B. M."</signed>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="ganorth_1302093">And as her imagination was strong she did allow herself to be tortured by doubts during the three days that elapsed before she heard from him. She had hoped he would telegraph, but he did not, and her imagination and her common-sense had a long and indecisive argument which threatened ultimate depression. On the third night, however, a messenger from the hotel opposite brought her a note from Senator North.</p>
           <q>
-            <text xml:id="ganorth_1302099">
+            <q><floatingText xml:id="ganorth_1302099">
               <body xml:id="ganorth_1302098">
                 <p xml:id="ganorth_1302094">"I don't know that your mental exercise has done you any harm," he had written, "but it certainly was thrown away. You have too much common-sense and too thorough a capacity for loving to do anything so foolish or so outrageous as to marry the wrong man. If you had followed a romantic impulse—induced by nervous excitement—and married him the day you learned that your word might be put to too severe a test, you would have been miserable, and so would Burleigh. A mistaken sense of duty has been the cause of quite one fourth of the unhappiness of mankind, and few have been so bigoted as not to acknowledge this when too late. And a broken engagement is a small injustice to a man compared to a lifetime with an unloving wife. Burleigh is unhappy now, but it is no lack of admiration which prompts me to say that if he had married you he would have been unhappier still. You could do nothing by halves.</p>
                 <p xml:id="ganorth_1302096">"Formalities with us would be an affectation unworthy of either, and I have come to you at once. I knew that you <pb xml:id="ganorth_1302095" n="366  Senator North"/>would send for me, but I preferred to wait until you wrote that your engagement was broken. What I felt when I received your note announcing it, I leave to your imagination, and I forgot it as quickly as possible. I understood perfectly, but you exaggerated the dangers; for my love for you is so great and so absorbing, so complete in all its parts, that nothing but marriage would satisfy me. I should have preferred a memory to a failure.</p>
                 <p xml:id="ganorth_1302097">"If your mother were with you, I should go over to-night. But I shall wait for you at five to-morrow morning where you were in the habit of letting me board your boat. And the day will not be long enough! </p>
                 <signed>R. N."</signed>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="ganorth_1302100">Betty slept little that night, but felt no lack of freshness the next morning when she rose shortly after four. A broken night meant little to her now, and happiness would have stimulated every faculty if she had not slept for a week.</p>
           <p xml:id="ganorth_1302101">She rowed swiftly across the lake. It was almost June now, and the warmth of summer was in the air, the paler greens among the grim old trees of the forest. The birds had come from the South and were singing to the accompaniment of the pines, the roar of distant cataracts; and yet the world seemed still. The stars were white and faint, the moon was tangled in a tree-top on the highest peak.</p>
@@ -2313,11 +2313,11 @@ to forget," he said. And he rowed up the lake.</p>
     </body>
     <back xml:id="ganorth_1206">
       <div xml:id="ganorth_bm01" type="adverts">
-        <figure><graphic url="ENTITY_ganorthadv2" rend="inline"/>
+        <figure><graphic url="ganorthadv2.jpg" rend="inline"/>
           <figDesc>Advertisement at the back of Gertrude Atherton's "Senator
 North."</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_ganorthadv3" rend="inline"/>
+        <figure><graphic url="ganorthadv3.jpg" rend="inline"/>
           <figDesc>Advertisement at the back of Gertrude Atherton's "Senator
 North."</figDesc>
         </figure>

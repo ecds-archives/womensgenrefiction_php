@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dllight_12032">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dllight_12032">
   <teiHeader xml:id="dllight1201"><fileDesc>
       <titleStmt>
         <title>The Lights of Home, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Lights of
@@ -79,7 +79,7 @@ added by the encoder and do not appear in the original text.</p>
     <front xml:id="dllight_1202">
       <pb xml:id="dllight_1305" n="[ii]"/>
       <div xml:id="dllight_000" type="advert">
-        <figure><graphic url="ENTITY_dllightad1" rend="inline"/>
+        <figure><graphic url="dllightad1.jpg" rend="inline"/>
           <figDesc>Advert included in the front of Lyall's <hi rend="italic">The Lights of Home</hi>.</figDesc>
         </figure>
       </div>
@@ -94,16 +94,16 @@ added by the encoder and do not appear in the original text.</p>
 ROW</pubPlace> <docDate>1903</docDate></docImprint>
       </titlePage>
       <pb xml:id="dllight_1308" n="[v]"/>
-      <div xml:id="dllight_001" type="table of contents">
-        <figure><graphic url="ENTITY_dllighttc1" rend="inline"/>
+      <div xml:id="dllight_001" type="table_of_contents">
+        <figure><graphic url="dllighttc1.jpg" rend="inline"/>
           <figDesc>Table of contents for  Lyall's <hi rend="italic">The Lights of Home</hi>.</figDesc>
         </figure>
         <pb xml:id="dllight_1309" n="vi"/>
-        <figure><graphic url="ENTITY_dllighttc2" rend="inline"/>
+        <figure><graphic url="dllighttc2.jpg" rend="inline"/>
           <figDesc>Table of contents for  Lyall's <hi rend="italic">The Lights of Home</hi>.</figDesc>
         </figure>
         <pb xml:id="dllight_13010" n="vii"/>
-        <figure><graphic url="ENTITY_dllighttc3" rend="inline"/>
+        <figure><graphic url="dllighttc3.jpg" rend="inline"/>
           <figDesc>Table of contents for  Lyall's <hi rend="italic">The Lights of Home</hi>.</figDesc>
         </figure>
       </div>
@@ -1315,7 +1315,7 @@ to Bolt Court feeling as if I were left out in the cold. My pilgrimage to the st
 <pb xml:id="dllight_1301006" n="186 THE LIGHTS OF HOME"/>
 me so literally at my word. The following morning what was my surprise to receive a brief pencilled note from him couched in these terms:--</p>
               <q>
-                <text xml:id="dllight_1205">
+                <q><floatingText xml:id="dllight_1205">
                   <body xml:id="dllight_1204">
                     <opener>
                       <salute>"DEAR MISS EAST,</salute>
@@ -1326,7 +1326,7 @@ me so literally at my word. The following morning what was my surprise to receiv
                       <signed>"ARTHUR STANTON."</signed>
                     </closer>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="dllight_1301010">It was a long time before I heard what actually did transpire at Frensham that memorable evening. Stanton arrived early in the afternoon, and putting up at the Frensham inn, took a leisurely survey of his surroundings before he ventured near our house. It was about four o'clock in the afternoon when he found himself at the gate, a beautiful sunshiny afternoon, which might have deluded any one into the idea that summer was still with us. He did not approach the house by the front gate, but took a circuitous route through the orchard at
 <pb xml:id="dllight_1301009" n="187 A 'WOMAN JOURNALIST'"/>
@@ -2139,12 +2139,12 @@ LONDON.</p>
       </div>
       <pb xml:id="dllight_1301641"/>
       <div xml:id="dllight_101" type="advert">
-        <figure><graphic url="ENTITY_dllightad2" rend="inline"/>
+        <figure><graphic url="dllightad2.jpg" rend="inline"/>
           <figDesc>Advert included in the back of Lyall's <hi rend="italic">The
 Lights of Home</hi>.</figDesc>
         </figure>
         <pb xml:id="dllight_1301642"/>
-        <figure><graphic url="ENTITY_dllightad3" rend="inline"/>
+        <figure><graphic url="dllightad3.jpg" rend="inline"/>
           <figDesc>Advert included in the back of Lyall's <hi rend="italic">The
 Lights of Home</hi>.</figDesc>
         </figure>

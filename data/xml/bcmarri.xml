@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="bcmarri_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="bcmarri_1207">
   <teiHeader xml:id="bcmarri1201"><fileDesc>
       <titleStmt>
         <title>Married for her Beauty or, A Bitter Atonement, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Married for her Beauty,
@@ -79,11 +79,11 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="bcmarri_1206">
     <front xml:id="bcmarri_1202">
       <div xml:id="bcmarri_000" type="covers">
-        <figure><graphic url="ENTITY_bcmarrifc" rend="inline"/>
+        <figure><graphic url="bcmarrifc.jpg" rend="inline"/>
           <figDesc>Front cover of Clay's <hi rend="italic">Married For Her
 Beauty</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcmarrisp" rend="inline"/>
+        <figure><graphic url="bcmarrisp.jpg" rend="inline"/>
           <figDesc>Spine of Clay's <hi rend="italic">Married For Her
 Beauty</hi>.</figDesc>
         </figure>
@@ -9060,7 +9060,7 @@ with a smile, the writing was so thick, the envelope coarse.</p>
 remember to have seen this writing before.'</p>
         <p xml:id="bcmarri_1303510">The smile died from bis lips as he read:</p>
         <q>
-          <text xml:id="bcmarri_1204">
+          <q><floatingText xml:id="bcmarri_1204">
             <body xml:id="bcmarri_1203">
               <div xml:id="bcmarri_100" type="letter">
                 <opener><salute>'My Lord Kerston:</salute>:--</opener>
@@ -9145,7 +9145,7 @@ most frankly, the woman you call Diane is my lawful wife, Diane
 Severne, and I am coming to claim her.'</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <div xml:id="bcmarri_062" n="62" type="chapter">

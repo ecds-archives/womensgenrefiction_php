@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cbsweet_12013">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cbsweet_12013">
   <teiHeader xml:id="cbsweet1201"><fileDesc>
       <titleStmt>
         <title>Sweet Clover, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Sweet
@@ -81,14 +81,14 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="cbsweet_12012">
     <front xml:id="cbsweet_1202">
       <div xml:id="cbsweet_109" type="covers">
-        <figure><graphic url="ENTITY_cbsweetfc" rend="inline"/>
+        <figure><graphic url="cbsweetfc.jpg" rend="inline"/>
           <figDesc>Front cover of Burnham's <hi rend="italic">Sweet
 Clover</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="cbsweet_1305"/>
       <div xml:id="cbsweet_000" type="advert">
-        <figure><graphic url="ENTITY_cbsweetad" rend="inline"/>
+        <figure><graphic url="cbsweetad.jpg" rend="inline"/>
           <figDesc>Advertisement included in Burnham's <hi rend="italic">Sweet
 Clover</hi>.</figDesc>
         </figure>
@@ -109,14 +109,14 @@ Clover</hi>.</figDesc>
       </titlePage>
       <pb xml:id="cbsweet_1308"/>
       <div xml:id="cbsweet_001" type="copyright">
-        <figure><graphic url="ENTITY_cbsweetcr" rend="inline"/>
+        <figure><graphic url="cbsweetcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Burnham's <hi rend="italic">Sweet
 Clover</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="cbsweet_1309"/>
-      <div xml:id="cbsweet_002" type="table of contents">
-        <figure><graphic url="ENTITY_cbsweettc" rend="inline"/>
+      <div xml:id="cbsweet_002" type="table_of_contents">
+        <figure><graphic url="cbsweettc.jpg" rend="inline"/>
           <figDesc>Table of contents for Burnham's <hi rend="italic">Sweet
 Clover</hi>.</figDesc>
         </figure>
@@ -781,7 +781,7 @@ after they reached Chicago, descriptive of the journey, and the parting from Pea
         <p xml:id="cbsweet_130623">September passed and October was nearly gone, when one morning as he opened his mail in his office, Gorham Page found a letter from his cousin Jack.</p>
         <p xml:id="cbsweet_130624">It began by responding to some theories and warnings, which Page had recently written him, relative to the unwholesomeness of beer-drinking.</p>
         <q>
-          <text xml:id="cbsweet_1204">
+          <q><floatingText xml:id="cbsweet_1204">
             <body xml:id="cbsweet_1203">
               <div xml:id="cbsweet_100" type="letter">
                 <opener>
@@ -798,7 +798,7 @@ young man blessed suggestions of a reformed life and renewed respectability, she
                 <p xml:id="cbsweet_130631">I have decided to come home before the New Year. I dread it, as you know, but the plunge into the new family circle must be taken some time, and I want to see my father. I am sure he wants to see me, too, though he does n't say much about it. In a recent letter, he admitted that he had not been very well during the summer. Bless him! I suppose <hi rend="italic">her</hi> griefs have shaken him very much. Of course I'm sorry for her, but I can't be resigned to father's having had to shoulder the Bryants' affairs. I tell you I am glad to know he is himself again. His letter made me feel an intolerable distance away. Yes, I shall see him by the New Year, whatever happens.</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cbsweet_130632">Page was folding this letter into its envelope, when a telegraph boy entered the office.</p>
         <p xml:id="cbsweet_130633">"Want an answer?" he asked.</p>
@@ -900,7 +900,7 @@ trials like the rest of the world.</p>
 cold anger, so Miss Berry surmised, against a woman whom she devoutly declared to be "one of the sweetest of God's creatures."</p>
         <p xml:id="cbsweet_130712">It was an exciting time to her when one November day she received the letter from Gorham Page giving her hope that she need not always be passive concerning a matter which, in her uneventful life, she had greatly at heart. She read:--</p>
         <q>
-          <text xml:id="cbsweet_1206">
+          <q><floatingText xml:id="cbsweet_1206">
             <body xml:id="cbsweet_1205">
               <div xml:id="cbsweet_101" type="letter">
                 <opener>
@@ -913,7 +913,7 @@ into three parts: one third is left to charities and certain relatives; one thir
                 <closer><salute>Cordially yours,</salute> <signed>GORHAM PAGE.</signed></closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cbsweet_130716">These lines had not been penned without some uncomfortable recollections on the part of the writer of a day when he had himself received the announcement of Aunt Love's attachment to her young guest in a spirit of impatient skepticism. Now that he discovered the strength of his desire that Jack should be more yielding and credulous, the memory of his own hardness was especially exasperating.</p>
         <p xml:id="cbsweet_130717">Miss Berry waited for her expected visitor with much interest, and each day altered a little the form of the statement she intended to make him when he came. She had opportunity to make a variety of changes in her programme, for weeks went by without a sign from him, and finally Miss Lovina's faith in his coming wavered.</p>
@@ -1470,7 +1470,7 @@ Page, always inclining, like most of Jack's feminine friends, to side with him.<
 diversion, and Hilda opened Clover's letter.</p>
         <p xml:id="cbsweet_1301169">She glanced down its pages. "Why, how lovely! How kind!" she ejaculated from time to time. "Listen to this. You are all interested. It is from Mrs. Van Tassel."</p>
         <q>
-          <text xml:id="cbsweet_1208">
+          <q><floatingText xml:id="cbsweet_1208">
             <body xml:id="cbsweet_1207">
               <div xml:id="cbsweet_102" type="letter">
                 <opener>
@@ -1486,7 +1486,7 @@ to consider the house always open to you, and a sincere welcome always ready.</p
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cbsweet_1301173">Mrs. Page, upon finishing, let her pleased gaze rove from one to another of her three companions. Jack's face was eager and happy, Gorham's interested, but her husband was the first to speak.</p>
         <p xml:id="cbsweet_1301174">"I foresee that I am going to fall in love with that woman," he remarked, breaking open his third muffin and handing his cup to the maid for a second cup of coffee. "That is a charming letter."</p>
@@ -3651,7 +3651,7 @@ off and scrutinizing her with bright, audacious eyes. "No, they are not red," sh
         <p xml:id="cbsweet_1303092">"Indeed, I would. Nice, jolly Mr. Page! I wish they lived next door."</p>
         <p xml:id="cbsweet_1303093">Mildred  took the letter Clover handed her. "I'm going to read it aloud. It probably says nice things about you.</p>
         <q>
-          <text xml:id="cbsweet_12010">
+          <q><floatingText xml:id="cbsweet_12010">
             <body xml:id="cbsweet_1209">
               <div xml:id="cbsweet_110" type="letter">
                 <opener>
@@ -3667,7 +3667,7 @@ will make in it. Indeed, I feel more than I can say on the subject.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="cbsweet_1303096">With the early autumn came the Parliament of Religions,--the congress which, among the many that preceded and followed it, proved, to the general surprise, to be the one of greatest interest to the public. Miss Berry was indefatigable in her attendance; and her young ladies were often with her. The names of those Orientals, whose words she listened to as to music, were impracticable to her; but their dark faces and graceful gestures were fixed in her mind forever. Aunt Love was one of thousands whose complacent generalization of "the heathen" received a blow.</p>
         <p xml:id="cbsweet_1303097">Clover did her share in the entertaining of some of these scholarly delegates from the far East; and Mildred found a totally novel <hi rend="italic">sauce piquante</hi> in the society of a handsome coffee-colored Indian, who wore a pink silk turban and mouse-colored robe, and talked transcendental philosophy in the purest English while gazing at her from long, beautiful eyes.</p>

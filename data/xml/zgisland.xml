@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="zgisland_9999">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="zgisland_9999">
   <teiHeader xml:id="zgisland9998"><fileDesc>
       <titleStmt>
         <title>Romance Island, an electronic edition</title>
@@ -8,7 +8,7 @@
       <publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2007</date><availability><p xml:id="zgisland_1301">© 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p> </availability><idno type="ark">http://pid.emory.edu/ark:/25593/176vk</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt> <name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name><resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt> <name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name><resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Romance Island</title>. <pubPlace>Indianapolis</pubPlace>: <publisher>The Bobbs-Merrill Company</publisher>, <date>1906</date>.</bibl>
@@ -51,7 +51,7 @@
     </profileDesc><revisionDesc><change><date>2007-June-29</date><label>Encoder.</label><name>Shruthi Vissa,</name>XML tags inserted in compliance with TEI guidelines using TEILITE.</change></revisionDesc></teiHeader>
   <text xml:id="zgisland_1302192">
     <front xml:id="zgisland_13022">
-      <div xml:id="zgisland_cover" type="front cover">
+      <div xml:id="zgisland_cover" type="front_cover">
         <figure><graphic url="zgislandfc.jpg" rend="inlline"/>
           <figDesc> Front cover of Gale's "Romance Island"</figDesc>
         </figure>
@@ -99,7 +99,7 @@ whom he loves can fail to believe in magic?"</l> <bibl> NOVALIS</bibl></q>
       </div>
       <pb xml:id="zgisland_13016"/>
       <pb xml:id="zgisland_13017" n="ix]"/>
-      <div xml:id="zgisland_9200" type="table of contents">
+      <div xml:id="zgisland_9200" type="table_of_contents">
         <figure><graphic url="zgislandtc.jpg" rend="inline"/>
           <figDesc> Table of contents at front of Gale's "Romance Island"</figDesc>
         </figure>
@@ -396,7 +396,7 @@ ain't always wise, sir, for a man to trust to his own judgment, sir, asking your
         <p xml:id="zgisland_130258">St. George read the note at a glance and with unspeakable relief. They would see him. A refusal would have delayed and annoyed him just then, in the flood-tide of his hope.</p>
         <milestone rend="blank-line" unit="section"/>
         <q>
-          <text xml:id="zgisland_130261">
+          <q><floatingText xml:id="zgisland_130261">
             <body xml:id="zgisland_130260">
               <div xml:id="zgisland_100" type="letter">
                 <opener><salute>"My Dear Mr. St. George,"</salute>the note ran.</opener>
@@ -405,7 +405,7 @@ ain't always wise, sir, for a man to trust to his own judgment, sir, asking your
 <name>"MEDORA HASTINGS."</name></closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="zgisland_130262" n="41 ST. GEORGE AND THE LADY"/>
         <p xml:id="zgisland_130263">Grateful for her evident intention to waste no time, St. George dressed and drove to the Boris, punctually sending up his card at four o'clock. At once he was ushered to Mrs. Hastings' apartment.</p>

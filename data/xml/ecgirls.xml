@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ecgirls_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ecgirls_1207">
   <teiHeader xml:id="ecgirls1201"><fileDesc>
       <titleStmt>
         <title>Girls on the Gold Trail, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author> <title>Girls on the Gold
@@ -81,15 +81,15 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="ecgirls_1202">
     <front xml:id="ecgirls_1203">
       <div xml:id="ecgirls_000" type="covers">
-        <figure><graphic url="ENTITY_ecgirlsfc" rend="inline"/>
+        <figure><graphic url="ecgirlsfc.jpg" rend="inline"/>
           <figDesc>Image of the front cover from E.E. Cowper's Girls on the Gold Trail.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_ecgirlsspine" rend="inline"/>
+        <figure><graphic url="ecgirlsspine.jpg" rend="inline"/>
           <figDesc>Image of the spine from E.E. Cowper's Girls on the Gold Trail.</figDesc>
         </figure>
       </div>
       <div xml:id="ecgirls_front" type="frontispiece">
-        <figure><graphic url="ENTITY_ecgirlsfrt" rend="inline"/>
+        <figure><graphic url="ecgirlsfrt.jpg" rend="inline"/>
           <p xml:id="ecgirls_1305">Pierre Corraine was not alone this time (p. 320)</p>
           <figDesc>Frontispiece from E.E. Cowper's Girls on the Gold Trail.</figDesc>
         </figure>
@@ -112,8 +112,8 @@ added by the encoder and do not appear in the original text.</p>
         </docImprint>
       </titlePage>
       <pb xml:id="ecgirls_1308" n="[v]"/>
-      <div xml:id="ecgirls_fm1" type="table of contents">
-        <figure><graphic url="ENTITY_ecgirlstoc" rend="inline"/>
+      <div xml:id="ecgirls_fm1" type="table_of_contents">
+        <figure><graphic url="ecgirlstoc.jpg" rend="inline"/>
           <figDesc>Table of Contents page from E.E. Cowper's Girls on the Gold Trail.</figDesc>
         </figure>
       </div>
@@ -971,7 +971,7 @@ passed, and one never knows with dogs. Raa is very clever. Let's wait
 a bit. Never, never despair about things; it doesn't pay, my
 dears."</p>
         <p xml:id="ecgirls_130246">Each one of the five gathered courage and
-<pb xml:id="ecgirls_130243"/><figure><graphic url="ENTITY_ecgirlsill52" rend="inline"/><p xml:id="ecgirls_130244">"We shouldn't sell old Raa, not if we hadn't a cent in the world"
+<pb xml:id="ecgirls_130243"/><figure><graphic url="ecgirlsill52.jpg" rend="inline"/><p xml:id="ecgirls_130244">"We shouldn't sell old Raa, not if we hadn't a cent in the world"
 (p. 44)</p><figDesc>Illustration opposite page 52 in E.E. Cowper's Girls on the
 Gold Trail</figDesc></figure><pb xml:id="ecgirls_130245" n="53 'NOT ON YOUR LIFE, SIR'"/> hope; their mother always had that effect. It was not
 what she said, but what she <hi rend="italic">was</hi>.</p>
@@ -3247,7 +3247,7 @@ were killed, likely as not." She laughed bitterly. "He was pretty
 scarey, because he guessed the shot was meant for <hi rend="italic">him</hi>. So it was. Our friend the Cree, Peg. Don't you
 see they were all standing up together in front of the firelight,
 and
-<pb xml:id="ecgirls_130880"/><figure><graphic url="ENTITY_ecgirlsill164" rend="inline"/><p xml:id="ecgirls_130881">Staring round over his shoulder into the night (p. 161)</p><figDesc>Illustration  opposite page 164 in E.E. Cowper's Girls on the
+<pb xml:id="ecgirls_130880"/><figure><graphic url="ecgirlsill164.jpg" rend="inline"/><p xml:id="ecgirls_130881">Staring round over his shoulder into the night (p. 161)</p><figDesc>Illustration  opposite page 164 in E.E. Cowper's Girls on the
 Gold Trail</figDesc></figure><pb xml:id="ecgirls_130882" n="165 TERRORS OF THE GULCH"/> the man aimed at Neumann and
 hit Jim, who was close to him. I wonder what that brute has done to
 make the Indian hate him so? You bet he treated the poor creature as
@@ -5767,7 +5767,7 @@ track, and looked back at him without dismay.</p>
         <p xml:id="ecgirls_1301615">They all three went on stowing packs in an indifferent
 manner.</p>
         <pb xml:id="ecgirls_1301616"/>
-        <figure><graphic url="ENTITY_ecgirlsill292" rend="inline"/>
+        <figure><graphic url="ecgirlsill292.jpg" rend="inline"/>
           <p xml:id="ecgirls_1301617">The three Lockharts kept their heads with amazing coolness (p. 280)</p>
           <figDesc>Illustration opposite page 292 in E.E. Cowper's Girls on the
 Gold Trail.</figDesc>
@@ -6504,19 +6504,19 @@ trackless glory of the Wilderness.</p>
         <p xml:id="ecgirls_1301826">PRINTED IN GREAT BRITAIN AT <lb/>THE PRESS OF THE PUBLISHERS</p>
       </div>
       <div xml:id="ecgirls_back2" type="adverts">
-        <figure><graphic url="ENTITY_ecgirlsbm1" rend="inline"/>
+        <figure><graphic url="ecgirlsbm1.jpg" rend="inline"/>
           <figDesc>Page 1 of advertisements from E. E. Cowper's "Girls on the
 Gold Trail"</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_ecgirlsbm2" rend="inline"/>
+        <figure><graphic url="ecgirlsbm2.jpg" rend="inline"/>
           <figDesc>Page 2 of advertisements from E. E. Cowper's "Girls on the
 Gold Trail"</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_ecgirlsbm3" rend="inline"/>
+        <figure><graphic url="ecgirlsbm3.jpg" rend="inline"/>
           <figDesc>Page 3 of advertisements from E. E. Cowper's "Girls on the
 Gold Trail"</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_ecgirlsbm4" rend="inline"/>
+        <figure><graphic url="ecgirlsbm4.jpg" rend="inline"/>
           <figDesc>Page 4 of advertisements from E. E. Cowper's "Girls on the
 Gold Trail"</figDesc>
         </figure>

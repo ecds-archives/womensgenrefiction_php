@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rcfriend_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rcfriend_1207">
   <teiHeader xml:id="rcfriend1201"><fileDesc>
       <titleStmt>
         <title>'No Friend Like a Sister,' an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>'No Friend Like a Sister</title>. <pubPlace>London</pubPlace>:
@@ -84,7 +84,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="rcfriend_1307" n="[ii]"/>
       <div xml:id="rcfriend_1000" type="paratext">
-        <figure><graphic url="ENTITY_rcfriendfm1" rend="inline"/>
+        <figure><graphic url="rcfriendfm1.jpg" rend="inline"/>
           <figDesc>Page displaying printer's mark included in the front matter of Rosa Nouchette Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
       </div>
@@ -124,7 +124,7 @@ COMPANY</publisher>
       </titlePage>
       <pb xml:id="rcfriend_13010" n="[iv]"/>
       <div xml:id="rcfriend_1001" type="copyright">
-        <figure><graphic url="ENTITY_rcfriendcr" rend="inline"/>
+        <figure><graphic url="rcfriendcr.jpg" rend="inline"/>
           <figDesc>Copyright page for Rosa Nouchette Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
       </div>
@@ -134,12 +134,12 @@ COMPANY</publisher>
       </div>
       <pb xml:id="rcfriend_13013" n="[vi]"/>
       <pb xml:id="rcfriend_13014" n="vii"/>
-      <div xml:id="rcfriend_1003" type="table of contents">
-        <figure><graphic url="ENTITY_rcfriendtc1" rend="inline"/>
+      <div xml:id="rcfriend_1003" type="table_of_contents">
+        <figure><graphic url="rcfriendtc1.jpg" rend="inline"/>
           <figDesc>First contents page for Rosa Nouchette Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_13015" n="viii 'NO FRIEND LIKE A SISTER'"/>
-        <figure><graphic url="ENTITY_rcfriendtc2" rend="inline"/>
+        <figure><graphic url="rcfriendtc2.jpg" rend="inline"/>
           <figDesc>Second contents page for Rosa Nouchette Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
       </div>
@@ -2148,9 +2148,9 @@ about <pb xml:id="rcfriend_1301433" n="257 'THERE IS ALWAYS A WAY'"/>herself, an
         <p xml:id="rcfriend_1301558">'Oh, you will go, of course,' returned Bride; 'you had better let Joe drive you over, for it is far too hot for you to bicycle'; and Elinor agreed to do this. But when Bride had left the room she read her note again, and there was still a troubled look in her eyes.</p>
         <pb xml:id="rcfriend_1301559" n="274 'NO FRIEND LIKE A SISTER'"/>
         <q>
-          <text xml:id="rcfriend_1301562">
+          <q><floatingText xml:id="rcfriend_1301562">
             <body xml:id="rcfriend_1301561"><salute>Dear' Elinor,' Agnes wrote,</salute><p xml:id="rcfriend_1301560"> 'I cannot possibly come. On Monday I was quite ill; it was a dreadful day' (underlined), 'and I am still quite a wreck, and fit for nothing but bed. I dare not keep the messenger waiting, so cannot explain. Do you think you could possibly come to-morrow early in the afternoon, not later than three? Mother and Gale are going to a luncheon party at the Morrells' to meet the Bishop, and they will not be back until after five. Do come if you can.—Your loving but most unhappy friend,</p> <signed>AGNES.'</signed></body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb n="275" pages="275" facs="rcfriend275"/>
@@ -2612,7 +2612,7 @@ before you go back to St. Monica's,' <pb xml:id="rcfriend_1301913" n="329 'WHY N
         <p xml:id="rcfriend_1301929">'They are virtually engaged, Nora, you may depend on that. Mr. Keith is a sensible, practical man, and you may be sure that he has good foundation for his hope; he sees plainly that she is going to stick to him. Yes, he is a fine fellow, and I am not sure that Agnes Warburton will not be a wiser as well as a happier woman when she is his wife.' And Elinor thought the speech extremely satisfactory.</p>
         <p xml:id="rcfriend_1301930">Agnes's second letter was a shade less cheerful.</p>
         <q>
-          <text xml:id="rcfriend_1301938">
+          <q><floatingText xml:id="rcfriend_1301938">
             <body xml:id="rcfriend_1301937">
               <p xml:id="rcfriend_1301931">'I have had my first skirmish with Cousin Beth,' she wrote, 'and I am afraid she is not at all pleased with me. On Wednesday I was just starting for the village, with my letter for Hammond safely in my pocket, as I meant to post it myself, when Cousin Beth came round the corner.</p>
               <p xml:id="rcfriend_1301933">'"It is far too hot for you to go out yet, Agnes," she said in her brisk, managing way; "it is such a steep climb back <pb xml:id="rcfriend_1301932" n="332 'NO FRIEND LIKE A SISTER'"/>from the village, and you will be far better on the terrace. If you have letters to post, you can give them to me, for I shall be going down there a little later," and she actually held out her hand for them. But I shook my head. "You are very good, Cousin Beth, but I prefer to post my letters myself, and the little stroll will do me good," and I walked past her. I confess I felt rather hot, and that my voice was not quite steady, but I felt I must put my foot down; but I am certain from her manner that Cousin Beth was offended.</p>
@@ -2620,18 +2620,18 @@ before you go back to St. Monica's,' <pb xml:id="rcfriend_1301913" n="329 'WHY N
               <p xml:id="rcfriend_1301935">'"Why, Agnes," she remonstrated, "you have surely no letters to post to-day? and you really ought not to fatigue yourself in this way. If you must go to the village, I will fetch my sunshade and walk with you." And in another moment she would have done so, but I stopped her.</p>
               <p xml:id="rcfriend_1301936">'"Cousin Beth," I said, "I hope you will not think me rude or uncivil, if I say that I would prefer to go alone. At Tylcote Hall I am so much accustomed to my own company, and spend so many solitary hours, that constant companionship would be irksome to me. Do not mistake me, my dear cousin," I continued, as she drew herself up with an affronted air, "I am here for so long that you must not treat me as a visitor, and certainly not as an invalid; I must be free to take my little strolls and do my odds and ends of business in my own way." Oh, I was quite brave; you would hardly have known me, Elinor, for I nodded and smiled at her when I had finished. But all the time I was as angry as possible; for I saw then that you had been right in giving me that hint, and that Cousin Beth had been advised to keep a strict watch over my movements.'</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="rcfriend_1301939">Frances looked a little amused when Elinor read this part of Agnes's letter.</p>
         <pb xml:id="rcfriend_1301940" n="333 'WHY NOT COUNT YOUR BLESSINGS?'"/>
         <p xml:id="rcfriend_1301941">'Miss Warburton is a little dense,' she remarked; she is one of those people who do not see things until their eyes are forcibly opened. Now there will be ructions.' And they both waited rather anxiously for the next letter.</p>
         <p xml:id="rcfriend_1301942">'As usual, you are right, Frances,' observed Elinor, as she laid down the closely-written sheet. Come into the garden after breakfast and I will read Agnes's letter.'</p>
         <q>
-          <text xml:id="rcfriend_1301946">
+          <q><floatingText xml:id="rcfriend_1301946">
             <body xml:id="rcfriend_1301945">
               <p xml:id="rcfriend_1301944">We have not been very comfortable the last few days,' wrote Agnes there was an oppression in the air as though a storm was brewing, and Cousin Beth was decidedly on her dignity. Yesterday I had a letter from mother. It was rather curt and angry. "Your Cousin Beth seems very much put out," she wrote; "she complains of your unsociable and morose ways. I see plainly that, unless you are a little more circumspect in your behaviour, and show her more consideration, she will not be willing to keep you until November." But I will spare you the rest; when mother is excited she never measures her words. Well, Elinor, what do you think I did? I went straight to Cousin Beth and insisted on her reading the letter. "I do not know what you have said to mother," I remarked, "but if it is true that I have hurt your feelings so deeply, and that you no longer care for my society, you have only to tell me so frankly and I will go home." And then we had it out. You must know that Cousin Beth is rather hot-tempered, and does not bear contradiction easily. She is a sort of queen at the Villa Lucia, and all the people round adore her, because she is so good to them when the vintage is bad and they are in trouble. She was on her high horse at first, and said a good many disagreeable things. She said I was insular and peculiar, and more like a hermit crab than a civilised Englishwoman, and then she quieted down." Don't be a fool, Agnes," she said brusquely; "I am not going to let you go home and mope yourself to death; you will just stay here until we go to Florence. I shall write to your mother to-day and tell her that for the future I intend to <pb xml:id="rcfriend_1301943" n="334 'NO FRIEND LIKE A SISTER'"/>wash my hands of you; that if you like to tramp to the village a dozen times a day, no one will say a word. You are not a child, my dear Agnes, and I thank Heaven devoutly that I am not your natural guardian." And then we shook hands, and ever since then we have been the best of friends. I really do like Cousin Beth, and I am in no hurry to leave her.'</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="rcfriend_1301947">Elinor and Bride had concocted all sorts of delightful plans for Frances' last week—the Finals, as they termed it. There was not only the last Sycamore Tea, but the following day there was to be a picnic to Lavington, to which the Milners and Hammond Keith and his mother were invited. Neither Elinor nor Bride had been there before, but Hugh Milner had told them that Lavington Hall and its gardens and woods were certainly worth a visit. The family was abroad, and on Fridays people were admitted to see the place. They were to eat their luncheon in the woods, and tea was to be provided at an old farmhouse near; and the long drive back by moonlight would be charming. Hugh had undertaken to make arrangements with Mrs. Godwin, the mistress of Lavington Farm, and as she and Mrs. Keith were old friends and school-fellows, Bride had coaxed Mrs. Keith to come too. 'I don't think we will ask any more people,' she said; 'we shall be far cosier with just the Milners and the Keiths.' And as Elinor and Frances agreed to this, the picnic was kept a profound secret from the large gathering that assembled at Wildcroft for the last Sycamore Tea.</p>
         <p xml:id="rcfriend_1301949">The Thurstons were there <hi rend="italic">en masse</hi> and the Milners, and Rev. Neville Brooke, the Graydons from Tylcote Street and the Morrells from Mexfield, and last but not least, the Rev. Everard Moulton and his chatty <pb xml:id="rcfriend_1301948" n="335 'WHY NOT COUNT YOUR BLESSINGS?'"/>little wife from Dewhurst. Bride said afterwards that she must have been fey, for she was in wild spirits that afternoon. It was she who proposed dancing on the tennis lawn, and suggested the daring feat of carrying out the piano bodily, under the skilled supervision of John Milner.</p>
@@ -3052,12 +3052,12 @@ Mr. Warburton; for your own sake and mine, I beg you <pb xml:id="rcfriend_130224
         <p xml:id="rcfriend_1302263">'He will not open his eyes to see the truth,' she told herself that evening. 'He has nothing, nothing that I should care to take. Gale Warburton's wife! Heaven forgive me, I would rather die!' And then Elinor broke down and cried a little, because she was so lonely and she wanted some one to comfort her; but before the evening had ended she had made up her mind that she must seek safety in flight.</p>
         <p xml:id="rcfriend_1302264">The solitary life at Wildcroft was impossible under the circumstances. She must be near Frances and Bride. Before she slept that night she wrote two notes—one to Mrs. Huntley, to tell her that she was coming up to town for some weeks, and would probably arrive at Grove House on Thursday, and that Rachel would accompany her; and also a short note to Frances:</p>
         <q>
-          <text xml:id="rcfriend_1302267">
+          <q><floatingText xml:id="rcfriend_1302267">
             <body xml:id="rcfriend_1302266">
               <p xml:id="rcfriend_1302265">'I find that my solitude is beginning to depress me,' she wrote, 'so I have made up my mind rather suddenly to take up my quarters for the present at Grove House; and this time I shall bring Rufus with me, the poor dear fellow was so unhappy when I left him behind. If I can possibly get all my business settled, I shall hope to turn up at the Boltons the day after to-morrow, and of course I shall come to St. Monica's the very next day. Oh dear, how I do want you both!—Your loving but excessively sleepy sister, </p>
               <signed>NORA.'</signed>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="rcfriend_1302268">'Now, I wonder what has happened,' Frances said to herself as she read Elinor's hurried note; 'her last letter was written in such good spirits.' But for more reasons than one Frances was relieved to know that Elinor proposed to take up her quarters at Grove House.</p>
         <p xml:id="rcfriend_1302270">Elinor worked feverishly at her preparations the next day. There was much to be done; for besides her <pb xml:id="rcfriend_1302269" n="390 'NO FRIEND LIKE A SISTER'"/>packing, she had to arrange for her household during her absence. And when everything was settled to the best of her ability, and the evening closed in, she wrote three letters. The first, which was very brief, was to Mrs. Warburton, to express her regret that sudden business obliged her to go to town, and that she would be unable to call at Tylcote Hall. Elinor felt a little twinge of conscience as she framed this Machiavelian sentence, but she told herself that business was a comprehensive term, and included dressmakers and milliners as well as dentists or lawyers. Then she wrote a friendly little note to Mrs. Thurston to the same purpose.</p>
@@ -3518,59 +3518,59 @@ Mrs. Warburton—our dear Elinor's <pb xml:id="rcfriend_1302548" n="437 PICKING 
     <back xml:id="rcfriend_1578">
       <pb xml:id="rcfriend_1302595"/>
       <div xml:id="rcfriend_345" type="adverts">
-        <figure><graphic url="ENTITY_refriendbm1" rend="inline"/>
+        <figure><graphic url="refriendbm1.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302596"/>
-        <figure><graphic url="ENTITY_refriendbm2" rend="inline"/>
+        <figure><graphic url="refriendbm2.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302597"/>
-        <figure><graphic url="ENTITY_refriendbm3" rend="inline"/>
+        <figure><graphic url="refriendbm3.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302598"/>
-        <figure><graphic url="ENTITY_refriendbm4" rend="inline"/>
+        <figure><graphic url="refriendbm4.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302599"/>
-        <figure><graphic url="ENTITY_refriendbm5" rend="inline"/>
+        <figure><graphic url="refriendbm5.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302600"/>
-        <figure><graphic url="ENTITY_refriendbm6" rend="inline"/>
+        <figure><graphic url="refriendbm6.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302601"/>
-        <figure><graphic url="ENTITY_refriendbm7" rend="inline"/>
+        <figure><graphic url="refriendbm7.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302602"/>
-        <figure><graphic url="ENTITY_refriendbm8" rend="inline"/>
+        <figure><graphic url="refriendbm8.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302603"/>
-        <figure><graphic url="ENTITY_refriendbm9" rend="inline"/>
+        <figure><graphic url="refriendbm9.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302604"/>
-        <figure><graphic url="ENTITY_refriendbm10" rend="inline"/>
+        <figure><graphic url="refriendbm10.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302605"/>
-        <figure><graphic url="ENTITY_refriendbm11" rend="inline"/>
+        <figure><graphic url="refriendbm11.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302606"/>
-        <figure><graphic url="ENTITY_refriendbm12" rend="inline"/>
+        <figure><graphic url="refriendbm12.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302607"/>
-        <figure><graphic url="ENTITY_refriendbm13" rend="inline"/>
+        <figure><graphic url="refriendbm13.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
         <pb xml:id="rcfriend_1302608"/>
-        <figure><graphic url="ENTITY_refriendbm14" rend="inline"/>
+        <figure><graphic url="refriendbm14.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of Carey's <hi rend="italic">'No Friend Like a Sister'</hi>.</figDesc>
         </figure>
       </div>

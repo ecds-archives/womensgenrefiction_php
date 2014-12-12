@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="awshop_1208">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="awshop_1208">
   <teiHeader xml:id="awshop1201"><fileDesc>
       <titleStmt>
         <title>The Shop-Girl, an electronic edition</title>
@@ -16,7 +16,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The
@@ -128,17 +128,17 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="awshop_13010" n="[iv]"/>
       <div xml:id="awshop_cawprin001" type="copyright">
-        <figure><graphic url="ENTITY_awshopcr" rend="inline"/>
+        <figure><graphic url="awshopcr.jpg" rend="inline"/>
           <figDesc>Copyright information for the Williamsons' <hi rend="italic">The Shop-Girl</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="awshop_13011" n="[v]"/>
-      <div xml:id="awshop_002" type="table of contents">
-        <figure><graphic url="ENTITY_awshoptc1" rend="inline"/>
+      <div xml:id="awshop_002" type="table_of_contents">
+        <figure><graphic url="awshoptc1.jpg" rend="inline"/>
           <figDesc>Table of contents for the Williamsons' <hi rend="italic">The Shop-Girl</hi>.</figDesc>
         </figure>
         <pb xml:id="awshop_13012" n="vi"/>
-        <figure><graphic url="ENTITY_awshoptc2" rend="inline"/>
+        <figure><graphic url="awshoptc2.jpg" rend="inline"/>
           <figDesc>Table of contents for the Williamsons' <hi rend="italic">The Shop-Girl</hi>.</figDesc>
         </figure>
       </div>
@@ -1037,7 +1037,7 @@ to think about it.</p>
         <p xml:id="awshop_130930">It was Rags and Eileen whose observing eyes and sense of humour had to be feared. Eileen, for instance had a little way of saying that anything she considered odd was "too <hi rend="italic">endlessly</hi> quaint." Things she admired were "melting." If only Ena had known enough about earls and their families to be sure whether Lord Raygan and Eileen would, in their secret hearts, think the ways of the Rollses endlessly quaint, or melting, she might have been spared sleepless nights. Because the difference between those two adjectives would mean the difference between ecstasy and despair for her. Rags might be poor for an earl, even an Irish earl, but he was hardly the sort to propose to a girl his sister could speak of as "endlessly quaint."</p>
         <p xml:id="awshop_130931">Twelve days after they had arrived at Sea Gull Manor Eileen wrote a somewhat ungrammatical letter to a rich cousin in Dublin who had once refused Rags, in which she said:</p>
         <q>
-          <text xml:id="awshop_1204">
+          <q><floatingText xml:id="awshop_1204">
             <body xml:id="awshop_1203">
               <div xml:id="awshop_008" type="letter">
                 <opener>
@@ -1069,7 +1069,7 @@ to think about it.</p>
                 <p xml:id="awshop_130954">P.S.—They've got a shop in New York. I forgot to <pb xml:id="awshop_130953" n="131 BLUE PETER"/>tell you that—a huge shop. It's never mentioned here, but Petro told me. He's not ashamed, but rather proud of the way the money came. Rags wants him and Ena to take us to the place.</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="awshop_130955">What Ena did say to Peter was, "Poor little Eileen is falling in love with you." Peter didn't believe it. But it put a strange idea into his head.</p>
       </div>

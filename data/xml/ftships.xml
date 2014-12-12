@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ftships_1302446">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ftships_1302446">
   <teiHeader><fileDesc>
       <titleStmt>
         <title>Like Ships Upon the Sea, an electronic edition</title>
@@ -33,12 +33,12 @@
     </profileDesc><revisionDesc><change><date>2007-June-13</date><label>Encoder.</label><name>Shruthi Vissa, </name>XML tags inserted in compliance with TEI guidelines.</change></revisionDesc></teiHeader>
   <text xml:id="ftships_1302445">
     <front xml:id="ftships_13014">
-      <div xml:id="ftships_cover" type="front cover">
-        <figure><graphic url="ENTITY_ftshipsfc" rend="inline"/>
+      <div xml:id="ftships_cover" type="front_cover">
+        <figure><graphic url="ftshipsfc.jpg" rend="inline"/>
           <figDesc>Front Cover of Trollope's "Like Ships Upon the Sea"
 </figDesc>
         </figure>
-        <figure><graphic url="ENTITY_ftshipsspine" rend="inline"/>
+        <figure><graphic url="ftshipsspine.jpg" rend="inline"/>
           <figDesc>Spine of Trollope's "Like Ships Upon the Sea"
 </figDesc>
         </figure>
@@ -46,12 +46,12 @@
       <pb xml:id="ftships_1305"/>
       <pb xml:id="ftships_1306"/>
       <div xml:id="ftships_100" type="advert">
-        <figure><graphic url="ENTITY_ftshipsfm1" rend="inline"/>
+        <figure><graphic url="ftshipsfm1.jpg" rend="inline"/>
           <figDesc>Advert included in front of Trollope's "Like Ships Upon the Sea"&gt;
 </figDesc>
         </figure>
         <pb xml:id="ftships_1307"/>
-        <figure><graphic url="ENTITY_ftshipsfm2" rend="inline"/>
+        <figure><graphic url="ftshipsfm2.jpg" rend="inline"/>
           <figDesc>Advert included in front of Trollope's "Like Ships Upon the Sea"&gt;
 </figDesc>
         </figure>
@@ -121,26 +121,26 @@ spinster of fifty-five, with an anxious frown
         <p xml:id="ftships_13030">"Well," said Violet, after a pause, "what do you say to that letter?"</p>
         <p xml:id="ftships_13031">"My dear, I scarcely know what to say!" (This was Miss Baines's usual formula when asked for a decisive opinion.) "Suppose you read it aloud to me. I take a thing in better when I hear it."</p>
         <p xml:id="ftships_13037">Violet took a folded letter from the table, where it had been lying, with Miss Baines's knitting basket on the top of it to keep it flat. It was very voluminous, consisting of four sheets which were closely written and crossed, in a long-tailed handwriting difficult to decipher. But Violet, being already familiar with its contents, was able to read aloud pretty fluently thus:—
-<q><text xml:id="ftships_13036"><body xml:id="ftships_13035"><div xml:id="ftships_13034" type="letter"><opener>"'<dateline rend="italic">Florence,"<lb/>'Pension Stubbs.</dateline></opener><salute>"'MY DEAR MISS BAINES,</salute><p xml:id="ftships_13033">"'Your letter was most welcome, as I had not heard from you for an
+<q><floatingText xml:id="ftships_13036"><body xml:id="ftships_13035"><div xml:id="ftships_13034" type="letter"><opener>"'<dateline rend="italic">Florence,"<lb/>'Pension Stubbs.</dateline></opener><salute>"'MY DEAR MISS BAINES,</salute><p xml:id="ftships_13033">"'Your letter was most welcome, as I had not heard from you for an
 age. But I heard <hi rend="italic">about</hi> you from more than one
 mutual acquaintance, and particularly from a very nice and highly
 respectable gentleman now staying in this house, whose father was in
 the 
 
-<pb xml:id="ftships_13032" n="5 LIKE SHIPS UPON THE SEA."/>licensed victualling at Brighton for many years—<hi rend="italic">he</hi> says a person of independent property, but that can only refer to the time when he retired from business. He is slightly lame, and is travelling for his health by the name of Parkinson, and——'</p></div></body></text></q></p>
+<pb xml:id="ftships_13032" n="5 LIKE SHIPS UPON THE SEA."/>licensed victualling at Brighton for many years—<hi rend="italic">he</hi> says a person of independent property, but that can only refer to the time when he retired from business. He is slightly lame, and is travelling for his health by the name of Parkinson, and——'</p></div></body></floatingText></q></p>
         <p xml:id="ftships_13042">"Well, I needn't read all that," said Violet, breaking off. Miss Baines looked a little disappointed; but Violet, having impatiently skipped a page or two, proceeded:—
-<q><text xml:id="ftships_13041"><body xml:id="ftships_13040"><div xml:id="ftships_13039" type="letter"><p xml:id="ftships_13038">"'I can assure you that my informant knows all the leading people in Rome, where he boarded for several months, and met with a great deal of society, and he says you ought on no account to visit <hi rend="italic">the Signora in question</hi>. Her husband was mixed up with a conspiracy in '48, or '59, or '66, but the date is not momentous. As to the Signora, who I have reason to know on the best authority is a <hi rend="italic">Pole</hi> by birth——'</p></div></body></text></q></p>
+<q><floatingText xml:id="ftships_13041"><body xml:id="ftships_13040"><div xml:id="ftships_13039" type="letter"><p xml:id="ftships_13038">"'I can assure you that my informant knows all the leading people in Rome, where he boarded for several months, and met with a great deal of society, and he says you ought on no account to visit <hi rend="italic">the Signora in question</hi>. Her husband was mixed up with a conspiracy in '48, or '59, or '66, but the date is not momentous. As to the Signora, who I have reason to know on the best authority is a <hi rend="italic">Pole</hi> by birth——'</p></div></body></floatingText></q></p>
         <p xml:id="ftships_13043">"Well, but there's no harm in being a Pole," exclaimed Violet, looking up, with some indignation expressed on her usually serene forehead.</p>
         <p xml:id="ftships_13044">"I don't see how there can be," said her aunt.</p>
         <p xml:id="ftships_13045">"Then why does Mrs. Lucas score it under twice, as if it was a crime?"</p>
         <p xml:id="ftships_13046">Miss Baines shook her head doubtfully.</p>
         <p xml:id="ftships_13051">Violet read on:—
-<q><text xml:id="ftships_13050"><body xml:id="ftships_13049"><div xml:id="ftships_13048" type="letter"><p xml:id="ftships_13047">"'As to the Signora, there is a great deal of equivocation about her position. It is rumoured that her first husband is still alive, although in the mines of Siberia for some political offence of an explosive nature with chemicals; and I should advise you most stringently to beware of becoming involved in visiting her receptions, nor equally to blend your name with her husband's—the present gentleman's—political researches, with which any coherency were far from advantageous, and might lead to unpleasantness on the part of the police, as I am told it did so here at Florence in the case of two young ladies, Englishwomen, who chalked the walls" in the time of the Grand Duke.'</p></div></body></text></q></p>
+<q><floatingText xml:id="ftships_13050"><body xml:id="ftships_13049"><div xml:id="ftships_13048" type="letter"><p xml:id="ftships_13047">"'As to the Signora, there is a great deal of equivocation about her position. It is rumoured that her first husband is still alive, although in the mines of Siberia for some political offence of an explosive nature with chemicals; and I should advise you most stringently to beware of becoming involved in visiting her receptions, nor equally to blend your name with her husband's—the present gentleman's—political researches, with which any coherency were far from advantageous, and might lead to unpleasantness on the part of the police, as I am told it did so here at Florence in the case of two young ladies, Englishwomen, who chalked the walls" in the time of the Grand Duke.'</p></div></body></floatingText></q></p>
         <pb xml:id="ftships_13052" n="6 LIKE SHIPS UPON THE SEA."/>
         <p xml:id="ftships_13053">"What nonsense!" cried Violet, giving the paper an impatient tap with the back of her hand.</p>
         <p xml:id="ftships_13054">"I hope Mrs. Lucas may be mistaken, Violet," returned her aunt, with a little air of mild protest; "but she really uses very choice language."</p>
         <p xml:id="ftships_13061">"But I suppose she does not suspect you and me of wanting to get up a rebellion? Then why does she write all that rigmarole? And there are scarcely any stops." Then she bent her head once more over the letter, and went on reading:—
-<q><text xml:id="ftships_13060"><body xml:id="ftships_13059"><div xml:id="ftships_13056" type="letter"><p xml:id="ftships_13055">"'Pray be careful, my dearest Miss Baines, for your niece's sake. Remember that despite foreigners may not look on things the same as us, particularly with regard to <hi rend="italic">propriety</hi>, yet the Signora G. is <hi rend="italic">not</hi> visited by the female aristocracy of Rome, although I am told she has a coronet worked in the corner of her pocket-handkerchiefs. Strange contradictions of the human mind when we remember that the <hi rend="italic">Signor</hi> G. is a rank revolutionary who would fain down with all titles! Some say she was an opera dancer at Vienna, but without pursuing matters to <hi rend="italic">this</hi> extremity, it is clear you cannot be too cautious. I trust you will find my information valuable, as I am certain it is strictly reliable, and with kindest regards to yourself and Miss Violet, I remain, dear Miss Baines,</p><salute>"'Your truly attached</salute><signed>"'<name>JANE LUCAS</name>.</signed></div><div xml:id="ftships_13058" type="postscript"><p xml:id="ftships_13057">"'P. S.—I shall be writing ere long to our mutual native land, and shall be happy to inform friends in Kent that the Sunny South has effected a beneficial influence on the health of yourself and niece according to the account in your letter.</p><signed>"'<name>J. L.</name>'"</signed></div></body></text></q></p>
+<q><floatingText xml:id="ftships_13060"><body xml:id="ftships_13059"><div xml:id="ftships_13056" type="letter"><p xml:id="ftships_13055">"'Pray be careful, my dearest Miss Baines, for your niece's sake. Remember that despite foreigners may not look on things the same as us, particularly with regard to <hi rend="italic">propriety</hi>, yet the Signora G. is <hi rend="italic">not</hi> visited by the female aristocracy of Rome, although I am told she has a coronet worked in the corner of her pocket-handkerchiefs. Strange contradictions of the human mind when we remember that the <hi rend="italic">Signor</hi> G. is a rank revolutionary who would fain down with all titles! Some say she was an opera dancer at Vienna, but without pursuing matters to <hi rend="italic">this</hi> extremity, it is clear you cannot be too cautious. I trust you will find my information valuable, as I am certain it is strictly reliable, and with kindest regards to yourself and Miss Violet, I remain, dear Miss Baines,</p><salute>"'Your truly attached</salute><signed>"'<name>JANE LUCAS</name>.</signed></div><div xml:id="ftships_13058" type="postscript"><p xml:id="ftships_13057">"'P. S.—I shall be writing ere long to our mutual native land, and shall be happy to inform friends in Kent that the Sunny South has effected a beneficial influence on the health of yourself and niece according to the account in your letter.</p><signed>"'<name>J. L.</name>'"</signed></div></body></floatingText></q></p>
         <p xml:id="ftships_13062">Violet folded up the letter, and passed the creases backward and forward between her thumb and forefinger. There was a silence, which Miss Baines broke at last by saying, "I wonder!——"</p>
         <p xml:id="ftships_13063">Violet looked up inquiringly.</p>
         <pb xml:id="ftships_13064" n="7 LIKE SHIPS UPON THE SEA."/>
@@ -197,11 +197,11 @@ the
         <p xml:id="ftships_130114">"But we don't like late hours."</p>
         <p xml:id="ftships_130115">"What for? You sleep next day as long as you like!"</p>
         <p xml:id="ftships_130121">Violet handed the note to her aunt. "Perhaps you had better see what Signora Guarini says, Aunt Betsy," she said. The note was as follows:—
-<q><text xml:id="ftships_130120"><body xml:id="ftships_130119"><div xml:id="ftships_130118" type="letter"><salute>"DEAR VIOLETTA,</salute><p xml:id="ftships_130117">"Our good Masi will carry this to you to remind of to-morrow
+<q><floatingText xml:id="ftships_130120"><body xml:id="ftships_130119"><div xml:id="ftships_130118" type="letter"><salute>"DEAR VIOLETTA,</salute><p xml:id="ftships_130117">"Our good Masi will carry this to you to remind of to-morrow
 evening. You have never been to my house yet in the evening, and
 to-morrow I 
 
-<pb xml:id="ftships_130116" n="12 LIKE SHIPS UPON THE SEA."/>expect some persons of distinction that you will like to see. You will not fail me, <hi rend="italic">carissima</hi>, and your good aunt, to whom say so many things! I shall send the <hi rend="italic">coupé</hi> for you, if you tell me the hour. Masi will bring me the answer. <hi rend="italic">A Lundi!</hi></p><salute>"Vôtre dévouée,</salute><signed>"<name>N. G.</name>"</signed></div></body></text></q></p>
+<pb xml:id="ftships_130116" n="12 LIKE SHIPS UPON THE SEA."/>expect some persons of distinction that you will like to see. You will not fail me, <hi rend="italic">carissima</hi>, and your good aunt, to whom say so many things! I shall send the <hi rend="italic">coupé</hi> for you, if you tell me the hour. Masi will bring me the answer. <hi rend="italic">A Lundi!</hi></p><salute>"Vôtre dévouée,</salute><signed>"<name>N. G.</name>"</signed></div></body></floatingText></q></p>
         <p xml:id="ftships_130122">"Oh, dear, I couldn't think of troubling the Signora to send the carriage for us!" exclaimed Miss Baines.</p>
         <p xml:id="ftships_130123">"What trouble? It is not the Signora Nina who draws the <hi rend="italic">coupé!</hi>" retorted Masi, with an easy smile. "Oh, you must go! It is not dull. You will amuse yourselves. It will be something new for you to see."</p>
         <p xml:id="ftships_130124">Violet had been silent all this time. Now she raised her eyes, and said: "If we did go, it would be for the sake of seeing Madame Guarini, who has been very kind to us."</p>
@@ -1365,7 +1365,7 @@ on another woman. Nina remained
         <p xml:id="ftships_130695">"<hi rend="italic">Addio!</hi>"</p>
         <p xml:id="ftships_130696">After he had gone, Nina sat for some time thinking over what he had told her; wondering, above all, if Violet Moore deeply and seriously loved him, or if it were a mere sentimental girlish fancy which time and absence would efface. "It is not every woman nor every man who <hi rend="italic">can</hi> be thoroughly in love. I wonder if Violetta can! It's a mournful gift." That was the lesson Nina Guarini had learned from her life's experience. On the whole she derived a good deal of comfort as to her young friend's future from the knowledge that she was going away so soon. "Absence, absence, is the grand remedy—the great specific. Few cases are so desperate as to resist it long!" said Nina to herself.</p>
         <p xml:id="ftships_130701">Then she sat down and wrote two letters. The first was a rather long one addressed to her husband at Milan. The second was a mere note, and ran thus:
-<q><text xml:id="ftships_130700"><body xml:id="ftships_130699"><div xml:id="ftships_130698" type="letter"><salute>"VIOLETTA CARISSIMA,</salute><p xml:id="ftships_130697">"I feel guilty that I have not been to see you, but Guarini is away, and I have been much occupied. Do come to me this evening. If Miss Baines is too busy, or not well enough to accompany you, she need not fear to trust you to my care. I shall send my maid to fetch you in the <hi rend="italic">coupé</hi> at nine o'clock. No <hi rend="italic">toilette!</hi> Pray come, <hi rend="italic">chère enfant</hi>. Spare an hour to</p><salute>"Your <hi rend="italic">bien dévouée</hi>,</salute><signed>"<name>N. G.</name>"</signed></div></body></text></q></p>
+<q><floatingText xml:id="ftships_130700"><body xml:id="ftships_130699"><div xml:id="ftships_130698" type="letter"><salute>"VIOLETTA CARISSIMA,</salute><p xml:id="ftships_130697">"I feel guilty that I have not been to see you, but Guarini is away, and I have been much occupied. Do come to me this evening. If Miss Baines is too busy, or not well enough to accompany you, she need not fear to trust you to my care. I shall send my maid to fetch you in the <hi rend="italic">coupé</hi> at nine o'clock. No <hi rend="italic">toilette!</hi> Pray come, <hi rend="italic">chère enfant</hi>. Spare an hour to</p><salute>"Your <hi rend="italic">bien dévouée</hi>,</salute><signed>"<name>N. G.</name>"</signed></div></body></floatingText></q></p>
         <p xml:id="ftships_130703">The Signora Guarini made it a point to give as good a dinner to one
 or two guests—even though they might be personages of no
 greater consequence than Telemaco Bini and Giorgio Giorgi—as
@@ -3074,14 +3074,14 @@ making money.
       <div xml:id="ftships_026" n="26" type="chapter">
         <head>CHAPTER XXVI.</head>
         <p xml:id="ftships_1301539">As time passed, and the Directors of the Pontine Marshes Company made no sign, the Duke of Pontalto resolved to apply to Guarini; and he wrote him the following note:—
-<q><text xml:id="ftships_1301538"><body xml:id="ftships_1301537"><div xml:id="ftships_1301536" type="letter"><salute>"DEAR GUARINI,—</salute><p xml:id="ftships_1301535">"I send you a copy of the <hi rend="italic">Messenger of Peace</hi>
+<q><floatingText xml:id="ftships_1301538"><body xml:id="ftships_1301537"><div xml:id="ftships_1301536" type="letter"><salute>"DEAR GUARINI,—</salute><p xml:id="ftships_1301535">"I send you a copy of the <hi rend="italic">Messenger of Peace</hi>
 which I have just chanced to see. If you read the passage I have
 marked, you will see what they say about Lestro di Campolungo and
 Mattoccia. Perhaps 
 
-<pb xml:id="ftships_1301534" n="236 LIKE SHIPS UPON THE SEA."/>you don't know that that property belongs to me. If the Pontine Marshes Company want to buy it they had better apply at once, as I have other offers. I wonder who wrote that article in the <hi rend="italic">Messenger</hi>.</p><salute>" Yours,</salute><signed>"<name>FRANCESCO NASONL</name>."</signed></div></body></text></q></p>
+<pb xml:id="ftships_1301534" n="236 LIKE SHIPS UPON THE SEA."/>you don't know that that property belongs to me. If the Pontine Marshes Company want to buy it they had better apply at once, as I have other offers. I wonder who wrote that article in the <hi rend="italic">Messenger</hi>.</p><salute>" Yours,</salute><signed>"<name>FRANCESCO NASONL</name>."</signed></div></body></floatingText></q></p>
         <p xml:id="ftships_1301544">To which Guarini answered:—
-<q><text xml:id="ftships_1301543"><body xml:id="ftships_1301542"><div xml:id="ftships_1301541" type="letter"><salute>"DEAR DON CICCIO,—</salute><p xml:id="ftships_1301540">"I return you the <hi rend="italic">Messenger of Peace</hi>. It contains a capital puff for the P. M. Company, which is doubly valuable as coming from an enemy. I have no personal interest in the matter, not holding a single share in the Company. No doubt you do wonder who wrote that article in the <hi rend="italic">Messenger</hi>.</p><salute>"Yours,</salute><signed>"<name>GIUSEPPE GUARINI</name>."</signed></div></body></text></q></p>
+<q><floatingText xml:id="ftships_1301543"><body xml:id="ftships_1301542"><div xml:id="ftships_1301541" type="letter"><salute>"DEAR DON CICCIO,—</salute><p xml:id="ftships_1301540">"I return you the <hi rend="italic">Messenger of Peace</hi>. It contains a capital puff for the P. M. Company, which is doubly valuable as coming from an enemy. I have no personal interest in the matter, not holding a single share in the Company. No doubt you do wonder who wrote that article in the <hi rend="italic">Messenger</hi>.</p><salute>"Yours,</salute><signed>"<name>GIUSEPPE GUARINI</name>."</signed></div></body></floatingText></q></p>
         <p xml:id="ftships_1301545">Ciccio was a little puzzled at this. He did not believe Guarini's statement that he held no shares in the Company. And he did not understand how it was that the directors should neglect securing the land which was so indispensable for carrying out their enterprise. "Perhaps they think I shall make easy terms for them because I'm on the same side in politics," thought Ciccio at one moment. But he almost immediately relinquished this hypothesis as implying an incredible degree of simplicity—not to say idiocy—on the part of the directors. Then it struck him that they might be holding off lest, by any show of anxiety about the matter, they should tempt him to raise his price. But it was now openly stated that the Government had promised to cede to the Company for a term of years the lands contiguous to Mattoccia on both sides. It was therefore clear that the Company could not carry on their draining and planting operations without possessing also that estate which at present cut their property in two; and since the purchase was inevitable, all further fencing was mere waste of time.</p>
         <pb xml:id="ftships_1301546" n="237 LIKE SHIPS UPON THE SEA."/>
         <p xml:id="ftships_1301547">Upon this he wrote to Gino Peretti, asking for an interview. Peretti replied with almost obsequious politeness that he deeply regretted that he was then on the point of starting for Lucca on business. He should, however, be back in Rome in about a week, when he would have the pleasure of waiting on the Duke of Pontalto, or of receiving him at his own house, as the Duke pleased. Inasmuch as politeness was not common with Peretti, Ciccio took a note of it as a symptom of his wishing to cajole the proprietor of Lestro di Campolungo and Mattoccia; and he resolved to be adamant in making his bargain. He waited a week; ten days; a fortnight; but no communication came from Peretti. Meanwhile public attention was considerably distracted from the Pontine Marshes by topics of fresher interest and more general importance. The newspapers found other matter for their leading articles. A threatened interpellation in the Chamber on the subject was heard of no more. The shareholders had to content themselves as best they could with the vague prospect that the Ministry would "do something " next session. Ciccio began to fear that the golden opportunity of selling his worthless land for a high price was slipping away, and spurred by this apprehension, he set off one evening for the office of the <hi rend="italic">Tribune of the People</hi>, determined to find Peretti; or, at least, to learn where he could be found.</p>
@@ -3529,7 +3529,7 @@ shallower character can ever be. He had turned,
 
 <pb xml:id="ftships_1301784" n="277 LIKE SHIPS UPON THE SEA."/>Here is a note from her. That faithful creature, Kitty Low, brought it this morning, and told me at the same time of all the troubles they were in with the uncle. Ah, <hi rend="italic">poveretta, poveretta!</hi> Please read Violet's note.</p>
         <p xml:id="ftships_1301790">"Chester, in profound astonishment, read as follows:—
-<q><text xml:id="ftships_1301789"><body xml:id="ftships_1301788"><div xml:id="ftships_1301787" type="letter"><p xml:id="ftships_1301786">"I don't know how to say it to you, but it must be said. Mario forbids me to come to you any more unless I would break with him altogether. He is so excited, and irritable and angry, that I can obtain nothing clear from him, but he says you have betrayed him, and done him harm. Oh, Signora Nina, what can it be? I am sure he is mistaken. I know it. You are incapable— I am crying so that I scarcely see what I am writing. Have patience a little while. It will be cleared up, it must be. Don't be too angry with Mario. He is deceived. I am so unhappy—not only for myself, but I seem to bring trouble to every one.</p><signed>"<name>VIOLET MOORE</name>."</signed></div></body></text></q></p>
+<q><floatingText xml:id="ftships_1301789"><body xml:id="ftships_1301788"><div xml:id="ftships_1301787" type="letter"><p xml:id="ftships_1301786">"I don't know how to say it to you, but it must be said. Mario forbids me to come to you any more unless I would break with him altogether. He is so excited, and irritable and angry, that I can obtain nothing clear from him, but he says you have betrayed him, and done him harm. Oh, Signora Nina, what can it be? I am sure he is mistaken. I know it. You are incapable— I am crying so that I scarcely see what I am writing. Have patience a little while. It will be cleared up, it must be. Don't be too angry with Mario. He is deceived. I am so unhappy—not only for myself, but I seem to bring trouble to every one.</p><signed>"<name>VIOLET MOORE</name>."</signed></div></body></floatingText></q></p>
         <p xml:id="ftships_1301791">The young man looked up bewildered after finishing this note. "I see you know nothing of this," said Nina.</p>
         <p xml:id="ftships_1301792">"I am stunned by it. Has Captain Masi gone mad?"</p>
         <p xml:id="ftships_1301793">"Ah, <hi rend="italic">Dio mio!</hi> This is a weary world. And the best thing I ever heard of the next is that there is no marrying nor giving in marriage in it."</p>
@@ -4348,15 +4348,15 @@ against the back of it, was inclined
       <div xml:id="ftships_038" n="38" type="chapter">
         <head>CHAPTER XXXVIII.</head>
         <p xml:id="ftships_1302312">THE letters written by Masi on the previous evening were found in the drawer where he had flung them. There was one to his old uncle, Don Gennaro, the country priest, far away in the Abruzzi. Another was to a political personage, who had been the medium of carrying on various negotiations with the object of supporting the newspaper. A third envelope was addressed to Giorgi. The old man's eyes had not deceived him. Masi had coolly written to him his last instructions, sitting there face to face. The envelope contained also another and far bulkier letter to Nina Guarini, which must have been written previously. The letter to Giorgi was as follows:
-<q><text xml:id="ftships_1302311"><body xml:id="ftships_1302310"><div xml:id="ftships_1302309" type="letter"><salute>"DEAR GIORGI,—</salute><p xml:id="ftships_1302308">"I entrust to you the task of telling the news of my death to the
+<q><floatingText xml:id="ftships_1302311"><body xml:id="ftships_1302310"><div xml:id="ftships_1302309" type="letter"><salute>"DEAR GIORGI,—</salute><p xml:id="ftships_1302308">"I entrust to you the task of telling the news of my death to the
 Signora Nina. Do not, if you can help it, let her hear it in any other
 way. When you have prepared her, give her the enclosed letter. All my
 papers in the office are open. I have no business secrets. Forgive me
 for imposing this trouble on you, and impute it to my confidence in 
 
-<pb xml:id="ftships_1302307" n="342 LIKE SHIPS UPON THE SEA."/>your sense and courage and fidelity. Thanks for all. My greetings to Angeloni, Silvotti, Bini, and all friends. Farewell.</p><signed>"<name>MARIO MASI</name>."</signed></div></body></text></q></p>
+<pb xml:id="ftships_1302307" n="342 LIKE SHIPS UPON THE SEA."/>your sense and courage and fidelity. Thanks for all. My greetings to Angeloni, Silvotti, Bini, and all friends. Farewell.</p><signed>"<name>MARIO MASI</name>."</signed></div></body></floatingText></q></p>
         <p xml:id="ftships_1302320">The letter to Nina Guarini ran thus:
-<q><text xml:id="ftships_1302319"><body xml:id="ftships_1302318"><div xml:id="ftships_1302317" type="letter"><salute>"DEAREST AND BEST FRIEND,—</salute><p xml:id="ftships_1302313">"It is better so. You, who know me thoroughly, will think so before long. If there had been any immediate chance of a war, I might have waited and volunteered into the ranks, for the hope of giving—or taking—a few hard knocks before the end. But that does not seem to be coming just yet. Everything looks very tiresome. It is better to finish it. I told you long ago that when I gave up the <hi rend="italic">Tribune</hi> I should give up a great many other things at the same time. At all events I fall at my post. When a man pays his life, his creditors can expect no more. You know, dear Nina, that it would not have suited me to endure a long struggle with troubles. I should most certainly have ended it sooner or later, and it is better to leave Violet free than a widow. You were right about all that. You are always right. It was a foolish fancy, and would never have answered for life. She will be far happier without me. Not just at first, but some day. I wrote her a letter last night, saying that I was about to start on a long journey, and that I released her from her engagement. It may serve to prepare her for the truth.</p><p xml:id="ftships_1302315">"Now I want you, my dear friend, to relieve Violet's mind from any
+<q><floatingText xml:id="ftships_1302319"><body xml:id="ftships_1302318"><div xml:id="ftships_1302317" type="letter"><salute>"DEAREST AND BEST FRIEND,—</salute><p xml:id="ftships_1302313">"It is better so. You, who know me thoroughly, will think so before long. If there had been any immediate chance of a war, I might have waited and volunteered into the ranks, for the hope of giving—or taking—a few hard knocks before the end. But that does not seem to be coming just yet. Everything looks very tiresome. It is better to finish it. I told you long ago that when I gave up the <hi rend="italic">Tribune</hi> I should give up a great many other things at the same time. At all events I fall at my post. When a man pays his life, his creditors can expect no more. You know, dear Nina, that it would not have suited me to endure a long struggle with troubles. I should most certainly have ended it sooner or later, and it is better to leave Violet free than a widow. You were right about all that. You are always right. It was a foolish fancy, and would never have answered for life. She will be far happier without me. Not just at first, but some day. I wrote her a letter last night, saying that I was about to start on a long journey, and that I released her from her engagement. It may serve to prepare her for the truth.</p><p xml:id="ftships_1302315">"Now I want you, my dear friend, to relieve Violet's mind from any
 remorse of conscience. There is not the slightest real ground for her
 to feel any; but you know what she is, my poor little Puritan! Tell
 her that everything was done for me that could be done. And, if you
@@ -4365,7 +4365,7 @@ handsome offer; and she will see that I did not come to the end for
 want of help. But you know I would never have accepted money which
 there was no chance of re-
 
-<pb xml:id="ftships_1302314" n="343 LIKE SHIPS UPON THE SEA."/>paying. If the combination with M. could have been effected, good! If not, not.</p><p xml:id="ftships_1302316">"And, after all, how much better to drop the curtain and put out the lights when the best of the play is over! The best is over for me. It has been a very good play, and I have enjoyed it. Don't be sorry, dear Nina. Good night.</p><salute>"Your most affectionate</salute><signed>"<name>MARIO</name>."</signed></div></body></text></q></p>
+<pb xml:id="ftships_1302314" n="343 LIKE SHIPS UPON THE SEA."/>paying. If the combination with M. could have been effected, good! If not, not.</p><p xml:id="ftships_1302316">"And, after all, how much better to drop the curtain and put out the lights when the best of the play is over! The best is over for me. It has been a very good play, and I have enjoyed it. Don't be sorry, dear Nina. Good night.</p><salute>"Your most affectionate</salute><signed>"<name>MARIO</name>."</signed></div></body></floatingText></q></p>
         <p xml:id="ftships_1302321">The note alluded to, which was enclosed in the letter, was from William Chester. It contained an offer, couched in a few simple phrases, to assist Captain Masi with a loan, if he thought such assistance would be of solid and permanent use to him. Chester wrote: "As a relative of the lady whom you are engaged to marry, and in whose happiness I am much interested, I have thought myself justified in making this proposition, which, from a stranger, might appear to be merely an unsolicited intrusion into your affairs."</p>
         <p xml:id="ftships_1302323">The manner of this note was formal and businesslike; but its
 purport moved Nina Guarini more than the finest phrases could have
@@ -4608,131 +4608,131 @@ shadows of the avenue:
       </div>
       <pb xml:id="ftships_1302412" n="[1]"/>
       <div xml:id="ftships_040" type="advert">
-        <figure><graphic url="ENTITY_ftshipsbm01" rend="inline"/>
+        <figure><graphic url="ftshipsbm01.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302413" n="2 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm02" rend="inline"/>
+        <figure><graphic url="ftshipsbm02.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302414" n="3 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm03" rend="inline"/>
+        <figure><graphic url="ftshipsbm03.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302415" n="4 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm04" rend="inline"/>
+        <figure><graphic url="ftshipsbm04.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302416" n="5 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm05" rend="inline"/>
+        <figure><graphic url="ftshipsbm05.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302417" n="6 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm06" rend="inline"/>
+        <figure><graphic url="ftshipsbm06.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302418" n="7 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm07" rend="inline"/>
+        <figure><graphic url="ftshipsbm07.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302419" n="8 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm08" rend="inline"/>
+        <figure><graphic url="ftshipsbm08.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302420" n="9 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm09" rend="inline"/>
+        <figure><graphic url="ftshipsbm09.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302421" n="10 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm10" rend="inline"/>
+        <figure><graphic url="ftshipsbm10.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302422" n="11 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm11" rend="inline"/>
+        <figure><graphic url="ftshipsbm11.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302423" n="12 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm12" rend="inline"/>
+        <figure><graphic url="ftshipsbm12.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302424" n="13 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm13" rend="inline"/>
+        <figure><graphic url="ftshipsbm13.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302425" n="14 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm14" rend="inline"/>
+        <figure><graphic url="ftshipsbm14.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302426" n="15 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm15" rend="inline"/>
+        <figure><graphic url="ftshipsbm15.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302427" n="16 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm16" rend="inline"/>
+        <figure><graphic url="ftshipsbm16.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302428" n="17 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm17" rend="inline"/>
+        <figure><graphic url="ftshipsbm17.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302429" n="18 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm18" rend="inline"/>
+        <figure><graphic url="ftshipsbm18.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302430" n="19 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm19" rend="inline"/>
+        <figure><graphic url="ftshipsbm19.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302431" n="20 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm20" rend="inline"/>
+        <figure><graphic url="ftshipsbm20.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302432" n="21 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm21" rend="inline"/>
+        <figure><graphic url="ftshipsbm21.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302433" n="22 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm22" rend="inline"/>
+        <figure><graphic url="ftshipsbm22.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302434" n="23 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm23" rend="inline"/>
+        <figure><graphic url="ftshipsbm23.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302435" n="24 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm24" rend="inline"/>
+        <figure><graphic url="ftshipsbm24.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302436" n="25 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm25" rend="inline"/>
+        <figure><graphic url="ftshipsbm25.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302437" n="26 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm26" rend="inline"/>
+        <figure><graphic url="ftshipsbm26.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302438" n="27 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm27" rend="inline"/>
+        <figure><graphic url="ftshipsbm27.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302439" n="28 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm28" rend="inline"/>
+        <figure><graphic url="ftshipsbm28.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302440" n="29 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm29" rend="inline"/>
+        <figure><graphic url="ftshipsbm29.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302441" n="30 BOOKS PUBLISHED BY"/>
-        <figure><graphic url="ENTITY_ftshipsbm30" rend="inline"/>
+        <figure><graphic url="ftshipsbm30.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302442" n="31 CHATTO &amp; WINDUS, PICADILLY."/>
-        <figure><graphic url="ENTITY_ftshipsbm31" rend="inline"/>
+        <figure><graphic url="ftshipsbm31.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
         <pb xml:id="ftships_1302443" n="32 BOOKS PUBLISHED BY CHATTO &amp; WINDUS."/>
-        <figure><graphic url="ENTITY_ftshipsbm32" rend="inline"/>
+        <figure><graphic url="ftshipsbm32.jpg" rend="inline"/>
           <figDesc> Advert included in back of Trollope's "Like Ships on the Water"</figDesc>
         </figure>
       </div>

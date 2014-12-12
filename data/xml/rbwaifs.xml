@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rbwaifs_12010">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rbwaifs_12010">
   <teiHeader xml:id="rbwaifs1201"><fileDesc>
       <titleStmt>
         <title>A Waif's Progress, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A Waif's Progress</title>. <pubPlace>London</pubPlace>:
@@ -78,7 +78,7 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="rbwaifs_1209">
     <front xml:id="rbwaifs_1202">
       <div xml:id="rbwaifs_000" type="covers">
-        <figure><graphic url="ENTITY_rbwaifsfc" rend="inline"/>
+        <figure><graphic url="rbwaifsfc.jpg" rend="inline"/>
           <figDesc>Front cover of Broughton's <hi rend="italic">A Waif's
 Progress</hi>.</figDesc>
         </figure>
@@ -91,7 +91,7 @@ Progress</hi>.</figDesc>
       </titlePage>
       <pb xml:id="rbwaifs_1307"/>
       <div xml:id="rbwaifs_001" type="advert">
-        <figure><graphic url="ENTITY_rbwaifsad1" rend="inline"/>
+        <figure><graphic url="rbwaifsad1.jpg" rend="inline"/>
           <figDesc>Advertisement included in the front of Broughton's <hi rend="italic">A Waif's
 Progress</hi>.</figDesc>
         </figure>
@@ -116,7 +116,7 @@ COMPANY</publisher>
       </titlePage>
       <pb xml:id="rbwaifs_13010"/>
       <div xml:id="rbwaifs_002" type="copyright">
-        <figure><graphic url="ENTITY_rbwaifscr" rend="inline"/>
+        <figure><graphic url="rbwaifscr.jpg" rend="inline"/>
           <figDesc>Copyright information for Broughton's <hi rend="italic">A Waif's
 Progress</hi>.</figDesc>
         </figure>
@@ -1177,7 +1177,7 @@ a caustic hope that the "zephyr" in question might remain prisoned in its cave d
         <p xml:id="rbwaifs_1301098">"The chauffeur wished to know how soon you would like the motor to come round?"</p>
         <p xml:id="rbwaifs_1301099">"The chauffeur? The motor?" repeated she, staring; then, bethinking herself that the best way to solve this new enigma would be the same as that which she had been employing on the other, she tore open the envelope and read—</p>
         <q>
-          <text xml:id="rbwaifs_1204">
+          <q><floatingText xml:id="rbwaifs_1204">
             <body xml:id="rbwaifs_1203">
               <div xml:id="rbwaifs_100" type="letter">
                 <opener>
@@ -1195,7 +1195,7 @@ a caustic hope that the "zephyr" in question might remain prisoned in its cave d
                 <p xml:id="rbwaifs_1301103">"P.S.—You will meet two friends, a new and an old one."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="rbwaifs_1301105">Miss Ransome's decision must be immediate. The expectant footman was still at her elbow awaiting orders. She threw her cap over the mill.</p>
         <pb xml:id="rbwaifs_1301106" n="159 A WAIF'S PROGRESS"/>
@@ -2623,7 +2623,7 @@ had done him good.</p>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="rbwaifs_1302592">Though Mrs. Tancred's convalescence was a rapid one, she was not for some days allowed to see her correspondence, nor read any of the numerous letters of sympathy and congratulation addressed to her husband. Amongst the first <pb xml:id="rbwaifs_1302591" n="400 A WAIF'S PROGRESS"/>put into her hands by the latter was one which ran as follows. It was dated on the eve of the operation.</p>
         <q>
-          <text xml:id="rbwaifs_1206">
+          <q><floatingText xml:id="rbwaifs_1206">
             <body xml:id="rbwaifs_1205">
               <div xml:id="rbwaifs_110" type="letter">
                 <opener>
@@ -2640,7 +2640,7 @@ had done him good.</p>
                 <p xml:id="rbwaifs_1302594">"P.S.—I should not tell you at such a moment, only that I cannot bear you to hear from any one else, that Lord Bletchley has persuaded me to marry him. I did not at all wish to at first—you know that I always rather hated the idea of marrying—but I cannot stay on here, as complic<hi rend="italic">k</hi>ations have arisen."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="rbwaifs_1302596">Miss Ransome had meant to have run that doubtful <hi rend="italic">k</hi> to earth in the dictionary, but in the ardour of composition had forgotten this necessary precaution. "Of course, Edward will understand that Colonel Slammer has been making love to <pb xml:id="rbwaifs_1302595" n="401 A WAIF'S PROGRESS"/>me!" At this point the writer had laid down her pen, and rested her pensive head upon a left hand from which some very fine diamonds shot their reconciling sparkle. "It seems brutal to tell him just at this moment, of all others, but I know that it is the truest kindness. He is so good-hearted that he will feel the blow less while he is soothing poor dear Camilla's last moments." She glanced at her betrothal ring. "I know I shall be glad by-and-by; but it does seem rather dearly bought just now." With a sigh she resumed her pen—</p>
         <p xml:id="rbwaifs_1302597">"We are both rather alone in the world, and I am sure he will be kind to me. We shall be much more like father and daughter than husband and wife."</p>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="saqueen_12013">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="saqueen_12013">
   <teiHeader xml:id="saqueen1201"><fileDesc>
       <titleStmt>
         <title>My Queen, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>My Queen. A Romance of the
@@ -81,7 +81,7 @@ page images are linked to the text file.</p>
   <text xml:id="saqueen_12012">
     <front xml:id="saqueen_1202">
       <div xml:id="saqueen_64" type="covers">
-        <figure><graphic url="ENTITY_saqueenpt4" rend="inline"/>
+        <figure><graphic url="saqueenpt4.jpg" rend="inline"/>
           <figDesc>An image of the front cover of Sandette's <hi rend="italic">My Queen</hi>.</figDesc>
         </figure>
       </div>
@@ -96,11 +96,11 @@ page images are linked to the text file.</p>
         <byline>By
 <lb/><docAuthor>"Sandette."</docAuthor></byline>
         <epigraph>
-          <quote>
+          <q>
             <l>"--Is this my doom?</l>
             <l>Are all my dreams, my hopes of heavenly bliss,</l>
             <l>My purity, my pride, then come to this?"</l>
-          </quote>
+          </q>
           <bibl>
             <hi rend="italic">Moore.</hi>
           </bibl>
@@ -110,12 +110,12 @@ page images are linked to the text file.</p>
 CO.</publisher><lb/><date>MDCCCLXXVIII.</date></docImprint>
       </titlePage>
       <pb xml:id="saqueen_1307" n="[iv]"/>
-      <div xml:id="saqueen_72" type="table of contents">
-        <figure><graphic url="ENTITY_saqueenpt2" rend="inline"/>
+      <div xml:id="saqueen_72" type="table_of_contents">
+        <figure><graphic url="saqueenpt2.jpg" rend="inline"/>
           <figDesc>An image of the first page of the table of contents for Sandette's <hi rend="italic">My Queen</hi>.</figDesc>
         </figure>
         <pb xml:id="saqueen_1308" n="v"/>
-        <figure><graphic url="ENTITY_saqueenpt3" rend="inline"/>
+        <figure><graphic url="saqueenpt3.jpg" rend="inline"/>
           <figDesc>An image of the second page of the table of contents for Sandette's <hi rend="italic">My Queen</hi>.</figDesc>
         </figure>
       </div>
@@ -408,10 +408,10 @@ prize, sold as if we were ruined. Just think, how happy we have been here. Why c
           <p xml:id="saqueen_130235">"Yes, dear, if it will drive away the blues."</p>
           <p xml:id="saqueen_130236">"Oh! it will do that. You will laugh till you ache,--listen."</p>
           <q>
-            <text xml:id="saqueen_1204">
+            <q><floatingText xml:id="saqueen_1204">
               <body xml:id="saqueen_1203">
                 <div xml:id="saqueen_09" type="excerpt">
-                  <head>"DIALOGUE BETWEEN JOS. SMITH AND THE DEVIL.</head><ref target="#saqueenn1">*</ref><note xml:id="saqueenn1" n="*" place="foot" resp="#auth">Extract from the Millennial Star.</note> 
+                  <head>"DIALOGUE BETWEEN JOS. SMITH AND THE DEVIL.<ref target="#saqueenn1">*</ref><note xml:id="saqueenn1" n="*" place="foot" resp="#auth">Extract from the Millennial Star.</note></head> 
                   <stage type="entrance">
                     <hi rend="italic">Enter devil with hand bills.</hi>
                   </stage>
@@ -428,7 +428,7 @@ busy-bodies, pickpockets, vagabonds, filthy persons, hireling clergy, and their 
                   <p xml:id="saqueen_130243">"Here's to his Satanic Majesty! may he be driven from the earth, and be forced to put to sea in a stone canoe, with an iron paddle; and may the canoe sink, and a shark swallow the canoe, and its royal freight, and an alligator swallow the shark, and may the alligator be bound in the northwest corner of hell, the door be locked, the key lost, and a blind man hunting for it."</p>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="saqueen_130244">"Now, what do you think of that? Why, bless me, you don't smile."</p>
           <p xml:id="saqueen_130246">"I should think not; it is outrageous. I don't re-
@@ -576,7 +576,7 @@ very coarse, and without the slightest attempt at ornament; a short serge dress,
             <hi rend="italic">An item clipped from an English paper.</hi>
           </p>
           <q>
-            <text xml:id="saqueen_1206">
+            <q><floatingText xml:id="saqueen_1206">
               <body xml:id="saqueen_1205">
                 <div xml:id="saqueen_12" type="excerpt">
                   <head>"TRUE LOVE.</head>
@@ -596,7 +596,7 @@ a girl of four or five years of age, has embarked for the land of the
 Mormons."</p>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="saqueen_130372">The paper contained one other short announcement:</p>
           <q>
@@ -613,7 +613,7 @@ laughter are changed to mourning and the wailing of broken hearts.</p>
 <lb/>TO THE FAR WEST.</head>
           <epigraph>
             <cit>
-              <quote>
+              <q>
                 <l>"Come to the land of the mountain and prairie,</l>
                 <l>Gather in strength to our home in the west;</l>
                 <l>Free are her sons as the breeze round the eerie,</l>
@@ -621,7 +621,7 @@ laughter are changed to mourning and the wailing of broken hearts.</p>
                 <l>Come let us haste away,</l>
                 <l>Here we'll no longer stay,</l>
                 <l>Zion, thy beauties we're yearning to see."</l>
-              </quote>
+              </q>
               <bibl>
                 <hi rend="italic">Latter Day Saints' Hymn.</hi>
               </bibl>
@@ -2553,7 +2553,7 @@ does not my room look pretty? I've been fixing up in readiness. Only just think,
 <pb xml:id="saqueen_1301835" n="225     SISTER SILEA AT HOME."/>
 Silea's private room. We learn the cause of his august presence from a little note in his pocket.</p>
           <q>
-            <text xml:id="saqueen_1208">
+            <q><floatingText xml:id="saqueen_1208">
               <body xml:id="saqueen_1207">
                 <div xml:id="saqueen_59" type="letter">
                   <salute>"MY DEAR PRESIDENT:</salute>
@@ -2563,7 +2563,7 @@ time you choose to appoint for an interview.</p>
                   <signed>"<name>SISTER SILEA</name>."</signed>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="saqueen_1301839">The President's answer was a message to the effect that Sister Silea might expect him at 2 P.M.</p>
           <p xml:id="saqueen_1301840">He had noticed Laima's visits to the house, and had publicly spoken of her beauty.</p>
@@ -2885,7 +2885,7 @@ That was too much for Elsie, who, not knowing what to do or say, abruptly left t
           <p xml:id="saqueen_1302097">The letter was dated some months back, only a few days after her departure.</p>
           <p xml:id="saqueen_1302098">It was as follows:</p>
           <q>
-            <text xml:id="saqueen_12010">
+            <q><floatingText xml:id="saqueen_12010">
               <body xml:id="saqueen_1209">
                 <div xml:id="saqueen_69" type="letter">
                   <salute>"My dear child:</salute>
@@ -2901,7 +2901,7 @@ and that the Church had cut me off, he manifested great satisfaction.</p>
 "<name>T. MENLY</name>."</signed>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="saqueen_1302106">Elsie wept: she forgot herself and the mystery of the ring in sorrow for her old friend cruelly bereft of his one faithful companion whom he mentioned so lovingly. What must be his anguish. How terrible the loneliness of his life.</p>
           <p xml:id="saqueen_1302108">For some time sympathy prevailed over curiosity; but when her eyes looked at the ring curiosity re-

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mabarba_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mabarba_1201">
   <teiHeader xml:id="mabarba1202"><fileDesc>
       <titleStmt>
         <title>Barbara: Lady's Maid and Peeress, an electronic edition</title>
@@ -8,7 +8,7 @@
       <publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2007</date><availability>
           <p xml:id="mabarba_1301">© 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p>
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/173qq</idno></publicationStmt>
-      <seriesStmt><title>Women's Genre Fiction, 1860-1920</title> <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp><name/></respStmt></seriesStmt>
+      <seriesStmt><title>Women's Genre Fiction, 1860-1920</title> <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt></seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Barbara, A Lady's Maid and Peeress</title>. <pubPlace>London</pubPlace>: <publisher>F. V. White &amp; Co.</publisher>, <date>1897</date>.</bibl>
       </sourceDesc>
@@ -74,12 +74,12 @@
         </docImprint>
       </titlePage>
       <pb xml:id="mabarba_1309" n="[v]"/>
-      <div xml:id="mabarba_mabarabara100" type="table of contents">
-        <figure><graphic url="ENTITY_mabarbafm2" rend="inline"/>
+      <div xml:id="mabarba_mabarabara100" type="table_of_contents">
+        <figure><graphic url="mabarbafm2.jpg" rend="inline"/>
           <figDesc>Table of contents included in front of Alexander's "Barbara"</figDesc>
         </figure>
         <pb xml:id="mabarba_13010" n="vi"/>
-        <figure><graphic url="ENTITY_mabarabafm3" rend="inline"/>
+        <figure><graphic url="mabarabafm3.jpg" rend="inline"/>
           <figDesc>Table of contents included in front of Alexander's "Barbara"</figDesc>
         </figure>
       </div>
@@ -92,7 +92,7 @@
       </titlePage>
       <pb xml:id="mabarba_13013" n="[viii]"/>
       <div xml:id="mabarba_200" type="advert">
-        <figure><graphic url="ENTITY_mabarbafm4" rend="inline"/>
+        <figure><graphic url="mabarbafm4.jpg" rend="inline"/>
           <figDesc>Advert included in front of Alexander's "Barbara"</figDesc>
         </figure>
       </div>
@@ -1533,7 +1533,7 @@ Grave men of political and literary importance were quite ready to talk with Mrs
         <p xml:id="mabarba_1301311">'Two! That is a large allowance for me,' taking them. 'One is from Madame Clothilde!' opening it. 'Oh Mrs Quentin, she cannot match that shade of opalescent satin you wanted for me, and sends these patterns. This letter is in quite a strange hand, but has the Rockborough post-mark.'</p>
         <p xml:id="mabarba_1301312">'Pray open it, my dear,' cried Mrs Quentin, impatiently.</p>
         <p xml:id="mabarba_1301318">Constance obeyed, and glanced at the first line with eager, wide-opened eyes. Then she changed colour, her lips trembled, and she exclaimed, 'My poor dear aunt! Oh! Mrs Quentin, she has met with a dreadful accident! Do read this!' Thus adjured, Mrs Quentin took the letter, and read aloud as follows:—
-<q><text xml:id="mabarba_1301317"><body xml:id="mabarba_1301316"><div xml:id="mabarba_1301315" type="letter"><salute>'MADAM,—</salute><p xml:id="mabarba_1301314">It is my painful duty to inform you that
+<q><floatingText xml:id="mabarba_1301317"><body xml:id="mabarba_1301316"><div xml:id="mabarba_1301315" type="letter"><salute>'MADAM,—</salute><p xml:id="mabarba_1301314">It is my painful duty to inform you that
 <pb xml:id="mabarba_1301313" n="132     LADY'S MAID AND PEERESS"/>
 your aunt, Lady Glengarvon, has met with a very serious accident. She
 had driven into Rockborough with a pair of young ponies, bred and
@@ -1555,7 +1555,7 @@ high reputation and great experience, and if you are guided by me, I
 should lose no time in summoning him to a consultation. In the
 meantime, you may rest assured that no care or attention on my part
 shall be wanting.—</p><salute>I am, madam, your obedient
-servant, </salute>        <signed>J. BARNES.'</signed></div></body></text></q></p>
+servant, </salute>        <signed>J. BARNES.'</signed></div></body></floatingText></q></p>
         <p xml:id="mabarba_1301319">'Poor dear Aunt Elizabeth!' cried Constance, 'how dreadful for her to be suffering, and alone—though, of course, she will have Wylie and Peggy. What train can I take, Mr Quentin? Of course, I must go at once. How soon can we be at Rockborough?'</p>
         <p xml:id="mabarba_1301320">'I feel rather bewildered,' said Mr Quentin. 'It seems a very serious affair. Yes, of course, you must go, Constance; but it is altogether very unlucky.' He rang. 'Here, Briggs, look up the trains for Rockborough, and let me know the first that goes right through. Don't be so much alarmed, Constance; a fractured arm is pretty bad, but not so very serious, and the Baroness is a very strong, healthy woman.'</p>
         <pb xml:id="mabarba_1301321" n="133     LADY'S MAID AND PEERESS"/>
@@ -2511,7 +2511,7 @@ call Miss Morton my wife, it is not a very agreeable reminiscence.'</p>
 <pb xml:id="mabarba_1302162" n="233     LADY'S MAID AND PEERESS"/>
 perience. Deep and deadly were the curses he heaped upon the insolent underling who had dared to beard him. If—if only he were knocked down, run over, and his life crushed out that very night as he walked back to his abode! Then Vivian would once more believe in his own luck. As it was, he must get through that interview with Constance as soon as possible. He sat down and wrote a hasty note:—</p>
         <q>
-          <text xml:id="mabarba_1302166">
+          <q><floatingText xml:id="mabarba_1302166">
             <body xml:id="mabarba_1302165">
               <div xml:id="mabarba_120" type="letter">
                 <salute>'DEAR CONSTANCE,—!</salute>
@@ -2521,7 +2521,7 @@ perience. Deep and deadly were the curses he heaped upon the insolent underling 
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mabarba_1302167">Then he rang and ordered it to be taken early next morning.</p>
         <pb xml:id="mabarba_1302168" n="234"/>
@@ -2956,12 +2956,12 @@ her to show that she was a good, respectable woman by taking the position due to
 behaved remarkably well. The new Baroness was a terrible fright, like a whitewashed negress, and always used her knife in preference to a fork; but for all that Vivian was going to drop that charming Miss Morton and marry his cousin, the lady's maid!</p>
         <p xml:id="mabarba_1302547">Mrs Quentin was a good deal annoyed—more than she cared to admit—by the whole business, and carried off her family for the winter to Torquay, leaving her husband to temporary bachelorhood. This winter and spring were trying to Constance. The sense of belonging to no one, of having no claim on anyone, oppressed her with a sense of loneliness and insignificance. Musgrave seemed to have vanished out of her life. Once there was a mention of him in the papers in connection with a rising in the hill tribes in the direction of Cashmere, when he had distinguished himself, but he gave no sign. Vivian, too, never came to visit them, and Constance felt that she was the stumbling block of offence which kept him at a distance. She went to town two or three times during this period chiefly to see Barbara, and found her fairly content, and working hard to fit herself for her new place in life. Her only source of comfort was the hope of persuading Constance to live with her as her guide, philosopher and friend. But as yet Constance would make no promise.</p>
         <p xml:id="mabarba_1302548">As Vivian offered little or no opposition to Barbara's claim, the case was by no means so prolonged as at first anticipated, and early in the May following, affairs being nearly completed, Constance read the following lengthy epistle:—</p>
-        <q> <text xml:id="mabarba_1302555"> <body xml:id="mabarba_1302554"><div xml:id="mabarba_mbarbara283" type="letter"><opener> <salute>
+        <q> <q><floatingText xml:id="mabarba_1302555"> <body xml:id="mabarba_1302554"><div xml:id="mabarba_mbarbara283" type="letter"><opener> <salute>
 'MY DEAR MISS CONSTANCE,</salute></opener><p xml:id="mabarba_1302550">—I really cannot write it without the "Miss," all the business about settling poor dear father and mother, I mean uncle and aunt—isn't it confusing, is finished. I did enjoy furnishing their cottage—which is quite a good house, with a garden where uncle can dig—when the rheumatism lets him—and near Barnes Station, so that Charlie can go up to his office every morning. It is a pleasure to see
 <pb xml:id="mabarba_1302549" n="284     BARBARA"/>
 mother's delight with her furniture, for though simple and suited to the house, it is as good and solid as I could buy. Joe started for Sydney last week, and Mrs Sidford's correspondent out there is to look out for a share in some cattle run—or something of that kind. Mr Sidford is a nice sensible man, and very good to me, but I find it very useful being of age—indeed, close on twenty-two—for no one can force me to do what I don't like, so when Mr Sidford and I have any difference of opinion my will is law. At the same time, dear Miss Constance, I am frightened to deal with all the money that is mine, until I understand about it. Mrs Sidford came to see me last week—she is very grand, much grander than you or Mrs Quentin, or poor dear Lady Glengarvon—and she talked ever so much to me about setting up an establishment. It just made my hair stand on end to think of it! Now this brings me to what I want to ask you. And my dear, dear Constance,—there now!—think well before you refuse me.</p><p xml:id="mabarba_1302552">'The ladies I am staying with have been wise and good, and I have been just in luxury, but I don't feel as if I should like to stay any longer. As for going to stay at Glengarvon or setting up a house in town, I couldn't do it. It seems to me that I must have a quiet time to practise being a lady before I perform in public. Now it seems to me that the best place for this sort of thing would be the Continent, and if you would make me happy you would come with me and be my friend and instructress! I'll do whatever you like, and go where you like. Going about and seeing remarkable places would be the best education for me. Then I should feel more sure of myself, and we should gradually get to know people. I don't want you to promise anything that would be bad for you, but I should like you to make your home with me. I'd make it home indeed! You were always a sister to me as well as a real good mistress as I could look up to as my real superior—one of those "as's" is wrong! I find composition about the hardest of my lessons. Now think of this, my dear young lady,
 <pb xml:id="mabarba_1302551" n="285     LADY'S MAID AND PEERESS"/>
-and consult with Mrs Quentin. She will give us the best advice. I'll be just too happy if you'll come. We might get away in a fortnight and stay in Paris till the fine warm spring days come. I do long to shop in Paris and see the real French millinery in its own country.</p><p xml:id="mabarba_1302553">'Now do write as soon as you have talked things over. I shall be counting the hours till I get your letter.—Ever your loving friend,</p>  <closer> <signed> BARBARA GLENGARVON.</signed></closer></div></body></text></q>
+and consult with Mrs Quentin. She will give us the best advice. I'll be just too happy if you'll come. We might get away in a fortnight and stay in Paris till the fine warm spring days come. I do long to shop in Paris and see the real French millinery in its own country.</p><p xml:id="mabarba_1302553">'Now do write as soon as you have talked things over. I shall be counting the hours till I get your letter.—Ever your loving friend,</p>  <closer> <signed> BARBARA GLENGARVON.</signed></closer></div></body></floatingText></q></q>
         <p xml:id="mabarba_1302556">'Isn't it strange for me to be signing like that?'</p>
         <p xml:id="mabarba_1302557">This epistle caused much discussion and <hi rend="italic">pour parlers</hi>. Mrs Quentin, however, was on Barbara's side. 'Really,' she said, 'that young woman has a great deal of common sense! I fear you are both rather young to go wandering about at your own sweet wills—and you must be very careful with whom you foregather. Poor Barbara will be a bait for fortune-hunters for many a day.'</p>
         <p xml:id="mabarba_1302558">'I fancy we shall be extremely quiet for many months. We shall want to study—to improve ourselves.'</p>

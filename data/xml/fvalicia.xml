@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fvalicia_0000">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fvalicia_0000">
   <teiHeader xml:id="fvalicia0001"><fileDesc>
       <titleStmt>
         <title>Alicia Newcome, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Alicia
@@ -86,11 +86,11 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="fvalicia_0002">
     <front xml:id="fvalicia_0003">
       <div xml:id="fvalicia_000" type="covers">
-        <figure><graphic url="ENTITY_fvaliciafc" rend="inline"/>
+        <figure><graphic url="fvaliciafc.jpg" rend="inline"/>
           <figDesc>Front cover of Victor's <title rend="italic">Alicia Newcome</title>.</figDesc>
         </figure>
         <pb xml:id="fvalicia_1305"/>
-        <figure><graphic url="ENTITY_fvaliciabc" rend="inline"/>
+        <figure><graphic url="fvaliciabc.jpg" rend="inline"/>
           <figDesc>Back cover of Victor's <title rend="italic">Alicia Newcome</title>.</figDesc>
         </figure>
       </div>

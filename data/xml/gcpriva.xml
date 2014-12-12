@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gcpriva_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gcpriva_1201">
   <teiHeader xml:id="gcpriva1202"><fileDesc>
       <titleStmt>
         <title>Secrets of a Private Enquiry Office, an electronic edition</title>
@@ -13,7 +13,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Secrets of a Private Inquiry Office</title>. 
@@ -68,7 +68,7 @@
       </titlePage>
       <pb xml:id="gcpriva_1307" n="[ii]"/>
       <div xml:id="gcpriva_100" type="advert">
-        <figure><graphic url="ENTITY_gcprivafm1" rend="inline"/>
+        <figure><graphic url="gcprivafm1.jpg" rend="inline"/>
           <figDesc> Advert in front of Corbett's "Secrets of a Private Enquiry Office"</figDesc>
         </figure>
       </div>
@@ -84,8 +84,8 @@
       <div xml:id="gcpriva_200" type="copyright">
         <l> London <lb/> BRADBURY, AGNEW. &amp; CO. LIMD., PRINTERS, WHITEFRIARS.</l>
       </div>
-      <div xml:id="gcpriva_300" type="table of contents">
-        <figure><graphic url="ENTITY_gcprivafm2" rend="inline"/>
+      <div xml:id="gcpriva_300" type="table_of_contents">
+        <figure><graphic url="gcprivafm2.jpg" rend="inline"/>
           <figDesc>Table of contents in Corbett's "Secrets of a private enquiry office"</figDesc>
         </figure>
       </div>

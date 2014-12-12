@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="af2may_0001">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="af2may_0001">
   <teiHeader xml:id="af2may0002"><fileDesc>
       <titleStmt>
         <title>A Mayfair Tragedy, volume II, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A
@@ -133,7 +133,7 @@ added by the encoder and do not appear in the original text.</p>
         </trailer>
       </div>
       <pb xml:id="af2may_13012"/>
-      <div xml:id="af2may_003" type="table of contents">
+      <div xml:id="af2may_003" type="table_of_contents">
         <figure><graphic url="af1maytc.jpg" rend="inline"/>
           <figDesc>Table of contents for the second volume of Fraser's <hi rend="italic">A Mayfair Tragedy</hi>.</figDesc>
         </figure>
@@ -924,7 +924,7 @@ is impatient to receive Ferrari's answer to her letter, she wants it for a purpo
         <pb xml:id="af2may_130558" n="121 'AN ARMISTICE RATHER!'"/>
         <p xml:id="af2may_130559">Reaching home, she avoids meeting anyone, and locking herself up in her own room, she rouses herself with an effort to open the letter.</p>
         <q>
-          <text xml:id="af2may_130564">
+          <floatingText xml:id="af2may_130564">
             <body xml:id="af2may_130563">
               <opener>
                 <salute>"My OWN,</salute>
@@ -940,7 +940,7 @@ of your people and everything rather than an absence that kills me. But if your 
                 </signed>
               </closer>
             </body>
-          </text>
+          </floatingText>
         </q>
         <p xml:id="af2may_130565">Claire throws herself back in her chair when she comes to the end of the letter.</p>
         <p xml:id="af2may_130567">"Thank Heaven, he has consented to wait! Months are long enough to compass anything in this world if one is not a fool. I do not think Melville believed me quite when I said Cecil had had one experience in love! I wonder if he cared? If I thought he had any feeling for <hi rend="italic">her</hi>, I would do anything to keep them apart. But no--he does not even see her, or try to

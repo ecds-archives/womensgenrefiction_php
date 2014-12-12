@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="estrail_1209">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="estrail_1209">
   <teiHeader xml:id="estrail1201"><fileDesc>
       <titleStmt>
         <title>The Trail of the Serpent, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author> <title>The Trail of the
@@ -79,11 +79,11 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="estrail_1208">
     <front xml:id="estrail_1202">
       <div xml:id="estrail_000" type="covers">
-        <figure><graphic url="ENTITY_estrailfc" rend="inline"/>
+        <figure><graphic url="estrailfc.jpg" rend="inline"/>
           <figDesc>Front cover of Southworth's <hi rend="italic">The Trail of
 the Serpent</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_estrailsp" rend="inline"/>
+        <figure><graphic url="estrailsp.jpg" rend="inline"/>
           <figDesc>The spine of Southworth's <hi rend="italic">The Trail of
 the Serpent</hi>.</figDesc>
         </figure>
@@ -104,7 +104,7 @@ Unloved Wife," Etc.</byline>
       </titlePage>
       <pb xml:id="estrail_1307" n="[2]"/>
       <div xml:id="estrail_001" type="advert">
-        <figure><graphic url="ENTITY_estrailad1" rend="inline"/>
+        <figure><graphic url="estrailad1.jpg" rend="inline"/>
           <figDesc>Advertisement included in the front of Southworth's <hi rend="italic">The Trail of
 the Serpent</hi>.</figDesc>
         </figure>
@@ -2310,7 +2310,7 @@ over her temples and ears, and rolled back in a loose, ripply mass at the back o
         <p xml:id="estrail_1301835">The note was as follows:</p>
         <pb xml:id="estrail_1301836" n="145 THE TRAIL OF THE SERPENT"/>
         <q>
-          <text xml:id="estrail_1204">
+          <q><floatingText xml:id="estrail_1204">
             <body xml:id="estrail_1203">
               <opener>
                 <dateline><name type="place">"CASTLE BELLE ISLE</name>, <date>Sept. 20, 18--.</date></dateline>
@@ -2340,7 +2340,7 @@ Isoline, and believe me your foolishly fond</salute>
                 <signed>ELEANORA BELLE ISLE."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="estrail_1301853">Mrs. Irvine read this note through and then looked up from its perusal thoughtfully.</p>
         <p xml:id="estrail_1301854">Here was a present opportunity of gratifying her daughter's wish for a change of scene from dreary Stony Fells!</p>
@@ -3236,7 +3236,7 @@ a little white note upon the table before the duchess, saying:</p>
         <p xml:id="estrail_1302571">"I found this, your mighty grace, behind the dressing-table in my lady's bedroom when I was a-giving of it a good cleaning. I think--if I might take the liberty, your highness--as the paper must have been laid on the top of the dressing-table for my young lady to see, but as it got blown behind, and slipped down the back outen sight. I don't know else how it could 'a' got there."</p>
         <p xml:id="estrail_1302572">The duchess took the note, unfolded it, and read:</p>
         <q>
-          <text xml:id="estrail_1206">
+          <q><floatingText xml:id="estrail_1206">
             <body xml:id="estrail_1205">
               <opener>
                 <dateline>"BEDROOM, 4 A. M., Saturday.</dateline>
@@ -3255,7 +3255,7 @@ come to church on Sunday and meet me, and I will return with
 you. Heaven bless and keep you, my darling child, is ever the prayer
 of your mother."</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="estrail_1302574">"This settles it. This explains everything! The poor lady, in the morbid and unsound state of mind which we all noticed, remembered some trifling condition or another that had not been considered between us, and attaching undue importance to it, set out in the darkness before day to come to Castle Belle Isle, and in crossing that unguarded bridge, missed her footing, fell into the dike and was swept off to sea," said the duchess, with a deep sigh, as she
 dropped the note upon her lap and leaned her head upon her hand.</p>

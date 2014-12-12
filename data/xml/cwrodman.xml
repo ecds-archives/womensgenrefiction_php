@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cwrodman_1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cwrodman_1205">
   <teiHeader xml:id="cwrodman1201"><fileDesc>
       <titleStmt>
         <title>Rodman the Keeper, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Rodman the
@@ -100,7 +100,7 @@ ETC.</byline>
       </titlePage>
       <pb xml:id="cwrodman_1307" n="[2]"/>
       <div xml:id="cwrodman_000" type="copyright">
-        <figure><graphic url="ENTITY_cwrodmancr" rend="inline"/>
+        <figure><graphic url="cwrodmancr.jpg" rend="inline"/>
           <figDesc>Copyright information for Woolson's <hi rend="italic">Rodman: the Keeper</hi>.</figDesc>
         </figure>
       </div>
@@ -122,8 +122,8 @@ with true regret. Two of these sketches have appeared in the
 "Harper's Magazine."</p>
         <bibl>C.F.W.</bibl>
       </div>
-      <div xml:id="cwrodman_003" type="table of contents">
-        <figure><graphic url="ENTITY_cwrodmantc" rend="inline"/>
+      <div xml:id="cwrodman_003" type="table_of_contents">
+        <figure><graphic url="cwrodmantc.jpg" rend="inline"/>
           <figDesc>Contents page for Woolson's <hi rend="italic">Rodman: the
 Keeper</hi>.</figDesc>
         </figure>
@@ -135,7 +135,7 @@ Keeper</hi>.</figDesc>
         <pb xml:id="cwrodman_13012" n="[9]"/>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg type="stanza">
                 <l>The long years come and go,</l>
                 <l>And the Past,</l>
@@ -160,7 +160,7 @@ Keeper</hi>.</figDesc>
                 <l>——it seems</l>
                 <l>Ignoble to be alive!</l>
               </lg>
-            </quote>
+            </q>
           </cit>
           <bibl>THOMAS BAILEY ALDRICH.</bibl>
         </epigraph>
@@ -373,7 +373,7 @@ read the keeper slowly, with his execrable English accent. "Well, I don't know t
         <head>SISTER ST. LUKE.</head>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg>
                 <l>She lived shut in by flowers and trees,</l>
                 <l>And shade of gentle bigotries;</l>
@@ -388,7 +388,7 @@ read the keeper slowly, with his execrable English accent. "Well, I don't know t
                 <l>Nor day nor night had power to fright</l>
                 <l>The peace of God within her eyes.</l>
               </lg>
-            </quote>
+            </q>
           </cit>
           <bibl>JOHN HAY.</bibl>
         </epigraph>
@@ -580,7 +580,7 @@ and that sort of thing."</p>
         <head>MISS ELISABETHA.</head>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg type="stanza">
                 <l>In yonder homestead, wreathed with bounteous vines,</l>
                 <l>A lonely woman dwells, whose wandering feet</l>
@@ -599,7 +599,7 @@ and that sort of thing."</p>
                 <l>Carries the sad reality in its face</l>
                 <l>Of her own haggard cheeks and desolate eyes!</l>
               </lg>
-            </quote>
+            </q>
           </cit>
           <bibl>EDGAR FAWCETT.</bibl>
         </epigraph>
@@ -811,7 +811,7 @@ and that sort of thing."</p>
         <head>OLD GARDISTON.</head>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg type="stanza">
                 <l>One by one they died—</l>
                 <l>Last of all their race;</l>
@@ -832,7 +832,7 @@ and that sort of thing."</p>
                 <l>All that were have fled—</l>
                 <l>Down the old house goes!</l>
               </lg>
-            </quote>
+            </q>
           </cit>
           <bibl>EDMUND CLARENCE STEDMAN.</bibl>
         </epigraph>
@@ -1050,7 +1050,7 @@ sang Gardis, and went on blithely through the whole, giving Mother Venus's advic
         <head>THE SOUTH DEVIL.</head>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg type="stanza">
                 <l>The trees that lean'd in their love unto trees,</l>
                 <l>That lock'd in their loves, and were made so strong,</l>
@@ -1069,7 +1069,7 @@ sang Gardis, and went on blithely through the whole, giving Mother Venus's advic
                 <l>Had folded his head to the white limb now,</l>
                 <l>And fondled it close like a great black love.</l>
               </lg>
-            </quote>
+            </q>
           </cit>
           <bibl>JOAQUIN MILLER.</bibl>
         </epigraph>
@@ -1324,7 +1324,7 @@ sang Gardis, and went on blithely through the whole, giving Mother Venus's advic
         <head>IN THE COTTON COUNTRY.</head>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg>
                 <l>The loveliest land that smiles beneath the sky,</l>
                 <l>The coast-land of our western Italy.</l>
@@ -1333,11 +1333,11 @@ sang Gardis, and went on blithely through the whole, giving Mother Venus's advic
                 <l>Of flavorous tropic sweets, perchance swept home</l>
                 <l>From Cuba's perfumed groves and garden spiceries.</l>
               </lg>
-            </quote>
+            </q>
           </cit>
           <bibl>PAUL HAMILTON HAYNE.</bibl>
           <cit>
-            <quote>
+            <q>
               <lg>
                 <l>Call on thy children of the hill,</l>
                 <l>Wake swamp and river, coast and rill,</l>
@@ -1346,7 +1346,7 @@ sang Gardis, and went on blithely through the whole, giving Mother Venus's advic
                 <l>And what his dauntless breast defied;</l>
                 <l>How Rutledge ruled and Laurens died,<lb/>Carolina!</l>
               </lg>
-            </quote>
+            </q>
           </cit>
           <bibl>HENRY TIMROD.</bibl>
         </epigraph>
@@ -1408,7 +1408,7 @@ sang Gardis, and went on blithely through the whole, giving Mother Venus's advic
         <head>FELIPA.</head>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg>
                 <l>Glooms of the live-oaks, beautiful-braided and woven</l>
                 <l>With intricate shades of the vines that, myriad cloven,</l>
@@ -1427,7 +1427,7 @@ sang Gardis, and went on blithely through the whole, giving Mother Venus's advic
                 <l>A league and a league of marsh-grass, waist-high, broad in the blade,</l>
                 <l>Green, and all of a height, and unflecked with a light or a shade.</l>
               </lg>
-            </quote>
+            </q>
           </cit>
           <bibl>SIDNEY LANIER.</bibl>
         </epigraph>
@@ -1627,14 +1627,14 @@ said the young lover; and I, listening there in the dark fragrant night, with th
         <head>"BRO."</head>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg>
                 <l>To him that hath, we are told,</l>
                 <l>Shall be given. Yes, by the Cross!</l>
                 <l>To the rich man Fate sends gold,</l>
                 <l>To the poor man loss on loss.</l>
               </lg>
-            </quote>
+            </q>
           </cit>
           <bibl>THOMAS BAILEY ALDRICH.</bibl>
         </epigraph>
@@ -1854,7 +1854,7 @@ said the young lover; and I, listening there in the dark fragrant night, with th
         <head>KING DAVID.</head>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg>
                 <l>I met a traveler on the road;</l>
                 <l>His face was wan, his feet were weary;</l>
@@ -1863,7 +1863,7 @@ said the young lover; and I, listening there in the dark fragrant night, with th
                 <l>Set forward in the empty air,</l>
                 <l>As he were reading an unseen book.</l>
               </lg>
-            </quote>
+            </q>
           </cit>
           <bibl>RICHARD WATSON GILDER.</bibl>
         </epigraph>
@@ -2003,7 +2003,7 @@ said the young lover; and I, listening there in the dark fragrant night, with th
         <head>UP IN THE BLUE RIDGE.</head>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg type="stanza">
                 <l>"Every rose, you sang, has its thorn;</l>
                 <l>But this has none, I know."</l>
@@ -2016,7 +2016,7 @@ said the young lover; and I, listening there in the dark fragrant night, with th
                 <l>I moved my lips, and could not say</l>
                 <l>The thorn was in my heart.</l>
               </lg>
-            </quote>
+            </q>
           </cit>
           <bibl>WILLIAM DEAN HOWELLS.</bibl>
         </epigraph>

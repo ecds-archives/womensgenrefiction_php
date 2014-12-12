@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="atdymond_12024">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="atdymond_12024">
   <teiHeader xml:id="atdymond1201"><fileDesc>
       <titleStmt>
         <title>Mrs Dymond, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Mrs Dymond</title>. <pubPlace>London</pubPlace>: <publisher>Smith, Elder, &amp; Co.</publisher>, <date>1885</date>.</bibl>
@@ -84,7 +84,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="atdymond_1307" n="[ii]"/>
       <div xml:id="atdymond_000" type="advert">
-        <figure><graphic url="ENTITY_atdymondad" rend="inline"/>
+        <figure><graphic url="atdymondad.jpg" rend="inline"/>
           <figDesc>Advertisement included in the front of Thackeray's <hi rend="italic">Mrs Dymond</hi>.</figDesc>
         </figure>
       </div>
@@ -100,21 +100,21 @@ WATERLOO PLACE</pubPlace><docDate>1885</docDate></docImprint>
       </titlePage>
       <pb xml:id="atdymond_13010" n="[v]"/>
       <div xml:id="atdymond_001" type="paratext">
-        <figure><graphic url="ENTITY_atdymondpt1" rend="inline"/>
+        <figure><graphic url="atdymondpt1.jpg" rend="inline"/>
           <figDesc>Image included in the front of Thackeray's <hi rend="italic">Mrs Dymond</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="atdymond_13011" n="[vii]"/>
-      <div xml:id="atdymond_002" type="table of contents">
-        <figure><graphic url="ENTITY_atdymondtc1" rend="inline"/>
+      <div xml:id="atdymond_002" type="table_of_contents">
+        <figure><graphic url="atdymondtc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Thackeray's <hi rend="italic">Mrs Dymond</hi>.</figDesc>
         </figure>
         <pb xml:id="atdymond_13012" n="viii"/>
-        <figure><graphic url="ENTITY_atdymondtc2" rend="inline"/>
+        <figure><graphic url="atdymondtc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Thackeray's <hi rend="italic">Mrs Dymond</hi>.</figDesc>
         </figure>
         <pb xml:id="atdymond_13013" n="ix"/>
-        <figure><graphic url="ENTITY_atdymondtc3" rend="inline"/>
+        <figure><graphic url="atdymondtc3.jpg" rend="inline"/>
           <figDesc>Table of contents for Thackeray's <hi rend="italic">Mrs Dymond</hi>.</figDesc>
         </figure>
       </div>
@@ -181,7 +181,7 @@ slate are let into the wall. The little calves in the adjoining field start off 
           <p xml:id="atdymond_13035">'Let them rave,' says Jo, sententiously.</p>
           <p xml:id="atdymond_13036">'Jo, I can bear it no longer,' says his sister. 'I have written to papa. You may read my letter if you like,' and she pulled a paper out of her pocket and put it into his hand.</p>
           <q>
-            <text xml:id="atdymond_1204">
+            <q><floatingText xml:id="atdymond_1204">
               <body xml:id="atdymond_1203">
                 <opener>
                   <dateline><name type="place">'Bolsover,</name> <date>July 24, 18</date>—.</dateline>
@@ -195,7 +195,7 @@ yesterday that poor Charlie Bolsover had written for me; she reads all our lette
                   <signed>'TEMPY.'</signed>
                 </closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="atdymond_13039">Jo whistled and pulled a long face as he read. 'Is not this rather strong?' said he doubtfully. He was not without some admiration for his sister's style, but he felt that the Colonel might justly expect some more definite grievances to justify him in sending for them.</p>
           <p xml:id="atdymond_13040">'It is only the truth,' says Tempy, 'and papa will understand. I have a great mind not to go to the Vivians to-day, Jo,' she said gloomily and walking as fast as ever she could.</p>
@@ -472,7 +472,7 @@ plaintive voice, 'Others may do their best, but it isn't the same.'
 The Colonel was a serious man, who always took things seriously; he
 paused for a minute and then he began to write.</p>
           <q>
-            <text xml:id="atdymond_1206">
+            <q><floatingText xml:id="atdymond_1206">
               <body xml:id="atdymond_1205">
                 <div xml:id="atdymond_100" type="letter">
                   <opener>
@@ -490,7 +490,7 @@ to Jo when he goes to the University. I am writing to your Aunt Caroline by this
                   <p xml:id="atdymond_130243">'P.S.—I am sorry for poor Charles's troubles. A young man cannot be too careful in the choice of his associates. I have no doubt that it is a wise plan to remove him at once from evil influences. Let us hope his muse will not permanently suffer from the loss of the verses.'</p>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="atdymond_130245">The Colonel was pleased with his composition, and had taken it to the post, and was coming back in a cheerful, well-satisfied frame of mind, when, to his surprise, he met Mrs. Marney, whom he imagined far away on her way to Paris, quietly walking under her big sunshade up the village street with her little boys on either
 <pb xml:id="atdymond_130244" n="54 MRS. DYMOND."/>
@@ -1679,10 +1679,10 @@ Colonel very proud of her? How did she look? Is she very grand? Is she changed? 
             </cit>
           </epigraph>
           <p xml:id="atdymond_130996">BEFORE Susy had been a year at Tarndale she had the happiness of welcoming her mother to her new home. The Colonel kept his promise, and, not only the little boys, but Mrs. Marney came over for the summer holidays. Needless to say that it was all the Colonel's doing, and that it was not without some previous correspondence with Mr. Marney, who, in return for a cheque, duly received, sent off a model and irreproachable letter to announce his family's departure (<hi rend="italic">viâ</hi> Havre, not by Boulogne, as the liberal Colonel had arranged for), and also to consult with the Colonel about the little boys' future education.</p>
-          <p xml:id="atdymond_1301002">Mr. Marney wrote that Dermy had a fancy, so his mother declared at least, for being a doctor. <q><p xml:id="atdymond_130997">'Charterhouse had been suggested,'</p></q> says the correspondent, in his free, dashing handwriting. <q><text xml:id="atdymond_1208"><body xml:id="atdymond_1207"><p xml:id="atdymond_130999">'I do not know if you have heard of my late appointment to the <hi rend="italic">Daily Veloci</hi>-
+          <p xml:id="atdymond_1301002">Mr. Marney wrote that Dermy had a fancy, so his mother declared at least, for being a doctor. <q><p xml:id="atdymond_130997">'Charterhouse had been suggested,'</p></q> says the correspondent, in his free, dashing handwriting. <q><floatingText xml:id="atdymond_1208"><body xml:id="atdymond_1207"><p xml:id="atdymond_130999">'I do not know if you have heard of my late appointment to the <hi rend="italic">Daily Veloci</hi>-
 <pb xml:id="atdymond_130998" n="237 A WELCOME."/><hi rend="italic">pede</hi>, and are aware that although I am not immediately able, my dear Colonel, to repay you in coin of the realm for that part of your infinite kindness to me and mine which can be repaid by money, yet my prospects are so good and so immediate (the proprietors of my newspaper have written to me lately in very encouraging terms) that I feel I am now justified in giving my boys a gentleman's education, and in asking you to spare no expense (in accordance with my means) for any arrangements you may think fit to make for their welfare. It is <hi rend="italic">everything</hi> for them both to get a good start in life. I trust entirely to your judgment and experience. I have been too long a vagabond and absentee myself to be <hi rend="italic">au fait</hi> with the present requirements. I know it is the fashion to rail against the old-fashioned standard of education, which is certainly not without objections, and yet to speak frankly I must confess to you that, much abused as the time-honoured classics have been, I have found my own smattering of school-lore stand me in good stead in my somewhat adventurous career. I am daily expecting a liberal remittance from my proprietors, and when it arrives I will immediately post you a cheque for any extra expense you may have incurred. As for the better part of your help, its chivalrous kindness, and generous friendship, that can never be repaid, not even by the grateful and life-long affection of mine and me.</p><p xml:id="atdymond_1301001">'Do not hesitate to keep Polly as long as your wife
 <pb xml:id="atdymond_1301000" n="238 MRS. DYMOND."/>
-may require her mother's presence. I am used to shift for myself, and though the place looks lonely without the old hen and her chicks, it is perhaps all the better for my work and for me to be thrown on my own resources. A family life, as you yourself must have often found when engaged on' (here Mr. Marney rather at a loss for a word had erased 'military' and written 'serious') ' matters, is a precious but a most distracting privilege. May your own and Susanna's present and future prospects continue to afford you all that even your kind heart should require for its complete satisfaction. And above all remember that you are <hi rend="italic">to keep my wife as long as you need her</hi>. I shall not run over. With all my regard and admiration for your country and its institutions I do not wish for the present to set foot on English soil. I can also understand my poor wife's dislike to her native land after all that we endured while we still lived in London. When I compare this cheerful place, the brightness of the atmosphere, and the cheapness of provisions, with the many difficulties we have had to struggle through before we came, I feel how wisely for ourselves we acted in turning our back upon the "ould counthree." The one doubt we have ever felt was on the boys' account, and this doubt your most wise and opportune help has now happily solved. Believe me, my dear Colonel, with deep and lasting obligation,</p><closer><salute>'Yours most faithfully,</salute><signed>'MICHAEL MARNEY.'</signed></closer></body></text></q></p>
+may require her mother's presence. I am used to shift for myself, and though the place looks lonely without the old hen and her chicks, it is perhaps all the better for my work and for me to be thrown on my own resources. A family life, as you yourself must have often found when engaged on' (here Mr. Marney rather at a loss for a word had erased 'military' and written 'serious') ' matters, is a precious but a most distracting privilege. May your own and Susanna's present and future prospects continue to afford you all that even your kind heart should require for its complete satisfaction. And above all remember that you are <hi rend="italic">to keep my wife as long as you need her</hi>. I shall not run over. With all my regard and admiration for your country and its institutions I do not wish for the present to set foot on English soil. I can also understand my poor wife's dislike to her native land after all that we endured while we still lived in London. When I compare this cheerful place, the brightness of the atmosphere, and the cheapness of provisions, with the many difficulties we have had to struggle through before we came, I feel how wisely for ourselves we acted in turning our back upon the "ould counthree." The one doubt we have ever felt was on the boys' account, and this doubt your most wise and opportune help has now happily solved. Believe me, my dear Colonel, with deep and lasting obligation,</p><closer><salute>'Yours most faithfully,</salute><signed>'MICHAEL MARNEY.'</signed></closer></body></floatingText></q></p>
           <pb xml:id="atdymond_1301003" n="239 A WELCOME."/>
           <p xml:id="atdymond_1301004">Mr. Marney's letters need not be quoted at length. The Colonel used to read them with some interest and a good deal of perplexity, date them gravely and put them away in a packet. Susy shook her head when her husband once offered to show them to her. One day, not very long afterwards, with a burst of tears, she found them in a drawer, and she threw the whole heap into the fire.</p>
           <p xml:id="atdymond_1301005">Towards the end of June, Mrs. Marney, smiling and excited, in her French bonnet and French cut clothes, and the little boys, with their close cropped heads, arrived and settled down into the spare rooms at Crowbeck. Jo took the little boys under his friendly wing, and treated them to smiling earth, to fresh air and pure water, and fire too, for a little rabbit-shooting diversified their fishing expeditions, so did long walks across the moors. The two little fellows trudged after their guide prouder and happier than they had ever been in all their life before. Susy was very grateful to Josselin for his kindness. Tempy was absorbed, the Marneys coming made no difference to her one way or the other. If the Colonel had not been so preoccupied about his wife he must have noticed how ill Tempy was looking. But almost directly after Mrs. Marney's arrival another personage of even greater importance appeared upon the scene, and a little baby-girl lay in Susy's happy arms.</p>
@@ -2312,7 +2312,7 @@ window and faced her new friend, blushing a little, looking more beautiful than 
           <p xml:id="atdymond_1301365">'How do you do, M. Max?' said Mrs. Dymond, welcoming her visitor. 'Where is my mother? Is she not coming?'</p>
           <p xml:id="atdymond_1301366">'I was not able to see her when I called—Madame Marney was in her room. She sends a message,' and Du Parc brought out a folded scrap from his waistcoat pocket:—</p>
           <q>
-            <text xml:id="atdymond_12010">
+            <q><floatingText xml:id="atdymond_12010">
               <body xml:id="atdymond_1209">
                 <div xml:id="atdymond_107" type="letter">
                   <opener>
@@ -2327,7 +2327,7 @@ window and faced her new friend, blushing a little, looking more beautiful than 
                   <p xml:id="atdymond_1301368">'P.S.—I will call if I can, and see the darling baby in the course of the day.'</p>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="atdymond_1301369">The note was disappointing, but it was no use delaying any longer.</p>
           <p xml:id="atdymond_1301370">'We are late,' says Tempy, starting up. 'We ought not to have waited so long. Mr. Bagginal will be quite tired out.'</p>
@@ -2487,7 +2487,7 @@ extra gaiety and noisy enjoyment which jarred upon poor Susy, sitting lonely and
           </epigraph>
           <p xml:id="atdymond_1301469">SUSY came home still, tired, and dispirited. She left the others to their cheerful interminable leave-takings down below, and hurried up the stairs to her own room. As she passed through the sitting-room she saw some letters lying on the round table, and she carried them with her candle into her own room to read. It was nearly dark, the light was dying out of the sky, and she untied her bonnet and sat down in the chair by her bedside with some sense of rest and peace. The first letter was from Mrs. Bolsover, and in her own handwriting:—</p>
           <q>
-            <text xml:id="atdymond_12012">
+            <q><floatingText xml:id="atdymond_12012">
               <body xml:id="atdymond_12011">
                 <div xml:id="atdymond_111" type="letter">
                   <opener>
@@ -2510,11 +2510,11 @@ nothing more to complain of than when you left the Place. Aunt Fanny has been up
                   <p xml:id="atdymond_1301477">'Tell Phraisie we shall be looking out for her by the end of the week, and that we shall keep the rats till she comes for them.'</p>
                 </div>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="atdymond_1301478">The second letter was also stamped with the Bolsover crest, but it bore the London post-mark, and was directed in a dashing and blotted handwriting at which Susy wondered as she opened it. Then she began to read attentively, and having finished she read the letter through a second time; and then, still holding it in her hands, she sat motionless trying to think, to realise how much it might mean. The words were simple enough, and to the point:—</p>
           <q>
-            <text xml:id="atdymond_12014">
+            <q><floatingText xml:id="atdymond_12014">
               <body xml:id="atdymond_12013">
                 <opener>
                   <dateline><name type="place">D—— Street, Soho</name>, <date>April 23rd</date>.</dateline>
@@ -2528,7 +2528,7 @@ My Aunt Caroline has also shown me a letter which you have been kind enough to w
                   <signed>'C. P. BOLSOVER.'</signed>
                 </closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="atdymond_1301482">As Susy sat there her mind was quickly made up; something in Charlie's letter rang true and seemed to find a ready answer in her feeling. Ah! she knew now as she
 <pb xml:id="atdymond_1301481" n="358 MRS. DYMOND."/>
@@ -2780,12 +2780,12 @@ finally by a long rambling letter from Mrs. Marney, full of many laments. She ha
 <pb xml:id="atdymond_1301629" n="400 MRS. DYMOND."/>
 Susanna had dared expect it, early next morning before she was up:—</p>
           <q>
-            <text xml:id="atdymond_12016">
+            <q><floatingText xml:id="atdymond_12016">
               <body xml:id="atdymond_12015">
                 <head rend="italic">'Madame du Parc, Neuilly, to Mrs. Dymond, Crowbeck Place, Tarndale.</head>
                 <p xml:id="atdymond_1301631">'Your mother is here very ill; pray come.'</p>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="atdymond_1301632">Susy did not wait to consult Mr. Bolsover again; she wrote a line to Mrs. Bolsover, sent her little Phraisie to the Hall with the nurse, and started at once by an early train to town.</p>
           <milestone rend="blank-line" unit="section"/>
@@ -3285,7 +3285,7 @@ that I shall let you go? 'she shrieks, as she hurls her husband back, and the do
 <pb xml:id="atdymond_1301935" n="472 MRS. DYMOND."/>
 fluttering. Susy saw one despairing cry from a friend of order, headed—</p>
           <q>
-            <text xml:id="atdymond_12018">
+            <q><floatingText xml:id="atdymond_12018">
               <body xml:id="atdymond_12017">
                 <head>'LIBERTY, FRATERNITY, EQUALITY.</head>
                 <p xml:id="atdymond_1301937">'I appeal to the manhood, to the patriotism of the population, to those desiring tranquillity and respect for law. Time presses; a barrier is absolutely needed to stem the tide of revolution; let all good citizens give me their support.</p>
@@ -3295,7 +3295,7 @@ fluttering. Susy saw one despairing cry from a friend of order, headed—</p>
 <lb/>'Captain Comm., 1st Company, 253 Batt.'</signed>
                 </closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="atdymond_1301938">Alongside with this, and indefinitely multiplied, were the Federal manifestos in their official type and paper—</p>
           <q>
@@ -3595,14 +3595,14 @@ door of the room where the Communists were still sitting, he passed his fingers 
           <p xml:id="atdymond_1302093">But for this again we must refer our readers to the <hi rend="italic">Daily Velocipede</hi>, in the columns of which Max was reported to be among the condemned prisoners, but Susy was surprised and reassured by an ambiguous letter, which reached her at Crowbeck Place, from no less well-informed a person than Mr. Bagginal of the English Embassy.</p>
           <pb xml:id="atdymond_1302094" n="512 MRS. DYMOND."/>
           <q>
-            <text xml:id="atdymond_12020">
+            <q><floatingText xml:id="atdymond_12020">
               <body xml:id="atdymond_12019">
                 <p xml:id="atdymond_1302095">'I have executed your commission,' so it began. (Susy had not given Mr. Bagginal any commission, and she turned the letter over in some surprise.) 'I am sending you the photographs of the ruins and of Paris, that you wished for, in its present changed aspect. I hope also to have some pen-and-ink etchings to forward at the same time. They are by our companion of last year, who has been doing some very good work lately, though he complains of the light of his present studio; he hopes, however, to be able to remove before long to some more commodios quarters. If you should like any more of his drawings, you can always find them at a toy-shop in the Brompton Road, which I believe you and Miss Phraisie are sometimes in the habit of patronising. Pray present my compliments to that young lady, and tell her I shall bring over some bonbons when I next come. They are making them now of chocolate, in the shape of cannon balls and of shells, filled with vanille creams, which I assure you are excellent. Believe me, dear Mrs. Dymond, always most faithfully yours,</p>
                 <closer>
                   <signed>'C. E. BAGGINAL.'</signed>
                 </closer>
               </body>
-            </text>
+            </floatingText></q>
           </q>
           <p xml:id="atdymond_1302097">The photographs arrived by the next post, and with them a sketch of the well-remembered studio in the villa, and another very elaborately finished drawing of a dark box-room in Mr. Bagginal's lodgings, where the artist must have spent a good many hours; the third drawing
 <pb xml:id="atdymond_1302096" n="513 L'ENVOI."/>

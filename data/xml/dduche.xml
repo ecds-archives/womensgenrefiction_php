@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dduche_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dduche_1201">
   <teiHeader xml:id="dduche1202"><fileDesc>
       <titleStmt>
         <title>The Duchess, an electronic edition</title>
@@ -14,7 +14,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Duchess</title>. <pubPlace>New York</pubPlace>: <publisher>F.M.Lupton</publisher>.</bibl>
@@ -59,8 +59,8 @@
     </profileDesc><revisionDesc><change><date>2007-June-22</date><label>Encoder.</label><name>Shruthi Vissa, </name>XML tags inserted in compliance with TEI guidelines.</change></revisionDesc></teiHeader>
   <text xml:id="dduche_1203">
     <front xml:id="dduche_1204">
-      <div xml:id="dduche_cover" type="Front Cover">
-        <figure><graphic url="ENTITY_dduchefc" rend="inline"/>
+      <div xml:id="dduche_cover" type="front_cover">
+        <figure><graphic url="dduchefc.jpg" rend="inline"/>
           <figDesc>Front Cover of Duchess's "The Duchess"</figDesc>
         </figure>
       </div>
@@ -2221,44 +2221,44 @@ forget. Oh! the cruel agony of remembrance. Those moments when I thought you dea
     <back xml:id="dduche_1206">
       <pb xml:id="dduche_1301499" n="[1]"/>
       <div xml:id="dduche_100" type="advert">
-        <figure><graphic url="ENTITY_dduchead1" rend="inline"/>
+        <figure><graphic url="dduchead1.jpg" rend="inline"/>
           <figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
         </figure>
         <pb xml:id="dduche_1301500" n="[2]"/>
-        <figure><graphic url="ENTITY_dduchead2" rend="inline"/>
+        <figure><graphic url="dduchead2.jpg" rend="inline"/>
           <figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
         </figure>
         <pb xml:id="dduche_1301501" n="[3]"/>
-        <figure><graphic url="ENTITY_dduchead3" rend="inline"/>
+        <figure><graphic url="dduchead3.jpg" rend="inline"/>
           <figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
         </figure>
         <pb xml:id="dduche_1301502" n="[4]"/>
-        <figure><graphic url="ENTITY_dduchead4" rend="inline"/>
+        <figure><graphic url="dduchead4.jpg" rend="inline"/>
           <figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
         </figure>
         <pb xml:id="dduche_1301503" n="[5]"/>
-        <figure><graphic url="ENTITY_dduchead5" rend="inline"/>
+        <figure><graphic url="dduchead5.jpg" rend="inline"/>
           <figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
         </figure>
         <pb xml:id="dduche_1301504" n="[6]"/>
-        <figure><graphic url="ENTITY_dduchead6" rend="inline"/>
+        <figure><graphic url="dduchead6.jpg" rend="inline"/>
           <figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
         </figure>
         <pb xml:id="dduche_1301505" n="[7]"/>
-        <figure><graphic url="ENTITY_dduchead7" rend="inline"/>
+        <figure><graphic url="dduchead7.jpg" rend="inline"/>
           <figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
         </figure>
         <pb xml:id="dduche_1301506" n="[8]"/>
-        <figure><graphic url="ENTITY_dduchead8" rend="inline"/>
+        <figure><graphic url="dduchead8.jpg" rend="inline"/>
           <figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
         </figure>
         <pb xml:id="dduche_1301507" n="[9]"/>
-        <figure><graphic url="ENTITY_dduchead9" rend="inline"/>
+        <figure><graphic url="dduchead9.jpg" rend="inline"/>
           <figDesc> Advert included in back of Duchess's "The Duchess"</figDesc>
         </figure>
       </div>
-      <div xml:id="dduche_backcover" type="Back Cover">
-        <figure><graphic url="ENTITY_dduchebc" rend="inline"/>
+      <div xml:id="dduche_backcover" type="back_cover">
+        <figure><graphic url="dduchebc.jpg" rend="inline"/>
           <figDesc>Back cover of Duchess's "The Duchess"</figDesc>
         </figure>
       </div>

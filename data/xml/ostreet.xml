@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ostreet_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ostreet_1207">
   <teiHeader xml:id="ostreet1201"><fileDesc>
       <titleStmt>
         <title>Street Dust, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Street Dust and Other Stories</title>. <pubPlace>London</pubPlace>:
@@ -77,7 +77,7 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="ostreet_1205">
     <front xml:id="ostreet_1202">
       <div xml:id="ostreet_000" type="covers">
-        <figure><graphic url="ENTITY_ostreetfc" rend="inline"/>
+        <figure><graphic url="ostreetfc.jpg" rend="inline"/>
           <figDesc>Front cover of Ouida's Street Dust.</figDesc>
         </figure>
       </div>
@@ -106,13 +106,13 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="ostreet_1309"/>
       <div xml:id="ostreet_001" type="copyright">
-        <figure><graphic url="ENTITY_ostreetcr" rend="inline"/>
+        <figure><graphic url="ostreetcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Ouida's Street Dust.</figDesc>
         </figure>
       </div>
       <pb xml:id="ostreet_13010"/>
-      <div xml:id="ostreet_002" type="table of contents">
-        <figure><graphic url="ENTITY_ostreettc" rend="inline"/>
+      <div xml:id="ostreet_002" type="table_of_contents">
+        <figure><graphic url="ostreettc.jpg" rend="inline"/>
           <figDesc>Table of contents for Ouida's Street Dust.</figDesc>
         </figure>
       </div>

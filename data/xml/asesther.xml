@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="asesther_0000">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="asesther_0000">
   <teiHeader xml:id="asesther0001"><fileDesc>
       <titleStmt>
         <title>Esther, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Esther: A Story of the
@@ -87,11 +87,11 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="asesther_0002">
     <front xml:id="asesther_0003">
       <div xml:id="asesther_000" type="covers">
-        <figure><graphic url="ENTITY_asestherfc" rend="inline"/>
+        <figure><graphic url="asestherfc.jpg" rend="inline"/>
           <figDesc>Front cover of Stephen's <title rend="italic">Esther</title>.</figDesc>
         </figure>
         <pb xml:id="asesther_1305"/>
-        <figure><graphic url="ENTITY_asestherbc" rend="inline"/>
+        <figure><graphic url="asestherbc.jpg" rend="inline"/>
           <figDesc>Back cover of Stephen's <title rend="italic">Esther</title>.</figDesc>
         </figure>
       </div>

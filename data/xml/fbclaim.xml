@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fbclaim_1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fbclaim_1205">
   <teiHeader xml:id="fbclaim1201"><fileDesc>
       <titleStmt>
         <title>In Connection with the De Willoughby Claim, an electronic
@@ -16,7 +16,7 @@ edition</title>
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>In Connection
@@ -80,7 +80,7 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="fbclaim_1204">
     <front xml:id="fbclaim_1202">
       <div xml:id="fbclaim_000" type="covers">
-        <figure><graphic url="ENTITY_fbclaimfc" rend="inline"/>
+        <figure><graphic url="fbclaimfc.jpg" rend="inline"/>
           <figDesc>Front cover of Burnett's <hi rend="italic">In Connection
 with the De Willoughby Claim</hi>.</figDesc>
         </figure>
@@ -107,7 +107,7 @@ Claim</titlePart>
       </titlePage>
       <pb xml:id="fbclaim_1309"/>
       <div xml:id="fbclaim_001" type="copyright">
-        <figure><graphic url="ENTITY_fbclaimcr" rend="inline"/>
+        <figure><graphic url="fbclaimcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Burnett's <hi rend="italic">In Connection
 with the De Willoughby Claim</hi>.</figDesc>
         </figure>

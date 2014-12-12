@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="maconfe_120157">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="maconfe_120157">
   <teiHeader xml:id="maconfe1201"><fileDesc>
       <titleStmt>
         <title>Confessions of a Wife, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Confessions of a
@@ -85,7 +85,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="maconfe_1306"/>
       <div xml:id="maconfe_000" type="frontispiece">
-        <figure><graphic url="ENTITY_maconfefp" rend="inline"/>
+        <figure><graphic url="maconfefp.jpg" rend="inline"/>
           <p xml:id="maconfe_1307">"THE SECRETARY WAS READING DUTIFULLY."</p>
           <figDesc>Frontispiece for Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc>
         </figure>
@@ -105,13 +105,13 @@ added by the encoder and do not appear in the original text.</p>
       <pb xml:id="maconfe_13010"/>
       <pb xml:id="maconfe_13011"/>
       <div xml:id="maconfe_001" type="copyright">
-        <figure><graphic url="ENTITY_maconfecr" rend="inline"/>
+        <figure><graphic url="maconfecr.jpg" rend="inline"/>
           <figDesc>Copyright information for Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="maconfe_13012"/>
-      <div xml:id="maconfe_002" type="table of contents">
-        <figure><graphic url="ENTITY_maconfelist" rend="inline"/>
+      <div xml:id="maconfe_002" type="table_of_contents">
+        <figure><graphic url="maconfelist.jpg" rend="inline"/>
           <figDesc>List of illustrations for Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc>
         </figure>
       </div>
@@ -143,7 +143,7 @@ cess hid from him. And she believed him to have passed by unwitting, so she stir
             <l>I never know why 't is I love thee so:</l>
             <l>I do not think 't is that thine eyes for me</l>
             <l>Grow bright as sudden sunshine on the sea.</l>
-            <milestone rend="dots" unit="stanza break"/>
+            <milestone rend="dots" unit="stanza_break"/>
             <l>It is thy face I see, and it befell</l>
             <l>Thou wert, and I was, and I love thee well.</l>
           </lg>
@@ -180,7 +180,7 @@ have father know. He might have seen any other page in this book; I 'd have give
 the wilder it was, and the wetter, the happier I felt. And I began to sing, for nobody could hear me, it raved so out there among the trees. I sang opera and ballads and queer things--all the love-songs I ever knew, and that one I like about the skipper's daughter and the mate:</p>
         <q>
           <l>"...a man might sail to Hell in your companie."</l>
-          <milestone rend="dots" unit="stanza break"/>
+          <milestone rend="dots" unit="stanza_break"/>
           <l>"Why not to Heaven?" quo' she.</l>
         </q>
         <p xml:id="maconfe_13047">And pop! in the middle of them, something dashed at me, and it was Job. I thought he was shut up in the kitchen, for his feet were wet, and he had a sore throat, and I 'd given him some hot whisky; and I scolded him. But I must say I appreciated it to have him take all that trouble to find me--there's no flatterer in this world like your own dog. So I picked him up, and put him under my waterproof in one of the dry spots.</p>
@@ -243,7 +243,7 @@ box borders, and the rain had stopped. And Mr. Herwin did not talk at all while 
 But never gets quite through, comes to a pause, falls short of heaven, and spoils the sense.</p>
         <p xml:id="maconfe_13099">Father is still asleep in the library. Maggie has come and gone for the night. The house is preposterously still. Mr. Herwin did not come in again. I didn't know but he would.</p>
         <q>
-          <text xml:id="maconfe_1204">
+          <q><floatingText xml:id="maconfe_1204">
             <body xml:id="maconfe_1203">
               <opener>
                 <salute>"MY DEAR MR. HERWIN:</salute>
@@ -260,10 +260,10 @@ cannot be what you ask.</p>
                 <signed>"MARNA TRENT."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_1206">
+          <q><floatingText xml:id="maconfe_1206">
             <body xml:id="maconfe_1205">
               <opener>
                 <salute>"DEAR MR. HERWIN:</salute>
@@ -282,7 +282,7 @@ point on which men and women differ. I am, sir,</p>
                 <signed>"M. TRENT."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130104">There are people so constituted that they must express themselves at any proper or improper
 <pb xml:id="maconfe_130103" n="23 CONFESSIONS OF A WIFE"/>
@@ -300,7 +300,7 @@ execration; it is a manner quite peculiar to Mr. Herwin. I don't pretend to know
 <pb xml:id="maconfe_130112" n="26 CONFESSIONS OF A WIFE"/>
 accounts for it. I have been told that Mrs. Herwin was a Southern beauty, the extravagant kind, and that she led her husband a life. I never saw her, but I 'm sure the secretary resembles his mother. He looks remarkably handsome when he is insolent.</p>
         <q>
-          <text xml:id="maconfe_1208">
+          <q><floatingText xml:id="maconfe_1208">
             <body xml:id="maconfe_1207">
               <div xml:id="maconfe_100" type="letter">
                 <opener>
@@ -319,10 +319,10 @@ accounts for it. I have been told that Mrs. Herwin was a Southern beauty, the ex
 love. It seems to me that a man ought to be satisfied with what he can get, and not make such large demands that nobody can possibly meet them. If I were a man, and loved a woman as much as all that, I would--well, I would do quite differently."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12010">
+          <q><floatingText xml:id="maconfe_12010">
             <body xml:id="maconfe_1209">
               <opener>
                 <salute>"DEAR MR. HERWIN:</salute>
@@ -333,10 +333,10 @@ love. It seems to me that a man ought to be satisfied with what he can get, and 
                 <signed>"M. T."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12012">
+          <q><floatingText xml:id="maconfe_12012">
             <body xml:id="maconfe_12011">
               <opener>
                 <salute>"MY DEAR SIR:</salute>
@@ -346,10 +346,10 @@ love. It seems to me that a man ought to be satisfied with what he can get, and 
                 <signed>M. TRENT."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12014">
+          <q><floatingText xml:id="maconfe_12014">
             <body xml:id="maconfe_12013">
               <opener>
                 <salute>"MY DEAR MR. HERWIN:</salute>
@@ -361,10 +361,10 @@ you. It is that I do not wish to love any man--not <hi rend="italic">any</hi> ma
                 <signed>"MARNA TRENT."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12016">
+          <q><floatingText xml:id="maconfe_12016">
             <body xml:id="maconfe_12015">
               <div xml:id="maconfe_102" type="letter">
                 <opener>
@@ -418,10 +418,10 @@ such a fellow?</p>
                 <p xml:id="maconfe_130127">"P.S. I forgot to say yes, thank you; I will drive with you on Sunday, if you wish."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12018">
+          <q><floatingText xml:id="maconfe_12018">
             <body xml:id="maconfe_12017">
               <p xml:id="maconfe_130129">"OH, now you have spoiled it all! How could you, how <hi rend="italic">could</hi> you begin all over again, and be disagreeable? Do you suppose I would have walked in the garden with you, by moonlight, by <hi rend="italic">June</hi> moonlight, if I hadn't trusted you? I don't trust people over again when they shake my trust, either, not if I can help it. That is one of my peculiarities. I have attacks of lunacy,--idiocy, if you will,--but I swing back, and come to my senses, and look at things with a kind of composure which I don't wonder that you did not count on. I don't think it is characteristic of girls, as girls go, and I know that it is not considered admirable or lovable by men. But I cannot help that, and I don't want to help
 <pb xml:id="maconfe_130128" n="31 CONFESSIONS OF A WIFE"/>
@@ -442,7 +442,7 @@ is quite elemental beside it.</p>
                 <signed>"M. T."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130131" rend="right">
           <date>
@@ -631,7 +631,7 @@ drown myself in seaweed and shells, because I am afraid to wade in and dare the 
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="maconfe_130253">WHY do you have to write your soul, I wonder? Other people don't. They talk it, or they keep it to themselves and don't express it at all. Sometimes I suspect that is the best thing to do with souls--lock them up. But I haven't got that kind. Mine is a jack-in-the-box, and is always pushing the lid and jumping up. Well, if you've got to write, stop writing to yourself, and write to him, then. Sit down here, in your pretty lace gown, alone in your own room, at two o'clock in the morning, and tell this man whose wife you have promised to be how you feel about him now, at the very beginning of everything. I don't believe you could do a better thing. Come to think of it, he might rather like it, on the whole.</p>
         <q>
-          <text xml:id="maconfe_12020">
+          <q><floatingText xml:id="maconfe_12020">
             <body xml:id="maconfe_12019">
               <opener>
                 <salute>"MY DEAR MR. HERWIN:</salute>
@@ -646,10 +646,10 @@ stands, and try again.</p>
                 <signed>"MARNA TRENT."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12022">
+          <q><floatingText xml:id="maconfe_12022">
             <body xml:id="maconfe_12021">
               <opener>
                 <salute>"MY DEAR FRIEND:</salute>
@@ -660,10 +660,10 @@ stands, and try again.</p>
                 <signed>"MARNA TRENT."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12024">
+          <q><floatingText xml:id="maconfe_12024">
             <body xml:id="maconfe_12023">
               <opener>
                 <salute>"DEAR,</salute>
@@ -687,13 +687,13 @@ succeeded.</p>
                 <signed>M. T."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="line" unit="section"/>
         <p xml:id="maconfe_130262">The light fell, and the dusk rose, and they twain, the escaped and the pursuing, the fleeing and the seeking, were alone on that part of the river. For it is not a frequented part of the river. And the princess hid from him.</p>
         <milestone rend="line" unit="section"/>
         <q>
-          <text xml:id="maconfe_12026">
+          <q><floatingText xml:id="maconfe_12026">
             <body xml:id="maconfe_12025">
               <p xml:id="maconfe_130264">"I AM sorry if it doesn't please you that I send notes without beginnings. I've tried a good many different ones, but they do not suit me. Perhaps it is because I don't quite see ends. How solemn a thing is a beginning without an end! A love that is never to have an end seems to me more sacred to think of than a life that is to have no end; because you can live
 <pb xml:id="maconfe_130263" n="54 CONFESSIONS OF A WIFE"/>
@@ -725,14 +725,14 @@ that I could not vulgarize my love for you--whether it be little, or much, or le
                 <signed>"MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
           <p xml:id="maconfe_130270">"I THINK, on the whole, if I'd <hi rend="italic">got</hi> to wear any, I'd like it to be a ruby; a small ruby, deep at the heart, and fed by an aorta of blazing color that you must take a little on trust, but get glimpses of once in a while, if you know how to treat the ruby and handle it just right. Of course it must be a carmine ruby--not one of those magenta things. I am not at all prepared for any kind of rubies yet. Really, you must not bother me and hurry me so. It makes me a little fretful. I shall run off into my forest if I am hurried, and then <hi rend="italic">no</hi> man can find me--not even you, sir.</p>
           <p xml:id="maconfe_130271">"This evening you annoyed me. I think once when you come, and once when you go, is enough. I do, indeed."</p>
         </q>
         <q>
-          <text xml:id="maconfe_12028">
+          <q><floatingText xml:id="maconfe_12028">
             <body xml:id="maconfe_12027">
               <div xml:id="maconfe_108" type="letter">
                 <opener>
@@ -753,10 +753,10 @@ If you will like it, if it will make you happy, I will wear your ring. You may p
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12030">
+          <q><floatingText xml:id="maconfe_12030">
             <body xml:id="maconfe_12029">
               <opener>
                 <salute>MOTHER?</salute>
@@ -786,13 +786,13 @@ face.</p>
 My mother's face! Lean down to mine a little, out of heaven, if you can.</p>
               <p xml:id="maconfe_130279">Kiss me, Mother--if they will let you. I have told him I would wear his ruby ring."</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="line" unit="section"/>
         <p xml:id="maconfe_130280">So the princess, for she was royal, gainsaid him not.</p>
         <milestone rend="line" unit="section"/>
         <q>
-          <text xml:id="maconfe_12032">
+          <q><floatingText xml:id="maconfe_12032">
             <body xml:id="maconfe_12031">
               <div xml:id="maconfe_110" type="letter">
                 <opener>
@@ -816,7 +816,7 @@ My mother's face! Lean down to mine a little, out of heaven, if you can.</p>
                 <p xml:id="maconfe_130288">"P.P.S. It is a wonderful ruby. I admire your taste in selecting it, even if I cannot wear your ring. I don't think I ever saw a finer. It has a heart as deep as life and as shy as love; and the color is something so exquisite that I could look at it all night."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130289" rend="right">
           <date>
@@ -824,7 +824,7 @@ My mother's face! Lean down to mine a little, out of heaven, if you can.</p>
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_12034">
+          <q><floatingText xml:id="maconfe_12034">
             <body xml:id="maconfe_12033">
               <div xml:id="maconfe_113" type="letter">
                 <opener>
@@ -851,11 +851,11 @@ steps back and waits for yours. I should like you to write me on and on like tha
                 <p xml:id="maconfe_130297">"P.P.S. Job is too jealous for anything. He positively sulks when I mention you by name. I don't suppose you noticed how he growled when you kissed my chin that evening. I am glad you don't do it lately, for I think he might snap at you and hurt you. He doesn't look formidable, I own, but that is the very kind that does the most harm--in men and dogs."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="maconfe_130298" n="63 CONFESSIONS OF A WIFE"/>
         <q>
-          <text xml:id="maconfe_12036">
+          <q><floatingText xml:id="maconfe_12036">
             <body xml:id="maconfe_12035">
               <div xml:id="maconfe_116" type="letter">
                 <p xml:id="maconfe_130299">"Thou dearest! It was Eden in the tree-house. And I wear thy ruby ring.</p>
@@ -876,10 +876,10 @@ I was afraid I should cry--truly I was--all the time.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12038">
+          <q><floatingText xml:id="maconfe_12038">
             <body xml:id="maconfe_12037">
               <opener>
                 <salute>"MY DEAR JAILER:</salute>
@@ -912,10 +912,10 @@ and you carried me into the house, and I saw how noble you were, and strong, and
                 <signed>"MARNA, Betrothed."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12040">
+          <q><floatingText xml:id="maconfe_12040">
             <body xml:id="maconfe_12039">
               <opener>
                 <dateline rend="italic"><name type="place">"Bar Harbor,</name> <date>July the twenty-fifth.</date></dateline>
@@ -938,10 +938,10 @@ If Love <hi rend="italic">is</hi> a wine, it is a communion wine,--to me,--and I
                 <signed>"YOUR MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12042">
+          <q><floatingText xml:id="maconfe_12042">
             <body xml:id="maconfe_12041">
               <p xml:id="maconfe_130330">"THOU strongest! What a ruby is thy love for me! My letters seem paler than tourmalins beside yours. And yet--and yet I am not sure: I think they love you more than they show; but not more than I hoped you would see without the showing. Try to see! Try to understand</p>
               <closer>
@@ -949,10 +949,10 @@ If Love <hi rend="italic">is</hi> a wine, it is a communion wine,--to me,--and I
                 <signed>"WILDERNESS GIRL IN CHAINS."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12044">
+          <q><floatingText xml:id="maconfe_12044">
             <body xml:id="maconfe_12043">
               <opener>
                 <salute>"MY DEAR BOY:</salute>
@@ -967,10 +967,10 @@ Who knows? I think it is preposterous, the way I continue to miss you.</p>
                 <salute>"LONELINESS."</salute>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12046">
+          <q><floatingText xml:id="maconfe_12046">
             <body xml:id="maconfe_12045">
               <div xml:id="maconfe_120" type="letter">
                 <opener>
@@ -998,7 +998,7 @@ And Mr. Gray thought it was the cat who carried the rat into the waste-paper bas
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130344" rend="right">
           <date>
@@ -1034,7 +1034,7 @@ I wonder if misery is like this, too--a great ebb; the going out slowly of joy, 
 stretch down my hands and lift you up and drop before you. You called me all the goddess names. And I, an adoring girl, accepted them.</p>
         <p xml:id="maconfe_130362">Now Nature avenges herself upon me, here, alone, with this mute white paper, in the sacred: night; and I write, for you do not know it, and <hi rend="italic">because you shall never know it</hi>--I write you a note which you are never to see.</p>
         <q>
-          <text xml:id="maconfe_12048">
+          <q><floatingText xml:id="maconfe_12048">
             <body xml:id="maconfe_12047">
               <p xml:id="maconfe_130363">
                 <hi rend="italic">"My Love: I am yours utterly.</hi>
@@ -1043,10 +1043,10 @@ stretch down my hands and lift you up and drop before you. You called me all the
                 <signed>"Marna."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12050">
+          <q><floatingText xml:id="maconfe_12050">
             <body xml:id="maconfe_12049">
               <opener>
                 <salute>"MY DEAR DANA:</salute>
@@ -1057,7 +1057,7 @@ stretch down my hands and lift you up and drop before you. You called me all the
                 <signed>"MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="maconfe_130365" n="81 CONFESSIONS OF A WIFE"/>
         <p xml:id="maconfe_130366">It is a week since he came to the Wave. (That is what we have agreed to call this house,) I used to think I knew what it was to be happy. Now I see that I had not studied the grammar of joy. Dana says:</p>
@@ -1112,7 +1112,7 @@ before the mist of years. What does it hold for or withhold from me? Dana and I 
         <p xml:id="maconfe_130388">And Mr. Herwin did not say a word about marrying in October. I think he has forgotten all about it. I am quite happy.</p>
         <pb xml:id="maconfe_130389" n="86 CONFESSIONS OF A WIFE"/>
         <q>
-          <text xml:id="maconfe_12052">
+          <q><floatingText xml:id="maconfe_12052">
             <body xml:id="maconfe_12051">
               <opener>
                 <salute>"MY DEAR DANA:</salute>
@@ -1123,7 +1123,7 @@ before the mist of years. What does it hold for or withhold from me? Dana and I 
                 <signed>"WILDERNESS GIRL."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130391">"OH, I love you--yes. I have said it. I cannot unsay it. I cannot unlove, and that is the pitiful part of it. But I do not wish to be your wife in October. You would carry no willing captive to your wedding-day."</p>
         <milestone rend="blank-line" unit="section"/>
@@ -1133,17 +1133,17 @@ before the mist of years. What does it hold for or withhold from me? Dana and I 
         <p xml:id="maconfe_130394">"HAVE it your own way, then, if you must. Now you have got Father on your side I am perfectly discouraged. I am worn out with this conflict. I don't care whether I marry you this year or next, or in October, or in April, or now, or never. I am tired out. I am tired of the whole subject. I wish you to understand that I yield out of sheer exhaustion.</p>
         <p xml:id="maconfe_130395">"Take me up, fling me over your shoulder, carry me away to your own tribe, then, if you insist upon it--and start all the elements of my nature that are incomprehensible to you into war."</p>
         <q>
-          <text xml:id="maconfe_12054">
+          <q><floatingText xml:id="maconfe_12054">
             <body xml:id="maconfe_12053">
               <opener>
                 <salute>"MY DEAR DANA:</salute>
               </opener>
               <p xml:id="maconfe_130396"> Oh, I don't care what you give me. Why should you give me anything at all? That seems to me a foolish custom. I will not be a bride fettered with pearls and diamonds, and flaunting her chains before gods and men. I will have nothing from you but my wedding-ring. I suppose I can't decently refuse that. I think I have told you before--I don't care when. If it has got to be at all, one time is good as another."</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12056">
+          <q><floatingText xml:id="maconfe_12056">
             <body xml:id="maconfe_12055">
               <p xml:id="maconfe_130398">"YES, oh, yes; I don't care. The last week of September is no worse than the first week of October, that I can see. You and Father must
 <pb xml:id="maconfe_130397" n="88 CONFESSIONS OF A WIFE"/>
@@ -1157,10 +1157,10 @@ dumb, and thou didst it.</p>
                 <signed>MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12058">
+          <q><floatingText xml:id="maconfe_12058">
             <body xml:id="maconfe_12057">
               <div xml:id="maconfe_522" type="letter">
                 <opener>
@@ -1186,7 +1186,7 @@ after the twentieth.</p>
                 <p xml:id="maconfe_130404">"P.S. Oh, forgive me! I do not mean to be cruel. I do not <hi rend="italic">feel</hi> cruel. It seems to me as if <hi rend="italic">you</hi> were the cruel one of us two. It would have been so easy to go on as we were, betrothed and blessed. We could have lived so for a long, long time, and been quite happy. I cannot see why you were not contented. I was. Paradise 'was paradise enow' for me."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130405" rend="right">
           <date>
@@ -1196,7 +1196,7 @@ after the twentieth.</p>
         <p xml:id="maconfe_130406">I HAVE not seen Dana for a week. I suppose it was rather uncivil of me, but I wrote him not to come. I find it impossible to entertain him in these days. He seems to me like company. Father and Job and I are happier by ourselves. I must admit it is celestial weather. The ocean blinds me and the breakers deafen me. There always is something about September sunshine, but <hi rend="italic">this</hi> September sunshine has the divine nature. It is working an awful miracle. I dare not think of it! Yet, in truth, I think of nothing else.</p>
         <pb xml:id="maconfe_130407" n="90 CONFESSIONS OF A WIFE"/>
         <q>
-          <text xml:id="maconfe_12060">
+          <q><floatingText xml:id="maconfe_12060">
             <body xml:id="maconfe_12059">
               <opener>
                 <dateline>
@@ -1212,10 +1212,10 @@ after the twentieth.</p>
                 <signed> MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12062">
+          <q><floatingText xml:id="maconfe_12062">
             <body xml:id="maconfe_12061">
               <opener>
                 <dateline>
@@ -1233,10 +1233,10 @@ Truth is the king of kings, and outranks your throne or mine, or that on which w
 <pb xml:id="maconfe_130412" n="92 CONFESSIONS OF A WIFE"/>
 I give you pain. I tell you, Dana Herwin--oh, but I cannot tell, I cannot tell you! You would not understand."</p>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12064">
+          <q><floatingText xml:id="maconfe_12064">
             <body xml:id="maconfe_12063">
               <opener>
                 <dateline>
@@ -1255,10 +1255,10 @@ him in two days and three nights more. And I am</p>
                 <signed>"DAUGHTER."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12066">
+          <q><floatingText xml:id="maconfe_12066">
             <body xml:id="maconfe_12065">
               <opener>
                 <dateline>
@@ -1274,10 +1274,10 @@ him in two days and three nights more. And I am</p>
                 <signed>"MARNA TRENT."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12068">
+          <q><floatingText xml:id="maconfe_12068">
             <body xml:id="maconfe_12067">
               <opener>
                 <dateline>
@@ -1295,13 +1295,13 @@ him in two days and three nights more. And I am</p>
                 <signed>"YOUR WIFE."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130421" rend="right">
           <hi rend="italic">The Second Note.</hi>
         </p>
         <q>
-          <text xml:id="maconfe_12070">
+          <q><floatingText xml:id="maconfe_12070">
             <body xml:id="maconfe_12069">
               <opener>
                 <salute>"DARLING:</salute>
@@ -1322,13 +1322,13 @@ forever. And I am</p>
                 <signed>"MARNA, your Wife."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130428" rend="right">
           <hi rend="italic">The Third Note.</hi>
         </p>
         <q>
-          <text xml:id="maconfe_12072">
+          <q><floatingText xml:id="maconfe_12072">
             <body xml:id="maconfe_12071">
               <p xml:id="maconfe_130429">"OH, teach me how to make you happy! I have everything to learn, I know. But believe me that I care for nothing else--for nothing in this world except your happiness. I will be the most docile and the gladdest scholar that man ever had.</p>
               <p xml:id="maconfe_130430">"See, I have almost written this first separation away. I will confess: if I had not written, I should have cried. Oh, you will be home in half an hour!</p>
@@ -1337,7 +1337,7 @@ forever. And I am</p>
                 <signed>"MARNA, Wife."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb xml:id="maconfe_130432" n="[97]"/>
@@ -1407,7 +1407,7 @@ slippers, and fix his candle and all his little things the way he likes, he will
         <p xml:id="maconfe_130474">Oh, there! After all! He is striding up the avenue. How he swings along! As if he had the world beneath his ringing feet.</p>
         <p xml:id="maconfe_130475">I will not run down. I will make believe that I am asleep, or not pleased that he was out so late. And when he gets to the top of the stairs, and as far as the door--</p>
         <q>
-          <text xml:id="maconfe_12074">
+          <q><floatingText xml:id="maconfe_12074">
             <body xml:id="maconfe_12073">
               <div xml:id="maconfe_126" type="letter">
                 <opener>
@@ -1424,7 +1424,7 @@ the Grays' in the storm, and I wore the lace dress because you like it; but it w
               </div>
               <div xml:id="maconfe_127" type="postscript">
                 <p xml:id="maconfe_130483">"P.S. I have been all over them--the brown ones, and the green, and the gray, and the speckly kinds that are so hard to find the holes in; I
-<pb xml:id="maconfe_130480"/><figure><graphic url="ENTITY_maconfeill106" rend="inline"/><p xml:id="maconfe_130481">"I WAS HALF STARTLED AT THE FIGURE I SAW THERE."</p><figDesc>Illustration included in Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc></figure><pb xml:id="maconfe_130482" n="107 CONFESSIONS OF A WIFE"/>
+<pb xml:id="maconfe_130480"/><figure><graphic url="maconfeill106.jpg" rend="inline"/><p xml:id="maconfe_130481">"I WAS HALF STARTLED AT THE FIGURE I SAW THERE."</p><figDesc>Illustration included in Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc></figure><pb xml:id="maconfe_130482" n="107 CONFESSIONS OF A WIFE"/>
 have worked over the whole pile for a long while, to be sure there are
 none of those tiny places the barbed-wire fence bites between the
 pattern. I hope you will not find me so careless and stupid again. I
@@ -1460,7 +1460,7 @@ write to-night to you.</p>
 stands guard over my nature and says, 'Do not let him know,' I thought that perhaps it would be worth while. You might, I can understand, you might hurt me, not knowing. Knowing that you did, I 'll swear you never would, because you never could."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="maconfe_130489" rend="right">
@@ -1567,7 +1567,7 @@ like the angel Joy, strong and beautiful. It is as I said those first few weeks 
 self was sharpened, and all my feeling and expression refined. There is no inspiration like that which comes of being beloved. I think, if I had been born a writer or a poet, I could have written a great book or song in my bridal weeks.</p>
         <p xml:id="maconfe_130537">Dana has been so busy lately that I have not written him many love-notes. It is quite a while since I left one upon his pillow. I put this blank white paper to my lips, and I breathe words upon it, and love them into meaning.</p>
         <q>
-          <text xml:id="maconfe_12076">
+          <q><floatingText xml:id="maconfe_12076">
             <body xml:id="maconfe_12075">
               <opener>
                 <salute>"DARLING:</salute>
@@ -1593,7 +1593,7 @@ united, to deviate, nature from nature, sex from sex. Already, thou dear lord of
                 <signed>"YOUR WIFE."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130551" rend="right">
           <date>
@@ -1684,7 +1684,7 @@ pearl. Dana asked me to come out into the tree-house with him. "Subpœna Job for
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_12078">
+          <q><floatingText xml:id="maconfe_12078">
             <body xml:id="maconfe_12077">
               <opener>
                 <salute>"DANA MY DEAR:</salute>
@@ -1701,7 +1701,7 @@ were so happy there! I can't help feeling as if the old joy were shut up in that
                 <signed>"WIFE."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="maconfe_130600" rend="right">
@@ -1734,7 +1734,7 @@ I could scarcely believe that he was not there.</p>
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_12080">
+          <q><floatingText xml:id="maconfe_12080">
             <body xml:id="maconfe_12079">
               <opener>
                 <salute>"MY DEAR HEART:</salute>
@@ -1747,10 +1747,10 @@ write and telegraph as faithfully and lovingly as you have done. I depend on tha
                 <signed>"MARNA, your Wife."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12082">
+          <q><floatingText xml:id="maconfe_12082">
             <body xml:id="maconfe_12081">
               <head>TELEGRAM</head>
               <opener>
@@ -1767,11 +1767,11 @@ write and telegraph as faithfully and lovingly as you have done. I depend on tha
                 <signed>"FRANCIS TRENT.</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="maconfe_130612" n="138 CONFESSIONS OF A WIFE"/>
         <q>
-          <text xml:id="maconfe_12084">
+          <q><floatingText xml:id="maconfe_12084">
             <body xml:id="maconfe_12083">
               <head>TELEGRAM</head>
               <opener>
@@ -1785,7 +1785,7 @@ write and telegraph as faithfully and lovingly as you have done. I depend on tha
                 <signed>"MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="maconfe_130615" rend="right">
@@ -1794,7 +1794,7 @@ write and telegraph as faithfully and lovingly as you have done. I depend on tha
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_12086">
+          <q><floatingText xml:id="maconfe_12086">
             <body xml:id="maconfe_12085">
               <opener>
                 <salute>"DEAR FATHER OF MY DAUGHTER:</salute>
@@ -1809,7 +1809,7 @@ thing in earth or heaven but you--not of the baby at all, only you, <hi rend="it
                 <signed>"THE MOTHER OF YOUR CHILD."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="maconfe_130621" rend="right">
@@ -1883,7 +1883,7 @@ wind, have mercy, Almighty, have mercy!</p></q><pb xml:id="maconfe_130647" n="14
 <q><p xml:id="maconfe_130650">It is well that passionate love is rare. Its principal effect is to detach men from all their surroundings, to isolate them, ...and a civilized society composed of lovers would return infallibly to misery and barbarism.</p></q>
 I think a woman should be quite happy in order to keep up with current thought. Current feeling is as much as I can manage.</p>
         <q>
-          <text xml:id="maconfe_12088">
+          <q><floatingText xml:id="maconfe_12088">
             <body xml:id="maconfe_12087">
               <head>TELEPHONE MESSAGE</head>
               <opener>
@@ -1902,15 +1902,15 @@ calls it croup. When will you be out?</p>
                 <signed> MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12090">
+          <q><floatingText xml:id="maconfe_12090">
             <body xml:id="maconfe_12089"><head>TELEGRAM</head><opener><dateline><date><hi rend="italic">"New York, November 30.</hi></date></dateline><salute><hi rend="italic">"To Mrs. Dana Herwin.</hi></salute></opener><p xml:id="maconfe_130655">"Called suddenly to New York on business. Did not return to office. Hope child is better. Address Astor House.</p> <closer><signed>DANA."</signed></closer></body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12092">
+          <q><floatingText xml:id="maconfe_12092">
             <body xml:id="maconfe_12091">
               <head>TELEPHONE MESSAGE</head>
               <p xml:id="maconfe_130656">
@@ -1923,22 +1923,22 @@ me, and I showed him the door.</p>
                 <signed> "PETER."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_12094">
+          <q><floatingText xml:id="maconfe_12094">
             <body xml:id="maconfe_12093"><head>TELEGRAM</head><opener><dateline rend="italic">"<name type="place">Astor House, New York</name>, <date>December 1</date>.</dateline><salute><hi rend="italic">"To Mrs. Dana Herwin.</hi></salute></opener><p xml:id="maconfe_130658">"Yours received too late for midnight express. Will return
 Limited. Hazelton all right. He'll bring her through. Cheer up. Will
 catch the 3:12. If baby better, telephone station. In that case, take
 later train.</p> <closer><signed>  DANA."</signed></closer></body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="maconfe_130659" n="147 CONFESSIONS OF A WIFE"/>
         <q>
-          <text xml:id="maconfe_12096">
+          <q><floatingText xml:id="maconfe_12096">
             <body xml:id="maconfe_12095"><head>TELEPHONE MESSAGE</head><opener><dateline><date><hi rend="italic">"December the first.</hi></date></dateline><salute><hi rend="italic">To Mr. Dana Herwin,</hi></salute></opener><p xml:id="maconfe_130660"><hi rend="italic">"Care of Chief Operator, West Station.</hi></p><p xml:id="maconfe_130661">"Marion is out of danger. Do as you please about hurrying home. She
 is still sick, but safe.</p> <closer><signed> "MARNA."</signed></closer></body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130662" rend="right">
           <date>
@@ -1964,7 +1964,7 @@ pened to meet. I always liked his voice. I don't think he looked as short as he 
         <p xml:id="maconfe_130676">I wonder if I ought not to write to Robert and thank him properly?</p>
         <pb xml:id="maconfe_130677" n="151 CONFESSIONS OF A WIFE"/>
         <q>
-          <text xml:id="maconfe_12098">
+          <q><floatingText xml:id="maconfe_12098">
             <body xml:id="maconfe_12097">
               <opener>
                 <salute>"DEAR DR. HAZELTON:</salute>
@@ -1975,7 +1975,7 @@ pened to meet. I always liked his voice. I don't think he looked as short as he 
                 <signed>"MARNA HERWIN."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130679" rend="right">
           <date>
@@ -1999,7 +1999,7 @@ fixed sense of moral superiority has a tendency to become tiresome. A fellow res
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_120100">
+          <q><floatingText xml:id="maconfe_120100">
             <body xml:id="maconfe_12099">
               <opener>
                 <salute>"MY DEAR DANA:</salute>
@@ -2013,7 +2013,7 @@ you realize, my dear, how hard it is becoming for us to talk? I so often displea
                 <signed>"MARNA, Wife."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130692" rend="right">
           <date>
@@ -2021,7 +2021,7 @@ you realize, my dear, how hard it is becoming for us to talk? I so often displea
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_120102">
+          <q><floatingText xml:id="maconfe_120102">
             <body xml:id="maconfe_120101">
               <opener>
                 <salute>"DEAR DANA:</salute>
@@ -2031,7 +2031,7 @@ you realize, my dear, how hard it is becoming for us to talk? I so often displea
                 <signed>"MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130694" rend="right">
           <date>
@@ -2094,7 +2094,7 @@ he came in laughing, and splendid, with Marion's first Christmas tree across his
         <p xml:id="maconfe_130725">"You beauty!" I cried. " You look like the Santa Claus ideal. I've always thought it a mistake to make an old man of him. You are young, immortal fatherhood. Kiss her, Dana!"</p>
         <p xml:id="maconfe_130726">I held the baby up, and he kissed her rapturously; then he put her down and took me. No, it was not rapturous--no. And yet I think it was love. I tried not to think, not to reason about it. I have learned that it is not wise for a woman to philosophize about love, and that it is dangerous for a wife to do so.</p>
         <p xml:id="maconfe_130730">Job began to whine when my husband kissed me, as he has always done from the very first; he never gets used to it, and lately he has had something of a respite from this source of melancholy. There is that in the dog's constancy which touches me, I must say. He has become accustomed to the baby, though he still cherishes a smoldering jealousy of her. But his feeling
-<pb xml:id="maconfe_130727"/><figure><graphic url="ENTITY_maconfeill160" rend="inline"/><p xml:id="maconfe_130728">"WITH MARION'S FIRST CHRISTMAS TREE ACROSS HIS SHOULDER."</p><figDesc>Illustration included in Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc></figure><pb xml:id="maconfe_130729" n="161 CONFESSIONS OF A WIFE"/>
+<pb xml:id="maconfe_130727"/><figure><graphic url="maconfeill160.jpg" rend="inline"/><p xml:id="maconfe_130728">"WITH MARION'S FIRST CHRISTMAS TREE ACROSS HIS SHOULDER."</p><figDesc>Illustration included in Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc></figure><pb xml:id="maconfe_130729" n="161 CONFESSIONS OF A WIFE"/>
 about Dana is something finer than jealousy. In fact, Job never accepted the man for the master; why, then, he reasons, should I?</p>
         <p xml:id="maconfe_130731">Dana and I covered the Landseer dogs to-night (they had grown too shabby) with a dado or frieze of Greek figures. I cut up an old book of Parthenon plates for it, and Dana helped me paste them on; he did not once object--he was very kind. And he patted the Landseer dogs, and called them David and Dora, and Job growled and snarled at them, and Marion laughed like a brook at Job: she has developed her father's laugh. He has given her a boy doll (of all things) nearly as large as herself, and she is flirting with it like a summer girl with the only man in the hotel. Dana named the doll Dombey.</p>
         <p xml:id="maconfe_130733">We went to Father's after Marion was in bed, for he is too feeble to get over here; and I read to him awhile. Dana asked me if I minded his running over to the Curtises' for some music while I was reading. I said, "Not in the least." I was so pleased at his asking me that I didn't care at all. And when we came home he sat down at his own piano, and tossed his curling head, and sang:
@@ -2141,7 +2141,7 @@ and so very boy; but Dana thinks it an excellent joke. Marion has begun to deman
         <p xml:id="maconfe_130759">VOLTAIRE said that a man could never be in the wrong if he made the first advance toward an offended woman.</p>
         <pb xml:id="maconfe_130760" n="166 CONFESSIONS OF A WIFE"/>
         <q>
-          <text xml:id="maconfe_120104">
+          <q><floatingText xml:id="maconfe_120104">
             <body xml:id="maconfe_120103">
               <head>NOTE SENT BY LUELLA</head>
               <opener>
@@ -2158,7 +2158,7 @@ would you rather--Do whatever you would like best, only love</p>
                 <signed>"WIFE."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130764" rend="right">
           <date>
@@ -2167,7 +2167,7 @@ would you rather--Do whatever you would like best, only love</p>
         </p>
         <p xml:id="maconfe_130765">I HAVE stopped crying,--it waked the baby,--and have lain crushed upon the pillows as long as I can bear it. He sent a note by Luella--the first he has ever written to me in the same house. He did not come up at all. I pin the note upon this page.</p>
         <q>
-          <text xml:id="maconfe_120106">
+          <q><floatingText xml:id="maconfe_120106">
             <body xml:id="maconfe_120105">
               <opener>
                 <salute>"DEAR MARNA:</salute>
@@ -2184,7 +2184,7 @@ sleep.</p>
                 <signed>DANA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130768">A GREAT mood has taken the weather since sunset. The ice has suddenly yielded again (like a woman), and a storm is coming up; it will be a fight between sleet and tears all night. The wind raves about the tree-house, and the banshee in my
 <pb xml:id="maconfe_130767" n="168 CONFESSIONS OF A WIFE"/>
@@ -2202,7 +2202,7 @@ friendships as distinct from ignoble follies, and one of them suggested that sal
         <p xml:id="maconfe_130773">"Friendship needs nourishment as well as love," she said, "and one goes hungry in a week."</p>
         <p xml:id="maconfe_130774">"I should call it--about-five days," replied the other, slowly. Then they both laughed, and changed the subject--to the religious views of the new governor.</p>
         <p xml:id="maconfe_130776">I could not join in the conversation intelligently, and I did not find it amusing. I have never felt the need of friendship. My husband has always been my friend. Now--is he so much as that? He seems to be eluding my real life by a strange and fatal process. I do not know how to account for it, or how to define it. It is as if I stood on the edge of a precipice, and saw him disappearing from my sight, a hundred feet below, drawn down by a quicksand of the true nature of which he is, or chooses to appear, ignorant. The descent is subtle and slow; it is not even dignified by the anguish of conscious death; debonair, and smiling steadily, he sinks by inches. I can even hear him sing, as he succumbs without a struggle:
-<pb xml:id="maconfe_130775" n="170 CONFESSIONS OF A WIFE"/><q><lg type="stanza"><l>I love thee, I love but thee!</l><milestone rend="dots" unit="stanza break"/><l>Till the sun grows cold,</l><l>And the stars are old--</l></lg></q>
+<pb xml:id="maconfe_130775" n="170 CONFESSIONS OF A WIFE"/><q><lg type="stanza"><l>I love thee, I love but thee!</l><milestone rend="dots" unit="stanza_break"/><l>Till the sun grows cold,</l><l>And the stars are old--</l></lg></q>
 If I sprang, and dashed myself down to reach him--what then? He would probably stop singing (he has stopped, this minute, abruptly and unhappily) and observe without a smile:</p>
         <q>
           <p xml:id="maconfe_130777">"A wife should not annoy her husband."</p>
@@ -2222,7 +2222,7 @@ If I sprang, and dashed myself down to reach him--what then? He would probably s
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_120108">
+          <q><floatingText xml:id="maconfe_120108">
             <body xml:id="maconfe_120107">
               <opener>
                 <salute>"MY DEAR DANA:</salute>
@@ -2235,7 +2235,7 @@ to-night. Luella will bring up Marion's supper, and I do not want any. I am sorr
                 <signed>"Your WIFE."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130785" rend="right">
           <date>
@@ -2243,7 +2243,7 @@ to-night. Luella will bring up Marion's supper, and I do not want any. I am sorr
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_120110">
+          <q><floatingText xml:id="maconfe_120110">
             <body xml:id="maconfe_120109">
               <p xml:id="maconfe_130786">"OH, ask me to forgive you! Ask me, Dana! For love's sake and your own sake--not for mine. All my being stretches out its arms to you. I would forget--would love you, trust you, and begin again, if you will <hi rend="italic">try</hi> to be more patient with me, if you will remember to be kind to</p>
               <closer>
@@ -2251,7 +2251,7 @@ to-night. Luella will bring up Marion's supper, and I do not want any. I am sorr
                 <signed>"MISERABLE MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130787" rend="center">
           <date>
@@ -2277,7 +2277,7 @@ many times--as I used to do. He did not know it.<ref target="#maconfen173">1</re
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_120112">
+          <q><floatingText xml:id="maconfe_120112">
             <body xml:id="maconfe_120111">
               <p xml:id="maconfe_130797">"OH, Dana, can't we begin again? Is there no way of blazing our path back through the forest of married life? I tell you, from my soul, if there is not, we are lost. I do not know how it is with you--I do not know how anything is with you in these times on which we have fallen; sometimes I think I understand almost any other friend I have better than I do my husband. But, for me, I perish. All my nature is astray, a homeless, hapless thing.</p>
               <p xml:id="maconfe_130799">"Do not think that I blame you, Dear, or throw our mutual misery too solidly upon your
@@ -2290,7 +2290,7 @@ we left our ideal behind us--and now the feet our real move heavily, and the rac
                 <signed>"MARNA, a Wife."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130802" rend="center">
           <date>
@@ -2298,7 +2298,7 @@ we left our ideal behind us--and now the feet our real move heavily, and the rac
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_120114">
+          <q><floatingText xml:id="maconfe_120114">
             <body xml:id="maconfe_120113">
               <opener>
                 <salute>"MY DEAR HUSBAND:</salute>
@@ -2309,7 +2309,7 @@ we left our ideal behind us--and now the feet our real move heavily, and the rac
                 <signed>"MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130804" rend="center">
           <date>
@@ -2317,7 +2317,7 @@ we left our ideal behind us--and now the feet our real move heavily, and the rac
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_120116">
+          <q><floatingText xml:id="maconfe_120116">
             <body xml:id="maconfe_120115">
               <opener>
                 <salute>"DEAR DANA:</salute>
@@ -2328,7 +2328,7 @@ die, I should not hesitate long.</p>
                 <signed>MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130806" rend="center">
           <date>
@@ -2336,7 +2336,7 @@ die, I should not hesitate long.</p>
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_120118">
+          <q><floatingText xml:id="maconfe_120118">
             <body xml:id="maconfe_120117">
               <opener>
                 <salute>"DANA MY DARLING:</salute>
@@ -2351,11 +2351,11 @@ Does something ail you that you keep from me? I am sorry if I called you cross w
                 <signed>"MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="maconfe_130811" n="177 CONFESSIONS OF A WIFE"/>
         <q>
-          <text xml:id="maconfe_120120">
+          <q><floatingText xml:id="maconfe_120120">
             <body xml:id="maconfe_120119">
               <head>TELEGRAM</head>
               <opener>
@@ -2370,7 +2370,7 @@ understand!</p>
                 <signed>MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130813" rend="right">
           <date>
@@ -2378,7 +2378,7 @@ understand!</p>
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_120122">
+          <q><floatingText xml:id="maconfe_120122">
             <body xml:id="maconfe_120121">
               <opener>
                 <salute>"MY DEAR DANA:</salute>
@@ -2392,7 +2392,7 @@ understand!</p>
                 <signed>"WIFE."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130817" rend="right">
           <date>
@@ -2504,7 +2504,7 @@ called "the governor's eye" when he was in his prime.</p>
         <p xml:id="maconfe_130882">"Don't, Father! don't!"</p>
         <p xml:id="maconfe_130886">I tried to tell him that it was not he who came between me and my
 husband; but I
-<pb xml:id="maconfe_130883"/><figure><graphic url="ENTITY_maconfeill188" rend="inline"/><p xml:id="maconfe_130884">"'MY POOR DAUGHTER!'"</p><figDesc>Illustration included in Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc></figure><pb xml:id="maconfe_130885" n="189 CONFESSIONS OF A WIFE"/>
+<pb xml:id="maconfe_130883"/><figure><graphic url="maconfeill188.jpg" rend="inline"/><p xml:id="maconfe_130884">"'MY POOR DAUGHTER!'"</p><figDesc>Illustration included in Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc></figure><pb xml:id="maconfe_130885" n="189 CONFESSIONS OF A WIFE"/>
 think he understood without the telling, for he did spare me.</p>
         <p xml:id="maconfe_130887">"I am not going to Montevideo," I said. "There is nothing to be done, Father. I have decided. I shall not accompany my husband--not now."</p>
         <milestone rend="blank-line" unit="section"/>
@@ -2560,7 +2560,7 @@ upon me, because I alone did not weep, but criticized the woman on the stage.</p
         <p xml:id="maconfe_130919">What could he do. I am broken on this wheel.</p>
         <pb xml:id="maconfe_130920" n="196 CONFESSIONS OF A WIFE"/>
         <q>
-          <text xml:id="maconfe_120124">
+          <q><floatingText xml:id="maconfe_120124">
             <body xml:id="maconfe_120123">
               <head>SENT</head>
               <opener>
@@ -2573,10 +2573,10 @@ upon me, because I alone did not weep, but criticized the woman on the stage.</p
                 <signed>"MARNA, your Wife."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_120126">
+          <q><floatingText xml:id="maconfe_120126">
             <body xml:id="maconfe_120125">
               <head>UNSENT</head>
               <opener>
@@ -2595,7 +2595,7 @@ every morning and every night--a good many times at night. It is fortunate that 
                 <signed>"MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_130927" rend="center">
           <date>
@@ -2665,7 +2665,7 @@ his superior among the young physicians of the State.</p>
 they clamor for," she says, "an invigoration that can be breathed. Every patient feels the same him."</p>
         <p xml:id="maconfe_130972">I wonder if Fanny wanted me to understand that the doctor had no particular manner reserved for myself? She need not have undergone any anxieties. She does not know that Robert and I meet like two spirits, having left all personal relations far behind us in an old, forgotten world.</p>
         <q>
-          <text xml:id="maconfe_120128">
+          <q><floatingText xml:id="maconfe_120128">
             <body xml:id="maconfe_120127">
               <head>SENT</head>
               <opener>
@@ -2692,10 +2692,10 @@ could not get here, and I tried not to think of it. He left a sealed letter for 
                 <signed>"MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_120130">
+          <q><floatingText xml:id="maconfe_120130">
             <body xml:id="maconfe_120129">
               <head>UNSENT</head>
               <opener>
@@ -2714,10 +2714,10 @@ passing comfort, the kindness of other people to me, something to 'keep me from 
                 <signed>"MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_120132">
+          <q><floatingText xml:id="maconfe_120132">
             <body xml:id="maconfe_120131">
               <head>SENT</head>
               <dateline rend="italic">"January the fifteenth.</dateline>
@@ -2729,11 +2729,11 @@ passing comfort, the kindness of other people to me, something to 'keep me from 
                 <signed>  WIFE."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="maconfe_130993" n="210 CONFESSIONS OF A WIFE"/>
         <q>
-          <text xml:id="maconfe_120134">
+          <q><floatingText xml:id="maconfe_120134">
             <body xml:id="maconfe_120133">
               <head>CABLE MESSAGE</head>
               <opener>
@@ -2754,10 +2754,10 @@ passing comfort, the kindness of other people to me, something to 'keep me from 
                 <signed>"MARNA."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <q>
-          <text xml:id="maconfe_120136">
+          <q><floatingText xml:id="maconfe_120136">
             <body xml:id="maconfe_120135">
               <div xml:id="maconfe_187" type="letter">
                 <head>SENT</head>
@@ -2781,7 +2781,7 @@ says it is such an opportunity as some men in his profession would give their li
                 <p xml:id="maconfe_1301002">"Ellen has asked my permission to spend the winter with me, refusing any wages. Thank you for the last draft. I shall use it as wisely as I can, and I am learning to live economically, because I must. We have given up the telephone."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_1301003" rend="center">
           <date>
@@ -2860,7 +2860,7 @@ mate, and that the whole blanked nation is a malaria microbe. He incloses a draf
         <p xml:id="maconfe_1301045">To-day Mercibel brought me this note from him--the first that Robert has written me since those old days in the other world where I was dear to him. It is a comfort to know that I am so no longer, and I am sure he has forgotten that I ever was. I am quite ashamed of myself that I recall it. Women have relentless memories about the men who have once loved and honored them; I think they cherish these tender ghosts of experience after a man himself has virtually forgotten them.</p>
         <p xml:id="maconfe_1301046">I fasten in the doctor's note:</p>
         <q>
-          <text xml:id="maconfe_120138">
+          <q><floatingText xml:id="maconfe_120138">
             <body xml:id="maconfe_120137">
               <div xml:id="maconfe_130" type="letter">
                 <opener>
@@ -2881,13 +2881,13 @@ mate, and that the whole blanked nation is a malaria microbe. He incloses a draf
                 <p xml:id="maconfe_1301050">"I have taken the liberty of asking the telephone people to call and receive your orders this afternoon. It may save you some trouble."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_1301051">I am ashamed to say that my discreditable impulse was to refuse to see the telephone manager when he came; for once I was a girl of what is called spirit, and certainly Robert has taken upon himself--</p>
         <p xml:id="maconfe_1301052">What? What can the doctor take upon himself but a thankless and uneased burden, a neglected woman and her ailing child? What can he take upon himself but sacrifices without hopes, duty without comfort? What shall I take upon myself but the ashes of repentance? I am not worthy of such high comradeship.</p>
         <p xml:id="maconfe_1301053">I have ordered the telephone put in again.</p>
         <q>
-          <text xml:id="maconfe_120140">
+          <q><floatingText xml:id="maconfe_120140">
             <body xml:id="maconfe_120139">
               <opener>
                 <salute>"MY DEAR DOCTOR:</salute>
@@ -2904,7 +2904,7 @@ you. The wire will be reconnected by Sunday, and I shall send my first message b
                 <signed>"MARNA HERWIN."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="maconfe_1301059" n="223 CONFESSIONS OF A WIFE"/>
         <p xml:id="maconfe_1301060" rend="right">
@@ -2957,7 +2957,7 @@ swiftly before his. The defense was something so subtle but so instantaneous as 
         <p xml:id="maconfe_1301086">I SAID that something had happened. What? the lifting of an eyelash, the foray of a soul. Nothing more. Yet am I hurled by the movement of the drama.</p>
         <p xml:id="maconfe_1301087">To-day Dr. Packard came to make the professional call. He reported Dr. Hazelton as excessively busy, and summoned off on a consultation by an early train. How haggard Robert looked that last time he was here! He had slept less than any of us. His eyes had the insomniac brilliance and the insomniac honesty. I do not think I even told him that I was sorry for him. The omission taunts me now that I cannot see him.</p>
         <q>
-          <text xml:id="maconfe_120142">
+          <q><floatingText xml:id="maconfe_120142">
             <body xml:id="maconfe_120141">
               <div xml:id="maconfe_132" type="letter">
                 <head>SENT</head>
@@ -2986,7 +2986,7 @@ you must have felt truly ill to write just as you, did, and I am distressed and 
 a wicked proverb. It may not be the same water that turns the mill, but it is the same stream, Dana."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_1301095" rend="right">
           <date>
@@ -3002,7 +3002,7 @@ then he laid it down upon the folds of my white dress.</p>
         <p xml:id="maconfe_1301101">"I think you are right," he said quietly. "It was not very brave. I do not mean that you shall miss me too much--nor--"</p>
         <p xml:id="maconfe_1301102">The sentence broke. His eyes said: "Nor do I mean that you shall need me too much, either." But his lips said nothing at all.</p>
         <q>
-          <text xml:id="maconfe_120144">
+          <q><floatingText xml:id="maconfe_120144">
             <body xml:id="maconfe_120143">
               <head>UNSENT (ADDRESSED, STAMPED, AND HELD OVER)</head>
               <opener>
@@ -3022,7 +3022,7 @@ first time, you will bear witness to me. And I cannot tell you all the reasons w
                 <signed>"MARNA, your Wife.</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_1301109" rend="right">
           <date>
@@ -3155,7 +3155,7 @@ consulship," he says. "You may expect me home this fall. I have had enough of it
         <p xml:id="maconfe_1301195">"I have been thinking how patient you were with me when I had that devil of a grippe. You were a dear old girl, Marna. A fellow misses his home in a blank of a country like this. When I get better shall you want me back?"</p>
         <pb xml:id="maconfe_1301196" n="246 CONFESSIONS OF A WIFE"/>
         <q>
-          <text xml:id="maconfe_120146">
+          <q><floatingText xml:id="maconfe_120146">
             <body xml:id="maconfe_120145">
               <div xml:id="maconfe_135" type="letter">
                 <head>SENT </head>
@@ -3179,7 +3179,7 @@ longingly, and what a</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_1301200" rend="right">
           <date>
@@ -3245,7 +3245,7 @@ of the wife are in the ruby velvet....Shall I extend them?</p>
         <p xml:id="maconfe_1301242">Sometimes it seems to me that he shelters my joy as if it were a faint flame that a rude wind might blow out--as if he put his hand around it carefully.</p>
         <pb xml:id="maconfe_1301243" n="253 CONFESSIONS OF A WIFE"/>
         <q>
-          <text xml:id="maconfe_120148">
+          <q><floatingText xml:id="maconfe_120148">
             <body xml:id="maconfe_120147">
               <head>SENT</head>
               <opener>
@@ -3258,7 +3258,7 @@ of the wife are in the ruby velvet....Shall I extend them?</p>
                 <signed>"WIFE."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="maconfe_1301246" n="254 CONFESSIONS OF A WIFE"/>
         <p xml:id="maconfe_1301247" rend="right">
@@ -3356,7 +3356,7 @@ and called me, in a low voice, from the foot of the stairs. I ran down, and Mari
 and folded it, handing it, without speaking, to the doctor, who
 extended his fingers to take it back. This was the despatch:</p>
         <q>
-          <text xml:id="maconfe_120150">
+          <q><floatingText xml:id="maconfe_120150">
             <body xml:id="maconfe_120149">
               <opener>
                 <salute>
@@ -3369,7 +3369,7 @@ health. Have written. Tell my wife.</p>
                 <signed>HERWIN."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_1301298">I could not see quite clearly for a little, and I got to the Morris chair and put my head back. Job jumped into my lap and began to kiss me, whining as he did so. It was so dark about me that still I could not see any object in the room except the face of the Yorkshire, and I clung to my dog; I think I said: "<hi rend="italic">You</hi> love me, Job, at any rate!" but I am not sure. I did not think
 <pb xml:id="maconfe_1301297" n="262 CONFESSIONS OF A WIFE"/>
@@ -3519,7 +3519,7 @@ slept again, I waked again, and that time I was saying:
 <q><lg type="stanza"><l>Oh, each man kills the thing he loves;....</l><l>The brave man does it with a sword,</l><l>The coward with a kiss.</l></lg></q>
 I have not heard from Dana. The doctor asked me two weeks ago if I had written, and I said: "Only that once." I kept a copy of the letter, as I have--I wonder why--of several letters (but not all) that I have written him since he went to South America.</p>
         <q>
-          <text xml:id="maconfe_120152">
+          <q><floatingText xml:id="maconfe_120152">
             <body xml:id="maconfe_120151">
               <div xml:id="maconfe_140" type="leter">
                 <head>SENT</head>
@@ -3553,7 +3553,7 @@ can, because we chose each other, and you did love me, and I am</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_1301396">There has been no answer to this letter. The spray of the cataract turns sleet, and I can imagine that in time there might a glacier form in the gulf below.</p>
         <pb xml:id="maconfe_1301397" n="274 CONFESSIONS OF A WIFE"/>
@@ -3725,7 +3725,7 @@ was now dressed, and he put on his hat to go for the doctor.</p>
         <p xml:id="maconfe_1301511">The receiver shook so in my hand that I could not hang it up, and while I was fumbling to do so I felt it taken from me. I said: "Thank you, Eliot." But it was not Eliot. Ashen and stiff the doctor's face regarded mine.</p>
         <p xml:id="maconfe_1301512">"Am I too late?" he asked hoarsely. Eliot did as well as he could. It took time. Let me come, Mrs. Herwin."</p>
         <p xml:id="maconfe_1301516">As I stepped aside for him to take my place at the telephone, I perceived the impassive face of the nurse; he was shutting the library door to go back to his sofa-bed. What orders had
-<pb xml:id="maconfe_1301513"/><figure><graphic url="ENTITY_maconfeill286" rend="inline"/><p xml:id="maconfe_1301514">"'LET ME COME, MRS. HERWIN.'"</p><figDesc>Illustration included in Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc></figure><pb xml:id="maconfe_1301515" n="287 CONFESSIONS OF A WIFE"/>
+<pb xml:id="maconfe_1301513"/><figure><graphic url="maconfeill286.jpg" rend="inline"/><p xml:id="maconfe_1301514">"'LET ME COME, MRS. HERWIN.'"</p><figDesc>Illustration included in Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc></figure><pb xml:id="maconfe_1301515" n="287 CONFESSIONS OF A WIFE"/>
 he received and (I must say admirably) executed?</p>
         <p xml:id="maconfe_1301517"><hi rend="italic">To leave me to answer the call-bell?</hi> To slip out of the window and summon the doctor?</p>
         <p xml:id="maconfe_1301518">Peremptorily, in the professional tone, this order came:</p>
@@ -4111,7 +4111,7 @@ he had helped me to paste over David and Dora.</p>
         <p xml:id="maconfe_1301758">"Pity Popper!" said Marion, distinctly. She put up both her hands and stroked his hollow cheeks.</p>
         <milestone rend="blank-line" unit="section"/>
         <p xml:id="maconfe_1301762">WE got him up-stairs as soon as we could, the doctor and I--into his own room and his own bed. Ellen had warmed the sheets, and every-
-<pb xml:id="maconfe_1301759"/><figure><graphic url="ENTITY_maconfeill324" rend="inline"/><p xml:id="maconfe_1301760">"'PITY POPPER!' SAID MARION, DISTINCTLY."</p><figDesc>Illustration included in Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc></figure><pb xml:id="maconfe_1301761" n="325 CONFESSIONS OF A WIFE "/>
+<pb xml:id="maconfe_1301759"/><figure><graphic url="maconfeill324.jpg" rend="inline"/><p xml:id="maconfe_1301760">"'PITY POPPER!' SAID MARION, DISTINCTLY."</p><figDesc>Illustration included in Adams' <hi rend="italic">Confessions of a Wife</hi>.</figDesc></figure><pb xml:id="maconfe_1301761" n="325 CONFESSIONS OF A WIFE "/>
 thing was ready, as if he had been expected, or as if he had never been away. I managed to get in and light his candle, and fix all his little things as he used to like them. He looked at everything pathetically, but he did not speak. He had grown strangely very weak, I thought, and panted for his breath. His forehead went a sudden deadly color which terrified me, and I ran and sat on the bed beside him, and took him in my arms. His sunken face fell upon my breast</p>
         <p xml:id="maconfe_1301763">"You're a dear old girl!" he said.</p>
         <p xml:id="maconfe_1301764">"I think," said the doctor, unexpectedly, "that you had better leave him to us for a while."</p>
@@ -4478,7 +4478,7 @@ Dana's eyes filled. Neither of us spoke. We took the prayer up-stairs, and hung 
           </date>
         </p>
         <q>
-          <text xml:id="maconfe_120154">
+          <q><floatingText xml:id="maconfe_120154">
             <body xml:id="maconfe_120153">
               <opener>
                 <salute>DANA MY DARLING:</salute>
@@ -4494,7 +4494,7 @@ my holy war, and if I have come out of it unwounded, that is owing not so much t
                 <signed>"MARNA, Wife."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="maconfe_1302012">Now when Dana had read this note, such a startled spark flickered in his tired, happy eyes that I was terrified, lest what I had done was a mistake and would harm him; and I should, I
 <pb xml:id="maconfe_1302011" n="368 CONFESSIONS OF A WIFE"/>
@@ -4580,7 +4580,7 @@ have now and then gathered mulberries from the nearest hedge.</hi>"</p>
         <q>
           <l>From the Desert I come to thee,</l>
           <l>On my Arab shod with fire.</l>
-          <milestone rend="dots" unit="stanza break"/>
+          <milestone rend="dots" unit="stanza_break"/>
           <l>I love thee, I love but thee!</l>
           <l>With a love that shall not die!</l>
           <l>Till the sun grows cold,</l>

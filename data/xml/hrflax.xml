@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="hrflax_1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="hrflax_1205">
   <teiHeader xml:id="hrflax1201"><fileDesc>
       <titleStmt>
         <title>Smoking Flax, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Smoking Flax</title>. <pubPlace>New York</pubPlace>:
@@ -78,7 +78,7 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="hrflax_1204">
     <front xml:id="hrflax_1202">
       <div xml:id="hrflax_000" type="covers">
-        <figure><graphic url="ENTITY_hrflaxfc" rend="inline"/>
+        <figure><graphic url="hrflaxfc.jpg" rend="inline"/>
           <figDesc>Front cover of <hi rend="italic">Smoking Flax</hi> by
 Rives.</figDesc>
         </figure>
@@ -101,7 +101,7 @@ Rives.</figDesc>
       </titlePage>
       <pb xml:id="hrflax_1307" n="[2]"/>
       <div xml:id="hrflax_001" type="advert">
-        <figure><graphic url="ENTITY_hrflaxad" rend="inline"/>
+        <figure><graphic url="hrflaxad.jpg" rend="inline"/>
           <figDesc>Book advertisements included at the front of <hi rend="italic">Smoking Flax</hi> by Rives.</figDesc>
         </figure>
       </div>

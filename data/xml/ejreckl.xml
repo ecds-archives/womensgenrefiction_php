@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ejreckl_cecfair1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ejreckl_cecfair1205">
   <teiHeader xml:id="cecfair1201"><fileDesc>
       <titleStmt>
         <title>A Reckless Promise, an electronic edition</title>
@@ -8,7 +8,7 @@
       <publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2007</date><availability><p xml:id="ejreckl_1301">© 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p> </availability><idno type="ark">http://pid.emory.edu/ark:/25593/1718q</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt> <name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name><resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt> <name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name><resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A Reckless Promise</title>. <pubPlace>New York</pubPlace>: <publisher>Street &amp; Smith</publisher>, <date>1889</date>.</bibl>
@@ -53,35 +53,35 @@
     </profileDesc><revisionDesc><change><date>2007-July-3</date><label>Encoder.</label><name>Shruthi Vissa,</name>XML tags inserted in compliance with TEI guidelines using TEILITE.</change></revisionDesc></teiHeader>
   <text xml:id="ejreckl_1302614">
     <front xml:id="ejreckl_13016">
-      <div xml:id="ejreckl_cover" type="front cover">
-        <figure><graphic url="ENTITY_ejrecklfc" rend="inline"/>
+      <div xml:id="ejreckl_cover" type="front_cover">
+        <figure><graphic url="ejrecklfc.jpg" rend="inline"/>
           <figDesc> Front cover of Jones's "A Reckless Promise"</figDesc>
         </figure>
       </div>
       <pb xml:id="ejreckl_1305"/>
       <pb xml:id="ejreckl_1306" n="[i]"/>
       <div xml:id="ejreckl_fm1" type="advert">
-        <figure><graphic url="ENTITY_ejrecklad1" rend="inline"/>
+        <figure><graphic url="ejrecklad1.jpg" rend="inline"/>
           <figDesc> Advert included in front of Jones's "A Reckless Promise"</figDesc>
         </figure>
         <pb xml:id="ejreckl_1307" n="[ii]"/>
-        <figure><graphic url="ENTITY_ejrecklad2" rend="inline"/>
+        <figure><graphic url="ejrecklad2.jpg" rend="inline"/>
           <figDesc> Advert included in front of Jones's "A Reckless Promise"</figDesc>
         </figure>
         <pb xml:id="ejreckl_1308" n="[iii]"/>
-        <figure><graphic url="ENTITY_ejrecklad3" rend="inline"/>
+        <figure><graphic url="ejrecklad3.jpg" rend="inline"/>
           <figDesc> Advert included in front of Jones's "A Reckless Promise"</figDesc>
         </figure>
         <pb xml:id="ejreckl_1309" n="[iv]"/>
-        <figure><graphic url="ENTITY_ejrecklad4" rend="inline"/>
+        <figure><graphic url="ejrecklad4.jpg" rend="inline"/>
           <figDesc> Advert included in front of Jones's "A Reckless Promise"</figDesc>
         </figure>
         <pb xml:id="ejreckl_13010" n="[v]"/>
-        <figure><graphic url="ENTITY_ejrecklad5" rend="inline"/>
+        <figure><graphic url="ejrecklad5.jpg" rend="inline"/>
           <figDesc> Advert included in front of Jones's "A Reckless Promise"</figDesc>
         </figure>
         <pb xml:id="ejreckl_13011" n="[vi]"/>
-        <figure><graphic url="ENTITY_ejrecklad6" rend="inline"/>
+        <figure><graphic url="ejrecklad6.jpg" rend="inline"/>
           <figDesc> Advert included in front of Jones's "A Reckless Promise"</figDesc>
         </figure>
       </div>
@@ -100,7 +100,7 @@
       </titlePage>
       <pb xml:id="ejreckl_13015" n="[viii]"/>
       <div xml:id="ejreckl_fm2" type="copyright">
-        <figure><graphic url="ENTITY_ejreckltpv" rend="inline"/>
+        <figure><graphic url="ejreckltpv.jpg" rend="inline"/>
           <figDesc> Copyright page for Jones's "A Reckless Stranger"</figDesc>
         </figure>
       </div>
@@ -1597,7 +1597,7 @@ were a few hastily scrawled lines.</p>
         <pb xml:id="ejreckl_1301407" n="172 A Mad Escapade."/>
         <p xml:id="ejreckl_1301408">Standing on tiptoe, she managed to make out their meaning by the flaring, uncertain light:</p>
         <q>
-          <text xml:id="ejreckl_1301411">
+          <q><floatingText xml:id="ejreckl_1301411">
             <body xml:id="ejreckl_1301410">
               <div xml:id="ejreckl_9019" type="letter">
                 <opener> <salute>"CAP'N FRANK: </salute></opener>
@@ -1611,7 +1611,7 @@ THROCKMORTON."</name>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="ejreckl_1301412">The romance of the situation pleased the madcap. Her eyes kindled, and the color deepened in her cheeks.</p>
         <p xml:id="ejreckl_1301413">"The southeast corner, where the statue of St. Joseph stands," she said softly, crumpling up the letter, and hiding it in her bosom. "Why, that's on the other side of the building. Come on, Trix." Catching her little satellite by the hand, she went fluttering 'across the grounds like a storm-driven bird.</p>
@@ -1864,7 +1864,7 @@ like the unfledged bird that leaves the warm home nest too soon, she longed to b
         <p xml:id="ejreckl_1301635">The telegram, which had called Throckmorton away, so suddenly that morning, ran as follows:</p>
         <pb xml:id="ejreckl_1301636" n="200  The Wicked Flee."/>
         <q>
-          <text xml:id="ejreckl_1301639">
+          <q><floatingText xml:id="ejreckl_1301639">
             <body xml:id="ejreckl_1301638">
               <div xml:id="ejreckl_9022" type="letter">
                 <opener>
@@ -1879,7 +1879,7 @@ eleven o'clock, sharp. Don't fail.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="ejreckl_1301640">The guilty man's heart stood still, and the color left his dark face, as he took in the meaning of this message, sent by his friend and confidant; the only living creature who had any knowledge of his plans and purposes.</p>
         <p xml:id="ejreckl_1301641">"I won't go," was his first thought, "I'll take the girl and fly to the ends of the earth."</p>
@@ -2833,10 +2833,10 @@ out to her.</p>
         <p xml:id="ejreckl_1302485">So the two were making their secret arrangements to take up their gypsy life again, when an unforeseen circumstance happened which compelled them to change their program in a measure.</p>
         <p xml:id="ejreckl_1302486">A letter came to Cap'n Frank, or Lady Isabel Gordon Charnleigh, as she was now called, from Sir Arthur Dillwyn's wife, Gwendoline, which ran as follows:</p>
         <q>
-          <text xml:id="ejreckl_1302495"> <body xml:id="ejreckl_1302494"><div xml:id="ejreckl_9034" type="letter"><opener><salute>"MY DEAREST FRIEND:</salute></opener><p xml:id="ejreckl_1302488"> I am at a loss how to address you. Whether to say 'my lady' or 'your grace'
+          <q><floatingText xml:id="ejreckl_1302495"> <body xml:id="ejreckl_1302494"><div xml:id="ejreckl_9034" type="letter"><opener><salute>"MY DEAREST FRIEND:</salute></opener><p xml:id="ejreckl_1302488"> I am at a loss how to address you. Whether to say 'my lady' or 'your grace'
 <pb xml:id="ejreckl_1302487" n="302 A Solemn, Parting."/>
 after all the wonderful things that have happened, but, at any rate, I'll try to make you understand what I want. My husband will be at Charnleigh Castle in the course of a day, and I want you to come right home with him.</p><p xml:id="ejreckl_1302489">"I have kept your secret, dear, as you requested me that first day when we met so unexpectedly, and I don't intend to allude to your past now.</p><p xml:id="ejreckl_1302490">"I shall write to your mother, Lady Sophronia, requesting her to let you come to me for a few days, and if you urge the matter, I don't think she'll refuse. But I must tell you my real reason for sending for you.</p><p xml:id="ejreckl_1302491">"Cap'n Frank, my brother is here, poor Dick, and his physicians say two weeks at most is the limit of his life. He received a gunshot wound accidentally at Arthur's shooting box in the Highlands, and has come home to us to die. Isn't it sad? Poor Dick, he has been a bad fellow in his day, but he seems repentant enough now, and, my dear, he calls for you incessantly.</p><p xml:id="ejreckl_1302492">"Your name is on his lips day and night, and he begs to be allowed to see you, if only, one moment, so I have ventured to send for you.</p><p xml:id="ejreckl_1302493">"No matter what you may have against him, I think, dear, you will feel better when all is over if you come, and make the poor fellow's last moments happy.</p><closer><signed>"Your affectionate friend,<name>
-"GWENDOLINE DILLWYN."</name></signed></closer></div></body></text>
+"GWENDOLINE DILLWYN."</name></signed></closer></div></body></floatingText></q>
         </q>
         <p xml:id="ejreckl_1302496">Lady Sophronia, who could not bear to have her beautiful daughter out of her sight for a moment, flatly refused to grant Lady Dillwyn's request at first.</p>
         <pb xml:id="ejreckl_1302497" n="303 A Solemn Parting."/>
@@ -2971,8 +2971,8 @@ ished. "And you a titled lady, as you've just told me? What will your people say
         <p xml:id="ejreckl_1302611">In the NEW EAGLE SERIES will next appear No. 1213, "Without Name or Wealth," by Ida Reade Allen.</p>
       </div>
       <pb xml:id="ejreckl_1302612"/>
-      <div xml:id="ejreckl_backcover" type="back cover">
-        <figure><graphic url="ENTITY_ejrecklbc" rend="inline"/>
+      <div xml:id="ejreckl_backcover" type="back_cover">
+        <figure><graphic url="ejrecklbc.jpg" rend="inline"/>
           <figDesc> Back cover of Jones's "A Reckless Promise"</figDesc>
         </figure>
       </div>

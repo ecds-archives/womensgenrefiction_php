@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="egthree_00101">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="egthree_00101">
   <teiHeader xml:id="egthree1202"><fileDesc>
       <titleStmt>
         <title>Three Weeks, an electronic edition</title>
@@ -8,7 +8,7 @@
       <publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2007</date><availability>
           <p xml:id="egthree_1301">© 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p>
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/1717k</idno></publicationStmt>
-      <seriesStmt><title>Women's Genre Fiction, 1860-1920</title> <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp><name/></respStmt></seriesStmt>
+      <seriesStmt><title>Women's Genre Fiction, 1860-1920</title> <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name> <resp>Principal Investigators</resp></respStmt></seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Three Weeks</title>. <pubPlace>New York</pubPlace>: <publisher>The Macauley Company.</publisher>, <date>1907</date>.</bibl>
       </sourceDesc>
@@ -55,13 +55,13 @@
     </profileDesc><revisionDesc><change><date>2007-June-28</date><label>Encoder.</label><name>Shruthi Vissa</name>XML tags inserted in compliance with TEI guidelines.</change></revisionDesc></teiHeader>
   <text xml:id="egthree_1203">
     <front xml:id="egthree_1204">
-      <div xml:id="egthree_cover" type="Front Cover">
-        <figure><graphic url="ENTITY_egthreecover" rend="inline"/>
+      <div xml:id="egthree_cover" type="front_cover">
+        <figure><graphic url="egthreecover.jpg" rend="inline"/>
           <figDesc>Front Cover of Glyn's "Three Weeks"</figDesc>
         </figure>
       </div>
       <div xml:id="egthree_spine" type="Spine">
-        <figure><graphic url="ENTITY_egthreespine" rend="inline"/>
+        <figure><graphic url="egthreespine.jpg" rend="inline"/>
           <figDesc>Spine of Glyn's "Three Weeks"</figDesc>
         </figure>
       </div>
@@ -74,13 +74,13 @@
       </titlePage>
       <pb xml:id="egthree_1308"/>
       <div xml:id="egthree_100" type="advert">
-        <figure><graphic url="ENTITY_egthreead" rend="inline"/>
+        <figure><graphic url="egthreead.jpg" rend="inline"/>
           <figDesc>Advert included in front of Glyn's "Three Weeks"</figDesc>
         </figure>
       </div>
       <pb xml:id="egthree_1309"/>
       <div xml:id="egthree_fm1" type="frontispiece">
-        <figure><graphic url="ENTITY_egthreeill1" rend="inline"/>
+        <figure><graphic url="egthreeill1.jpg" rend="inline"/>
           <p xml:id="egthree_13010">"Paul—what do you know of lovers—or love?" she said.<lb/>"My baby Paul!"</p>
           <figDesc>Frontispiece of Glyn's "Three Weeks"</figDesc>
         </figure>
@@ -100,7 +100,7 @@
       </titlePage>
       <pb xml:id="egthree_13014"/>
       <div xml:id="egthree_fm2" type="copyright">
-        <figure><graphic url="ENTITY_egthreecopy" rend="inline"/>
+        <figure><graphic url="egthreecopy.jpg" rend="inline"/>
           <figDesc>Copyright page for Glyn's "Three Weeks"</figDesc>
         </figure>
       </div>
@@ -123,8 +123,8 @@ as "the Lady's," passion would never have run riot until it was sated--she would
       </div>
       <pb xml:id="egthree_13023" n="[iv]"/>
       <pb xml:id="egthree_13024" n="[v]"/>
-      <div xml:id="egthree_illtc" type="List of Illustrations">
-        <figure><graphic url="ENTITY_egthreeill" rend="inline"/>
+      <div xml:id="egthree_illtc" type="list_of_illustrations">
+        <figure><graphic url="egthreeill.jpg" rend="inline"/>
           <figDesc>List of Illustrations for Glyn's "Three Weeks"</figDesc>
         </figure>
       </div>
@@ -267,7 +267,7 @@ wonder came back to him, where was she to-day--the lady with the eyes? Or had he
         <p xml:id="egthree_130129">It should not worry him anyway--so he rowed ahead, and ceased to speculate.</p>
         <p xml:id="egthree_130130">The first thing he did when he came in for lunch was to finish his letter to Isabella.</p>
         <q>
-          <text xml:id="egthree_130133">
+          <q><floatingText xml:id="egthree_130133">
             <body xml:id="egthree_130132">
               <div xml:id="egthree_002" type="postscript">
                 <p xml:id="egthree_130131">"P. S.--Monday," he added. "It is finer to-day, and I have had some exercise. The view isn't bad now the mist has gone. I shall do some climbing, I think. Take care of yourself, dear girl. Good-bye."</p>
@@ -276,7 +276,7 @@ wonder came back to him, where was she to-day--the lady with the eyes? Or had he
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="egthree_130134">It was with a feeling of excitement that he entered the restaurant for <hi rend="italic">déjeuner</hi>. Would she be there? How would she seem in daylight?</p>
         <p xml:id="egthree_130135">But the little table where she had sat the night before was unoccupied. There were the usual cloth and glass and silver, but no preparations for any specially expected guest upon it. Paul felt annoyed with himself because his heart sank. Had she gone? Or did she only dine in public? Perhaps she lunched in the sitting-room beyond the terrace, where he had seen her eyes the night before.</p>
@@ -428,7 +428,7 @@ tuberoses, scattered on the pillow beside him. Presently, when his blue eyes beg
         <p xml:id="egthree_130263">"The answer is, 'Yes, immediately'--tell Madame," Paul said.</p>
         <p xml:id="egthree_130264">And then he trod on air until he arrived at the landing she had indicated. Soon the launch glided up, he saw her there reclining under an awning of striped green.</p>
         <p xml:id="egthree_130265">It was a well-arranged launch, the comfortable deck-chairs were in the bows, and the steering took place from a raised perch behind the cabin, so the two were practically alone. The lady was in grey to-day, and it suited her strangely. Her eyes gleamed at him, full of mischief, under her large grey hat.</p>
-        <figure><graphic url="ENTITY_egthreeill2" rend="inline"/>
+        <figure><graphic url="egthreeill2.jpg" rend="inline"/>
           <p xml:id="egthree_130266">Those eyes looking into his out of the shadow, what did they say?<lb/>Surely they smiles at him.</p>
           <figDesc>Illustration between pages 38 and 39 of Glyn's "Three Weeks"</figDesc>
         </figure>
@@ -877,7 +877,7 @@ gleam, he saw that her wonderful eyes were wet with glittering tears.</p>
         <p xml:id="egthree_130643">"I am weary," she said, and fell to weeping softly, and refused to be comforted.</p>
         <p xml:id="egthree_130644">Paul's distress was intense--what could have happened? What terrible thing had he done? What sorrow had fallen upon his beloved while he selfishly slept?  But all she would say was that she was weary, while she clung to him in a storm of passion, as if some one threatened to take her out of his arms. Then she left him abruptly and went off to dress.</p>
         <p xml:id="egthree_130645">But later, at dinner, it seemed as if a new and more radiant light than ever glowed on her face. She was gay and caressing, telling him merry tales of Paris and its plays. It was as if she meant to efface all suggestion of sorrow or pain--and gradually the impression wore off in Paul's mind, and ere it came to their sipping the golden wine, all was brightness and peace.</p>
-        <p xml:id="egthree_130650">"See," she said, looking from the window just before they retired to rest, "the sky has stopped crying, and there are our stars, sweetheart, come out to wish<pb xml:id="egthree_130646"/><figure><graphic url="ENTITY_egthreeill3" rend="inline"/><p xml:id="egthree_130647">"Out of the whole world there are only you and I who matter, sweetheart."</p><figDesc>Illustration between pages 100 and 101 of Glyn's "Three Weeks"</figDesc></figure><pb xml:id="egthree_130648"/><pb xml:id="egthree_130649" n="101     THREE WEEKS"/>
+        <p xml:id="egthree_130650">"See," she said, looking from the window just before they retired to rest, "the sky has stopped crying, and there are our stars, sweetheart, come out to wish<pb xml:id="egthree_130646"/><figure><graphic url="egthreeill3.jpg" rend="inline"/><p xml:id="egthree_130647">"Out of the whole world there are only you and I who matter, sweetheart."</p><figDesc>Illustration between pages 100 and 101 of Glyn's "Three Weeks"</figDesc></figure><pb xml:id="egthree_130648"/><pb xml:id="egthree_130649" n="101     THREE WEEKS"/>
 us goodnight. Ah! for us to-morrow once more will be a glorious day."</p>
         <p xml:id="egthree_130651">"My Queen," said Paul; "rain or fine, all days are glorious to me, so long as I have you to clasp in my arms. You are my sun, moon and stars--always, for ever."</p>
         <p xml:id="egthree_130652">She laughed a laugh, the silver echo of satisfaction and joy.</p>
@@ -1767,7 +1767,7 @@ Anna that nothing mattered now the Excellency was safe!</p>
 <pb xml:id="egthree_1301382" n="234     THREE WEEKS"/>
 Save him from what? A brush with three besotted drunkards, whom it would have been a great joy to kill!</p><p xml:id="egthree_1301384">There were moments when Paul went mad with passion, and lay and writhed in his berth. So long months passed, and at last he dominated himself enough to come back to his home.</p><p xml:id="egthree_1301385">And if the Lady Henrietta had exclaimed that he appeared ill before on his return, she was dumb now with sorrow at the change. For Paul had looked upon Medusa's head of horror, and, as well as his heart, his face seemed turned to stone. He was gentle with his mother, and let her caress him as much as she would, but nothing any one could say could move him--even Pike's joyous greeting.</p><p xml:id="egthree_1301388">The whole of God's world was his enemy--for was he not alone there, robbed of his mate? Presently the reaction from this violence came, and an intense apathy set in. A saltless, tasteless existence. What was Parliament to him? What was his country or his nation? or even his home? Only the hunting when it came gave him some relief, and then if the run were fast enough, or the jumps prodigiously high, or his horses sufficiently fresh to be difficult, his blood ran again for a brief space. But beyond this life was hell, and often he was tempted to use that little pistol of Dmitry's, and end it, and sleep. Only the inherent
 
-<figure><graphic url="ENTITY_egthreeill4" rend="inline"/><p xml:id="egthree_1301386">Isabella returned at Christmas....if he marvelled to himself how he had been attracted to her, he<lb/> did not let it appear in his manner.</p><figDesc>Illustration between pages 234 and 235 of Glyn's "Three Weeks "</figDesc></figure><pb xml:id="egthree_1301387" n="235     THREE WEEKS"/>
+<figure><graphic url="egthreeill4.jpg" rend="inline"/><p xml:id="egthree_1301386">Isabella returned at Christmas....if he marvelled to himself how he had been attracted to her, he<lb/> did not let it appear in his manner.</p><figDesc>Illustration between pages 234 and 235 of Glyn's "Three Weeks "</figDesc></figure><pb xml:id="egthree_1301387" n="235     THREE WEEKS"/>
 manly English spirit in him, deep down somewhere, prevented him.</p>             <p xml:id="egthree_1301389">All this time his father grieved and grieved, and the Lady Henrietta spent hours in tears and prayer. Sir Charles had told her their son had met with a great sorrow, and they must bow their heads and leave him in peace, so there were no more gay young parties at Verdayne Place, and gone for ever were the visions of the grandchildren. Only Mark Grigsby was a constant visitor, but then--he knew.</p><p xml:id="egthree_1301390">Thus a year passed away, and Paul left on a voyage round the world. An Englishman's stern duty to be a man at all costs was calling him at last--bidding him in change of scene to try and overcome the paralysing dominion of his grief. But as far as that went the experiment proved futile. If moments came when circumstances did divert him, such as one or two great storms he happened to come across, and one or two exciting situations--still, when things were fair and peaceful, back would rush the ever-living ache. That passionate void and loss for which there seems no remedy.</p><p xml:id="egthree_1301392">Gentle pleasant women longed to lavish worship upon him, and Paul talked and was polite, but all their sweetness touched him no more than summer ripples stir the bottom of a lake. He seemed impervious to any human influence, though when the look of a moun-
 <pb xml:id="egthree_1301391" n="236     THREE WEEKS"/>
 tain or the colour of beech-trees would remind him of the Bürgenstock anguish as fresh as ever stabbed his heart. Yet all this while, unknown to himself, his faculties were developing. He read deeply. He had unconsciously grown to apply his darling's lucid reasoning to every detail of his judgment of life. It was as if it had before been written in cypher for him, and she had now given him the key. His mind was untiring in its efforts to master subjects, as his splendid physique seemed tireless in ah manner of sport.</p><p xml:id="egthree_1301393">Thus he saw the world and its peoples, and was an honoured guest among the great ones of the earth. But the hardness of adamant was in him. He had no beliefs--no ambitions. He dissected everything with all the pitiless certainty of a surgeon's cold knife. And if his life contained any aim at all, it was to get through with it and find oblivion in eternal sleep.</p><p xml:id="egthree_1301394">Thoughts of his little son would sometime come to him, but when they did he thrust them back, and shut his heart up in a casing of ice.</p><p xml:id="egthree_1301395">To feel--was to suffer! That perhaps was his only creed; that and a blind, sullen rage against fate. This was the lesson his suffering had taught him and they were weary years before he knew another side.</p><p xml:id="egthree_1301397">The first time he saw a tiger in India was one of the landmarks in the history of his inner emotions.

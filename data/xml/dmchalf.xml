@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dmchalf_1208">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dmchalf_1208">
   <teiHeader xml:id="dmchalf1201"><fileDesc>
       <titleStmt>
         <title>The Half-Caste, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The
@@ -82,7 +82,7 @@ added by the encoder and do not appear in the original text.</p>
     <front xml:id="dmchalf_1204">
       <pb xml:id="dmchalf_1305" n="[2]"/>
       <div xml:id="dmchalf_000" type="frontispiece">
-        <figure><graphic url="ENTITY_dmchalffp" rend="inline"/>
+        <figure><graphic url="dmchalffp.jpg" rend="inline"/>
           <figDesc>Frontispiece of Craik's <hi rend="italic">The
 Half-Caste</hi>.</figDesc>
         </figure>
@@ -103,7 +103,7 @@ Half-Caste</hi>.</figDesc>
       </titlePage>
       <pb xml:id="dmchalf_1308" n="[4]"/>
       <div xml:id="dmchalf_001" type="copyright">
-        <figure><graphic url="ENTITY_dmchalfcr" rend="inline"/>
+        <figure><graphic url="dmchalfcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Craik's <hi rend="italic">The
 Half-Caste</hi>.</figDesc>
         </figure>
@@ -113,12 +113,12 @@ Half-Caste</hi>.</figDesc>
         <head>PREFACE.</head>
         <p xml:id="dmchalf_13010">The publishers have here gathered into one volume some of Dinah Maria Mulock's early contributions to their publications, believing that the present generation may still read with pleasure and profit what charmed and instructed their fathers and mothers. From another point of view, this early work is interesting, as it contains the germ which blossomed more fully in her longer stories, and shows her best qualities of head and heart. Her first story appeared in 1849, four years after she began her literary career with W. &amp; R. Chambers.</p>
         <p xml:id="dmchalf_13013">In this connection a note received by the late Robert Chambers, Junior, in the Jubilee Year of <hi rend="italic">Chambers's Journal</hi> (which he was then editing), may be of interest:
-<q><text xml:id="dmchalf_1203"><body xml:id="dmchalf_1202"><div xml:id="dmchalf_012" type="letter"><opener><dateline><name type="place">THE CORNER HOUSE, SHORTLANDS, KENT,</name><date>January 24, 1882.</date></dateline></opener><p xml:id="dmchalf_13011">DEAR ROBERT,--May I send for your <hi rend="italic">Journal</hi> two of the sort of leaders--essays--which your father used to do so admirably? These--by a friend of mine, which, however, you may print or not, as you choose--are exceedingly good. Will you give me Yes or No, as soon as you can; and if it is Yes, as I hope, will you send the proofs and cheque to me?</p><p xml:id="dmchalf_13012">I see you are soon going to have the 50th anniversary of the dear old <hi rend="italic">Journal</hi>. Would I could 'assist' thereat, and say and affectionate and grateful word for the firm with whom I began my career in 1845, nearly forty years ago.</p><closer><salute>--Ever sincerely yours,</salute><signed>
-D. M. CRAIK.</signed></closer></div></body></text></q></p>
+<q><floatingText xml:id="dmchalf_1203"><body xml:id="dmchalf_1202"><div xml:id="dmchalf_012" type="letter"><opener><dateline><name type="place">THE CORNER HOUSE, SHORTLANDS, KENT,</name><date>January 24, 1882.</date></dateline></opener><p xml:id="dmchalf_13011">DEAR ROBERT,--May I send for your <hi rend="italic">Journal</hi> two of the sort of leaders--essays--which your father used to do so admirably? These--by a friend of mine, which, however, you may print or not, as you choose--are exceedingly good. Will you give me Yes or No, as soon as you can; and if it is Yes, as I hope, will you send the proofs and cheque to me?</p><p xml:id="dmchalf_13012">I see you are soon going to have the 50th anniversary of the dear old <hi rend="italic">Journal</hi>. Would I could 'assist' thereat, and say and affectionate and grateful word for the firm with whom I began my career in 1845, nearly forty years ago.</p><closer><salute>--Ever sincerely yours,</salute><signed>
+D. M. CRAIK.</signed></closer></div></body></floatingText></q></p>
       </div>
       <pb xml:id="dmchalf_13015" n="[7]"/>
-      <div xml:id="dmchalf_002" type="table of contents">
-        <figure><graphic url="ENTITY_dmchalftc" rend="inline"/>
+      <div xml:id="dmchalf_002" type="table_of_contents">
+        <figure><graphic url="dmchalftc.jpg" rend="inline"/>
           <figDesc>Table of contents for Craik's <hi rend="italic">The
 Half-Caste</hi>.</figDesc>
         </figure>
@@ -1439,7 +1439,7 @@ two are the only pilgrims who pray by the tomb of the victorious commander whose
 <lb/>A STORY OF THE ENGLISH POOR.</head>
         <epigraph>
           <cit>
-            <quote>`Cast thy bread upon the waters: for thou shalt find it after many days.'</quote>
+            <q>`Cast thy bread upon the waters: for thou shalt find it after many days.'</q>
           </cit>
         </epigraph>
         <p xml:id="dmchalf_1301095">IN one of the midland counties of England there is a district the name of which we shall not give, but merely allude to its characteristics, by which it may easily be discovered. It has risen up within the last century, until, from a few clusters of poor cottages, the seat of a manufacture of trifling importance, it has become one of the wealthiest, most populous, and most intelligent communities within the three kingdoms. The five or six small hamlets have grown into towns, whose boundaries, meeting, have all merged into one mass of habitations; so that, but for the diversity of name which each portion still preserves, it might be considered as one large city of manufactures, such as Manchester or Birmingham. But, like most newly-risen places, this region still presents anomalous mixture of town and country: for instance, between two colonies where the manufacture is carried on, a few green meadows, yet unbuilt upon, will intervene; and the tall chimney of 'the works' sometimes casts its smoke upon a puny corn-field or a blackberry hedge. Alternately the eye views
@@ -1632,7 +1632,7 @@ with joy.<ref target="#dmchalfn1">*</ref><note xml:id="dmchalfn1" n="1" place="f
 by W. &amp; R. Chambers, Limited.</p>
       </div>
       <div xml:id="dmchalf_011" type="advert">
-        <figure><graphic url="ENTITY_dmchalfad" rend="inline"/>
+        <figure><graphic url="dmchalfad.jpg" rend="inline"/>
           <figDesc>Advertisement for "Books by Mrs. Molesworth" included at the
 end of Craik's <hi rend="italic">The Half-Caste</hi>.</figDesc>
         </figure>

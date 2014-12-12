@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="owheart_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="owheart_1207">
   <teiHeader xml:id="owheart1201"><fileDesc>
       <titleStmt>
         <title>The Heart of Hyacinth, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Heart of
@@ -85,14 +85,14 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="owheart_1206">
     <front xml:id="owheart_1202">
       <div xml:id="owheart_1000" type="covers">
-        <figure><graphic url="ENTITY_owheartfc" rend="inline"/>
+        <figure><graphic url="owheartfc.jpg" rend="inline"/>
           <figDesc>Front cover of Watanna's <hi rend="italic">The Heart of
 Hyacinth</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="owheart_1305"/>
       <div xml:id="owheart_1001" type="frontispiece">
-        <figure><graphic url="ENTITY_owheartfp" rend="inline"/>
+        <figure><graphic url="owheartfp.jpg" rend="inline"/>
           <p xml:id="owheart_1306">HYACINTH</p>
           <figDesc>Frontispiece included in Watanna's <hi rend="italic">The Heart of
 Hyacinth</hi>.</figDesc>
@@ -114,14 +114,14 @@ SANO</titlePart>
       </titlePage>
       <pb xml:id="owheart_1309" n="[ii]"/>
       <div xml:id="owheart_1002" type="copyright">
-        <figure><graphic url="ENTITY_owheartcr" rend="inline"/>
+        <figure><graphic url="owheartcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Watanna's <hi rend="italic">The Heart of
 Hyacinth</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="owheart_13010" n="iii"/>
-      <div xml:id="owheart_1003" type="list of illustrations">
-        <figure><graphic url="ENTITY_owheartlist" rend="inline"/>
+      <div xml:id="owheart_1003" type="list_of_illustrations">
+        <figure><graphic url="owheartlist.jpg" rend="inline"/>
           <figDesc>List of illustrations in  Watanna's <hi rend="italic">The Heart of
 Hyacinth</hi>.</figDesc>
         </figure>
@@ -401,7 +401,7 @@ own hands into fists, then doubling hers also.</p>
         <p xml:id="owheart_130241">He set her in the boat.</p>
         <p xml:id="owheart_130242">"Such a foolish little gnat," he said, "always cry--always laugh. Like these waters--sometimes jump--sometimes lie still."</p>
         <pb xml:id="owheart_130243"/>
-        <figure><graphic url="ENTITY_owheartill42" rend="inline"/>
+        <figure><graphic url="owheartill42.jpg" rend="inline"/>
           <p xml:id="owheart_130244">"KOMA LIFTED HER IN HIS ARM"</p>
           <figDesc>Illustration included in Watanna's <hi rend="italic">The Heart of
 Hyacinth</hi>.</figDesc>
@@ -569,7 +569,7 @@ moment. She was like a little wild bird, shy and fearful, yet half anxious to ma
         <p xml:id="owheart_130377">If she remembered Koma at all, the memory bore no resemblance to this tall man-boy who had returned so suddenly to their home. To her he seemed a stranger, a fearful intruder.</p>
         <p xml:id="owheart_130378">Hurt to the quick, Madame Aoi whispered to her son. He arose without a word and disappeared into his room. Fifteen minutes later, Hyacinth, playing with a regiment of Japanese doll soldiers on the floor, having forgotten all her tears of a few minutes since, leaped to her feet suddenly, with a strange, little cry.</p>
         <p xml:id="owheart_130382">There in the middle of the room she
-<pb xml:id="owheart_130379"/><figure><graphic url="ENTITY_owheartill70" rend="inline"/><p xml:id="owheart_130380">"'NOW, COME, LITTLE ONE: COME, GIVE ME THAT WELCOME HOME'"</p><figDesc>Illustration included in Watanna's <hi rend="italic">The Heart of
+<pb xml:id="owheart_130379"/><figure><graphic url="owheartill70.jpg" rend="inline"/><p xml:id="owheart_130380">"'NOW, COME, LITTLE ONE: COME, GIVE ME THAT WELCOME HOME'"</p><figDesc>Illustration included in Watanna's <hi rend="italic">The Heart of
 Hyacinth</hi>.</figDesc></figure><pb n="71 THE HEART OF HYACINTH" pages="71" facs="owheart071"/>
 stood, holding tightly in her hand her doll, and staring, as if fascinated by the smiling figure on the threshold. It was the same stranger surely, yet, ah, not the same. A few minutes had wrought such a change in his appearance. He had discarded the heavy, dark, mysterious clothes. He appeared like any other Japanese youth, save that he was much taller, and his face smiled down upon the little girl with an expression whose power she had been unable to resist even when he had worn those outlandish garments. He called to her, softly.</p>
         <p xml:id="owheart_130383">"Now, come, little one; come, give me that welcome home."</p>
@@ -1021,7 +1021,7 @@ stantly jarred; they had few interests in common. Life became a burden to them. 
         <p xml:id="owheart_130775">"My good fellow, you are lent to me by our consul. I believe you can assist me in the work of finding the child. It--she--is here--in Sendai, it seems--or she was. Let's see what the other missionary writes."</p>
         <p xml:id="owheart_130776">He unfolded the letter and read:</p>
         <q>
-          <text xml:id="owheart_1204">
+          <q><floatingText xml:id="owheart_1204">
             <body xml:id="owheart_1203">
               <div xml:id="owheart_1101" type="letter">
                 <opener>
@@ -1038,7 +1038,7 @@ to be married to a Japanese youth, a Buddhist by religion. As she is a minor, an
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="owheart_130779">"Whew!" said the younger man. "We must be hot on the girl's trail. It would be a coincidence, wouldn't it, though, if she proved to be the same."</p>
         <p xml:id="owheart_130780">"The former missionary also wrote from Sendai," said the lawyer. "There is not the smallest doubt in my mind that the child is the same."</p>
@@ -1517,7 +1517,7 @@ ty that she was not within the cavern forced itself upon him his shaking frame t
         <p xml:id="owheart_1301181">Very slowly now Koma crawled from out the cavern. The lantern he set upon the ground at the mouth of the cave. Then he stood still, uncertain what to do, a great despair coming upon him.</p>
         <p xml:id="owheart_1301182">Only a few paces away, he knew, were other tombs and caverns, but these were built in the slanting cliffs, down which no maiden could have gone in safety. Of them he would not think. He dared not look at them, lest he become dizzy with horror. And so Komazawa raised his face upward to the sky, just as Hyacinth had done.</p>
         <p xml:id="owheart_1301186">Then he saw, far up above his head,
-<pb xml:id="owheart_1301183"/><figure><graphic url="ENTITY_owheartill200" rend="inline"/><p xml:id="owheart_1301184">"HE KNELT IN A RAPT SILENCE BESIDE HER"</p><figDesc>Illustration included in Watanna's <hi rend="italic">The Heart of
+<pb xml:id="owheart_1301183"/><figure><graphic url="owheartill200.jpg" rend="inline"/><p xml:id="owheart_1301184">"HE KNELT IN A RAPT SILENCE BESIDE HER"</p><figDesc>Illustration included in Watanna's <hi rend="italic">The Heart of
 Hyacinth</hi>.</figDesc></figure><pb n="201 THE HEART OF HYACINTH" pages="201" facs="owheart201"/>
 something dark and still outstretched upon the surface of the rock. He caught his breath, then covered his mouth with his hands lest a cry escape him. Slowly and carefully he climbed up to the surface of the rock. A moment, on its edge, he paused irresolute, then crept on his knees towards the sleeping girl.</p>
         <p xml:id="owheart_1301187">For a long time he knelt in a rapt silence beside her, his eyes fixed, entranced, upon her face.</p>

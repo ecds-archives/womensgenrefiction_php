@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mobelea_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mobelea_1206">
   <teiHeader xml:id="mobelea1201"><fileDesc>
       <titleStmt>
         <title>A Beleaguered City, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>.  <title>A Beleaguered
@@ -85,7 +85,7 @@ page images are linked to the text file.</p>
       <pb xml:id="mobelea_1307" n="[ii]"/>
       <div xml:id="mobelea_013" type="advert">
         <p xml:id="mobelea_1308">
-          <figure><graphic url="ENTITY_mobeleapub" height="504" rend="inline" width="314"/>
+          <figure><graphic url="mobeleapub.jpg" height="504px" rend="inline" width="314px"/>
             <figDesc>Image of the page listing the publisher and publishing houses.</figDesc>
           </figure>
         </p>
@@ -105,7 +105,7 @@ page images are linked to the text file.</p>
       <pb xml:id="mobelea_13011" n="[iv]"/>
       <div xml:id="mobelea_014" type="copyright">
         <p xml:id="mobelea_13012">
-          <figure><graphic url="ENTITY_mobeleacr" height="504" rend="inline" width="324"/>
+          <figure><graphic url="mobeleacr.jpg" height="504px" rend="inline" width="324px"/>
             <figDesc>Image of the page containing the copyright information for
 Mrs. Oliphant's <hi rend="italic">A Beleaguered City</hi>.</figDesc>
           </figure>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="bcnewl_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="bcnewl_1201">
   <teiHeader xml:id="bcnewl1202"><fileDesc>
       <titleStmt>
         <title>New Love or Old, an electronic edition</title>
@@ -8,7 +8,7 @@
       <publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2007</date><availability><p xml:id="bcnewl_1301">© 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p> </availability><idno type="ark">http://pid.emory.edu/ark:/25593/16zjj</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt><name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name><resp>Principal Investigators</resp><name/></respStmt>
+        <respStmt><name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name><resp>Principal Investigators</resp></respStmt>
       </seriesStmt>
       <sourceDesc><bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>New Love or Old</title>. <pubPlace>New York</pubPlace>: <publisher>Street &amp; Smith</publisher>, <date>[n.d.]</date></bibl> </sourceDesc>
     </fileDesc><encodingDesc>
@@ -52,7 +52,7 @@
   <text xml:id="bcnewl_4444">
     <front xml:id="bcnewl_1203">
       <div xml:id="bcnewl_1cover" type="covers">
-        <figure><graphic url="ENTITY_bcnewlcover" rend="inline"/>
+        <figure><graphic url="bcnewlcover.jpg" rend="inline"/>
           <figDesc>Front Cover of Clay's <hi rend="italics">New Love or Old"</hi></figDesc>
         </figure>
       </div>
@@ -78,7 +78,7 @@
       <pb xml:id="bcnewl_13010"/>
       <div xml:id="bcnewl_1100" type="colophon">
         <pb xml:id="bcnewl_13011" n="[4]"/>
-        <figure><graphic url="ENTITY_bcnewlfm002" rend="inline"/>
+        <figure><graphic url="bcnewlfm002.jpg" rend="inline"/>
           <p xml:id="bcnewl_13012">Copyright information for Clay's <hi rend="italic">New Love or Old</hi>.</p>
         </figure>
       </div>
@@ -2139,7 +2139,7 @@ her cousin, John Vernon, the barrister of Dublin. Think what a pretty sort of La
         <p xml:id="bcnewl_1301820">John had not answered that letter.</p>
         <p xml:id="bcnewl_1301821">Only two hours before we find Jane under the apple-tree, she had received a telegram from Dublin, containing these words.</p>
         <q>
-          <text xml:id="bcnewl_1301824">
+          <q><floatingText xml:id="bcnewl_1301824">
             <body xml:id="bcnewl_1301823">
               <div xml:id="bcnewl_100" type="letter">
                 <p xml:id="bcnewl_1301822">"I shall be at the Raggan some time to-night.</p>
@@ -2148,7 +2148,7 @@ her cousin, John Vernon, the barrister of Dublin. Think what a pretty sort of La
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="bcnewl_1301825">So that he was coming! Bethel had shut herself up in her room; she had vowed that she would not see John.</p>
         <p xml:id="bcnewl_1301826">A step on the gravel path; but the tall fruit trees hide the person who is approaching. Another moment, and Jane sees a tall man crossing the grass toward the apple-tree—the man she so passionately and hopelessly loves.</p>
@@ -3774,13 +3774,13 @@ of forgiving it. Yes, I forgive you, for I believe that sorrow of some kind must
         <p xml:id="bcnewl_1303222">"Nay, I was a silly child; and, oh! what hats I used to wear, and what boots!"</p>
         <p xml:id="bcnewl_1303223">And so these happy lovers laughed.</p>
         <p xml:id="bcnewl_1303228">That night Sir Huntly, who was staying at the Clarence Hotel, received the following letter:
-<q> <text xml:id="bcnewl_1303227"> <body xml:id="bcnewl_1303226"> <div xml:id="bcnewl_1249" type="letter"><p xml:id="bcnewl_1303225">"You have forbidden me your presence, Sir Huntly, and I have worked you a great wrong in revenge; now I repent. If
+<q> <q><floatingText xml:id="bcnewl_1303227"> <body xml:id="bcnewl_1303226"> <div xml:id="bcnewl_1249" type="letter"><p xml:id="bcnewl_1303225">"You have forbidden me your presence, Sir Huntly, and I have worked you a great wrong in revenge; now I repent. If
 
 <pb xml:id="bcnewl_1303224" n="249 THE NEW LOVE OR THE OLD?"/>
-you were cruel, I was wicked.  I wish to atone.  I ask for no reward.  We must all forgive one another some day.  It is an eternal law."</p></div></body></text></q></p>
+you were cruel, I was wicked.  I wish to atone.  I ask for no reward.  We must all forgive one another some day.  It is an eternal law."</p></div></body></floatingText></q></q></p>
         <p xml:id="bcnewl_1303229">Sir Huntly shivered. The tone of the woman was changed—a wicked woman! Yes, he knew how wicked she had been. Cruel?—had he been cruel? He was an unforgiving man; he could not help his nature—he was a very unforgiving man. Well, he would see this wretched woman, and refer her to Cave Curtis, as usual. He did not believe in her repentance, and yet—well—he would see her.</p>
         <p xml:id="bcnewl_1303230">His dreams that night were troubled. He had written to the address the woman gave him—a mean address—and he had said:</p>
-        <q> <text xml:id="bcnewl_1303233"> <body xml:id="bcnewl_1303232"> <div xml:id="bcnewl_249" n="2" type="letter"><p xml:id="bcnewl_1303231">"Come; I shall expect you; but I shall have witnesses, protectors. The truth may come out now once for all. I am sick of hiding it."</p></div></body></text></q>
+        <q> <q><floatingText xml:id="bcnewl_1303233"> <body xml:id="bcnewl_1303232"> <div xml:id="bcnewl_249" n="2" type="letter"><p xml:id="bcnewl_1303231">"Come; I shall expect you; but I shall have witnesses, protectors. The truth may come out now once for all. I am sick of hiding it."</p></div></body></floatingText></q></q>
         <p xml:id="bcnewl_1303234">And then the very next morning he said to Donald, who came to breakfast with him:</p>
         <p xml:id="bcnewl_1303235">"Donald, I wish you to be a witness to a strange interview which I have promised to a woman who was once my betrothed, and might have been my wife. Cave Curtis, strangely enough, is coming to-day. We will find out what this woman wants. Are you surprised?"</p>
         <p xml:id="bcnewl_1303236">"Yes—no," said Donald. "I saw this woman last night, and she made me promise to be present at this interview, and she says—but can it be true?—that Velvet Snow, the beautiful, gifted genius, who was brought up at Ellsmere—you have heard of her even long ago—Mr. Hibbit's <hi rend="italic">protégée—"</hi></p>
@@ -3886,19 +3886,19 @@ cause of charity now and then, on great occasions, can not interest the reader s
     </body>
     <back xml:id="bcnewl_1205">
       <div xml:id="bcnewl_200" type="advert">
-        <figure><graphic url="ENTITY_bcnewlbm001" rend="inline"/>
+        <figure><graphic url="bcnewlbm001.jpg" rend="inline"/>
           <figDesc> Advert included in back of Clay's "New Love or Old?"</figDesc>
         </figure>
       </div>
       <pb xml:id="bcnewl_1303321" n="[258]"/>
-      <div xml:id="bcnewl_300" type="Advert">
-        <figure><graphic url="ENTITY_bcnewlbm002" rend="inline"/>
+      <div xml:id="bcnewl_300" type="advert">
+        <figure><graphic url="bcnewlbm002.jpg" rend="inline"/>
           <figDesc> Advert included in back of Clay's "New Love or Old?"</figDesc>
         </figure>
       </div>
       <pb xml:id="bcnewl_1303322"/>
-      <div xml:id="bcnewl_cover" type="back cover">
-        <figure><graphic url="ENTITY_bcnewlbackcover" rend="inline"/>
+      <div xml:id="bcnewl_cover" type="back_cover">
+        <figure><graphic url="bcnewlbackcover.jpg" rend="inline"/>
           <figDesc> Back Cover of Clay's "New Love or Old?"</figDesc>
         </figure>
       </div>

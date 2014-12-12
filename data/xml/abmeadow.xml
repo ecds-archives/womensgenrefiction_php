@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="abmeadow_9990">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="abmeadow_9990">
   <teiHeader xml:id="abmeadow9991"><fileDesc>
       <titleStmt>
         <title>Meadow-Grass: Tales of New England Life, an electronic edition</title>
@@ -12,7 +12,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Meadow-Grass</title>. <pubPlace>Boston and New York</pubPlace>: <publisher>Houghton, Mifflin and Company</publisher>, <date>1895</date>.</bibl>
@@ -58,7 +58,7 @@
     </profileDesc><revisionDesc><change><date>2007-June-25</date><label>Encoder.</label><name>Shruthi Vissa,</name>XML tags inserted in compliance with TEI guidelines using TEILITE.</change></revisionDesc></teiHeader>
   <text xml:id="abmeadow_1301667">
     <front xml:id="abmeadow_13014">
-      <div xml:id="abmeadow_cover" type="front cover">
+      <div xml:id="abmeadow_cover" type="front_cover">
         <figure><graphic url="abmeadowfc.jpg" rend="inline"/>
           <figDesc> Front cover of Brown's "Meadow-Grass"</figDesc>
         </figure>
@@ -85,7 +85,7 @@ The Riverside Press Cambridge</publisher>
         </docImprint>
       </titlePage>
       <pb xml:id="abmeadow_1309"/>
-      <div xml:id="abmeadow_fm" type="copyright page">
+      <div xml:id="abmeadow_fm" type="copyright_page">
         <figure><graphic url="abmeadowtpv.jpg" rend="inline"/>
           <figDesc> Library of Congress filing page for Brown's "Meadow-Grass"</figDesc>
         </figure>
@@ -96,7 +96,7 @@ The Riverside Press Cambridge</publisher>
       </div>
       <pb xml:id="abmeadow_13012"/>
       <pb xml:id="abmeadow_13013"/>
-      <div xml:id="abmeadow_200" type="table of contents">
+      <div xml:id="abmeadow_200" type="table_of_contents">
         <figure><graphic url="abmeadowtc.jpg" rend="inline"/>
           <figDesc> Table of contents for Brown's "Meadow-Grass"</figDesc>
         </figure>

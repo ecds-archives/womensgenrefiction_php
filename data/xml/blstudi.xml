@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="blstudi_12023">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="blstudi_12023">
   <teiHeader xml:id="blstudi1201"><fileDesc>
       <titleStmt>
         <title>Studies in Love and in Terror, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Studies in Love and Terror</title>. <pubPlace>London</pubPlace>:
@@ -115,7 +115,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="blstudi_13010"/>
       <div xml:id="blstudi_0001" type="copyright">
-        <figure><graphic url="ENTITY_blstudicr" rend="inline"/>
+        <figure><graphic url="blstudicr.jpg" rend="inline"/>
           <figDesc>Copyright information for Lowndes's <hi rend="italic">Studies in Love and Terror</hi>.</figDesc>
         </figure>
       </div>
@@ -126,8 +126,8 @@ appear, in <hi rend="italic">McClure's Magazine</hi>, <hi rend="italic">The Fort
 Review</hi>, <hi rend="italic">McClure's Magazine</hi>, and <hi rend="italic">Scribner's Magazine</hi>.</p>
       </div>
       <pb xml:id="blstudi_13013"/>
-      <div xml:id="blstudi_0003" type="table of contents">
-        <figure><graphic url="ENTITY_blstuditc" rend="inline"/>
+      <div xml:id="blstudi_0003" type="table_of_contents">
+        <figure><graphic url="blstuditc.jpg" rend="inline"/>
           <figDesc>The table of contents for Lowndes's <hi rend="italic">Studies in Love and Terror</hi>.</figDesc>
         </figure>
       </div>
@@ -1148,14 +1148,14 @@ where he lodged. And as Agnes walked on she felt <pb xml:id="blstudi_1301004" n=
               <p xml:id="blstudi_1301053">Locking the door of the dressing-room, she had searched eagerly—a dishonourable thing to do, as she knew well. And soon she had found other letters—letters and bills; bills of meals at restaurants, showing that her husband and a companion had constantly dined and supped at the Savoy, the Carlton, and Prince's. To those restaurants where he had taken her, Agnes, two or three times a year, laughing and grumbling at the expense, he had taken this—this <hi rend="italic">person</hi> again and again in the short time his wife had been away.</p>
               <p xml:id="blstudi_1301054">As to the further letters, all they proved was that Frank had first met "Janey Cartwright" over some law business of hers, connected—even Agnes saw the irony of it—in some shameful way with another man; for, tied together, were a few notes signed with the writer's full name, of which the first began:</p>
               <q>
-                <text xml:id="blstudi_12014">
+                <q><floatingText xml:id="blstudi_12014">
                   <body xml:id="blstudi_12013">
                     <opener>
                       <salute>Dear Mr. Barlow:</salute>
                     </opener>
                     <p xml:id="blstudi_1301055">Forgive me for writing to your private address [etc., etc.].</p>
                   </body>
-                </text>
+                </floatingText></q>
               </q>
               <p xml:id="blstudi_1301057">The ten days that followed her discovery had seared Agnes's soul. Frank had been so <pb xml:id="blstudi_1301056" n="208 STUDIES IN LOVE AND TERROR"/>dreadfully affectionate. He had pretended—she felt sure it was all pretence—to be so glad to see her again, though sometimes she caught him looking at her with cowed, miserable eyes.</p>
               <p xml:id="blstudi_1301058">More than once he had asked her solicitously if she felt ill, and she had said yes, she did feel ill, and the time at the seaside had not done her any good.</p>

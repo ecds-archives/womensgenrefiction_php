@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="awrejuv_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="awrejuv_1201">
   <teiHeader xml:id="awrejuv1202"><fileDesc>
       <titleStmt>
         <title>The Rejuvenation of Aunt Mary, an electronic edition</title>
@@ -10,7 +10,7 @@
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/16zbq</idno></publicationStmt>
       <seriesStmt>
         <title>Women's Genre Fiction, 1860-1920</title>
-        <respStmt> <name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name> <resp>Principal Investigators</resp> <name/></respStmt>
+        <respStmt> <name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name> <resp>Principal Investigators</resp> </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Rejuvenation of Aunt Mary</title>. <pubPlace>Boston</pubPlace>: <publisher>Little, Brown and Company</publisher>, <date>1905</date>.</bibl>
@@ -55,8 +55,8 @@
     </profileDesc><revisionDesc><change><date>2007-July-6</date><label>Encoder.</label><name>Shruthi Vissa,</name>XML tags inserted in compliance with TEI guidelines using TEILITE.</change></revisionDesc></teiHeader>
   <text xml:id="awrejuv_1203">
     <front xml:id="awrejuv_1204">
-      <div xml:id="awrejuv_cover" type="front cover">
-        <figure><graphic url="ENTITY_awrejuvcover" rend="inline"/>
+      <div xml:id="awrejuv_cover" type="front_cover">
+        <figure><graphic url="awrejuvcover.jpg" rend="inline"/>
           <figDesc>Front cover of Warner's "The Rejuvenation of Aunt Mary"</figDesc>
         </figure>
       </div>
@@ -69,7 +69,7 @@
       </titlePage>
       <pb xml:id="awrejuv_1308" n="[ii]"/>
       <div xml:id="awrejuv_fm1" type="frontispiece">
-        <figure><graphic url="ENTITY_awrejuvill1" rend="inline"/>
+        <figure><graphic url="awrejuvill1.jpg" rend="inline"/>
           <p xml:id="awrejuv_1309">"The carriage stopped three hundred feet below the level of a roof-garden."</p>
           <p xml:id="awrejuv_13010">FRONTISPIECE</p>
           <figDesc>Frontispiece of Warner's "The Rejuvenation of Aunt Mary"</figDesc>
@@ -92,23 +92,23 @@ ETC.</byline>
       </titlePage>
       <pb xml:id="awrejuv_13014" n="[iv]"/>
       <div xml:id="awrejuv_fm2" type="copyright">
-        <figure><graphic url="ENTITY_awrejuvcpr" rend="inline"/>
+        <figure><graphic url="awrejuvcpr.jpg" rend="inline"/>
           <figDesc>Copyright page for Warner's "The Rejuvenation of Aunt Mary"</figDesc>
         </figure>
       </div>
       <pb xml:id="awrejuv_13015" n="[v]"/>
-      <div xml:id="awrejuv_fm3" type="table of contents">
-        <figure><graphic url="ENTITY_awrejuvcont" rend="inline"/>
+      <div xml:id="awrejuv_fm3" type="table_of_contents">
+        <figure><graphic url="awrejuvcont.jpg" rend="inline"/>
           <figDesc>Table of contents for Warner's "The Rejuvenation of Aunt Mary"</figDesc>
         </figure>
         <pb xml:id="awrejuv_13016" n="vi"/>
-        <figure><graphic url="ENTITY_awrejuvcont2" rend="inline"/>
+        <figure><graphic url="awrejuvcont2.jpg" rend="inline"/>
           <figDesc>Table of contents for Warner's "The Rejuvenation of Aunt Mary"</figDesc>
         </figure>
       </div>
       <pb xml:id="awrejuv_13017" n="[vii]"/>
-      <div xml:id="awrejuv_fm4" type="list of illustrations">
-        <figure><graphic url="ENTITY_awrejuvillcont" rend="inline"/>
+      <div xml:id="awrejuv_fm4" type="list_of_illustrations">
+        <figure><graphic url="awrejuvillcont.jpg" rend="inline"/>
           <figDesc>List of illustrations for Warner's "The Rejuvenation of Aunt Mary"</figDesc>
         </figure>
       </div>
@@ -201,7 +201,7 @@ transformed Aunt Mary's inherited taste for driving a bargain into an acquired p
         <p xml:id="awrejuv_13079">"Telegram!" she announced, handing the yellow envelope over.</p>
         <p xml:id="awrejuv_13080">Aunt Mary put on her glasses, opened it, and read:</p>
         <q>
-          <text xml:id="awrejuv_13083">
+          <q><floatingText xml:id="awrejuv_13083">
             <body xml:id="awrejuv_13082">
               <div xml:id="awrejuv_200" type="letter">
                 <p xml:id="awrejuv_13081">Cook has blood
@@ -211,7 +211,7 @@ poison. Sues for a thousand. Probable amputation.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="awrejuv_13084">Aunt Mary dropped the paper with a gasp.</p>
         <p xml:id="awrejuv_13085">Lucinda looked at her with interest.</p>
@@ -810,7 +810,7 @@ Chapter Seven
         <p xml:id="awrejuv_130574">"I'm sure that all the mosquitoes that ever crossed my path came there in the fulfillment of a purpose," Jack interrupted. "I never doubted that."</p>
         <p xml:id="awrejuv_130575">She smiled a little.</p>
         <p xml:id="awrejuv_130576">"It's the same with people," she went on.</p>
-        <figure><graphic url="ENTITY_awrejuvill2" rend="inline"/>
+        <figure><graphic url="awrejuvill2.jpg" rend="inline"/>
           <p xml:id="awrejuv_130577">" 'Do not let us play any longer,' she said. 'Let us be in earnest' "</p>
           <figDesc>Illustration between pages 68 and 69 of Warner's "The Rejuvenation of Aunt Mary"</figDesc>
         </figure>
@@ -1101,7 +1101,7 @@ the trying individual opposite a look of most appealing interrogation.</p>
 <pb xml:id="awrejuv_130814" n="94 REJUVENATION OF AUNT MARY"/>
 you? You see, I've been so anxious about—about my brother."</p>
         <p xml:id="awrejuv_130816">He nodded understandingly, and she hastily tore open the envelope and ran her eyes over the written sheets.</p>
-        <q> <text xml:id="awrejuv_130826"> <body xml:id="awrejuv_130825"><div xml:id="awrejuv_094" n="1" type="letter"><opener> <salute>MY DEAR MRS. ROSSCOTT:—</salute></opener><p xml:id="awrejuv_130817">Being the prize writer of the class, I am chosen to take down the ante mortem confessions of our shattered friends. It is in a sad hour for them that I do so, because I am naturally so truthful that I shall not force you to look for my meaning between the lines. On the contrary, I shall set the cold facts out as neatly as the pickets on the fence. And in evidence thereof, I open the ball by
+        <q> <q><floatingText xml:id="awrejuv_130826"> <body xml:id="awrejuv_130825"><div xml:id="awrejuv_094" n="1" type="letter"><opener> <salute>MY DEAR MRS. ROSSCOTT:—</salute></opener><p xml:id="awrejuv_130817">Being the prize writer of the class, I am chosen to take down the ante mortem confessions of our shattered friends. It is in a sad hour for them that I do so, because I am naturally so truthful that I shall not force you to look for my meaning between the lines. On the contrary, I shall set the cold facts out as neatly as the pickets on the fence. And in evidence thereof, I open the ball by
 telling you frankly that they both look fierce. If they had looked less awful, and Burnett had had more lime in his bones, we might have escaped the Powers That Be by simply admitting a sprained ankle and carefully concealing everything else.
 But if one man cracks where you can't finish the deal, even by the most unlimited outlay of mucilage and persistence, and another blazes his whole surface-area in a manner that seems to make the underbrush dubious to count on forever henceforth; why, you then have a logarithm the square of which is probably as far beyond your
 depth as I am beyond my own just at this point of this sentence.</p><p xml:id="awrejuv_130819">The long and short of my fresh start is, that your brother wants to write you, but he is so handicapped (forgive me, but you're the only one who hasn't had that joke sprung on them!) with bandages, that it's cruel to expect much of him. It
@@ -1112,7 +1112,7 @@ sneezed at, let me tell you. To put a modem political face upon an ancient Greek
 beg you whatever other rash acts you see fit to commit during your meteoric flight across my plane of existence, don't ever give me away. Firstly, because if I ever get a chance to do so, I'm positive that I should want to cling to you as the
 mistletoe does to the oak, and could not bear to be given away; and secondly, because I'm so attached to my own skin that I should really suffer pain if it was taken from me by force. Bob wants you to think it over, and let him know as to the whats and whens by return mail.</p><p xml:id="awrejuv_130823">You are so inspiring that I could write you all day, but those relics of what once was, but alas! will never be again, need to be rolled up afresh in absorbent cotton, and so I must nail my Red Cross on to my left arm, and get down to business. If you saw how useful I am to your brother, you'd thank his lucky stars that I came through myself with nothing worse than getting my ear stepped
 on. I was hugging the ladder (being canny and careful), and the man above me toed in. Isn't it curious to think that if he'd worn braces in early youth my ear would be all right now.</p><p xml:id="awrejuv_130824">Behold me at your feet.</p><closer> <signed>Respectfully yours,
-HERBERT KENDRICK MITCHELL.</signed></closer></div></body></text></q>
+HERBERT KENDRICK MITCHELL.</signed></closer></div></body></floatingText></q></q>
         <p xml:id="awrejuv_130827">When Mrs. Rosscott had finished the letter she looked across at her caller, and said:</p>
         <p xml:id="awrejuv_130828">"You've read this, haven't you?"</p>
         <p xml:id="awrejuv_130829">"No," said he. " I tried to unstick it two or three times coming on the train, but it was too much for me."</p>
@@ -1157,20 +1157,20 @@ women always get from Heaven knows just where—made her feel firmer than ever a
 under some circumstances they can put down rebellion single-handed—if they can only be left in the room alone with it for a few minutes. As regarded Jack, she knew that there was something to explain; and as to herself she was delightfully
 positive as to her own irresistibleness. Given two such statements and the conclusion is easy. Mrs. Rosscott wrote to Mitchell and here is what she
 wrote:</p>
-        <q> <text xml:id="awrejuv_130863"> <body xml:id="awrejuv_130862"><div xml:id="awrejuv_100" n="2" type="letter"><opener> <salute>My DEAR MR. MITCHELL:</salute></opener><p xml:id="awrejuv_130858">I should have answered your letter before only that in the excitement of corresponding with my brother I forgot all else. But my manners have returned by slow degrees and in hunting through my desk for a bill I found you and so take up my pen.</p><pb xml:id="awrejuv_130859" n="101 THE DOVE OF PEACE"/><p xml:id="awrejuv_130860">I am quite sure that—in spite of that beautiful opening play of mine—you are wondering why I am really writing and so I will tell you at once. When Bob comes here to stay with me I want Mr. Denham to come too. I have various reasons for wanting him to come. One is that he has nowhere else to go where he will have half as good a time as he will here and another is that if he goes any-where else I won't have half as good a time as if he comes here. Pray excuse my brutal candor, but I am only a woman; brutal candor and womanly weakness always have gone about encouraging one another, you know. I cannot see any good reason for Mr. Denham's not coming except that he declines my invitation. It is very silly in him, and I regard it as no reason at all. I am quite unused to being declined and do not intend to acquire the habit until I am a good deal older than I was my last birthday. Still, I can understand that he is too big to force against his will, so I think the kindest way to break the back of the opposition will be for me to do it personally. As an over-ruler I nearly always succeed. All I require is an opportunity.</p><p xml:id="awrejuv_130861">Please lay the two halves of your brain evenly together and devise a train and an interview for me. Of course you will meet me at the train and leave me at the interview. These are the fundamental rules of my game. I know that you are
+        <q> <q><floatingText xml:id="awrejuv_130863"> <body xml:id="awrejuv_130862"><div xml:id="awrejuv_100" n="2" type="letter"><opener> <salute>My DEAR MR. MITCHELL:</salute></opener><p xml:id="awrejuv_130858">I should have answered your letter before only that in the excitement of corresponding with my brother I forgot all else. But my manners have returned by slow degrees and in hunting through my desk for a bill I found you and so take up my pen.</p><pb xml:id="awrejuv_130859" n="101 THE DOVE OF PEACE"/><p xml:id="awrejuv_130860">I am quite sure that—in spite of that beautiful opening play of mine—you are wondering why I am really writing and so I will tell you at once. When Bob comes here to stay with me I want Mr. Denham to come too. I have various reasons for wanting him to come. One is that he has nowhere else to go where he will have half as good a time as he will here and another is that if he goes any-where else I won't have half as good a time as if he comes here. Pray excuse my brutal candor, but I am only a woman; brutal candor and womanly weakness always have gone about encouraging one another, you know. I cannot see any good reason for Mr. Denham's not coming except that he declines my invitation. It is very silly in him, and I regard it as no reason at all. I am quite unused to being declined and do not intend to acquire the habit until I am a good deal older than I was my last birthday. Still, I can understand that he is too big to force against his will, so I think the kindest way to break the back of the opposition will be for me to do it personally. As an over-ruler I nearly always succeed. All I require is an opportunity.</p><p xml:id="awrejuv_130861">Please lay the two halves of your brain evenly together and devise a train and an interview for me. Of course you will meet me at the train and leave me at the interview. These are the fundamental rules of my game. I know that you are
 clever and before we have left the station you will know that I am. As arch-conspirators we shall surely win out together, won't we?</p><closer> <signed>Yours very truly,
-BERTHA ROSSCOTT.</signed></closer></div></body></text></q>
+BERTHA ROSSCOTT.</signed></closer></div></body></floatingText></q></q>
         <pb xml:id="awrejuv_130864" n="102 REJUVENATION OF AUNT MARY"/>
         <p xml:id="awrejuv_130865">This missive posted, Jack's good angel made herself patient until the afternoon of the next day when she might and did expect an answer.</p>
         <p xml:id="awrejuv_130866">She was not disappointed. The letter came and it was pleasantly bulky and appeared ample enough to have contained an indexed gun powder plot. She was so sure that Mitchell had been fully equal to the occasion that she tore the envelope open with a smile—and read:</p>
-        <q> <text xml:id="awrejuv_130878"> <body xml:id="awrejuv_130877"><div xml:id="awrejuv_1102" n="3" type="letter"><opener> <salute>My DEAR MRS. Rosscott:</salute></opener><p xml:id="awrejuv_130867">To think of my having some of your handwriting for my own! —I was nearly petrified with joy.</p><p xml:id="awrejuv_130868">You see I know your writing from having read Burnett all those "Burn this at once" epistles. And I know it still better from having to catalogue them for his ready reference. You know how impatient he is. (But I have run into an open
+        <q> <q><floatingText xml:id="awrejuv_130878"> <body xml:id="awrejuv_130877"><div xml:id="awrejuv_1102" n="3" type="letter"><opener> <salute>My DEAR MRS. Rosscott:</salute></opener><p xml:id="awrejuv_130867">To think of my having some of your handwriting for my own! —I was nearly petrified with joy.</p><p xml:id="awrejuv_130868">You see I know your writing from having read Burnett all those "Burn this at once" epistles. And I know it still better from having to catalogue them for his ready reference. You know how impatient he is. (But I have run into an open
 switch and must digress backwards.)</p><p xml:id="awrejuv_130869">I shall preserve your letter till I die. In war I shall wear it carefully spread all over wherever I may be killed, and in peace I intend to keep my
 place in my Bible with it. Could words say more! (Being backed up again, I will now begin.)</p><p xml:id="awrejuv_130871">I was not at all surprised at your writing me. If you had known me it would have been different. But where ignorance is bliss any woman but yourself is always liable to pitch in with a pen, and you see you are not yourself but only "any woman" to me as yet. Besides, women have written to me before you. My mother does so regularly. She encloses a postal card and all I have to do is to mail
 <pb xml:id="awrejuv_130870" n="103 THE DOVE OF PEACE"/>
 it and there she is answered. It's a great scheme which I proudly invented when I first went away to school and I recommend it to you if you—if you ever have a mother.</p><p xml:id="awrejuv_130872">How my ink does run away with me! Let me refer to your esteemed favor again! Ah! we have worked down to the bed-rock, or—in Hugh Miller's colloquial phrasing—to the " old red sand-stone," of the fact that you want Jack.  You state the fact with what you designate as brutal candor—and I reply with candied brutality, that I have thought that all along. If you are averse to my view of the matter, you must look out of the window the whole time that I continue, for once entered I always fight to a finish and I cannot retire to my corner on this auspicious occasion without announcing through a trumpet that even if Jack is a most idiotic fellow I never have caught the microbe from him, and, as a sequence, have always
 seen clear through and out of the other side of the whole situation. Of course I should not say this to any woman but you because it would not have any meaning to her, but, between you and me all things are printed in plain black and white and,
 therefore, I respectfully submit a program consisting of the two o'clock train Tuesday and myself, to be recognized by a beaming look of burning joy, upon the platform. Beyond that you may confide yourself to waxing waxy in my hands. They are not bad hands to be in as your brother and whatever-you-call-Jack can testify. I will lay my lines in the dark to the end that you may bloom in the sun.</p><p xml:id="awrejuv_130873">Trust me. You need do no more—except buy your ticket.</p><pb xml:id="awrejuv_130874" n="104 REJUVENATION OF AUNT MARY"/><p xml:id="awrejuv_130875">The two o'clock on Tuesday. You can easily remember it by the T's—if you don't get mixed with three o'clock on Thursday. Try remembering it by the 2's. A safe way would be to put it down.</p><closer> <signed>Yours to obey,
-HERBERT KENDRICK MITCHELL.</signed></closer></div><div xml:id="awrejuv_1104" type="postscript"><p xml:id="awrejuv_130876">P. S. Please recollect that I am only handsome according to the good old proverb, and do not mistake me for an enterprising hackman.</p></div></body></text></q>
+HERBERT KENDRICK MITCHELL.</signed></closer></div><div xml:id="awrejuv_1104" type="postscript"><p xml:id="awrejuv_130876">P. S. Please recollect that I am only handsome according to the good old proverb, and do not mistake me for an enterprising hackman.</p></div></body></floatingText></q></q>
         <p xml:id="awrejuv_130880">Mrs. Rosscott clapped her hands with delight when she finished the letter. She was overjoyed at the success of her "opening play," and she wrote her new correspondent two lines accepting his invitation, and went down on the appointed train on the appointed day. He met her at the depot and they divined one another at the first glance. It was impossible not to know a pretty woman—or so homely a man. For the ancestors of Mitchell had worn kilts and red hair in centuries gone by, and although he proved the truth of the red-hair proposition, no one would ever believe that anything of his build could ever have been induced to have put itself into kilts—knowingly. Furthermore, his voice had a crick in it, and went by jerks, and his eyebrows sympathized with his voice, and the eyes below them were little and gray and twinkling, and altogether he was the sort of man who
 <pb xml:id="awrejuv_130879" n="105 THE DOVE OF PEACE"/>
 is termed—according to a certain style of phrasing—" above suspicion."  But she liked him, oh immensely, and he liked her. And when they were riding up in the carriage together she felt how thoroughly trustworthy his gray eyes and good
@@ -1323,7 +1323,7 @@ volition.</p>
         <p xml:id="awrejuv_130997">Five minutes later the maid did finally appear with one letter.</p>
         <p xml:id="awrejuv_130998">"I thought you was waitin' to bring to-morrow's mail at the same time," said Aunt Mary, icily.</p>
         <p xml:id="awrejuv_130999">Then she found that the letter was from Jack, and Lucinda was completely forgotten in the pleasure of opening and reading it.</p>
-        <q> <text xml:id="awrejuv_1301009"> <body xml:id="awrejuv_1301008"><div xml:id="awrejuv_120" type="letter"><opener> <salute>DEAR AUNT MARY:</salute></opener><p xml:id="awrejuv_1301000">It seems so strange how I'm just learning the pleasure of writing letters. I enjoy it more every day. When I see a pen I can hardly keep from feeling that I ought to write you directly. I think of you, then, because I'm thinking of you most always. It seems as if I never appreciated you before, Aunt Mary.</p><p xml:id="awrejuv_1301002">I want to tell you something that I know will make you happy. I've never made you very happy Aunt Mary, but I'm going to begin now. I've got a place where I can earn my own living, and I'm going to work just as soon as I am strong enough.
+        <q> <q><floatingText xml:id="awrejuv_1301009"> <body xml:id="awrejuv_1301008"><div xml:id="awrejuv_120" type="letter"><opener> <salute>DEAR AUNT MARY:</salute></opener><p xml:id="awrejuv_1301000">It seems so strange how I'm just learning the pleasure of writing letters. I enjoy it more every day. When I see a pen I can hardly keep from feeling that I ought to write you directly. I think of you, then, because I'm thinking of you most always. It seems as if I never appreciated you before, Aunt Mary.</p><p xml:id="awrejuv_1301002">I want to tell you something that I know will make you happy. I've never made you very happy Aunt Mary, but I'm going to begin now. I've got a place where I can earn my own living, and I'm going to work just as soon as I am strong enough.
 I'm as tickled as a baby over it. I'll lay you any odds I get to be a richer man than the other John Watkins. I reckon money was bad for me, Aunt
 <pb xml:id="awrejuv_1301001" n="121 A TRAP FOR AUNT MARY"/>
 Mary, and I can see that you've done just the right thing to make a man of me. That isn't surprising, because you always did do just the right thing, Aunt Mary; it was I that always did just the wrong thing, but I'm straightened out now and this time it's forever—you just wait and see.</p><p xml:id="awrejuv_1301003">There's one thing bothers me some, and that is I don't get strong very fast. They want me to take a tonic, but I don't think a tonic would help me much. I feel so sort of blue and depressed, and perhaps that's natural, for Bob's away most of the time and I'm here all alone. It's a big house and sort of lonely and sometimes I find myself imagining how it would seem to have someone from home in it with me, and I find myself almost crying—I do, for a fact, Aunt Mary.</p><p xml:id="awrejuv_1301004">Next week, Bob is going to be away more than usual, and I'm dreading it awfully; but never mind, Aunt Mary, I don't want to make you blue, because
@@ -1331,7 +1331,7 @@ honestly I don't think I'm going into a decline, even if the doctor does. And, a
 I'm not worth anything, and no one knows that as well as myself—except you, Aunt Mary.</p><p xml:id="awrejuv_1301005">I must stop because it's nine o'clock and time I was in bed. I've got some socks to wash out first, too; you see, I'm learning how to economize just as fast as I can. It's only two miles to my work, and I'm going to walk back and forth always—that'll be between fifty cents and a dollar saved each week. I'm figuring on how to live on my salary and never have a debt, and you'll be proud of me yet, Aunt Mary—if I don't die first.</p><p xml:id="awrejuv_1301007">Think of me all alone here next week. If I wasn't steadfast as a rock I believe I'd do some-
 <pb xml:id="awrejuv_1301006" n="122 REJUVENATION OF AUNT MARY"/>
 thing foolish just to get out of myself. But never mind, Aunt Mary, it's all right.</p><closer> <signed>Your afft. nephew,
-JOHN WATKINS, JR., DENHAM.</signed></closer></div></body></text></q>
+JOHN WATKINS, JR., DENHAM.</signed></closer></div></body></floatingText></q></q>
         <p xml:id="awrejuv_1301010">When Lucinda returned from drying her feet, Aunt Mary had her handkerchief in one hand and spectacles in the other.</p>
         <p xml:id="awrejuv_1301011">"Saints and sinners?" cried the maid, in a voice that grated with sympathy. " He ain't writ to say he's dead, is he?"</p>
         <p xml:id="awrejuv_1301012">"No," said Aunt Mary; "but he isn't as well as he makes out. There's no deceivin' me, Lucinda!"</p>
@@ -1348,7 +1348,7 @@ her own feeling toward Arethusa being considered.</p>
         <p xml:id="awrejuv_1301022">"Lucinda," her mistress said, after a few seconds had faded away unimproved, "seems to me I mentioned wantin' Joshua to get down a trunk-seems to me I did."</p>
         <p xml:id="awrejuv_1301023">The maid turned and left the room. She felt more or less dazed. Nothing so startling as Aunt Mary's wanting a trunk had happened in years. Disinheriting Jack was not in it by comparison. She went slowly away to find Joshua and found him in the farther end of the rear woodhouse—John Watkins, like several of his ilk, having marked each forward step in the world by a back extension of his house.</p>
         <p xml:id="awrejuv_1301024">Joshua was chopping wood; his ax was high in the air. He also was calm and unsuspecting.</p>
-        <figure><graphic url="ENTITY_awrejuvill3" rend="inline"/>
+        <figure><graphic url="awrejuvill3.jpg" rend="inline"/>
           <p xml:id="awrejuv_1301025">" 'She's goin' to the city all alone!' Lucinda's voice suddenly proclaimed<lb/>behind him."</p>
           <figDesc>Illustration between pages 124 and 125 of Warner's "The Rejuvenation of Aunt Mary"</figDesc>
         </figure>
@@ -2837,7 +2837,7 @@ manding what species of conversational significance her mistress attached to the
         <p xml:id="awrejuv_1302284">"My lands alive!" she said suddenly, "if here isn't one from Mitchell,—the dear boy. Well, I never did!—Lucinda, open the blinds to the other window, too—so I—can—see to—" her voice died away,—she was too deep in the letter to recollect what she was saying.</p>
         <p xml:id="awrejuv_1302285">Mitchell wrote:</p>
         <q>
-          <text xml:id="awrejuv_1302292">
+          <q><floatingText xml:id="awrejuv_1302292">
             <body xml:id="awrejuv_1302291">
               <div xml:id="awrejuv_265" type="letter">
                 <opener>
@@ -2856,7 +2856,7 @@ Yours, with fondest recollections,<lb/><name>HERBERT KENDRICK MITCHELL</name>.</
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="awrejuv_1302293">Aunt Mary laid the letter down.</p>
         <p xml:id="awrejuv_1302294">"Lucinda," she said in a curiously veiled tone, "give me a handkerchief—a big one. As big a one as I've got."</p>
@@ -2964,7 +2964,7 @@ her aunt's bedside and unfolded her sewing. Ere she had threaded her needle Aunt
 been meeker'n Moses all my life is no reason why I sh'd be willin' to be downtrodden clear to the end. Folks around me'd better begin to look sharp an' step lively from now on."</p>
         <p xml:id="awrejuv_1302392">Arethusa went to the desk at once and wrote:</p>
         <q>
-          <text xml:id="awrejuv_1302395">
+          <q><floatingText xml:id="awrejuv_1302395">
             <body xml:id="awrejuv_1302394">
               <div xml:id="awrejuv_275" type="letter">
                 <opener>
@@ -2977,7 +2977,7 @@ been meeker'n Moses all my life is no reason why I sh'd be willin' to be downtro
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="awrejuv_1302396">Jack was much perturbed upon receipt of this letter. He whistled a little and frowned a great deal. But at last he decided to be frank and tell the truth to Mrs. Rosscott. To that end he wrote her a lengthy note. After two preliminary pages so personal that it would not be right to print them for public reading, he continued thus:</p>
         <q>
@@ -3021,7 +3021,7 @@ and that, unless the tide turned, the end might not be even then.</p>
         <pb xml:id="awrejuv_1302457" n="284 REJUVENATION OF AUNT MARY"/>
         <p xml:id="awrejuv_1302458">Aunt Mary was so cool that neither niece stayed long, and Lucinda's letters had to be looked to for the progress of events. Lucinda's letters were frequent and not at all reassuring. After the sisters had talked them over, they sent them on to Jack.</p>
         <q>
-          <text xml:id="awrejuv_1302461">
+          <q><floatingText xml:id="awrejuv_1302461">
             <body xml:id="awrejuv_1302460">
               <div xml:id="awrejuv_284" type="letter">
                 <p xml:id="awrejuv_1302459">She [thus Lucinda invariably began] is the same as ever. It's cross the heart and bend the knee, an' then you ain't down far enough to suit her. But she's gettin' so afraid she'll go that she's wax in her hands. It would scare you. She won't let her out of her sight a minute. I must say that whatever she's giving her, she certainly is earning the money, for she works her harder every day. The poor thing is hopping about, or singing, or playing cards, from dawn to dark, and unless it's a provision in her will I can't see what would pay her enough for working so. Lord knows I considered I earned my wages without skipping around
@@ -3033,11 +3033,11 @@ Seems like something should be done.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="awrejuv_1302462">Three days later Lucinda wrote again:</p>
         <q>
-          <text xml:id="awrejuv_1302466">
+          <q><floatingText xml:id="awrejuv_1302466">
             <body xml:id="awrejuv_1302465">
               <div xml:id="awrejuv_285" type="letter">
                 <p xml:id="awrejuv_1302464">She does seem to be getting worse and worse. She makes her sleep on a sofa beside her, and she begins to look dreadfully worn out. I do believe she'll kill her, before she dies herself. I told her so to-day, but she only smiled. It's funny,
@@ -3053,11 +3053,11 @@ hours at a stretch some days.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="awrejuv_1302467">At the end of the week Lucinda wrote again:</p>
         <q>
-          <text xml:id="awrejuv_1302470">
+          <q><floatingText xml:id="awrejuv_1302470">
             <body xml:id="awrejuv_1302469">
               <div xml:id="awrejuv_286" type="letter">
                 <p xml:id="awrejuv_1302468">I think if you
@@ -3073,7 +3073,7 @@ trim to keep on amusing her she'll have to have some rest pretty quick.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="awrejuv_1302472">If the sisters were perturbed by the general trend of these epistles, Jack was half wild over the situation. He swore vigorously and he tramped up and down his room nights until the people underneath put it in their prayers that his woes might suggest suicide as speedily as possible. In vain he wrote to Mrs. Rosscott to restore Janice to her proper place in town; Mrs. Rosscott answered that
 <pb xml:id="awrejuv_1302471" n="286 REJUVENATION OF AUNT MARY"/> 
@@ -3117,7 +3117,7 @@ Jack had seen shrink steadily for years until now it could no longer reflect his
 that Gordian knot!" and then pack one's tooth-brush and start off
 unknotting, but it is quite another matter when one comes face to face
 with the problem and is met by the " buts"
-<figure><graphic url="ENTITY_awrejuvill4" rend="inline"/><p xml:id="awrejuv_1302500">" 'Yesterday I played poker until I did n't know a blue chip from<lb/>a white one' "</p><figDesc>Illustration between pages 290 and 291 of Warner's "The Rejuvenation of Aunt Mary"</figDesc></figure><pb xml:id="awrejuv_1302501" n="291 TWO ARE COMPANY"/>
+<figure><graphic url="awrejuvill4.jpg" rend="inline"/><p xml:id="awrejuv_1302500">" 'Yesterday I played poker until I did n't know a blue chip from<lb/>a white one' "</p><figDesc>Illustration between pages 290 and 291 of Warner's "The Rejuvenation of Aunt Mary"</figDesc></figure><pb xml:id="awrejuv_1302501" n="291 TWO ARE COMPANY"/>
 of those who have previously been essaying to disentangle it.</p>
         <p xml:id="awrejuv_1302503">"She won't let me go," Mrs. Rosscott had declared, "she won't consider it for a minute."</p>
         <p xml:id="awrejuv_1302504">"But she must," Jack had declared on his side. "My dearest, you can't stay and play maid to Aunt Mary indefinitely, and you know that as well as I do."</p>
@@ -3415,7 +3415,7 @@ ways, I hope you can. I guess you can. I presume so, anyway."</p>
 Chapter Twenty-Five
 <lb/>GRAND FINALE</head>
         <q>
-          <text xml:id="awrejuv_1302769">
+          <q><floatingText xml:id="awrejuv_1302769">
             <body xml:id="awrejuv_1302768">
               <div xml:id="awrejuv_315" type="letter">
                 <p xml:id="awrejuv_1302767">She has it all made up for him to marry her, and she is certainly as happy as she is and he is themselves. She is making plans at a great rate and she has consented to have her wedding here because she wants to be there herself. The day is set for Thanksgiving and the Lord be with us for everything has got to be just so and she is no more good at helping now that he's come. They are all going back to New York as soon as possible after it's over and I hope to be forgiven for stating plainly that it will be the happiest day of my life.</p>
@@ -3425,7 +3425,7 @@ Chapter Twenty-Five
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="awrejuv_1302771">Upon receipt of this astounding news Arethusa took the train and flew to the scene where such momentous happenings were piling up on one another. Her arrival was unexpected and the changes which she found ensued and ensuing were of a nature bewildering in the extreme. Aunt Mary had quit her régime of soup and sleep and
 was not only more energetically vigorous as to mind than ever, but strengthening daily as to bodily force. It might have been the excitement, for Burnett was there, Clover was <hi rend="italic">en route</hi>, and Mitchell
@@ -3491,7 +3491,7 @@ and over again, "well, all is they're lookin' forward to a good deal."</p>
         <p xml:id="awrejuv_1302816">Joshua said nothing. Mr. Stebbins had apprised him of Aunt Mary's arrangements in his behalf and he felt no inclination to criticize any of her doings and sayings.</p>
         <p xml:id="awrejuv_1302817">Toward the end of the next week this telegram was received.</p>
         <q>
-          <text xml:id="awrejuv_1302820">
+          <q><floatingText xml:id="awrejuv_1302820">
             <body xml:id="awrejuv_1302819">
               <div xml:id="awrejuv_322" type="letter">
                 <p xml:id="awrejuv_1302818">Dear Aunt Mary: We're home and ready when you are. Telegraph what train.</p>
@@ -3502,7 +3502,7 @@ and over again, "well, all is they're lookin' forward to a good deal."</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="awrejuv_1302821">The telegram was handed to Aunt Mary at ten in the morning.  Her fingers trembled as she opened it.</p>
         <p xml:id="awrejuv_1302823">"My heavens alive, Lucinda," she cried, the next minute, "I do believe, if you'll be quick, that I can make the twelve-twenty! Run! Tell Joshua
@@ -3518,19 +3518,19 @@ as he can. He can telegraph that I'm comin' after I'm gone."</p>
     <back xml:id="awrejuv_1206">
       <pb xml:id="awrejuv_1302828" n="[325]"/>
       <div xml:id="awrejuv_bm1" type="advert">
-        <figure><graphic url="ENTITY_awrejuvad1" rend="inline"/>
+        <figure><graphic url="awrejuvad1.jpg" rend="inline"/>
           <figDesc> Advert included in back of Warner's "The Rejuvenation of Aunt Mary"</figDesc>
         </figure>
         <pb xml:id="awrejuv_1302829" n="[326]"/>
-        <figure><graphic url="ENTITY_awrejuvad2" rend="inline"/>
+        <figure><graphic url="awrejuvad2.jpg" rend="inline"/>
           <figDesc> Advert included in back of Warner's "The Rejuvenation of Aunt Mary"</figDesc>
         </figure>
         <pb xml:id="awrejuv_1302830" n="[327]"/>
-        <figure><graphic url="ENTITY_awrejuvad1" rend="inline"/>
+        <figure><graphic url="awrejuvad1.jpg" rend="inline"/>
           <figDesc> Advert included in back of Warner's "The Rejuvenation of Aunt Mary"</figDesc>
         </figure>
         <pb xml:id="awrejuv_1302831" n="[328]"/>
-        <figure><graphic url="ENTITY_awrejuvad1" rend="inline"/>
+        <figure><graphic url="awrejuvad1.jpg" rend="inline"/>
           <figDesc> Advert included in back of Warner's "The Rejuvenation of Aunt Mary"</figDesc>
         </figure>
       </div>

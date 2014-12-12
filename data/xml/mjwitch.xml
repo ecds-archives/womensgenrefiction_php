@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mjwitch_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mjwitch_1206">
   <teiHeader xml:id="mjwitch1201"><fileDesc>
       <titleStmt>
         <title>The Witch, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Witch</title>. <pubPlace>Boston</pubPlace>:
@@ -79,13 +79,13 @@ added by the encoder and do not appear in the original text.</p>
     <front xml:id="mjwitch_1202">
       <pb xml:id="mjwitch_1305" n="[i]"/>
       <div xml:id="mjwitch_000" type="advert">
-        <figure><graphic url="ENTITY_mjwitchad1" rend="inline"/>
+        <figure><graphic url="mjwitchad1.jpg" rend="inline"/>
           <figDesc>Advertisement included in the front of Johnston's <hi rend="inline">The Witch</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="mjwitch_1306"/>
       <div xml:id="mjwitch_001" type="frontispiece">
-        <figure><graphic url="ENTITY_mjwitchfp" rend="inline"/>
+        <figure><graphic url="mjwitchfp.jpg" rend="inline"/>
           <figDesc>Frontispiece for Johnston's <hi rend="inline">The Witch</hi>.</figDesc>
         </figure>
       </div>
@@ -106,16 +106,16 @@ Press</publisher>
       </titlePage>
       <pb xml:id="mjwitch_1309" n="[iv]"/>
       <div xml:id="mjwitch_002" type="copyright">
-        <figure><graphic url="ENTITY_mjwitchad1" rend="inline"/>
+        <figure><graphic url="mjwitchad1.jpg" rend="inline"/>
           <figDesc>Copyright information for Johnston's <hi rend="inline">The Witch</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="mjwitch_13010" n="[v]"/>
-      <div xml:id="mjwitch_003" type="table of contents">
-        <figure><graphic url="ENTITY_mjwitchtc1" rend="inline"/>
+      <div xml:id="mjwitch_003" type="table_of_contents">
+        <figure><graphic url="mjwitchtc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Johnston's <hi rend="inline">The Witch</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_mjwitchtc2" rend="inline"/>
+        <figure><graphic url="mjwitchtc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Johnston's <hi rend="inline">The Witch</hi>.</figDesc>
         </figure>
       </div>

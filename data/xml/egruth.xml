@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="egruth_1202">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="egruth_1202">
   <teiHeader xml:id="egruth1201"><fileDesc>
       <titleStmt>
         <title>Ruth, an electronic edition</title>
@@ -15,10 +15,10 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
-        <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Ruth</title>. <pubPlace>London</pubPlace>: <publisher>Chapman and Hall</publisher>, <date>1867</date>.</bibl>
+        <bibl><author><name><choice><sic>Mrs. Gaskell</sic><reg>Gaskell, Elizabeth Cleghorn, 1810-1865</reg></choice></name></author>. <title>Ruth</title>. <pubPlace>London</pubPlace>: <publisher>Chapman and Hall</publisher>, <date>1867</date>.</bibl>
       </sourceDesc>
     </fileDesc><encodingDesc>
       <projectDesc>
@@ -83,25 +83,25 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="egruth_1203">
     <front xml:id="egruth_1204">
       <div xml:id="egruth_covers" type="covers">
-        <figure><graphic url="ENTITY_egruthfc" rend="inline"/>
+        <figure><graphic url="egruthfc.jpg" rend="inline"/>
           <figDesc>The front cover of Mrs. Gaskell's <hi rend="italic">Ruth</hi></figDesc>
         </figure>
-        <figure><graphic url="ENTITY_egruthsp" rend="inline"/>
+        <figure><graphic url="egruthsp.jpg" rend="inline"/>
           <figDesc>The spine of Mrs. Gaskell's <hi rend="italic">Ruth</hi></figDesc>
         </figure>
-        <figure><graphic url="ENTITY_egruthbc" rend="inline"/>
+        <figure><graphic url="egruthbc.jpg" rend="inline"/>
           <figDesc>The back cover of Mrs. Gaskell's <hi rend="italic">Ruth</hi></figDesc>
         </figure>
-        <figure><graphic url="ENTITY_egruthifc" rend="inline"/>
+        <figure><graphic url="egruthifc.jpg" rend="inline"/>
           <figDesc>The inside front cover of Mrs. Gaskell's <hi rend="italic">Ruth</hi></figDesc>
         </figure>
-        <figure><graphic url="ENTITY_egruthads" rend="inline"/>
+        <figure><graphic url="egruthads.jpg" rend="inline"/>
           <figDesc>The inside front endpaper of Mrs. Gaskell's <hi rend="italic">Ruth</hi></figDesc>
         </figure>
-        <figure><graphic url="ENTITY_egruthads2" rend="inline"/>
+        <figure><graphic url="egruthads2.jpg" rend="inline"/>
           <figDesc>The inside back endpaper of Mrs. Gaskell's <hi rend="italic">Ruth</hi></figDesc>
         </figure>
-        <figure><graphic url="ENTITY_egruthibc" rend="inline"/>
+        <figure><graphic url="egruthibc.jpg" rend="inline"/>
           <figDesc>The inside back cover of Mrs. Gaskell's <hi rend="italic">Ruth</hi></figDesc>
         </figure>
       </div>
@@ -736,7 +736,7 @@ Bellingham went tiptoe towards the door, and chiding herself because her stiff, 
         <p xml:id="egruth_130550">Anything to get rid of his uneasiness. He felt that he was not behaving as he should do to Ruth, though the really right never entered his head. But it would extricate him from his present dilemma, and save him many lectures; he knew that his mother, always liberal where money was concerned, would "do the thing handsomely," and it would always be easy to write and give Ruth what explanation he felt inclined, in a day or two; so he consented, and soon lost some of his uneasiness in watching the bustle of the preparation for their departure.</p>
         <p xml:id="egruth_130551">All this time Ruth was quietly spending in her room, beguiling the waiting, weary hours, with pictures of the meeting at the end. Her room looked to the back, and was in a side-wing away from the principal state apartments, consequently she was not roused to suspicion by any of the commotion; but, indeed, if she had heard the banging of doors, the sharp directions, the carriage-wheels, she would still not have suspected the truth; her own love was too faithful.</p>
         <p xml:id="egruth_130555">It was four o'clock and past, when some one knocked at her door, and, on entering, gave her a note, which Mrs. Bellingham had left. That lady had found some difficulty in wording it so as to satisfy herself, but it was as follows:—
-<q><text xml:id="egruth_130554"><body xml:id="egruth_130553"><p xml:id="egruth_130552">"My son, on recovering from his illness, is, I thank God, happily conscious of the sinful way in which he has been living with you. By his earnest desire, and in order to avoid seeing you again, we are on the point of leaving this place; but, before I go, I wish to exhort you to repentance, and to remind you that you will not have your own guilt alone upon your head, but that of any young man whom you may succeed in entrapping into vice. I shall pray that you may turn to an honest life, and I strongly recommend you, if indeed you are not' dead in trespasses and sins,' to enter some penitentiary. In accordance with my son's Wishes, I forward you in this envelope a bank-note of fifty pounds.</p><signed>"MARGARET BELLINGHAM."</signed></body></text></q></p>
+<q><floatingText xml:id="egruth_130554"><body xml:id="egruth_130553"><p xml:id="egruth_130552">"My son, on recovering from his illness, is, I thank God, happily conscious of the sinful way in which he has been living with you. By his earnest desire, and in order to avoid seeing you again, we are on the point of leaving this place; but, before I go, I wish to exhort you to repentance, and to remind you that you will not have your own guilt alone upon your head, but that of any young man whom you may succeed in entrapping into vice. I shall pray that you may turn to an honest life, and I strongly recommend you, if indeed you are not' dead in trespasses and sins,' to enter some penitentiary. In accordance with my son's Wishes, I forward you in this envelope a bank-note of fifty pounds.</p><signed>"MARGARET BELLINGHAM."</signed></body></floatingText></q></p>
         <p xml:id="egruth_130556">Was this the end of all? Had he, indeed, gone? She started up and asked this last question of the servant, who, half guessing at the purport of the note, had lingered about the room, curious to see the effect produced.</p>
         <p xml:id="egruth_130557">"Iss, indeed, miss; the carriage drove from the door as I came up-stairs. You'll see it now on the Yspytty road, if you'll please to come to the window of No. 24."</p>
         <pb xml:id="egruth_130558" n="65 RUTH."/>
@@ -814,8 +814,8 @@ Bellingham went tiptoe towards the door, and chiding herself because her stiff, 
         <pb xml:id="egruth_130627" n="73 RUTH."/>
         <p xml:id="egruth_130628">She was gone before he could rally his scattered senses enough to remember that he had not the least idea of the name of the party to whom he was to write. The quiet leisure and peace of his little study at home favoured his habit of reverie and long deliberation, just as her position as mistress of an inn obliged her to quick, decisive ways.</p>
         <p xml:id="egruth_130632">Her advice, though good in some points, was unpalatable in others. It was true that Ruth's condition ought to be known by those who were her friends; but were these people to whom he was now going to write friends? He knew there was a rich mother, and a handsome, elegant son; and he had also some idea of the circumstances which might a little extenuate their mode of quitting Ruth. He had wide-enough sympathy to understand that it must have been a most painful position in which the mother had been placed, on finding herself under the same root with a girl who was living with her son, as Ruth was. And yet he did not like to apply to her; to write to the son was still more out of the question, as it seemed like asking him to return. But through one or the other lay the only clue to her friends, who certainly ought to be made acquainted with her position. At length he wrote:—
-<q><text xml:id="egruth_130631"><body xml:id="egruth_130630"><salute>"MADAM,</salute><p xml:id="egruth_130629">"I write to tell you of the condition of the poor young woman"—(here came a long pause of deliberation)—"who accompanied your son on his arrival here, and who was left behind on your departure yesterday. She is lying (as it appears to me) in a very dangerous state at my lodgings; and, if I may suggest, it would be kind to allow your maid to return and attend upon her until she is sufficiently recovered to be restored to her friends, if, indeed, they could not come to take charge of her themselves.</p><closer><salute>"I remain, madam,<lb/>
-"Your obedient servant,</salute><signed>"THURSTAN BENSON."</signed></closer></body></text></q></p>
+<q><floatingText xml:id="egruth_130631"><body xml:id="egruth_130630"><salute>"MADAM,</salute><p xml:id="egruth_130629">"I write to tell you of the condition of the poor young woman"—(here came a long pause of deliberation)—"who accompanied your son on his arrival here, and who was left behind on your departure yesterday. She is lying (as it appears to me) in a very dangerous state at my lodgings; and, if I may suggest, it would be kind to allow your maid to return and attend upon her until she is sufficiently recovered to be restored to her friends, if, indeed, they could not come to take charge of her themselves.</p><closer><salute>"I remain, madam,<lb/>
+"Your obedient servant,</salute><signed>"THURSTAN BENSON."</signed></closer></body></floatingText></q></p>
         <p xml:id="egruth_130634">The note was very unsatisfactory after all his consideration, but it was the best he could do. He made inquiry of a passing servant as to the lady's name, directed the note, and placed it on the indicated shelf. He then returned to his lodgings, to await the doctor's coming and the postboy's return. There was no alteration in Ruth; she was as one stunned into unconsciousness; she did not move her posture, she hardly breathed. From time to time Mrs. Hughes wetted her mouth with some liquid, and there was a little mechanical motion of the lips; that was the only sign of life she gave. The doctor came and shook his head,—"a thorough prostration of strength, occasioned by some great shock on the nerves,"—and prescribed care and quiet, and mysterious medicines, but acknowledged that the result was doubtful, very doubtful. After his departure, Mr. Benson took <pb xml:id="egruth_130633" n="74 RUTH."/>his Welsh grammar and tried again to master the ever-puzzling rules for the mutations of letters; but it was of no use, for his thoughts were absorbed by the life-in-death condition of the young creature, who was lately bounding and joyous.</p>
         <p xml:id="egruth_130635">The maid and the luggage, the car and the driver, had arrived before noon at their journey's end, and the note had been delivered. It annoyed Mrs. Bellingham exceedingly. It was the worst of these kind of connexions,—there was no calculating the consequences; they were never ending. All sorts of claims seemed to be established, and all sorts of people to step in to their settlement. The idea of sending her maid! Why, Simpson would not go if she asked her. She soliloquised thus while reading the letter; and then, suddenly turning round to the favourite attendant, who had been listening to her mistress's remarks with no inattentive ear, she asked:—</p>
         <p xml:id="egruth_130636">"Simpson, would you go and nurse this creature, as this——" she looked at the signature,—"Mr. Benson, whoever he is, proposes?"</p>
@@ -832,7 +832,7 @@ Bellingham went tiptoe towards the door, and chiding herself because her stiff, 
         <p xml:id="egruth_130648">"If she has no friends, and is the creature you describe (which is confirmed by my own observation), the best place for her is, as I said before, the Penitentiary. Her fifty pounds will keep her a week or so, if she is really unable to travel, and pay for her journey; and if on her return to Fordham she will let me know, I will undertake to obtain her admission immediately."</p>
         <p xml:id="egruth_130649">"I'm sure it's well for her she has to do with a lady who will take any interest in her, after what has happened."</p>
         <p xml:id="egruth_130653">Mrs. Bellingham called for her writing-desk, and wrote a few hasty lines to be sent back by the post-boy, who was on the point of starting:—
-<q><text xml:id="egruth_130652"><body xml:id="egruth_130651"><p xml:id="egruth_130650">"Mrs. Bellingham presents her compliments to her
+<q><floatingText xml:id="egruth_130652"><body xml:id="egruth_130651"><p xml:id="egruth_130650">"Mrs. Bellingham presents her compliments to her
 unknown correspondent, Mr. Benson, and begs to inform him of a
 circumstance of which she believes he was ignorant when he wrote the
 letter with which she has been favoured; namely, that provision to the
@@ -844,19 +844,19 @@ into the Fordham Penitentiary, the best place for such a Character, as
 by this profligate action she has forfeited the only friend remaining
 to her in the world. This proposition Mrs. Bellingham repeats; and
 they are the young woman's best friends who most urge her to comply
-with the course now pointed out."</p></body></text></q></p>
+with the course now pointed out."</p></body></floatingText></q></p>
         <p xml:id="egruth_130654">"Take care Mr. Bellingham hears nothing of this Mr. Benson's note," said Mrs. Bellingham, as she delivered the answer to her maid; "he is so sensitive just now that it would annoy him sadly, I am sure."</p>
         <pb xml:id="egruth_130655" n="76 RUTH."/>
       </div>
       <div xml:id="egruth_011" n="11" type="chapter">
         <head>CHAPTER XI.</head>
         <p xml:id="egruth_130660">You have now seen the note which was delivered into Mr. Benson's hands, as the cool shades of evening stole over the glowing summer sky. When he had read it, he again prepared to write a few hasty lines before the post went out. The postboy was even now sounding his horn through the village as a signal for letters to be ready; and it was well that Mr. Benson, in his long morning's meditation, had decided upon the course to be pursued, in case of such an answer as that which he had received from Mrs. Bellingham. His present note was as follows:
-<q><text xml:id="egruth_130659"><body xml:id="egruth_130658"><div xml:id="egruth_111" type="letter"><salute>"DEAR FAITH,</salute><p xml:id="egruth_130656">"You must come to this place directly, where I earnestly desire you and your advice. I am well myself, so do not be alarmed. I have no time for explanation, but I am sure you will not refuse me; let me trust that I shall see you on Saturday at the latest. You know the mode by which I came; it is the best both for expedition and cheapness. Dear Faith do not fail me.</p><salute>"Your affectionate brother,</salute><signed>"THURSTAN BENSON.</signed></div><div xml:id="egruth_211" type="postcript"><p xml:id="egruth_130657">"P.S.—I am afraid the
+<q><floatingText xml:id="egruth_130659"><body xml:id="egruth_130658"><div xml:id="egruth_111" type="letter"><salute>"DEAR FAITH,</salute><p xml:id="egruth_130656">"You must come to this place directly, where I earnestly desire you and your advice. I am well myself, so do not be alarmed. I have no time for explanation, but I am sure you will not refuse me; let me trust that I shall see you on Saturday at the latest. You know the mode by which I came; it is the best both for expedition and cheapness. Dear Faith do not fail me.</p><salute>"Your affectionate brother,</salute><signed>"THURSTAN BENSON.</signed></div><div xml:id="egruth_211" type="postcript"><p xml:id="egruth_130657">"P.S.—I am afraid the
 money I left may be running short. Do not let this stop you. Take my
 Facciolati to Johnson's, he will advance upon it; it is the third row,
-bottom shelf. Only come.</p></div></body></text></q></p>
+bottom shelf. Only come.</p></div></body></floatingText></q></p>
         <p xml:id="egruth_130664">When this letter was despatched he had done all he could; and the next two days passed like a long monotonous dream of watching, thought, and care, undisturbed by any event, hardly by the change from day to night, which, now the harvest moon was at her full, was scarcely perceptible. On Saturday morning the answer came:—
-<q><text xml:id="egruth_130663"><body xml:id="egruth_130662"><salute>"DEAREST THURSTAN,</salute><p xml:id="egruth_130661">"Your incomprehensible summons has just reached me, and I obey, thereby proving my right to my name of Faith. I shall be with you almost as soon as this letter. I cannot help feeling anxious, as well as curious. I have money enough, and it is well I have; for Sally, who guards your room like a dragon, would rather see me walk the whole way, than have any of your things disturbed.</p><salute>"Your affectionate sister,</salute><signed>"FAITH BENSON."</signed></body></text></q></p>
+<q><floatingText xml:id="egruth_130663"><body xml:id="egruth_130662"><salute>"DEAREST THURSTAN,</salute><p xml:id="egruth_130661">"Your incomprehensible summons has just reached me, and I obey, thereby proving my right to my name of Faith. I shall be with you almost as soon as this letter. I cannot help feeling anxious, as well as curious. I have money enough, and it is well I have; for Sally, who guards your room like a dragon, would rather see me walk the whole way, than have any of your things disturbed.</p><salute>"Your affectionate sister,</salute><signed>"FAITH BENSON."</signed></body></floatingText></q></p>
         <p xml:id="egruth_130666">It was a great relief to Mr. Benson to think that his sister would so soon be with him. He had been accustomed from <pb xml:id="egruth_130665" n="77 RUTH."/>childhood to rely on her prompt judgment and excellent sense; and to her care he felt that Ruth ought to be consigned, as it was too much to go on taxing good Mrs. Hughes with night watching and sick nursing, with all her other claims on her time. He asked her once more to sit by Ruth, while he went to meet his sister.</p>
         <p xml:id="egruth_130667">The coach passed by the foot of the steep ascent which led up to Llan-dhu. He took a boy to carry his sister's luggage when she arrived; they were too soon at the bottom of the hill, and the boy began to make ducks and drakes in the shallowest part of the stream, which there flowed glassy and smooth, while Mr. Benson sat down on a great stone, under the shadow of an alder bush which grew where the green flat meadow skirted the water. It was delightful to be once more in the open air, and away from the scenes and thoughts which had been pressing on him for the last three days. There was new beauty in everything: from the blue mountains which glimmered in the distant sunlight, down to the flat, rich, peaceful vale, with its calm round shadows, where he sat. The very margin of white pebbles which lay on the banks of the stream had a sort of cleanly beauty about it. He felt calmer and more at ease than he had done for some days; and yet, when he began to think, it was rather a strange story which he had to tell his sister, in order to account for his urgent summons. Here was he, sole friend and guardian of a poor sick girl, whose very name he did not know; about whom all that he did know was, that she had been the mistress of a man who had deserted her, and that he feared—he believed—she had contemplated suicide. The offence, too, was one for which his sister, good and kind as she was, had little compassion. Well, he must appeal to her love for him, which was a very unsatisfactory mode of proceeding, as he would far rather have had her interest in the girl founded on reason, or some less personal basis, than showing it merely because her brother wished it.</p>
         <p xml:id="egruth_130668">The Coach came slowly rumbling over the stony road. His sister was outside, but got down in a brisk active way, and greeted her brother heartily and affectionately. She was considerably taller than he was, and must have been very handsome; her black hair was parted plainly over her forehead, and her dark expressive eyes and straight nose still retained the beauty of her youth, I do not know whether she was older than her brother, but, probably owing to his infirmity requiring her care, she had something of a mother's manner towards him.</p>

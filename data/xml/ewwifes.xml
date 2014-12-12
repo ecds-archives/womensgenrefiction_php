@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ewwifes_1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ewwifes_1205">
   <teiHeader xml:id="ewwifes1201"><fileDesc>
       <titleStmt>
         <title>The Wife's Trials and Triumphs, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Wife's Trials and Triumphs</title>. <pubPlace>New York</pubPlace>:
@@ -88,7 +88,7 @@ TRIALS<lb/>AND<lb/>TRIUMPHS.</titlePart>
 ETC. ETC.</byline>
         <epigraph>
           <cit>
-            <quote>
+            <q>
               <lg type="stanza">
                 <l>"To soothe thy sickness, watch thy health</l>
                 <l>Partake, but never waste thy wealth,</l>
@@ -99,7 +99,7 @@ ETC. ETC.</byline>
                 <l>To this alone my thoughts aspire,</l>
                 <l>More can I give, or thou require?"</l>
               </lg>
-            </quote>
+            </q>
           </cit>
         </epigraph>
         <docImprint><pubPlace>NEW YORK:</pubPlace><publisher>SHELDON &amp; CO., <address><addrLine>115 NASSAU
@@ -108,19 +108,19 @@ LINCOLN.</publisher><docDate>1860.</docDate></docImprint>
       </titlePage>
       <pb xml:id="ewwifes_1307" n="[ii]"/>
       <div xml:id="ewwifes_000" type="copyright">
-        <figure><graphic url="ENTITY_ewwifescr" rend="inline"/>
+        <figure><graphic url="ewwifescr.jpg" rend="inline"/>
           <figDesc>Copyright information for Worboise's <hi rend="italic">The
 Wife's Trials and Triumphs</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="ewwifes_1308" n="[iii]"/>
-      <div xml:id="ewwifes_001" type="table of contents">
-        <figure><graphic url="ENTITY_ewwifestc1" rend="inline"/>
+      <div xml:id="ewwifes_001" type="table_of_contents">
+        <figure><graphic url="ewwifestc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Worboise's <hi rend="italic">The
 Wife's Trials and Triumphs</hi>.</figDesc>
         </figure>
         <pb xml:id="ewwifes_1309" n="iv"/>
-        <figure><graphic url="ENTITY_ewwifestc2" rend="inline"/>
+        <figure><graphic url="ewwifestc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Worboise's <hi rend="italic">The
 Wife's Trials and Triumphs</hi>.</figDesc>
         </figure>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pwspirit_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="pwspirit_1206">
   <teiHeader xml:id="pwspirit1201"><fileDesc>
       <titleStmt>
         <title>A Spirit of Mirth, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A Spirit of Mirth</title>. <pubPlace>London</pubPlace>:
@@ -107,17 +107,17 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="pwspirit_13010" n="[iv]"/>
       <div xml:id="pwspirit_001" type="copyright">
-        <figure><graphic url="ENTITY_pwspiritcr" rend="inline"/>
+        <figure><graphic url="pwspiritcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Webling's <hi rend="italic">A Spirit of Mirth</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="pwspirit_13011" n="v"/>
-      <div xml:id="pwspirit_002" type="table of contents">
-        <figure><graphic url="ENTITY_pwspirittc1" rend="inline"/>
+      <div xml:id="pwspirit_002" type="table_of_contents">
+        <figure><graphic url="pwspirittc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Webling's <hi rend="italic">A Spirit of Mirth</hi>.</figDesc>
         </figure>
         <pb xml:id="pwspirit_13012" n="vi"/>
-        <figure><graphic url="ENTITY_pwspirittc2" rend="inline"/>
+        <figure><graphic url="pwspirittc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Webling's <hi rend="italic">A Spirit of Mirth</hi>.</figDesc>
         </figure>
       </div>

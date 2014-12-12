@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mcmurde_12012">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mcmurde_12012">
   <teiHeader xml:id="mcmurde1201"><fileDesc>
       <titleStmt>
         <title>The Murder of Delicia, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Murder of Delicia</title>. <pubPlace>London</pubPlace>: <publisher>Skeffington and Son</publisher>, <date>1896</date>. 288 pages.</bibl>
@@ -869,7 +869,7 @@ and there was an uneasy sense of foreboding in her good, motherly soul that nigh
 <pb xml:id="mcmurde_130618" n="162     The Murder of Delicia"/>
 erroneous estimate of her, for, to the casual observer, she was merely a pretty, lovable woman, with a sunny smile and a graceful bearing, and that was all. No one would have given her credit for such virtues as strong self-restraint, courage, determination, and absolute indifference to opinions; yet all these she had in no small degree, combined with an extraordinary directness and swiftness of action which is commendable enough when it distinguishes a man, but is somewhat astonishing when discovered in the naturally capricious composition of a woman. This direct method of conduct impelled her now; for while Mrs Cavendish lay awake worrying about her, she herself, on returning home that evening, had fully made up her mind as to what she meant to do. Going into her study, she sat down and wrote a letter to her husband, in which, with concise and uncomplaining brevity, she told him all. She concluded her epistle thus:--</p>
         <q type="letter">
-          <text xml:id="mcmurde_1204">
+          <q><floatingText xml:id="mcmurde_1204">
             <body xml:id="mcmurde_1203">
               <p xml:id="mcmurde_130621">'I am unable to tell you my own feelings on this matter, as I have not yet had time to realise them even to myself. The surprise is too sudden--the disappointment I experience
 <pb xml:id="mcmurde_130620" n="163     The Murder of Delicia"/>
@@ -878,7 +878,7 @@ in you too keen. I am quite aware that many men keep stage-artistes for their ow
                 <name>'DELICIA VAUGHAN.'</name>
               </signed>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="mcmurde_130622">When she had written all she had to say, she placed the letter in an envelope, addressed it, and, calling Robson, bade him deliver it to his master directly he returned. Robson glanced at her deferentially, wondering within himself at the extreme pallor of her face and feverish brightness of her eyes.</p>
         <pb xml:id="mcmurde_130623" n="164     The Murder of Delicia"/>
@@ -947,7 +947,7 @@ law! Made by men for themselves and their own convenience! The 'cruelty' which r
         <p xml:id="mcmurde_130674">'She can't get rid of me, that's one thing,' he reflected; 'not that I suppose she would try it on. Damn that Bond Street jeweller for an ass! Why couldn't the fellow hold his confounded tongue! Of course, it is a split between us; but, by Jove!--a woman who writes books ought to know that a man must get some fun out of life. We can't all be literary! Besides, if there is to be a row, I have got a very good cause of complaint on my side!'</p>
         <pb xml:id="mcmurde_130675" n="178     The Murder of Delicia"/>
         <p xml:id="mcmurde_130677">Whereupon he snatched up a pen and wrote as follows:--
-<q type="letter"><text xml:id="mcmurde_1206"><body xml:id="mcmurde_1205"><salute>'DEAR DELICIA,</salute><p xml:id="mcmurde_130676">--I regret that a woman of your culture and intelligence should not be able to understand the world and the ways of the world better. Men do not discuss such subjects as that alluded to in your letter; the least said the soonest mended. I enclose a cutting from <hi rend="italic">Honesty</hi>, in which you will perceive that I possibly have more cause to complain of you than you of me. Greater licence is permitted to men than to women, as I imagined you knew, and your position with regard to the public should make you doubly careful. I hope you will enjoy your change of air.--</p><signed>Yours affectionately,<name>WILL.'</name></signed></body></text></q></p>
+<q type="letter"><q><floatingText xml:id="mcmurde_1206"><body xml:id="mcmurde_1205"><salute>'DEAR DELICIA,</salute><p xml:id="mcmurde_130676">--I regret that a woman of your culture and intelligence should not be able to understand the world and the ways of the world better. Men do not discuss such subjects as that alluded to in your letter; the least said the soonest mended. I enclose a cutting from <hi rend="italic">Honesty</hi>, in which you will perceive that I possibly have more cause to complain of you than you of me. Greater licence is permitted to men than to women, as I imagined you knew, and your position with regard to the public should make you doubly careful. I hope you will enjoy your change of air.--</p><signed>Yours affectionately,<name>WILL.'</name></signed></body></floatingText></q></q></p>
         <p xml:id="mcmurde_130678">He read over the press-cutting alluded to, which ran as follows:--</p>
         <p xml:id="mcmurde_130680">'It has been frequently rumoured that the real "Dona Sol" of the "Ernani" who has been so long delighting the histrionic world, is a well-known lady novelist, who has been lifted into far more prominence that her literary capabilities would ever have given her, by her
 <pb xml:id="mcmurde_130679" n="179     The Murder of Delicia"/>
@@ -1481,7 +1481,7 @@ as nothing when set against the manner in which he considered he had been 'done'
         <p xml:id="mcmurde_1301106">And his eyes rested tenderly on the wistful companion of his musing, Spartan, who had been left to his care in a very special manner, with a little note from Delicia herself, which
 <pb xml:id="mcmurde_1301104" n="286     The Murder of Delicia"/>
 was delivered to him by her lawyers and which ran thus:--
-<q type="letter"><text xml:id="mcmurde_1208"><body xml:id="mcmurde_1207"><salute>'DEAR FRIEND,</salute><p xml:id="mcmurde_1301105">--Take care of Spartan. He will be contented with you, for he loves you. Please console him and make him happy for my sake.</p><signed><name> DELICIA.'</name></signed></body></text></q></p>
+<q type="letter"><q><floatingText xml:id="mcmurde_1208"><body xml:id="mcmurde_1207"><salute>'DEAR FRIEND,</salute><p xml:id="mcmurde_1301105">--Take care of Spartan. He will be contented with you, for he loves you. Please console him and make him happy for my sake.</p><signed><name> DELICIA.'</name></signed></body></floatingText></q></q></p>
         <p xml:id="mcmurde_1301107">Valdis knew that little letter by heart; it was more priceless to him than any other worldly possession.</p>
         <p xml:id="mcmurde_1301108">'Spartan,' he said now, calling the faithful animal to his side and taking his shaggy, massive head between his hands, 'Out of the whole world that calls our Delicia "famous," the world that has gained new beauty, hope and joy from the blossoming of her genius, only you and I loved her!'</p>
         <p xml:id="mcmurde_1301109">Spartan sighed. He had become a melancholy, meditative creature, and his great brown eyes were often suffused with tears. Had he been able to answer his new master then, he might have said,</p>
@@ -1500,22 +1500,22 @@ shall escape the eyes of Eternal Justice, or fail to bring punishment upon the w
       </div>
       <pb xml:id="mcmurde_1301115" n="289"/>
       <div xml:id="mcmurde_015" type="adverts">
-        <figure><graphic url="ENTITY_mcmurde289bm" rend="inline"/>
+        <figure><graphic url="mcmurde289bm.jpg" rend="inline"/>
           <figDesc>Image of a page of advertisements included at the back of
 Corelli's <hi rend="italic">The Murder of Delicia</hi>.</figDesc>
         </figure>
         <pb xml:id="mcmurde_1301116" n="290"/>
-        <figure><graphic url="ENTITY_mcmurde290bm" rend="inline"/>
+        <figure><graphic url="mcmurde290bm.jpg" rend="inline"/>
           <figDesc>Image of a page of advertisements included at the back of
 Corelli's <hi rend="italic">The Murder of Delicia</hi>.</figDesc>
         </figure>
         <pb xml:id="mcmurde_1301117" n="291"/>
-        <figure><graphic url="ENTITY_mcmurde291bm" rend="inline"/>
+        <figure><graphic url="mcmurde291bm.jpg" rend="inline"/>
           <figDesc>Image of a page of advertisements included at the back of
 Corelli's <hi rend="italic">The Murder of Delicia</hi>.</figDesc>
         </figure>
         <pb xml:id="mcmurde_1301118" n="292"/>
-        <figure><graphic url="ENTITY_mcmurde292bm" rend="inline"/>
+        <figure><graphic url="mcmurde292bm.jpg" rend="inline"/>
           <figDesc>Image of a page of advertisements included at the back of
 Corelli's <hi rend="italic">The Murder of Delicia</hi>.</figDesc>
         </figure>

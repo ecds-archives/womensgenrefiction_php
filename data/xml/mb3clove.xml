@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb3clove_0000">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mb3clove_0000">
   <teiHeader xml:id="mb3clove0001"><fileDesc>
       <titleStmt>
         <title>The Cloven Foot, volume III, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Cloven Foot, volume
@@ -85,7 +85,7 @@ added by the encoder and do not appear in the original text.</p>
     <front xml:id="mb3clove_0003">
       <pb xml:id="mb3clove_1305"/>
       <div xml:id="mb3clove_000" type="paratext">
-        <figure><graphic url="ENTITY_mb3clovefm1" rend="inline"/>
+        <figure><graphic url="mb3clovefm1.jpg" rend="inline"/>
           <figDesc>Inscription in the front of the third volume of Braddon's <title rend="italic">The Cloven Foot</title>.</figDesc>
         </figure>
       </div>
@@ -105,8 +105,8 @@ added by the encoder and do not appear in the original text.</p>
         <imprimatur>[<hi rend="italic">All rights reserved.</hi>]</imprimatur>
       </titlePage>
       <pb xml:id="mb3clove_1308" n="[iii]"/>
-      <div xml:id="mb3clove_001" type="table of contents">
-        <figure><graphic url="ENTITY_mb3clovetc" rend="inline"/>
+      <div xml:id="mb3clove_001" type="table_of_contents">
+        <figure><graphic url="mb3clovetc.jpg" rend="inline"/>
           <figDesc>Table of contents for the third volume of Braddon's <title rend="italic">The Cloven Foot</title>.</figDesc>
         </figure>
       </div>

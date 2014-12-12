@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="hdthis_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="hdthis_1201">
   <teiHeader xml:id="hdthis1202"><fileDesc>
       <titleStmt>
         <title>This Way Out, an electronic edition</title>
@@ -11,7 +11,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>This Way Out</title>. <pubPlace>London</pubPlace>: <publisher>Methuen &amp; Co., Ltd.</publisher><date>1917</date></bibl>
@@ -65,7 +65,7 @@
       </titlePage>
       <pb xml:id="hdthis_1308" n="[ii]"/>
       <div xml:id="hdthis_100" type="advert">
-        <figure><graphic url="ENTITY_hdthisfm1" rend="inline"/>
+        <figure><graphic url="hdthisfm1.jpg" rend="inline"/>
           <figDesc> Advert included in front of Dudeney's "This Way Out"
 </figDesc>
         </figure>
@@ -1678,7 +1678,7 @@ you think. If it isn't any good, if Branch won't touch it, I shall——"</p>
         <p xml:id="hdthis_1301678">When he let himself into the set he found it empty. Across the landing, he had noticed that Buttifant's oak was sported. The sitting-room was dim, so he lighted a candle. He wished, although it was June, that he could light a fire also. He shivered so.</p>
         <p xml:id="hdthis_1301680">A note from Jane addressed to him was upon the roll-top desk. For one absurd moment he had an idea that she had eloped with Buttifant. He was full of imaginative hope concerning Jane and he did not care what became of her so long as she got out of the way: that is, so long as <hi rend="italic">Cackle Street</hi> was never <pb xml:id="hdthis_1301679" n="180 THIS WAY OUT"/>produced. He looked at the empty grate, half hoping to see the tinder of <hi rend="Italic">Cackle Street</hi> lying in it. She had threatened to burn it. Nothing in the grate! So he opened her note. Jane said,</p>
         <q>
-          <text xml:id="hdthis_1301684">
+          <q><floatingText xml:id="hdthis_1301684">
             <body xml:id="hdthis_1301683">
               <div xml:id="hdthis_9999" type="letter">
                 <p xml:id="hdthis_1301681">
@@ -1696,7 +1696,7 @@ you think. If it isn't any good, if Branch won't touch it, I shall——"</p>
                 </p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="hdthis_1301685">She had said that twice; sick to death!</p>
         <p xml:id="hdthis_1301686">Vaguener stood there, thoughtful.</p>

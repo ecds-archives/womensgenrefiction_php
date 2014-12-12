@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cawprin_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cawprin_1206">
   <teiHeader xml:id="cawprin1201"><fileDesc>
       <titleStmt>
         <title>The Princess Passes, an electronic edition</title>
@@ -16,7 +16,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Princess
@@ -81,17 +81,17 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="cawprin_1205">
     <front xml:id="cawprin_1202">
       <div xml:id="cawprin_000" type="covers">
-        <figure><graphic url="ENTITY_cawprinfc" rend="inline"/>
+        <figure><graphic url="cawprinfc.jpg" rend="inline"/>
           <figDesc>Front cover of the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
         <pb xml:id="cawprin_1305"/>
-        <figure><graphic url="ENTITY_cawprinsp" rend="inline"/>
+        <figure><graphic url="cawprinsp.jpg" rend="inline"/>
           <figDesc>Spine of the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="cawprin_1306"/>
       <div xml:id="cawprin_001" type="frontispiece">
-        <figure><graphic url="ENTITY_cawprinfp" rend="inline"/>
+        <figure><graphic url="cawprinfp.jpg" rend="inline"/>
           <p xml:id="cawprin_1307">"FOOD FOR THE GODS, AND ONLY A BOY TO EAT IT."—Page 102.</p>
           <figDesc>Frontispiece in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
@@ -113,7 +113,7 @@ Lightening Conductor"</byline>
       </titlePage>
       <pb xml:id="cawprin_13010" n="[ii]"/>
       <div xml:id="cawprin_002" type="copyright">
-        <figure><graphic url="ENTITY_cawprincr" rend="inline"/>
+        <figure><graphic url="cawprincr.jpg" rend="inline"/>
           <figDesc>Copyright information for the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
       </div>
@@ -122,18 +122,18 @@ Lightening Conductor"</byline>
         <p xml:id="cawprin_13012">TO <lb/>Alice Neal</p>
       </div>
       <pb xml:id="cawprin_13013" n="v"/>
-      <div xml:id="cawprin_004" type="table of contents">
-        <figure><graphic url="ENTITY_cawprintc1" rend="inline"/>
+      <div xml:id="cawprin_004" type="table_of_contents">
+        <figure><graphic url="cawprintc1.jpg" rend="inline"/>
           <figDesc>Table of contents for the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
         <pb xml:id="cawprin_13014" n="vi"/>
-        <figure><graphic url="ENTITY_cawprintc2" rend="inline"/>
+        <figure><graphic url="cawprintc2.jpg" rend="inline"/>
           <figDesc>Table of contents for the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="cawprin_13015" n="[vii]"/>
-      <div xml:id="cawprin_005" type="list of illustrations">
-        <figure><graphic url="ENTITY_cawprinlist" rend="inline"/>
+      <div xml:id="cawprin_005" type="list_of_illustrations">
+        <figure><graphic url="cawprinlist.jpg" rend="inline"/>
           <figDesc>List of illustrations for the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
       </div>
@@ -176,7 +176,7 @@ pink-and-white confusion, if I, too, were bound for  Scotland. "But, of course y
         <p xml:id="cawprin_13034">I knew that Jack Winston would understand, for he had not been the only one last winter who had written letters. But Jack was of no importance to me at the instant. I was talking at Helen, and she, too, would understand. I hoped that, in understanding, she would suffer a pang, a small, insignificant, poor relation of the pang inflicted upon me.</p>
         <p xml:id="cawprin_13035">It is a thing unexplained by science why the miserable hours of our lives should be fifty times the length of happy hours, though stupid clocks, seeing nothing beyond their own hands, record both with the same measurement. If we had sat at this prettily decorated dinner table in the Carlton restaurant (I had thought it pretty at first, so I give it the benefit of the doubt) through the night into the next day, while other people ate breakfast and even luncheon, the moments could not have dragged more heavily. But when it appeared that we must have reached a ripe old age--those of us who had been young with the evening--Lady Blantock thought we might have coffee in the "palm court." We had it, and by rising at last, sweet Molly Winston saved me from doing the musicians a mischief. "Lord Lane, you promised to let us drop you, in the car," she said to me. "Oh, I don't mean to 'drop you' literally. Our auto has no naughty ways. I hope we are not carrying you off too soon."</p>
         <pb xml:id="cawprin_13036"/>
-        <figure><graphic url="ENTITY_cawprinill4" rend="inline"/>
+        <figure><graphic url="cawprinill4.jpg" rend="inline"/>
           <p xml:id="cawprin_13037">"WE REALLY WANT YOU, SAID MOLLY".</p>
           <figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
@@ -365,7 +365,7 @@ Molly. "Besides, it's getting a little obvious to marry a Duke."</p>
 happy, though she's only twenty-one years old. If you could see Mercédès, with her lovely, strange sad face, and big, wistful eyes-"</p>
         <p xml:id="cawprin_130184">"I can think of Mercédès only with a shiny grey body, upholstered crimson; and for eyes, huge acetylene lamps," I was rude enough to break in; for I fancied that I saw what Mistress Molly would fain be up to, and my heart was not of the rubber-ball description, to be caught in the rebound. If Molly cherished a secret intention of springing her peerless friend Mercédès upon me, during this tour which she had organised, it seemed better for everyone concerned that the hope should be nipped in the bud. It was with unwonted meekness that she yielded to being suppressed, and I suffered immediate pans of remorse. To atone, I did my best to be agreeable. All the way to Southampton I praised automobiles in general and hers in particular; admitted that in half a day I had become half a convert; and soon I had the pleasure of believing that the divine Molly had forgotten my sin.</p>
         <pb xml:id="cawprin_130185"/>
-        <figure><graphic url="ENTITY_cawprinill28" rend="inline"/>
+        <figure><graphic url="cawprinill28.jpg" rend="inline"/>
           <p xml:id="cawprin_130186">"SOMETIMES JACK DROVE, WITH MOLLY BESIDE HIM".</p>
           <figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
@@ -627,7 +627,7 @@ to spend some days, before continuing their tour as originally mapped out.</p>
 elen; consequently it was evening when we slipped into little Altdorf, where Molly insisted on making a curtsey to the statue of Tell and his agreeable little boy. Winston predicted that we should probably not be challenged until we got to Göschenen, as up to that point the road does not take on a true Alpine character. The storm (which seemed rising to a point of fury) was in our favour, too, for no one would choose to be out on such a night, save mad English automobilists and wilful American girls.</p><p xml:id="cawprin_130363">Dusk was beginning to shadow the Reussthal, as we ran past the railway station at Erstfeld, and began at length the ascent of the St. Gothard Road. The great railway (of which we had caught glimpses as we came along the lake) was now our companion, while on the other hand roared the tumbling Reuss. So hoarse and insistent was the voice of the stream that Molly suggested it should be "had up for brawling." It did us the service, however, of drowning the noise of our motor, at all times a discreetly silent machine; and as Jack had given orders that the big Bleriots should not be lighted (two good oil lamps showing us the way), we had high hopes that we might fly by unnoticed, on the wings of the storm. In Amsteg no one seemed to look upon us with surprise, and here the road turned, to worm itself into the heart of the mountains, while the railway, often disappearing into tunnels, ran far above our heads.</p><p xml:id="cawprin_130365">By the time we had reached Gurtnellen night had fallen black and close, and Molly issued an edict that we should dine in the open air, instead of seeking the doubtful comforts of a village inn, where, too, we might suffer from the solicitude of some officious policeman. The car accordingly was
 <pb xml:id="cawprin_130364" n="66 The Princess Passes"/>
 run under the lee of a great rock, the ever-inspired Gotteland extemporised a shelter with the water-proof rugs, and the blue flame of the chafing-dish presently cheered us with its glow. The wind belllowed along the precipices, the Reuss shouted in its rocky bed, and once an express from Italy to the north passed high above us, streaming its lights through the darkness like sparks from a boy's squib. Yet those plutocratic travellers up in the <hi rend="italic">wagons lits</hi> were not having anything like the "good time" we enjoyed, warm in our motor coats, sitting snug behind our rock, a lamp from the car illuminating our little party and shining on Molly's piquant profile as she brewed savoury messes in her magic cauldron. This was testing thoroughly the resources of the automobile, which was playing the part of travelling kitchen and larder as well as travelling chariot, and could no doubt be made, with a little ingenuity, to play the parts also of travelling bed and tent. Yet, as I said all this aloud to Jack, my mind leaped forward to other nights which I should soon be spending alone under the stars, and I thought tenderly of my aluminium stove and tent, my sleeping-sack, and the other camping tools I had bought in Bern.</p><p xml:id="cawprin_130369">From where we lay hid behind our rock to Airolo was only some thirty-two miles, and the car ate up distance with so voracious an appetite, that it was clear we should arrive in the little Italian town in the dead waste and middle of the night. To travel a forbidden road on an automobile, and then to knock up a snoring innkeeper at one in the morning, to ask him where we could find a donkey, seemed to be straining unduly the sense of humour; so after consultation we decided that we should leave 
-<pb xml:id="cawprin_130366"/><figure><graphic url="ENTITY_cawprinill66" rend="inline"/><p xml:id="cawprin_130367">"THE BLUE FLAME OF THE CHAFING-DISH".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_130368" n="67 The Wings of the Wind"/>
+<pb xml:id="cawprin_130366"/><figure><graphic url="cawprinill66.jpg" rend="inline"/><p xml:id="cawprin_130367">"THE BLUE FLAME OF THE CHAFING-DISH".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_130368" n="67 The Wings of the Wind"/>
 Airolo to its slumbers and speed down the Pass into Italy until we ran to earth the object of our quest.</p><p xml:id="cawprin_130370">Molly had produced excellent coffee; the smoke of our cigarettes mingled its perfume with the night air. Our position had in it something unique, for while we were "in the heart of one of nature's most savage retreats" (as said a guide-book of my boyhood), we were at the same time enjoying the refinements of civilisation, and I suggested to Winston that our bivouac would form a fit subject for a picture labelled, in the manner of some Dutch masters, "Automobilists Reposing."</p><p xml:id="cawprin_130371">By the time Gotteland had packed up everything, and we were seated once more in the car, it was nearly eleven o'clock at night. Coming out from the shelter of our rock, so fierce a blast of wind smote us that Molly would, I think, have been carried off her feet had I not given her a steadying arm. We had to cram our caps on our heads, or the wind would have torn them from us, and the voice of the motor was swallowed up in the shrieking of the tempest. Molly was evidently destined to have her wish.</p><p xml:id="cawprin_130373">The car ran swiftly up the road to Wasen, and some twinkling lights and a huge crimson eye at the entrance to the great tunnel told us that we had done the ten miles to Göschenen. No one stirred in the streets of the village, and, gliding cat-like past the station, Jack put the car at the beginning of the real ascent of the famous St. Gothard Road. The higher we went, the more wildly roared the storm. There was something appalling in the fierce volleyings of the wind along the stark and broken faces of the precipice: it was like the rattle of thunder. In the sombre defile of the Schöllenen the air
 <pb xml:id="cawprin_130372" n="68 The Princess Passes"/>
 rushed as through a funnel. We could see nothing save the thread-like road illuminated by our steadfast lanterns--the sole beacon of safety in this welter. We had a ghostly impression of winding through a narrow gorge, the river roaring in its depths; then, dashing through an avalanche gallery (where the lights played strange tricks with the vaulted roof), we came out upon the Devil's Bridge. The spray from the Reuss, which here drops a full hundred feet into the abyss, lashed our faces as with whips; the storm leaped at us out of the blackness like a wolf; the car quivered, and for an instant it seemed that we should be hurled against the parapet of the bridge. But we passed unharmed, and a quarter of a mile further on Winston stopped in the welcome shelter of the Urner Loch, a tunnelled passage in the rock.</p><p xml:id="cawprin_130374">We gasped out broken expressions of a fearful joy; then, seeing that Molly was well, and that the wind-wolf's teeth had torn nothing from the car, Jack went full speed ahead again, steering along the open Urseren Valley, where we had fleeting glimpses of green fields instead of granite rocks. Thus we came to Andermatt, where not the eye of a mouse seemed open to mark our quick and stealthy passage. We were now on that great mountain highroad that slants in a straight line across almost all Switzerland from Coire to Martigny; but we kept on it only for a little while, to steal through Hospenthal--as dead asleep as the other villages (for Labour had not yet begun to waken in its hard bed), and take the southern road that leads to Italy.</p><p xml:id="cawprin_130376">Thus far, audacity had been laurelled by success. It was near one in the morning, and we were spinning fast up a valley which showed bleakly in the
@@ -672,7 +672,7 @@ three, and being a posting town, the hotel people were sure to be up. I was to s
         <p xml:id="cawprin_130411">The further I penetrated into the mountains, the more like a vast engineering workshop did the long Alpine valley become. Yet, curiously enough, instead of destroying romance, this gave a certain majestic romance of its own; the romance of man's struggle to conquer the stupendous forces of Nature with his science. It was as if Vulcan's stithy had been dropped down into a profound ravine of the Alps, and the drone of machinery mingled with the music of the fleeting river--a strange diapason.</p>
         <p xml:id="cawprin_130412">On the right of the highroad, the flat mountain face opened a black, egg-shaped mouth at me. I got out of the carriage to approach it, and while I stood peering down the dark throat, as if I were a Lilliputian doctor examining the tongue of Giant Gulliver, I was suddenly clapped upon the shoulder. It flashed into my mind that perhaps it was forbidden to stare a the tunnel-in-making; and turning to defend myself from a lash of red tape, with the adage that "a cat may look at a king," I saw a man I had known years ago smiling at me.</p>
         <p xml:id="cawprin_130416">I have a worldly-minded cousin who says that she
-<pb xml:id="cawprin_130413"/><figure><graphic url="ENTITY_cawprinill78" rend="inline"/><p xml:id="cawprin_130414">"I WAS SUDDENLY CLAPPED UPON THE SHOULDER".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_130415" n="79 At Last!"/>
+<pb xml:id="cawprin_130413"/><figure><graphic url="cawprinill78.jpg" rend="inline"/><p xml:id="cawprin_130414">"I WAS SUDDENLY CLAPPED UPON THE SHOULDER".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_130415" n="79 At Last!"/>
 is always nice to girls, because "you never know whom they may marry." It might be equally diplomatic to be nice to foreigners who are at Oxford with you, because you don't know that they may not become famous engineers, able to show you interesting things when you visit their country. Giovanni Bolzano had been at Balliol with me, studying English, and now it turned out that he was second engineer to the works for the new tunnel. I recalled with poignant regret that Jack Winston and I had once made hay of his room; but evidently he bore no malice, for after saying that he was not surprised to see me, as everybody came this way sooner or later, he offered to show me his tunnel, of which this was the Italian mouth. It had another at Brig, twelve miles away, and boasted the longest throat in the world, but as it was marvellously ventilated, it would never choke in its own smoke, and Bolzano was very proud of the engineering achievement. Having discharged my carriage, I went with him into a workshop, heard the humming of dynamos, and the buzzing of tremendous turbines, actuated by the fall of the river Diveria, and gazed with the fascination of a mouse for a cat at a huge and diabolical fan, driving air into the tunnel. This fearful beast had a house to itself, with a passage down which you could venture like Theseus entering the labyrinth of the Minotaur; but such was the volume of breath which it drew into its mighty lungs that you must use all your strength not to be sucked in and hurled against the shafting; all your self-control not to be confused by its loud, unceasing roar.</p>
         <p xml:id="cawprin_130418">Hardly had we come out from this weird place, which would have given Edgar Allan Poe an inspiration for a creepy tale, when Bolzano showed me a
 <pb xml:id="cawprin_130417" n="80 The Princess Passes"/> 
@@ -691,7 +691,7 @@ dividing wall of rock, and Swiss and Italians will be shaking hands."</p>
         <p xml:id="cawprin_130428">I think, in coming out of the dark tunnels and windy galleries, I felt somewhat as Jonah must have felt after he had been discarded in distaste by the whale. The light dazzled my eyes. I could have shouted aloud with joy at sight of the sun. I made Bolzano breakfast with me in the little inn at Iselle, and got upon my way again, at something past noon. The vast turmoil of the growing railway was left behind. It was like putting down a volume of Walt Whitman, and taking up Tennyson.</p>
         <p xml:id="cawprin_130429">The Pass had the extraordinary individuality of one face as compared with another. It had not even a family resemblance to the St. Gothard. The air was sweet with the good smell of newly cut wood and resinous pines. There were sudden glimpses of icy peaks, cut diamonds in the sun, seen for a moment, then swallowed up by stealthily creeping white clouds, or caressed by them with a benediction in passing. Thin streaks of cascades on precipitous rocks made silver veinings in ebony. Side valleys opened unexpectedly, and one knew from hearsay that gold mines were hidden there. Treading the road built by Napoleon, I was enveloped in the gloom of the wondrous Gondo Schlucht, to come out into a broad valley,--a green amphitheatre, above which a company of white, mountain gods sat grouped to watch a cloud-fight.</p>
         <p xml:id="cawprin_130433">If I had not been heart-broken by the cruelty of Helen Blantock, I should have been almost minded to thank her for sending me here. But then,--I reminded myself hastily when this thought winked at me over my shoulder,--I was stunned still, by my heavy disappointment. I was not conscious to the
-<pb xml:id="cawprin_130430"/><figure><graphic url="ENTITY_cawprinill82" rend="inline"/><p xml:id="cawprin_130431">"TREADING THE ROAD BUILT BY NAPOLÉON".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_130432" n="83 At Last!"/>
+<pb xml:id="cawprin_130430"/><figure><graphic url="cawprinill82.jpg" rend="inline"/><p xml:id="cawprin_130431">"TREADING THE ROAD BUILT BY NAPOLÉON".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_130432" n="83 At Last!"/>
 full of my suffering now, but I should wake up to it by-and-bye, and then it would be awful--as awful as the desolation left by a recent great avalanche whose appalling traces I had just seen.</p>
         <p xml:id="cawprin_130434">I refused to be interested in the old Hospice of St. Bernard, or the newer Hospice, built by order of Napoleon, because neither seemed to me the real thing. If I could not see the Hospice of St. Bernard on the Pass of Great St. Bernard, I would not see any other hospices called by his name. If possible, I would have gone by them with my eyes shut; but at the new Hospice the yapping of a dozen adorable puppies in a kennel opposite lured me, and I paused to talk to them. They did not understand my language, and this was disappointing; but if I had not stopped I should have missed a short cut which I half saw, half suspected, dimly zigzagging down the mountain into an extraordinarily deep valley, and tending in the direction of Brig. It would have been a pity to pass it by, for though I often thought myself lost, I eventually caught sight of a town, lying far below, which could be no other than the one for which I was bound. After three hours of fast walking down from the Hospice, I plunged through an old archway into the main street of Brig.</p>
         <p xml:id="cawprin_130436">Coming into it, I stopped to gaze up in astonishment at an enormous house which looked to me as big as Windsor Castle. Indeed, to call it a house does not express its personality at all; yet it was hardly magnificent enough for a castle. At each corner was an immense tower, ornamented with a big bulb of copper, like a gigantic and glorified Spanish onion. A beautiful Renaissance gallery, flung across from one tall building to another, lent grace to the otherwise too solid pile, and I guessed
@@ -789,7 +789,7 @@ my journey; but in the end it was settled that I should be the one to
 leave first. Perhaps they believed that, if left to myself, I should
 never start at all; perhaps they wished to add photographs of the
 mule-party to their Kodak
-<pb xml:id="cawprin_130496"/><figure><graphic url="ENTITY_cawprinill94" rend="inline"/><p xml:id="cawprin_130497">"THERE WAS A PANG WHEN I TURNED MY BACK".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb n="95 The Making of a Mystery" pages="95" facs="cawprin95"/>
+<pb xml:id="cawprin_130496"/><figure><graphic url="cawprinill94.jpg" rend="inline"/><p xml:id="cawprin_130497">"THERE WAS A PANG WHEN I TURNED MY BACK".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb n="95 The Making of a Mystery" pages="95" facs="cawprin95"/>
 collection, already large; or perhaps they thought only how to make the parting pleasantest for me, since I had no one, and they had each other.</p>
         <p xml:id="cawprin_130500">In any case, at ten o'clock all that was left of my store was placed upon the back of Finois, who had the air of ignoring its existence, and mine as well. Had he been a horse, he would at least have deigned to exchange glances with me, friendly or otherwise; but being what he was, he looked everywhere except at me, as if he had been some haughty aristocrat conscientiously snubbing an offensive upstart. Joseph appeared to be the one human being of more importance for Finois than the moving bough of an inedible tree, bush, or shrub, and even Molly could win him to no change of facial expression, though he ate her offered sugar.</p>
         <p xml:id="cawprin_130501">There was a pang when I turned my back irrevocably upon my friends, having waved my hand or my panama so often that to do so again would be ridiculous. We were off, Joseph, Finois, and I; there was no getting round it; and as we ambled away along the hot white road, we seemed but small things in the scheme of a busy and indifferent world--mere cards, shuffled by the hands of an expert, for a game in which our destination was unknown.</p>
@@ -834,7 +834,7 @@ man came, and liked the place so well, that he stayed for months, and wrote a bo
         <p xml:id="cawprin_130526">"I have been over this Pass more than twenty times," said Joseph (who was a native of Chamounix, I had learned), "yet rarely have I met with <hi rend="italic">ânes</hi>. And see, Monsieur, the woman who is with them. She is not of the country, nor of that part of Italy which we enter below the Pass, at Aosta. It is a strange costume. I do not know from what valley it comes."</p>
         <p xml:id="cawprin_130527">"Well," said I, as we drew near to the group in the road outside the hotel, "if that girl, or at any rate her hat, did not come from the Riviera somewhere, I will eat my panama."</p>
         <p xml:id="cawprin_130531">Involuntarily I hastened my steps, and Joseph politely followed suit, dragging after him Finois, who seemed to be walking in his sleep. I felt it almost as a personal injury from the hand of Fate, that after my unavailing search for donkeys in a land where I had thought to be forced to beat them
-<pb xml:id="cawprin_130528"/><figure><graphic url="ENTITY_cawprinill100" rend="inline"/><p xml:id="cawprin_130529">"THAT IS THE DÉJEUNER OF NAPOLÉON".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_130530" n="101 The Brat"/>
+<pb xml:id="cawprin_130528"/><figure><graphic url="cawprinill100.jpg" rend="inline"/><p xml:id="cawprin_130529">"THAT IS THE DÉJEUNER OF NAPOLÉON".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_130530" n="101 The Brat"/>
 off with sticks, I should find other persons provided with not one but two of the creatures.</p>
         <p xml:id="cawprin_130532">They were charming little beasts, one mouse-colour, one dark-brown with large, grey-rimmed spectacles, and both animals were of the texture of uncut velvet. The former carried an excellent pack, which put mine to shame; the latter bore a boy's saddle, and the two were being fed with great bread crusts by a bewitching young woman of about twenty-six or -eight, wearing one of the toad-stool hats affected by the donkey-women of Mentone. She looked up at our approach, and having surveyed the pack and proportions of Finois with cold scorn, her interest in our procession incontestably focused upon Joseph. She tossed her head a little on one side, shot at the muleteer an arrow-gleam, half defiant, half coquettish, from a pair of big grey eyes fringed heavily with jet. She moistened full red lips, while a faint colour lit her cheeks, under the deep stain of tan and a tiger-lily powdering of freckles. Then, having seen the weary Joseph visibly rejuvenate in the brief sunshine of her glance, she turned away, and gave her whole attention to the donkeys.</p>
         <p xml:id="cawprin_130533">"Hungry, Joseph?" I asked.</p>
@@ -1031,7 +1031,7 @@ But remove him--quick!"</p>
 <pb xml:id="cawprin_130678" n="124 The Princess Passes"/> 
 steps, entered the wide doorway which had framed the dog's head, and found myself in a vast, dusky corridor, resonant with strange echoings, and mysterious with flitting shadows, which might be ghosts of the past, or live beings of the present. As my eyes grew accustomed to the gloom, I saw that there were numerous persons in this great hall: tall monks in flowing robes of black, beggars come to solicit alms or breakfast; and dogs, many dogs, who crowded round me, with a waving of huge tails, and a gleaming of brown jewelled eyes in the dusk. I did not need to ring the bell of the iron gate beyond which, according to Joseph, no woman has ever passed. One of the monks came to me--a tall, spare young man with a grave face, soft in expression, yet hardened in outline by a rigorous life and exposure to extreme cold. He gave me welcome in French, with here and there an interpellation of "Down, Turk," " Be quiet, Jupiter!" Would I like breakfast, he asked; and then--yes, certainly--to see the chapel, the <hi rend="italic">bibliothèque</hi>, the monastery museum, and the Alpine garden? There would be plenty of time for this, and still to reach Aosta. Another monk was called, and an introduction effected. I was taken into a handsomely decorated refectory, where I opened my eyes in some astonishment at sight of the Imp, drinking coffee from a shallow bowl nearly as big as his childish head. Innocentina was no doubt at this moment shocking Joseph by some new depravity, in the <hi rend="italic">salle-à--manger</hi> where humbler folk were entertained with the same hospitality as their (so called) betters.</p>
         <p xml:id="cawprin_130683">The Brat set down his bowl, and saw me, as I subsided into a chair on the opposite side of the long, narrow table, His face flushed, and the brilliant 
-<pb xml:id="cawprin_130680"/><figure><graphic url="ENTITY_cawprinill124" rend="inline"/><p xml:id="cawprin_130681">"DOWN, TURK!" "BE QUIET, JUPITER!".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_130682" n="125 A Shadow of Night"/>
+<pb xml:id="cawprin_130680"/><figure><graphic url="cawprinill124.jpg" rend="inline"/><p xml:id="cawprin_130681">"DOWN, TURK!" "BE QUIET, JUPITER!".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_130682" n="125 A Shadow of Night"/>
 blue eyes clouded, but he deigned to acknowledge our acquaintance with a slight bow.</p>
         <p xml:id="cawprin_130684">"I didn't suppose you would have started yet," said I.</p>
         <p xml:id="cawprin_130685">"I thought the same thing about you," he retorted. "We got off very quietly from the Cantine--"</p>
@@ -1075,7 +1075,7 @@ hear the words, now, and then a wild, inarticulate scream.</p>
         <p xml:id="cawprin_130716">I bounded down the winding white road, where the evening shadows lay, and Joseph followed, somehow dragging Finois--at least, I am sure that he would not have left his beloved beast behind,--and so at last we turned a sharp bend of the path, thickly fringed with a dense wood, where suddenly Innocentina sprang almost into my arms. She ran to me, blindly, not seeing who it was, but knowing by instinct that help was at hand. "A robber--a murderer!" she panted. "Oh, save--" and then, I think, she fainted.</p>
         <p xml:id="cawprin_130717">I have a vague recollection of tossing her to Joseph, and plunging into the dim wood, where something moved, half-hidden by the crowding trees. It was the donkeys I saw at first, and then I came full upon a man, dressed all in the brown of the tree trunks, so that at a distance he would not be seen among them, in the dusk. He had the <hi rend="italic">rücksack</hi> I had noticed at the Cantine de Proz in one hand, and with the other he had just drawn a knife from the belt under his coat. On the ground crouched the Boy, shielding his bowed face with a slim, blue-serge arm.</p>
         <pb xml:id="cawprin_130718"/>
-        <figure><graphic url="ENTITY_cawprinill132" rend="inline"/>
+        <figure><graphic url="cawprinill132.jpg" rend="inline"/>
           <p xml:id="cawprin_130719">"ON THE GROUND CROUCHED THE BOY".</p>
           <figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
@@ -1126,7 +1126,7 @@ Now, I'd better see how the fainting lady is, and then I'll help you get your th
         <p xml:id="cawprin_130750">"I should have wanted to trip you up for that speech, too; so you see the likeness is proved. It is a funny thing, I know very few Englishmen. I've met several, but, as you say, I never had any real conversation with them."</p>
         <p xml:id="cawprin_130751">"Maybe, if you had, you wouldn't be so down on your sex when it has reached adolescence."</p>
         <pb xml:id="cawprin_130752"/>
-        <figure><graphic url="ENTITY_cawprinill138" rend="inline"/>
+        <figure><graphic url="cawprinill138.jpg" rend="inline"/>
           <p xml:id="cawprin_130753">"'DO YOU KNOW,' SAID I, 'YOU ARE A VERY QUEER BOY'".</p>
           <figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
@@ -1407,7 +1407,7 @@ when the bag and its gold fittings could not have been worth more than
 a hundred pounds, and an offer of three hundred francs would have been
 ample. What could the strange little person have in his precious bag,
 which he valued as the immediate jewel of his soul? and
-<pb xml:id="cawprin_130978"/><figure><graphic url="ENTITY_cawprinill172" rend="inline"/><p xml:id="cawprin_130979">"LOOKING OUT OF THE WINDOW I SAW HIM IN CONVERSATION".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_130980" n="173 The Path of the Moon"/>
+<pb xml:id="cawprin_130978"/><figure><graphic url="cawprinill172.jpg" rend="inline"/><p xml:id="cawprin_130979">"LOOKING OUT OF THE WINDOW I SAW HIM IN CONVERSATION".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_130980" n="173 The Path of the Moon"/>
 why would he not let me be the one to find it, thus keeping his five thousand francs in his pocket! He "had his reasons," forsooth! However, it was not my business.</p>
         <p xml:id="cawprin_130982">It must have been after three o'clock by the time I fell asleep in a queer little room where you had but to sit up in bed and stretch out your arm to reach anything you wanted. I dreamed of journeying through the night with the Boy, but I forgot his lost bag; nor when I waked in full morning light, did I recall its tragic disappearance. I found that it was nearly eight, and bounded out of bed, performing my toilet with maimed rites, since baths were not <hi rend="italic">comme il faut</hi> at Orsières.</p>
         <p xml:id="cawprin_130983">"The kid will be asleep still, I'll bet," I said to myself; but looking out of the window at that moment, I saw him in conversation with Joseph, Innocentina, and--apparently--half the inhabitants of the village.</p>
@@ -1743,7 +1743,7 @@ disappointed, but I hoped it. As for myself, I would fain have
 walked. In a scene of such exalted beauty, Gaetà's little quips
 and quirks struck a wrong note. Sitting with my back to the horses, I
 could see the Boy walking on behind, his face
-<pb xml:id="cawprin_1301238"/><figure><graphic url="ENTITY_cawprinill208" rend="inline"/><p xml:id="cawprin_1301239">"SITTING WITH MY BACK TO THE HORSES".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_1301240" n="209 The Little Game of Flirtation"/> 
+<pb xml:id="cawprin_1301238"/><figure><graphic url="cawprinill208.jpg" rend="inline"/><p xml:id="cawprin_1301239">"SITTING WITH MY BACK TO THE HORSES".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_1301240" n="209 The Little Game of Flirtation"/> 
 raised mountain-ward and sky-ward, and I longed to know of what he was thinking, for evidently he had left his aggravating, "awfully-jolly-don't-you-know" mood in the carriage with the Contessa.</p>
         <p xml:id="cawprin_1301242">The Baron and his wife disputed volubly about the date of one of Paolo's grand dinners in Paris; Gaetà yawned, and I was stricken with dumbness. I could think of nothing to say which she would think worth hearing. Soon, the tremendously steep descent into the valley gave me the best of excuses to jump down and relieve the horses, which the coachman was leading. Somehow, I don't quite know how, I fell back a good distance behind the carriage, and then I found myself so near the Boy, who had been slowly following, that it would have been rude not to join him. After all, we had no quarrel, yet oddly enough we could not take up the thread of our intercourse exactly where it had been broken off. There seemed to be a knot or a tangle in it, which would have to be smoothed out.</p>
         <p xml:id="cawprin_1301243">It was a wholly irrelevant incident which untied the knot, and left us as we had been, though there was no reason for it but a laugh which we had together.</p>
@@ -1908,7 +1908,7 @@ American, Paolo's brother and sister were inclined to make common cause with me.
         <p xml:id="cawprin_1301361">"Ah, if you say that, you little know Gaetà," protested Gaetà's friend. "She is infatuated--infatuated with this youth of seventeen or eighteen, whom she insists, to justify her foolishness, is a year older than he can possibly be. Something must be done, and soon, or she is capable of proposing to him, if he pretend to hang back."</p>
         <p xml:id="cawprin_1301362">"Something will be done, my dear; do not be unnecessarily excited," said the Baron. "I fear we have not the full sympathy of Lord Lane."</p>
         <p xml:id="cawprin_1301366">"If you mean, will I do anything to keep the two apart, I confess you haven't," I answered. "The Contessa di Ravello is her own mistress, and I should
-<pb xml:id="cawprin_1301363"/><figure><graphic url="ENTITY_cawprinill228" rend="inline"/><p xml:id="cawprin_1301364">"HERE WE WERE AT ANNECY".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_1301365" n="229 The Little Rift within the Lute"/>
+<pb xml:id="cawprin_1301363"/><figure><graphic url="cawprinill228.jpg" rend="inline"/><p xml:id="cawprin_1301364">"HERE WE WERE AT ANNECY".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_1301365" n="229 The Little Rift within the Lute"/>
 say if she wanted the moon, it would be bad for anyone who tried to keep her from getting it."</p>
         <p xml:id="cawprin_1301367">"We shall see," murmured the Baron, as the Boy had murmured a few days ago; and behind this hint also I felt that there lurked some definite plan.</p>
         <p xml:id="cawprin_1301369">I had been to Aix-les-Bains years before, but it had not then occurred to me to visit Annecy, so near by. It was the Boy who had suggested coming, and we had planned excursions up the lake, looking out on our guide-book maps various spots of historic or picturesque interest which we should see <hi rend="italic">en route</hi>, especially Menthon, the birthplace of St. Bernard. Now, here we were at Annecy, and in all the world there could not be a town more charming. By the placid blue lake--whose water, I am convinced, would still be the colour of melted turquoises if you corked it up in a bottle--you could wander along shadowed paths, strewn with the gold coin of sunshine, through a park of dells as bosky-green as the fair forest of Arden. In the quaint, old-fashioned streets of the town you were tempted to pause at every other step for one more snap-shot. You longed to linger on the bridge and call up a passing panorama of historic pageants. All these things the Boy and I would have done, and enjoyed peacefully, had we been alone, but Gaetà elected to find Annecy "dull." There was nothing to do but take walks, or sit by the lake, or drive for lunch to the Beau Rivage, or go out for an afternoon's trip in one of the little steamers. Beautiful? Oh, yes; but quiet places made one want to scream or stand on one's head when one had been in them a day or two. It would be much more amusing at Aix. There were the Casinos, and the <hi rend="italic">fêtes de nuit</hi>, with lots of coloured lanterns in the gardens, and fireworks, and music; and then, the baccarat!
@@ -2678,7 +2678,7 @@ Like the key to a cipher, it told me all the secret workings of his mind.</p>
         <p xml:id="cawprin_1301977">"Where, if I may ask?"</p>
         <p xml:id="cawprin_1301978">"Towards my home. Monsieur had better read his letter."</p>
         <p xml:id="cawprin_1301982">I had taken the sealed envelope mechanically, without looking at it. Now I fixed my eyes upon 
-<pb xml:id="cawprin_1301979"/><figure><graphic url="ENTITY_cawprinill312" rend="inline"/><p xml:id="cawprin_1301980">"VIOLÀ, MONSIEUR!".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_1301981" n="313 The Vanishing of the Prince"/>
+<pb xml:id="cawprin_1301979"/><figure><graphic url="cawprinill312.jpg" rend="inline"/><p xml:id="cawprin_1301980">"VIOLÀ, MONSIEUR!".</p><figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc></figure><pb xml:id="cawprin_1301981" n="313 The Vanishing of the Prince"/>
 the address, which was written in a firm, original, and interesting hand, that impressed me as familiar, though I could not think where I had seen it. Certainly, so far as I could remember, in all my journeyings with him I had never happened to see the Boy's handwriting. Yet Innocentina said this letter was from him.</p>
         <p xml:id="cawprin_1301983">Suddenly it occurred to me that I could do something more enlightening than stare at the envelope: I could open it. I did so, breaking a seal with the same monogram I had noticed on the gold fittings in the celebrated bag. Apparently the entwined letters were M. R. L.</p>
         <p xml:id="cawprin_1301984">"Forgive me, dear Man," were the first words I read, and they rang like a knell in my heart. Without going further I knew what was coming. I was to hear that I had lost the Boy.</p>
@@ -2995,7 +2995,7 @@ not cease. Now we were in the true hinterland of the gay, blue-and-gold Riviera,
 <pb n="352 The Princess Passes" pages="352" facs="cawprin352"/>
 beauty, my thoughts had flown ahead of our swift car. I was glad when at last we came into sight of a fair white city lying on the blue curve of a bay and ringed with green hills, glad that our journey was all but ended; for the fair city was Nice.</p>
         <pb xml:id="cawprin_1302227"/>
-        <figure><graphic url="ENTITY_cawprinill352" rend="inline"/>
+        <figure><graphic url="cawprinill352.jpg" rend="inline"/>
           <p xml:id="cawprin_1302228">"THE ROCK OF MONACO".</p>
           <figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
@@ -3102,7 +3102,7 @@ knew, that I jumped up instantly. The Boy's sister! She must have come, with fri
         <p xml:id="cawprin_1302285">"And I know you are Boy, Boy himself. I mean, he never was--for heaven's sake tell me--but no, I don't need to ask. I've got my Little Pal back again, that's all."</p>
         <p xml:id="cawprin_1302286">"Oh, if I'd been sure you would guess--if I had known you would talk to me like this, I should not have dared to come."</p>
         <pb xml:id="cawprin_1302287"/>
-        <figure><graphic url="ENTITY_cawprinill362" rend="inline"/>
+        <figure><graphic url="cawprinill362.jpg" rend="inline"/>
           <p xml:id="cawprin_1302288">"SHE WAS SO ASTONISHINGLY LIKE HIM".</p>
           <figDesc>Illustration included in the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
@@ -3169,27 +3169,27 @@ between us. Money or no money, what does it matter, after all?  Will you finish 
     <back xml:id="cawprin_1204">
       <pb xml:id="cawprin_1302342"/>
       <div xml:id="cawprin_100" type="adverts">
-        <figure><graphic url="ENTITY_cawprinad1" rend="inline"/>
+        <figure><graphic url="cawprinad1.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
         <pb xml:id="cawprin_1302343"/>
-        <figure><graphic url="ENTITY_cawprinad2" rend="inline"/>
+        <figure><graphic url="cawprinad2.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
         <pb xml:id="cawprin_1302344"/>
-        <figure><graphic url="ENTITY_cawprinad3" rend="inline"/>
+        <figure><graphic url="cawprinad3.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
         <pb xml:id="cawprin_1302345"/>
-        <figure><graphic url="ENTITY_cawprinad4" rend="inline"/>
+        <figure><graphic url="cawprinad4.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
         <pb xml:id="cawprin_1302346"/>
-        <figure><graphic url="ENTITY_cawprinad5" rend="inline"/>
+        <figure><graphic url="cawprinad5.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
         <pb xml:id="cawprin_1302347"/>
-        <figure><graphic url="ENTITY_cawprinad6" rend="inline"/>
+        <figure><graphic url="cawprinad6.jpg" rend="inline"/>
           <figDesc>Advertisement included in the back of the Williamsons' <hi rend="italic">The Princess Passes</hi>.</figDesc>
         </figure>
       </div>

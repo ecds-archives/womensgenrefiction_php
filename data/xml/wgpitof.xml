@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="wgpitof_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="wgpitof_1206">
   <teiHeader xml:id="wgpitof1201"><fileDesc>
       <titleStmt>
         <title>The Pit of Corruption, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Pit of Corruption</title>. <pubPlace>London</pubPlace>:
@@ -79,8 +79,8 @@ text.</p>
   <text xml:id="wgpitof_1205">
     <front xml:id="wgpitof_1202">
       <pb xml:id="wgpitof_1305"/>
-      <div xml:id="wgpitof_000" type="author inscription">
-        <figure><graphic url="ENTITY_wgpitofins" rend="inline"/>
+      <div xml:id="wgpitof_000" type="author_inscription">
+        <figure><graphic url="wgpitofins.jpg" rend="inline"/>
           <figDesc>Image of note from author to "Willie" included in this
 inscribed copy of Graham's <hi rend="italic">The Pit of
 Corruption</hi>.</figDesc>
@@ -94,7 +94,7 @@ Corruption</hi>.</figDesc>
       </titlePage>
       <pb xml:id="wgpitof_1308" n="[2]"/>
       <div xml:id="wgpitof_001" type="advert">
-        <figure><graphic url="ENTITY_wgpitofad1" rend="inline"/>
+        <figure><graphic url="wgpitofad1.jpg" rend="inline"/>
           <figDesc>Advertisement included at the front of  Graham's <hi rend="italic">The Pit of
 Corruption</hi>.</figDesc>
         </figure>
@@ -116,13 +116,13 @@ ETC. ETC.</byline>
       </titlePage>
       <pb xml:id="wgpitof_13011" n="[4]"/>
       <div xml:id="wgpitof_002" type="copyright">
-        <figure><graphic url="ENTITY_wgpitofcr" rend="inline"/>
+        <figure><graphic url="wgpitofcr.jpg" rend="inline"/>
           <figDesc>Copyright for Graham's <hi rend="italic">The Pit of Corruption</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="wgpitof_13012" n="[5]"/>
-      <div xml:id="wgpitof_003" type="table of contents">
-        <figure><graphic url="ENTITY_wgpitoftc" rend="inline"/>
+      <div xml:id="wgpitof_003" type="table_of_contents">
+        <figure><graphic url="wgpitoftc.jpg" rend="inline"/>
           <figDesc>Table of contents for  Graham's <hi rend="italic">The Pit of
 Corruption</hi>.</figDesc>
         </figure>
@@ -2094,11 +2094,11 @@ and love."</p>
       </div>
       <pb xml:id="wgpitof_1302063"/>
       <div xml:id="wgpitof_051" type="adverts">
-        <figure><graphic url="ENTITY_wgpitofad2" rend="inline"/>
+        <figure><graphic url="wgpitofad2.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Graham's <hi rend="italic">The Pit of Corruption</hi>.</figDesc>
         </figure>
         <pb xml:id="wgpitof_1302064"/>
-        <figure><graphic url="ENTITY_wgpitofad3" rend="inline"/>
+        <figure><graphic url="wgpitofad3.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Graham's <hi rend="italic">The Pit of Corruption</hi>.</figDesc>
         </figure>
       </div>

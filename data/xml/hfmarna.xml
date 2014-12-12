@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="hfmarna_12010">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="hfmarna_12010">
   <teiHeader xml:id="hfmarna1201"><fileDesc>
       <titleStmt>
         <title>Marna's Mutiny, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Marna's
@@ -86,7 +86,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="hfmarna_1307"/>
       <div xml:id="hfmarna_000" type="advert">
-        <figure><graphic url="ENTITY_hfmarnaad" rend="inline"/>
+        <figure><graphic url="hfmarnaad.jpg" rend="inline"/>
           <figDesc>Advertisement included in the front of Fraser's <hi rend="italic">Marna's Mutiny</hi>.</figDesc>
         </figure>
       </div>
@@ -102,7 +102,7 @@ of <hi rend="italic">"A Diplomatist's <lb/>Wife in Japan," "Little <lb/>Grey She
       </titlePage>
       <pb xml:id="hfmarna_13010"/>
       <div xml:id="hfmarna_001" type="copyright">
-        <figure><graphic url="ENTITY_hfmarnacr" rend="inline"/>
+        <figure><graphic url="hfmarnacr.jpg" rend="inline"/>
           <figDesc>Copyright for Fraser's <hi rend="italic">Marna's
 Mutiny</hi>.</figDesc>
         </figure>
@@ -118,7 +118,7 @@ Mutiny</hi>.</figDesc>
 plexion just a shade too dark for her gold-shot hair; her eyes were of a changing hazel, where gleams of gold came and went through the brown; she had the most serious mouth in the world, with an obstinate dimple at one corner. Marna pretended not to know about the dimple, and tried hard to prevent it from influencing her fate; but it would twinkle suddenly, so that all her solemn remarks were turned into funny ones, and then people would not believe how extremely in earnest she was. Her actions were about to show that now.</p>
         <p xml:id="hfmarna_13015">In the first mildness of the Eastern spring all the windows were open, and eager moths of many shapes came and fluttered round Marna's lamp as she wrote to her only ally, a young married woman who lived a little farther up the hill. This was what Marna wrote:</p>
         <q>
-          <text xml:id="hfmarna_1204">
+          <q><floatingText xml:id="hfmarna_1204">
             <body xml:id="hfmarna_1203">
               <div xml:id="hfmarna_020" type="letter">
                 <opener>
@@ -128,7 +128,7 @@ plexion just a shade too dark for her gold-shot hair; her eyes were of a changin
                 <closer><salute>"Your afflicted</salute> <signed>"MARNA."</signed></closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="hfmarna_13017" n="3   Marna's Mutiny"/>
         <p xml:id="hfmarna_13018">She did not look really afflicted; on the contrary, she gave the note to her blue jin-rik-sha slave, with a happy smile, as if she were doing a good action.</p>
@@ -507,7 +507,7 @@ to lend money if he had it, or his name to a friend's bill if he had none. So on
         <p xml:id="hfmarna_130309">He came to Betty with a very long face, and told her what had happened. She gave him a severe scolding for his folly, and then threw her arms round his neck and declared that she did not care, she meant to marry him all the same. They would pull it off, somehow, she was sure. But Harry said he would not take it; it would be years before he could give her a decent home, and he would not let her sacrifice her youth in waiting for what might never come.</p>
         <p xml:id="hfmarna_130310">"All right," the young lady had replied, "if you don't want me to trust you, of course I shall not bother to do it." And then they parted in some anger. Harry disappeared; she heard later that he was working in an Irish training stable, and, seeing that her life lay before her, she set herself, very half-heartedly, to marry Kilmorack. That was turning out to be a slow and difficult task, and when the post brought her a letter in the Nikko hotel, she was weary of the whole thing. The letter, which she brought when she came out to talk to Simon, ran thus:</p>
         <q>
-          <text xml:id="hfmarna_1206">
+          <q><floatingText xml:id="hfmarna_1206">
             <body xml:id="hfmarna_1205">
               <div xml:id="hfmarna_021" type="letter">
                 <opener>
@@ -522,7 +522,7 @@ and Mr. le Pareilleur, whose Miss Betty got home in such grand style at Aintree,
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="hfmarna_130313" n="70   Marna's Mutiny"/>
         <p xml:id="hfmarna_130314">Betty's eyes were shining in the dark when she came out to tell her news to Simon, who was generous enough to rejoice with her, being by this time resigned to the hopelessness of his own case. Meanwhile, another set of confidences was being exchanged in Kilmorack's room between him and Terence, the latter quite sobered by having to defend himself against Mrs. Mowbray at baccarat. Kilmorack had revolted at the lady's shameless cheating. "It is simply sickening," he said, sitting on the edge of his table <hi rend="italic">à la</hi> Betty, and balancing a glass in his hand. "I board and lodge them for six months and give them a chance to make friends with a millionaire (Ansell is an awfully good-hearted chap when you know him) and they insult his wife, and the mother cheats us all round, and the girl cheeks me about my nose and pats me on the back afterwards. I won't stand it Terence, I tell you fairly. Betty is getting altogether too chummy for me. You must invent a pretext to break up the party. I'll keep you and Simon, and the rest must go home by steamer. I'd like to make them go steerage."</p>

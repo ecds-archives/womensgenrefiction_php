@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cecfair_1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="cecfair_1205">
   <teiHeader xml:id="cecfair1201"><fileDesc>
       <titleStmt>
         <title>The Fair Mississippian, an electronic edition</title>
@@ -22,7 +22,7 @@ inquiries about this text's availability, please contact:<address><addrLine>Lewi
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The
@@ -92,14 +92,14 @@ page images are linked to the text file.</p>
   <text xml:id="cecfair_1203">
     <front xml:id="cecfair_1204">
       <div xml:id="cecfair_cover" type="covers">
-        <figure><graphic url="ENTITY_cecfairfc" rend="inline"/>
+        <figure><graphic url="cecfairfc.jpg" rend="inline"/>
           <figDesc>Front cover of Craddock's "The Fair
 	Mississippian"</figDesc>
         </figure>
       </div>
       <pb xml:id="cecfair_1305"/>
       <div xml:id="cecfair_fm1" type="frontispiece">
-        <figure><graphic url="ENTITY_cecfairill" rend="inline"/>
+        <figure><graphic url="cecfairill.jpg" rend="inline"/>
           <p xml:id="cecfair_1306">HONORIA</p>
           <figDesc>Illustration at the front of Craddock's "The Fair
 	Mississippian"</figDesc>
@@ -118,7 +118,7 @@ page images are linked to the text file.</p>
       </titlePage>
       <pb xml:id="cecfair_1309"/>
       <div xml:id="cecfair_fm2" type="copyright">
-        <figure><graphic url="ENTITY_cecfairtpv" rend="inline"/>
+        <figure><graphic url="cecfairtpv.jpg" rend="inline"/>
           <figDesc>Copyright page for Craddock's "The Fair
 	Mississippian."</figDesc>
         </figure>

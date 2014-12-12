@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gkmotte_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gkmotte_1201">
   <teiHeader xml:id="gkmotte1202"><fileDesc>
       <titleStmt>
         <title>Monsieur Motte, an electronic edition</title>
@@ -12,7 +12,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Monsieur Motte</title>. <pubPlace>New York</pubPlace>: <publisher>A.C. Armstrong and Son</publisher>, <date>1888</date>.</bibl>
@@ -72,7 +72,7 @@
       </titlePage>
       <pb xml:id="gkmotte_1307" n="[4]"/>
       <div xml:id="gkmotte_fm2" type="copyright">
-        <figure><graphic url="ENTITY_gkmottefm2" rend="inline"/>
+        <figure><graphic url="gkmottefm2.jpg" rend="inline"/>
           <figDesc>Copyright page for King's "Monsieur Motte"</figDesc>
         </figure>
       </div>
@@ -86,8 +86,8 @@ ENCOURAGEMENT TO SOUTHERN<lb/>
 WRITERS.</p>
       </div>
       <pb n="[7]" pages="table of contents" facs="gkmottefm4"/>
-      <div xml:id="gkmotte_fm04" type="table of contents">
-        <figure><graphic url="ENTITY_gkmottefm4" rend="inline"/>
+      <div xml:id="gkmotte_fm04" type="table_of_contents">
+        <figure><graphic url="gkmottefm4.jpg" rend="inline"/>
           <figDesc>Table of contents for King's "Monsieur Motte"</figDesc>
         </figure>
       </div>
@@ -1640,7 +1640,7 @@ but despite wavering, blots, and irregularities, the words yet stood
 out with sufficient clearness:—</p>
             <milestone rend="blank-line" unit="section"/>
             <q>
-              <text xml:id="gkmotte_1301306">
+              <q><floatingText xml:id="gkmotte_1301306">
                 <body xml:id="gkmotte_1301305">
                   <div xml:id="gkmotte_258" type="letter">
                     <p xml:id="gkmotte_1301304">I apologize to Monsieur— for offensive words spoken at Madame Fleurissant's ball last night. I beg him to believe that a moneyed debt is not a debt of honor.</p>
@@ -1651,7 +1651,7 @@ out with sufficient clearness:—</p>
                     </closer>
                   </div>
                 </body>
-              </text>
+              </floatingText></q>
             </q>
             <pb xml:id="gkmotte_1301307" n="259     The Drama of an Evening."/>
             <p xml:id="gkmotte_1301308">"<hi rend="italic">Tudieu!</hi> nothing to be done! Goupilleau, you are a fool! You will see that something is to be done. Here, supply the name and send it to that—" and she called Monsieur Henri Maziel, in French, the name of a man who prepares ambushes for assassination. "What's that?" She jerked her head aside from a touch. It was Marcélite gently replacing her bonnet, and examining her face and head with professional interest.</p>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="bcbeyond_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="bcbeyond_1207">
   <teiHeader xml:id="bcbeyond1201"><fileDesc>
       <titleStmt>
         <title>Beyond Atonement, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Beyond
@@ -79,25 +79,25 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="bcbeyond_1202">
     <front xml:id="bcbeyond_1203">
       <div xml:id="bcbeyond_fm01" type="covers">
-        <figure><graphic url="ENTITY_bcbeyondfc" rend="inline"/>
+        <figure><graphic url="bcbeyondfc.jpg" rend="inline"/>
           <figDesc>Front cover of advertisements in Bertha M. Clay's
 	"Beyond Atonement."</figDesc>
         </figure>
       </div>
       <div xml:id="bcbeyond_fm02" type="adverts">
-        <figure><graphic url="ENTITY_bcbeyondfmi" rend="inline"/>
+        <figure><graphic url="bcbeyondfmi.jpg" rend="inline"/>
           <figDesc>First page of advertisements in Bertha M. Clay's
 	"Beyond Atonement."</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcbeyondfmii" rend="inline"/>
+        <figure><graphic url="bcbeyondfmii.jpg" rend="inline"/>
           <figDesc>Second page of advertisements in Bertha M. Clay's
 	"Beyond Atonement."</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcbeyondfmiii" rend="inline"/>
+        <figure><graphic url="bcbeyondfmiii.jpg" rend="inline"/>
           <figDesc>Third page of advertisements in Bertha M. Clay's
 	"Beyond Atonement."</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcbeyondfmiv" rend="inline"/>
+        <figure><graphic url="bcbeyondfmiv.jpg" rend="inline"/>
           <figDesc>Fourth page of advertisements in Bertha M. Clay's
 	"Beyond Atonement."</figDesc>
         </figure>
@@ -117,7 +117,7 @@ added by the encoder and do not appear in the original text.</p>
         </docImprint>
       </titlePage>
       <div xml:id="bcbeyond_fm5" type="copyright">
-        <figure><graphic url="ENTITY_bcbeyondfmv" rend="inline"/>
+        <figure><graphic url="bcbeyondfmv.jpg" rend="inline"/>
           <figDesc>Title page verso of Bertha M. Clay's
 	"Beyond Atonement."</figDesc>
         </figure>
@@ -5646,7 +5646,7 @@ that," and he put a note, written on thick glossy paper, into the
 hands of Vivette.</p>
         <p xml:id="bcbeyond_1301498">She went close to the lamp, and read as follows:</p>
         <q>
-          <text xml:id="bcbeyond_1301503">
+          <q><floatingText xml:id="bcbeyond_1301503">
             <body xml:id="bcbeyond_1301502">
               <div xml:id="bcbeyond_910281" type="letter">
                 <opener>
@@ -5682,7 +5682,7 @@ have the assurance of your forgiveness in 'your own dear handwriting,'
 as dearest Elaine says."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="bcbeyond_1301504">"That is not an expression of Elaine's," said Vivette, folding, the
 letter neatly in her hands, and looking very thoughtful indeed. "There
@@ -5695,7 +5695,7 @@ jewels, and left a note for her mother."</p>
         <p xml:id="bcbeyond_1301506">"Here it is," said Mrs. Carruthers, taking a note from her pocket
 and handing it to Vivette, who opened it, and read as follows:</p>
         <q>
-          <text xml:id="bcbeyond_1301509">
+          <q><floatingText xml:id="bcbeyond_1301509">
             <body xml:id="bcbeyond_1301508">
               <div xml:id="bcbeyond_910282" type="letter">
                 <opener>
@@ -5715,7 +5715,7 @@ loving<name>ELAINE."</name></signed>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="bcbeyond_1301510">"What a very puzzling, unaccountable circumstance!" said
 Vivette. She drew her black brows into a frown. "Tell me," she said,

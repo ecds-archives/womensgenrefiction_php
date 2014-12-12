@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="jmgilded_1301551">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="jmgilded_1301551">
   <teiHeader><fileDesc>
       <titleStmt>
         <title>A Gilded Serpent, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A GILDED SERPENT</title>. <pubPlace>London</pubPlace>: <publisher>Ward, Lock &amp; Co., Limited</publisher>, <date>1908</date>.</bibl>
@@ -92,12 +92,12 @@ AUTHOR OF "JIM THE PENMAN," "THE MAN FROM MANCHESTER,"<lb/> "TALES OF TERROR," "
         </docImprint>
       </titlePage>
       <pb xml:id="jmgilded_1307"/>
-      <div xml:id="jmgilded_100" type="table of contents">
-        <figure><graphic url="ENTITY_jmguildedtc1" rend="inline"/>
+      <div xml:id="jmgilded_100" type="table_of_contents">
+        <figure><graphic url="jmguildedtc1.jpg" rend="inline"/>
           <figDesc>Table of contents for  Muddock's "The Gilded Serpent"</figDesc>
         </figure>
         <pb xml:id="jmgilded_1308" n="6"/>
-        <figure><graphic url="ENTITY_jmguildedtc2" rend="inline"/>
+        <figure><graphic url="jmguildedtc2.jpg" rend="inline"/>
           <figDesc>Table of contents for  Muddock's "The Gilded Serpent" </figDesc>
         </figure>
       </div>
@@ -550,7 +550,7 @@ he could. It was only a momentary feeling, and he went forward. As he reached th
         <p xml:id="jmgilded_130329">"There has been a murder, master—come," answered the youth in great agitation.</p>
         <p xml:id="jmgilded_130330">Moved by one common impulse they all followed him, and he led the way by a narrow path which could only be traversed in single file. In breathless agitation they hastened along in silence, Ralph Tinker bringing up the rear. The lad led them for a distance of about a quarter of a mile to a spot where there was a dense growth of bracken in a hollow, and there in the bracken lay the huddled-up form of a man. The doctor sprang forward and turned the man over. Then there rang through the wood a shrill, piercing scream of agonized horror. It was a woman's scream, and it came from Norah who fell prostrate on the body of the man.</p>
         <p xml:id="jmgilded_130331">The man was her father, and he was dead.</p>
-        <figure><graphic url="ENTITY_jmgildedill1" rend="inline"/>
+        <figure><graphic url="jmgildedill1.jpg" rend="inline"/>
           <figDesc> Illustration included in body of Muddock's "A Gilded Serpent"</figDesc>
         </figure>
       </div>
@@ -1701,7 +1701,7 @@ capable of holding her own with any one. He was a rough, uncultivated man, with 
 life and the apple of his eye, and he was very, very proud of her. The pride was justified, for, though she'd many faults, she'd some excellent qualities that made her charming as a woman; and then she certainly was not commonplace. She had originality and personality. A country wench she was undoubtedly; but distinctive in character.</p>
         <p xml:id="jmgilded_1301255">Jopling arrived at Ministerfield and made haste to call on the people with whom his daughter had arranged to stay. They told him that she had left to return, as she said, to the cottage in the woods. Light-hearted he went back to his home, carrying the shawl under his arm and scarcely feeling the ground beneath his feet; but Martha wasn't there. Instead he found a letter lying on the table addressed to him. He cut the fastenings with some trepidation, and his feelings may be imagined as he read the following lines—</p>
         <q>
-          <text xml:id="jmgilded_1301259">
+          <q><floatingText xml:id="jmgilded_1301259">
             <body xml:id="jmgilded_1301258">
               <div xml:id="jmgilded_242" type="letter">
                 <opener>
@@ -1718,7 +1718,7 @@ yourself, dad, dear, and don't think unkind things of your affectionate daughter
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="stars" unit="section"/>
         <p xml:id="jmgilded_1301260">As Dick Jopling perused this strange missive his swarthy face underwent a complete change, and there was an expression in it that boded ill for somebody. His massive chest rose and fell with excitement, and his eyes glowed with the light of anger. He hurled the parcel containing the shawl from him, and it fell into a corer of the room. Clenching his fists and grinding his teeth he exclaimed fiercely—</p>

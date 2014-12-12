@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fmherfa_12012">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fmherfa_12012">
   <teiHeader xml:id="fmherfa1201"><fileDesc>
       <titleStmt>
         <title>Her Father's Name, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Her Father's
@@ -85,7 +85,7 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="fmherfa_12011">
     <front xml:id="fmherfa_1202">
       <div xml:id="fmherfa_000" type="covers">
-        <figure><graphic url="ENTITY_fmherfafc" rend="inline"/>
+        <figure><graphic url="fmherfafc.jpg" rend="inline"/>
           <figDesc>Front cover of Marryat's <hi rend="italic">Her Father's
 Name</hi>.</figDesc>
         </figure>
@@ -105,8 +105,8 @@ CONFLICT," ETC.</byline>
         </docImprint>
       </titlePage>
       <pb xml:id="fmherfa_1307" n="[3]"/>
-      <div xml:id="fmherfa_001" type="table of contents">
-        <figure><graphic url="ENTITY_fmherfatc" rend="inline"/>
+      <div xml:id="fmherfa_001" type="table_of_contents">
+        <figure><graphic url="fmherfatc.jpg" rend="inline"/>
           <figDesc>Table of contents for Marryat's <hi rend="italic">Her Father's
 Name</hi>.</figDesc>
         </figure>
@@ -1437,7 +1437,7 @@ memory of those words. What was to her the opinion of the whole world compared t
         <p xml:id="fmherfa_1301207">Leona felt that had she known these facts when she first read that letter it would not have made her so miserable. She drew it from the safe repository where she had always kept it under lock and key, and unfolding its worn and yellow paper, perused its contents anew.</p>
         <p xml:id="fmherfa_1301208">It was dated the 8th of June, five-and-twenty years before, and bore no address:</p>
         <q>
-          <text xml:id="fmherfa_1204">
+          <q><floatingText xml:id="fmherfa_1204">
             <body xml:id="fmherfa_1203">
               <div xml:id="fmherfa_100" type="letter">
                 <opener>
@@ -1460,7 +1460,7 @@ mind about the other loan just now, Master George. I don't like to
 hear you talk about being desperate."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <milestone rend="dots" unit="section"/>
         <p xml:id="fmherfa_1301215"><hi rend="italic">The Eighth of June.</hi> And the morning on which the murder had been discovered was the ninth. She had heard Rouse say so. This letter had been written on the previous day, asking her father to go late and meet Anson at the office, where, the next morning, he had been found <hi rend="italic">dead</hi>. And then her father had disappeared, and witnesses had been brought forward to prove that he and the clerk had had high words together the night before--the very night on which Anson had invited him to come--high words about money, which the one wanted to borrow, and the other wouldn't or couldn't lend. How the facts she had heard, and the facts she saw written, fitted into and tallied with each other. How her heart sickened as she watched the
@@ -1533,7 +1533,7 @@ and yesterday the chief clerk called himself to see how soon you were likely to 
         <p xml:id="fmherfa_1301264">She unfolded the foolscap sheet of paper and read, in rather a shaking voice, as follows:</p>
         <pb xml:id="fmherfa_1301265" n="137 THE LETTER OF INTRODUCTION."/>
         <q>
-          <text xml:id="fmherfa_1206">
+          <q><floatingText xml:id="fmherfa_1206">
             <body xml:id="fmherfa_1205">
               <div xml:id="fmherfa_103" type="letter">
                 <p xml:id="fmherfa_1301266">"Gentlemen, we beg to present to your notice and kind consideration the bearer of these papers, Don Christobal Valera, whom we have deputed to act as our agent in all matters relating to the mercantile negotiations about to be opened between your house and ours. Don Valera is a gentleman whom we have known and employed as our foreign correspondent for the last year, and in whose capacity for business, and strict and honourable dealing we place the utmost confidence. Any attention which you may be enabled to show him during his stay amongst you, will be responded to by a man of birth and breeding, and gratefully acknowledged by ourselves.</p>
@@ -1544,7 +1544,7 @@ and yesterday the chief clerk called himself to see how soon you were likely to 
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fmherfa_1301267">Valera's dull eye gained a momentary lustre as he listened to the words.</p>
         <p xml:id="fmherfa_1301268">"It is complimentary, Leona, is it not? I don't know what I've done to deserve it. And the cashier told me I was certain to be asked to stay at Mr. Evan's house, during my visit to England."</p>
@@ -2972,7 +2972,7 @@ were not so she must go to town on her own speculation. But she was not disappoi
         <p xml:id="fmherfa_1302544">"Certainly," replied Leona, remarking with secret satisfaction that he had already in an abstracted manner laid his partner's letter on the mantle-shelf.</p>
         <p xml:id="fmherfa_1302545">As the door closed behind him, she sprung from her seat and seized the paper. It contained but a few words:</p>
         <q>
-          <text xml:id="fmherfa_1208">
+          <q><floatingText xml:id="fmherfa_1208">
             <body xml:id="fmherfa_1207">
               <div xml:id="fmherfa_230" type="letter">
                 <opener>
@@ -2982,7 +2982,7 @@ were not so she must go to town on her own speculation. But she was not disappoi
                 <closer><salute>--Yours in haste,</salute> <signed>HENRY EVANS."</signed></closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="fmherfa_1302547">She had scarcely replaced the letter in its former position when Mr. Lionel re-entered the room with some bank-notes in his hand.</p>
         <p xml:id="fmherfa_1302548">"My partner being unwilling you should be hampered by any unforeseen expense in travelling, Miss Gibson, has begged me to give you these from him, and to request you will use them to defray the cost of your journey to London."</p>
@@ -3885,7 +3885,7 @@ a poor woman, who had been her nurse when a baby, was dying, and wished to see h
     </body>
     <back xml:id="fmherfa_12010">
       <div xml:id="fmherfa_368" type="covers">
-        <figure><graphic url="ENTITY_fmherfabc" rend="inline"/>
+        <figure><graphic url="fmherfabc.jpg" rend="inline"/>
           <figDesc>Back cover for Marryat's <hi rend="italic">Her Father's
 Name</hi>.</figDesc>
         </figure>

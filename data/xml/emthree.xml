@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="emthree_12010">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="emthree_12010">
   <teiHeader xml:id="emthree1201"><fileDesc>
       <titleStmt>
         <title>Those Three, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Those Three; or Little Wings.</title>. <pubPlace>London</pubPlace>: <publisher>James Nisbet &amp; Co.</publisher>, <date>1891</date>.</bibl>
@@ -78,11 +78,11 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="emthree_1209">
     <front xml:id="emthree_1202">
       <div xml:id="emthree_000" type="covers">
-        <figure><graphic url="ENTITY_emthreefc" rend="inline"/>
+        <figure><graphic url="emthreefc.jpg" rend="inline"/>
           <figDesc>Front cover of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_emthreesp" rend="inline"/>
+        <figure><graphic url="emthreesp.jpg" rend="inline"/>
           <figDesc>Spine of Marshall's <hi rend="italic">Those Three</hi>.</figDesc>
         </figure>
       </div>
@@ -94,7 +94,7 @@ Three</hi>.</figDesc>
       </titlePage>
       <pb xml:id="emthree_1307"/>
       <div xml:id="emthree_001" type="frontispiece">
-        <figure><graphic url="ENTITY_emthreefp" rend="inline"/>
+        <figure><graphic url="emthreefp.jpg" rend="inline"/>
           <figDesc>Frontispiece from Marshall's <hi rend="italic">Those Three</hi>.</figDesc>
         </figure>
       </div>
@@ -139,12 +139,12 @@ MATHCETT'S MISTAKE," "EASTWARD HO!" ETC. ETC.</byline>
         <bibl>--GEORGE HERBERT.</bibl>
       </div>
       <pb xml:id="emthree_13011" n="[vii]"/>
-      <div xml:id="emthree_003" type="table of contents">
-        <figure><graphic url="ENTITY_emthreetc1" rend="inline"/>
+      <div xml:id="emthree_003" type="table_of_contents">
+        <figure><graphic url="emthreetc1.jpg" rend="inline"/>
           <figDesc>Table of contents for  Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_emthreetc2" rend="inline"/>
+        <figure><graphic url="emthreetc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
@@ -183,7 +183,7 @@ Three</hi>.</figDesc>
         <p xml:id="emthree_13041">Presently she wiped her eyes, for it is not easy to read a letter with a tear-dimmed vision, and then opened the precious envelope. It was sealed <pb xml:id="emthree_13040" n="5 THE COTTAGE."/>with a large gold and blue cypher, and "High Wycherly" was printed at the top of the page in the same colours, while below there was the same cypher and a crest above it. Corisande had levelled shafts of irony at that same emblazoned cypher not many days before, and even Joyce had said, "Isn't it a little vulgar to put such grand things on a letter?"</p>
         <p xml:id="emthree_13042">In her secret heart Pleasance wished there had been no such adornment to the paper, but this could not spoil the pleasure of the letter as she read:—</p>
         <q>
-          <text xml:id="emthree_1204">
+          <q><floatingText xml:id="emthree_1204">
             <body xml:id="emthree_1203">
               <div xml:id="emthree_100" type="letter">
                 <opener>
@@ -196,7 +196,7 @@ Three</hi>.</figDesc>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="emthree_13046">Such a hand as it was, with all kinds of eccentric twists, and strokes, and oddities! Written, too, with a very blunt pen, and looking—as per-<pb xml:id="emthree_13045" n="6 THOSE THREE."/>haps the writer wished it to look—original. In the eyes of Pleasance, however, the letter, like the writer, had no faults, and it was read and re-read, and then Pleasance resigned herself to meditation again.</p>
         <p xml:id="emthree_13047">It was an afternoon full of delicious murmurs of happy life. At the foot of the little Knoll on which the old oak stood, a rivulet made gentle music. There was a rustle of twigs and leaves as birds flew to their nests to feed their little ones in a copse near by. Then from afar came the lowing of cows, the call of the cuckoo, the caw of rooks, and the hundred half-articulate sounds which go to make up the fulness of summer joy on a day in June.</p>
@@ -359,7 +359,7 @@ cousin would be a <pb xml:id="emthree_13078" n="11 THE COTTAGE."/>blessing. Fanc
         <p xml:id="emthree_130211">The handwriting on one of the envelopes was surely familiar, though she had not seen it for a long time. "Yes," she said, "it is Grace's writing;" and then, when she had let the gate of The Cottage swing behind her, she sat down on the garden-seat under the spreading lime-tree, where Corisande and Pleasance had been sitting, on the previous day when the letter with the grand cypher, which had been so offensive, had arrived.</p>
         <p xml:id="emthree_130212">This letter had no such ornament, it was enclosed in a very ordinary envelope of oblong shape, with a pink Queen's head in the right-hand corner—such envelopes as are used for convenience-sake by those who have many letters to write. The paper on which the letter was written was not very thick or highly glazed, and the writing was not very easy to decipher. It began:—</p>
         <q>
-          <text xml:id="emthree_1206">
+          <q><floatingText xml:id="emthree_1206">
             <body xml:id="emthree_1205">
               <div xml:id="emthree_101" type="letter">
                 <opener>
@@ -383,7 +383,7 @@ cousin would be a <pb xml:id="emthree_13078" n="11 THE COTTAGE."/>blessing. Fanc
                 <p xml:id="emthree_130216">"<hi rend="italic">P.S.</hi>—I had closed my envelope, and forgot in my haste I had not given you our address; but I am in such a whirl."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="emthree_130217">Lady Victoria turned the letter over and read it a second time.</p>
         <p xml:id="emthree_130219">"Of course Henry is in orders; I forgot that. Grace's letter is like herself—she always was in haste—in haste to marry poor Mr. Kennedy, though she knew he was dying of consumption. I daresay the son has inherited the malady. I must receive them, of course, but it is not a very <pb xml:id="emthree_130218" n="33 ABBOTSBOURNE."/>agreeable prospect. There is one consolation—they are certain to say, as every one else has said, that Abbotsbourne is too far out of the world."</p>
@@ -738,7 +738,7 @@ and with a self-contained nature, Corisande's faults were almost the
 inevitable outcome of her position. She was quite unaccustomed to the
 little contradictions and rubs of which sisters with brothers
 generally have a large share. Her mother looked 
-<pb xml:id="emthree_130565"/><figure><graphic url="ENTITY_emthreeill80" rend="inline"/><p xml:id="emthree_130566">"'Poor Aunt Grace!' said Corisande. 'I hope she will be able to
+<pb xml:id="emthree_130565"/><figure><graphic url="emthreeill80.jpg" rend="inline"/><p xml:id="emthree_130566">"'Poor Aunt Grace!' said Corisande. 'I hope she will be able to
 support it.'" —<hi rend="italic">Page</hi> 80.</p><figDesc>Illustration included in Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc></figure><pb xml:id="emthree_130567" n="81 ARRIVALS."/>on her with pride, and she had made her a companion and friend from her early childhood.</p>
         <p xml:id="emthree_130569">Gentle Pleasance was quite ready to give up to Corisande, and, till her friendship with Evelyn Macdonald had raised an antagonistic feeling between them, she was perfectly contented to believe that Corisande <hi rend="italic">was</hi> superior not only to her and Joyce, but to the rest of the world. Now there was an exception; for Evelyn Macdonald was surely her equal in beauty, and in many other ways also.</p>
@@ -1315,7 +1315,7 @@ is <hi rend="italic">rather</hi> ugly when no sun shines on it."</p>
         <p xml:id="emthree_1301156">Poor little Pleasance had the heroine-worship which is, perhaps, not so common in these days as it was a generation back. It is amusing to notice, while it lasts, that the worshipper can see no fault in the idol, and resents from any one else the idea that such a fault can exist. It is also remarkable that any two girls who entertain this devotion for each other are almost invariably as complete contrasts as were Evelyn Macdonald and Pleasance Fraser. Perhaps it is this contrast that gives a zest to the friendship of which similarity would deprive it.</p>
         <p xml:id="emthree_1301157">"What is Mr. Kennedy come for?" Evelyn asked, as the two girls walked together towards the pond.</p>
         <p xml:id="emthree_1301161">Pleasance did not know whether she ought to 
-<pb xml:id="emthree_1301158"/><figure><graphic url="ENTITY_emthreeill160" rend="inline"/><p xml:id="emthree_1301159">"There are no sunny hours to mark to-day. The poor old thing has a
+<pb xml:id="emthree_1301158"/><figure><graphic url="emthreeill160.jpg" rend="inline"/><p xml:id="emthree_1301159">"There are no sunny hours to mark to-day. The poor old thing has a
 dark time of it." —<hi rend="italic">Page</hi> 161.</p><figDesc>Illustration included in Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc></figure><pb xml:id="emthree_1301160" n="161 RESCUE."/>repeat what Mr. Kennedy had said to her and Joyce the night before.</p>
         <p xml:id="emthree_1301162">"I think," she began, "he wished to know you, and I think he saw that old servant of yours yesterday at Monksborough."</p>
@@ -2004,7 +2004,7 @@ a low, sweet, musical voice.</p>
         <p xml:id="emthree_1301815">Only this one room for all the family! In the little bay-window stood a writing-table covered with sermon-paper, and a few shabby books were tucked away beneath the table, and lay in dusty heaps in the recesses formed by the sides of the window.</p>
         <p xml:id="emthree_1301819">"I am sorry my son is not at home," Mrs. Greenfield said; "he is
 gone to take a wedding
-<pb xml:id="emthree_1301816"/><figure><graphic url="ENTITY_emthreeill246" rend="inline"/><p xml:id="emthree_1301817">"'I am sorry my son is not at home," Mrs. Greenfield said." —<hi rend="italic">Page</hi> 246.</p><figDesc>Illustration included in Marshall's <hi rend="italic">Those
+<pb xml:id="emthree_1301816"/><figure><graphic url="emthreeill246.jpg" rend="inline"/><p xml:id="emthree_1301817">"'I am sorry my son is not at home," Mrs. Greenfield said." —<hi rend="italic">Page</hi> 246.</p><figDesc>Illustration included in Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc></figure><pb xml:id="emthree_1301818" n="247 POVERTY AND ILLNESS."/>at St. Mary's for a clergyman. My daughter-in-law is, as you know, an invalid, and seldom rises to breakfast."</p>
         <p xml:id="emthree_1301820">Mr. Kennedy had on his former visit scarcely realised the condition of this family, for Mr. Greenfield had borrowed the sitting-room below for their conference.</p>
         <p xml:id="emthree_1301821">"I hope this change to Abbotsbourne will be beneficial to Mrs. Greenfield; it is fine air up on the hills, and I expect to see these little people get strong and well there."</p>
@@ -2058,7 +2058,7 @@ Three</hi>.</figDesc></figure><pb xml:id="emthree_1301818" n="247 POVERTY AND IL
         <p xml:id="emthree_1301877">"I did wish to see her, sir," the poor mother said; "but I'll try
 to be patient. My husband has now gone off no one knows where, and he
 has 
-<pb xml:id="emthree_1301874"/><figure><graphic url="ENTITY_emthreeill256" rend="inline"/><p xml:id="emthree_1301875">"Mr. Kennedy left behind him a substantial proof of his sympathy,
+<pb xml:id="emthree_1301874"/><figure><graphic url="emthreeill256.jpg" rend="inline"/><p xml:id="emthree_1301875">"Mr. Kennedy left behind him a substantial proof of his sympathy,
 and then Mr. Greenfield walked back with him to the station." —<hi rend="italic">Page</hi> 257.</p><figDesc>Illustration included in Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc></figure><pb xml:id="emthree_1301876" n="257 THE POOR ARE ALWAYS WITH YOU."/>been out of work ever since March. I do all I can with washing, and the little ones are taken care of by poor Janet's next sister, but it is a hard life, though I try to trust in God, who has been good to me in saving my poor child from a dreadful death."</p>
         <p xml:id="emthree_1301878">Mr. Kennedy left behind him a substantial proof of his sympathy, and then Mr. Greenfield walked with him to the station.</p>
@@ -2515,7 +2515,7 @@ it's all no use!"</p>
         <p xml:id="emthree_1302271">"You did not drive Zoe to-day, Evelyn," Joyce said; "I did not hear her steps coming along the road. I can hear so much better, now that I can't see"</p>
         <pb xml:id="emthree_1302272" n="320 THOSE THREE."/>
         <pb xml:id="emthree_1302273"/>
-        <figure><graphic url="ENTITY_emthreeill320" rend="inline"/>
+        <figure><graphic url="emthreeill320.jpg" rend="inline"/>
           <p xml:id="emthree_1302274">"Lady Victoria, taking Mrs. Macdonald's hand, said--'I hope your
 son is a little better. Will you come and see my child, who is also suffering?'" —<hi rend="italic">Page</hi> 321.</p>
           <figDesc>Illustration included in Marshall's <hi rend="italic">Those
@@ -2827,62 +2827,62 @@ LONDON.</p>
       <pb xml:id="emthree_1302585"/>
       <div xml:id="emthree_104" type="adverts">
         <pb xml:id="emthree_1302586"/>
-        <figure><graphic url="ENTITY_emthreead1" rend="inline"/>
+        <figure><graphic url="emthreead1.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
         <pb xml:id="emthree_1302587"/>
-        <figure><graphic url="ENTITY_emthreead2" rend="inline"/>
+        <figure><graphic url="emthreead2.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
         <pb xml:id="emthree_1302588"/>
-        <figure><graphic url="ENTITY_emthreead3" rend="inline"/>
+        <figure><graphic url="emthreead3.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
         <pb xml:id="emthree_1302589"/>
-        <figure><graphic url="ENTITY_emthreead4" rend="inline"/>
+        <figure><graphic url="emthreead4.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
         <pb xml:id="emthree_1302590"/>
-        <figure><graphic url="ENTITY_emthreead5" rend="inline"/>
+        <figure><graphic url="emthreead5.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
         <pb xml:id="emthree_1302591"/>
-        <figure><graphic url="ENTITY_emthreead6" rend="inline"/>
+        <figure><graphic url="emthreead6.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
         <pb xml:id="emthree_1302592"/>
-        <figure><graphic url="ENTITY_emthreead7" rend="inline"/>
+        <figure><graphic url="emthreead7.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
         <pb xml:id="emthree_1302593"/>
-        <figure><graphic url="ENTITY_emthreead8" rend="inline"/>
+        <figure><graphic url="emthreead8.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
         <pb xml:id="emthree_1302594"/>
-        <figure><graphic url="ENTITY_emthreead9" rend="inline"/>
+        <figure><graphic url="emthreead9.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
         <pb xml:id="emthree_1302595"/>
-        <figure><graphic url="ENTITY_emthreead10" rend="inline"/>
+        <figure><graphic url="emthreead10.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
         <pb xml:id="emthree_1302596"/>
-        <figure><graphic url="ENTITY_emthreead11" rend="inline"/>
+        <figure><graphic url="emthreead11.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>
         <pb xml:id="emthree_1302597"/>
-        <figure><graphic url="ENTITY_emthreead12" rend="inline"/>
+        <figure><graphic url="emthreead12.jpg" rend="inline"/>
           <figDesc>Advertisements included in the back of Marshall's <hi rend="italic">Those
 Three</hi>.</figDesc>
         </figure>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sgpeace_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="sgpeace_1201">
   <teiHeader xml:id="sgpeace1202"><fileDesc>
       <titleStmt>
         <title>Peace With Honour, an electronic edition</title>
@@ -12,7 +12,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title> Peace With Honour</title>. <pubPlace>Edinburgh and London</pubPlace>: <publisher>William Blackwood and Sons</publisher>, <date>1897</date>.</bibl>
@@ -84,12 +84,12 @@
         <p xml:id="sgpeace_13010">To<lb/>E. FG. L.,<lb/>IN GRATEFUL ACKNOWLEDGMENT<lb/>OF MUCH KIND ADVICE<lb/>AND HELP.</p>
       </div>
       <pb xml:id="sgpeace_13011" n="[vii]"/>
-      <div xml:id="sgpeace_200" type="table of contents">
-        <figure><graphic url="ENTITY_sgpeacecont1" rend="inline"/>
+      <div xml:id="sgpeace_200" type="table_of_contents">
+        <figure><graphic url="sgpeacecont1.jpg" rend="inline"/>
           <figDesc>Table of Contents for Grier's Peace With Honour</figDesc>
         </figure>
         <pb xml:id="sgpeace_13012" n="[viii]"/>
-        <figure><graphic url="ENTITY_sgpeacecont2" rend="inline"/>
+        <figure><graphic url="sgpeacecont2.jpg" rend="inline"/>
           <figDesc> Table of Contents for Grier's Peace With Honour</figDesc>
         </figure>
       </div>

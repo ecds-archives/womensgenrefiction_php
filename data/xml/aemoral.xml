@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="aemoral_12026">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="aemoral_12026">
   <teiHeader xml:id="aemoral1201"><fileDesc>
       <titleStmt>
         <title>The Morals of May Fair, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Morals of May
@@ -2188,7 +2188,7 @@ guardian in the <pb xml:id="aemoral_1301634" n="187 THE MISFORTUNES OF AN 'UNFOR
         <p xml:id="aemoral_1301660">He managed to keep very clear of them for some days after Mortimer left. His friend's words had impressed him unpleasantly, and he had no deliberate intention whatever of committing such folly as a second marriage. He was perfectly comfortable in his snug, old-fashioned way in Tavistock Street; his housekeeper kept everything in order, and gave him his well-dressed meals at regular hours; he had his friends to dine with him occasionally, and dined with them in return: what more could he want? But "<hi rend="italic">l'homme propose</hi>."</p>
         <p xml:id="aemoral_1301661">Four weeks after the friends parted on the pier, the stock-broker received the following letter:—</p>
         <q>
-          <text xml:id="aemoral_1301664">
+          <floatingText xml:id="aemoral_1301664">
             <body xml:id="aemoral_1301663">
               <opener>
                 <salute>"DEAR MORTIMER,—</salute>
@@ -2202,7 +2202,7 @@ guardian in the <pb xml:id="aemoral_1301634" n="187 THE MISFORTUNES OF AN 'UNFOR
                 </address>
               </closer>
             </body>
-          </text>
+          </floatingText>
         </q>
         <pb xml:id="aemoral_1301665" n="191 DANBY IS FAIRLY HOOKED."/>
         <p xml:id="aemoral_1301666">'Well!" said Mortimer to himself, as he finished the letter, "I did not really think my old friend would have turned out such a beastly idiot—at sixty years of age! 'Reserve'—'confidence'—'more than mere acquaintance'—faugh! Well, if the man is still to be saved, it sha'nt be my fault if he marries either of them." And, at considerable inconvenience, Mortimer left town that very afternoon, and arrived at Boulogne by the evening packet. He walked in high dudgeon up the pier, a garcon, from the hôtel he had always frequented before he tried that——boarding-house, carrying his carpet-bag behind, and when he was about half way up, whom should he see but Danby, with the widow on one arm and the daughter on the other, looking very red and foolish, and the ladies remarkably cheerful. Danby looked more red and foolish still when he recognised his friend; while the widow simpered, and looked conscious, in a manner that made Mortimer absolutely sick. His manner was none of the pleasantest when they all stopped for greeting.</p>
@@ -3256,7 +3256,7 @@ surprised at her coming here; for, of course, it took her out of <pb xml:id="aem
         <head>CHAPTER XLIII.</head>
         <p xml:id="aemoral_1302593">WHEN he was half way between Paris and Boulogne, the following morning, Philip took Fridoline's letter from his pocket, and broke the seal. The contents were as follows:—</p>
         <q>
-          <text xml:id="aemoral_1302621">
+          <floatingText xml:id="aemoral_1302621">
             <body xml:id="aemoral_1302620">
               <p xml:id="aemoral_1302594">"I shall never see you more, Monsieur Earnscliffe. When you receive this letter, my name will come back to you like a dream long forgotten. You will say, 'Ah, poor little Fridoline! I remember, now, there was something about her I never understood.' And just for this reason I write to you. In the eyes of the world I care nothing how I am remembered. I may be merely called eccentric, or classed with all other actresses; but to you—I know-not why—I would appear as I really am. The time is past when it could injure any one to disclose the secret of my life—the reason for secresy, alas! exists no longer. Philip, let me tell you briefly why I left my own country—why I followed a profession, and associated with a class, that was abhorrent to me!</p>
               <p xml:id="aemoral_1302595">"My earliest recollections are of a Norwegian village, buried in the depths of pine forests and wild mountains—where, for more than half the year, the snow never melted; and of a large, old farm-house, of which only a few rooms on the first-floor were furnished, and where I lived with my Aunt Christina, and one servant—Hulda, who has never left me.</p>
@@ -3304,7 +3304,7 @@ an immense fur-covered fauteuil by <pb xml:id="aemoral_1302608" n="267 A NOBLE-M
                 <signed>"FRIDOLINE."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText>
         </q>
       </div>
       <div xml:id="aemoral_044" n="44" type="chapter">

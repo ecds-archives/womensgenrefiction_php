@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gffalse_0001">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="gffalse_0001">
   <teiHeader xml:id="gffalse0002"><fileDesc>
       <titleStmt>
         <title>Falsely Accused, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>.<title>Falsely Accused or Her Bitter Struggle</title>. <pubPlace>New York</pubPlace>:
@@ -79,18 +79,18 @@ text.</p>
   <text xml:id="gffalse_1302130">
     <front xml:id="gffalse_1309">
       <div xml:id="gffalse_0003" type="covers">
-        <figure><graphic url="ENTITY_gffalsefc001"/>
+        <figure><graphic url="gffalsefc001.jpg"/>
           <figDesc>Front cover or Price's <hi rend="italic">Falsely Accused</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="gffalse_1305"/>
       <div xml:id="gffalse_0004" type="advert">
-        <figure><graphic url="ENTITY_gffalseadvert002"/>
+        <figure><graphic url="gffalseadvert002.jpg"/>
           <figDesc>Advertisement included in Price's <hi rend="italic">Falsely Accused</hi>.</figDesc>
         </figure>
       </div>
       <div xml:id="gffalse_0005" type="advert">
-        <figure><graphic url="ENTITY_gffalseeadvert003"/>
+        <figure><graphic url="gffalseeadvert003.jpg"/>
           <figDesc>Advertisement included in Price's <hi rend="italic">Falsely Accused</hi>.</figDesc>
         </figure>
       </div>
@@ -109,7 +109,7 @@ text.</p>
       </titlePage>
       <pb xml:id="gffalse_1308"/>
       <div xml:id="gffalse_0007" type="copyright">
-        <figure><graphic url="ENTITY_gffalsecopyright005"/>
+        <figure><graphic url="gffalsecopyright005.jpg"/>
           <figDesc>Copyright information for Price's <hi rend="italic">Falsely Accused</hi>.</figDesc>
         </figure>
       </div>
@@ -671,7 +671,7 @@ to bed instead of sitting up to keep him company while he wrote to the steamship
         <p xml:id="gffalse_130457">"Good night, and sweet dreams, my darling," he said. "Don't lie awake and wait for me, for I am a slow writer, and it's quite possible that I may walk over to the post office with my letter when I have finished it, for I am very anxious that it should catch the night mail."</p>
         <p xml:id="gffalse_130458">But, in spite of his anxiety, it was not to the steamship company he gave his first attention. As soon as he was alone, he dipped his pen into the ink and began as follows:</p>
         <q>
-          <text xml:id="gffalse_130469">
+          <q><floatingText xml:id="gffalse_130469">
             <body xml:id="gffalse_130468">
               <div xml:id="gffalse_0008" type="letter">
                 <opener>
@@ -694,7 +694,7 @@ to set sail for England upon the steamer <hi rend="italic">Atlantic</hi>, which 
                 <lb/>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gffalse_130470">Passing the blotter over his still wet signature, my lord, the Right Honorable Philip Eustace Armbruster, Marquis of Desmond and Baron Camperdown, folded the written sheet, slipped it into an envelope, and, taking up his pen again, addressed it to : "Matthew Sleaford, Esq., Thetford Castle, Duphaven Royals, Kent, England."</p>
       </div>
@@ -1228,7 +1228,7 @@ quis of Desmond?" responded Gypsy excitedly. "What was he doing with his clothin
 <pb xml:id="gffalse_130875" n="136 Truth Comes Out."/>
 fled; for the letter—bearing date of four years previously—contained only these words:</p>
         <q>
-          <text xml:id="gffalse_130879">
+          <q><floatingText xml:id="gffalse_130879">
             <body xml:id="gffalse_130878">
               <div xml:id="gffalse_0009" type="letter">
                 <salute>"MY LORD:</salute>
@@ -1239,7 +1239,7 @@ fled; for the letter—bearing date of four years previously—contained only th
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gffalse_130880">Slipping the faded letter back into its envelope, Gypsy looked blankly at Jemima Ann.</p>
         <p xml:id="gffalse_130881">"There is no clew in that," she said, in a wavering, husky voice. "The paper might be blank for all the light it sheds upon the mystery."</p>
@@ -1824,7 +1824,7 @@ some consolation, but to go away without a word, to leave her to think that my h
         <p xml:id="gffalse_1301322">For an answer Gypsy seated herself at the table and produced pen, ink, and paper. "Tell me what you wish to say, and I will set it down as you dictate," she said, as she dated the sheet. "Now, then, I am ready. Please proceed."</p>
         <p xml:id="gffalse_1301323">And, after covering her with thanks, Twyford did proceed, and this was the letter he dictated.</p>
         <q>
-          <text xml:id="gffalse_1301326">
+          <q><floatingText xml:id="gffalse_1301326">
             <body xml:id="gffalse_1301325">
               <div xml:id="gffalse_0010" type="letter">
                 <salute>"MY DEAR FRIEND:</salute>
@@ -1836,7 +1836,7 @@ some consolation, but to go away without a word, to leave her to think that my h
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gffalse_1301328">"There!" said Gypsy, as she passed the blotter over, it and handed the written sheet to him. "Now give me the name and address, and while you are reading
 <pb xml:id="gffalse_1301327" n="202 Springing the Trap."/>
@@ -1850,14 +1850,14 @@ over the letter to see if all is correct I will address the envelope."</p>
         <p xml:id="gffalse_1301335">"God bless you for what you have done," responded Twyford, taking up his hat and bowing himself out of the room. "Good-by, Miss Montressor, good-by, and thank you, ma'am."</p>
         <p xml:id="gffalse_1301336">Then he was gone, and Gypsy, who had escorted him to the door, stood alone with the mysterious letter in her hand. All in a moment it dawned upon her from whom it might possibly be, and, slipping back into the anteroom, she closed the door, and tore off the envelope and drew forth a sheet of paper headed, "London," and bearing these words:</p>
         <q>
-          <text xml:id="gffalse_1301340">
+          <q><floatingText xml:id="gffalse_1301340">
             <body xml:id="gffalse_1301339">
               <div xml:id="gffalse_0011" type="letter"><salute>"DEAR FRIEND:</salute> <p xml:id="gffalse_1301338">I send this by an acquaintance, who is on his way to Deephaven Royals, and who has
 <pb xml:id="gffalse_1301337" n="203 Springing the Trap."/>
 promised to see that it reaches your hands. When you receive it hesitate not a moment, but disguise yourself and come at once to London—to Desmond House, Cromwell Road, South Kensington—where I shall be awaiting you. Say nothing to anybody, but come at once, and let not even your dearest friend know when you leave or where you go. I have news for you—news that will make you swoon for very joy. Come, I implore you.</p>	<closer><signed>Hastily and hopefully,
 <name>"MAGGIE TWYFORD."</name></signed></closer></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gffalse_1301341">As she mastered the contents of the letter. Gypsy gave a suppressed cry, then crushing it in her hand, glanced at the clock and ran out of the room. One minute later the swinging French window was thrust sharply open and the figure of Ned Twyford slipped hurriedly in.</p>
         <p xml:id="gffalse_1301342">With the swiftness of thought he drew out of his pocket the letter Gypsy had written at his dictation, removed it from its envelope, flattened it out, laid it upon the writing table, and, taking up the ink bottle, poured its contents over the signature and let them trickle thence to the floor.</p>
@@ -2088,23 +2088,23 @@ and so, jumping into the cab again, she was driven round to the box office of th
         <pb xml:id="gffalse_1301485" n="223 Chiefly Epistolary."/>
         <p xml:id="gffalse_1301486">In a very bad frame of mind she sat down to wait for the return of her mother and Mr. Meredith, and, after keeping a lonely vigil until after midnight, was finally rewarded by a brief note—conveyed by messenger—containing these words:</p>
         <q>
-          <text xml:id="gffalse_1301489">
+          <q><floatingText xml:id="gffalse_1301489">
             <body xml:id="gffalse_1301488">
               <div xml:id="gffalse_0012" type="letter"><p xml:id="gffalse_1301487">"Your mother and I will not return until tomorrow, so don't wait up
 for us.</p> <closer><signed>Affectionately,
 <name>"UNCLE GEOFFREY."</name></signed></closer></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gffalse_1301490">With a sniff of disgust, Miss Detheredge tore the note in two and forthwith went to bed.</p>
         <p xml:id="gffalse_1301491">On the morrow she awoke at ten o'clock to find it raining, and a telegram awaiting her with the simple message:</p>
         <q>
-          <text xml:id="gffalse_1301494">
+          <q><floatingText xml:id="gffalse_1301494">
             <body xml:id="gffalse_1301493">
               <div xml:id="gffalse_9012" type="letter"><p xml:id="gffalse_1301492">"We may be late in returning.</p> <closer><signed>Don't worry.
 <name>"G. M."</name></signed></closer></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gffalse_1301495">And they were late in returning, for the long, dismal, rainy day wore away without bringing any sign of them, and the dismal evening began to settle down, gloomy, foggy, and hopelessly wet.</p>
         <p xml:id="gffalse_1301496">But toward seven o'clock a letter arrived by post, and hastily tearing it open, she read these words:</p>
@@ -2115,7 +2115,7 @@ whom it is rumored she is soon to marry."</p>
         <p xml:id="gffalse_1301499">With that she took out her writing case, and, sitting down, hastily
 penned this note:</p>
         <q>
-          <text xml:id="gffalse_1301503">
+          <q><floatingText xml:id="gffalse_1301503">
             <body xml:id="gffalse_1301502">
               <div xml:id="gffalse_0013" type="letter"><salute>"DEAR MOTHER:</salute><p xml:id="gffalse_1301501">I have gone to a place called
 <pb xml:id="gffalse_1301500" n="224 Chiefly Epistolary."/>
@@ -2124,7 +2124,7 @@ day or two. My business is important, and I will tell you all about it
 when I return.</p> <closer><signed>Hastily,
 <name>ADA."</name></signed></closer></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="gffalse_1301504">Then, having sealed and addressed this note, she rang for a Bradshaw, looked up Deephaven Royals and how to reach it, and precisely twenty minutes later was seated in a cab and being rattled away toward Victoria Station.</p>
       </div>
@@ -3087,7 +3087,7 @@ ried Jemima Ann, precisely ten days after the bells of Deephaven Church rang out
         <p xml:id="gffalse_1302127">No. 1147 of the NEW EAGLE SERIES, entitled "Love Given in Vain," by Adelaide Fox Robinson, is a charming story in which wealth and love contend for the mastery, the victory being won by true love, which brings the happiness desired.</p>
       </div>
       <div xml:id="gffalse_0015" type="covers">
-        <figure><graphic url="ENTITY_gfpricebc006"/>
+        <figure><graphic url="gfpricebc006.jpg"/>
           <figDesc>Back cover of <hi rend="italic">Falsely Accused</hi>.</figDesc>
         </figure>
       </div>

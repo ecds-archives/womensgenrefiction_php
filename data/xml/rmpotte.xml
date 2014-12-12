@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rmpotte_12010">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rmpotte_12010">
   <teiHeader xml:id="rmpotte1201"><fileDesc>
       <titleStmt>
         <title>Potterism, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Potterism</title>. <pubPlace>New
@@ -98,7 +98,7 @@ added by the encoder and do not appear in the original text.</p>
       </titlePage>
       <pb xml:id="rmpotte_1309" n="[iv]"/>
       <div xml:id="rmpotte_028" type="copyright">
-        <figure><graphic url="ENTITY_rmpottecr" rend="inline"/>
+        <figure><graphic url="rmpottecr.jpg" rend="inline"/>
           <figDesc>An image of the copyright page for Rose Macaulay's Potterism.</figDesc>
         </figure>
       </div>
@@ -169,12 +169,12 @@ own.'</p>
         </cit>
       </div>
       <pb xml:id="rmpotte_13017" n="ix"/>
-      <div xml:id="rmpotte_029" type="table of contents">
-        <figure><graphic url="ENTITY_rmpottetc1" rend="inline"/>
+      <div xml:id="rmpotte_029" type="table_of_contents">
+        <figure><graphic url="rmpottetc1.jpg" rend="inline"/>
           <figDesc>An image of the first page of the table of contents for Rose Macaulay's Potterism.</figDesc>
         </figure>
         <pb xml:id="rmpotte_13018" n="x"/>
-        <figure><graphic url="ENTITY_rmpottetc2" rend="inline"/>
+        <figure><graphic url="rmpottetc2.jpg" rend="inline"/>
           <figDesc>An image of the second page of the table of contents for Rose Macaulay's Potterism.</figDesc>
         </figure>
       </div>

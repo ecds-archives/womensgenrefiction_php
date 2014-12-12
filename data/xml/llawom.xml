@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="llawom_cecfair1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="llawom_cecfair1205">
   <teiHeader xml:id="cecfair1201"><fileDesc>
       <titleStmt>
         <title>A Woman's Tragedy, an electronic edition</title>
@@ -6,7 +6,7 @@
       </titleStmt>
       <extent/>
       <publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2008</date><availability><p xml:id="llawom_1301">© 2008, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact:<address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p> </availability><idno type="ark">http://pid.emory.edu/ark:/25593/173dg</idno></publicationStmt>
-      <seriesStmt> <title>Women's Genre Fiction, 1860-1920</title> <respStmt> <name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name><resp>Principal Investigators</resp><name/></respStmt></seriesStmt>
+      <seriesStmt> <title>Women's Genre Fiction, 1860-1920</title> <respStmt> <name>Sheila T. Cavanagh</name> <name>Charles D. Spornick</name><resp>Principal Investigators</resp></respStmt></seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A Little Irish Girl</title>. <pubPlace>New York</pubPlace>: <publisher>F.M.Lupton</publisher>.</bibl>
       </sourceDesc>
@@ -49,8 +49,8 @@
     </profileDesc><revisionDesc><change><date>2008-June-18</date><label>Encoder.</label><name>Shruthi Vissa,</name>XML tags inserted in compliance with TEI guidelines using TEILITE.</change></revisionDesc></teiHeader>
   <text xml:id="llawom_1302612">
     <front xml:id="llawom_13013">
-      <div xml:id="llawom_cover" type="Front Cover">
-        <figure><graphic url="ENTITY_llawomfc" rend="inline"/>
+      <div xml:id="llawom_cover" type="front_cover">
+        <figure><graphic url="llawomfc.jpg" rend="inline"/>
           <figDesc> Front Cover of Lawrence Lynch's "A Woman's Tragedy"</figDesc>
         </figure>
       </div>
@@ -62,7 +62,7 @@
       </titlePage>
       <pb xml:id="llawom_1307"/>
       <div xml:id="llawom_100" type="Frontispiece">
-        <figure><graphic url="ENTITY_llawomill" rend="inline"/>
+        <figure><graphic url="llawomill.jpg" rend="inline"/>
           <figDesc> Illustration at front of Lawrence Lynch's "A Woman's Tragedy"</figDesc>
         </figure>
         <p xml:id="llawom_1308">"She walked away without a glance at the spot Mike had reined up the his colt."  (Page 81.)</p>
@@ -84,12 +84,12 @@ Author of "Under Fate's Wheel," "High Stakes," "The Unseen Hand,"<lb/>
         </docImprint>
       </titlePage>
       <pb xml:id="llawom_13011" n="5"/>
-      <div xml:id="llawom_200" type="table of contents">
-        <figure><graphic url="ENTITY_llawomtc1" rend="inline"/>
+      <div xml:id="llawom_200" type="table_of_contents">
+        <figure><graphic url="llawomtc1.jpg" rend="inline"/>
           <figDesc> List of contents at front of Lawrence Lynch's "A Woman's Tragedy"</figDesc>
         </figure>
         <pb xml:id="llawom_13012" n="(6)]"/>
-        <figure><graphic url="ENTITY_llawomtc2" rend="inline"/>
+        <figure><graphic url="llawomtc2.jpg" rend="inline"/>
           <figDesc> List of contents at front of Lawrence Lynch's "A Woman's Tragedy"</figDesc>
         </figure>
       </div>
@@ -834,7 +834,7 @@ THE END OF THE RACE</head>
         <p xml:id="llawom_130640">" I know who you are," he said, " and what you are, and lest we get deeper into our game of cross question and crooked answer, will you kindly read this? It is from Horace B. Race, of Race &amp; Barnet. I see you know the firm ? "</p>
         <p xml:id="llawom_130641">I nodded, and took the open letter he held out to me. This is what I read</p>
         <q>
-          <text xml:id="llawom_130645">
+          <q><floatingText xml:id="llawom_130645">
             <body xml:id="llawom_130644">
               <div xml:id="llawom_014" type="letter">
                 <opener>" MY DEAR PHILIP,</opener>
@@ -846,7 +846,7 @@ your street and number (?), and ask him to look you up. Ile will no doubt be in 
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="llawom_130646">" So," I said, as I handed back the letter with a grin at my own expense, "you did know me, it seems. I begin to understand a little."</p>
         <p xml:id="llawom_130647">" So do I--a little."</p>
@@ -1085,7 +1085,7 @@ COMPLICATIONS</head>
         <p xml:id="llawom_130851">" Don't make his ' penance' too easy--eh, Miss Starr ? "</p>
         <p xml:id="llawom_130852">But Sydney Starr was of another mind.</p>
         <p xml:id="llawom_130853">And so, after all, Mike had to thank Sydney Starr for the relief he experienced when told that a written apology, and the wrap, or its equivalent, would be all that was desired at his hands; and as he was not above maligning himself at need, he wrote:</p>
-        <q> <text xml:id="llawom_130858"> <body xml:id="llawom_130857"> <div xml:id="llawom_018" n="2" type="letter"> <opener>"MISS STARR,</opener><p xml:id="llawom_130854">--My esteemed young friend, I trust you will believe that it was only when I was not myself that the event of last night could occur. Many things had combined to worry and vex me that day ; your own awful danger upon the track had got upon my nerves, and I regret to say that I had taken too much liquor, and was not master of my tongue and temper when I gave you cause for anger against me.</p><pb xml:id="llawom_130855" n="111 COMPLICATIONS"/><p xml:id="llawom_130856">" Pray accept my sincere apologies, and believe me, there shall be no further cause for offence, and let me continue, as in the past, a friend who has your welfare and interest at heart.</p><closer><signed>--Yours very sincerely,</signed> <name>"J. MICHAEL AIKEN."</name></closer></div></body></text></q>
+        <q> <q><floatingText xml:id="llawom_130858"> <body xml:id="llawom_130857"> <div xml:id="llawom_018" n="2" type="letter"> <opener>"MISS STARR,</opener><p xml:id="llawom_130854">--My esteemed young friend, I trust you will believe that it was only when I was not myself that the event of last night could occur. Many things had combined to worry and vex me that day ; your own awful danger upon the track had got upon my nerves, and I regret to say that I had taken too much liquor, and was not master of my tongue and temper when I gave you cause for anger against me.</p><pb xml:id="llawom_130855" n="111 COMPLICATIONS"/><p xml:id="llawom_130856">" Pray accept my sincere apologies, and believe me, there shall be no further cause for offence, and let me continue, as in the past, a friend who has your welfare and interest at heart.</p><closer><signed>--Yours very sincerely,</signed> <name>"J. MICHAEL AIKEN."</name></closer></div></body></floatingText></q></q>
         <p xml:id="llawom_130859">Something in the wording of this document caused Sydney Starr to utter a little low laugh, and to glance amusedly up at the judge, as she passed the letter over to him for perusal.</p>
         <p xml:id="llawom_130860">It forced a short laugh from the judge also. But the laugh was followed by a frown, and the frown lingered.</p>
         <p xml:id="llawom_130861">But when the missive came in its turn into Pony Jack's hand, he seemed to see in it no reason for laughter, and only growled, as he laid it upon the table at his elbow:</p>
@@ -1741,7 +1741,7 @@ others, that he is going out to see a sick man taking the bottle is a cunning an
         <p xml:id="llawom_1301441">" Mac's asleep, as I said before;" he paused to extract something from an inner pocket. "That will explain," and he tossed me a letter crumpled from much carrying.</p>
         <p xml:id="llawom_1301442">I started, and looked at the letter, which provoked from me a long whistle, for I recognised upon the envelope the handwriting of my chief at New York.</p>
         <p xml:id="llawom_1301443">The letter was brief and to the point, as follows</p>
-        <q> <text xml:id="llawom_1301448"> <body xml:id="llawom_1301447"> <div xml:id="llawom_026" n="3" type="letter"> <opener>" MY DEAR FELLOW,</opener><p xml:id="llawom_1301444">--This will come into your hand at the right time, and will introduce a good fellow, and a useful, Jerry Graves, alias `Tom Hall,' alias for this occasion, ' the Deacon.'</p><pb xml:id="llawom_1301445" n="178 A WOMAN'S TRAGEDY"/><p xml:id="llawom_1301446">" Knowing your liking for an untrammelled billet and that you never `hunt in couples,' and knowing at the same time the aid a good watch-dog might prove at a pinch, I have sent out Graves, who has been working in the city four straight years, and will take this western jaunt as a picnic--the very thing he wants,in fact. His orders are to stick to MacIntyre, and to play into your hands, but not to make himself known unless he sees a time when you can't cover the ground alone, or he can't get on without aid. In which case he reports to you, and awaits your instructions. For further details apply to 'the Deacon.</p><closer><signed>'--Yours, hoping for your success,	<name>" KEATING."</name></signed></closer></div></body></text></q>
+        <q> <q><floatingText xml:id="llawom_1301448"> <body xml:id="llawom_1301447"> <div xml:id="llawom_026" n="3" type="letter"> <opener>" MY DEAR FELLOW,</opener><p xml:id="llawom_1301444">--This will come into your hand at the right time, and will introduce a good fellow, and a useful, Jerry Graves, alias `Tom Hall,' alias for this occasion, ' the Deacon.'</p><pb xml:id="llawom_1301445" n="178 A WOMAN'S TRAGEDY"/><p xml:id="llawom_1301446">" Knowing your liking for an untrammelled billet and that you never `hunt in couples,' and knowing at the same time the aid a good watch-dog might prove at a pinch, I have sent out Graves, who has been working in the city four straight years, and will take this western jaunt as a picnic--the very thing he wants,in fact. His orders are to stick to MacIntyre, and to play into your hands, but not to make himself known unless he sees a time when you can't cover the ground alone, or he can't get on without aid. In which case he reports to you, and awaits your instructions. For further details apply to 'the Deacon.</p><closer><signed>'--Yours, hoping for your success,	<name>" KEATING."</name></signed></closer></div></body></floatingText></q></q>
         <p xml:id="llawom_1301449">It did not require much thought or time to comprehend the situation, and surely an assistant could not have appeared at a more convenient season, for I had already resolved that I would not abandon the judge, and Roxy, and the rest of Sydney Starr's friends, would stand by Sydney Starr, with the rest.</p>
         <p xml:id="llawom_1301450">I did not for a moment doubt the man's good faith. In fact, I knew the name, if not the face. Graves was listed at headquarters as the best of close and steady shadowers, and I put out my hand, saying, " Shake upon it, Hall ! " and then, after a second glance at the letter, and a moment's thought : "Time's short, you know, and I am a vane. We will take the details in instalments. But first, you don't propose to quit MacIntyre--now ? "</p>
         <p xml:id="llawom_1301451">That's for you to say. My judgment says--No."</p>
@@ -1836,17 +1836,17 @@ aside, after a brief survey, and returned to the letter. It was post-marked Sant
         <p xml:id="llawom_1301529">If it had ever occurred to me to wonder at the sudden change in Mrs. Carolyn's belief or hopes, where the lost Mrs. Eversoll was concerned, I certainly asked myself no such question now. I only knew that Mrs. Carolyn loved her brother, and felt that his return to health seemed to hang upon the mere chance that his wife might be alive.</p>
         <p xml:id="llawom_1301530">Mrs. Carolyn's letter need not be quoted in full, but as it neared the end I read these words:</p>
         <q>
-          <text xml:id="llawom_1301537">
+          <q><floatingText xml:id="llawom_1301537">
             <body xml:id="llawom_1301536">
               <div xml:id="llawom_028" n="4" type="letter"> <p xml:id="llawom_1301531">"Since you asked me to filch the picture from Allan, I have tried to devise a way to get you what you want, and still leave to him what is so obviously his sole treasure and great comfort, and I have finally induced him to let me make a copy of it in oils. It is from this copy that I have stolen time to paint the little picture which, I may say, is a very fair likeness of Allan's wife.</p><p xml:id="llawom_1301532">" I hardly see what need of it you can have just now, but if you really think it will be wise even now to send out copies with the `private instruction' you told me of, you shall have it.</p><p xml:id="llawom_1301533">" The scraps of writing I have, after long search, managed to find, and in asking for these you have again puzzled me.</p><p xml:id="llawom_1301535">" And now about our coming east. Allan is more
 <pb xml:id="llawom_1301534" n="189 THE GIRL FROM PARIS"/>
 than eager to go east, and to meet you en route. He even declares his strong wish to go in advance, and spend a few days in a place that will be new to us both, a real wild western town, that is still in its state of ferment, its boom ! But it must be only on condition--Allan says--that you be ready and willing to go east with us when we have exhausted the sights, and seen the wild animals go through their manoeuvres. Do you know, we have both become quite interested in that beautiful young actress, and her troubles and triumphs; she certainly must be an uncommon character ! Quite unique--I should say."</p></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="llawom_1301538">I smiled as I read this last sentence. I had written some account of Sydney Starr--never, of course, by name, simply as an unusual character to be found in such a place. Perhaps I fancied that it might interest Allan; perhaps--but no matter.</p>
         <p xml:id="llawom_1301539">And now, at last, I gave myself time to re-read the chief's letter.</p>
-        <q> <text xml:id="llawom_1301543"> <body xml:id="llawom_1301542"> <div xml:id="llawom_029" n="5" type="letter"> <opener>"MY DEAR MASTERS"</opener><p xml:id="llawom_1301540"> (it ran), " I have had one of the men looking up the matter you wrote of, and I'm blessed if I can see what that pretty French actress, who set half Paris crazy a couple of years ago, can have to do with MacIntyre and train robbing? Is she, by any chance, one of the band ? However, knowing your method, I'll say no more, but forward the two pictures of mademoiselle. Don't let her stick a knife into you !</p><p xml:id="llawom_1301541">" About the other matter, your instructions about the data are being carried out, and Simpson is writing them up with great care. They will follow soon. 'The Deacon' has just wired me that he has 'kicked off his shell,' and that ' everything is lovely.' Ha ! ha!</p><closer><signed>- Yours cordially,	<name>" KEATING."</name></signed></closer></div></body></text></q>
+        <q> <q><floatingText xml:id="llawom_1301543"> <body xml:id="llawom_1301542"> <div xml:id="llawom_029" n="5" type="letter"> <opener>"MY DEAR MASTERS"</opener><p xml:id="llawom_1301540"> (it ran), " I have had one of the men looking up the matter you wrote of, and I'm blessed if I can see what that pretty French actress, who set half Paris crazy a couple of years ago, can have to do with MacIntyre and train robbing? Is she, by any chance, one of the band ? However, knowing your method, I'll say no more, but forward the two pictures of mademoiselle. Don't let her stick a knife into you !</p><p xml:id="llawom_1301541">" About the other matter, your instructions about the data are being carried out, and Simpson is writing them up with great care. They will follow soon. 'The Deacon' has just wired me that he has 'kicked off his shell,' and that ' everything is lovely.' Ha ! ha!</p><closer><signed>- Yours cordially,	<name>" KEATING."</name></signed></closer></div></body></floatingText></q></q>
         <p xml:id="llawom_1301545">The Deacon, as I shall continue to call him, had
 <pb xml:id="llawom_1301544" n="190 A WOMAN'S TRAGEDY"/>
 publicly proffered himself as assistant nurse, at need, and I had kicked, and after kicking submitted.</p>
@@ -2117,11 +2117,11 @@ A GATHERING STORM</head>
         <p xml:id="llawom_1301774">" P.S.--Do you think I might be allowed to visit Jack Braddock when he is conscious again ?--S. S."</p>
         <p xml:id="llawom_1301775">To visit Jack Braddock ! I was uncertain whether to laugh or be angry as I read this tame bit of anticlimax. And then, smiling grimly, I opened my portfolio and wrote</p>
         <q>
-          <text xml:id="llawom_1301778">
+          <q><floatingText xml:id="llawom_1301778">
             <body xml:id="llawom_1301777">
               <div xml:id="llawom_035" n="6" type="letter"> <opener>MY DEAR MISS STARR,</opener><p xml:id="llawom_1301776">--Your packet is in my hands, and your wish will be my law. Of course,there is no reason why you should not see Braddock as soon as he is able to receive a visitor.</p><closer><signed>--Yours to command,</signed>	<name>" CARL MASTERS."</name></closer></div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <pb xml:id="llawom_1301779" n="221 A GATHERING STORM"/>
         <p xml:id="llawom_1301780">At an early hour next morning I left this note at Roxy's door for Miss Starr ; but I did not enter. I had encountered the Deacon at the door of the dining-room, and he had asked me to come to his room at once, if possible.</p>
@@ -2299,7 +2299,7 @@ LETTERS FROM EAST AND WEST</head>
         <p xml:id="llawom_1301934">The next afternoon Hubert Morton was quietly smuggled into the jail.</p>
         <p xml:id="llawom_1301935">That night, just before supper, I received two letters, one from Lettice Carolyn as follows:</p>
         <q>
-          <text xml:id="llawom_1301943">
+          <q><floatingText xml:id="llawom_1301943">
             <body xml:id="llawom_1301942">
               <div xml:id="llawom_038" n="38" type="letter">
                 <opener> MY KINDEST OF FRIENDS</opener>
@@ -2316,7 +2316,7 @@ finds her, or dies trying. It seems too cruel ! I can't have it so.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="llawom_1301944">As I read this I smiled. It was so like her ! At once serious and sportive. And my reasons for asking my friend to come to this wild and now turbulent town? If I had a clue--it was only a possible clue--it was so faint, but I knew my man, and when I tempted Allan Eversoll by my story, told only in its most dramatic details, I did it hoping to arouse him by the sight of other tragedies, and by awaking his ever ready sympathies. For I knew that only so could he be drawn out of himself, and--it seemed a last resort--a forlorn hope.</p>
         <p xml:id="llawom_1301945">And he was coming! Was she also coming? The next twelve hours would tell. And then I started. What might not happen in the streets of that riotous town in the next twenty-four hours? And if Allan's coming meant Lettice also ! Well, there was Salt Lake City. There might yet be time!</p>
@@ -2544,7 +2544,7 @@ out-of-door gown exchanged for trailing skirts of a pale violet hue, with her fa
         <p xml:id="llawom_1302143">And at my request, Roxy gave him a room at the end of the house, near where the judge was quartered, and as far as possible from the apartments of Roxy and the rooms of Sydney Starr, both the sham and the real.</p>
         <p xml:id="llawom_1302144">When he was assured of a safe shelter for what promised to be a "rough night abroad," the relief upon his face was almost ludicrous, and although he assured us that he would not miss the " little excitement, not for money," I felt as certain as possible that "Officer Dan Drayton" would not tempt an unkind fate by going from Roxy's safe roof after the falling of the twilight.</p>
         <p xml:id="llawom_1302145">"I'd like nothing bettah than to see the whole thing with you two ; but it will be too conspicuous for me, and I might want to burrow a bit."</p>
-        <p xml:id="llawom_1302148">We assured him of his wisdom, and having obtained a promise of good behaviour from " Miss<pb xml:id="llawom_1302146"/><figure><graphic url="ENTITY_llawomill2" rend="inline"/><figDesc> Illustration in body of Lawrence Lynch's "A Woman's Tragedy"</figDesc></figure><q>"'Bah,' she cried, 'They are not my pictures. Someone has deceived you, Sir!' "</q><pb xml:id="llawom_1302147" n="263 A FARCICAL INTERLUDE"/>
+        <p xml:id="llawom_1302148">We assured him of his wisdom, and having obtained a promise of good behaviour from " Miss<pb xml:id="llawom_1302146"/><figure><graphic url="llawomill2.jpg" rend="inline"/><figDesc> Illustration in body of Lawrence Lynch's "A Woman's Tragedy"</figDesc></figure><q>"'Bah,' she cried, 'They are not my pictures. Someone has deceived you, Sir!' "</q><pb xml:id="llawom_1302147" n="263 A FARCICAL INTERLUDE"/>
 Starr," and appointed Roxy her must willing guardian, he went forth to report the strange "fact" that Miss Starr of the Cheyenne theatre was not the Miss Starr of the Paris photographs.</p>
         <p xml:id="llawom_1302149">We were glad to be rid of him, and Lettice Carolyn, when we had closed the door upon him, turned to us in wrath.</p>
         <p xml:id="llawom_1302150">"To think," she cried, "that I have made a pyramid of my head, and arrayed myself like a Tony Pastor soubrette, and all to face that--that man of straw ! It is too much; plotters that you are ! And he didn't even produce his warrant ! I have not even been arrested!" And she ran away laughing to resume the attire of civilised and humdrum everyday life.</p>
@@ -2787,7 +2787,7 @@ FACE TO FACE</head>
         <p xml:id="llawom_1302350">SHORTLY after darkness had fallen Roxy Higgins tapped at Sydney Starr's door.</p>
         <p xml:id="llawom_1302351">"The woman has come for ye, miss," she said briskly. "An' there's a man along for escort, the woman says. And if ye please, miss, I'm a-goin' along, at least part way ; and for comp'ny, in case I turn back my niece Maggie has just run in ; she's goin' with me. An' here, miss, is a bit of a note. Mr. Masters tells me to give it ye the minit afore ye start. Oh, it'll be all right, honey ! Just read it whilst I call that silly Maggie."</p>
         <p xml:id="llawom_1302352">Sydney Starr, who had waited for this summons, cloaked and veiled, opened the note in haste.</p>
-        <q> <text xml:id="llawom_1302355"> <body xml:id="llawom_1302354"> <div xml:id="llawom_046" n="7" type="letter"> <p xml:id="llawom_1302353">" I know your courage " (she read), " but lest at the last moment you feel a doubt or possibly a dread, I will tell you the truth now, so far as I may. The woman who sends for you is herself a dupe ; she also thinks herself your enemy and rival. She intends to intimidate you for the purpose of blackmail, and through you I hope to be able to render helpless and harmless both her and her accomplice, who is your chief persecutor now. Have no fear ; meet her with perfect courage, for I shall be close at hand, and others, yet more powerful to protect, will be with me; not for a moment will you be alone or in danger. Let Roxy go with you.</p><closer> <name>MASTERS."</name></closer></div></body></text></q>
+        <q> <q><floatingText xml:id="llawom_1302355"> <body xml:id="llawom_1302354"> <div xml:id="llawom_046" n="7" type="letter"> <p xml:id="llawom_1302353">" I know your courage " (she read), " but lest at the last moment you feel a doubt or possibly a dread, I will tell you the truth now, so far as I may. The woman who sends for you is herself a dupe ; she also thinks herself your enemy and rival. She intends to intimidate you for the purpose of blackmail, and through you I hope to be able to render helpless and harmless both her and her accomplice, who is your chief persecutor now. Have no fear ; meet her with perfect courage, for I shall be close at hand, and others, yet more powerful to protect, will be with me; not for a moment will you be alone or in danger. Let Roxy go with you.</p><closer> <name>MASTERS."</name></closer></div></body></floatingText></q></q>
         <pb xml:id="llawom_1302356" n="290 A WOMAN'S TRAGEDY"/>
         <p xml:id="llawom_1302357">Twice she read this note, and then turned to Roxy. "I am ready."</p>
         <p xml:id="llawom_1302358">Ye can go ahead or behind, as ye like," said Roxy to the man and woman who awaited them in the lower hall. " Miss Starr 'll just take my arm, an', Maggie, ye can walk by her other side if ye like. I know the way to the cottage," and she led the way like a grenadier.</p>
@@ -2908,9 +2908,9 @@ you and Pepe, and look for Mac'. I'll look after the ladies, and the danger may 
         <p xml:id="llawom_1302461">" It is not true!" Val again began, but I checked her by holding out to her an open letter.</p>
         <p xml:id="llawom_1302462">" Since you are so much interested in Francine Luvois," I said, " I will read this. Listen, ladies and gentlemen:</p>
         <pb xml:id="llawom_1302463" n="303 EXIT S YDNE Y STARR"/>
-        <q> <text xml:id="llawom_1302466"> <body xml:id="llawom_1302465"><div xml:id="llawom_048" n="8" type="letter"><opener><dateline>
+        <q> <q><floatingText xml:id="llawom_1302466"> <body xml:id="llawom_1302465"><div xml:id="llawom_048" n="8" type="letter"><opener><dateline>
 " ' New York City, June 17, 187--.</dateline><salute>
-" ' MY DEAR MASTERS,--</salute></opener><p xml:id="llawom_1302464">I follow my letter of last night with this brief note, to tell you that I have just received a cable from De Luvier, of the Paris office, in reply to one from me: " Francine Luvois, actress, is no longer wanted here. She died under circumstances so peculiar that the facts have never got beyond our office. It was a case of suicide, and she confessed before notary and priest. She died the 22nd of April last."'"</p></div></body></text></q>
+" ' MY DEAR MASTERS,--</salute></opener><p xml:id="llawom_1302464">I follow my letter of last night with this brief note, to tell you that I have just received a cable from De Luvier, of the Paris office, in reply to one from me: " Francine Luvois, actress, is no longer wanted here. She died under circumstances so peculiar that the facts have never got beyond our office. It was a case of suicide, and she confessed before notary and priest. She died the 22nd of April last."'"</p></div></body></floatingText></q></q>
         <p xml:id="llawom_1302467">" I daresay you have heard the name of the chief of police of New York," I said, "and will hardly doubt his signature. The fact that Miss Starr, as she has chosen to be called out here, bears a wonderful resemblance to the French actress, has caused some strange mistakes."</p>
         <p xml:id="llawom_1302468">And now I turned toward the one we had known as Sydney Starr.</p>
         <p xml:id="llawom_1302469">" Madam," I said, " with your permission, I will put an end to this complication. The time has come to silence this woman finally and fully ; she must know the truth."</p>
@@ -2985,7 +2985,7 @@ his sleepy stupor to resist or cry out. They took his keys, and, entering with e
 lieve, in intent, if not in fact, of the death by drowning of Rose Kearney, together with the man who so ably assisted her to spend Mrs. Eversoll's money and to steal her jewels ; the man who, not long ago, plotted with his brother to kidnap `Miss Starr,' determined to reap the profit alone. Whether the killing of his villainous brother was also planned, I do not know, but there stands the witness who can testify that he did kill Mike Aiken, so called. And now I think my work is done," and I turned and proffered my arm to Lettice Carolyn.</p>
         <p xml:id="llawom_1302529">But Pony Jack sprang to the centre of the little room, a bit of paper in his uplifted hand.</p>
         <p xml:id="llawom_1302530">"One word more," he cried, and his voice rang stern and full of menace. " It is fit that I speak the last word, and tell the last of my poor girl's story. The first two letters you have heard about never reached me until to-day, when this lady put them into my hand. And this is why, when I read of this letter, and saw it corroborated in the newspapers, I made no sign. I thought--God forgive me, and curse them that framed the lie--I thought she had deserted me, and all her friends, for another man, and in this belief I received this letter," and he began to read:</p>
-        <q> <text xml:id="llawom_1302533"><body xml:id="llawom_1302532"><div xml:id="llawom_050" n="8" type="letter"><p xml:id="llawom_1302531">" Jack, Val has just read me your loving letter to her, and now I know why you went away, and why you stay. You love her, and only pity me! I pity myself! I have a pretty skirt, fur-trimmed and swell, and a coat that you would like, I know. They were given me by another poor, unhappy girl who has no friends here; and so if I am picked up off the railway crossing, or fished out of the river wearing these, no one will be harmed, and you will no longer need to pity me. Good-bye, Jack ! I don't want your pity.</p> <closer><signed>" ROSE."</signed></closer></div></body></text></q>
+        <q> <q><floatingText xml:id="llawom_1302533"><body xml:id="llawom_1302532"><div xml:id="llawom_050" n="8" type="letter"><p xml:id="llawom_1302531">" Jack, Val has just read me your loving letter to her, and now I know why you went away, and why you stay. You love her, and only pity me! I pity myself! I have a pretty skirt, fur-trimmed and swell, and a coat that you would like, I know. They were given me by another poor, unhappy girl who has no friends here; and so if I am picked up off the railway crossing, or fished out of the river wearing these, no one will be harmed, and you will no longer need to pity me. Good-bye, Jack ! I don't want your pity.</p> <closer><signed>" ROSE."</signed></closer></div></body></floatingText></q></q>
         <pb xml:id="llawom_1302534" n="313 JUSTICE METED OUT"/>
         <p xml:id="llawom_1302535">His voice grew harsh before the end, and at the last word he let the hand holding the letter drop at his side, then he turned to me.</p>
         <p xml:id="llawom_1302536">" Mr. Masters," he said, " these ladies must not stay here. I and my friends will relieve you from any further responsibility. You have said truly--your work is done!"</p>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mfwidow_1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mfwidow_1205">
   <teiHeader xml:id="mfwidow1201"><fileDesc>
       <titleStmt>
         <title>Elsie's Widowhood, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Elsie's
@@ -81,20 +81,20 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="mfwidow_1204">
     <front xml:id="mfwidow_1202">
       <div xml:id="mfwidow_107" type="covers">
-        <figure><graphic url="ENTITY_mfwidowsp" rend="inline"/>
+        <figure><graphic url="mfwidowsp.jpg" rend="inline"/>
           <figDesc>Spine of Finley's <hi rend="italic">Elsie's
 Widowhood</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="mfwidow_1305"/>
       <div xml:id="mfwidow_000" type="advert">
-        <figure><graphic url="ENTITY_mfwidowad" rend="inline"/>
+        <figure><graphic url="mfwidowad.jpg" rend="inline"/>
           <figDesc>Advertisement included in the front of Finley's <hi rend="italic">Elsie's Widowhood</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="mfwidow_1306"/>
       <div xml:id="mfwidow_001" type="frontispiece">
-        <figure><graphic url="ENTITY_mfwidowfp" rend="inline"/>
+        <figure><graphic url="mfwidowfp.jpg" rend="inline"/>
           <figDesc>Frontispiece included in Finley's <hi rend="italic">Elsie's Widowhood</hi>.</figDesc>
         </figure>
       </div>
@@ -122,7 +122,7 @@ Widowhood</hi>.</figDesc>
       </titlePage>
       <pb xml:id="mfwidow_1309" n="[ii]"/>
       <div xml:id="mfwidow_002" type="copyright">
-        <figure><graphic url="ENTITY_mfwidowcr" rend="inline"/>
+        <figure><graphic url="mfwidowcr.jpg" rend="inline"/>
           <figDesc>Copyright information for Finley's <hi rend="italic">Elsie's Widowhood</hi>.</figDesc>
         </figure>
       </div>
@@ -132,12 +132,12 @@ Widowhood</hi>.</figDesc>
         <signed>THE AUTHOR.</signed>
       </div>
       <pb xml:id="mfwidow_13012" n="[v]"/>
-      <div xml:id="mfwidow_004" type="table of contents">
-        <figure><graphic url="ENTITY_mfwidowtc1" rend="inline"/>
+      <div xml:id="mfwidow_004" type="table_of_contents">
+        <figure><graphic url="mfwidowtc1.jpg" rend="inline"/>
           <figDesc>Table of contents for Finley's <hi rend="italic">Elsie's Widowhood</hi>.</figDesc>
         </figure>
         <pb xml:id="mfwidow_13013" n="vi"/>
-        <figure><graphic url="ENTITY_mfwidowtc2" rend="inline"/>
+        <figure><graphic url="mfwidowtc2.jpg" rend="inline"/>
           <figDesc>Table of contents for Finley's <hi rend="italic">Elsie's Widowhood</hi>.</figDesc>
         </figure>
       </div>

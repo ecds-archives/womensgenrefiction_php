@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ljfair_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="ljfair_1201">
   <teiHeader xml:id="ljfair1202"><fileDesc>
       <titleStmt>
         <title>All For Love of a Fair Face or A Broken Betrayal, an electronic edition</title>
@@ -12,7 +12,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>All for love of a Fair Face or A Broken Betrothal</title>. <pubPlace>New York</pubPlace>: <publisher>George Munro's Sons</publisher>, <date>1885</date>.</bibl>
@@ -73,7 +73,7 @@
       </titlePage>
       <pb xml:id="ljfair_1307"/>
       <div xml:id="ljfair_100" type="advert">
-        <figure><graphic url="ENTITY_ljfairfad1" rend="inline"/>
+        <figure><graphic url="ljfairfad1.jpg" rend="inline"/>
           <figDesc> Advert at the front of Libbey's "All For Love of Fair Face or A Broken Betrayal"</figDesc>
         </figure>
       </div>
@@ -1298,7 +1298,7 @@ dear, and help me to entertain him; he is very brilliant, and I hope sincerely f
         <head>CHAPTER XX.</head>
         <p xml:id="ljfair_1301065">EARLY the next morning the following hastily written note was received at the Winfield mansion:</p>
         <q>
-          <text xml:id="ljfair_1301068">
+          <q><floatingText xml:id="ljfair_1301068">
             <body xml:id="ljfair_1301067">
               <div xml:id="ljfair_20" type="letter">
                 <opener>
@@ -1311,7 +1311,7 @@ dear, and help me to entertain him; he is very brilliant, and I hope sincerely f
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="ljfair_1301069">"My nephew will be here this evening," said Mrs. Winfield, folding the letter and putting it into her pocket. "What a pity it is that Harold is not at home to receive them. You must come to my rescue, Miss Lester, and assist me in entertaining them." But Theo pleaded so hard to be excused, on the plea of a sick-headache, Mrs. Winfield was at length obliged to relinquish her pet scheme of bringing her handsome young nephew and pretty Miss Lester together.</p>
         <p xml:id="ljfair_1301071">Again strange fate played at cross-purposes with poor Theo
@@ -2158,7 +2158,7 @@ could be the same creature. She turned her face shrinkingly from the gaze of tho
         <p xml:id="ljfair_1301810">No one would ever tell him how she wept over it, caressing the white pages which the man she loved so well was to hold in his hands. No one would tell him how she laid her beautiful white cheek against it, sobbing out as she kissed the delicate lines. He would never know of the passionate kisses with which that solemn farewell to him was freighted. He would never know how the white, death-cold hands trembled over the wavering words his bonny blue eyes were to rest upon. Would his heart throb faster if he knew?</p>
         <p xml:id="ljfair_1301811">With a little choking sob Theo commenced her letter. We will look over her shoulder, and read it as she writes:</p>
         <q>
-          <text xml:id="ljfair_1301869"> <body xml:id="ljfair_1301868"> <div xml:id="ljfair_034" type="letter"><opener><salute>"MR. HARRY STRATHMORE:</salute></opener><p xml:id="ljfair_1301812">"DEAR SIR,--When your eyes rest upon this page, I shall be beyond all earthly suffering, beyond your anger, your just vengeance. The sentence passed upon me will have been uttered by a higher tribunal than the lips of man.</p><p xml:id="ljfair_1301813">"Before confessing my pitiful sin to you, I must go back a little in my narrative, setting straight an error which I should have righted long ago.</p><p xml:id="ljfair_1301814">"I am not what you believed me--Miss Lester. I am Theora Chester, the girl to whom, three years ago, you were so solemnly betrothed at Major Strathmore's death-bed.</p><p xml:id="ljfair_1301815">"You will remember that it was on this self-same night I discovered that the betrothal which we had gone through was, on your part, a farce, the cruelest mockery; that even while you clasped my hand, took upon yourself those solemn vows of constancy, your heart was given to another.</p><p xml:id="ljfair_1301816">"Oh, Harry Strathmore, if you suffered day and night your whole life through, you could not suffer more than I did at that moment.</p><p xml:id="ljfair_1301817">"I can put upon the white, soulless paper what I would never have dared tell you in words. I can breathe out the great passionate love of my starving heart to you, and you can not reprove with haughty, scathing words.</p><p xml:id="ljfair_1301819">"Yes, I loved you, Harry Strathmore, with a love that was my doom. I was alone in the world. Only those bereft of mother, sisters, home ties such as other young girls have can understand and sympathize with me and realize how my heart craved for some one to love me--ah, yes, some one to love me! It was then that I first met you. Can you wonder
+          <q><floatingText xml:id="ljfair_1301869"> <body xml:id="ljfair_1301868"> <div xml:id="ljfair_034" type="letter"><opener><salute>"MR. HARRY STRATHMORE:</salute></opener><p xml:id="ljfair_1301812">"DEAR SIR,--When your eyes rest upon this page, I shall be beyond all earthly suffering, beyond your anger, your just vengeance. The sentence passed upon me will have been uttered by a higher tribunal than the lips of man.</p><p xml:id="ljfair_1301813">"Before confessing my pitiful sin to you, I must go back a little in my narrative, setting straight an error which I should have righted long ago.</p><p xml:id="ljfair_1301814">"I am not what you believed me--Miss Lester. I am Theora Chester, the girl to whom, three years ago, you were so solemnly betrothed at Major Strathmore's death-bed.</p><p xml:id="ljfair_1301815">"You will remember that it was on this self-same night I discovered that the betrothal which we had gone through was, on your part, a farce, the cruelest mockery; that even while you clasped my hand, took upon yourself those solemn vows of constancy, your heart was given to another.</p><p xml:id="ljfair_1301816">"Oh, Harry Strathmore, if you suffered day and night your whole life through, you could not suffer more than I did at that moment.</p><p xml:id="ljfair_1301817">"I can put upon the white, soulless paper what I would never have dared tell you in words. I can breathe out the great passionate love of my starving heart to you, and you can not reprove with haughty, scathing words.</p><p xml:id="ljfair_1301819">"Yes, I loved you, Harry Strathmore, with a love that was my doom. I was alone in the world. Only those bereft of mother, sisters, home ties such as other young girls have can understand and sympathize with me and realize how my heart craved for some one to love me--ah, yes, some one to love me! It was then that I first met you. Can you wonder
 <pb xml:id="ljfair_1301818" n="149 ALL FOR LOVF OF A FAIR FACE."/>
 that your fair, handsome face won its way to my heart, and that I worshiped you in my girlish day-dreams?</p><p xml:id="ljfair_1301820">"1 was blind to your indifference, and when they told me that you loved me, wished to make me your bride, and that the betrothal must take place at once at the major's bedside, I--oh, Heaven--I believed them!</p><p xml:id="ljfair_1301821">"Then came the bitter awakening--when I heard you, as you clasped Violet passionately to your heart, bemoaning the cruel fate that had torn you two asunder, and crying out against the betrothal that was literally forced upon you by the dying major; but for that you might have been happy with the love of your own choosing; I had wrecked your life, spoiled your future and Violet's.</p><p xml:id="ljfair_1301822">"I listened in the alcove, rooted to the spot, listened until your words drove me mad--yes, mad--over a love-dream cruelly shattered.</p><p xml:id="ljfair_1301823">"Only one thought occurred to me. If I died the bonds of that betrothal which were so galling to you would be snapped asunder--my death would set you free.</p><p xml:id="ljfair_1301824">"You know how 1 fled from you, dashing out of the alcove crying out that I had heard all.</p><p xml:id="ljfair_1301825">"1 fled to the dark rapids that skirted the park and plunged in. The last words on my lips were these:</p><p xml:id="ljfair_1301826">"'Oh, love, whom I love so well, 1 am setting you free.'</p><p xml:id="ljfair_1301827">"But ere the dark waters closed over me a strong hand hurled me back upon the rocks, back from death and destruction.</p><p xml:id="ljfair_1301828">"I was saved--saved for a more cruel fate, it seems.</p><p xml:id="ljfair_1301829">"When I regained consciousness after weeks of lingering illness, 1 found a young doctor who had been attending me bending over me.</p><p xml:id="ljfair_1301830">"I was subsequently removed to this young doctor's home. He was Doctor Melville of Rosecliff.</p><p xml:id="ljfair_1301831">"During my convalescence an idea occurred to me, and that was to hide for evermore from those whose lives I had cursed. I was dead to the world--they believed me lying cold and white among the gray rocks in the bed of the rapids--let them believe so still.</p><p xml:id="ljfair_1301832">"I knew that you and Violet would not grieve for me, Harry Strathmore. You would feel sorry for my supposed fate, but in the same breath you would add:</p><p xml:id="ljfair_1301833">"'Yet it was much better so, for now 1 am free to woo and win my peerless Violet.'</p><p xml:id="ljfair_1301835">"I went out into the world as many young girls--Heaven help them--are forced to do, to earn my on living. Fate
 <pb xml:id="ljfair_1301834" n="150 ALL FOR LOVE Of A FAIR FACE."/>
@@ -2168,7 +2168,7 @@ whispered to me terrified me. Violet's face seemed to rise out of the silver-lig
 <pb xml:id="ljfair_1301850" n="152 ALL FOR LOVE OF A FAIR FACE."/>
 soothing balm for my sorely wounded heart in administering to others.</p><p xml:id="ljfair_1301852">"One evening a beautiful young stranger was brought into the hospital. They told me she turned her lovely face to the wall, refusing both food and drink, and asked me to visit her.</p><p xml:id="ljfair_1301853">"I went to her and bending over her drew her white hands from her face. Ah, Heaven! It was Violet, your wife!</p><p xml:id="ljfair_1301854">"The one above all others whose very name caused me to cry out in the bitterest anguish. I could not even endure the tender flowerets that bore the name of violet.</p><p xml:id="ljfair_1301855">"I did not cry out, faint, or utter any moan; but if my face had been a stone mask it could not have grown harder and colder in a single instant, as 1 gazed upon the fatal beauty that had won from me the love I would have died for. Was this the cruel irony of fate?</p><p xml:id="ljfair_1301856">"I looked and the bitterest hatred that ever warred in a human heart wrung mine.</p><p xml:id="ljfair_1301857">"That night, by the strange complications of fate, I was requested to sit up with Violet. Her illness had taken a fatal turn. The climax would be reached at midnight. And that night the most pitiful temptation that ever wrecked a soul, lost for it Heaven's mercy, attacked mine.</p><p xml:id="ljfair_1301858">"The consulting physicians left me alone with Violet, your love, saying:</p><p xml:id="ljfair_1301859">"'If this potion which we leave with you is not given to the patient at the midnight hour she will not last until to-morrow's sunrise.'</p><p xml:id="ljfair_1301860">"All the long hours I sat by Violet's couch the words haunted me; I brooded over them.</p><p xml:id="ljfair_1301861">"I could never tell you what my thoughts were as the hours rolled by. Violet, your wife, the beauty who had robbed me of your love, happiness, and all that the world holds dear, lay at my mercy. I had only to sit with my hands folded in my lap and the end would be that when morning dawned my rival would be swept from my path.</p><p xml:id="ljfair_1301862">"I had but to sit still and fate would set you free, my love. Oh, bitter hour, when first we listen to temptation's voice. I listened--hesitated, and in hesitating, was lost.</p><p xml:id="ljfair_1301863">"I could have saved Violet--your wife--Harry Strathmore, but because she was your wife I did not lift my hands to save her, so in the eyes of Heaven I am guilty of that which the whole world calls by a harsh name.</p><p xml:id="ljfair_1301865">"I did not plunge a dagger into her white breast, but my sin is equally deep; I stood quietly by without stretching my
 <pb xml:id="ljfair_1301864" n="153 ALL FOR LOVE OF A FAIR FACE."/>
-hands to save her when I might have done so. An, would that 1 had given my heart's blood to save her whom you love!</p><p xml:id="ljfair_1301866">"Ah, my lost love, do not curse me; my remorse is pitiful enough already; I could fly from the wrath of men; but I could not escape from the vengeance of God.</p><p xml:id="ljfair_1301867">"I am going to atone for what I have done with my life; and my last prayer will be, that some time, if you can ever forgive my terrible sin, you will, in memory of my love that has been so hopeless, come and kneel upon my grave and whisper your forgiveness, and in my grave, oh, love, I shall hear it and know."</p></div></body></text>
+hands to save her when I might have done so. An, would that 1 had given my heart's blood to save her whom you love!</p><p xml:id="ljfair_1301866">"Ah, my lost love, do not curse me; my remorse is pitiful enough already; I could fly from the wrath of men; but I could not escape from the vengeance of God.</p><p xml:id="ljfair_1301867">"I am going to atone for what I have done with my life; and my last prayer will be, that some time, if you can ever forgive my terrible sin, you will, in memory of my love that has been so hopeless, come and kneel upon my grave and whisper your forgiveness, and in my grave, oh, love, I shall hear it and know."</p></div></body></floatingText></q>
         </q>
       </div>
       <div xml:id="ljfair_037" n="37" type="chapter">
@@ -2381,103 +2381,103 @@ shine in the garden below, and that Theo should call her if she needed her—she
     <back xml:id="ljfair_1204">
       <pb xml:id="ljfair_1302056"/>
       <div xml:id="ljfair_9200" type="advert">
-        <figure><graphic url="ENTITY_ljfairad1" rend="inline"/>
+        <figure><graphic url="ljfairad1.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302057"/>
-        <figure><graphic url="ENTITY_ljfairad2" rend="inline"/>
+        <figure><graphic url="ljfairad2.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302058"/>
-        <figure><graphic url="ENTITY_ljfairad3" rend="inline"/>
+        <figure><graphic url="ljfairad3.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302059"/>
-        <figure><graphic url="ENTITY_ljfairad4" rend="inline"/>
+        <figure><graphic url="ljfairad4.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302060"/>
-        <figure><graphic url="ENTITY_ljfairad5" rend="inline"/>
+        <figure><graphic url="ljfairad5.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302061"/>
-        <figure><graphic url="ENTITY_ljfairad6" rend="inline"/>
+        <figure><graphic url="ljfairad6.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302062" n="4"/>
-        <figure><graphic url="ENTITY_ljfairad7" rend="inline"/>
+        <figure><graphic url="ljfairad7.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302063" n="5"/>
-        <figure><graphic url="ENTITY_ljfairad8" rend="inline"/>
+        <figure><graphic url="ljfairad8.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302064" n="6"/>
-        <figure><graphic url="ENTITY_ljfairad9" rend="inline"/>
+        <figure><graphic url="ljfairad9.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302065" n="7"/>
-        <figure><graphic url="ENTITY_ljfairad10" rend="inline"/>
+        <figure><graphic url="ljfairad10.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302066" n="8"/>
-        <figure><graphic url="ENTITY_ljfairad11" rend="inline"/>
+        <figure><graphic url="ljfairad11.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302067" n="9"/>
-        <figure><graphic url="ENTITY_ljfairad12" rend="inline"/>
+        <figure><graphic url="ljfairad12.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302068" n="10"/>
-        <figure><graphic url="ENTITY_ljfairad13" rend="inline"/>
+        <figure><graphic url="ljfairad13.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302069" n="11"/>
-        <figure><graphic url="ENTITY_ljfairad14" rend="inline"/>
+        <figure><graphic url="ljfairad14.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302070" n="12"/>
-        <figure><graphic url="ENTITY_ljfairad15" rend="inline"/>
+        <figure><graphic url="ljfairad15.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302071" n="13"/>
-        <figure><graphic url="ENTITY_ljfairad16" rend="inline"/>
+        <figure><graphic url="ljfairad16.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302072" n="14"/>
-        <figure><graphic url="ENTITY_ljfairad17" rend="inline"/>
+        <figure><graphic url="ljfairad17.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302073" n="15"/>
-        <figure><graphic url="ENTITY_ljfairad18" rend="inline"/>
+        <figure><graphic url="ljfairad18.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302074" n="16"/>
-        <figure><graphic url="ENTITY_ljfairad19" rend="inline"/>
+        <figure><graphic url="ljfairad19.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302075" n="17"/>
-        <figure><graphic url="ENTITY_ljfairad20" rend="inline"/>
+        <figure><graphic url="ljfairad20.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302076" n="[18]"/>
-        <figure><graphic url="ENTITY_ljfairad21" rend="inline"/>
+        <figure><graphic url="ljfairad21.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302077" n="[19]"/>
-        <figure><graphic url="ENTITY_ljfairad22" rend="inline"/>
+        <figure><graphic url="ljfairad22.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302078" n="[20]"/>
-        <figure><graphic url="ENTITY_ljfairad23" rend="inline"/>
+        <figure><graphic url="ljfairad23.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302079" n="[21]"/>
-        <figure><graphic url="ENTITY_ljfairad24" rend="inline"/>
+        <figure><graphic url="ljfairad24.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
         <pb xml:id="ljfair_1302080" n="[22]"/>
-        <figure><graphic url="ENTITY_ljfairad25" rend="inline"/>
+        <figure><graphic url="ljfairad25.jpg" rend="inline"/>
           <figDesc> Advert included in back of Libbey's "All For the Love of a Fair Face or A Broken Betrayal"</figDesc>
         </figure>
       </div>

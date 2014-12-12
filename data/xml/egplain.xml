@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="egplain_1209">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="egplain_1209">
   <teiHeader xml:id="egplain1201"><fileDesc>
       <titleStmt>
         <title>The Romance of A Plain Man, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The Romance of A Plain
@@ -80,7 +80,7 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="egplain_1208">
     <front xml:id="egplain_1202">
       <div xml:id="egplain_286" type="covers">
-        <figure><graphic url="ENTITY_egplainfc" rend="inline"/>
+        <figure><graphic url="egplainfc.jpg" rend="inline"/>
           <figDesc>Front cover of Glasgow's <hi rend="italic">The Romance of a Plain
 Man</hi>.</figDesc>
         </figure>
@@ -93,7 +93,7 @@ Man</hi>.</figDesc>
       </titlePage>
       <pb xml:id="egplain_1307" n="[ii]"/>
       <div xml:id="egplain_001" type="advert">
-        <figure><graphic url="ENTITY_egplainad" rend="inline"/>
+        <figure><graphic url="egplainad.jpg" rend="inline"/>
           <figDesc>Page listing other books by Ellen Glasgow, included at the
 front of Glasgow's <hi rend="italic">The Romance of a Plain
 Man</hi>.</figDesc>
@@ -113,19 +113,19 @@ Man</hi>.</figDesc>
       </titlePage>
       <pb xml:id="egplain_13010" n="[iv]"/>
       <div xml:id="egplain_002" type="copyright">
-        <figure><graphic url="ENTITY_egplaincr" rend="inline"/>
+        <figure><graphic url="egplaincr.jpg" rend="inline"/>
           <figDesc>Copyright information for Glasgow's <hi rend="italic">The Romance of a Plain
 Man</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="egplain_13011" n="[v]"/>
-      <div xml:id="egplain_003" type="table of contents">
-        <figure><graphic url="ENTITY_egplaintc1" rend="inline"/>
+      <div xml:id="egplain_003" type="table_of_contents">
+        <figure><graphic url="egplaintc1.jpg" rend="inline"/>
           <figDesc>The table of contents for Glasgow's <hi rend="italic">The Romance of a Plain
 Man</hi>.</figDesc>
         </figure>
         <pb xml:id="egplain_13012" n="[vi]"/>
-        <figure><graphic url="ENTITY_egplaintc2" rend="inline"/>
+        <figure><graphic url="egplaintc2.jpg" rend="inline"/>
           <figDesc>The table of contents for Glasgow's <hi rend="italic">The Romance of a Plain
 Man</hi>.</figDesc>
         </figure>
@@ -592,7 +592,7 @@ by."</p>
         <p xml:id="egplain_130489">The night was very dark, but beyond the looming chimneys a lonely star winked at me through the thick covering of clouds. I was a sturdy boy for my age, sound in body, and inwardly not given to sentiment or softness of any kind; but as I sat there on the doorstep, I felt a lump rise in my throat at the thought that Samuel and I were two small outcast animals in the midst of a shivering world. I remembered that when my mother was alive I had never let her kiss me except when she paid me by a copper or a slice of bread laid thickly with blackberry jam; and I told myself desperately that if she could only come back now, I would let her do it for nothing! She might even whip me because I'd torn my trousers on the back fence, and I thought I should hardly feel it. I recalled her last birthday, when I had gone down to the market with <pb xml:id="egplain_130488" n="64     THE ROMANCE OF A PLAIN MAN"/>five cents of my own to buy her some green gage plums, of which she was very fond, and how on the way up the hill, being tempted, I had eaten them all myself. At the time I had stifled my remorse with the assurance that she would far rather I should have the plums than eat them herself, but this was cold comfort to me to-night while I regretted my selfishness. If I had only saved her half, as I had meant to do if the hill had not been quite so long and so steep.</p>
         <p xml:id="egplain_130490">Samuel snuggled closer to me and we both shivered, for the night was fresh. The house had grown quiet inside; my father and his new wife had evidently left the kitchen and gone upstairs. As I sat there I realised suddenly, with a pang, that I could never go inside the door again; and rising to my feet, I struck a match and fumbled for a piece of chalk in my pocket. Then standing before the door I wrote in large letters across the panel:—</p>
         <q>
-          <text xml:id="egplain_1204">
+          <q><floatingText xml:id="egplain_1204">
             <body xml:id="egplain_1203">
               <div xml:id="egplain_050" type="letter">
                 <opener>
@@ -605,7 +605,7 @@ by."</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="egplain_130493">The blue flame of the match flickered an instant along the words; then it went out, and with Samuel at my heels, I crept through the back gate and down the alley to the next street, which led to the ragged brow of the hill. Ahead of me, as I turned off into Main Street, the scattered lights of the city showed like blurred patches upon the darkness. Gradually, while I went rapidly downhill, I saw the patches change into a nebulous cloud, and the cloud resolve itself presently <pb xml:id="egplain_130492" n="65     IN WHICH I START IN LIFE"/>into straight rows of lamps. Few people were in the streets at that hour, and when I reached the dim building of the Old Market, I found it cold and deserted, except for a stray cur or two that snarled at Samuel from a heap of trodden straw under a covered wagon. Despite the fact that I was for all immediate purposes as homeless as the snarling curs, I was not without the quickened pulses which attend any situation that a boy may turn to an adventure. A high heart for desperate circumstances has never failed me, and it bore me company that night when I came back again with aching feet to the Old Market, and lay down, holding Samuel tight, on a pile of straw.</p>
         <p xml:id="egplain_130494">In a little while I awoke because Samuel was barking, and sitting up in the straw I saw a dim shape huddled beside me, which I made out, after a few startled blinks, to be the bent figure of a woman wrapped in a black shawl with fringed ends, which were pulled over her head and knotted under her chin. From the penetrating odour I had learned to associate with my father, I judged that she had been lately drinking, and the tumbled state of my coat convinced me that she had been frustrated by Samuel in a base design to rifle my pockets. Yet she appeared so miserable as she sat there rocking from side to side and crying to herself, that I began all at once to feel very sorry. It seemed to hurt her to cry and yet I saw that the more it hurt her the more she cried.</p>
@@ -3301,7 +3301,7 @@ crooned Aunt Euphronasia softly, and the tune has rung ever afterwards somewhere
         <pb xml:id="egplain_1303286" n="449     THE BLOW THAT CLEARS"/>
         <p xml:id="egplain_1303287">Turning hastily back, I took up the note from the silver blotter beneath which it was lying, and as I opened it, I saw that the address looked tremulous and uncertain, as if it had been written in haste or excitement.</p>
         <q>
-          <text xml:id="egplain_1206">
+          <q><floatingText xml:id="egplain_1206">
             <body xml:id="egplain_1205">
               <div xml:id="egplain_238" type="letter">
                 <p xml:id="egplain_1303288">"Dear Ben (it read), I have been in trouble, and as I do not wish to disturb you at this time, I am going away for a few days to think it over. I shall be at Riverview, the old place on James River where mamma and I used to stay—but go ahead with the South Midland, and don't worry about me, it is all right.</p>
@@ -3310,7 +3310,7 @@ crooned Aunt Euphronasia softly, and the tune has rung ever afterwards somewhere
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="egplain_1303289">"I have been in trouble," I repeated slowly. "What trouble, and why should she keep it from me? Oh, because of the presidency of the South Midland! Damn the South Midland!" I said suddenly aloud. A time-table was on my desk, and looking into it, I found that a train left for Riverview in half an hour. I rang the bell and old Esdras appeared to announce luncheon.</p>
         <p xml:id="egplain_1303290">"I want nothing to eat. Bring me a cup of coffee. I must catch a train in a few minutes."</p>

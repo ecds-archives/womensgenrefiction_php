@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mdfarto_12024">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mdfarto_12024">
   <teiHeader xml:id="mdfarto1201"><fileDesc>
       <titleStmt>
         <title>Far to Seek: A Romance of England and India, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>Far to Seek: A Romance of England and India</title>. <pubPlace>Edinburgh</pubPlace>: <publisher>William Blackwood and Sons</publisher>, <date>1921</date>.</bibl>
@@ -76,7 +76,7 @@ page images are linked to the text file.</p>
     </profileDesc><revisionDesc><change><date>2003-December-10</date><label>project manager.associate project manager.</label><name>Erika Farr,</name><name>Lillian Craton,</name>XML tags inserted in compliance with  TEI guidelines using TEILITE.</change><change><date>2004-May-19</date><label>project manager.</label><name>Erika Farr,</name>Added id attribute to div elements, added milestone tags for un-numbered section breaks, and fixed double head elements.</change><change><date>2004-Jun-21</date><label>project manager.</label><name>Erika Farr,</name>Figures and figure elements added.</change></revisionDesc></teiHeader>
   <text xml:id="mdfarto_12023">
     <front xml:id="mdfarto_1202">
-      <pb n="[i]" pages="Title Page" facs="mdfartotp"/>
+      <!-- <pb n="[i]" pages="Title Page" facs="mdfartotp"/> -->
       <titlePage xml:id="mdfarto_1306" type="full">
         <docTitle>
           <titlePart type="main">Far to Seek</titlePart>
@@ -108,7 +108,7 @@ page images are linked to the text file.</p>
           <docDate>1921</docDate>
         </docImprint>
       </titlePage>
-      <pb n="[iii]" pages="Dedication" facs="mdfartoded"/>
+      <!-- <pb n="[iii]" pages="Dedication" facs="mdfartoded"/> -->
       <div xml:id="mdfarto_001" type="dedication">
         <p xml:id="mdfarto_1308">To
 <lb/>MY BLUE BIRD,
@@ -129,7 +129,7 @@ page images are linked to the text file.</p>
           <bibl>--RABINDRANATH TAGORE.</bibl>
         </epigraph>
       </div>
-      <pb n="[v]" pages="Preface" facs="mdfartofm1"/>
+      <!-- <pb n="[v]" pages="Preface" facs="mdfartofm1"/> -->
       <div xml:id="mdfarto_002" type="preface">
         <head>AUTHOR'S NOTE.</head>
         <p xml:id="mdfarto_13010">As part of my book is set in Lahore, at the time of the outbreak, in April 1919, I wish to state clearly that, while the main events are true to fact, the characters concerned, both English and Indian, are purely imaginary. At the same time, the opinions expressed by my Indian characters on the present outlook are all based on the written or spoken opinions of actual Indians--loyal or disaffected, as the case may be.</p>
@@ -137,10 +137,10 @@ page images are linked to the text file.</p>
         <signed>M.D.</signed>
       </div>
       <pb xml:id="mdfarto_13012" n="[vii]"/>
-      <div xml:id="mdfarto_170" type="table of contents">
-        <figure><graphic url="ENTITY_mdfartotc" height="504" rend="inline" width="305"/>
-          <figDesc>Image of the table of contents for Maud Diver's <hi rend="italic">
-Far to Seek</hi>.</figDesc>
+      <div xml:id="mdfarto_170" type="table_of_contents">
+        <figure><graphic url="mdfartotc.jpg" height="504px" rend="inline" width="305px"/>
+          <figDesc>Image of the table of contents for Maud Diver's <title>
+Far to Seek</title>.</figDesc>
         </figure>
       </div>
     </front>
@@ -182,8 +182,8 @@ a part of her simple, individual plan of education. An even greater good fortune
           <p xml:id="mdfarto_13035">But of family features, as of family qualms, he was, as yet, radiantly unaware. Snatching his towel, he scampered barefoot down the passage to the nursery bathroom, where the tap was already running.</p>
           <p xml:id="mdfarto_13036">Fifteen minutes later, dressed, but hatless and still barefoot, he was racing over the vast dew-drenched lawn, leaving a trail of grey-green smudges on its silvered surface, chanting the opening lines of Shelley's 'Cloud' to breakfast-hunting birds.</p>
         </div>
-        <pb xml:id="mdfarto_13037" n="8"/>
         <div xml:id="mdfarto_007" n="2" type="chapter">
+        <pb xml:id="mdfarto_13037" n="8"/>
           <head>CHAPTER II.</head>
           <epigraph>
             <q>
@@ -349,8 +349,8 @@ voice was almost stern. ("Just because of Aunt Jane!" thought Roy.)</p>
           <p xml:id="mdfarto_130175">And yet--for Roy, it was not the same loveliness. Aunt Jane's repeated threat of school brooded over his sensitive spirit, like the thundercloud in the wood that was the colour of spilled ink. And the Boy-of-ten--a potential enemy--was coming to tea. . . .</p>
           <p xml:id="mdfarto_130176">Yet this morning he had felt so beautifully sure that nothing could go wrong on a day like this! It was his first lesson, and not by any means his last, that Fate--unmoved by 'light of smiles or tears'--is no respecter of profound convictions or of beautiful days.</p>
         </div>
-        <pb xml:id="mdfarto_130177" n="22"/>
         <div xml:id="mdfarto_167" n="3" type="chapter">
+        <pb xml:id="mdfarto_130177" n="22"/>
           <head>CHAPTER III.</head>
           <epigraph>
             <q>
@@ -447,8 +447,8 @@ his beaky mother! Clearly her own Mummy understood. She was nibbling her lips, t
           <p xml:id="mdfarto_130257">As for Tara--once "the creatures" were out of sight they were extinct. All the embryo mother in her was centred on Roy. It was a shame sending him to his room, like a naughty boy, when he was really a champion, a King-Arthur's-Knight. But if only he properly explained, Uncle Nevil would surely understand--</p>
           <p xml:id="mdfarto_130258">And suddenly there sprang a dilemma. How could Roy make himself repeat to Uncle Nevil the rude remarks off that abominable boy? And if not--how was he going to properly explain--?</p>
         </div>
-        <pb xml:id="mdfarto_130259" n="30"/>
         <div xml:id="mdfarto_011" n="4" type="chapter">
+        <pb xml:id="mdfarto_130259" n="30"/>
           <head>CHAPTER IV.</head>
           <epigraph>
             <q>
@@ -467,7 +467,7 @@ MEYNELL.</bibl>
           <p xml:id="mdfarto_130266">His name was scribbled on this one in Tara's hand; and as Esther retreated he opened it, wondering. . . .</p>
           <p xml:id="mdfarto_130267">It contained a half-sheet of note-paper, and between the folds lay a circle of narrow blue ribbon plaited in three strands. But only two of the strands were ribbon; the third was a tress of her gleaming hair. Roy gazed at it a moment, lost in admiration, still wondering; then he glanced at Tara's letter--not scrawled, but written with laboured neatness and precision.</p>
           <q>
-            <text xml:id="mdfarto_1204">
+            <floatingText xml:id="mdfarto_1204">
               <body xml:id="mdfarto_1203">
                 <div xml:id="mdfarto_013" type="letter"><salute>"DEAR Roy--</salute><p xml:id="mdfarto_130268">It was splendid. You are Prithvi Raj. I
 am sending you the bangel like Aunt Lila told us. It can't be gold or
@@ -482,7 +482,7 @@ and come down soon. I am hear playing with Chris.</p>
                   </closer>
                 </div>
               </body>
-            </text>
+            </floatingText>
           </q>
           <p xml:id="mdfarto_130270">Roy sat looking from the letter to the bangle with a distinctly pleasant kind of mixed-up feeling inside. He was so surprised, so comforted, so elated by this tribute from his High Tower Princess, who was an exacting person in the matter of heroes. Now--besides being a Knight and a champion he was Bracelet-Bound Brother as well.</p>
           <p xml:id="mdfarto_130272">Only the other day his mother had told them a tale about this old custom of bracelet-sending in Rajputana:--how, on a certain holy day, any woman--married or not married--may send her bracelet token to any man. If he accepts it, and sends in return an embroidered bodice, he becomes from that hour her bracelet brother, vowed to her service, like a Christian Knight in the days of chivalry. The bracelet may be of gold or jewels or even of silk interwoven with spangles--like Tara's impromptu token. The two who are bracelet-bound
@@ -574,8 +574,8 @@ was as if she looked through the eyes of her husband into the heart of her son.<
           <p xml:id="mdfarto_130349">"That is good. Then we will just make you tidy--and one littlest dab for this not-bruise on your cheek."</p>
           <p xml:id="mdfarto_130350">So much he graciously permitted: then he ran off to receive the ovation awaiting him from Tara and Chris.</p>
         </div>
-        <pb xml:id="mdfarto_130351" n="39"/>
         <div xml:id="mdfarto_015" n="5" type="chapter">
+        <pb xml:id="mdfarto_130351" n="39"/>
           <head>CHAPTER V.</head>
           <epigraph>
             <q>
@@ -651,8 +651,8 @@ gulf between her and her own people, leaving her doubtful if she ever wanted to 
           <p xml:id="mdfarto_130401">"Oh, you good--<hi rend="italic">good</hi>est Mummy!"</p>
           <p xml:id="mdfarto_130402">He clutched her in an ecstasy of relief. For him a year's respite was a lifetime. For her it would pass like a watch in the night.</p>
         </div>
-        <pb xml:id="mdfarto_130403" n="48"/>
         <div xml:id="mdfarto_020" n="6" type="chapter">
+        <pb xml:id="mdfarto_130403" n="48"/>
           <head>CHAPTER VI.</head>
           <epigraph>
             <q>
@@ -776,8 +776,8 @@ came to know--about India and--your mother, well--they're proper skunks, some of
 warning, which still puzzled him. He worried over it a little before he fell asleep. It was the very first hint--given, in all friendliness--that the mere fact of having an Indian mother might go against you, in some people's eyes. Not the right ones, of course; but still--in the nature of things,--he couldn't make it out. That would come later.</p>
           <p xml:id="mdfarto_130513">At the time its only effect was to deepen his private satisfaction at having hammered Joe Bradley; to quicken his attitude of championship towards his mother and towards India, till ultimately the glow of his fervent devotion fused them both into one dominant idea.</p>
         </div>
-        <pb xml:id="mdfarto_130514" n="58"/>
         <div xml:id="mdfarto_023" n="7" type="chapter">
+        <pb xml:id="mdfarto_130514" n="58"/>
           <head>CHAPTER VII.</head>
           <epigraph>
             <q>
@@ -846,8 +846,8 @@ not have it, except in your own way and in your own time. I knew the essence of 
           <trailer>END OF PHASE I.</trailer>
         </div>
       </div>
-      <pb xml:id="mdfarto_130569" n="[65]"/>
       <div xml:id="mdfarto_026" n="2" type="phase">
+      <pb xml:id="mdfarto_130569" n="[65]"/>
         <head>PHASE II.
 <lb/>THE VISIONARY GLEAM</head>
         <pb xml:id="mdfarto_130570" n="[67]"/>
@@ -964,8 +964,8 @@ reared on the same catch-words, minted with the same hall-mark?"</p>
           <p xml:id="mdfarto_130666">The hand was not removed. Tara covered it with her own, and further maddened the discomfited Dyán by saying, with her very kindest smile: "I'm so sorry. Don't be vexed."</p>
           <p xml:id="mdfarto_130667">Vexed! The bloodless word was insult piled on injury. All the pride and passion of his race flamed in him. Without answering her smile or her plea, he drew abruptly away from her; stepped out of the punt and went for his stroll alone.</p>
         </div>
-        <pb xml:id="mdfarto_130668" n="77"/>
         <div xml:id="mdfarto_028" n="2" type="chapter">
+        <pb xml:id="mdfarto_130668" n="77"/>
           <head>CHAPTER II.</head>
           <epigraph>
             <q>
@@ -1060,8 +1060,8 @@ with Jeffers to-night. Recherché dinner for two in my room. All his little weak
           <p xml:id="mdfarto_130741">They had just entered the college gate; and a few yards ahead, they caught sight of Lady Despard and Tara--the girl's hand linked through her mother's arm.</p>
           <p xml:id="mdfarto_130742">"Oh, I clean forgot," remarked Roy. "I said they could look in."</p>
         </div>
-        <pb xml:id="mdfarto_130743" n="86"/>
         <div xml:id="mdfarto_031" n="3" type="chapter">
+        <pb xml:id="mdfarto_130743" n="86"/>
           <head>CHAPTER III.</head>
           <epigraph>
             <q>
@@ -1145,8 +1145,8 @@ things; peculiarly so, in this case, since India is many, not one. Yet there lur
           <p xml:id="mdfarto_130808">To-night it burned in Roy with a steady flame. If only he could enthuse his father--!</p>
           <p xml:id="mdfarto_130809">He supposed he would go in any case: but he lacked the rebel instinct of modern youth. He wanted to share, to impart his hidden treasure; not to argue the bloom off it. And his father seemed tacitly to discourage rhapsodies over Indian literature and art. You couldn't say he was not keen: only the least little bit unresponsive to outbursts of keenness in his son; so that Roy never felt quite at ease on the subject. If only he could walk into the room now, while Roy's brain was seething with it all, high on the upward curve of a wave. . . .</p>
         </div>
-        <pb xml:id="mdfarto_130810" n="95"/>
         <div xml:id="mdfarto_034" n="4" type="chapter">
+        <pb xml:id="mdfarto_130810" n="95"/>
           <head>CHAPTER IV.</head>
           <epigraph>
             <q>
@@ -1261,8 +1261,8 @@ We know them--and we are proud, because they became like dust under our feet. On
           <p xml:id="mdfarto_130908">Instead she suddenly knew the first insidious prick of middle age; felt dazed, for a mere moment, by the careless radiance of their youth; to them an unconsidered thing: but to those who feel it relentlessly slipping through their fingers . . .</p>
           <p xml:id="mdfarto_130909">Her small, fine hands clenched in unconscious response to her thought. She was nearing forty. In her own land she would be reckoned almost an old woman. But some magic in the air and way of life in this cool green England seemed to keep age at bay: and there remained within a flame--like youth of the spirit--not so easy, even for the Arch-Thief to steal away. . .</p>
         </div>
-        <pb xml:id="mdfarto_130910" n="104"/>
         <div xml:id="mdfarto_038" n="5" type="chapter">
+        <pb xml:id="mdfarto_130910" n="104"/>
           <head>CHAPTER V.</head>
           <epigraph>
             <q>
@@ -1734,7 +1734,7 @@ lines; and after months of uncertainty they had heard he was alive, wounded--in 
           <milestone rend="blank-line" unit="section"/>
           <p xml:id="mdfarto_1301276">To-night, in his loneliness, he drew the slim bag out of an inner pocket, and re-read with his eyes the words that were imprinted on his memory.</p>
           <q>
-            <text xml:id="mdfarto_1206">
+            <floatingText xml:id="mdfarto_1206">
               <body xml:id="mdfarto_1205">
                 <div xml:id="mdfarto_055" type="letter">
                   <salute>"<name>Roy</name>, SON OF MY HEART,</salute>
@@ -1752,7 +1752,7 @@ his life!' And you will still gladden it, Dilkusha<ref target="#mdfarton150">1</
                   </closer>
                 </div>
               </body>
-            </text>
+            </floatingText>
           </q>
           <p xml:id="mdfarto_1301282">The last lines wavered and ran together. In spite of her injunction, tears <hi rend="italic">would</hi> come. Chill and unheeded, they slipped down his cheeks, while he folded his treasure, and put it away with the other, that went to his head, a little, as she had foreseen; though in the event, it had been overshadowed by her own, than which she could have left him no dearer legacy. In life she had been an angel of God. In death, she was still his angel of
 <pb xml:id="mdfarto_1301281" n="151 PISGAH HEIGHTS"/>
@@ -2167,9 +2167,9 @@ with the dhobi's wife. This also brought her nearer to Roy. And what could she a
           <p xml:id="mdfarto_1301593">More likely, he was framing bold plans to find Dyán--now the answer to her letter had come. It was a strange unsatisfying answer; full of affection, but too full of windy phrases that she was shrewd enough to recognise as mere echoes from those others, who had ensnared him in a web of words.</p>
           <pb xml:id="mdfarto_1301594" n="199 PISGAH HEIGHTS"/>
           <q>
-            <text xml:id="mdfarto_1208">
+            <floatingText xml:id="mdfarto_1208">
               <body xml:id="mdfarto_1207"><p xml:id="mdfarto_1301595">"Fear not for me, sister of my heart," he wrote. "Rejoice because I am dedicated to service of the Mother that she may be released from political bondage, and shine again in her ancient glory--no longer exploited by foreigners, who imagine that with bricks and stones they can lock up Veda--eternal truth! The gods have spoken. It is time. Kali rises in the East, with her necklet of skulls--Giants of evil she has slain. It is she who speaks through the voice of the patriot 'Do not wall up your vision, like frogs in a well . . . Rise above the Penal Code to the rarefied atmosphere of the Gita and consider the actions of heroic men.'</p><p xml:id="mdfarto_1301596">"You ask if I still love Roy? Why not! He is of our own blood and a very fine fellow. But I don't write now because he would not understand my fervour of soul. So don't you take all his opinions for gospel; like my grandfather's, they are well meant, but obsolete. If only you had courage, Arúna-ji, to accept the enlightened husband, who might not keep you in strict purdah, then we could work together for liberation of the Mother. Sing <hi rend="italic">Bande Mátaram,</hi><ref target="#mdfarton199">1</ref><note xml:id="mdfarton199" n="1" place="foot" resp="#auth">Hail, Mother.</note> forty thousand brothers! That is our battle-cry.</p> <closer>And one of those is your own fond brother--<signed>Dyán Singh</signed>."</closer></body>
-            </text>
+            </floatingText>
           </q>
           <p xml:id="mdfarto_1301597">Arúna had read and re-read that bewildering effusion till tears fell and blotted the words. Could this be the same Dyán who had known and loved England even as she did! His eloquence somehow failed to carry conviction. To her, the soul of new India seemed like a book, full of contradictions, written in many strange languages, hard to read. But behind that tangle of words beat the heart of Dyán--the brother who was her all.</p>
           <p xml:id="mdfarto_1301598">Still no address was given. But Roy had declared the Delhi postmark sufficient clue. Directly Dewáli was over, he would go. And, by every right impulse, she ought to be more glad than sad. But the heart, like the tongue, can no man tame. And sometimes his eagerness to go hurt her a little. Was he thinking of Delhi down there--or of her--?</p>
@@ -4002,7 +4002,7 @@ only a soldier--and proud of it! But I've more than a nodding acquaintance with 
           <p xml:id="mdfarto_1303117">Portraits of Their Majesties were battered down and trampled in the mud; and over the fragments the crowd swept on, shouting: <hi rend="italic">'Hai! hai! Jarge Margya!'</hi><ref target="#mdfarton368">1</ref><note xml:id="mdfarton368" n="1" place="foot" resp="#auth">"Hai! Hai! George is dead."</note> And the air was full of the craziest rumours, passed on, with embellishments, from mouth to mouth. . . .</p>
           <p xml:id="mdfarto_1303118">Roy, on reaching Cantonments, was relieved to find that the decision had already been taken to regain control of the city by a military demonstration in force; eight hundred troops and police, under the officer commanding Lahore civil area. Desmond's squadron was included; and, sitting down straightway, Roy dashed off a note to Rose.</p>
           <q>
-            <text xml:id="mdfarto_12010">
+            <floatingText xml:id="mdfarto_12010">
               <body xml:id="mdfarto_1209">
                 <salute>"MY DARLING,--</salute>
                 <p xml:id="mdfarto_1303120">"I'm sorry, but it looks like 'no go' to-morrow. You'll hear all from the Pater. I might look in for
@@ -4011,7 +4011,7 @@ tiffin, if things go smoothly, and if you'll put up with me all dusty and dishev
                 <closer>"Your loving and admiring,
 <signed>Roy."</signed></closer>
               </body>
-            </text>
+            </floatingText>
           </q>
           <p xml:id="mdfarto_1303121">It was after ten next morning, the heat already intense, when that mixed force, British and Indian, and the four aeroplanes acting in concert with them, halted outside the Delhi Gate of Lahore City, while an order was read out to the assembled leaders that, if shots were fired or bombs flung, those aeroplanes would make things unpleasant. Then--at last they were on the move; through the Gate, inside the City, aeroplanes flying low, cavalry bringing up the rear.</p>
           <p xml:id="mdfarto_1303122">Here normal life and activity were completely suspended--hence more than half the trouble. Groups of idlers, sauntering about, stared, spat, or shook clenched fists, shouting, "Give us Ghandi--and we will open!" "Repeal Rowlatt Bill and we will open."</p>
@@ -4199,14 +4199,14 @@ and, in delirium, he raved of Rose--always of Rose. He, the soul of reserve, pou
           <p xml:id="mdfarto_1303282">There could be no question of going to Lahore station on Sunday evening. He was ill himself, though he did not know it; and his soul was centred on Lance--the gallant spirit inwoven with almost every act and thought and inspiration of his life. By comparison, Rose was nothing to him; less than nothing; a mushroom growth--sudden and violent--with no deep roots; only fibres.</p>
           <p xml:id="mdfarto_1303283">So he sent her, by an orderly, a few hurried lines of explanation and farewell.</p>
           <q>
-            <text xml:id="mdfarto_12012">
+            <floatingText xml:id="mdfarto_12012">
               <body xml:id="mdfarto_12011">
                 <salute>"My DEAR,</salute>
                 <p xml:id="mdfarto_1303284">"I'm sorry, but I <hi rend="italic">can't</hi> come to-night. We are all in dreadful grief. Lance down with acute blood-poisoning. Collins evidently fears the worst. I can't write of it. I do trust you get up safely. I'll write again, when it's possible.</p>
                 <closer>"Yours,
 <signed>Roy."</signed></closer>
               </body>
-            </text>
+            </floatingText>
           </q>
           <pb xml:id="mdfarto_1303285" n="384 FAR TO SEEK"/>
           <p xml:id="mdfarto_1303286">Yes, he was still hers--so far. More than that he could not honestly add. Beyond this awful hour he could not look. It was as if one stood on the edge of a precipice, and the next step would be a drop into black darkness. . . .</p>
@@ -4267,11 +4267,11 @@ knew, and had written with intent to hurt her. In addition to half the British o
           <p xml:id="mdfarto_1303324">Ah--at last! A flash of scarlet in the verandah and Fazl Ali presenting an envelope on a salver, as though she were a goddess and the letter an offering at her shrine.</p>
           <p xml:id="mdfarto_1303325">It was a shade thicker than usual. Well, it ought to be. She had been very patient with his brevity. This time it seemed he had something to say.</p>
           <p xml:id="mdfarto_1303337">Her heart stirred perceptibly as she opened it and read:
-<q><text xml:id="mdfarto_12014"><body xml:id="mdfarto_12013"><salute>"DEAREST GIRL,</salute><p xml:id="mdfarto_1303326">"I'm afraid my letters have been very poor things. Part of the reason you know and understand--as far as any one can. I'm still dazed. Everything's out of perspective. I suppose I shall take it in some day.</p><p xml:id="mdfarto_1303327">"But there's another reason--connected with <hi rend="italic">him</hi>. Perhaps you can guess. I've been puzzled all along about you two. And now I <hi rend="italic">know</hi>. I wonder--does that hurt you? It hurts me horribly. I need hardly say <hi rend="italic">he</hi> didn't give you away. It was things you said--and Mrs Ranyard. Anyhow, that last evening, I insisted on having the truth. But I couldn't write about it sooner--for fear of saying things I'd regret afterwards.</p><p xml:id="mdfarto_1303329">"Rose--what <hi rend="italic">possessed</hi> you? A man worth fifty of me! Of course, I know loving doesn't go by merit. But to keep him on tenterhooks, eating his heart out with jealousy, while you frankly encouraged me--you <hi rend="italic">know</hi> you did. And I--never dreaming; only puzzled
+<q><floatingText xml:id="mdfarto_12014"><body xml:id="mdfarto_12013"><salute>"DEAREST GIRL,</salute><p xml:id="mdfarto_1303326">"I'm afraid my letters have been very poor things. Part of the reason you know and understand--as far as any one can. I'm still dazed. Everything's out of perspective. I suppose I shall take it in some day.</p><p xml:id="mdfarto_1303327">"But there's another reason--connected with <hi rend="italic">him</hi>. Perhaps you can guess. I've been puzzled all along about you two. And now I <hi rend="italic">know</hi>. I wonder--does that hurt you? It hurts me horribly. I need hardly say <hi rend="italic">he</hi> didn't give you away. It was things you said--and Mrs Ranyard. Anyhow, that last evening, I insisted on having the truth. But I couldn't write about it sooner--for fear of saying things I'd regret afterwards.</p><p xml:id="mdfarto_1303329">"Rose--what <hi rend="italic">possessed</hi> you? A man worth fifty of me! Of course, I know loving doesn't go by merit. But to keep him on tenterhooks, eating his heart out with jealousy, while you frankly encouraged me--you <hi rend="italic">know</hi> you did. And I--never dreaming; only puzzled
 <pb xml:id="mdfarto_1303328" n="390 FAR TO SEEK"/>
 at the way he sheered off after the first. Between us, we made his last month of life a torment, though he never let me guess it. I don't know how to forgive myself. And, to be honest, it's no easy job forgiving you. If that makes you angry, if you think me a prig, I can't help it. If <hi rend="italic">you'd</hi> heard him--all those hours of delirium--you might understand.</p><p xml:id="mdfarto_1303330">"When he wasn't raving, he had only one thought--I mustn't blame <hi rend="italic">you</hi>, or hurt you, on account of him. I'm trying not to. But if I know you at all, <hi rend="italic">that</hi> will hurt more than anything <hi rend="italic">I</hi> could say. And it's only right I should tell it you.</p><p xml:id="mdfarto_1303331">"My dearest Girl, you can't think how difficult--how strange it feels writing to you like this. I meant to wait till I came up. But I couldn't write naturally, and I was afraid you mightn't understand.</p><p xml:id="mdfarto_1303332">"I'm coming, after all, sooner than I thought, for my fool of a body has given out, and Collins won't let me hang on, though <hi rend="italic">I</hi> feel the work just keeps me going. It must be Kohat first, because of Paul. Now things are calming down, he is getting away to be married. The quietest possible affair, of course; but he's keen I should be best man in place of Lance. And I needn't say how I value the compliment.</p><p xml:id="mdfarto_1303333">"No more trouble here or Amritsar, thank God--and a few courageous men. Martial Law arrangements are being carried through to admiration. The Lahore C.O. seems to get the right side of every one. He has a gift for the personal touch that is everything out here; and in no time the poor deluded beggars in the City were shouting 'Martial Law <hi rend="italic">ki jai</hi>' as fervently as ever they shouted for Ghandi and Co.</p><p xml:id="mdfarto_1303334">"One of my fellows said to me: 'Our people don't understand this new talk of "Committee Ki Raj" and "Dyarchy Raj." Too many orders make confusion. But they understand "<hi rend="italic">Hukm Ki raj.</hi>"'<ref target="#mdfarton390">1</ref><note xml:id="mdfarton390" n="1" place="foot" resp="#auth">Government by order.</note> In fact, it's the general opinion that prompt action in the Punjab has fairly well steadied India--for the present at least.</p><p xml:id="mdfarto_1303336">"Well, I won't write more. We'll meet soon; and I don't doubt you'll explain a good deal that still puzzles and hurts me. If I seem changed, you must make
 <pb xml:id="mdfarto_1303335" n="391 DUST OF THE ACTUAL"/>
-allowances. I can't yet see my way in a world empty of Lance. But we must help each other, Rose--not pull two ways. Don't bother to write long explanations. Things will be easier face to face.</p><closer><salute>"Yours ever,</salute><signed>Roy."</signed></closer></body></text></q></p>
+allowances. I can't yet see my way in a world empty of Lance. But we must help each other, Rose--not pull two ways. Don't bother to write long explanations. Things will be easier face to face.</p><closer><salute>"Yours ever,</salute><signed>Roy."</signed></closer></body></floatingText></q></p>
           <p xml:id="mdfarto_1303338">"Yours ever," . . . Did he mean that? He certainly meant the rest. Her hands dropped in her lap; and she sat there, staring before her--startled, angry, more profoundly disturbed and unsure of herself than she had felt in all her days. Though Roy had tried to write with moderation, there were sentences that struck at her vanity, her conscience, her heart. Her first overwhelming impulse was to write back at once telling him he need not trouble to come up, as the engagement was off. Accustomed to unquestioning homage, she took criticism badly; also--undeniably--she was jealous of his absorption in Lance. The impulse to dismiss him was mere hurt vanity.</p>
           <p xml:id="mdfarto_1303339">And the queer thing was, that deep down under the vanity and the jealousy, her old feeling for Lance seemed again to be stirring in its sleep.</p>
           <p xml:id="mdfarto_1303340">The love of such a man leaves no light impress on any woman; and Lance had unwittingly achieved two master-strokes calculated to deepen that impress on one of her nature. In the first place, he had fronted squarely the shock of her defection--patently on account of Roy. She could see him now--standing near her mantelpiece, his eyes sombre with passion and pain; no word of reproach or pleading, though there smouldered beneath his silence the fire of his formidable temper. And just because he had neither pleaded nor stormed, she had come perilously near to an ignominious <hi rend="italic">volte-face</hi>, from which she had only been saved by something in him, not in herself. If she did not know it then, she knew it now. In the second place, he had died gallantly--again on account of Roy. Snatched utterly out of reach, out of sight, his value was enhanced tenfold; and now, to crown all, came Roy's revelation of his amazing magnanimity. . . .</p>
@@ -4322,14 +4322,14 @@ tell you--a particular form of consumption carries off half the wretched childre
 <pb xml:id="mdfarto_1303381" n="396 FAR TO SEEK"/>
 mood. Sitting down again, she unearthed from her black-and-silver bag a fountain pen and half a sheet of paper.</p>
           <q>
-            <text xml:id="mdfarto_12016">
+            <floatingText xml:id="mdfarto_12016">
               <body xml:id="mdfarto_12015">
                 <opener><salute>"MY DARLING ROY"</salute> (she wrote),--</opener>
                 <p xml:id="mdfarto_1303383">"Your letter <hi rend="italic">did</hi> hurt--badly. Perhaps I deserved it. All I can say till we meet, is--forgive me, if you can, because of Lance. It's rather odd--though you <hi rend="italic">are</hi> my lover, and I suppose you do care still--I can think of no stronger appeal than that. He cared so for us both, in his big splendid way. Can't we stand by each other?</p>
                 <p xml:id="mdfarto_1303384">"You ask me to make allowances. Will you be generous, and do the same on a larger scale for your sincerely loving (and not altogether worthless)</p>
                 <signed>ROSE?"</signed>
               </body>
-            </text>
+            </floatingText>
           </q>
         </div>
         <pb xml:id="mdfarto_1303385" n="397"/>
@@ -4709,7 +4709,7 @@ thread of a path winding through the dimness and vastness of Narkhanda Forest wa
           <pb xml:id="mdfarto_1303691" n="429 A STAR IN DARKNESS"/>
           <p xml:id="mdfarto_1303692">Curiosity--sharpened by a prick of fear--impelled him to open her letter first. And the moment he had read the opening line, compunction smote him.</p>
           <q>
-            <text xml:id="mdfarto_12018">
+            <floatingText xml:id="mdfarto_12018">
               <body xml:id="mdfarto_12017">
                 <salute>"<name>Roy</name>--my Dear,</salute>
                 <p xml:id="mdfarto_1303693"> I couldn't help
@@ -4723,7 +4723,7 @@ good day comes, let me know--and I'll do the same by you. Good luck to
 you always.</p>
                 <signed>--ROSE."</signed>
               </body>
-            </text>
+            </floatingText>
           </q>
           <p xml:id="mdfarto_1303694">Roy slipped the note into his pocket and sat staring at the fire, deeply moved. A vision of her--too alluring for comfort--was flashed upon his brain. She was confoundedly attractive. She had no end of good points but . . . with a very big B. . . .</p>
           <p xml:id="mdfarto_1303695">His gaze rested absently on the parcel from his father. What the deuce could it be? To the imaginative, an unopened parcel never quite loses its intriguing air of mystery. The shape suggested a picture. His mother . . . ?</p>
@@ -4739,7 +4739,7 @@ you always.</p>
           <p xml:id="mdfarto_1303705">A sealed envelope had fallen unheeded from his father's parcel: but it was hers he seized--and half hesitated to open. What if she were announcing her own engagement to some infernal fellow at home? There must be scores and scores of them. . . .</p>
           <p xml:id="mdfarto_1303706">His hand was not quite steady as he unfolded the two sheets that bore his father's crest and the home stamp, 'Bramleigh Beeches.'</p>
           <q>
-            <text xml:id="mdfarto_12020">
+            <floatingText xml:id="mdfarto_12020">
               <body xml:id="mdfarto_12019">
                 <div xml:id="mdfarto_152" type="letter">
                   <opener><salute>"MY DEAR ROY </salute>(he read),</opener>
@@ -4760,7 +4760,7 @@ London, she's threatening to cheer him up by making the dear Beeches her headqua
 <signed>TARA."</signed></closer>
                 </div>
               </body>
-            </text>
+            </floatingText>
           </q>
           <p xml:id="mdfarto_1303717">By the time he had finished reading that so characteristic and endearing letter his plans were cut and dried. Her irresistible appeal--and the no less irresistible urge within him--left no room for the deliberations of his sensitive complex nature. It flung open all the floodgates of memory; set every nerve aching for Home--and Tara, late discovered; but not too late, he passionately prayed. . . .</p>
           <p xml:id="mdfarto_1303718">The nightmare journey had no terrors for him now. In every sense he was 'hers to command.'</p>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mcqueen_1205">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="mcqueen_1205">
   <teiHeader xml:id="mcqueen1201"><fileDesc>
       <titleStmt>
         <title>The Queen of the Swamp, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>The
@@ -84,14 +84,14 @@ added by the encoder and do not appear in the original text.</p>
   <text xml:id="mcqueen_1204">
     <front xml:id="mcqueen_1202">
       <div xml:id="mcqueen_000" type="covers">
-        <figure><graphic url="ENTITY_mcqeenfc" rend="inline"/>
+        <figure><graphic url="mcqeenfc.jpg" rend="inline"/>
           <figDesc>Front cover of Catherwood's <hi rend="italic">The Queen of
 the Swamp</hi>.</figDesc>
         </figure>
       </div>
       <pb xml:id="mcqueen_1305"/>
       <div xml:id="mcqueen_mcqeen001" type="advert">
-        <figure><graphic url="ENTITY_mcqueenfm1" rend="inline"/>
+        <figure><graphic url="mcqueenfm1.jpg" rend="inline"/>
           <figDesc>Advertisement included in the front of Catherwood's <hi rend="italic">The Queen of the Swamp</hi>.</figDesc>
         </figure>
       </div>
@@ -112,7 +112,7 @@ the Swamp</hi>.</figDesc>
       </titlePage>
       <pb xml:id="mcqueen_1308"/>
       <div xml:id="mcqueen_mcqeen002" type="copyright">
-        <figure><graphic url="ENTITY_mcqueenfm2" rend="inline"/>
+        <figure><graphic url="mcqueenfm2.jpg" rend="inline"/>
           <figDesc>Copyright for Catherwood's <hi rend="italic">The Queen of the
 Swamp</hi>.</figDesc>
         </figure>
@@ -129,8 +129,8 @@ Swamp</hi>.</figDesc>
       </div>
       <pb xml:id="mcqueen_13014"/>
       <pb xml:id="mcqueen_13015"/>
-      <div xml:id="mcqueen_004" type="table of contents">
-        <figure><graphic url="ENTITY_mcqueenfm5" rend="inline"/>
+      <div xml:id="mcqueen_004" type="table_of_contents">
+        <figure><graphic url="mcqueenfm5.jpg" rend="inline"/>
           <figDesc>Table of contents for Catherwood's <hi rend="italic">The
 Queen of the Swamp</hi>.</figDesc>
         </figure>

@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="bcdiana_1206">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="bcdiana_1206">
   <teiHeader xml:id="bcdiana1201"><fileDesc>
       <titleStmt>
         <title>Diana Barrington, an electronic edition</title>
@@ -22,7 +22,7 @@ inquiries about this text's availability, please contact:<address><addrLine>Lewi
           <name>Sheila T. Cavanagh</name>
           <name>Charles  D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author> <title>Diana
@@ -90,11 +90,11 @@ Digital page images are linked to the text file.</p>
     <front xml:id="bcdiana_1203">
       <div xml:id="bcdiana_01" type="adverts">
         <pb xml:id="bcdiana_1305" n="[i]"/>
-        <figure><graphic url="ENTITY_bcdianaads" rend="inline"/>
+        <figure><graphic url="bcdianaads.jpg" rend="inline"/>
           <figDesc>Advertisements at the front of B.M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
         <pb xml:id="bcdiana_1306" n="[ii]"/>
-        <figure><graphic url="ENTITY_bcdianafm2" rend="inline"/>
+        <figure><graphic url="bcdianafm2.jpg" rend="inline"/>
           <figDesc>Advertisements at the front of B.M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
       </div>
@@ -115,20 +115,20 @@ PASSAGE," ETC.</byline>
         </docImprint>
       </titlePage>
       <pb xml:id="bcdiana_1309" n="[v]"/>
-      <div xml:id="bcdiana_13013" type="table of contents">
-        <figure><graphic url="ENTITY_bcdianacont" rend="inline"/>
+      <div xml:id="bcdiana_13013" type="table_of_contents">
+        <figure><graphic url="bcdianacont.jpg" rend="inline"/>
           <figDesc>First Table of Contents page for B.M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
         <pb xml:id="bcdiana_13010" n="vi"/>
-        <figure><graphic url="ENTITY_bcdianacont2" rend="inline"/>
+        <figure><graphic url="bcdianacont2.jpg" rend="inline"/>
           <figDesc>Second Table of Contents page for B.M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
         <pb xml:id="bcdiana_13011" n="vii"/>
-        <figure><graphic url="ENTITY_bcdianacont3" rend="inline"/>
+        <figure><graphic url="bcdianacont3.jpg" rend="inline"/>
           <figDesc>Third Table of Contents page for B.M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
         <pb xml:id="bcdiana_13012" n="viii"/>
-        <figure><graphic url="ENTITY_bcdianacont4" rend="inline"/>
+        <figure><graphic url="bcdianacont4.jpg" rend="inline"/>
           <figDesc>Fourth Table of Contents page for B.M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
       </div>
@@ -4218,7 +4218,7 @@ expression, when <pb xml:id="bcdiana_1302427" n="246     DIANA BARRINGTON."/>he 
         <p xml:id="bcdiana_1302447">We <hi rend="italic">had</hi> our first quarrel that evening, all the same—the <hi rend="italic">first</hi>, and alas! by no means our <hi rend="italic">last</hi>.</p>
         <p xml:id="bcdiana_1302448">I went away to my room, to bathe my eyes, and scribble a note to Mrs. Vavasour. I could not call her mother, and commenced it as usual, and said:</p>
         <q>
-          <text xml:id="bcdiana_1302451">
+          <q><floatingText xml:id="bcdiana_1302451">
             <body xml:id="bcdiana_1302450">
               <div xml:id="bcdiana_0341" type="letter">
                 <opener>
@@ -4231,7 +4231,7 @@ expression, when <pb xml:id="bcdiana_1302427" n="246     DIANA BARRINGTON."/>he 
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="bcdiana_1302452">This note I hastily scrawled, and thrust into my blotter, not having time to address it, for Hugh was whistling and sounding the gong, and giving every sign of impatience.</p>
         <p xml:id="bcdiana_1302454">"You have been ages!" he said, as I came out into the
@@ -4498,7 +4498,7 @@ your name, <pb xml:id="bcdiana_1302634" n="264     DIANA BARRINGTON."/>and bring
           </cit>
         </epigraph>
         <q>
-          <text xml:id="bcdiana_1302682">
+          <q><floatingText xml:id="bcdiana_1302682">
             <body xml:id="bcdiana_1302681">
               <div xml:id="bcdiana_0371" type="letter">
                 <opener>
@@ -4616,7 +4616,7 @@ to be a professor of the art—and it is an art—of staving
 off bills, and reassuring impatient creditors, I wrote to <pb xml:id="bcdiana_1302679" n="272   DIANA BARRINGTON."/>your father's agents, and he generously sent me five hundred pounds, which set me up in life once more. I purchased a rich and tasteful outfit, as a sort of stock-in-trade, and accepted a situation as chaperone and companion to a wealthy Dutch family in Singapore. On my passage out, I met Mr. Vavasour. We saw a good deal of each other on board the steamer.—He fell in love with the pretty, forlorn widow, and we were married in Calcutta. I have been Mrs. Vavasour for fifteen years. As Mrs. Barrington, or Mrs. Garnett, I am forgotten by the world. If any one thinks of either reckless Mrs. Barrington, or shabby Mrs. Garnett, they believe her to be <hi rend="italic"> dead</hi>. My sisters cast me off eighteen years ago, and I have no claim—I mean the claim of affection—on any of my own sex but yourself. You see how my life has been blighted, my child. How hardly fate has used me! And I am convinced that your tender little heart will ache for me.—Now you know <hi rend="italic">all</hi>—now you have heard my side of the story—you will surely say—that I am far more to be pitied, than blamed!"</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="bcdiana_1302683">Here I came to the end of the last sheet, and conclusion of the letter.</p>
       </div>
@@ -5348,7 +5348,7 @@ not speak for several seconds. I was <pb xml:id="bcdiana_1303135" n="316     DIA
         </epigraph>
         <p xml:id="bcdiana_1303156">I COULD scarcely hold the pen, my hand trembled so excessively; and this is what I said, without any preface whatever:</p>
         <q>
-          <text xml:id="bcdiana_1303160">
+          <q><floatingText xml:id="bcdiana_1303160">
             <body xml:id="bcdiana_1303159">
               <div xml:id="bcdiana_0451" type="letter">
                 <p xml:id="bcdiana_1303157">"All is known about the diamonds. My husband saw them at Hookum's, in Bombay, and is very angry; he thinks terrible things of me, which <hi rend="italic">must</hi> be cleared up within the next two hours. I beseech you, most earnestly, to release me from my promise; my very life itself, depends upon a favourable answer to this letter.</p>
@@ -5359,7 +5359,7 @@ not speak for several seconds. I was <pb xml:id="bcdiana_1303135" n="316     DIA
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="bcdiana_1303161">Outside the envelope I wrote: "Most urgent," and then handed it to Hugh, who glanced over it, and said:</p>
         <p xml:id="bcdiana_1303162">"I doubt if she can make it out.—I can't read half. What's this about demons?"</p>
@@ -5385,7 +5385,7 @@ bed, with my watch <pb xml:id="bcdiana_1303165" n="319     NO REPRIEVE."/>before
         <p xml:id="bcdiana_1303179">"Presently," he returned, moving back a pace. "I shall read it
 aloud to you, and you will hear how it <hi rend="italic">sounds</hi>.</p>
         <q>
-          <text xml:id="bcdiana_1303183">
+          <q><floatingText xml:id="bcdiana_1303183">
             <body xml:id="bcdiana_1303182">
               <div xml:id="bcdiana_0452" type="letter">
                 <opener>
@@ -5399,7 +5399,7 @@ aloud to you, and you will hear how it <hi rend="italic">sounds</hi>.</p>
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="bcdiana_1303185">This was a pretty letter to fall into a husband's hands; and more
 especially the hands that were holding it. I could give <hi rend="italic">no</hi> idea of the sarcastic emphasis, with which <pb xml:id="bcdiana_1303184" n="321     NO REPRIEVE."/>Hugh read aloud this (to me) fatal document. If my affairs could be any worse than they were already, this letter—so sublimely indifferent to my fate, so mocking in its tone of easy patronage, so insolent in its reference to my "dancing bear," this letter hurled me to the lowest abyss, to which misfortune could fling me. In it, Hugh saw, in his mind's eye, the reflection of letters of mine—letters that had doubtless abused him, sneered at him, and ridiculed his empty pockets.</p>
@@ -5552,14 +5552,14 @@ large place. She knows Hugh is a gentle-<pb xml:id="bcdiana_1303258" n="330     
         <p xml:id="bcdiana_1303274">"And how did you come out?" I answered feebly.</p>
         <p xml:id="bcdiana_1303275">"By the telegraph," was her startling reply. "I was up at home, in the Dublin mountains, in a very out-of-the-way part; only one shop, and no dispensary.—Faix, when people is took badly <hi rend="italic">there</hi>, they have to die without the help of a doctor. Well, I was just after taking me tay—there's nothing that nourishes the heart in one, like a fine strong cup of tay, that the spoon could stand in—and it was just as well I was fortified—when me brother Pat brought me in a telegram—for I got a terrible turn, for I never received one of them things before. Me brother spelled it out, and it said:</p>
         <q>
-          <text xml:id="bcdiana_1303278">
+          <q><floatingText xml:id="bcdiana_1303278">
             <body xml:id="bcdiana_1303277">
               <div xml:id="bcdiana_0471" type="letter">
                 <opener><salute>"'CAPTAIN FITZROY,</salute>, <hi rend="italic">Bombay</hi>.</opener>
                 <p xml:id="bcdiana_1303276">"'Come out steamer <hi rend="italic">Chusan</hi>. Apply King and Co., London'</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="bcdiana_1303280">"Well, this was the seventeenth; short work; but I was soon
 ready. John drove me to the station, and took me to Kingstown, and saw
@@ -5827,7 +5827,7 @@ Mrs. Horne had sent him a remarkably handsome wedding
 present—before the end of a week, I despatched the following
 telegram:</p>
         <q>
-          <text xml:id="bcdiana_1303437">
+          <q><floatingText xml:id="bcdiana_1303437">
             <body xml:id="bcdiana_1303436">
               <div xml:id="bcdiana_0491" type="letter">
                 <opener>"<hi rend="italic">To</hi> CAPTAIN FITZROY, Sindi.<lb/>
@@ -5835,7 +5835,7 @@ telegram:</p>
                 <p xml:id="bcdiana_1303435">"This place no longer suits me—come and fetch me."</p>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
       </div>
       <pb xml:id="bcdiana_1303438" n="349     'NEVER COMING BACK.'"/>
@@ -6188,103 +6188,103 @@ our little <pb xml:id="bcdiana_1303658" n="373     SUNSHINE."/>circle, loaded wi
 BECCLES.</p>
       </div>
       <div xml:id="bcdiana_bm2" type="adverts">
-        <figure><graphic url="ENTITY_bcdianabm1" rend="inline"/>
+        <figure><graphic url="bcdianabm1.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads1" rend="inline"/>
+        <figure><graphic url="bcdianaads1.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads2" rend="inline"/>
+        <figure><graphic url="bcdianaads2.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads3" rend="inline"/>
+        <figure><graphic url="bcdianaads3.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads4" rend="inline"/>
+        <figure><graphic url="bcdianaads4.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads5" rend="inline"/>
+        <figure><graphic url="bcdianaads5.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads6" rend="inline"/>
+        <figure><graphic url="bcdianaads6.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads7" rend="inline"/>
+        <figure><graphic url="bcdianaads7.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads8" rend="inline"/>
+        <figure><graphic url="bcdianaads8.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads9" rend="inline"/>
+        <figure><graphic url="bcdianaads9.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads10" rend="inline"/>
+        <figure><graphic url="bcdianaads10.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads11" rend="inline"/>
+        <figure><graphic url="bcdianaads11.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads12" rend="inline"/>
+        <figure><graphic url="bcdianaads12.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads13" rend="inline"/>
+        <figure><graphic url="bcdianaads13.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads14" rend="inline"/>
+        <figure><graphic url="bcdianaads14.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads15" rend="inline"/>
+        <figure><graphic url="bcdianaads15.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads16" rend="inline"/>
+        <figure><graphic url="bcdianaads16.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads17" rend="inline"/>
+        <figure><graphic url="bcdianaads17.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads18" rend="inline"/>
+        <figure><graphic url="bcdianaads18.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads19" rend="inline"/>
+        <figure><graphic url="bcdianaads19.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads20" rend="inline"/>
+        <figure><graphic url="bcdianaads20.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads21" rend="inline"/>
+        <figure><graphic url="bcdianaads21.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads22" rend="inline"/>
+        <figure><graphic url="bcdianaads22.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads23" rend="inline"/>
+        <figure><graphic url="bcdianaads23.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads24" rend="inline"/>
+        <figure><graphic url="bcdianaads24.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads25" rend="inline"/>
+        <figure><graphic url="bcdianaads25.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads26" rend="inline"/>
+        <figure><graphic url="bcdianaads26.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads27" rend="inline"/>
+        <figure><graphic url="bcdianaads27.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads28" rend="inline"/>
+        <figure><graphic url="bcdianaads28.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads29" rend="inline"/>
+        <figure><graphic url="bcdianaads29.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads30" rend="inline"/>
+        <figure><graphic url="bcdianaads30.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads31" rend="inline"/>
+        <figure><graphic url="bcdianaads31.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
-        <figure><graphic url="ENTITY_bcdianaads32" rend="inline"/>
+        <figure><graphic url="bcdianaads32.jpg" rend="inline"/>
           <figDesc>Page of advertisements at the back of B. M. Croker's <hi rend="italic">Diana Barrington</hi>.</figDesc>
         </figure>
       </div>

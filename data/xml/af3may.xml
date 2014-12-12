@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="af3may_1207">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="af3may_1207">
   <teiHeader xml:id="af3may1201"><fileDesc>
       <titleStmt>
         <title>A Mayfair Tragedy, volume III, an electronic edition</title>
@@ -15,7 +15,7 @@
           <name>Sheila T. Cavanagh</name>
           <name>Charles D. Spornick</name>
           <resp>Principal Investigators</resp>
-        <name/></respStmt>
+        </respStmt>
       </seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A
@@ -133,7 +133,7 @@ added by the encoder and do not appear in the original text.</p>
         </trailer>
       </div>
       <pb xml:id="af3may_13012"/>
-      <div xml:id="af3may_003" type="table of contents">
+      <div xml:id="af3may_003" type="table_of_contents">
         <figure><graphic url="af3maytc.jpg" rend="inline"/>
           <figDesc>Table of contents for the third volume of Fraser's <hi rend="italic">A Mayfair Tragedy</hi>.</figDesc>
         </figure>
@@ -1128,7 +1128,7 @@ once more before we are—<hi rend="italic">married!</hi>"
         <p xml:id="af3may_130949">The soft shining satin train of her wedding gown sweeps its long length on the floor, and the brilliants in her hair <pb xml:id="af3may_130948" n="214 A MAYFAIR TRAGEDY."/>and on her white neck and arms gleam and scintillate in a ray of bright, warm sunshine that falls over the kneeling figure and makes a nimbus of glory round the bowed head.</p>
         <p xml:id="af3may_130950">A paper addressed to her father in almost illegible characters, has fallen to the ground.</p>
         <q>
-          <text xml:id="af3may_1204">
+          <floatingText xml:id="af3may_1204">
             <body xml:id="af3may_1203">
               <p xml:id="af3may_130951">"When you get this, papa, I shall be dead! It is best for all! I have been a bad daughter and a <hi rend="italic"> bad wife!</hi> I married an Italian singing-master calling himself Marco Ferrari—I thought I loved him—but I didn't know what love <hi rend="italic">was</hi>—till I met <hi rend="italic">Alan!</hi> I am such a pitiful wretch I dare hardly write his name.</p>
               <p xml:id="af3may_130953">"My husband came to-day to claim me, and I knew that before another hour had <pb xml:id="af3may_130952" n="215 NEMISIS."/>passed all my falsehood and sin and treachery would be known to the man I was going to marry to-morrow—the man whose love and good opinion are dearer to me than life—oh, the horror of it!</p>
@@ -1139,7 +1139,7 @@ once more before we are—<hi rend="italic">married!</hi>"
                 <signed>&gt;"CLAIRE."</signed>
               </closer>
             </body>
-          </text>
+          </floatingText>
         </q>
       </div>
       <pb xml:id="af3may_130957" n="216"/>

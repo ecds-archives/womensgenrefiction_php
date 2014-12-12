@@ -1,4 +1,4 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lmworld_1201">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0" xml:id="lmworld_1201">
   <teiHeader xml:id="lmworld1202"><fileDesc>
       <titleStmt>
         <title>A Woman Against The World, an electronic edition</title>
@@ -8,7 +8,7 @@
       <publicationStmt><publisher>Emory University, Lewis H. Beck Center</publisher><pubPlace>Atlanta, Georgia</pubPlace><date>2007</date><availability>
           <p xml:id="lmworld_1301">© 2007, Lewis H. Beck Center, Emory University. Emory University makes a claim of copyright only to original contributions made by the Women's Genre Fiction Project participants. Emory University makes no claim of copyright to the original text. Permission is granted to download, transmit, or otherwise reproduce, distribute, or display the contributions to this work claimed by Emory University for non-profit educational purposes, provided that this header is included in its entirety. For further inquiries about this text's availability, please contact: <address><addrLine>Lewis H. Beck Center</addrLine><addrLine>Emory University</addrLine><addrLine>Robert W. Woodruff Library</addrLine><addrLine>Atlanta, GA 30322-0053</addrLine><addrLine>United States of America</addrLine><addrLine>Email: beckctr@emory.edu</addrLine></address></p>
         </availability><idno type="ark">http://pid.emory.edu/ark:/25593/173nf</idno></publicationStmt>
-      <seriesStmt><title>Women's Genre Fiction, 1860-1920</title> <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name><resp>Principal Investigators</resp><name/></respStmt></seriesStmt>
+      <seriesStmt><title>Women's Genre Fiction, 1860-1920</title> <respStmt><name>Sheila T. Cavanagh</name><name>Charles D. Spornick</name><resp>Principal Investigators</resp></respStmt></seriesStmt>
       <sourceDesc>
         <bibl><author><name><choice><sic/><reg/></choice></name></author>. <title>A Woman Against
 the World</title>. <pubPlace>London, Melbourne and Toronto</pubPlace>:
@@ -64,7 +64,7 @@ the World</title>. <pubPlace>London, Melbourne and Toronto</pubPlace>:
       <pb xml:id="lmworld_1308"/>
       <pb xml:id="lmworld_1309" n="[6]"/>
       <div xml:id="lmworld_fm1" type="frontispiece">
-        <figure><graphic url="ENTITY_lmworldfront" rend="inline"/>
+        <figure><graphic url="lmworldfront.jpg" rend="inline"/>
           <p xml:id="lmworld_13010">MARGARET MERRIVALE.</p>
           <p xml:id="lmworld_13011"><hi rend="italic">A Woman Against The World</hi>.]</p>
           <figDesc>Frontispiece of Moberly's "A Woman Against the World"</figDesc>
@@ -85,12 +85,12 @@ the World</title>. <pubPlace>London, Melbourne and Toronto</pubPlace>:
         <p xml:id="lmworld_13016">TO DR. E. KINGSCOTE.<lb/> A VERY SMALL "THANK-YOU" FOR<lb/> A VERY GREAT BENEFIT.</p>
       </div>
       <pb xml:id="lmworld_13017" n="[9]"/>
-      <div xml:id="lmworld_200" type="Table of Contents">
-        <figure><graphic url="ENTITY_lmworldtc12" rend="inline"/>
+      <div xml:id="lmworld_200" type="table_of_contents">
+        <figure><graphic url="lmworldtc12.jpg" rend="inline"/>
           <figDesc>Table of contents included in front of Moberly's "A Woman Against the World"</figDesc>
         </figure>
         <pb xml:id="lmworld_13018" n="[10]"/>
-        <figure><graphic url="ENTITY_lmworldtc22" rend="inline"/>
+        <figure><graphic url="lmworldtc22.jpg" rend="inline"/>
           <figDesc>Table of contents included in front of Moberly's "A Woman Against the World"</figDesc>
         </figure>
       </div>
@@ -326,10 +326,10 @@ she broke off and looked round helplessly.</p>
         <p xml:id="lmworld_130263">"We want their money." The phrase echoed in his sister's brain, whilst her pen moved quickly <pb xml:id="lmworld_130262" n="53"/>over the writing paper, and her thoughts reviewed the events that had led up to her present pose as the wealthy sister of a wealthy brother, occupying a luxurious suite in one of the best hotels in London. When, a month ago, the tide of their fortune had ebbed very low, her brilliant inspiration had suggested advertising for a young girl, to be chaperoned and taken abroad, and the wealthy Australian, Mr. Cartwright, had come, as she piously felt, as an answer to her fervent prayer. Life in town in a magnificently-appointed hotel, was infinitely preferable to scraping along an existence in third-rate boarding-houses on the Continent, and in English provincial towns, and vistas of future delight opened before Nora's eyes; as she remembered the simple Australian's eagerly expressed wish, that no expense should be spared in giving his daughter every enjoyment and experience.</p>
         <p xml:id="lmworld_130264">"We want their money—certainly we want their money," Nora murmured as she wrote:</p>
         <q>
-          <text xml:id="lmworld_130268">
+          <q><floatingText xml:id="lmworld_130268">
             <body xml:id="lmworld_130267">
               <div xml:id="lmworld_053" type="letter">
-                <dateline>"BEACONSFIELD HOTEL, S.W.,"<lb/><date when="XXXX-03-24"><hi rend="italic">March 24th.</hi></date></dateline>
+                <dateline>"BEACONSFIELD HOTEL, S.W.,"<lb/><date when="--03-24"><hi rend="italic">March 24th.</hi></date></dateline>
                 <opener>
                   <salute>"DEAR MR. DACRE,</salute>
                 </opener>
@@ -341,7 +341,7 @@ of your doings in the country. Darestown is a part of the country I do not know 
                 </closer>
               </div>
             </body>
-          </text>
+          </floatingText></q>
         </q>
         <p xml:id="lmworld_130269">"There!" she exclaimed, folding the letter. "Mr. Tom Dacre's letter is sufficiently <hi rend="italic">empressé</hi> to justify my writing—and—though he is more of a man of the world than poor dear Mr. Cartwright—he—is—wonderfully simple."</p>
         <p xml:id="lmworld_130270">Whilst she addressed her letter to T. Dacre, Esq., c/o Sir Brian Dunbar, Verrymore Court, Darestown, a little sigh broke from her lips, a curiously softened look crept into her rather hard, dark eyes.</p>
@@ -1663,9 +1663,9 @@ I thought it was merely the fear of a patient for the doctor who was controlling
         <head>CHAPTER XXVII<lb/>"THIS IS MY LITTLE JULIET'S MOTHER."</head>
         <p xml:id="lmworld_1301640">"PERHAPS you can throw light on this letter, Brian, it is incomprehensible to me." Lady Dunbar, glancing up at her son from her seat by the writing table, handed him a letter, shrugging her shoulders, with an air of <sic>skaking</sic> off all responsibility for the letter and its contents. "Why should Miss Stanburn write to <hi rend="italic">me</hi>—a mere acquaintance, about some girl she seems to have lost?"</p>
         <p xml:id="lmworld_1301641">Brian read the letter through, his brows drawing together as he did so.</p>
-        <q> <text xml:id="lmworld_1301645"> <body xml:id="lmworld_1301644"><div xml:id="lmworld_lmowrld286" type="letter"><opener><salute>"DEAR LADY DUNBAR,</salute></opener><p xml:id="lmworld_1301643">"I must apologise for troubling you, but you were so kind when I met you in the summer, that I venture to ask for your help. My brother and I are in great distress, owing to the shameful way in which we have been treated by the girl of whom I told you—Juliet Cartwright. She was put into our charge by her father, and in a fit of temper a few weeks ago, she ran away, leaving us no address, and giving both my brother and me endless worry and anxiety. Her father has just returned <pb xml:id="lmworld_1301642" n="287"/>from America, and instead of sympathising with our troubles, he blames us severely for his daughter's escapade. He appears to have had a vague letter from her, saying she is with a Mrs. Roberts, but giving no address. Mrs. Roberts is, as far as I can gather, the same person who was in your service, and I write now, on Mr. Cartwright's behalf, as well as my own, to ask whether you have any idea where Mrs. Roberts is living? As you are well
+        <q> <q><floatingText xml:id="lmworld_1301645"> <body xml:id="lmworld_1301644"><div xml:id="lmworld_lmowrld286" type="letter"><opener><salute>"DEAR LADY DUNBAR,</salute></opener><p xml:id="lmworld_1301643">"I must apologise for troubling you, but you were so kind when I met you in the summer, that I venture to ask for your help. My brother and I are in great distress, owing to the shameful way in which we have been treated by the girl of whom I told you—Juliet Cartwright. She was put into our charge by her father, and in a fit of temper a few weeks ago, she ran away, leaving us no address, and giving both my brother and me endless worry and anxiety. Her father has just returned <pb xml:id="lmworld_1301642" n="287"/>from America, and instead of sympathising with our troubles, he blames us severely for his daughter's escapade. He appears to have had a vague letter from her, saying she is with a Mrs. Roberts, but giving no address. Mrs. Roberts is, as far as I can gather, the same person who was in your service, and I write now, on Mr. Cartwright's behalf, as well as my own, to ask whether you have any idea where Mrs. Roberts is living? As you are well
 
-aware, she is a notorious woman, living under a false name, quite unfit to have the care of a young girl.</p><closer> <signed>"Yours truly,</signed><name>NORA STANBURN</name>."</closer></div></body></text></q>
+aware, she is a notorious woman, living under a false name, quite unfit to have the care of a young girl.</p><closer> <signed>"Yours truly,</signed><name>NORA STANBURN</name>."</closer></div></body></floatingText></q></q>
         <p xml:id="lmworld_1301646">"The gratuitous insult to Mrs. Roberts was surely quite unnecessary," Brian said sternly, as ho refolded the letter and gave it back to his mother, "and—I don't know why you should be surprised that Miss Stanburn has written to you. You made great friends with her, when she was staying with the Hicksons in the summer."</p>
         <p xml:id="lmworld_1301647">"I thought her a pleasant woman of the world, my dear Brian. It is not my habit to make <hi rend="italic">great</hi> friends with anybody. And Miss Stanburn must be well aware that Mrs. Roberts—like this girl of hers—ran away. Disappearing seems to have become epidemic," she added, with a sneer.</p>
         <p xml:id="lmworld_1301648">"Perhaps we had better not refer to the subject of Mrs. Roberts leaving us," Brian answered, with a severity that even his mother dreaded, "you will remember that you, to all intents and purposes, drove her away, and—remember too, that I shall never be content until I have found her."</p>
